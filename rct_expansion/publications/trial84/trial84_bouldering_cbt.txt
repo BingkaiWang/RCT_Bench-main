@@ -1,0 +1,1277 @@
+British Journal of Clinical Psychology (2022), 61, 465–493
+© 2021 The Authors. British Journal of Clinical Psychology
+published by John Wiley & Sons Ltd on behalf of British Psychological Society
+www.wileyonlinelibrary.com
+Bouldering psychotherapy is not inferior to
+cognitive behavioural therapy in the group
+treatment of depression: A randomized controlled
+trial
+Katharina Luttenberger1, Nina Karg-Hefner1, Matthias Berking 2,
+Leona Kind1, Maren Weiss 3, Johannes Kornhuber4 and
+Lisa Dorscht*1
+1Center for Health Services Research in Medicine, Department of Psychiatry and
+Psychotherapy, University Hospital Erlangen, Friedrich-Alexander University
+Erlangen-N€urnberg (FAU), Germany
+2Department of Clinical Psychology and Psychotherapy, Friedrich-Alexander
+University Erlangen-N€urnberg (FAU), Germany
+3Department of Psychological Diagnostics, Methodology and Legal Psychology,
+Friedrich-Alexander University Erlangen-N€urnberg (FAU), Germany
+4Department of Psychiatry and Psychotherapy, University Hospital Erlangen,
+Friedrich-Alexander University Erlangen-N€urnberg (FAU), Germany
+Objectives. Bouldering has shown promising results in the treatment of various health
+problems. In previous research, bouldering psychotherapy (BPT) was shown to be
+superior to a waitlist control group and to physical exercise with regard to reducing
+symptoms of depression. The primary aim of this study was to compare group BPT with
+group cognitive behavioural psychotherapy (CBT) to test the hypothesis that BPT would
+be equally as effective as CBT.
+Design. We conducted a randomized, controlled, assessor-blinded non-inferiority trial
+in which 156 outpatients meeting the criteria of a depressive episode according to the
+Diagnostic and Statistical Manual of Mental Disorders (DSM-IV) were randomly assigned
+to one of the two intervention groups (CBT: N = 77, BPT: N = 79).
+Methods. Intervention groups were manualized and treated for 10 weeks with a
+maximum of 11 participants and two therapists. The primary outcome was depressive
+symptom severity assessed with the Montgomery –/C23Asberg Depression Rating Scale
+(MADRS) and the Patient Health questionnaire (PHQ-9) at the beginning and end of the
+treatment phase as well as one year after the end of treatment.
+Result. In both groups, depressive symptoms improved signiﬁcantly by an average of one
+severity level, moving from moderate to mild depressive symptoms after therapy
+(MADRS difference scores: BPT /C08.06, 95% CI [ /C010.85, /C05.27], p < .001; CBT /C05.99,
+95% CI [ /C08.55, /C03.44], p < .001). The non-inferiority of BPT in comparison with CBT
+was established on the basis of the lower bound of the 95% conﬁdence interval falling
+above all of the predeﬁned margins. BPT was found to be effective in both the short
+(d = 0.89) and long term ( d = 1.15).
+DOI:10.1111/bjc.12347
+465
+
+Conclusion. Group BPT was found to be equally as effective as group CBT. Positive
+effects were maintained until at least 12 months after the end of therapy. Thus, BPT is a
+promising approach for broadening the therapeutic ﬁeld of therapies for depression.
+Practitioner points
+/C15Physical activity is effective in the treatment of depression and current guidelines explicitly recommend
+it as a complementary method for the treatment of depression. Nevertheless, body-related
+interventions are still underrepresented in current treatments for depression.
+/C15Bouldering psychotherapy (BPT) combines physical activity with psychotherapeutic content. Its
+concept relies on proven effective factors from CBT such as exposure training, problem solving and
+practicing new functional behaviours and is thus an enrichment and implementation of CBT methods
+on the bouldering wall.
+/C15The positive effect of group bouldering psychotherapy (BPT) in reducing depressive symptoms in
+outpatients with depression is not inferior to the effect of group cognitive behavioural therapy (CBT).
+/C15Additionally the 10-weeks BPT-programme signiﬁcantly improved symptoms of anxiety and
+interpersonal sensitivity as well as health-related quality of life, coping, body image, self-efﬁcacy, and
+global self-esteem.
+It has been known for a long time that body-related interventions can have strong effects
+on mental states (Barnard & Teasdale, 1991). In recent studies, physical activity has been
+shown to be effective in the treatment of depression in general (Gordon et al., 2018;
+Schuch et al., 2016) and particularly when it is used to augment the effects of
+psychotherapy (Bourbeau, Moriarty, Ayanniyi, & Zuhl, 2020; NICE, 2009). Physical
+activity is even explicitly recommended in the current guidelines as a method that can
+complement the treatment of depression (DGPPN, 2015; NICE, 2009). Such a combina-
+tion might be especially effective because it encompasses both psychological effects (i.e.,
+cognitive effects, improved self-efﬁcacy, improved mood states) and physiological effects
+(neurophysiological effects, i.e., structural changes and increases in the sizes of certain
+brain regions and hormonal effects, i.e., changes in stress hormones; Bourbeau et al.,
+2020; Cooney et al., 2013). Nevertheless, body-related interventions are still underrep-
+resented in current treatments for depression (e.g., CBT).
+One special form of physical activity that has become increasingly popular in recent
+years is bouldering (Lutter, El-Sheikh, Schofﬂ, & Schofﬂ, 2017). Bouldering is deﬁned as
+climbing to moderate heights without the use of ropes or harnesses. Recent studies have
+indicated that climbing and bouldering have speciﬁc positive effects on psychological
+factors, such as cognitive abilities (Schnitzler, 2009; Wallner, 2010), self-conﬁdence, self-
+esteem, self-efﬁcacy (Mazzoni, Purves, Southward, Rhodes, & Temple, 2009; Wallner,
+2010), social skills (Schnitzler, 2009; Wallner, 2010), quality of life (Kim & Seo, 2015),
+anxiety (Wallner, 2010), and mood (Lukowski, 2017; Luttenberger et al., 2015).
+Systematic reviews have conﬁrmed that therapeutic climbing may have positive effects
+on health problems (Buechter & Fechtelpeter, 2011; Fruhauf, Sevecke, & Kopp, 2019) but
+have also highlighted the need for future high-quality studies, as many of the existing
+studies have suffered from methodological problems.
+This is an open access article under the terms of the Creative Commons Attribution-NonCommercial-NoDerivs License, which
+permits use and distribution in any medium, provided the original work is properly cited, the use is non-commercial and no
+modiﬁcations or adaptations are made.
+*Correspondence should be addressed to Lisa Dorscht, Center for Health Services Research in Medicine, Schwabachanlage 6,
+91054 Erlangen, Germany (email: lisa.dorscht@uk-erlangen.de).
+466 Katharina Luttenberger et al.
+ 20448260, 2022, 2, Downloaded from https://bpspsychub.onlinelibrary.wiley.com/doi/10.1111/bjc.12347 by Universitätsbibliothek Basel, Wiley Online Library on [03/04/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+Thus, we developed a new form of group therapy for the treatment of depression called
+bouldering psychotherapy (BPT) because it combines the physical activity of bouldering
+with psychotherapeutic content that is targeted towards the treatment of depression. The
+psychotherapeutic techniques of BPT emerged from CBT, whereby BPT is targeted towards
+implementing effective learning and action factors (Lambert & Ogles, 2004; e.g., enhancing
+self-efﬁcacy, problem solving, exposure training), and participants are encouraged to
+practice as much as possible in the session itself. Speciﬁc bouldering exercises are designed
+to trigger the patients’ dysfunctional problem-solving patterns, and with that, their
+symptoms. This is possible because the atmosphere of bouldering is highly emotionally
+activating in and of itself, and interactions with other group members during partner or
+group exercises make interpersonal problems immediately visible. A patient’s dysfunctional
+behaviour or thinking can be analysed with the help of the therapist and the group, which
+supports the patient and acts as a model for corrective experiences. Then alternatives can be
+re-practiced in the same bouldering exercise, and the new experience can be transferred to
+everyday problems. Beginners in particular make athletic progress very quickly by learning
+bouldering techniques so that self-efﬁcacy can easily be promoted. Furthermore, building
+positive activities is an essential part of psychotherapy for depressive disorders, and
+bouldering itself can be such a positive activity for patients because of its highly motivating
+atmosphere, thus counteracting any loss of interest (Hautzinger, 2011).
+Compared with other pure psychotherapeutic methods that are effective for treating
+depression, BPT may have several other advantages. In addition to the positive effects of
+physical activity on the psychological factors listed above, these advantages also include
+physical side effects of sports interventions, such as reducing the risk of cardiovascular
+diseases (Mermier, Robergs, McMinn, & Heyward, 1997; Rodio, Fattorini, Rosponi,
+Quattrini, & Marchetti, 2008). Another signiﬁcant advantage of BPT is the low stigma of
+bouldering. Patients are likely to be less reluctant to participate in a (psychotherapeutic)
+sports group than in classical group (or individual) psychotherapy (Mojtabai et al., 2011).
+Additionally, in its role as a positive activity, bouldering can be continued after the end of
+the treatment, and patients can have the opportunity to tie their new bouldering
+experiences in with their experiences from therapy.
+In our pilot study, we found that BPT was effective in reducing depressive symptoms
+compared with a waitlist control group, even when physical activity was controlled for
+(Luttenberger et al., 2015; Stelzer et al., 2018). Long-term outcomes 10 months after the
+end of treatment were also promising (Schwarz et al., 2019). The aim of this study was to
+investigate the effect of our BPT group intervention by using a randomized controlled
+design and comparing BPT with established group treatment options (see Dorscht et al.,
+2019). In this paper, we compared BPT with CBT as the current non-pharmacological gold
+standard in the treatment of depression. We included secondary outcomes that were
+based on either the literature (i.e., self-efﬁcacy, self-esteem, social skills, anxiety, quality of
+life) or on theory (i.e., body image, coping abilities). We hypothesized that the positive
+effects found in group BPT in reducing depressive symptoms in outpatients with
+depression would not be inferior to the effects found in group CBT.
+Methods
+Study design
+We conducted a randomized, controlled, assessor-blinded, non-inferiority trial (NI) with
+three groups – a BPT group, a CBT group, and an active control group (home-based
+Bouldering psychotherapy for treating depression 467
+ 20448260, 2022, 2, Downloaded from https://bpspsychub.onlinelibrary.wiley.com/doi/10.1111/bjc.12347 by Universitätsbibliothek Basel, Wiley Online Library on [03/04/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+exercise programme, EP) – in three study centres throughout Germany. The study was
+conducted in consecutive waves in each study region, with all of the three treatments
+taking place in each wave and during the same time period in each study centre. We had
+two main hypotheses with different methodologies: a superiority hypothesis comparing
+BPT with the EP as well as a NI hypothesis comparing BPT with CBT. The complete trial is
+described in detail in the study protocol (Dorscht et al., 2019). A comparison of the BPT
+group with the EP group was previously conducted in a study that demonstrated the
+superiority of BPT (Karg, Dorscht, Kornhuber, & Luttenberger, 2020). In this paper, we
+focussed on the hypothesis that BPT is not inferior to CBT. Therefore, only the BPT and
+CBT treatments are presented. All study procedures were approved by the Ethics
+Committee of the Friedrich-Alexander University Erlangen-N€urnberg (FAU). Consent was
+obtained in written form.
+Study registration
+The study was registered (partly retrospectively) on 26 July 2017 with the trial
+identiﬁcation number ISRCTN12457760. The recruitment period ran from March 2017 to
+March 2018. Patient enrolment overlapped brieﬂy with the registration process for
+organizational reasons. We conﬁrm that the study was conducted as described in the study
+registration. Related clinical trials have been registered (ISRCTN17623318; Luttenberger
+et al., 2015). Future clinical trials will be registered prospectively.
+Participants
+Recruitment
+Participants were recruited through press releases in local newspapers and radio
+announcements as well as by distributing informational material (e.g., ﬂyers, posters,
+brochures) in the three study locations at psychiatric hospitals, locally based psychother-
+apists’ or psychiatrists’ ofﬁces, primary care physicians’ ofﬁces, pharmacies, and other
+psychological services (e.g., support groups). Additionally, we set up a homepage (www.
+studieKuS.de) and a Facebook account. People who were interested in the study were
+invited to group-based information events in which we introduced potential participants
+to the study’s aims, procedures, and conditions for participation.
+Inclusion and exclusion criteria
+Inclusion criteria were a PHQ-9 score of at least 8 (Gr €afe, Zipfel, Herzog, & L €owe, 2004),
+written informed consent to participate in the study, and the ability to reach the therapy
+locations. Exclusion criteria were age younger than 18 years, a Body Mass Index (BMI)
+under 17.5 or over 40, concurrent participation in another psychotherapeutic group
+therapy, initiated psychiatric medication in the last eight weeks, initiated individual
+psychotherapy in the last eight weeks, intended inpatient stay during the intervention
+period, physical contraindication for bouldering, psychosis within the last ﬁve years, a
+manic episode within the last ﬁve years, substance addiction with substance abuse within
+the last year, a diagnosis of borderline personality disorder with self-harming behaviour
+during the last year, and acute suicidality. Before recruitment began, minor modiﬁcations
+were made to the inclusion criteria compared with the study protocol: The upper limit of
+BMI was increased from 35 to 40, and the cut-off for the PHQ was reduced to 8, thus
+468 Katharina Luttenberger et al.
+ 20448260, 2022, 2, Downloaded from https://bpspsychub.onlinelibrary.wiley.com/doi/10.1111/bjc.12347 by Universitätsbibliothek Basel, Wiley Online Library on [03/04/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+ensuring a high level of sensitivity to all depressive disorders (Gr €afe et al., 2004; see also
+ISRCTN12457760). The inclusion and exclusion criteria were assessed via self-report in
+the ﬁrst step and veriﬁed via personal interviews by members of the study’s headquarters
+if there were any uncertainties (i.e., regarding the fulﬁlment of the diagnostic criteria,
+regarding relevant psychiatric diagnoses, or when patients indicated a potential risk of
+suicidality).
+Data collection
+Data were collected via computer-assisted telephone interviews before the intervention
+began (pre-test), at the end of the 10-week intervention period (post-test), and 12 months
+(follow-up) after the intervention was completed. The interviewers were psychology
+students trained at the study’s headquarters and constantly supervised by two
+psychotherapists at the headquarters. To determine consistency among raters, 10 (4%)
+of the pre-test and 11 (5%) of the post-test interviews that were based on the structured
+interview guide for the Montgomery- /C23Asberg Depression Rating Scale (SIGMA; opera-
+tionalization of the primary outcome MADRS) were conducted under the supervision of a
+second person who also rated the interviewees’ answers on the SIGMA. An inter-rater
+reliability analysis using intraclass correlations (ICCs) was also performed across all
+groups afterwards.
+Interventions
+Each of the two therapy group treatments lasted 10 weeks with weekly meetings of
+120 min. Groups consisted of a maximum of 11 participants. BPT and CBT took place in
+either a bouldering gym (BPT) or a room in the hospital used for group therapy (CBT) in
+the late afternoon. We had teams of two therapists for each intervention in each study
+region who were thoroughly trained for a whole day to implement BPT or CBT in
+accordance with the respective manuals by two members of the study’s headquarters. All
+in all, we had nine climbing therapists for the BPT groups (between the ages of 26 and 38;
+8 were women) and eight therapists for the CBT groups (between the ages of 26 and 44; 5
+were women). All but one (a bouldering therapist) were either licensed psychotherapists
+for CBT (4 in the CBT group and 3 in the BPT group) or in the process of completing the
+advanced stages of their psychotherapeutic training hours (4 in the CBT group and 5 in the
+BPT group). The one exception had an MSc in Health Science including sports
+psychology. The climbing therapists were experienced in bouldering and rock climbing
+and were thoroughly trained in bouldering techniques, safety rules, and didactic elements
+by a professional bouldering instructor before they administered the therapy. For BPT and
+CBT, we developed detailed manuals that include a ﬁxed schedule for each of the 10
+sessions. Every session focussed on a speciﬁc psychological topic that we considered to be
+relevant in the development and maintenance of depression and followed a ﬁxed
+sequence that included an introduction phase, an action phase, and a closure phase.
+For BPT, the sessions began with a mindfulness exercise, followed by the presentation
+of and a brief exchange about the topic of the session (introduction phase). Afterwards,
+one to two subject-related bouldering exercises were conducted (action phase). These
+were supposed to evoke underlying emotions (e.g., anxiety), unveil patients’ character-
+istic patterns (e.g., avoidance), and – with the therapists’ support – enable patients to
+engage in new experiences (e.g., exposition: bouldering blindfolded). If any time was left,
+Bouldering psychotherapy for treating depression 469
+ 20448260, 2022, 2, Downloaded from https://bpspsychub.onlinelibrary.wiley.com/doi/10.1111/bjc.12347 by Universitätsbibliothek Basel, Wiley Online Library on [03/04/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+free bouldering was enabled. The sessions ended with a discussion of experiences during
+the bouldering exercises and a body-related relaxation exercise (closure phase).
+The CBT treatment was based on manuals on CBT for treating depression and
+combined the psychoeducational parts of Schaub, Roth, and Goldmann (2013) with
+speciﬁc exercises as well as elements of strategic behavioural therapy (SBT) by Sulz (2011)
+and elements of the short-term concept by Hautzinger and Kischkel (1999). Each session
+began with a mindfulness exercise, followed by a brief interactive repetition of the last
+session, and a review of the home-based exercises (introduction phase). Afterwards, the
+speciﬁc topic was developed interactively using ﬂipcharts, exercise sheets, and
+experiential exercises such as role-plays and small-group work (action phase) as
+described in the respective manual. At the end, worksheets were handed out, home-
+based exercises were discussed, and a relaxation exercise (progressive muscle relaxation
+according to Jacobsen; Bernstein & Borkovec, 2007) was carried out (closure phase).
+Table 1 presents an overview of the therapy sessions for BPT and CBT. For a more
+detailed description, see our study protocol (Dorscht et al., 2019).
+We developed standardized adherence rating scales for the therapists to complete
+after each session (e.g., to report deviations from the manual, adverse events, and other
+extraordinary events). Supervision was offered via telephone by a CBT therapist and the
+BPT therapist who developed the manual. As such, the therapists in each group were
+contacted at least twice per round (immediately after the ﬁrst or second session and at the
+end of each round). The staff at the study’s headquarters could be contacted anytime
+during the entire study period for questions or to eliminate uncertainties.
+Outcomes
+Primary outcome
+The primary outcome was depressive symptom severity. It was assessed with a semi-
+structured clinician-rated interview, which was based on the Montgomery- /C23Asberg
+Depression Rating Scale (MADRS; Montgomery & Asberg, 1979), the structured interview
+guide for the Montgomery- /C23Asberg Depression Rating Scale (SIGMA; Williams & Kobak,
+2008). The MADRS consists of 10 items that are rated on a 7-point scale ranging from zero
+to six with higher scores indicating greater severity of symptoms. A score greater than 31
+on the MADRS indicates severe depression, whereas a score of 10 or below indicates
+remission (Hawley, Gale, Sivakumaran, & group, 2002; M €uller, Himmerich, Kienzle, &
+Szegedi, 2003).
+Additionally, we used a self-assessment tool, the 9-item Patient Health Questionnaire
+(PHQ-9; Kroenke, Spitzer, & Williams, 2001; L €owe, Spitzer, Zipfel, & Herzog, 2002). The
+nine items are rated on a 4-point scale ranging from zero to three. Scores ranging from 0 to
+4 indicate minimal depression, 5 to 9 mild depression, 10 to 14 moderate depression, 15 to
+19 moderately severe depression, and 20 to 27 severe depression (Gr €afe et al., 2004;
+Kroenke et al., 2001). In our study, a cut-off of at least 8 points was used to operationalize
+the presence of depression, thus ensuring a high level of sensitivity to all depressive
+disorders (Gr€afe et al., 2004).
+Secondary outcome
+Secondary outcome measures include health-related quality of life as assessed with a visual
+analogue scale from the EuroQol Five Dimension Questionnaire (EQ-5D; Group, 1990),
+470 Katharina Luttenberger et al.
+ 20448260, 2022, 2, Downloaded from https://bpspsychub.onlinelibrary.wiley.com/doi/10.1111/bjc.12347 by Universitätsbibliothek Basel, Wiley Online Library on [03/04/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+Table 1. Overview of the therapy sessions (BPT and CBT)
+Session BPT CBT
+1 Introduction to bouldering and mindfulness Introduction to CBT and mindfulness
+2 Physical feeling and the body’s centre of gravity Psychoeducation on depression and dysfunctional beliefs
+3 Healthy handling of limitations Identifying and working on individual dysfunctional beliefs
+4 Expectations and standards Behavioural activation/activity scheduling
+5 Self-efﬁcacy, achievements, and pride Social relationships I: self-conﬁdence, role plays
+6 Self-esteem Social relationships II: healthy handling of limitations and duties, role plays
+7 Fear and trust I Cognitive techniques I: dysfunctional beliefs regarding achievements and pride
+8 Fear and trust II Cognitive techniques II: ABC scheme
+9 Social relationships Lessons learned: Transforming dysfunctional beliefs
+10 Problem solving, reﬂecting on lessons learned and
+on transferring them to daily life
+Reﬂecting on lessons learned and on transferring them to daily life
+Note. BPT = bouldering psychotherapy; CBT = cognitive behavioural therapy.
+Bouldering psychotherapy for treating depression 471
+ 20448260, 2022, 2, Downloaded from https://bpspsychub.onlinelibrary.wiley.com/doi/10.1111/bjc.12347 by Universitätsbibliothek Basel, Wiley Online Library on [03/04/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+health-related resources and manageability as assessed with the Questionnaire on
+Resources and Self-Management Skills (FERUS; Jack, 2007), body image disturbances and
+subjective aspects of body experiences as assessed with the Body Image Questionnaire
+(FKB-20; Clement & Lowe, 1996), anxiety as assessed with the Generalized Anxiety
+Disorder 7 (GAD-7; L €owe et al., 2002; Spitzer, Kroenke, Williams, & Lowe, 2006), self-
+efﬁcacy as assessed with the General Self-Efﬁcacy Scale (GSE; Romppel et al., 2013), self-
+esteem as assessed with the Rosenberg Self-Esteem Scale (R-SES; Collani & Herzberg,
+2003), and interpersonal sensitivity as assessed with the subscale from the Symptom
+Checklist-90 (SCL-90; Franke, 2002). Attitude towards group allocation (EP, CBT, BPT)
+was recorded in the screening questionnaire for a sub-sample using a 5-point scale ranging
+from very unpleasant to very pleasant. Adverse events (AEs), such as strains, ligament
+ruptures, or fractures, as well as severe adverse events (SAEs), such as suicidal attempts or
+actual suicides, were documented by the therapists who handled each group during the
+intervention period. Interim analyses of (S)AEs were performed on a regular basis so that
+the BPT treatment could be terminated if signiﬁcantly more AEs or SAEs occurred in the
+BPT group than in the CBT group. All measures are described in detail in our study
+protocol (Dorscht et al., 2019).
+Randomization and masking
+All individuals meeting the inclusion criteria in one study region and one wave were
+randomized into one of the three groups (BPT, CBT, EP). Randomization was performed
+externally by the Institute of Medical Informatics, Biometry, and Epidemiology (IMBE) of
+the Friedrich-Alexander University Erlangen-Nuremberg, with whom we shared only the
+screening date, participant code, sex, and severity of depression (categorized via PHQ-9
+scores from screening: 8 –14 mild to moderate, 15 –19 moderately severe, 20 –27 severe).
+Random allocation to the three groups (BPT, CBT, EP) was stratiﬁed by study centre and
+was performed blockwise by study wave, using a minimization algorithm to dynamically
+balance groups with respect to sex and severity of disease. After randomization,
+participants were informed about their allocation and provided with all necessary
+information about group participation. Interviewers who assessed the outcomes of the
+study were blind to participants’ allocations. Prior to each interview, all participants were
+reminded of the conﬁdential nature of their allocation and asked not to tell the interviewer
+which treatment they had received. After the interview at the end of the intervention
+period, former CBT and EP participants who wished to take part in a BPT group were
+allowed to do so. We offered this option to the participants with the hope of keeping the
+dropout rate in the follow-up interviews as low as possible.
+Statistical analysis
+Deﬁnition of the equivalence margin
+In NI trials, changes in the dependent variable during treatment with the new intervention
+(BPT) are considered non-inferior to changes in the dependent variable during treatment
+with an established intervention (CBT) if the conﬁdence interval (CI) for changes in the
+dependent variable from the new intervention does not exceed the lower bound of the
+equivalence margin. The so-called equivalence margin has to be prospectively deﬁned
+(Hahn, 2012) and should reﬂect the ‘smallest evidence of inferiority, that if true, would
+mean the new treatment is unacceptable’ (Macaya, Ryan, Salinas, & Pocock, 2017, p. 895).
+472 Katharina Luttenberger et al.
+ 20448260, 2022, 2, Downloaded from https://bpspsychub.onlinelibrary.wiley.com/doi/10.1111/bjc.12347 by Universitätsbibliothek Basel, Wiley Online Library on [03/04/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+Besides specifying the equivalence margin on the basis of clinical signiﬁcance, which is
+recommended by the European Medicines Agency (Committee for Medicinal Products for
+Human Use, 2005), two approaches have been suggested: The margin could be the whole
+or part of the established treatment effect versus a placebo effect from historical trials, or it
+could be deﬁned by the treatment effect of the established treatment from this study
+versus the study’s own placebo/control group (which would be the treatment effect of
+CBT vs. EP in our study). In its guidelines on ‘The choice of the non-inferiority margin’
+(Committee for Medicinal Products for Human Use, 2005), the Committee for Medicinal
+Products for Human Use (CHMP) recommends that the choice of margin be based
+primarily on aspects of clinical relevance.
+As stated in our study protocol (Dorscht et al., 2019), we deﬁned the different margins
+in both ways. As a margin deﬁned by clinical relevance, we used the difference between
+the CBT group and the active control group as an equivalence margin. We predeﬁned a
+border of clinical relevance that the margin established by the direct comparison between
+CBT and the active control group should not exceed, which was ﬁve points (half a severity
+grade; Dorscht et al., 2019). The resulting equivalence margin was 3.0 MADRS points (see
+Results). This margin was used at post-test and follow-up. Additional literature-based
+margins were the following: For the PHQ-9, we used a predeﬁned margin of 1.9 points,
+which is well-established in the literature (Richards et al., 2016). For the MADRS, we
+predeﬁned two margins (Cohen’s d values of 0.2 and 0.34) on the basis of effect sizes that
+were found in previous research in which CBT was compared with a placebo (Feng et al.,
+2012; Okumura & Ichikura, 2014). These literature-based margins were established for
+data collected directly after the end of therapy and were therefore used only for the
+comparison at post-test.
+Sample size estimation
+We estimated the sample size using the well-established margin of 1.9 PHQ points with a
+standard deviation ( SD) of 3.8, an alpha of .05, and a power of 90%. The power analysis
+indicated that 69 patients were needed in each group (CBT and BPT).
+The sample size for the intention to treat (ITT) analyses was large enough to perform
+the NI analyses with the abovementioned conditions. For the per protocol (PP) analyses,
+we missed the targeted number of patients by 5 (BPT) and 4 (CBT) people. The main
+reason was recruiting difﬁculties in the very rural area of one of the study locations. This
+problem occurred primarily at the beginning of the study before we had access to the local
+disseminators. The ﬁnal n of 129 instead of 138 provided a power of 89% (PHQ-9) and 84%
+(MADRS; calculated with powerandsamplesize.com), levels that are commonly consid-
+ered sufﬁcient (Cohen, 1988; Rohrig, du Prel, Wachtlin, Kwiecien, & Blettner, 2010).
+Data analysis
+A missing data analysis was carried out, and missing values were imputed using the
+Expectation Maximum (EM) algorithm with the variables that explained the largest
+proportions of variance in the missing variable (Ali & Siddiqui, 2000). Data were imputed
+for 16 patients (10.3% of the ITT sample for BPT and CBT) who were not available for the
+assessment at post-test and for 33 patients (21.2% of the ITT sample for BPT and CBT) at
+follow-up. The data analyses were computed with the ‘IBM SPSS Statistics 24’ software.
+For the main outcome, we report descriptive values before (pre-test) and after
+treatment (post-test) as well as 12 months after the end of treatment (follow-up). After
+Bouldering psychotherapy for treating depression 473
+ 20448260, 2022, 2, Downloaded from https://bpspsychub.onlinelibrary.wiley.com/doi/10.1111/bjc.12347 by Universitätsbibliothek Basel, Wiley Online Library on [03/04/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+checking for sphericity, homogeneity of the error variances, and homogeneity of the
+covariances, a mixed-model ANOVA with one between-group factor and one repeated-
+measures factor was used to determine whether there was a Time 9 Group interaction.
+We expected no interaction and no main effect of group to occur. After conﬁrming our
+expectations, to check for improvements within the groups (main effect of time), we
+calculated two separate repeated measures ANOVAs for the BPT and CBT groups.
+Afterwards, we calculated Bonferroni-adjusted post-hoc tests. The Greenhouse –Geisser
+adjustment was used to correct for violations of sphericity in the repeated measures
+ANOVA for MADRS in the ITT BPT sample.
+For secondary outcomes, pre-test and post-test values are reported. After checking for
+homogeneity of variance, the change scores from the two groups were compared using t-
+tests for independent groups to see if group differences could be found. A Type I error
+(alpha) of less than 5% was considered indicative of statistical signiﬁcance.
+We accepted the NI of BPT in comparison with CBT if the lower bound of the two-
+sided 95% conﬁdence interval (CI) of the difference between treatment changes in BPT
+versus CBT was above the lower bound of the margin. The primary data analytic strategy
+regarding the NI analysis is ITT (Macaya et al., 2017). As a sensitivity analysis, additional
+analyses with PP data were computed. The PP population was deﬁned as participants who
+attended at least ﬁve out of 10 treatment sessions (50%). To control for additional offers of
+psychotherapy between post-test and follow-up (i.e., CBT, BPT, other group therapy, or
+individual psychotherapy), we performed a hierarchical regression analysis with the
+follow-up value as the dependent variable and the pre-test value, group allocation, and
+additional offers of therapy after post-test as predictors.
+Results
+Descriptive outcomes
+Between March 2017 and March 2018, a total of 332 interested individuals were recruited,
+of which 233 met the eligibility criteria and were included as participants in the study (ITT
+sample). We randomly allocated 79 to the BPT group, 77 to the CBT group, and 77 to the
+EP group. According to our PP criteria of a 50% attendance rate in the treatment sessions,
+198 participants were included in the PP analysis, of which 64 completed the BPT
+treatment, 65 completed the CBT treatment, and 69 completed the EP (Figure 1). The
+main reasons for dropout were insufﬁcient participation, physical complaints that
+prevented those affected from participating any further (e.g., arm injury while cycling,
+mainly in the BPT group), as well as inpatient stays. Dropout rates did not differ
+signiﬁcantly between the CBT and BPT groups ( v
+2 test, p = .574). Before randomization,
+the participants rated an admission to the BPT group as well as to the CBT group as
+predominantly positive, but the percentage of those who rated BPT group participation as
+pleasant or very pleasant was signiﬁcantly higher than for the CBT group (84.7% vs.
+47.9%). Admission to the CBT group was rated as neutral by 33% in comparison with
+12.5% for the BPT group.
+On average, participants attended seven BPT ( SD 2.4) or eight ( SD 2.8) CBT sessions.
+Of the initial CBT participants, 20 people (26%) took part in BPT over the course of the
+year after their initial CBT. While administering BPT to 99 patients (79 in the regular BPT
+and 20 former CBT participants) with an average of seven therapy sessions per patient
+(1,386 bouldering hours in total), no adverse events occurred as a result of the therapy. In-
+patient stays during the intervention period were equally distributed between the CBT
+and BPT groups. Baseline characteristics are presented in Table 2.
+474 Katharina Luttenberger et al.
+ 20448260, 2022, 2, Downloaded from https://bpspsychub.onlinelibrary.wiley.com/doi/10.1111/bjc.12347 by Universitätsbibliothek Basel, Wiley Online Library on [03/04/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+Follow-up: 233 total sample (198 ‘per protocol’)
+Pretest: 233 total sample
+Posttest: 233 total sample (198 ‘per protocol’)
+n = 77 ITT
+n =6 9 ‘per protocol’
+3 missing values imputed
+0 excluded from the analysis
+n = 77 ITT
+n =6 5 ‘per protocol’
+9 missing values imputed
+0 excluded from the analysis
+n = 79 ITT
+n =6 4 ‘per protocol’
+7 missing values imputed
+0 excluded from the analysis
+99 individuals were excluded for the following reasons (multiple answers possible):
+- 22 no depression (PHQ-9 <8 )  
+- 7 BMI > 40 or < 17.5
+- 1 age < 18 years
+- 1  acute suicidality
+- 4  physical contraindications (physical complaints or pregnancy)
+- 19  serious mental disorders (borderline personality disorder with self-harming behavior,
+psychosis, mania, substance-related addiction)    
+- 10  participation in an additional outpatient psychotherapeutic group therapy
+- 12  started individual psychotherapy within the last eight weeks
+- 8  started taking antidepressant medication within the last four weeks
+- 2  scheduling difficulties
+- 40 no informed consent (mostly in combination with one of the other reasons)
+8 Dropouts
+Reasons for dropout:
+7 participation < 50%
+1 physical complaints
+12 Dropouts
+Reasons for dropout:
+6 participation < 50%
+1 scheduling difficulties
+3 in-patient stay
+2 personal reasons
+15 Dropouts
+Reasons for dropout:
+4 participation < 50%
+5 physical complaints
+1 scheduling difficulties
+3 in-patient stay
+2 personal reasons
+233 randomized (‘intention to treat’) 
+Screening of 332 interested persons
+Additional BPT-group after 
+CBT (voluntary, not
+randomized)
+n =2 0
+77 allocation to EP77 allocation to CBT79 allocation to BPT
+Additional BPT-group after 
+EP (voluntary, not
+randomized)
+n =4 2
+n = 77 ITT
+n =6 9 ‘per protocol’
+21 missing values imputed
+0 excluded from the analysis
+n = 77 ITT
+n =6 5 ‘per protocol’
+22 missing values imputed
+0 excluded from the analysis
+n = 79 ITT
+n =6 4 ‘per protocol’
+11 missing values imputed
+0 excluded from the analysis
+Figure 1. Consort ﬂow chart. BMI = Body Mass Index; BPT = bouldering psychotherapy; CBT = cog-
+nitive behavioural therapy; EP = home-based exercise programme; ITT = intention to treat; PHQ-
+9 = Patient Health Questionnaire 9 Items.
+Bouldering psychotherapy for treating depression 475
+ 20448260, 2022, 2, Downloaded from https://bpspsychub.onlinelibrary.wiley.com/doi/10.1111/bjc.12347 by Universitätsbibliothek Basel, Wiley Online Library on [03/04/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+Table 2. Baseline characteristics (ITT)
+Variable BPT ( n = 79) CBT ( n = 77) Total ( N = 156)
+Test of group differences
+v2 tp
+Age, M (SD) 41.76 (12.6) 40.3 (11.4) 41.01 (12.01) .79 .433
+Sex, n (%) 0.08 .778
+Female 54 (68.4) 51 (66.2) 105 (67.3)
+Male 25 (31.6) 26 (33.8) 51 (32.7)
+BMI, M (SD) 23.92 (3.37) 24.57 (4.17) 24.24 (3.79) /C01.07 .286
+Family status, n (%) 1.49 .475
+Single 40 (50.6) 43 (55.8) 83 (53.2)
+Married/living in a partnership 23 (29.1) 24 (31.2) 47 (30.1)
+Separated/divorced/widowed 16 (20.3) 10 (13.0) 26 (16.7)
+School education, n (%) 0.01 .994
+<9 years 0 (0.0) 0 (0.0) 0 (0.0)
+9 years 9 (11.4) 9 (11.7) 18 (11.5)
+10 years 18 (22.8) 17 (22.1) 35 (22.4)
+>10 years 52 (65.8) 51 (66.2) 103 (66.0)
+Current occupation: yes, n (%) 50 (63.3) 45 (58.4) 95 (60.9) 0.39 .535
+Additional psychotherapy: yes, n (%) 46 (58.2) 39 (50.6) 85 (54.5) 0.90 .342
+Antidepressants: yes, n (%) 46 (58.2) 41 (53.2) 87 (55.8) 0.39 .531
+Completed therapy in the past: yes, n (%) 59 (74,7) 52 (67,5) 111 (71,1) 0.75 .347
+Attitude towards sports: positive, n (%) 75 (94.9) 75 (97.4) 150 (96.2) .681
+b
+First depressive episode: yes, n (%) 19 (24.1) 19 (24.7) 38 (24.4) 0.01 .928
+Number of depressive episodes a, n (%) 0.23 .972
+1–2 23 (29.2) 19 (24.7) 42 (27.0)
+Continued
+476 Katharina Luttenberger et al.
+ 20448260, 2022, 2, Downloaded from https://bpspsychub.onlinelibrary.wiley.com/doi/10.1111/bjc.12347 by Universitätsbibliothek Basel, Wiley Online Library on [03/04/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+Table 2. (Continued)
+Variable BPT ( n = 79) CBT ( n = 77) Total ( N = 156)
+Test of group differences
+v2 tp
+3–4 18 (22.8) 22 (28.6) 40 (25.7)
+5–10 8 (10.2) 10 (13.0) 18 (11.4)
+>10 or chronic depression ( >2 years) 4 (5.2) 2 (2.6) 6 (3.8)
+Comorbidities, n (%) 3.11 .211
+0 47 (59.5) 52 (67.5) 99 (63.5)
+1 20 (25.3) 20 (26.0) 40 (25.6)
+2–5 12 (15.2) 5 (6.5) 17 (10.9)
+Study region, n (%) 2.56 .279
+Erlangen/Nuremberg region 39 (49.4) 37 (48.1) 76 (48.7)
+Weyarn region 20 (25.3) 27 (35.1) 47 (30.1)
+Berlin region 20 (25.3) 13 (16.9) 33 (21.2)
+Note. BMI = body mass index; BPT = bouldering psychotherapy; CBT = cognitive behavioural therapy; ITT = intention to treat.
+an = 106 (50 missing values); bExact Fischer test because expected cell frequencies were below 5.
+Bouldering psychotherapy for treating depression 477
+ 20448260, 2022, 2, Downloaded from https://bpspsychub.onlinelibrary.wiley.com/doi/10.1111/bjc.12347 by Universitätsbibliothek Basel, Wiley Online Library on [03/04/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+No signiﬁcant group differences were found between the BPT group and the CBT
+group in their baseline scores on the psychometric measures, sociodemographics, or
+other potential confounds, such as age, gender, BMI, medication with antidepressants,
+current psychotherapeutic treatment, or attitude towards physical activity (see Table 2).
+The inter-rater reliability for the main outcome, the MADRS assessed with the SIGMA, was
+found to be excellent (ICC = .985, 95% CI [0.963, 0.994], p < .001). Between post-test
+and follow-up, patients were free to participate in any other therapies they were offered.
+In the CBT group, 50 of 77 participated in either a group therapy (including 20 who
+participated in at least one BPT session) or individual therapy. In the BPT group, 47 of 79
+did so, most of whom received CBT ( p = .48).
+Calculation of the MADRS margin related to the study’s own control group
+The MADRS scores in the EP group (ITT) dropped from 22.27 ( SD 9.12) to 19.27 ( SD
+10.97) points ( p = .004). In the EP group, the mean difference in the MADRS scores
+between the end and beginning of the intervention period was /C03.00 (SD 8.97) points.
+The between-group difference for the change scores from the EP and CBT groups was 2.99
+(95% CI [0.10, 5.88]) points. The margin resulting from our own study was therefore 3
+MADRS points, which is smaller than the predeﬁned maximum of 5 MADRS points,
+deﬁned by preliminary considerations of clinical relevance.
+Main outcome
+The depression-related outcomes (BPT and CBT) at pre-test, post-test, and follow-up are
+presented in Table 3 and Figure 2. During the intervention period (post-test – pre-test),
+depression scores on the MADRS dropped /C08.06 points (95% CI [ /C010.85, /C05.27]) in the
+BPT group ( p < .001) and /C05.99 points (95% CI [ /C08.55, /C03.44]) in the CBT group ( p <
+.001). From pre-test to follow-up, depression values dropped /C09.95 points (95% CI
+[/C012.83, /C07.08]) in the BPT group (p < .001) and /C09.28 points (95% CI [/C012.10, /C06.46])
+in the CBT group (p < .001). For the PHQ-9, depression scores dropped/C04.63 points (95%
+CI [/C06.31, /C02.94]) from pre-test to post-test in the BPT group (p < .001) and /C03.46 points
+(95% CI [/C05.04, /C01.88]) in the CBT group ( p < .001). From pre-test to follow-up, PHQ-9
+scores dropped /C05.56 points (95% CI [ /C07.21, /C03.92]) in the BPT group ( p <
+.001) and
+/C04.82 points (95% CI [/C06.34, /C03.31]) in the CBT group (p < .001). In neither of the mixed-
+model ANOVAs was a signiﬁcant Time 9 Group interaction or a main effect of group
+found, whereas time had a main effect in all mixed-model ANOVAs.
+Non-inferiority at post-test
+The between-group difference between the BPT and CBT groups of 2.07 MADRS points
+with a 95% CI of /C01.00 to 5.12 had a lower bound that fell above the lower bound of the
+margin of /C03.0 MADRS points deﬁned by clinical relevance (see above); hence, NI was
+accepted (Figure 3).
+The mean difference between the BPT and CBT groups for the MADRS scores (BPT
+/C08.06 [SD 10.15] points, CBT /C05.99 [SD 9.17] points) was 2.07 (SEM 1.55) points, which
+corresponds to a Cohen’s d of 0.21 with a 95% CI of /C00.10 to 0.53. Thus, the lower bound
+of the 95% CI fell above the lower bound of both of the predeﬁned margins ofd = /C00.2 and
+d = /C00.34 (Figure 4).
+478 Katharina Luttenberger et al.
+ 20448260, 2022, 2, Downloaded from https://bpspsychub.onlinelibrary.wiley.com/doi/10.1111/bjc.12347 by Universitätsbibliothek Basel, Wiley Online Library on [03/04/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+Table 3. Depression-related outcomes at pre-test, post-test, and follow-up
+M (SD) Within-group difference ΔM (SD)a
+Within-group effect size d (95%
+CI)b
+Between-group difference, CBT-
+BPT, M (95% CI)
+Between-group effect size, d
+(95% CI)
+b,c
+Group Pre-test Post-test Follow-up Post – Pre Follow-up – Pre Post – Pre Follow-up - Pre Post – Pre Follow-up –Pre Post-test Follow-up
+Intention to treat (BPT n = 79, CBT n = 77)
+MADRS BPT 23.46 (8.93) 15.40 (9.10) 13.50 (8.38) /C08.06 (10.15)*** /C09.95 (10.45)*** 0.89 (0.43–1.36) 1.15 (0.67 –1.63) 2.07
+(/C01.00 to 5.12)
+0.67
+(/C02.58 to 3.92)
+0.21
+(/C00.10 to 0.53)
+0.07
+(/C00.25 to 0.38)CBT 24.04 (7.69) 18.05 (10.36) 14.76 (8.00) /C05.99 (9.17)*** /C09.28 (10.10)*** 0.66 (0.20–1.12) 1.18 (0.70 –1.67)
+PHQ-9 BPT 13.66 (5.49) 9.03 (5.46) 8.09 (4.62) /C04.63 (6.13)*** /C05.56 (5.99)*** 0.85 (0.39–1.31) 1.10 (0.63 –1.57) 1.17
+(/C00.70 to 3.03)
+0.74
+(/C01.07 to 2.55)
+0.20
+(/C00.12 to 0.51)
+0.13
+(/C00.19 to 0.44)CBT 13.81 (4.65) 10.35 (6.00) 8.98 (4.63) /C03.46 (5.67)*** /C04.82 (5.45)*** 0.65 (0.19–1.10) 1.04 (0.57 –1.52)
+Per protocol (BPT n = 64, CBT n = 65)
+MADRS BPT 23.47 (8.92) 15.10 (9.51) 13.61 (8.76) /C08.39 (10.41)*** /C09.86 (10.76)*** 0,81 (0,47–1,19) 1.12 (0.59 –1.64) 2.36
+(/C01.06 to 5.78)
+1.23
+(/C02.44 to 4.91)
+0.24
+(/C00.11 to 0.59)
+0.12
+(/C00.23 to 0.46)CBT 23.29 (7.30) 17.26 (10.25) 14.67 (8.64) /C06.03 (9.18)*** /C08.63 (10.33)*** 0.67 (0,46–1,18) 1.08 (0.56 –1.60)
+PHQ-9 BPT 13.52 (5.47) 8.86 (5.61) 8.11 (4.71) /C04.66 (6.25)*** /C05.40 (6.01)*** 0.84 (0.33–1.35) 1.06 (0.54 –1.58) 1.51
+(/C00.53 to 3.56)
+1.18
+(/C00.82 to 3.18)
+0.26
+(/C00.09 to 0.60)
+0.21
+(/C00.14 to 0.55)CBT 13.06 (4.15) 9.92 (5.98) 8.84 (4.97) /C03.15 (5.45)*** /C04.22 (5.45)*** 0.61 (0.11–1.11) 0.92 (0.41 –1.43)
+Note. BPT = bouldering psychotherapy; CBT = cognitive behavioural therapy; MADRS = Montgomery and Asberg Depression Rating Scale; PHQ-9 = Patient
+Health Questionnaire 9 Items; Post = Post-test; Pre = Pre-test.
+aNegative values indicate improvement in symptoms;bCohen’s d based on pooled standard deviation;cAll in favour of BPT;***Repeated measures ANOVA indicates
+a signiﬁcant difference ( p < .001) within the group.
+Bouldering psychotherapy for treating depression 479
+ 20448260, 2022, 2, Downloaded from https://bpspsychub.onlinelibrary.wiley.com/doi/10.1111/bjc.12347 by Universitätsbibliothek Basel, Wiley Online Library on [03/04/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+Between the end and the beginning of the intervention period (post-test – pre-test),
+participants in the BPT group showed an average difference of /C04.63 (SD 6.13) points on
+the PHQ-9, whereas participants in the CBT group showed a difference of/C03.46 (SD 5.67)
+PHQ points. Thus, the mean difference between the two groups was 1.17 PHQ points
+with a 95% CI of /C00.70 to 3.03. The NI of BPT in comparison with CBT for the PHQ-9
+scores was accepted because the lower bound of the 95% CI fell above the lower bound of
+the predeﬁned margin of /C01.9 PHQ points (Figure 5).
+Non-inferiority at follow-up
+The between-group difference between the initial CBT and BPT groups of 0.67 MADRS
+points (SEM 1.65) with a 95% CI of/C02.58 to 3.92 had a lower bound that fell above the lower
+bound of the margin of/C03.0 MADRS points deﬁned by clinical relevance (see above); hence,
+NI was accepted (Figure 6). In the hierarchical regression analysis, participants who
+received additional psychotherapy between post-test and follow-up were not included in
+the ﬁnal model; only the MADRS pre-test value was signiﬁcant (p = .004).
+Secondary outcomes
+Secondary outcomes before and after the intervention period are presented in Table 4.
+Signiﬁcant changes (p < .01) between pre-test and post-test were found in the BPT group
+for all of the secondary variables, namely, health-related quality of life, coping, body image,
+anxiety, self-efﬁcacy, global self-esteem, and interpersonal sensitivity. In the CBT group,
+10
+15
+20
+25
+Pretest Pos/g425est Follow-up
+Severity of Depression (MADRS)
+Time of measurement
+BPT
+CBT
+EP
+Figure 2. Changes in the severity of depression (MADRS) over 3 measurement points for the ITT
+sample. BPT = bouldering psychotherapy; CBT = cognitive behavioural therapy; EP = home-based
+exercise programme; ITT = intention to treat; MADRS = Montgomery–/C23Asberg Depression Rating
+Scale. After post-test, 20 patients from the CBT group and 27 patients from the EP group took part in BPT.
+480 Katharina Luttenberger et al.
+ 20448260, 2022, 2, Downloaded from https://bpspsychub.onlinelibrary.wiley.com/doi/10.1111/bjc.12347 by Universitätsbibliothek Basel, Wiley Online Library on [03/04/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+signiﬁcant changes ( p < .01) were found for all of the variables except body image
+(p = .195). We found no evidence of differences between the groups (BPT vs. CBT) on
+any of the secondary variables.
+Sensitivity analyses for PP
+We computed sensitivity analyses for both outcomes (the PHQ-9 and MADRS) and all of
+the margins in the PP sample. All of the analyses resulted in comparable ﬁndings
+-4
+-3,5
+-3
+-2,5
+-2
+-1,5
+-1
+-0,5
+0
+0,5
+1
+1,5
+2
+2,5
+3
+3,5
+4
+4,5
+5
+5,5
+6
+6,5
+7
+BPT > CBT
+non-inferiority margin: Δ = -3.0
+Δ
+MADRS points CBT-BPTBPT < CBT
+ITTPP
+Figure 3. Non-inferiority trial comparing BPT with CBT directly after therapy using the MADRS and the
+margin of clinical relevance (3 points). BPT = bouldering psychotherapy; CBT = cognitive behavioural
+therapy; ITT = intention to treat; MADRS = Montgomery–/C23Asberg Depression Rating Scale; PP = per
+protocol.
+Bouldering psychotherapy for treating depression 481
+ 20448260, 2022, 2, Downloaded from https://bpspsychub.onlinelibrary.wiley.com/doi/10.1111/bjc.12347 by Universitätsbibliothek Basel, Wiley Online Library on [03/04/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+(Figures 3 –6). NI was accepted regarding the PP data for the margin of /C03.0 MADRS
+points at post-test (mean between-group difference 2.36 points, SEM 1.73, 95% CI [/C01.06,
+-0,4
+-0,35
+-0,3
+-0,25
+-0,2
+-0,15
+-0,1
+-0,05
+0
+0,05
+0,1
+0,15
+0,2
+0,25
+0,3
+0,35
+0,4
+0,45
+0,5
+0,55
+0,6
+0,65
+PP
+non-inferiority margin: Δ 1 =- 0 . 2 0
+non-inferiority margin: Δ 2 =- 0 . 3 4
+Δ 1
+Δ 2
+BPT < CBT BPT > CBTCohen’s d 
+ITT
+Figure 4. Non-inferiority trial comparing BPT with CBT directly after therapy using the MADRS and the
+margins from the literature (Cohen’s d). BPT = bouldering psychotherapy; CBT = cognitive behavioural
+therapy; ITT = intention to treat; PP = per protocol.
+482 Katharina Luttenberger et al.
+ 20448260, 2022, 2, Downloaded from https://bpspsychub.onlinelibrary.wiley.com/doi/10.1111/bjc.12347 by Universitätsbibliothek Basel, Wiley Online Library on [03/04/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+5.78]) and follow-up (mean between-group difference 1.23 points, SEM 1.86, 95% CI
+[/C02.44, 4.91], see Table 3), for the PHQ-9 with a margin of /C01.9 PHQ points (mean
+between-group difference 1.51 points, SEM 1.03, 95% CI [/C00.53, 3.56]), as well as for the
+MADRS with the two margins of Cohen’s d values of /C00.2 and /C00.34 (Cohen’s d for the
+mean between-group difference was 0.24, 95% CI [ /C00.11, 0.59]).
+-2,5
+-2
+-1,5
+-1
+-0,5
+0
+0,5
+1
+1,5
+2
+2,5
+3
+3,5
+4
+non-inferiority margin: Δ = -1.9
+Δ
+BPT < CBT BPT > CBTPHQ-9 points (CBT-BPT)
+PP ITT
+Figure 5. Non-inferiority trial comparing BPT with CBT directly after therapy using the PHQ-9 and the
+margin from the literature. BPT = bouldering psychotherapy; CBT = cognitive behavioural therapy;
+ITT = intention to treat; PHQ-9 = Patient Health Questionnaire 9 Items; PP = per protocol.
+Bouldering psychotherapy for treating depression 483
+ 20448260, 2022, 2, Downloaded from https://bpspsychub.onlinelibrary.wiley.com/doi/10.1111/bjc.12347 by Universitätsbibliothek Basel, Wiley Online Library on [03/04/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+Discussion
+The primary goal of this paper was to compare group BPT with established treatment
+options, namely, group cognitive behavioural therapy (CBT). A total of 156 patients
+participated for 10 weeks in one of the two intervention groups (BPT and CBT).
+-4
+-3,5
+-3
+-2,5
+-2
+-1,5
+-1
+-0,5
+0
+0,5
+1
+1,5
+2
+2,5
+3
+3,5
+4
+4,5
+5
+5,5
+6
+6,5
+7
+BPT > CBT
+non-inferiority margin: Δ = -3.0
+Δ
+MADRS points (CBT-BPT)BPT < CBT
+ITT
+PP
+Figure 6. Non-inferiority trial comparing BPT with CBT at follow-up using the MADRS and the margin
+of clinical relevance (3 points). BPT = bouldering psychotherapy; CBT = cognitive behavioural therapy;
+ITT = intention to treat; MADRS = Montgomery–/C23Asberg Depression Rating Scale; PP = per protocol.
+484 Katharina Luttenberger et al.
+ 20448260, 2022, 2, Downloaded from https://bpspsychub.onlinelibrary.wiley.com/doi/10.1111/bjc.12347 by Universitätsbibliothek Basel, Wiley Online Library on [03/04/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+Table 4. Secondary outcomes at pre-test and post-test (ITT)
+Variable
+BPT (n = 79) CBT ( n = 77) Between-group
+difference, CBT-BPTb
+Between-group
+effect size
+c Independent t-test
+Pre, M (SD) Post, M (SD) Post –prea, ΔM (SD) Pre, M (SD) Post, M (SD) Post –prea, ΔM (SD) M (95% CI) |d| p
+Secondary outcomes
+Health-related QoL (EQ-5D) 52.09 (16.52) 61.88 (17.50) 9.80 (15.85) *** 50.06 (16.33) 58.29 (17.12) 8.22 (17.26) *** /C01.57 (/C06.81 to 3.67) 0.10 d .55
+Coping (FERUS) 33.15 (7.13) 36.16 (8.16) 3.01 (6.80) *** 33.69 (7.39) 37.15 (7.28) 3.46 (6.33) *** 0.45 (/C01.63 to 2.53) 0.07 .67
+Body image (FKB-20) 23.72 (6.73) 26.40 (8.52) 2.68 (6.48) *** 24.42 (6.58) 25.42 (7.13) 1.00 (6.74) /C01.68 (/C03.77 to 0.41) 0.25 d .12
+Anxiety (GAD-7) 10.73 (4.08) 7.77 (4.18) /C02.97 (4.22)*** 10.53 (3.79) 8.65 (4.17) /C01.88 (3.85)*** 1.09 (/C00.19 to 2.37) 0.27 d .10
+Self-efﬁcacy (GSE) 21.96 (4.55) 25.00 (5.36) 3.03 (4.90) *** 23.17 (5.25) 25.61 (4.61) 2.44 (4.32) *** /C00.59 (/C02.05 to 0.87) 0.13 d .43
+Global self-esteem (R-SES) 13.61 (5.44) 16.71 (5.46) 3.11 (4.07) *** 14.04 (5.28) 16.74 (4.82) 2.71 (3.99) *** /C00.40 (/C01.68 to 0.87) 0.10 d .53
+Interpersonal sensitivity
+(SCL-90); T-value
+68.57 (8.52) 65.34 (8.87) /C03.23 (6.20)*** 68.45 (7.55) 64.35 (8.61) /C04.10 (7.71)*** /C00.88 (/C03.09 to 1.33) 0.13 .44
+Note. BPT = bouldering psychotherapy; CBT = cognitive behavioural therapy; EQ-5D = EuroQol Five Dimension Questionnaire; FERUS = Questionnaire on
+Resources and Self-Management Skills; FKB-20 = Body Image Questionnaire; GAD-7 = Generalized Anxiety Disorder 7; GSE = General Self-Efﬁcacy Scale; ITT =
+intention to treat; Post = Post-test; Pre = Pre-test; QoL = Quality of life; R-SES = Rosenberg Self-Esteem Scale; SCL-90-R = Symptom Checklist-90-revised.
+aDifferences between pre-test and post-test: negative values on the GAD-7 and SCL-90 indicate improvement in symptoms, positive values on the EQ-5D, FERUS,
+FKB-20, GSE, and R-SES indicate positive effects; bNo signiﬁcant differences between BPT and CBT; cCohen’s d based on pooled standard deviation; dIndicates
+Cohen’s d values in favour of BPT; *** indicates a signiﬁcant difference between pre-test and post-test within the group ( p < .001).
+Bouldering psychotherapy for treating depression 485
+ 20448260, 2022, 2, Downloaded from https://bpspsychub.onlinelibrary.wiley.com/doi/10.1111/bjc.12347 by Universitätsbibliothek Basel, Wiley Online Library on [03/04/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+Depression severity was assessed with the MADRS before and after the treatment. The
+non-inferiority of BPT was accepted for all predeﬁned margins directly after the end of
+therapy as well as one year after. Thus, we found that the positive effect of BPT in reducing
+depressive symptoms in outpatients with depression is not inferior to the effect of CBT.
+This paper is part of a larger research project in which we also tested a superiority
+hypothesis for BPT compared with a home-based exercise programme (EP). The test of
+the superiority hypothesis is published in Karg et al. (2020). It should be noted that the
+two papers are interrelated as the participants overlap to some extent (BPT group).
+To ensure clinical relevance, one of the margins used to test for non-inferiority was
+chosen strictly on the basis of clinical relevance (i.e., 3 points on the MADRS) and was
+smaller than half a severity grade and smaller than the 5-point margin used in the literature
+(Hermens et al., 2007). Cohen’s d for the BPT group compared with the CBT group was
+still 0.21 (ITT sample) to 0.24 (PP sample) in favour of BPT. The beneﬁts of BPT were
+maintained until at least one year after the end of therapy, such that the depression scores
+were stable at eight to nine points below the level before therapy, which is around one
+severity grade. This ﬁnding adds to previous evidence for the efﬁcacy of bouldering in
+lowering depression (Kleinstaeuber, Reuter, Doll, & Fallgatter, 2017; Mehl & Wolf, 2008;
+Mollenhauer, Doll, Renz, & Luntz, 2011; Schnitzler, 2009; Wallner, 2010). As the BPT
+concept focuses on established factors of action taken from CBT therapies, such as
+exposure training, problem solving, and the practising of new functional behaviour, BPT
+should not be seen as a different therapy but as an enrichment and implementation of CBT
+methods on the bouldering wall. Our results show that it is at least not inferior to CBT
+alone, a ﬁnding that is in line with current meta-analyses that have shown that the
+combination of physical activity and psychotherapeutic methods (i.e., behavioural
+therapies) might go beyond the effect of psychotherapy alone (Bourbeau et al., 2020) and
+that physical activity is effective in reducing depression (Cooney et al., 2013) to a
+comparable extent as antidepressants (Blumenthal et al., 2007) or psychotherapy alone.
+Both therapies in this study are group therapies. The therapies were administered in
+parallel settings (10 sessions with a duration of 120 min, 2 therapists, a ﬁxed sequence
+involving introduction, action, and closure phases), but the contents were developed
+independently. The effectiveness of group CBT at the end of treatment was previously
+shown to be slightly below that of individual CBT, but at follow-up, this difference
+disappeared (Cuijpers, van Straten, & Warmerdam, 2008; DGPPN, 2015; Thimm &
+Antonsen, 2014).
+All of the secondary variables we assessed (health-related quality of life, coping, body
+image, anxiety, self-efﬁcacy, global self-esteem, and interpersonal sensitivity) showed
+signiﬁcant changes between pre- and post-test in the BPT group. These ﬁndings are in line
+with the literature, which has already demonstrated effects of sports interventions, and
+bouldering in particular, on several psychological variables (Buechter & Fechtelpeter,
+2011; Fruhauf et al., 2019; Karg et al., 2020; Kratzer, Luttenberger, Karg-Hefner, Weiss, &
+Dorscht, 2021; Luttenberger et al., 2015; Mazzoni et al., 2009; Wallner, 2010). For self-
+efﬁcacy and trait anxiety, especially Wolf and Mehl (2011) were able to show long-lasting
+effects of a climbing intervention. Also in the CBT group, most of the secondary outcomes
+showed signiﬁcant changes between pre- and post-test, with the exception of the body
+image variable. Thus, body image seems to be particularly altered by BPT and should be
+given special attention in future research on the effects of BPT.
+The dropout rates (BPT 19%, CBT 16%) were comparable to recent studies on group
+therapy in depression (Bains, Scott, Kellett, & Saxon, 2014; Thimm & Antonsen, 2014).
+This ﬁnding is especially notable as BPT also requires a minimum level of physical ﬁtness
+486 Katharina Luttenberger et al.
+ 20448260, 2022, 2, Downloaded from https://bpspsychub.onlinelibrary.wiley.com/doi/10.1111/bjc.12347 by Universitätsbibliothek Basel, Wiley Online Library on [03/04/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+for participating. One third of the patients who dropped out of the BPT group (n = 5) did
+so because of physical complaints that prevented them from bouldering (e.g., broken arm
+after a bicycle accident, distorted ankle). On the one hand, the similar dropout rates show
+that adherence to BPT is similar to adherence to other group therapies. On the other hand,
+there are of course limitations to the generalizability of BPT because it is only suitable for
+patients with a certain minimum level of physical ﬁtness (e.g., BMI< 40, no pregnancy, no
+paralysis). It might be especially difﬁcult to generalize to patients with physical
+impairments, and the BPT programme should be adapted for this group. As there are
+already some bouldering programmes for physically handicapped individuals, such an
+adaptation is probably possible (Kim & Seo, 2015; Mazzoni et al., 2009; Schram
+Christensen, Jensen, Voigt, Nielsen, & Lorentzen, 2017).
+The main limitation of the study is that the inclusion and exclusion criteria were mainly
+assessed via self-report. In the pre-test interviews after participants were accepted into the
+study, trained raters assessed depression severity with high inter-rater reliability. Also,
+positive results might be limited to individuals who were interested in bouldering and
+might not be representative of all depressed patients (selection bias). We announced
+recruitment meetings through press releases, our homepage, posters, ﬂyers, and
+Facebook. We fully described all the groups, including the control groups, but we
+cannot exclude the possibility that the BPT may have stood out due to its novelty. 84.7% of
+the study participants rated BPT group participation as pleasant or very pleasant in
+comparison with 47.9% who rated CBT group participation as pleasant or very pleasant.
+This is important because treatment preferences are signiﬁcantly associated with
+adherence (Raue, Schulberg, Heo, Klimstra, & Bruce, 2009), whereas there are conﬂicting
+results on the impact of treatment preferences on outcomes (Mergl et al., 2011; Raue et al.,
+2009). In comparison with current samples of depressive patients in Germany, however,
+there is no evidence of differences in age or gender (Altmann et al., 2015; Dorow et al.,
+2018; H€olzel et al., 2014). The average BMI in our sample, which was 24.2, was slightly
+smaller than the BMI of the German population, which is 26.5 for women and 27.2 for men
+(Mensink et al., 2013), but of course this ﬁnding may be explained to some extent by the
+exclusion of individuals with a BMI above 40. Future research should clarify what
+percentage of depressed patients would consider BPT as their method of choice in
+addition to testing BPT in a more independent, unbiased sample. Around two thirds of our
+sample had already experienced previous attempts at treating their depression with
+therapies other than BPT. This ﬁnding could be an indication that even patients with
+previous therapy experience can be reached by BPT and can also beneﬁt from a BPT
+group. A third limitation is that participants were free to choose to accept other
+therapeutic offers (open phase) after the post-test. Former participants of all groups could
+participate in any therapies offered by the health service system, including group or
+individual psychotherapy. Former participants of the CBT and EP groups were allowed to
+participate in a BPT group if they asked to do so. Thus, as is often the case, the follow-up
+data cannot be interpreted as a pure difference between CBT and BPT. Participation in
+additional psychotherapy, including BPT after t1, were almost equally distributed
+between the groups. In our study, the BPT group showed greater improvement than the
+CBT group (even though the difference was nonsigniﬁcant), so when CBT participants
+received additional BPT, the results of the former CBT group improved even more at
+follow-up, thus making it harder to claim non-inferiority for BPT (because these
+participants were still classiﬁed as belonging to the CBT group). We therefore decided not
+to remove the CBT +BPT patients as it would reduce our power and break up the
+randomization. But we believe that our approach is the most conservative because it tends
+Bouldering psychotherapy for treating depression 487
+ 20448260, 2022, 2, Downloaded from https://bpspsychub.onlinelibrary.wiley.com/doi/10.1111/bjc.12347 by Universitätsbibliothek Basel, Wiley Online Library on [03/04/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+to underestimate the effect of BPT. In the regression analyses, the only signiﬁcant
+predictor of the follow-up depression value was the pre-test depression value.
+Given that our BPT is a combination of bouldering elements and psychotherapeutic
+elements, we cannot clarify whether the effects in lowering depression can be attributed
+to bouldering alone, to other elements of the therapy, or to the combination of the two
+(which seems most probable). Therefore, future research should place a special focus on
+the factors of action and positive side effects of BPT.
+Conclusions
+We developed BPT, which combines established therapy methods from cognitive
+behavioural therapy with exercises from bouldering and mindfulness to provide a therapy
+that offers the advantages of low stigma, positive side effects from physical activity, and
+the inclusion of body-related techniques. We were able to show that BPT is equally as
+effective in the treatment of depression as CBT. The positive effects of BPT are maintained
+until at least 12 months after the end of therapy. Thus, BPT is a promising approach for
+broadening the therapeutic ﬁeld of therapies for depression and should be tested further
+in future high-quality studies.
+Acknowledgements
+This work is supported by the charitable Oh Do Kwan- foundation Karl Wiedmeier + Ludmilla
+Pankofer (funding nearly 100% of the project’s costs of 325,000 € – grant number 3005132),
+represented by Dr. Michael Bonefeld, Neuhauser Str. 3, 80331 Munich, Germany (www.oh-do-
+kwan-stiftung.org). Additional support was received from the F €orderverein Kletterzentrum
+Aufw€arts in Miesbach, who funded the entrance fees for the Bouldering Gym in Weyarn,
+represented by Andreas Huber, Sepp-Sonth eim-Str. 14b, 83714 Miesbach, Germany (www.
+foerderverein-aufwaerts.de). The funder of the study had no role in the study design, data collection,
+data analysis, data interpretation, or writing of the report. The authors thank all participants and
+therapists as well as the Bouldering Gyms that supported the study. They also thank their language
+editor, Dr. Jane Zagorski. Open access funding enabled and organized by ProjektDEAL.
+Conﬂicts of interest
+All authors declare no conﬂict of interest.
+Author contribution
+Katharina Luttenberger: Conceptualization (equal); Formal analysis (equal); Funding
+acquisition (equal); Investigation (equal); Methodology (equal); Resources (equal);
+Visualization (equal); Writing – original draft (equal). Nina Karg-Hefner: Conceptual-
+ization (equal); Data curation (equal); Investigation (equal); Writing – review & editing
+(equal). Matthias Berking: Conceptualization (equal); Supervision (equal); Writing –
+review & editing (equal). Leona Kind: Data curation (equal); Formal analysis (equal);
+Methodology (equal); Writing – review & editing (equal). Maren Weiss: Formal analysis
+(equal); Methodology (equal); Writing – review & editing (equal). Johannes Kornhu-
+ber: Conceptualization (equal); Project administration (equal); Resources (equal);
+Supervision (equal); Writing – review & editing (equal). Lisa Dorscht: Conceptualization
+488 Katharina Luttenberger et al.
+ 20448260, 2022, 2, Downloaded from https://bpspsychub.onlinelibrary.wiley.com/doi/10.1111/bjc.12347 by Universitätsbibliothek Basel, Wiley Online Library on [03/04/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+(equal); Data curation (equal); Formal analysis (equal); Investigation (equal); Methodol-
+ogy (equal); Visualization (equal); Writing – original draft (equal).
+Data availability statement
+The data that support the ﬁndings of the study are available at Zenodo: DOI https://doi.org/10.
+5281/zenodo.5645184.
+References
+Ali, M. W., & Siddiqui, O. (2000). Multiple imputation compared with some informative dropout
+procedures in the estimation and comparison of rates of change in longitudinal clinical trials with
+dropouts. Journal of Biopharmaceutical Statistics , 10(2), 165–181. https://doi.org/10.1081/
+BIP-100101020
+Altmann, U., Steyer, R., Kramer, D., Steffanowski, A., Wittmann, W. W., Heymann, F. V., ...
+Fembacher, A. (2015). Typical patterns of depressive disorders during outpatient psychotherapy
+and their prediction. Zeitschrift F €ur Psychosomatische Medizin Und Psychotherapie , 61(2),
+156–172. https://doi.org/10.13109/zptm.2015.61.2.156
+Bains, M. K., Scott, S., Kellett, S., & Saxon, D. (2014). Group psychoeducative cognitive-behaviour
+therapy for mixed anxiety and depression with older adults. Aging & Mental Health, 18, 1057–
+1065. https://doi.org/10.1080/13607863.2014.908459
+Barnard, P. J., & Teasdale, J. D. (1991). Interacting cognitive subsystems: A systemic approach to
+cognitive-affective interaction and change. Cognition & Emotion , 5(1), 1–39. https://doi.org/
+10.1080/02699939108411021
+Bernstein, D. A., & Borkovec, T. D. (2007). Entspannungstraining: Handbuch der progressiven
+Muskelentspannung nach Jacobson [Relaxation Training: Manual of Progressive Muscle
+Relaxation according to Jacobson] (Vol. 16). Stuttgart, Germany: Klett-Cotta.
+Blumenthal, J. A., Babyak, M. A., Doraiswamy, P. M., Watkins, L., Hoffman, B. M., Barbour, K. A., ...
+Sherwood, A. (2007). Exercise and pharmacotherapy in the treatment of major depressive
+disorder. Psychosomatic Medicine , 69, 587 –596. https://doi.org/10.1097/PSY.
+0b013e318148c19a
+Bourbeau, K., Moriarty, T., Ayanniyi, A., & Zuhl, M. (2020). The combined effect of exercise and
+behavioral therapy for depression and anxiety: Systematic review and meta-analysis.Behavioral
+Sciences, 10(7), 116. https://doi.org/10.3390/bs10070116
+Buechter, R. B., & Fechtelpeter, D. (2011). Climbing for preventing and treating health problems: A
+systematic review of randomized controlled trials. German Medical Science, 9, 19. https://doi.
+org/10.3205/000142
+Clement, U., & Lowe, B. (1996). Die Validierung des FKB-20 als Instrument zur Erfassung von
+K€orperbildst€orungen bei psychosomatischen Patienten. [Validation of the FKB-20 as scale for
+the detection of body image distortions in psychosomatic patients]. Psychotherapie –
+Psychosomatik – Medizinische Psychologie , 46(7), 254 –259. Retrieved from https://www.
+ncbi.nlm.nih.gov/pubmed/8765897
+Cohen, J. (1988). Statistical power analysis for the behavioral sciences (2nd ed.). Hillsdale, NJ:
+Erlbaum.
+Collani, G. V., & Herzberg, P. Y. (2003). Eine revidierte Fassung der deutschsprachigen Skala zum
+Selbstwertgef€uhl von Rosenberg. [A revised version of the German adaptation of Rosenberg’s
+Self-Esteem Scale]. Zeitschrift F €ur Differentielle Und Diagnostische Psychologie ,
+24(1), 3 –7.
+https://doi.org/10.1024//0170-1789.24.1.3
+Committee for Medicinal Products for Human Use. (2005). Guideline on the choice of the non-
+inferiority margin. Statistics in medicine. Retrieved from http://www.ema.europa.eu/docs/en_
+GB/document_library/Scientiﬁc_guideline/2009/09/WC500003636.pdf
+Bouldering psychotherapy for treating depression 489
+ 20448260, 2022, 2, Downloaded from https://bpspsychub.onlinelibrary.wiley.com/doi/10.1111/bjc.12347 by Universitätsbibliothek Basel, Wiley Online Library on [03/04/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+Cooney, G. M., Dwan, K., Greig, C. A., Lawlor, D. A., Rimer, J., Waugh, F. R., ... Mead, G. E. (2013).
+Exercise for depression.The Cochrane Database of Systematic Reviews(9), CD004366. https://
+doi.org/10.1002/14651858.CD004366.pub6
+Cuijpers, P., van Straten, A., & Warmerdam, L. (2008). Are individual and group treatments equally
+effective in the treatment of depression in adults? A meta-analysis. The European Journal of
+Psychiatry, 22(1), 38–51. https://doi.org/10.4321/S0213-61632008000100005
+DGPPN. (2015, 2017). Unipolare Depression. Langfassung. S3-Leitlinie/Nationale
+VersorgungsLeitlinie. Retrieved from https://www.leitlinien.de/nvl/html/depression
+Dorow, M., Stein, J., F €orster, F., L€obner, M., Franz, M., G €unther, R., ... Riedel-Heller, S. (2018). Der
+komplement€are Einsatz des internetbasierten Selbstmanagementprogramms moodgym “bei
+Menschen mit depressiven Erkrankungen in der station €aren Versorgung –die Perspektive von
+Patienten und Behandlern. [Implementation of the internet-based self-management program
+“moodgym” in patients with depressive disorders in inpatient clinical settings – patient and
+expert perspectives]. Psychiatrische Praxis , 45(5), 256–262. https://doi.org/10.1055/s-0043-
+117049
+Dorscht, L., Karg, N., Book, S., Graessel, E., Kornhuber, J., & Luttenberger, K. (2019). A German
+climbing study on depression: A bouldering psychotherapeutic group intervention in
+outpatients compared with state-of-the-art cognitive behavioural group therapy and physical
+activation – Study protocol for a multicentre randomised controlled trial. BMC Psychiatry, 19
+(1), 154. https://doi.org/10.1186/s12888-019-2140-5
+Feng, C.-Y., Chu, H., Chen, C.-H., Chang, Y.-S., Chen, T.-H., Chou, Y.-H., ... Chou, K.-R. (2012). The
+effect of cognitive behavioral group therapy for depression: A meta-analysis 2000 –2010.
+Worldviews on Evidence-Based Nursing , 9(1), 2 –17. https://doi.org/10.1111/j.1741-6787.
+2011.00229.x
+Franke, G. H. (2002). SCL-90-R. Die symptom-checkliste von L. R. Derogatis (2nd ed.). G €ottingen,
+Germany: Beltz Test.
+Fruhauf, A., Sevecke, K., & Kopp, M. (2019). Ist-Stand der Fachliteratur zu Effekten des
+therapeutischen Kletterns auf die psychische Gesundheit – Fazit: viel zu tun [Current state of
+the scientiﬁc literature on effects of therapeutic climbing on mental health– Conclusion: A lot to
+do]. Neuropsychiatrie, 33(1), 1–7. https://doi.org/10.1007/s40211-018-0283-0
+Gordon, B. R., McDowell, C. P., Hallgren, M., Meyer, J. D., Lyons, M., & Herring, M. P. (2018).
+Association of efﬁcacy of resistance exercise training with depressive symptoms: Meta-analysis
+and meta-regression analysis of randomized clinical trials. JAMA Psychiatry , 75, 566 –576.
+https://doi.org/10.1001/jamapsychiatry.2018.0572
+Gr€afe, K., Zipfel, S., Herzog, W., & L €owe, B. (2004). Screening psychischer St €orungen mit dem
+“Gesundheitsfragebogen f€ur Patienten (PHQ-D)“. [Screening for psychiatric disorders with the
+Patient Health Questionnaire (PHQ). Results from the German validation study]. Diagnostica,
+50(4), 171–181. https://doi.org/10.1026/0012-1924.50.4.171
+Group, T. E. (1990). EuroQol – A new facility for the measurement of health-related quality of life.
+Health Policy, 16, 199–208. https://doi.org/10.1016/0168-8510(90)90421-9
+Hahn, S. (2012). Understanding noninferiority trials. Korean Journal of Pediatrics , 55, 403–407.
+https://doi.org/10.3345/kjp.2012.55.11.403
+Hautzinger, M. (2011). Depressionen [Depression]. In M. Linden & M. Hautzinger (Eds.),
+Verhaltenstherapiemanual [Behavioural Therapy Manual] (pp. 565 –571). Berlin,
+Heidelberg, Germany: Springer Berlin Heidelberg.
+Hautzinger, M., & Kischkel, E. (1999). Kurzzeit-Psychotherapeutisches Behandlungskonzept f €ur
+unterschwellige und leichte depressive St €orungen. Ein Behandlungsmanual [Short-term
+psychotherapeutic treatment concept for subthreshold and mild depressive disorders. A
+treatment manual] (3.3.1 ed.). Bonn, Germany: Klinik und Poliklinik f €ur Psychiatrie und
+Psychotherapie der Rheinischen Friedrich Wilhelms Universit €at Bonn.
+Hawley, C. J., Gale, T. M., Sivakumaran, T., & Group, H. N. R. (2002). Deﬁning remission by cut off
+score on the MADRS: Selecting the optimal value. Journal of Affective Disorders , 72(2), 177–
+184. https://doi.org/10.1016/s0165-0327(01)00451-7
+490 Katharina Luttenberger et al.
+ 20448260, 2022, 2, Downloaded from https://bpspsychub.onlinelibrary.wiley.com/doi/10.1111/bjc.12347 by Universitätsbibliothek Basel, Wiley Online Library on [03/04/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+Hermens, M. L. M., van Hout, H. P. J., Terluin, B., Ad/C18er, H. J., Penninx, B. W. J. H., van Marwijk, H. W.
+J., ... de Haan, M. (2007). Clinical effectiveness of usual care with or without antidepressant
+medication for primary care patients with minor or mild-major depression: A randomized
+equivalence trial. BMC Medicine, 5(1), 36. https://doi.org/10.1186/1741-7015-5-36
+H€olzel, L. P., Bermejo, I., Kriston, L., von Wolff, A., Kornacher, J., Harter, C., ... H€arter, M. (2014).
+Verweildauer in der station€aren Depressionsbehandlung [Length of stay in inpatient depression
+treatment]. Der Nervenarzt, 85, 344–349. https://doi.org/10.1007/s00115-012-3723-2
+Jack, M. (2007). Fragebogen zur Erfassung von Ressourcen und Selbstmanagementf €ahigkeiten
+(FERUS) [Questionnaire for the Assessment of Resources and Self-Management Skills
+(FERUS)].G €ottingen, Germany: Hogrefe.
+Karg, N., Dorscht, L., Kornhuber, J., & Luttenberger, K. (2020). Bouldering psychotherapy is more
+effective in the treatment of depression than physical exercise alone: Results of a multicentre
+randomised controlled intervention study. BMC Psychiatry , 20(1), 116. https://doi.org/10.
+1186/s12888-020-02518-y
+Kim, S.-H., & Seo, D.-Y. (2015). Effects of a therapeutic climbing program on muscle activation and
+SF-36 scores of patients with lower back pain. Journal of Physical Therapy Science , 27, 743–
+746. https://doi.org/10.1589/jpts.27.743
+Kleinstaeuber, M., Reuter, M., Doll, N., & Fallgatter, A. J. (2017). Rock climbing and acute emotion
+regulation in patients with major depressive disorder in the context of a psychological inpatient
+treatment: A controlled pilot trial. Psychology Research and Behavior Management , 10, 277–
+281. https://doi.org/10.2147/PRBM.S143830
+Kratzer, A., Luttenberger, K., Karg-Hefner, N., Weiss, M., & Dorscht, L. (2021). Bouldering
+psychotherapy is effective in enhancing perceived self-efﬁcacy in people with depression:
+Results from a multicenter randomized controlled trial. BMC Psychology, 9(1), 126. https://doi.
+org/10.1186/s40359-021-00627-1
+Kroenke, K., Spitzer, R. L., & Williams, J. B. W. (2001). The PHQ-9: Validity of a brief depression
+severity measure. Journal of General Internal Medicine, 16, 606–613. https://doi.org/10.1046/
+j.1525-1497.2001.016009606.x
+Lambert, M. J., & Ogles, B. M. (2004). The efﬁcacy and effectiveness of psychotherapy. In M. J.
+Lambert (Ed.), Bergin and Garﬁeld’s handbook of psychotherapy and behavior change (5th
+ed., pp. 139 –193). New York, NY: Wiley.
+L€owe, B., Spitzer, R. L., Zipfel, S., & Herzog, W. (2002). PHQ-D. Gesundheitsfragebogen f €ur
+Patienten. Manual [PHQ-D. Health questionnaire for patients. Manual] (2nd ed.). Pﬁzer.
+Lukowski, T. (2017). Klettern in der Therapie [Climbing in therapy] .M €unchen, Germany: Ernst
+Reinhardt Verlag.
+Luttenberger, K., Stelzer, E. M., Forst, S., Schopper, M., Kornhuber, J., & Book, S. (2015). Indoor rock
+climbing (bouldering) as a new treatment for depression: Study design of a waitlist-controlled
+randomized group pilot study and the ﬁrst results. BMC Psychiatry, 15, 201. https://doi.org/10.
+1186/s12888-015-0585-8
+Lutter, C., El-Sheikh, Y., Schofﬂ, I., & Schofﬂ, V. (2017). Sport climbing: Medical considerations for
+this new Olympic discipline. British Journal of Sports Medicine, 51(1), 2–3. https://doi.org/10.
+1136/bjsports-2016-096871
+Macaya, F., Ryan, N., Salinas, P., & Pocock, S. J. (2017). Challenges in the design and interpretation of
+noninferiority trials: Insights from recent stent trials. Journal of the American College of
+Cardiology, 70, 894–903. https://doi.org/10.1016/j.jacc.2017.06.039
+Mazzoni, E. R., Purves, P. L., Southward, J., Rhodes, R. E., & Temple, V. A. (2009). Effect of indoor
+wall climbing on self-efﬁcacy and self-perceptions of children with special needs. Adapted
+Physical Activity Quarterly , 26(3), 259–273. https://doi.org/10.1123/apaq.26.3.259
+Mehl, K., & Wolf, M. (2008). Erfahrungsorientiertes Lernen in der Psychotherapie – Evaluation
+psychophysischer Expositionen auf dem Hochseil im Rahmen eines multimethodalen
+station€aren Behandlungskonzeptes. [Experiential learning in psychotherapy. Evaluation of
+psychophysical exposure to a tightrope course as adjunct to inpatient psychotherapeutic
+treatment]. Psychotherapeut, 53(1), 35–42. https://doi.org/10.1007/s00278-007-0569-3
+Bouldering psychotherapy for treating depression 491
+ 20448260, 2022, 2, Downloaded from https://bpspsychub.onlinelibrary.wiley.com/doi/10.1111/bjc.12347 by Universitätsbibliothek Basel, Wiley Online Library on [03/04/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+Mensink, G., Schienkiewitz, A., Haftenberger, M., Lampert, T., Ziese, T., & Scheidt-Nave, C. (2013).
+Overweight and obesity in Germany.Bundesgesundheitsblatt, 56, 786–794. https://doi.org/10.
+1007/s00103-012-1656-3
+Mergl, R., Henkel, V., Allgaier, A.-K., Kramer, D., Hautzinger, M., Kohnen, R., ... Hegerl, U. (2011).
+Are treatment preferences relevant in response to serotonergic antidepressants and cognitive-
+behavioral therapy in depressed primary care patients? Results from a randomized controlled
+trial including a patients’ choice arm. Psychotherapy and Psychosomatics , 80(1), 39 –47.
+https://doi.org/10.1159/000318772
+Mermier, C. M., Robergs, R. A., McMinn, S. M., & Heyward, V. H. (1997). Energy expenditure and
+physiological responses during indoor rock climbing.British Journal of Sports Medicine, 31(3),
+224–228. https://doi.org/10.1136/bjsm.31.3.224
+Mojtabai, R., Olfson, M., Sampson, N. A., Jin, R., Druss, B., Wang, P. S., ... Kessler, R. C. (2011).
+Barriers to mental health treatment: Results from the National Comorbidity Survey Replication.
+Psychological Medicine, 41, 1751–1761. https://doi.org/10.1017/S0033291710002291
+Mollenhauer, A., Doll, N., Renz, P., & Luntz, J. (2011). Therapeutisches klettern in der
+akutpsychiatrie. [Therapeutic climbing for acute psychiatric patients]. Pﬂegewissenschaft, 9,
+453–461. https://doi.org/10.3936/1101
+Montgomery, S. A., & Asberg, M. (1979). A new depression scale designed to be sensitive to change.
+The British Journal of Psychiatry , 134, 382–389. https://doi.org/10.1192/bjp.134.4.382
+M€uller, M. J., Himmerich, H., Kienzle, B., & Szegedi, A. (2003). Differentiating moderate and severe
+depression using the Montgomery-/C23Asberg depression rating scale (MADRS).Journal of Affective
+Disorders, 77(3), 255–260. https://doi.org/10.1016/S0165-0327(02)00120-9
+NICE. (2009). Depression in adults: recognition and management. Retrieved from https://www.
+nice.org.uk/guidance/cg90/chapter/Introduction
+Okumura, Y., & Ichikura, K. (2014). Efﬁcacy and acceptability of group cognitive behavioral therapy
+for depression: A systematic review and meta-analysis.Journal of Affective Disorders, 164, 155–
+164. https://doi.org/10.1016/j.jad.2014.04.023
+Raue, P. J., Schulberg, H. C., Heo, M., Klimstra, S., & Bruce, M. L. (2009). Patients’ depression
+treatment preferences and initiation, adherence, and outcome: A randomized primary care
+study. Psychiatric Services, 60, 337–343. https://doi.org/10.1176/appi.ps.60.3.337
+Richards, D. A., Ekers, D., McMillan, D., Taylor, R. S., Byford, S., Warren, F. C.,... Finning, K. (2016).
+Cost and outcome of behavioural activation versus cognitive behavioural therapy for depression
+(COBRA): A randomised, controlled, non-inferiority trial.Lancet, 388, 871–880. https://doi.org/
+10.1016/s0140-6736(16)31140-0
+Rodio, A., Fattorini, L., Rosponi, A., Quattrini, F. M., & Marchetti, M. (2008). Physiological adaptation
+in noncompetitive rock climbers: Good for aerobic ﬁtness? Journal of Strength and
+Conditioning Research, 22, 359–364. https://doi.org/10.1519/JSC.0b013e3181635cd0
+Rohrig, B., du Prel, J. B., Wachtlin, D., Kwiecien, R., & Blettner, M. (2010). Sample size calculation in
+clinical trials: Part 13 of a series on evaluation of scientiﬁc publications. Deutsches €Arzteblatt
+International, 107, 552–556. https://doi.org/10.3238/arztebl.2010.0552
+Romppel, M., Herrmann-Lingen, C., Wachter, R., Edelmann, F., Dungen, H. D., Pieske, B., & Grande,
+G. (2013). A short form of the General Self-Efﬁcacy Scale (GSE-6): Development, psychometric
+properties and validity in an intercultural non-clinical sample and a sample of patients at risk for
+heart failure. Psycho-social Medicine, 10, Doc01. https://doi.org/10.3205/psm000091
+Schaub, A., Roth, E., & Goldmann, U. (2013).Kognitiv-psychoedukative Therapie zur Bew€altigung
+von Depressionen. Ein Therapiemanual [Cognitive-psychoeducational therapy for coping
+with depression. A therapy manual] (2nd ed.). G €ottingen, Germany: Hogrefe.
+Schnitzler, E. E. (2009). Loslassen, um weiter zu kommen– Praxisbericht: Therapeutisches Klettern
+in der psychosomatischen Rehabilitation. [Letting go in order to move on-clinical report:
+Therapeutic climbing in psychosomatic rehabilitation]. Rehabilitation, 48(1), 51–58. https://
+doi.org/10.1055/s-0028-1100408
+Schram Christensen, M., Jensen, T., Voigt, C. B., Nielsen, J. B., & Lorentzen, J. (2017). To be active
+through indoor-climbing: An exploratory feasibility study in a group of children with cerebral
+492 Katharina Luttenberger et al.
+ 20448260, 2022, 2, Downloaded from https://bpspsychub.onlinelibrary.wiley.com/doi/10.1111/bjc.12347 by Universitätsbibliothek Basel, Wiley Online Library on [03/04/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+palsy and typically developing children. BMC Neurology, 17(1), 112. https://doi.org/10.1186/
+s12883-017-0889-z
+Schuch, F. B., Vancampfort, D., Richards, J., Rosenbaum, S., Ward, P. B., & Stubbs, B. (2016).
+Exercise as a treatment for depression: A meta-analysis adjusting for publication bias. Journal of
+Psychiatric Research, 77,4 2–51. https://doi.org/10.1016/j.jpsychires.2016.02.023
+Schwarz, L., Dorscht, L., Book, S., Stelzer, E. M., Kornhuber, J., & Luttenberger, K. (2019). Long-term
+effects of bouldering psychotherapy on depression: Beneﬁts can be maintained across a 12-
+month follow-up. Heliyon, 5(12), e02929. https://doi.org/10.1016/j.heliyon.2019.e02929
+Spitzer, R. L., Kroenke, K., Williams, J. B., & Lowe, B. (2006). A brief measure for assessing
+generalized anxiety disorder: The GAD-7. Archives of Internal Medicine , 166, 1092 –1097.
+https://doi.org/10.1001/archinte.166.10.1092
+Stelzer, E.-M., Book, S., Graessel, E., Hofner, B., Kornhuber, J., & Luttenberger, K. (2018). Bouldering
+psychotherapy reduces depressive symptoms even when general physical activity is controlled
+for: A randomized controlled trial. Heliyon, 4(3), e00580. https://doi.org/10.1016/j.heliyon.
+2018.e00580
+Sulz, S. K. D. (2011). Therapiebuch II. Strategische Kurzzeittherapie [Therapy Book II. Strategic
+Short-Term Therapy].M €unchen, Germany: CIP-Medien.
+Thimm, J. C., & Antonsen, L. (2014). Effectiveness of cognitive behavioral group therapy for
+depression in routine practice. BMC Psychiatry, 14, 292. https://doi.org/10.1186/s12888-014-
+0292-x
+Wallner, S. (2010). Psychologisches Klettern: Klettern als Mittel klinisch- und
+gesundheitspsychologischen Handelns. [Psychological Climbing. Climbing as an instrument
+of clinical and health psychological treatment]. Psychologie in €Osterreich, 30, 396 –
+403.Retrieved from www.psychologie-wallner.com/app/download/5302640011/
+Psychologisches+Klettern.pdf?t=1314346483
+Williams, J. B. W., & Kobak, K. A. (2008). Development and reliability of a structured interview guide
+for the Montgomery- /C23Asberg Depression Rating Scale (SIGMA). The British Journal of
+Psychiatry, 192(1), 52–58. https://doi.org/10.1192/bjp.bp.106.032532
+Wolf, M., & Mehl, K. (2011). Experiential learning in psychotherapy: Ropes course exposures as an
+adjunct to inpatient treatment. Clinical Psychology and Psychotherapy, 18(1), 60–74. https://
+doi.org/10.1002/cpp.692
+Received 15 March 2021
+Bouldering psychotherapy for treating depression 493
+ 20448260, 2022, 2, Downloaded from https://bpspsychub.onlinelibrary.wiley.com/doi/10.1111/bjc.12347 by Universitätsbibliothek Basel, Wiley Online Library on [03/04/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License

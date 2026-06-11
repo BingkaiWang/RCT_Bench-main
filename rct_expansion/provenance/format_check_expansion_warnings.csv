@@ -1,0 +1,7 @@
+"Trial_ID","has_csv","has_rds","n_rows","n_cols","csv_rows","csv_cols","names_match","data_frame","treatment_factor","treatment_missing","treatment_levels","n_yp","n_ys","n_x","n_bad_prefix","duplicate_names","bad_names","bad_prefix","y_all_missing","x_all_missing","y_model_hostile","exact_duplicate_columns","hard_format_pass","analysis_compatible"
+55,TRUE,TRUE,56,15,56,15,TRUE,TRUE,TRUE,0,2,1,3,10,0,FALSE,"","","","","YS_pulmonary_rehab_attendance_12m","",TRUE,TRUE
+92,TRUE,TRUE,371,30,371,30,TRUE,TRUE,TRUE,0,2,2,8,19,0,FALSE,"","","","","YS_malaria_diagnosis_2m;YS_malaria_diagnosis_4m","",TRUE,TRUE
+95,TRUE,TRUE,148,24,148,24,TRUE,TRUE,TRUE,0,2,1,8,14,0,FALSE,"","","","","YS_postop_throat_pain","",TRUE,TRUE
+101,TRUE,TRUE,417,7,417,7,TRUE,TRUE,TRUE,0,2,1,1,4,0,FALSE,"","","","","YP_eq5d_pain_3m","",TRUE,TRUE
+103,TRUE,TRUE,599,8,599,8,TRUE,TRUE,TRUE,0,3,1,2,4,0,FALSE,"","","","","YP_eq5d_pain_3m;YS_mmse_3m","",TRUE,TRUE
+114,TRUE,TRUE,138,8,138,8,TRUE,TRUE,TRUE,0,2,1,2,4,0,FALSE,"","","","","YP_rankin_3m;YS_nihss_day7;YS_barthel_3m","",TRUE,TRUE

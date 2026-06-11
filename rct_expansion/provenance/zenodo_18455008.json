@@ -1,0 +1,210 @@
+{
+  "created": "2026-02-11T11:46:28.799234+00:00",
+  "modified": "2026-02-11T11:46:29.344602+00:00",
+  "id": 18455008,
+  "conceptrecid": "18455007",
+  "doi": "10.5281/zenodo.18455008",
+  "conceptdoi": "10.5281/zenodo.18455007",
+  "doi_url": "https://doi.org/10.5281/zenodo.18455008",
+  "metadata": {
+    "title": "Data for \"Transcranial direct current stimulation and cognitive training in the treatment of cognitive deficit in schizophrenia: a randomized controlled trial\"",
+    "doi": "10.5281/zenodo.18455008",
+    "publication_date": "2026-02-02",
+    "description": "<p>This dataset contains clinical, cognitive, and psychopathology data from a randomized, double-blind, sham-controlled trial investigating the effects of transcranial direct current stimulation (tDCS) combined with cognitive training on cognitive functioning in patients with schizophrenia (ICD-10: F20).<\/p>\n<p>The data correspond to the study published as: &nbsp;<\/p>\n<p><em>Stuchl&iacute;kov&aacute;, Z., Biačkov&aacute;, N., Laskov, O.&nbsp;et al.&nbsp;Transcranial direct current stimulation and cognitive training in the treatment of cognitive deficit in schizophrenia: a randomized controlled trial.&nbsp;BMC Psychiatry&nbsp;<strong>26<\/strong>, 102 (2026). https://doi.org/10.1186/s12888-025-07749-5<\/em><\/p>\n<p>&nbsp;<\/p>",
+    "access_right": "open",
+    "creators": [
+      {
+        "name": "Stuchlikova, Zuzana",
+        "affiliation": "Charles University",
+        "orcid": "0000-0002-8048-8688"
+      },
+      {
+        "name": "Biackova, Nina",
+        "affiliation": "National Institute of Mental Health",
+        "orcid": "0009-0001-6233-9478"
+      },
+      {
+        "name": "Laskov, Olga",
+        "affiliation": "National Institute of Mental Health",
+        "orcid": "0000-0002-2856-1024"
+      },
+      {
+        "name": "Čechová, Anna",
+        "affiliation": "Charles University",
+        "orcid": "0000-0002-5802-6006"
+      },
+      {
+        "name": "Böhmová, Natálie-Anna",
+        "affiliation": "National Institute of Mental Health"
+      },
+      {
+        "name": "Renková, Veronika",
+        "affiliation": "National Institute of Mental Health"
+      },
+      {
+        "name": "Jelínková, Barbora",
+        "affiliation": "National Institute of Mental Health"
+      },
+      {
+        "name": "Novák, Tomáš",
+        "affiliation": "National Institute of Mental Health",
+        "orcid": "0000-0001-9156-9654"
+      },
+      {
+        "name": "Klirova, Monika",
+        "affiliation": "National Institute of Mental Health",
+        "orcid": "0000-0002-8092-9586"
+      }
+    ],
+    "keywords": [
+      "neuromodulation",
+      "tDCS"
+    ],
+    "related_identifiers": [
+      {
+        "identifier": "10.1186/s12888-025-07749-5",
+        "relation": "isSupplementTo",
+        "resource_type": "publication-article",
+        "scheme": "doi"
+      }
+    ],
+    "language": "eng",
+    "resource_type": {
+      "title": "Dataset",
+      "type": "dataset"
+    },
+    "journal": {
+      "issue": "102",
+      "title": "BMC Psychiatry",
+      "volume": "26"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "grants": [
+      {
+        "code": "CZ.02.01.01/00/22_008/0004643",
+        "internal_id": "037n8p820::CZ.02.01.01/00/22_008/0004643",
+        "funder": {
+          "name": "Ministry of Education Youth and Sports"
+        },
+        "title": "Brain Dynamics"
+      },
+      {
+        "code": "NW25-04-00023",
+        "internal_id": "05m8t8e28::NW25-04-00023",
+        "funder": {
+          "name": "Agentura Pro Zdravotnický Výzkum České Republiky"
+        }
+      },
+      {
+        "code": "8J24DE013",
+        "internal_id": "037n8p820::8J24DE013",
+        "funder": {
+          "name": "Ministry of Education Youth and Sports"
+        }
+      },
+      {
+        "code": "118724",
+        "internal_id": "024d6js02::118724",
+        "funder": {
+          "name": "Charles University"
+        }
+      }
+    ],
+    "communities": [
+      {
+        "id": "brady"
+      }
+    ],
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "18455007"
+          }
+        }
+      ]
+    }
+  },
+  "title": "Data for \"Transcranial direct current stimulation and cognitive training in the treatment of cognitive deficit in schizophrenia: a randomized controlled trial\"",
+  "links": {
+    "self": "https://zenodo.org/api/records/18455008",
+    "self_html": "https://zenodo.org/records/18455008",
+    "preview_html": "https://zenodo.org/records/18455008?preview=1",
+    "doi": "https://doi.org/10.5281/zenodo.18455008",
+    "self_doi": "https://doi.org/10.5281/zenodo.18455008",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.18455008",
+    "reserve_doi": "https://zenodo.org/api/records/18455008/draft/pids/doi",
+    "parent": "https://zenodo.org/api/records/18455007",
+    "parent_html": "https://zenodo.org/records/18455007",
+    "parent_doi": "https://doi.org/10.5281/zenodo.18455007",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.18455007",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:18455008/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:18455008/sequence/default",
+    "files": "https://zenodo.org/api/records/18455008/files",
+    "media_files": "https://zenodo.org/api/records/18455008/media-files",
+    "archive": "https://zenodo.org/api/records/18455008/files-archive",
+    "archive_media": "https://zenodo.org/api/records/18455008/media-files-archive",
+    "latest": "https://zenodo.org/api/records/18455008/versions/latest",
+    "latest_html": "https://zenodo.org/records/18455008/latest",
+    "versions": "https://zenodo.org/api/records/18455008/versions",
+    "draft": "https://zenodo.org/api/records/18455008/draft",
+    "access_links": "https://zenodo.org/api/records/18455008/access/links",
+    "access_grants": "https://zenodo.org/api/records/18455008/access/grants",
+    "access_users": "https://zenodo.org/api/records/18455008/access/users",
+    "access_request": "https://zenodo.org/api/records/18455008/access/request",
+    "access": "https://zenodo.org/api/records/18455008/access",
+    "communities": "https://zenodo.org/api/records/18455008/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/18455008/communities-suggestions",
+    "request_deletion": "https://zenodo.org/api/records/18455008/request-deletion",
+    "file_modification": "https://zenodo.org/api/records/18455008/file-modification",
+    "quota_increase": "https://zenodo.org/api/records/18455008/quota-increase",
+    "requests": "https://zenodo.org/api/records/18455008/requests"
+  },
+  "updated": "2026-02-11T11:46:29.344602+00:00",
+  "recid": "18455008",
+  "revision": 4,
+  "files": [
+    {
+      "id": "ca2de1e6-0cc2-49f3-9d85-d32d552428bb",
+      "key": "README.md",
+      "size": 3865,
+      "checksum": "md5:9b44d253a8ebbfdeb29f6a7408330647",
+      "links": {
+        "self": "https://zenodo.org/api/records/18455008/files/README.md/content"
+      }
+    },
+    {
+      "id": "91ff1098-16b3-4db2-8c8f-ae9c70bed837",
+      "key": "tDCS+cognitive training study data share.csv",
+      "size": 12146,
+      "checksum": "md5:c17206930daff81cdcc24a499cc026eb",
+      "links": {
+        "self": "https://zenodo.org/api/records/18455008/files/tDCS+cognitive%20training%20study%20data%20share.csv/content"
+      }
+    }
+  ],
+  "swh": {},
+  "owners": [
+    {
+      "id": "1196315"
+    }
+  ],
+  "status": "published",
+  "stats": {
+    "downloads": 20,
+    "unique_downloads": 19,
+    "views": 85,
+    "unique_views": 77,
+    "version_downloads": 20,
+    "version_unique_downloads": 19,
+    "version_unique_views": 77,
+    "version_views": 85
+  },
+  "state": "done",
+  "submitted": true
+}

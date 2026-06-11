@@ -1,0 +1,5 @@
+Trial_ID: 88
+Paper Name: Effects of nutrition education on recurrent coronary events after PCI
+Paper Link: https://doi.org/10.1186/s40795-016-0111-5
+Citation: Effects of nutrition education on recurrent coronary events after PCI. BMC Nutrition (2016). doi:10.1186/s40795-016-0111-5
+Availability: PDF stored here when publicly available; otherwise this file records the publication link.

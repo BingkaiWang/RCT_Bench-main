@@ -1,0 +1,8 @@
+rule,logic
+Already curated,Exclude before new work when candidate DOI or related publication DOI matches active expansion download_log.csv or original meta_data.xlsx paper DOI.
+Download first,"Direct repository client, explicit file/tabular signal, publication DOI signal, human clinical/health signal, and no strict red flags."
+Landing page / file manifest first,"Direct repository client plus publication DOI and health signal, but missing explicit file evidence. Inspect landing page or file manifest only before downloading data."
+Source-specific manual check,"Explicit data-file signal, publication DOI, and health signal, but source is not a preferred direct open repository or may need special access/source interpretation."
+Defer - missing access/file certainty,"Publication-backed health record, but source or file/access metadata is too sparse for a first download batch."
+Defer - low clinical or data confidence,Metadata does not strongly support human clinical/health RCT data or publication/file readiness.
+Exclude before download,"Restriction/custom/DUA, animal/veterinary, observational/secondary analysis, protocol/materials-only, cluster/stepped-wedge, aggregate/simulation, meta-analysis/genome-only, or non-clinical policy/economics signal."

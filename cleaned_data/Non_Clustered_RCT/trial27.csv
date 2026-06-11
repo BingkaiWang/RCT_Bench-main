@@ -1,0 +1,102 @@
+Treatment,YP_bleeding_text,YP_surgical_problem_bleeding,YP_bleeding_score,YP_bleeding_category3,YS_surgery_duration_min,YS_vent_settings_changes,YS_vent_mode_modification,YS_hypoxemia_episodes,YS_recruitment_maneuvers,YS_min_SpO2,YS_pain_PACU,YS_endocrine_status_3m,X_Tv_0d,X_FiO2_0d,X_AI_0d,X_Rate_0d
+VCV,important without modifying the conduct of the surgical procedure,yes,6,major,49,6,no,0,0,97,0,NA,375,0.5,NA,12
+PCV,minimal (almost nil),no,2,mild,27,4,no,0,0,98,3,NA,475,0.6,15,12
+VCV,weak,NA,4,moderate,40,0,no,1,1,92,NA,NA,450,0.5,NA,12
+VCV,medium,no,5,moderate,45,2,NA,0,0,92,NA,NA,450,0.5,NA,12
+PCV,important without modifying the conduct of the surgical procedure,yes,6,major,29,6,no,0,0,96,NA,NA,NA,0.5,15,12
+VCV,medium,NA,5,moderate,42,4,no,0,0,95,NA,NA,525,0.5,NA,12
+PCV,medium,yes,5,moderate,65,4,no,0,0,98,5,NA,411,0.5,NA,12
+PCV,important and modifying the conduct of the surgical procedure,yes,7,major,67,8,no,0,0,98,NA,NA,430,NA,15,12
+VCV,important and modifying the conduct of the surgical procedure,yes,7,major,107,1,yes,0,0,99,NA,NA,500,0.5,NA,12
+PCV,medium,no,5,moderate,29,2,no,0,0,97,NA,NA,557,0.5,15,12
+VCV,NA,NA,NA,NA,NA,5,yes,1,NA,NA,1,NA,300,0.5,NA,12
+VCV,very weak,no,3,mild,35,1,no,0,0,98,1,NA,500,0.5,0,12
+VCV,medium,NA,5,moderate,50,2,no,0,0,98,NA,NA,375,0.5,NA,12
+PCV,important without modifying the conduct of the surgical procedure,yes,6,major,33,8,no,0,0,95,1,NA,488,0.5,15,10
+VCV,medium,no,5,moderate,35,2,no,0,0,98,0,NA,550,0.6,NA,12
+PCV,important without modifying the conduct of the surgical procedure,yes,6,major,30,4,no,0,1,92,0,NA,NA,0.5,15,12
+VCV,minimal (almost nil),no,2,mild,25,3,no,0,0,98,0,NA,500,0.5,NA,12
+PCV,very weak,no,3,mild,42,5,no,0,0,96,3,NA,500,0.6,15,12
+VCV,important and modifying the conduct of the surgical procedure,yes,7,major,42,2,no,0,0,96,NA,NA,400,0.6,NA,12
+VCV,important and modifying the conduct of the surgical procedure,yes,7,major,40,1,no,NA,0,99,NA,NA,475,0.5,NA,12
+PCV,very weak,no,3,mild,20,0,no,0,0,97,NA,NA,480,0.5,NA,12
+PCV,medium,no,5,moderate,40,10,no,4,1,90,1,NA,420,0.5,15,12
+PCV,minimal (almost nil),no,2,mild,30,4,no,0,0,94,0,NA,400,0.5,11,11
+VCV,medium,yes,5,moderate,35,2,no,0,0,98,1,NA,400,0.6,0,12
+VCV,weak,no,4,moderate,39,0,no,0,0,97,1,NA,525,0.5,NA,14
+PCV,very weak,no,3,mild,50,0,no,0,0,98,7,NA,375,0.5,10,12
+VCV,important and modifying the conduct of the surgical procedure,yes,7,major,48,3,no,0,0,97,2,NA,364,0.5,NA,12
+VCV,NA,NA,NA,NA,73,3,no,0,0,96,NA,NA,462,0.5,NA,12
+PCV,important without modifying the conduct of the surgical procedure,yes,6,major,34,2,no,0,0,92,0,NA,400,0.5,12,14
+PCV,very weak,no,3,mild,32,3,no,0,0,96,NA,NA,525,0.5,15,12
+PCV,medium,yes,5,moderate,23,3,no,1,1,81,NA,NA,392,0.5,15,12
+VCV,weak,no,4,moderate,69,0,no,0,0,99,8,NA,550,1,NA,12
+PCV,very weak,no,3,mild,83,6,no,0,0,99,0,NA,341,0.5,15,12
+PCV,medium,NA,5,moderate,66,5,no,0,0,94,0,NA,455,0.5,15,12
+VCV,weak,no,4,moderate,48,3,no,0,0,97,0,NA,560,0.5,NA,12
+VCV,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,525,0.5,NA,12
+VCV,medium,yes,5,moderate,30,4,no,0,0,94,NA,NA,325,0.5,NA,12
+VCV,medium,NA,5,moderate,50,0,no,0,0,95,4,NA,500,1,NA,12
+PCV,important and modifying the conduct of the surgical procedure,yes,7,major,32,7,no,0,0,100,NA,NA,340,0.5,15,12
+PCV,minimal (almost nil),no,2,mild,24,2,no,0,0,97,NA,NA,411,0.5,15,12
+VCV,very weak,no,3,mild,52,3,no,0,0,99,NA,NA,480,0.5,NA,12
+PCV,very weak,no,3,mild,30,1,no,0,0,99,NA,NA,390,0.5,15,12
+PCV,very weak,no,3,mild,43,8,no,0,0,98,NA,NA,513,0.5,15,12
+VCV,very weak,no,3,mild,49,0,no,0,0,98,NA,NA,500,0.5,NA,12
+VCV,medium,yes,5,moderate,34,0,no,0,0,95,NA,NA,450,0.5,NA,12
+PCV,medium,NA,5,moderate,120,2,no,0,0,97,NA,NA,539,0.5,15,12
+PCV,medium,no,5,moderate,47,3,no,0,0,97,NA,NA,NA,0.5,15,12
+PCV,minimal (almost nil),no,2,mild,48,3,no,0,0,98,NA,NA,367,0.5,15,12
+VCV,medium,yes,5,moderate,35,0,no,0,0,95,0,NA,500,0.5,NA,12
+PCV,medium,yes,5,moderate,50,2,no,0,0,97,NA,NA,480,0.5,15,12
+VCV,weak,no,4,moderate,35,0,no,0,0,95,1,NA,550,0.55,NA,12
+VCV,weak,no,4,moderate,53,4,no,0,0,99,NA,NA,481,0.3,NA,16
+VCV,medium,yes,5,moderate,52,0,no,0,0,96,NA,NA,375,0.5,NA,12
+VCV,very weak,no,3,mild,39,1,no,1,1,90,0,NA,375,0.5,NA,12
+PCV,minimal (almost nil),no,2,mild,25,3,no,0,0,97,NA,NA,770,0.5,15,12
+PCV,important without modifying the conduct of the surgical procedure,yes,6,major,33,2,no,0,0,100,NA,NA,551,0.5,15,12
+VCV,very weak,no,3,mild,52,0,no,0,0,98,NA,NA,450,0.5,NA,12
+PCV,important without modifying the conduct of the surgical procedure,yes,6,major,62,3,no,0,0,97,7,NA,354,0.5,15,12
+VCV,important without modifying the conduct of the surgical procedure,NA,6,major,69,0,no,0,0,97,2,NA,550,0.5,NA,12
+PCV,medium,no,5,moderate,74,4,no,0,0,98,1,NA,700,0.5,15,12
+VCV,important without modifying the conduct of the surgical procedure,yes,6,major,32,4,no,0,0,98,0,NA,475,0.5,NA,12
+PCV,important without modifying the conduct of the surgical procedure,NA,6,major,83,15,no,0,0,94,0,NA,NA,0.5,15,12
+VCV,medium,no,5,moderate,65,5,no,0,0,96,4,NA,400,0.5,NA,12
+PCV,weak,no,4,moderate,45,6,no,0,0,97,0,NA,NA,0.4,15,12
+VCV,minimal (almost nil),no,2,mild,36,4,no,0,0,93,2,NA,320,0.5,NA,14
+PCV,weak,no,4,moderate,30,10,no,0,0,95,1,NA,557,0.5,15,12
+PCV,very weak,no,3,mild,23,0,no,0,0,97,0,NA,410,0.45,14,12
+VCV,very weak,no,3,mild,36,3,no,0,0,98,1,NA,462,0.5,NA,12
+PCV,medium,yes,5,moderate,59,3,no,0,0,96,1,NA,425,0.5,15,12
+VCV,minimal (almost nil),no,2,mild,41,0,no,0,0,98,0,NA,375,0.5,NA,12
+VCV,very weak,no,3,mild,40,0,no,0,0,97,1,NA,500,0.5,NA,12
+PCV,important without modifying the conduct of the surgical procedure,no,6,major,44,4,no,0,0,99,0,NA,411,0.5,15,11
+PCV,important and modifying the conduct of the surgical procedure,yes,7,major,50,1,no,0,0,94,3,NA,430,0.5,12,12
+VCV,important without modifying the conduct of the surgical procedure,yes,6,major,34,0,no,0,0,95,1,NA,450,0.5,NA,12
+PCV,very weak,no,3,mild,35,9,no,0,0,98,1,NA,540,0.5,15,12
+VCV,important without modifying the conduct of the surgical procedure,yes,6,major,37,0,no,0,0,98,1,NA,437,0.5,NA,12
+PCV,very weak,no,3,mild,41,10,no,0,1,97,1,NA,440,0.5,NA,14
+VCV,medium,no,5,moderate,41,4,no,0,0,98,NA,NA,525,0.5,NA,14
+PCV,medium,yes,5,moderate,40,2,no,0,0,97,0,NA,417,0.5,12,12
+VCV,NA,NA,NA,NA,67,2,no,0,0,98,8,NA,350,0.5,NA,12
+PCV,weak,no,4,moderate,46,4,no,0,0,99,5,NA,430,0.5,15,12
+VCV,minimal (almost nil),no,2,mild,35,2,no,0,0,98,0,NA,500,0.5,NA,12
+PCV,weak,no,4,moderate,70,4,no,0,0,98,4,NA,370,1,NA,12
+VCV,weak,no,4,moderate,38,0,no,0,0,97,1,NA,550,0.5,NA,12
+PCV,important and modifying the conduct of the surgical procedure,yes,7,major,31,2,no,0,0,94,NA,NA,550,0.5,15,10
+PCV,weak,no,4,moderate,35,1,no,0,0,98,NA,NA,430,0.5,15,12
+PCV,minimal (almost nil),no,2,mild,80,2,no,0,0,98,NA,NA,468,0.5,15,12
+VCV,very weak,no,3,mild,67,2,no,0,0,95,1,NA,450,0.5,NA,12
+PCV,medium,yes,5,moderate,39,3,no,0,0,98,4,NA,354,0.5,15,12
+VCV,medium,NA,5,moderate,36,1,no,0,0,98,0,NA,435,0.5,NA,12
+PCV,weak,no,4,moderate,45,1,no,0,0,98,NA,NA,542,0.5,15,12
+VCV,important without modifying the conduct of the surgical procedure,yes,6,major,42,0,no,0,0,96,NA,NA,532,0.5,NA,12
+VCV,weak,no,4,moderate,55,9,no,1,0,88,1,NA,350,1,NA,18
+PCV,minimal (almost nil),no,2,mild,35,1,no,0,0,98,NA,NA,335,0.5,15,12
+VCV,NA,NA,NA,NA,36,1,no,0,0,96,NA,NA,400,0.5,NA,12
+VCV,minimal (almost nil),no,2,mild,46,3,no,0,0,96,0,NA,315,0.5,NA,12
+VCV,important without modifying the conduct of the surgical procedure,yes,6,major,51,NA,no,0,9,95,0,NA,540,0.6,NA,12
+PCV,weak,no,4,moderate,NA,14,no,0,0,98,NA,NA,487,0.5,15,12
+VCV,minimal (almost nil),no,2,mild,46,2,no,0,0,99,NA,NA,475,0.5,NA,12
+PCV,minimal (almost nil),no,2,mild,52,5,no,0,0,98,NA,NA,532,0.5,15,12
+VCV,medium,no,5,moderate,NA,2,no,0,1,94,NA,NA,450,0.5,NA,12

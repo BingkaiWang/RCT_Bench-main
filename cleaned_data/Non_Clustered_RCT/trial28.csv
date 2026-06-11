@@ -1,0 +1,121 @@
+Treatment,YP_ContrSBP_6m,YS_BMI_6m,YS_delta_BMI_6m,YS_WC_6m,YS_delta_WC_6m,YS_MeanSBP_6m,YS_MeanDBP_6m,YS_delta_MeanSBP_6m,YS_ContrDBP_6m,YS_delta_MeanDBP_6m,YS_ControlledBP_6m,YS_TotalScoreA_6m,YS_delta_TotalScoreA_6m,X_SEX_0m,X_Age_0m,X_RxHTN_0m,X_BMI_0m,X_WC_0m,X_MeanSBP_0m,X_MeanDBP_0m,X_ContrSBP_0m,X_ContrDBP_0m,X_ControlledBP_0m,X_TotalScoreA_0m
+Edu+Visit,Uncontrolled,23.53036634346221,-1.6227838857560144,100,-15,140,105,5,Uncontrolled,-15,Uncontrolled,7.5,-2,Female,30-34,No,21.907582457706194,85,145,90,Uncontrolled,Uncontrolled,Uncontrolled,5.5
+Edu+Visit,Controlled,27.05515088449532,1.2486992715920913,87,1,135,85,5,Controlled,15,Controlled,8,-2.5,Female,30-34,No,28.30385015608741,88,140,100,Uncontrolled,Uncontrolled,Uncontrolled,5.5
+Usual Care,Controlled,25.2993759487266,-2.1082813290605493,86,4,125,80,30,Controlled,25,Controlled,4,1,Female,30-34,No,23.19109461966605,90,155,105,Uncontrolled,Uncontrolled,Uncontrolled,5
+Edu+Visit,Controlled,30.040816326530614,2.938775510204078,102,4,130,85,10,Controlled,5,Controlled,9,-0.5,Male,30-34,No,32.97959183673469,106,140,90,Uncontrolled,Uncontrolled,Uncontrolled,8.5
+Edu+Visit,Controlled,31.25,0,109,-5,135,100,25,Uncontrolled,20,Uncontrolled,9,-8.5,Female,30-34,No,31.25,104,160,120,Uncontrolled,Uncontrolled,Uncontrolled,0.5
+Edu+Visit,Uncontrolled,28.719723183391004,-3.470385978492633,100,-10,145,110,11,Uncontrolled,5,Uncontrolled,5,1.5,Male,35-39,No,25.24933720489837,90,156,115,Uncontrolled,Uncontrolled,Uncontrolled,6.5
+Edu+Visit,Controlled,22.14532871972318,1.3840830449827024,85,-2,135,95,5,Uncontrolled,5,Uncontrolled,7.5,-3.5,Male,35-39,No,23.529411764705884,83,140,100,Uncontrolled,Uncontrolled,Uncontrolled,4
+Usual Care,Controlled,28.282828282828284,1.0140467171717162,110,-2,130,100,40,Uncontrolled,25,Uncontrolled,3.5,1.5,Female,40-44,Yes,29.296875,108,170,125,Uncontrolled,Uncontrolled,Uncontrolled,5
+Usual Care,Uncontrolled,22.86236854138089,1.7470064586191114,93,5,140,110,0,Uncontrolled,-20,Uncontrolled,6,-1.5,Male,40-44,No,24.609375,98,140,90,Uncontrolled,Uncontrolled,Uncontrolled,4.5
+Usual Care,Controlled,28.125,-0.390625,100,2,130,90,5,Uncontrolled,0,Uncontrolled,5.5,-3.5,Female,40-44,No,27.734375,102,135,90,Controlled,Uncontrolled,Uncontrolled,2
+Usual Care,Controlled,26.271345468192905,-1.9481167848002663,92,-12,100,80,40,Controlled,20,Controlled,3,-1.5,Female,40-44,No,24.32322868339264,80,140,100,Uncontrolled,Uncontrolled,Uncontrolled,1.5
+Usual Care,Uncontrolled,30.32334258993265,0.6970655733326545,107,11,145,95,25,Uncontrolled,25,Uncontrolled,4,0,Male,40-44,No,31.020408163265305,118,170,120,Uncontrolled,Uncontrolled,Uncontrolled,4
+Edu+Visit,Controlled,27.92666996982118,-4.243498179110247,102,-5,125,80,19,Controlled,10,Controlled,9,-3,Female,40-44,No,23.683171790710933,97,144,90,Uncontrolled,Uncontrolled,Uncontrolled,6
+Edu+Visit,Controlled,21.79944510503369,1.3211784912141624,102,-2,130,90,12,Uncontrolled,10,Uncontrolled,8.5,-2,Male,40-44,No,23.120623596247853,100,142,100,Uncontrolled,Uncontrolled,Uncontrolled,6.5
+Usual Care,Uncontrolled,29.06122448979592,2.8265306122448983,105,4,140,100,0,Uncontrolled,-5,Uncontrolled,4,2.5,Male,40-44,Yes,31.887755102040817,109,140,95,Uncontrolled,Uncontrolled,Uncontrolled,6.5
+Edu+Visit,Controlled,27.34375,1.4606639721692574,100,5,130,89,0,Controlled,11,Controlled,5,-1,Female,40-44,No,28.804413972169257,105,130,100,Controlled,Uncontrolled,Uncontrolled,4
+Usual Care,Uncontrolled,22.892819979188346,0.2982746404777039,86,-2,140,100,10,Uncontrolled,-10,Uncontrolled,4,-2.5,Female,40-44,No,23.19109461966605,84,150,90,Uncontrolled,Uncontrolled,Uncontrolled,1.5
+Edu+Visit,Controlled,23.283418553688826,4.108838568298026,99,1,138,100,42,Uncontrolled,5,Uncontrolled,7,-2,Female,45-49,No,27.39225712198685,100,180,105,Uncontrolled,Uncontrolled,Uncontrolled,5
+Usual Care,Uncontrolled,28.04037814452812,-1.2017304919083465,106,-3,160,110,0,Uncontrolled,-10,Uncontrolled,4,0,Female,45-49,No,26.838647652619773,103,160,100,Uncontrolled,Uncontrolled,Uncontrolled,4
+Usual Care,Controlled,27.434842249657063,-1.1431184270690409,104,-1,120,80,30,Controlled,25,Controlled,4,0,Female,45-49,No,26.291723822588022,103,150,105,Uncontrolled,Uncontrolled,Uncontrolled,4
+Edu+Visit,Controlled,23.66524436157625,1.679108255503639,80,1,135,90,5,Uncontrolled,0,Uncontrolled,7,-3.5,Male,45-49,No,25.34435261707989,81,140,90,Uncontrolled,Uncontrolled,Uncontrolled,3.5
+Usual Care,Controlled,21.91358024691358,2.7777777777777786,90,2,120,80,50,Controlled,45,Controlled,5,-0.5,Male,45-49,Yes,24.691358024691358,92,170,125,Uncontrolled,Uncontrolled,Uncontrolled,4.5
+Usual Care,Uncontrolled,27.915518824609734,-3.147952904780439,92,-7,145,85,20,Controlled,30,Uncontrolled,3.5,4,Female,45-49,No,24.767565919829295,85,165,115,Uncontrolled,Uncontrolled,Uncontrolled,7.5
+Usual Care,Uncontrolled,29.01744719926538,3.6730945821854952,107,-6,140,85,0,Controlled,15,Uncontrolled,4,-1,Female,45-49,Yes,32.690541781450875,101,140,100,Uncontrolled,Uncontrolled,Uncontrolled,3
+Usual Care,Uncontrolled,26.76977989292088,0.28402288104650353,108,-4,185,120,-25,Uncontrolled,-20,Uncontrolled,4.5,3,Female,45-49,Yes,27.053802773967384,104,160,100,Uncontrolled,Uncontrolled,Uncontrolled,7.5
+Edu+Visit,Uncontrolled,19.377162629757784,-3.1141868512110698,91,-12,145,95,25,Uncontrolled,20,Uncontrolled,5.5,-2.5,Male,45-49,No,16.262975778546714,79,170,115,Uncontrolled,Uncontrolled,Uncontrolled,3
+Usual Care,Uncontrolled,24.22145328719723,0.6920415224913512,100,5,140,100,30,Uncontrolled,20,Uncontrolled,3.5,0.5,Female,45-49,No,24.913494809688583,105,170,120,Uncontrolled,Uncontrolled,Uncontrolled,4
+Edu+Visit,Uncontrolled,25.63116749967961,0,85,0,143,100,7,Uncontrolled,15,Uncontrolled,9.5,-3,Female,45-49,No,25.63116749967961,85,150,115,Uncontrolled,Uncontrolled,Uncontrolled,6.5
+Usual Care,Uncontrolled,28.88888888888889,1.0141398607373233,102,9,155,105,-15,Uncontrolled,-15,Uncontrolled,4,-2,Female,45-49,Yes,29.903028749626213,111,140,90,Uncontrolled,Uncontrolled,Uncontrolled,2
+Edu+Visit,Controlled,24.79666732791113,0.1434275422536686,97,2,120,80,60,Controlled,-10,Controlled,8.5,-3.5,Female,45-49,No,24.9400948701648,99,180,70,Uncontrolled,Controlled,Uncontrolled,5
+Edu+Visit,Uncontrolled,24.46460160337235,1.9816793883631867,98,2,160,100,9,Uncontrolled,-1,Uncontrolled,8.5,-2.5,Male,45-49,Yes,26.446280991735538,100,169,99,Uncontrolled,Uncontrolled,Uncontrolled,6
+Edu+Visit,Uncontrolled,23.24380165289256,1.7697191691734204,97,0,150,100,14,Uncontrolled,-7,Uncontrolled,6.5,-2,Male,45-49,Yes,25.01352082206598,97,164,93,Uncontrolled,Uncontrolled,Uncontrolled,4.5
+Edu+Visit,Controlled,21.78649237472767,2.7738339267503385,80,15,110,80,40,Controlled,15,Controlled,8,-3,Female,45-49,Yes,24.560326301478007,95,150,95,Uncontrolled,Uncontrolled,Uncontrolled,5
+Usual Care,Controlled,25.01352082206598,1.0481584856288961,91,4,120,100,25,Uncontrolled,0,Uncontrolled,4,-1,Female,45-49,No,26.061679307694877,95,145,100,Uncontrolled,Uncontrolled,Uncontrolled,3
+Usual Care,Controlled,30.915576694411413,0.2234084378196286,102,1,115,75,25,Controlled,3,Controlled,3.5,0.5,Female,45-49,Yes,31.138985132231042,103,140,78,Uncontrolled,Controlled,Uncontrolled,4
+Edu+Visit,Controlled,21.6712580348944,-1.222120616690951,100,-10,136.5,95,23.5,Uncontrolled,15,Uncontrolled,8,-3.5,Male,50-54,No,20.44913741820345,90,160,110,Uncontrolled,Uncontrolled,Uncontrolled,4.5
+Edu+Visit,Controlled,20.23950075898128,0,90,0,100,70,46,Controlled,25,Controlled,7,-4,Female,50-54,No,20.23950075898128,90,146,95,Uncontrolled,Uncontrolled,Uncontrolled,3
+Edu+Visit,Uncontrolled,26.5625,-1.5625,86,-2,145,85,-5,Controlled,-5,Uncontrolled,4.5,4,Female,50-54,No,25,84,140,80,Uncontrolled,Controlled,Uncontrolled,8.5
+Edu+Visit,Controlled,22.857142857142858,0.3265306122448983,96,1,130,85,10,Controlled,10,Controlled,8,-4,Male,50-54,Yes,23.183673469387756,97,140,95,Uncontrolled,Uncontrolled,Uncontrolled,4
+Usual Care,Controlled,23.507805325987142,2.5183695699081596,77,10,120,80,20,Controlled,20,Controlled,4,0.5,Female,50-54,Yes,26.026174895895302,87,140,100,Uncontrolled,Uncontrolled,Uncontrolled,4.5
+Usual Care,Uncontrolled,25.10387811634349,-2.8816558941212698,84,-11,160,100,0,Uncontrolled,0,Uncontrolled,2.5,-0.5,Female,50-54,No,22.22222222222222,73,160,100,Uncontrolled,Uncontrolled,Uncontrolled,2
+Usual Care,Uncontrolled,22.321428571428573,1.4172335600907005,95,3,140,80,0,Controlled,15,Uncontrolled,4,0.5,Male,50-54,Yes,23.738662131519273,98,140,95,Uncontrolled,Uncontrolled,Uncontrolled,4.5
+Edu+Visit,Uncontrolled,29.065926806711587,-1.288149028933809,119,3,160,100,5,Uncontrolled,35,Uncontrolled,7,-3,Male,50-54,No,27.77777777777778,122,165,135,Uncontrolled,Uncontrolled,Uncontrolled,4
+Usual Care,Uncontrolled,20.88888888888889,-0.8888888888888893,76,-5,140,80,20,Controlled,40,Uncontrolled,3.5,2,Female,50-54,Yes,20,71,160,120,Uncontrolled,Uncontrolled,Uncontrolled,5.5
+Usual Care,Uncontrolled,27.358845456721728,2.3989400104062995,86,13,145,95,-5,Uncontrolled,5,Uncontrolled,4.5,1,Male,50-54,No,29.757785467128027,99,140,100,Uncontrolled,Uncontrolled,Uncontrolled,5.5
+Edu+Visit,Uncontrolled,19.77769866698311,2.7136508139857476,85,3,155,100,85,Uncontrolled,40,Uncontrolled,3,2,Female,50-54,No,22.491349480968857,88,240,140,Uncontrolled,Uncontrolled,Uncontrolled,5
+Usual Care,Uncontrolled,22.03172568498638,4.005768306361158,87,8,140,90,18,Uncontrolled,30,Uncontrolled,3,-0.5,Female,50-54,Yes,26.03749399134754,95,158,120,Uncontrolled,Uncontrolled,Uncontrolled,2.5
+Edu+Visit,Controlled,25.91068434689834,-1.8868756768133608,102,-7,135,85,49,Controlled,23,Controlled,6,-1.5,Female,55-59,No,24.02380867008498,95,184,108,Uncontrolled,Uncontrolled,Uncontrolled,4.5
+Usual Care,Uncontrolled,31.511501698119815,-0.6866717661470254,112,-2,200,140,-30,Uncontrolled,-20,Uncontrolled,4.5,0.5,Male,55-59,No,30.82482993197279,110,170,120,Uncontrolled,Uncontrolled,Uncontrolled,5
+Edu+Visit,Controlled,27.586206896551722,0.9512485136741979,98,2,120,80,30,Controlled,40,Controlled,4.5,-1,Female,55-59,Yes,28.53745541022592,100,150,120,Uncontrolled,Uncontrolled,Uncontrolled,3.5
+Usual Care,Uncontrolled,32.04614645088928,-3.1398964508892817,112,-19,180,115,10,Uncontrolled,-31,Uncontrolled,4,1,Female,55-59,No,28.90625,93,190,84,Uncontrolled,Controlled,Uncontrolled,5
+Edu+Visit,Uncontrolled,22.22222222222222,3.747306863650355,100,2,145,85,15,Controlled,5,Uncontrolled,4,0,Female,55-59,No,25.969529085872576,102,160,90,Uncontrolled,Uncontrolled,Uncontrolled,4
+Usual Care,Controlled,24.77365884419621,-3.1323846059690617,99,-7,120,90,20,Uncontrolled,-10,Uncontrolled,2,-0.5,Male,55-59,No,21.641274238227147,92,140,80,Uncontrolled,Controlled,Uncontrolled,1.5
+Usual Care,Uncontrolled,24.913494809688583,2.422145328719722,89,0,150,100,30,Uncontrolled,15,Uncontrolled,6,-1,Male,55-59,No,27.335640138408305,89,180,115,Uncontrolled,Uncontrolled,Uncontrolled,5
+Usual Care,Uncontrolled,29.296875,1.953125,102,4,145,95,25,Uncontrolled,20,Uncontrolled,5,1,Female,55-59,Yes,31.25,106,170,115,Uncontrolled,Uncontrolled,Uncontrolled,6
+Edu+Visit,Controlled,19.818927075356967,2.7025809648214043,88,1,119,80,41,Controlled,40,Controlled,8.5,-2.5,Female,55-59,No,22.52150804017837,89,160,120,Uncontrolled,Uncontrolled,Uncontrolled,6
+Usual Care,Uncontrolled,18.818924310286423,0.9951284255770112,75,4,145,100,5,Uncontrolled,0,Uncontrolled,5,-1.5,Male,55-59,No,19.814052735863434,79,150,100,Uncontrolled,Uncontrolled,Uncontrolled,3.5
+Usual Care,Controlled,34.666666666666664,0.44444444444444997,100,3,125,85,16,Controlled,15,Controlled,5,0,Female,55-59,Yes,35.111111111111114,103,141,100,Uncontrolled,Uncontrolled,Uncontrolled,5
+Usual Care,Controlled,25.2993759487266,-3.9400696989935895,101,-12,135,95,5,Uncontrolled,5,Uncontrolled,3,1.5,Female,55-59,No,21.35930624973301,89,140,100,Uncontrolled,Uncontrolled,Uncontrolled,4.5
+Usual Care,Uncontrolled,29.667971215755585,1.3524369475097195,108,1,140,90,-5,Uncontrolled,5,Uncontrolled,8,-1.5,Male,55-59,No,31.020408163265305,109,135,95,Controlled,Uncontrolled,Uncontrolled,6.5
+Edu+Visit,Uncontrolled,24.03460983816696,-0.4005768306361155,97,3,160,90,-10,Uncontrolled,5,Uncontrolled,7,-1.5,Female,55-59,No,23.634033007530846,100,150,95,Uncontrolled,Uncontrolled,Uncontrolled,5.5
+Edu+Visit,Controlled,19.834710743801654,-1.4692378328741995,100,-5,125,85,25,Controlled,5,Controlled,9,-4,Male,55-59,No,18.365472910927455,95,150,90,Uncontrolled,Uncontrolled,Uncontrolled,5
+Edu+Visit,Controlled,20.28479857195018,-2.190192734791175,88,-10,125,80,17,Controlled,-10,Controlled,5,0.5,Female,55-59,No,18.094605837159005,78,142,70,Uncontrolled,Controlled,Uncontrolled,5.5
+Edu+Visit,Uncontrolled,28.37370242214533,-2.8741231652030663,105,-5,150,100,-10,Uncontrolled,-10,Uncontrolled,5.5,-0.5,Male,55-59,Yes,25.499579256942262,100,140,90,Uncontrolled,Uncontrolled,Uncontrolled,5
+Edu+Visit,Controlled,25.20920135849585,3.151150169811981,82,15,135,80,15,Controlled,37,Controlled,7.5,-3.5,Male,55-59,No,28.36035152830783,97,150,117,Uncontrolled,Uncontrolled,Uncontrolled,4
+Usual Care,Uncontrolled,29.402273297715947,-0.7171286170174653,112,2,140,90,0,Uncontrolled,0,Uncontrolled,4.5,0,Male,55-59,No,28.685144680698482,114,140,90,Uncontrolled,Uncontrolled,Uncontrolled,4.5
+Edu+Visit,Controlled,25.969529085872576,0.5160106637963544,75,8,139,84,21,Controlled,21,Controlled,6,-3.5,Female,60-64,No,26.48553974966893,83,160,105,Uncontrolled,Uncontrolled,Uncontrolled,2.5
+Edu+Visit,Uncontrolled,21.641274238227147,-1.2984764542936311,102,-6,160,100,-10,Uncontrolled,-10,Uncontrolled,8.5,-6.5,Female,60-64,Yes,20.342797783933516,96,150,90,Uncontrolled,Uncontrolled,Uncontrolled,2
+Usual Care,Controlled,30.801248699271593,-1.6649323621227907,98,-12,120,75,30,Controlled,15,Controlled,2.5,0,Female,60-64,Yes,29.136316337148802,86,150,90,Uncontrolled,Uncontrolled,Uncontrolled,2.5
+Usual Care,Controlled,23.030045351473923,0.6817992794869703,95,-7,120,80,30,Controlled,10,Controlled,3,1,Male,60-64,Yes,23.711844630960893,88,150,90,Uncontrolled,Uncontrolled,Uncontrolled,4
+Usual Care,Controlled,19.77769866698311,3.5599857600569607,82,8,120,80,21,Controlled,-1,Controlled,3.5,0.5,Male,60-64,Yes,23.33768442704007,90,141,79,Uncontrolled,Controlled,Uncontrolled,4
+Usual Care,Uncontrolled,27.40765727778715,-3.6744188774074154,103,-13,150,100,-2,Uncontrolled,-7,Uncontrolled,4,2,Female,60-64,Yes,23.733238400379733,90,148,93,Uncontrolled,Uncontrolled,Uncontrolled,6
+Edu+Visit,Controlled,23.938989774631512,0.4520690646213872,102,9,135,80,45,Controlled,35,Controlled,8.5,-3,Male,60-64,Yes,24.3910588392529,111,180,115,Uncontrolled,Uncontrolled,Uncontrolled,5.5
+Edu+Visit,Uncontrolled,23.32341806381828,1.0140616549486197,93,8,153,100,17,Uncontrolled,10,Uncontrolled,5.5,-2,Male,60-64,Yes,24.3374797187669,101,170,110,Uncontrolled,Uncontrolled,Uncontrolled,3.5
+Edu+Visit,Uncontrolled,20.56932966023875,-0.24489140512941177,98,-10,145,95,15,Uncontrolled,5,Uncontrolled,8.5,-4.5,Female,60-64,No,20.32443825510934,88,160,100,Uncontrolled,Uncontrolled,Uncontrolled,4
+Usual Care,Uncontrolled,19.47714681440443,-1.9340565990629983,50,-17,175,115,-25,Uncontrolled,-15,Uncontrolled,4.5,-1,Female,60-64,No,17.543090215341433,33,150,100,Uncontrolled,Uncontrolled,Uncontrolled,3.5
+Usual Care,Uncontrolled,34.62603878116344,-0.4170128612476418,120,-4,150,100,-10,Uncontrolled,-20,Uncontrolled,2.5,4,Female,60-64,Yes,34.209025919915796,116,140,80,Uncontrolled,Controlled,Uncontrolled,6.5
+Usual Care,Uncontrolled,28.650137741046834,-3.3057851239669453,110,-7,140,90,0,Uncontrolled,-10,Uncontrolled,3,-0.5,Male,60-64,No,25.34435261707989,103,140,80,Uncontrolled,Controlled,Uncontrolled,2.5
+Usual Care,Controlled,20.832529609197177,0.12464155373530161,89,2,115,75,65,Controlled,45,Controlled,4.5,0,Male,60-64,No,20.95717116293248,91,180,120,Uncontrolled,Uncontrolled,Uncontrolled,4.5
+Edu+Visit,Controlled,22.959183673469386,3.263038548752835,89,7,135,85,25,Controlled,35,Controlled,8.5,-4.5,Female,60-64,Yes,26.22222222222222,96,160,120,Uncontrolled,Uncontrolled,Uncontrolled,4
+Edu+Visit,Uncontrolled,18.685121107266436,0,95,-9,160,85,-15,Controlled,0,Uncontrolled,5.5,0,Male,60-64,Yes,18.685121107266436,86,145,85,Uncontrolled,Controlled,Uncontrolled,5.5
+Usual Care,Uncontrolled,34.13111342351717,-1.258003627330453,100,-1,175,115,-35,Uncontrolled,-15,Uncontrolled,4,0,Female,60-64,Yes,32.87310979618672,99,140,100,Uncontrolled,Uncontrolled,Uncontrolled,4
+Edu+Visit,Uncontrolled,20.30741220545499,-0.9302495756972071,61,-8,145,90,-5,Uncontrolled,10,Uncontrolled,6,1,Male,60-64,No,19.377162629757784,53,140,100,Uncontrolled,Uncontrolled,Uncontrolled,7
+Usual Care,Controlled,24.88888888888889,0.2206801395990574,82,4,130,80,10,Controlled,0,Controlled,4,-1,Female,60-64,Yes,25.109569028487947,86,140,80,Uncontrolled,Controlled,Uncontrolled,3
+Edu+Visit,Controlled,26.370238143535236,2.871870492901234,85,14,100,60,40,Controlled,20,Controlled,9,-7.5,Female,60-64,No,29.24210863643647,99,140,80,Uncontrolled,Controlled,Uncontrolled,1.5
+Edu+Visit,Controlled,23.372576177285318,-0.4328254847645425,100,-13,135,95,31,Uncontrolled,-15,Uncontrolled,7.5,-2.5,Female,60-64,Yes,22.939750692520775,87,166,80,Uncontrolled,Controlled,Uncontrolled,5
+Edu+Visit,Uncontrolled,20.775623268698062,0.27608498971165574,78,6,160,90,0,Uncontrolled,30,Uncontrolled,7.5,-5.5,Female,60-64,No,21.051708258409718,84,160,120,Uncontrolled,Uncontrolled,Uncontrolled,2
+Usual Care,Uncontrolled,26.98961937716263,-2.0761245674740465,102,-7,150,90,0,Uncontrolled,0,Uncontrolled,5.5,-2,Male,60-64,No,24.913494809688583,95,150,90,Uncontrolled,Uncontrolled,Uncontrolled,3.5
+Usual Care,Uncontrolled,25,3.2,88,12,140,105,10,Uncontrolled,-5,Uncontrolled,4.5,-1,Male,60-64,Yes,28.2,100,150,100,Uncontrolled,Uncontrolled,Uncontrolled,3.5
+Usual Care,Uncontrolled,26.03749399134754,-1.513147644288484,94,5,165,105,-24,Uncontrolled,-20,Uncontrolled,6.5,-4.5,Female,60-64,No,24.524346347059055,99,141,85,Uncontrolled,Controlled,Uncontrolled,2
+Usual Care,Controlled,21.773842357381334,2.447610929815898,95,10,130,100,30,Uncontrolled,10,Uncontrolled,4.5,-1.5,Male,64-69,Yes,24.22145328719723,105,160,110,Uncontrolled,Uncontrolled,Uncontrolled,3
+Usual Care,Controlled,27.915518824609734,-1.4240106231291136,105,0,130,80,30,Controlled,10,Controlled,8.5,-5,Male,64-69,Yes,26.49150820148062,105,160,90,Uncontrolled,Uncontrolled,Uncontrolled,3.5
+Edu+Visit,Uncontrolled,19.23437793206981,3.441359029381438,70,2,155,75,-5,Controlled,15,Uncontrolled,3.5,1,Female,64-69,Yes,22.675736961451246,72,150,90,Uncontrolled,Uncontrolled,Uncontrolled,4.5
+Edu+Visit,Controlled,31.431788328016513,-2.2133807312305365,108,-9,138,95,12,Uncontrolled,15,Uncontrolled,8,-2.5,Female,64-69,No,29.218407596785976,99,150,110,Uncontrolled,Uncontrolled,Uncontrolled,5.5
+Edu+Visit,Uncontrolled,17.360441340997646,2.170808659002354,75,3,175,90,15,Uncontrolled,30,Uncontrolled,8.5,-7,Male,64-69,Yes,19.53125,78,190,120,Uncontrolled,Uncontrolled,Uncontrolled,1.5
+Edu+Visit,Uncontrolled,24.79666732791113,3.351202816581271,88,18,160,90,10,Uncontrolled,-5,Uncontrolled,2.5,0,Female,64-69,No,28.1478701444924,106,170,85,Uncontrolled,Controlled,Uncontrolled,2.5
+Edu+Visit,Uncontrolled,34.89439853076217,0.7346189164370998,116,0,150,90,0,Uncontrolled,25,Uncontrolled,7,-1.5,Male,64-69,Yes,35.62901744719927,116,150,115,Uncontrolled,Uncontrolled,Uncontrolled,5.5
+Usual Care,Uncontrolled,22.2,-3.3,94,-20,140,95,25,Uncontrolled,15,Uncontrolled,5.5,-2.5,Male,64-69,No,18.9,74,165,110,Uncontrolled,Uncontrolled,Uncontrolled,3
+Usual Care,Uncontrolled,21.21831719455268,2.4061302982075716,90,0,140,80,10,Controlled,-5,Uncontrolled,3,2,Male,64-69,No,23.62444749276025,90,150,75,Uncontrolled,Controlled,Uncontrolled,5
+Edu+Visit,Controlled,22.761467535974692,-0.16120455109632204,101,-15,135,95,35,Uncontrolled,-5,Uncontrolled,9,-6,Female,64-69,No,22.60026298487837,86,170,90,Uncontrolled,Uncontrolled,Uncontrolled,3
+Edu+Visit,Controlled,17.92821542543655,-0.3585643085087291,96,-11,135,100,25,Uncontrolled,15,Uncontrolled,5.5,-3,Female,64-69,Yes,17.569651116927822,85,160,115,Uncontrolled,Uncontrolled,Uncontrolled,2.5
+Usual Care,Uncontrolled,28.34467120181406,-3.245169606202886,108,-5,175,120,-25,Uncontrolled,-10,Uncontrolled,5,-0.5,Male,64-69,Yes,25.099501595611173,103,150,110,Uncontrolled,Uncontrolled,Uncontrolled,4.5
+Edu+Visit,Controlled,24.79666732791113,2.4796667327911095,90,10,120,80,52,Controlled,20,Controlled,4.5,-2,Female,64-69,No,27.27633406070224,100,172,100,Uncontrolled,Uncontrolled,Uncontrolled,2.5
+Edu+Visit,Uncontrolled,25.816630212628635,6.118338578197321,88,17,160,100,-5,Uncontrolled,-1,Uncontrolled,8,-4.5,Male,64-69,Yes,31.934968790825955,105,155,99,Controlled,Uncontrolled,Uncontrolled,3.5
+Usual Care,Controlled,27.587326057852245,0.45305208667587493,106,10,120,70,20,Controlled,28,Controlled,5,-2,Female,64-69,Yes,28.04037814452812,116,140,98,Uncontrolled,Uncontrolled,Uncontrolled,3
+Edu+Visit,Controlled,24.088223117166624,3.6005550166097287,97,5,90,80,50,Controlled,13,Controlled,8.5,-3,Female,64-69,Yes,27.688778133776353,102,140,93,Uncontrolled,Uncontrolled,Uncontrolled,5.5
+Edu+Visit,Uncontrolled,26.5625,0.78125,93,-5,155,100,25,Uncontrolled,-10,Uncontrolled,4,2,Female,70-75,Yes,27.34375,88,180,90,Uncontrolled,Uncontrolled,Uncontrolled,6
+Edu+Visit,Controlled,22.675736961451246,2.1258503401360542,90,12,125,80,38,Controlled,19,Controlled,8,-5,Male,70-75,Yes,24.8015873015873,102,163,99,Uncontrolled,Uncontrolled,Uncontrolled,3
+Edu+Visit,Controlled,24.65483234714004,0.41091387245233335,91,5,135,100,5,Uncontrolled,0,Uncontrolled,3,2.5,Male,70-75,Yes,25.065746219592373,96,140,100,Uncontrolled,Uncontrolled,Uncontrolled,5.5
+Usual Care,Controlled,21.007667798746542,1.2233193287947834,91,5,120,80,20,Controlled,25,Controlled,4,3,Male,70-75,Yes,22.230987127541326,96,140,105,Uncontrolled,Uncontrolled,Uncontrolled,7
+Usual Care,Uncontrolled,27.23922448325589,-3.5139383230061476,95,-20,175,105,-5,Uncontrolled,10,Uncontrolled,3.5,0.5,Female,70-75,Yes,23.72528616024974,75,170,115,Uncontrolled,Uncontrolled,Uncontrolled,4
+Edu+Visit,Uncontrolled,24.22145328719723,0.6920415224913512,94,9,165,90,-5,Uncontrolled,0,Uncontrolled,4.5,-1.5,Male,70-75,Yes,24.913494809688583,103,160,90,Uncontrolled,Controlled,Uncontrolled,3
+Usual Care,Controlled,25.969529085872576,4.328254847645429,84,20,130,85,30,Controlled,5,Controlled,3,-1.5,Female,70-75,Yes,30.297783933518005,104,160,90,Uncontrolled,Uncontrolled,Uncontrolled,1.5
+Usual Care,Controlled,19.031141868512112,0.6920415224913476,85,4,135,85,15,Controlled,-5,Controlled,4.5,-1,Male,70-75,Yes,19.72318339100346,89,150,80,Uncontrolled,Controlled,Uncontrolled,3.5
+Edu+Visit,Controlled,18.125235115078144,0.34198556820902226,65,1,125,80,25,Controlled,20,Controlled,7.5,-3,Male,70-75,Yes,18.467220683287167,66,150,100,Uncontrolled,Uncontrolled,Uncontrolled,4.5
+Usual Care,Uncontrolled,19.72318339100346,2.7681660899653977,82,6,140,95,20,Uncontrolled,5,Uncontrolled,2.5,3,Male,70-75,Yes,22.491349480968857,88,160,100,Uncontrolled,Uncontrolled,Uncontrolled,5.5
+Edu+Visit,Controlled,26.171875,3.90625,96,12,120,95,20,Uncontrolled,7,Uncontrolled,6.5,-1,Male,70-75,Yes,30.078125,108,140,102,Uncontrolled,Uncontrolled,Uncontrolled,5.5
+Usual Care,Uncontrolled,24.3374797187669,3.380205516495405,86,19,160,80,-10,Controlled,0,Uncontrolled,3,0,Male,70-75,Yes,27.717685235262305,105,150,80,Uncontrolled,Controlled,Uncontrolled,3
+Usual Care,Controlled,23.781212841854934,4.756242568370986,76,20,135,95,25,Uncontrolled,5,Uncontrolled,4.5,-2,Female,75-80,Yes,28.53745541022592,96,160,100,Uncontrolled,Uncontrolled,Uncontrolled,2.5
+Edu+Visit,Controlled,22.22222222222222,0.8888888888888893,76,13,115,80,35,Controlled,0,Controlled,8,-4,Male,75-80,No,23.11111111111111,89,150,80,Uncontrolled,Controlled,Uncontrolled,4

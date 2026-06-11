@@ -1,0 +1,56 @@
+summary_type,group,count
+qualification_decision,access_or_file_uncertain_defer,572
+qualification_decision,not_qualified_before_cleaning,117
+qualification_decision,qualified_for_source_verification,8
+qualification_decision,needs_manual_source_review,7
+deferred_source_status,Defer - missing access/file certainty,653
+deferred_source_status,Defer - low clinical or data confidence,51
+source_status_by_decision,Defer - low clinical or data confidence | needs_manual_source_review,6
+source_status_by_decision,Defer - low clinical or data confidence | not_qualified_before_cleaning,39
+source_status_by_decision,Defer - low clinical or data confidence | qualified_for_source_verification,6
+source_status_by_decision,Defer - missing access/file certainty | access_or_file_uncertain_defer,572
+source_status_by_decision,Defer - missing access/file certainty | needs_manual_source_review,1
+source_status_by_decision,Defer - missing access/file certainty | not_qualified_before_cleaning,78
+source_status_by_decision,Defer - missing access/file certainty | qualified_for_source_verification,2
+top_publishers | access_or_file_uncertain_defer,Karger Publishers,220
+top_publishers | access_or_file_uncertain_defer,SciELO journals,158
+top_publishers | access_or_file_uncertain_defer,Taylor & Francis,130
+top_publishers | access_or_file_uncertain_defer,figshare,46
+top_publishers | access_or_file_uncertain_defer,SAGE Journals,6
+top_publishers | access_or_file_uncertain_defer,Figshare,4
+top_publishers | access_or_file_uncertain_defer,"IfADo - Leibniz Research Centre for Working Environment and Human Factors, Dortmund",2
+top_publishers | access_or_file_uncertain_defer,University of Amsterdam / Amsterdam University of Applied Sciences,1
+top_publishers | access_or_file_uncertain_defer,Vrije Universiteit Amsterdam,1
+top_publishers | access_or_file_uncertain_defer,ASHA journals,1
+top_publishers | access_or_file_uncertain_defer,University of Nottingham,1
+top_publishers | access_or_file_uncertain_defer,University of Physical Culture in Krakow,1
+top_publishers | access_or_file_uncertain_defer,Eawag: Swiss Federal Institute of Aquatic Science and Technology,1
+top_publishers | needs_manual_source_review,Harvard Dataverse,2
+top_publishers | needs_manual_source_review,figshare,2
+top_publishers | needs_manual_source_review,Borealis,1
+top_publishers | needs_manual_source_review,UNC Dataverse,1
+top_publishers | needs_manual_source_review,University of Virginia Dataverse,1
+top_publishers | not_qualified_before_cleaning,Karger Publishers,25
+top_publishers | not_qualified_before_cleaning,figshare,20
+top_publishers | not_qualified_before_cleaning,Taylor & Francis,18
+top_publishers | not_qualified_before_cleaning,ICPSR Harvested Dataverse,10
+top_publishers | not_qualified_before_cleaning,SciELO journals,9
+top_publishers | not_qualified_before_cleaning,Harvard Dataverse,8
+top_publishers | not_qualified_before_cleaning,Figshare,5
+top_publishers | not_qualified_before_cleaning,Zenodo,4
+top_publishers | not_qualified_before_cleaning,Dryad,3
+top_publishers | not_qualified_before_cleaning,DataverseNL,2
+top_publishers | not_qualified_before_cleaning,Mendeley,2
+top_publishers | not_qualified_before_cleaning,The University of Melbourne,2
+top_publishers | not_qualified_before_cleaning,DataverseNL Harvested Dataverse,2
+top_publishers | not_qualified_before_cleaning,University of Nottingham,1
+top_publishers | not_qualified_before_cleaning,King's College London,1
+top_publishers | not_qualified_before_cleaning,University of Melbourne,1
+top_publishers | not_qualified_before_cleaning,Abdul Rehman Arshad Dataverse,1
+top_publishers | not_qualified_before_cleaning,Clinical Research,1
+top_publishers | not_qualified_before_cleaning,University of Illinois Chicago,1
+top_publishers | not_qualified_before_cleaning,Fusion First Grade Math Intervention,1
+top_publishers | qualified_for_source_verification,Harvard Dataverse,4
+top_publishers | qualified_for_source_verification,Karger Publishers,2
+top_publishers | qualified_for_source_verification,Mendeley,1
+top_publishers | qualified_for_source_verification,DataverseNL,1

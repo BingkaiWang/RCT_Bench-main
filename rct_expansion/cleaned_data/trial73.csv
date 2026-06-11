@@ -1,0 +1,45 @@
+Treatment,YP_call_service_satisfaction_likert,YS_ai_call_satisfaction_likert,YS_complication_management_satisfaction_likert,YS_complication_management_satisfaction_vas,YS_complication_anxiety_stai,YS_complication_anxiety_vas,YS_fever_d1,YS_urination_pain_d1,YS_urination_discomfort_d1,YS_daily_life_discomfort_d1,X_height_cm,X_weight_kg,X_sex,X_age,X_kad8_pre,X_local_anesthesia,X_creatinine_pre,X_hb_pre,X_egfr_pre,X_psa,X_pirads
+AI-assisted reassurance call,5,4,4,8,40,6,0,0,0,0,164,75,M,75,1,local,1.1299999999999997,14.2,63.230000000000004,5.4,4
+AI-assisted reassurance call,4,4,3,7,28,7,0,0,0,1,174,61,M,69,0,local,1.34,14.7,53.67,4.6,NA
+Human-assisted reassurance call,5,NA,5,10,41,2,0,0,0,0,168,62,M,58,0,local,0.88,16.6,94.69,4.5,5
+No call,NA,NA,4,6,38,6,NA,NA,NA,NA,166,72,M,73,0,local,1.02,12.8,72.58,13.7,2
+Human-assisted reassurance call,4,NA,4,8,42,4,0,0,0,0,171,74,M,64,0,local,0.74,15.5,97.48,8.6,5
+No call,NA,NA,3,5,43,3,NA,NA,NA,NA,170,75,M,67,0,local,0.8200000000000001,14,91.5,5.7,NA
+No call,NA,NA,5,10,29,2,NA,NA,NA,NA,176,78,M,51,0,local,0.91,15.1,97.24000000000001,4.2,NA
+No call,NA,NA,3,5,45,5,NA,NA,NA,NA,165.1,81.2,M,63,0,local,0.75,14.7,97.63,7.7,NA
+Human-assisted reassurance call,4,NA,3,7,38,6,0,0,0,0,168,78,M,75,0,local,1.02,13.6,71.56,4.6,NA
+AI-assisted reassurance call,5,5,5,10,33,1,0,0,1,0,162,54,M,70,0,local,1,13.4,75.92,11,NA
+AI-assisted reassurance call,4,4,4,8,33,5,0,0,0,1,160,70,M,67,0,local,0.96,16.6,81.46,2.4,4
+Human-assisted reassurance call,5,NA,4,8,36,0,0,0,0,0,171,85,M,67,0,local,0.93,18.2,84.64999999999999,11.48,4
+Human-assisted reassurance call,5,NA,5,10,45,0,0,0,1,0,173,70,M,63,0,local,1.01,14.1,78.79,13.4,4
+AI-assisted reassurance call,4,4,4,8,54,5,0,0,0,0,166,64,M,74,0,local,1.03,15.6,71.22,10.7,NA
+AI-assisted reassurance call,4,4,4,9,44,3,0,0,1,0,170,71,M,66,0,local,1.29,13.8,57.39,38.1,NA
+Human-assisted reassurance call,5,NA,5,10,41,5,0,0,1,0,165.3,69.8,M,57,0,local,1,13.7,83.17999999999999,17.7,5
+Human-assisted reassurance call,4,NA,4,8,51,1,0,0,0,0,165,61,M,69,0,local,0.8600000000000001,13.8,88.48,4.4,5
+Human-assisted reassurance call,5,NA,3,6,50,3,0,0,1,0,172,68,M,61,0,local,1.06,14.5,75.36999999999999,11.1,NA
+AI-assisted reassurance call,4,5,4,9,53,8,0,0,0,0,169,68,M,71,0,local,1.11,13.2,66.45,3.5,5
+No call,NA,NA,3,7,46,3,NA,NA,NA,NA,166,66,M,70,0,local,0.92,13.2,83.97,36.6,5
+No call,NA,NA,4,7,36,4,NA,NA,NA,NA,165,68,M,71,0,local,1.11,15.7,66.45,2.9,4
+No call,NA,NA,3,7,23,5,NA,NA,NA,NA,167,76,M,71,1,local,0.9400000000000001,13.2,81.24,1.4,NA
+Human-assisted reassurance call,5,NA,5,7,36,8,0,1,0,0,168,68,M,68,0,local,1,13.3,76.99,1.6,2
+AI-assisted reassurance call,3,3,4,7,47,9,0,0,0,0,172,73,M,49,0,local,1.03,16.2,84.9,8,NA
+Human-assisted reassurance call,5,NA,5,9,50,2,0,0,0,0,168,65,M,71,1,local,0.72,14.3,93.85,4.6,4
+AI-assisted reassurance call,4,4,4,7,47,7,0,0,1,1,168,80,M,76,0,local,1.36,13.4,50.190000000000005,6.2,5
+AI-assisted reassurance call,4,4,4,10,20,0,0,0,0,0,168,72,M,73,0,local,0.96,14.2,78.1,6.3,5
+No call,NA,NA,4,8,31,0,NA,NA,NA,NA,173,79,M,69,0,local,0.7899999999999999,13,91.61999999999999,7.3,NA
+No call,NA,NA,3,5,20,0,NA,NA,NA,NA,170,69,M,69,0,local,1.1700000000000002,14.7,63.24,20.5,5
+AI-assisted reassurance call,4,4,4,7,55,8,0,1,0,0,173,63,M,73,1,local,0.75,15.8,91,21.1,4
+Human-assisted reassurance call,5,NA,5,10,31,0,0,0,0,0,163,64,M,67,1,local,0.8200000000000001,13.6,91.5,12.6,5
+Human-assisted reassurance call,5,NA,5,10,23,0,0,0,0,0,166,69,M,63,0,local,0.93,14.9,87.06,5.9,3
+No call,NA,NA,4,7,37,0,NA,NA,NA,NA,163,64,M,66,0,local,0.8600000000000001,15.8,90.36,5,4
+Human-assisted reassurance call,5,NA,5,10,29,0,0,1,0,0,159,57,M,71,0,local,0.71,14.6,94.39,34.2,5
+Human-assisted reassurance call,4,NA,4,7,35,0,0,0,1,0,170,75,M,70,0,local,0.8500000000000001,13.4,88.28,1.9,NA
+No call,NA,NA,5,10,25,7,NA,NA,NA,NA,173,80,M,62,0,local,0.91,16.4,90.01,5.4,4
+AI-assisted reassurance call,5,5,5,10,27,3,0,0,0,0,168,65,M,56,1,local,1.03,15,80.82,5.4,4
+AI-assisted reassurance call,5,4,4,7,44,3,0,0,0,0,172,80,M,58,0,local,0.8600000000000001,14.7,95.59,5.6,5
+No call,NA,NA,3,5,25,4,NA,NA,NA,NA,159,53,M,66,0,local,0.7799999999999999,13.7,94.06,5.2,4
+No call,NA,NA,4,7,45,5,NA,NA,NA,NA,164.1,66.7,M,69,0,local,0.76,13.9,93.09,148.8,5
+AI-assisted reassurance call,4,3,5,10,35,3,0,0,0,0,168,66,M,53,0,local,1.1,14.7,76.24,4.9,4
+No call,NA,NA,5,10,47,5,NA,NA,NA,NA,167,67,M,63,0,local,0.8400000000000001,14.5,93.17999999999999,88.4,NA
+AI-assisted reassurance call,4,3,4,8,40,8,0,1,0,0,170,67,M,72,0,local,1.1800000000000002,12.8,61.28,6.7,4
+No call,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,172,63,M,72,1,local,1.02,16.6,73.09,19.1,5

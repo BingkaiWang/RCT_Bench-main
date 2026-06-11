@@ -1,0 +1,43 @@
+summary_type,group,count
+screen_status,Likely not qualified,3199
+screen_status,Needs manual review,2858
+screen_status,Likely qualified,1223
+top_publishers,figshare,846
+top_publishers,ICPSR - Interuniversity Consortium for Political and Social Research,815
+top_publishers,Karger Publishers,528
+top_publishers,Harvard Dataverse,518
+top_publishers,Zenodo,466
+top_publishers,SciELO journals,388
+top_publishers,Taylor & Francis,368
+top_publishers,Vivli,361
+top_publishers,Mendeley,331
+top_publishers,Mendeley Data,321
+top_publishers,ICPSR Harvested Dataverse,320
+top_publishers,Dryad,215
+top_publishers,Figshare,98
+top_publishers,London School of Hygiene & Tropical Medicine,64
+top_publishers,DataverseNL,62
+top_publishers,NICHD Data and Specimen Hub,54
+top_publishers,Borealis,44
+top_publishers,DANS Data Station Life Sciences,44
+top_publishers,SAGE Journals,43
+top_publishers,Chulalongkorn University,42
+top_publishers,HKU Data Repository,41
+top_publishers,Science Data Bank,36
+top_publishers,UK Data Service,34
+top_publishers,UNC Dataverse,32
+top_publishers,Inter-University Consortium for Political and Social Research,30
+top_publishers,IDSC Harvested Dataverse,30
+top_publishers,NHLBI BioData Catalyst,28
+top_publishers,University of Bristol,27
+top_publishers,Radboud University,26
+top_publishers,DANS Data Station Social Sciences and Humanities,23
+source_by_status,DataCite | Likely not qualified,2302
+source_by_status,DataCite | Likely qualified,1051
+source_by_status,DataCite | Needs manual review,2227
+source_by_status,DataCite; Harvard Dataverse API | Likely not qualified,661
+source_by_status,DataCite; Harvard Dataverse API | Likely qualified,86
+source_by_status,DataCite; Harvard Dataverse API | Needs manual review,451
+source_by_status,Harvard Dataverse API | Likely not qualified,236
+source_by_status,Harvard Dataverse API | Likely qualified,86
+source_by_status,Harvard Dataverse API | Needs manual review,180

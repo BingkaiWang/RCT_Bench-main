@@ -1,0 +1,60 @@
+Trial_ID,Original_Trial_ID,outcome_variable,outcome_role,arm,statistic,paper_value,paper_precision,cleaned_value,absolute_diff,tolerance,status,paper_source,notes
+B06,81,YP_delta_mqol_total,primary,Intervention effect,model_effect,-0.01,0.01,NA,NA,5e-4,not_auditable_model_target,QPSS PLOS One 2025 results,One-year patient MQOL-E intervention effect from longitudinal SEM; compact cleaned endpoint cannot reproduce model estimate.
+B07,82,YP_days_achieved_goal,primary,Restricted effectiveness sample,mean,NA,NA,NA,NA,NA,analysis_filter_not_reconstructed,MobileCoach JMIR 2022 results and analysis syntax,Primary outcome is days achieved goal among a restricted tailored-goal effectiveness subset; filter variables are not fully represented in cleaned data.
+B08,83,YP_gvl_detectable_6m,primary,LNG IUD vs C-IUD,adjusted_odds_ratio,0.78,0.01,NA,NA,0.03900000000000001,model_not_reproduced,2IUDnCT PLOS Medicine 2020 abstract/results,"Paper target is adjusted odds ratio at 6 months, not a simple arm summary."
+B08,83,YP_gvl_detectable_24m,primary,LNG IUD vs C-IUD,adjusted_odds_ratio,1.03,0.01,NA,NA,0.051500000000000004,model_not_reproduced,2IUDnCT PLOS Medicine 2020 abstract/results,"Paper target is adjusted odds ratio at 24 months, not a simple arm summary."
+B09,84,YP_prep_adherence_percent_final,primary,Intervention effect,negative_binomial_effect,NA,NA,NA,NA,NA,not_auditable_longitudinal_target,MPYA Lancet HIV 2021 methods/results,Primary adherence target is longitudinal electronic-monitor data analyzed by negative binomial models.
+81,85,YP_nausea_present_24h,primary,Placebo,sum,67,1,67,0,3.35,pass,Aprepitant Obesity Surgery 2024 abstract/results,24-hour nausea/PONV event count.
+81,85,YP_nausea_present_24h,primary,Aprepitant,sum,22,1,22,0,1.1,pass,Aprepitant Obesity Surgery 2024 abstract/results,24-hour nausea/PONV event count after combining aprepitant dose arms.
+81,85,YP_nausea_present_24h,primary,Placebo,percent,33.7,0.1,33.66834170854271,0.03165829145729049,1.6850000000000003,pass,Aprepitant Obesity Surgery 2024 abstract/results,24-hour nausea/PONV event percent among nonmissing outcomes.
+81,85,YP_nausea_present_24h,primary,Aprepitant,percent,10.9,0.1,10.945273631840797,0.04527363184079647,0.545,pass,Aprepitant Obesity Surgery 2024 abstract/results,24-hour nausea/PONV event percent among nonmissing outcomes.
+81,85,YS_vomiting_episodes_24h,secondary,Placebo,event_count,6,1,6,0,0.30000000000000004,pass,Aprepitant Obesity Surgery 2024 abstract/results,24-hour vomiting event count.
+81,85,YS_vomiting_episodes_24h,secondary,Aprepitant,event_count,1,1,1,0,0.05,pass,Aprepitant Obesity Surgery 2024 abstract/results,24-hour vomiting event count.
+81,85,YS_rescue_medication_24h,secondary,Placebo,event_count,11,1,11,0,0.55,pass,Aprepitant Obesity Surgery 2024 abstract/results,24-hour rescue-medication event count.
+81,85,YS_rescue_medication_24h,secondary,Aprepitant,event_count,5,1,5,0,0.25,pass,Aprepitant Obesity Surgery 2024 abstract/results,24-hour rescue-medication event count.
+82,86,YP_postoperative_atrial_fibrillation,primary,Overall,sum,88,1,88,0,4.4,pass,Tocovid RCM 2022 Table 2,Overall postoperative atrial fibrillation count.
+82,86,YP_postoperative_atrial_fibrillation,primary,Overall,percent,35.2,0.1,36.36363636363637,1.163636363636364,1.7600000000000002,pass,Tocovid RCM 2022 Table 2,Overall postoperative atrial fibrillation percent.
+B10,87,YP_delta_weight_kg_x3_x1,primary,MyPlate,mean,-0.34,0.01,-0.662886597938144,0.32288659793814395,0.017,fail,MyPlate Annals of Family Medicine 2023 abstract/results,Reported adjusted body-weight change in kg.
+B10,87,YP_delta_weight_kg_x3_x1,primary,Calorie Counting,mean,-0.75,0.01,-0.759444444444444,0.009444444444444033,0.037500000000000006,pass,MyPlate Annals of Family Medicine 2023 abstract/results,Reported adjusted body-weight change in kg.
+B11,88,YP_mypas_t1,primary,VR vs Control,mean,NA,NA,NA,NA,NA,no_primary_publication_found,Dataset and registry search,No associated main results publication found.
+83,89,YP_delta_pal_t3_t1,primary,Intervention,mean,0.06,0.01,0.057586206896551737,0.0024137931034482613,0.003,pass,Evolife Int J Behav Med 2019 Table 3,Change in daily PAL from baseline to 12 weeks.
+83,89,YP_delta_pal_t3_t1,primary,Intervention,sd,0.15,0.01,0.14505307335134254,0.0049469266486574515,0.0075,pass,Evolife Int J Behav Med 2019 Table 3,Change in daily PAL from baseline to 12 weeks.
+83,89,YP_delta_pal_t3_t1,primary,Control,mean,0.01,0.01,0.008928571428571397,0.0010714285714286034,5e-4,fail,Evolife Int J Behav Med 2019 Table 3,Change in daily PAL from baseline to 12 weeks; paper rounded near zero.
+83,89,YP_delta_pal_t3_t1,primary,Control,sd,0.16,0.01,0.15656827372946389,0.0034317262705361173,0.008,pass,Evolife Int J Behav Med 2019 Table 3,Change in daily PAL from baseline to 12 weeks.
+83,89,YP_delta_total_energy_intake_t3_t1,primary,Intervention,mean,-431,1,-430.8965517241381,0.10344827586192196,21.55,pass,Evolife Int J Behav Med 2019 Table 3,"Change in total energy intake, kcal/day, from baseline to 12 weeks."
+83,89,YP_delta_total_energy_intake_t3_t1,primary,Intervention,sd,694,1,694.480861858471,0.48086185847103025,34.7,pass,Evolife Int J Behav Med 2019 Table 3,"Change in total energy intake, kcal/day, from baseline to 12 weeks."
+83,89,YP_delta_total_energy_intake_t3_t1,primary,Control,mean,-124,1,-124.2307692307692,0.23076923076919797,6.2,pass,Evolife Int J Behav Med 2019 Table 3,"Change in total energy intake, kcal/day, from baseline to 12 weeks."
+83,89,YP_delta_total_energy_intake_t3_t1,primary,Control,sd,535,1,535.4716282076806,0.47162820768062375,26.75,pass,Evolife Int J Behav Med 2019 Table 3,"Change in total energy intake, kcal/day, from baseline to 12 weeks."
+B12,90,YP_delta_qmci_score_post_pre,primary,Exergame,mean,NA,NA,7,NA,NA,cleaned_primary_mismatch,Brain-IT Front Aging Neurosci 2023 abstract/results,"Current cleaned primary is Qmci, while publication primary outcomes are feasibility, usability, and acceptance."
+84,91,X_madrs_0w,primary_baseline,BPT,mean,23.46,0.01,23.455696202531648,0.004303797468352855,1.173,pass,Bouldering psychotherapy BJC 2022 Table 3,MADRS pre-test ITT mean.
+84,91,YP_madrs_post,primary,BPT,mean,15.4,0.01,15.166666666666668,0.2333333333333325,0.77,pass,Bouldering psychotherapy BJC 2022 Table 3,MADRS post-test ITT mean.
+84,91,YP_delta_madrs_post_pre,primary,BPT,mean,-8.06,0.01,-8.458333333333332,0.39833333333333165,0.403,pass,Bouldering psychotherapy BJC 2022 Table 3,MADRS post-pre ITT change.
+84,91,YP_delta_madrs_post_pre,primary,BPT,sd,10.15,0.01,10.475911335528721,0.32591133552872087,0.5075000000000001,pass,Bouldering psychotherapy BJC 2022 Table 3,MADRS post-pre ITT change.
+84,91,X_madrs_0w,primary_baseline,CBT,mean,24.04,0.01,24.03896103896104,0.001038961038958064,1.202,pass,Bouldering psychotherapy BJC 2022 Table 3,MADRS pre-test ITT mean.
+84,91,YP_madrs_post,primary,CBT,mean,18.05,0.01,17.985294117647058,0.06470588235294272,0.9025000000000001,pass,Bouldering psychotherapy BJC 2022 Table 3,MADRS post-test ITT mean.
+84,91,YP_delta_madrs_post_pre,primary,CBT,mean,-5.99,0.01,-5.823529411764706,0.1664705882352946,0.29950000000000004,pass,Bouldering psychotherapy BJC 2022 Table 3,MADRS post-pre ITT change.
+84,91,YP_delta_madrs_post_pre,primary,CBT,sd,9.17,0.01,9.569761419491487,0.3997614194914867,0.4585,pass,Bouldering psychotherapy BJC 2022 Table 3,MADRS post-pre ITT change.
+84,91,X_phq_0w,primary,BPT,mean,13.66,0.01,13.658227848101266,0.0017721518987343643,0.683,pass,Bouldering psychotherapy BJC 2022 Table 3,PHQ-9 pre-test ITT mean.
+84,91,YP_phq_post,primary,BPT,mean,9.03,0.01,8.930555555555555,0.099444444444444,0.4515,pass,Bouldering psychotherapy BJC 2022 Table 3,PHQ-9 post-test ITT mean.
+84,91,YP_delta_phq_post_pre,primary,BPT,mean,-4.63,0.01,-4.805555555555555,0.17555555555555546,0.2315,pass,Bouldering psychotherapy BJC 2022 Table 3,PHQ-9 post-pre ITT change.
+84,91,YP_delta_phq_post_pre,primary,BPT,sd,6.13,0.01,6.213658034192435,0.08365803419243534,0.3065,pass,Bouldering psychotherapy BJC 2022 Table 3,PHQ-9 post-pre ITT change.
+84,91,X_phq_0w,primary,CBT,mean,13.81,0.01,13.805194805194805,0.0048051948051952564,0.6905000000000001,pass,Bouldering psychotherapy BJC 2022 Table 3,PHQ-9 pre-test ITT mean.
+84,91,YP_phq_post,primary,CBT,mean,10.35,0.01,10.308823529411764,0.04117647058823515,0.5175,pass,Bouldering psychotherapy BJC 2022 Table 3,PHQ-9 post-test ITT mean.
+84,91,YP_delta_phq_post_pre,primary,CBT,mean,-3.46,0.01,-3.11764705882353,0.3423529411764701,0.17300000000000001,fail,Bouldering psychotherapy BJC 2022 Table 3,PHQ-9 post-pre ITT change.
+84,91,YP_delta_phq_post_pre,primary,CBT,sd,5.67,0.01,5.875650263828426,0.2056502638284261,0.28350000000000003,pass,Bouldering psychotherapy BJC 2022 Table 3,PHQ-9 post-pre ITT change.
+85,92,X_bpi_average_pain_pre,primary_baseline,VRNT,mean,4,0.1,3.969086021505377,0.030913978494623073,0.2,pass,VRNT Pain 2024 Table 2,BPI-SF average pain at baseline.
+85,92,X_bpi_average_pain_pre,primary_baseline,VRNT,sd,1.2,0.1,1.2437793241441422,0.043779324144142207,0.06,pass,VRNT Pain 2024 Table 2,BPI-SF average pain at baseline.
+85,92,X_bpi_average_pain_pre,primary_baseline,Control,mean,4.3,0.1,4.283611111111111,0.016388888888888786,0.215,pass,VRNT Pain 2024 Table 2,BPI-SF average pain at baseline.
+85,92,X_bpi_average_pain_pre,primary_baseline,Control,sd,1.4,0.1,1.4384672879734193,0.03846728797341936,0.06999999999999999,pass,VRNT Pain 2024 Table 2,BPI-SF average pain at baseline.
+85,92,YP_bpi_average_pain_post,primary,VRNT,mean,2.5,0.1,2.48,0.020000000000000018,0.125,pass,VRNT Pain 2024 Table 2,BPI-SF average pain after treatment.
+85,92,YP_bpi_average_pain_post,primary,VRNT,sd,1.6,0.1,1.6530848904918385,0.0530848904918384,0.08000000000000002,pass,VRNT Pain 2024 Table 2,BPI-SF average pain after treatment.
+85,92,YP_bpi_average_pain_post,primary,Control,mean,3.8,0.1,3.7999999999999994,4.440892098500626e-16,0.19,pass,VRNT Pain 2024 Table 2,BPI-SF average pain after treatment.
+85,92,YP_bpi_average_pain_post,primary,Control,sd,1.8,0.1,1.8080280742403807,0.008028074240380656,0.09000000000000001,pass,VRNT Pain 2024 Table 2,BPI-SF average pain after treatment.
+86,93,YP_colonized_lbp_by_mg_first5w,primary,Active mITT,sum,47,1,47,0,2.35,pass,VIBRANT medRxiv 2025 primary results,Active-arm mITT participants with at least one LBP strain detected in first five weeks.
+86,93,YP_colonized_lbp_by_mg_first5w,primary,Active mITT,percent,66.1,0.1,66.19718309859155,0.09718309859155738,3.3049999999999997,pass,VIBRANT medRxiv 2025 primary results,Active-arm mITT percent with at least one LBP strain detected in first five weeks.
+B13,94,YP_cortisol_auc_log_emreplace,primary,Monitor + Accept,mean,-2.25,0.01,-0.9765035077454214,1.2734964922545786,0.1125,fail,Lindsay Psychoneuroendocrinology 2018 Table 2,"Log cortisol AUC-I, EM-estimated mean in mTSST sample."
+B13,94,YP_cortisol_auc_log_emreplace,primary,Monitor Only,mean,23.23,0.01,22.870065613246773,0.35993438675322764,1.1615,pass,Lindsay Psychoneuroendocrinology 2018 Table 2,"Log cortisol AUC-I, EM-estimated mean in mTSST sample."
+B13,94,YP_cortisol_auc_log_emreplace,primary,Control,mean,27.62,0.01,27.50196887773892,0.1180311222610797,1.3810000000000002,pass,Lindsay Psychoneuroendocrinology 2018 Table 2,"Log cortisol AUC-I, EM-estimated mean in mTSST sample."
+B13,94,YS_subjective_stress_overall,secondary,Monitor + Accept,mean,48.53,0.01,48.53333333333333,0.0033333333333303017,2.4265000000000003,pass,Lindsay Psychoneuroendocrinology 2018 Table 2,Subjective stress reactivity.
+B13,94,YS_subjective_stress_overall,secondary,Monitor Only,mean,48.52,0.01,48.51851851851852,0.0014814814814840815,2.426,pass,Lindsay Psychoneuroendocrinology 2018 Table 2,Subjective stress reactivity.
+B13,94,YS_subjective_stress_overall,secondary,Control,mean,51.55,0.01,51.55238095238094,0.0023809523809461552,2.5775,pass,Lindsay Psychoneuroendocrinology 2018 Table 2,Subjective stress reactivity.

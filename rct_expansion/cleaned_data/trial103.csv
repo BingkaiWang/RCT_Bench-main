@@ -1,0 +1,600 @@
+Treatment,YP_eq5d_pain_3m,YS_status_3m,YS_mmse_3m,X_age_years,X_gender,X_eq5d_pain_0m,X_npi_depression_0m
+Geriatric ward,.,A,0,71,M,.,0
+MMHU,.,D,0,79,M,1,0
+MMHU,.,A,11,92,M,1,0
+MMHU,.,A,.,87,F,.,0
+General ward,1,A,11,86,F,3,0
+MMHU,.,A,0,83,F,.,0
+Geriatric ward,.,D,0,89,F,.,1
+MMHU,1,A,10,84,M,1,0
+General ward,.,A,.,82,F,.,0
+General ward,.,A,0,87,M,.,2
+MMHU,.,D,0,85,F,.,1
+MMHU,.,A,2,84,F,.,0
+MMHU,.,A,17,72,M,.,.
+Geriatric ward,.,D,0,94,M,.,0
+General ward,.,D,0,81,M,.,2
+MMHU,3,A,14,88,M,1,1
+MMHU,1,A,7,90,F,1,0
+General ward,.,A,.,86,F,1,2
+MMHU,.,D,0,94,M,.,0
+General ward,.,D,0,89,M,.,3
+MMHU,.,A,0,82,M,.,0
+Geriatric ward,.,A,.,69,F,.,0
+General ward,.,A,2,80,F,.,3
+MMHU,.,A,.,84,F,1,1
+Geriatric ward,1,A,10,89,M,.,1
+MMHU,1,A,25,83,F,2,0
+MMHU,.,A,.,94,F,1,0
+General ward,.,A,.,79,M,3,3
+MMHU,1,A,6,87,F,2,0
+Geriatric ward,.,A,.,80,F,.,0
+Geriatric ward,.,A,.,82,F,.,0
+MMHU,.,A,.,93,M,.,.
+MMHU,.,D,0,79,M,.,0
+Geriatric ward,.,D,0,95,F,.,1
+MMHU,.,A,0,85,F,1,1
+General ward,2,A,11,94,F,2,3
+MMHU,1,A,8,92,F,.,3
+Geriatric ward,.,A,16,72,F,.,2
+General ward,.,D,0,83,F,.,0
+MMHU,.,D,0,85,F,.,0
+MMHU,.,D,0,97,F,.,2
+MMHU,.,A,0,89,F,.,1
+General ward,1,A,26,68,M,2,2
+MMHU,.,A,.,79,F,1,2
+Geriatric ward,.,D,0,94,F,1,0
+MMHU,.,D,0,79,F,2,.
+MMHU,.,A,0,76,F,.,0
+MMHU,1,A,17,88,M,1,1
+General ward,.,D,0,89,M,.,0
+Geriatric ward,.,A,0,69,M,.,.
+MMHU,1,A,9,88,F,1,0
+MMHU,.,D,0,81,M,.,0
+MMHU,.,D,0,84,F,1,.
+MMHU,.,A,0,82,F,1,0
+MMHU,2,A,24,82,M,2,.
+Geriatric ward,.,A,.,89,M,1,.
+MMHU,.,D,0,90,F,.,.
+Geriatric ward,2,A,11,91,F,1,2
+General ward,.,D,0,88,F,.,1
+MMHU,1,A,9,78,M,1,1
+General ward,.,D,0,81,M,.,0
+MMHU,.,A,9,84,F,1,0
+Geriatric ward,.,D,0,81,F,3,1
+MMHU,1,A,13,90,F,1,.
+Geriatric ward,2,A,21,80,M,3,.
+Geriatric ward,2,A,5,89,M,1,1
+MMHU,2,A,15,87,M,.,1
+Geriatric ward,1,A,15,88,F,1,0
+MMHU,.,D,0,79,F,1,3
+Geriatric ward,.,A,.,81,M,.,1
+MMHU,.,D,0,82,M,.,2
+MMHU,.,D,0,86,F,.,1
+MMHU,.,D,0,88,F,1,0
+MMHU,2,A,8,83,F,2,1
+Geriatric ward,1,A,0,87,F,1,0
+MMHU,.,D,0,92,F,.,.
+Geriatric ward,.,A,.,92,M,2,0
+MMHU,.,A,.,80,M,3,3
+MMHU,.,D,0,84,M,.,1
+Geriatric ward,.,A,7,91,F,1,0
+MMHU,.,D,0,91,F,.,.
+MMHU,1,A,8,90,F,.,0
+MMHU,.,D,0,90,F,1,2
+Geriatric ward,.,D,0,81,M,.,0
+MMHU,1,A,19,88,M,2,.
+MMHU,2,A,9,90,F,1,3
+Geriatric ward,1,A,0,82,M,1,0
+MMHU,.,A,0,88,F,.,2
+Geriatric ward,.,A,.,86,M,.,1
+Geriatric ward,.,D,0,91,M,.,1
+Geriatric ward,.,D,0,92,F,.,0
+MMHU,.,A,10,84,F,3,1
+MMHU,.,D,0,88,F,.,3
+Geriatric ward,.,A,0,96,F,2,1
+MMHU,.,D,0,89,M,.,1
+MMHU,.,A,.,85,F,1,.
+General ward,1,A,28,86,F,1,1
+MMHU,1,A,15,96,F,2,0
+MMHU,.,A,.,76,F,2,.
+MMHU,3,A,6,70,M,3,1
+Geriatric ward,1,A,0,86,M,1,1
+MMHU,1,A,23,81,M,1,0
+Geriatric ward,.,D,0,79,F,.,.
+MMHU,.,D,0,77,F,.,0
+General ward,.,D,0,85,F,.,0
+General ward,1,A,11,88,M,1,.
+MMHU,.,A,.,82,M,1,0
+MMHU,2,A,17,76,M,2,2
+MMHU,2,A,5,81,M,1,0
+MMHU,.,A,18,70,M,1,.
+MMHU,.,A,.,83,M,.,0
+Geriatric ward,1,A,10,90,F,2,0
+General ward,.,D,0,89,M,2,.
+MMHU,1,A,12,82,F,1,1
+MMHU,.,D,0,87,F,1,1
+Geriatric ward,2,A,30,77,M,1,.
+Geriatric ward,.,D,0,89,M,1,0
+MMHU,.,A,.,91,F,.,3
+MMHU,1,A,15,95,M,1,2
+Geriatric ward,.,D,0,87,M,1,0
+Geriatric ward,2,A,20,93,F,1,1
+MMHU,.,D,0,93,F,1,0
+MMHU,1,A,16,83,F,1,2
+Geriatric ward,1,A,14,83,F,1,1
+Geriatric ward,.,A,0,90,F,.,.
+Geriatric ward,1,A,0,68,M,.,2
+MMHU,2,A,14,76,M,.,2
+MMHU,.,D,0,82,F,.,.
+MMHU,.,D,0,89,F,2,.
+Geriatric ward,.,A,0,85,F,1,.
+MMHU,2,A,25,86,F,1,.
+MMHU,1,A,7,91,F,1,0
+General ward,2,A,25,80,M,2,3
+Geriatric ward,.,D,0,84,M,.,0
+MMHU,.,A,.,84,M,.,.
+MMHU,.,A,0,79,M,.,1
+Geriatric ward,.,A,0,72,M,.,0
+Geriatric ward,.,A,0,95,F,2,1
+Geriatric ward,.,D,0,87,M,1,0
+MMHU,.,A,0,85,M,.,.
+Geriatric ward,1,A,12,77,M,.,1
+MMHU,.,D,0,95,M,.,0
+MMHU,.,A,.,90,M,1,2
+Geriatric ward,2,A,6,91,F,3,0
+General ward,.,D,0,94,F,.,.
+MMHU,1,A,22,73,M,1,.
+MMHU,2,A,9,87,F,1,.
+General ward,1,A,10,80,M,1,.
+Geriatric ward,1,A,29,72,F,1,.
+General ward,.,D,0,81,M,1,0
+MMHU,.,D,0,85,F,.,.
+MMHU,.,D,0,98,M,.,1
+Geriatric ward,1,A,11,95,F,2,1
+MMHU,.,D,0,80,M,1,.
+MMHU,.,A,.,81,F,1,1
+MMHU,.,D,0,88,F,.,1
+General ward,1,A,26,92,F,3,2
+MMHU,2,A,21,97,F,1,0
+Geriatric ward,1,A,9,90,F,3,.
+MMHU,1,A,15,78,M,1,2
+MMHU,.,A,.,78,M,2,0
+Geriatric ward,2,A,25,81,M,1,0
+MMHU,.,D,0,85,M,1,2
+Geriatric ward,.,D,0,83,M,1,1
+Geriatric ward,.,D,0,82,M,1,0
+MMHU,2,A,28,86,F,2,1
+General ward,.,A,.,81,M,2,0
+General ward,2,A,22,86,M,.,0
+MMHU,1,A,20,87,M,.,0
+General ward,1,A,25,72,M,1,1
+MMHU,1,A,20,86,M,1,2
+General ward,1,A,24,83,M,.,0
+MMHU,1,A,23,85,F,1,2
+Geriatric ward,.,D,0,92,F,.,0
+MMHU,.,D,0,86,M,1,2
+General ward,.,D,0,85,M,.,0
+Geriatric ward,.,D,0,84,M,1,0
+MMHU,1,A,17,86,M,.,3
+Geriatric ward,.,D,0,87,F,.,1
+MMHU,2,A,22,81,M,2,0
+Geriatric ward,1,A,8,96,F,.,1
+MMHU,.,A,.,72,F,2,2
+MMHU,2,A,15,81,M,1,0
+MMHU,2,A,11,85,F,1,1
+Geriatric ward,.,A,.,83,F,.,0
+MMHU,.,A,.,76,M,1,0
+Geriatric ward,.,D,0,79,F,.,1
+MMHU,1,A,25,87,M,1,0
+MMHU,2,A,19,81,F,2,0
+MMHU,.,A,.,74,M,.,0
+General ward,2,A,20,90,M,.,0
+Geriatric ward,.,A,.,79,F,.,1
+Geriatric ward,1,A,16,91,F,.,0
+Geriatric ward,.,A,0,86,F,.,1
+Geriatric ward,.,A,.,80,F,2,0
+MMHU,.,A,.,88,F,1,1
+Geriatric ward,1,A,26,87,F,.,2
+Geriatric ward,.,A,.,81,F,1,2
+MMHU,.,A,.,73,F,1,1
+General ward,2,A,21,95,F,.,1
+General ward,.,A,.,78,M,.,1
+MMHU,.,A,.,87,M,1,2
+MMHU,2,A,6,86,F,1,0
+MMHU,2,A,18,86,F,3,0
+MMHU,2,A,16,88,F,2,3
+Geriatric ward,.,D,0,97,F,.,0
+MMHU,2,A,27,89,F,3,1
+Geriatric ward,1,A,12,82,M,1,1
+General ward,2,A,23,78,M,1,1
+Geriatric ward,.,D,0,90,F,1,0
+MMHU,1,A,8,79,M,1,0
+MMHU,3,A,21,84,F,2,1
+Geriatric ward,.,A,.,88,F,1,0
+Geriatric ward,.,A,.,79,F,1,0
+Geriatric ward,.,A,.,94,M,2,2
+MMHU,.,A,.,86,M,2,1
+Geriatric ward,.,D,0,89,F,.,2
+MMHU,.,D,0,85,F,3,3
+General ward,1,A,26,87,M,2,0
+Geriatric ward,1,A,24,88,M,2,1
+General ward,3,A,20,84,F,3,2
+MMHU,.,A,.,80,F,1,2
+MMHU,.,A,.,81,M,.,0
+Geriatric ward,.,A,.,79,F,2,.
+General ward,.,D,0,65,M,2,.
+Geriatric ward,3,A,21,86,F,2,1
+Geriatric ward,.,A,.,82,F,.,3
+MMHU,.,D,0,83,F,.,0
+MMHU,1,A,8,90,M,1,0
+Geriatric ward,.,D,0,80,M,.,1
+Geriatric ward,.,A,.,70,M,1,.
+MMHU,.,D,0,91,F,1,1
+General ward,1,A,10,84,M,1,0
+Geriatric ward,1,A,24,74,M,2,1
+MMHU,.,A,.,87,M,1,0
+General ward,2,A,19,86,M,2,3
+MMHU,.,A,.,90,M,2,0
+MMHU,.,A,.,87,F,2,0
+MMHU,1,A,6,95,F,2,.
+MMHU,2,A,11,88,M,1,1
+MMHU,2,A,8,89,F,2,0
+MMHU,2,A,20,76,M,1,.
+Geriatric ward,.,D,0,86,M,1,0
+Geriatric ward,1,A,19,73,M,2,2
+MMHU,2,A,26,73,M,2,1
+MMHU,1,A,22,79,M,.,0
+MMHU,.,A,.,74,F,.,2
+General ward,1,A,8,78,F,2,1
+General ward,1,A,25,79,F,2,0
+MMHU,2,A,0,77,F,.,.
+MMHU,1,A,16,83,F,1,1
+Geriatric ward,2,A,20,83,F,2,2
+Geriatric ward,1,A,16,90,F,1,0
+MMHU,2,A,22,71,F,2,1
+Geriatric ward,2,A,29,85,F,2,2
+Geriatric ward,.,D,0,91,M,.,0
+MMHU,2,A,22,82,F,1,1
+MMHU,2,A,23,96,M,2,2
+Geriatric ward,.,D,0,88,M,.,0
+Geriatric ward,.,A,.,94,F,2,1
+Geriatric ward,.,D,0,74,M,3,1
+MMHU,.,A,.,84,M,1,0
+MMHU,.,D,0,88,F,.,0
+General ward,.,A,0,72,F,.,0
+MMHU,.,A,13,81,F,1,0
+Geriatric ward,1,A,23,83,F,1,0
+MMHU,.,A,.,75,F,1,0
+Geriatric ward,.,D,0,90,F,1,0
+MMHU,.,D,0,87,F,2,2
+General ward,.,A,.,84,F,2,2
+General ward,.,A,0,89,F,1,0
+General ward,1,A,26,94,F,1,.
+MMHU,.,A,0,83,F,1,0
+General ward,1,A,28,87,M,3,1
+MMHU,1,A,17,89,F,3,0
+General ward,1,A,24,90,F,1,1
+Geriatric ward,.,D,0,71,M,1,.
+MMHU,.,A,0,80,F,.,2
+Geriatric ward,.,A,.,85,M,.,0
+MMHU,.,A,.,79,F,2,3
+General ward,.,D,0,79,F,1,1
+MMHU,.,A,.,76,F,2,2
+MMHU,.,D,0,82,F,.,0
+Geriatric ward,.,A,0,102,F,1,1
+MMHU,.,A,25,96,F,2,1
+MMHU,2,A,14,85,F,2,2
+Geriatric ward,.,D,0,71,M,1,1
+General ward,1,A,28,68,M,1,.
+MMHU,.,A,.,75,M,1,2
+General ward,.,A,.,82,M,1,0
+Geriatric ward,1,A,17,91,M,1,.
+Geriatric ward,.,A,8,93,M,1,0
+MMHU,.,D,0,91,F,1,.
+MMHU,2,A,19,91,M,1,1
+MMHU,2,A,22,87,F,3,0
+Geriatric ward,.,A,4,83,F,1,.
+Geriatric ward,.,A,.,77,M,.,1
+MMHU,1,A,.,94,F,1,1
+Geriatric ward,.,A,.,80,M,2,3
+Geriatric ward,.,A,.,90,F,1,0
+MMHU,.,A,.,89,M,1,0
+General ward,.,A,18,83,M,1,.
+MMHU,.,D,0,79,M,1,2
+MMHU,.,A,.,83,M,2,.
+MMHU,.,A,.,88,F,1,1
+Geriatric ward,1,A,17,83,F,1,.
+MMHU,1,A,24,88,M,1,0
+Geriatric ward,3,A,26,84,M,2,0
+MMHU,.,A,0,80,F,1,3
+MMHU,3,A,21,86,F,1,1
+MMHU,.,A,.,79,F,.,.
+Geriatric ward,.,A,.,79,M,2,0
+General ward,.,A,0,78,M,.,1
+MMHU,.,D,0,85,M,1,2
+General ward,.,D,0,85,M,2,0
+General ward,.,D,0,89,F,1,0
+MMHU,.,D,0,82,F,.,1
+MMHU,2,A,18,82,M,2,0
+Geriatric ward,1,A,7,101,F,.,3
+MMHU,.,D,0,98,F,.,1
+MMHU,1,A,18,93,F,1,.
+MMHU,1,A,12,83,F,2,3
+General ward,.,A,.,90,F,1,0
+MMHU,2,A,23,91,M,2,1
+Geriatric ward,.,A,0,86,F,.,1
+Geriatric ward,.,A,10,86,M,3,0
+MMHU,2,A,18,82,M,1,0
+General ward,.,D,0,80,M,.,0
+MMHU,.,A,.,92,M,2,1
+MMHU,.,A,6,87,M,1,0
+Geriatric ward,.,D,0,88,M,.,0
+General ward,1,A,18,80,F,1,1
+MMHU,.,A,.,82,M,2,0
+MMHU,2,A,22,94,F,1,1
+Geriatric ward,.,D,0,83,M,1,3
+Geriatric ward,.,A,25,85,F,2,2
+MMHU,1,A,24,81,M,2,0
+MMHU,.,D,0,72,M,.,.
+Geriatric ward,.,D,0,84,M,.,0
+Geriatric ward,1,A,13,82,F,.,2
+Geriatric ward,.,A,.,88,M,.,0
+MMHU,2,A,24,89,F,1,1
+Geriatric ward,2,A,26,85,F,2,0
+General ward,1,A,12,89,M,2,.
+MMHU,1,A,3,87,M,.,0
+Geriatric ward,1,A,19,83,M,2,1
+General ward,.,A,.,85,M,2,0
+MMHU,.,A,.,82,M,.,.
+General ward,.,A,.,87,M,.,1
+MMHU,.,D,0,87,F,1,0
+MMHU,.,A,.,74,F,1,0
+MMHU,1,A,.,91,M,2,.
+Geriatric ward,.,D,0,80,M,.,2
+MMHU,1,A,25,89,F,.,2
+MMHU,1,A,27,79,M,1,.
+Geriatric ward,.,A,0,99,F,1,1
+MMHU,1,A,13,83,F,1,0
+MMHU,.,A,.,86,M,1,0
+Geriatric ward,2,A,13,88,F,.,.
+MMHU,1,A,14,87,F,1,0
+Geriatric ward,.,D,0,84,F,2,.
+General ward,.,D,0,90,M,1,1
+Geriatric ward,1,A,9,95,M,2,0
+MMHU,2,A,28,85,M,3,2
+MMHU,.,D,0,93,M,3,2
+MMHU,.,D,0,91,F,.,0
+MMHU,.,D,0,93,F,1,0
+General ward,.,A,.,77,M,1,.
+Geriatric ward,2,A,17,84,M,1,2
+MMHU,2,A,8,84,F,2,.
+Geriatric ward,1,A,19,75,F,1,0
+MMHU,.,A,.,78,M,2,2
+Geriatric ward,.,D,0,90,M,.,0
+MMHU,.,A,.,80,M,1,2
+General ward,.,A,14,71,M,1,.
+Geriatric ward,2,A,23,85,F,1,.
+MMHU,1,A,23,83,M,1,0
+General ward,2,A,13,87,F,1,1
+General ward,.,A,0,80,F,.,.
+Geriatric ward,2,A,17,84,F,2,2
+MMHU,.,A,.,75,M,.,2
+MMHU,.,A,0,88,M,1,2
+Geriatric ward,1,A,25,86,F,1,2
+Geriatric ward,2,A,26,96,F,3,1
+Geriatric ward,.,A,.,88,M,1,0
+MMHU,2,A,19,78,F,1,2
+MMHU,.,D,0,89,M,3,0
+MMHU,1,A,27,86,F,1,0
+Geriatric ward,.,D,0,88,M,2,.
+MMHU,1,A,24,84,F,1,3
+General ward,2,A,15,87,M,1,.
+Geriatric ward,2,A,18,83,F,2,1
+General ward,1,A,26,82,F,1,1
+MMHU,.,D,0,87,F,.,.
+Geriatric ward,.,A,0,90,F,1,2
+MMHU,1,A,29,77,F,2,.
+MMHU,.,D,0,65,M,1,0
+Geriatric ward,.,A,.,81,F,1,0
+Geriatric ward,1,A,0,87,M,.,1
+MMHU,3,A,7,81,F,2,1
+MMHU,2,A,14,89,M,.,1
+General ward,.,A,11,89,M,.,1
+MMHU,2,A,26,88,M,2,1
+Geriatric ward,1,A,12,86,F,1,1
+General ward,2,A,23,89,M,1,1
+Geriatric ward,3,A,20,87,M,3,1
+MMHU,1,A,24,79,M,1,1
+MMHU,.,A,.,77,F,.,1
+Geriatric ward,2,A,22,85,M,2,3
+Geriatric ward,.,A,.,83,F,1,2
+MMHU,.,A,.,89,F,.,2
+General ward,.,D,0,91,M,.,2
+General ward,3,A,22,71,M,2,0
+MMHU,.,A,.,82,F,2,0
+MMHU,.,D,0,84,M,.,2
+MMHU,1,A,22,79,F,1,3
+General ward,.,A,.,79,F,3,1
+Geriatric ward,2,A,23,88,M,1,1
+MMHU,.,D,0,86,M,1,3
+MMHU,2,A,17,87,M,1,1
+MMHU,.,A,.,82,F,1,3
+General ward,2,A,23,86,F,3,.
+MMHU,.,A,12,79,F,1,0
+MMHU,.,A,.,77,F,1,3
+Geriatric ward,1,A,16,79,F,3,1
+Geriatric ward,.,A,0,84,F,2,0
+MMHU,.,A,.,66,M,1,0
+MMHU,.,A,.,82,M,1,.
+Geriatric ward,1,A,29,75,F,1,2
+MMHU,.,A,.,75,F,1,.
+Geriatric ward,1,A,26,94,F,.,3
+MMHU,2,A,21,86,M,1,.
+Geriatric ward,.,D,0,83,F,2,.
+General ward,1,A,18,86,F,1,0
+MMHU,.,A,0,77,F,.,3
+MMHU,3,A,15,79,F,1,.
+Geriatric ward,1,A,10,87,M,2,2
+Geriatric ward,.,A,.,80,M,1,.
+MMHU,.,A,0,86,M,.,1
+Geriatric ward,.,A,.,83,M,1,.
+Geriatric ward,1,A,10,89,M,1,.
+Geriatric ward,.,A,0,85,F,1,.
+MMHU,.,A,20,90,M,1,1
+MMHU,.,A,.,79,M,1,.
+MMHU,.,D,0,86,M,1,1
+Geriatric ward,.,D,0,76,M,2,.
+MMHU,2,A,25,82,F,2,0
+MMHU,1,A,24,80,F,1,.
+Geriatric ward,1,A,27,78,F,1,1
+Geriatric ward,3,A,21,81,M,2,2
+MMHU,1,A,13,82,M,1,1
+Geriatric ward,.,A,11,84,F,3,0
+General ward,.,A,.,83,M,1,1
+MMHU,.,A,0,72,M,1,.
+Geriatric ward,1,A,29,79,F,1,.
+MMHU,1,A,19,81,M,1,.
+MMHU,1,A,0,78,F,2,1
+Geriatric ward,1,A,12,87,F,1,.
+Geriatric ward,.,D,0,84,M,.,1
+MMHU,2,A,22,87,F,1,.
+Geriatric ward,2,A,0,82,M,1,1
+MMHU,.,D,0,97,F,.,1
+MMHU,.,A,.,86,M,2,0
+Geriatric ward,.,A,.,80,F,2,.
+Geriatric ward,.,A,.,90,F,1,1
+MMHU,2,A,19,73,M,3,.
+MMHU,2,A,26,97,F,.,0
+MMHU,.,A,.,94,F,2,2
+MMHU,.,D,0,84,M,2,.
+General ward,1,A,14,91,M,1,0
+Geriatric ward,2,A,19,85,M,2,1
+MMHU,1,A,15,78,M,1,3
+MMHU,1,A,13,90,M,1,0
+MMHU,1,A,18,75,F,1,0
+MMHU,2,A,21,84,F,1,0
+Geriatric ward,2,A,11,78,F,2,.
+MMHU,.,A,.,88,F,2,2
+Geriatric ward,2,A,21,76,F,3,0
+MMHU,2,A,23,89,F,1,.
+Geriatric ward,.,D,0,82,M,.,0
+MMHU,1,A,12,82,M,1,3
+MMHU,2,A,26,79,M,2,1
+Geriatric ward,1,A,18,73,M,1,0
+MMHU,2,A,15,77,M,2,0
+MMHU,.,D,0,91,F,1,1
+Geriatric ward,.,A,.,81,F,3,0
+Geriatric ward,1,A,19,83,F,1,0
+MMHU,.,D,0,85,M,1,1
+Geriatric ward,.,A,0,79,M,.,2
+MMHU,1,A,19,80,F,1,1
+Geriatric ward,2,A,15,91,M,1,2
+General ward,2,A,24,85,M,2,1
+MMHU,.,A,.,74,F,1,1
+MMHU,.,A,.,74,M,.,1
+MMHU,.,A,.,87,F,1,1
+MMHU,.,D,0,83,F,1,1
+General ward,1,A,25,99,M,1,0
+Geriatric ward,.,A,.,65,M,.,0
+Geriatric ward,.,D,0,91,M,3,2
+MMHU,2,A,13,91,M,1,1
+MMHU,1,A,23,85,M,1,1
+MMHU,.,A,18,73,M,.,3
+Geriatric ward,1,A,30,81,F,2,0
+MMHU,.,A,.,88,F,1,0
+MMHU,.,A,.,91,M,1,2
+MMHU,.,D,0,82,F,.,0
+MMHU,1,A,27,85,F,2,1
+MMHU,1,A,15,84,F,2,0
+Geriatric ward,1,A,12,81,F,.,0
+Geriatric ward,1,A,21,88,M,2,1
+Geriatric ward,.,A,5,85,M,1,0
+Geriatric ward,.,A,0,81,M,1,.
+Geriatric ward,.,D,0,85,M,1,0
+MMHU,.,A,.,82,M,1,1
+MMHU,1,A,30,83,M,1,3
+MMHU,1,A,27,80,F,1,1
+Geriatric ward,1,A,24,69,M,1,0
+MMHU,.,A,0,93,F,3,.
+MMHU,.,A,.,90,M,2,.
+General ward,2,A,27,82,F,2,.
+MMHU,.,D,0,75,F,.,3
+Geriatric ward,.,D,0,87,F,1,1
+General ward,.,A,.,83,F,2,.
+MMHU,.,D,0,87,F,.,3
+Geriatric ward,.,A,.,86,M,2,1
+MMHU,1,A,27,83,M,1,.
+MMHU,.,A,.,86,M,1,.
+Geriatric ward,1,A,23,98,F,2,1
+Geriatric ward,1,A,16,70,M,1,.
+Geriatric ward,1,A,23,80,M,1,0
+MMHU,1,A,16,87,M,1,1
+General ward,3,A,11,79,M,3,3
+Geriatric ward,1,A,27,85,M,1,1
+MMHU,1,A,15,84,M,2,.
+MMHU,1,A,18,90,M,1,1
+MMHU,.,A,.,85,F,1,.
+Geriatric ward,.,A,0,84,M,.,1
+Geriatric ward,.,A,.,84,F,.,1
+Geriatric ward,2,A,9,86,F,1,1
+Geriatric ward,2,A,14,88,M,1,.
+MMHU,.,A,.,82,M,1,2
+Geriatric ward,1,A,26,88,M,1,0
+MMHU,.,A,.,86,F,3,.
+MMHU,1,A,27,97,F,1,1
+MMHU,.,A,0,85,F,.,1
+Geriatric ward,1,A,15,83,F,3,0
+Geriatric ward,1,A,12,81,F,1,0
+Geriatric ward,2,A,17,77,F,3,.
+MMHU,.,A,15,91,F,1,0
+General ward,2,A,29,67,M,2,1
+Geriatric ward,.,D,0,75,M,1,2
+MMHU,.,A,0,77,M,1,.
+General ward,.,A,.,73,M,1,1
+Geriatric ward,2,A,11,95,F,1,1
+MMHU,.,D,0,76,M,1,.
+MMHU,1,A,20,87,M,1,1
+Geriatric ward,.,D,0,89,M,1,0
+MMHU,1,A,30,73,F,1,1
+General ward,2,A,22,74,M,2,1
+Geriatric ward,.,A,0,88,M,.,0
+MMHU,1,A,16,71,M,1,.
+Geriatric ward,1,A,29,86,F,1,0
+MMHU,.,D,0,84,F,1,0
+Geriatric ward,.,A,0,74,M,2,.
+Geriatric ward,1,A,20,90,F,1,.
+MMHU,.,D,0,83,F,1,2
+MMHU,1,A,19,78,M,1,.
+MMHU,2,A,14,90,F,2,0
+MMHU,.,D,0,84,F,.,.
+General ward,.,D,0,84,M,1,1
+Geriatric ward,.,D,0,86,M,.,.
+MMHU,.,A,.,86,M,.,.
+Geriatric ward,.,D,0,91,M,.,2
+MMHU,.,D,0,89,F,1,.
+MMHU,.,A,.,79,F,3,.
+Geriatric ward,.,D,0,92,M,2,.
+MMHU,.,D,0,85,M,.,0
+Geriatric ward,1,A,18,69,F,3,0
+Geriatric ward,.,A,0,78,F,.,1
+General ward,.,A,2,88,F,.,0
+MMHU,1,A,28,88,F,1,.
+Geriatric ward,.,A,.,83,M,1,0
+MMHU,.,A,.,87,M,1,2
+MMHU,.,A,.,70,F,1,2
+MMHU,.,A,.,72,F,1,.
+Geriatric ward,.,A,.,76,F,1,1
+General ward,.,D,0,93,F,2,.
+MMHU,2,A,19,88,M,1,1
+MMHU,.,A,6,89,F,1,2
+Geriatric ward,1,A,22,89,F,1,0
+Geriatric ward,.,A,12,89,F,.,1
+General ward,.,D,0,89,F,2,0
+MMHU,.,A,.,86,F,2,2
+MMHU,.,A,.,89,F,1,0
+Geriatric ward,.,D,0,95,F,1,0
+MMHU,.,A,.,76,F,2,.
+MMHU,1,A,21,78,M,.,0
+MMHU,1,A,11,80,M,1,0
+Geriatric ward,.,A,13,95,F,.,0

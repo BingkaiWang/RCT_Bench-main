@@ -1,0 +1,401 @@
+Treatment,YP_recovery_time,YP_early_7d,YP_late_12d,YS_severity_worsen,YS_pos_14d,X_agegrp_0d,X_sex_0d,X_fever_0d,X_cough_0d,X_respdiff_0d,X_comorb_0d,X_diabetes_0d,X_hyperten_0d
+Placebo,13,No,yes,None,No,less than 40,Female,present,present,Absent,Absent,Absent,Absent
+Placebo,2,Yes,No,None,No,less than 40,Female,present,present,Absent,Absent,Absent,Absent
+Placebo,8,No,No,None,No,less than 40,Female,present,present,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,3,Yes,No,None,No,40-60,Female,present,present,Absent,Absent,Absent,Absent
+Placebo,4,Yes,No,None,No,less than 40,Female,present,present,Present,Absent,Absent,Absent
+Ivermectin+Doxycycline,13,No,yes,Yes,Yes,less than 40,Male,present,present,Present,Absent,Absent,Absent
+Ivermectin+Doxycycline,10,No,No,None,No,40-60,Male,present,Absent,Absent,single,Absent,Present
+Ivermectin+Doxycycline,2,Yes,No,None,Yes,less than 40,Male,present,present,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,5,Yes,No,None,No,less than 40,Female,present,Absent,Absent,Absent,Absent,Absent
+Placebo,10,No,No,None,No,less than 40,Male,present,Absent,Absent,Absent,Absent,Absent
+Placebo,5,Yes,No,None,No,less than 40,Male,present,Absent,Absent,Absent,Absent,Absent
+Placebo,9,No,No,Yes,No,less than 40,Male,present,Absent,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,21,No,yes,Yes,No,less than 40,Female,present,present,Present,Absent,Absent,Absent
+Placebo,13,No,yes,None,Yes,less than 40,Male,present,present,Absent,Absent,Absent,Absent
+Placebo,18,No,yes,None,Yes,less than 40,Female,absent,present,Present,Absent,Absent,Absent
+Placebo,9,No,No,Yes,Yes,40-60,Female,present,Absent,Present,Multiple,Present,Present
+Ivermectin+Doxycycline,4,Yes,No,None,No,less than 40,Male,present,present,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,4,Yes,No,None,No,less than 40,Male,absent,present,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,6,Yes,No,None,No,less than 40,Male,present,present,Absent,Absent,Absent,Absent
+Placebo,5,Yes,No,None,No,40-60,Male,absent,Absent,Present,Absent,Absent,Absent
+Placebo,8,No,No,Yes,No,less than 40,Male,present,present,Present,Absent,Absent,Absent
+Placebo,12,No,yes,Yes,Yes,40-60,Male,present,Absent,Present,Absent,Absent,Absent
+Placebo,2,Yes,No,None,No,>60,Female,present,Absent,Absent,Absent,Absent,Absent
+Placebo,7,Yes,No,None,No,less than 40,Female,present,present,Absent,Absent,Absent,Absent
+Placebo,4,Yes,No,None,No,40-60,Male,present,Absent,Present,Absent,Absent,Absent
+Placebo,1,Yes,No,None,No,40-60,Female,present,present,Absent,single,Absent,Present
+Placebo,2,Yes,No,None,No,>60,Male,present,present,Absent,Multiple,Present,Present
+Placebo,7,Yes,No,None,No,less than 40,Female,absent,Absent,Present,Absent,Absent,Absent
+Ivermectin+Doxycycline,3,Yes,No,None,No,less than 40,Male,absent,Absent,Present,Absent,Absent,Absent
+Ivermectin+Doxycycline,2,Yes,No,None,No,less than 40,Male,present,Absent,Absent,Absent,Absent,Absent
+Placebo,4,Yes,No,None,No,less than 40,Female,absent,Absent,Absent,Absent,Absent,Absent
+Placebo,16,No,yes,None,No,less than 40,Female,present,present,Absent,Absent,Absent,Absent
+Placebo,15,No,yes,None,No,less than 40,Female,absent,Absent,Absent,Absent,Absent,Absent
+Placebo,14,No,yes,None,No,40-60,Female,absent,present,Absent,Absent,Absent,Absent
+Placebo,10,No,No,None,No,less than 40,Female,present,present,Absent,Absent,Absent,Absent
+Placebo,7,Yes,No,None,No,40-60,Male,present,Absent,Present,Absent,Absent,Absent
+Placebo,14,No,yes,None,No,less than 40,Female,absent,present,Absent,Absent,Absent,Absent
+Placebo,7,Yes,No,Yes,No,40-60,Female,present,Absent,Present,single,Present,Absent
+Ivermectin+Doxycycline,3,Yes,No,None,No,less than 40,Male,present,Absent,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,3,Yes,No,None,No,less than 40,Female,absent,present,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,7,Yes,No,None,No,less than 40,Female,present,Absent,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,6,Yes,No,None,Yes,less than 40,Female,present,present,Present,Absent,Absent,Absent
+Placebo,8,No,No,None,No,less than 40,Male,present,present,Present,Absent,Absent,Absent
+Placebo,6,Yes,No,None,No,less than 40,Male,present,present,Absent,single,Absent,Absent
+Placebo,5,Yes,No,None,No,less than 40,Male,present,present,Present,Absent,Absent,Absent
+Placebo,28,No,yes,Yes,No,>60,Male,present,present,Present,Absent,Absent,Absent
+Ivermectin+Doxycycline,4,Yes,No,None,No,less than 40,Female,absent,present,Present,Absent,Absent,Absent
+Placebo,13,No,yes,None,No,40-60,Female,present,present,Present,Absent,Absent,Absent
+Placebo,6,Yes,No,None,No,40-60,Male,absent,present,Absent,single,Absent,Absent
+Ivermectin+Doxycycline,4,Yes,No,None,No,less than 40,Male,present,present,Absent,Multiple,Present,Present
+Ivermectin+Doxycycline,3,Yes,No,None,No,40-60,Female,absent,Absent,Absent,Absent,Absent,Absent
+Placebo,4,Yes,No,None,No,less than 40,Female,absent,Absent,Absent,Absent,Absent,Absent
+Placebo,12,No,yes,None,No,less than 40,Male,absent,Absent,Present,Absent,Absent,Absent
+Placebo,12,No,yes,None,No,40-60,Female,present,Absent,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,13,No,yes,None,Yes,less than 40,Male,present,Absent,Absent,Absent,Absent,Absent
+Placebo,22,No,yes,Yes,Yes,>60,Male,present,present,Present,Absent,Absent,Absent
+Placebo,11,No,No,None,Yes,less than 40,Female,absent,Absent,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,11,No,No,None,No,less than 40,Male,present,present,Present,Absent,Absent,Absent
+Placebo,2,Yes,No,None,No,less than 40,Female,present,Absent,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,9,No,No,None,No,less than 40,Female,present,present,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,6,Yes,No,None,No,40-60,Male,present,present,Absent,Absent,Absent,Absent
+Placebo,5,Yes,No,None,No,less than 40,Female,absent,present,Absent,Absent,Absent,Absent
+Placebo,20,No,yes,Yes,No,40-60,Male,present,present,Present,Absent,Absent,Absent
+Placebo,9,No,No,None,No,less than 40,Female,present,present,Absent,Absent,Absent,Absent
+Placebo,15,No,yes,None,Yes,less than 40,Male,absent,present,Present,Absent,Absent,Absent
+Ivermectin+Doxycycline,5,Yes,No,None,No,less than 40,Male,present,Absent,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,4,Yes,No,None,No,less than 40,Male,absent,present,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,16,No,yes,None,No,less than 40,Female,absent,present,Present,Absent,Absent,Absent
+Placebo,26,No,yes,Yes,No,40-60,Male,present,present,Present,Absent,Absent,Absent
+Placebo,9,No,No,None,No,less than 40,Male,present,present,Present,Absent,Absent,Absent
+Placebo,10,No,No,None,No,less than 40,Male,absent,present,Absent,Absent,Absent,Absent
+Placebo,20,No,yes,None,No,less than 40,Female,present,present,Absent,Absent,Absent,Absent
+Placebo,7,Yes,No,None,No,less than 40,Female,absent,present,Present,Absent,Absent,Absent
+Placebo,10,No,No,None,No,less than 40,Male,present,present,Present,single,Absent,Present
+Placebo,5,Yes,No,None,No,less than 40,Male,absent,present,Absent,Absent,Absent,Absent
+Placebo,7,Yes,No,None,No,less than 40,Male,absent,present,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,26,No,yes,Yes,No,less than 40,Female,present,Absent,Present,single,Absent,Absent
+Placebo,7,Yes,No,None,No,40-60,Male,present,present,Present,Absent,Absent,Absent
+Ivermectin+Doxycycline,8,No,No,None,No,less than 40,Female,present,Absent,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,7,Yes,No,None,No,less than 40,Male,present,present,Absent,Absent,Absent,Absent
+Placebo,14,No,yes,None,No,less than 40,Female,present,present,Absent,Absent,Absent,Absent
+Placebo,3,Yes,No,None,Yes,40-60,Male,present,Absent,Absent,single,Absent,Present
+Ivermectin+Doxycycline,5,Yes,No,None,No,less than 40,Male,absent,present,Present,Absent,Absent,Absent
+Ivermectin+Doxycycline,6,Yes,No,None,No,less than 40,Male,present,present,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,5,Yes,No,None,No,less than 40,Male,absent,present,Absent,Absent,Absent,Absent
+Placebo,10,No,No,None,No,less than 40,Male,absent,present,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,4,Yes,No,None,No,less than 40,Male,present,present,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,5,Yes,No,None,No,less than 40,Male,present,present,Absent,Absent,Absent,Absent
+Placebo,12,No,yes,None,No,less than 40,Male,present,present,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,6,Yes,No,None,No,less than 40,Male,absent,present,Absent,Absent,Absent,Absent
+Placebo,9,No,No,None,No,less than 40,Female,present,present,Present,Absent,Absent,Absent
+Placebo,13,No,yes,None,Yes,40-60,Female,present,present,Absent,Multiple,Present,Present
+Placebo,12,No,yes,None,Yes,less than 40,Male,present,Absent,Absent,Absent,Absent,Absent
+Placebo,10,No,No,None,Yes,less than 40,Male,present,present,Absent,Absent,Absent,Absent
+Placebo,7,Yes,No,None,No,less than 40,Male,absent,present,Absent,Absent,Absent,Absent
+Placebo,4,Yes,No,None,No,less than 40,Female,present,Absent,Absent,Absent,Absent,Absent
+Placebo,15,No,yes,None,Yes,less than 40,Male,present,present,Present,Absent,Absent,Absent
+Placebo,8,No,No,None,No,less than 40,Male,absent,present,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,5,Yes,No,None,No,less than 40,Female,absent,present,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,5,Yes,No,None,No,less than 40,Male,present,Absent,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,15,No,yes,None,Yes,less than 40,Male,absent,present,Present,single,Present,Absent
+Placebo,9,No,No,None,No,40-60,Male,present,Absent,Present,single,Absent,Absent
+Placebo,12,No,yes,Yes,No,>60,Male,present,present,Present,Multiple,Present,Absent
+Placebo,4,Yes,No,None,No,>60,Male,absent,Absent,Present,Multiple,Present,Present
+Ivermectin+Doxycycline,2,Yes,No,None,No,40-60,Male,present,present,Absent,single,Absent,Present
+Placebo,3,Yes,No,None,No,less than 40,Female,absent,Absent,Absent,Absent,Absent,Absent
+Placebo,20,No,yes,Yes,Yes,less than 40,Female,present,present,Present,single,Present,Absent
+Placebo,10,No,No,None,No,less than 40,Female,present,present,Absent,Absent,Absent,Absent
+Placebo,23,No,yes,Yes,Yes,>60,Male,present,Absent,Present,Multiple,Absent,Present
+Ivermectin+Doxycycline,8,No,No,Yes,No,less than 40,Male,present,Absent,Present,single,Absent,Present
+Placebo,5,Yes,No,None,No,40-60,Male,absent,present,Absent,single,Absent,Absent
+Placebo,6,Yes,No,None,No,40-60,Male,absent,Absent,Present,single,Absent,Present
+Placebo,20,No,yes,Yes,Yes,40-60,Male,present,present,Present,single,Absent,Present
+Placebo,25,No,yes,None,Yes,less than 40,Male,present,present,Present,Absent,Absent,Absent
+Ivermectin+Doxycycline,12,No,yes,Yes,No,less than 40,Male,present,present,Present,Absent,Absent,Absent
+Ivermectin+Doxycycline,23,No,yes,None,No,less than 40,Female,present,present,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,13,No,yes,None,No,less than 40,Female,absent,Absent,Absent,Absent,Absent,Absent
+Placebo,12,No,yes,None,No,40-60,Male,present,Absent,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,6,Yes,No,None,No,40-60,Male,present,present,Absent,Absent,Absent,Absent
+Placebo,13,No,yes,Yes,Yes,40-60,Female,present,present,Present,Absent,Absent,Absent
+Ivermectin+Doxycycline,3,Yes,No,None,No,less than 40,Male,present,present,Absent,Absent,Absent,Absent
+Placebo,8,Yes,No,None,No,less than 40,Male,present,present,Absent,Absent,Absent,Absent
+Placebo,16,No,yes,None,Yes,less than 40,Female,absent,present,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,7,Yes,No,None,No,less than 40,Male,absent,present,Absent,Absent,Absent,Absent
+Placebo,9,No,yes,Yes,No,40-60,Female,present,Absent,Present,Multiple,Present,Present
+Ivermectin+Doxycycline,7,Yes,No,None,No,less than 40,Male,present,present,Present,Absent,Absent,Absent
+Placebo,8,No,No,None,No,less than 40,Female,absent,present,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,4,Yes,No,None,No,less than 40,Male,absent,present,Absent,Absent,Absent,Absent
+Placebo,5,Yes,No,None,No,less than 40,Male,absent,present,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,2,Yes,No,None,No,less than 40,Male,present,Absent,Absent,Absent,Absent,Absent
+Placebo,12,No,yes,None,No,40-60,Male,present,Absent,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,6,Yes,No,None,No,less than 40,Male,present,Absent,Absent,Absent,Absent,Absent
+Placebo,4,Yes,No,None,No,less than 40,Male,present,Absent,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,4,Yes,No,None,No,40-60,Male,absent,Absent,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,2,Yes,No,None,No,40-60,Male,present,Absent,Absent,Multiple,Present,Present
+Placebo,3,Yes,No,None,No,less than 40,Male,present,present,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,3,Yes,No,None,No,less than 40,Male,present,present,Absent,Absent,Absent,Absent
+Placebo,2,Yes,No,None,No,less than 40,Male,present,Absent,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,2,Yes,No,None,No,less than 40,Male,present,present,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,9,No,No,None,No,less than 40,Male,absent,present,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,2,Yes,No,None,No,less than 40,Male,present,Absent,Absent,Absent,Absent,Absent
+Placebo,9,No,No,None,No,less than 40,Male,absent,present,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,11,No,No,None,No,less than 40,Male,absent,present,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,6,Yes,No,None,No,less than 40,Male,absent,present,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,28,No,yes,None,No,less than 40,Female,absent,present,Present,Absent,Absent,Absent
+Ivermectin+Doxycycline,4,Yes,No,None,No,less than 40,Male,present,present,Present,Absent,Absent,Absent
+Ivermectin+Doxycycline,10,No,No,None,No,less than 40,Male,present,present,Absent,Absent,Absent,Absent
+Placebo,7,Yes,No,None,No,less than 40,Female,present,present,Absent,Absent,Absent,Absent
+Placebo,12,No,yes,Yes,No,less than 40,Female,absent,present,Present,Absent,Absent,Absent
+Placebo,12,No,yes,None,No,less than 40,Female,present,present,Absent,single,Absent,Absent
+Placebo,12,No,yes,Yes,No,>60,Male,present,Absent,Present,single,Present,Absent
+Ivermectin+Doxycycline,10,No,No,None,No,less than 40,Male,present,present,Present,Absent,Absent,Absent
+Ivermectin+Doxycycline,14,No,yes,None,Yes,less than 40,Male,absent,present,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,6,Yes,No,None,No,40-60,Male,present,present,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,12,No,yes,None,No,less than 40,Male,present,present,Absent,single,Absent,Absent
+Placebo,13,No,yes,None,No,less than 40,Female,present,Absent,Absent,Absent,Absent,Absent
+Placebo,9,No,No,None,No,40-60,Male,present,Absent,Absent,single,Absent,Absent
+Ivermectin+Doxycycline,12,No,yes,None,No,40-60,Male,present,present,Absent,single,Absent,Present
+Placebo,7,Yes,No,None,No,less than 40,Male,present,Absent,Present,Absent,Absent,Absent
+Placebo,13,No,yes,None,No,>60,Female,present,present,Absent,Absent,Absent,Absent
+Placebo,8,No,No,None,No,less than 40,Male,present,Absent,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,7,Yes,No,None,No,less than 40,Female,present,Absent,Present,Absent,Absent,Absent
+Ivermectin+Doxycycline,16,No,yes,None,No,less than 40,Male,present,present,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,2,Yes,No,None,No,less than 40,Male,absent,Absent,Present,Absent,Absent,Absent
+Placebo,12,No,yes,Yes,No,40-60,Male,present,Absent,Present,Absent,Absent,Absent
+Ivermectin+Doxycycline,4,Yes,No,None,No,less than 40,Male,present,Absent,Absent,Absent,Absent,Absent
+Placebo,9,No,No,None,No,less than 40,Male,present,present,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,5,Yes,No,None,No,less than 40,Male,absent,present,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,6,Yes,No,None,No,less than 40,Male,absent,present,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,13,No,yes,None,Yes,>60,Male,present,present,Present,Absent,Absent,Absent
+Placebo,3,Yes,No,None,No,less than 40,Female,present,Absent,Absent,Absent,Absent,Absent
+Placebo,10,Yes,No,Yes,Yes,40-60,Male,present,present,Present,Multiple,Present,Present
+Placebo,12,No,yes,Yes,No,40-60,Female,present,present,Present,Multiple,Present,Present
+Ivermectin+Doxycycline,7,Yes,No,None,No,>60,Female,present,present,Absent,single,Present,Absent
+Ivermectin+Doxycycline,13,No,yes,None,Yes,less than 40,Female,present,present,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,8,No,No,None,No,>60,Male,present,present,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,7,Yes,No,None,No,40-60,Female,present,present,Absent,single,Present,Absent
+Ivermectin+Doxycycline,7,No,No,None,No,less than 40,Female,absent,Absent,Absent,single,Absent,Present
+Ivermectin+Doxycycline,5,Yes,No,None,Yes,40-60,Female,present,present,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,5,Yes,yes,None,No,less than 40,Male,present,present,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,8,Yes,No,None,No,less than 40,Female,absent,present,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,7,No,No,None,No,less than 40,Male,absent,present,Present,Absent,Absent,Absent
+Placebo,16,No,yes,None,Yes,less than 40,Male,present,present,Present,Absent,Absent,Absent
+Placebo,2,Yes,No,None,No,40-60,Female,present,Absent,Absent,Absent,Absent,Absent
+Placebo,9,No,No,None,No,40-60,Female,present,present,Absent,Absent,Absent,Absent
+Placebo,8,No,No,Yes,No,40-60,Male,present,present,Present,Absent,Absent,Absent
+Ivermectin+Doxycycline,22,No,yes,None,No,40-60,Male,present,present,Present,Absent,Absent,Absent
+Placebo,7,Yes,No,None,No,less than 40,Female,present,present,Absent,Multiple,Absent,Absent
+Placebo,8,No,No,None,No,less than 40,Female,absent,Absent,Absent,Absent,Absent,Absent
+Placebo,23,No,yes,None,No,less than 40,Male,present,present,Absent,Absent,Absent,Absent
+Placebo,10,No,No,None,No,less than 40,Female,present,Absent,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,7,Yes,No,None,Yes,less than 40,Female,present,Absent,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,2,Yes,No,None,No,40-60,Male,present,Absent,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,1,Yes,No,None,No,less than 40,Male,absent,Absent,Absent,Absent,Absent,Absent
+Placebo,14,No,yes,None,No,less than 40,Male,present,present,Absent,single,Absent,Present
+Placebo,9,No,No,None,No,less than 40,Female,absent,present,Absent,Absent,Absent,Absent
+Placebo,8,No,No,None,No,less than 40,Female,present,present,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,7,Yes,No,None,No,40-60,Female,absent,present,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,14,No,yes,Yes,No,>60,Male,present,present,Present,Absent,Absent,Absent
+Ivermectin+Doxycycline,14,No,yes,None,No,less than 40,Male,present,present,Present,Absent,Absent,Absent
+Ivermectin+Doxycycline,15,No,yes,None,No,less than 40,Male,present,present,Present,Absent,Absent,Absent
+Ivermectin+Doxycycline,6,Yes,No,None,No,40-60,Male,present,present,Absent,single,Absent,Present
+Ivermectin+Doxycycline,9,No,No,None,No,less than 40,Male,present,Absent,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,5,Yes,No,None,No,less than 40,Female,present,Absent,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,10,No,No,None,No,>60,Female,present,present,Present,Absent,Absent,Absent
+Ivermectin+Doxycycline,11,No,No,None,No,40-60,Female,present,Absent,Absent,single,Absent,Present
+Ivermectin+Doxycycline,12,No,yes,None,No,40-60,Female,present,present,Absent,Multiple,Present,Present
+Ivermectin+Doxycycline,14,No,yes,None,No,40-60,Male,present,present,Present,Multiple,Present,Present
+Ivermectin+Doxycycline,10,Yes,No,None,No,less than 40,Male,present,present,Absent,Absent,Absent,Absent
+Placebo,4,Yes,No,None,Yes,less than 40,Female,present,Absent,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,7,Yes,No,None,No,less than 40,Female,absent,present,Absent,Absent,Absent,Absent
+Placebo,4,Yes,No,None,No,>60,Male,present,present,Absent,Multiple,Present,Present
+Placebo,3,Yes,No,None,No,40-60,Female,present,Absent,Absent,Multiple,Present,Present
+Placebo,4,Yes,No,None,No,40-60,Female,present,present,Absent,Absent,Absent,Absent
+Placebo,6,Yes,No,None,No,less than 40,Male,present,Absent,Absent,Absent,Absent,Absent
+Placebo,4,Yes,No,None,No,40-60,Male,present,present,Present,single,Present,Absent
+Ivermectin+Doxycycline,7,Yes,No,None,No,less than 40,Female,present,present,Present,single,Present,Absent
+Ivermectin+Doxycycline,6,Yes,No,None,No,40-60,Female,present,Absent,Absent,Multiple,Present,Present
+Placebo,8,Yes,No,None,No,40-60,Male,present,present,Absent,Absent,Absent,Absent
+Placebo,4,Yes,No,None,Yes,>60,Male,present,present,Present,single,Absent,Present
+Ivermectin+Doxycycline,12,No,yes,Yes,No,less than 40,Female,present,present,Present,Absent,Absent,Absent
+Placebo,12,No,yes,None,Yes,>60,Male,present,present,Present,Absent,Absent,Absent
+Placebo,12,No,yes,Yes,No,less than 40,Male,present,present,Present,Absent,Absent,Absent
+Ivermectin+Doxycycline,9,No,No,Yes,No,less than 40,Male,present,present,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,13,No,yes,None,No,>60,Male,absent,present,Absent,Multiple,Present,Present
+Ivermectin+Doxycycline,17,No,yes,None,No,40-60,Female,absent,Absent,Absent,Multiple,Present,Present
+Ivermectin+Doxycycline,16,No,yes,None,No,less than 40,Male,absent,Absent,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,6,No,No,None,No,40-60,Male,present,Absent,Absent,Absent,Absent,Absent
+Placebo,5,Yes,No,None,Yes,40-60,Female,present,present,Present,Absent,Absent,Absent
+Ivermectin+Doxycycline,6,Yes,No,Yes,No,less than 40,Male,present,present,Present,single,Absent,Absent
+Ivermectin+Doxycycline,2,Yes,No,None,No,less than 40,Female,present,present,Absent,Absent,Absent,Absent
+Placebo,4,Yes,No,None,Yes,>60,Male,absent,present,Present,Absent,Absent,Absent
+Placebo,3,Yes,No,None,No,40-60,Female,present,present,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,3,Yes,No,None,No,40-60,Male,present,present,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,4,Yes,No,None,No,40-60,Female,present,present,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,2,Yes,No,None,No,less than 40,Male,present,present,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,7,Yes,No,None,No,less than 40,Female,present,present,Absent,single,Present,Absent
+Placebo,20,No,yes,Yes,No,>60,Male,present,present,Present,Multiple,Present,Present
+Ivermectin+Doxycycline,13,No,yes,None,No,40-60,Female,present,present,Present,Absent,Absent,Absent
+Ivermectin+Doxycycline,14,No,yes,Yes,No,40-60,Male,present,present,Present,Multiple,Present,Present
+Placebo,12,No,yes,None,No,>60,Female,present,present,Present,Multiple,Present,Present
+Placebo,6,Yes,No,None,No,less than 40,Male,present,Absent,Absent,Absent,Absent,Absent
+Placebo,15,No,yes,None,No,40-60,Male,present,Absent,Present,Absent,Absent,Absent
+Placebo,5,No,No,None,No,less than 40,Male,present,Absent,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,2,Yes,No,None,No,less than 40,Male,present,Absent,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,7,Yes,No,None,No,40-60,Male,present,Absent,Absent,single,Absent,Present
+Ivermectin+Doxycycline,7,Yes,No,None,No,less than 40,Male,present,Absent,Present,single,Absent,Absent
+Ivermectin+Doxycycline,5,Yes,No,None,No,less than 40,Male,present,present,Absent,Absent,Absent,Absent
+Placebo,6,Yes,No,None,Yes,40-60,Male,present,Absent,Absent,Absent,Absent,Absent
+Placebo,3,Yes,No,None,Yes,less than 40,Male,present,present,Present,Absent,Absent,Absent
+Ivermectin+Doxycycline,12,No,yes,Yes,No,40-60,Female,present,present,Present,Multiple,Present,Present
+Ivermectin+Doxycycline,6,Yes,No,None,No,less than 40,Male,present,present,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,3,Yes,No,None,No,less than 40,Male,present,Absent,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,8,No,No,None,No,40-60,Male,present,present,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,6,No,No,None,No,40-60,Female,present,Absent,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,4,Yes,No,None,No,less than 40,Female,present,Absent,Absent,Absent,Absent,Absent
+Placebo,6,Yes,No,None,Yes,40-60,Male,present,Absent,Absent,single,Present,Absent
+Ivermectin+Doxycycline,9,No,No,None,No,less than 40,Male,present,present,Present,Absent,Absent,Absent
+Placebo,14,No,yes,None,No,40-60,Male,present,present,Present,Multiple,Present,Present
+Placebo,18,No,yes,None,Yes,less than 40,Male,present,present,Present,single,Absent,Absent
+Placebo,7,No,No,None,No,less than 40,Male,present,present,Present,Absent,Absent,Absent
+Placebo,4,Yes,No,None,No,>60,Male,absent,Absent,Absent,Multiple,Present,Present
+Ivermectin+Doxycycline,10,No,No,None,No,40-60,Male,present,present,Absent,single,Present,Absent
+Ivermectin+Doxycycline,5,Yes,No,None,No,40-60,Female,absent,Absent,Absent,single,Absent,Absent
+Ivermectin+Doxycycline,7,Yes,No,None,No,>60,Female,present,Absent,Absent,Multiple,Present,Present
+Ivermectin+Doxycycline,6,Yes,No,None,No,less than 40,Female,present,present,Absent,Absent,Absent,Absent
+Placebo,4,Yes,No,None,No,40-60,Male,present,Absent,Absent,Absent,Absent,Absent
+Placebo,4,Yes,No,None,No,40-60,Female,present,Absent,Absent,Absent,Absent,Absent
+Placebo,14,No,yes,None,No,less than 40,Female,present,Absent,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,10,No,No,None,No,40-60,Female,absent,Absent,Absent,single,Absent,Absent
+Placebo,4,Yes,No,None,No,less than 40,Male,present,Absent,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,7,Yes,No,None,No,40-60,Male,present,present,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,6,Yes,No,None,Yes,less than 40,Male,present,Absent,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,7,Yes,No,Yes,No,40-60,Male,present,present,Present,Multiple,Present,Present
+Ivermectin+Doxycycline,13,No,yes,None,No,40-60,Male,present,present,Present,single,Absent,Absent
+Ivermectin+Doxycycline,9,No,No,None,No,less than 40,Female,present,Absent,Present,Absent,Absent,Absent
+Ivermectin+Doxycycline,2,Yes,No,None,No,40-60,Female,present,present,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,4,Yes,No,None,No,less than 40,Female,present,Absent,Absent,Absent,Absent,Absent
+Placebo,2,Yes,No,None,No,40-60,Male,absent,Absent,Absent,single,Absent,Absent
+Ivermectin+Doxycycline,4,Yes,No,None,Yes,40-60,Male,present,Absent,Absent,Multiple,Present,Present
+Ivermectin+Doxycycline,17,No,yes,None,No,less than 40,Female,present,Absent,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,6,Yes,No,None,No,less than 40,Male,present,present,Present,single,Absent,Absent
+Ivermectin+Doxycycline,4,Yes,No,None,No,>60,Female,present,present,Present,Multiple,Present,Present
+Ivermectin+Doxycycline,10,Yes,No,None,No,less than 40,Female,present,present,Present,Absent,Absent,Absent
+Ivermectin+Doxycycline,4,Yes,No,None,No,less than 40,Female,present,present,Absent,Absent,Absent,Absent
+Placebo,4,Yes,No,None,No,less than 40,Male,absent,Absent,Present,Absent,Absent,Absent
+Ivermectin+Doxycycline,17,No,yes,None,No,40-60,Male,present,present,Present,single,Absent,Present
+Ivermectin+Doxycycline,3,Yes,No,None,No,less than 40,Male,absent,present,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,8,No,No,None,No,40-60,Female,present,Absent,Present,single,Absent,Absent
+Placebo,4,Yes,No,None,No,less than 40,Female,present,Absent,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,22,No,yes,None,Yes,less than 40,Female,present,present,Present,Absent,Absent,Absent
+Ivermectin+Doxycycline,3,Yes,No,None,No,40-60,Male,absent,Absent,Present,single,Absent,Absent
+Ivermectin+Doxycycline,8,No,No,Yes,No,40-60,Male,present,present,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,2,Yes,No,None,No,less than 40,Male,present,Absent,Absent,Absent,Absent,Absent
+Placebo,2,Yes,No,None,No,40-60,Female,present,Absent,Present,single,Absent,Absent
+Placebo,3,Yes,No,None,No,less than 40,Female,absent,Absent,Absent,single,Absent,Absent
+Ivermectin+Doxycycline,1,Yes,No,None,No,less than 40,Male,absent,Absent,Absent,single,Absent,Present
+Ivermectin+Doxycycline,4,Yes,No,Yes,No,>60,Male,present,present,Absent,single,Absent,Present
+Placebo,16,No,yes,None,No,40-60,Female,present,Absent,Present,Absent,Absent,Absent
+Ivermectin+Doxycycline,2,Yes,No,None,No,less than 40,Male,absent,Absent,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,2,Yes,No,None,No,40-60,Female,present,Absent,Absent,Absent,Absent,Absent
+Placebo,3,Yes,No,None,No,>60,Female,absent,Absent,Absent,Multiple,Present,Present
+Ivermectin+Doxycycline,9,No,No,None,No,40-60,Male,present,present,Present,single,Absent,Absent
+Placebo,13,No,yes,Yes,No,>60,Male,present,present,Present,Multiple,Present,Present
+Placebo,6,Yes,No,None,No,>60,Male,present,present,Absent,Multiple,Absent,Present
+Placebo,6,Yes,No,None,No,40-60,Female,present,present,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,2,Yes,No,None,No,less than 40,Female,present,Absent,Present,Multiple,Present,Absent
+Placebo,7,Yes,No,None,No,less than 40,Male,present,Absent,Present,single,Absent,Absent
+Ivermectin+Doxycycline,2,Yes,No,None,No,less than 40,Male,absent,Absent,Absent,single,Absent,Present
+Placebo,45,No,yes,Yes,No,40-60,Male,absent,Absent,Present,single,Absent,Present
+Placebo,4,Yes,No,None,No,less than 40,Female,present,Absent,Absent,Absent,Absent,Absent
+Placebo,37,No,yes,None,Yes,less than 40,Male,present,present,Absent,single,Present,Absent
+Placebo,17,No,yes,None,No,>60,Male,present,present,Present,Absent,Absent,Absent
+Placebo,10,Yes,No,None,No,40-60,Male,present,present,Present,Multiple,Present,Present
+Placebo,7,Yes,No,None,No,less than 40,Female,absent,present,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,2,Yes,No,None,No,less than 40,Female,absent,Absent,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,5,Yes,No,None,No,less than 40,Male,present,present,Present,single,Present,Absent
+Placebo,10,No,No,None,Yes,less than 40,Female,present,present,Absent,Absent,Absent,Absent
+Placebo,4,Yes,No,None,No,less than 40,Male,present,Absent,Present,Absent,Absent,Absent
+Ivermectin+Doxycycline,3,Yes,No,None,Yes,less than 40,Female,absent,Absent,Absent,Absent,Absent,Absent
+Placebo,9,No,No,Yes,No,less than 40,Female,present,present,Present,Absent,Absent,Absent
+Placebo,4,Yes,No,None,No,less than 40,Female,present,present,Absent,Absent,Absent,Absent
+Placebo,19,No,yes,None,No,less than 40,Male,present,Absent,Present,Absent,Absent,Absent
+Ivermectin+Doxycycline,13,No,yes,None,No,less than 40,Female,present,present,Present,Absent,Absent,Absent
+Placebo,9,No,No,None,No,less than 40,Female,present,present,Absent,Absent,Absent,Absent
+Placebo,4,Yes,No,None,No,less than 40,Female,absent,Absent,Absent,Absent,Absent,Absent
+Placebo,14,No,yes,None,No,40-60,Female,present,present,Present,Absent,Absent,Absent
+Placebo,12,No,yes,None,No,40-60,Female,present,present,Absent,Absent,Absent,Absent
+Placebo,18,No,yes,Yes,Yes,40-60,Female,present,present,Absent,single,Absent,Absent
+Ivermectin+Doxycycline,15,No,yes,None,No,less than 40,Female,present,present,Present,Absent,Absent,Absent
+Ivermectin+Doxycycline,15,No,yes,None,No,less than 40,Female,present,Absent,Present,Absent,Absent,Absent
+Placebo,17,No,yes,Yes,Yes,40-60,Male,present,present,Present,Multiple,Present,Present
+Ivermectin+Doxycycline,15,No,yes,None,No,less than 40,Female,present,present,Present,Absent,Absent,Absent
+Ivermectin+Doxycycline,15,No,yes,None,No,less than 40,Female,present,present,Absent,Absent,Absent,Absent
+Placebo,3,Yes,No,None,No,40-60,Male,absent,present,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,2,Yes,No,None,No,less than 40,Male,present,Absent,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,3,No,No,None,No,less than 40,Female,absent,Absent,Absent,Absent,Absent,Absent
+Placebo,7,Yes,No,None,No,less than 40,Male,present,present,Absent,Absent,Absent,Absent
+Placebo,9,No,No,None,No,40-60,Female,present,Absent,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,11,No,yes,Yes,No,40-60,Female,present,present,Present,Multiple,Present,Present
+Ivermectin+Doxycycline,5,Yes,No,None,No,40-60,Male,present,present,Absent,single,Absent,Present
+Ivermectin+Doxycycline,5,Yes,No,None,No,40-60,Male,present,present,Absent,Absent,Absent,Absent
+Placebo,9,No,yes,None,Yes,less than 40,Male,absent,Absent,Absent,Absent,Absent,Absent
+Placebo,25,No,yes,Yes,Yes,40-60,Female,present,present,Present,single,Present,Absent
+Ivermectin+Doxycycline,5,Yes,No,None,No,less than 40,Male,present,present,Absent,Absent,Absent,Absent
+Placebo,4,Yes,No,None,No,less than 40,Female,absent,Absent,Present,single,Absent,Absent
+Placebo,16,No,yes,Yes,No,>60,Male,present,present,Present,Absent,Absent,Absent
+Placebo,12,No,yes,Yes,No,less than 40,Female,present,present,Present,Absent,Present,Absent
+Ivermectin+Doxycycline,10,No,No,None,No,>60,Male,present,present,Present,Absent,Absent,Absent
+Ivermectin+Doxycycline,7,Yes,No,None,No,less than 40,Female,present,present,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,15,No,yes,None,No,less than 40,Female,present,present,Present,Absent,Absent,Absent
+Ivermectin+Doxycycline,4,No,No,None,No,40-60,Male,present,present,Present,Absent,Absent,Absent
+Placebo,12,No,yes,None,No,less than 40,Female,absent,Absent,Absent,single,Absent,Absent
+Placebo,6,Yes,No,None,No,>60,Male,absent,present,Present,Absent,Absent,Absent
+Placebo,8,Yes,No,None,No,40-60,Male,present,present,Absent,single,Present,Absent
+Ivermectin+Doxycycline,14,No,No,None,No,less than 40,Female,present,Absent,Present,Absent,Absent,Absent
+Ivermectin+Doxycycline,3,Yes,No,None,No,less than 40,Male,present,present,Absent,single,Absent,Absent
+Ivermectin+Doxycycline,4,Yes,No,None,No,less than 40,Male,present,present,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,5,Yes,No,None,No,40-60,Male,present,present,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,7,Yes,No,None,No,less than 40,Male,present,Absent,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,10,No,No,None,No,>60,Male,present,Absent,Present,Absent,Absent,Absent
+Ivermectin+Doxycycline,7,No,No,None,No,40-60,Male,present,present,Absent,Absent,Absent,Absent
+Placebo,12,No,yes,Yes,Yes,less than 40,Male,present,present,Absent,Absent,Absent,Absent
+Placebo,12,No,yes,None,No,40-60,Male,present,present,Absent,Absent,Absent,Absent
+Placebo,10,No,No,None,No,less than 40,Male,present,present,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,15,No,yes,Yes,No,40-60,Female,present,present,Present,Multiple,Present,Present
+Ivermectin+Doxycycline,6,Yes,No,None,No,40-60,Female,present,present,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,5,No,No,None,No,less than 40,Male,present,present,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,1,NA,NA,NA,NA,less than 40,Female,present,Absent,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,1,NA,NA,NA,NA,less than 40,Male,present,Absent,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,2,NA,NA,NA,NA,40-60,Male,absent,present,Absent,Multiple,Present,Present
+Ivermectin+Doxycycline,1,NA,NA,NA,NA,less than 40,Female,present,Absent,Present,Absent,Absent,Absent
+Ivermectin+Doxycycline,1,NA,NA,NA,NA,less than 40,Female,absent,Absent,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,1,NA,NA,NA,NA,less than 40,Female,present,Absent,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,1,NA,NA,NA,NA,40-60,Male,absent,Absent,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,1,NA,NA,NA,NA,less than 40,Male,present,present,Present,Absent,Absent,Absent
+Ivermectin+Doxycycline,3,NA,NA,NA,NA,>60,Male,present,Absent,Present,Absent,Absent,Absent
+Placebo,1,NA,NA,NA,NA,less than 40,Male,present,Absent,Absent,Absent,Absent,Absent
+Placebo,1,NA,NA,NA,NA,less than 40,Male,present,present,Present,Absent,Absent,Absent
+Placebo,3,NA,NA,NA,NA,less than 40,Male,absent,Absent,Absent,Absent,Absent,Absent
+Placebo,1,NA,NA,NA,NA,less than 40,Male,present,present,Absent,Absent,Absent,Absent
+Placebo,1,NA,NA,NA,NA,40-60,Female,absent,present,Present,single,Present,Absent
+Placebo,1,NA,NA,NA,NA,40-60,Female,absent,Absent,Absent,Multiple,Present,Present
+Placebo,2,NA,NA,NA,NA,less than 40,Female,present,present,Absent,Absent,Absent,Absent
+Placebo,1,NA,NA,NA,NA,less than 40,Male,present,Absent,Absent,Absent,Absent,Absent
+Placebo,1,NA,NA,NA,NA,less than 40,Female,present,Absent,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,1,NA,NA,NA,NA,less than 40,Male,absent,present,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,1,NA,NA,NA,NA,40-60,Male,absent,Absent,Absent,Multiple,Absent,Absent
+Placebo,1,NA,NA,NA,NA,less than 40,Female,present,present,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,1,NA,NA,NA,NA,40-60,Female,absent,Absent,Absent,Absent,Absent,Absent
+Placebo,1,NA,NA,NA,NA,less than 40,Male,absent,Absent,Absent,Absent,Absent,Absent
+Placebo,1,NA,NA,NA,NA,less than 40,Male,absent,Absent,Absent,Absent,Absent,Absent
+Placebo,1,NA,NA,NA,NA,40-60,Male,present,present,Present,Absent,Absent,Absent
+Ivermectin+Doxycycline,1,NA,NA,NA,NA,less than 40,Female,present,present,Absent,Absent,Absent,Absent
+Placebo,1,NA,NA,NA,NA,less than 40,Male,present,Absent,Absent,Absent,Absent,Absent
+Placebo,1,NA,NA,NA,NA,less than 40,Female,present,present,Absent,Absent,Absent,Absent
+Placebo,1,NA,NA,NA,NA,less than 40,Female,absent,present,Present,Absent,Absent,Absent
+Placebo,1,NA,NA,NA,NA,40-60,Female,present,present,Absent,Absent,Absent,Absent
+Ivermectin+Doxycycline,1,NA,NA,NA,NA,less than 40,Female,present,Absent,Absent,Multiple,Absent,Absent
+Ivermectin+Doxycycline,1,NA,NA,NA,NA,less than 40,Male,present,Absent,Present,Absent,Absent,Absent

@@ -1,0 +1,5 @@
+Trial_ID: 93
+Paper Name: Impact of text message reminders on adherence to antimalarial treatment
+Paper Link: https://doi.org/10.1371/journal.pone.0109032
+Citation: Impact of text message reminders on adherence to antimalarial treatment. PLOS ONE (2014). doi:10.1371/journal.pone.0109032
+Availability: PDF stored here when publicly available; otherwise this file records the publication link.

@@ -1,0 +1,861 @@
+RESEA RCH ARTICL E
+Can transcranial direct current stimulation
+(tDCS) over the motor cortex increase
+endurance running performance? a
+randomized crossover-con trolled trial
+Ge ´ raldine Martens
+ID
+1,2,3
+*, Ste ´ phanie Hody
+ID
+1
+, Stephen Bornheim
+1
+, Luca Angius
+ID
+4
+,
+Louis De Beaumont
+2,3
+, Felipe Fregni
+5
+, Giulio Ruffini
+6
+, Jean-Franc ¸ ois Kaux
+1,7
+,
+Aurore Thibaut
+8
+, Thierry Bury
+1
+1 Department of Physical Activity and Rehabili tation Sciences, University of Liege, Liege, Belgium , 2 Sport &
+Trauma Applied Research Lab, Montreal Sacred Heart Hospital Research Center, Montreal, Quebec,
+Canada, 3 Department of Surgery, University of Montreal, Montreal , Quebec, Canada, 4 Faculty of Health
+and Life Sciences , Department of Sport, Exercise and Rehabili tation, Northumbr ia University , Newcastle
+upon Tyne, United Kingdom, 5 Neuromodu lation Center and Center for Clinical Research Learning,
+Spaulding Rehabili tation, Hospital and Massach usetts General Hospital, Harvard Medical School, Boston,
+Massach usetts, United States of America, 6 Neuroel ectrics Barcelona, Barcelo na, Spain, 7 Department of
+Physical Medicine and Sports Traumato logy, SportS2, FIFA Medical Centre of Excellence , IOC Research
+Centre for Prevention of Injury and Protection of Athlete Health, FIMS Collabor ative Center of Sports
+Medicine, University and University Hospital of Liège, Liège, Belgium, 8 Coma Science Group, GIGA
+Conscio usness, University and University Hospital of Liege, Liege, Belgium
+* geraldine. martens@uli ege.be
+Abstract
+Transcranial direct current stimulation (tDCS), a non-invasive brain stimulation technique,
+has been shown to increase exercise performance in strength and cycling studies but its
+effects on running endurance remain unclear. The objectives of this randomized sham-
+controlled crossover trial were to assess tDCS efficacy on submaximal treadmill running
+time to exhaustion (TTE). Forty-five healthy male runners aged between 18 and 32 years
+(mean maximal oxygen consumption: 46.6 mL/min/kg) performed two constant-load tests
+at 90% of their maximal aerobic speed preceded by 20 minutes of active or sham multi-
+channel (5 anodes, 3 cathodes) tDCS applied over the bilateral motor cortex with a total
+intensity of 4 mA. Ratings of perceived exertion (RPE), blood lactate, VO
+2,
+and heart rate
+were monitored every five minutes until volitional exhaustion. The median [IQR] TTE was
+similar following active (12.2 [10.5, 16.1] minutes) or sham (12.5 [10.2, 15.1] minutes)
+tDCS (p = 0.96). Likewise, there were no significant differences between active and sham
+conditions for RPE, blood lactate, final VO
+2
+, and final heart rate (all p �0.05). No differ-
+ence in TTE was found when stratifying groups according to their VO
+2
+max (i.e., VO
+2
+max
+� 45 mL/min/Kg, p = 0.53; VO
+2
+max < 45 mL/min/Kg, p = 0.45) but there was a trend for a
+significant correlation between VO
+2
+max and change in TTE (p = 0.06). TDCS applied
+over the bilateral motor cortex did not improve endurance performance in a large sample
+of trained runners. Characterization of individual tDCS responsiveness deserves further
+consideration. In our experimental conditions, tDCS had no ergogenic effect on endur-
+ance running performance.
+PLOS ONE
+PLOS ONE | https://doi.or g/10.137 1/journal.po ne.03120 84 December 5, 2024 1 / 16
+a1111111111
+a1111111111
+a1111111111
+a1111111111
+a1111111111
+OPEN ACCESS
+Citation: Martens G, Hody S, Bornheim S, Angius
+L, De Beaumont L, Fregni F, et al. (2024) Can
+transcranial direct current stimulation (tDCS) over
+the motor cortex increase endurance running
+performan ce? a randomiz ed crossover -controlled
+trial. PLoS ONE 19(12): e0312084. https://do i.org/
+10.1371/ journal.pone. 0312084
+Editor: Abdolvah ed Narmashir i, Institute for
+Research in Fundam ental Sciences, ISLAMIC
+REPUBLIC OF IRAN
+Received: July 2, 2024
+Accepted: September 25, 2024
+Published: December 5, 2024
+Peer Review History: PLOS recognize s the
+benefits of transpar ency in the peer review
+process; therefore, we enable the publication of
+all of the content of peer review and author
+response s alongside final, published articles. The
+editorial history of this article is available here:
+https://doi.o rg/10.1371/jo urnal.pone.0 312084
+Copyright: © 2024 Martens et al. This is an open
+access article distributed under the terms of the
+Creative Commons Attribution License, which
+permits unrestricte d use, distribu tion, and
+reproduction in any medium, provided the original
+author and source are credited.
+Trial registration: Clinical trial registration: NCT04005846.
+1. Introduction
+Increasing exercise endurance through external interventions is raising interest. Neuromodu-
+lation techniques to increase brain activity and, possibly, exercise performance have been
+tested; however, their efficacy and ethical use have been questioned [1–3]. Among them, tran-
+scranial direct current stimulation (tDCS) stands out given its affordability, safety and ease of
+use. TDCS uses low intensity electrical current applied on the scalp to modulate the neuronal
+excitability of the targeted brain areas [4]. The effects depend on the current’s flow direction:
+anodal stimulation tends to increase the excitability in standard protocols (20 minutes– 2 mA)
+while cathodal stimulation tends to decrease it [5]. These effects can be direct, through the
+online electrical alteration of the resting membrane potential, or indirect, through offline
+long-term potentiation/depres sion-like mechanisms[6]. Regarding endurance performance,
+tDCS applied over the primary motor cortex (M1) could potentially increase its cortical excit-
+ability, facilitate the supraspinal drive, reduce central fatigue, and prolong muscular endurance
+[7]. These hypotheses have, however, not been confirmed since current evidence fail to estab-
+lish a causal link between corticospinal-motoneuro nal excitability and improvement in exer-
+cise performance [8,9].
+Endurance can be quantified by time to exhaustion (TTE) trials, a marker of capacity repre-
+sented by the length of time that a given power output can be maintained [10]. Another key
+component of endurance performance relates to the perceived exertion during exercise, one of
+the most important features of fatigue, typically measured with self-reported rating of per-
+ceived exertion (RPE) [11].
+Several studies investigated tDCS effects on athletic performance in various settings (e.g.,
+isometric or isokinetic strength, cycling, shooting) and with different populations (e.g., non-
+athletes, amateurs, professional athletes), leading to mixed results [12–15], with about 60% of
+studies reporting physical performances improvements [16]. Heterogeneity among study pro-
+tocols and variability in individual response to tDCS could underlie such discrepancies across
+study results. Regarding stimulation intensity, most studies used 1.5 or 2 mA current intensi-
+ties, which limits the evaluation of tDCS dose effects in this context, while higher intensities
+(e.g., 4 mA) could hold better efficacy and are considered safe [17]. Another variable that may
+affect the response to tDCS is the athlete’s baseline athletic level. A prior strength study sug-
+gested that individuals with a lower level of endurance capacity might benefit more from the
+ergogenic effects of M1-tDCS [18], possibly due to a ceiling effect in trained athletes. This
+hypothesis still needs to be confirmed in whole-body exercises (i.e., cycling, running) [12].
+Recent meta-analyses show a significant beneficial effect of tDCS on performance as mea-
+sured by TTE in whole-body exercises [13–15]. Among retrieved studies, only three trials
+focused on the running modality, although running tests to exhaustion elicit higher levels of
+oxygen consumption and energetic demands relative to cycling as the former exercise involves
+more muscular mass [19,20]. On one hand, a single-blind randomized controlled trial investi-
+gating the effects of a single session of M1-tDCS using a commercial device in 10 trained run-
+ners showed a significant increase in TTE following active (21 minutes) compared to sham (18
+minutes) stimulation in the absence of significant changes in RPE and cardiorespiratory vari-
+ables [21]. On the other hand, a double-blind randomized controlled trial with an identical
+tDCS protocol in 13 recreational runners reported no significant difference in TTE or RPE
+PLOS ONE
+Effects of motor tDCS on running performanc e
+PLOS ONE | https://doi.or g/10.137 1/journal.po ne.03120 84 December 5, 2024 2 / 16
+Data Availabilit y Statement: All relevant data are
+within the manuscript and its Support ing
+Information files.
+Funding: The author(s) received no specific
+funding for this work.
+Competing interests : The authors have declared
+that no competing interests exist.
+change between active (9 minutes) and sham (9 minutes) stimulation [22]. Another single-
+blind study used a commercial device and reported a higher peak oxygen consumption follow-
+ing active versus sham tDCS in 17 physically active men [23]. Besides being limited by their
+restricted sample sizes, these studies failed to provide an additional control task condition
+without tDCS in order to account for a potential placebo effect related to an external interven-
+tion (i.e., active or sham tDCS application).
+Characterizing ergogenic effects of tDCS requires an objective monitoring of exercise-
+related physiological variables. Oxygen consumption and blood lactate accumulation are key
+markers of aerobic capacity and exercise intensity, respectively [24,25]. Oxygen consumption
+kinetics during constant-load endurance running are typically stable and do not differ between
+active and sham tDCS conditions [21,22]. The blood lactate increase is more sensitive to exer-
+cise intensity and accumulates significantly more, along with TTE, following motor and pre-
+frontal tDCS, as compared to cathodal and sham, in cycling TTE trials on small samples (i.e.,
+n�12) [26,27]. Such effects remain to be confirmed with larger samples in running tDCS
+studies.
+To address these gaps, we conducted a large randomized sham-controlled clinical trial to
+investigate the effects of a single session of M1-tDCS on running endurance performance,
+measured with TTE, in trained athletes while controlling for perceived exertion and perfor-
+mance-related physiological parameters. We hypothesized that performance would be
+increased following active and not sham tDCS, and that participants with lower baseline ath-
+letic levels will benefit more from tDCS.
+2. Material and methods
+2.1 Standard protocol approvals, patient consent and study registration
+The study was approved by the institutional ethics committee (Comite ´ d’E
+´
+thique Hospitalo-
+Facultaire Universitaire de Liège, approval number CE2019/186) before its beginning. Written
+informed consents were obtained for all of the participants. The study was registered as a clini-
+cal trial (ClinicialTrials.gov NCT04005846), conducted in accordance with the Declaration of
+Helsinki and reported following the CONSORT guidelines (S1 Table). The study protocol can
+be found as (S1 File). All study-related data was managed and stored in accordance with the
+EU General Data Protection Regulation.
+2.2 Participants
+Between October 4, 2019 and March 24, 2021, we recruited healthy males aged between 18 and
+35, training in endurance sports for at least two hours a week, with a maximal oxygen con-
+sumption (VO
+2
+max) comprised between 30 and 65 mL/min/kg, which was determined on the
+first screening visit. Exclusion criteria were: smoking, dietary supplementation, coffee con-
+sumption above 10 units a week, alcohol consumption above 4 units a week, centrally-acting
+medication and history of pain or lesion of the lower limbs in the past six weeks. Additionally,
+the tDCS Safety Screening Tool (TSST) was completed [28]. Participants were recruited
+among students of the faculty, in affiliated sports clubs and through the Physiology Laboratory
+database. The CONSORT Participant flow diagram is presented in Fig 1.
+2.3 Sample size estimation
+The study sample size was estimated a priori using Student’s t-tests (S3 Table) based on previ-
+ous studies with amateur and competitive participants (cyclists and runners) [22,26,29–32]. It
+reached 52 subjects based on an effect size of 0.8 and a power of 80% with an alpha level of 5%.
+PLOS ONE
+Effects of motor tDCS on running performanc e
+PLOS ONE | https://doi.or g/10.137 1/journal.po ne.03120 84 December 5, 2024 3 / 16
+2.4 Procedures
+This was a randomized double-blind sham-controlled crossover trial with a screening visit,
+two consecutive tDCS (active/sham randomized) followed by constant-load tests, and a con-
+trol constant-load test (without tDCS), all spaced by seven days.
+2.4.1 Screening visit (Visit 1). During the screening visit, participants performed a
+VO
+2
+max test conducted as described in Martens et al. [33] and inspired from the Bruce proto-
+col [34]. Following the warm up (5 minutes at 8 km/h), the pace was incremented by 2 km/h
+every 2 minutes up to 16 km/h and then by 1 km/h every 3 minutes until participants’ exhaus-
+tion. Strong verbal encouragements were provided and the maximal nature of the effort was
+determined using the following criteria: heart rate above 90% of the age-predicted maximum
+(i.e., 220-age); respiratory exchange ratio � 1.10; plateau in oxygen uptake (VO
+2
+) and; lactate
+blood level � 8 mmol/L. VO
+2
+, respiratory exchange ratio and heart rate (HR) were measured
+continuously (Ergostick, Geratherm Respiratory, Germany and Polar Belt, Polar, USA). Lac-
+tate blood levels and RPE were measured at the end of each increment using capillary blood
+(YSI 1500 Sport L-Lactate Analyser, YSI, USA) and the French validated version of the Borg’s
+6–20 scale [35], respectively. The maximal aerobic speed (MAS) was defined as the highest
+speed achieved at VO
+2
+max.
+Fig 1. Flow diagram of study participants .
+https://d oi.org/10.1371/j ournal.pon e.0312084.g0 01
+PLOS ONE
+Effects of motor tDCS on running performanc e
+PLOS ONE | https://doi.or g/10.137 1/journal.po ne.03120 84 December 5, 2024 4 / 16
+2.4.2 tDCS and TTE trials (Visits 2 and 3). Following active or sham tDCS (randomized
+order, crossover design) and a warm up (5 minutes at 8 km/h), participants performed a con-
+stant-load TTE trial at 90% of their MAS until volitional exhaustion or inability to keep the
+pace. Using the above-mentioned equipment, cardiorespiratory parameters were continuously
+measured while lactate blood levels and RPE were collected every 5 minutes and at the end of
+the trial. The tDCS intervention consisted of 20 minutes of stimulation at 4 mA preceded and
+followed by a 30-second ramping period (active condition) or a 30-second ramping period
+only (sham condition) with a built-in double-blind mode (details below). A topical anaesthetic
+cream was applied over the stimulation area prior to each session to diminish somatosensory
+perception of the stimulation and to ensure blinding. During tDCS, participants were seated
+on a chair and instructed to remain calm and alert. The Stimweaver multichannel tDCS mon-
+tage optimization algorithm was used to target the bilateral motor network [36]. Intensity was
+set at maximum 2 mA per anode for a maximum total injected current of 4 mA (Fig 2). Using
+the Starstim 8 system (Neuroelectrics, Spain) with Ag/AgCl 3.14 cm
+2
+electrodes and conduc-
+tion gel, five anodes were placed over C1, C2, C3, C4, Cz and three cathodes over P3, P4, Fz
+(international 10–20 EEG system [37]).
+Fig 2. tDCS montage. E-Field (normal to cortical surface, in V/m) and current density modelling (provided by Neuroel ectric©) with anodes in
+red and cathodes in blue (upper part); montage on the cap before stimulation (lower part).
+https://d oi.org/10.1371/j ournal.pon e.0312084.g0 02
+PLOS ONE
+Effects of motor tDCS on running performanc e
+PLOS ONE | https://doi.or g/10.137 1/journal.po ne.03120 84 December 5, 2024 5 / 16
+At the end of the visit, participants filled out a questionnaire about their perception of
+receiving active versus sham tDCS with a 5-point certainty grading scale (1: not sure at all; 5:
+absolutely sure). A second questionnaire assessed potential adverse effects using an evidence-
+based list of potential symptoms, a self-reported severity value and a certainty grade of whether
+the reported effects are related to tDCS or not [38].
+2.4.3 Control session (Visit 4). To isolate potential placebo effects related solely to the
+external intervention (i.e., active or sham tDCS), a fourth visit consisting only of the constant-
+load TTE trial at 90% MAS (without tDCS) was conducted. When co-constructing the proto-
+col with participating athletic associations, the addition of a fourth TTE trial over a 1-month
+period raised feasibility issues due to training programs constraints. Consequently, the latter
+session was presented as optional to the participating athletes.
+All laboratory visits were performed at the same moment of the week, on the same tread-
+mill, with the same running gear, in a temperature-controlled room and with the same investi-
+gators to ensure reproducibility.
+2.5 Randomization and blinding
+Simple randomization was performed by a third party using a computer-generated sequence
+in a 1:1 allocation ratio. The tDCS device was used in double-blind mode and pre-pro-
+grammed with either active or sham-coded sessions provided to the investigators before each
+test. Neither the investigators nor the participants were aware of the coded allocation and the
+tDCS software depicted identical information (including identical stimulation time) for both
+active and sham conditions. Upon study completion and database cleaning, the code was pro-
+vided to the person in charge of the analyses.
+2.6 Outcomes
+The primary outcome was the TTE following active versus sham tDCS (i.e., tDCS efficacy) at
+the group level and in subgroups stratified according to fitness level (amateur, competitive)
+based on the median VO
+2
+max. The secondary outcomes were: (1) the tDCS efficacy in the sub-
+group who completed the control session (Visit 4) and; the influence of fitness level (VO
+2
+max)
+on tDCS efficacy.
+2.7 Statistical analyses
+Statistical analyses were performed per protocol (i.e., dropouts excluded) using R4.2.1 (R
+Foundation for Statistical Computing, Vienna, Austria). The normality of the data distribution
+was assessed using Shapiro-Wilk tests. According to the nature of the distribution, mean and
+standard deviation or median and interquartile ranges were used for descriptive analyses.
+Baseline comparisons (age, weight, height, body fat, years of training, weekly training,
+VO
+2
+max, MAS, TTE on VO
+2
+max test, maximal heart rate, maximal respiratory exchange
+ratio) between groups (active/sham and sham/active) were performed using independent Stu-
+dent’s t-tests (normal distribution) and Wilcoxon rank-sum tests (non-normal distribution).
+Comparisons between active and sham tDCS sessions were then performed using paired Stu-
+dent’s t-tests and Wilcoxon signed-rank tests. Subgroup analyses including the additional con-
+trol condition (Visit 4) were performed using one-way ANOVAs (normal distribution) or
+Kruskal-Wallis tests (non-normal distribution). A new variable derived from the time (TTE)
+by treatment (active-sham condition) interaction was constructed to quantify the change in
+TTE between active and sham tDCS: ΔTTE = TTE active minus TTE sham. The relationship
+between baseline VO
+2
+max and ΔTTE was assessed using Spearman’s correlations. Results were
+considered significant at p < 0.05.
+PLOS ONE
+Effects of motor tDCS on running performanc e
+PLOS ONE | https://doi.or g/10.137 1/journal.po ne.03120 84 December 5, 2024 6 / 16
+3. Results
+Fifty-four participants were included; 45 completed the three protocol visits, and 21 completed
+the additional control visit. The flowchart is presented in Fig 1 and the demographics and aer-
+obic profiles are presented in Table 1, with no significant differences between allocation
+groups. Based on the median VO
+2
+max (46.7), participants with a VO2max � 45 mL/min/Kg
+(n = 25) were classified as competitive while participants <45 (n = 20) were classified as ama-
+teur. The study dataset is available as (S1 Dataset).
+3.1 tDCS efficacy
+At the group level (n = 45), the median [IQR] TTE was 12.2 [10.5, 16.2] minutes after active
+tDCS and 12.5 [10.2, 15.1] after sham tDCS (Fig 3A). There was no significant difference
+between active and sham conditions (V = 523; p = 0.96). The final RPE, blood lactate, VO
+2
+and
+heart rate (Fig 3) were also similar between active and sham conditions (all p’s >0.05), as pre-
+sented in Table 2. In the subgroup of amateur participants (n = 20), the TTE was 10.7 [9.4,
+13.8] minutes following active tDCS and 10.3 [9.6, 12.8] following sham, with no significant
+difference between conditions (V = 126; p = 0.45). For the competitive subgroup (n = 25), the
+Table 1. Sociodemog raphic and aerobic profile of the study participa nts.
+Total
+(N = 45)
+Active First
+(N = 21)
+Sham First
+(N = 24)
+p-value
+a
+Age (years)
+Median [Q1, Q3] 21.0
+[21.0, 22.0]
+21.0
+[21.0, 22.0]
+21.0
+[20.8, 22.3]
+0.647
+Weight (Kg)
+Mean (SD) 73.1 (8.9) 74.2 (8.2) 72.2 (9.6) 0.466
+Height (cm)
+Mean (SD) 179 (7.2) 179 (8.1) 179 (6.6) 0.971
+Body fat (%)
+Mean (SD) 13.7 (3.4) 14.0 (3.6) 13.5 (3.4) 0.650
+Years of training
+Median [Q1, Q3] 7.0
+[3.0, 10.0]
+7.0
+[2.0, 12.0]
+7.3
+[4.6, 10.0]
+0.632
+Weekly trainin g (hours)
+Median [Q1, Q3] 3.0
+[2.0, 6.0]
+2.0
+[2.0, 7.0]
+3.0
+[2.0, 4.1]
+0.818
+VO
+2
+max (mL/min/K g)
+Mean (SD) 46.6 (7.5) 45.2 (7.6) 47.9 (7.3) 0.228
+Max. aerobic speed (Km/h)
+Median [Q1, Q3] 16.0
+[14.0, 16.5]
+14.4
+[14.0, 16.3]
+16.0
+[14.4, 16.6]
+0.199
+TTE on VO
+2
+max task (minutes)
+Mean (SD) 11.6 (3.3) 11.1 (3.6) 12.1 (2.9) 0.281
+Max. heart rate (bpm)
+Mean (SD) 194.8 (9.4) 194.8 (11.2) 194.8 (7.8) 0.994
+Max. respirator y exchange ratio
+Median [Q1, Q3] 1.2
+[1.2, 1.3]
+1.2
+[1.2, 1.3]
+1.2
+[1.2, 1.3]
+0.873
+VO
+2
+max = maxima l oxygen consumpti on; TTE = time to exhaustion.
+a
+= Student’s t-test or Wilcoxon test accord ing to data distribution .
+https://do i.org/10.1371/j ournal.pone .0312084.t001
+PLOS ONE
+Effects of motor tDCS on running performanc e
+PLOS ONE | https://doi.or g/10.137 1/journal.po ne.03120 84 December 5, 2024 7 / 16
+TTE was 15.2 [11.7, 16.7] minutes for active tDCS and 15.0 [12.5, 15.7] for sham, with no sig-
+nificant difference between conditions (V = 138; p = 0.53). The RPE and physiological vari-
+ables were also similar between active and sham conditions for both subgroups (all p’s >0.05,
+see Table 2).
+In the subgroup of participants who completed the 4
+th
+control session without tDCS inter-
+vention (n = 21, secondary analysis), the mean ± SD TTE was 13.3 ± 3.5 minutes after active
+tDCS, 13.1 ± 3.1 after sham tDCS and 12.6 ± 4.0 for the control session. There was no signifi-
+cant difference between the three conditions (F = 0.19; p = 0.83). The final RPE, blood lactate,
+VO
+2
+and heart rate were also similar between active, sham and control conditions (all p
+>0.05), as presented in Table 3. In the subgroup of amateur participants (n = 10), the TTE was
+11.7 ± 3.3 minutes following active tDCS, 11.2 ± 2.3 minutes following sham and 10.5 ± 3.7
+minutes for the control session, with no significant difference between conditions (F = 0.35;
+p = 0.71). For the competitive subgroup (n = 21), the TTE was 14.7 ± 3.1 minutes for active
+tDCS, 14.8 ± 2.6 minutes for sham and 14.5 ± 3.4 minutes for the control session, with no sig-
+nificant difference between conditions (F = 0.03; p = 0.97). The RPE and physiological vari-
+ables were also similar between active, sham and control conditions for both groups (all p’s
+>0.05, see Table 3).
+3.2 Influence of fitness level
+There was no significant correlation between the individual VO
+2
+max and the change in TTE
+between active and sham tDCS (i.e., ΔTTE); however, a trend was noted (R = -0.30; p = 0.058,
+Fig 3. Study outcomes . Differenc es in A. time to exhaust ion (TTE); B. final rating of perceived exertion (RPE); C.
+blood lactate; D. final oxygen consumptio n (VO2) and E. final heart rate (HR) between active and sham tDCS
+conditions . Influence of baseline athletic characteristi cs on improvem ent in time to exhaustion (ΔTTE = TTE active
+tDCS minus TTE sham): F. maximal oxygen consumpt ion (VO2ma x).
+https://d oi.org/10.1371/j ournal.pon e.0312084.g0 03
+PLOS ONE
+Effects of motor tDCS on running performanc e
+PLOS ONE | https://doi.or g/10.137 1/journal.po ne.03120 84 December 5, 2024 8 / 16
+Fig 3F). The negative correlation shows that participants with less aerobic capacity (i.e., lower
+VO
+2
+max) presented a larger improvement in TTE following active stimulation (i.e., greater
+ΔTTE).
+Table 2. Time to exhaustion (TTE, primary outcome), rating of perceived exertion (RPE), final blood lactate, final oxygen uptake (VO
+2
+) and final heart rate (HR)
+following active and sham tDCS protocols in the study sample (n = 45) and in subgroups stratified according to VO
+2
+max (i.e., amateur < 45 mL/min/K g; n = 20 and
+competitive � 45 mL/mi n/Kg; n = 25).
+Group Variable Active tDCS Sham tDCS Statistic
+a
+Study sample (n = 45) TTE (min) 12.2 [10.5, 16.1] 12.5 [10.2, 15.1] V = 523; p = 0.96
+Final RPE 20 [19, 20] 20 [19, 20] V = 141; p = 0.64
+Lactate (mmol/L) 9.8 ± 3.7 8.9 ± 2.8 t = -2.0; p = 0.052
+Final VO
+2
+(mL/min /kg) 45.9 ± 8.7 45.8 ±7.8 t = -0.06; p = 0.96
+Final HR (bpm) 188 [183, 195] 192 [184, 195] V = 298; p = 0.09
+Amateur (n = 20) TTE (min) 10.7 [9.4, 13.8] 10.3 [9.6, 12.8] V = 126; p = 0.45
+Final RPE 20 [18, 20] 20 [20, 20] V = 17.5; p = 0.33
+Lactate (mmol/L) 8.3 [7.2, 10.7] 7.8 [6.7, 9.9] V = 124; p = 0.50
+Final VO
+2
+(mL/min /kg) 39.1 ± 7.4 40.2 ± 6.3 t = -1.3; p = 0.21
+Final HR (bpm) 191 ± 9 192 ± 8 t = -1.1; p = 0.28
+Competiti ve (n = 25) TTE (min) 15.2 [11.7, 16.7] 15.0 [12.5, 15.7] V = 138; p = 0.53
+Final RPE 19 [19, 20] 19 [19, 20] V = 47; p = 0.55
+Lactate (mmol/L) 10.0 ± 3.4 9.4 ± 2.3 t = 1.7; p = 0.11
+Final VO
+2
+(mL/min /kg) 51.1 ± 5.3 50.2 ± 5.7 t = 1.1; p = 0.28
+Final HR (bpm) 187 [183, 192] 189 [184, 193] V = 120; p = 0.26
+Descriptive statistics are presente d as median [IQR] or mean ± SD dependi ng on data distribut ion.
+a
+= Student’s t-test (t) or Wilcoxon test (V) accord ing to data distributio n.
+https://do i.org/10.1371/j ournal.pone .0312084.t002
+Table 3. Time to exhaustion (TTE), rating of perceived exertion (RPE), final blood lactate, final oxygen uptake (VO
+2
+) and final heart rate (HR) following active and
+sham tDCS protocols in the subgrou p who completed the additional control visit (n = 21) and in subgroups stratified according to VO
+2
+max (i.e., amateur < 45 mL/
+min/Kg; n = 10 and competitive � 45 mL/min/Kg; n = 11).
+Group Variable Active tDCS Sham tDCS Control Statistic
+a
+Subgroup with control session (n = 21) TTE (min) 13.3 ± 3.5 13.1 ± 3.1 12.6 ± 4.0 F = 0.19; p = 0.83
+Final RPE 19 [18, 20] 20 [19, 20] 20 [19, 20] H = 4.39; p = 0.11
+Lactate (mmol/L) 10.1 [7.3, 12.4] 9.1 [7.4, 10.8] 10.0 [8.0, 12.4] H = 1.37; p = 0.50
+Final VO
+2
+(mL/min /kg) 46.5 ± 7.6 46.4 ± 6.3 47.7 ± 4.8 F = 0.19; p = 0.82
+Final HR (bpm) 191 ± 6 193 ± 6 190 ± 7 F = 1.24; p = 0.30
+Amateur (n = 10) TTE (min) 11.7 ± 3.3 11.2 ± 2.3 10.5 ± 3.7 F = 0.35; p = 0.71
+Final RPE 19 [18, 20] 20 [20, 20] 20 [19, 20] H = 4.31; p = 0.12
+Lactate (mmol/L) 8.7 [7.2, 12.3] 7.6 [6.8, 9.7] 8.2 [7.6, 11.8] H = 0.79; p = 0.68
+Final VO
+2
+(mL/min /kg) 40.8 ± 6.4 42.5 ± 4.8 44.4 ± 4.1 F = 0.97; p = 0.40
+Final HR (bpm) 193 ± 7 195 ± 5 191 ± 6 F = 0.75; p = 0.48
+Competiti ve (n = 11) TTE (min) 14.7 ± 3.1 14.8 ± 2.6 14.5 ± 3.4 F = 0.03; p = 0.97
+Final RPE 19 [19, 20] 19 [19, 20] 20 [19, 20] H = 1.39; p = 0.50
+Lactate (mmol/L) 10.5 ± 2.8 9.9 ± 2.4 11.0 ± 3.4 F = 0.41; p = 0.67
+Final VO
+2
+(mL/min /kg) 51.7 ± 4.2 50.0 ± 5.4 50.2 ± 3.8 F = 0.47; p = 0.63
+Final HR (bpm) 190 ± 6 192 ± 6 190 ± 7 F = 0.47; p = 0.63
+Descriptive statistics are presente d as median [IQR] or mean ± SD dependi ng on data distribut ion.
+a
+= One-way ANOVA (F) or Kruskal-W allis test (H) according to data distribut ion.
+https://do i.org/10.1371/j ournal.pone .0312084.t003
+PLOS ONE
+Effects of motor tDCS on running performanc e
+PLOS ONE | https://doi.or g/10.137 1/journal.po ne.03120 84 December 5, 2024 9 / 16
+3.3 Blinding efficacy
+Eight (18%) of the participants detected the active condition with a degree of certainty of 4 or
+5, and 10 (22%) of the participants detected the sham condition with a degree of certainty of 4
+or 5. There was no significant difference between the proportions of participants who correctly
+detected the active and sham tDCS (Chi-squared = 1.20, p = 0.27).
+3.4 Adverse effects
+A total of 99 adverse effects were reported: 49 after the active tDCS session, reported by 32
+(71%) participants and 50 after the sham session, reported by 31 (69%) participants (S2 Table).
+All adverse effects were classified as mild as they did not require further action or medical
+intervention and did not cause distress to the participants.
+4. Discussion
+4.1 tDCS efficacy
+This study aimed at investigating the effects of a single application of 20-minute 4 mA tDCS
+over the bilateral motor cortex on running performance as measured by time to exhaustion
+(TTE) duration using a randomized sham-controlled crossover design. Our results show that
+tDCS did not affect endurance running between active and sham sessions whether among
+amateur or competitive participants. The absence of any ergogenic effect of tDCS sharply con-
+trasts with previous reports on cycling [26,32] and running endurance performance [21]. This
+could be partly explained by their small sample sizes (n<20) and/or methodological differ-
+ences in tDCS application or blinding. The present study included a larger sample that was
+based on a priori estimation and used a robust trial methodology with adequate blinding.
+Methodological differences among tDCS studies on performance represent a common issue
+that has been raised by several systematic reviews [12,15,39]. Replication studies therefore
+appear warranted.
+Previous studies using transcranial magnetic stimulation applied over M1 allowed to mea-
+sure excitability changes via induction of isolated muscle contractions. Some of these demon-
+strated a significant increase in M1 cortical excitability related to tDCS [40,41] while others
+did not find any effect of tDCS on cortical excitability [42,43]. For whole-body exercise endur-
+ance, only a single study using a cycling task to failure showed significant increases in corti-
+cospinal excitability of the knee extensors following anodal stimulation as compared to sham
+or cathodal stimulation [26]. Our primary outcome measure was focused on performance and
+we did not control for tDCS-related motor system changes using motor evoked potentials
+notably due to feasibility constraints. This limits our understanding of tDCS mechanisms in a
+running setting.
+Controlling for cardiorespiratory and metabolic parameters allows characterizing exercise
+intensity and linking it with endurance performance. Given the similarity in TTEs in all condi-
+tions, we expected observing no significant changes in the performance-related physiological
+parameters. This was the case for the oxygen uptake and the final heart rate, which is in line
+with previous running studies [21,22]. However, blood lactate levels tended to be higher in
+participants assigned to the active tDCS condition relative to sham participants. This finding
+was partially in line with previous reports from Angius et al. also showing significantly greater
+lactate accumulation following active tDCS but paralleled with increased performance in
+cycling TTE [26,27]. Future studies are therefore needed to clarify how modified circulating
+lactate levels could potentially influence exercise performance via tDCS-supported plasticity
+molecules including BDNF [44,45].
+PLOS ONE
+Effects of motor tDCS on running performanc e
+PLOS ONE | https://doi.or g/10.137 1/journal.po ne.03120 84 December 5, 2024 10 / 16
+Regarding psychological factors, it is well known that perceived exertion during exercise
+plays a key role in endurance capacity and fatigue [11]. It has been suggested that M1-tDCS
+could decrease the perception of effort by modulating corollary discharges upstream of the
+motor cortex (e.g., supplementary motor area) in weight-lifting and cycling tasks (i.e., cycling)
+[26,42,46]. These mechanisms rely on the predominant processing of effort perception within
+the supplementary motor area [47]. Our study results show, however, no significant difference
+in the ratings of perceived exertion between active and sham sessions. This confirms the more
+recent M1-tDCS studies performed in running [21,22]. Other brain targets could reveal to be
+relevant in tackling motivational aspects including the insular cortex [31] and the left dorsolat-
+eral prefrontal cortex [27,48,49].
+The present study also sought to control for a potential placebo effect of tDCS on perfor-
+mance by adding an optional 4
+th
+control session during which no tDCS was applied. Our
+results show that in our limited subsample of 21 participants who completed the latter control
+session, the TTE was comparable across all sessions, therefore invalidating any placebo effect
+related to tDCS application.
+4.2 Fitness level
+We accounted for the potential influence of fitness athletic level on performance changes fol-
+lowing tDCS. Previous studies suggested that lower fine motor skills or maximal strength abili-
+ties were associated with greater improvements after tDCS as opposed to higher levels [12,50–
+52] but confirmation for gross motor skills was pertinent. When using maximal oxygen con-
+sumption (VO
+2
+max) as a marker for fitness level, we found a trend for improvement in TTE
+following active tDCS (ΔTTE) close to statistical significance (p = 0.058). When using the TTE
+on the screening test as a marker, we found a significant negative correlation with ΔTTE, sug-
+gesting less trained runners (those with lower performance on their screening test) could bene-
+fit more from tDCS (increase their TTE) as opposed to confirmed runners (lasting longer on
+their screening test). This aligns with the literature on specialized motor learning, where a ceil-
+ing effect in well-trained participants prevents additional benefits from neuromodulation
+interventions [50,53]. Similarly, the group of competitive runners might have reached their
+maximal level of synaptic reorganization and would not benefit from the potential tDCS-
+induced M1 excitability increase while the amateur runners would still have room for
+improvement. However, this hypothesis did not translate into our subgroup-based analysis.
+There was indeed no significant tDCS effect in the two subgroups of amateur and competitive
+runners. Further exploring this hypothesis would require a better distinction between begin-
+ners (e.g., untrained) and professional (e.g., elite-level) runners.
+4.3 tDCS application
+Regarding the safety aspects, our study confirmed previous reports on minor adverse effects
+(e.g., tingling, itching) incidence, including those reported after sham stimulation. When used
+according to established safety criteria [54], including the careful screening of study partici-
+pants [28], tDCS is a safe neuromodulation technique. Regarding blinding, its efficacy with
+standard sham protocols has been debated.[55] Our results show that the blinding was effi-
+ciently achieved. The use of a topical anaesthetic cream likely played a role and its use would
+be recommended, particularly for such high-density montages. Overall, the utilization of a
+multichannel montage, administering a cumulative current of 4mA, which is above current
+standard protocols, demonstrates apparent safety, without compromising the integrity of par-
+ticipant blinding.
+PLOS ONE
+Effects of motor tDCS on running performanc e
+PLOS ONE | https://doi.or g/10.137 1/journal.po ne.03120 84 December 5, 2024 11 / 16
+4.4 Limitations
+Our main limitations pertain to the tDCS protocol. We used a single session delivered before
+the TTE trial for feasibility constraints, while the concurrent application of tDCS with the tar-
+geted activity may have been more efficient [18,56]. This method also prevents the investiga-
+tion of the cumulative effects of tDCS using several consecutive sessions. Furthermore, the
+cephalic tDCS montage used might have induced effects under the cathodes, potentially inter-
+fering with the anodal stimulation. Extracephalic tDCS montages, even though challenging in
+terms of current density simulation, appear more efficient than cephalic ones for increasing
+endurance performance in cycling and therefore deserve further investigation in running trials
+[26].
+4.5 Conclusion
+To conclude, no beneficial effect of M1-tDCS on running performance has been identified.
+The potential effect of multiple sessions remains unknown and warrants further research. The
+fitness level might influence tDCS response and deserves further investigation. A single appli-
+cation of tDCS does not appear as a relevant ergogenic aid and does not currently represent a
+doping threat for running.
+Supporting information
+S1 Table. CONSORT checklist.
+(PDF)
+S2 Table. Adverse effects. Adverse effects following active and sham transcranial direct cur-
+rent stimulation (tDCS). All adverse effects were considered as mild (i.e., did not require medi-
+cal action).
+(PDF)
+S3 Table.
+(DOCX)
+S1 File. Study protocol.
+(PDF)
+S2 File. Sample size estimation. Number of participants per group according to power and
+effect size.
+(PDF)
+S1 Dataset.
+(XLSX)
+Acknowledgmen ts
+The authors would like to thank Ms Nadia Dardenne for the statistical guidance over the sam-
+ple size estimation and the students involved in data acquisition: Anaïs Vervier, Lara Yans,
+Solène Denis and Florence Clermont.
+Author Contributions
+Conceptualization: Ge ´ raldine Martens, Luca Angius, Giulio Ruffini, Jean-Franc ¸ ois Kaux,
+Aurore Thibaut, Thierry Bury.
+Data curation: Ge ´ raldine Martens, Ste ´ phanie Hody.
+PLOS ONE
+Effects of motor tDCS on running performanc e
+PLOS ONE | https://doi.or g/10.137 1/journal.po ne.03120 84 December 5, 2024 12 / 16
+Formal analysis: Ge ´ raldine Martens, Louis De Beaumont, Felipe Fregni, Aurore Thibaut,
+Thierry Bury.
+Investigation: Ge ´ raldine Martens, Ste ´ phanie Hody.
+Methodology: Ge ´ raldine Martens, Luca Angius, Thierry Bury.
+Project administration: Ge ´ raldine Martens, Thierry Bury.
+Resources: Stephen Bornheim, Giulio Ruffini, Thierry Bury.
+Supervision: Ge ´ raldine Martens, Ste ´ phanie Hody, Stephen Bornheim, Thierry Bury.
+Visualization: Ge ´ raldine Martens.
+Writing – original draft: Ge ´ raldine Martens.
+Writing – review & editing: Ste ´ phanie Hody, Stephen Bornheim, Luca Angius, Louis De
+Beaumont, Felipe Fregni, Giulio Ruffini, Jean-Franc ¸ois Kaux, Aurore Thibaut, Thierry
+Bury.
+References
+1. Holgado D, Vadillo MA, Sanabria D. “Brain-Dop ing,” Is It a Real Threat? Front Physiol 2019; 10:483.
+https://doi.or g/10.338 9/fphys.2019 .00483 PMID: 31068840
+2. Davis NJ. Neurodo ping: Brain stimulation as a perform ance-enhanc ing measure. Sport Med 2013;
+43:649–53. https://doi.or g/10.1007/ s40279-013- 0027-z PMID: 23504390
+3. Borducch i DMM, Gomes JS, Akiba H, et al. Transcranial direct current stimulation effects on athletes’
+cognitive performanc e: An exploratory proof of concept trial. Front Psychiatry 2016; 7:227333. https://
+doi.org/10.33 89/fpsyt.2016 .00183 PMID: 27965597
+4. Nitsche MA, Paulus W. Sustained excitability elevations induced by transcran ial DC motor cortex stimu-
+lation in humans. Neurolo gy 2001; 57:1899 –901. https://doi.or g/10.121 2/wnl.57.10 .1899 PMID:
+11723286
+5. Nitsche MA, Liebetanz D, Antal A, et al. Modulation of cortical excitability by weak direct current stimula-
+tion—tech nical, safety and functional aspects . Suppl Clin Neuroph ysiol 2003; 56:255–76.htt p://www.
+ncbi.nlm.nih .gov/pubm ed/14677403. https://do i.org/10.1016 /s1567-4 24x(09)7023 0-2 PMID: 14677403
+6. Nitsche MA, Fricke K, Henschke U, et al. Pharmacologic al modulation of cortical excitability shifts
+induced by transcran ial direct current stimulation in humans. J Physiol 2003; 553:293 –301. https://doi.
+org/10.1113/ jphysiol.20 03.049916 PMID: 129492 24
+7. Amann M, Sidhu SK, McNeil CJ, et al. Critical considera tions of the contribut ion of the corticomoton eur-
+onal pathway to central fatigue. J Physiol 2022; 600:520 3–14. https://doi. org/10.1113/J P282564 PMID:
+36326193
+8. Angius L. Critical considerat ions on tDCS-m ediated changes in corticospina l response to fatiguing exer-
+cise. J Physiol 2023; 601:703–4 . https://doi.or g/10.1113/ JP284152 PMID: 365365 18
+9. Kristians en M, Thomsen MJ, Nørgaard J, et al. The Effect of Anodal Transcran ial Direct Current Stimu-
+lation on Quadricep s Maximal Volunta ry Contraction , Corticos pinal Excitability, and Voluntary Activation
+Levels. J Strength Cond Res 2022; 36:1540 –7. https://doi.or g/10.151 9/JSC.00000 0000000 3710 PMID:
+33677460
+10. Coyle EF. Physiolog ical determin ants of endura nce exercise performanc e. J Sci Med Sport 1999;
+2:181–9. https://doi.or g/10.1016/s 1440-2440( 99)80172- 8 PMID: 10668757
+11. Noakes TD. Fatigue is a Brain-Deri ved Emotion that Regulates the Exercise Behavior to Ensure the
+Protection of Whole Body Home ostasis. Front Physiol 2012; 3:82. https:// doi.org/10.33 89/fphys. 2012.
+00082 PMID: 225145 38
+12. Machado DG, Unal G, Andrade SM, et al. Effect of transcranial direct current stimulation on exercise
+performanc e: A systematic review and meta-ana lysis. Brain Stimul. 2019; 12:593– 605. https://doi.or g/
+10.1016/ j.brs.2018.12. 227 PMID: 30630690
+13. Chinzara TT, Buckingh am G, Harris DJ. Transcran ial direct current stimulation and sporting perfor-
+mance: A systematic review and meta-ana lysis of transcran ial direct current stimulation effects on
+PLOS ONE
+Effects of motor tDCS on running performanc e
+PLOS ONE | https://doi.or g/10.137 1/journal.po ne.03120 84 December 5, 2024 13 / 16
+physical enduranc e, muscular strength and visuom otor skills. Eur J Neurosci 2022; 55:468– 86. https://
+doi.org/10.11 11/ejn.15540 PMID: 349043 03
+14. Maudrich T, Ragert P, Perrey S, et al. Single-ses sion anodal transcran ial direct current stimulation to
+enhance sport-speci fic performanc e in athletes: A systematic review and meta-analy sis. Brain Stimul
+2022; 15:1517 –29. https://doi.or g/10.101 6/j.brs.2022 .11.007 PMID: 364427 74
+15. Shyamali Kaushaly a F, Romero-A renas S, Garcı ´ a-Ramos A, et al. Acute effects of transcranial direct
+current stimulation on cycling and running perform ance. A systematic review and meta-ana lysis. Eur J
+Sport Sci 2022; 22:113– 25. https://doi.or g/10.108 0/17461391.2 020.1856933 PMID: 332805 14
+16. Angius L, Pascual- Leone A, Santarnec chi E. Brain stimulation and physical performa nce. Prog Brain
+Res 2018; 240:317 –39. https://doi.or g/10.101 6/bs.pbr.2 018.07.010 PMID: 303908 37
+17. Nitsche MA, Bikson M. Extendin g the paramete r range for tDCS: Safety and tolerab ility of 4 mA stimula-
+tion. Brain Stimul. 2017; 10:541–2. https:// doi.org/10.10 16/j.brs.2 017.03.002 PMID: 28456325
+18. Williams PS, Hoffman RL, Clark BC. Prelim inary Evidence That Anodal Transcran ial Direct Current
+Stimulati on Enhances Time to Task Failure of a Sustained Submaximal Contract ion. PLoS One 2013;
+8:e81418. https://doi.or g/10.1371/ journal.pon e.0081418 PMID: 243490 67
+19. Billat V, Faina M, Sardella F, et al. A comparison of time to exhaustion at VO2ma x in elite cyclists,
+kayak paddlers, swimmers and runners. Ergonomic s 1996; 39:267– 77. https://doi.or g/10.108 0/
+00140139608 964457 PMID: 8851531
+20. Redkva PE, Miyagi WE, Milioni F, et al. Anaerobic capacity estimated by the sum of both oxygen equiv-
+alents from the glycolytic and phosphagen pathway s is depend ent on exercise mode: Running versus
+cycling. PLoS One 2018; 13:e020 3796. https://doi.or g/10.137 1/journal.po ne.0203796 PMID: 30212529
+21. Park SB, Jun Sung D, Kim B, et al. Transcran ial Direct Current Stimulation of motor cortex enhance s
+running performanc e. PLoS One 2019; 14. https://doi. org/10.1371/j ournal.pone .021190 2 PMID:
+30794568
+22. Baldari C, Buzzac hera CF, Vitor-C osta M, et al. Effects of transcran ial direct current stimulat ion on
+psychophy siological response s to maximal incremen tal exercise test in recreational endurance runners .
+Front Psychol 2018; 9:1–10. https://doi.or g/10.338 9/fpsyg.2018 .01867 PMID: 30356689
+23. Codella R, Alongi R, Filipas L, et al. Ergogenic Effects of Bihemisp heric Transcran ial Direct Current
+Stimulati on on Fitness: A Randomized Cross-o ver Trial. Int J Sports Med 2021; 42:66–73. https://doi.
+org/10.1055/ a-1198-85 25 PMID: 32781476
+24. Noakes TD. Physiolog ical models to understa nd exercise fatigue and the adaptations that predict or
+enhance athletic perform ance. Scand J Med Sci Sport 2000; 10:123–45. https://doi.or g/10.1034/j. 1600-
+0838.2000. 010003123.x PMID: 10843507
+25. Billat LV. Use of Blood Lactate Measuremen ts for Prediction of Exercise Performanc e and for Control of
+Training. Sport Med 1996; 22:157–75. https://doi.or g/10.2165/ 00007256-1 99622030-0 0003 PMID:
+8883213
+26. Angius L, Mauger AR, Hopker J, et al. Bilateral extraceph alic transcran ial direct current stimulation
+improves enduranc e performance in healthy individuals . Brain Stimul 2018; 11:108– 17. https://doi.or g/
+10.1016/ j.brs.2017.09. 017 PMID: 29079458
+27. Angius L, Santarn ecchi E, Pascual- Leone A, et al. Transcran ial Direct Current Stimulati on over the Left
+Dorsolater al Prefrontal Cortex Improves Inhibitory Control and Endurance Perform ance in Healthy Indi-
+viduals. Neuroscienc e 2019; 419:34–45. https:// doi.org/10.10 16/j.neu roscience.2 019.08.052 PMID:
+31493549
+28. Bornheim S, Croisier JL, Maquet P, et al. Propos al of a new tDCS safety screening tool. Am J Phys
+Med Rehabil 2018;: 1. https://doi.or g/10.1097 /PHM.000000 000000109 6 PMID: 30431445
+29. Angius L, Hopke r JG, Marcora SM, et al. The effect of transcran ial direct current stimulat ion of the
+motor cortex on exercise-i nduced pain. Eur J Appl Physiol 2015; 115:2311–9. https://d oi.org/10.100 7/
+s00421-015 -3212-y PMID: 26148882
+30. Barwood MJ, Butter worth J, Goodall S, et al. The Effects of Direct Current Stimulation on Exercise Per-
+formance, Pacing and Perception in Tempera te and Hot Environments . Brain Stimul 2016; 9:842–9 .
+https://doi.or g/10.101 6/j.brs.201 6.07.006 PMID: 275674 71
+31. Okano AH, Fontes EB, Monteneg ro RA, et al. Brain stimulation modulate s the autonomi c nervous sys-
+tem, rating of perceived exertion and performa nce during maximal exercise. Br J Sports Med 2015;
+49:1213–8. https://doi.or g/10.1136/ bjsports-2012- 091658 PMID: 23446641
+32. Vitor-Cos ta M, Okuno NM, Bortolotti H, et al. Improving Cycling Performanc e: Transcran ial Direct Cur-
+rent Stimulati on Increases Time to Exhaustio n in Cycling. PLoS One 2015; 10:e01449 16. https://doi.
+org/10.1371/ journal.pon e.0144916 PMID: 266742 00
+PLOS ONE
+Effects of motor tDCS on running performanc e
+PLOS ONE | https://doi.or g/10.137 1/journal.po ne.03120 84 December 5, 2024 14 / 16
+33. Martens G, Deflandre D, Schwartz C, et al. Reprodu cibility of the Evolution of Stride Biomechanic s Dur-
+ing Exhaustive Runs. J Hum Kinet 2018; 64:57–6 9. https://doi.or g/10.151 5/hukin-2017- 0184 PMID:
+30429899
+34. McDnou gh J, Bruce R. Maximal exercise testing in assessing cardiovasc ular function. JS Carol Med
+Assoc 1969; 65:26–3 3.
+35. Shephard RJ, Vandewa lle H, Gil V, et al. Respirator y, muscular, and overall percepti ons of effort: the
+influence of hypoxia and muscle mass. Med Sci Sports Exerc 1992; 24:556–67 .https://euro pepmc.org /
+article/med /1569852 (access ed 6 Nov 2023). PMID: 1569852
+36. Ruffini G, Fox MD, Ripolles O, et al. Optimization of multifocal transcranial current stimulat ion for
+weighted cortical pattern targeting from realisti c modeling of electric fields. Neuroimag e 2014; 89:216–
+25. https://doi. org/10.1016/j .neuroim age.2013.12.0 02 PMID: 24345389
+37. Herwig U, Satrapi P, Schonfeldt-Le cuona C. Using the internationa l 10–20 EEG system for positioni ng
+of transcran ial magnetic stimulation. Brain Topogr 2003; 16:95–9 .http://www. ncbi.nlm.nih .gov/pubmed /
+14977202. https:// doi.org/10.10 23/b:bra t.0000006333.9 3597.9d PMID: 14977202
+38. Brunoni AR, Amader a J, Berbel B, et al. A systematic review on reporting and assessmen t of adverse
+effects associat ed with transcran ial direct current stimulat ion. Int J Neuropsy chopharma col 2011;
+14:1133–45 . https://doi.or g/10.1017/ S146114571 0001690 PMID: 213203 89
+39. Colzato LS, Nitsche MA, Kibele A. Noninvas ive Brain Stimulati on and Neural Entrainm ent Enhance Ath-
+letic Perform ance—a Review. J Cogn Enhanc 2017; 1:73–9. https://doi.o rg/10.1007/s4 1465-016-0 003-
+2
+40. Frazer A, Williams J, Spittles M, et al. Anodal transcran ial direct current stimulation of the motor cortex
+increases cortical voluntary activation and neural plasticity . Muscle Nerve 2016; 54:903– 13. https://doi.
+org/10.1002/ mus.25143 PMID: 27065472
+41. Cogiamania n F, Marceglia S, Ardolino G, et al. Improved isometric force endurance after transcran ial
+direct current stimulation over the human motor cortical areas. Eur J Neurosc i 2007; 26:242–9. https://
+doi.org/10.11 11/j.1460-95 68.2007.0 5633.x PMID: 176149 51
+42. Angius L, Pagea ux B, Hopker J, et al. Transcranial direct current stimulation improves isometric time to
+exhaustion of the knee extensors. Neuroscien ce 2016; 339:363 –75. https://doi.or g/10.101 6/j.
+neuroscie nce.2016. 10.028 PMID: 2775196 0
+43. Abdelmo ula A, Baudry S, Duchateau J. Anodal transcranial direct curren t stimulation enhances time to
+task failure of a submaxim al contraction of elbow flexors without changin g corticospina l excitability.
+Neuroscienc e 2016; 322:94–103 . https://doi.or g/10.1016/ j.neuroscienc e.2016.02. 025 PMID: 26892298
+44. Mu ¨ ller P, Duderstadt Y, Lessmann V, et al. Lactate and BDNF: Key Mediators of Exercise Induced Neu-
+roplastici ty? J Clin Med 2020; 9. https://doi.or g/10.339 0/jcm90411 36 PMID: 3232658 6
+45. Podda MV, Cocco S, Mastrodon ato A, et al. Anodal transcranial direct current stimulat ion boosts synap-
+tic plasticity and memory in mice via epigenetic regulation of Bdnf expression . Sci Rep 2016; 6:22180 .
+https://doi.or g/10.103 8/srep22180 PMID: 26908001
+46. Lattari E, Filho BJR, Fonseca SJ, et al. Effects on Volume Load and Ratings of Perceive d Exertion in
+Individua ls’ Advanced Weight Training After Transcran ial Direct Current Stimulati on. J strength Cond
+Res 2020; 34:89–9 6. https://doi.or g/10.151 9/JSC.00000 00000002434 PMID: 29329154
+47. Ze ´ non A, Sidibe ´ M, Olivier E. Disrupting the Supplement ary Motor Area Makes Physical Effort Appear
+Less Effortful. J Neurosci 2015; 35:8737–4 4. https://doi.or g/10.1523 /JNEUROSCI.3 789-14. 2015
+PMID: 260639 08
+48. Etemadi M, Amiri E, Tadibi V, et al. Anodal tDCS over the left DLPFC but not M1 increases muscle
+activity and improves psycho physiolog ical response s, cognitive function, and endurance perform ance
+in normobaric hypoxia: a random ized controll ed trial. BMC Neurosci 2023; 24. https:// doi.org/10.11 86/
+S12868-02 3-00794-4 PMID: 3702027 5
+49. Teymoori H, Amiri E, Tahmas ebi W, et al. Effect of tDCS targeting the M1 or left DLPFC on physical per-
+formance, psychophy siological response s, and cognitive function in repeate d all-out cycling : a random-
+ized controll ed trial. J Neuroen g Rehabil 2023; 20. https://doi.or g/10.118 6/s12984-023- 01221-9 PMID:
+37496055
+50. Furuya S, Klaus M, Nitsche MA, et al. Ceiling Effects Preven t Further Improvement of Transcranial
+Stimulati on in Skilled Musicians. J Neurosci 2014; 34:1383 4–9. https://doi.or g/10.152 3/JNEURO SCI.
+1170-14.201 4 PMID: 25297109
+51. Rosen DS, Erickson B, Kim YE, et al. Anodal tDCS to right dorsola teral prefrontal cortex facilitates per-
+formance for novice jazz improviser s but hinders experts. Front Hum Neurosc i 2016; 10:229675.
+https://doi.or g/10.338 9/fnhum.20 16.00579 PMID: 27899889
+52. Oki K, Mahato NK, Nakazawa M, et al. Prelim inary Evidence That Excitatory Transcran ial Direct Cur-
+rent Stimulati on Extends Time to Task Failure of a Sustained, Submaxim al Muscular Contraction in
+PLOS ONE
+Effects of motor tDCS on running performanc e
+PLOS ONE | https://doi.or g/10.137 1/journal.po ne.03120 84 December 5, 2024 15 / 16
+Older Adults. Journals Gerontol Ser A 2016; 71:1109–12. https://do i.org/10.1093 /gerona/glw 011 PMID:
+26912478
+53. Pascual- Leone A, Dang N, Cohen LG, et al. Modulatio n of muscle response s evoked by transcranial
+magnetic stimulation during the acquisition of new fine motor skills. J Neuroph ysiol 1995; 74:1037 –45.
+https://doi.or g/10.115 2/jn.1995.74. 3.1037 PMID: 750013 0
+54. Nitsche MA, Liebetanz D, Lang N, et al. Safety criteria for transcran ial direct current stimulation (tDCS)
+in humans. Clin Neurophysio l 2003; 114:2220 –3.http://ww w.ncbi.nlm .nih.gov/pu bmed/14580 622.
+https://doi.or g/10.101 6/s1388-2457( 03)00235- 9 PMID: 14580622
+55. Neri F, Mencarelli L, Menard i A, et al. A novel tDCS sham approach based on model-driven controlled
+shunting. Brain Stimul 2020; 13:507– 16. https://doi.or g/10.101 6/j.brs.2019. 11.004 PMID: 31926812
+56. Reis J, Fritsch B. Modulatio n of motor performanc e and motor learning by transcran ial direct current
+stimulation. Curr Opin Neurol 2011; 24:590–6. https://doi.or g/10.1097/ WCO.0b01 3e32834c3db0
+PMID: 219685 48
+PLOS ONE
+Effects of motor tDCS on running performanc e
+PLOS ONE | https://doi.or g/10.137 1/journal.po ne.03120 84 December 5, 2024 16 / 16

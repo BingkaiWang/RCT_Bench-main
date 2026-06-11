@@ -1,0 +1,695 @@
+R E S E A R C H A R T I C L E Open Access
+Efficacy and safety assessment of
+acupuncture and nimodipine to treat
+mild cognitive impairment after cerebral
+infarction: a randomized controlled trial
+Shuhua Wang 1, Hongling Yang 2, Jie Zhang 2, Bin Zhang 2, Tao Liu 2, Lu Gan 1 and Jiangang Zheng 2*
+Abstract
+Background: Cerebral infarction frequently leads to mild cognitive impairment (MCI). Prompt management of MCI
+can prevent vascular dementia and improve patient outcome. This single center randomized controlled trial aims to
+investigate the efficacy and safety of acupuncture and nimodipine to treat post-cerebral infarction MCI.
+Methods: A total of 126 Chinese patients with post-cerebral infarction MCI recruited from the First Teaching
+Hospital of Tianjin University of Traditional Chinese Medicine between April 2013 and June 2014 were randomized
+at 1:1: 1 ratio into nimodipine alone (30 mg/time and 3 times daily), acupuncture alone (30 min/time, 6 times/
+week), and nimodipine + acupuncture groups. The treatments were 3 months. Cognitive function was evaluated
+using Montreal Cognitive Assessment (MoCA) scale at enrollment interview, at the end of 3-month therapy, and at
+the post-treatment 3-month follow-up.
+Results: The per-protocol set included 39, 40, and 40 patients from nimodipine alone, acupuncture alone, and the
+combination group, respectively, was analyzed. Intra-group comparison revealed that MoCA score at the follow-up
+improved significantly by 15.8 ± 10.9, 20.9 ± 13.8 %, and 30.2 ± 19.7 % compared with the baseline MoCA for
+nimodipine alone, acupuncture alone, and the combination group, respectively. Inter-group comparison
+demonstrated that the combination therapy improved M oCA score (5.5 ± 2.2) at significantly higher extent
+than nimodipine alone (3.1 ± 1.8) and acupuncture alone (4.3 ± 2.3) at the follow-up (All P < 0.05), and significantly
+higher proportion of patients in acupuncture alone group (80 %) and the combination therapy group (90 %) than in
+nimodipine alone group (56.4 %) showed ≥12 % MoCA score improvement compared with the baseline MoCA
+(All P < 0.05). No adverse event was reported during the study.
+Conclusion: Acupuncture may be used as an additional therapy to conventional pharmacological treatment
+to further improve the clinical outcomes of patients with post-cerebral infarction MCI.
+Trial registration: The study was registered at the Chinese Clinical Trial Registry (http://www.chictr.org.cn/,
+Unique Identifier: ChiCTR-IOR-15007366). The date of registration is November 4, 2015.
+Keywords: Acupuncture, Cerebral infarction, Mild cognitive impairment, Montreal Cognitive Assessment scale,
+Nimodipine
+* Correspondence: jgzheng2008@163.com
+2Department of Acupuncture, The First Teaching Hospital of Tianjin
+University of Traditional Chinese Medicine, Tianjin 300193, China
+Full list of author information is available at the end of the article
+© 2016 The Author(s). Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0
+International License (http://creativecommons.org/licenses/by/4.0/), which permits unrestricted use, distribution, and
+reproduction in any medium, provided you give appropriate credit to the original author(s) and the source, provide a link to
+the Creative Commons license, and indicate if changes were made. The Creative Commons Public Domain Dedication waiver
+(http://creativecommons.org/publicdomain/zero/1.0/) applies to the data made available in this article, unless otherwise stated.
+Wang et al. BMC Complementary and Alternative Medicine  (2016) 16:361 
+DOI 10.1186/s12906-016-1337-0
+Background
+Cerebrovascular disease such as stroke often causes
+cognitive dysfunction ranging from mild cognitive
+impairment (MCI) to dementia. The prevalence of
+post-stroke cognitive impairment has been reported
+to be 20 –80 % in patients with different nationality
+and races according to different diagnostic criteria
+[1]. Approximately 23 –30 % of patients with stroke
+will develop MCI or dementia within 4 years after
+the stroke [2].
+Management of post-stroke cognitive impairment
+has not been standardized. Previous clinical trials have
+shown that drugs that are usually used to treat
+Alzheimer ’s disease, such as the cholinesterase inhibi-
+tors donepezil, galantamin e, and rivastigmine, and the
+noncompetitive N-methyl-D-aspartate receptor antag-
+onist memantine, were associated with neurological
+benefits in patients with post-stroke cognitive impair-
+ment [3 –9]. However, because of uncertain effect of
+the drugs on global and daily function, none of the
+drugs has achieved regulatory approval for the treat-
+ment of vascular cognitive impairment (VCI) [10].
+Nimodipine, which is a 1,4-dih ydropyridine-derivative
+calcium channel blocker, can reduce the severity of ar-
+terial spasm-induced ischemic neurologic deficits when
+it is administered within 96 h of the onset of subarach-
+noid hemorrhage [11]. Recent clinical studies further
+support its beneficial effects on neurological outcomes
+in patients with subarachnoid hemorrhage [12]. In a
+systematic review of double-blinded randomized trials,
+nimodipine was found to have short-term benefit in
+terms of clinical global impression and cognitive
+function but not of activities of daily living in patients
+with VCI [13]. Although the efficacy of nimodipine in
+dementia, such as Alzheimer ’s disease and VCI, is still
+uncertain, it is currently commonly used for VCI and
+dementia in China and several continental European
+countries.
+In addition to the pharmacological therapies, acu-
+puncture has also been explored to treat VCI [14]. A
+recent systematic meta-analysis including 691 partici-
+p a n t sp o o l e df r o m1 2r a n d o m i z e dc o n t r o l l e dt r i a l sh a s
+shown that combination therapy of acupuncture plus
+other conventional thera py improved mini-mental
+state examination (MMSE) score significantly in
+patients with vascular MCI [14]. However, all the
+included clinical trials appear to have low quality in
+methodology and high risk of bias [14]. Here, this
+study aims to conduct a ran domized trial including
+126 patients with post-stroke MCI to compare the
+efficacy of combination therapy of acupuncture plus
+nimodipine versus acupuncture alone and nimodipine
+alone. Montreal Cognitive Assessment (MoCA) scor-
+ing system was used to evaluate the patient outcomes.
+Methods
+Trial design
+This single center randomized controlled trial with 1:1:1
+allocation was conducted in the First Teaching Hospital
+of Tianjin University of Traditional Chinese Medicine
+from April 2013 to June 2014. This trial was conducted
+in accordance with the principles of the Declaration of
+Helsinki. The study protocol has been approved by the
+Institutional Review Board of Tianjin University of
+Traditional Chinese Medicine (No. TYLL2013 [K] 002).
+The study was registered at the Chinese Clinical Trial
+Registry (http://www.chictr.org/cn, Unique Identifier: Ch
+iCTR-IOR-15007366). Written informed consent was
+obtained from all patients.
+Patients
+Patients that met all of the following inclusion criteria
+were enrolled: 1) aged 50 to 80 years; 2) a confirmed
+history of cerebrovascular ischemia based on the results
+from cerebral perfusion computed tomography or
+magnetic resonance imaging; 3) a recent episode of cere-
+bral infarction that occurred 0.5 to 6 months prior to
+the enrollment interview; 4) a Modified Ashworth Scale
+score of muscle tone ≥ 3; 5) no severe language and cog-
+nitive disorder but presenting MCI with a MoCA score
+< 26; [15] the definition of MCI in this study was that
+the cognitive impairment was not severe enough to
+interfere with everyday life; [16] 6) was literate and able
+to read and understand the informed consent form; 7)
+voluntarily signed the informed consent form. Patients
+that met any one of the following exclusion criteria were
+excluded: 1) transient ischemic attack; 2) presenting
+cerebral hemorrhage or other disease-associated cogni-
+tive impairment; 3) severe hearing, vision, and/or cogni-
+tive dysfunction; 4) a history of mental disease; 5) severe
+diseases in the internal organs, including the heart, liver,
+and kidney; 6) allergic to the study drug; 7) acupuncture
+syncope; 8) were taking medications that may interfere
+in the efficacy assessment of the study therapies, includ-
+ing nimodipine, citicoline sodium capsules, and/or nicer-
+goline tablets at the time of the enrollment interview or
+within 30 days before the enrollment interview.
+Randomization, allocation, and blinding
+Eligible patients were randomized into the following 3
+groups at 1:1:1 ratio: nimodipine alone, acupuncture
+alone, nimodipine and acupuncture. The patient allocation
+sequence was generated using a complete randomization
+procedure. The random number and the associated
+allocated treatment were kept in sequentially numbered
+sealed opaque envelopes. The person that generated the
+randomization sequence was not a participating inve-
+stigator and not involved in patient enrollment and ass-
+essment. In this trial, patients were not blinded for the
+Wang et al. BMC Complementary and Alternative Medicine  (2016) 16:361 Page 2 of 8
+treatment allocation. Physicians that prescribed the study
+medication and acupuncture therapy were not blinded for
+the treatment allocation. Both the trained assessor, who
+evaluated patient MoCA score, and the statistician, who
+conducted the data analysis, were blinded to the treatment
+allocation. The treatment allocation was exposed to the
+participating investigators after the completion of data
+analysis.
+Interventions
+During the study, eligible patients were permitted to
+continue their existing medications, including drugs to
+inhibit platelet aggregation, lipid-lowering drugs, anti-
+hypertensive drugs, and hypoglycemic agents. Patients
+were required to document the medication use in
+details. Eligible patients were treated with one of the
+following 3 therapies: nimo dipine tablet (Bayer health-
+care company, H20003010, 30 mg per tablet) alone,
+acupuncture alone, and nimodipine + acupuncture.
+T h ed o s a g eo ft h en i m o d i p i n et h e r a p yw a so n et a b l e t
+p e rt i m ea n d3t i m e sd a i l yf o r3m o n t h s .T h ed o s a g e
+of acupuncture therapy was one 30-min acupuncture
+section daily 6 days per week from Monday to Saturday
+for 3 months [17 –19]. Disposable sterile acupuncture
+needles (Brand name: Hua Tuo, size: 0.25 × 40 mm,
+Suzhou Medical instruments Co., Ltd, China) were
+used. A total of 12 acupoints were treated in the
+acupuncture therapy, including Baihui (DU20),
+Sishencong (EX-HN1), Sibai (ST2), Fengchi (GB20),
+Wangu (GB12), Tianzhu (BL10), Renzhong (DU26),
+Shenmen (HT7), Neiguan (PC6), Fenglong (ST40),
+Sanyinjiao (SP6), and Taichong (LR3) [20, 21]. The
+skin areas of the acupoints were sterilized by a wipe
+with 75 % ethanol.
+Distinct acupuncture needling technique was applied
+on different acupoints. Horizontal insertion with one
+Chinese cun (approximately 3.3 cm) in depth was
+applied on Baihui (DU20) and Sishencong (EX-HN1).
+Oblique insertion was used for the acupoint Sibai (ST2)
+and the needled was inserted 0.5 cun (approximately
+1.65 cm) in depth. The needles in the 3 acupoints were
+twirled gently for 30 s. At the acupoints Fengchi (GB20),
+Wangu (GB12), and Tianzhu (BL10), vertical insertion
+with a 1 to 1.5 cun (3.3 to 4.95 cm) in depth was used
+and the needles were also twirled gently for 30 s. A nee-
+dle was inserted obliquely with 0.3 to 0.5 cun in depth
+toward the nasal septum at Renzhong (DU26), and heavy
+bird-pecking needling was applied until tear formation
+was observed in patients ’ eyes. Vertical insertion with a
+depth of 0.5 to 1 cun was applied at Neiguan (PC6), and
+t h en e e d l ew a st w i r l e d ,l i f t e d ,a n dt h r u s tg e n t l yf o ro n em i -
+nute. At Shenmen (HT7) and Sanyinjiao (SP6), needles
+were inserted vertically with a depth of 0.2 –0.5 cun and
+0.5–1.0 cun, respectively. The needles were twirled gently
+30 s. Needles were inserted vertically with a depth of 1.0 to
+1.5 cun at Fenglong (ST40) and T aichong (LR3), and the
+needles were twirled, lifted, and thrust gently for one mi-
+nute. Needles were kept in all of the acupoints for 30 min.
+Outcome assessment
+Patients’ cognitive function was assessed by the
+MoCA test, and MoCA score was used to evaluate
+t h ee f f i c a c yo ft h et h e r a p i e s .T h eM o C At e s ta n dt h e
+instructions in Chinese are available for download
+from the following official website of the Montreal
+Cognitive Assessment: http ://www.mocatest.org/wp-
+content/uploads/2015/tests-instructions. The MoCA
+test is displayed in Additional file 1: T able S1. Trained as-
+sessors evaluated patients’ MoCA score at the enrollment
+interview, at the end of the 3-month therapy, and at the 3-
+month post-treatment follow-up. The efficacy index was
+calculated based on the following equation: (post-treat-
+ment or follow-up MoCA score – baseline MoCA score)
+÷ baseline MoCA score × 100 %. Efficacy index ≥12 % was
+considered effective response and <12 % was considered
+ineffective response.
+Adverse events
+Adverse events (AEs) that may or may not be associated
+with the study therapies, including abnormal gastrointes-
+tinal reactions, cardiovascular events, allergic reactions,
+and other medical conditions were recorded.
+Sample size determination
+Previous studies have shown that the rate of effective
+response was approximately 60 % and 80 % in patients
+with MCI receiving nimodipine alone and acupuncture
+alone, respectively [17]. We assumed that the rate of
+effective response to combination of nimodipine and
+acupuncture would be ≥ 85 %. Under the assumption of
+a significant level of 0.05 (one-side), 80 % power, and
+15 % data loss, a total of 120 patients were required.
+Thus, 126 patients (42 patients in each group) were
+enrolled in this study.
+Statistical analysis
+Patients that had poor compliance to the study protocol,
+failed to come back to the follow-up, or developed severe
+adverse reactions were removed from the analysis. Per-
+protocol (PP) dataset was used for statistical analysis.
+Continuous variables are presented as mean ± standard
+deviation (SD). Count variables are presented as number
+of cases or percentage. One-way ANOVA was used to
+compare baseline BMI, and Kruskal-Wallis rank sum test
+was used to compare age, sex distribution, and MoCA
+baseline score. For intra-group comparison of MoCA
+score improvement at the end of 3-month therapy versus
+that at the follow-up, Kruskal-Wallis rank sum test was
+Wang et al. BMC Complementary and Alternative Medicine  (2016) 16:361 Page 3 of 8
+used for the acupuncture alone group; independent sam-
+ple t-test was used for the nimodipine alone and nimodi-
+pine + acupuncture groups. Kruskal-Wallis rank sum test
+was used for comparison of percentage improvement of
+MoCA score at the end of 3-month therapy versus that at
+the follow-up in each group. Kruskal-Wallis rank sum test
+was used for inter-group comparison of MoCA score
+improvement; Nemenyi test was used for 2-group compari-
+son. Pearson chi-square test was used to compare the pro-
+portion of effective response of the 3 groups. The statistical
+analysis software SPSS 18.0 was used. P value was 2-sided
+and P < 0.05 was considered significantly different.
+Results
+Baseline data
+A total of 126 patients were recruited from April 2013
+to June 2014 and randomized into the 3 groups (42
+patients per group). After the 3-month post-treatment
+follow-up, data of 39, 40, and 40 patients from nimodi-
+pine alone, acupuncture alone, and nimodipine + acu-
+puncture group, respectively were analyzed. Thus, the
+PP dataset included 119 patients, and the dropout rate
+was 5.6 % (7/126). The CONSORT flow diagram is
+displayed in Fig. 1b. Baseline data showed that sex distri-
+bution and body mass index were comparable in the 3
+groups (Table 1). However, age was significantly different
+among the 3 groups ( P = 0.021), and patients in the
+nimodipine alone group ap peared to have younger
+mean age than patients in acupuncture alone and
+acupuncture + nimodipine group (T able 1). The baseline
+MoCA score was not significantly different among the 3
+groups (P = 0.242, T able 1).
+Efficacy assessment
+In each group, the mean MoCA score increased signifi-
+cantly at the end of 3-month treatment compared with
+the baseline values (All P < 0.05, Table 2), and further
+increased and remained at a significantly higher level
+at the 3-month follow-up (All P <0 . 0 5 , T a b l e 2 ) . T h e
+mean percentage MoCA improvement at the follow-up
+was higher than that at the end of 3-month treatment
+Fig. 1 CONSORT patient flow diagram
+Table 1 Baseline data
+Nimodipine
+alone,
+n =3 9
+Acupuncture
+alone,
+n =4 0
+Nimodipine +
+acupuncture,
+n =4 0
+P value
+Age (years),
+mean (SD)
+60.6 (6.7) 64.4 (7.7) 65.2 (7.1) 0.021
+BMI, mean (SD) 23.2 (2.2) 24.2 (2.2) 23.9 (2.9) 0.220
+Men, n (%) 26 (66.7) 30 (75.0) 26 (65.0) 0.584
+HDL (mmol/L),
+mean (SD)
+1.1 (0.2) 1.1 (0.3) 1.1 (0.2)
+LDL (mmol/L),
+mean (SD)
+2.5 (1.0) 2.6 (0.7) 2.6 (0.8)
+Triglycerides
+(mmol/L),
+mean (SD)
+1.6 (0.7) 1.8 (1.4) 1.5 (0.7)
+Fasting blood
+glucose (mmol/L),
+mean (SD)
+6.2 (2.1) 5.7 (2.0) 5.7 (2.0)
+MoCA
+Mean (SD) 21.1 (4.3) 21.8 (3.5) 20.5 (3.9) 0.242
+Median 22 22 22
+Min, Max 7, 26 10, 25 11, 25
+SD standard deviation, BMI body mass index, HDL high-density lipoprotein,
+LDL, low-density lipoprotein
+Wang et al. BMC Complementary and Alternative Medicine  (2016) 16:361 Page 4 of 8
+in each group (Table 2). Particularly, in the combin-
+ation therapy group, the percentage MoCA score im-
+provement at follow-up was significantly higher than
+that at the end of the combination therapy ( P =0 . 0 3 7 ,
+Table 2). These data suggest that all 3 therapies may
+improve cognitive function and the improvement ap-
+pear to be enhanced and sustained at least for 3 months
+after the therapies.
+The actual MoCA scores at follow-up of the acupuncture
+alone group (26.1 ± 3.6, P = 0.043) and nimodipine + acu-
+puncture groups (26.0 ± 2.8, P = 0.034) were significantly
+higher than that of the nimodipine alone group (24.2 ± 4.6,
+Fig. 2a). However, the MoCA scores at the end of 3-month
+therapy were not significantly different in the three patient
+g r o u p s( F i g .2 a ) .I n t e r - g r o u pcomparison revealed that the
+mean MoCA score improvement after 3-month acupunc-
+ture alone (3.6 ± 2.4) was higher than that after 3-month
+nimodipine alone treatment (2.4 ± 2.1) although the
+difference was not statistically significant (P =0 . 0 9 1 ,F i g .2 b ) .
+In contrast, The MoCA score improvement after 3-month
+combination therapy (4.0 ± 2.0 ) was significantly greater
+than that after nimodipine alone treatment ( P = 0.002,
+Fig. 2b). At the post-treatme nt 3-month follow-up, the
+MoCA score improvement in acupuncture alone (4.3 ± 2.3)
+was not significantly different from that (3.1 ± 1.8) in nimo-
+dipine alone group ( P = 0.070, Fig. 2b). However , the
+MoCA score improvement at the post-treatment 3-month
+follow-up in the combination therapy group (5.5 ± 2.2)
+was significantly higher than both acupuncture alone
+(P = 0.042) and nimodipine alone ( P < 0.0001, Fig. 2b)
+groups. Thus, the combination therapy of nimodipine
+and acupuncture appears to have superior efficacy on
+post-cerebral infarction MCI to nimodipine monotherapy
+and acupuncture monotherapy.
+In addition, at the end of 3-month treatment, signifi-
+cantly higher proportion of patients in the combination
+therapy group (77.5 %) showed effective response
+(≥12 % increase in MoCA score compared with the
+baseline MoCA) than the nimodipine alone group
+(46.2 %, P = 0.004, Fig. 2c). At the post-treatment 3-month
+follow-up, the proportion of patients that showed effective
+response increased to 80 % and 90 % for the acupuncture
+alone group and the combination therapy group,
+respectively, and these values were significantly higher
+than that in the nimodipine alone group (56.4 %, all
+P < 0.05, Fig. 2c). No AE was reported during the study.
+The original data are presented in the Additional file 2:
+Ta bl e S 2.
+Discussion
+In this randomized controlled clinical trial, 3-month
+nimodipine monotherapy, acupuncture monotherapy,
+and combination therapy of nimodipine plus acupunc-
+ture improved cognitive function significantly in patients
+with post-cerebral infarction MCI, and the cognitive
+improvement was sustained and even became more
+apparent 3 months after the treatments. Notable,
+compared with the monotherapies, the combination
+therapy was associated the best cognitive improvement,
+suggesting that nimodipine and acupuncture may result
+in additive neurological benefit in patients with post-
+cerebral infarction MCI.
+These findings are consistent with the results from previ-
+ous trials assessing the therapeutic value of acupuncture in
+cognitive impairment. Our previous clinical trial showed
+that MoCA score improvement after 3-month combination
+therapy of nimodipine plus acupuncture was 1.88 folds of
+that after nimodipine monotherapy group [22]. Similarly,
+this current study found that the MoCA score improve-
+ment in the combination therapy group was 1.66 folds of
+that in the nimodipine monotherapy group at the end of
+the treatment and further increased to 1.77 folds at post-
+treatment 3-month follow-up. Different types of acupunc-
+ture, such as electroacupuncture and body acupuncture,
+different types of convention al therapy, including nimodi-
+pine, donepezil, and cognitive function training, and various
+efficacy evaluation system, such as MoCA, Mini-Mental
+State Examination (MMSE), Modified Barthel Index, and
+Wechsler Memory Scale have been used in clinical trials to
+compare the efficacy of combination of acupuncture plus
+conventional therapy versus conventional therapy alone in
+patients with vascular MCI. Cao et al. conducted a meta-
+analysis on 12 randomized controlled trials and found that
+combination therapy consistently showed superior effi-
+cacy on cognitive improvement to conventional therap-
+ies regardless of the types of acupuncture therapy,
+Table 2 Intra-group comparison of the effect of the therapies on MoCA score
+Nimodipine alone Acupuncture alone Nimodipine + Acupuncture
+n = 39, Mean (SD) n = 40, Mean (SD) n = 40, Mean (SD)
+MoCA Increase % MoCA Increase % MoCA Increase %
+Baseline 21.1 (4.3) n/a n/a 21.8 (3.5) n/a n/a 20.5 (3.9) n/a n/a
+After treatment 23.5 (4.6) a 2.4 (2.1) 12.7 (14.1) 25.4 (4.1) a 3.6 (2.4) 16.8 (13.1) 24.5 (3.3) a 4.0 (2.0) b 21.6 (14.3)c
+At follow-up 24.2 (4.6) a 3.1 (1.8) 15.8 (10.9) 26.1 (3.6) a 4.3 (2.3) 20.9 (13.8) 26.0 (2.8) a 5.5 (2.2) b 30.2 (19.7)c
+MoCA score increase was calculated as: MoCA score at the end of the therapy or at the follow-up – baseline MoCA score. MoCA % increase was calculated as:
+MoCA score increase ÷ baseline MoCA score × 100 %. arepresents significant different between the indicated score vs. the baseline MoCA score in each group.
+brepresents significant different between the indicated values ( P = 0.002). crepresents significantly different between the indicated values ( P = 0.037)
+Wang et al. BMC Complementary and Alternative Medicine  (2016) 16:361 Page 5 of 8
+conventional therapy, and efficacy evaluation system
+that were used in the trials although most of the in-
+cluded studies suffered poor quality in methodology
+and high risk of bias [14]. This conclusion is further
+supported by a more recent meta-analysis that com-
+pared the efficacy of combination of acupuncture plus
+conventional therapy versus conventional therapy alone
+in patients with post-stroke cognitive impairment [23].
+In this current study, the improvement in MoCA score
+after acupuncture monotherapy was higher than that
+after nimodipine monotherapy although the difference
+was not statistically significant. However, significantly
+higher proportion of patients achieved ≥12 % increase in
+MoCA score after acupuncture monotherapy than after
+nimodipine monotherapy. These findings suggest that
+acupuncture may be more effective than nimodipine in
+patients with post-cerebral infarction MCI. Similarly,
+previous studies have demonstrated that both electroa-
+cupuncture and body acupuncture monotherapy im-
+proved MMSE score or MoCA score at significantly
+higher extent than nimodipine alone [14, 24].
+The molecular and cellular mechanism underlying the
+beneficial effect of acupuncture on neurological outcome
+has been investigated in animal models. Lee et al. used
+scopolamine to induce cognitive impairment in rats and
+found that acupuncture stimulation at Baihui (DU20)
+acupoint improved rat memory significantly and re-
+stored the mRNA expression of molecules that are in-
+volved in memory function in hippocampus such as
+cAMP-response element-binding protein (CREB) [25].
+Similarly, Li et al. also found that acupuncture increased
+the expression of CREB and phosphorylated CREB and
+improved memory function in rats with vascular dementia
+induced by homologous blood clot emboli [26]. Further-
+more, acupuncture has been shown to significantly in-
+crease the number of neurons in the hippocampal CA1
+area of rats with vascular dementia [27, 28]. Magnetic
+resonance imaging (MRI) revealed that acupuncture acti-
+vated neurons in cognitive-related cortical area in patients
+with MCI [29 –31]. These preclinical and clinical studies
+indicate that acupuncture may improve cognitive function
+by activating neurons, reversing brain damage-associated
+alteration of molecules, such as the CREB pathway, and
+increasing the number of neurons in hippocampus.
+There are several limitations in this study. Only MoCA
+scale was used to assess the cognitive function in this
+current study. Although compared with comprehensive
+neuropsychological battery, MoCA is short and has good
+sensitive and specificity to MCI, additional evaluation test
+such as Addenbrooke ’s Cognitive Examination –Revised
+would improve the evaluation accuracy [15]. The duration
+of acupuncture therapy and follow-up time in this current
+study was only 3 months, respectively. Long-term effect of
+acupuncture on vascular MCI remains unknown. More-
+over, patients in the acupuncture alone and the combin-
+ation therapy groups were significantly older than patients
+in the nimodipine alone group. This non-uniform age
+d i s t r i b u t i o nm a yb ea s s o c i a t e dw i t ht h es m a l ls a m p l es i z e
+and single center nature of this current study. Thus, multi-
+center large-scale studies with better randomization
+Fig. 2 Comparison of MoCA score improvement and proportion of
+effective response of the 3 groups.a MoCA scores of the three patient
+groups. b Comparison of MoCA score improvement of the 3 groups.
+Kruskal-Wallis rank sum test was used to compare the 3 groups; Nemenyi
+test was used for 2-group comparison.c Comparison of the proportion
+o fe f f e c t i v er e s p o n s eo ft h e3g r o u p s .P e a r s o nc h i - s q u a r et e s tw a su s e d .
+*represent significant difference, andP < 0.05 was considered statistically
+significantly different
+Wang et al. BMC Complementary and Alternative Medicine  (2016) 16:361 Page 6 of 8
+scheme and comprehensive efficacy evaluation method are
+required to further verify the conclusion. Furthermore, the
+improvements across the therapies in the current study
+could be partially attributable to a spontaneous recovery. A
+placebo control group, in which patients received no treat-
+ments, would be necessary to investigate the spontaneous
+recovery. However, because the participating patients were
+likely in a critical therapeutic window (0.5 to 6 months
+post-infarction) for effective interventions to attenuate the
+MCI and the potential risk of a deterioration of the MCI if
+left untreated may be high, inclusion of a placebo control
+group in the current prospective randomized controlled
+trial may highly likely be disapproved by the Institutional
+Review Board. In addition, even if a spontaneous recovery
+existed, it would theoretically affect the three patient group
+equally because of the randomized design in the current
+study. Thus, we did not include such placebo control.
+Certainly, the current study cannot exclude the possibility
+that some patients with post-cerebral infarction MCI may
+recover spontaneously. Spontaneous recovery from post-
+stroke cognitive impairment has been reported previously
+[32–37]. Rasquin et al. followed up 118 patients with a first
+ever cerebral stroke for 2 years, and they found that 20.3 %
+of the patients had reversible MCI and most of the recov-
+ery occurred between one-month and 6-month post-
+stroke [37]. They also discovered that higher baseline
+MMSE scores, which was determined at post-stroke
+one month, and female sex were independent predic-
+tors of the recovery [37].
+Conclusions
+The findings of this current study suggest that acupunc-
+ture may be used as an additional therapy to conven-
+tional pharmacological treatment to further improve the
+clinical outcomes of patients with post-cerebral infarc-
+tion MCI. Long-term and large scaled studies with more
+comprehensive efficacy evaluation system are still re-
+quired to further verify the conclusion.
+Additional files
+Additional file 1: MoCA test in Chinese. (PDF 947 kb)
+Additional file 2: Patients' MoCA score. (XLSX 90 kb)
+Abbreviations
+AE: Adverse event; MCI: Mild cognitive impairment; MMSE: Mini-mental state
+examination; MoCA: Montreal cognitive assessment; PP: Per-protocol;
+VCI: Vascular cognitive impairment
+Acknowledgement
+None.
+Funding
+This study was supported by a research grant provided by the State
+Administration of Traditional Chinese Medicine of China (Grant No:
+JDZX2012139). The funding agent plays no role in study design, data
+collection, and data analyses.
+Availability of data and materials
+The dataset supporting the conclusions of this article is included within the
+article and its additional file.
+Authors’ contributions
+SW, HY, and JZhe designed the trial and prepared the manuscript. JZha,
+BZha, TL, and LG assisted to collect data and performed the statistical
+analysis. All authors read and approved the final manuscript.
+Competing interests
+The authors declare that they have no competing interests.
+Consent for publication
+We have obtained consent to publish from the participant to report
+individual patient data.
+Ethics approval and consent to participate
+This trial was conducted in accordance with the principles of the Declaration of
+Helsinki. The study protocol has been approved by the Institutional Review Board
+of Tianjin University of Traditional Chinese Medicine (No. TYLL2013 [K] 002).
+Written informed consent was obtained from all patients.
+Author details
+1Department of Moxibustion and Massage, Tianjin University of Traditional
+Chinese Medicine, Tianjin 300193, China. 2Department of Acupuncture, The
+First Teaching Hospital of Tianjin University of Traditional Chinese Medicine,
+Tianjin 300193, China.
+Received: 15 January 2016 Accepted: 2 September 2016
+References
+1. Sun JH, Tan L, Yu JT. Post-stroke cognitive impairment: epidemiology,
+mechanisms and management. Ann Transl Med. 2014;2:80.
+2. Makin SD, Turpin S, Dennis MS, Wardlaw JM. Cognitive impairment after
+lacunar stroke: systematic review and meta-analysis of incidence, prevalence
+and comparison with other stroke subtypes. J Neurol Neurosurg Psychiatry.
+2013;84:893–900.
+3. Wilkinson D, Doody R, Helme R, Taubman K, Mintzer J, Kertesz A, et al. Donepezil
+in vascular dementia: a randomized, placebo-controlled study. Neurology.
+2003;61:479 –86.
+4. Black S, Román GC, Geldmacher DS, Salloway S, Hecker J, Burns A, et al.
+Efficacy and tolerability of donepezil in vascular dementia: positive results
+of a 24-week, multicenter, international, randomized, placebo-controlled
+clinical trial. Stroke. 2003;34:2323 –30.
+5. Román GC, Salloway S, Black SE, Royall DR, Decarli C, Weiner MW, et al.
+Randomized, placebo-controlled, clinical trial of donepezil in vascular
+dementia: differential effects by hippocampal size. Stroke. 2010;41:1213 –21.
+6. Rockwood K, Mitnitski A, Black SE, Richard M, Defoy I, VASPECT study
+investigators. Cognitive change in donepezil treated patients with vascular
+or mixed dementia. Can J Neurol Sci. 2013;40:564 –71.
+7. Auchus AP, Brashear HR, Salloway S, Korczyn AD, De Deyn PP, Gassmann-
+Mayer C, et al. Galantamine treatment of vascular dementia: a randomized
+trial. Neurology. 2007;69:448 –58.
+8. Ballard C, Sauter M, Scheltens P, He Y, Barkhof F, van Straaten EC, et al. Efficacy,
+safety and tolerability of rivastigmine capsules in patients with probable
+vascular dementia: the VantagE study. Curr Med Res Opin. 2008;24:2561–74.
+9. Wilcock GK. Memantine for the treatment of dementia. Lancet Neurol.
+2003;2:503 –5.
+10. Gorelick PB, Scuteri A, Black SE, Decarli C, Greenberg SM, Iadecola C, et al.
+Vascular contributions to cognitive impairment and dementia: a statement
+for healthcare professionals from the American Heart Association/American
+Stroke Association. Stroke. 2011;42:2672 –713.
+11. Allen GS, Ahn HS, Preziosi TJ, Battye R, Boone SC, Boone SC, et al. Cerebral
+arterial spasm–a controlled trial of nimodipine in patients with subarachnoid
+hemorrhage. N Engl J Med. 1983;308:619–24.
+12. Tomassoni D, Lanari A, Silvestrelli G, Traini E, Amenta F. Nimodipine and its
+use in cerebrovascular disease: evidence from recent preclinical and controlled
+clinical studies. Clin Exp Hypertens. 2008;30:744–66.
+13. López-Arrieta JM, Birks J. Nimodipine for primary degenerative, mixed and
+vascular dementia. Cochrane Database Syst Rev. 2002;3:CD000147.
+Wang et al. BMC Complementary and Alternative Medicine  (2016) 16:361 Page 7 of 8
+14. Cao H, Wang Y, Chang D, Zhou L, Liu J. Acupuncture for vascular mild
+cognitive impairment: a systematic review of randomised controlled trials.
+Acupunct Med. 2013;31:368 –74.
+15. Pendlebury ST, Mariz J, Bull L, Mehta Z, Rothwell PM. MoCA, ACE-R, and MMSE
+versus the National Institute of Neurological Disorders and Stroke-Canadian
+Stroke Network Vascular Cognitive Impairment Harmonization Standards
+Neuropsychological Battery after TIA and stroke. Stroke. 2012;43:464–9.
+16. Gauthier S, Reisberg B, Zaudig M, Petersen RC, Ritchie K, Broich K, et al.
+Mild cognitive impairment. Lancet. 2006;367:1262 –70.
+17. Lu X, Liang Y, Tang D, Lv P, Cai D. A review of the correlation between the
+time for keeping needles and acupuncture efficacy. Asia-Pacific Traditional
+Med. 2014;10:25 –6.
+18. Zhang T, Guan F, Le C, Hao C, Liu X, Ji L. The correlation between the time
+for keeping needles and the efficacy of using acupuncture to treat stroke.
+Acupunct Res. 2009;34:140 –2.
+19. Li F, Cai RL, Zhai L, Gao K, Yang J. Impacts of acupuncture at Jing-well
+points on the differentiated meridians and temple-three-needle therapy on
+P300 of patients with early vascular cognitive impairment. Zhongguo Zhen
+Jiu. 2013;33:784 –8.
+20. Xia Y, Fan X. Expert ’s opinion on prevention and treatment of vascular
+cognitive impairment: An interview with Dr. Xuemin Shi. J Clin Acupunct
+Moxibustion. 2013;29:1 –3.
+21. Wang C. The efficacy of acupuncture to treat vascular cognitive impairment.
+J Emerg Traditional Chinese Med. 2007;16:789 –90.
+22. Yang H, Zhang B, Liu T, Zheng J. Efficacy of acupuncture in combination with
+medicine for mild cognitive impairment after cerebral infarction: a randomized
+controlled trial. World J Acupuncture-Moxibustion. 2015;25:7–12.
+23. Liu F, Li ZM, Jiang YJ, Chen LD. A meta-analysis of acupuncture use in the
+treatment of cognitive impairment after stroke. J Altern Complement Med.
+2014;20:535–44.
+24. Zhang H, Zhao L, Yang S, Chen Z, Li Y, Peng X, et al. Clinical observation on
+effect of scalp electroacupuncture for mild cognitive impairment. J Tradit
+Chin Med. 2013;33:46 –50.
+25. Lee B, Sur B, Shim J, Hahm DH, Lee H. Acupuncture stimulation improves
+scopolamine-induced cognitive impairment via activation of cholinergic
+system and regulation of BDNF and CREB expressions in rats. BMC Complement
+Altern Med. 2014;14:338.
+26. Li QQ, Shi GX, Yang JW, Li ZX, Zhang ZH, He T, et al. Hippocampal cAMP/
+PKA/CREB is required for neuroprotective effect of acupuncture. Physiol
+Behav. 2015;139:482–90.
+2 7 . L iF ,Y a nC Q ,L i nL T ,L iH ,Z e n gX H ,L i uY ,e tal. Acupuncture attenuates cognitive
+deficits and increases pyramidal neuron number in hippocampal CA1 area of
+vascular dementia rats. BMC Complement Altern Med. 2015;15:133.
+28. Wang XR, Shi GX, Yang JW, Yan CQ, Lin LT, Du SQ, et al. Acupuncture ameliorates
+cognitive impairment and hippocampus neuronal loss in experimental vascular
+dementia through Nrf2-mediated antioxidant response. Free Radic Biol Med.
+2015;89:1077–84.
+29. Chen S, Xu M, Li H, Liang J, Yin L, Liu X, et al. Acupuncture at the Taixi (KI3)
+acupoint activates cerebral neurons in elderly patients with mild cognitive
+impairment. Neural Regen Res. 2014;9:1163 –8.
+30. Wang Z, Nie B, Li D, Zhao Z, Han Y, Song H, et al. Effect of acupuncture in
+mild cognitive impairment and Alzheimer disease: a functional MRI study.
+PLoS One. 2012;7:e42730.
+31. Feng Y, Bai L, Ren Y, Chen S, Wang H, Zhang W, et al. FMRI connectivity
+analysis of acupuncture effects on the whole brain network in mild
+cognitive impairment patients. Magn Reson Imaging. 2012;30:672 –82.
+32. Tham W, Auchus AP, Thong M, Goh ML, Ch ang HM, Wong MC, et al. Progression
+of cognitive impairment after stroke. Oneyear results from a longitudinal study
+of Singaporean stroke patients. J Neurol Sci. 2002;203–204:49–52.
+33. Ballard C, Rowan E, Stephens S, Kalaria R, Kenny RA. Prospective follow-up
+study between 3 and 15 months after stroke: improvements and decline in
+cognitive function among dementia-free stroke survivors N75 years of age.
+Stroke. 2003;34:2440 –4.
+34. Hochstenbach JB, den Otter R, Mulder TW. Cognitive recovery after stroke:
+a 2-year follow-up. Arch Phys Med Rehabil. 2003;84:1499 –504.
+35. Patel M, Coshall C, Rudd AG, Wolfe CD. Natural history of cognitive impairment
+after stroke and factors associated with its recovery. Clin Rehabil. 2003;
+17:158–1566.
+36. Desmond DW, Moroney JT, Sano M, Stern Y. Recovery of cognitive function
+after stroke. Stroke. 1996;27:1798 –803.
+37. Rasquin SM, Lodder J, Verhey FR. Predictors of reversible mild cognitive
+impairment after stroke: a 2-year follow-up study. J Neurol Sci. 2005;
+229–230:21–5.
+•  We accept pre-submission inquiries 
+  Our selector tool helps you to ﬁnd the most relevant journal
+  We provide round the clock customer support 
+  Convenient online submission
+  Thorough peer review
+  Inclusion in PubMed and all major indexing services 
+  Maximum visibility for your research
+Submit your manuscript at
+www.biomedcentral.com/submit
+Submit your next manuscript to BioMed Central 
+and we will help you at every step:
+Wang et al. BMC Complementary and Alternative Medicine  (2016) 16:361 Page 8 of 8

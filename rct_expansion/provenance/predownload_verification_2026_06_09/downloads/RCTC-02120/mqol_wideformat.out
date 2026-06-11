@@ -1,0 +1,2245 @@
+Mplus VERSION 8.8
+MUTHEN & MUTHEN
+
+INPUT INSTRUCTIONS
+
+  Title:
+
+  Data:
+     File is MQOL_MI_SCORESlist.DAT;
+     TYPE = IMPUTATION;
+
+  Variable:
+     Names are
+      MQOL_PHY
+      MQOL_PSY
+      MQOL_EXI
+      MQOL_SOC
+      MQOL_BUR
+      MQOL_ENV
+      MQOL_COG
+      MQOL_QC
+      MQOL_TOT
+      SITE
+      GROUP
+      DAYSSIN3
+      P_FOLLOW
+      PERIOD_2
+      MPLUSID;
+
+  MISSING ARE *;
+
+  USEVARIABLES ARE Site group DaysSin3 P_Follow
+  MQOL_PHY
+  MQOL_PSY
+  MQOL_EXI
+  MQOL_SOC
+  MQOL_BUR
+  MQOL_ENV
+  MQOL_COG
+  MQOL_QC
+  MQOL_TOT
+
+  PHY1-PHY7
+  PSY1-PSY7
+  EXI1-EXI7
+  SOC1-SOC7
+  BUR1-BUR7
+  ENV1-ENV7
+  COG1-COG7
+  QC1-QC7
+  TOT1-TOT7;
+
+  DATA LONGTOWIDE:
+  LONG =
+  MQOL_PHY|
+  MQOL_PSY|
+  MQOL_EXI|
+  MQOL_SOC|
+  MQOL_BUR|
+  MQOL_ENV|
+  MQOL_COG|
+  MQOL_QC|
+  MQOL_TOT;
+
+  WIDE =
+  PHY1-PHY7|
+  PSY1-PSY7|
+  EXI1-EXI7|
+  SOC1-SOC7|
+  BUR1-BUR7|
+  ENV1-ENV7|
+  COG1-COG7|
+  QC1-QC7|
+  TOT1-TOT7;
+
+  IDVARIABLE = mplusid;
+  REPETITION = Period_2 (1 2 3 4 5 6 7);
+
+  Analysis:
+  Type = BASIC;
+
+  SAVEDATA:
+  FILE IS MQOL_WIDEFORMAT*.DAT;
+
+
+
+INPUT READING TERMINATED NORMALLY
+
+
+
+
+SUMMARY OF ANALYSIS
+
+Number of groups                                                 1
+Average number of observations                                 331
+
+Number of replications
+    Requested                                                   10
+    Completed                                                   10
+
+Number of dependent variables                                   67
+Number of independent variables                                  0
+Number of continuous latent variables                            0
+
+Observed dependent variables
+
+  Continuous
+   SITE        GROUP       DAYSSIN3    P_FOLLOW    PHY1        PHY2
+   PHY3        PHY4        PHY5        PHY6        PHY7        PSY1
+   PSY2        PSY3        PSY4        PSY5        PSY6        PSY7
+   EXI1        EXI2        EXI3        EXI4        EXI5        EXI6
+   EXI7        SOC1        SOC2        SOC3        SOC4        SOC5
+   SOC6        SOC7        BUR1        BUR2        BUR3        BUR4
+   BUR5        BUR6        BUR7        ENV1        ENV2        ENV3
+   ENV4        ENV5        ENV6        ENV7        COG1        COG2
+   COG3        COG4        COG5        COG6        COG7        QC1
+   QC2         QC3         QC4         QC5         QC6         QC7
+   TOT1        TOT2        TOT3        TOT4        TOT5        TOT6
+   TOT7
+
+Variables with special functions
+
+  ID variable           MPLUSID
+
+Estimator                                                       ML
+Information matrix                                        OBSERVED
+Maximum number of iterations                                  1000
+Convergence criterion                                    0.500D-04
+Maximum number of steepest descent iterations                   20
+Maximum number of iterations for H1                           2000
+Convergence criterion for H1                             0.100D-03
+
+Input data file(s)
+  Multiple data files from
+    MQOL_MI_SCORESlist.DAT
+
+Input data format  FREE
+
+
+SUMMARY OF DATA FOR THE FIRST DATA SET
+
+     Number of missing data patterns            50
+
+
+SUMMARY OF MISSING DATA PATTERNS FOR THE FIRST DATA SET
+
+
+     MISSING DATA PATTERNS (x = not missing)
+
+           1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20
+ SITE      x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ GROUP     x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ DAYSSIN3  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ P_FOLLOW  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ PHY1      x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ PHY2      x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ PHY3      x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ PHY4      x  x  x  x  x  x  x                       x  x  x  x  x  x
+ PHY5      x  x  x  x           x  x  x  x           x  x  x  x
+ PHY6      x  x        x  x     x  x        x  x     x  x        x  x
+ PHY7      x     x     x        x     x     x        x     x     x
+ PSY1      x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ PSY2      x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ PSY3      x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ PSY4      x  x  x  x  x  x  x                       x  x  x  x  x  x
+ PSY5      x  x  x  x           x  x  x  x           x  x  x  x
+ PSY6      x  x        x  x     x  x        x  x     x  x        x  x
+ PSY7      x     x     x        x     x     x        x     x     x
+ EXI1      x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ EXI2      x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ EXI3      x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ EXI4      x  x  x  x  x  x  x                       x  x  x  x  x  x
+ EXI5      x  x  x  x           x  x  x  x           x  x  x  x
+ EXI6      x  x        x  x     x  x        x  x     x  x        x  x
+ EXI7      x     x     x        x     x     x        x     x     x
+ SOC1      x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ SOC2      x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ SOC3      x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ SOC4      x  x  x  x  x  x  x                       x  x  x  x  x  x
+ SOC5      x  x  x  x           x  x  x  x           x  x  x  x
+ SOC6      x  x        x  x     x  x        x  x     x  x        x  x
+ SOC7      x     x     x        x     x     x        x     x     x
+ BUR1      x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ BUR2      x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ BUR3      x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ BUR4      x  x  x  x  x  x  x                       x  x  x  x  x  x
+ BUR5      x  x  x  x           x  x  x  x           x  x  x  x
+ BUR6      x  x        x  x     x  x        x  x     x  x        x  x
+ BUR7      x     x     x        x     x     x        x     x     x
+ ENV1      x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ ENV2      x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ ENV3      x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ ENV4      x  x  x  x  x  x  x                       x  x  x  x  x  x
+ ENV5      x  x  x  x           x  x  x  x           x  x  x  x
+ ENV6      x  x        x  x     x  x        x  x     x  x        x  x
+ ENV7      x     x     x        x     x     x        x     x     x
+ COG1      x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ COG2      x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ COG3      x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ COG4      x  x  x  x  x  x  x                       x  x  x  x  x  x
+ COG5      x  x  x  x           x  x  x  x           x  x  x  x
+ COG6      x  x        x  x     x  x        x  x     x  x        x  x
+ COG7      x     x     x        x     x     x        x     x     x
+ QC1       x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ QC2       x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ QC3       x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ QC4       x  x  x  x  x  x  x                       x  x  x  x  x  x
+ QC5       x  x  x  x           x  x  x  x           x  x  x  x
+ QC6       x  x        x  x     x  x        x  x     x  x        x  x
+ QC7       x     x     x        x     x     x        x     x     x
+ TOT1      x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ TOT2      x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ TOT3      x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ TOT4      x  x  x  x  x  x  x                       x  x  x  x  x  x
+ TOT5      x  x  x  x           x  x  x  x           x  x  x  x
+ TOT6      x  x        x  x     x  x        x  x     x  x        x  x
+ TOT7      x     x     x        x     x     x        x     x     x
+
+          21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40
+ SITE      x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ GROUP     x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ DAYSSIN3  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ P_FOLLOW  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ PHY1      x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ PHY2      x  x  x  x  x  x  x
+ PHY3                           x  x  x  x  x  x  x  x  x  x  x  x  x
+ PHY4      x  x                 x  x  x  x  x  x  x
+ PHY5            x  x  x        x  x  x  x           x  x  x  x
+ PHY6            x  x     x     x  x        x  x     x  x        x
+ PHY7      x     x        x     x     x     x        x     x     x
+ PSY1      x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ PSY2      x  x  x  x  x  x  x
+ PSY3                           x  x  x  x  x  x  x  x  x  x  x  x  x
+ PSY4      x  x                 x  x  x  x  x  x  x
+ PSY5            x  x  x        x  x  x  x           x  x  x  x
+ PSY6            x  x     x     x  x        x  x     x  x        x
+ PSY7      x     x        x     x     x     x        x     x     x
+ EXI1      x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ EXI2      x  x  x  x  x  x  x
+ EXI3                           x  x  x  x  x  x  x  x  x  x  x  x  x
+ EXI4      x  x                 x  x  x  x  x  x  x
+ EXI5            x  x  x        x  x  x  x           x  x  x  x
+ EXI6            x  x     x     x  x        x  x     x  x        x
+ EXI7      x     x        x     x     x     x        x     x     x
+ SOC1      x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ SOC2      x  x  x  x  x  x  x
+ SOC3                           x  x  x  x  x  x  x  x  x  x  x  x  x
+ SOC4      x  x                 x  x  x  x  x  x  x
+ SOC5            x  x  x        x  x  x  x           x  x  x  x
+ SOC6            x  x     x     x  x        x  x     x  x        x
+ SOC7      x     x        x     x     x     x        x     x     x
+ BUR1      x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ BUR2      x  x  x  x  x  x  x
+ BUR3                           x  x  x  x  x  x  x  x  x  x  x  x  x
+ BUR4      x  x                 x  x  x  x  x  x  x
+ BUR5            x  x  x        x  x  x  x           x  x  x  x
+ BUR6            x  x     x     x  x        x  x     x  x        x
+ BUR7      x     x        x     x     x     x        x     x     x
+ ENV1      x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ ENV2      x  x  x  x  x  x  x
+ ENV3                           x  x  x  x  x  x  x  x  x  x  x  x  x
+ ENV4      x  x                 x  x  x  x  x  x  x
+ ENV5            x  x  x        x  x  x  x           x  x  x  x
+ ENV6            x  x     x     x  x        x  x     x  x        x
+ ENV7      x     x        x     x     x     x        x     x     x
+ COG1      x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ COG2      x  x  x  x  x  x  x
+ COG3                           x  x  x  x  x  x  x  x  x  x  x  x  x
+ COG4      x  x                 x  x  x  x  x  x  x
+ COG5            x  x  x        x  x  x  x           x  x  x  x
+ COG6            x  x     x     x  x        x  x     x  x        x
+ COG7      x     x        x     x     x     x        x     x     x
+ QC1       x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ QC2       x  x  x  x  x  x  x
+ QC3                            x  x  x  x  x  x  x  x  x  x  x  x  x
+ QC4       x  x                 x  x  x  x  x  x  x
+ QC5             x  x  x        x  x  x  x           x  x  x  x
+ QC6             x  x     x     x  x        x  x     x  x        x
+ QC7       x     x        x     x     x     x        x     x     x
+ TOT1      x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ TOT2      x  x  x  x  x  x  x
+ TOT3                           x  x  x  x  x  x  x  x  x  x  x  x  x
+ TOT4      x  x                 x  x  x  x  x  x  x
+ TOT5            x  x  x        x  x  x  x           x  x  x  x
+ TOT6            x  x     x     x  x        x  x     x  x        x
+ TOT7      x     x        x     x     x     x        x     x     x
+
+          41 42 43 44 45 46 47 48 49 50
+ SITE      x  x  x  x  x  x  x  x  x  x
+ GROUP     x  x  x  x  x  x  x  x  x  x
+ DAYSSIN3  x  x  x  x  x  x  x  x  x  x
+ P_FOLLOW  x  x  x  x  x  x  x  x  x  x
+ PHY1      x  x  x  x  x  x  x  x  x  x
+ PHY2
+ PHY3
+ PHY4      x  x  x  x  x  x  x
+ PHY5      x  x  x  x           x  x
+ PHY6      x  x        x  x     x
+ PHY7      x     x     x        x
+ PSY1      x  x  x  x  x  x  x  x  x  x
+ PSY2
+ PSY3
+ PSY4      x  x  x  x  x  x  x
+ PSY5      x  x  x  x           x  x
+ PSY6      x  x        x  x     x
+ PSY7      x     x     x        x
+ EXI1      x  x  x  x  x  x  x  x  x  x
+ EXI2
+ EXI3
+ EXI4      x  x  x  x  x  x  x
+ EXI5      x  x  x  x           x  x
+ EXI6      x  x        x  x     x
+ EXI7      x     x     x        x
+ SOC1      x  x  x  x  x  x  x  x  x  x
+ SOC2
+ SOC3
+ SOC4      x  x  x  x  x  x  x
+ SOC5      x  x  x  x           x  x
+ SOC6      x  x        x  x     x
+ SOC7      x     x     x        x
+ BUR1      x  x  x  x  x  x  x  x  x  x
+ BUR2
+ BUR3
+ BUR4      x  x  x  x  x  x  x
+ BUR5      x  x  x  x           x  x
+ BUR6      x  x        x  x     x
+ BUR7      x     x     x        x
+ ENV1      x  x  x  x  x  x  x  x  x  x
+ ENV2
+ ENV3
+ ENV4      x  x  x  x  x  x  x
+ ENV5      x  x  x  x           x  x
+ ENV6      x  x        x  x     x
+ ENV7      x     x     x        x
+ COG1      x  x  x  x  x  x  x  x  x  x
+ COG2
+ COG3
+ COG4      x  x  x  x  x  x  x
+ COG5      x  x  x  x           x  x
+ COG6      x  x        x  x     x
+ COG7      x     x     x        x
+ QC1       x  x  x  x  x  x  x  x  x  x
+ QC2
+ QC3
+ QC4       x  x  x  x  x  x  x
+ QC5       x  x  x  x           x  x
+ QC6       x  x        x  x     x
+ QC7       x     x     x        x
+ TOT1      x  x  x  x  x  x  x  x  x  x
+ TOT2
+ TOT3
+ TOT4      x  x  x  x  x  x  x
+ TOT5      x  x  x  x           x  x
+ TOT6      x  x        x  x     x
+ TOT7      x     x     x        x
+
+
+     MISSING DATA PATTERN FREQUENCIES
+
+    Pattern   Frequency     Pattern   Frequency     Pattern   Frequency
+          1          42          18           6          35           1
+          2          10          19           4          36           1
+          3           7          20           3          37           1
+          4          13          21           1          38           2
+          5          13          22           6          39           1
+          6           5          23           1          40           9
+          7          10          24           3          41           5
+          8           8          25           1          42           2
+          9           3          26           1          43           2
+         10           1          27          27          44           1
+         11           2          28           9          45           1
+         12           1          29           6          46           1
+         13           1          30           1          47           5
+         14          15          31           2          48           1
+         15          10          32           3          49           2
+         16           5          33           1          50          71
+         17           2          34           2
+
+
+COVARIANCE COVERAGE OF DATA FOR THE FIRST DATA SET
+
+Minimum covariance coverage value   0.100
+
+
+     PROPORTION OF DATA PRESENT
+
+
+           Covariance Coverage
+              SITE          GROUP         DAYSSIN3      P_FOLLOW      PHY1
+              ________      ________      ________      ________      ________
+ SITE           1.000
+ GROUP          1.000         1.000
+ DAYSSIN3       1.000         1.000         1.000
+ P_FOLLOW       1.000         1.000         1.000         1.000
+ PHY1           1.000         1.000         1.000         1.000         1.000
+ PHY2           0.607         0.607         0.607         0.607         0.607
+ PHY3           0.514         0.514         0.514         0.514         0.514
+ PHY4           0.538         0.538         0.538         0.538         0.538
+ PHY5           0.453         0.453         0.453         0.453         0.453
+ PHY6           0.429         0.429         0.429         0.429         0.429
+ PHY7           0.350         0.350         0.350         0.350         0.350
+ PSY1           1.000         1.000         1.000         1.000         1.000
+ PSY2           0.607         0.607         0.607         0.607         0.607
+ PSY3           0.514         0.514         0.514         0.514         0.514
+ PSY4           0.538         0.538         0.538         0.538         0.538
+ PSY5           0.453         0.453         0.453         0.453         0.453
+ PSY6           0.429         0.429         0.429         0.429         0.429
+ PSY7           0.350         0.350         0.350         0.350         0.350
+ EXI1           1.000         1.000         1.000         1.000         1.000
+ EXI2           0.607         0.607         0.607         0.607         0.607
+ EXI3           0.514         0.514         0.514         0.514         0.514
+ EXI4           0.538         0.538         0.538         0.538         0.538
+ EXI5           0.453         0.453         0.453         0.453         0.453
+ EXI6           0.429         0.429         0.429         0.429         0.429
+ EXI7           0.350         0.350         0.350         0.350         0.350
+ SOC1           1.000         1.000         1.000         1.000         1.000
+ SOC2           0.607         0.607         0.607         0.607         0.607
+ SOC3           0.514         0.514         0.514         0.514         0.514
+ SOC4           0.538         0.538         0.538         0.538         0.538
+ SOC5           0.453         0.453         0.453         0.453         0.453
+ SOC6           0.429         0.429         0.429         0.429         0.429
+ SOC7           0.350         0.350         0.350         0.350         0.350
+ BUR1           1.000         1.000         1.000         1.000         1.000
+ BUR2           0.607         0.607         0.607         0.607         0.607
+ BUR3           0.514         0.514         0.514         0.514         0.514
+ BUR4           0.538         0.538         0.538         0.538         0.538
+ BUR5           0.453         0.453         0.453         0.453         0.453
+ BUR6           0.429         0.429         0.429         0.429         0.429
+ BUR7           0.350         0.350         0.350         0.350         0.350
+ ENV1           1.000         1.000         1.000         1.000         1.000
+ ENV2           0.607         0.607         0.607         0.607         0.607
+ ENV3           0.514         0.514         0.514         0.514         0.514
+ ENV4           0.538         0.538         0.538         0.538         0.538
+ ENV5           0.453         0.453         0.453         0.453         0.453
+ ENV6           0.429         0.429         0.429         0.429         0.429
+ ENV7           0.350         0.350         0.350         0.350         0.350
+ COG1           1.000         1.000         1.000         1.000         1.000
+ COG2           0.607         0.607         0.607         0.607         0.607
+ COG3           0.514         0.514         0.514         0.514         0.514
+ COG4           0.538         0.538         0.538         0.538         0.538
+ COG5           0.453         0.453         0.453         0.453         0.453
+ COG6           0.429         0.429         0.429         0.429         0.429
+ COG7           0.350         0.350         0.350         0.350         0.350
+ QC1            1.000         1.000         1.000         1.000         1.000
+ QC2            0.607         0.607         0.607         0.607         0.607
+ QC3            0.514         0.514         0.514         0.514         0.514
+ QC4            0.538         0.538         0.538         0.538         0.538
+ QC5            0.453         0.453         0.453         0.453         0.453
+ QC6            0.429         0.429         0.429         0.429         0.429
+ QC7            0.350         0.350         0.350         0.350         0.350
+ TOT1           1.000         1.000         1.000         1.000         1.000
+ TOT2           0.607         0.607         0.607         0.607         0.607
+ TOT3           0.514         0.514         0.514         0.514         0.514
+ TOT4           0.538         0.538         0.538         0.538         0.538
+ TOT5           0.453         0.453         0.453         0.453         0.453
+ TOT6           0.429         0.429         0.429         0.429         0.429
+ TOT7           0.350         0.350         0.350         0.350         0.350
+
+
+           Covariance Coverage
+              PHY2          PHY3          PHY4          PHY5          PHY6
+              ________      ________      ________      ________      ________
+ PHY2           0.607
+ PHY3           0.396         0.514
+ PHY4           0.414         0.375         0.538
+ PHY5           0.344         0.329         0.372         0.453
+ PHY6           0.332         0.317         0.363         0.323         0.429
+ PHY7           0.275         0.266         0.302         0.275         0.305
+ PSY1           0.607         0.514         0.538         0.453         0.429
+ PSY2           0.607         0.396         0.414         0.344         0.332
+ PSY3           0.396         0.514         0.375         0.329         0.317
+ PSY4           0.414         0.375         0.538         0.372         0.363
+ PSY5           0.344         0.329         0.372         0.453         0.323
+ PSY6           0.332         0.317         0.363         0.323         0.429
+ PSY7           0.275         0.266         0.302         0.275         0.305
+ EXI1           0.607         0.514         0.538         0.453         0.429
+ EXI2           0.607         0.396         0.414         0.344         0.332
+ EXI3           0.396         0.514         0.375         0.329         0.317
+ EXI4           0.414         0.375         0.538         0.372         0.363
+ EXI5           0.344         0.329         0.372         0.453         0.323
+ EXI6           0.332         0.317         0.363         0.323         0.429
+ EXI7           0.275         0.266         0.302         0.275         0.305
+ SOC1           0.607         0.514         0.538         0.453         0.429
+ SOC2           0.607         0.396         0.414         0.344         0.332
+ SOC3           0.396         0.514         0.375         0.329         0.317
+ SOC4           0.414         0.375         0.538         0.372         0.363
+ SOC5           0.344         0.329         0.372         0.453         0.323
+ SOC6           0.332         0.317         0.363         0.323         0.429
+ SOC7           0.275         0.266         0.302         0.275         0.305
+ BUR1           0.607         0.514         0.538         0.453         0.429
+ BUR2           0.607         0.396         0.414         0.344         0.332
+ BUR3           0.396         0.514         0.375         0.329         0.317
+ BUR4           0.414         0.375         0.538         0.372         0.363
+ BUR5           0.344         0.329         0.372         0.453         0.323
+ BUR6           0.332         0.317         0.363         0.323         0.429
+ BUR7           0.275         0.266         0.302         0.275         0.305
+ ENV1           0.607         0.514         0.538         0.453         0.429
+ ENV2           0.607         0.396         0.414         0.344         0.332
+ ENV3           0.396         0.514         0.375         0.329         0.317
+ ENV4           0.414         0.375         0.538         0.372         0.363
+ ENV5           0.344         0.329         0.372         0.453         0.323
+ ENV6           0.332         0.317         0.363         0.323         0.429
+ ENV7           0.275         0.266         0.302         0.275         0.305
+ COG1           0.607         0.514         0.538         0.453         0.429
+ COG2           0.607         0.396         0.414         0.344         0.332
+ COG3           0.396         0.514         0.375         0.329         0.317
+ COG4           0.414         0.375         0.538         0.372         0.363
+ COG5           0.344         0.329         0.372         0.453         0.323
+ COG6           0.332         0.317         0.363         0.323         0.429
+ COG7           0.275         0.266         0.302         0.275         0.305
+ QC1            0.607         0.514         0.538         0.453         0.429
+ QC2            0.607         0.396         0.414         0.344         0.332
+ QC3            0.396         0.514         0.375         0.329         0.317
+ QC4            0.414         0.375         0.538         0.372         0.363
+ QC5            0.344         0.329         0.372         0.453         0.323
+ QC6            0.332         0.317         0.363         0.323         0.429
+ QC7            0.275         0.266         0.302         0.275         0.305
+ TOT1           0.607         0.514         0.538         0.453         0.429
+ TOT2           0.607         0.396         0.414         0.344         0.332
+ TOT3           0.396         0.514         0.375         0.329         0.317
+ TOT4           0.414         0.375         0.538         0.372         0.363
+ TOT5           0.344         0.329         0.372         0.453         0.323
+ TOT6           0.332         0.317         0.363         0.323         0.429
+ TOT7           0.275         0.266         0.302         0.275         0.305
+
+
+           Covariance Coverage
+              PHY7          PSY1          PSY2          PSY3          PSY4
+              ________      ________      ________      ________      ________
+ PHY7           0.350
+ PSY1           0.350         1.000
+ PSY2           0.275         0.607         0.607
+ PSY3           0.266         0.514         0.396         0.514
+ PSY4           0.302         0.538         0.414         0.375         0.538
+ PSY5           0.275         0.453         0.344         0.329         0.372
+ PSY6           0.305         0.429         0.332         0.317         0.363
+ PSY7           0.350         0.350         0.275         0.266         0.302
+ EXI1           0.350         1.000         0.607         0.514         0.538
+ EXI2           0.275         0.607         0.607         0.396         0.414
+ EXI3           0.266         0.514         0.396         0.514         0.375
+ EXI4           0.302         0.538         0.414         0.375         0.538
+ EXI5           0.275         0.453         0.344         0.329         0.372
+ EXI6           0.305         0.429         0.332         0.317         0.363
+ EXI7           0.350         0.350         0.275         0.266         0.302
+ SOC1           0.350         1.000         0.607         0.514         0.538
+ SOC2           0.275         0.607         0.607         0.396         0.414
+ SOC3           0.266         0.514         0.396         0.514         0.375
+ SOC4           0.302         0.538         0.414         0.375         0.538
+ SOC5           0.275         0.453         0.344         0.329         0.372
+ SOC6           0.305         0.429         0.332         0.317         0.363
+ SOC7           0.350         0.350         0.275         0.266         0.302
+ BUR1           0.350         1.000         0.607         0.514         0.538
+ BUR2           0.275         0.607         0.607         0.396         0.414
+ BUR3           0.266         0.514         0.396         0.514         0.375
+ BUR4           0.302         0.538         0.414         0.375         0.538
+ BUR5           0.275         0.453         0.344         0.329         0.372
+ BUR6           0.305         0.429         0.332         0.317         0.363
+ BUR7           0.350         0.350         0.275         0.266         0.302
+ ENV1           0.350         1.000         0.607         0.514         0.538
+ ENV2           0.275         0.607         0.607         0.396         0.414
+ ENV3           0.266         0.514         0.396         0.514         0.375
+ ENV4           0.302         0.538         0.414         0.375         0.538
+ ENV5           0.275         0.453         0.344         0.329         0.372
+ ENV6           0.305         0.429         0.332         0.317         0.363
+ ENV7           0.350         0.350         0.275         0.266         0.302
+ COG1           0.350         1.000         0.607         0.514         0.538
+ COG2           0.275         0.607         0.607         0.396         0.414
+ COG3           0.266         0.514         0.396         0.514         0.375
+ COG4           0.302         0.538         0.414         0.375         0.538
+ COG5           0.275         0.453         0.344         0.329         0.372
+ COG6           0.305         0.429         0.332         0.317         0.363
+ COG7           0.350         0.350         0.275         0.266         0.302
+ QC1            0.350         1.000         0.607         0.514         0.538
+ QC2            0.275         0.607         0.607         0.396         0.414
+ QC3            0.266         0.514         0.396         0.514         0.375
+ QC4            0.302         0.538         0.414         0.375         0.538
+ QC5            0.275         0.453         0.344         0.329         0.372
+ QC6            0.305         0.429         0.332         0.317         0.363
+ QC7            0.350         0.350         0.275         0.266         0.302
+ TOT1           0.350         1.000         0.607         0.514         0.538
+ TOT2           0.275         0.607         0.607         0.396         0.414
+ TOT3           0.266         0.514         0.396         0.514         0.375
+ TOT4           0.302         0.538         0.414         0.375         0.538
+ TOT5           0.275         0.453         0.344         0.329         0.372
+ TOT6           0.305         0.429         0.332         0.317         0.363
+ TOT7           0.350         0.350         0.275         0.266         0.302
+
+
+           Covariance Coverage
+              PSY5          PSY6          PSY7          EXI1          EXI2
+              ________      ________      ________      ________      ________
+ PSY5           0.453
+ PSY6           0.323         0.429
+ PSY7           0.275         0.305         0.350
+ EXI1           0.453         0.429         0.350         1.000
+ EXI2           0.344         0.332         0.275         0.607         0.607
+ EXI3           0.329         0.317         0.266         0.514         0.396
+ EXI4           0.372         0.363         0.302         0.538         0.414
+ EXI5           0.453         0.323         0.275         0.453         0.344
+ EXI6           0.323         0.429         0.305         0.429         0.332
+ EXI7           0.275         0.305         0.350         0.350         0.275
+ SOC1           0.453         0.429         0.350         1.000         0.607
+ SOC2           0.344         0.332         0.275         0.607         0.607
+ SOC3           0.329         0.317         0.266         0.514         0.396
+ SOC4           0.372         0.363         0.302         0.538         0.414
+ SOC5           0.453         0.323         0.275         0.453         0.344
+ SOC6           0.323         0.429         0.305         0.429         0.332
+ SOC7           0.275         0.305         0.350         0.350         0.275
+ BUR1           0.453         0.429         0.350         1.000         0.607
+ BUR2           0.344         0.332         0.275         0.607         0.607
+ BUR3           0.329         0.317         0.266         0.514         0.396
+ BUR4           0.372         0.363         0.302         0.538         0.414
+ BUR5           0.453         0.323         0.275         0.453         0.344
+ BUR6           0.323         0.429         0.305         0.429         0.332
+ BUR7           0.275         0.305         0.350         0.350         0.275
+ ENV1           0.453         0.429         0.350         1.000         0.607
+ ENV2           0.344         0.332         0.275         0.607         0.607
+ ENV3           0.329         0.317         0.266         0.514         0.396
+ ENV4           0.372         0.363         0.302         0.538         0.414
+ ENV5           0.453         0.323         0.275         0.453         0.344
+ ENV6           0.323         0.429         0.305         0.429         0.332
+ ENV7           0.275         0.305         0.350         0.350         0.275
+ COG1           0.453         0.429         0.350         1.000         0.607
+ COG2           0.344         0.332         0.275         0.607         0.607
+ COG3           0.329         0.317         0.266         0.514         0.396
+ COG4           0.372         0.363         0.302         0.538         0.414
+ COG5           0.453         0.323         0.275         0.453         0.344
+ COG6           0.323         0.429         0.305         0.429         0.332
+ COG7           0.275         0.305         0.350         0.350         0.275
+ QC1            0.453         0.429         0.350         1.000         0.607
+ QC2            0.344         0.332         0.275         0.607         0.607
+ QC3            0.329         0.317         0.266         0.514         0.396
+ QC4            0.372         0.363         0.302         0.538         0.414
+ QC5            0.453         0.323         0.275         0.453         0.344
+ QC6            0.323         0.429         0.305         0.429         0.332
+ QC7            0.275         0.305         0.350         0.350         0.275
+ TOT1           0.453         0.429         0.350         1.000         0.607
+ TOT2           0.344         0.332         0.275         0.607         0.607
+ TOT3           0.329         0.317         0.266         0.514         0.396
+ TOT4           0.372         0.363         0.302         0.538         0.414
+ TOT5           0.453         0.323         0.275         0.453         0.344
+ TOT6           0.323         0.429         0.305         0.429         0.332
+ TOT7           0.275         0.305         0.350         0.350         0.275
+
+
+           Covariance Coverage
+              EXI3          EXI4          EXI5          EXI6          EXI7
+              ________      ________      ________      ________      ________
+ EXI3           0.514
+ EXI4           0.375         0.538
+ EXI5           0.329         0.372         0.453
+ EXI6           0.317         0.363         0.323         0.429
+ EXI7           0.266         0.302         0.275         0.305         0.350
+ SOC1           0.514         0.538         0.453         0.429         0.350
+ SOC2           0.396         0.414         0.344         0.332         0.275
+ SOC3           0.514         0.375         0.329         0.317         0.266
+ SOC4           0.375         0.538         0.372         0.363         0.302
+ SOC5           0.329         0.372         0.453         0.323         0.275
+ SOC6           0.317         0.363         0.323         0.429         0.305
+ SOC7           0.266         0.302         0.275         0.305         0.350
+ BUR1           0.514         0.538         0.453         0.429         0.350
+ BUR2           0.396         0.414         0.344         0.332         0.275
+ BUR3           0.514         0.375         0.329         0.317         0.266
+ BUR4           0.375         0.538         0.372         0.363         0.302
+ BUR5           0.329         0.372         0.453         0.323         0.275
+ BUR6           0.317         0.363         0.323         0.429         0.305
+ BUR7           0.266         0.302         0.275         0.305         0.350
+ ENV1           0.514         0.538         0.453         0.429         0.350
+ ENV2           0.396         0.414         0.344         0.332         0.275
+ ENV3           0.514         0.375         0.329         0.317         0.266
+ ENV4           0.375         0.538         0.372         0.363         0.302
+ ENV5           0.329         0.372         0.453         0.323         0.275
+ ENV6           0.317         0.363         0.323         0.429         0.305
+ ENV7           0.266         0.302         0.275         0.305         0.350
+ COG1           0.514         0.538         0.453         0.429         0.350
+ COG2           0.396         0.414         0.344         0.332         0.275
+ COG3           0.514         0.375         0.329         0.317         0.266
+ COG4           0.375         0.538         0.372         0.363         0.302
+ COG5           0.329         0.372         0.453         0.323         0.275
+ COG6           0.317         0.363         0.323         0.429         0.305
+ COG7           0.266         0.302         0.275         0.305         0.350
+ QC1            0.514         0.538         0.453         0.429         0.350
+ QC2            0.396         0.414         0.344         0.332         0.275
+ QC3            0.514         0.375         0.329         0.317         0.266
+ QC4            0.375         0.538         0.372         0.363         0.302
+ QC5            0.329         0.372         0.453         0.323         0.275
+ QC6            0.317         0.363         0.323         0.429         0.305
+ QC7            0.266         0.302         0.275         0.305         0.350
+ TOT1           0.514         0.538         0.453         0.429         0.350
+ TOT2           0.396         0.414         0.344         0.332         0.275
+ TOT3           0.514         0.375         0.329         0.317         0.266
+ TOT4           0.375         0.538         0.372         0.363         0.302
+ TOT5           0.329         0.372         0.453         0.323         0.275
+ TOT6           0.317         0.363         0.323         0.429         0.305
+ TOT7           0.266         0.302         0.275         0.305         0.350
+
+
+           Covariance Coverage
+              SOC1          SOC2          SOC3          SOC4          SOC5
+              ________      ________      ________      ________      ________
+ SOC1           1.000
+ SOC2           0.607         0.607
+ SOC3           0.514         0.396         0.514
+ SOC4           0.538         0.414         0.375         0.538
+ SOC5           0.453         0.344         0.329         0.372         0.453
+ SOC6           0.429         0.332         0.317         0.363         0.323
+ SOC7           0.350         0.275         0.266         0.302         0.275
+ BUR1           1.000         0.607         0.514         0.538         0.453
+ BUR2           0.607         0.607         0.396         0.414         0.344
+ BUR3           0.514         0.396         0.514         0.375         0.329
+ BUR4           0.538         0.414         0.375         0.538         0.372
+ BUR5           0.453         0.344         0.329         0.372         0.453
+ BUR6           0.429         0.332         0.317         0.363         0.323
+ BUR7           0.350         0.275         0.266         0.302         0.275
+ ENV1           1.000         0.607         0.514         0.538         0.453
+ ENV2           0.607         0.607         0.396         0.414         0.344
+ ENV3           0.514         0.396         0.514         0.375         0.329
+ ENV4           0.538         0.414         0.375         0.538         0.372
+ ENV5           0.453         0.344         0.329         0.372         0.453
+ ENV6           0.429         0.332         0.317         0.363         0.323
+ ENV7           0.350         0.275         0.266         0.302         0.275
+ COG1           1.000         0.607         0.514         0.538         0.453
+ COG2           0.607         0.607         0.396         0.414         0.344
+ COG3           0.514         0.396         0.514         0.375         0.329
+ COG4           0.538         0.414         0.375         0.538         0.372
+ COG5           0.453         0.344         0.329         0.372         0.453
+ COG6           0.429         0.332         0.317         0.363         0.323
+ COG7           0.350         0.275         0.266         0.302         0.275
+ QC1            1.000         0.607         0.514         0.538         0.453
+ QC2            0.607         0.607         0.396         0.414         0.344
+ QC3            0.514         0.396         0.514         0.375         0.329
+ QC4            0.538         0.414         0.375         0.538         0.372
+ QC5            0.453         0.344         0.329         0.372         0.453
+ QC6            0.429         0.332         0.317         0.363         0.323
+ QC7            0.350         0.275         0.266         0.302         0.275
+ TOT1           1.000         0.607         0.514         0.538         0.453
+ TOT2           0.607         0.607         0.396         0.414         0.344
+ TOT3           0.514         0.396         0.514         0.375         0.329
+ TOT4           0.538         0.414         0.375         0.538         0.372
+ TOT5           0.453         0.344         0.329         0.372         0.453
+ TOT6           0.429         0.332         0.317         0.363         0.323
+ TOT7           0.350         0.275         0.266         0.302         0.275
+
+
+           Covariance Coverage
+              SOC6          SOC7          BUR1          BUR2          BUR3
+              ________      ________      ________      ________      ________
+ SOC6           0.429
+ SOC7           0.305         0.350
+ BUR1           0.429         0.350         1.000
+ BUR2           0.332         0.275         0.607         0.607
+ BUR3           0.317         0.266         0.514         0.396         0.514
+ BUR4           0.363         0.302         0.538         0.414         0.375
+ BUR5           0.323         0.275         0.453         0.344         0.329
+ BUR6           0.429         0.305         0.429         0.332         0.317
+ BUR7           0.305         0.350         0.350         0.275         0.266
+ ENV1           0.429         0.350         1.000         0.607         0.514
+ ENV2           0.332         0.275         0.607         0.607         0.396
+ ENV3           0.317         0.266         0.514         0.396         0.514
+ ENV4           0.363         0.302         0.538         0.414         0.375
+ ENV5           0.323         0.275         0.453         0.344         0.329
+ ENV6           0.429         0.305         0.429         0.332         0.317
+ ENV7           0.305         0.350         0.350         0.275         0.266
+ COG1           0.429         0.350         1.000         0.607         0.514
+ COG2           0.332         0.275         0.607         0.607         0.396
+ COG3           0.317         0.266         0.514         0.396         0.514
+ COG4           0.363         0.302         0.538         0.414         0.375
+ COG5           0.323         0.275         0.453         0.344         0.329
+ COG6           0.429         0.305         0.429         0.332         0.317
+ COG7           0.305         0.350         0.350         0.275         0.266
+ QC1            0.429         0.350         1.000         0.607         0.514
+ QC2            0.332         0.275         0.607         0.607         0.396
+ QC3            0.317         0.266         0.514         0.396         0.514
+ QC4            0.363         0.302         0.538         0.414         0.375
+ QC5            0.323         0.275         0.453         0.344         0.329
+ QC6            0.429         0.305         0.429         0.332         0.317
+ QC7            0.305         0.350         0.350         0.275         0.266
+ TOT1           0.429         0.350         1.000         0.607         0.514
+ TOT2           0.332         0.275         0.607         0.607         0.396
+ TOT3           0.317         0.266         0.514         0.396         0.514
+ TOT4           0.363         0.302         0.538         0.414         0.375
+ TOT5           0.323         0.275         0.453         0.344         0.329
+ TOT6           0.429         0.305         0.429         0.332         0.317
+ TOT7           0.305         0.350         0.350         0.275         0.266
+
+
+           Covariance Coverage
+              BUR4          BUR5          BUR6          BUR7          ENV1
+              ________      ________      ________      ________      ________
+ BUR4           0.538
+ BUR5           0.372         0.453
+ BUR6           0.363         0.323         0.429
+ BUR7           0.302         0.275         0.305         0.350
+ ENV1           0.538         0.453         0.429         0.350         1.000
+ ENV2           0.414         0.344         0.332         0.275         0.607
+ ENV3           0.375         0.329         0.317         0.266         0.514
+ ENV4           0.538         0.372         0.363         0.302         0.538
+ ENV5           0.372         0.453         0.323         0.275         0.453
+ ENV6           0.363         0.323         0.429         0.305         0.429
+ ENV7           0.302         0.275         0.305         0.350         0.350
+ COG1           0.538         0.453         0.429         0.350         1.000
+ COG2           0.414         0.344         0.332         0.275         0.607
+ COG3           0.375         0.329         0.317         0.266         0.514
+ COG4           0.538         0.372         0.363         0.302         0.538
+ COG5           0.372         0.453         0.323         0.275         0.453
+ COG6           0.363         0.323         0.429         0.305         0.429
+ COG7           0.302         0.275         0.305         0.350         0.350
+ QC1            0.538         0.453         0.429         0.350         1.000
+ QC2            0.414         0.344         0.332         0.275         0.607
+ QC3            0.375         0.329         0.317         0.266         0.514
+ QC4            0.538         0.372         0.363         0.302         0.538
+ QC5            0.372         0.453         0.323         0.275         0.453
+ QC6            0.363         0.323         0.429         0.305         0.429
+ QC7            0.302         0.275         0.305         0.350         0.350
+ TOT1           0.538         0.453         0.429         0.350         1.000
+ TOT2           0.414         0.344         0.332         0.275         0.607
+ TOT3           0.375         0.329         0.317         0.266         0.514
+ TOT4           0.538         0.372         0.363         0.302         0.538
+ TOT5           0.372         0.453         0.323         0.275         0.453
+ TOT6           0.363         0.323         0.429         0.305         0.429
+ TOT7           0.302         0.275         0.305         0.350         0.350
+
+
+           Covariance Coverage
+              ENV2          ENV3          ENV4          ENV5          ENV6
+              ________      ________      ________      ________      ________
+ ENV2           0.607
+ ENV3           0.396         0.514
+ ENV4           0.414         0.375         0.538
+ ENV5           0.344         0.329         0.372         0.453
+ ENV6           0.332         0.317         0.363         0.323         0.429
+ ENV7           0.275         0.266         0.302         0.275         0.305
+ COG1           0.607         0.514         0.538         0.453         0.429
+ COG2           0.607         0.396         0.414         0.344         0.332
+ COG3           0.396         0.514         0.375         0.329         0.317
+ COG4           0.414         0.375         0.538         0.372         0.363
+ COG5           0.344         0.329         0.372         0.453         0.323
+ COG6           0.332         0.317         0.363         0.323         0.429
+ COG7           0.275         0.266         0.302         0.275         0.305
+ QC1            0.607         0.514         0.538         0.453         0.429
+ QC2            0.607         0.396         0.414         0.344         0.332
+ QC3            0.396         0.514         0.375         0.329         0.317
+ QC4            0.414         0.375         0.538         0.372         0.363
+ QC5            0.344         0.329         0.372         0.453         0.323
+ QC6            0.332         0.317         0.363         0.323         0.429
+ QC7            0.275         0.266         0.302         0.275         0.305
+ TOT1           0.607         0.514         0.538         0.453         0.429
+ TOT2           0.607         0.396         0.414         0.344         0.332
+ TOT3           0.396         0.514         0.375         0.329         0.317
+ TOT4           0.414         0.375         0.538         0.372         0.363
+ TOT5           0.344         0.329         0.372         0.453         0.323
+ TOT6           0.332         0.317         0.363         0.323         0.429
+ TOT7           0.275         0.266         0.302         0.275         0.305
+
+
+           Covariance Coverage
+              ENV7          COG1          COG2          COG3          COG4
+              ________      ________      ________      ________      ________
+ ENV7           0.350
+ COG1           0.350         1.000
+ COG2           0.275         0.607         0.607
+ COG3           0.266         0.514         0.396         0.514
+ COG4           0.302         0.538         0.414         0.375         0.538
+ COG5           0.275         0.453         0.344         0.329         0.372
+ COG6           0.305         0.429         0.332         0.317         0.363
+ COG7           0.350         0.350         0.275         0.266         0.302
+ QC1            0.350         1.000         0.607         0.514         0.538
+ QC2            0.275         0.607         0.607         0.396         0.414
+ QC3            0.266         0.514         0.396         0.514         0.375
+ QC4            0.302         0.538         0.414         0.375         0.538
+ QC5            0.275         0.453         0.344         0.329         0.372
+ QC6            0.305         0.429         0.332         0.317         0.363
+ QC7            0.350         0.350         0.275         0.266         0.302
+ TOT1           0.350         1.000         0.607         0.514         0.538
+ TOT2           0.275         0.607         0.607         0.396         0.414
+ TOT3           0.266         0.514         0.396         0.514         0.375
+ TOT4           0.302         0.538         0.414         0.375         0.538
+ TOT5           0.275         0.453         0.344         0.329         0.372
+ TOT6           0.305         0.429         0.332         0.317         0.363
+ TOT7           0.350         0.350         0.275         0.266         0.302
+
+
+           Covariance Coverage
+              COG5          COG6          COG7          QC1           QC2
+              ________      ________      ________      ________      ________
+ COG5           0.453
+ COG6           0.323         0.429
+ COG7           0.275         0.305         0.350
+ QC1            0.453         0.429         0.350         1.000
+ QC2            0.344         0.332         0.275         0.607         0.607
+ QC3            0.329         0.317         0.266         0.514         0.396
+ QC4            0.372         0.363         0.302         0.538         0.414
+ QC5            0.453         0.323         0.275         0.453         0.344
+ QC6            0.323         0.429         0.305         0.429         0.332
+ QC7            0.275         0.305         0.350         0.350         0.275
+ TOT1           0.453         0.429         0.350         1.000         0.607
+ TOT2           0.344         0.332         0.275         0.607         0.607
+ TOT3           0.329         0.317         0.266         0.514         0.396
+ TOT4           0.372         0.363         0.302         0.538         0.414
+ TOT5           0.453         0.323         0.275         0.453         0.344
+ TOT6           0.323         0.429         0.305         0.429         0.332
+ TOT7           0.275         0.305         0.350         0.350         0.275
+
+
+           Covariance Coverage
+              QC3           QC4           QC5           QC6           QC7
+              ________      ________      ________      ________      ________
+ QC3            0.514
+ QC4            0.375         0.538
+ QC5            0.329         0.372         0.453
+ QC6            0.317         0.363         0.323         0.429
+ QC7            0.266         0.302         0.275         0.305         0.350
+ TOT1           0.514         0.538         0.453         0.429         0.350
+ TOT2           0.396         0.414         0.344         0.332         0.275
+ TOT3           0.514         0.375         0.329         0.317         0.266
+ TOT4           0.375         0.538         0.372         0.363         0.302
+ TOT5           0.329         0.372         0.453         0.323         0.275
+ TOT6           0.317         0.363         0.323         0.429         0.305
+ TOT7           0.266         0.302         0.275         0.305         0.350
+
+
+           Covariance Coverage
+              TOT1          TOT2          TOT3          TOT4          TOT5
+              ________      ________      ________      ________      ________
+ TOT1           1.000
+ TOT2           0.607         0.607
+ TOT3           0.514         0.396         0.514
+ TOT4           0.538         0.414         0.375         0.538
+ TOT5           0.453         0.344         0.329         0.372         0.453
+ TOT6           0.429         0.332         0.317         0.363         0.323
+ TOT7           0.350         0.275         0.266         0.302         0.275
+
+
+           Covariance Coverage
+              TOT6          TOT7
+              ________      ________
+ TOT6           0.429
+ TOT7           0.305         0.350
+
+
+
+RESULTS FOR BASIC ANALYSIS
+
+NOTE:  These are average results over 10 data sets.
+
+
+     ESTIMATED SAMPLE STATISTICS
+
+
+           Means
+              SITE          GROUP         DAYSSIN3      P_FOLLOW      PHY1
+              ________      ________      ________      ________      ________
+                3.160         0.498       170.278         1.305         5.128
+
+
+           Means
+              PHY2          PHY3          PHY4          PHY5          PHY6
+              ________      ________      ________      ________      ________
+                5.151         4.953         5.289         5.093         4.936
+
+
+           Means
+              PHY7          PSY1          PSY2          PSY3          PSY4
+              ________      ________      ________      ________      ________
+                5.005         7.305         7.122         6.976         6.628
+
+
+           Means
+              PSY5          PSY6          PSY7          EXI1          EXI2
+              ________      ________      ________      ________      ________
+                6.953         6.929         6.453         6.698         6.277
+
+
+           Means
+              EXI3          EXI4          EXI5          EXI6          EXI7
+              ________      ________      ________      ________      ________
+                6.237         6.130         5.984         6.121         6.283
+
+
+           Means
+              SOC1          SOC2          SOC3          SOC4          SOC5
+              ________      ________      ________      ________      ________
+                7.659         7.327         7.227         7.003         7.234
+
+
+           Means
+              SOC6          SOC7          BUR1          BUR2          BUR3
+              ________      ________      ________      ________      ________
+                7.266         7.085         5.192         5.048         5.161
+
+
+           Means
+              BUR4          BUR5          BUR6          BUR7          ENV1
+              ________      ________      ________      ________      ________
+                5.147         5.171         5.846         5.513         8.151
+
+
+           Means
+              ENV2          ENV3          ENV4          ENV5          ENV6
+              ________      ________      ________      ________      ________
+                7.670         7.184         7.434         7.494         7.111
+
+
+           Means
+              ENV7          COG1          COG2          COG3          COG4
+              ________      ________      ________      ________      ________
+                7.463         7.596         7.256         7.236         7.179
+
+
+           Means
+              COG5          COG6          COG7          QC1           QC2
+              ________      ________      ________      ________      ________
+                6.991         7.276         7.343         7.677         7.569
+
+
+           Means
+              QC3           QC4           QC5           QC6           QC7
+              ________      ________      ________      ________      ________
+                7.408         7.483         7.167         7.374         7.599
+
+
+           Means
+              TOT1          TOT2          TOT3          TOT4          TOT5
+              ________      ________      ________      ________      ________
+                6.926         6.677         6.548         6.537         6.511
+
+
+           Means
+              TOT6          TOT7
+              ________      ________
+                6.607         6.593
+
+
+           Covariances
+              SITE          GROUP         DAYSSIN3      P_FOLLOW      PHY1
+              ________      ________      ________      ________      ________
+ SITE           3.959
+ GROUP          0.017         0.250
+ DAYSSIN3     107.536         0.614      8755.319
+ P_FOLLOW      -0.176        -0.077        -1.203         1.813
+ PHY1           0.811        -0.019        17.513        -0.013         5.997
+ PHY2           0.733        -0.100         1.934         0.015         3.098
+ PHY3           0.536         0.039        10.628        -0.452         1.916
+ PHY4           0.916         0.007        14.296        -0.213         2.504
+ PHY5           1.445         0.007        51.917        -0.274         3.250
+ PHY6           1.053         0.041        20.161        -0.424         3.270
+ PHY7           0.468        -0.004        13.121        -0.096         2.855
+ PSY1           0.177         0.032        10.624        -0.069         2.742
+ PSY2           0.070        -0.022       -14.083        -0.287         2.092
+ PSY3          -0.510        -0.011       -34.376        -0.139         1.810
+ PSY4          -0.104         0.074         2.327        -0.392         2.350
+ PSY5           0.461         0.039        16.755        -0.450         2.479
+ PSY6           0.216         0.073        17.924        -0.021         2.656
+ PSY7           0.332         0.076         7.851        -0.472         3.106
+ EXI1           0.154         0.043        -0.253        -0.072         2.674
+ EXI2          -0.048         0.016       -19.984        -0.182         1.979
+ EXI3           0.193        -0.110         0.087        -0.015         2.017
+ EXI4           0.239         0.043         5.845        -0.293         1.868
+ EXI5           0.486         0.040        32.050        -0.288         2.758
+ EXI6           0.132         0.103         1.143        -0.306         2.396
+ EXI7          -0.103        -0.001        -2.003        -0.136         2.341
+ SOC1          -0.007        -0.017         5.053        -0.059         1.378
+ SOC2           0.369        -0.014         0.221        -0.138         1.583
+ SOC3           0.108        -0.137       -10.868         0.226         1.345
+ SOC4           0.323        -0.097        33.115        -0.271         1.352
+ SOC5           0.121        -0.001         7.884        -0.269         2.236
+ SOC6          -0.146        -0.076       -14.626         0.103         1.581
+ SOC7           0.471        -0.150        33.897        -0.220         1.913
+ BUR1           0.704         0.106        20.525        -0.208         3.117
+ BUR2           0.013         0.004       -12.046        -0.260         2.027
+ BUR3           0.955        -0.098       -11.493        -0.659         0.774
+ BUR4          -0.555         0.238       -44.368        -0.551         2.425
+ BUR5           1.354         0.119        29.369        -0.455         1.987
+ BUR6           0.564        -0.026        15.330         0.179         2.562
+ BUR7           0.645         0.060        34.413         0.009         3.717
+ ENV1          -0.102        -0.061         4.513        -0.172         1.478
+ ENV2           0.406         0.010        -4.276        -0.257         1.392
+ ENV3          -0.202         0.020        -4.280        -0.298         1.285
+ ENV4           0.493         0.042        24.329        -0.636         1.711
+ ENV5           0.106         0.022       -14.381        -0.285         1.308
+ ENV6           0.439         0.034        12.308        -0.524         1.779
+ ENV7           0.943        -0.129        28.289        -0.291         1.483
+ COG1          -0.121        -0.067       -11.983        -0.065         1.436
+ COG2           0.114         0.066         0.731        -0.216         1.233
+ COG3          -0.229         0.025        -9.755        -0.039         0.947
+ COG4           0.318        -0.019        12.442        -0.267         0.761
+ COG5           0.173         0.005         5.650        -0.272         1.602
+ COG6           0.072         0.060         1.474        -0.029         2.015
+ COG7          -0.240         0.052        -1.130        -0.128         1.166
+ QC1           -0.070        -0.033        -3.198        -0.309         1.759
+ QC2            0.081        -0.068        16.763        -0.064         0.598
+ QC3           -0.040        -0.256       -26.448         0.021         0.752
+ QC4            0.268         0.059        10.578        -0.117         0.788
+ QC5            0.425         0.074        19.441        -0.151         2.285
+ QC6            0.442        -0.029         8.251        -0.101         1.651
+ QC7            0.330         0.050        26.230         0.055         1.797
+ TOT1           0.193        -0.002         5.350        -0.121         2.573
+ TOT2           0.217        -0.014        -3.843        -0.174         1.750
+ TOT3           0.101        -0.066       -10.814        -0.170         1.356
+ TOT4           0.237         0.043         7.323        -0.343         1.720
+ TOT5           0.571         0.038        18.584        -0.306         2.238
+ TOT6           0.346         0.023         7.748        -0.140         2.239
+ TOT7           0.356        -0.006        17.578        -0.160         2.297
+
+
+           Covariances
+              PHY2          PHY3          PHY4          PHY5          PHY6
+              ________      ________      ________      ________      ________
+ PHY2           5.211
+ PHY3           2.369         5.185
+ PHY4           2.427         2.288         5.545
+ PHY5           2.424         2.849         3.396         5.858
+ PHY6           3.097         2.671         2.635         3.567         5.825
+ PHY7           3.027         2.893         2.305         2.988         3.222
+ PSY1           1.621         1.315         2.102         2.085         2.409
+ PSY2           2.753         1.136         1.797         1.166         2.289
+ PSY3           2.296         2.493         2.158         1.709         2.326
+ PSY4           1.835         1.417         3.417         2.118         2.128
+ PSY5           1.371         0.940         2.589         2.795         2.069
+ PSY6           2.040         1.780         2.515         2.616         2.940
+ PSY7           2.365         1.980         2.026         1.868         2.987
+ EXI1           1.541         1.457         1.685         1.575         2.057
+ EXI2           2.461         1.265         1.904         1.023         2.362
+ EXI3           1.748         1.550         1.637         1.862         1.771
+ EXI4           1.597         1.551         2.857         2.065         2.073
+ EXI5           1.913         1.600         2.556         3.209         2.609
+ EXI6           2.199         1.239         1.942         2.402         2.892
+ EXI7           1.742         1.577         2.221         1.984         2.388
+ SOC1           1.288         0.947         1.044         0.655         1.503
+ SOC2           1.423         0.703         1.103         0.869         1.582
+ SOC3           1.277         0.720         1.815         0.816         1.051
+ SOC4           1.308         1.577         2.125         1.328         1.498
+ SOC5           1.604         0.672         1.704         1.290         1.305
+ SOC6           1.526        -0.293         1.925         1.382         1.976
+ SOC7           1.452         1.378         2.336         1.882         1.903
+ BUR1           2.290         1.769         1.734         2.181         2.570
+ BUR2           2.523         0.899         2.063         1.453         2.243
+ BUR3           2.021         2.470         2.461         2.169         2.300
+ BUR4           1.508         1.119         2.982         1.377         1.789
+ BUR5           1.124         0.787         2.460         3.494         2.504
+ BUR6           1.893         1.355         1.790         3.316         2.818
+ BUR7           1.596         0.589         1.610         2.809         2.565
+ ENV1           0.838         1.466         0.975         1.064         1.127
+ ENV2           1.765         0.888         0.634         1.685         2.444
+ ENV3           0.826         1.582         0.777         0.779         1.819
+ ENV4           0.993         1.597         1.341         1.487         1.386
+ ENV5           1.632         1.276         1.622         1.572         1.728
+ ENV6           1.156         1.103         0.613         1.382         1.971
+ ENV7           1.560         1.413         1.296         1.705         1.660
+ COG1           0.985         0.668         0.893         0.902         1.668
+ COG2           1.350         0.712         1.116         1.135         0.955
+ COG3           1.323         0.960         1.036         0.968         1.251
+ COG4           1.015         1.222         1.137         1.271         1.579
+ COG5           0.966         0.957         1.297         1.784         1.828
+ COG6           1.715         0.866         1.409         2.002         2.258
+ COG7           1.552         1.486         0.813         1.616         1.369
+ QC1            1.243         1.747         1.362         1.597         1.207
+ QC2            1.689         0.530         0.592         0.519         0.616
+ QC3            1.451         1.025         1.195         0.320         0.895
+ QC4            1.499         0.339         1.496         0.702         1.075
+ QC5            1.537         1.205         1.354         1.906         1.414
+ QC6            1.716         1.037         1.778         2.093         1.572
+ QC7            2.622         1.542         1.402         1.977         2.569
+ TOT1           1.613         1.411         1.538         1.664         1.976
+ TOT2           2.397         1.063         1.454         1.284         1.948
+ TOT3           1.664         1.998         1.671         1.434         1.761
+ TOT4           1.523         1.389         2.613         1.718         1.770
+ TOT5           1.571         1.286         2.122         2.739         2.128
+ TOT6           1.918         1.220         1.826         2.345         2.782
+ TOT7           1.990         1.607         1.751         2.104         2.333
+
+
+           Covariances
+              PHY7          PSY1          PSY2          PSY3          PSY4
+              ________      ________      ________      ________      ________
+ PHY7           6.540
+ PSY1           1.756         5.518
+ PSY2           2.538         3.238         5.950
+ PSY3           2.187         2.813         3.643         5.880
+ PSY4           2.069         4.203         4.251         3.692         7.289
+ PSY5           2.272         3.308         3.139         2.836         4.927
+ PSY6           2.537         3.432         3.542         3.546         4.631
+ PSY7           4.081         3.811         3.644         3.729         4.123
+ EXI1           1.755         2.970         1.733         2.083         2.740
+ EXI2           2.044         2.110         3.035         2.519         2.694
+ EXI3           1.988         2.146         2.184         2.779         2.185
+ EXI4           2.030         2.459         2.052         2.262         3.543
+ EXI5           2.235         2.617         1.996         2.204         3.338
+ EXI6           2.183         2.561         2.508         2.614         3.183
+ EXI7           3.071         2.745         2.484         2.711         3.248
+ SOC1           1.362         2.635         1.442         1.875         2.576
+ SOC2           0.763         2.325         1.663         1.669         2.317
+ SOC3           1.642         1.908         1.601         2.197         2.653
+ SOC4           1.559         2.588         1.770         2.068         3.324
+ SOC5           2.084         2.739         2.218         1.878         3.482
+ SOC6           1.515         2.407         2.149         1.332         3.306
+ SOC7           2.340         2.163         1.967         2.744         2.772
+ BUR1           2.087         3.086         2.845         2.508         2.402
+ BUR2           2.867         1.429         3.300         2.113         2.730
+ BUR3           2.015         1.113         2.161         2.736         1.266
+ BUR4           1.958         2.704         2.675         2.259         3.642
+ BUR5           2.306         2.440         1.986         1.132         1.818
+ BUR6           2.212         2.731         2.038         2.455         2.140
+ BUR7           4.044         2.091         1.586         1.437         1.228
+ ENV1           2.463         1.837         0.897         1.135         1.715
+ ENV2           2.310         1.288         2.217         1.845         1.129
+ ENV3           1.564         1.194         2.089         2.372         1.660
+ ENV4           1.750         2.094         1.743         1.643         2.508
+ ENV5           2.322         2.051         1.331         1.844         2.318
+ ENV6           2.101         2.144         2.262         1.845         2.580
+ ENV7           2.557         1.274         1.351         1.901         1.558
+ COG1           0.577         2.188         1.491         1.628         2.091
+ COG2           2.091         1.687         1.702         1.630         2.241
+ COG3           1.106         1.169         1.578         2.106         2.151
+ COG4           0.732         2.118         1.434         1.622         2.823
+ COG5           1.501         1.962         1.275         1.925         2.407
+ COG6           1.345         2.201         1.871         2.204         2.640
+ COG7           2.145         1.967         2.119         3.051         2.418
+ QC1            1.449         2.324         1.715         1.468         2.132
+ QC2            0.947         1.022         1.008         0.902         0.873
+ QC3            1.563         0.072         0.787         0.712         0.837
+ QC4            0.934         1.743         1.662         1.281         2.198
+ QC5            0.879         1.840         1.398         1.387         1.420
+ QC6            1.382         1.859         1.306         1.069         2.644
+ QC7            2.960         2.205         1.918         2.450         1.922
+ TOT1           1.788         2.913         1.932         1.915         2.526
+ TOT2           2.074         1.840         2.703         2.077         2.259
+ TOT3           1.870         1.466         1.897         2.659         1.983
+ TOT4           1.667         2.501         2.173         2.123         3.593
+ TOT5           2.073         2.380         1.814         1.864         2.728
+ TOT6           2.062         2.468         2.246         2.174         2.907
+ TOT7           3.467         2.252         2.201         2.526         2.417
+
+
+           Covariances
+              PSY5          PSY6          PSY7          EXI1          EXI2
+              ________      ________      ________      ________      ________
+ PSY5           6.775
+ PSY6           4.377         6.179
+ PSY7           4.218         4.856         9.232
+ EXI1           2.403         2.502         2.436         3.816
+ EXI2           2.000         2.242         3.258         1.919         3.983
+ EXI3           2.387         1.855         2.269         2.268         2.473
+ EXI4           2.784         2.884         2.558         2.302         2.422
+ EXI5           3.609         3.538         2.930         2.646         1.906
+ EXI6           3.171         3.625         3.601         2.524         2.513
+ EXI7           2.822         2.898         5.010         2.393         2.978
+ SOC1           1.404         2.049         2.036         2.602         1.507
+ SOC2           1.444         2.101         3.194         2.183         2.336
+ SOC3           1.412         1.924         2.810         2.008         2.056
+ SOC4           1.761         2.691         3.134         2.154         2.249
+ SOC5           2.966         2.884         4.085         2.637         2.123
+ SOC6           2.661         3.333         3.125         2.265         2.370
+ SOC7           2.470         2.670         5.167         1.880         2.557
+ BUR1           2.829         3.271         2.944         2.776         1.973
+ BUR2           2.504         2.901         2.983         0.965         1.790
+ BUR3           1.003         1.110         1.055         0.998         1.479
+ BUR4           3.312         2.236         2.526         2.602         2.921
+ BUR5           2.991         2.316         2.927         1.737         1.456
+ BUR6           2.415         2.832         2.612         2.112         1.344
+ BUR7           1.900         2.552         4.469         1.241         2.181
+ ENV1           1.333         1.956         2.206         1.873         0.974
+ ENV2           1.052         2.151         1.405         1.401         1.674
+ ENV3           1.091         1.780         2.900         1.073         2.142
+ ENV4           1.837         2.436         2.660         1.708         1.771
+ ENV5           1.645         2.031         2.720         1.566         1.763
+ ENV6           1.998         3.001         4.069         1.888         2.247
+ ENV7           1.679         2.270         3.030         1.018         1.717
+ COG1           2.108         2.364         2.441         1.724         0.927
+ COG2           1.724         2.203         3.008         1.582         1.662
+ COG3           1.577         2.344         2.482         1.016         1.208
+ COG4           1.797         2.384         2.208         1.474         1.114
+ COG5           2.916         2.625         3.081         1.723         1.017
+ COG6           2.650         3.123         2.883         1.885         1.457
+ COG7           2.628         2.817         4.533         1.189         1.482
+ QC1            1.499         2.407         1.490         1.875         1.193
+ QC2            0.915         1.172         1.927         0.722         1.261
+ QC3            0.503         1.852         1.444         0.377         1.410
+ QC4            1.230         2.090         2.145         1.129         1.722
+ QC5            2.107         2.427         2.591         1.700         1.507
+ QC6            2.840         2.599         1.567         1.751         1.495
+ QC7            2.160         3.119         4.371         1.365         2.270
+ TOT1           2.171         2.580         2.559         2.539         1.573
+ TOT2           1.769         2.294         2.723         1.506         2.275
+ TOT3           1.469         2.024         2.334         1.410         1.819
+ TOT4           2.530         2.733         2.672         1.974         2.100
+ TOT5           3.225         2.852         3.053         1.998         1.599
+ TOT6           2.773         3.454         3.213         2.123         2.004
+ TOT7           2.519         2.965         4.987         1.660         2.311
+
+
+           Covariances
+              EXI3          EXI4          EXI5          EXI6          EXI7
+              ________      ________      ________      ________      ________
+ EXI3           4.545
+ EXI4           2.633         4.438
+ EXI5           2.525         3.087         4.524
+ EXI6           2.408         3.091         3.443         4.733
+ EXI7           2.373         2.733         2.607         3.014         5.372
+ SOC1           1.615         1.594         1.830         1.933         1.747
+ SOC2           1.946         2.077         1.786         2.292         2.100
+ SOC3           3.206         2.697         2.103         2.049         1.908
+ SOC4           1.881         2.970         2.314         2.601         2.322
+ SOC5           2.197         2.846         3.201         3.207         2.701
+ SOC6           1.464         2.371         2.955         3.918         2.925
+ SOC7           2.559         2.448         2.116         2.696         4.183
+ BUR1           2.740         2.678         2.960         2.864         2.569
+ BUR2           1.580         1.121         1.814         1.727         2.417
+ BUR3           1.928         1.929         1.820         2.547         1.441
+ BUR4           1.578         3.122         2.507         2.835         3.848
+ BUR5           1.483         2.052         3.137         2.737         2.880
+ BUR6           2.905         2.016         2.885         2.915         3.241
+ BUR7           2.524         1.414         2.246         1.767         2.676
+ ENV1           1.218         1.141         1.716         1.202         1.564
+ ENV2           1.919         0.760         1.961         2.252         0.961
+ ENV3           2.089         0.995         1.175         1.450         1.628
+ ENV4           1.989         2.123         2.255         2.318         2.328
+ ENV5           0.892         1.709         1.989         1.693         2.046
+ ENV6           2.146         1.870         2.297         3.097         2.692
+ ENV7           1.816         1.409         1.747         1.862         2.618
+ COG1           0.703         1.148         1.752         1.771         1.878
+ COG2           1.088         1.416         1.415         1.568         2.580
+ COG3           1.114         1.236         0.900         1.649         1.661
+ COG4           0.999         1.834         1.474         1.924         2.127
+ COG5           1.307         1.582         2.282         2.171         2.639
+ COG6           1.353         1.489         2.431         3.056         2.683
+ COG7           1.728         1.143         1.870         2.471         3.500
+ QC1            0.913         1.563         2.277         1.425         1.264
+ QC2            0.987         0.566         1.442         0.968         1.330
+ QC3            1.097         1.164         1.230         1.581         1.798
+ QC4            0.739         1.683         1.478         1.648         2.325
+ QC5            1.289         1.383         2.386         2.138         1.764
+ QC6            1.263         1.827         2.919         2.289         1.733
+ QC7            1.570         1.566         2.240         2.905         2.831
+ TOT1           1.703         1.844         2.319         2.085         2.063
+ TOT2           1.740         1.501         1.779         2.003         2.074
+ TOT3           2.289         1.809         1.695         1.942         1.887
+ TOT4           1.705         2.821         2.376         2.443         2.644
+ TOT5           1.743         2.189         3.042         2.620         2.430
+ TOT6           1.896         2.203         2.885         3.316         2.697
+ TOT7           2.103         1.913         2.249         2.562         3.658
+
+
+           Covariances
+              SOC1          SOC2          SOC3          SOC4          SOC5
+              ________      ________      ________      ________      ________
+ SOC1           4.917
+ SOC2           2.989         5.375
+ SOC3           2.766         3.762         5.993
+ SOC4           3.123         3.838         3.679         6.250
+ SOC5           3.448         3.905         3.348         4.089         6.236
+ SOC6           2.626         2.793         2.940         2.769         3.631
+ SOC7           2.578         4.101         3.925         4.056         3.631
+ BUR1           1.463         1.721         1.478         1.477         2.563
+ BUR2           0.395         0.440         0.678         0.612         1.392
+ BUR3          -0.119         0.406         1.233         0.665         0.405
+ BUR4           1.282         1.741         1.463         1.274         2.314
+ BUR5           1.109         1.346         1.478         1.324         1.413
+ BUR6           1.357         1.231         0.975         1.120         1.424
+ BUR7           0.689         1.895         2.080         1.616         2.053
+ ENV1           1.840         0.858         0.691         1.273         1.576
+ ENV2           1.737         1.785         1.643         0.770         1.582
+ ENV3           0.873         2.003         2.349         1.853         1.403
+ ENV4           1.598         1.850         1.705         2.275         1.983
+ ENV5           1.180         1.488         1.160         1.604         1.638
+ ENV6           1.650         2.824         2.780         2.658         2.736
+ ENV7           0.899         1.111         1.713         1.697         1.492
+ COG1           1.800         1.330         0.724         1.342         1.713
+ COG2           1.596         1.727         1.483         1.963         1.706
+ COG3           1.371         1.276         1.457         2.290         1.653
+ COG4           1.597         0.751         0.958         2.068         1.199
+ COG5           1.678         1.174         1.317         1.497         2.112
+ COG6           2.159         1.548         0.929         1.409         2.165
+ COG7           1.649         1.311         1.410         1.971         1.810
+ QC1            2.000         1.257         0.812         1.777         1.832
+ QC2            1.547         1.586         1.229         1.159         1.949
+ QC3            0.801         1.564         1.609         2.119         1.955
+ QC4            1.521         1.784         1.355         2.381         2.144
+ QC5            1.861         2.470         1.374         2.327         2.547
+ QC6            1.422         1.654         0.971         1.968         2.348
+ QC7            1.915         2.759         2.001         2.512         3.098
+ TOT1           2.329         1.781         1.466         1.886         2.343
+ TOT2           1.563         2.042         1.716         1.709         2.060
+ TOT3           1.266         1.666         2.346         2.016         1.689
+ TOT4           1.792         1.933         2.041         2.833         2.470
+ TOT5           1.646         1.810         1.626         2.030         2.675
+ TOT6           1.837         2.003         1.702         2.089         2.463
+ TOT7           1.609         2.154         2.186         2.359         2.619
+
+
+           Covariances
+              SOC6          SOC7          BUR1          BUR2          BUR3
+              ________      ________      ________      ________      ________
+ SOC6           6.950
+ SOC7           2.826         7.507
+ BUR1           2.580         1.876        12.839
+ BUR2           1.875         1.794         4.235        11.834
+ BUR3           1.500         0.905         3.344         2.736        10.676
+ BUR4           2.558         2.432         4.191         1.285         4.508
+ BUR5           3.026         2.376         4.060         1.875         3.101
+ BUR6           1.840         2.785         3.607         3.785         3.662
+ BUR7           1.042         2.785         4.410         1.993         2.832
+ ENV1           1.055         0.898         0.462         0.362         0.091
+ ENV2           1.638         1.379         0.593         0.572         1.564
+ ENV3           0.646         2.963         0.156         0.723         0.858
+ ENV4           1.773         2.287         0.949         0.629         1.673
+ ENV5           1.731         1.825         0.228         0.457         1.280
+ ENV6           3.480         3.418         1.797         1.786         2.068
+ ENV7           2.584         3.086         0.037         2.033         1.966
+ COG1           1.897         1.613         1.689         1.643        -0.045
+ COG2           1.472         2.972         0.742         1.949         0.577
+ COG3           1.085         2.277         0.723         1.673         0.593
+ COG4           1.206         1.443         0.859         1.208         0.949
+ COG5           1.560         2.191         1.147         1.596         0.670
+ COG6           3.148         2.368         2.092         2.205         1.367
+ COG7           2.013         3.816         1.787         2.151         1.238
+ QC1            1.164         0.632         1.657         0.181         0.167
+ QC2            1.709         1.634         0.363         0.784         0.310
+ QC3            2.661         2.163        -0.140         0.657         0.254
+ QC4            2.182         2.110         1.077         0.178        -0.217
+ QC5            3.283         2.690         2.315         0.580        -0.084
+ QC6            2.777         1.692         1.347         0.516         0.895
+ QC7            3.197         4.054         1.659         0.611         0.706
+ TOT1           1.947         1.694         3.386         1.405         0.790
+ TOT2           1.941         2.232         1.845         2.899         1.407
+ TOT3           1.417         2.364         1.572         1.382         2.594
+ TOT4           2.261         2.486         1.921         1.228         1.654
+ TOT5           2.529         2.398         2.286         1.459         1.295
+ TOT6           3.428         2.545         2.516         2.130         1.931
+ TOT7           2.403         4.117         2.171         2.106         1.520
+
+
+           Covariances
+              BUR4          BUR5          BUR6          BUR7          ENV1
+              ________      ________      ________      ________      ________
+ BUR4          12.359
+ BUR5           4.319        10.581
+ BUR6           4.069         4.595        11.619
+ BUR7           3.665         3.866         5.697        14.099
+ ENV1           0.686         0.521         0.636         1.222         4.993
+ ENV2           1.091         1.974         1.435         1.590         2.497
+ ENV3           1.912         1.422         0.758         1.743         1.637
+ ENV4           2.024         0.876         1.712         0.530         2.528
+ ENV5           1.037         1.257         0.276         1.413         2.249
+ ENV6           1.860         2.059         1.405         1.347         1.990
+ ENV7           0.091         1.264         1.506         0.901         2.338
+ COG1           0.730         1.168         1.527        -0.124         1.114
+ COG2           1.621         1.843         1.462         1.570         1.275
+ COG3           0.515         0.128         1.549         0.764         0.506
+ COG4           0.985         0.672         1.343        -0.707         0.873
+ COG5           1.573         1.759         2.447         1.176         0.890
+ COG6           1.859         2.511         2.741         1.234         1.200
+ COG7           1.456         2.983         3.210         1.597         0.950
+ QC1            1.486         0.912         1.176         1.321         1.833
+ QC2            0.027        -0.169        -0.226        -0.042         0.674
+ QC3           -0.457        -0.122        -0.340         0.406         0.706
+ QC4            1.550         0.439         0.361         0.491         0.557
+ QC5            0.220         1.591         1.573         1.563         1.107
+ QC6            2.333         1.579         2.296         1.646         1.424
+ QC7            1.842         2.251         2.273         3.097         1.779
+ TOT1           2.013         1.742         1.963         1.821         1.929
+ TOT2           1.609         1.429         1.620         1.546         1.047
+ TOT3           1.612         1.176         1.665         1.547         0.931
+ TOT4           3.492         1.745         1.819         1.231         1.218
+ TOT5           2.082         3.278         2.367         2.128         1.307
+ TOT6           2.442         2.666         3.558         2.231         1.324
+ TOT7           2.227         2.607         2.942         4.208         1.677
+
+
+           Covariances
+              ENV2          ENV3          ENV4          ENV5          ENV6
+              ________      ________      ________      ________      ________
+ ENV2           6.971
+ ENV3           2.880         7.578
+ ENV4           2.073         1.966         5.895
+ ENV5           2.070         2.180         2.915         6.146
+ ENV6           3.377         3.636         3.332         2.858         7.028
+ ENV7           1.941         2.623         3.332         3.067         3.965
+ COG1           0.591         0.738         0.750         0.475         1.225
+ COG2           1.418         1.630         1.705         1.836         2.143
+ COG3           1.004         1.462         0.996         0.662         1.376
+ COG4           0.335         0.389         2.120         0.892         1.190
+ COG5           1.325         1.224         1.704         1.384         1.777
+ COG6           1.861         1.006         1.501         1.129         2.476
+ COG7           0.920         1.271         1.909         1.249         2.438
+ QC1            1.119         0.668         1.705         1.669         1.477
+ QC2            1.266         0.374         1.017         1.540         1.751
+ QC3            0.889         0.736         1.948         1.758         1.780
+ QC4            0.925        -0.448         1.440         1.265         1.011
+ QC5            1.432         0.663         1.032         1.584         2.033
+ QC6            2.128         0.104         1.933         2.263         2.437
+ QC7            2.246         1.940         1.610         2.484         3.173
+ TOT1           1.327         0.953         1.630         1.341         1.744
+ TOT2           2.208         1.583         1.473         1.515         2.193
+ TOT3           1.579         2.378         1.690         1.382         2.092
+ TOT4           0.964         1.138         2.466         1.670         1.889
+ TOT5           1.635         1.242         1.761         2.152         2.143
+ TOT6           2.161         1.400         2.049         1.714         3.112
+ TOT7           1.594         2.079         2.051         2.141         2.900
+
+
+           Covariances
+              ENV7          COG1          COG2          COG3          COG4
+              ________      ________      ________      ________      ________
+ ENV7           7.464
+ COG1           0.272         4.636
+ COG2           1.524         2.776         5.075
+ COG3           1.127         2.334         2.985         4.720
+ COG4           1.344         2.909         2.906         3.251         5.597
+ COG5           1.649         3.206         3.010         3.276         3.205
+ COG6           1.872         3.326         3.197         2.884         3.156
+ COG7           2.229         3.363         3.745         3.770         3.556
+ QC1            1.507         1.381         1.209         0.669         1.312
+ QC2            1.645         0.868         1.451         1.042         0.560
+ QC3            2.679        -0.111         0.126         0.572         0.617
+ QC4            1.335         0.572         1.388         1.077         1.636
+ QC5            2.556         1.495         1.049         1.003         0.666
+ QC6            2.178         0.747         0.986         0.942         1.229
+ QC7            3.433         1.038         1.716         1.148         0.584
+ TOT1           1.104         1.996         1.513         1.092         1.488
+ TOT2           1.610         1.326         2.042         1.511         1.165
+ TOT3           1.905         0.830         1.279         1.623         1.251
+ TOT4           1.508         1.304         1.794         1.569         2.275
+ TOT5           1.895         1.602         1.715         1.271         1.397
+ TOT6           2.237         1.815         1.748         1.635         1.751
+ TOT7           3.165         1.382         2.401         1.792         1.411
+
+
+           Covariances
+              COG5          COG6          COG7          QC1           QC2
+              ________      ________      ________      ________      ________
+ COG5           5.228
+ COG6           3.703         5.379
+ COG7           3.924         4.404         7.376
+ QC1            1.244         1.985         1.181         5.652
+ QC2            0.972         1.475         1.617         1.693         5.304
+ QC3            0.147         0.824         1.037         1.664         1.766
+ QC4            1.090         1.170         1.491         2.023         3.046
+ QC5            1.262         2.467         2.128         2.566         2.777
+ QC6            1.938         2.114         1.475         2.164         2.499
+ QC7            1.257         2.512         3.405         2.193         3.155
+ TOT1           1.681         2.108         1.657         2.310         0.936
+ TOT2           1.417         1.916         1.862         1.201         1.794
+ TOT3           1.353         1.429         1.874         1.014         0.892
+ TOT4           1.794         1.829         1.845         1.670         0.980
+ TOT5           2.341         2.382         2.276         1.700         1.243
+ TOT6           2.256         3.037         2.525         1.626         1.245
+ TOT7           2.177         2.413         3.575         1.380         1.527
+
+
+           Covariances
+              QC3           QC4           QC5           QC6           QC7
+              ________      ________      ________      ________      ________
+ QC3            7.094
+ QC4            2.559         6.065
+ QC5            2.509         2.819         6.918
+ QC6            2.517         2.784         3.376         5.934
+ QC7            2.831         2.780         3.607         3.190         7.491
+ TOT1           0.515         1.176         1.896         1.546         1.744
+ TOT2           1.081         1.526         1.594         1.538         2.162
+ TOT3           1.637         0.836         1.168         1.100         1.773
+ TOT4           1.248         2.306         1.403         2.062         1.777
+ TOT5           1.037         1.396         2.538         2.419         2.384
+ TOT6           1.471         1.540         2.339         2.752         2.867
+ TOT7           1.740         1.701         2.222         1.858         3.955
+
+
+           Covariances
+              TOT1          TOT2          TOT3          TOT4          TOT5
+              ________      ________      ________      ________      ________
+ TOT1           2.497
+ TOT2           1.510         2.295
+ TOT3           1.231         1.522         2.190
+ TOT4           1.763         1.587         1.608         2.800
+ TOT5           1.895         1.606         1.421         1.963         2.749
+ TOT6           1.994         1.932         1.679         2.101         2.430
+ TOT7           1.804         2.035         1.944         1.979         2.330
+
+
+           Covariances
+              TOT6          TOT7
+              ________      ________
+ TOT6           3.180
+ TOT7           2.547         3.892
+
+
+           Correlations
+              SITE          GROUP         DAYSSIN3      P_FOLLOW      PHY1
+              ________      ________      ________      ________      ________
+ SITE           1.000
+ GROUP          0.017         1.000
+ DAYSSIN3       0.578         0.013         1.000
+ P_FOLLOW      -0.066        -0.114        -0.010         1.000
+ PHY1           0.166        -0.015         0.076        -0.004         1.000
+ PHY2           0.161        -0.088         0.009         0.005         0.554
+ PHY3           0.118         0.034         0.050        -0.147         0.344
+ PHY4           0.196         0.006         0.065        -0.067         0.434
+ PHY5           0.300         0.006         0.229        -0.084         0.548
+ PHY6           0.219         0.034         0.089        -0.131         0.553
+ PHY7           0.092        -0.003         0.055        -0.028         0.456
+ PSY1           0.038         0.028         0.048        -0.022         0.477
+ PSY2           0.014        -0.018        -0.062        -0.087         0.350
+ PSY3          -0.106        -0.009        -0.152        -0.043         0.305
+ PSY4          -0.019         0.055         0.009        -0.108         0.355
+ PSY5           0.089         0.030         0.069        -0.128         0.389
+ PSY6           0.044         0.059         0.077        -0.006         0.436
+ PSY7           0.055         0.050         0.028        -0.115         0.417
+ EXI1           0.040         0.044        -0.001        -0.027         0.559
+ EXI2          -0.012         0.016        -0.107        -0.068         0.405
+ EXI3           0.046        -0.103         0.000        -0.005         0.386
+ EXI4           0.057         0.041         0.030        -0.103         0.362
+ EXI5           0.115         0.037         0.161        -0.101         0.530
+ EXI6           0.030         0.095         0.006        -0.105         0.450
+ EXI7          -0.022        -0.001        -0.009        -0.043         0.412
+ SOC1          -0.002        -0.016         0.024        -0.020         0.254
+ SOC2           0.080        -0.012         0.001        -0.044         0.279
+ SOC3           0.022        -0.112        -0.047         0.069         0.224
+ SOC4           0.065        -0.078         0.142        -0.080         0.221
+ SOC5           0.024        -0.001         0.034        -0.080         0.366
+ SOC6          -0.028        -0.057        -0.059         0.029         0.245
+ SOC7           0.086        -0.110         0.132        -0.060         0.285
+ BUR1           0.099         0.059         0.061        -0.043         0.355
+ BUR2           0.002         0.002        -0.037        -0.056         0.241
+ BUR3           0.147        -0.060        -0.038        -0.150         0.097
+ BUR4          -0.079         0.136        -0.135        -0.116         0.282
+ BUR5           0.209         0.073         0.096        -0.104         0.249
+ BUR6           0.083        -0.015         0.048         0.039         0.307
+ BUR7           0.086         0.032         0.098         0.002         0.404
+ ENV1          -0.023        -0.055         0.022        -0.057         0.270
+ ENV2           0.077         0.008        -0.017        -0.072         0.215
+ ENV3          -0.037         0.015        -0.017        -0.080         0.191
+ ENV4           0.102         0.034         0.107        -0.195         0.288
+ ENV5           0.022         0.018        -0.062        -0.085         0.215
+ ENV6           0.083         0.026         0.050        -0.147         0.274
+ ENV7           0.173        -0.094         0.111        -0.079         0.222
+ COG1          -0.028        -0.062        -0.059        -0.023         0.272
+ COG2           0.025         0.059         0.003        -0.071         0.223
+ COG3          -0.053         0.023        -0.048        -0.013         0.178
+ COG4           0.068        -0.016         0.056        -0.084         0.131
+ COG5           0.038         0.005         0.026        -0.088         0.286
+ COG6           0.016         0.052         0.007        -0.009         0.355
+ COG7          -0.044         0.039        -0.004        -0.035         0.175
+ QC1           -0.015        -0.028        -0.014        -0.097         0.302
+ QC2            0.018        -0.059         0.078        -0.021         0.106
+ QC3           -0.008        -0.193        -0.106         0.006         0.115
+ QC4            0.055         0.048         0.046        -0.035         0.131
+ QC5            0.081         0.056         0.079        -0.043         0.355
+ QC6            0.091        -0.024         0.036        -0.031         0.277
+ QC7            0.061         0.036         0.102         0.015         0.268
+ TOT1           0.061        -0.003         0.036        -0.057         0.665
+ TOT2           0.072        -0.018        -0.027        -0.085         0.472
+ TOT3           0.034        -0.089        -0.078        -0.085         0.374
+ TOT4           0.071         0.052         0.047        -0.152         0.420
+ TOT5           0.173         0.046         0.120        -0.137         0.551
+ TOT6           0.098         0.025         0.046        -0.058         0.513
+ TOT7           0.091        -0.006         0.095        -0.060         0.476
+
+
+           Correlations
+              PHY2          PHY3          PHY4          PHY5          PHY6
+              ________      ________      ________      ________      ________
+ PHY2           1.000
+ PHY3           0.456         1.000
+ PHY4           0.452         0.427         1.000
+ PHY5           0.439         0.517         0.596         1.000
+ PHY6           0.562         0.486         0.464         0.611         1.000
+ PHY7           0.519         0.497         0.383         0.483         0.522
+ PSY1           0.302         0.246         0.380         0.367         0.425
+ PSY2           0.494         0.204         0.313         0.198         0.389
+ PSY3           0.415         0.451         0.378         0.291         0.397
+ PSY4           0.298         0.230         0.538         0.324         0.327
+ PSY5           0.231         0.159         0.422         0.444         0.329
+ PSY6           0.360         0.314         0.430         0.435         0.490
+ PSY7           0.341         0.286         0.283         0.254         0.407
+ EXI1           0.346         0.328         0.366         0.333         0.436
+ EXI2           0.540         0.278         0.405         0.212         0.490
+ EXI3           0.359         0.319         0.326         0.361         0.344
+ EXI4           0.332         0.323         0.576         0.405         0.408
+ EXI5           0.394         0.330         0.510         0.623         0.508
+ EXI6           0.443         0.250         0.379         0.456         0.551
+ EXI7           0.329         0.299         0.407         0.354         0.427
+ SOC1           0.254         0.188         0.200         0.122         0.281
+ SOC2           0.269         0.133         0.202         0.155         0.283
+ SOC3           0.228         0.129         0.315         0.138         0.178
+ SOC4           0.229         0.277         0.361         0.219         0.248
+ SOC5           0.281         0.118         0.290         0.213         0.217
+ SOC6           0.254        -0.049         0.310         0.217         0.311
+ SOC7           0.232         0.221         0.362         0.284         0.288
+ BUR1           0.280         0.217         0.206         0.252         0.297
+ BUR2           0.321         0.115         0.255         0.175         0.270
+ BUR3           0.271         0.332         0.320         0.274         0.292
+ BUR4           0.188         0.140         0.360         0.162         0.211
+ BUR5           0.151         0.106         0.321         0.444         0.319
+ BUR6           0.243         0.175         0.223         0.402         0.343
+ BUR7           0.186         0.069         0.182         0.309         0.283
+ ENV1           0.164         0.288         0.185         0.197         0.209
+ ENV2           0.293         0.148         0.102         0.264         0.383
+ ENV3           0.131         0.252         0.120         0.117         0.274
+ ENV4           0.179         0.289         0.235         0.253         0.236
+ ENV5           0.288         0.226         0.278         0.262         0.289
+ ENV6           0.191         0.183         0.098         0.215         0.308
+ ENV7           0.250         0.227         0.201         0.258         0.252
+ COG1           0.200         0.136         0.176         0.173         0.321
+ COG2           0.263         0.139         0.210         0.208         0.176
+ COG3           0.267         0.194         0.202         0.184         0.239
+ COG4           0.188         0.227         0.204         0.222         0.277
+ COG5           0.185         0.184         0.241         0.322         0.331
+ COG6           0.324         0.164         0.258         0.357         0.403
+ COG7           0.250         0.240         0.127         0.246         0.209
+ QC1            0.229         0.323         0.243         0.278         0.210
+ QC2            0.321         0.101         0.109         0.093         0.111
+ QC3            0.239         0.169         0.190         0.050         0.139
+ QC4            0.267         0.060         0.258         0.118         0.181
+ QC5            0.256         0.201         0.219         0.299         0.223
+ QC6            0.309         0.187         0.310         0.355         0.267
+ QC7            0.420         0.247         0.218         0.298         0.389
+ TOT1           0.447         0.392         0.413         0.435         0.518
+ TOT2           0.693         0.308         0.408         0.350         0.533
+ TOT3           0.492         0.593         0.479         0.400         0.493
+ TOT4           0.399         0.364         0.663         0.424         0.438
+ TOT5           0.415         0.341         0.544         0.682         0.532
+ TOT6           0.471         0.300         0.435         0.543         0.646
+ TOT7           0.442         0.358         0.377         0.441         0.490
+
+
+           Correlations
+              PHY7          PSY1          PSY2          PSY3          PSY4
+              ________      ________      ________      ________      ________
+ PHY7           1.000
+ PSY1           0.292         1.000
+ PSY2           0.407         0.565         1.000
+ PSY3           0.353         0.494         0.616         1.000
+ PSY4           0.300         0.663         0.646         0.564         1.000
+ PSY5           0.341         0.541         0.494         0.449         0.701
+ PSY6           0.399         0.588         0.584         0.588         0.690
+ PSY7           0.525         0.534         0.492         0.506         0.503
+ EXI1           0.351         0.647         0.364         0.440         0.520
+ EXI2           0.400         0.450         0.623         0.521         0.500
+ EXI3           0.365         0.429         0.420         0.538         0.380
+ EXI4           0.377         0.497         0.399         0.443         0.623
+ EXI5           0.411         0.524         0.385         0.427         0.581
+ EXI6           0.392         0.501         0.473         0.495         0.542
+ EXI7           0.518         0.504         0.439         0.482         0.519
+ SOC1           0.240         0.506         0.267         0.349         0.430
+ SOC2           0.129         0.427         0.294         0.297         0.370
+ SOC3           0.262         0.332         0.268         0.370         0.401
+ SOC4           0.244         0.441         0.290         0.341         0.492
+ SOC5           0.326         0.467         0.364         0.310         0.516
+ SOC6           0.225         0.389         0.334         0.208         0.464
+ SOC7           0.334         0.336         0.294         0.413         0.375
+ BUR1           0.228         0.367         0.326         0.289         0.248
+ BUR2           0.326         0.177         0.393         0.253         0.294
+ BUR3           0.241         0.145         0.271         0.345         0.144
+ BUR4           0.218         0.327         0.312         0.265         0.384
+ BUR5           0.277         0.319         0.250         0.143         0.207
+ BUR6           0.254         0.341         0.245         0.297         0.233
+ BUR7           0.421         0.237         0.173         0.158         0.121
+ ENV1           0.431         0.350         0.165         0.209         0.284
+ ENV2           0.342         0.208         0.344         0.288         0.158
+ ENV3           0.222         0.185         0.311         0.355         0.223
+ ENV4           0.282         0.367         0.294         0.279         0.383
+ ENV5           0.366         0.352         0.220         0.307         0.346
+ ENV6           0.310         0.344         0.350         0.287         0.361
+ ENV7           0.366         0.198         0.203         0.287         0.211
+ COG1           0.105         0.433         0.284         0.312         0.360
+ COG2           0.363         0.319         0.310         0.298         0.368
+ COG3           0.199         0.229         0.298         0.400         0.367
+ COG4           0.121         0.381         0.249         0.283         0.442
+ COG5           0.257         0.365         0.229         0.347         0.390
+ COG6           0.227         0.404         0.331         0.392         0.422
+ COG7           0.309         0.308         0.320         0.463         0.330
+ QC1            0.238         0.416         0.296         0.255         0.332
+ QC2            0.161         0.189         0.179         0.161         0.140
+ QC3            0.230         0.012         0.121         0.110         0.116
+ QC4            0.148         0.301         0.277         0.215         0.331
+ QC5            0.131         0.298         0.218         0.217         0.200
+ QC6            0.222         0.325         0.220         0.181         0.402
+ QC7            0.423         0.343         0.287         0.369         0.260
+ TOT1           0.442         0.785         0.501         0.500         0.592
+ TOT2           0.535         0.517         0.732         0.565         0.552
+ TOT3           0.494         0.422         0.526         0.741         0.496
+ TOT4           0.390         0.636         0.532         0.523         0.795
+ TOT5           0.489         0.611         0.449         0.464         0.610
+ TOT6           0.452         0.589         0.516         0.503         0.604
+ TOT7           0.687         0.486         0.457         0.528         0.454
+
+
+           Correlations
+              PSY5          PSY6          PSY7          EXI1          EXI2
+              ________      ________      ________      ________      ________
+ PSY5           1.000
+ PSY6           0.677         1.000
+ PSY7           0.533         0.643         1.000
+ EXI1           0.473         0.515         0.410         1.000
+ EXI2           0.385         0.452         0.537         0.492         1.000
+ EXI3           0.430         0.350         0.350         0.545         0.581
+ EXI4           0.508         0.551         0.400         0.559         0.576
+ EXI5           0.652         0.669         0.453         0.637         0.449
+ EXI6           0.560         0.670         0.545         0.594         0.579
+ EXI7           0.468         0.503         0.711         0.529         0.644
+ SOC1           0.243         0.372         0.302         0.601         0.340
+ SOC2           0.239         0.365         0.453         0.482         0.505
+ SOC3           0.222         0.316         0.378         0.420         0.421
+ SOC4           0.271         0.433         0.413         0.441         0.451
+ SOC5           0.456         0.465         0.538         0.541         0.426
+ SOC6           0.388         0.509         0.390         0.440         0.451
+ SOC7           0.346         0.392         0.621         0.351         0.468
+ BUR1           0.303         0.367         0.270         0.397         0.276
+ BUR2           0.280         0.339         0.285         0.144         0.261
+ BUR3           0.118         0.137         0.106         0.156         0.227
+ BUR4           0.362         0.256         0.236         0.379         0.416
+ BUR5           0.353         0.286         0.296         0.273         0.224
+ BUR6           0.272         0.334         0.252         0.317         0.198
+ BUR7           0.194         0.273         0.392         0.169         0.291
+ ENV1           0.229         0.352         0.325         0.429         0.218
+ ENV2           0.153         0.328         0.175         0.272         0.318
+ ENV3           0.152         0.260         0.347         0.200         0.390
+ ENV4           0.291         0.404         0.361         0.360         0.365
+ ENV5           0.255         0.330         0.361         0.323         0.356
+ ENV6           0.290         0.455         0.505         0.365         0.425
+ ENV7           0.236         0.334         0.365         0.191         0.315
+ COG1           0.376         0.442         0.373         0.410         0.216
+ COG2           0.294         0.393         0.439         0.359         0.370
+ COG3           0.279         0.434         0.376         0.239         0.279
+ COG4           0.292         0.405         0.307         0.319         0.236
+ COG5           0.490         0.462         0.443         0.386         0.223
+ COG6           0.439         0.542         0.409         0.416         0.315
+ COG7           0.372         0.417         0.549         0.224         0.273
+ QC1            0.242         0.407         0.206         0.404         0.251
+ QC2            0.153         0.205         0.275         0.160         0.274
+ QC3            0.073         0.280         0.178         0.072         0.265
+ QC4            0.192         0.341         0.287         0.235         0.350
+ QC5            0.308         0.371         0.324         0.331         0.287
+ QC6            0.448         0.429         0.212         0.368         0.307
+ QC7            0.303         0.458         0.526         0.255         0.416
+ TOT1           0.528         0.657         0.533         0.822         0.499
+ TOT2           0.449         0.609         0.592         0.509         0.753
+ TOT3           0.381         0.550         0.519         0.488         0.616
+ TOT4           0.581         0.657         0.526         0.604         0.629
+ TOT5           0.747         0.692         0.606         0.617         0.483
+ TOT6           0.597         0.779         0.593         0.609         0.563
+ TOT7           0.491         0.605         0.832         0.431         0.587
+
+
+           Correlations
+              EXI3          EXI4          EXI5          EXI6          EXI7
+              ________      ________      ________      ________      ________
+ EXI3           1.000
+ EXI4           0.586         1.000
+ EXI5           0.557         0.689         1.000
+ EXI6           0.519         0.674         0.744         1.000
+ EXI7           0.480         0.560         0.529         0.598         1.000
+ SOC1           0.342         0.341         0.388         0.401         0.340
+ SOC2           0.394         0.425         0.362         0.454         0.391
+ SOC3           0.614         0.523         0.404         0.385         0.336
+ SOC4           0.353         0.564         0.435         0.478         0.401
+ SOC5           0.413         0.541         0.603         0.590         0.467
+ SOC6           0.260         0.427         0.527         0.683         0.479
+ SOC7           0.438         0.424         0.363         0.452         0.659
+ BUR1           0.359         0.355         0.388         0.367         0.309
+ BUR2           0.215         0.155         0.248         0.231         0.303
+ BUR3           0.277         0.280         0.262         0.358         0.190
+ BUR4           0.211         0.422         0.335         0.371         0.472
+ BUR5           0.214         0.300         0.453         0.387         0.382
+ BUR6           0.400         0.281         0.398         0.393         0.410
+ BUR7           0.315         0.179         0.281         0.216         0.307
+ ENV1           0.256         0.242         0.361         0.247         0.302
+ ENV2           0.341         0.137         0.349         0.392         0.157
+ ENV3           0.356         0.172         0.201         0.242         0.255
+ ENV4           0.384         0.415         0.437         0.439         0.414
+ ENV5           0.169         0.327         0.377         0.314         0.356
+ ENV6           0.380         0.335         0.407         0.537         0.438
+ ENV7           0.312         0.245         0.301         0.313         0.413
+ COG1           0.153         0.253         0.383         0.378         0.376
+ COG2           0.227         0.298         0.295         0.320         0.494
+ COG3           0.241         0.270         0.195         0.349         0.330
+ COG4           0.198         0.368         0.293         0.374         0.388
+ COG5           0.268         0.328         0.469         0.437         0.498
+ COG6           0.274         0.305         0.493         0.606         0.499
+ COG7           0.298         0.200         0.324         0.418         0.556
+ QC1            0.180         0.312         0.450         0.276         0.229
+ QC2            0.201         0.117         0.294         0.193         0.249
+ QC3            0.193         0.208         0.217         0.273         0.291
+ QC4            0.141         0.324         0.282         0.308         0.407
+ QC5            0.230         0.250         0.426         0.374         0.289
+ QC6            0.243         0.356         0.563         0.432         0.307
+ QC7            0.269         0.272         0.385         0.488         0.446
+ TOT1           0.505         0.554         0.690         0.606         0.563
+ TOT2           0.539         0.470         0.552         0.608         0.591
+ TOT3           0.725         0.580         0.538         0.603         0.550
+ TOT4           0.478         0.800         0.668         0.671         0.682
+ TOT5           0.493         0.627         0.863         0.727         0.632
+ TOT6           0.499         0.586         0.761         0.855         0.652
+ TOT7           0.500         0.460         0.536         0.597         0.800
+
+
+           Correlations
+              SOC1          SOC2          SOC3          SOC4          SOC5
+              ________      ________      ________      ________      ________
+ SOC1           1.000
+ SOC2           0.581         1.000
+ SOC3           0.509         0.663         1.000
+ SOC4           0.563         0.662         0.601         1.000
+ SOC5           0.623         0.675         0.548         0.655         1.000
+ SOC6           0.449         0.457         0.455         0.420         0.552
+ SOC7           0.424         0.646         0.585         0.592         0.531
+ BUR1           0.184         0.207         0.168         0.165         0.286
+ BUR2           0.052         0.055         0.080         0.071         0.162
+ BUR3          -0.016         0.054         0.154         0.081         0.050
+ BUR4           0.165         0.214         0.170         0.145         0.264
+ BUR5           0.154         0.179         0.186         0.163         0.174
+ BUR6           0.180         0.156         0.117         0.131         0.167
+ BUR7           0.083         0.218         0.226         0.172         0.219
+ ENV1           0.371         0.166         0.126         0.228         0.283
+ ENV2           0.297         0.292         0.254         0.117         0.240
+ ENV3           0.143         0.314         0.349         0.269         0.204
+ ENV4           0.297         0.329         0.287         0.375         0.327
+ ENV5           0.215         0.259         0.191         0.259         0.265
+ ENV6           0.281         0.459         0.428         0.401         0.413
+ ENV7           0.148         0.175         0.256         0.248         0.219
+ COG1           0.377         0.267         0.137         0.249         0.319
+ COG2           0.319         0.331         0.269         0.349         0.303
+ COG3           0.285         0.253         0.274         0.422         0.305
+ COG4           0.304         0.137         0.165         0.350         0.203
+ COG5           0.331         0.221         0.235         0.262         0.370
+ COG6           0.420         0.288         0.164         0.243         0.374
+ COG7           0.274         0.208         0.212         0.290         0.267
+ QC1            0.379         0.228         0.140         0.299         0.309
+ QC2            0.303         0.297         0.218         0.201         0.339
+ QC3            0.136         0.253         0.247         0.318         0.294
+ QC4            0.279         0.312         0.225         0.387         0.349
+ QC5            0.319         0.405         0.213         0.354         0.388
+ QC6            0.263         0.293         0.163         0.323         0.386
+ QC7            0.316         0.435         0.299         0.367         0.453
+ TOT1           0.665         0.486         0.379         0.477         0.594
+ TOT2           0.465         0.581         0.463         0.451         0.545
+ TOT3           0.386         0.486         0.647         0.545         0.457
+ TOT4           0.483         0.498         0.498         0.677         0.591
+ TOT5           0.448         0.471         0.401         0.490         0.646
+ TOT6           0.465         0.485         0.390         0.469         0.553
+ TOT7           0.368         0.471         0.453         0.478         0.532
+
+
+           Correlations
+              SOC6          SOC7          BUR1          BUR2          BUR3
+              ________      ________      ________      ________      ________
+ SOC6           1.000
+ SOC7           0.391         1.000
+ BUR1           0.273         0.191         1.000
+ BUR2           0.207         0.190         0.344         1.000
+ BUR3           0.174         0.101         0.286         0.243         1.000
+ BUR4           0.276         0.252         0.333         0.106         0.392
+ BUR5           0.353         0.267         0.348         0.168         0.292
+ BUR6           0.205         0.298         0.295         0.323         0.329
+ BUR7           0.105         0.271         0.328         0.154         0.231
+ ENV1           0.179         0.147         0.058         0.047         0.012
+ ENV2           0.235         0.191         0.063         0.063         0.181
+ ENV3           0.089         0.393         0.016         0.076         0.095
+ ENV4           0.277         0.344         0.109         0.075         0.211
+ ENV5           0.265         0.269         0.026         0.054         0.158
+ ENV6           0.498         0.471         0.189         0.196         0.239
+ ENV7           0.359         0.412         0.004         0.216         0.220
+ COG1           0.334         0.273         0.219         0.222        -0.006
+ COG2           0.248         0.482         0.092         0.251         0.078
+ COG3           0.189         0.383         0.093         0.224         0.083
+ COG4           0.193         0.223         0.101         0.148         0.123
+ COG5           0.259         0.350         0.140         0.203         0.090
+ COG6           0.515         0.373         0.252         0.276         0.180
+ COG7           0.281         0.513         0.184         0.230         0.139
+ QC1            0.186         0.097         0.194         0.022         0.021
+ QC2            0.281         0.259         0.044         0.099         0.041
+ QC3            0.379         0.296        -0.015         0.072         0.029
+ QC4            0.336         0.313         0.122         0.021        -0.027
+ QC5            0.473         0.373         0.246         0.064        -0.010
+ QC6            0.432         0.254         0.154         0.062         0.112
+ QC7            0.443         0.541         0.169         0.065         0.079
+ TOT1           0.467         0.391         0.598         0.258         0.153
+ TOT2           0.486         0.538         0.340         0.556         0.284
+ TOT3           0.363         0.583         0.296         0.271         0.536
+ TOT4           0.513         0.542         0.320         0.213         0.303
+ TOT5           0.579         0.528         0.385         0.256         0.239
+ TOT6           0.729         0.521         0.394         0.347         0.331
+ TOT7           0.462         0.762         0.307         0.310         0.236
+
+
+           Correlations
+              BUR4          BUR5          BUR6          BUR7          ENV1
+              ________      ________      ________      ________      ________
+ BUR4           1.000
+ BUR5           0.378         1.000
+ BUR6           0.340         0.414         1.000
+ BUR7           0.278         0.317         0.445         1.000
+ ENV1           0.087         0.072         0.083         0.146         1.000
+ ENV2           0.118         0.230         0.159         0.160         0.423
+ ENV3           0.198         0.159         0.081         0.169         0.266
+ ENV4           0.237         0.111         0.207         0.058         0.466
+ ENV5           0.119         0.156         0.033         0.152         0.406
+ ENV6           0.200         0.239         0.156         0.135         0.336
+ ENV7           0.009         0.142         0.162         0.088         0.383
+ COG1           0.096         0.167         0.208        -0.015         0.232
+ COG2           0.205         0.251         0.190         0.186         0.253
+ COG3           0.067         0.018         0.209         0.094         0.104
+ COG4           0.118         0.087         0.166        -0.080         0.165
+ COG5           0.196         0.237         0.314         0.137         0.174
+ COG6           0.228         0.333         0.347         0.142         0.232
+ COG7           0.152         0.338         0.347         0.157         0.157
+ QC1            0.178         0.118         0.145         0.148         0.345
+ QC2            0.003        -0.023        -0.029        -0.005         0.131
+ QC3           -0.049        -0.014        -0.037         0.041         0.119
+ QC4            0.179         0.055         0.043         0.053         0.101
+ QC5            0.024         0.186         0.176         0.158         0.188
+ QC6            0.272         0.199         0.277         0.180         0.262
+ QC7            0.191         0.253         0.244         0.301         0.291
+ TOT1           0.362         0.339         0.365         0.307         0.546
+ TOT2           0.302         0.290         0.314         0.272         0.309
+ TOT3           0.310         0.244         0.330         0.278         0.282
+ TOT4           0.594         0.321         0.319         0.196         0.326
+ TOT5           0.357         0.608         0.419         0.342         0.353
+ TOT6           0.390         0.460         0.585         0.333         0.332
+ TOT7           0.321         0.406         0.438         0.568         0.381
+
+
+           Correlations
+              ENV2          ENV3          ENV4          ENV5          ENV6
+              ________      ________      ________      ________      ________
+ ENV2           1.000
+ ENV3           0.396         1.000
+ ENV4           0.323         0.294         1.000
+ ENV5           0.316         0.319         0.484         1.000
+ ENV6           0.482         0.498         0.518         0.435         1.000
+ ENV7           0.269         0.349         0.502         0.453         0.547
+ COG1           0.104         0.125         0.144         0.089         0.215
+ COG2           0.238         0.263         0.312         0.329         0.359
+ COG3           0.175         0.244         0.189         0.123         0.239
+ COG4           0.054         0.060         0.369         0.152         0.190
+ COG5           0.220         0.195         0.307         0.244         0.293
+ COG6           0.304         0.158         0.267         0.196         0.403
+ COG7           0.128         0.170         0.290         0.185         0.339
+ QC1            0.178         0.102         0.295         0.283         0.234
+ QC2            0.208         0.059         0.182         0.270         0.287
+ QC3            0.126         0.100         0.301         0.266         0.252
+ QC4            0.142        -0.066         0.241         0.207         0.155
+ QC5            0.206         0.092         0.162         0.243         0.292
+ QC6            0.331         0.016         0.327         0.375         0.377
+ QC7            0.311         0.257         0.242         0.366         0.437
+ TOT1           0.318         0.219         0.425         0.342         0.416
+ TOT2           0.552         0.380         0.400         0.403         0.546
+ TOT3           0.404         0.584         0.470         0.377         0.533
+ TOT4           0.218         0.247         0.607         0.403         0.426
+ TOT5           0.374         0.272         0.437         0.524         0.488
+ TOT6           0.459         0.285         0.473         0.388         0.658
+ TOT7           0.306         0.383         0.428         0.438         0.555
+
+
+           Correlations
+              ENV7          COG1          COG2          COG3          COG4
+              ________      ________      ________      ________      ________
+ ENV7           1.000
+ COG1           0.046         1.000
+ COG2           0.248         0.572         1.000
+ COG3           0.190         0.499         0.610         1.000
+ COG4           0.208         0.571         0.545         0.633         1.000
+ COG5           0.264         0.651         0.584         0.659         0.593
+ COG6           0.296         0.666         0.612         0.572         0.575
+ COG7           0.300         0.575         0.612         0.639         0.553
+ QC1            0.232         0.270         0.226         0.130         0.233
+ QC2            0.261         0.175         0.280         0.208         0.103
+ QC3            0.368        -0.019         0.021         0.099         0.098
+ QC4            0.198         0.108         0.250         0.201         0.281
+ QC5            0.356         0.264         0.177         0.175         0.107
+ QC6            0.327         0.142         0.180         0.178         0.213
+ QC7            0.459         0.176         0.278         0.193         0.090
+ TOT1           0.256         0.587         0.425         0.318         0.398
+ TOT2           0.389         0.407         0.598         0.459         0.325
+ TOT3           0.471         0.260         0.384         0.505         0.357
+ TOT4           0.330         0.362         0.476         0.432         0.575
+ TOT5           0.418         0.449         0.459         0.353         0.356
+ TOT6           0.459         0.473         0.435         0.422         0.415
+ TOT7           0.587         0.325         0.540         0.418         0.302
+
+
+           Correlations
+              COG5          COG6          COG7          QC1           QC2
+              ________      ________      ________      ________      ________
+ COG5           1.000
+ COG6           0.698         1.000
+ COG7           0.632         0.699         1.000
+ QC1            0.229         0.360         0.183         1.000
+ QC2            0.185         0.276         0.258         0.309         1.000
+ QC3            0.024         0.133         0.143         0.263         0.288
+ QC4            0.194         0.205         0.223         0.346         0.537
+ QC5            0.210         0.404         0.298         0.410         0.458
+ QC6            0.348         0.374         0.223         0.374         0.445
+ QC7            0.201         0.396         0.458         0.337         0.500
+ TOT1           0.465         0.575         0.386         0.615         0.257
+ TOT2           0.409         0.545         0.453         0.334         0.514
+ TOT3           0.400         0.416         0.466         0.288         0.262
+ TOT4           0.469         0.471         0.406         0.420         0.254
+ TOT5           0.617         0.619         0.505         0.431         0.326
+ TOT6           0.553         0.734         0.521         0.383         0.303
+ TOT7           0.483         0.527         0.667         0.294         0.336
+
+
+           Correlations
+              QC3           QC4           QC5           QC6           QC7
+              ________      ________      ________      ________      ________
+ QC3            1.000
+ QC4            0.390         1.000
+ QC5            0.358         0.435         1.000
+ QC6            0.388         0.464         0.527         1.000
+ QC7            0.388         0.412         0.501         0.478         1.000
+ TOT1           0.122         0.302         0.456         0.402         0.403
+ TOT2           0.268         0.409         0.400         0.417         0.521
+ TOT3           0.415         0.229         0.300         0.305         0.438
+ TOT4           0.280         0.560         0.319         0.506         0.388
+ TOT5           0.235         0.342         0.582         0.599         0.525
+ TOT6           0.310         0.351         0.499         0.634         0.587
+ TOT7           0.331         0.350         0.428         0.387         0.733
+
+
+           Correlations
+              TOT1          TOT2          TOT3          TOT4          TOT5
+              ________      ________      ________      ________      ________
+ TOT1           1.000
+ TOT2           0.631         1.000
+ TOT3           0.526         0.679         1.000
+ TOT4           0.667         0.626         0.649         1.000
+ TOT5           0.723         0.639         0.579         0.708         1.000
+ TOT6           0.708         0.715         0.636         0.704         0.822
+ TOT7           0.579         0.681         0.666         0.599         0.712
+
+
+           Correlations
+              TOT6          TOT7
+              ________      ________
+ TOT6           1.000
+ TOT7           0.724         1.000
+
+
+SAVEDATA INFORMATION
+
+
+  Save file
+    MQOL_WIDEFORMAT*.DAT
+
+  Order of variables
+
+    SITE
+    GROUP
+    DAYSSIN3
+    P_FOLLOW
+    PHY1
+    PHY2
+    PHY3
+    PHY4
+    PHY5
+    PHY6
+    PHY7
+    PSY1
+    PSY2
+    PSY3
+    PSY4
+    PSY5
+    PSY6
+    PSY7
+    EXI1
+    EXI2
+    EXI3
+    EXI4
+    EXI5
+    EXI6
+    EXI7
+    SOC1
+    SOC2
+    SOC3
+    SOC4
+    SOC5
+    SOC6
+    SOC7
+    BUR1
+    BUR2
+    BUR3
+    BUR4
+    BUR5
+    BUR6
+    BUR7
+    ENV1
+    ENV2
+    ENV3
+    ENV4
+    ENV5
+    ENV6
+    ENV7
+    COG1
+    COG2
+    COG3
+    COG4
+    COG5
+    COG6
+    COG7
+    QC1
+    QC2
+    QC3
+    QC4
+    QC5
+    QC6
+    QC7
+    TOT1
+    TOT2
+    TOT3
+    TOT4
+    TOT5
+    TOT6
+    TOT7
+    MPLUSID
+
+  Save file format           Free
+
+  Save file record length    10000
+
+  Save missing symbol        *
+
+
+DIAGRAM INFORMATION
+
+  Mplus diagrams are currently not available for TYPE=BASIC.
+  No diagram output was produced.
+
+
+     Beginning Time:  14:25:44
+        Ending Time:  14:26:26
+       Elapsed Time:  00:00:42
+
+
+
+MUTHEN & MUTHEN
+3463 Stoner Ave.
+Los Angeles, CA  90066
+
+Tel: (310) 391-9971
+Fax: (310) 391-8971
+Web: www.StatModel.com
+Support: Support@StatModel.com
+
+Copyright (c) 1998-2022 Muthen & Muthen

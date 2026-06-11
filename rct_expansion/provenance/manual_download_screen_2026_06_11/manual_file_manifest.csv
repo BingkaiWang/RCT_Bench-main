@@ -1,0 +1,97 @@
+candidate_id,path,file_name,extension,bytes,role
+RCTC-00079,rct_expansion/provenance/manual_download_screen_2026_06_11/extracted/RCTC-00079/RCTC-00079/00-readme.txt,00-readme.txt,.txt,8942,data_or_table
+RCTC-00079,rct_expansion/provenance/manual_download_screen_2026_06_11/extracted/RCTC-00079/RCTC-00079/Lab-results.txt,Lab-results.txt,.txt,115468,data_or_table
+RCTC-00079,rct_expansion/provenance/manual_download_screen_2026_06_11/extracted/RCTC-00079/RCTC-00079/Levothyroxine-Dosage.txt,Levothyroxine-Dosage.txt,.txt,19303,data_or_table
+RCTC-00079,rct_expansion/provenance/manual_download_screen_2026_06_11/extracted/RCTC-00079/RCTC-00079/MANIFEST.TXT,MANIFEST.TXT,.txt,342,data_or_table
+RCTC-00079,rct_expansion/provenance/manual_download_screen_2026_06_11/extracted/RCTC-00079/RCTC-00079/Patient-demographic.txt,Patient-demographic.txt,.txt,5653,data_or_table
+RCTC-00079,rct_expansion/provenance/manual_download_screen_2026_06_11/extracted/RCTC-00079/RCTC-00079/Thyrogen-Dosage.txt,Thyrogen-Dosage.txt,.txt,1987,data_or_table
+RCTC-00079,rct_expansion/provenance/manual_download_screen_2026_06_11/extracted/RCTC-00079/RCTC-00079/consent-form.pdf,consent-form.pdf,.pdf,99551,support
+RCTC-00079,rct_expansion/provenance/manual_download_screen_2026_06_11/extracted/RCTC-00079/RCTC-00079/data-privacy-assessment.pdf,data-privacy-assessment.pdf,.pdf,209531,support
+RCTC-00135,rct_expansion/provenance/manual_download_screen_2026_06_11/extracted/RCTC-00135/RCTC-00135/0054ec8c-afba-4633-ab07-91771571fbd6.csv,0054ec8c-afba-4633-ab07-91771571fbd6.csv,.csv,6832,data_or_table
+RCTC-00135,rct_expansion/provenance/manual_download_screen_2026_06_11/extracted/RCTC-00135/RCTC-00135/10a9a5b8-3722-4388-8ce7-e2547edcbff9.csv,10a9a5b8-3722-4388-8ce7-e2547edcbff9.csv,.csv,6296,data_or_table
+RCTC-00135,rct_expansion/provenance/manual_download_screen_2026_06_11/extracted/RCTC-00135/RCTC-00135/2c302a18-9006-4b76-9adb-a0fd95d58d49.xlsx,2c302a18-9006-4b76-9adb-a0fd95d58d49.xlsx,.xlsx,9965,data_or_table
+RCTC-00135,rct_expansion/provenance/manual_download_screen_2026_06_11/extracted/RCTC-00135/RCTC-00135/88132a55-e4fa-4ed1-b688-653ef8eec6d5.zip,88132a55-e4fa-4ed1-b688-653ef8eec6d5.zip,.zip,5802085,other
+RCTC-00135,rct_expansion/provenance/manual_download_screen_2026_06_11/extracted/RCTC-00135/RCTC-00135/89dd4bc9-b96d-4a6e-b389-415a67e38f08.csv,89dd4bc9-b96d-4a6e-b389-415a67e38f08.csv,.csv,3813,data_or_table
+RCTC-00135,rct_expansion/provenance/manual_download_screen_2026_06_11/extracted/RCTC-00135/RCTC-00135/94f59025-0eef-40ee-99ea-06f57ef3d134.csv,94f59025-0eef-40ee-99ea-06f57ef3d134.csv,.csv,743,data_or_table
+RCTC-00135,rct_expansion/provenance/manual_download_screen_2026_06_11/extracted/RCTC-00135/RCTC-00135/README.md,README.md,.md,2926,support
+RCTC-00135,rct_expansion/provenance/manual_download_screen_2026_06_11/extracted/RCTC-00135/RCTC-00135/b238be1d-983c-4a42-a01d-94eeb81fd939.md,b238be1d-983c-4a42-a01d-94eeb81fd939.md,.md,196929,support
+RCTC-00135,rct_expansion/provenance/manual_download_screen_2026_06_11/extracted/RCTC-00135/RCTC-00135/d36db6ac-b7ac-4238-8336-376a79915ef1.xlsx,d36db6ac-b7ac-4238-8336-376a79915ef1.xlsx,.xlsx,14648,data_or_table
+RCTC-00135,rct_expansion/provenance/manual_download_screen_2026_06_11/extracted/RCTC-00135/RCTC-00135/dfee11db-f016-4a24-bd99-0ed99b374233.csv,dfee11db-f016-4a24-bd99-0ed99b374233.csv,.csv,7480,data_or_table
+RCTC-00135,rct_expansion/provenance/manual_download_screen_2026_06_11/extracted/RCTC-00135/RCTC-00135/e13cfe55-92e7-45dc-9d1f-0c5bc47afa6e.csv,e13cfe55-92e7-45dc-9d1f-0c5bc47afa6e.csv,.csv,513,data_or_table
+RCTC-00135,rct_expansion/provenance/manual_download_screen_2026_06_11/extracted/RCTC-00135/RCTC-00135/ea403a44-1ca9-4725-895e-910aa7e7153d.csv,ea403a44-1ca9-4725-895e-910aa7e7153d.csv,.csv,8664,data_or_table
+RCTC-00135,rct_expansion/provenance/manual_download_screen_2026_06_11/extracted/RCTC-00135/RCTC-00135/eb1ce023-ebc0-4551-a956-e1e64b318c7a.csv,eb1ce023-ebc0-4551-a956-e1e64b318c7a.csv,.csv,4012,data_or_table
+RCTC-00135,rct_expansion/provenance/manual_download_screen_2026_06_11/extracted/RCTC-00135/RCTC-00135/ed24a43e-ff35-4724-99d5-1dfa86b9b066.csv,ed24a43e-ff35-4724-99d5-1dfa86b9b066.csv,.csv,12371,data_or_table
+RCTC-00152,manually-download-raw-data/RCTC-00152.xlsx,RCTC-00152.xlsx,.xlsx,69063,data_or_table
+RCTC-00158,rct_expansion/provenance/manual_download_screen_2026_06_11/extracted/RCTC-00158/RCTC-00158/Graph2a_nelson_data_Ruokoniemi.xlsx,Graph2a_nelson_data_Ruokoniemi.xlsx,.xlsx,852116,data_or_table
+RCTC-00158,rct_expansion/provenance/manual_download_screen_2026_06_11/extracted/RCTC-00158/RCTC-00158/Graph2b_nelson_data_Ruokoniemi.xlsx,Graph2b_nelson_data_Ruokoniemi.xlsx,.xlsx,628475,data_or_table
+RCTC-00161,rct_expansion/provenance/manual_download_screen_2026_06_11/extracted/RCTC-00161/RCTC-00161/FM BMJ.xlsx,FM BMJ.xlsx,.xlsx,13301,data_or_table
+RCTC-00166,rct_expansion/provenance/manual_download_screen_2026_06_11/extracted/RCTC-00166/RCTC-00166/Albinama data upload/Albinama_Table1.dta,Albinama_Table1.dta,.dta,26086,data_or_table
+RCTC-00166,rct_expansion/provenance/manual_download_screen_2026_06_11/extracted/RCTC-00166/RCTC-00166/Albinama data upload/Albinama_Table2_Po.dta,Albinama_Table2_Po.dta,.dta,15211,data_or_table
+RCTC-00166,rct_expansion/provenance/manual_download_screen_2026_06_11/extracted/RCTC-00166/RCTC-00166/Albinama data upload/Albinama_Table2_Pv_LM.dta,Albinama_Table2_Pv_LM.dta,.dta,15250,data_or_table
+RCTC-00166,rct_expansion/provenance/manual_download_screen_2026_06_11/extracted/RCTC-00166/RCTC-00166/Albinama data upload/Albinama_Table2_Pv_PCR.dta,Albinama_Table2_Pv_PCR.dta,.dta,15091,data_or_table
+RCTC-00166,rct_expansion/provenance/manual_download_screen_2026_06_11/extracted/RCTC-00166/RCTC-00166/Albinama data upload/Albinama_Table2_Pv_clin.dta,Albinama_Table2_Pv_clin.dta,.dta,15220,data_or_table
+RCTC-00166,rct_expansion/provenance/manual_download_screen_2026_06_11/extracted/RCTC-00166/RCTC-00166/Albinama data upload/Albinama_Table2_Pvg.dta,Albinama_Table2_Pvg.dta,.dta,15214,data_or_table
+RCTC-00166,rct_expansion/provenance/manual_download_screen_2026_06_11/extracted/RCTC-00166/RCTC-00166/Albinama data upload/Albinama_Table3_0-3mo.dta,Albinama_Table3_0-3mo.dta,.dta,16722,data_or_table
+RCTC-00166,rct_expansion/provenance/manual_download_screen_2026_06_11/extracted/RCTC-00166/RCTC-00166/Albinama data upload/Albinama_Table3_0-8mo.dta,Albinama_Table3_0-8mo.dta,.dta,17730,data_or_table
+RCTC-00166,rct_expansion/provenance/manual_download_screen_2026_06_11/extracted/RCTC-00166/RCTC-00166/Albinama data upload/Albinama_Table3_4-8mo.dta,Albinama_Table3_4-8mo.dta,.dta,17730,data_or_table
+RCTC-00166,rct_expansion/provenance/manual_download_screen_2026_06_11/extracted/RCTC-00166/RCTC-00166/Albinama data upload/Albinama_Table4_Pf_LM.dta,Albinama_Table4_Pf_LM.dta,.dta,13035,data_or_table
+RCTC-00166,rct_expansion/provenance/manual_download_screen_2026_06_11/extracted/RCTC-00166/RCTC-00166/Albinama data upload/Albinama_Table4_Pf_PCR.dta,Albinama_Table4_Pf_PCR.dta,.dta,12956,data_or_table
+RCTC-00166,rct_expansion/provenance/manual_download_screen_2026_06_11/extracted/RCTC-00166/RCTC-00166/Albinama data upload/Albinama_Table4_Pf_clin.dta,Albinama_Table4_Pf_clin.dta,.dta,13005,data_or_table
+RCTC-00166,rct_expansion/provenance/manual_download_screen_2026_06_11/extracted/RCTC-00166/RCTC-00166/Albinama data upload/Albinama_Table4_Pm_PCR.dta,Albinama_Table4_Pm_PCR.dta,.dta,12996,data_or_table
+RCTC-00167,manually-download-raw-data/ALL_demographics+and+baseline_RCTC00167.xlsx,ALL_demographics+and+baseline_RCTC00167.xlsx,.xlsx,31460,data_or_table
+RCTC-00167,manually-download-raw-data/ANALYSED_RCT_Whole+group_RCTC00167.xlsx,ANALYSED_RCT_Whole+group_RCTC00167.xlsx,.xlsx,39238,data_or_table
+RCTC-00170,rct_expansion/provenance/manual_download_screen_2026_06_11/extracted/RCTC-00170/RCTC-00170/coagulation_data_clean_R Open data.xlsx,coagulation_data_clean_R Open data.xlsx,.xlsx,138797,data_or_table
+RCTC-00173,rct_expansion/provenance/manual_download_screen_2026_06_11/extracted/RCTC-00173/RCTC-00173/AMIGOS economic evaluation dataset.xlsx,AMIGOS economic evaluation dataset.xlsx,.xlsx,242778,data_or_table
+RCTC-00175,rct_expansion/provenance/manual_download_screen_2026_06_11/extracted/RCTC-00175/RCTC-00175/C4CAnonFinalDataCheck1612.ods,C4CAnonFinalDataCheck1612.ods,.ods,322482,data_or_table
+RCTC-00180,rct_expansion/provenance/manual_download_screen_2026_06_11/extracted/RCTC-00180/RCTC-00180/README_for_TEAM economic evaluation dataset.pdf,README_for_TEAM economic evaluation dataset.pdf,.pdf,100861,support
+RCTC-00180,rct_expansion/provenance/manual_download_screen_2026_06_11/extracted/RCTC-00180/RCTC-00180/TEAM economic evaluation dataset.xlsx,TEAM economic evaluation dataset.xlsx,.xlsx,785477,data_or_table
+RCTC-00181,rct_expansion/provenance/manual_download_screen_2026_06_11/extracted/RCTC-00181/RCTC-00181/PAC+dataset.xls,PAC+dataset.xls,.xls,913920,data_or_table
+RCTC-00888,rct_expansion/provenance/manual_download_screen_2026_06_11/extracted/RCTC-00888/RCTC-00888/Dryad_data.xlsx,Dryad_data.xlsx,.xlsx,42512,data_or_table
+RCTC-00890,manually-download-raw-data/RCRC-00890,RCRC-00890,,19635,data_or_table
+RCTC-00893,rct_expansion/provenance/manual_download_screen_2026_06_11/extracted/RCTC-00893/RCTC-00893/Final results SSPS.sav,Final results SSPS.sav,.sav,174369,data_or_table
+RCTC-00893,rct_expansion/provenance/manual_download_screen_2026_06_11/extracted/RCTC-00893/RCTC-00893/README_for_Final results SSPS.txt,README_for_Final results SSPS.txt,.txt,8327,data_or_table
+RCTC-00893,rct_expansion/provenance/manual_download_screen_2026_06_11/extracted/RCTC-00893/RCTC-00893/README_for_SF6D results SSPS.txt,README_for_SF6D results SSPS.txt,.txt,1561,data_or_table
+RCTC-00893,rct_expansion/provenance/manual_download_screen_2026_06_11/extracted/RCTC-00893/RCTC-00893/SF6D results SSPS.sav,SF6D results SSPS.sav,.sav,63031,data_or_table
+RCTC-00896,rct_expansion/provenance/manual_download_screen_2026_06_11/extracted/RCTC-00896/RCTC-00896/CLICK-IT Turningpoint original files.zip,CLICK-IT Turningpoint original files.zip,.zip,38252607,other
+RCTC-00896,rct_expansion/provenance/manual_download_screen_2026_06_11/extracted/RCTC-00896/RCTC-00896/CLICK-IT turningpoint Excel Question by Question.zip,CLICK-IT turningpoint Excel Question by Question.zip,.zip,187258,other
+RCTC-00896,rct_expansion/provenance/manual_download_screen_2026_06_11/extracted/RCTC-00896/RCTC-00896/CLICK-IT turningpoint Excel details.zip,CLICK-IT turningpoint Excel details.zip,.zip,60382,other
+RCTC-00896,rct_expansion/provenance/manual_download_screen_2026_06_11/extracted/RCTC-00896/RCTC-00896/CLICK-IT turningpoint PDF.zip,CLICK-IT turningpoint PDF.zip,.zip,12918176,other
+RCTC-00896,rct_expansion/provenance/manual_download_screen_2026_06_11/extracted/RCTC-00896/RCTC-00896/Click-IT 1 Summary of results- final version submitted to BMJ Open March 2016.xlsx,Click-IT 1 Summary of results- final version submitted to BMJ Open March 2016.xlsx,.xlsx,811412,data_or_table
+RCTC-01313,manually-download-raw-data/RCTC-01313/ELAIA-1_data_dictionary_10-6-2020 (1).csv,ELAIA-1_data_dictionary_10-6-2020 (1).csv,.csv,5794,data_or_table
+RCTC-01313,manually-download-raw-data/RCTC-01313/ELAIA-1_deidentified_data_10-6-2020 (1).csv,ELAIA-1_deidentified_data_10-6-2020 (1).csv,.csv,2221257,data_or_table
+RCTC-01363,manually-download-raw-data/Raw_data.xlsx,Raw_data.xlsx,.xlsx,21717,data_or_table
+RCTC-01363,manually-download-raw-data/read_me_file.docx,read_me_file.docx,.docx,14891,support
+RCTC-01383,rct_expansion/provenance/manual_download_screen_2026_06_11/extracted/RCTC-01383/RCTC-01383/5731a26f-520f-41fc-87cd-9aef4af27dc9.csv,5731a26f-520f-41fc-87cd-9aef4af27dc9.csv,.csv,4882,data_or_table
+RCTC-01383,rct_expansion/provenance/manual_download_screen_2026_06_11/extracted/RCTC-01383/RCTC-01383/README.md,README.md,.md,2694,support
+RCTC-01810,manually-download-raw-data/README (1)-RCTC1810.md,README (1)-RCTC1810.md,.md,1967,support
+RCTC-01810,manually-download-raw-data/summary_data-RCTC1810.xlsx,summary_data-RCTC1810.xlsx,.xlsx,11770,data_or_table
+RCTC-01873,manually-download-raw-data/RCTC-01873/README (1).md,README (1).md,.md,5045,support
+RCTC-01873,manually-download-raw-data/RCTC-01873/dataset_inflammatorymarkermanuscript_28.11.25.xlsx,dataset_inflammatorymarkermanuscript_28.11.25.xlsx,.xlsx,56102,data_or_table
+RCTC-01888,manually-download-raw-data/RCTC-01888/CogEvo.xlsx,CogEvo.xlsx,.xlsx,16238,data_or_table
+RCTC-01888,manually-download-raw-data/RCTC-01888/MoCAJ.xlsx,MoCAJ.xlsx,.xlsx,14939,data_or_table
+RCTC-01888,manually-download-raw-data/RCTC-01888/README (1).md,README (1).md,.md,940,support
+RCTC-01888,manually-download-raw-data/RCTC-01888/characteristics.xlsx,characteristics.xlsx,.xlsx,11779,data_or_table
+RCTC-01889,manually-download-raw-data/RCTC-01889/README (2).txt,README (2).txt,.txt,8236,data_or_table
+RCTC-01889,manually-download-raw-data/RCTC-01889/asthma_data_for_repository(003).sav,asthma_data_for_repository(003).sav,.sav,22158,data_or_table
+RCTC-01926,rct_expansion/provenance/manual_download_screen_2026_06_11/extracted/RCTC-01926/RCTC-1926/README_for_Song_ntrainerdeidentified_datadryad_2.13.19.docx,README_for_Song_ntrainerdeidentified_datadryad_2.13.19.docx,.docx,16171,support
+RCTC-01926,rct_expansion/provenance/manual_download_screen_2026_06_11/extracted/RCTC-01926/RCTC-1926/Song_ntrainerdeidentified_datadryad_2.13.19.csv,Song_ntrainerdeidentified_datadryad_2.13.19.csv,.csv,50960,data_or_table
+RCTC-01934,rct_expansion/provenance/manual_download_screen_2026_06_11/extracted/RCTC-01934/RCTC-01934/Stephenson_PLOS ONE_R001.xlsx,Stephenson_PLOS ONE_R001.xlsx,.xlsx,16461,data_or_table
+RCTC-01937,rct_expansion/provenance/manual_download_screen_2026_06_11/extracted/RCTC-01937/RCTC-01937/QuitPilot_Participants sp.sav,QuitPilot_Participants sp.sav,.sav,30752,data_or_table
+RCTC-01941,manually-download-raw-data/Non+SVPE+datafile-RCTC-01941.xls,Non+SVPE+datafile-RCTC-01941.xls,.xls,46080,data_or_table
+RCTC-01941,manually-download-raw-data/SVPE+datafile+for+data+repository-RCTC-01941.xls,SVPE+datafile+for+data+repository-RCTC-01941.xls,.xls,61440,data_or_table
+RCTC-01948,rct_expansion/provenance/manual_download_screen_2026_06_11/extracted/RCTC-01948/RCTC-01948/README_for_TABLE_3_OUTCOME_database resubmit.xls,README_for_TABLE_3_OUTCOME_database resubmit.xls,.xls,52224,data_or_table
+RCTC-01948,rct_expansion/provenance/manual_download_screen_2026_06_11/extracted/RCTC-01948/RCTC-01948/README_for_TABLE_4_MEDICAL_COMPLICATIONS database resubmit.xls,README_for_TABLE_4_MEDICAL_COMPLICATIONS database resubmit.xls,.xls,64000,data_or_table
+RCTC-01948,rct_expansion/provenance/manual_download_screen_2026_06_11/extracted/RCTC-01948/RCTC-01948/Subsequently excluded patients.xls,Subsequently excluded patients.xls,.xls,30208,data_or_table
+RCTC-01948,rct_expansion/provenance/manual_download_screen_2026_06_11/extracted/RCTC-01948/RCTC-01948/TABLE_1_DESCRIPTION_Database resubmit.xls,TABLE_1_DESCRIPTION_Database resubmit.xls,.xls,92672,data_or_table
+RCTC-01948,rct_expansion/provenance/manual_download_screen_2026_06_11/extracted/RCTC-01948/RCTC-01948/TABLE_2_TOLERANCE database.xls,TABLE_2_TOLERANCE database.xls,.xls,71168,data_or_table
+RCTC-01948,rct_expansion/provenance/manual_download_screen_2026_06_11/extracted/RCTC-01948/RCTC-01948/TABLE_3_OUTCOME_database resubmit.xls,TABLE_3_OUTCOME_database resubmit.xls,.xls,52224,data_or_table
+RCTC-01948,rct_expansion/provenance/manual_download_screen_2026_06_11/extracted/RCTC-01948/RCTC-01948/TABLE_4_MEDICAL_COMPLICATIONS database resubmit.xls,TABLE_4_MEDICAL_COMPLICATIONS database resubmit.xls,.xls,64000,data_or_table
+RCTC-05141,manually-download-raw-data/RCTC-05141/Combined_CM_Depression_Database.xlsx,Combined_CM_Depression_Database.xlsx,.xlsx,139815,data_or_table
+RCTC-05141,manually-download-raw-data/RCTC-05141/Depression_Data_Readme_File_.docx,Depression_Data_Readme_File_.docx,.docx,17914,support
+RCTC-05210,manually-download-raw-data/RCTC-05210/Data_Dictionary_Lung_Flute_ECO_Ph1b.csv,Data_Dictionary_Lung_Flute_ECO_Ph1b.csv,.csv,12154,data_or_table
+RCTC-05210,manually-download-raw-data/RCTC-05210/Data_Lung_Flute_ECO_Ph1b.csv,Data_Lung_Flute_ECO_Ph1b.csv,.csv,409557,data_or_table
+RCTC-05210,manually-download-raw-data/RCTC-05210/README (1).md,README (1).md,.md,1161,support
+RCTC-05223,manually-download-raw-data/RCRC-05223.xlsx,RCRC-05223.xlsx,.xlsx,23568,data_or_table
+RCTC-05226,manually-download-raw-data/RCTC-05226.xls,RCTC-05226.xls,.xls,1061888,data_or_table
+RCTC-05235,rct_expansion/provenance/manual_download_screen_2026_06_11/extracted/RCTC-05235/RCTC-05235/mHealth Trial Data.csv,mHealth Trial Data.csv,.csv,137746,data_or_table
+RCTC-05250,rct_expansion/provenance/manual_download_screen_2026_06_11/extracted/RCTC-05250/RCTC-05250/HIP data NMJ et al Dryad .xlsx,HIP data NMJ et al Dryad .xlsx,.xlsx,102993,data_or_table

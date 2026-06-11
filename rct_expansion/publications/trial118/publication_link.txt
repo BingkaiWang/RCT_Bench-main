@@ -1,0 +1,5 @@
+Trial_ID: 118
+Paper Name: Cerebrolysin and repetitive transcranial magnetic stimulation in traumatic brain injury
+Paper Link: https://doi.org/10.7910/dvn/dofciv
+Citation: Cerebrolysin and repetitive transcranial magnetic stimulation in traumatic brain injury. Dataset DOI: 10.7910/dvn/dofciv.
+Availability: PDF stored here when publicly available; otherwise this file records the publication link.

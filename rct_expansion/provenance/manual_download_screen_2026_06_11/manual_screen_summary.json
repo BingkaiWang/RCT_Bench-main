@@ -1,0 +1,10 @@
+{
+  "candidate_count": 34,
+  "file_count": 96,
+  "readable_table_count": 106,
+  "decision_counts": {
+    "needs_manual_review_before_cleaning": 22,
+    "qualified_for_publication_review": 9,
+    "not_qualified_before_cleaning": 3
+  }
+}

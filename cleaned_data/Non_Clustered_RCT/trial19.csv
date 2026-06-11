@@ -1,0 +1,33 @@
+Treatment,YP_FHVP_CVP_GRADIENT,YS_CREATININE_1d,YS_CREATININE_2d,YS_CREATININE_3d,YS_CREATININE_5d,YS_CREATININE_6d,YS_CREATININE_7d,YS_CREATININE_14d,YS_CREATININE_21d,YS_CREATININE_28d,YS_MASSIVE_ASCITES,X_RECIPIENT_AGE_YEARS_0d,X_RECIPIENT_GENDER_0d,X_RECIPIENT_DIAGNOSIS_0d,X_CHILD_PUGH_CLASS_0d,X_CHILD_PUGH_SCORE_0d,X_MELD_SCORE_0d,X_CREATININE_0d,X_DONOR_AGE_YEARS_0d,X_DONOR_GENDER_0d,X_DONOR_DIAGNOSIS_0d,X_DONOR_WEIGHT_0d,X_GRAFT_SHARING_0d
+Piggyback,1,0.9,1,0.9,0.7,0.6,0.6,0.9,0.8,1,0,18,FEMALE,Primary sclerosing cholangitis,B,8,11.95,0.7,40,MALE,STROKE,85,local
+Conventional,2,2,2.4,2.1,1.3,1.2,1.3,1,1,1,0,46,MALE,Hepatitis C,A,6,10.56,1.2,36,FEMALE,OTHER,47,local
+Piggyback,3,1.2,1.4,1.4,1,1.1,1,1.4,1.2,1.3,0,55,MALE,Hepatitis C and B and alcohol,C,10,13.9,0.9,31,FEMALE,OTHER,52,local
+Conventional,7.5,2.6,3.8,4.8,6.3,5,2.6,1.5,1.7,2.3,0,70,MALE,Hepatitis C,C,10,6.8,0.8,25,MALE,TRAUMA,68,national
+Conventional,5,2.8,3.6,4.4,3.4,2.1,3,2,2,2.7,0,40,MALE,Hepatitis C,B,9,17.97,0.9,45,MALE,STROKE,75,local
+Piggyback,1,1.6,1.2,1.6,1.5,1.3,1,1.6,2.5,1.8,0,64,MALE,Hepatitis C,A,5,8.74,0.8,30,MALE,TRAUMA,80,local
+Conventional,0,2.7,3.2,3.4,2.5,2.5,2.6,2.4,2.5,2.5,0,49,MALE,Hepatitis C,B,9,23.32,1.5,55,FEMALE,STROKE,60,local
+Piggyback,5,1.8,1.9,1.8,1.4,1.4,1.6,2.3,1.8,1.7,1,55,MALE,Cryptogenic cirrhosis,B,9,20.04,0.8,51,FEMALE,STROKE,70,local
+Conventional,0,0.8,1,1,1,0.8,0.8,1.2,1.4,1.2,0,60,MALE,Hepatitis C,B,8,13.97,1.3,26,MALE,TRAUMA,70,local
+Piggyback,2,2.4,2.6,1.9,1.5,1.4,1.6,1.4,1.3,2.2,0,42,MALE,Hepatitis C,B,9,17.37,1.3,45,MALE,TRAUMA,70,local
+Piggyback,3,3,1.9,1.3,1.5,1.4,1.6,1.6,2,2.2,1,42,MALE,Hepatitis C,A,6,13.38,1.3,40,FEMALE,STROKE,65,local
+Conventional,3,0.8,0.6,0.8,0.9,0.9,0.8,0.7,0.8,0.9,0,28,FEMALE,Primary sclerosing cholangitis,B,8,8.44,0.6,15,MALE,TRAUMA,50,local
+Conventional,2,2.6,2.3,1.5,1.2,1.2,1.2,1.4,1,1.2,0,39,MALE,Hepatitis C and B,C,10,17.92,1,45,FEMALE,STROKE,70,local
+Piggyback,3,3.9,4.4,3.5,2.2,3.5,2.4,1.8,1.6,1.4,0,53,MALE,Hepatitis B,B,9,15.2,1,27,MALE,OTHER,75,local
+Piggyback,3,0.7,0.8,0.8,1,0.9,0.8,0.7,0.7,1,0,34,FEMALE,Primary sclerosing cholangitis,B,7,12.88,0.8,33,MALE,TRAUMA,80,local
+Conventional,4,1.8,2,1.7,1.1,1.1,1.2,1.2,1.6,1.4,0,37,FEMALE,Hepatitis C,B,8,12.8,1,30,MALE,TRAUMA,70,local
+Piggyback,7,0.9,0.8,1.1,0.6,0.8,0.8,0.8,0.8,0.7,0,42,FEMALE,Primary biliary cirrhosis,B,8,14.46,0.7,14,FEMALE,TRAUMA,65,local
+Piggyback,3,1.2,0.9,0.8,0.8,0.7,0.8,0.8,0.6,1.3,0,48,FEMALE,Primary biliary cirrhosis,B,8,12.26,0.8,42,FEMALE,STROKE,75,regional
+Piggyback,0,1.2,1,1.2,0.9,0.9,0.9,1.1,1.2,1.7,0,57,FEMALE,Hepatitis C,C,10,14.49,1,55,FEMALE,STROKE,80,local
+Piggyback,3,2.4,2.2,1.8,3.1,2.5,2.9,1.3,1.8,1.4,0,48,MALE,Hepatitis C,C,13,20.67,1.7,57,FEMALE,OTHER,70,local
+Conventional,0,1.8,1.7,2.3,2.9,3.2,3.8,2.9,1.8,2.1,0,37,FEMALE,Ductopenic disease,B,9,10.53,0.5,51,FEMALE,STROKE,70,local
+Piggyback,4,1.2,1,1,1,1.1,1,1.2,1.1,1.1,0,47,MALE,Hepatitis C,B,7,8.73,0.8,48,MALE,TRAUMA,80,local
+Conventional,0,2.2,2,2.2,2,2.1,2.1,1.7,2.4,2,0,47,MALE,Hepatitis B,C,12,24.82,1.2,37,MALE,STROKE,85,local
+Conventional,0,1.8,4.2,5.9,5.7,4.9,5.1,3,2.5,3.1,0,51,MALE,Alcoholic cirrhosis,B,8,8.49,1.3,15,MALE,TRAUMA,65,local
+Conventional,1,1.4,2.4,3.2,2.6,2,1.6,4.3,2.6,2.7,0,51,MALE,Alcoholic cirrhosis,C,12,19.05,1.2,52,MALE,STROKE,65,regional
+Conventional,8,2.3,4.4,4.8,3.8,3.7,3.7,4,5.3,3.8,1,65,MALE,Hepatitis C,B,7,19.71,1.1,9,FEMALE,STROKE,30,local
+Piggyback,0,1.6,0.6,1.3,1,1,1,1.6,1.4,1,0,37,MALE,Hepatitis C,B,7,7.58,0.7,18,FEMALE,STROKE,45,national
+Conventional,3,0.8,1.2,0.8,0.7,0.4,0.8,1,1,1,0,47,FEMALE,Autoimmune hepatitis,A,5,7.82,0.6,60,FEMALE,STROKE,60,local
+Piggyback,3,3.1,3.2,3.6,2.8,3,3.2,2.4,2,1.9,0,61,MALE,Cryptogenic cirrhosis,B,9,21.15,2.6,24,FEMALE,TRAUMA,60,local
+Piggyback,0,2.4,2.2,2.6,2.3,2.4,2.9,1.4,1.7,1,0,49,FEMALE,Hepatitis B,C,10,18.94,1,49,MALE,STROKE,70,local
+Piggyback,0,1,0.8,0.7,0.7,1,1,1.7,1.3,1.3,0,40,MALE,Hepatitis C and alcohol,B,8,10.58,0.6,18,FEMALE,STROKE,55,local
+Conventional,1,2.1,2,2,1.4,1.2,1.2,2.4,2.2,2.7,0,50,MALE,Alcoholic cirrhosis,B,8,12.62,1,24,FEMALE,TRAUMA,50,local

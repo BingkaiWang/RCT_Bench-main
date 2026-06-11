@@ -1,0 +1,128 @@
+Trial_ID,variable_name,variable_type,brief_explanation
+81,Treatment,Treatment assignment,Randomized treatment assignment; control or reference arm is first when identifiable.
+81,YP_nausea_present_24h,Primary outcome,Primary outcome: nausea present 24h
+81,YS_rhodes_nausea_vomiting_score_24h,Secondary outcome,Secondary outcome: rhodes nausea vomiting score 24h
+81,YS_nausea_intensity_24h,Secondary outcome,Secondary outcome: nausea intensity 24h
+81,YS_vomiting_episodes_24h,Secondary outcome,Secondary outcome: vomiting episodes 24h
+81,YS_rescue_medication_24h,Secondary outcome,Secondary outcome: rescue medication 24h
+81,X_age_years,Baseline covariate,Baseline covariate or pre-treatment measurement: age years
+81,X_sex,Baseline covariate,Baseline covariate or pre-treatment measurement: sex
+81,X_weight_kg,Baseline covariate,Baseline covariate or pre-treatment measurement: weight kg
+81,X_height_m,Baseline covariate,Baseline covariate or pre-treatment measurement: height m
+81,X_bmi,Baseline covariate,Baseline covariate or pre-treatment measurement: bmi
+81,X_operating_room,Baseline covariate,Baseline covariate or pre-treatment measurement: operating room
+81,X_asa,Baseline covariate,Baseline covariate or pre-treatment measurement: asa
+81,X_surgery_duration_min,Baseline covariate,Baseline covariate or pre-treatment measurement: surgery duration min
+82,Treatment,Treatment assignment,Randomized treatment assignment; control or reference arm is first when identifiable.
+82,YP_postoperative_atrial_fibrillation,Primary outcome,Primary outcome: postoperative atrial fibrillation
+82,YS_af_episode_count,Secondary outcome,Secondary outcome: af episode count
+82,YS_ventilation_hours,Secondary outcome,Secondary outcome: ventilation hours
+82,YS_cicu_stay_days,Secondary outcome,Secondary outcome: cicu stay days
+82,YS_hdu_stay_days,Secondary outcome,Secondary outcome: hdu stay days
+82,YS_hospital_stay_days,Secondary outcome,Secondary outcome: hospital stay days
+82,X_age_years,Baseline covariate,Baseline covariate or pre-treatment measurement: age years
+82,X_gender,Baseline covariate,Baseline covariate or pre-treatment measurement: gender
+82,X_ethnicity,Baseline covariate,Baseline covariate or pre-treatment measurement: ethnicity
+82,X_euroscore,Baseline covariate,Baseline covariate or pre-treatment measurement: euroscore
+82,X_bmi,Baseline covariate,Baseline covariate or pre-treatment measurement: bmi
+82,X_nyha,Baseline covariate,Baseline covariate or pre-treatment measurement: nyha
+82,X_left_atrial_size,Baseline covariate,Baseline covariate or pre-treatment measurement: left atrial size
+82,X_right_atrial_size,Baseline covariate,Baseline covariate or pre-treatment measurement: right atrial size
+82,X_ejection_fraction,Baseline covariate,Baseline covariate or pre-treatment measurement: ejection fraction
+82,X_diabetes,Baseline covariate,Baseline covariate or pre-treatment measurement: diabetes
+82,X_hypertension,Baseline covariate,Baseline covariate or pre-treatment measurement: hypertension
+82,X_asthma,Baseline covariate,Baseline covariate or pre-treatment measurement: asthma
+82,X_copd,Baseline covariate,Baseline covariate or pre-treatment measurement: copd
+82,X_ckd,Baseline covariate,Baseline covariate or pre-treatment measurement: ckd
+82,X_hypercholesterolemia,Baseline covariate,Baseline covariate or pre-treatment measurement: hypercholesterolemia
+82,X_smoker,Baseline covariate,Baseline covariate or pre-treatment measurement: smoker
+82,X_alcohol,Baseline covariate,Baseline covariate or pre-treatment measurement: alcohol
+82,X_cross_clamp_time,Baseline covariate,Baseline covariate or pre-treatment measurement: cross clamp time
+82,X_bypass_time,Baseline covariate,Baseline covariate or pre-treatment measurement: bypass time
+83,Treatment,Treatment assignment,Randomized treatment assignment; control or reference arm is first when identifiable.
+83,YP_delta_pal_t3_t1,Primary outcome,Primary outcome: delta pal t3 t1
+83,YP_pal_t3,Primary outcome,Primary outcome: pal t3
+83,YP_delta_total_energy_intake_t3_t1,Primary outcome,Primary outcome: delta total energy intake t3 t1
+83,YP_total_energy_intake_t3,Primary outcome,Primary outcome: total energy intake t3
+83,YS_delta_steps_t3_t1,Secondary outcome,Secondary outcome: delta steps t3 t1
+83,YS_steps_t3,Secondary outcome,Secondary outcome: steps t3
+83,YS_delta_mvpa_t3_t1,Secondary outcome,Secondary outcome: delta mvpa t3 t1
+83,YS_delta_bmi_t3_t1,Secondary outcome,Secondary outcome: delta bmi t3 t1
+83,YS_delta_saturated_fat_t3_t1,Secondary outcome,Secondary outcome: delta saturated fat t3 t1
+83,X_age_years,Baseline covariate,Baseline covariate or pre-treatment measurement: age years
+83,X_sex,Baseline covariate,Baseline covariate or pre-treatment measurement: sex
+83,X_ethnicity,Baseline covariate,Baseline covariate or pre-treatment measurement: ethnicity
+83,X_marital_status,Baseline covariate,Baseline covariate or pre-treatment measurement: marital status
+83,X_employment,Baseline covariate,Baseline covariate or pre-treatment measurement: employment
+83,X_education_level,Baseline covariate,Baseline covariate or pre-treatment measurement: education level
+83,X_imd,Baseline covariate,Baseline covariate or pre-treatment measurement: imd
+83,X_smoking_status,Baseline covariate,Baseline covariate or pre-treatment measurement: smoking status
+83,X_perceived_health,Baseline covariate,Baseline covariate or pre-treatment measurement: perceived health
+83,X_pal_t1,Baseline covariate,Baseline covariate or pre-treatment measurement: pal t1
+83,X_total_energy_intake_t1,Baseline covariate,Baseline covariate or pre-treatment measurement: total energy intake t1
+83,X_steps_t1,Baseline covariate,Baseline covariate or pre-treatment measurement: steps t1
+83,X_mvpa_t1,Baseline covariate,Baseline covariate or pre-treatment measurement: mvpa t1
+83,X_bmi_t1,Baseline covariate,Baseline covariate or pre-treatment measurement: bmi t1
+83,X_saturated_fat_t1,Baseline covariate,Baseline covariate or pre-treatment measurement: saturated fat t1
+84,Treatment,Treatment assignment,Randomized treatment assignment; control or reference arm is first when identifiable.
+84,YP_delta_madrs_post_pre,Primary outcome,Primary outcome: delta madrs post pre
+84,YP_madrs_post,Primary outcome,Primary outcome: madrs post
+84,YP_delta_phq_post_pre,Primary outcome,Primary outcome: delta phq post pre
+84,YP_phq_post,Primary outcome,Primary outcome: phq post
+84,YS_phq_followup,Secondary outcome,Secondary outcome: phq followup
+84,YS_gad_post,Secondary outcome,Secondary outcome: gad post
+84,X_phq_0w,Baseline covariate,Baseline covariate or pre-treatment measurement: phq 0w
+84,X_gad_0w,Baseline covariate,Baseline covariate or pre-treatment measurement: gad 0w
+84,X_madrs_0w,Baseline covariate,Baseline covariate or pre-treatment measurement: madrs 0w
+84,X_sphq_0w,Baseline covariate,Baseline covariate or pre-treatment measurement: sphq 0w
+84,X_dropout_50_percent,Baseline covariate,Baseline covariate or pre-treatment measurement: dropout 50 percent
+85,Treatment,Treatment assignment,Randomized treatment assignment; control or reference arm is first when identifiable.
+85,X_age_years,Baseline covariate,Baseline covariate or pre-treatment measurement: age years
+85,X_sex,Baseline covariate,Baseline covariate or pre-treatment measurement: sex
+85,X_bmi,Baseline covariate,Baseline covariate or pre-treatment measurement: bmi
+85,X_pain_duration,Baseline covariate,Baseline covariate or pre-treatment measurement: pain duration
+85,X_education_level,Baseline covariate,Baseline covariate or pre-treatment measurement: education level
+85,X_income,Baseline covariate,Baseline covariate or pre-treatment measurement: income
+85,X_employed_status,Baseline covariate,Baseline covariate or pre-treatment measurement: employed status
+85,YP_delta_bpi_average_pain_post_pre,Primary outcome,Primary outcome: delta bpi average pain post pre
+85,YP_bpi_average_pain_post,Primary outcome,Primary outcome: bpi average pain post
+85,YS_bpi_average_pain_followup,Secondary outcome,Secondary outcome: bpi average pain followup
+85,YS_bpi_interference_post,Secondary outcome,Secondary outcome: bpi interference post
+85,YS_bpi_interference_followup,Secondary outcome,Secondary outcome: bpi interference followup
+85,X_bpi_average_pain_pre,Baseline covariate,Baseline covariate or pre-treatment measurement: bpi average pain pre
+85,X_bpi_total_p1,Baseline covariate,Baseline covariate or pre-treatment measurement: bpi total p1
+85,YS_pcs_total_p5,Secondary outcome,Secondary outcome: pcs total p5
+85,X_pcs_total_p1,Baseline covariate,Baseline covariate or pre-treatment measurement: pcs total p1
+85,YS_tsk_total_p5,Secondary outcome,Secondary outcome: tsk total p5
+85,X_tsk_total_p1,Baseline covariate,Baseline covariate or pre-treatment measurement: tsk total p1
+85,YS_olbp_total_p5,Secondary outcome,Secondary outcome: olbp total p5
+85,YS_sf12_phys_p5,Secondary outcome,Secondary outcome: sf12 phys p5
+85,YS_sf12_ment_p5,Secondary outcome,Secondary outcome: sf12 ment p5
+85,X_olbp_total_p1,Baseline covariate,Baseline covariate or pre-treatment measurement: olbp total p1
+85,X_sf12_phys_p1,Baseline covariate,Baseline covariate or pre-treatment measurement: sf12 phys p1
+85,X_sf12_ment_p1,Baseline covariate,Baseline covariate or pre-treatment measurement: sf12 ment p1
+85,YS_promis_anxiety_p5,Secondary outcome,Secondary outcome: promis anxiety p5
+85,YS_promis_depression_p5,Secondary outcome,Secondary outcome: promis depression p5
+85,X_promis_anxiety_p1,Baseline covariate,Baseline covariate or pre-treatment measurement: promis anxiety p1
+85,X_promis_depression_p1,Baseline covariate,Baseline covariate or pre-treatment measurement: promis depression p1
+86,Treatment,Treatment assignment,Randomized treatment assignment; control or reference arm is first when identifiable.
+86,X_site,Baseline covariate,Baseline covariate or pre-treatment measurement: site
+86,X_location,Baseline covariate,Baseline covariate or pre-treatment measurement: location
+86,X_itt,Baseline covariate,Baseline covariate or pre-treatment measurement: itt
+86,X_mitt,Baseline covariate,Baseline covariate or pre-treatment measurement: mitt
+86,X_pp,Baseline covariate,Baseline covariate or pre-treatment measurement: pp
+86,X_age_years,Baseline covariate,Baseline covariate or pre-treatment measurement: age years
+86,X_race,Baseline covariate,Baseline covariate or pre-treatment measurement: race
+86,X_ethnicity,Baseline covariate,Baseline covariate or pre-treatment measurement: ethnicity
+86,X_cut_size_meals,Baseline covariate,Baseline covariate or pre-treatment measurement: cut size meals
+86,X_eat_less,Baseline covariate,Baseline covariate or pre-treatment measurement: eat less
+86,X_hungry_did_not_eat,Baseline covariate,Baseline covariate or pre-treatment measurement: hungry did not eat
+86,X_sexual_partners_lifetime,Baseline covariate,Baseline covariate or pre-treatment measurement: sexual partners lifetime
+86,X_sexual_partners_past_month,Baseline covariate,Baseline covariate or pre-treatment measurement: sexual partners past month
+86,YP_colonized_lbp_by_mg_first5w,Primary outcome,Primary outcome: colonized lbp by mg first5w
+86,YS_colonized_lbp_by_mg_final,Secondary outcome,Secondary outcome: colonized lbp by mg final
+86,YS_colonized_lbp_at_mg_final,Secondary outcome,Secondary outcome: colonized lbp at mg final
+86,YS_crispatus_dominance_by_mg_final,Secondary outcome,Secondary outcome: crispatus dominance by mg final
+86,X_nugent_total_score_baseline,Baseline covariate,Baseline covariate or pre-treatment measurement: nugent total score baseline
+86,YS_nugent_total_score_final,Secondary outcome,Secondary outcome: nugent total score final
+86,X_past_week_sex_partner_baseline,Baseline covariate,Baseline covariate or pre-treatment measurement: past week sex partner baseline

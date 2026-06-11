@@ -1,0 +1,88 @@
+Treatment,YP_delta_trunk_impairment_t2,YS_delta_berg_balance_t2,YS_delta_brunel_balance_t2,YS_delta_barthel_t2,YS_delta_rankin_t2,X_center,X_sex,X_height_cm,X_weight_kg,X_age,X_stroke_type,X_stroke_location,X_hemiparesis,X_trunk_impairment_0w,X_berg_balance_0w,X_brunel_balance_0w,X_barthel_0w,X_rankin_0w
+Core stability exercise,8,11,4,40,-2,186,2,165,80,63,1,CEREBRAL,2,8,42,2,60,4
+Control rehabilitation,5,30,0,35,0,158,2,169,94,85,1,ganglis de base dreta,2,2,3,0,30,4
+Core stability exercise,9,4,0,0,-1,158,2,170,80,62,1,ACM dreta,2,7,50,6,100,3
+Core stability exercise,12,30,4,65,-1,232,2,NA,75,85,2,Intraparenquimatoso profundo ganglios basales,1,1,9,0,30,4
+Core stability exercise,6,8,1,20,-1,232,1,NA,NA,70,2,Intracerebral Profundo,1,6,44,3,65,4
+Control rehabilitation,5,0,0,20,0,158,1,170,70,37,2,Lesión ovalada hiperdensa putaminal posterior derecha,2,9,56,6,75,2
+Core stability exercise,1,6,0,5,0,158,2,178,67,68,1,ACM Esquerra,1,2,0,0,20,5
+Control rehabilitation,4,38,3,70,-2,232,2,NA,85,57,1,Vertebrobasilar,2,8,9,0,30,4
+Control rehabilitation,0,24,0,55,0,232,2,NA,83,69,1,Arteria Cerebral Media,2,5,0,0,0,4
+Core stability exercise,6,24,4,25,-1,7,2,165,84,71,1,lacunar derecho,2,7,19,0,40,4
+Control rehabilitation,2,-9,0,25,0,158,2,168,92,85,1,branques profundes ACM Esquerra,1,2,15,0,20,4
+Control rehabilitation,-2,0,0,10,0,158,1,165,65,81,1,ACMitja Esquerra,1,2,0,0,10,5
+Core stability exercise,7,6,1,25,-1,186,2,165,85,64,1,ACM IZQUIERDA,1,8,44,4,50,4
+Control rehabilitation,4,17,4,45,0,186,1,160,73,78,1,ACP D,2,8,30,0,45,4
+Control rehabilitation,4,19,5,15,-3,186,2,165,88,75,2,HEMATOMA PROTUBERANCIAL,2,8,33,0,65,5
+Control rehabilitation,2,12,4,45,-2,186,2,176,81,74,1,NA,1,8,28,0,40,5
+Control rehabilitation,5,2,2,20,-1,186,1,160,60,90,1,ACM DERECHA,2,3,25,0,35,5
+Core stability exercise,4,17,3,40,-2,7,2,162,78,75,1,TERRITORI POSTERIOR LACI,1,6,24,1,40,4
+Core stability exercise,9,4,1,25,0,186,1,150,65,83,1,ARTERIA CEREBRAL MEDIA IZQUIERDA,1,4,29,0,30,5
+Core stability exercise,14,14,6,20,-2,158,2,168,82,57,1,Peduncle cervelletós dret i parietal dret,2,2,37,0,65,4
+Core stability exercise,6,6,0,5,-1,158,1,162,76,90,1,ACM Esquerra,1,8,45,4,75,3
+Control rehabilitation,14,9,4,55,0,158,1,176,92,81,1,ACP esquerra,1,2,33,0,30,4
+Core stability exercise,11,42,3,50,-1,158,2,178,75,85,1,Talàmic Dret,1,1,4,0,30,4
+Control rehabilitation,-1,4,0,0,1,233,2,185,84,46,1,territorio ACM,NA,10,51,6,100,0
+Core stability exercise,7,1,5,15,1,233,2,165,65,77,1,T areteria cerebral media,1,8,44,1,60,3
+Control rehabilitation,0,3,1,-15,0,158,1,162,64,41,1,ACM Dreta,2,4,31,1,70,4
+Core stability exercise,9,16,1,45,-1,186,2,160,NA,73,1,ACM D,2,3,12,0,20,5
+Core stability exercise,10,43,3,20,-2,7,1,143,45,78,1,ICTUS ISQUÈMIC D´ACM DRETA D´ETIOLOGIA INDETERMINADA,2,6,1,0,25,5
+Control rehabilitation,-2,34,2,35,-1,7,2,165,88,52,1,ICTUS ISQUÈMIC LACUNAR TERRITORI ACM DRETA D´ETIOLOGIA ATEROTROMBÒTICA,2,9,12,0,50,3
+Core stability exercise,7,27,6,40,-2,186,2,162,80,67,2,GANGLIOS BASALES,1,6,28,0,60,4
+Core stability exercise,8,5,2,20,0,186,2,163,79,72,1,ACP  D,2,3,6,0,30,5
+Control rehabilitation,5,18,4,45,-1,186,1,160,70,88,1,ictus lacunar isquemico,1,4,21,0,20,5
+Core stability exercise,13,24,1,30,-2,158,1,172,79,84,1,ACA esquerra,1,1,0,0,35,4
+Core stability exercise,6,6,1,-5,-1,2,2,157,117,35,2,Profundo derecho hipertensivo,2,10,50,5,95,3
+Core stability exercise,10,27,3,50,-3,7,1,163,82,78,1,ICTUS ISQUEMIC PACI,1,6,26,1,45,5
+Control rehabilitation,4,11,3,25,0,2,2,180,64,55,1,Hemisferic dret,2,8,39,1,70,3
+Control rehabilitation,7,1,0,10,0,186,2,NA,NA,60,1,ACM DERECHA,2,8,54,6,90,2
+Core stability exercise,7,36,3,30,-1,2,2,169,85,57,1,Profundo,2,4,12,0,40,4
+Core stability exercise,6,3,1,25,0,2,2,168,95,59,1,corona radiata izquierda,1,8,47,5,70,3
+Core stability exercise,NA,NA,NA,NA,NA,2,2,NA,NA,77,1,Hemisférico izquierdo,1,8,NA,NA,NA,3
+Core stability exercise,4,1,1,NA,-1,2,2,167,84,57,1,Lacunar derecho,2,12,52,5,90,3
+Control rehabilitation,1,48,0,10,0,233,2,NA,54,59,1,"territorio art, cerebral media",2,8,6,6,90,2
+Core stability exercise,6,12,1,5,-1,2,2,170,68,70,1,LACUNAR DERECHO,2,10,44,5,90,3
+Control rehabilitation,5,41,1,45,-1,2,2,167,92,47,2,Ganglio Basal Dcho.,2,7,6,0,10,5
+Core stability exercise,NA,NA,NA,NA,NA,158,2,156,60,85,1,arteria cerebral int.,2,10,37,4,75,3
+Control rehabilitation,4,21,3,20,-2,7,1,156,67,70,1,ACM esquerra i segment M2,1,8,20,1,60,4
+Control rehabilitation,5,34,3,45,-3,7,2,160,60,81,2,hematoma intraaxiaxl càpsuloventricular i talàmic D,2,6,2,0,40,5
+Control rehabilitation,NA,NA,NA,NA,NA,158,1,158,48,86,1,carotida interna,2,8,47,1,40,4
+Control rehabilitation,3,-1,0,-5,-1,158,1,170,60,74,2,Artèria cerebral mitja esquerra,1,0,5,0,10,5
+Control rehabilitation,7,15,2,10,0,7,2,172,85,47,1,Lesió vas petit,1,4,34,2,80,2
+Core stability exercise,11,31,0,20,0,158,2,172,66,85,2,capsuloganglionar dret,2,0,3,0,5,4
+Control rehabilitation,6,16,0,40,0,158,2,175,66,57,1,arteria cerebral posterior,2,2,4,0,15,4
+Control rehabilitation,8,7,0,40,-1,7,2,159,80,88,1,TERRITORI ACM ESQUERRA,1,0,0,0,15,5
+Control rehabilitation,5,7,1,5,0,158,2,170,84,75,2,HEMATOMA CEREBELÓS,2,8,35,2,65,4
+Core stability exercise,16,3,0,-15,0,7,2,165,67,62,2,HEMATOMA INTRAPARINQUEMATOS PARIETAL DRET,1,0,0,0,20,5
+Core stability exercise,11,7,2,45,4,7,2,160,49,55,1,Territorio profundo ACMD,2,2,4,0,15,0
+Control rehabilitation,-3,1,0,-5,3,7,2,172,73,79,1,Ictus isquèmic agut ACM esquerra amb estenosi crítica M1 ACM esquerra aterotrombòtic,1,4,6,0,10,2
+Core stability exercise,9,19,5,60,-1,7,1,161,43,48,1,ACME,1,7,33,1,25,4
+Core stability exercise,6,46,3,-50,-2,7,2,170,73,79,1,ACM E,1,8,8,0,65,4
+Core stability exercise,9,1,0,25,-1,2,2,182,76,72,1,ACM Derecha,2,3,6,0,30,5
+Control rehabilitation,NA,NA,NA,NA,NA,158,2,187,83,41,2,hematoma intraparequimatós a centre semioval dret,2,9,42,5,95,3
+Core stability exercise,14,21,3,40,0,2,2,170,83,67,1,ACM Esquerra,1,2,35,1,30,4
+Control rehabilitation,2,7,0,30,0,158,1,168,67,75,1,Bitalàmic,1,10,6,0,5,5
+Control rehabilitation,4,10,1,30,-2,7,1,154,78,74,1,ACM E I LESIÓ SUBAGUDA AL PEDUNCLE CEREBEL·LÓS E,1,7,32,4,45,4
+Core stability exercise,12,2,2,10,-1,2,1,158,56,73,1,ACM IZQUIERDA,1,0,5,0,30,5
+Core stability exercise,4,0,0,-5,0,158,2,170,72,77,1,Infart llacunar capsiular esq.,1,4,0,0,10,5
+Control rehabilitation,4,0,0,25,-1,186,1,163,74,74,1,ARTERIA CEREBRAL MEDIA IZQUIERDA,1,7,56,6,75,3
+Core stability exercise,13,8,1,30,-1,7,1,167,53,67,1,ISQUÈMIC A CÀPSULA INTERNA DRETA I ACI TERMINAL I TRANSFORMACIÓ HEMORRÀGICA A ACA I ACM D,2,0,0,0,5,5
+Core stability exercise,19,-12,0,5,0,7,2,169,83,67,1,INFART LACUNAR TALÀMIC DRET,2,4,15,0,40,4
+Core stability exercise,11,14,-1,15,1,158,2,160,79,77,2,artèria cerebral posterior,2,2,30,3,40,2
+Core stability exercise,10,4,1,20,0,158,1,172,54,75,1,"territori carotidi dret, ACI D i ACA D",2,0,0,0,20,5
+Control rehabilitation,11,2,0,15,-1,158,1,164,63,49,2,artèria cerebral mitja dreta,2,5,54,6,70,3
+Control rehabilitation,-1,0,0,0,0,158,2,162,70,81,1,CAPSULO TALÀMIC DRET,2,1,2,0,20,4
+Control rehabilitation,0,0,0,0,0,2,2,183,67,62,1,ACM D,2,3,2,0,20,5
+Control rehabilitation,19,1,1,55,-2,2,2,NA,NA,64,1,Ganglio-capsular D (ACM D),2,7,53,5,45,4
+Core stability exercise,7,0,0,10,0,158,1,168,72,74,1,fronto insular i temporal dret,2,0,4,0,10,4
+Control rehabilitation,6,23,0,15,-1,158,2,171,80,83,1,arteria cerebral mitja esquerra,1,2,2,0,15,5
+Core stability exercise,3,29,2,40,0,158,1,162,60,78,1,capsulo lenticular esquerra,1,10,16,0,30,4
+Control rehabilitation,10,13,3,20,-1,2,1,155,73,50,1,ACM D,2,4,43,3,65,4
+Control rehabilitation,0,14,0,40,-1,158,1,152,92,78,1,arteria cerebral anterior esquerra,1,2,5,0,20,5
+Control rehabilitation,2,12,1,-5,0,158,1,155,58,90,1,ARTERIA CEREBRAL IZQUIERDA (LACUNAR),1,7,20,1,50,4
+Control rehabilitation,1,5,0,10,0,186,2,165,72,84,1,Arteria cerebral derecha,2,9,48,6,85,3
+Control rehabilitation,6,6,1,30,-1,2,1,162,86,55,1,ACM D,2,5,32,1,20,5
+Control rehabilitation,4,23,4,30,-2,186,2,160,85,76,1,ACM D,2,4,24,0,40,5
+Control rehabilitation,6,20,1,25,0,7,2,172,108,79,1,ICTUS ISQUÈMIC CAPSULAR E. LACI,1,0,4,0,40,4
+Control rehabilitation,-4,2,1,0,-1,186,2,177,70,68,1,ACP IZQUIERDA,1,14,45,4,70,4
+Core stability exercise,9,50,2,55,-1,7,2,171,61,92,1,llacunar capsular E,1,6,4,0,25,4

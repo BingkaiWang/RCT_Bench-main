@@ -1,0 +1,5 @@
+Trial_ID: 62
+Paper Name: Late Conversion of Kidney Transplant Recipients from Ciclosporin to Tacrolimus Improves Graft Function: Results from a Randomized Controlled Trial
+Paper Link: https://doi.org/10.1371/journal.pone.0135674
+Citation: Plischke et al. PLOS One. 2015;10(8):e0135674. doi:10.1371/journal.pone.0135674
+Availability: PDF stored here when publicly available; otherwise this file records the publication link.

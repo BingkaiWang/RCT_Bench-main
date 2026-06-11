@@ -1,0 +1,8 @@
+NO.,Location of the hospital,Group,Random numbers,Age(yr),Diagnosis,(R) Radius of tumor,(E)Exophytic property,(N)Nearness of the deepest portion of the tumor to the collecting system,(A)Anterior/Posterior descriptor,(L)Location relative to the polar line, Hemoglobin, Blood creatinine
+1,Site_5,Telesurgery Group,505,50-59,Renal Cancer,¡Ý7cm,¡Ý50%,4mm-7mm,P,">50% of mass is 
+across polar line
+",139,73
+2,Site_1,Local Surgery Group,27,60-69,Renal Cancer,¡Ü4cm,<50%,¡Ý7mm,A,"Lesion 
+crosses polar 
+line
+",142,58

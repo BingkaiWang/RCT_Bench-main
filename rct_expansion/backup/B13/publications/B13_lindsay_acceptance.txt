@@ -1,0 +1,1104 @@
+Contents lists available at ScienceDirect
+Psychoneuroendocrinology
+journal homepage: www.elsevier.com/locate/psyneuen
+Acceptance lowers stress reactivity: Dismantling mindfulness training in a
+randomized controlled trial
+Emily K. Lindsay a,⁎
+, Shinzen Young b, Joshua M. Smyth c, Kirk Warren Brown d, J. David Creswell a
+a Carnegie Mellon University, United States
+b University of Vermont, United States
+c Pennsylvania State University, United States
+d Virginia Commonwealth University, United States
+ARTICLE INFO
+Keywords:
+Mindfulness
+Acceptance
+Attention
+Stress reactivity
+Mechanisms
+Stress biology
+ABSTRACT
+Objective: Mindfulness interventions, which train practitioners to monitor their present-moment experience with
+a lens of acceptance, are known to bu ﬀer stress reactivity. Little is known about the active mechanisms driving
+these eﬀ ects. We theorize that acceptance is a critical emotion regulation mechanism underlying mindfulness
+stress reduction eﬀ ects.
+Method: In this three-arm parallel trial, mindfulness components were dismantled into three structurally
+equivalent 15-lesson smartphone-based interventions: (1) training in both monitoring and acceptance (Monitor
++ Accept), (2) training in monitoring only (Monitor Only), or (3) active control training (Coping control). 153
+stressed adults (mean age = 32 years; 67% female; 53% white, 21.5% black, 21.5% Asian, 4% other race) were
+randomly assigned to complete one of three interventions. After the intervention, cortisol, blood pressure, and
+subjective stress reactivity were assessed using a modi ﬁed Trier Social Stress Test.
+Results: As predicted, Monitor + Accept training reduced cortisol and systolic blood pressure reactivity com-
+pared to Monitor Only and control trainings. Participants in all three conditions reported moderate levels of
+subjective stress.
+Conclusions: This study provides the ﬁrst experimental evidence that brief smartphone mindfulness training can
+impact stress biology, and that acceptance training drives these eﬀ ects. We discuss implications for basic and
+applied research in contemplative science, emotion regulation, stress and coping, health, and clinical inter-
+ventions.
+1. Introduction
+Mindfulness meditation training has emerged as a leading stress
+reduction approach in recent years ( Creswell and Lindsay, 2014). For
+example, eight-week mindfulness interventions have been shown to
+reduce physiological and subjective reactivity to acute stress challenge
+tasks (Britton et al., 2012; Hoge et al., 2013; Nyklí ček et al., 2013 ). Still,
+little is known about the active mechanisms of mindfulness interven-
+tions that drive these stress reduction e ﬀects. Mindfulness training
+commonly involves using attention to monitor present-moment experi-
+ence while fostering acceptance of one ’s current state ( Bishop et al.,
+2004). One possibility is that acceptance – deﬁned as an orientation of
+noninterference and openness toward momentary sensory experience
+(i.e., thoughts, emotions, body sensations, sights, and sounds) – is a
+critical emotion regulation mechanism ( Hölzel et al., 2011) underlying
+mindfulness training stress reduction e ﬀects ( Lindsay and Creswell,
+2017). In contrast to avoiding, altering, or focusing narrowly on salient
+negative stimuli, acceptance is an attitude of receptivity and equani-
+mity toward all momentary experiences that allows even stressful sti-
+muli to arise and pass without reactivity. Self-reported acceptance skills
+are associated with lower physiological and neural stress reactivity
+(Paul et al., 2013; Shallcross et al., 2013), and emotional acceptance is
+an e ﬀective strategy for regulating negative a ﬀect ( Kohl et al., 2012 )
+that may dampen physiological reactivity to emotional stimuli ( Dan-
+Glauser and Gross, 2015 ). To evaluate the importance of acceptance
+training as a stress reduction mechanism in mindfulness interventions,
+we report the results of the ﬁrst three-arm randomized controlled dis-
+mantling trial that compares a full mindfulness training program
+(Monitor + Accept) to a mindfulness training program without accep-
+tance instructions (Monitor Only) and an active placebo controlled
+program (Coping control).
+Although there are now multiple evidence-based in-person
+http://dx.doi.org/10.1016/j.psyneuen.2017.09.015
+Received 1 May 2017; Received in revised form 13 September 2017; Accepted 14 September 2017
+⁎ Corresponding author at: Carnegie Mellon University, Department of Psychology, 342C Baker Hall, 5000 Forbes Avenue, Pittsburgh, PA 15213, United States.
+E-mail address: elindsay@andrew.cmu.edu (E.K. Lindsay).
+Psychoneuroendocrinology 87 (2018) 63–73
+0306-4530/ © 2017 Elsevier Ltd. All rights reserved.
+T
+mindfulness training interventions demonstrating stress bu ﬀering ef-
+fects (e.g., Mindfulness-Based Stress Reduction (MBSR); Creswell and
+Lindsay, 2014), a range of ‘remote’ (e.g., online; smartphone-based)
+mindfulness interventions are now widely used ( Creswell, 2017;
+Wahbeh et al., 2014). These remote interventions are more accessible,
+inexpensive, and scalable compared to in-person interventions. Several
+studies have demonstrated bene ﬁts of two- to three-week remote
+mindfulness interventions for increasing compassion ( Lim et al., 2015 )
+and reducing general stress perceptions ( Cavanagh et al., 2013; Glück
+and Maercker, 2011 ), but no studies have tested whether brief remote
+mindfulness training reduces acute physiological stress reactivity. The
+present study employed a 15-lesson smartphone intervention to test its
+eﬃ cacy for reducing stress reactivity (Monitor + Accept vs. Coping
+control) and to clarify the underlying components of mindfulness
+training that drive these e ﬀects (Monitor + Accept vs. Monitor Only).
+By o ﬀering a high degree of experimental control (e.g., one instructor
+teaches all treatment programs, content is standardized, social contact
+and discussion is controlled), this smartphone intervention approach
+allowed for an experimental dismantling of the components unique to
+mindfulness training.
+This study tests the primary hypothesis that acceptance training is a
+necessary component for mindfulness intervention stress reduction ef-
+fects. Stressed adults were randomly assigned to receive one of three
+structurally equivalent programs: (1) Monitor + Accept (MA), standard
+mindfulness training with instruction in both monitoring and accep-
+tance techniques, (2) Monitor Only (MO), instructing monitoring
+techniques only, or (3) Coping control, providing guidance in free re-
+ﬂection, analytic thinking, and problem solving.
+1 After the two-week at-
+home intervention period and a pre-stress booster session, stress re-
+activity was assessed using a modi ﬁed Trier Social Stress Test (mTSST;
+Kirschbaum et al., 1993 ); exaggerated cortisol and blood pressure re-
+sponses to acute laboratory stressors are important markers of long
+term health outcomes (e.g., Cohen et al., 2002; Matthews et al., 2004 ).
+This pre-registered trial was designed to test the prediction that
+Monitor + Accept mindfulness training would reduce cortisol, blood
+pressure, and subjective stress reactivity compared to Monitor Only and
+control trainings.
+2. Methods
+2.1. Participants
+Enrolled participants were 153 stressed adults (mean age = 32 -
+years, SD = 14; see Table 1A for baseline characteristics) recruited
+from the Pittsburgh community via participant registries, community
+advertisements, and mass emails to local organizations for a study
+testing smartphone training programs for managing stress. Primary
+study analyses are reported on data available from 144 participants
+who completed study assessments; N = 4 participants discontinued
+before the post-intervention assessment, and N = 5 discontinued par-
+ticipation during the mTSST (see Fig. 1 for CONSORT ﬂow chart). No
+participants withdrew due to adverse e ﬀects.
+The study design and hypotheses described here are pre-registered
+with Clinical Trials identi ﬁer NCT02433431, and this report describes
+the stress reactivity outcome data (secondary trial outcomes). Eligible
+participants were English-speaking smartphone owners (Android or
+iPhone) between the ages of 18 –70 years
+2 who scored > 5 on the 4-item
+Perceived Stress Scale (re ﬂecting higher-than-average perceived stress;
+Cohen et al., 1983; Cohen and Williamson, 1988; Warttig et al., 2013 ).
+To minimize the interference of medical conditions and behaviors on
+primary stress and biological outcomes (and to ensure the safety of
+participants and research sta ﬀ), participant exclusion criteria included:
+chronic mental or physical disease; hospitalization for mental or phy-
+sical illness in the past 3 months; medication use that interferes with
+HPA axis or immune system functioning; current antibiotic, antiviral, or
+antimicrobial treatment; use of oral contraceptives; and travel to
+countries on CDC travel alert list in the past 6 months (for potential
+bloodborne pathogen exposure). Finally, in order to test the e ﬀects of
+developing mindfulness skills in a novice population, those with a
+regular systematic mind-body practice (greater than 2 times per week)
+were excluded. Written informed consent was obtained from all parti-
+cipants, and all study procedures were approved by the Carnegie
+Mellon University IRB. Study data was collected between February
+2015 and April 2016. Trial recruitment was stopped when the goal of
+enrolling 150 participants was reached.
+Previous 8-week mindfulness intervention studies have demon-
+strated a medium e ﬀect size for stress reactivity outcomes (Cohen ’s
+d = 0.63; Nyklíček et al., 2013 ) and pilot 2-week online mindfulness
+training interventions show small-medium e ﬀects on general stress
+perceptions ( d = 0.37–0.46; Cavanagh et al., 2013; Glück and
+Maercker, 2011). Thus, estimating an e ﬀect size of d = 0.52, G*Power
+calculated a total of N = 147 participants needed to detect omnibus
+diﬀerences between three study conditions at 80% power using an
+ANOVA (Faul et al., 2007 ). The stress reactivity data reported here were
+not analyzed until the complete dataset was collected.
+2.2. Procedure
+Brieﬂy, as part of the larger three-arm parallel trial, interested
+participants were pre-screened for eligibility by telephone, then further
+screened at an in-person baseline assessment (which began between
+2:00pm and 6:00pm). Subject IDs were assigned sequentially, and the
+study PI used a random number generator to pre-assign one of three
+condition codes to each ID in blocks of 8, 16, or 24 using a 3-3-2 ran-
+domization sequence (so that for every 8 participants enrolled, 3 were
+assigned to MA, 3 to MO, and 2 to control). Trained study sta ﬀ enrolled
+eligible participants and instructed participants to download their as-
+signed intervention by code (all participants were blind to study con-
+dition, and study sta ﬀ were blind to condition in 76% of baseline ses-
+sions
+3). Enrolled participants provided a dried blood spot (DBS) sample,
+completed a questionnaire and task battery, and were oriented to the at-
+home study assessments and intervention. During three weeks of at-
+home study activities, participants completed three consecutive days of
+pre-intervention experience sampling, a 14-day intervention period (see
+Materials), and three consecutive days of post-intervention experience
+sampling. Participants received study reminder texts and phone calls
+throughout the at-home period, and were able to call or text our study
+hotline to ask questions or resolve technical issues. DBS and experience
+sampling outcomes will be reported in other manuscripts.
+The mTSST stress reactivity ﬁndings described in this report were
+assessed at post-intervention. Participants returned for this assessment
+between 2:00pm and 6:00pm to control for diurnal variation in cortisol
+(mean = 3:51pm; no di ﬀerences between conditions: F(2,145) = 0.30,
+p> 0.250). The appointment was an average of 4.66 days (SD = 1.88)
+after the at-home intervention (range: 3-12 days, with 86% of ap-
+pointments occurring within 5 days; see Table 2). In 89% of post-in-
+tervention sessions, experimenters were blind to study condition.
+Participants ﬁrst provided a DBS sample and then were seated, ﬁtted
+with a blood pressure cu ﬀ, and administered a post-intervention
+questionnaire and task battery (not reported here). During this time, the
+1 Mindfulness is conceptualized in relation to present moment experience, and as we
+later discuss, because this study was designed to test whether acceptance modi ﬁes one ’s
+relationship to momentary experience ( Lindsay and Creswell, 2017 ) in ways that reduce
+stress reactivity, we did not develop an Acceptance Only comparison program.
+2 While initial plans involved enrolling an older sample, due to recruitment di ﬃ culties,
+the eligible age range was expanded after enrolling four participants.
+3 Study managers who contacted participants during the intervention period were not
+blind to condition code. Study managers also served as experimenters in cases when blind
+research assistants were unavailable (e.g., during semester breaks). All mTSST evaluators
+were blind to condition.
+E.K. Lindsay et al.
+Psychoneuroendocrinology 87 (2018) 63–73
+64
+pre-stress blood pressure (BP) reading (starting ∼10 min after arrival)
+and a pre-stress saliva sample ( ∼25 min after arrival) for cortisol as-
+sessment were taken (see Measures). A modi ﬁed version of the Trier
+Social Stress Test (mTSST; Kirschbaum et al., 1993 ) was used to ma-
+nipulate social-evaluative stress reactivity in a controlled laboratory
+setting. Participants heard pre-recorded instructions (2.5 min in length)
+for the speech performance ( “defend yourself against a false shoplifting
+charge”; Cohen et al., 2002; Franzen et al., 2011 ) and were given three
+minutes to mentally prepare for the speech (BP Preparation period).
+Then, the lights were dimmed for a 20-min booster training based on
+condition assignment (BP Training period; see Interventions for addi-
+tional detail).
+Next, two evaluators (blind to study condition) dressed in white lab
+coats and carrying clipboards administered the mTSST (BP Performance
+period). Participants were videotaped giving a 5-min speech (mTSST
+speech) and performing 5 min of mental arithmetic (counting back-
+wards from 2083 by 17s; mTSST math). Evaluators maintained a cold
+and non-accepting attitude, giving critical feedback during the speech
+task and pointing out errors during the math task. Participants com-
+pleted subjective stress ratings after the mTSST speech and after the
+mTSST math portions of the task (see Measures). If a participant ex-
+pressed any desire to quit during the mTSST, an evaluator con ﬁrmed by
+asking, “Would you like to discontinue the task? ” and, if a ﬃ rmed, the
+experimenter returned to the room for debrie ﬁng. Otherwise, partici-
+pants remained seated for a 5-min recovery period (BP Recovery
+period), after which the experimenter returned and removed the blood
+pressure cu ﬀ. Participants then completed several post-mTSST ques-
+tionnaires and tasks. Saliva samples were taken exactly 25 and 35 min
+after the start of the mTSST to measure peak cortisol reactivity.
+After all outcome measures were collected, participants ﬁlled out a
+training program evaluation. They were then funnel debriefed to probe
+for suspicion about the evaluators and were fully debriefed on the
+nature of the mTSST to reduce distress (that the task was designed to be
+stressful, the evaluators were trained to be critical, and their own
+performance was normative). Participants were informed of the pri-
+mary aims of the study (to test the active ingredients of mindfulness
+training), were given access to the training program of their choice, and
+were compensated for their time. A ﬁnal saliva sample for cortisol assay
+was taken exactly 60 min after the start of the mTSST.
+2.3. Materials
+2.3.1. Intervention programs
+Participants were randomly assigned to receive one of three 15-
+lesson smartphone-based interventions (described below and in
+Supplementary Table 1 in Appendix A ): Monitor + Accept, Monitor
+Only, or Coping control. To maximize experimental control in isolating
+the e ﬀects of monitoring and acceptance instruction, all three inter-
+ventions were delivered by the same female voice (an experienced
+meditation instructor) and were matched on attentional demand,
+length, structure, and delivery tone. To equalize expectancies at the
+baseline appointment, all participants viewed the same 5-min in-
+troductory video explaining how to prepare for and what to expect in
+the training program, and “mindfulness” was not mentioned during the
+study period. During the 14-day at-home intervention period, partici-
+pants were expected to complete one 20-min audio lesson (tied to their
+condition assignment) each day, plus brief homework practice
+(3–10 min per day). Participants were required to complete lessons in
+order and could not skip or repeat lessons. Each lesson trained speci ﬁc
+techniques through didactic explanation (what the technique was and
+how it would help), guided practice, and self-guided practice. An un-
+blinded study manager contacted all participants by phone on Days 3
+and 9 of the intervention program to answer training-speci ﬁc
+questions,
+address di ﬃ culties, and encourage program adherence. After the 14-
+day intervention period, the training program was deactivated (al-
+though a training program of choice was provided upon study com-
+pletion).
+An average of four to ﬁve days after the 14-day intervention period,
+participants received a 20-min booster training (lesson 15) during the
+post-intervention assessment (before the mTSST). Each booster lesson
+began by addressing the upcoming performance task, encouraging
+participants to apply the skills learned throughout the course during
+this challenge; the lesson then presented guided content from the
+training course that best represented the targeted skills. Guidance was
+interspersed with silent practice in 30- to 120-s blocks, totaling an
+average of 13 min of silence (13.5 min in MA, 12.5 min in MO,
+12.5 min in control).
+The intervention programs were developed in collaboration with
+leading mindfulness teacher Shinzen Young and were based on his
+Uniﬁed Mindfulness system ( Young, 2016b ). MA and MO were de-
+signed to systematically parse mindfulness instruction in (1) monitoring
+Table 1A
+Baseline characteristics of randomized participants.
+Characteristic Full Sample (N = 153) Monitor + Accept (N = 58) Monitor Only (N = 58) Control (N = 37) Condition Di ﬀerence Statistic
+Age in years 32.42 (13.68) 32.76 (14.21) 32.64 (12.93) 31.54 (14.31) F(2,150) = 0.10
+Sex χ2(2) = 0.75
+Female 103 (67.32%) 39 (67.24%) 41 (70.69%) 23 (62.16%)
+Male 50 (32.68%) 19 (32.76%) 17 (29.31%) 14 (37.84%)
+Race χ
+2(8) = 14.49
+American Indian/Alaska Native 1 (0.65%) 0 (0.00%) 0 (0.00%) 1 (2.70%)
+Asian 33 (21.57%) 15 (25.86%) 13 (22.41%) 5 (13.51%)
+Black/African American 33 (21.57%) 14 (24.14%) 16 (27.59%) 3 (8.11%)
+White/Caucasian 81 (52.94%) 28 (48.28%) 28 (48.28%) 25 (67.57%)
+Bi- or Multi-Racial 5 (3.27%) 1 (1.72%) 1 (1.72%) 3 (8.11%)
+Ethnicity χ
+2(2) = 1.40
+Hispanic or Latino 7 (4.58%) 2 (3.45%) 2 (3.45%) 3 (8.11%)
+Not Hispanic or Latino 146 (95.42%) 56 (96.56%) 56 (96.56%) 34 (91.89%)
+Education Level χ2(14) = 14.26
+GED 3 (1.96%) 1 (1.72%) 1 (1.72%) 1 (1.72%)
+High School Diploma 20 (13.07%) 9 (15.52%) 10 (17.24%) 1 (2.70%)
+Technical Training 1 (0.65%) 1 (0.65%) 0 (0.00%) 0 (0.00%)
+Some College 41 (26.80%) 15 (25.86%) 12 (20.69%) 14 (37.84%)
+Associate Degree 10 (6.54%) 4 (6.90%) 2 (3.45%) 4 (10.81%)
+Bachelor’s Degree 48 (31.37%) 15 (25.86%) 21 (36.21%) 12 (32.43%)
+Master’s Degree 26 (16.99%) 10 (17.24%) 11 (18.97%) 5 (13.51%)
+MD, PhD, JD, PharmD 4 (2.61%) 3 (5.17%) 1 (1.72%) 0 (0.00%)
+Body Mass Index (BMI)
+a 24.96 (5.38) 24.64 (4.81) 25.32 (5.64) 24.90 (5.88) F(2,148) = 0.23
+E.K. Lindsay et al. Psychoneuroendocrinology 87 (2018) 63–73
+65
+and (2) acceptance. See Supplementary Table 1 in Appendix A for an
+outline of lesson content in each training condition. Full intervention
+scripts are available for research purposes by request.
+2.3.1.1. Monitor + Accept (MA) . MA participants ﬁrst learned
+foundational concentration skills, which enabled them to (1) monitor
+their present-moment body experience (in the lessons, this skill was
+referred to as ‘sensory clarity’) while (2) welcoming and accepting each
+experience (referred to as ‘equanimity’). Speciﬁcally, concentration was
+described as an intrinsically rewarding state of stable attention (cf.
+Csikszentmihalyi, 2000) on the intended target (in this intervention, the
+focus was physical and emotional body experiences; e.g., physical
+sensations on the skin, muscle sensations, ongoing physiology,
+temperature changes, sleepiness, etc., as well as body sensations
+related to emotions, such as anger, fear, sadness, impatience, interest,
+joy, enthusiasm, anxiety, etc.). Monitoring ( ‘sensory clarity ’) was
+explained in terms of two dimensions: resolution ( discriminating types
+of experiences; e.g., pleasant, unpleasant, neutral; physical vs.
+emotional; level of intensity; locations and movement patterns of
+sensations) and sensitivity ( detecting subtle sensations; e.g., faint
+sensations related to pleasant activities and emotions; ﬂeeting waves
+of unpleasant emotions). Acceptance ( ‘equanimity’) was trained
+through three tangible strategies that embody the attitude of
+acceptance: participants were encouraged to (a) maintain a state of
+global body relaxation,
+4 (b) mentally welcome all physical and emotional
+body experiences, and (c) use a gentle, matter-of-fact tone of voice (an
+‘equanimity tone ’) while labeling these experiences.
+2.3.1.2. Monitor Only (MO). The MO program trained participants only
+to concentrate on and (1) monitor physical and emotional body
+experience (as described above), with no instruction on acceptance
+2.3.1.3. Coping control . The Coping control training program (referred
+Fig. 1. CONSORT ﬂow chart.
+4 In contrast to systematically relaxing each part of the body, the encouragement to
+maintain a sense of relaxation throughout the body − while simultaneously allowing and
+accepting physical tension and uncomfortable experiences − is a strategy that creates
+openness to sensory experiences and cultivates nonreactivity and noninterference.
+E.K. Lindsay et al. Psychoneuroendocrinology 87 (2018) 63–73
+66
+to in the lessons as ‘MyTime’) was developed to parallel the structure of
+MA and MO without encouraging focus on or acceptance of present
+experience. Instead, participants were instructed to freely re ﬂect and let
+their minds drift (in contrast to concentration developed in MA and
+MO), reframe or reappraise past and anticipated events (with past and
+future emphasis contrasting present-focused monitoring, and change
+strategies contrasting acceptance strategies), and analyze and solve
+personal problems (again encouraging active change rather than
+acceptance of momentary experiences). Although positive reappraisal
+may be a downstream consequence of practicing mindfulness (cf.
+Garland et al., 2015 ), reappraisal is a change-based strategy that is
+not trained in mindfulness or acceptance-based interventions (cf.
+Hayes, 2004) and is therefore suitable as a comparison technique.
+The Coping control program was designed to be useful for managing
+stress (reinforcing common reappraisal and coping strategies; cf. Carver
+et al., 1989; Ochsner and Gross, 2005 ) without training mindfulness
+and was included to control for nonspeci ﬁce ﬀects of undergoing a
+training program (e.g., treatment expectancies, daily time and e ﬀort
+toward the goal of reducing stress). Overall, this active Coping control
+program was expected to modestly reduce subjective stress reactivity
+and minimally reduce biological stress reactivity.
+2.3.2. Measures
+2.3.2.1. Treatment adherence . The smartphone training application
+automatically timestamped the initiation and completion of each
+lesson in the 14-day at-home training period. This electronic
+timestamp was used to calculate the total number of at-home lessons
+completed for each individual.
+2.3.2.2. Treatment expectancies . To evaluate whether all three training
+programs produced equivalent perceived treatment bene ﬁts,
+participants completed an adapted 6-item Credibility/Expectancy
+Questionnaire ( Devilly and Borkovec, 2000 ) to assess their beliefs
+about the e ﬃ cacy of the training program at post-intervention (but
+before beginning the mTSST procedures). Logical (e.g., “how successful
+do you think this program was in reducing your stress symptoms? ”) and
+emotional (e.g., “how much improvement in your symptoms do you
+really feel occurred? ”) subscales were averaged to create an overall
+measure of positive treatment expectancies (Cronbach’ s α = 0.95).
+2.3.2.3. Salivary cortisol . Four saliva samples were collected using
+Salivettes (Rommelsdorf, Germany): (1) at the beginning of the ﬁnal
+study appointment (an average of 26 min after arrival), (2) 25 min after
+the mTSST start (an average of 81 min after the pre-stress sample was
+collected), (3) 35 min after mTSST start, and (4) 60 min after mTSST
+start. Participants held Salivettes in their mouths for two minutes
+during each collection period, and did not touch the samples with their
+hands. Bottled water was provided during the session to increase
+hydration and help avoid sample loss due to lack of saliva, but water
+was removed 10 min before each sample collection. Salivettes were
+stored at −20 °C in a secure laboratory freezer. Samples were shipped
+in one batch to Dresden, Germany for cortisol measurement. Cortisol
+was measured using a high sensitivity chemoluminescence-immuno-
+assay (IBL International, Hamburg, Germany). Intra- and inter-assay
+coeﬃ cients of variability in this laboratory are typically below 10%. Of
+the 576 samples collected from mTSST completers, 5.73% of Salivettes
+did not contain enough saliva to assay.
+2.3.2.4. Blood pressure . Oscillometric blood pressure was collected
+using an automatic sphygmomanometer (Dinamap Carescape V100,
+General Electric Company, Finland). Systolic (SBP) and diastolic (DBP)
+blood pressure were recorded at 2-min intervals during ﬁve
+experimental
+epochs. Averages of these 2-min readings were
+calculated during a 5-min Pre-Stress epoch (an average of 12 min
+after arrival), the 3-min mTSST speech Preparation epoch (an average
+of 41 min after the Pre-Stress recording), the 20-min booster Training
+epoch, the 12-min mTSST Performance epoch, and a 5-min Recovery
+epoch directly after the mTSST. Participants were seated throughout
+the blood pressure measurement. Due to equipment malfunction, data
+for one epoch was missing for N = 4 participants (preparation or
+recovery), data from two epochs was missing for N = 1 participant
+(performance and recovery), and data from four epochs was missing for
+N = 1 participant (preparation through recovery).
+2.3.2.5. Subjective stress reactivity . During the mTSST procedure,
+participants used visual analog scales to rate their perceptions of
+stress immediately after the 5-min speech task and again immediately
+after the 5-min math task ( Creswell et al., 2014; Hellhammer and
+Schubert, 2012 ). Speci ﬁcally, after each task, participants indicated
+how stressed, anxious, and insecure they felt by drawing a slash mark
+on a 140 mm line from 0 (not at all) to 100 (highly) (with intermediate
+anchors at 25, 50, and 75). Distance from 0 was measured in
+centimeters, divided by 14, and multiplied by 100 to create a stress
+percentage score for each item. One composite subjective stress
+reactivity score was created by averaging all six ratings (Cronbach ’s
+α = 0.90), with higher values representing greater stress perceptions.
+Table 2
+mTSST stress reactivity outcomes in each condition.
+Outcome mTSST Sample (N = 144) Monitor + Accept (N = 55) Monitor Only (N = 54) Control (N = 35) Condition Di ﬀerence Statistic
+Log Cortisol (AUC-I) a 16.20 −2.25 23.23 27.62 F(2,140) = 3.20 *
+(EM estimation) [5.62, 26.78] [−19.06, 14.56] [6.31, 40.16] [6.60, 48.64]
+Log Cortisol a 1.27 1.04 1.31 1.54 χ2(2) = 9.09*
+(25 min post-mTSST; N = 136) [1.14, 1.39] [0.83, 1.25] [1.10, 1.51] [1.28, 1.80]
+Log Cortisol a 1.15 0.91 1.21 1.40 χ2(2) = 8.18*
+(35 min post-mTSST; N = 135) [1.01, 1.28] [0.69, 1.13] [0.99, 1.43] [1.13, 1.68]
+Log Cortisol a 0.80 0.62 0.85 1.02 χ2(2) = 4.01
+(60 min post-mTSST; N = 135) [0.65, 0.96] [0.37, 0.87] [0.60, 1.10] [0.71, 1.33]
+Systolic BP (mmHg) 139.89 134.51 140.93 146.64 χ
+2(2) = 11.71*
+(mTSST Performance; N = 142) [137.18, 142.60] [130.12, 138.91] [136.51, 145.35] [141.12, 152.15]
+Diastolic BP (mmHg) 81.36 78.57 82.76 83.56 χ2(2) = 7.67*
+(mTSST Performance; N = 142) [79.80, 82.93] [76.04, 81.10] [80.21, 85.30] [80.38, 86.73]
+Subjective Stress Reactivity 49.54 48.53 48.52 51.55 F(2,141) = 0.22
+(mTSST Performance b) [45.55, 53.52] [42.23, 54.84] [42.16, 54.88] [43.65, 59.46]
+Note: Data are reported as means [95% Con ﬁdence Interval]. AUC-I = Area Under the Curve with respect to Increase; EM = Expectation Maximization; mTSST = modi ﬁed Trier Social
+Stress Test; BP = Blood Pressure.
+a Data adjusted for follicular phase (menstrual cycle days 4 –12 vs. all else).
+b Average of subjective stress ratings following Speech & Math tasks.
+* p < 0.05.
+E.K. Lindsay et al. Psychoneuroendocrinology 87 (2018) 63–73
+67
+2.4. Analyses
+Analyses were conducted with SPSS Statistics 23.0 software (IBM,
+Armonk, New York) and Stata/SE 14.0 (StataCorp, College Station,
+Texas). Preliminary analyses (conducted in SPSS) evaluated baseline
+success of randomization using chi-square (for categorical variables)
+and ANOVA tests (for continuous variables). The measure of treatment
+expectancies was evaluated as a covariate using ANOVA to test for
+signiﬁcant di ﬀerences between conditions. ANOVAs were also used to
+test for condition di ﬀerences in treatment adherence, post-intervention
+procedures, and pre-stress cortisol and blood pressure. Finally, pre-
+liminary analyses checked the success of the mTSST in inducing phy-
+siological stress; speci ﬁcally, paired-samples t tests tested for di ﬀer-
+ences between pre-stress and peak mTSST cortisol and BP reactivity
+across the entire sample.
+To test primary study predictions, ANOVAs (in SPSS) and Mixed
+Linear Models (MLMs; in Stata) tested for condition di ﬀerences on
+stress reactivity outcomes. MLMs are robust to missing data because
+they model all available data, and were used for analyses that included
+time as a within-subject variable. Variables of interest (time, study
+condition) were modeled as ﬁxed e ﬀects using maximum likelihood
+estimation. The repeated measures variable (time) was modeled with an
+unstructured covariance structure, with pre-stress values used as the
+ﬁrst repeated measure to test for time interactions with the predictor
+variable (study condition). If included, covariates were modeled as
+ﬁxed e ﬀects. Within each MLM, omnibus tests of condition di ﬀerences
+at each mTSST reactivity time point were conducted, and pairwise
+comparisons contrasted MA vs. MO and control at each time point
+(accounting for pre-stress levels).
+2.4.1. Cortisol reactivity analyses
+First, because they were not normally distributed, raw cortisol va-
+lues were natural-log-transformed at each of four time points. Then,
+intervention condition di ﬀerences in cortisol reactivity were tested in
+two steps. Area under the curve with respect to increase (AUC-I) was
+calculated with a trapezoid formula ( Pruessner et al., 2003) that sub-
+tracts out the pre-stress cortisol level in order to measure reactivity (i.e.,
+increase in cortisol from pre-stress levels): (cortisol 1 + cortisol 2)*81
+mins/2 + (cortisol 2 + cortisol 3)*10 mins/2 + (cortisol 3 + cortisol
+4)*25 mins/2–cortisol 1*(81 + 10 + 25). As this formula requires data
+at all four time points, and one or more values was missing from
+N = 14 (9.72%) participants, the Expectation Maximization (EM) al-
+gorithm (based on all available cortisol data) was used to replace
+missing values before calculating a total AUC-I for each participant. An
+ANCOVA then tested for condition di ﬀerences in cortisol AUC-I and
+pairwise comparisons contrasted MA with MO and control training.
+Then, an MLM (which requires no missing data imputation) tested for
+condition di ﬀerences in cortisol reactivity over time (pre-stress, 25-,
+35-, and 60-min post-mTSST), as well as omnibus and pairwise
+diﬀerences at each post-mTSST time point (accounting for pre-stress
+levels). As menstrual cycle phase is known to impact cortisol reactivity
+(Kirschbaum et al., 1999 ), all cortisol analyses controlled for follicular
+stage on the day of the post-intervention session (women on menstrual
+cycle days 4 –12 vs. all others, including men and post-menopausal
+women).
+2.4.2. BP reactivity analyses
+Intervention condition di ﬀerences in SBP and DBP reactivity were
+tested in MLMs focusing on the interaction between study condition and
+time (pre-stress, preparation, training, performance, and recovery
+epochs), using all available data. Follow-up analyses within each MLM
+tested for omnibus and pairwise condition di ﬀerences in peak BP re-
+activity
+during the mTSST performance epoch (accounting for pre-stress
+levels), the main contrast of interest.
+2.4.3. Subjective stress reactivity analyses
+ANOVAs were used to test for condition di ﬀerences in subjective
+stress reactivity.
+3. Results
+3.1. Preliminary analyses
+First, success of randomization on major demographic character-
+istics in the full randomized sample (N = 153) was evaluated. There
+were no pre-existing condition di ﬀerences on age, sex, race, ethnicity,
+education, or body mass index (BMI) (see Table 1A for details).
+Second, condition di ﬀerences in the intervention and post-inter-
+vention assessment protocol were tested among participants who re-
+turned at post-intervention (N = 149; see Fig. 1 and Table 1B for de-
+tails). Participants in all conditions were highly adherent to the training
+programs, with no condition di ﬀerences in treatment adherence ( F
+(2,146) = 0.40, p> 0.250). On average, participants completed 13.49
+of the 14 at-home lessons, and 75% of participants completed all 14
+lessons (1.3% of participants completed fewer than 10 lessons). All
+participants who returned for the post-intervention assessment received
+booster lesson 15. There were no condition di ﬀerences in treatment
+expectancies ( F(2,146) = 1.55, p = 0.216), indicating similar percep-
+tions of treatment bene ﬁts across all three training conditions, and
+additional analyses that included treatment expectancies as a covariate
+did not appreciably impact any of the primary outcomes (data not
+shown). At the post-intervention assessment, there were no condition
+diﬀerences in pre-stress raw or log-transformed cortisol levels (see
+Table 1B ), time of ﬁrst cortisol sample ( M = 4:18pm, SD = 1:37; F
+(2,145) = 0.28, p> 0.250), or time of peak cortisol sample
+(M = 5:40pm, SD = 1:37; F(2,144) = 0.22, p> 0.250). Similarly,
+there were no condition di ﬀerences in pre-stress systolic or diastolic
+blood pressure at the post-intervention assessment (see Table 1B ).
+Table 1B
+Characteristics of full sample of participants at post-intervention assessment.
+Characteristic Full Sample (N = 149) Monitor + Accept (N = 56) Monitor Only (N = 56) Control (N = 37) Condition Di ﬀerence Statistic
+Intervention Adherence b 13.49 (1.20) 13.44 (1.52) 13.60 (0.91) 13.39 (1.04) F(2,146) = 0.40
+Post-Intervention days elapsed c 4.66 (1.88) 4.61 (1.60) 4.46 (1.72) 5.03 (2.43) F(2,146) = 1.03
+Treatment Expectancies 5.37 (1.90) 5.71 (1.77) 5.26 (2.02) 5.05 (1.86) F(2,146) = 1.55
+Pre-Stressd Raw Cortisol (nmol/l) e 3.13 (2.13) 3.27 (2.39) 2.75 (1.36) 3.49 (2.62) F(2,137) = 1.49
+Pre-Stressd Log Cortisol (nmol/l) e 0.95 (0.62) 0.96 (0.66) 0.89 (0.51) 1.02 (0.69) F(2,137) = 0.53
+Pre-Stressd SBP (mmHg) 113.66 (13.27) 111.94 (9.79) 113.82 (15.37) 116.05 (14.37) F(2,146) = 1.07
+Pre-Stressd DBP (mmHg) 66.48 (9.11) 65.17 (6.65) 67.35 (10.65) 67.14 (9.80) F(2,146) = 0.93
+Note: Data are reported as means (SD) or numbers (%). SBP = Systolic Blood Pressure; DBP = Diastolic Blood Pressure.
+aData for N = 151 with BMI available.
+b Number of lessons completed of the 14 at-home lessons.
+c Number of days elapsed between end of 14-lesson at-home intervention and post-intervention assessment.
+d ‘Pre-Stress’ refers to resting levels at the post-intervention assessment before modi ﬁed Trier Social Stress Test administration.
+e Data for N = 140 participants with saliva available. *p < 0.05.
+E.K. Lindsay et al. Psychoneuroendocrinology 87 (2018) 63–73
+68
+In a ﬁnal set of preliminary analyses, paired-samples t tests de-
+monstrated the e ﬃ cacy of the mTSST manipulation in producing a
+physiological stress response. Across all participants with pre-stress and
+peak (25 min post-mTSST onset) saliva samples (N = 135), there was a
+signiﬁcant increase in log cortisol from pre-stress to peak reactivity ( t
+(134) = −4.06, p< 0.0005, d = 0.61), con ﬁrming that the mTSST
+produced a signi ﬁcant neuroendocrine stress response. Similarly, there
+were signi ﬁcant increases in SBP ( t(141) = −23.32, p< 0.0005,
+d = 1.59) and DBP ( t(141) = −23.56, p< 0.0005, d = 1.54) from
+pre-stress to mTSST performance, con ﬁrming that the mTSST produced
+a signi ﬁcant cardiovascular stress response.
+3.2. Primary analyses
+3.2.1. Cortisol reactivity
+First, to evaluate the hypothesis that MA training would reduce
+cortisol reactivity in response to the mTSST to a greater degree than MO
+and control trainings, an ANOVA tested for condition di ﬀerences in log
+cortisol AUC-I (replacing missing data with EM estimated values) and
+an MLM tested for time × condition interactions in log cortisol (using
+all available data). All cortisol analyses included follicular phase as a
+covariate. There was a signi ﬁcant e ﬀect of study condition on log cor-
+tisol AUC-I ( F(2,140) = 3.20, p = 0.044; see Table 2 for descriptive
+statistics). Speci ﬁcally, MA-trained participants had signi ﬁcantly lower
+log cortisol AUC-I than MO- and control-trained participants (MA vs.
+MO: F(1,140) = 4.44, p = 0.037, d = 0.40; MA vs. control: F(1,140)
+= 4.79, p = 0.030, d = 0.47). Second, using all available data, an
+MLM revealed a signi ﬁcant main e ﬀect of time across study conditions
+(χ
+2(3) = 176.65 ,p < 0.0005), a signi ﬁcant main e ﬀect of study con-
+dition across all four time points ( χ2(2) = 6.25, p = 0.044), and, con-
+sistent with our primary predictions, a signi ﬁcant time × condition
+eﬀect on log cortisol ( χ2(6) = 12.80, p = 0.046). Fig. 2 depicts this
+time × condition interaction. Within this MLM (which accounts for
+pre-stress cortisol levels), planned comparisons showed that MA-trained
+participants had signi ﬁcantly lower log cortisol at 25- and 35-min post-
+mTSST compared to MO-trained participants (25-min: χ2(1) = 6.05,
+p = 0.014, d = 0.50; 35-min: χ2(1) = 6.26, p = 0.012, d = 0.51) and
+control-trained participants (25-min: χ2(1) = 7.26, p = 0.007,
+d = 0.62; 35-min: χ2(1) = 5.98, p = 0.015, d = 0.55) (see Table 2 ).
+There were no signi ﬁcant diﬀerences in cortisol reactivity between MO
+and control interventions at any measurement point (all ps > 0.250).
+3.2.2. BP reactivity
+MA training was also hypothesized to signi ﬁcantly reduce BP stress
+reactivity compared to MO and control trainings. To test for condition
+diﬀerences in SBP, an MLM using all available data revealed a sig-
+niﬁcant main e ﬀect of time ( χ2(4) = 1066.22, p< 0.0005), a sig-
+niﬁcant main eﬀect of study condition ( χ2(2) = 6.45, p = 0.040), and a
+marginal time × condition interaction ( χ2(8) = 14.91, p = 0.061).
+Fig. 3A depicts the time × condition interaction on SBP. Consistent
+with predictions, there were signi ﬁcant condition di ﬀerences in SBP
+during the mTSST Performance period (see Table 2). Planned com-
+parisons (accounting for pre-stress SBP) showed that MA-trained par-
+ticipants had signi ﬁcantly lower SBP during the mTSST Performance
+compared to MO- and control-trained participants (MA vs. MO: χ2(1)
+= 4.34, p = 0.037, d = 0.41; MA vs. control: χ2(1) = 10.16, p=0.001,
+d=0.72). MA-trained participants also had signi ﬁcantly lower SBP
+during the mTSST recovery period compared to control participants
+(χ2(1) = 4.77, p=0.029, d=0.48).
+An MLM using all available data did not support our hypothesis that
+MA training would signi ﬁcantly reduce DBP reactivity; there was a
+signiﬁcant main e ﬀect of time ( χ2(4) = 660.48, p< 0.0005), no main
+eﬀect of study condition ( χ2(2) = 4.18, p=0.124), and no time × -
+condition interaction on DBP ( χ2(8) = 10.52, p=0.230) across the
+post-intervention assessment (see Fig. 3B). Although there were sig-
+niﬁcant condition di ﬀerences in DBP during the mTSST Performance
+period in isolation (with signi ﬁcant contrasts between MA vs. MO:
+χ2(1) = 5.23, p=0.022, d=0.45, and MA vs. control: χ2(1) = 5.80,
+p=0.016, d=0.53; see Table 2), planned comparisons that account for
+pre-stress DBP showed no di ﬀerences between MA-trained participants
+compared to MO- and control-trained participants (MA vs. MO: χ2(1)
+= 1.68, p=0.195, d=0.25; MA vs. control: χ2(1) = 2.63, p=0.105,
+d=0.35).
+We had no speci ﬁc hypotheses comparing MO vs. control, and MO-
+trained participants did not have signi ﬁcantly lower SBP reactivity
+(χ2(1) = 1.82, p=0.177, d=0.26) or DBP reactivity ( χ2(1) = 0.23,
+p> 0.250, d=0.09) during the mTSST Performance period compared
+to control-trained participants.
+3.2.3. Subjective stress reactivity
+Finally, an ANOVA tested the hypothesis that MA training would
+reduce subjective stress reactivity compared to MO and control
+training. Contrary to this prediction, there were no condition
+Fig. 2. Log salivary cortisol a during the post-inter-
+vention assessment as a function of study condition.
+Note: Error bars re ﬂect ± 1 standard error. Shaded
+area highlights modi ﬁed Trier Social Stress Test
+(mTSST) Performance period.
+aData adjusted for follicular phase (cycle days 4 –12
+vs. not).
+E.K. Lindsay et al. Psychoneuroendocrinology 87 (2018) 63–73
+69
+diﬀerences in average subjective stress reactivity (see Table 2).
+4. Discussion
+Acceptance training has been theorized as an essential component
+of mindfulness interventions for improving a ﬀective reactivity, stress,
+and health outcomes ( Lindsay and Creswell, 2017 ), but no mechanistic
+dismantling studies have tested this hypothesis. This study provides the
+ﬁrst experimental evidence that acceptance is a critical component of
+mindfulness training for reducing biological stress reactivity; without
+acceptance training (i.e., in the Monitor Only training condition),
+mindfulness stress bu ﬀering e ﬀects are diminished or eliminated. Spe-
+ciﬁcally, Monitor + Accept training reduced both neuroendocrine
+(salivary cortisol) and sympathetic nervous system (systolic blood
+pressure only) stress reactivity biomarkers compared to Monitor Only
+and control training. Acceptance may help to regulate stress reactivity
+by facilitating the acknowledgement of ( Teper and Inzlicht, 2013 ) and
+subsequent disengagement from (i.e., letting go; Vago and Nakamura,
+2011) all momentary sensory experiences, even di ﬃ cult or stressful
+ones.
+This study has a number of notable features. It is the ﬁrst study to
+show that brief smartphone-based mindfulness training can impact
+objective biological stress outcomes. This smartphone format also
+provided a platform for dismantling the active components of mind-
+fulness training, which allowed us to address mechanistic questions. By
+tightly controlling the intervention content, we were able to observe the
+unique contributions of attention monitoring and acceptance training
+beyond non-mindfulness-speci ﬁc treatment elements (i.e., stress man-
+agement and reappraisal skills in the placebo comparison program).
+Additionally, study attrition using this brief smartphone approach was
+much lower than the typical rates observed in longer group-based
+mindfulness programs (3% in this study) and program adherence was
+Fig. 3. A. Systolic blood pressure responses during
+the post-intervention assessment as a function of
+study condition.
+B. Diastolic blood pressure responses during the
+post-intervention assessment as a function of study
+condition.
+Note: Error bars re ﬂect ± 1 standard error. Shaded
+area highlights modi ﬁed Trier Social Stress Test
+(mTSST) Performance period.
+E.K. Lindsay et al. Psychoneuroendocrinology 87 (2018) 63–73
+70
+high (96%). The generalizability of this approach is somewhat limited
+by disparities in smartphone ownership (among lower SES and older
+adults; Poushter, 2016 ), although smartphone ownership continues to
+rise in these populations (e.g., increasing 12 percentage points among
+both lower-income and older Americans from 2015 to 2016; Smith,
+2017). Moreover, program adherence would likely be lower outside the
+context of a structured study intervention ( Rahmati et al., 2012). Still,
+these ﬁndings demonstrate value in implementing smartphone-based
+mindfulness interventions for a large proportion of stressed adults who
+lack resources for more expensive, intensive, and potentially in-
+accessible in-person mindfulness programs.
+The present ﬁndings have important basic and applied implications.
+Among mindfulness intervention researchers and contemplative scien-
+tists, this study contributes evidence to an ongoing debate about the
+importance of acceptance in contemporary mindfulness training inter-
+ventions (e.g., Grossman and Van Dam, 2011 ). On one hand, mind-
+fulness is translated simply as a state of clear awareness ( Bodhi, 2011;
+Desbordes et al., 2015; Quaglia et al., 2014 ); on the other hand, ac-
+ceptance training is considered a skillful means for learning mind-
+fulness ( Dreyfus, 2011 ) and is an active treatment element in mind-
+fulness and other “third-wave” interventions ( Mennin et al., 2013 ). By
+comparing mindfulness interventions that include or exclude an ac-
+ceptance training component, this study shows that learning to accept
+one’s experiences produces measurable biological stress reduction ef-
+fects. These results are consistent with Buddhist monastic training, the
+culture of origin for secular mindfulness training. In the Buddhist
+paradigm, monitoring ( vipaśyanā) leads to sensory clarity and insight
+(prajñā), whereas acceptance (i.e., equanimity, the ability to experience
+pleasure and pain without interference) reduces craving ( rāga) and
+aversion ( dvesha), the necessary causes ( samuccaya) for su ﬀering
+(duhkha)( Young, 2016b, 2016a ). For basic researchers, these ﬁndings
+contribute to a growing understanding of acceptance as an emotion
+regulation mechanism ( Kohl et al., 2012 ), an approach that has re-
+ceived less attention than other response-focused strategies (e.g., cog-
+nitive reappraisal). Likewise, among stress and coping researchers, this
+study sheds new light on the construct of acceptance; this intentional
+form of experiential acceptance stands in contrast to the form of ac-
+ceptance that resembles passive resignation and is generally associated
+with poor outcomes in the health psychology literature (e.g., Reed
+et al., 1994 ). These ﬁndings suggest the value of including (or em-
+phasizing) acceptance training in existing stress management inter-
+ventions. While some psychotheraupeutic programs o ﬀer extensive
+acceptance skills modules (e.g., ACT; Hayes et al., 2011 ), most stress
+management programs o ﬀer
+ little formal instruction in acceptance.
+Exploring the conditions under which acceptance training is bene ﬁcial
+(e.g., training dosage, individual di ﬀerences in adopting acceptance
+strategies) is an important research direction.
+Although MA training reduced biological markers of stress re-
+activity (cortisol, systolic blood pressure), contrary to initial predictions
+there were no condition di ﬀerences in self-reported stress during the
+mTSST. Several possibilities could explain this e ﬀect. It may be that all
+three active training programs compared in this study were e ﬀective for
+decreasing perceptions of stress; participants in all programs reported
+equivalent treatment bene ﬁts, and each program focused on stress
+management (e.g., the control program reinforced reappraisal and
+coping strategies). It’s also possible that the self-report stress instrument
+was prone to well-known response-set biases ( Nisbett and Wilson,
+1977), or was not sensitive to unique ways that mindfulness trained
+participants perceive stress. For example, our stress scale did not dis-
+tinguish between intensity of experience and perceived su ﬀering (si-
+milar to intensity and unpleasantness dimensions commonly measured
+in the pain literature; cf., Price et al., 1987). Monitoring may make the
+experience of discomfort sensorially richer, while acceptance may
+lessen the associated su ﬀering (i.e., intensity is not problematic or
+viewed as unpleasant), dimensions not captured in this stress instru-
+ment. Alternatively, although acute psychological and biological stress
+responses are commonly dissociated, di ﬀerences in emotion regulation
+strategy use (e.g., avoidance vs. monitoring; reappraisal vs. acceptance)
+may moderate psychophysiological correspondence (for a review, see
+Campbell and Ehlert, 2012 ). It’ s possible that, by increasing awareness
+of subtle body cues, the Monitor + Accept intervention increased co-
+herence between stress biology (e.g., cortisol) and self-reported stress.
+Indeed, previous work indicates that meditation experience increases
+the accuracy of self-reporting on physical sensations ( Fox et al., 2012 )
+and mindfulness improves access to implicit emotional states ( Brown
+and Ryan, 2003). Exploratory analyses showed that indeed there was a
+marginally stronger association between self-reported stress and cor-
+tisol reactivity (AUC-I) in the MA condition ( r(55) = 0.27, p=0.043)
+compared to the MO ( r(54) = 0.18, p=0.201) and control conditions ( r
+(35) = −0.08, p> 0.250) (MA vs. control z = 1.59, p=0.056).
+Though consistent with the theory that monitoring one ’s body experi-
+ences with acceptance facilitates greater openness and access to subtle
+body cues, this ﬁnding requires replication.
+While this study supports the Monitor and Acceptance Theory
+(MAT; Lindsay and Creswell, 2017) prediction that explicit training in
+both monitoring and acceptance are necessary for reducing biological
+stress reactivity, it raises additional questions. Contrary to MAT, which
+presents evidence that the self-reported tendency to monitor one ’s
+ex-
+periences may intensify reactivity (e.g., Desrosiers et al., 2014; Pearson
+et al., 2015 ), there was no evidence that Monitor Only training ex-
+acerbated subjective or biological stress responses compared to control
+training (which was expected to slightly reduce reactivity). Instead,
+these ﬁndings are more consistent with MAT ’s alternative prediction
+that structured monitoring practice, in contrast to the dispositional
+tendency to monitor in the absence of meditation training, may pro-
+mote adaptive outcomes. It’ s possible that, by simply acknowledging
+unpleasant stimuli without psychological resistance, systematically
+monitoring one ’s experiences may begin to engender an implicit or-
+ientation of acceptance. Or, strengthening one ’s attentional resources
+may by itself promote mental clarity and help to regulate emotions
+(Wadlinger and Isaacowitz, 2011).
+Given the evidence that acceptance training facilitates reductions in
+biological stress reactivity, one open question is whether acceptance
+alone is su ﬃ cient for driving these e ﬀects. Although this study aimed to
+test the active mechanisms of mindfulness training where acceptance is
+taught in conjunction with monitoring practice, some may see value in
+testing acceptance-only interventions (e.g., using a psychoeducational
+rather than experiential acceptance training approach). A major chal-
+lenge in developing acceptance interventions devoid of attention
+monitoring training is how to instruct the orientation of acceptance
+toward experiences without ﬁrst bringing attention to those experi-
+ences. In this Monitor + Accept intervention and in standardized
+mindfulness interventions, acceptance is trained in relation to mon-
+itored experience; thoughts, sensations, and emotions monitored in the
+present moment are acknowledged with acceptance and equanimity.
+Moreover, recent theorizing posits synergistic roles for monitoring and
+acceptance in reducing stress: monitoring draws attention to emotional
+stimuli, and orienting toward negative states with acceptance trans-
+forms one ’s relationship to these experiences in ways that attenuate
+negative reactivity ( Lindsay and Creswell, 2017). Nonetheless, the
+present results identify an opportunity to investigate whether training
+in acceptance skills only might be a more e ﬃ cient way to improve
+stress-related health outcomes.
+It is important to acknowledge that our conclusions about mind-
+fulness components and stress reactivity are based on a 14-lesson
+mindfulness program plus a booster session. More research is needed to
+evaluate whether the booster session is a necessary condition for re-
+ducing biological stress reactivity (i.e., it was essential for activating the
+skills developed through the training program) or whether the e ﬀects of
+14 days of mindfulness training persist without this skills reminder
+session prior to stress exposure. Although some acute interventions can
+shift one ’s perspective in ways that promote a more adaptive
+E.K. Lindsay et al. Psychoneuroendocrinology 87 (2018) 63–73
+71
+physiological response to stress (e.g., shifting from self-promotion to
+compassionate goals; appraising stress as functional; Abelson et al.,
+2014; Jamieson et al., 2012), these single session inductions are quite
+diﬀerent from the intervention approach tested here. Given that pre-
+vious evidence shows no bene ﬁts of mindfulness training for reducing
+biological stress reactivity after 3 training sessions (with the 3rd session
+similarly acting as a booster session immediately before mTSST per-
+formance; Creswell et al., 2014 ), the e ﬀects observed here likely hinge
+upon the development of mindfulness skills over the course of 14 les-
+sons. Still, these ﬁndings raise broad empirical questions about the
+comparative e ﬃ cacy, e ﬃ ciency, and longevity of stress reduction in-
+terventions that induce acute mindset shifts vs. those that develop new,
+more ingrained skills for responding to stress.
+Relatedly, this study lends evidence to a developmental trajectory of
+mindfulness stress bu ﬀering e ﬀects. Whereas previous research shows
+that 8 weeks (but not 3 sessions) of mindfulness training reduces bio-
+logical stress reactivity ( Creswell et al., 2014; Nyklíč ek et al., 2013 ), we
+now show that an intermediate dose − two weeks of daily mindfulness
+training plus a booster session − is e ﬀective for reducing biological
+reactivity. Similarly, these ﬁndings contribute to research on the skill
+development of monitoring and acceptance. Although acceptance in-
+ductions have been shown to attenuate physiological responding to
+mild emotional stimuli (e.g., Campbell-Sills et al., 2006; Dan-Glauser
+and Gross, 2015; Hofmann et al., 2009), these brief inductions are not
+eﬀective for those inexperienced with acceptance strategies (e.g.,
+Blacker et al., 2012; Evans et al., 2014); for many, acceptance is a skill
+that takes time to develop ( Baer et al., 2012). Our results imply that two
+weeks of training is su ﬃ cient to develop acceptance skills that e ﬀec-
+tively reduce the biological impact of stress. These ﬁndings prompt
+questions for further research in establishing the long-term growth,
+maintenance, and stability of attention monitoring and acceptance
+skills and their e ﬀects on stress reactivity (e.g., whether more extensive
+training in monitoring alone becomes equally e ﬀective as monitoring
+with acceptance training; the importance of continued formal practice
+for maintaining bene ﬁts).
+Finally, one important open question concerns the value of these
+acute stress reactivity e ﬀects for long-term health and disease out-
+comes. Since greater cortisol and blood pressure reactivity to laboratory
+stress predict certain health risks (e.g., respiratory infections, cardio-
+vascular disease; Cohen et al., 2002; Matthews et al., 2004), it ’s possible
+that reduced stress reactivity e ﬀects like those observed here may
+confer some protection against stress-related symptoms and disease risk
+among stressed adults (cf. Loucks
+ et al., 2015 ).
+4.1. Conclusions
+This study provides the ﬁrst experimental evidence that brief re-
+mote mindfulness training is e ﬀective for reducing cortisol and systolic
+blood pressure reactivity to stress, and learning to accept one ’s ex-
+periences is critical for driving these e ﬀects. By changing the way in-
+dividuals relate to and respond to stressors, acceptance may reduce
+their biological stress responses to threatening events.
+Author contributions
+EL and JC developed the study concept. All authors contributed to
+the study design. EL prepared study materials. SY and EL developed
+interventions. Testing and data collection were performed by trained
+research assistants. EL performed the data analysis and interpretation
+under the supervision of JC, JS, and KB. EL drafted the manuscript, and
+all authors provided critical revisions. All authors approved the ﬁnal
+version of the manuscript for submission.
+Conﬂict of interest statement
+The authors declare one potential con ﬂict of interest, which has not
+inﬂuenced the authorship of this article or its content, including the
+research outcomes reported within it: author Shinzen Young owns a
+portion of 01 Expert Systems, which will be releasing a modi ﬁed and
+extended version of the Monitor + Accept mindfulness intervention as
+a commercial app.
+Acknowledgements
+This research was supported by the Yoga Science Foundation, the
+Mind & Life Institute Varela and 1440 award programs, and the
+American Psychological Association. Recruitment was supported by the
+National Institutes of Health (grant number UL1TR000005). These
+funding sources had no involvement in study design; data collection,
+analysis, or interpretation; writing of this report; or the decision to
+submit this article for publication. We thank Bill Koratos, Todd Mertz,
+Emily Barrett, Stephanie Nash, and ﬂeetCreature for their work on the
+smartphone app, Hayley Rahl, Alexa Smith, Lauren Simicich, and
+Vevette Yang for help with study management, and the many research
+assistants who collected and processed data.
+Appendix A. Supplementary data
+Supplementary data associated with this article can be found, in the
+online version, at http://dx.doi.org/10.1016/j.psyneuen.2017.09.015.
+References
+Abelson, J.L., Erickson, T.M., Mayer, S.E., Crocker, J., Briggs, H., Lopez-Duran, N.L.,
+Liberzon, I., 2014. Brief cognitive intervention can modulate neuroendocrine stress
+responses to the trier social stress test: bu ﬀering e ﬀects of a compassionate goal or-
+ientation. Psychoneuroendocrinology 44, 60 –70.
+Baer, R.A., Carmody, J., Hunsinger, M., 2012. Weekly change in mindfulness and per-
+ceived stress in a mindfulness-based stress reduction program. J. Clin. Psychol. 68
+(7), 755 –765.
+Bishop, S.R., Lau, M., Shapiro, S., Carlson, L., Anderson, N.D., Carmody, J., et al., 2004.
+Mindfulness: a proposed operational de ﬁnition. Clin. Psychol.: Sci. Pract. 11 (3),
+230–241.
+Blacker, K.J., Herbert, J.D., Forman, E.M., Kounios, J., 2012. Acceptance- versus change-
+based pain management: the role of psychological acceptance. Behav. Modif. 36 (1),
+37–48.
+Bodhi, B., 2011. What does mindfulness really mean? A canonical perspective. Contemp.
+Buddh. 12 (1), 19 –39.
+Britton, W.B., Shahar, B., Szepsenwol, O., Jacobs, W.J., 2012. Mindfulness-based cogni-
+tive therapy improves emotional reactivity to social stress: results from a randomized
+controlled trial. Behav. Ther. 43 (2), 365 –380.
+Brown, K.W., Ryan, R.M., 2003. The bene ﬁts of being present: mindfulness and its role in
+psychological well-being. J. Pers. Soc. Psychol. 84 (4), 822 –848.
+Campbell, J., Ehlert, U., 2012. Acute psychosocial stress: does the emotional stress re-
+sponse correspond with physiological responses? Psychoneuroendocrinology 37 (8),
+1111–1134.
+Campbell-Sills, L., Barlow, D.H., Brown, T.A., Hofmann, S.G., 2006. E ﬀects of suppression
+and acceptance on emotional responses of individuals with anxiety and mood dis-
+orders. Behav. Res. Ther. 44 (9), 1251 –1263.
+Carver, C.S., Scheier, M.F., Weintraub, J.K., 1989. Assessing coping strategies: a theore-
+tically based approach. J. Pers. Soc. Psychol. 56 (2), 267 –283.
+Cavanagh, K., Strauss, C., Cicconi, F., Gri ﬃ ths, N., Wyper, A., Jones, F., 2013. A rando-
+mised controlled trial of a brief online mindfulness-based intervention. Behav. Res.
+Ther. 51 (9), 573 –578.
+Cohen, S., Williamson, G., 1988. Perceived stress in a probability sample of the US. In:
+Spacapam, S., Oskamp, S. (Eds.), The Social Psychology of Health: Claremont
+Symposium on Applied Social Psychology. Sage, Newbury Park, CA, pp. 31 –67.
+Cohen, S., Kamarck, T., Mermelstein, R., 1983. A global measure of perceived stress. J.
+Health Soc. Behav. 24 (4), 385 .
+Cohen, S., Hamrick, N., Rodriguez, M.S., Feldman, P.J., Rabin, B.S., Manuck, S.B., 2002.
+Reactivity and vulnerability to stress-associated risk for upper respiratory illness.
+Psychosom. Med. 64 (2), 302 –310.
+Creswell, J.D., Lindsay, E.K., 2014. How does mindfulness training a ﬀect health? A
+mindfulness stress bu ﬀering account. Curr. Direct. Psychol. Sci. 23 (6), 401 –407.
+Creswell, J.D., Pacilio, L.E., Lindsay, E.K., Brown, K.W., 2014. Brief mindfulness medi-
+tation training alters psychological and neuroendocrine responses to social evaluative
+stress. Psychoneuroendocrinology 44, 1 –12.
+Creswell,
+J.D., 2017. Mindfulness interventions. Annu. Rev. Psychol. 68, 491 –516.
+Csikszentmihalyi, M., 2000. Beyond Boredom and Anxiety. Jossey-Bass, San
+Francisco, CA .
+Dan-Glauser, E.S., Gross, J.J., 2015. The temporal dynamics of emotional acceptance:
+experience, expression and physiology. Biol. Psychol. 108, 1 –12.
+Desbordes, G., Gard, T., Hoge, E.A., Hölzel, B.K., Kerr, C., Lazar, S.W., et al., 2015.
+E.K. Lindsay et al. Psychoneuroendocrinology 87 (2018) 63–73
+72
+Moving beyond mindfulness: de ﬁning equanimity as an outcome measure in medi-
+tation and contemplative research. Mindfulness 6 (2), 356 –372.
+Desrosiers, A., Vine, V., Curtiss, J., Klemanski, D.H., 2014. Observing nonreactively: a
+conditional process model linking mindfulness facets, cognitive emotion regulation
+strategies, and depression and anxiety symptoms. J. A ﬀect. Disord. 165, 31 –37.
+Devilly, G.J., Borkovec, T.D., 2000. Psychometric properties of the credibility/expectancy
+questionnaire. J. Behav. Ther. Exp. Psychiatry 31 (2), 73 –86.
+Dreyfus, G., 2011. Is mindfulness present-centred and non-judgmental? A discussion of
+the cognitive dimensions of mindfulness. Contemp. Buddh. 12 (1), 41 –54.
+Evans, D.R., Eisenlohr-Moul, T.A., Button, D.F., Baer, R.A., Segerstrom, S.C., 2014. Self-
+regulatory deﬁcits associated with unpracticed mindfulness strategies for coping with
+acute pain. J. Appl. Soc. Psychol. 44 (1), 23 –30.
+Faul, F., Erdfelder, E., Lang, A.-G., Buchner, A., 2007. G*Power 3: A ﬂexible statistical
+power analysis program for the social, behavioral, and biomedical sciences. Behav.
+Res. Methods 39 (2), 175 –191.
+Fox, K.C.R., Zakarauskas, P., Dixon, M., Ellamil, M., Thompson, E., Christo ﬀ, K., 2012.
+Meditation experience predicts introspective accuracy. PLoS One 7 (9), e45370 .
+Franzen, P.L., Gianaros, P.J., Marsland, A.L., Hall, M.H., Siegle, G.J., Dahl, R.E., Buysse,
+D.J., 2011. Cardiovascular reactivity to acute psychological stress following sleep
+deprivation. Psychosom. Med. 73 (8), 679 –682.
+Garland, E.L., Farb, N.A., Goldin, P.R., Fredrickson, B.L., 2015. The mindfulness-to-
+meaning theory: extensions, applications, and challenges at the attention –appraisa-
+l–emotion interface. Psychological Inquiry 26 (4), 377 –387.
+Glück, T.M., Maercker, A., 2011. A randomized controlled pilot study of a brief web-based
+mindfulness training. BMC Psychiatry 11 (1), 175 .
+Grossman, P., Van Dam, N.T., 2011. Mindfulness, by any other name …: trials and tri-
+bulations of sati in western psychology and science. Contemp. Buddh. 12 (1),
+219–239.
+Hölzel, B.K., Lazar, S.W., Gard, T., Schuman-Olivier, Z., Vago, D.R., Ott, U., 2011. How
+does mindfulness meditation work? Proposing mechanisms of action from a con-
+ceptual and neural perspective. Perspect. Psychol. Sci. 6 (6), 537 –559.
+Hayes, S.C., Villatte, M., Levin, M., Hildebrandt, M., 2011. Open, aware, and active:
+contextual approaches as an emerging trend in the behavioral and cognitive thera-
+pies. Annu. Rev. Clin. Psychol. 7 (1), 141 –168.
+Hayes, S.C., 2004. Acceptance and commitment therapy, relational frame theory, and the
+third wave of behavioral and cognitive therapies. Behav. Ther. 35 (4), 639 –665.
+Hellhammer, J., Schubert, M., 2012. The physiological response to Trier social stress test
+relates to subjective measures of stress during but not before or after the test.
+Psychoneuroendocrinology 37 (1), 119 –124.
+Hofmann, S.G., Heering, S., Sawyer, A.T., Asnaani, A., 2009. How to handle anxiety: the
+eﬀects of reappraisal, acceptance, and suppression strategies on anxious arousal.
+Behav. Res. Ther. 47 (5), 389 –394.
+Hoge,
+E.A., Bui, E., Marques, L., Metcalf, C.A., Morris, L.K., Robinaugh, D.J., et al., 2013.
+Randomized controlled trial of mindfulness meditation for generalized anxiety dis-
+order: e ﬀects on anxiety and stress reactivity. J. Clin. Psychiatry 74 (8), 786 –792.
+Jamieson, J.P., Nock, M.K., Mendes, W.B., 2012. Mind over matter: reappraising arousal
+improves cardiovascular and cognitive responses to stress. J. Exp. Psychol. Gen. 141
+(3), 417 –422.
+Kirschbaum, C., Pirke, K.-M., Hellhammer, D.H., 1993. The Trier social stress test —a tool
+for investigating psychobiological stress responses in a laboratory setting.
+Neuropsychobiology 28 (1 –2), 76 –81.
+Kirschbaum, C., Kudielka, B.M., Gaab, J., Schommer, N.C., Hellhammer, D.H., 1999.
+Impact of gender, menstrual cycle phase, and oral contraceptives on the activity of
+the hypothalamus-pituitary-adrenal axis. Psychosom. Med. 61 (2), 154 –162.
+Kohl, A., Rief, W., Glombiewski, J.A., 2012. How e ﬀective are acceptance strategies? A
+meta-analytic review of experimental results. J. Behav. Ther. Exp. Psychiatry 43 (4),
+988–1001.
+Lim, D., Condon, P., DeSteno, D., 2015. Mindfulness and compassion: an examination of
+mechanism and scalability. PLoS One 10 (2), e0118221 .
+Lindsay, E.K., Creswell, J.D., 2017. Mechanisms of mindfulness training: monitor and
+acceptance theory (MAT). Clin. Psychol. Rev. 51, 48 –59.
+Loucks, E.B., Schuman-Olivier, Z., Britton, W.B., Fresco, D.M., Desbordes, G., Brewer,
+J.A., Fulwiler, C., 2015. Mindfulness and cardiovascular disease risk: state of the
+evidence, plausible mechanisms, and theoretical framework. Curr. Cardiol. Rep.
+17 (12) .
+Matthews, K.A., Katholi, C.R., McCreath, H., Whooley, M.A., Williams, D.R., Zhu, S.,
+Markovitz, J.H., 2004. Blood pressure reactivity to psychological stress predicts hy-
+pertension in the CARDIA study. Circulation 110 (1), 74 –78.
+Mennin, D.S., Ellard, K.K., Fresco, D.M., Gross, J.J., 2013. United we stand: emphasizing
+commonalities across cognitive-behavioral therapies. Behav. Ther. 44 (2), 234 –248.
+Nisbett, R.E., Wilson, T.D., 1977. Telling more than we can know: verbal reports on
+mental processes. Psychol. Rev. 84 (3), 231 –259.
+Nyklíček, I., Mommersteeg, P.M.C., Van Beugen, S., Ramakers, C., Van Boxtel, G.J., 2013.
+Mindfulness-based stress reduction and physiological activity during acute stress: a
+randomized controlled trial. Health Psychol. 32 (10), 1110 –1113.
+Ochsner, K., Gross, J., 2005. The cognitive control of emotion. Trends Cogn. Sci. 9 (5),
+242–249.
+Paul, N.A., Stanton, S.J., Greeson, J.M., Smoski, M.J., Wang, L., 2013. Psychological and
+neural mechanisms of trait mindfulness in reducing depression vulnerability. Soc.
+Cogn. A ﬀect. Neurosci. 8 (1), 56 –64.
+Pearson, M.R., Lawless, A.K., Brown, D.B., Bravo, A.J., 2015. Mindfulness and emotional
+outcomes: identifying subgroups of college students using latent proﬁ le analysis.
+Pers. Individ. Di ﬀer. 76, 33 –38.
+Poushter, J., 2016. Smartphone Ownership and Internet Usage Continues to Climb in
+Emerging Economies. Pew Research Center .
+Price,
+D.D., Harkins, S.W., Baker, C., 1987. Sensory-a ﬀective relationships among dif-
+ferent types of clinical and experimental pain. Pain 28 (3), 297 –307.
+Pruessner, J.C., Kirschbaum, C., Meinlschmid, G., Hellhammer, D.H., 2003. Two formulas
+for computation of the area under the curve represent measures of total hormone
+concentration versus time-dependent change. Psychoneuroendocrinology 28 (7),
+916–931.
+Quaglia, J.T., Brown, K.W., Lindsay, E.K., Creswell, J.D., Goodman, R.J., 2014. From
+conceptualization to operationalization of mindfulness. Handbook of Mindfulness:
+Theory, Research, and Practice. Guilford, New York .
+Rahmati, A., Tossell, C., Shepard, C., Kortum, P., Zhong, L., 2012. Exploring iPhone
+usage: the inﬂuence of socioeconomic di ﬀerences on smartphone adoption, usage and
+usability. In: Proceedings of the 14th International Conference on Human-computer
+Interaction with Mobile Devices and Services. ACM. pp. 11 –20.
+Reed, G.M., Kemeny, M.E., Taylor, S.E., Wang, H.-Y.J., Visscher, B.R., 1994. Realistic
+acceptance as a predictor of decreased survival time in gay men with AIDS. Health
+Psychol. 13 (4), 299 –307.
+Shallcross, A.J., Ford, B.Q., Floerke, V.A., Mauss, I.B., 2013. Getting better with age: the
+relationship between age, acceptance, and negative a ﬀect. J. Pers. Soc. Psychol. 104
+(4), 734 –749.
+Smith, A. (2017, January 12). Record shares of Americans have smartphones, home
+broadband | Pew Research Center. Retrieved from http://www.pewresearch.org/
+fact-tank/2017/01/12/evolution-of-technology/.
+Teper, R., Inzlicht, M., 2013. Meditation, mindfulness and executive control: the im-
+portance of emotional acceptance and brain-based performance monitoring. Soc.
+Cogn. A ﬀect. Neurosci. 8 (1), 85 –92.
+Vago, D.R., Nakamura, Y., 2011. Selective attentional bias towards pain-related threat in
+ﬁbromyalgia: preliminary evidence for e ﬀects of mindfulness meditation training.
+Cognit. Ther. Res. 35 (6), 581 –594.
+Wadlinger, H.A., Isaacowitz, D.M., 2011. Fixing our focus: training attention to regulate
+emotion. Pers. Social Psychol. Rev. 15 (1), 75 –102.
+Wahbeh, H., Svalina, M.N., Oken, B.S., 2014. Group, one-on-one, or internet? Preferences
+for mindfulness meditation delivery format and their predictors. Open Med. J. 1,
+66–74.
+Warttig, S.L., Forshaw, M.J., South, J., White, A.K., 2013. New, normative, english-
+sample data for the short form perceived stress scale (PSS-4). J. Health Psychol. 18
+(12), 1617 –1628.
+Young, S., 2016a. The Science of Enlightenment: How Meditation Works. Sounds True,
+Boulder, Colorado .
+Young, S., 2016b. What is mindfulness? A contemplative perspective. In: Schonert-Reichl,
+K.A., Roeser, R.W. (Eds.), Handbook of Mindfulness in Education. Springer, New
+York, pp. 29 –45.
+E.K. Lindsay et al.
+Psychoneuroendocrinology 87 (2018) 63–73
+73

@@ -1,0 +1,411 @@
+Treatment,YP_improved_day5,YS_diarrhoea_day5,YS_pain_day5,X_age_years,X_sex,X_pain_0d,X_crp_0d
+Flucloxacillin + clindamycin,1.0,0.0,1.0,87,Male,3.0,104.0
+Flucloxacillin + clindamycin,1.0,0.0,2.0,32,Male,8.0,274.0
+Flucloxacillin + clindamycin,1.0,,1.0,61,Female,1.0,143.0
+Flucloxacillin,1.0,0.0,1.0,21,Female,3.0,2.0
+Flucloxacillin,1.0,0.0,4.0,85,Male,6.0,13.0
+Flucloxacillin + clindamycin,1.0,0.0,2.0,57,Male,7.0,266.0
+Flucloxacillin + clindamycin,1.0,0.0,3.0,95,Female,1.0,166.0
+Flucloxacillin,,,,41,Male,8.0,127.0
+Flucloxacillin + clindamycin,,,,74,Male,7.0,55.0
+Flucloxacillin,0.0,0.0,6.0,51,Female,6.0,34.0
+Flucloxacillin + clindamycin,1.0,0.0,0.0,56,Male,3.0,176.0
+Flucloxacillin + clindamycin,0.0,0.0,6.0,46,Female,6.0,20.0
+Flucloxacillin,,,,22,Male,8.0,74.0
+Flucloxacillin + clindamycin,0.0,1.0,2.0,39,Male,3.0,19.0
+Flucloxacillin + clindamycin,1.0,0.0,5.0,35,Female,8.0,8.0
+Flucloxacillin,1.0,1.0,6.0,62,Male,6.0,121.0
+Flucloxacillin,1.0,0.0,6.0,74,Male,4.0,293.0
+Flucloxacillin,1.0,0.0,4.0,55,Female,5.0,66.0
+Flucloxacillin + clindamycin,1.0,0.0,5.0,63,Male,9.0,137.0
+Flucloxacillin,1.0,1.0,2.0,53,Male,5.0,
+Flucloxacillin,1.0,0.0,0.0,59,Male,0.0,
+Flucloxacillin + clindamycin,,,,44,Male,6.0,106.0
+Flucloxacillin,,,,20,Male,5.0,166.0
+Flucloxacillin + clindamycin,0.0,0.0,2.0,44,Male,3.0,65.0
+Flucloxacillin,1.0,1.0,4.0,87,Male,4.0,4.0
+Flucloxacillin,1.0,0.0,0.0,85,Male,1.0,19.0
+Flucloxacillin,1.0,1.0,3.5,40,Male,3.0,62.0
+Flucloxacillin,1.0,0.0,0.0,27,Male,3.0,45.0
+Flucloxacillin,1.0,0.0,2.0,24,Male,3.0,65.0
+Flucloxacillin,,,,52,Male,7.0,158.0
+Flucloxacillin + clindamycin,1.0,0.0,0.0,71,Male,1.0,235.0
+Flucloxacillin + clindamycin,1.0,0.0,1.0,42,Male,4.0,80.0
+Flucloxacillin,0.0,,0.0,76,Male,2.0,18.0
+Flucloxacillin,1.0,0.0,1.0,95,Female,1.0,461.0
+Flucloxacillin + clindamycin,1.0,0.0,1.0,24,Female,5.0,101.0
+Flucloxacillin,1.0,0.0,4.0,29,Female,6.0,6.0
+Flucloxacillin + clindamycin,1.0,0.0,8.0,39,Male,9.0,105.0
+Flucloxacillin,0.0,0.0,4.0,60,Male,10.0,334.0
+Flucloxacillin + clindamycin,1.0,0.0,0.0,71,Male,6.0,38.0
+Flucloxacillin,1.0,0.0,2.0,50,Female,5.0,23.0
+Flucloxacillin,,,,71,Female,,
+Flucloxacillin + clindamycin,0.0,0.0,8.0,43,Male,7.0,208.0
+Flucloxacillin + clindamycin,1.0,0.0,4.0,68,Female,5.0,108.0
+Flucloxacillin,1.0,0.0,0.0,48,Male,3.0,27.0
+Flucloxacillin,1.0,0.0,6.0,58,Male,9.0,14.0
+Flucloxacillin,1.0,1.0,4.0,72,Female,4.0,14.0
+Flucloxacillin + clindamycin,1.0,0.0,0.0,62,Male,1.0,18.0
+Flucloxacillin + clindamycin,0.0,1.0,10.0,49,Male,8.0,20.0
+Flucloxacillin + clindamycin,1.0,0.0,2.0,48,Male,5.0,57.0
+Flucloxacillin,1.0,0.0,5.0,41,Male,4.0,33.0
+Flucloxacillin + clindamycin,1.0,0.0,5.0,28,Female,7.0,36.0
+Flucloxacillin + clindamycin,1.0,0.0,3.0,53,Female,7.0,4.0
+Flucloxacillin + clindamycin,1.0,0.0,1.0,66,Male,6.0,32.0
+Flucloxacillin,1.0,0.0,5.0,70,Male,8.0,100.0
+Flucloxacillin,1.0,0.0,0.0,62,Male,6.0,16.0
+Flucloxacillin + clindamycin,1.0,0.0,0.0,71,Male,0.0,154.0
+Flucloxacillin + clindamycin,0.0,0.0,4.0,43,Female,3.0,12.0
+Flucloxacillin + clindamycin,1.0,0.0,0.0,27,Male,1.0,18.0
+Flucloxacillin,1.0,0.0,0.0,32,Female,0.0,13.0
+Flucloxacillin,1.0,1.0,0.0,42,Female,6.0,13.0
+Flucloxacillin,0.0,0.0,3.0,84,Female,9.0,17.0
+Flucloxacillin,1.0,0.0,1.0,39,Female,4.0,29.0
+Flucloxacillin,1.0,0.0,2.0,66,Male,1.0,151.0
+Flucloxacillin + clindamycin,0.0,0.0,2.0,62,Male,4.0,40.0
+Flucloxacillin,1.0,0.0,0.0,62,Male,0.0,2.0
+Flucloxacillin,1.0,0.0,1.0,59,Male,1.0,15.0
+Flucloxacillin + clindamycin,1.0,0.0,0.5,24,Male,2.0,146.0
+Flucloxacillin,,,,40,Female,6.0,110.0
+Flucloxacillin + clindamycin,0.0,0.0,1.0,48,Male,1.0,144.0
+Flucloxacillin + clindamycin,1.0,1.0,0.0,49,Female,2.0,6.0
+Flucloxacillin,,,,50,Female,8.0,19.0
+Flucloxacillin + clindamycin,1.0,0.0,0.0,28,Male,0.0,18.0
+Flucloxacillin + clindamycin,1.0,0.0,0.0,52,Female,5.0,27.0
+Flucloxacillin,1.0,0.0,2.0,32,Female,5.0,7.0
+Flucloxacillin,1.0,0.0,2.0,29,Female,8.0,48.0
+Flucloxacillin + clindamycin,0.0,0.0,2.0,56,Male,4.0,70.0
+Flucloxacillin + clindamycin,1.0,1.0,5.0,46,Male,9.0,99.0
+Flucloxacillin + clindamycin,1.0,0.0,0.0,34,Male,2.0,110.0
+Flucloxacillin + clindamycin,1.0,0.0,3.0,44,Female,8.0,20.0
+Flucloxacillin + clindamycin,,,,27,Male,4.0,3.0
+Flucloxacillin,1.0,0.0,4.0,30,Male,7.0,36.0
+Flucloxacillin,1.0,0.0,0.0,53,Male,1.0,22.0
+Flucloxacillin,1.0,1.0,5.0,69,Male,8.0,223.0
+Flucloxacillin,1.0,1.0,0.0,19,Male,0.0,4.0
+Flucloxacillin,1.0,0.0,3.0,23,Male,5.0,2.0
+Flucloxacillin,,,,20,Female,3.0,6.0
+Flucloxacillin + clindamycin,1.0,0.0,0.0,79,Male,7.0,65.0
+Flucloxacillin + clindamycin,,,,64,Male,7.0,9.0
+Flucloxacillin + clindamycin,1.0,1.0,4.0,43,Female,10.0,25.0
+Flucloxacillin,1.0,0.0,2.0,32,Male,4.0,183.0
+Flucloxacillin,,,,54,Female,10.0,380.0
+Flucloxacillin + clindamycin,1.0,0.0,2.0,21,Male,7.0,37.0
+Flucloxacillin,1.0,0.0,0.0,52,Male,5.0,
+Flucloxacillin + clindamycin,,,,56,Male,5.0,5.0
+Flucloxacillin + clindamycin,,,,34,Male,3.0,
+Flucloxacillin,1.0,1.0,1.0,26,Male,2.0,101.0
+Flucloxacillin + clindamycin,0.0,0.0,10.0,35,Female,8.0,34.0
+Flucloxacillin,1.0,0.0,7.0,89,Male,5.0,72.0
+Flucloxacillin,1.0,0.0,0.0,23,Female,0.0,
+Flucloxacillin,1.0,0.0,5.0,49,Female,2.0,58.0
+Flucloxacillin,,,,53,Female,,
+Flucloxacillin,1.0,0.0,2.0,19,Male,4.0,108.0
+Flucloxacillin,1.0,1.0,2.0,18,Female,4.0,14.0
+Flucloxacillin,1.0,0.0,2.0,95,Male,5.0,163.0
+Flucloxacillin + clindamycin,0.0,0.0,4.0,51,Male,6.0,50.0
+Flucloxacillin + clindamycin,0.0,0.0,7.5,24,Male,5.0,163.0
+Flucloxacillin + clindamycin,1.0,0.0,3.0,32,Female,5.0,25.0
+Flucloxacillin,1.0,0.0,0.0,28,Male,6.0,2.0
+Flucloxacillin,,,,59,Male,,71.0
+Flucloxacillin + clindamycin,1.0,0.0,0.0,62,Male,6.0,39.0
+Flucloxacillin + clindamycin,1.0,0.0,10.0,34,Male,8.0,173.0
+Flucloxacillin,,,,20,Male,1.0,2.0
+Flucloxacillin,1.0,0.0,1.0,47,Male,4.0,61.0
+Flucloxacillin,0.0,0.0,0.0,44,Male,5.0,201.0
+Flucloxacillin + clindamycin,0.0,0.0,7.0,72,Male,7.0,137.0
+Flucloxacillin,1.0,0.0,3.0,50,Male,5.0,409.0
+Flucloxacillin + clindamycin,1.0,0.0,2.0,29,Male,6.0,257.0
+Flucloxacillin,1.0,0.0,1.0,57,Male,0.0,70.0
+Flucloxacillin + clindamycin,0.0,0.0,3.0,47,Male,7.0,27.0
+Flucloxacillin + clindamycin,1.0,0.0,2.0,66,Male,3.0,6.0
+Flucloxacillin + clindamycin,1.0,0.0,7.0,86,Female,6.0,24.9
+Flucloxacillin + clindamycin,1.0,0.0,4.0,20,Male,6.0,10.0
+Flucloxacillin + clindamycin,1.0,0.0,0.0,71,Male,0.0,8.0
+Flucloxacillin,0.0,0.0,6.0,67,Male,4.5,85.0
+Flucloxacillin,1.0,0.0,0.0,64,Male,3.0,2.0
+Flucloxacillin + clindamycin,0.0,0.0,10.0,85,Male,9.0,41.0
+Flucloxacillin,1.0,0.0,2.0,45,Male,2.0,231.0
+Flucloxacillin + clindamycin,1.0,0.0,3.0,45,Female,5.0,148.0
+Flucloxacillin + clindamycin,1.0,0.0,5.0,45,Female,6.0,33.0
+Flucloxacillin,1.0,0.0,0.0,31,Male,3.0,14.0
+Flucloxacillin + clindamycin,,,,63,Male,8.0,135.0
+Flucloxacillin,1.0,0.0,8.0,55,Male,8.0,104.0
+Flucloxacillin,1.0,0.0,7.0,47,Female,8.0,15.8
+Flucloxacillin + clindamycin,1.0,0.0,0.0,30,Male,0.0,54.0
+Flucloxacillin + clindamycin,1.0,1.0,0.0,66,Male,0.0,81.2
+Flucloxacillin,1.0,0.0,1.0,48,Male,6.0,12.0
+Flucloxacillin,1.0,0.0,4.0,31,Male,8.0,5.0
+Flucloxacillin + clindamycin,1.0,0.0,5.0,62,Male,5.0,45.2
+Flucloxacillin,0.0,1.0,8.0,91,Female,10.0,100.2
+Flucloxacillin + clindamycin,1.0,0.0,2.0,57,Male,0.0,186.0
+Flucloxacillin,,,,41,Male,2.0,42.0
+Flucloxacillin + clindamycin,,,,32,Male,5.0,8.0
+Flucloxacillin + clindamycin,0.0,0.0,1.0,50,Male,5.0,162.0
+Flucloxacillin + clindamycin,0.0,0.0,0.0,35,Male,4.0,193.0
+Flucloxacillin + clindamycin,1.0,0.0,3.0,18,Male,8.0,105.0
+Flucloxacillin,0.0,0.0,1.0,31,Male,5.0,17.0
+Flucloxacillin + clindamycin,1.0,0.0,2.0,54,Male,7.0,34.0
+Flucloxacillin,,,,29,Male,5.0,23.0
+Flucloxacillin,,0.0,0.0,62,Male,0.0,21.0
+Flucloxacillin + clindamycin,,,,22,Male,4.0,23.0
+Flucloxacillin,1.0,0.0,0.0,48,Male,1.0,4.0
+Flucloxacillin + clindamycin,0.0,0.0,10.0,52,Male,10.0,263.0
+Flucloxacillin,1.0,1.0,7.0,34,Male,6.0,37.0
+Flucloxacillin + clindamycin,0.0,0.0,7.0,64,Male,7.0,213.4
+Flucloxacillin + clindamycin,1.0,0.0,1.0,44,Male,2.0,6.9
+Flucloxacillin,1.0,1.0,6.0,43,Male,8.0,8.0
+Flucloxacillin,1.0,0.0,5.0,53,Male,8.0,189.0
+Flucloxacillin,1.0,1.0,4.0,54,Male,9.0,98.0
+Flucloxacillin + clindamycin,1.0,1.0,5.0,84,Female,5.0,1.0
+Flucloxacillin + clindamycin,,,,76,Male,8.0,345.0
+Flucloxacillin + clindamycin,,1.0,1.0,43,Female,7.0,14.1
+Flucloxacillin + clindamycin,1.0,0.0,0.0,27,Male,0.0,74.0
+Flucloxacillin + clindamycin,1.0,1.0,7.0,24,Male,7.0,7.0
+Flucloxacillin,1.0,0.0,0.0,24,Male,7.0,55.5
+Flucloxacillin + clindamycin,1.0,0.0,0.5,56,Male,3.0,16.0
+Flucloxacillin,,,,66,Female,10.0,52.0
+Flucloxacillin + clindamycin,0.0,0.0,7.0,39,Male,8.0,191.0
+Flucloxacillin,1.0,0.0,1.0,25,Female,2.5,4.0
+Flucloxacillin,1.0,0.0,0.0,22,Male,2.0,4.0
+Flucloxacillin + clindamycin,1.0,,1.0,42,Male,3.0,15.3
+Flucloxacillin + clindamycin,0.0,0.0,3.0,54,Male,5.0,177.0
+Flucloxacillin + clindamycin,1.0,0.0,1.0,45,Male,3.0,157.0
+Flucloxacillin,,,,78,Male,10.0,317.0
+Flucloxacillin + clindamycin,,,,44,Male,5.0,77.0
+Flucloxacillin + clindamycin,1.0,0.0,1.0,69,Male,4.0,4.0
+Flucloxacillin,,0.0,0.0,59,Female,8.0,81.0
+Flucloxacillin + clindamycin,1.0,0.0,6.0,78,Male,0.0,160.0
+Flucloxacillin + clindamycin,1.0,0.0,2.0,59,Male,2.0,129.0
+Flucloxacillin + clindamycin,1.0,0.0,0.0,32,Male,4.0,130.0
+Flucloxacillin + clindamycin,0.0,,6.0,45,Male,3.0,60.0
+Flucloxacillin,1.0,0.0,3.0,48,Male,3.0,37.2
+Flucloxacillin + clindamycin,1.0,0.0,0.0,56,Male,4.0,175.0
+Flucloxacillin,1.0,0.0,1.0,30,Male,4.0,12.0
+Flucloxacillin,1.0,0.0,2.0,21,Male,7.0,171.0
+Flucloxacillin,1.0,0.0,0.0,41,Female,5.0,35.0
+Flucloxacillin + clindamycin,1.0,0.0,7.0,78,Female,6.0,261.3
+Flucloxacillin,1.0,0.0,3.0,79,Male,0.0,86.1
+Flucloxacillin,1.0,0.0,3.0,28,Male,7.0,3.8
+Flucloxacillin,,,,24,Male,7.0,26.0
+Flucloxacillin + clindamycin,,,,39,Male,1.0,4.0
+Flucloxacillin + clindamycin,1.0,0.0,0.0,40,Male,0.0,110.0
+Flucloxacillin + clindamycin,0.0,0.0,7.0,36,Male,6.0,16.0
+Flucloxacillin,1.0,1.0,0.0,46,Male,4.0,
+Flucloxacillin,1.0,0.0,8.0,80,Female,7.0,212.0
+Flucloxacillin,,,,34,Male,5.0,
+Flucloxacillin + clindamycin,1.0,,0.0,57,Male,1.0,87.0
+Flucloxacillin,,,,33,Female,8.0,59.0
+Flucloxacillin + clindamycin,1.0,0.0,0.0,43,Male,2.0,5.0
+Flucloxacillin,0.0,0.0,0.0,63,Male,10.0,305.0
+Flucloxacillin + clindamycin,1.0,0.0,0.0,31,Female,6.0,6.0
+Flucloxacillin + clindamycin,0.0,0.0,0.0,70,Female,0.0,98.0
+Flucloxacillin,1.0,0.0,4.0,57,Male,0.0,44.0
+Flucloxacillin + clindamycin,,,,31,Male,2.0,155.6
+Flucloxacillin,1.0,0.0,5.0,59,Male,10.0,211.0
+Flucloxacillin + clindamycin,1.0,0.0,8.0,71,Female,8.0,289.0
+Flucloxacillin + clindamycin,0.0,0.0,5.0,62,Male,7.5,191.0
+Flucloxacillin + clindamycin,1.0,0.0,0.0,81,Male,5.0,65.2
+Flucloxacillin,,,,47,Male,5.0,29.3
+Flucloxacillin + clindamycin,1.0,0.0,0.0,28,Male,2.0,
+Flucloxacillin + clindamycin,1.0,0.0,5.0,69,Female,5.0,8.6
+Flucloxacillin,1.0,0.0,8.0,71,Male,8.0,170.0
+Flucloxacillin + clindamycin,,,,55,Female,5.0,239.0
+Flucloxacillin,0.0,0.0,0.0,37,Female,1.0,69.0
+Flucloxacillin,1.0,0.0,2.0,78,Female,5.0,86.0
+Flucloxacillin,1.0,0.0,2.0,26,Male,8.0,247.0
+Flucloxacillin + clindamycin,0.0,0.0,5.0,61,Male,4.0,152.4
+Flucloxacillin,1.0,1.0,0.0,47,Male,0.0,10.0
+Flucloxacillin,0.0,0.0,4.0,67,Female,2.0,19.4
+Flucloxacillin,1.0,1.0,3.0,23,Male,7.0,6.0
+Flucloxacillin + clindamycin,0.0,0.0,5.0,38,Female,8.0,4.0
+Flucloxacillin,1.0,1.0,0.0,19,Female,0.0,38.6
+Flucloxacillin + clindamycin,1.0,0.0,0.0,42,Female,1.0,3.0
+Flucloxacillin,,,,36,Female,7.0,4.0
+Flucloxacillin,0.0,0.0,4.0,63,Male,2.0,239.0
+Flucloxacillin,0.0,0.0,3.0,31,Male,4.5,59.0
+Flucloxacillin + clindamycin,1.0,0.0,3.0,44,Male,10.0,349.0
+Flucloxacillin + clindamycin,1.0,0.0,1.0,50,Male,5.0,33.0
+Flucloxacillin,,,,26,Female,5.0,6.1
+Flucloxacillin + clindamycin,1.0,1.0,2.0,56,Male,4.0,148.0
+Flucloxacillin + clindamycin,1.0,0.0,0.0,54,Male,5.0,73.0
+Flucloxacillin,,,,48,Female,,5.0
+Flucloxacillin,1.0,0.0,0.0,28,Male,2.0,106.0
+Flucloxacillin,0.0,0.0,5.0,80,Female,4.0,16.0
+Flucloxacillin,1.0,0.0,2.0,78,Male,4.0,88.0
+Flucloxacillin + clindamycin,1.0,0.0,3.0,70,Female,4.0,11.5
+Flucloxacillin,,,,32,Female,2.0,3.0
+Flucloxacillin + clindamycin,1.0,0.0,0.0,62,Male,2.0,61.8
+Flucloxacillin + clindamycin,,0.0,8.0,48,Male,9.0,16.0
+Flucloxacillin + clindamycin,,,,35,Male,8.0,42.2
+Flucloxacillin,1.0,0.0,0.0,27,Male,0.0,43.0
+Flucloxacillin + clindamycin,,,,27,Female,3.0,5.0
+Flucloxacillin + clindamycin,1.0,0.0,0.0,28,Female,3.0,
+Flucloxacillin + clindamycin,,,,27,Male,1.0,91.0
+Flucloxacillin + clindamycin,1.0,0.0,7.0,65,Female,9.0,68.0
+Flucloxacillin,1.0,1.0,4.0,36,Male,7.5,23.6
+Flucloxacillin,1.0,0.0,0.0,48,Male,4.0,21.0
+Flucloxacillin + clindamycin,1.0,1.0,0.0,53,Female,,1.9
+Flucloxacillin,1.0,0.0,0.0,51,Female,0.0,236.0
+Flucloxacillin,,,,33,Male,,21.0
+Flucloxacillin,1.0,0.0,0.0,69,Male,2.0,76.0
+Flucloxacillin,1.0,0.0,0.0,54,Male,4.0,22.1
+Flucloxacillin + clindamycin,1.0,0.0,0.5,50,Female,5.0,137.0
+Flucloxacillin + clindamycin,1.0,0.0,0.0,58,Male,0.0,30.0
+Flucloxacillin + clindamycin,,,,38,Male,4.0,4.0
+Flucloxacillin + clindamycin,,0.0,3.0,48,Male,9.0,82.6
+Flucloxacillin + clindamycin,,,,49,Male,9.0,36.4
+Flucloxacillin,1.0,0.0,1.0,58,Female,1.0,1.0
+Flucloxacillin,1.0,1.0,0.0,42,Male,3.0,1.9
+Flucloxacillin,1.0,0.0,8.0,52,Female,,417.7
+Flucloxacillin,0.0,1.0,0.0,39,Male,1.0,4.0
+Flucloxacillin,1.0,0.0,4.0,35,Male,4.0,
+Flucloxacillin + clindamycin,1.0,0.0,4.0,59,Male,5.0,11.6
+Flucloxacillin,,0.0,2.0,48,Female,6.0,4.0
+Flucloxacillin,,,,25,Male,4.0,6.7
+Flucloxacillin + clindamycin,1.0,0.0,3.0,51,Male,6.0,34.0
+Flucloxacillin + clindamycin,,,,60,Male,4.0,230.0
+Flucloxacillin + clindamycin,1.0,0.0,4.0,41,Male,5.0,96.0
+Flucloxacillin + clindamycin,1.0,0.0,2.0,24,Male,4.0,21.0
+Flucloxacillin + clindamycin,0.0,0.0,2.0,43,Male,4.0,100.0
+Flucloxacillin + clindamycin,,0.0,7.0,83,Male,8.0,202.0
+Flucloxacillin + clindamycin,0.0,0.0,6.0,44,Female,10.0,260.0
+Flucloxacillin,1.0,0.0,0.0,51,Male,5.0,45.8
+Flucloxacillin,1.0,0.0,6.0,89,Female,7.0,7.0
+Flucloxacillin,1.0,0.0,2.0,25,Female,6.0,10.0
+Flucloxacillin + clindamycin,,,,38,Male,3.0,9.8
+Flucloxacillin,1.0,0.0,0.0,34,Female,5.0,3.0
+Flucloxacillin,1.0,0.0,3.0,32,Female,8.0,9.8
+Flucloxacillin + clindamycin,1.0,0.0,4.0,55,Male,6.0,189.0
+Flucloxacillin + clindamycin,0.0,1.0,0.0,70,Female,0.0,314.0
+Flucloxacillin,1.0,0.0,0.0,38,Male,2.0,3.0
+Flucloxacillin,,0.0,4.0,52,Male,6.0,276.0
+Flucloxacillin,1.0,0.0,8.0,72,Male,3.0,
+Flucloxacillin,,,,28,Male,7.0,76.0
+Flucloxacillin + clindamycin,1.0,0.0,4.0,58,Female,10.0,44.0
+Flucloxacillin + clindamycin,1.0,0.0,7.0,60,Female,7.0,27.6
+Flucloxacillin + clindamycin,1.0,0.0,2.0,54,Male,6.0,91.8
+Flucloxacillin + clindamycin,1.0,0.0,2.0,73,Male,3.0,56.0
+Flucloxacillin,1.0,0.0,4.0,60,Male,6.0,272.0
+Flucloxacillin,1.0,1.0,0.0,62,Male,2.0,11.0
+Flucloxacillin + clindamycin,1.0,0.0,7.0,44,Male,7.0,4.0
+Flucloxacillin + clindamycin,,,,35,Male,7.0,76.0
+Flucloxacillin + clindamycin,1.0,0.0,1.0,21,Female,3.0,77.0
+Flucloxacillin,1.0,0.0,7.0,65,Female,8.0,0.9
+Flucloxacillin,0.0,0.0,3.0,80,Female,6.0,6.0
+Flucloxacillin + clindamycin,1.0,0.0,8.0,75,Female,8.0,75.4
+Flucloxacillin + clindamycin,1.0,0.0,0.0,31,Female,4.0,11.0
+Flucloxacillin,1.0,0.0,0.0,38,Female,7.0,0.5
+Flucloxacillin,1.0,0.0,5.0,52,Male,8.0,8.0
+Flucloxacillin + clindamycin,1.0,0.0,0.0,40,Male,3.0,25.9
+Flucloxacillin + clindamycin,1.0,0.0,5.0,47,Female,9.0,143.0
+Flucloxacillin,,,,44,Female,6.0,4.0
+Flucloxacillin,1.0,1.0,0.0,48,Male,3.0,0.9
+Flucloxacillin,,,,46,Female,6.0,290.9
+Flucloxacillin + clindamycin,1.0,1.0,0.0,81,Female,2.0,156.0
+Flucloxacillin + clindamycin,1.0,0.0,0.0,31,Male,4.0,4.5
+Flucloxacillin,,,,26,Male,,4.0
+Flucloxacillin,,,,36,Female,0.0,121.0
+Flucloxacillin + clindamycin,1.0,0.0,8.0,76,Female,8.0,79.0
+Flucloxacillin + clindamycin,1.0,0.0,1.0,53,Female,1.0,2.6
+Flucloxacillin,1.0,1.0,1.0,22,Male,7.0,16.2
+Flucloxacillin,1.0,0.0,0.0,24,Male,2.5,5.0
+Flucloxacillin,1.0,1.0,3.0,77,Female,6.0,48.9
+Flucloxacillin,1.0,1.0,0.0,74,Female,1.0,1.9
+Flucloxacillin + clindamycin,1.0,0.0,2.0,52,Male,2.0,222.0
+Flucloxacillin,1.0,0.0,2.0,47,Male,5.0,10.3
+Flucloxacillin,1.0,1.0,0.0,67,Female,8.0,14.0
+Flucloxacillin,,,,44,Female,5.0,9.4
+Flucloxacillin + clindamycin,1.0,0.0,5.0,55,Male,3.0,19.0
+Flucloxacillin + clindamycin,,,,58,Female,3.0,9.0
+Flucloxacillin,,,,59,Male,7.0,4.0
+Flucloxacillin + clindamycin,1.0,0.0,0.0,62,Male,0.0,40.0
+Flucloxacillin + clindamycin,1.0,0.0,9.0,59,Female,8.0,33.0
+Flucloxacillin,1.0,,1.0,50,Female,3.0,94.0
+Flucloxacillin,0.0,0.0,6.0,43,Male,4.0,10.8
+Flucloxacillin + clindamycin,,,,54,Male,10.0,126.1
+Flucloxacillin + clindamycin,0.0,0.0,5.0,23,Male,5.0,16.0
+Flucloxacillin,1.0,0.0,3.0,31,Male,6.0,16.7
+Flucloxacillin,1.0,0.0,0.0,48,Female,1.0,
+Flucloxacillin,1.0,0.0,2.0,39,Female,6.0,
+Flucloxacillin + clindamycin,,,,29,Female,5.0,
+Flucloxacillin + clindamycin,1.0,0.0,6.0,61,Male,7.0,25.4
+Flucloxacillin + clindamycin,1.0,0.0,0.0,32,Male,7.0,17.0
+Flucloxacillin,1.0,0.0,2.0,51,Female,7.0,39.0
+Flucloxacillin,1.0,0.0,0.0,55,Female,2.0,2.9
+Flucloxacillin + clindamycin,1.0,0.0,2.0,61,Female,6.0,32.0
+Flucloxacillin + clindamycin,1.0,0.0,5.0,70,Male,5.0,60.4
+Flucloxacillin,1.0,0.0,7.0,44,Female,8.0,1.0
+Flucloxacillin + clindamycin,1.0,0.0,6.0,87,Male,6.0,151.0
+Flucloxacillin + clindamycin,1.0,0.0,2.0,45,Male,5.0,159.0
+Flucloxacillin,,,,32,Male,7.0,113.6
+Flucloxacillin,1.0,1.0,3.0,48,Male,8.0,9.0
+Flucloxacillin + clindamycin,1.0,0.0,1.0,87,Male,4.0,16.7
+Flucloxacillin,1.0,1.0,0.0,33,Male,6.0,53.0
+Flucloxacillin,,,,34,Female,2.0,1.6
+Flucloxacillin + clindamycin,1.0,0.0,0.0,47,Male,5.0,
+Flucloxacillin,1.0,1.0,0.0,54,Female,3.0,10.0
+Flucloxacillin + clindamycin,,,,23,Male,7.0,23.8
+Flucloxacillin,0.0,0.0,5.0,60,Male,5.0,45.0
+Flucloxacillin + clindamycin,1.0,0.0,0.0,26,Male,2.0,123.1
+Flucloxacillin,,,,26,Male,6.0,5.0
+Flucloxacillin + clindamycin,1.0,0.0,1.0,42,Male,8.0,82.0
+Flucloxacillin,1.0,0.0,8.0,79,Female,4.0,1.0
+Flucloxacillin,1.0,0.0,1.0,26,Male,2.0,4.7
+Flucloxacillin + clindamycin,1.0,0.0,0.0,41,Male,2.0,2.3
+Flucloxacillin,1.0,1.0,3.0,35,Female,7.0,3.3
+Flucloxacillin + clindamycin,1.0,1.0,0.0,70,Female,3.0,11.4
+Flucloxacillin + clindamycin,,,,63,Male,,
+Flucloxacillin,1.0,0.0,0.0,52,Male,3.0,1.7
+Flucloxacillin,1.0,0.0,0.0,64,Female,8.0,4.0
+Flucloxacillin + clindamycin,1.0,0.0,0.0,34,Male,6.0,10.0
+Flucloxacillin + clindamycin,1.0,0.0,1.0,27,Male,4.0,11.0
+Flucloxacillin + clindamycin,1.0,1.0,8.0,57,Male,7.0,50.0
+Flucloxacillin,,,,57,Female,,
+Flucloxacillin,1.0,1.0,0.0,34,Female,4.0,32.0
+Flucloxacillin,1.0,0.0,5.0,79,Female,5.0,69.0
+Flucloxacillin + clindamycin,1.0,0.0,5.0,79,Male,7.0,96.0
+Flucloxacillin + clindamycin,1.0,0.0,2.0,65,Male,7.0,164.0
+Flucloxacillin + clindamycin,1.0,0.0,0.0,81,Female,4.0,111.0
+Flucloxacillin,1.0,0.0,0.0,65,Male,0.0,4.0
+Flucloxacillin + clindamycin,0.0,0.0,2.0,59,Male,4.0,14.3
+Flucloxacillin + clindamycin,1.0,1.0,0.0,46,Male,0.0,6.0
+Flucloxacillin + clindamycin,1.0,0.0,0.0,41,Male,4.0,81.0
+Flucloxacillin,1.0,0.0,0.0,45,Male,4.0,254.0
+Flucloxacillin,,,,43,Male,8.0,19.0
+Flucloxacillin,1.0,1.0,2.0,60,Male,8.0,119.7
+Flucloxacillin,1.0,0.0,0.5,56,Male,0.0,116.0
+Flucloxacillin + clindamycin,1.0,0.0,0.0,57,Female,1.0,115.0
+Flucloxacillin + clindamycin,1.0,0.0,2.0,47,Female,7.0,66.8
+Flucloxacillin + clindamycin,,,,43,Male,8.0,26.0
+Flucloxacillin + clindamycin,1.0,0.0,0.0,60,Male,3.5,27.0
+Flucloxacillin,1.0,0.0,1.0,27,Female,3.0,15.7
+Flucloxacillin + clindamycin,1.0,0.0,4.0,58,Male,7.0,5.9
+Flucloxacillin + clindamycin,1.0,0.0,0.0,60,Male,0.0,114.0
+Flucloxacillin,1.0,0.0,2.0,67,Male,5.0,7.0
+Flucloxacillin,,,,31,Male,2.0,4.0
+Flucloxacillin,,,,39,Male,4.0,19.0
+Flucloxacillin,1.0,0.0,0.0,39,Male,2.0,19.1
+Flucloxacillin + clindamycin,,,,24,Female,6.0,6.4
+Flucloxacillin + clindamycin,1.0,0.0,1.0,54,Male,0.0,3.0
+Flucloxacillin,,,,27,Female,7.0,73.0
+Flucloxacillin,1.0,0.0,4.0,50,Male,8.0,28.0
+Flucloxacillin,,,,60,Female,8.0,391.3
+Flucloxacillin,0.0,0.0,0.0,51,Male,10.0,5.5
+Flucloxacillin + clindamycin,1.0,0.0,0.0,58,Male,8.0,13.6
+Flucloxacillin + clindamycin,1.0,0.0,0.0,77,Male,5.0,4.0
+Flucloxacillin + clindamycin,1.0,0.0,4.0,29,Female,5.0,0.3
+Flucloxacillin + clindamycin,,,,33,Male,2.0,59.9
+Flucloxacillin + clindamycin,1.0,0.0,1.0,58,Female,1.0,12.0
+Flucloxacillin,1.0,1.0,4.0,25,Male,3.0,1.2
+Flucloxacillin + clindamycin,1.0,0.0,0.0,21,Female,5.0,5.0
+Flucloxacillin,0.0,0.0,0.0,40,Male,3.0,158.0
+Flucloxacillin + clindamycin,1.0,0.0,0.0,50,Male,6.0,116.0
+Flucloxacillin + clindamycin,1.0,0.0,5.0,52,Male,8.0,169.0
+Flucloxacillin + clindamycin,1.0,0.0,4.0,70,Male,8.0,183.0
+Flucloxacillin + clindamycin,1.0,0.0,0.0,63,Male,10.0,39.8
+Flucloxacillin,,,,44,Male,3.0,27.5
+Flucloxacillin + clindamycin,1.0,0.0,0.0,47,Male,0.0,13.0
+Flucloxacillin + clindamycin,1.0,0.0,7.0,48,Male,4.0,6.0
+Flucloxacillin + clindamycin,,,,33,Female,6.0,398.0
+Flucloxacillin,1.0,0.0,4.0,51,Male,5.0,131.0

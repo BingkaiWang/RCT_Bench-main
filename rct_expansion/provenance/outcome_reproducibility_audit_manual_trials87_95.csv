@@ -1,0 +1,97 @@
+Trial_ID,outcome_variable,outcome_role,arm,statistic,paper_value,paper_precision,cleaned_value,absolute_diff,tolerance,status,paper_source,notes
+trial87,YP_delta_mbp_mmHg,primary,Fentanyl,mean,12.63,,12.625,0.005000000000000782,0.6315000000000001,pass,BMC Anesthesiology 2016 Table 2,
+trial87,YP_delta_mbp_mmHg,primary,Fentanyl,sd,16.76,,16.759686655012185,0.0003133449878163219,0.8380000000000001,pass,BMC Anesthesiology 2016 Table 2,
+trial87,YP_delta_mbp_mmHg,primary,Oxycodone,mean,5.51,,5.709677419354839,0.19967741935483918,0.2755,pass,BMC Anesthesiology 2016 Table 2,
+trial87,YP_delta_mbp_mmHg,primary,Oxycodone,sd,18.29,,18.55656855561232,0.26656855561232007,0.9145,pass,BMC Anesthesiology 2016 Table 2,
+trial87,YP_delta_hr_bpm,primary,Fentanyl,mean,18.47,,18.46875,0.0012499999999988631,0.9235,pass,BMC Anesthesiology 2016 Table 2,The Oxycodone source sheet has missing HR delta values; Fentanyl reproduces exactly and Oxycodone SD remains within tolerance.
+trial87,YP_delta_hr_bpm,primary,Fentanyl,sd,13.74,,13.737127405496343,0.0028725945036569556,0.687,pass,BMC Anesthesiology 2016 Table 2,The Oxycodone source sheet has missing HR delta values; Fentanyl reproduces exactly and Oxycodone SD remains within tolerance.
+trial87,YP_delta_hr_bpm,primary,Oxycodone,mean,18.71,,17.666666666666668,1.043333333333333,0.9355000000000001,fail,BMC Anesthesiology 2016 Table 2,The Oxycodone source sheet has missing HR delta values; Fentanyl reproduces exactly and Oxycodone SD remains within tolerance.
+trial87,YP_delta_hr_bpm,primary,Oxycodone,sd,16.84,,16.373513795853,0.4664862041469995,0.8420000000000001,pass,BMC Anesthesiology 2016 Table 2,The Oxycodone source sheet has missing HR delta values; Fentanyl reproduces exactly and Oxycodone SD remains within tolerance.
+trial87,YP_postoperative_pain_vas,primary,Fentanyl,median,5.0,,5.0,0.0,0.25,pass,BMC Anesthesiology 2016 Table 2,
+trial87,YP_postoperative_pain_vas,primary,Oxycodone,median,3.0,,3.0,0.0,0.15000000000000002,pass,BMC Anesthesiology 2016 Table 2,
+trial87,YS_rescue_analgesic,secondary,Fentanyl,event_count,17.0,,17.0,0.0,0.8500000000000001,pass,BMC Anesthesiology 2016 Table 2,
+trial87,YS_rescue_analgesic,secondary,Oxycodone,event_count,9.0,,9.0,0.0,0.45,pass,BMC Anesthesiology 2016 Table 2,
+trial88,YP_death_1y,primary,Nutrition education,event_count,5.0,,5.0,0.0,0.25,pass,BMC Nutrition 2016 Table 2,
+trial88,YP_death_1y,primary,Control,event_count,7.0,,7.0,0.0,0.35000000000000003,pass,BMC Nutrition 2016 Table 2,
+trial88,YS_ami_1y,secondary,Nutrition education,event_count,5.0,,5.0,0.0,0.25,pass,BMC Nutrition 2016 Table 2,
+trial88,YS_ami_1y,secondary,Control,event_count,6.0,,6.0,0.0,0.30000000000000004,pass,BMC Nutrition 2016 Table 2,
+trial88,YS_repeat_pci_1y,secondary,Nutrition education,event_count,4.0,,4.0,0.0,0.2,pass,BMC Nutrition 2016 Table 2,
+trial88,YS_repeat_pci_1y,secondary,Control,event_count,6.0,,6.0,0.0,0.30000000000000004,pass,BMC Nutrition 2016 Table 2,
+trial88,YS_cabg_1y,secondary,Nutrition education,event_count,4.0,,4.0,0.0,0.2,pass,BMC Nutrition 2016 Table 2,
+trial88,YS_cabg_1y,secondary,Control,event_count,4.0,,4.0,0.0,0.2,pass,BMC Nutrition 2016 Table 2,
+trial88,YS_composite_event_1y,secondary,Nutrition education,event_count,11.0,,11.0,0.0,0.55,pass,BMC Nutrition 2016 Table 2,
+trial88,YS_composite_event_1y,secondary,Control,event_count,13.0,,13.0,0.0,0.65,pass,BMC Nutrition 2016 Table 2,
+trial89,X_moca_enrollment,baseline_primary,Nimodipine alone,mean,21.1,,21.076923076923077,0.02307692307692477,1.0550000000000002,pass,BMC Complement Altern Med 2016 Table 2,
+trial89,X_moca_enrollment,baseline_primary,Nimodipine alone,sd,4.3,,4.294332957114377,0.005667042885622919,0.215,pass,BMC Complement Altern Med 2016 Table 2,
+trial89,X_moca_enrollment,baseline_primary,Acupuncture alone,mean,21.8,,21.8,0.0,1.09,pass,BMC Complement Altern Med 2016 Table 2,
+trial89,X_moca_enrollment,baseline_primary,Acupuncture alone,sd,3.5,,3.5169917215186572,0.016991721518657243,0.17500000000000002,pass,BMC Complement Altern Med 2016 Table 2,
+trial89,X_moca_enrollment,baseline_primary,Nimodipine + acupuncture,mean,20.5,,20.5,0.0,1.0250000000000001,pass,BMC Complement Altern Med 2016 Table 2,
+trial89,X_moca_enrollment,baseline_primary,Nimodipine + acupuncture,sd,3.9,,3.9288544686584457,0.028854468658445764,0.195,pass,BMC Complement Altern Med 2016 Table 2,
+trial89,YP_moca_3m,primary,Nimodipine alone,mean,23.5,,23.46153846153846,0.0384615384615401,1.175,pass,BMC Complement Altern Med 2016 Table 2,
+trial89,YP_moca_3m,primary,Nimodipine alone,sd,4.6,,4.570190332591562,0.029809667408438045,0.22999999999999998,pass,BMC Complement Altern Med 2016 Table 2,
+trial89,YP_moca_3m,primary,Acupuncture alone,mean,25.4,,25.35,0.04999999999999716,1.27,pass,BMC Complement Altern Med 2016 Table 2,
+trial89,YP_moca_3m,primary,Acupuncture alone,sd,4.1,,4.148215557042848,0.04821555704284819,0.205,pass,BMC Complement Altern Med 2016 Table 2,
+trial89,YP_moca_3m,primary,Nimodipine + acupuncture,mean,24.5,,24.5,0.0,1.225,pass,BMC Complement Altern Med 2016 Table 2,
+trial89,YP_moca_3m,primary,Nimodipine + acupuncture,sd,3.3,,3.343574012862162,0.043574012862162004,0.165,pass,BMC Complement Altern Med 2016 Table 2,
+trial89,YS_moca_followup_6m,secondary,Nimodipine alone,mean,24.2,,24.17948717948718,0.02051282051282044,1.21,pass,BMC Complement Altern Med 2016 Table 2,
+trial89,YS_moca_followup_6m,secondary,Nimodipine alone,sd,4.6,,4.581839408106029,0.018160591893970235,0.22999999999999998,pass,BMC Complement Altern Med 2016 Table 2,
+trial89,YS_moca_followup_6m,secondary,Acupuncture alone,mean,26.1,,26.075,0.02500000000000213,1.3050000000000002,pass,BMC Complement Altern Med 2016 Table 2,
+trial89,YS_moca_followup_6m,secondary,Acupuncture alone,sd,3.6,,3.5546105848962433,0.045389415103756825,0.18000000000000002,pass,BMC Complement Altern Med 2016 Table 2,
+trial89,YS_moca_followup_6m,secondary,Nimodipine + acupuncture,mean,26.0,,26.025,0.02499999999999858,1.3,pass,BMC Complement Altern Med 2016 Table 2,
+trial89,YS_moca_followup_6m,secondary,Nimodipine + acupuncture,sd,2.8,,2.8146822018543936,0.014682201854393728,0.13999999999999999,pass,BMC Complement Altern Med 2016 Table 2,
+trial90,YP_dppr_percent,primary,Intervention,mean,88.0,,87.95890410958904,0.041095890410957736,4.4,pass,BMC Health Services Research 2016 Table 6,DPPR is participant-level in the source file.
+trial90,YP_dppr_percent,primary,Intervention,sd,13.31,,13.291364431310805,0.018635568689195026,0.6655000000000001,pass,BMC Health Services Research 2016 Table 6,DPPR is participant-level in the source file.
+trial90,YP_dppr_percent,primary,Control,mean,87.5,,86.51700680272108,0.9829931972789154,4.375,pass,BMC Health Services Research 2016 Table 6,DPPR is participant-level in the source file.
+trial90,YP_dppr_percent,primary,Control,sd,20.75,,15.116150186434954,5.633849813565046,1.0375,fail,BMC Health Services Research 2016 Table 6,DPPR is participant-level in the source file.
+trial90,YS_mpr_mean_percent,primary_supporting,Intervention,medication_row_weighted_mean,88.3,,88.31393711967546,0.013937119675460963,4.415,pass,BMC Health Services Research 2016 Table 5,Weighted from compact participant-level MPR sum/count components.
+trial90,YS_mpr_mean_percent,primary_supporting,Intervention,medication_row_weighted_sd,19.03,,19.02529194860826,0.0047080513917414635,0.9515000000000001,pass,BMC Health Services Research 2016 Table 5,Weighted from compact participant-level MPR sum/count/sumsq components.
+trial90,YS_mpr_mean_percent,primary_supporting,Control,medication_row_weighted_mean,87.5,,87.45501707779887,0.04498292220112887,4.375,pass,BMC Health Services Research 2016 Table 5,Weighted from compact participant-level MPR sum/count components.
+trial90,YS_mpr_mean_percent,primary_supporting,Control,medication_row_weighted_sd,20.75,,20.750336267321828,0.0003362673218276768,1.0375,pass,BMC Health Services Research 2016 Table 5,Weighted from compact participant-level MPR sum/count/sumsq components.
+trial91,YP_vas_sitting_10d,primary,Monocryl,mean,2.8,,2.721311475409836,0.07868852459016384,0.13999999999999999,pass,BMC Pregnancy and Childbirth 2017 Table 3,Publication reports n=64/67; cleaned nonmissing primary rows are audited separately.
+trial91,YP_vas_sitting_10d,primary,Monocryl,sd,2.5,,2.490857600245236,0.009142399754764163,0.125,pass,BMC Pregnancy and Childbirth 2017 Table 3,Publication reports n=64/67; cleaned nonmissing primary rows are audited separately.
+trial91,YP_vas_sitting_10d,primary,Vicryl Rapide,mean,2.5,,2.4923076923076923,0.007692307692307665,0.125,pass,BMC Pregnancy and Childbirth 2017 Table 3,Publication reports n=64/67; cleaned nonmissing primary rows are audited separately.
+trial91,YP_vas_sitting_10d,primary,Vicryl Rapide,sd,2.1,,2.1222266970910892,0.022226697091089154,0.10500000000000001,pass,BMC Pregnancy and Childbirth 2017 Table 3,Publication reports n=64/67; cleaned nonmissing primary rows are audited separately.
+trial91,YP_vas_sitting_10d,primary,Monocryl,nonmissing_n,64.0,,61.0,3.0,3.2,pass,BMC Pregnancy and Childbirth 2017 Table 3,Count mismatch retained as a source-data limitation; means/SDs reproduce within tolerance.
+trial91,YP_vas_sitting_10d,primary,Vicryl Rapide,nonmissing_n,67.0,,65.0,2.0,3.35,pass,BMC Pregnancy and Childbirth 2017 Table 3,Count mismatch retained as a source-data limitation; means/SDs reproduce within tolerance.
+trial92,YP_itn_use_4m,primary,Intervention: category 1,category_count,30.0,,30.0,0.0,1.5,pass,Malaria Journal 2021 Table 4,"ITN categories: 1 never, 2 seldom, 3 sometimes, 4 often, 5 almost always."
+trial92,YP_itn_use_4m,primary,Intervention: category 2,category_count,8.0,,8.0,0.0,0.4,pass,Malaria Journal 2021 Table 4,"ITN categories: 1 never, 2 seldom, 3 sometimes, 4 often, 5 almost always."
+trial92,YP_itn_use_4m,primary,Intervention: category 3,category_count,28.0,,28.0,0.0,1.4000000000000001,pass,Malaria Journal 2021 Table 4,"ITN categories: 1 never, 2 seldom, 3 sometimes, 4 often, 5 almost always."
+trial92,YP_itn_use_4m,primary,Intervention: category 4,category_count,39.0,,39.0,0.0,1.9500000000000002,pass,Malaria Journal 2021 Table 4,"ITN categories: 1 never, 2 seldom, 3 sometimes, 4 often, 5 almost always."
+trial92,YP_itn_use_4m,primary,Intervention: category 5,category_count,34.0,,34.0,0.0,1.7000000000000002,pass,Malaria Journal 2021 Table 4,"ITN categories: 1 never, 2 seldom, 3 sometimes, 4 often, 5 almost always."
+trial92,YP_itn_use_4m,primary,Control: category 1,category_count,35.0,,35.0,0.0,1.75,pass,Malaria Journal 2021 Table 4,"ITN categories: 1 never, 2 seldom, 3 sometimes, 4 often, 5 almost always."
+trial92,YP_itn_use_4m,primary,Control: category 2,category_count,22.0,,22.0,0.0,1.1,pass,Malaria Journal 2021 Table 4,"ITN categories: 1 never, 2 seldom, 3 sometimes, 4 often, 5 almost always."
+trial92,YP_itn_use_4m,primary,Control: category 3,category_count,24.0,,24.0,0.0,1.2000000000000002,pass,Malaria Journal 2021 Table 4,"ITN categories: 1 never, 2 seldom, 3 sometimes, 4 often, 5 almost always."
+trial92,YP_itn_use_4m,primary,Control: category 4,category_count,22.0,,22.0,0.0,1.1,pass,Malaria Journal 2021 Table 4,"ITN categories: 1 never, 2 seldom, 3 sometimes, 4 often, 5 almost always."
+trial92,YP_itn_use_4m,primary,Control: category 5,category_count,25.0,,25.0,0.0,1.25,pass,Malaria Journal 2021 Table 4,"ITN categories: 1 never, 2 seldom, 3 sometimes, 4 often, 5 almost always."
+trial92,YP_ipt_doses_4m,primary,Intervention: category 0,category_count,6.0,,6.0,0.0,0.30000000000000004,pass,Malaria Journal 2021 Table 4,IPTp categories are reported number of doses by four months.
+trial92,YP_ipt_doses_4m,primary,Intervention: category 1,category_count,20.0,,20.0,0.0,1.0,pass,Malaria Journal 2021 Table 4,IPTp categories are reported number of doses by four months.
+trial92,YP_ipt_doses_4m,primary,Intervention: category 2,category_count,82.0,,82.0,0.0,4.1000000000000005,pass,Malaria Journal 2021 Table 4,IPTp categories are reported number of doses by four months.
+trial92,YP_ipt_doses_4m,primary,Intervention: category 3,category_count,31.0,,31.0,0.0,1.55,pass,Malaria Journal 2021 Table 4,IPTp categories are reported number of doses by four months.
+trial92,YP_ipt_doses_4m,primary,Control: category 0,category_count,10.0,,10.0,0.0,0.5,pass,Malaria Journal 2021 Table 4,IPTp categories are reported number of doses by four months.
+trial92,YP_ipt_doses_4m,primary,Control: category 1,category_count,47.0,,47.0,0.0,2.35,pass,Malaria Journal 2021 Table 4,IPTp categories are reported number of doses by four months.
+trial92,YP_ipt_doses_4m,primary,Control: category 2,category_count,62.0,,62.0,0.0,3.1,pass,Malaria Journal 2021 Table 4,IPTp categories are reported number of doses by four months.
+trial92,YP_ipt_doses_4m,primary,Control: category 3,category_count,9.0,,9.0,0.0,0.45,pass,Malaria Journal 2021 Table 4,IPTp categories are reported number of doses by four months.
+trial93,YP_adhered_self_report,primary,Control,percent,61.5,,61.52416356877324,0.024163568773239774,3.075,pass,PLOS ONE 2014 Table 2,Any reminder corresponds to treated_ate=1 in the authors' Stata code.
+trial93,YP_adhered_self_report,primary,Any reminder,percent,66.4,,66.43356643356644,0.03356643356643474,3.3200000000000003,pass,PLOS ONE 2014 Table 2,Any reminder corresponds to treated_ate=1 in the authors' Stata code.
+trial93,YP_adhered_self_report,primary,Reminder plus information,percent,64.1,,64.14473684210526,0.04473684210526585,3.205,pass,PLOS ONE 2014 Table 2,Any reminder corresponds to treated_ate=1 in the authors' Stata code.
+trial93,YP_adhered_self_report,primary,Control,nonmissing_n,538.0,,538.0,0.0,26.900000000000002,pass,PLOS ONE 2014 Table 2,
+trial93,YP_adhered_self_report,primary,Any reminder,nonmissing_n,572.0,,572.0,0.0,28.6,pass,PLOS ONE 2014 Table 2,
+trial93,YP_adhered_self_report,primary,Reminder plus information,nonmissing_n,304.0,,304.0,0.0,15.200000000000001,pass,PLOS ONE 2014 Table 2,
+trial94,YP_clinical_treatment_success,primary,Zindagi SMS,event_count,917.0,,917.0,0.0,45.85,pass,PLOS ONE 2016 Table 2,
+trial94,YP_clinical_treatment_success,primary,Control,event_count,903.0,,903.0,0.0,45.150000000000006,pass,PLOS ONE 2016 Table 2,
+trial94,YP_clinical_treatment_success,primary,Zindagi SMS,percent,83.0,,83.06159420289855,0.06159420289854722,4.15,pass,PLOS ONE 2016 Table 2,Publication rounds percentages to whole numbers.
+trial94,YP_clinical_treatment_success,primary,Control,percent,83.0,,82.61665141811528,0.383348581884718,4.15,pass,PLOS ONE 2016 Table 2,Publication rounds percentages to whole numbers.
+trial94,YS_clinical_treatment_complete,secondary,Zindagi SMS,event_count,332.0,,332.0,0.0,16.6,pass,PLOS ONE 2016 Table 2,
+trial94,YS_clinical_treatment_complete,secondary,Control,event_count,325.0,,325.0,0.0,16.25,pass,PLOS ONE 2016 Table 2,
+trial94,YS_clinical_cured,secondary,Zindagi SMS,event_count,585.0,,585.0,0.0,29.25,pass,PLOS ONE 2016 Table 2,
+trial94,YS_clinical_cured,secondary,Control,event_count,578.0,,578.0,0.0,28.900000000000002,pass,PLOS ONE 2016 Table 2,
+trial94,YS_clinical_default,secondary,Zindagi SMS,event_count,108.0,,108.0,0.0,5.4,pass,PLOS ONE 2016 Table 2,
+trial94,YS_clinical_default,secondary,Control,event_count,103.0,,103.0,0.0,5.15,pass,PLOS ONE 2016 Table 2,
+trial94,YS_clinical_died,secondary,Zindagi SMS,event_count,19.0,,19.0,0.0,0.9500000000000001,pass,PLOS ONE 2016 Table 2,
+trial94,YS_clinical_died,secondary,Control,event_count,19.0,,19.0,0.0,0.9500000000000001,pass,PLOS ONE 2016 Table 2,
+trial94,YS_clinical_failure,secondary,Zindagi SMS,event_count,27.0,,27.0,0.0,1.35,pass,PLOS ONE 2016 Table 2,
+trial94,YS_clinical_failure,secondary,Control,event_count,29.0,,29.0,0.0,1.4500000000000002,pass,PLOS ONE 2016 Table 2,
+trial94,YS_clinical_transfer_out,secondary,Zindagi SMS,event_count,33.0,,33.0,0.0,1.6500000000000001,pass,PLOS ONE 2016 Table 2,
+trial94,YS_clinical_transfer_out,secondary,Control,event_count,39.0,,39.0,0.0,1.9500000000000002,pass,PLOS ONE 2016 Table 2,
+trial95,YP_insertion_time_sec,primary,Laryngeal mask,median,31.0,,31.0,0.0,1.55,pass,European Journal of Emergency Medicine 2025 Table 2,Compound free-text timing cells are retained in X_insertion_time_raw and excluded from this compact numeric audit.
+trial95,YP_insertion_time_sec,primary,Laryngeal tube,median,37.0,,36.0,1.0,1.85,pass,European Journal of Emergency Medicine 2025 Table 2,Compound free-text timing cells are retained in X_insertion_time_raw and excluded from this compact numeric audit.

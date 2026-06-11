@@ -1,0 +1,367 @@
+Treatment,YP_total_medications,YS_regular_medications,YS_new_medications,X_prn_medications,X_otc_medications,X_cam_medications
+Usual care,12,10,0,2,0,0
+Usual care,11,10,0,1,0,0
+Usual care,15,11,0,4,0,0
+Usual care,2,1,0,1,0,0
+Usual care,8,6,0,2,0,0
+Usual care,4,1,0,1,0,2
+Usual care,15,8,2,5,1,1
+Usual care,3,1,0,1,0,1
+Usual care,7,4,1,1,0,2
+Usual care,4,0,4,4,0,0
+Usual care,7,6,0,1,0,0
+Usual care,14,13,0,1,0,0
+Usual care,1,0,0,0,0,1
+Usual care,8,7,1,1,0,0
+Usual care,18,16,1,2,0,0
+Usual care,2,2,1,0,0,0
+Usual care,1,1,4,0,0,0
+Usual care,10,3,1,2,0,5
+Usual care,3,2,0,1,0,0
+Usual care,7,6,2,0,0,1
+Usual care,2,2,2,0,0,0
+Usual care,4,2,0,1,0,1
+Usual care,16,12,0,4,0,0
+Usual care,11,6,3,1,0,4
+Usual care,13,6,1,6,0,1
+Usual care,1,1,1,0,0,0
+Usual care,2,1,0,1,0,0
+Usual care,4,3,0,1,0,0
+Usual care,8,7,1,1,0,0
+Usual care,5,5,1,0,0,0
+Usual care,4,1,0,3,0,0
+Usual care,6,1,0,1,0,4
+Usual care,25,16,0,2,0,7
+Usual care,10,10,0,0,0,0
+Usual care,9,7,2,2,0,0
+Usual care,11,5,2,3,0,3
+Usual care,8,5,1,3,0,0
+Usual care,12,9,0,3,0,0
+Usual care,1,1,1,0,0,0
+Usual care,12,9,4,0,0,3
+Usual care,11,9,4,2,0,0
+Usual care,1,0,3,1,0,0
+Usual care,5,5,5,0,0,0
+Usual care,1,1,2,0,0,0
+Usual care,7,5,0,2,0,0
+Usual care,1,1,0,0,0,0
+Usual care,12,9,2,3,0,0
+Usual care,2,1,5,0,0,1
+Usual care,7,3,0,0,0,4
+Usual care,2,2,1,0,0,0
+Usual care,10,7,0,3,0,0
+Usual care,1,0,0,1,0,0
+Usual care,13,7,0,3,0,3
+Usual care,1,0,0,1,0,0
+Usual care,3,2,0,1,0,0
+Usual care,11,9,3,0,0,2
+Usual care,9,6,4,0,1,2
+Usual care,2,1,1,0,0,1
+Usual care,0,0,1,0,0,0
+Usual care,4,0,0,0,2,2
+Usual care,10,9,0,1,0,0
+Usual care,9,9,3,0,0,0
+Usual care,7,4,0,3,0,0
+Usual care,7,3,1,4,0,0
+Usual care,14,12,1,2,0,0
+Usual care,7,7,0,0,0,0
+Usual care,14,12,1,2,0,0
+Usual care,7,7,3,0,0,0
+Usual care,9,7,0,2,0,0
+Usual care,11,10,0,0,0,1
+Usual care,8,3,0,4,0,1
+Usual care,5,4,0,1,0,0
+Usual care,11,10,4,1,0,0
+Usual care,5,2,4,3,0,0
+Usual care,4,3,4,1,0,0
+Usual care,2,1,5,1,0,0
+Usual care,4,2,4,1,1,0
+Usual care,4,4,1,0,0,0
+Usual care,13,10,0,3,0,0
+Usual care,4,1,4,3,0,0
+Usual care,8,7,1,1,0,0
+Usual care,3,1,6,0,1,1
+Usual care,12,6,4,1,1,4
+Usual care,3,3,0,0,0,0
+Usual care,11,7,0,3,1,0
+Usual care,6,5,1,1,0,0
+Usual care,6,1,1,1,0,4
+Usual care,3,2,2,1,0,0
+Usual care,11,10,2,1,0,0
+Usual care,6,6,0,0,0,0
+Usual care,7,5,1,2,0,0
+Usual care,17,6,0,6,0,5
+Usual care,1,0,0,0,0,1
+Usual care,4,3,1,1,0,0
+Usual care,3,2,0,1,0,0
+Usual care,6,3,1,3,0,0
+Usual care,5,3,0,1,0,1
+Usual care,9,9,1,0,0,0
+Usual care,6,6,0,0,0,0
+Usual care,4,4,0,0,0,0
+Usual care,9,8,0,1,0,0
+Usual care,3,3,1,0,0,0
+Usual care,17,11,2,3,2,1
+Usual care,8,7,0,0,1,0
+Usual care,3,2,2,0,0,1
+Usual care,1,1,0,0,0,0
+Usual care,5,3,0,1,0,1
+Usual care,4,3,0,1,0,0
+Usual care,10,7,0,2,0,1
+Usual care,15,11,2,2,0,2
+Usual care,5,5,0,0,0,0
+Usual care,15,10,0,3,1,1
+Usual care,4,4,2,0,0,0
+Usual care,7,4,1,2,0,1
+Usual care,11,11,0,0,0,0
+Usual care,9,7,1,2,0,0
+Usual care,17,15,0,2,0,0
+Usual care,5,2,4,1,0,2
+Usual care,3,2,1,1,0,0
+Usual care,7,2,0,3,0,2
+Usual care,7,6,0,1,0,0
+Usual care,12,8,0,1,0,3
+Usual care,3,2,0,1,0,0
+Usual care,11,9,2,2,0,0
+Usual care,4,4,2,0,0,0
+Usual care,6,4,4,2,0,0
+Usual care,1,1,0,0,0,0
+Usual care,14,12,0,2,0,0
+Usual care,5,4,0,0,0,1
+Usual care,1,0,0,1,0,0
+Usual care,10,0,1,1,0,9
+Usual care,10,4,0,2,0,4
+Usual care,2,2,1,0,0,0
+Usual care,6,4,5,1,0,1
+Usual care,7,6,1,1,0,0
+Usual care,3,3,0,0,0,0
+Usual care,18,15,0,3,0,0
+Usual care,11,10,0,1,0,0
+Usual care,2,1,0,1,0,0
+Usual care,9,8,0,1,0,0
+Usual care,13,10,3,1,0,2
+Usual care,1,1,4,0,0,0
+Usual care,6,3,3,3,0,0
+Usual care,7,6,0,1,0,0
+Usual care,2,0,1,2,0,0
+Usual care,1,1,0,0,0,0
+Usual care,1,0,2,1,0,0
+Usual care,7,5,0,0,0,2
+Usual care,0,0,1,0,0,0
+Usual care,17,13,1,4,0,0
+Usual care,8,3,1,0,2,3
+Usual care,1,0,7,1,0,0
+Usual care,10,7,1,3,0,0
+Usual care,9,5,0,3,0,1
+Usual care,15,8,3,5,2,0
+Usual care,5,4,0,1,0,0
+Usual care,4,2,3,2,0,0
+Usual care,15,12,0,2,0,1
+Usual care,10,4,0,3,0,3
+Usual care,13,7,0,5,0,1
+Usual care,16,14,0,2,0,0
+Usual care,4,2,0,2,0,0
+Usual care,7,6,0,1,0,0
+Usual care,17,15,0,1,0,1
+Usual care,9,3,0,5,1,0
+Usual care,13,8,1,3,2,0
+Usual care,1,0,8,1,0,0
+Usual care,5,5,1,0,0,0
+Usual care,19,11,0,5,0,3
+Usual care,8,3,0,2,1,2
+Usual care,19,16,1,2,0,1
+Usual care,5,4,0,0,0,1
+Usual care,6,3,0,3,0,0
+Usual care,8,4,0,4,0,0
+Usual care,10,3,0,7,0,0
+Usual care,18,14,0,4,0,0
+Usual care,5,3,0,0,0,2
+Usual care,3,1,4,2,0,0
+Usual care,4,4,3,0,0,0
+Usual care,14,8,0,4,1,1
+Usual care,3,0,0,2,0,1
+Usual care,13,11,1,1,0,1
+Usual care,7,3,1,3,0,1
+Pharmacist collaborative prescribing,7,4,1,2,0,1
+Pharmacist collaborative prescribing,7,7,1,0,0,0
+Pharmacist collaborative prescribing,0,0,6,0,0,0
+Pharmacist collaborative prescribing,2,2,1,0,0,0
+Pharmacist collaborative prescribing,13,11,0,0,0,2
+Pharmacist collaborative prescribing,5,1,3,3,1,0
+Pharmacist collaborative prescribing,7,6,0,1,0,0
+Pharmacist collaborative prescribing,18,15,0,3,0,0
+Pharmacist collaborative prescribing,12,6,1,0,0,6
+Pharmacist collaborative prescribing,1,1,0,0,0,0
+Pharmacist collaborative prescribing,5,1,4,1,0,3
+Pharmacist collaborative prescribing,6,3,3,3,0,0
+Pharmacist collaborative prescribing,4,3,1,1,0,0
+Pharmacist collaborative prescribing,0,0,1,0,0,0
+Pharmacist collaborative prescribing,4,4,0,0,0,0
+Pharmacist collaborative prescribing,11,4,0,2,0,5
+Pharmacist collaborative prescribing,3,3,0,0,0,0
+Pharmacist collaborative prescribing,0,0,3,0,0,0
+Pharmacist collaborative prescribing,4,3,2,1,0,0
+Pharmacist collaborative prescribing,3,0,4,3,0,0
+Pharmacist collaborative prescribing,9,8,3,1,0,0
+Pharmacist collaborative prescribing,10,6,0,1,0,3
+Pharmacist collaborative prescribing,4,4,1,0,0,0
+Pharmacist collaborative prescribing,5,1,0,4,0,0
+Pharmacist collaborative prescribing,1,0,1,1,0,0
+Pharmacist collaborative prescribing,0,0,3,0,0,0
+Pharmacist collaborative prescribing,7,5,0,1,0,1
+Pharmacist collaborative prescribing,1,0,1,1,0,0
+Pharmacist collaborative prescribing,7,3,0,4,0,0
+Pharmacist collaborative prescribing,1,0,1,1,0,0
+Pharmacist collaborative prescribing,6,4,0,2,0,0
+Pharmacist collaborative prescribing,6,5,1,1,0,0
+Pharmacist collaborative prescribing,4,4,1,0,0,0
+Pharmacist collaborative prescribing,9,7,1,2,0,0
+Pharmacist collaborative prescribing,6,2,1,4,0,0
+Pharmacist collaborative prescribing,7,5,0,2,0,0
+Pharmacist collaborative prescribing,4,4,1,0,0,0
+Pharmacist collaborative prescribing,3,1,0,2,0,0
+Pharmacist collaborative prescribing,2,1,0,1,0,0
+Pharmacist collaborative prescribing,11,11,3,0,0,0
+Pharmacist collaborative prescribing,0,0,1,0,0,0
+Pharmacist collaborative prescribing,4,2,4,2,0,0
+Pharmacist collaborative prescribing,5,4,4,0,0,1
+Pharmacist collaborative prescribing,3,2,3,1,0,0
+Pharmacist collaborative prescribing,1,1,1,0,0,0
+Pharmacist collaborative prescribing,1,0,0,1,0,0
+Pharmacist collaborative prescribing,2,2,4,0,0,0
+Pharmacist collaborative prescribing,6,4,1,2,0,0
+Pharmacist collaborative prescribing,8,6,0,2,0,0
+Pharmacist collaborative prescribing,2,2,5,0,0,0
+Pharmacist collaborative prescribing,9,7,0,1,0,1
+Pharmacist collaborative prescribing,4,2,1,2,0,0
+Pharmacist collaborative prescribing,12,9,1,3,0,0
+Pharmacist collaborative prescribing,2,2,0,0,0,0
+Pharmacist collaborative prescribing,3,3,1,0,0,0
+Pharmacist collaborative prescribing,1,1,1,0,0,0
+Pharmacist collaborative prescribing,5,1,0,1,0,3
+Pharmacist collaborative prescribing,3,3,4,0,0,0
+Pharmacist collaborative prescribing,3,3,1,0,0,0
+Pharmacist collaborative prescribing,2,0,0,1,0,1
+Pharmacist collaborative prescribing,6,6,3,0,0,0
+Pharmacist collaborative prescribing,5,3,0,1,0,1
+Pharmacist collaborative prescribing,5,5,0,0,0,0
+Pharmacist collaborative prescribing,18,14,0,2,0,2
+Pharmacist collaborative prescribing,3,3,1,0,0,0
+Pharmacist collaborative prescribing,5,5,1,0,0,0
+Pharmacist collaborative prescribing,0,0,1,0,0,0
+Pharmacist collaborative prescribing,8,8,1,0,0,0
+Pharmacist collaborative prescribing,9,9,1,0,0,0
+Pharmacist collaborative prescribing,7,4,1,2,1,0
+Pharmacist collaborative prescribing,20,18,0,2,0,0
+Pharmacist collaborative prescribing,8,6,4,1,0,1
+Pharmacist collaborative prescribing,11,9,0,1,0,1
+Pharmacist collaborative prescribing,6,4,0,2,0,0
+Pharmacist collaborative prescribing,6,1,0,4,0,1
+Pharmacist collaborative prescribing,8,7,1,0,0,1
+Pharmacist collaborative prescribing,1,1,0,0,0,0
+Pharmacist collaborative prescribing,5,2,5,3,0,0
+Pharmacist collaborative prescribing,9,7,7,1,0,1
+Pharmacist collaborative prescribing,8,3,0,1,0,4
+Pharmacist collaborative prescribing,4,1,1,1,0,2
+Pharmacist collaborative prescribing,4,1,1,3,0,0
+Pharmacist collaborative prescribing,0,0,1,0,0,0
+Pharmacist collaborative prescribing,18,15,0,3,0,0
+Pharmacist collaborative prescribing,5,4,5,1,0,0
+Pharmacist collaborative prescribing,2,2,6,0,0,0
+Pharmacist collaborative prescribing,2,2,1,0,0,0
+Pharmacist collaborative prescribing,2,2,1,0,0,0
+Pharmacist collaborative prescribing,5,4,1,1,0,0
+Pharmacist collaborative prescribing,2,1,0,0,0,1
+Pharmacist collaborative prescribing,12,11,0,1,0,0
+Pharmacist collaborative prescribing,5,5,0,0,0,0
+Pharmacist collaborative prescribing,8,8,2,0,0,0
+Pharmacist collaborative prescribing,6,6,1,0,0,0
+Pharmacist collaborative prescribing,4,4,1,0,0,0
+Pharmacist collaborative prescribing,5,4,1,1,0,0
+Pharmacist collaborative prescribing,1,0,1,0,0,1
+Pharmacist collaborative prescribing,2,2,1,0,0,0
+Pharmacist collaborative prescribing,9,3,0,1,0,5
+Pharmacist collaborative prescribing,2,1,1,1,0,0
+Pharmacist collaborative prescribing,7,6,3,1,0,0
+Pharmacist collaborative prescribing,12,10,1,2,0,0
+Pharmacist collaborative prescribing,13,10,1,3,0,0
+Pharmacist collaborative prescribing,6,5,1,1,0,0
+Pharmacist collaborative prescribing,5,5,2,0,0,0
+Pharmacist collaborative prescribing,3,1,1,2,0,0
+Pharmacist collaborative prescribing,3,1,4,1,0,1
+Pharmacist collaborative prescribing,8,6,0,0,0,2
+Pharmacist collaborative prescribing,0,0,1,0,0,0
+Pharmacist collaborative prescribing,8,7,1,1,0,0
+Pharmacist collaborative prescribing,3,3,0,0,0,0
+Pharmacist collaborative prescribing,2,1,0,0,1,0
+Pharmacist collaborative prescribing,4,3,2,1,0,0
+Pharmacist collaborative prescribing,8,3,0,0,0,5
+Pharmacist collaborative prescribing,18,14,1,2,0,2
+Pharmacist collaborative prescribing,0,0,1,0,0,0
+Pharmacist collaborative prescribing,8,8,1,0,0,0
+Pharmacist collaborative prescribing,2,1,2,0,0,1
+Pharmacist collaborative prescribing,7,4,1,3,0,0
+Pharmacist collaborative prescribing,2,1,0,1,0,0
+Pharmacist collaborative prescribing,8,5,0,3,0,0
+Pharmacist collaborative prescribing,9,9,1,0,0,0
+Pharmacist collaborative prescribing,3,3,0,0,0,0
+Pharmacist collaborative prescribing,4,1,1,2,0,1
+Pharmacist collaborative prescribing,16,10,1,2,0,4
+Pharmacist collaborative prescribing,1,1,0,0,0,0
+Pharmacist collaborative prescribing,5,0,1,1,0,4
+Pharmacist collaborative prescribing,5,3,1,1,1,0
+Pharmacist collaborative prescribing,2,1,1,1,0,0
+Pharmacist collaborative prescribing,4,4,1,0,0,0
+Pharmacist collaborative prescribing,2,0,4,0,0,2
+Pharmacist collaborative prescribing,5,4,2,0,0,1
+Pharmacist collaborative prescribing,5,3,0,0,0,2
+Pharmacist collaborative prescribing,15,14,0,1,0,0
+Pharmacist collaborative prescribing,6,6,1,0,0,0
+Pharmacist collaborative prescribing,4,2,4,2,0,0
+Pharmacist collaborative prescribing,12,7,1,3,0,2
+Pharmacist collaborative prescribing,11,8,0,3,0,0
+Pharmacist collaborative prescribing,4,2,0,2,0,0
+Pharmacist collaborative prescribing,1,1,1,0,0,0
+Pharmacist collaborative prescribing,20,16,0,4,0,0
+Pharmacist collaborative prescribing,4,4,1,0,0,0
+Pharmacist collaborative prescribing,3,0,0,3,0,0
+Pharmacist collaborative prescribing,1,1,0,0,0,0
+Pharmacist collaborative prescribing,4,2,2,2,0,0
+Pharmacist collaborative prescribing,2,1,0,0,1,0
+Pharmacist collaborative prescribing,7,7,2,0,0,0
+Pharmacist collaborative prescribing,2,1,1,1,0,0
+Pharmacist collaborative prescribing,15,13,1,2,0,0
+Pharmacist collaborative prescribing,8,7,0,1,0,0
+Pharmacist collaborative prescribing,6,2,1,1,2,1
+Pharmacist collaborative prescribing,4,4,1,0,0,0
+Pharmacist collaborative prescribing,3,2,1,1,0,0
+Pharmacist collaborative prescribing,6,5,6,0,0,1
+Pharmacist collaborative prescribing,1,0,0,1,0,0
+Pharmacist collaborative prescribing,2,0,7,0,0,2
+Pharmacist collaborative prescribing,1,1,0,0,0,0
+Pharmacist collaborative prescribing,1,0,2,1,0,0
+Pharmacist collaborative prescribing,9,8,1,1,0,0
+Pharmacist collaborative prescribing,2,0,1,2,0,0
+Pharmacist collaborative prescribing,2,2,2,0,0,0
+Pharmacist collaborative prescribing,1,1,1,0,0,0
+Pharmacist collaborative prescribing,6,6,0,0,0,0
+Pharmacist collaborative prescribing,1,0,1,0,1,0
+Pharmacist collaborative prescribing,5,5,1,0,0,0
+Pharmacist collaborative prescribing,5,4,0,1,0,0
+Pharmacist collaborative prescribing,7,6,0,1,0,0
+Pharmacist collaborative prescribing,4,1,0,2,0,1
+Pharmacist collaborative prescribing,7,6,0,0,0,1
+Pharmacist collaborative prescribing,2,1,0,1,0,0
+Pharmacist collaborative prescribing,1,1,0,0,0,0
+Pharmacist collaborative prescribing,7,7,0,0,0,0
+Pharmacist collaborative prescribing,5,5,1,0,0,0
+Pharmacist collaborative prescribing,2,2,0,0,0,0
+Pharmacist collaborative prescribing,3,2,0,0,0,1
+Pharmacist collaborative prescribing,3,2,0,0,1,0
+Pharmacist collaborative prescribing,4,4,0,0,0,0
+Pharmacist collaborative prescribing,8,7,0,1,0,0
+Pharmacist collaborative prescribing,3,2,0,1,0,0
+Pharmacist collaborative prescribing,6,4,0,2,0,0
+Pharmacist collaborative prescribing,6,5,1,1,0,0
+Pharmacist collaborative prescribing,5,5,1,0,0,0
+Pharmacist collaborative prescribing,11,5,1,1,0,5

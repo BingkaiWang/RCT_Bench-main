@@ -1,0 +1,7 @@
+Trial_ID,Candidate_ID,Repository,Dataset_DOI,Download_Date,Status,Source_Files
+116,RCTC-01557,Harvard Dataverse,10.7910/dvn/6i62qk,2026-06-11,cleaned_after_manual_review_pending_publication_audit,S 3 raw data.tab
+117,RCTC-02282,DataverseNL,10.34894/bazoqf,2026-06-11,cleaned_after_manual_review_pending_publication_audit,Data.csv; Study protocol.pdf
+118,RCTC-05010,Harvard Dataverse,10.7910/dvn/dofciv,2026-06-11,cleaned_after_manual_review_pending_publication_audit,RCTC-05010.xlsx
+119,RCTC-02127,Borealis,10.5683/sp3/qk5zrd,2026-06-11,cleaned_after_manual_review_pending_publication_audit,Collecte donn_es_Dataverse.tab
+120,RCTC-04923,Harvard Dataverse,10.7910/dvn/tffsgr,2026-06-11,cleaned_after_manual_review_pending_publication_audit,Fig1a_ eFig 3.tab; Fig 1b_eFig 4a_ 4b_ 5.tab; eFig 6-7.tab; eFig 8-9.tab; mapa tablas.docx
+121,RCTC-04272,Mendeley Data,10.17632/bx2gvkty4c.2,2026-06-11,cleaned_after_manual_review_pending_publication_audit,LindsayData_PNE.sav

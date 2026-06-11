@@ -1,0 +1,5 @@
+Trial_ID: 86
+Paper Name: VIBRANT trial primary and secondary outcomes
+Paper Link: https://doi.org/10.1101/2025.09.18.25336053
+Citation: VIBRANT trial primary and secondary outcomes. medRxiv preprint. 2025. DOI: 10.1101/2025.09.18.25336053
+Availability: PDF stored here when publicly available; otherwise this file records the publication link.

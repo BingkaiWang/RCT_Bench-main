@@ -1,0 +1,277 @@
+﻿ID,Identifier (randomly generated)
+Center,"1= Mexico City, 2= Tabasco"
+Study_group,"1= Thermotherapy, 0=control"
+Age,Age in years
+Sex,"Sex, 1=men, 0=women"
+Weight,Weight in Kg
+Height,Height in m
+BMI,Body mass index
+ASC,Body surface area in m2
+PHCovid19,PH-Covid19 score
+SBP_Baseline,Systolic blood pressure in mmHg at baseline
+DBP_Baseline,Diastolic blood pressure in mmHg at baseline
+HR_Baseline,Heart rate in beats per minute at baseline
+RR_Baseline,Respiratory rate in breaths per minute at baseline
+Temp_Baseline,Temperature in °C at baseline
+SatO2_Baseline,Peripheral arterial oxygen saturation in % at baseline
+FiO2_Baseline,Fraction of Inspired Oxygen in % at baseline
+Days_symptom_onset,Time (days) from symptom onset to randomization
+COVID_severity_baseline,"Baseline COVID-19 Severity, 1=mild, 2=moderate"
+Hypertension,"Hypertension, 1=yes, 0=no"
+IHD,"Ischemic heart disease, 1=yes, 0=no"
+CKD,"Chronic kidney disease, 1=yes, 0=no"
+HF,"Heart failure, 1=yes, 0=no"
+CLD,"Chronic Liver Disease, 1=yes, 0=no"
+OSA,"Obstructive sleep apnea, 1=yes, 0=no"
+DM,"Diabetes, 1=yes, 0=no"
+Obesity,"Obesity, 1=yes, 0=no"
+Smoking,"Smoking, 1=yes, 0=no"
+Asthma,"Asthma, 1=yes, 0=no"
+COPD,"Chronic obstructive pulmonary disease, 1=yes, 0=no"
+Dementia,"Dementia, 1=yes, 0=no"
+Reumat_Dis,"Rheumatic disease, 1=yes, 0=no"
+HIV,"HIV, 1=yes, 0=no"
+Cancer,"Cancer, 1=yes, 0=no"
+Immunosup,"Immunosuppression, 1=yes, 0=no"
+Mialgias_Ingreso,"Myalgia at baseline, 1=yes, 0=no"
+Artralgias_Ingreso,"Arthralgia at baseline, 1=yes, 0=no"
+Disnea_Ingreso,"Dyspnea at baseline, 1=yes, 0=no"
+Anosmia_Ingreso,"Anosmia at baseline, 1=yes, 0=no"
+Fiebre_Ingreso,"Fever at baseline, 1=yes, 0=no"
+Fatiga_Ingreso,"Fatigue at baseline, 1=yes, 0=no"
+Cefalea_Ingreso,"Headache at baseline, 1=yes, 0=no"
+Tos_Ingreso,"Cough at baseline, 1=yes, 0=no"
+Diarrea_Ingreso,"Diarrhea at baseline, 1=yes, 0=no"
+Nausea_Ingreso,"Nausea at baseline, 1=yes, 0=no"
+Vomito_Ingreso,"Vomiting at baseline, 1=yes, 0=no"
+Ojo_rojo_Ingreso,"Red eye at baseline, 1=yes, 0=no"
+Dolor_garganta_Ingreso,"Sore throat at baseline, 1=yes, 0=no"
+Dolor_toracico_Ingreso,"Chest pain at baseline, 1=yes, 0=no"
+PN_Uso,"Use of simple nasal cannula or face mask, 1=yes, 0=no"
+tiempo_duracion_PN,Time in days with simple nasal cannula or face mask
+MBR_Uso,"Use of non-rebreather mask, 1=yes, 0=no"
+tiempo_duracion_Mascarilla,Time in days with non-rebreather mask
+PNAF_Uso,"Use of high-flow nasal cannulas, 1=yes, 0=no"
+tiempo_duracion_PNAF,Time in days with high-flow nasal cannulas
+VMI_28_días,"Use of invasive mechanical ventilation in first 28 days, 1=yes, 0=no"
+tiempo_duracion_VMI,Time in days with invasive mechanical ventilation
+UCI_28_dias,"Intensive Care Unit admission during first 28 days,yes=1, no=0"
+Dias_en_UCI,Time in days in intensive care unit
+Progresion_Severo,"Progression of disease to severe COVID-19, yes=1, no=0"
+Criterio_Severo,"Criteria for progression to severe: 1=tachypnea (≥30 breaths per minute), 2=peripheral oxygen arterial saturation (SaO2) less than or equal to 93% (89% in Mexico City and Guadalajara) with a maximum 3 L/min of supplementary oxygen (patients requiring ≥4 L/min will be considered to have progressed to severe COVID-19), 3=PaO2/FiO2 ratio <300."
+Progresion_Critico,"Progression of disease to Critical COVID-19, yes=1, no=0"
+Criterio_Critico,"Criteria for progression to critical: 1=Patient with ARDS, 2=shock, 3=multiorgan failure, 4= any other condition requiring admission to an intensive care unit."
+NEWS_2_baseline,National Early Warning Score 2 (NEWS-2) at baseline
+NEWS_2_day5,National Early Warning Score 2 (NEWS-2) at day 5
+NEWS_2_day15,National Early Warning Score 2 (NEWS-2) at day 15
+NEWS_2_day28,National Early Warning Score 2 (NEWS-2) at day 28
+Ordinary_scale_15,"Clinical status on the ordinary scale at day 15, "
+Ordinary_scale_28,"Clinical status on the ordinary scale at day 28, "
+Hidroxicloroquina,"Use of Hydroxychloroquine in-hospital, yes=1, no=0"
+Cloroquina,"Use of Chloroquine in-hospital, yes=1, no=0"
+Azitromicina,"Use of Azithromycin in-hospital, yes=1, no=0"
+Oseltamivir,"Use of Oseltamivir in-hospital, yes=1, no=0"
+Estatinas,"Use of Statins in-hospital, yes=1, no=0"
+Nitratos,"Use of Nitrates in-hospital, yes=1, no=0"
+IECA,"Use of angiotensin-converting enzyme inhibitors in-hospital, yes=1, no=0 "
+ARAII,"Use of Angiotensin-II receptor blockers in-hospital, yes=1, no=0"
+Alteplase,"Use of Alteplase in-hospital, yes=1, no=0"
+Ceftriaxona,"Use of Ceftriaxone in-hospital, yes=1, no=0"
+Ivermectina,"Use of Ivermectin in-hospital, yes=1, no=0"
+Nitasoxanida,"Use of Nitazoxanide in-hospital, yes=1, no=0"
+Metronidazol,"Use of Metronidazole in-hospital, yes=1, no=0"
+Aspirina,"Use of Aspirin in-hospital, yes=1, no=0"
+Ibuprofeno,"Use of Ibuprofen in-hospital, yes=1, no=0"
+Indometacina,"Use of Indomethacin in-hospital, yes=1, no=0"
+Esteroide,"Use of Systemic corticosteroid in-hospital, yes=1, no=0"
+Colchicina,"Use of Colchicine in-hospital, yes=1, no=0"
+Heparina_no_fracc,"Use of Unfractionated heparin in-hospital, yes=1, no=0"
+Heparina_bajo_peso,"Use of Low molecular weight heparin in-hospital, yes=1, no=0"
+Plasma_convaleciente,"Use of Convalescent plasma in-hospital, yes=1, no=0"
+Remdesivir,"Use of Remdesivir in-hospital, yes=1, no=0"
+Inmunoglobulina_IV,"Use of IV immunoglobulin in-hospital, yes=1, no=0"
+Vitamina_C,"Use of Vitamin C in-hospital, yes=1, no=0"
+Lopi_Rito,"Use of Lopinavir-Ritonavir in-hospital, yes=1, no=0"
+No_Sesiones_Termoterapia,Number of thermotherapy sessions
+Duracion_Promedio_Sesion,"Average duration, in minutes, of thermotherapy sessions"
+Duracion_Total,"Total duration, in minutes, of thermotherapy during the 5 days of intervention"
+Tolerancia_Paciente,"Intervention tolerance, yes=1, no=0"
+Eventos_Adversos,"Any adverse event, yes, no"
+Codigo_EA_1,Adverse event code number 1
+Nombre_EA_1,Name of adverse event number 1
+EA_1_Desenlace,"Adverse event number 1 according to outcome, 1=severe (causes death, puts life at risk, prolongs hospitalization or causes disability), 0=Not severe (none of the above)"
+EA_1_Gravedad,"Severity of adverse event number 1, 1=mild (grade 1), 2=moderate (grade 2), 3=severe (grade 3, 4 and 5)"
+EA_1_Causalidad,"Causality of adverse event number 1, 1=Certain, 2=Probable, 3=Possible, 4=Doubtful, 5=Not evaluable-unclassifiable"
+Codigo_EA_2,Adverse event code number 2
+Nombre_EA_2,Name of adverse event number 2
+EA_2_Desenlace,"Adverse event number 2 according to outcome, 1=severe (causes death, puts life at risk, prolongs hospitalization or causes disability), 0=Not severe (none of the above)"
+EA_2_Gravedad,"Severity of adverse event number 2, 1=mild (grade 1), 2=moderate (grade 2), 3=severe (grade 3, 4 and 5)"
+EA_2_Causalidad,"Causality of adverse event number 2, 1=Certain, 2=Probable, 3=Possible, 4=Doubtful, 5=Not evaluable-unclassifiable"
+Codigo_EA_3,Adverse event code number 3
+Nombre_EA_3,Name of adverse event number 3
+EA_3_Desenlace,"Adverse event number 3 according to outcome, 1=severe (causes death, puts life at risk, prolongs hospitalization or causes disability), 0=Not severe (none of the above)"
+EA_3_Gravedad,"Severity of adverse event number 3, 1=mild (grade 1), 2=moderate (grade 2), 3=severe (grade 3, 4 and 5)"
+EA_3_Causalidad,"Causality of adverse event number 3, 1=Certain, 2=Probable, 3=Possible, 4=Doubtful, 5=Not evaluable-unclassifiable"
+Codigo_EA_4,Adverse event code number 4
+Nombre_EA_4,Name of adverse event number 4
+EA_4_Desenlace,"Adverse event number 4 according to outcome, 1=severe (causes death, puts life at risk, prolongs hospitalization or causes disability), 0=Not severe (none of the above)"
+EA_4_Gravedad,"Severity of adverse event number 4, 1=mild (grade 1), 2=moderate (grade 2), 3=severe (grade 3, 4 and 5)"
+EA_4_Causalidad,"Causality of adverse event number 4, 1=Certain, 2=Probable, 3=Possible, 4=Doubtful, 5=Not evaluable-unclassifiable"
+Tiempo_hasta_cualquier_progresion_28_dias,"Time, in days, from randomization to disease progression (composite outcome, severe or critical) censored to 28 days"
+Progresion_cualquiera_28_dias,"Progression of disease during the first 28 days (composite outcome, severe or critical), 1=yes, 0=no "
+tiempo_hasta_progresion_crítico,"Time, in days, from randomization to disease progression to critical, censored to 28 days"
+Progresion_a_critico,"Progression of disease to critical during the first 28 days, 1=yes, 0=no "
+dias_hasta_mortalidad,"Time, in days, from randomization to mortality"
+tiempo_hasta_mortalidad_15_dias,"Time, in days, from randomization to mortality, censored to 15 days"
+mortalidad_15_dias,"Mortality during the first 15 days, 1=yes, 0=no "
+tiempo_hasta_mortalidad_28_dias,"Time, in days, from randomization to mortality, censored to 28 days"
+mortalidad_28_dias,"Mortality during the first 28 days, 1=yes, 0=no "
+dias_hasta_severo_desde_inicio_sintomas,"Time, in days, from onset of symptoms to disease progression to severe COVID-19"
+estado_clinico_ordinal_15_dias,"Clinical status in the Ordinal Scale at Day 15, 1=Not hospitalized, without limitations on daily activities; 2=Not hospitalized, with limitations on daily activities; 3=Hospitalized, not requiring supplementary oxygen; 4=Hospitalized, requiring low-flow supplementary oxygen; 5=Hospitalized, requiring supplementary oxygen with high-flow nasal cannula or non-invasive ventilation; 6=Hospitalized, under invasive mechanical ventilation or extracorporeal membrane oxygenation (ECMO); 7=Death"
+estado_clinico_ordinal_28_dias,"Clinical status in the Ordinal Scale at Day 28, 1=Not hospitalized, without limitations on daily activities; 2=Not hospitalized, with limitations on daily activities; 3=Hospitalized, not requiring supplementary oxygen; 4=Hospitalized, requiring low-flow supplementary oxygen; 5=Hospitalized, requiring supplementary oxygen with high-flow nasal cannula or non-invasive ventilation; 6=Hospitalized, under invasive mechanical ventilation or extracorporeal membrane oxygenation (ECMO); 7=Death"
+tiempo_hasta_VMI_28_días,"Time, in days, from randomization to requirement for invasive mechanical ventilation, censored to 28 days"
+tiempo_hasta_UCI_28_dias,"Time, in days, from randomization to intensive care unit admission, censored to 28 days"
+dias_hasta_VMI_desde_inicio_sintomas,"Time, in days, from onset of symptoms to requirement of invasive mechanical ventilation"
+dias_hasta_UCI_desde_inicio_sintomas,"Time, in days, from onset of symptoms to intensive care unit admission"
+dias_estancia_hospital,"Length of hospitalization, in days"
+dias_desde_inicio_sint_hasta_ingreso_hosp,"Time, in days, from onset of symptoms to hospital admission"
+IL12_dia_1,Interleukin-12 in pg/mL at baseline
+IL12_dia_5,Interleukin-12 in pg/mL at day 5
+IL10_dia_1,Interleukin-10 in pg/mL at baseline
+IL10_dia_5,Interleukin-10 in pg/mL at day 5
+IFNY_dia_1,Gamma interferon in pg/mL at baseline
+IFNY_dia_5,Gamma interferon in pg/mL at day 5
+IL1b_dia_1,Interleukin-1-beta in pg/mL at baseline
+IL1b_dia_5,Interleukin-1-beta in pg/mL at day 5
+IL6_dia_1,Interleukin-6 in pg/mL at baseline
+IL6_dia_5,Interleukin-6 in pg/mL at day 5
+IL8_dia_1,Interleukin-8 in pg/mL at baseline
+IL8_dia_5,Interleukin-8 in pg/mL at day 5
+IL17a_dia_1,Interleukin-17A in pg/mL at baseline
+IL17a_dia_5,Interleukin-17A in pg/mL at day 5
+TNF_dia_1,Tumor necrosis factor in pg/mL at baseline
+TNF_dia_5,Tumor necrosis factor in pg/mL at day 5
+Hb_1,Hemoglobin in g/dL at baseline
+Hcto_1,Hematocrit in % at baseline
+Leu_Tot_1,Total leucocytes in 10^3/mL at baseline
+Neu_1_por,Neutrophils in % at baseline
+Neu_1_cels,Neutrophils in 10^3/mL at baseline
+Linf_1_por,Lymphocytes  in % at baseline
+Linf_1_cels,Lymphocytes  in 10^3/mL at baseline
+Monos_1_por,Monocytes in % at baseline
+Monos_1_cels,Monocytes in 10^3/mL at baseline
+NLR_1,Neutrophil-to-lymphocyte ratio at baseline
+Plaq_1,Platelets  in 10^3/mL at baseline
+Glc_1,Glucose in mg/dL at baseline
+Urea_1,Urea in mg/dL at baseline
+BUN_1,Blood urea nitrogen in mg/dL at baseline
+Crea_1,Creatinine in mg/dL at baseline
+Alb_1,Albumin in g/dL at baseline at baseline
+AST_TGO_1,Aspartate aminotransferase in IU/mL at baseline
+ALT_TGP_1,Alanine aminotransferase in IU/mL at baseline
+BT_1,Total bilirubin in mg/dL at baseline
+BD_1,Birect bilirubin in mg/dL at baseline
+BI_1,Indirect bilirubin in mg/dL at baseline
+LDH_1,Lactate dehydrogenase in IU/mL at baseline
+CPK_1,Creatinine phosphokinase in IU/mL at baseline
+TP_1,Prothrombin time in seconds at baseline
+INR_1,International normalized ratio at baseline
+TTPa_1,Partial thromboplastin time in seconds at baseline
+Fibr_1,Fibrinogen in mg/dL at baseline
+Dimero_D_1,D-dimer in ng/mL at baseline
+PCR_1,C-reactive protein in mg/L at baseline
+VSG_1,Erythrocyte sedimentation rate in mm/h at baseline
+Proca_1,Procalcitonin in ng/mL at baseline
+Hb_5,Hemoglobin in g/dL at day 5
+Hcto_5,Hematocrit in % at day 5
+Leu_Tot_5,Total leucocytes in 10^3/mL at day 5
+Neu_5_por,Neutrophils in % at day 5
+Neu_5_cels,Neutrophils in 10^3/mL at day 5
+Linf_5_por,Lymphocytes  in % at day 5
+Linf_5_cels,Lymphocytes  in 10^3/mL at day 5
+Monos_5_por,Monocytes in % at day 5
+Monos_5_cels,Monocytes in 10^3/mL at day 5
+NLR_5,Neutrophil-to-lymphocyte ratio at day 5
+Plaq_5,Platelets  in 10^3/mL at day 5
+Glc_5,Glucose in mg/dL at day 5
+Urea_5,Urea in mg/dL at day 5
+BUN_5,Blood urea nitrogen in mg/dL at day 5
+Crea_5,Creatinine in mg/dL at day 5
+Alb_5,Albumin in g/dL at baseline at day 5
+AST_TGO_5,Aspartate aminotransferase in IU/mL at day 5
+ALT_TGP_5,Alanine aminotransferase in IU/mL at day 5
+BT_5,Total bilirubin in mg/dL at day 5
+BD_5,Birect bilirubin in mg/dL at day 5
+BI_5,Indirect bilirubin in mg/dL at day 5
+LDH_5,Lactate dehydrogenase in IU/mL at day 5
+CPK_5,Creatinine phosphokinase in IU/mL at day 5
+TP_5,Prothrombin time in seconds at day 5
+INR_5,International normalized ratio at day 5
+TTPa_5,Partial thromboplastin time in seconds at day 5
+Fibr_5,Fibrinogen in mg/dL at day 5
+Dimero_D_5,D-dimer in ng/mL at day 5
+PCR_5,C-reactive protein in mg/L at day 5
+VSG_5,Erythrocyte sedimentation rate in mm/h at day 5
+Proca_5,Procalcitonin in ng/mL at day 5
+Hb_15,Hemoglobin in g/dL at day 15
+Hcto_15,Hematocrit in % at day 15
+Leu_Tot_15,Total leucocytes in 10^3/mL at day 15
+Neu_15_por,Neutrophils in % at day 15
+Neu_15_cels,Neutrophils in 10^3/mL at day 15
+Linf_15_por,Lymphocytes  in % at day 15
+Linf_15_cels,Lymphocytes  in 10^3/mL at day 15
+Monos_15_por,Monocytes in % at day 15
+Monos_15_cels,Monocytes in 10^3/mL at day 15
+NLR_15,Neutrophil-to-lymphocyte ratio at day 15
+Plaq_15,Platelets  in 10^3/mL at day 15
+Glc_15,Glucose in mg/dL at day 15
+Urea_15,Urea in mg/dL at day 15
+BUN_15,Blood urea nitrogen in mg/dL at day 15
+Crea_15,Creatinine in mg/dL at day 15
+Alb_15,Albumin in g/dL at baseline at day 15
+AST_TGO_15,Aspartate aminotransferase in IU/mL at day 15
+ALT_TGP_15,Alanine aminotransferase in IU/mL at day 15
+BT_15,Total bilirubin in mg/dL at day 15
+BD_15,Birect bilirubin in mg/dL at day 15
+BI_15,Indirect bilirubin in mg/dL at day 15
+LDH_15,Lactate dehydrogenase in IU/mL at day 15
+CPK_15,Creatinine phosphokinase in IU/mL at day 15
+TP_15,Prothrombin time in seconds at day 15
+INR_15,International normalized ratio at day 15
+TTPa_15,Partial thromboplastin time in seconds at day 15
+Fibr_15,Fibrinogen in mg/dL at day 15
+Dimero_D_15,D-dimer in ng/mL at day 15
+PCR_15,C-reactive protein in mg/L at day 15
+VSG_15,Erythrocyte sedimentation rate in mm/h at day 15
+Proca_15,Procalcitonin in ng/mL at day 15
+Hb_28,Hemoglobin in g/dL at day 28
+Hcto_28,Hematocrit in % at day 28
+Leu_Tot_28,Total leucocytes in 10^3/mL at day 28
+Neu_28_por,Neutrophils in % at day 28
+Neu_28_cels,Neutrophils in 10^3/mL at day 28
+Linf_28_por,Lymphocytes  in % at day 28
+Linf_28_cels,Lymphocytes  in 10^3/mL at day 28
+Monos_28_por,Monocytes in % at day 28
+Monos_28_A,Monocytes in 10^3/mL at day 28
+NLR_28,Neutrophil-to-lymphocyte ratio at day 28
+Plaq_28,Platelets  in 10^3/mL at day 28
+Glc_28,Glucose in mg/dL at day 28
+Urea_28,Urea in mg/dL at day 28
+BUN_28,Blood urea nitrogen in mg/dL at day 28
+Crea_28,Creatinine in mg/dL at day 28
+Alb_28,Albumin in g/dL at baseline at day 28
+AST_TGO_28,Aspartate aminotransferase in IU/mL at day 28
+ALT_TGP_28,Alanine aminotransferase in IU/mL at day 28
+BT_28,Total bilirubin in mg/dL at day 28
+BD_28,Birect bilirubin in mg/dL at day 28
+BI_28,Indirect bilirubin in mg/dL at day 28
+LDH_28,Lactate dehydrogenase in IU/mL at day 28
+CPK_28,Creatinine phosphokinase in IU/mL at day 28
+TP_28,Prothrombin time in seconds at day 28
+INR_28,International normalized ratio at day 28
+TTPa_28,Partial thromboplastin time in seconds at day 28
+Fibr_28,Fibrinogen in mg/dL at day 28
+Dimero_D_28,D-dimer in ng/mL at day 28
+PCR_28,C-reactive protein in mg/L at day 28
+VSG_28,Erythrocyte sedimentation rate in mm/h at day 28
+Proca_28,Procalcitonin in ng/mL at day 28

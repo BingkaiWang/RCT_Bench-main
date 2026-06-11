@@ -1,0 +1,1438 @@
+Codebook for MyPlate anthro public use data.2023 04 20
+
+--------------------------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  C:\Users\Bill\Documents\Bills documents\Bills data\Bills data\PCORI data\PCORI Long B
+> ch data\Final anthro data\Codebook for MyPlate anthro public use data.2023 04 20.log
+  log type:  text
+ opened on:  20 Apr 2023, 22:58:47
+
+. codebook
+
+assessnox1                                       Baseline measure                                                            Assessment interval-baseline
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (float)
+
+                 range:  [1,1]                        units:  1
+         unique values:  1                        missing .:  0/261
+
+            tabulation:  Freq.  Value
+                           261  1
+
+--------------------------------------------------------------------------------------------------
+assessnox2                           6 month f-up measure                                                       Assessment interval-6 months f-up
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (float)
+
+                 range:  [1,1]                        units:  1
+         unique values:  1                        missing .:  0/261
+
+            tabulation:  Freq.  Value
+                           261  1
+
+--------------------------------------------------------------------------------------------------
+assessnox3            12 month f-up measure                                                      Assessment interval-12 months f-up
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (float)
+
+                 range:  [1,1]                        units:  1
+         unique values:  1                        missing .:  0/261
+
+            tabulation:  Freq.  Value
+                           261  1
+
+--------------------------------------------------------------------------------------------------
+blood_press_dias_1x1                                       Baseline measure                                                1st Blood Pressure (Diastolic)
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (int)
+
+                 range:  [47,116]                     units:  1
+         unique values:  52                       missing .:  0/261
+
+                  mean:   77.8889
+              std. dev:   10.5345
+
+           percentiles:        10%       25%       50%       75%       90%
+                                65        71        78        84        90
+
+--------------------------------------------------------------------------------------------------
+blood_press_dias_1x2                           6 month f-up measure                                                1st Blood Pressure (Diastolic)
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (int)
+
+                 range:  [49,103]                     units:  1
+         unique values:  46                       missing .:  44/261
+
+                  mean:   77.6544
+              std. dev:   10.0118
+
+           percentiles:        10%       25%       50%       75%       90%
+                                65        71        77        85        91
+
+--------------------------------------------------------------------------------------------------
+blood_press_dias_1x3            12 month f-up measure                                                1st Blood Pressure (Diastolic)
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (int)
+
+                 range:  [52,100]                     units:  1
+         unique values:  43                       missing .:  74/261
+
+                  mean:    77.861
+              std. dev:   10.1001
+
+           percentiles:        10%       25%       50%       75%       90%
+                                64        71        78        86        91
+
+--------------------------------------------------------------------------------------------------
+blood_press_dias_2x1                                       Baseline measure                                                2nd Blood Pressure (Diastolic)
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (int)
+
+                 range:  [42,118]                     units:  1
+         unique values:  49                       missing .:  0/261
+
+                  mean:   77.5172
+              std. dev:   10.6795
+
+           percentiles:        10%       25%       50%       75%       90%
+                                65        70        77        84        92
+
+--------------------------------------------------------------------------------------------------
+blood_press_dias_2x2                           6 month f-up measure                                                2nd Blood Pressure (Diastolic)
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (int)
+
+                 range:  [48,102]                     units:  1
+         unique values:  45                       missing .:  45/261
+
+                  mean:   76.8287
+              std. dev:   10.2169
+
+           percentiles:        10%       25%       50%       75%       90%
+                                66        70        77        83        91
+
+--------------------------------------------------------------------------------------------------
+blood_press_dias_2x3            12 month f-up measure                                                2nd Blood Pressure (Diastolic)
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (int)
+
+                 range:  [52,102]                     units:  1
+         unique values:  43                       missing .:  74/261
+
+                  mean:   77.6257
+              std. dev:   9.59105
+
+           percentiles:        10%       25%       50%       75%       90%
+                                66        70        78        84        90
+
+--------------------------------------------------------------------------------------------------
+blood_press_dias_3x1                                       Baseline measure                                                3rd Blood Pressure (Diastolic)
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (int)
+
+                 range:  [43,104]                     units:  1
+         unique values:  35                       missing .:  183/261
+
+                  mean:   76.7051
+              std. dev:   11.6776
+
+           percentiles:        10%       25%       50%       75%       90%
+                                60        71      75.5        86        93
+
+--------------------------------------------------------------------------------------------------
+blood_press_dias_3x2                           6 month f-up measure                                                3rd Blood Pressure (Diastolic)
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (int)
+
+                 range:  [54,99]                      units:  1
+         unique values:  39                       missing .:  160/261
+
+                  mean:   76.1881
+              std. dev:    10.121
+
+           percentiles:        10%       25%       50%       75%       90%
+                                62        69        77        82        90
+
+--------------------------------------------------------------------------------------------------
+blood_press_dias_3x3            12 month f-up measure                                                3rd Blood Pressure (Diastolic)
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (int)
+
+                 range:  [50,98]                      units:  1
+         unique values:  33                       missing .:  186/261
+
+                  mean:   75.9867
+              std. dev:    10.295
+
+           percentiles:        10%       25%       50%       75%       90%
+                                64        70        77        83        89
+
+--------------------------------------------------------------------------------------------------
+blood_press_sys_1x1                                       Baseline measure                                                  1st Blood Pressure (Systolic)
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (int)
+
+                 range:  [75,170]                     units:  1
+         unique values:  65                       missing .:  0/261
+
+                  mean:   123.575
+              std. dev:   15.5008
+
+           percentiles:        10%       25%       50%       75%       90%
+                               106       113       122       133       144
+
+--------------------------------------------------------------------------------------------------
+blood_press_sys_1x2                           6 month f-up measure                                                  1st Blood Pressure (Systolic)
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (int)
+
+                 range:  [90,223]                     units:  1
+         unique values:  63                       missing .:  44/261
+
+                  mean:   121.977
+              std. dev:   16.0189
+
+           percentiles:        10%       25%       50%       75%       90%
+                               103       111       120       131       142
+
+--------------------------------------------------------------------------------------------------
+blood_press_sys_1x3            12 month f-up measure                                                  1st Blood Pressure (Systolic)
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (int)
+
+                 range:  [90,226]                     units:  1
+         unique values:  58                       missing .:  74/261
+
+                  mean:   123.668
+              std. dev:   17.0731
+
+           percentiles:        10%       25%       50%       75%       90%
+                               106       112       122       133       145
+
+--------------------------------------------------------------------------------------------------
+blood_press_sys_2x1                                       Baseline measure                                                  2nd Blood Pressure (Systolic)
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (int)
+
+                 range:  [80,165]                     units:  1
+         unique values:  65                       missing .:  0/261
+
+                  mean:   121.854
+              std. dev:   15.4198
+
+           percentiles:        10%       25%       50%       75%       90%
+                               104       110       120       132       140
+
+--------------------------------------------------------------------------------------------------
+blood_press_sys_2x2                           6 month f-up measure                                                  2nd Blood Pressure (Systolic)
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (int)
+
+                 range:  [89,166]                     units:  1
+         unique values:  60                       missing .:  45/261
+
+                  mean:   120.222
+              std. dev:   14.6496
+
+           percentiles:        10%       25%       50%       75%       90%
+                               102       110       118       130       139
+
+--------------------------------------------------------------------------------------------------
+blood_press_sys_2x3            12 month f-up measure                                                  2nd Blood Pressure (Systolic)
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (int)
+
+                 range:  [83,216]                     units:  1
+         unique values:  60                       missing .:  74/261
+
+                  mean:   121.214
+              std. dev:   16.7225
+
+           percentiles:        10%       25%       50%       75%       90%
+                               103       110       119       131       140
+
+--------------------------------------------------------------------------------------------------
+blood_press_sys_3x1                                       Baseline measure                                                  3rd Blood Pressure (Systolic)
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (int)
+
+                 range:  [89,172]                     units:  1
+         unique values:  42                       missing .:  183/261
+
+                  mean:    120.59
+              std. dev:   16.5792
+
+           percentiles:        10%       25%       50%       75%       90%
+                               102       109     116.5       130       146
+
+--------------------------------------------------------------------------------------------------
+blood_press_sys_3x2                           6 month f-up measure                                                  3rd Blood Pressure (Systolic)
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (int)
+
+                 range:  [95,160]                     units:  1
+         unique values:  43                       missing .:  160/261
+
+                  mean:   118.673
+              std. dev:   13.9557
+
+           percentiles:        10%       25%       50%       75%       90%
+                               102       108       117       130       140
+
+--------------------------------------------------------------------------------------------------
+blood_press_sys_3x3            12 month f-up measure                                                  3rd Blood Pressure (Systolic)
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (int)
+
+                 range:  [82,158]                     units:  1
+         unique values:  42                       missing .:  186/261
+
+                  mean:   119.453
+              std. dev:   15.9147
+
+           percentiles:        10%       25%       50%       75%       90%
+                                98       107       119       130       141
+
+--------------------------------------------------------------------------------------------------
+body_measurements_completex1                                       Baseline measure                                                             Complete?
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  BODY_MEASUREMENTS_COMPLETE_
+
+                 range:  [2,2]                        units:  1
+         unique values:  1                        missing .:  0/261
+
+            tabulation:  Freq.   Numeric  Label
+                           261         2  2. Complete
+
+--------------------------------------------------------------------------------------------------
+body_measurements_completex2                           6 month f-up measure                                                             Complete?
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  BODY_MEASUREMENTS_COMPLETE_
+
+                 range:  [0,2]                        units:  1
+         unique values:  2                        missing .:  43/261
+
+            tabulation:  Freq.   Numeric  Label
+                             4         0  0. Incomplete
+                           214         2  2. Complete
+                            43         .  
+
+--------------------------------------------------------------------------------------------------
+body_measurements_completex3            12 month f-up measure                                                             Complete?
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  BODY_MEASUREMENTS_COMPLETE_
+
+                 range:  [0,2]                        units:  1
+         unique values:  2                        missing .:  74/261
+
+            tabulation:  Freq.   Numeric  Label
+                             2         0  0. Incomplete
+                           185         2  2. Complete
+                            74         .  
+
+--------------------------------------------------------------------------------------------------
+cloth_measurx1                                       Baseline measure                                                                         (unlabeled)
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (float)
+                 label:  cloth_measure
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  2/261
+
+            tabulation:  Freq.   Numeric  Label
+                           110         0  0= no clothing
+                           149         1  1= Yes, over clothing
+                             2         .  
+
+--------------------------------------------------------------------------------------------------
+cloth_measurx2                           6 month f-up measure                                                                         (unlabeled)
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (float)
+                 label:  cloth_measure
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  44/261
+
+            tabulation:  Freq.   Numeric  Label
+                            47         0  0= no clothing
+                           170         1  1= Yes, over clothing
+                            44         .  
+
+--------------------------------------------------------------------------------------------------
+cloth_measurx3            12 month f-up measure                                                                         (unlabeled)
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (float)
+                 label:  cloth_measure
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  75/261
+
+            tabulation:  Freq.   Numeric  Label
+                            17         0  0= no clothing
+                           169         1  1= Yes, over clothing
+                            75         .  
+
+--------------------------------------------------------------------------------------------------
+clothing_measurementsx1                                       Baseline measure                        Was the waist circumference measured over clothing?
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  CLOTHING_MEASUREMENTS_
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  2/261
+
+            tabulation:  Freq.   Numeric  Label
+                           110         0  2. No
+                           149         1  1. Yes
+                             2         .  
+
+--------------------------------------------------------------------------------------------------
+clothing_measurementsx2                           6 month f-up measure                        Was the waist circumference measured over clothing?
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  CLOTHING_MEASUREMENTS_
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  44/261
+
+            tabulation:  Freq.   Numeric  Label
+                            47         0  2. No
+                           170         1  1. Yes
+                            44         .  
+
+--------------------------------------------------------------------------------------------------
+clothing_measurementsx3            12 month f-up measure                        Was the waist circumference measured over clothing?
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  CLOTHING_MEASUREMENTS_
+
+                 range:  [0,1]                        units:  1
+         unique values:  2                        missing .:  75/261
+
+            tabulation:  Freq.   Numeric  Label
+                            17         0  2. No
+                           169         1  1. Yes
+                            75         .  
+
+--------------------------------------------------------------------------------------------------
+date_measurementsx1                                       Baseline measure                                        Anthropometric Date and time of the day
+--------------------------------------------------------------------------------------------------
+
+                  type:  string (str16)
+
+         unique values:  259                      missing "":  0/261
+
+              examples:  "2015-08-21 14:03"
+                         "2015-10-07 13:51"
+                         "2015-11-11 12:04"
+                         "2015-12-21 17:55"
+
+               warning:  variable has embedded blanks
+
+--------------------------------------------------------------------------------------------------
+date_measurementsx2                           6 month f-up measure                                        Anthropometric Date and time of the day
+--------------------------------------------------------------------------------------------------
+
+                  type:  string (str16)
+
+         unique values:  216                      missing "":  43/261
+
+              examples:  "2016-02-12 12:03"
+                         "2016-04-11 13:51"
+                         "2016-05-24 12:56"
+                         "2016-07-11 18:42"
+
+               warning:  variable has embedded blanks
+
+--------------------------------------------------------------------------------------------------
+date_measurementsx3            12 month f-up measure                                        Anthropometric Date and time of the day
+--------------------------------------------------------------------------------------------------
+
+                  type:  string (str16)
+
+         unique values:  186                      missing "":  74/261
+
+              examples:  ""
+                         "2016-08-19 15:32"
+                         "2016-10-20 12:31"
+                         "2016-12-21 10:48"
+
+               warning:  variable has embedded blanks
+
+--------------------------------------------------------------------------------------------------
+educx1                                       Baseline measure                                                                                     1 educx
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (float)
+                 label:  APP_EDUCATION_
+
+                 range:  [1,6]                        units:  1
+         unique values:  6                        missing .:  0/261
+
+            tabulation:  Freq.   Numeric  Label
+                             6         1  1. Never attended/Kindergarten
+                                          Only
+                           122         2  2. Less than high school
+                            79         3  3. High school diploma or
+                                          equivalency (GED)
+                            47         4  4. Some college (Community
+                                          College))
+                             6         5  5. Bachelor's degree (B.S.,
+                                          B.A., etc)
+                             1         6  6. Some graduate
+                                          school/Post-Bacherlor's degree
+
+--------------------------------------------------------------------------------------------------
+educx2                           6 month f-up measure                                                                                     2 educx
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (float)
+                 label:  APP_EDUCATION_
+
+                 range:  [1,5]                        units:  1
+         unique values:  5                        missing .:  60/261
+
+            tabulation:  Freq.   Numeric  Label
+                             5         1  1. Never attended/Kindergarten
+                                          Only
+                            90         2  2. Less than high school
+                            64         3  3. High school diploma or
+                                          equivalency (GED)
+                            36         4  4. Some college (Community
+                                          College))
+                             6         5  5. Bachelor's degree (B.S.,
+                                          B.A., etc)
+                            60         .  
+
+--------------------------------------------------------------------------------------------------
+educx3            12 month f-up measure                                                                                     3 educx
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (float)
+                 label:  APP_EDUCATION_
+
+                 range:  [1,5]                        units:  1
+         unique values:  5                        missing .:  52/261
+
+            tabulation:  Freq.   Numeric  Label
+                             5         1  1. Never attended/Kindergarten
+                                          Only
+                            93         2  2. Less than high school
+                            66         3  3. High school diploma or
+                                          equivalency (GED)
+                            39         4  4. Some college (Community
+                                          College))
+                             6         5  5. Bachelor's degree (B.S.,
+                                          B.A., etc)
+                            52         .  
+
+--------------------------------------------------------------------------------------------------
+ethnicityx1                                       Baseline measure                                                                              Ethnicity
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  ETHNICITY_
+
+                 range:  [1,8]                        units:  1
+         unique values:  6                        missing .:  0/261
+
+            tabulation:  Freq.   Numeric  Label
+                            20         1  1. Black or African American
+                             2         2  2. Asian or Asian American
+                            10         3  3. White/Caucasian
+                           225         4  4. Hispanic/Latino
+                             1         5  5. Native American
+                             3         8  8. Other
+
+--------------------------------------------------------------------------------------------------
+ethnicityx2                           6 month f-up measure                                                                              Ethnicity
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  ETHNICITY_
+
+                 range:  [1,8]                        units:  1
+         unique values:  7                        missing .:  60/261
+
+            tabulation:  Freq.   Numeric  Label
+                            15         1  1. Black or African American
+                             1         2  2. Asian or Asian American
+                             7         3  3. White/Caucasian
+                           173         4  4. Hispanic/Latino
+                             1         5  5. Native American
+                             1         7  7. Multi-Racial
+                             3         8  8. Other
+                            60         .  
+
+--------------------------------------------------------------------------------------------------
+ethnicityx3            12 month f-up measure                                                                              Ethnicity
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  ETHNICITY_
+
+                 range:  [1,8]                        units:  1
+         unique values:  7                        missing .:  52/261
+
+            tabulation:  Freq.   Numeric  Label
+                            15         1  1. Black or African American
+                             2         2  2. Asian or Asian American
+                             7         3  3. White/Caucasian
+                           180         4  4. Hispanic/Latino
+                             1         5  5. Native American
+                             1         7  7. Multi-Racial
+                             3         8  8. Other
+                            52         .  
+
+--------------------------------------------------------------------------------------------------
+expcondx1                                       Baseline measure                                                                  Experimental assignment
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (float)
+                 label:  RANDOMIZATION_ARM_
+
+                 range:  [1,2]                        units:  1
+         unique values:  2                        missing .:  0/261
+
+            tabulation:  Freq.   Numeric  Label
+                           131         1  1. MyPlate
+                           130         2  2. Calorie Counting
+
+--------------------------------------------------------------------------------------------------
+expcondx2                           6 month f-up measure                                                                  Experimental assignment
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (float)
+                 label:  RANDOMIZATION_ARM_
+
+                 range:  [1,2]                        units:  1
+         unique values:  2                        missing .:  60/261
+
+            tabulation:  Freq.   Numeric  Label
+                           107         1  1. MyPlate
+                            94         2  2. Calorie Counting
+                            60         .  
+
+--------------------------------------------------------------------------------------------------
+expcondx3            12 month f-up measure                                                                  Experimental assignment
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (float)
+                 label:  RANDOMIZATION_ARM_
+
+                 range:  [1,2]                        units:  1
+         unique values:  2                        missing .:  52/261
+
+            tabulation:  Freq.   Numeric  Label
+                           106         1  1. MyPlate
+                           103         2  2. Calorie Counting
+                            52         .  
+
+--------------------------------------------------------------------------------------------------
+height_measured2x1                                       Baseline measure                                                                 2nd Height (cm)
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (double)
+
+                 range:  [138.9,178]                  units:  .1
+         unique values:  170                      missing .:  0/261
+
+                  mean:   156.988
+              std. dev:   7.64826
+
+           percentiles:        10%       25%       50%       75%       90%
+                             146.8     151.7     156.7     162.5     166.8
+
+--------------------------------------------------------------------------------------------------
+height_measured2x2                           6 month f-up measure                                                                 2nd Height (cm)
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (double)
+
+                 range:  [137.9,175.2]                units:  .1
+         unique values:  146                      missing .:  44/261
+
+                  mean:   155.685
+              std. dev:   7.54375
+
+           percentiles:        10%       25%       50%       75%       90%
+                             146.2     150.3     155.1     160.3     165.9
+
+--------------------------------------------------------------------------------------------------
+height_measured2x3            12 month f-up measure                                                                 2nd Height (cm)
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (double)
+
+                 range:  [139.4,176.8]                units:  .1
+         unique values:  137                      missing .:  74/261
+
+                  mean:   155.433
+              std. dev:   7.59493
+
+           percentiles:        10%       25%       50%       75%       90%
+                               145     150.1       155     160.1     165.6
+
+--------------------------------------------------------------------------------------------------
+height_measured3x1                                       Baseline measure                     (If difference between 1st and 2nd measures is > 1 cm. Take
+                                       a 3rd measure)) 3rd
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (double)
+
+                 range:  [141.6,176.3]                units:  .1
+         unique values:  5                        missing .:  256/261
+
+            tabulation:  Freq.  Value
+                             1  141.6
+                             1  151
+                             1  153.6
+                             1  156.9
+                             1  176.3
+                           256  .
+
+--------------------------------------------------------------------------------------------------
+height_measured3x2                           6 month f-up measure                     (If difference between 1st and 2nd measures is > 1 cm. Take
+                                       a 3rd measure)) 3rd
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (double)
+
+                 range:  [164.8,173]                  units:  .1
+         unique values:  2                        missing .:  259/261
+
+            tabulation:  Freq.  Value
+                             1  164.8
+                             1  173
+                           259  .
+
+--------------------------------------------------------------------------------------------------
+height_measured3x3            12 month f-up measure                     (If difference between 1st and 2nd measures is > 1 cm. Take
+                                       a 3rd measure)) 3rd
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (double)
+
+                 range:  [152.3,159.1]                units:  .1
+         unique values:  5                        missing .:  256/261
+
+            tabulation:  Freq.  Value
+                             1  152.3
+                             1  153.2
+                             1  156
+                             1  156.9
+                             1  159.1
+                           256  .
+
+--------------------------------------------------------------------------------------------------
+height_measuredx1                                       Baseline measure                                                                   1st Height(cm)
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (double)
+
+                 range:  [138.9,178]                  units:  .1
+         unique values:  172                      missing .:  0/261
+
+                  mean:   156.934
+              std. dev:   7.63217
+
+           percentiles:        10%       25%       50%       75%       90%
+                             146.9     151.9     156.5     162.4     166.7
+
+--------------------------------------------------------------------------------------------------
+height_measuredx2                           6 month f-up measure                                                                   1st Height(cm)
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (double)
+
+                 range:  [138.2,175]                  units:  .1
+         unique values:  149                      missing .:  44/261
+
+                  mean:   155.646
+              std. dev:   7.52212
+
+           percentiles:        10%       25%       50%       75%       90%
+                               146     150.1     155.1     160.2     166.1
+
+--------------------------------------------------------------------------------------------------
+height_measuredx3            12 month f-up measure                                                                   1st Height(cm)
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (double)
+
+                 range:  [139.1,176.5]                units:  .1
+         unique values:  131                      missing .:  74/261
+
+                  mean:   155.387
+              std. dev:   7.58728
+
+           percentiles:        10%       25%       50%       75%       90%
+                               145     150.1       155       160     165.8
+
+--------------------------------------------------------------------------------------------------
+measurements_commentsx1                                       Baseline measure                                                                  COMMENTS:
+--------------------------------------------------------------------------------------------------
+
+                  type:  string (strL)
+
+         unique values:  124                      missing "":  2/261
+
+              examples:  "-Blood Pressure was taken with left arm.  -Blood
+                         pressure was measured with clinic BP machine instead
+                         of our BP-1 or BP-2 machines."
+                         "-Blood pressure taken with BP-2 (machine).   -Blood
+                         pressure taken with left arm."
+                         "-Blood pressure was taken on left arm  -Blood
+                         pressure was taken with BP-1 (machine)"
+                         "-Blood pressure was taken with BP-2 (machine).
+                         -Blood pressure was taken with left arm."
+
+               warning:  variable has embedded blanks
+
+--------------------------------------------------------------------------------------------------
+measurements_commentsx2                           6 month f-up measure                                                                  COMMENTS:
+--------------------------------------------------------------------------------------------------
+
+                  type:  string (strL)
+
+         unique values:  110                      missing "":  43/261
+
+              examples:  "-Blood Pressure was taken on left arm   -Blood
+                         Pressure was taken with BP-2 (machine)"
+                         "-Blood pressure measured with BP-1 (Machine)  -Blood
+                         pressure measured on left arm."
+                         "-Blood pressure was taken with BP-1 (machine).
+                         -Blood pressure was taken with left arm."
+                         "-Blood pressure was taken with left arm.  -No notes
+                         taken regarding bp machine."
+
+               warning:  variable has embedded blanks
+
+--------------------------------------------------------------------------------------------------
+measurements_commentsx3            12 month f-up measure                                                                  COMMENTS:
+--------------------------------------------------------------------------------------------------
+
+                  type:  string (strL)
+
+         unique values:  94                       missing "":  74/261
+
+              examples:  ""
+                         "-Blood Pressure was taken on left arm  -Blood
+                         Pressure was taken with BP-2 (machine)  -No third
+                         Blood Pressure measurement."
+                         "-Blood pressure measured with BP-1 (machine).
+                         -Blood pressure measured on left arm."
+                         "-Blood pressure was taken with the left arm.  -Blood
+                         pressure was taken with BP-1 (machine).  -The patient
+                         said she did not have any other commitments after the
+                         follow-up. However, she did seem like she was in a
+                         hurry."
+
+               warning:  variable has embedded blanks
+
+--------------------------------------------------------------------------------------------------
+pulse_measured_1x1                                       Baseline measure                                                               1st pulse measure
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (int)
+
+                 range:  [48,108]                     units:  1
+         unique values:  49                       missing .:  0/261
+
+                  mean:   70.9962
+              std. dev:   10.4361
+
+           percentiles:        10%       25%       50%       75%       90%
+                                58        63        71        78        83
+
+--------------------------------------------------------------------------------------------------
+pulse_measured_1x2                           6 month f-up measure                                                               1st pulse measure
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (int)
+
+                 range:  [22,105]                     units:  1
+         unique values:  48                       missing .:  44/261
+
+                  mean:   71.8802
+              std. dev:   10.0261
+
+           percentiles:        10%       25%       50%       75%       90%
+                                61        65        71        78        85
+
+--------------------------------------------------------------------------------------------------
+pulse_measured_1x3            12 month f-up measure                                                               1st pulse measure
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (int)
+
+                 range:  [41,104]                     units:  1
+         unique values:  42                       missing .:  74/261
+
+                  mean:   70.7326
+              std. dev:    9.5722
+
+           percentiles:        10%       25%       50%       75%       90%
+                                60        64        71        76        82
+
+--------------------------------------------------------------------------------------------------
+pulse_measured_2x1                                       Baseline measure                                                               2nd pulse measure
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (int)
+
+                 range:  [47,105]                     units:  1
+         unique values:  45                       missing .:  0/261
+
+                  mean:   70.4789
+              std. dev:   10.6369
+
+           percentiles:        10%       25%       50%       75%       90%
+                                57        63        70        77        84
+
+--------------------------------------------------------------------------------------------------
+pulse_measured_2x2                           6 month f-up measure                                                               2nd pulse measure
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (int)
+
+                 range:  [51,108]                     units:  1
+         unique values:  43                       missing .:  45/261
+
+                  mean:   71.8657
+              std. dev:   9.93446
+
+           percentiles:        10%       25%       50%       75%       90%
+                                60        65      70.5        79        86
+
+--------------------------------------------------------------------------------------------------
+pulse_measured_2x3            12 month f-up measure                                                               2nd pulse measure
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (int)
+
+                 range:  [44,103]                     units:  1
+         unique values:  41                       missing .:  74/261
+
+                  mean:   71.1711
+              std. dev:   9.81181
+
+           percentiles:        10%       25%       50%       75%       90%
+                                59        65        71        78        81
+
+--------------------------------------------------------------------------------------------------
+pulse_measured_3x1                                       Baseline measure                                                               3rd pulse measure
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (int)
+
+                 range:  [47,98]                      units:  1
+         unique values:  39                       missing .:  183/261
+
+                  mean:   72.2692
+              std. dev:   11.7569
+
+           percentiles:        10%       25%       50%       75%       90%
+                                56        64        72        80        88
+
+--------------------------------------------------------------------------------------------------
+pulse_measured_3x2                           6 month f-up measure                                                               3rd pulse measure
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (int)
+
+                 range:  [46,108]                     units:  1
+         unique values:  35                       missing .:  160/261
+
+                  mean:   71.5644
+              std. dev:   10.4952
+
+           percentiles:        10%       25%       50%       75%       90%
+                                60        65        71        78        87
+
+--------------------------------------------------------------------------------------------------
+pulse_measured_3x3            12 month f-up measure                                                               3rd pulse measure
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (int)
+
+                 range:  [49,105]                     units:  1
+         unique values:  33                       missing .:  186/261
+
+                  mean:     71.72
+              std. dev:   10.5184
+
+           percentiles:        10%       25%       50%       75%       90%
+                                58        65        72        77        84
+
+--------------------------------------------------------------------------------------------------
+record_idx1                                       Baseline measure                                                                              Record ID
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (int)
+
+                 range:  [7,2085]                     units:  1
+         unique values:  261                      missing .:  0/261
+
+                  mean:   1045.97
+              std. dev:   580.305
+
+           percentiles:        10%       25%       50%       75%       90%
+                               207       635      1008      1538      1880
+
+--------------------------------------------------------------------------------------------------
+record_idx2                           6 month f-up measure                                                                              Record ID
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (int)
+
+                 range:  [7,2085]                     units:  1
+         unique values:  218                      missing .:  43/261
+
+                  mean:   1021.92
+              std. dev:   581.101
+
+           percentiles:        10%       25%       50%       75%       90%
+                               194       573     998.5      1476      1876
+
+--------------------------------------------------------------------------------------------------
+record_idx3            12 month f-up measure                                                                              Record ID
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (int)
+
+                 range:  [7,2085]                     units:  1
+         unique values:  187                      missing .:  74/261
+
+                  mean:   1024.56
+              std. dev:    571.39
+
+           percentiles:        10%       25%       50%       75%       90%
+                               166       591      1003      1463      1874
+
+--------------------------------------------------------------------------------------------------
+sagex1                                       Baseline measure                                                                 Age (at time of assessment)
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [18,72]                      units:  1
+         unique values:  52                       missing .:  0/261
+
+                  mean:    41.751
+              std. dev:   11.4665
+
+           percentiles:        10%       25%       50%       75%       90%
+                                27        34        42        49        57
+
+--------------------------------------------------------------------------------------------------
+sagex2                           6 month f-up measure                                                                 Age (at time of assessment)
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [20,72]                      units:  1
+         unique values:  48                       missing .:  60/261
+
+                  mean:   43.2687
+              std. dev:   11.1865
+
+           percentiles:        10%       25%       50%       75%       90%
+                                28        36        44        50        58
+
+--------------------------------------------------------------------------------------------------
+sagex3            12 month f-up measure                                                                 Age (at time of assessment)
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+
+                 range:  [19,74]                      units:  1
+         unique values:  52                       missing .:  52/261
+
+                  mean:   43.5263
+              std. dev:   11.1692
+
+           percentiles:        10%       25%       50%       75%       90%
+                                29        36        44        51        58
+
+--------------------------------------------------------------------------------------------------
+ssexx1                                       Baseline measure                                                                                         Sex
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  SSEX_
+
+                 range:  [1,2]                        units:  1
+         unique values:  2                        missing .:  0/261
+
+            tabulation:  Freq.   Numeric  Label
+                            12         1  1. Male
+                           249         2  2. Female
+
+--------------------------------------------------------------------------------------------------
+ssexx2                           6 month f-up measure                                                                                         Sex
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  SSEX_
+
+                 range:  [1,2]                        units:  1
+         unique values:  2                        missing .:  60/261
+
+            tabulation:  Freq.   Numeric  Label
+                             9         1  1. Male
+                           192         2  2. Female
+                            60         .  
+
+--------------------------------------------------------------------------------------------------
+ssexx3            12 month f-up measure                                                                                         Sex
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (byte)
+                 label:  SSEX_
+
+                 range:  [1,2]                        units:  1
+         unique values:  2                        missing .:  52/261
+
+            tabulation:  Freq.   Numeric  Label
+                             8         1  1. Male
+                           201         2  2. Female
+                            52         .  
+
+--------------------------------------------------------------------------------------------------
+subjid                                                                                 (unlabeled)
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (double)
+
+                 range:  [7,2085]                     units:  1
+         unique values:  261                      missing .:  0/261
+
+                  mean:   1045.97
+              std. dev:   580.305
+
+           percentiles:        10%       25%       50%       75%       90%
+                               207       635      1008      1538      1880
+
+--------------------------------------------------------------------------------------------------
+waist_circ_measured_1x1                                       Baseline measure                                            1st Waist Circumference measure
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (double)
+
+                 range:  [83.8,134]                   units:  .1
+         unique values:  167                      missing .:  1/261
+
+                  mean:   101.963
+              std. dev:   9.35707
+
+           percentiles:        10%       25%       50%       75%       90%
+                             90.45     94.95    101.15    108.15    115.55
+
+--------------------------------------------------------------------------------------------------
+waist_circ_measured_1x2                           6 month f-up measure                                            1st Waist Circumference measure
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (double)
+
+                 range:  [73.1,130.4]                 units:  .1
+         unique values:  158                      missing .:  44/261
+
+                  mean:   100.669
+              std. dev:   9.40355
+
+           percentiles:        10%       25%       50%       75%       90%
+                              89.2      93.5     100.8     106.8     113.2
+
+--------------------------------------------------------------------------------------------------
+waist_circ_measured_1x3            12 month f-up measure                                            1st Waist Circumference measure
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (double)
+
+                 range:  [78.6,132.7]                 units:  .1
+         unique values:  144                      missing .:  75/261
+
+                  mean:   100.218
+              std. dev:   9.78784
+
+           percentiles:        10%       25%       50%       75%       90%
+                              88.8      93.2      98.9     106.4     111.4
+
+--------------------------------------------------------------------------------------------------
+waist_circ_measured_2x1                                       Baseline measure                                            2nd Waist Circumference measure
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (double)
+
+                 range:  [83.6,134.4]                 units:  .1
+         unique values:  172                      missing .:  1/261
+
+                  mean:   102.089
+              std. dev:    9.3924
+
+           percentiles:        10%       25%       50%       75%       90%
+                              90.3      94.9     101.3     108.4    115.65
+
+--------------------------------------------------------------------------------------------------
+waist_circ_measured_2x2                           6 month f-up measure                                            2nd Waist Circumference measure
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (double)
+
+                 range:  [73,126.4]                   units:  .1
+         unique values:  166                      missing .:  44/261
+
+                  mean:   100.829
+              std. dev:   9.41521
+
+           percentiles:        10%       25%       50%       75%       90%
+                              89.3      93.6     100.8       107     113.8
+
+--------------------------------------------------------------------------------------------------
+waist_circ_measured_2x3            12 month f-up measure                                            2nd Waist Circumference measure
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (double)
+
+                 range:  [78.7,132.9]                 units:  .1
+         unique values:  143                      missing .:  75/261
+
+                  mean:   100.297
+              std. dev:   9.85953
+
+           percentiles:        10%       25%       50%       75%       90%
+                              88.9      93.4     99.05     106.4     111.3
+
+--------------------------------------------------------------------------------------------------
+waist_circ_measured_3x1                                       Baseline measure                (If difference between 1st and 2nd measures is >0.5 cm,
+                                       take a 3rd measure) 3rd
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (double)
+
+                 range:  [89.5,117.5]                 units:  .1
+         unique values:  21                       missing .:  237/261
+
+                  mean:   100.817
+              std. dev:   7.84777
+
+           percentiles:        10%       25%       50%       75%       90%
+                              92.5      93.5        99     106.2     111.9
+
+--------------------------------------------------------------------------------------------------
+waist_circ_measured_3x2                           6 month f-up measure                (If difference between 1st and 2nd measures is >0.5 cm,
+                                       take a 3rd measure) 3rd
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (double)
+
+                 range:  [85.7,132.2]                 units:  .1
+         unique values:  38                       missing .:  220/261
+
+                  mean:   103.624
+              std. dev:   10.9727
+
+           percentiles:        10%       25%       50%       75%       90%
+                                91      96.3     101.9     109.7     117.5
+
+--------------------------------------------------------------------------------------------------
+waist_circ_measured_3x3            12 month f-up measure                (If difference between 1st and 2nd measures is >0.5 cm,
+                                       take a 3rd measure) 3rd
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (double)
+
+                 range:  [85.3,123]                   units:  .1
+         unique values:  25                       missing .:  232/261
+
+                  mean:     101.6
+              std. dev:   9.63009
+
+           percentiles:        10%       25%       50%       75%       90%
+                              88.5        97     101.3     107.2     119.7
+
+--------------------------------------------------------------------------------------------------
+weight_measured2x1                                       Baseline measure                                                              2nd Weight measure
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (double)
+
+                 range:  [57.7,115.2]                 units:  .01
+         unique values:  207                      missing .:  0/261
+
+                  mean:   82.2268
+              std. dev:   11.6285
+
+           percentiles:        10%       25%       50%       75%       90%
+                              67.7      73.4      81.7     90.85      97.7
+
+--------------------------------------------------------------------------------------------------
+weight_measured2x2                           6 month f-up measure                                                              2nd Weight measure
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (double)
+
+                 range:  [57.3,124.6]                 units:  .01
+         unique values:  168                      missing .:  43/261
+
+                  mean:   81.7139
+              std. dev:   12.3963
+
+           percentiles:        10%       25%       50%       75%       90%
+                                66      72.5     80.25      89.6      98.6
+
+--------------------------------------------------------------------------------------------------
+weight_measured2x3            12 month f-up measure                                                              2nd Weight measure
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (double)
+
+                 range:  [57.5,122.8]                 units:  .1
+         unique values:  149                      missing .:  74/261
+
+                  mean:   81.5246
+              std. dev:   12.6732
+
+           percentiles:        10%       25%       50%       75%       90%
+                              65.9      72.2      79.7      89.7     100.2
+
+--------------------------------------------------------------------------------------------------
+weight_measured3x1                                       Baseline measure                     (If difference between 1st and 2nd measure is >0.2 kg, take
+                                       a 3rd measure) 3rd
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (double)
+
+                 range:  [72.9,106.3]                 units:  .1
+         unique values:  7                        missing .:  254/261
+
+            tabulation:  Freq.  Value
+                             1  72.9
+                             1  76.2
+                             1  80.9
+                             1  93.5
+                             1  95.5
+                             1  97.3
+                             1  106.3
+                           254  .
+
+--------------------------------------------------------------------------------------------------
+weight_measured3x2                           6 month f-up measure                     (If difference between 1st and 2nd measure is >0.2 kg, take
+                                       a 3rd measure) 3rd
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (double)
+
+                 range:  [87.2,124.6]                 units:  .1
+         unique values:  2                        missing .:  259/261
+
+            tabulation:  Freq.  Value
+                             1  87.2
+                             1  124.6
+                           259  .
+
+--------------------------------------------------------------------------------------------------
+weight_measured3x3            12 month f-up measure                     (If difference between 1st and 2nd measure is >0.2 kg, take
+                                       a 3rd measure) 3rd
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (double)
+
+                 range:  [65.8,75.4]                  units:  .1
+         unique values:  3                        missing .:  258/261
+
+            tabulation:  Freq.  Value
+                             1  65.8
+                             1  72.6
+                             1  75.4
+                           258  .
+
+--------------------------------------------------------------------------------------------------
+weight_measuredx1                                       Baseline measure                                                               1st Weight measure
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (double)
+
+                 range:  [57.7,115.1]                 units:  .01
+         unique values:  198                      missing .:  0/261
+
+                  mean:   82.2287
+              std. dev:   11.6241
+
+           percentiles:        10%       25%       50%       75%       90%
+                              67.8      73.4      81.7     90.85      97.7
+
+--------------------------------------------------------------------------------------------------
+weight_measuredx2                           6 month f-up measure                                                               1st Weight measure
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (double)
+
+                 range:  [57.3,124.8]                 units:  .01
+         unique values:  168                      missing .:  43/261
+
+                  mean:   81.7227
+              std. dev:   12.3987
+
+           percentiles:        10%       25%       50%       75%       90%
+                                66      72.5     80.25      89.6      98.5
+
+--------------------------------------------------------------------------------------------------
+weight_measuredx3            12 month f-up measure                                                               1st Weight measure
+--------------------------------------------------------------------------------------------------
+
+                  type:  numeric (double)
+
+                 range:  [57.6,122.7]                 units:  .1
+         unique values:  148                      missing .:  74/261
+
+                  mean:    81.531
+              std. dev:   12.6625
+
+           percentiles:        10%       25%       50%       75%       90%
+                                66      72.2      79.7      89.7     100.2
+
+. log close
+      name:  <unnamed>
+       log:  C:\Users\Bill\Documents\Bills documents\Bills data\Bills data\PCORI data\PCORI Long B
+> ch data\Final anthro data\Codebook for MyPlate anthro public use data.2023 04 20.log
+  log type:  text
+ closed on:  20 Apr 2023, 22:59:04
+--------------------------------------------------------------------------------------------------
+29
+
+

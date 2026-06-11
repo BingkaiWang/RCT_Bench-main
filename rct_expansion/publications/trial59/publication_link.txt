@@ -1,0 +1,5 @@
+Trial_ID: 59
+Paper Name: Acute effects of tissue flossing on ankle range of motion in athletes with limited ankle dorsiflexion: a randomized controlled trial
+Paper Link: https://doi.org/10.1186/s13102-025-01484-w
+Citation: Daneshmandi et al. BMC Sports Science, Medicine and Rehabilitation. 2025;17:375. doi:10.1186/s13102-025-01484-w
+Availability: PDF stored here when publicly available; otherwise this file records the publication link.

@@ -1,0 +1,180 @@
+{
+  "created": "2018-09-21T10:32:07.368615+00:00",
+  "modified": "2020-01-24T19:25:21.408525+00:00",
+  "id": 1120364,
+  "conceptrecid": "1120363",
+  "doi": "10.5281/zenodo.1120364",
+  "conceptdoi": "10.5281/zenodo.1120363",
+  "doi_url": "https://doi.org/10.5281/zenodo.1120364",
+  "metadata": {
+    "title": "Data and analysis supplement for: Functional imagery training versus motivational interviewing for weight loss: a randomised controlled trial of brief individual interventions for overweight and obesity.",
+    "doi": "10.5281/zenodo.1120364",
+    "publication_date": "2017-12-20",
+    "description": "<p>This submission provides the data and code for&nbsp;analyses&nbsp;reported in our publication.<\/p>",
+    "access_right": "open",
+    "creators": [
+      {
+        "name": "Solbrig, Linda",
+        "affiliation": "School of Psychology, Cognition Institute, University of Plymouth; NIHR CLAHRC South-West Peninsula",
+        "orcid": "0000-0003-3203-5075"
+      },
+      {
+        "name": "Whalley, Ben",
+        "affiliation": "School of Psychology, Cognition Institute, University of Plymouth",
+        "orcid": "0000-0002-8994-6091"
+      },
+      {
+        "name": "Kavanagh, David",
+        "affiliation": "Institute for Health & Biomedical Innovation, Centre for Children's Health Research; School of Psychology & Counselling, Queensland University of Technology",
+        "orcid": "0000-0001-9072-8828"
+      },
+      {
+        "name": "May, Jon",
+        "affiliation": "School of Psychology, Cognition Institute, University of Plymouth",
+        "orcid": "0000-0001-7439-9200"
+      },
+      {
+        "name": "Parkin, Tracey",
+        "affiliation": "School of Health Professions (Dietetics), University of Plymouth"
+      },
+      {
+        "name": "Andrade, Jackie",
+        "affiliation": "School of Psychology, Cognition Institute, University of Plymouth",
+        "orcid": "0000-0002-6626-7192"
+      }
+    ],
+    "keywords": [
+      "Behaviour change",
+      "Diet",
+      "Functional Imagery training",
+      "Motivational Interviewing",
+      "Mental imagery",
+      "Weight loss",
+      "Weight loss maintenance",
+      "Obesity"
+    ],
+    "related_identifiers": [
+      {
+        "identifier": "10.1038/s41366-018-0122-1",
+        "relation": "isSupplementTo",
+        "scheme": "doi"
+      }
+    ],
+    "version": "1.0",
+    "language": "eng",
+    "resource_type": {
+      "title": "Dataset",
+      "type": "dataset"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "1120363"
+          }
+        }
+      ]
+    }
+  },
+  "title": "Data and analysis supplement for: Functional imagery training versus motivational interviewing for weight loss: a randomised controlled trial of brief individual interventions for overweight and obesity.",
+  "links": {
+    "self": "https://zenodo.org/api/records/1120364",
+    "self_html": "https://zenodo.org/records/1120364",
+    "preview_html": "https://zenodo.org/records/1120364?preview=1",
+    "doi": "https://doi.org/10.5281/zenodo.1120364",
+    "self_doi": "https://doi.org/10.5281/zenodo.1120364",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.1120364",
+    "reserve_doi": "https://zenodo.org/api/records/1120364/draft/pids/doi",
+    "parent": "https://zenodo.org/api/records/1120363",
+    "parent_html": "https://zenodo.org/records/1120363",
+    "parent_doi": "https://doi.org/10.5281/zenodo.1120363",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.1120363",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:1120364/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:1120364/sequence/default",
+    "files": "https://zenodo.org/api/records/1120364/files",
+    "media_files": "https://zenodo.org/api/records/1120364/media-files",
+    "archive": "https://zenodo.org/api/records/1120364/files-archive",
+    "archive_media": "https://zenodo.org/api/records/1120364/media-files-archive",
+    "latest": "https://zenodo.org/api/records/1120364/versions/latest",
+    "latest_html": "https://zenodo.org/records/1120364/latest",
+    "versions": "https://zenodo.org/api/records/1120364/versions",
+    "draft": "https://zenodo.org/api/records/1120364/draft",
+    "access_links": "https://zenodo.org/api/records/1120364/access/links",
+    "access_grants": "https://zenodo.org/api/records/1120364/access/grants",
+    "access_users": "https://zenodo.org/api/records/1120364/access/users",
+    "access_request": "https://zenodo.org/api/records/1120364/access/request",
+    "access": "https://zenodo.org/api/records/1120364/access",
+    "communities": "https://zenodo.org/api/records/1120364/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/1120364/communities-suggestions",
+    "request_deletion": "https://zenodo.org/api/records/1120364/request-deletion",
+    "file_modification": "https://zenodo.org/api/records/1120364/file-modification",
+    "quota_increase": "https://zenodo.org/api/records/1120364/quota-increase",
+    "requests": "https://zenodo.org/api/records/1120364/requests"
+  },
+  "updated": "2020-01-24T19:25:21.408525+00:00",
+  "recid": "1120364",
+  "revision": 28,
+  "files": [
+    {
+      "id": "dd8e72dd-753d-4986-90f7-eec3b57abb1e",
+      "key": "blind_data.csv",
+      "size": 5744,
+      "checksum": "md5:39c1d1b0cc6b415ccd901290b71e675b",
+      "links": {
+        "self": "https://zenodo.org/api/records/1120364/files/blind_data.csv/content"
+      }
+    },
+    {
+      "id": "d2702bf5-d496-4dcc-bc00-3440166b4967",
+      "key": "costing e-tool.xlsx",
+      "size": 3535313,
+      "checksum": "md5:93e0a7a7141003381eb756c690405876",
+      "links": {
+        "self": "https://zenodo.org/api/records/1120364/files/costing%20e-tool.xlsx/content"
+      }
+    },
+    {
+      "id": "600e66fb-6058-45d5-89de-6743f0cb91ed",
+      "key": "data_supplement.html",
+      "size": 2190356,
+      "checksum": "md5:a298d4c2f3b9a6d4cba159978de80c6b",
+      "links": {
+        "self": "https://zenodo.org/api/records/1120364/files/data_supplement.html/content"
+      }
+    },
+    {
+      "id": "5cf61fa8-91e6-4651-9592-e1108120437f",
+      "key": "data_supplement.Rmd",
+      "size": 22765,
+      "checksum": "md5:0b0125070fcf733697f07d73047c9c66",
+      "links": {
+        "self": "https://zenodo.org/api/records/1120364/files/data_supplement.Rmd/content"
+      }
+    }
+  ],
+  "swh": {},
+  "owners": [
+    {
+      "id": "40044"
+    }
+  ],
+  "status": "published",
+  "stats": {
+    "downloads": 3359,
+    "unique_downloads": 1499,
+    "views": 1060,
+    "unique_views": 995,
+    "version_downloads": 3358,
+    "version_unique_downloads": 1498,
+    "version_unique_views": 994,
+    "version_views": 1059
+  },
+  "state": "done",
+  "submitted": true
+}

@@ -1,0 +1,116 @@
+Treatment,YP_RTPCR_negative_6d,YS_symptom_free_6d,YS_discharged_10d,YS_final_discharge,YS_ICU,YS_intubation_mv,X_Age_0d,X_Sex_0d,X_comorbidities_0d,X_severity_admission_0d
+Placebo,0,1,1,1,0,0,35,male,NA,mild
+Ivermectin,1,0,0,1,1,1,58,male,"T2DM, Hepatitis C",mild
+Placebo,0,1,1,1,0,0,60,male,HTN,mild
+Ivermectin,1,1,1,1,0,0,55,male,T2DM,mild
+Placebo,1,1,1,1,0,0,50,male,"HTN, T2DM",mild
+Placebo,0,1,1,1,0,0,39,male,NA,mild
+Ivermectin,1,1,1,1,0,0,62,female,"HTN, T2DM",mild
+Ivermectin,NA,1,1,1,0,0,48,male,T2DM,mild
+Placebo,NA,1,1,1,0,0,35,female,Hypothyroidism,mild
+Ivermectin,1,1,1,1,0,0,30,female,NA,mild
+Placebo,NA,0,1,1,0,0,54,male,T2DM,moderate
+Ivermectin,1,1,1,1,0,0,20,male,NA,mild
+Placebo,0,1,1,1,0,0,51,female,HTN,mild
+Placebo,0,1,1,1,0,0,43,female,HTN,mild
+Placebo,0,1,1,1,0,0,57,male,T2DM,mild
+Placebo,0,1,0,1,0,0,46,male,"HTN,IHD",mild
+Ivermectin,1,1,1,1,0,0,40,male,NA,mild
+Ivermectin,1,1,0,1,0,0,60,male,"HTN, T2DM",moderate
+Ivermectin,0,0,0,0,1,1,52,male,Tuberculosis,moderate
+Ivermectin,0,1,1,1,0,0,72,male,NA,mild
+Ivermectin,0,1,1,1,0,0,32,male,NA,mild
+Ivermectin,0,1,1,1,0,0,75,male,NA,mild
+Ivermectin,0,1,1,1,0,0,70,female,NA,mild
+Placebo,0,1,0,1,0,0,28,male,NA,moderate
+Ivermectin,0,1,0,1,0,0,68,female,"AF, CCF With IHD, Minimal Renal Dysfunction",moderate
+Placebo,0,1,0,1,0,0,61,male,T2DM,mild
+Placebo,0,1,0,1,0,0,49,female,"T2DM, Valvular HD, CCF",moderate
+Placebo,0,1,1,1,0,0,40,male,Newly Diagnosed T2DM,moderate
+Placebo,1,0,0,1,1,0,50,female,"T2DM, CaGB",mild
+Ivermectin,NA,1,1,1,0,0,68,male,"HTN,IHD",mild
+Ivermectin,0,1,1,1,0,0,36,male,NA,mild
+Placebo,0,1,0,1,1,0,70,male,post AVR,mild
+Ivermectin,0,1,0,1,0,0,71,male,"T2DM, HTN",mild
+Placebo,0,0,0,1,0,0,54,male,"Asthma, T2DM",moderate
+Ivermectin,1,0,0,1,0,0,55,female,"T2DM, HTN",moderate
+Ivermectin,0,1,1,1,0,0,76,male,"T2DM, HTN",mild
+Ivermectin,0,0,0,0,1,1,45,male,"T2DM, HIV positive",mild
+Ivermectin,NA,0,0,0,1,1,82,male,NA,moderate
+Placebo,0,1,1,1,0,0,60,male,NA,mild
+Placebo,0,1,1,1,0,0,55,female,"Hypothyroidism, HTN",mild
+Placebo,1,0,1,1,0,0,52,male,NA,mild
+Placebo,0,0,0,1,1,0,45,male,hypothyroidism,mild
+Ivermectin,0,1,0,1,0,0,44,female,Uterine cancer,mild
+Ivermectin,0,1,0,1,0,0,76,male,HTN,mild
+Placebo,1,1,1,1,0,0,68,female,"HTN, T2DM",mild
+Placebo,0,1,0,1,0,0,42,female,Acute Leukemia,mild
+Placebo,0,0,1,1,0,0,52,male,Not known comorbities,moderate
+Placebo,0,1,1,1,0,0,24,male,HTN newly diagnosed,mild
+Ivermectin,0,0,0,0,1,1,65,male,"HTN, IHD",moderate
+Ivermectin,1,1,1,1,0,0,50,male,HTN,mild
+Placebo,0,1,1,1,0,0,47,female,"T2DM,HTN, Hyperuricemia, Hypercholesterolemia",mild
+Ivermectin,0,1,1,1,0,0,65,female,cholecystitis,mild
+Placebo,0,1,1,1,0,0,59,male,T2DM,mild
+Ivermectin,0,1,1,1,0,0,57,female,"HTN,T2DM",moderate
+Ivermectin,0,1,0,1,0,0,54,male,"T2DM, Severe anemia,newly diagnosed MM, CKD",mild
+Ivermectin,0,1,1,1,0,0,49,female,"HTN, T2DM newly diagnosed",mild
+Placebo,0,0,1,1,1,0,56,male,"HTN, DM, AKI",moderate
+Placebo,1,0,1,1,0,0,72,male,"CAD,HTN",moderate
+Placebo,0,0,0,1,1,1,68,male,NA,moderate
+Ivermectin,0,1,1,0,0,0,58,female,Rheumatoid Arthritis,mild
+Ivermectin,0,1,1,1,0,0,68,female,"HTN, PSVT",mild
+Placebo,0,1,1,1,0,0,51,male,NA,mild
+Ivermectin,0,1,1,1,0,0,83,male,T2DM,mild
+Placebo,0,1,1,1,0,0,46,male,HTN,mild
+Placebo,0,1,1,1,0,0,60,male,NA,mild
+Ivermectin,0,1,1,1,0,0,41,male,NA,mild
+Ivermectin,0,1,1,1,0,0,60,female,DM,mild
+Ivermectin,0,1,1,1,0,0,71,male,NA,mild
+Placebo,1,1,1,1,0,0,35,male,NA,mild
+Placebo,0,1,0,1,0,0,45,female,Left Pleural effusion under evaluation,mild
+Ivermectin,1,1,1,1,0,0,53,female,"HTN, DM",mild
+Placebo,0,1,1,1,0,0,75,male,"HTN, DM, ca cervix",moderate
+Placebo,0,1,1,1,0,0,48,female,hypothyroidism,mild
+Ivermectin,0,1,1,1,0,0,22,male,NA,mild
+Ivermectin,0,1,1,1,0,0,28,female,NA,mild
+Ivermectin,0,1,1,1,0,0,70,male,HTN,mild
+Placebo,0,1,1,1,0,0,52,male,"HTN, T2DM",mild
+Placebo,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Ivermectin,0,1,1,1,0,0,35,male,NA,mild
+Ivermectin,0,1,0,1,0,0,55,male,"HTN, IHD",mild
+Placebo,0,1,1,1,0,0,45,male,NA,mild
+Ivermectin,0,1,1,1,0,0,24,male,NA,mild
+Placebo,0,1,1,1,0,0,40,male,NA,mild
+Placebo,0,1,1,1,0,0,71,male,"HTN, T2DM",mild
+Placebo,0,1,1,1,0,0,60,female,HTN,moderate
+Placebo,0,1,1,1,0,0,45,male,NA,mild
+Placebo,0,1,0,1,0,0,45,male,NA,mild
+Ivermectin,0,1,1,1,0,0,55,male,"IHD, AKI",mild
+Ivermectin,0,1,1,1,0,0,65,male,T2DM,mild
+Ivermectin,0,1,1,1,0,0,70,male,T2DM,moderate
+Ivermectin,NA,1,1,1,0,0,60,female,HIV,mild
+Placebo,0,1,1,1,0,0,33,male,NA,mild
+Placebo,0,1,1,1,0,0,61,female,DM,mild
+Placebo,NA,1,1,1,0,0,35,male,CKD (post transplant),mild
+Ivermectin,0,1,1,1,0,0,39,male,T2DM,moderate
+Ivermectin,0,1,1,1,0,0,38,male,hypothyroidism,mild
+Placebo,NA,1,1,1,0,0,34,male,nil,mild
+Placebo,0,1,1,1,0,0,50,female,nil,mild
+Placebo,NA,1,0,1,0,0,62,male,"T2DM, HTN",mild
+Ivermectin,0,1,0,1,0,0,27,male,nil,moderate
+Ivermectin,0,1,1,1,0,0,40,male,HTN,moderate
+Ivermectin,0,1,1,1,0,0,61,male,"Hypothyroidism, Post CA thyroid",mild
+Placebo,0,1,1,1,0,0,78,male,"HTN, DM, IHD",mild
+Ivermectin,0,1,1,1,0,0,67,male,"DM, IHD",mild
+Ivermectin,0,1,0,1,1,0,65,male,"T2DM, HTN",mild
+Placebo,0,1,1,1,0,0,53,female,"T2DM, HTN",mild
+Ivermectin,0,1,1,1,0,0,34,male,"Multiple myeloma, CKD",mild
+Placebo,0,1,1,1,0,0,18,female,nil,mild
+Ivermectin,0,1,1,1,0,0,55,male,IHD,mild
+Placebo,NA,1,1,1,0,0,56,male,T2DM,mild
+Ivermectin,0,1,1,1,0,0,60,female,IHD,mild
+Ivermectin,0,1,1,1,0,0,30,male,NA,mild
+Placebo,0,1,1,1,0,0,40,male,Hypertension,moderate
+Placebo,NA,1,1,1,0,0,65,male,"Hypertension, T2DM",moderate
+Ivermectin,0,1,1,1,0,0,66,male,Hypertension,mild

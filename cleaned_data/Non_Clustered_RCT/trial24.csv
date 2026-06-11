@@ -1,0 +1,51 @@
+Treatment,YP_catheterized,YS_anxiety_6h,YS_anxiety_1d,YS_comfort_6h,YS_comfort_1d,X_Age_0d,X_Height_0d,X_Weight_0d,X_BMI_0d,X_Diabetes_0d,X_Sequelae_Stroke_0d,X_Alcoholism_0d,X_BetaBlocker_0d,X_Anesthesia_Duration_0d,X_CrystalloidVolume_0d,X_NorepinephrineDose_0d,X_PACU_duration_0d
+Auriculotherapy,1,NA,NA,NA,NA,65,184,74,21.86,0,0,0,0,150,1500,0,20
+Auriculotherapy,1,0,0,9,8,71,175,80,26.12,0,0,0,0,147,1588,NA,18
+Sham Comparator,1,NA,0,NA,9,55,168,68,24.09,0,0,0,0,180,2088,0,22
+Sham Comparator,1,5,NA,10,NA,52,160,68,26.56,0,1,0,0,220,1500,0,19
+Sham Comparator,1,0,0,6,5,27,186,87,25.15,0,0,0,0,120,1290,0,17
+Sham Comparator,1,0,0,10,10,57,180,104,32.1,0,0,0,0,133,1750,0.26,18
+Auriculotherapy,0,2,0,9,10,29,170,55,19.03,0,0,0,0,160,1000,0.31,21
+Auriculotherapy,0,5,4,7,8,66,185,74,21.62,0,0,0,0,169,789,0.19,16
+Auriculotherapy,1,NA,NA,NA,NA,72,178,75,23.67,0,0,0,0,300,1600,0,3
+Auriculotherapy,0,NA,5,NA,6,28,187,64,18.3,0,0,0,0,95,600,0,14
+Sham Comparator,1,0,NA,10,NA,55,180,92,28.4,0,0,0,1,159,1667,0,18
+Auriculotherapy,1,NA,NA,NA,NA,80,168,58,20.55,0,0,0,0,173,500,0.42,22
+Auriculotherapy,1,NA,NA,NA,NA,61,154,92,38.79,1,0,1,0,268,900,1.69,3
+Sham Comparator,1,0,3,10,10,68,165,91,33.43,1,0,0,1,263,2000,0,15
+Auriculotherapy,1,NA,NA,NA,NA,68,178,66,20.83,0,0,0,1,165,1000,4,24
+Sham Comparator,1,0,NA,10,NA,58,175,67,21.88,0,0,0,0,218,1000,0.32,15
+Sham Comparator,1,0,0,10,10,68,170,93,32.18,0,0,0,0,144,1777,0,14
+Auriculotherapy,1,1,0,4,8,69,190,85,23.55,0,0,0,1,244,1500,0.2,15
+Auriculotherapy,1,2,NA,8,NA,79,162,50,19.05,0,0,0,0,234,2500,2.06,26
+Sham Comparator,1,5,4,9,10,60,174,78,25.76,0,0,0,0,101,1159,0,22
+Sham Comparator,1,0,NA,10,NA,62,181,60,18.31,0,0,0,0,194,768,4,21
+Sham Comparator,1,5,NA,0,NA,27,193,64,17.18,0,0,0,0,109,1030,0,15
+Sham Comparator,1,2,5,9,8,58,168,73,25.86,0,0,0,0,166,500,0,20
+Auriculotherapy,1,NA,1,NA,7,35,180,95,29.32,0,0,0,0,180,1000,0,14
+Sham Comparator,1,0,NA,10,NA,72,178,90,28.41,0,0,0,1,336,2075,0.7,19
+Sham Comparator,1,0,0,10,10,68,174,87,28.74,0,0,0,0,210,1500,0,21
+Auriculotherapy,0,0,1,8,6,66,169,81,28.36,0,0,0,0,181,1771,0,19
+Auriculotherapy,1,NA,NA,NA,NA,76,182,80,24.15,NA,0,NA,0,215,2946,0.97,21
+Sham Comparator,1,0,1,10,8,61,183,90,26.87,0,0,0,0,220,1000,0,20
+Auriculotherapy,1,NA,NA,NA,NA,59,172,65,21.97,0,0,0,0,253,2243,0.6,2
+Auriculotherapy,1,NA,0,NA,5,51,179,98,30.59,0,0,0,0,120,600,0.3,18
+Auriculotherapy,1,NA,NA,NA,NA,69,175,73,23.84,0,0,1,1,198,2288,0,21
+Sham Comparator,1,0,NA,8,NA,65,172,90,30.42,1,0,0,0,202,1740,0,2
+Auriculotherapy,0,4,2,8,5,75,176,82,26.47,0,0,0,0,153,2143,0.46,19
+Sham Comparator,1,NA,4,NA,7,56,181,76,23.2,0,0,0,0,219,1289,0,19
+Auriculotherapy,1,0,3,6,5,64,175,80,26.12,0,0,0,0,207,700,0,14
+Sham Comparator,1,NA,0,NA,8,43,182,73,22.04,0,0,0,0,175,1500,0,22
+Sham Comparator,1,4,2,4,4,64,183,99,29.56,1,0,0,1,243,1000,0.3,21
+Auriculotherapy,0,3,0,10,9,56,180,86,26.54,0,0,0,0,163,1703,0,12
+Sham Comparator,0,0,NA,5,NA,62,174,95,31.38,1,0,0,0,106,850,0,21
+Sham Comparator,1,0,0,8,10,62,184,98,28.95,1,0,0,1,110,500,0,19
+Auriculotherapy,0,0,0,10,10,79,170,64,22.15,0,0,0,0,169,1000,0,18
+Sham Comparator,1,NA,NA,NA,NA,54,180,86,26.54,0,0,0,0,202,2500,0,16
+Auriculotherapy,1,0,2,5,8,58,166,60,21.77,0,0,1,0,186,1500,0.03,20
+Sham Comparator,1,0,NA,10,NA,56,177,80,25.54,0,0,0,0,208,600,0,3
+Sham Comparator,1,NA,5,6,9,60,165,85,31.22,0,0,0,0,229,919,0,1
+Auriculotherapy,1,3,3,10,5,32,184,60,17.72,0,0,0,0,106,1134,0,17
+Auriculotherapy,1,5,NA,5,NA,78,168,60,21.26,0,0,0,0,155,774,0,4
+Auriculotherapy,1,3,NA,7,NA,72,182,86,25.96,1,0,0,1,135,500,0,15
+Sham Comparator,1,NA,NA,NA,NA,47,167,88,31.55,0,0,0,0,332,2000,0,21

@@ -1,0 +1,1236 @@
+Rev. Cardiovasc. Med. 2022; 23(4): 122
+https://doi.org/10.31083/j.rcm2304122
+Copyright: © 2022 The Author(s). Published by IMR Press.
+This is an open access article under the CC BY 4.0 license .
+Publisher’s Note: IMR Press stays neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+Original Research
+Incidence and Outcomes of Postoperative Atrial Fibrillation after
+Coronary Artery Bypass Grafting of a Randomized Controlled Trial: A
+Blinded End-of-cycle Analysis
+Ahmad Farouk Musa 1,2,*
+ , Jeswant Dillon 3, Mohamed Ezani Md Taib 3,
+Alwi Mohamed Y unus3, Abdul Rais Sanusi 3, Mohd Nazeri Nordin 3, Julian A. Smith 4,5
+1Jeffrey Cheah School of Medicine & Health Sciences, Monash University Malaysia, 47500 Subang Jaya, Selangor, Malaysia
+2Victorian Heart Institute, Monash University, 3168 Melbourne, Australia
+3Department of Cardiothoracic Surgery, National Heart Institute, 50400 Kuala Lumpur, Malaysia
+4Department of Surgery, School of Clinical Sciences at Monash Health, Monash University, 3168 Melbourne, Australia
+5Department of Cardiothoracic Surgery, Monash Health, 3168 Melbourne, Australia
+*Correspondence: farouk@monash.edu (Ahmad Farouk Musa)
+Academic Editors: Giuseppe Santarpino and Giuseppe Nasso
+Submitted: 15 December 2021 Revised: 28 February 2022 Accepted: 1 March 2022 Published: 1 April 2022
+Abstract
+Objective: The objective of this study is to analyse the incidence of postoperative atrial fibrillation (POAF), demography, post-operative
+outcomes including morbidity and mortality, length of Cardiac Intensive Care Unit (CICU) stay, High Dependency Unit (HDU) stay, and
+total hospital stay in patients undergoing coronary bypass grafting (CABG) at Institut Jantung Negana (IJN). Methods: We conducted
+a prospective, randomised, controlled trial. We supplied the treatment group with Tocovid capsules and the control group with placebo
+containing palm superolein. Results: Since January 2019, we have recruited the target population of 250 patients. However, the result is
+still blinded as we are still analysing blood samples for tocotrienol levels. 89.2% of patients completed the study with a 3.6% mortality
+and a 7.6% attrition rate. 35.2% of the patients developed POAF, the mean time being 46.06 ± 26.96 hours post-CABG. We did not
+observe any statistically significant difference when we compared left atrial size, New Y ork Heart Association (NYHA) functional class,
+ejection fraction and premorbid history, besides EuroSCORE II (The European System for Cardiac Operative Risk Evaluation II) status
+except for older age group, right atrial size, and pleural effusion. There was also no difference in bypass time, cross clamp time or number
+of anastomoses. However, we noted a significant difference in death ( p = 0.01) and renal failure requiring dialysis ( p = 0.007) among
+patients with POAF; those patients also had a longer CICU stay ( p = 0.005), HDU stay ( p = 0.02), and total hospital stay ( p = 0.001).
+Conclusions: POAF is associated with a higher incidence of renal failure and death while it increases CICU, HDU, and total hospital
+stay. It remains to be seen whether Tocovid reduces POAF and its associated sequelae. Clinical Trial Registration : NCT03807037
+(Registered on 16 January 2019).
+Keywords: Tocovid; postoperative atrial fibrillation (POAF); CABG; CICU stay; total hospital stay; morbidity; mortality
+1. Introduction
+One of the commonest complications of cardiac
+surgery is postoperative atrial fibrillation (POAF). It occurs
+in about 20% to 40% [ 1] of patients after isolated coronary
+bypass grafting (CABG) and more often after combined
+CABG and valve surgery [ 2]. In an earlier retrospective
+study [3], we observed a prolonged Cardiac Intensive Care
+Unit (CICU) stay, High Dependency Unit (HDU) stay and
+total hospital stay among these patients, with a projected
+increase in resource utilisation. This was accompanied by
+a statistically significant increase in the incidence of stroke
+and death [3].
+There is no single unifying mechanism in the devel-
+opment of POAF. It is generally agreed that both a sus-
+ceptible substrate and a trigger factor are needed to initi-
+ate POAF [4,5]. While multiple factors may initiate POAF,
+current data suggests that the postoperative inflammatory
+state after CABG plays a significant role in initiating POAF
+[6,7]. More precisely, it is the shed mediastinal blood that
+serves as a notable source for this inflammation [8–10]. Re-
+cent data also showed that the incidence of POAF increased
+when the pericardium was opened. In contrast when the
+pericardium remained intact, as in transcatheter aortic valve
+replacement, a risk reduction of 82% was observed [11,12].
+It is currently believed that besides the inflammatory
+milieu, the presence of oxidative stress also predisposes to
+POAF [13]. This happens when the reactive oxygen species
+produced inundates the endogenous antioxidant defences
+[14]. When the recruited leukocytes are activated to re-
+lease O 2 (superoxide) by reducing oxygen at the expense
+of nicotinamide adenine dinucleotide phosphate (NADPH),
+oxidative stress ensues [ 15]. The occurrence of a highly
+inflammatory and pro-oxidant state which generally takes
+place after CABG predisposes to the development of POAF
+[16]. As described above, the intrapericardial inflammation
+and oxidative stress trigger POAF through some patholog-
+ical pathways originating from shed mediastinal blood fol-
+lowing CABG [ 17].
+In light of this pathogenesis, we postulate that us-
+ing a potent anti-inflammatory antioxidant might mitigate
+POAF. We decided on tocotrienol, a compound that has
+not been commonly investigated, despite its much supe-
+rior antioxidative and anti-inflammatory effect compared to
+its cousin, tocopherol [ 18]. We hypothesise that this may
+confer a therapeutic advantage in the safety endpoints post-
+CABG by reducing the incidence of POAF and its adverse
+sequelae.
+2. Aims
+To determine the incidence of POAF, demography,
+post-operative outcomes including morbidity and mortality,
+length of CICU stay, HDU stay, and total hospital stay.
+3. Methods
+3.1 Study Design
+We designed this study as a prospective, double-blind,
+randomised, controlled trial involving parallel groups. All
+patients who were admitted at the Institut Jantung Negana
+(IJN), Kuala Lumpur, for CABG, or CABG and valve
+surgery, were automatically recruited into the study.
+Patients were divided into two arms using a computer-
+generated randomisation programme: (1) a Control group
+with placebo plus standard care, and (2) a Treatment group
+with Tocovid, plus standard care.
+At least two days prior to surgery, the blinded ran-
+domised patients were administered daily with either 400
+mg Tocovid in two divided doses, or placebo, which
+was prepared by Hovid Berhad, a company based in
+Ipoh, Malaysia. Each 200 mg soft-gel Tocovid cap-
+sule contained a cocktail of tocotrienol (61.52 mg alpha-
+Tocotrienol, 112.80 mg gamma-Tocotrienol and 25.68
+mg delta-Tocotrienol) and tocopherol (91.60 IU alpha-
+tocopherol). This regime was continued post-CABG until
+six weeks follow-up when the study was terminated.
+We decided on giving 400 mg of Tocovid daily since
+many other clinical studies [ 19,20] have used this regime
+without any adverse effects. We continued the treatment
+until the patient was discharged. The patients and the sur-
+geons were blinded throughout the study, as were the re-
+search assistants. Only Clinical Research Nurses were not
+blinded. Onsite cardiothoracic ward nurses monitored and
+ensured compliance. Postoperatively all patients were ob-
+served for any electrocardiogram (ECG) changes via con-
+tinuous ECG monitoring. All POAF episodes were treated
+according to the preference of the attending cardiothoracic
+surgeon.
+For the study flow chart, refer to attachment: Fig. 1.
+3.2 Inclusion and Exclusion Criteria
+Inclusion Criteria:
+Males or females over 18 years of age.
+Elective, on-pump surgery of coronary artery revascu-
+larisation, either isolated or combined with valve surgery.
+Exclusion criteria:
+Urgent or emergency surgery as well as off-pump
+surgery.
+Poor left ventricular (LV) function (ejection fraction
+(EF) <30%).
+Allergy to palm oil or Vitamin E, or any form of ar-
+rhythmia pre-operatively.
+Long-term treatment with corticosteroid.
+Participation in other clinical trial within three months
+prior to the study.
+Vitamin E or other potent antioxidant supplementation
+with within one month prior to randomisation.
+3.3 Study End Points
+The primary end point was POAF occurrence as con-
+firmed on an ECG by the absence of p-wave and irreg-
+ularly QRS complex of at least 30-second duration. For
+shorter ECGs, we diagnosed atrial fibrillation (AF)/atrial
+flutter (AFL) on the arrhythmia present at onset or termi-
+nation [ 21]. The secondary end points were the length of
+hospital stay (LoHS) including both CICU and HDU stay.
+3.4 Sample Size Calculation
+For sample size calculation, we used the PS Power
+and Sample Size Calculation Software (V ersion 3.1.6, De-
+veloper: W.D. Dupont & W.D. Plummer. Licensed
+under a Creative Commons Attribution–NonCommercial-
+NoDerivs 3.0 United States License).
+We estimated sample size based on findings from a
+prior study by Musa et al. [ 3]. The researchers found POAF
+incidence at IJN to be 28.7%. Assuming the true relative
+risk of AF for experimental subjects relative to controls is
+0.45 [22], then if we use the PS Power and Sample Size Cal-
+culator [23,24] with α equivalent to 0.05 and power (1-β) of
+0.8, the estimated sample size is 103 in each arm. Assum-
+ing a possible attrition rate of 20%, our total sample size is:
+103 + 20 (103) × 2 = 250 subjects, with 125 controls and
+125 experimental subjects.
+3.5 Statistical Analysis
+For statistical analysis of the data, we used the SPSS
+software version 27.0 (IBM Inc., Chicago, IL, USA).
+4. Ethics Declaration
+We conducted this study according to the Malaysian
+Good Clinical Practice Guideline while abiding by the
+Helsinki Declaration revised in 2013. Informed written
+consent was obtained from all subjects prior to their par-
+ticipation in this study.
+We sought ethics approvals from three institutions: the
+Institut Jantung Negara Research Ethics Committee (IJN-
+REC/201/2017), the Monash University Human Research
+2
+
+Fig. 1. Study Flow Chart. *SF-36, Short Form 36 Questionnaire; ^NHP , Nottingham Health Profile Questionnaire.
+Ethics Committee (MUHREC) (2017-9227-10263) and
+the National Pharmaceutical Regulatory Agency (NPRA)
+(CTX-180304). The study was registered with the Na-
+tional Medical Research Register (NMRR-17-1994-34963)
+and the US National Library of Medicine-Clinical Trials
+(NCT03807037).
+5. Results
+Recruitment of patients started on 21 January, 2019
+and we reached 250 patients on 30 June, 2021 from a total
+of 1128 patients screened within that period. The current re-
+sults are based on patients’ data; these were retrieved from
+patients who have completed the study. The tabulated fig-
+ures consist of data extracted from both the IJN computer
+system and physical records.
+Our population sample consists of 223 patients
+(89.2%) who have completed the study. There were 11
+withdrawals and another 7 were lost during follow-up. We
+recorded 9 deaths (3.6%) which was slightly lower com-
+pared to our earlier study [ 25] in 2018 where the mortality
+rate stood at 4.66%. Therefore, the attrition rate was 7.2%.
+Eighteen serious adverse events (SAE) were reported but
+none was related to the investigational product.
+The statistical analyses on the results of our study be-
+low were on the non-unblinded dataset since we have not
+completed the collection of all the data. Hence, our analy-
+ses were between the POAF group against the non-POAF
+group–not Tocovid versus control. This final analysis will
+only be conducted at the end of the study; at that time, all the
+data would have been completed and the groups unblinded.
+We also wish to emphasize that our analyses were restricted
+to patients with complete data. Hence, there might be some
+variations with regard to the number of patients analysed in
+each section.
+3
+Table 1. Characteristics of our sample population and their association with POAF.
+Demographic Total, mean ± SD/n (%) Non-POAF group, mean ± SD/n (%) POAF group, mean ± SD/n (%) p-value
+Age (years) 60.88 ± 7.79 59.93 ± 8.54 62.36 ± 6.20 0.02*
+Range: 39 to 85 years old
+Gender:
+0.20aMale 196 121 (61.7) 75 (38.3)
+Female 46 33 (71.7) 13 (28.3)
+Population:
+0.40a
+Malay 199 122 (61.3) 77 (38.7)
+Chinese 8 6 (75.0) 2 (25.0)
+Indian 34 25 (73.5) 9 (26.5)
+Other 1 1 (100.0) 0 (0.0)
+EuroSCORE II:
+0.39aLow risk 102 (42.7) 66 (64.7) 36 (40.9)
+Medium risk 108 (45.2) 70 (64.8) 38 (35.2)
+High risk 29 (12.1) 15 (51.7) 14 (48.3)
+*p-value significant at 0.05 using independent T-test.
+aTest using Chi-Square test.
+5.1 Patients’ characteristics
+Table 1 below describes the characteristics of our
+study sample. The mean age was 60.88 ± 7.79 ranging be-
+tween 39 to 85 years old. Older age group is associated
+with POAF and this consolidated the fact that age has al-
+ways been considered the most consistent factor responsi-
+ble for an increased incidence of POAF [ 26]. In fact, it is
+an independent predictor of POAF [ 27], the higher occur-
+rence of POAF in elderly patients due to age-related co-
+morbidities [28] where ageing causes degenerative changes
+in the atrium as well as changes in the atrial physiology.
+These changes were described by Amaret al. [ 29] as having
+shorter refractory period, delayed sinoatrial (SA) and atri-
+oventricular (A V) nodal conductivity, atrial stiffening and
+spluttering of the arial waveform. Cardiac surgery could
+also cause injury to the sympatho-vagal fibres of the car-
+diac plexus of elderly patients, leading to POAF [ 30]. In-
+deed, Mathew et al. [ 31] noted a 75% increase in the odds
+of developing POAF in every ten-year increase in age.
+As a predictive factor of POAF, gender remains a con-
+tentious matter. While it is controversial to assume that
+male gender is a predictor of POAF, the effect of gen-
+der on POAF is definitely an interesting field of study. It
+has been shown that the female gender is shielded against
+POAF [32] but other studies have shown poorer outcomes
+among women after CABG [33–36]. Meanwhile, Filardo et
+al. [ 37] attested to the poorer late survival in both women
+and men; however, they also showed that the early burden
+of POAF was less in women. While the debate continues,
+our results showed that there was no statistically significant
+difference between the sexes in developing POAF although
+the majority (80.9%) of our patients were males.
+However, we found no statistically significant differ-
+ence exists between the different ethnic groups in terms of
+POAF. However, this is a marked difference from our pre-
+vious study [ 25] in which the Indian population had sig-
+nificantly lower odds of developing POAF compared to
+the other races. It also contrasts with a Singaporean study
+[38] that found that Malays and Chinese, as compared to
+Indians, had a higher likelihood of developing this phe-
+nomenon post-CABG. Western papers [39–41] showed that
+Caucasians were more prone to developing POAF com-
+pared to blacks, and genetic disparity between the races was
+thought to be the reason [ 39]. However, the survival rate of
+POAF patients after CABG showed that the black race was
+a significant predictor for decreased survival [ 40,41]. This
+finding was definitely useful to both the surgeons and their
+patients.
+Our study cohort showed that most of our patients
+(87.9%) were in the low and medium risk EuroSCORE II
+group. We observed no statistically significant difference in
+the development of POAF in between these groups. How-
+ever, an earlier study by Chen-Scarabelli et al. [ 42] showed
+that higher EuroSCORE was associated with POAF though
+not with mortality after CABG surgery.
+5.2 POAF Characteristics of Study Patients
+Table 2 below refers to the POAF (post-operative AF)
+characteristics of our study patients. 35.2% of patients de-
+veloped POAF which is higher compared to our previous
+study [25] where 28.7% of the patients developed AF post
+CABG. However, it would be hasty to conclude that To-
+covid has no effect in lowering the POAF rate since this is
+still a blinded analysis. Nevertheless, 35.2% falls within the
+POAF incidence range cited in the literature [ 43–45].
+The mean time for POAF development of was 46.56±
+26.96 hours after surgery; in the second postoperative day,
+and was within the range cited by the literature of 2–3 days
+after surgery [ 46]. Its occurrence ranges from 20 minutes
+4
+
+Table 2. Characteristics of POAF.
+Characteristics of AF n (%), mean ± SD
+Occurrence of POAF 88 (35.2)
+Time from surgery to POAF (minutes) 2793.61 ± 1617.36
+Range: 10 to 7044 minutes
+Duration (hours):
+≤48 45 (52.9)
+>48 40 (47.1)
+Number of episodes:
+Single 45 (51.1)
+Multiple 43 (48.9)
+Atrial fibrillation on discharge 0 (0.0)
+to 5.7 days post-CABG. However, this was also within the
+cited range in the literature [ 46–48] POAF mainly occurs
+within the first week post-surgery, with 70% of cases [ 49]
+within the first four postoperative days. In addition, we no-
+ticed a single episode of POAF in 51.1% of our patients;
+while the remaining 48.9% had multiple AF episodes post-
+CABG. Nonetheless, all study patients reverted without ex-
+ception, and they were all discharged in sinus rhythm.
+5.3 Pre-operative Characteristics of Study Patients
+Malaysia has the highest rate of obesity and over-
+weight among Asian countries according to World Health
+Organization (WHO) [ 50]. Table 3 below indicates that
+52.22% of the study sample was overweight and 25.12%
+was obese according to the Asian guidelines [ 51]. How-
+ever, no statistically significant difference was observed
+between the groups in terms of POAF occurrence. This
+finding contradicts some reports in the literature [ 52–55]
+which suggest that, compared to their non-obese counter-
+parts, obese patients are more prone to develop POAF. An
+earlier work of Sun X et al . [ 56] together with a most re-
+cent study by Vural Ü and Aglar A [57] have suggested that
+obesity is a predictor for POAF. However, a very recent
+meta-analysis [58] of 36 prospective studies which has yet
+to be peer-reviewed found that obesity might not increase
+the risk of developing POAF after CABG.
+We have excluded poor EF ( <30%) from our study,
+so most patients were in New Y ork Heart Functional Class
+(NYHA) I and II. According to our findings, although the
+mean left ventricular ejection fraction (EF) for the non-
+POAF group was slightly better at 51.92% as compared to
+the POAF group at 50.67%, this was not statistically sig-
+nificant. Additionally, although left atrial size was larger
+in the POAF group as compared to the non-POAF group,
+this was also not statistically significant. These two find-
+ings contradicted some of the literature [ 59–62] that estab-
+lished a correlation between poor EF and an increased left
+atrial size in POAF development. But strikingly, the POAF
+group had a statistically significant dilated right atrial size
+as compared to the non-POAF group: this is consistent with
+the literature [ 63] where POAF is believed to be due to di-
+latation process and the ensuing remodelling process itself
+[63].
+5.4 Medical History
+The pre-morbid history of our patients is illustrated in
+Table 4 below. As expected, the majority were afflicted
+with hypertension (81%), diabetes mellitus (62%) and hy-
+percholesterolaemia (90.1%) but we noticed no statistically
+significant difference between the groups. Similarly, our
+analysis on chronic kidney disease which is normally linked
+to POAF [ 64,65], showed no significant difference in be-
+tween the two groups.
+When we compared current or ex-smokers with non-
+smokers to analyse the relationship between smoking habits
+and POAF incidence, we observed no statistically signifi-
+cant difference between them ( p = 0.77). In contrast, a pre-
+vious study [66] showed smokers tend to have a lower inci-
+dence of POAF ( p < 0.05). However, the authors strongly
+recommended a ban on smoking for at least 4 weeks before
+surgery; in view of improving post-operative outcomes.
+The paper, however, might seem at odds with the presump-
+tion that nicotine increases the heart rate by stimulating the
+release of catecholamines and inducing the electrical in-
+stability of the atria by blocking the potassium currents,
+thereby increasing the risk of AF [ 67]. Another paper also
+found an association between smoking and AF-related out-
+comes such as bleeding, thrombosis and death [ 68]. Due to
+these conflicting reports, a meta-analysis which included 36
+meta-analysis was conducted recently by Wan et al . [ 69].
+They concluded that smoking was neither associated with
+an increased risk of POAF in CABG patients, nor does it
+have a protective effect.
+5.5 Operative Details
+We performed isolated CABG in 92.5% and CABG
+combined with valve surgery in 7.5% in our study popula-
+tion as shown in Table 5 below. Mitral valve replacement
+surgery accounts for almost 60% of cases of the combined
+surgery group; only one case involved mitral valve repair.
+Aortic valve replacement was performed in the remaining
+40% of cases. However, no statistically significant differ-
+ence was observed between these groups in terms of de-
+veloping POAF. This contradicts the general belief that a
+combined valve with CABG would result in a higher oc-
+currence of POAF [70,71] besides the use of heart-lung by-
+pass machine [ 72,73]. In a recent multicentre prospective
+study [ 74] involving a total of 28 centres, it was recon-
+firmed that combined valve and CABG was significantly
+correlated with the occurrence of POAF.
+The mean cross-clamp time in our study was 75.84 ±
+30 minutes and the mean bypass time was 97 ± 35.59 min-
+utes. Similarly, no statistically significant difference was
+observed between the two groups though we knew that both
+the cross-clamp time and the bypass time had an association
+5
+Table 3. Pre-operative characteristics and their association with POAF.
+Pre-operative characteristic Total, mean ±
+SD/n (%)
+Non-POAF group,
+mean ± SD/n (%)
+POAF group, mean
+± SD/n (%)
+p-value
+Body Mass Index (kg/m 2) 27.15 ± 4.39 27.25 ± 4.52 26.86 ± 4.39
+0.29a
+<18.5 2 (0.8) 0 (0.0) 2 (100.0)
+18.5–22.9 57 (23.6) 38 (66.7) 19 (33.3)
+23–29.9 124 (51.2) 79 (63.7) 45 (36.3)
+≥30 59 (24.4) 37 (62.7) 22 (37.3)
+Range: 17.6 to 42.47
+New Y ork Heart Functional Class:
+0.89a
+NYHA I 145 (60.2) 92 (63.4) 53 (36.6)
+NYHA II 94 (39.0) 61 (64.9) 33 (35.1)
+NYHA III 2 (0.8) 1 (50.0) 1 (50.0)
+NYHA IV 0 (0.0) 0 (0.0) 0 (0.0)
+Left ventricular ejection fraction 51.45 ± 9.02 51.92 ± 8.94 50.67 ± 9.09 0.29b
+Range: 9 to 67
+Left atrial size (mm) 18.09 ± 4.96 17.63 ± 4.34 18.74 ± 5.85 0.09b
+Range: 9 to 46
+Right atrial size (mm) 13.88 ± 3.09 13.43 ± 2.62 14.51 ± 3.55 0.007*
+Range: 7.7 to 31
+*p-value significant at 0.05 using independent T-test.
+aTest using Chi Square test.
+bTest using independent T-test.
+Table 4. Underlying medical conditions and their association with POAF.
+Medical condition Total, n (%) Non-POAF group, n (%) POAF group, n (%) χ2 p-value
+COPD:
+- 0.7bY es 3 (1.2) 2 (66.7) 1 (33.3)
+No 239 (98.8) 152 (63.6) 87 (36.4)
+Asthma:
+- 0.64bY es 1 (0.4) 1 (100.0) 0 (0.0)
+No 241 (99.6) 153 (63.5) 88 (36.5)
+Hypertension:
+0.35 0.56 aY es 196 (81.0) 123 (62.8) 73 (37.2)
+No 46 (19.0) 31 (67.4) 15 (32.6)
+Diabetes mellitus:
+0.46 0.49 aY es 150 (62.0) 93 (62.0) 57 (38.0)
+No 92 (38.0) 61 (66.3) 31 (33.7)
+Hypercholesterolemia:
+0.32 0.57 aY es 218 (90.1) 140 (64.2) 78 (35.8)
+No 24 (9.9) 14 (58.3) 10 (41.7)
+Chronic kidney disease:
+0.08 0.77 aY es 23 (9.5) 14 (60.9) 9 (39.1)
+No 219 (90.5) 140 (63.9) 79 (36.1)
+Current or ex-smoker:
+0.08 0.77 aY es 127 (54.3) 83 (65.4) 44 (34.6)
+No 107 (45.7) 68 (63.6) 39 (36.4)
+Alcohol intake:
+- 0.18bY es 9 (3.9) 4 (44.4) 5 (55.6)
+No 219 (96.1) 142 (64.8) 77 (35.2)
+aTest using Chi-Square test.
+bTest using Fisher Exact Test.
+6
+
+Table 5. Patient operative details (CABG, coronary bypass grafting) and their association with POAF.
+Operative details Total, mean ±
+SD/n (%)
+Non-POAF group,
+mean ± SD/n (%)
+POAF group, mean
+±SD/n (%)
+χ2/t-value p-value
+Surgery type:
+CABG alone 222 (92.5) 143 (64.4) 79 (35.6) 1.49 0.22a
+CABG + valve 18 (7.5) 9 (50.0) 9 (50.0)
+Bypass time (in minutes) 97.00 ± 35.59 95.98 ± 38.43 98.91 ± 30.35 0.54b
+Range: 42 to 304 minutes
+Cross-clamp time (in mins) 75.84 ± 30.05 75.86 ± 32.28 75.81 ± 25.79 0.22 0.99b
+Range: 17 to 244 minutes
+Number of anastomoses:
+Single 6 (2.5) 2 (33.3) 4 (66.7) - 0.13c
+Multiple 234 (97.5) 150 (64.1) 84 (35.9)
+aTest using Chi Square test.
+bTest using Independent T-test.
+cTest using Fisher exact test.
+with POAF development [ 75–78]. Similarly, we could not
+find any significant corelation between the number of distal
+anastomoses with POAF in our study with a similar finding
+observed in another study by Lotfi et al. [ 79].
+5.6 Post-operative Outcomes
+Adverse outcomes such as stroke, reoperation, infec-
+tion, renal failure, respiratory complications and other cere-
+bral insults, besides a twofold increase in mortality [ 80–82]
+were always associated with POAF. Admittedly, while this
+correlation might not be direct, it does contribute to the in-
+crease in morbidity and mortality post-CABG. In Table 6
+below, although more POAF patients developed stroke as
+compared to non-POAF, it was not statistically significant.
+While the mortality rate in our study population was 3.6%
+as compared to the mortality rate in our earlier publication
+(4.66%) [25] this was definitely much lower. But we saw a
+statistically significant difference with a threefold increase
+in death among patients that developed POAF post-CABG.
+Our finding concurs with a recent paper by Emma Thorénet
+al. [ 83] where POAF was associated with mortality with a
+more recent paper from Taiwan which also concluded that
+in the Asian population, POAF is significantly correlated
+with an overall mortality [ 84].
+We also assessed other common complications as de-
+picted in Table 6 but none of them, except pleural effusion,
+were significantly correlated with POAF. This is consis-
+tent with the finding by Brookes et al . [ 85] who found a
+link between new onset atrial fibrillation and pleural ef-
+fusion. Similarly, Anderson [ 86] also showed that self-
+clearing chest tubes may reduce POAF although a random-
+ized data is still needed to prove this claim. Interestingly a
+systematic review by Gozdek et al. [ 87] showed that poste-
+rior pericardial drainage to minimize any possibility of peri-
+cardial tamponade could reduce the odds of POAF by 58%
+indicating that POAF is possibly associated with pericar-
+dial collections. In our study cohort as well, we noticed
+that statistically significant number of patients with renal
+failure developed POAF. Similarly, the correlation between
+renal dysfunction and POAF has been established by Chua
+et al. [ 88]. While the mechanism was not fully understood,
+it was thought to be related to fluid overload and activation
+of renin-angiotensin-aldosterone cascade which would then
+lead to myocardial fibrosis [ 89].
+5.7 Postoperative Stay
+To date, no study in Malaysia has assessed the eco-
+nomic impact of managing POAF patients post cardiac
+surgery. The closest regional study was conducted in Thai-
+land [90] where it was shown that there was a statistically
+significant high economic burden in managing POAF pa-
+tients. Studies conducted elsewhere have demonstrated that
+POAF was associated with prolonged CICU stay and to-
+tal hospital stay [ 91,92]. This would of course be trans-
+lated into an increased cost of hospitalisation. For in-
+stance, US patients who developed POAF would incur ad-
+ditional hospital treatment costs in the range of USD10,000
+to USD20,000 [ 93]. Furthermore, US healthcare expendi-
+tures related to POAF management were approximately 1
+billion USD per year [94]. Another study [95] demonstrated
+that POAF led to an increase in the utilisation of hospital
+resources, with an increase in the direct costs of manag-
+ing affected patients. No such studies have been conducted
+locally regarding the financial burden in managing POAF
+patients. However, it would not be surprising if it yields
+similar results.
+Based on the outcomes tabulated in Table 7 above,
+there was a statistically significant difference between the
+two groups with regard in to the mean duration of CICU
+stay (p = 0.005) and HDU stay ( p = 0.02). Similarly, there
+was also a significant difference in total duration of hospi-
+tal stay ( p = 0.001). Our findings concur with one study
+7
+Table 6. Post-operative outcomes and their association with POAF.
+Post-operative outcomes Total, n (%) Non-POAF group, n (%) POAF group, n (%) χ2 p-value
+Stroke:
+- 0.14 bY es 4 (1.7) 1 (25.0) 3 (75.0)
+No 232 (98.3) 148 (63.8) 84 (36.2)
+Sternal infection:
+- 0.6 bY es 6 (2.5) 4 (66.7) 2 (33.33)
+No 232 (97.5) 146 (62.9) 86 (37.1)
+Respiratory problems:
+- 0.2 bY es 9 (3.8) 4 (44.4) 5 (55.6)
+No 229 (96.2) 146 (63.8) 83 (36.2)
+Renal failure requiring dialysis:
+- 0.007**Y es 12 (5.0) 3 (25.0) 9 (75.0)
+No 226 (95.0) 147 (65.0) 79 (35.0)
+Endocrine problems:
+- 0.63 bY es 1 (0.4) 1 (100.0) 0 (0.0)
+No 237 (99.6) 149 (62.9) 88 (37.1)
+Pleural effusion:
+4.79 0.03*Y es 18 (7.6) 7 (38.9) 11 (61.1)
+No 219 (92.4) 142 (64.8) 77 (35.2)
+Cardiac Tamponade:
+0.16 0.69 aY es 22 (9.2) 13 (59.1) 9 (40.9)
+No 216 (90.8) 137 (63.4) 79 (36.6)
+Fever:
+- 0.10 bY es 12 (5.0) 5 (41.7) 7 (58.3)
+No 226 (95.0) 145 (64.2) 81 (35.8)
+Hyperkalaemia:
+- 0.15 bY es 4 (1.7) 1 (25.0) 3 (75.0)
+No 233 (98.3) 148 (63.5) 85 (36.5)
+Others:
+- 0.06 bY es 7 (2.9) 2 (28.6) 5 (71.4)
+No 231 (97.1) 148 (64.1) 83 (35.9)
+Death:
+- 0.01*Y es 9 (3.75) 2 (22.2) 7 (77.8)
+No 231 (96.25) 150 (64.9) 81 (35.1)
+*p-value significant at 0.05 using Chi Square Test.
+**p-value significant at 0.05 using Fisher exact Test.
+aTest using Chi Square test.
+bTest using Fisher Exact Test.
+[73] that collected data from 28 centres which showed that
+POAF occurrence was significantly correlated to the length
+of stay in CICU and total hospital stay with a resultant in-
+crease in resource utilisation.
+6. Discussion
+35.2% of our study population exhibited POAF. This
+was slightly higher compared to our previous study [ 2] of
+about 28.7%. We should note that despite advances in the
+perioperative cardiac surgery care, the length of stay in the
+CICU, HDU, and the total hospital stay have remained un-
+changed over the years [ 96,97]. At the moment we are un-
+sure whether our prophylactic intervention using Tocovid
+would reduce the incidence of POAF in the study arm.
+Despite this uncertainty, we take comfort in the words of
+Sir William Ramsay, the Chemist Nobel Laureate, who re-
+minds us that progress is made by trial and failure. There-
+fore, we shall endure until the study is unblinded.
+8
+
+Table 7. The association between POAF and duration of CICU, HDU and total hospital stay, ventilation time and reintubation.
+Duration Total, median ±
+IQR/n (%)
+Non-POAF group,
+median ± IQR/n (%)
+POAF group, median
+± IQR/n (%)
+p-value
+Duration in CICU (minute) 1722 ± 2648 1632 ± 1638 2872 ± 5493 0.005*
+Range: 640 to 67740 minutes
+Duration in HDU (minute) 1640 ± 1711 1545 ± 1510 2700 ± 2795 0.02*
+Range: 190 to 14760 minutes
+Duration of ventilation (minute) 1134 ± 380 1110 ± 395 1190 ± 415 0.06a
+Range: 350 to 17120 minutes
+Duration of hosp. stay (day) 7.0 ± 3 7.0 ± 2 8.0 ± 4 0.001*
+Range: 5 to 86 days
+Reintubation: 0.12b
+Y es 8 (3.4) 3 (37.5) 5 (62.5)
+No 230 (96.6) 148 (64.3) 82 (35.7)
+*p-value significant at <0.05 using Mann-Whitney Test.
+aTest using Mann-Whitney test.
+bTest using Fisher Exact test.
+As we outlined earlier, oxidative stress and inflamma-
+tion from the shed mediastinal blood within the pericardium
+are now thought to be responsible for the pathogenesis of
+POAF. Cardiac surgery itself inflicts a trauma on the heart,
+and this is compounded by the use of cardiopulmonary by-
+pass that produces ischaemic injury. Oxidative stress and
+the production of pro-inflammatory molecules from reper-
+fusion injury after cardioplegic arrest activateds the pro-
+duction of leucocytes, nitrous oxide and reactive oxygen
+species [ 79,98]. Human studies have demonstrated that a
+correlation exists between the development of POAF with
+systemic inflammation and oxidative stress [ 99,100].
+Studies have shown that longer CICU and hospital
+stay, and a higher rate of readmission were associated with
+POAF [ 95,101]. These outcomes translate into approxi-
+mately USD 2 billion out of more than USD 6 billion per
+year related to POAF care in the US [ 102,103]. Unfortu-
+nately, no financial data from IJN of Kuala Lumpur or any
+other cardiac centres in Malaysia are available with regard
+to the total cost in managing patients with POAF. Nonethe-
+less, there is no doubt that managing such patients entails
+higher costs. Therefore, reducing POAF incidence among
+post-CABG patients would benefit not only patients or hos-
+pitals but to the national economy itself.
+We are aware that other compounds have been used
+in research to prevent POAF; for instance, polyunsaturated
+fatty acids (PUFAs), vitamin C, or a combination of vita-
+mins C and E [ 104]. PUFAs have been demonstrated to re-
+duce cardiovascular morbidity in animal models [ 105]. In
+a study by Rubanenko O and Rubanenko A [ 106], patients
+treated with PUFAs not only displayed reduced in inflam-
+mation and oxidative stress after CABG, but also exhibited
+a reduction in POAF after CABG. A meta-analysis [107] of
+19 randomised controlled trials (RCTs) conducted in 2017
+and a meta-analysis [ 108] in 2018 that included 14 RCTs
+also showed that CABG patients treated with PUFAs dis-
+played a significant reduction of POAF compared to con-
+trols. In all these cases, an antioxidant prevented POAF,
+and the results were very promising the more so since our
+study is based on the same presumption.
+Similarly, vitamin C, a known antioxidant, has been
+studied. A 2016 meta-analysis [109] of 7 RCTs showed that
+vitamin C treatment reduces the incidence of POAF. How-
+ever, a more recent RCT [110] in 2018 found no significant
+difference. But to date, there are no guidelines on the use of
+vitamin C for POAF prophylaxis. A 2013 study [ 111] used
+combined antioxidants with vitamin C, vitamin E and PU-
+FAs, demonstrated a significant reduction in the incidence
+of POAF among patients receiving these cocktails as com-
+pared to controls. However, to date, there are no guidelines
+regarding this protocol.
+With the aforementioned studies and the postulated
+inflammatory and oxidative pathways in the promotion of
+POAF, we anticipate that using Tocovid, a strong antioxi-
+dant and anti-inflammatory agent, might be useful in mit-
+igating the occurrence of POAF. We understand that it is
+still too early to make any definite claim. Nonetheless, this
+study has a scientific rationale, and once completed, it will
+be unblended for analysis.
+7. Limitations
+Our main limitation was the patients’ recruitment.
+This is due to the current COVID-19 pandemic which re-
+duced the number of patients that could be enrolled in our
+study as a result of the limited availability of ICU beds.
+Similarly, the rate of tracing the patients’ medical records
+at the IJN Record Office dampened the pace of the study
+since only limited records were available for tracing each
+week. Not all the required data points were available on the
+track care, making reference to patients’ medical records
+unavoidable.
+9
+8. Conclusions
+As a preliminary conclusion, we would like to reiter-
+ate that POAF after cardiac surgery was the most common
+complication after CABG; it occurred in 35.2% of our study
+population. There was a statistically significant difference
+among POAF patients with regard to the occurrence of re-
+nal failure and death; we observed a three-fold increase in
+both. Both CICU and HDU time, and also the total hospital
+stay, were significantly longer among POAF patients. This
+translates to a heavier economic burden on the patient, the
+hospital, and the economy, although we have not conducted
+any cost analysis in this study.
+Consent for Publication
+All authors of this paper have read and approved the
+final version submitted.
+Availability of Data and Materials
+Harvard Dataverse: Replication Data for: A mid-
+cycle analysis on the role of Tocovid, a tocotrienol-rich vita-
+min E, in preventing atrial fibrillation after coronary artery
+bypass grafting (CABG) surgery.
+Link: https://doi.org/10.7910/DVN/BZBHGX.
+This project contains the following underlying data:
+Set 1: Raw Data.
+Set 2: Output Data.
+CONSORT Checklist.
+Author Contributions
+AFM—conceptualization, data curation, formal anal-
+ysis, investigation, methodology, project administration,
+visualization, writing-original draft preparation, writing-
+review and editing; JD, MEMT, AMY , ARS, MNN—
+provided significant input into the study protocol, per-
+formed the bypass surgery on the study patients, and pro-
+vided the post-operative care; JAS—administration, super-
+vision, validation, writing-review and editing.
+Ethics Approval and Consent to Participate
+The study protocol was approved by the Institut
+Jantung Negara Ethics Committee (IJNREC/201/2017),
+Monash University Human Research Ethics Committee
+(MUHREC/2017-9227-10263). and the National Pharma-
+ceutical Regulatory Agency (NPRA/CTX-180304). IJN-
+REC also served as the data safety committee.
+We registered the study with the National Medical Re-
+search Registry (NMRR-17-1994-34963) and the US Na-
+tional Library of Medicine-Clinical Trials (NCT03807037).
+Link: https://clinicaltrials.gov/ct2/show/NCT
+03807037.
+Written informed consent was obtained from all sub-
+jects prior to commencement of the study. A copy of the
+written consent form is available for review by the Editorial
+office/Chief Editor/Editorial Board members of this jour-
+nal.
+Acknowledgment
+The authors would like to thank the following people
+for their contribution to this study: Mohd Zahid Kamarud-
+din, Cardiothoracic trainee at Institut Jantung Negara (IJN)
+for his tireless effort, Madam Irni Y usnida Mohd Rashid,
+Senior Study Coordinator, Clinical Research Department,
+IJN; the Clinical Research nurses at IJN; and our dedicated
+research assistants namely Mohd Ikhmal Othman, Anisah
+Zahirah Nor Aripin and Ahmad Muziru Idham Adnan.
+Funding
+HOVID Berhad: MMRD-MS-1801 and Malaysian
+Palm Oil Berhad (MPOB): MMRD-MS-2001 funded this
+project. However, the funders were involved neither in
+the design of the project nor in the preparation of this
+manuscript.
+Conflict of Interest
+The authors declare no conflict of interest.
+References
+[1] Dobrev D, Aguilar M, Heijman J, Guichard JB, Nattel S. Postop-
+erative atrial fibrillation: mechanisms, manifestations and man-
+agement. Nature Reviews Cardiology. 2019; 16: 417–436.
+[2] D’Agostino RS, Jacobs JP , Badhwar V , Fernandez FG, Paone
+G, Wormuth DW,et al. The Society of Thoracic Surgeons Adult
+Cardiac Surgery Database: 2018 update on outcomes and qual-
+ity. Annals of Thoracic Surgery. 2018; 105: 15–23.
+[3] Farouk Musa A, Quan CZ, Xin LZ, Soni T, et al . A retro-
+spective study on atrial fibrillation after coronary artery bypass
+grafting surgery at The National Heart Institute, Kuala Lumpur.
+F1000Research. 2018; 7: 164.
+[4] Ferrari R, Bertini M, Blomstrom-Lundqvist C, Dobrev D, Kirch-
+hof P , Pappone C, et al . An update on atrial fibrillation in
+2014: From pathophysiology to treatment. International Journal
+of Cardiology. 2016; 203: 22–29.
+[5] Iwasaki YK, Nishida K, Kato T, Nattel S. Atrial fibrillation
+pathophysiology: Implications for management. Circulation.
+2011; 124: 2264–2274.
+[6] Ramlawi B, Otu H, Mieno S, Boodhwani M, Sodha NR,
+Clements RT, et al . Oxidative stress and atrial fibrillation af-
+ter cardiac surgery: a case-control study. Annals of Thoracic
+Surgery. 2007; 84: 1166–1173.
+[7] Zakkar M, Ascione R, James AF, Angelini GD, Suleiman MS.
+Inflammation, oxidative stress and postoperative atrial fibrilla-
+tion in cardiac surgery. Pharmacology and Therapeutics. 2015;
+154: 13–20.
+[8] Philippou H, Adami A, Davidson SJ, Pepper JR, Burman JF,
+Lane DA. Tissue factor is rapidly elevated in plasma collected
+from the pericardial cavity during cardiopulmonary bypass.
+Thrombosis and Haemostasis. 2000; 84:124–128.
+[9] Svenmarker S, Engstrom KG. The inflammatory response to re-
+cycled pericardial suction blood and the influence of cell-saving.
+Scandinavian Cardiovascular Journal. 2003; 37: 158–164.
+[10] Kramer PA, Chacko BK, Ravi S, Johnson MS, Mitchell T,
+Barnes S, et al . Hemoglobin-associated oxidative stress in the
+10
+
+pericardial compartment of postoperative cardiac surgery pa-
+tients. Laboratory Investigation. 2015; 95: 132–141.
+[11] Tanawuttiwat T, O’Neill BP , Cohen MG, Chintakanan O, Held-
+man AW, Martinez CA, et al. New-onset atrial fibrillation after
+aortic valve replacement: comparison of transfemoral, transapi-
+cal, transaortic, and surgical approaches. Journal of the Ameri-
+can College of Cardiology. 2014; 63: 1510–1519.
+[12] Cuculich PS, Cooper DH. Pericardial invasion: lessons learned
+from surgical and transcatheter aortic valve replacement. Journal
+of the American College of Cardiology. 2014; 63: 1520–1521.
+[13] Y oun JY , Zhang J, Zhang Y , Chen H, Liu D, Ping P , et al. Ox-
+idative stress in atrial fibrillation: an emerging role of NADPH
+oxidase. Journal of Molecular and Cellular Cardiology. 2013;
+62: 72–79.
+[14] Wu JH, Marchioli R, Silletta M, Masson S, Sellke SW, Libby P ,
+et al. Oxidative stress biomarkers and incidence of postoperative
+atrial fibrillation in the Omega-3 Fatty Acids for Prevention of
+Postoperative Atrial Fibrillation (OPERA) trial. Journal of the
+American Heart Association. 2015; 4: e001886.
+[15] Babior BM. Phagocytes and oxidative stress. American Journal
+of Medicine. 2000; 109: 33–44.
+[16] Elahi MM, Flatman S, Matata BM. Tracing the origins of post-
+operative atrial fibrillation: the concept of oxidative stress-
+mediated myocardial injury phenomenon. European Journal of
+Preventive Cardiology. 2008; 15: 735–741.
+[17] St-Onge S, Perrault LP , Demers P , Boyle EM, Gillinov AM, Cox
+J, Melby S. Pericardial blood as a trigger factor for postopera-
+tive atrial fibrillation after cardiac surgery. Annals of Thoracic
+Surgery. 2018; 105: 321–328.
+[18] Ramanathan N, Tan E, Loh LJ, Soh BS, Y ap WN. Tocotrienol
+is a cardioprotective agent against ageing-associated cardio-
+vascular disease and its associated morbidities. Nutrition and
+Metabolism. 2018; 15: 6.
+[19] Gopalan Y , Shuaib IL, Magosso E, Ansari MA, Abu Bakar MR,
+Wong JW,et al. Clinical investigation of the protective effects of
+palm vitamin E tocotrienols on brain white matter. Stroke. 2014;
+45: 1422–1428.
+[20] Magosso E, Ansari MA, Gopalan Y , Shuaib IL, Wong JW, Khan
+NA, et al . Tocotrienols for normalisation of hepatic echogenic
+response in non-alcoholic fatty liver: a randomised placebo-
+controlled trial. Nutrition Journal. 2013; 12: 166–174.
+[21] Mozaffarian D, Marchioli R, Gardner T, Ferrazzi P , O’Gara
+P , Latini R, et al . The ω-3 fatty acids for prevention of post-
+operative atrial fibrillation trial–rationale and design. American
+Heart Journal. 2011; 162: 56–63. e3.
+[22] Calò L, Bianconi L, Colivicchi F, Lamberti F, Loricchio ML,
+de Ruvo E, et al . N-3 Fatty acids for the prevention of atrial
+fibrillation after coronary artery bypass surgery: a randomized,
+controlled trial. Journal of the American College of Cardiology.
+2005; 45: 1723–1728.
+[23] Dupont WD, Plummer WD. Power and sample size calcula-
+tions: a review and computer program. Controlled Clinical Tri-
+als. 1990; 11: 116–128.
+[24] Dupont WD, Plummer WD Jr. Power and sample size calcula-
+tions for studies involving linear regression. Controlled Clinical
+Trials. 1998; 19: 589–601.
+[25] Musa AF, Cheong XP , Dillon J, Nordin RB. V alidation of
+EuroSCORE II in patients undergoing coronary artery bypass
+grafting (CABG) surgery at the National Heart Institute, Kuala
+Lumpur: a retrospective review. F1000Research. 2018; 7: 534.
+[26] Echahidi N, Mohty D, Pibarot P , Després JP , O’Hara G, Cham-
+pagne J, et al . Obesity and metabolic syndrome are indepen-
+dent risk factors for atrial fibrillation after coronary artery by-
+pass graft surgery. Circulation. 2007; 116: I-213–I-219.
+[27] Hogue CW Jr, Filos KS, Schuessler RB, Sundt TM. Sinus nodal
+function and risk for atrial fibrillation after coronary artery by-
+pass graft surgery. Anesthesiology. 2000; 92: 1286–1292.
+[28] Aranki SF, Shaw DP , Adams DH, Rizzo RJ, Couper GS, V an-
+derVliet M, et al. Predictors of atrial fibrillation after coronary
+artery surgery. Current trends and impact on hospital resources.
+Circulation 1996; 94: 390–397.
+[29] Amar D, Zhang H, Leung DHY , Roistacher N, Kadish AH. Older
+age is the strongest predictor of postoperative atrial fibrillation.
+Anesthesiology. 2002; 96: 352–356.
+[30] Babaev AA, Vloka ME, Sadurski R, Steinberg JS. Influence
+of age on atrial activation as measured by the P-wave signal-
+averaged electrocardiogram. American Journal of Cardiology.
+2000; 86: 692–695.
+[31] Mathew JP , Fontes ML, Tudor IC, Ramsay J, Duke P , Mazer
+CD, et al . A multicenter risk index for atrial fibrillation after
+cardiac surgery. Journal of the American Medical Association.
+2004; 291: 1720–1729.
+[32] Pothineni NV , V allurupalli S. Gender and atrial fibrillation: dif-
+ferences and disparities. US Cardiology Review. 2018; 12: 24–
+33.
+[33] Chung J, Stevens LM, Ouzounian M, El-Hamamsy I, Bouhout I,
+Dagenais F, et al. Sex-related differences in patients undergoing
+thoracic aortic surgery. Circulation. 2019; 139: 1177–1184.
+[34] Nicolini F, V ezzani A, Fortuna D, Contini GA, Pacini D, Gab-
+bieri D, et al. Gender differences in outcomes following isolated
+coronary artery bypass grafting: long-term results. Journal of
+Cardiothoracic Surgery. 2016; 11: 144.
+[35] Saxena A, Dinh D, Smith JA, Shardey G, Reid CM, Newcomb
+AE. Sex differences in outcomes following isolated coronary
+artery bypass graft surgery in Australian patients: analysis of the
+Australasian Society of Cardiac and Thoracic Surgeons cardiac
+surgery database. European Journal of Cardio-thoracic Surgery.
+2012; 41: 755–762.
+[36] Arif R, Farag M, Gertner V , Szabó G, Weymann A, V eres G,
+et al . Female gender and differences in outcome after isolated
+coronary artery bypass graft surgery: does age play a role? PLoS
+ONE. 2016; 11: e0145371.
+[37] Filardo G, Ailawadi G, Pollock BD, da Graca B, Phan TK,
+Thourani V ,et al . Postoperative atrial fibrillation: sex-specific
+characteristics and effect on survival. Journal of Thoracic and
+Cardiovascular Surgery. 2020; 159: 1419–1425.e1.
+[38] Zhang W, Liu W, Chew ST, Shen L, Ti LK. A clinical predic-
+tion model for post-cardiac surgery atrial fibrillation in an Asian
+population. Anesthesia and Analgesia. 2016; 123: 283–289.
+[39] Nazeri A, Razavi M, Elayda MAA, Lee VV , Massumi AA, Wil-
+son JM. Race/ethnicity and the incidence of new onset atrial
+fibrillation after isolated coronary artery bypass surgery. Heart
+Rhythm. 2010; 7: 1458–1463.
+[40] Efird JT, Davies SW, O’Neil WT, Anderson CA, Anderson EJ,
+O’Neil JB, et al. The impact of race and postoperative atrial fib-
+rillation on operative mortality after elective coronary bypass
+grafting. European Journal of Cardio-thoracic Surgery. 2014;
+45: e20–e25.
+[41] O’Neil WT, Efird JT, Davies SW, O’Neil JB, Anderson CA,
+Ferguson TB, et al . The impact of postoperative atrial fibrilla-
+tion and race on long-term survival after coronary artery bypass
+grafting. Journal of Cardiac Surgery. 2013; 28: 484–491.
+[42] Chen-Scarabelli C, Scarabelli T, Petrilli G, Saravolatz L, Maz-
+zucco A, Faggian G. Postoperative Atrial Fibrillation is Asso-
+ciated with Higher Euroscore, but not with Hospital Mortality
+after Coronary Artery Bypass Graft Surgery. Journal of Clinical
+and Experimental Cardiology. 2012, S: 9002.
+[43] Benedetto U, Gaudino M, Dimagli A, Gerry S, Gray A, Lees B,
+et al. Postoperative atrial fibrillation and long-term risk of stroke
+after isolated coronary artery bypass graft surgery. Circulation.
+2020; 142: 1320–1329.
+[44] Ismail MF, El-Mahrouk AF, Hamouda TH, Radwan H, Hneef A,
+11
+Jamjoon AA. Factors influencing postoperative atrial fibrillation
+in patients undergoing on-pump coronary artery bypass graft-
+ing, single center experience. Journal of Cardiothoracic Surgery.
+2017; 12: 40.
+[45] Lubitz SA, Yin X, Rienstra M, Schnabel RB, Walkey AJ, Mag-
+nani JW, et al. Long‐term outcomes of secondary atrial fibrilla-
+tion in the community: the Framingham Heart Study. Circula-
+tion. 2015; 131: 1648–1655.
+[46] Creswell LL, Schuessler RB, Rosenbloom M, Cox JL. Hazards
+of postoperative atrial arrhythmias. Annals of Thoracic Surgery.
+1993; 56: 539–549.
+[47] Nair SG. Atrial fibrillation after cardiac surgery. Annals of Car-
+diac Anaesthesia. 2010; 13: 196–205.
+[48] Almassi GH, Schowalter T, Nicolosi AC, Aggarwal A, Moritz
+TE, Henderson WG, et al . Atrial fibrillation after cardiac
+surgery. A major morbid event? Annals of Surgery. 1997; 226:
+501–511.
+[49] Patel D, Gillinov MA, Natale A. Atrial fibrillation after cardiac
+surgery: where are we now? Indian Pacing and Electrophysiol
+Journal. 2008; 8: 281–291.
+[50] World health Organization. Malaysia and WHO call for
+more investment in primary health care the 21st century.
+2019. Available at: https://www.who.int/malaysia/news/deta
+il/08-04-2019-malaysia-and-who-call-for-more-investment-i
+n-primary-health-care-the-21st-century (Accessed: 25 July
+2021).
+[51] The Asia-Pacific perspective: Redefining obesity and its treat-
+ment. IASO International Association for the study of obesity.
+World Health Organization, Western Pacific Region. 2000.
+[52] Phan K, Khuong JN, Xu J, Kanagaratnam A, Y an TD. Obe-
+sity and post-operative atrial fibrillation in patients undergoing
+cardiac surgery: Systematic review and meta-analysis. Interna-
+tional Journal of Cardiology. 2016; 217: 49–57.
+[53] Serban C, Arinze JT, Starreveld R, Lanters EAH, Y aksh A,
+Kik C, et al . The impact of obesity on early post-operative
+atrial fibrillation burden. Journal of Thoracic and Cardiovascular
+Surgery. 2020; 159: 930–938.e2.
+[54] Perrier S, Meyer N, Hoang-Minh T, Announe T, Bentz J, Billaud
+P ,et al. Predictors of atrial fibrillation after coronary artery by-
+pass grafting: A Bayesian analysis. Annals of Thoracic Surgery.
+2017; 103: 92–97.
+[55] Lavie CJ, Pandey A, Lau DH, Alpert MA, Sanders P . Obesity
+and atrial fibrillation prevalence, pathogenesis, and prognosis:
+Effects of weight loss and exercise. Journal of the American Col-
+lege of Cardiology. 2017; 70: 2022–2035.
+[56] Sun X, Boyce SW, Hill PC, Bafi AS, Xue Z, Lindsay J, et al .
+Association of body mass index with new-onset atrial fibrilla-
+tion after coronary artery bypass grafting operations. Annals of
+Thoracic Surgery. 2011; 91: 1852–1859.
+[57] Vural Ü, Aglar AA. What is the role of metabolic syndrome and
+obesity for postoperative atrial fibrillation after coronary bypass
+grafting? BMC Cardiovascular Disorders. 2019; 19: 147.
+[58] Liu M, Mei K, Ma J, YU P , Xie L, Zhao Y ,et al. Dose-response
+relationship among body mass index, abdominal adiposity, and
+atrial fibrillation in patients undergoing cardiac surgery: A meta-
+analysis of 30 prospective studies. BMJ Y ale. 2020. (in press)
+[59] Straus S, Kacila M, Omerbasic E, Mujičić E. Atrial fibrillation
+and coronary bypass surgery–what can be risk factors for its ap-
+pearance? Bosnian Journal of Basic Medical Sciences. 2010;
+10: 78–82.
+[60] El-Gendy A, Dabsha MH, Elewa GM, Ali AH. Predictors of
+post-operative atrial fibrillation after coronary artery bypass
+grafting: a prospective observational cohort study. Ain-Shams
+Journal of Anaesthesiology. 2020; 12: 55.
+[61] Başaran Ö, Tigen K, Gözübüyük G, Dündar C, Güler A, Taşar
+O, et al . Predictive role of left atrial and ventricular me-
+chanical function in post-operative atrial fibrillation a two-
+dimensional speckle-tracking echocardiography study. Turk
+Kardiyoloji Dernegi Arsivi. 2016; 44: 45–52.
+[62] Turkkolu ST, Selçuk E, Köksal C. Biochemical predictors of
+postoperative atrial fibrillation following cardiac surgery. BMC
+Cardiovascular Disorders. 2021; 21: 167.
+[63] Aksu U, Kalkan K, Gulcu O, Aksakal E, Öztürk M, Topcu S.
+The role of right atrium in development of postoperative atrial
+fibrillation: A speckle tracking echocardiography study. Journal
+of Clinical Ultrasound. 2019; 47: 470–476.
+[64] Hashemzadeh K, Dehdilani M, Dehdilani M. Postoperative
+atrial fibrillation following open cardiac surgery: predisposing
+factors and complications. Journal of Cardiovascular and Tho-
+racic Research. 2013; 5: 103–107.
+[65] Sammoud K, Lajmi M, Touhami F, Hfayedh A, Lahdhili H,
+Chenik S. Predictive factors of new onset atrial fibrillation in
+cardiac surgery. Archives of Cardiovascular Diseases Supple-
+ments. 2019; 11: 141–142.
+[66] Benedetto U, Albanese A, Kattach H, Ruggiero D, De Robertis
+F, Amrani M, et al . Smoking cessation before coronary artery
+bypass grafting improves operative outcomes. Journal of Tho-
+racic and Cardiovascular Surgery. 2014; 148: 468–474.
+[67] Zhu W, Y uan P , Shen Y , Wan R, Hong K. Association of smoking
+with the risk of incident atrial fibrillation: A meta-analysis of
+prospective studies. International Journal of Cardiology. 2016;
+218: 259–266.
+[68] Zhu W, Guo L, Hong K. Relationship between smoking and
+adverse outcomes in patients with atrial fibrillation: A meta-
+analysis and systematic review. International Journal of Cardi-
+ology. 2016; 222: 289–294.
+[69] Wan Q, Li S, Hu J. Association of smoking with postoperative
+atrial fibrillation in patients with cardiac surgery: A PRISMA-
+compliant article. Medicine. 2021; 100: e26179.
+[70] Chebbout R, Heywood EG, Drake TM, Wild JRL, Lee J, Wil-
+son M, Lee MJ. A systematic review of the incidence of and
+risk factors for postoperative atrial fibrillation following general
+surgery. Anaesthesia 2018; 73: 490–498.
+[71] Rho RW. The management of atrial fibrillation after cardiac
+surgery. Heart. 2009; 95: 422–429.
+[72] Angelini GD, Taylor FC, Reeves BC, Ascione R. Early and
+midterm outcome after off-pump and on-pump surgery in Beat-
+ing Heart Against Cardioplegic Arrest Studies (BHACAS 1 and
+2): a pooled analysis of two randomised controlled trials. The
+Lancet. 2002; 359: 1194–1199.23.
+[73] Wijeysundera DN, Beattie WS, Djaiani G, Rao V , Borger MA,
+Karkouti K, et al. Off-pump coronary artery surgery for reduc-
+ing mortality and morbidity: meta-analysis of randomized and
+observational studies. Journal of the American College of Car-
+diology. 2005; 46: 872–882.
+[74] Akintoye E, Sellke F, Marchioli R, Tavazzi L, Mozaffarian D.
+Factors associated with postoperative atrial fibrillation and other
+adverse events after cardiac surgery. Journal of Thoracic and
+Cardiovascular Surgery. 2018; 155: 242–251.
+[75] Villareal RP , Hariharan R, Liu BC, Kar B, Lee W, Elyada M, et
+al. Postoperative atrial fibrillation and mortality after coronary
+artery bypass surgery. Journal of the American College of Car-
+diology. 2004; 43: 742–748.
+[76] Mitchell LB. Canadian Cardiovascular Society atrial fibrillation
+guidelines 2010: Prevention and treatment of atrial fibrillation
+after cardiac surgery. Canadian Journal of Cardiology. 2011; 27:
+91–97.
+[77] Helgadottir S, Sigurdsson MI, Ingvarsdottir IL, Arnar DO,
+Gudbjartsson T. Atrial fibrillation following cardiac surgery:
+risk analysis and long-term survival. Journal of Cardiothoracic
+Surgery. 2012; 19: 87.
+[78] Dave S, Nirgude A, Gujjar P , Sharma R. Incidence and risk fac-
+12
+
+tors for development of atrial fibrillation after cardiac surgery
+under cardiopulmonary bypass. Indian Journal of Anaesthesia.
+2018; 62: 887–891.
+[79] Lotfi A, Wartak S, Sethi P , Garb J, Guigliano GR. Postoperative
+atrial fibrillation is not associated with an increase risk of stroke
+or the type and number of grafts: a single‐center retrospective
+analysis. Clinical Cardiology. 2011; 34: 787–790.
+[80] Zakkar M, Ascione R, James AF, Angelini GD, Suleiman MS.
+Inflammation, oxidative stress, and postoperative atrial fibrilla-
+tion in cardiac surgery. Pharmacology and Therapeutics. 2015;
+154: 13–20.
+[81] Y adava M, Hughey A V , Crawford TC. Postoperative atrial fib-
+rillation: incidence, mechanisms, and clinical correlates. Heart
+Failure Clinics. 2016; 12: 299–308.
+[82] Attaran S, Shaw M, Bond L, Pullman MD, Fadri BM. Atrial fib-
+rillation postcardiac surgery: a common but morbid complica-
+tion. Interactive Cardiovascular and Thoracic Surgery. 2011; 12:
+772–777.
+[83] Thorén E, Wernroth M-L, Christersson C, Ginnemo K-H, Jidéus
+L, Stähle E. Compared with match-controls, patients with post-
+operative atrial fibrillation (POAF) have increased long-term AF
+after CABG, and POAF is further associated with increased is-
+chaemic stroke, heart failure, and mortality even after adjust-
+ment for AF. Clinical Research in Cardiology. 2020; 109: 1232–
+1242.
+[84] Hsu JC, Huang CY , Chuang SL, Y u HY , Chen YS, Wang CH,
+Lin L Y . Long Term Outcome of Postoperative Atrial Fibrilla-
+tion After Cardiac Surgery-A Propensity Score-Matched Co-
+hort Analysis. Frontiers in Cardiovascular Medicine. 2021; 8:
+650147.
+[85] Brookes JDL, Williams M, Matthew M, Y an T, Bannon P .
+Pleural effusion post coronary artery bypass surgery: associa-
+tions and complications. Journal of Thoracic Disease. 2021; 13:
+1083–1089.
+[86] Anderson ND. Active clearance chest tube: Awaiting random-
+ized data. Journal of Thoracic and Cardiovascular Surgery.
+2017; 154: 509–510.
+[87] Gozdek M, Pawliszak W, Hagner W, Zalewski P , Kowalewski J,
+Paparella D, et al. Systematic review and meta-analysis of ran-
+domized controlled trials assessing safety and efficacy of poste-
+rior pericardial drainage in patients undergoing heart surgery.
+Journal of Thoracic and Cardiovascular Surgery. 2017; 153:
+865–875.e12.
+[88] Chua SK, Shyu KG, Lu MJ, Hung HF, Cheng JJ, Chiu CZ, et al.
+Renal dysfunction and the risk of postoperative atrial fibrillation
+after cardiac surgery: Role beyond the CHA2DS2–V ASc score.
+Europace. 2015; 17: 1363–1370.
+[89] Soliman EZ, Prineas RJ, Go AS, Xie D, Lash JP , Rahman M, et
+al. Chronic kidney disease and prevalent atrial fibrillation: The
+Chronic Renal Insufficiency Cohort (CRIC). American Heart
+Journal. 2010; 159: 1102–1107.
+[90] Kosuma P , Wachirasrisirkui S, Jedsadayanmata A. Attributable
+costs of postoperative atrial fibrillation among patients under-
+going cardiac surgery. Cardiology Research and Practice. 2018;
+2018: 3759238.
+[91] Matthew JP , Parks R, Savino JS, Friedman AS, Koch C,
+Mangano DT, et al. Atrial fibrillation following coronary artery
+bypass graft surgery: Predictors, outcomes, and resource uti-
+lization. Multicenter Study of Perioperative Ischemia Research
+Group. Journal of the American Medical Association. 1996;
+276: 300–306.
+[92] Melby SJ, George JF, Picone DJ, Davies JE, George D, et al .
+A time-related parametric risk factor analysis for postoperative
+atrial fibrillation after heart surgery. Journal of Thoracic and
+Cardiovascular Surgery. 2015; 149: 886–892.
+[93] Echaidi N, Pibarot P , O’Hara G, Mathieu P . Mechanisms, pre-
+vention, and treatment of atrial fibrillation after cardiac surgery.
+Journal of the American College of Cardiology. 2008; 51: 793–
+801.
+[94] Greenberg JW, Lancaster TS, Schuessler SB, Melby SJ. Post-
+operative atrial fibrillation following cardiac surgery: A persis-
+tent complication. European Journal of Cardio-thoracic Surgery.
+2017; 52: 665–672.
+[95] Hernández-Leiva E, Alvarado P , Dennis RJ. Postoperative atrial
+fibrillation: Evaluation of its economic impact on the cost of car-
+diac surgery. Brazilian Journal of Cardiovascular Surgery. 2019;
+34: 179–186.
+[96] Almassi GH, Wagner TH, Carr B, Hattler B, Collins JF, Quin
+JA, et al . Postoperative atrial fibrillation impacts on costs and
+one-year clinical outcomes: the V eterans Affairs Randomized
+On/Off Bypass Trial. Annals of Thoracic Surgery. 2015; 99:
+109–114.
+[97] Steinberg BA, Zhao Y , He X, Hernandez AF, Fullerton DA,
+Thomas KL, et al. Management of postoperative atrial fibrilla-
+tion and subsequent outcomes in contemporary patients under-
+going cardiac surgery: Insights from Society of Thoracic Sur-
+geons CAPS-Care Atrial Fibrillation Registry. Clinical Cardiol-
+ogy. 2014; 37: 7–13.
+[98] Ishii Y , Schuessler RB, Gaynor SL, Y amada K, Fu AS, Boineau
+JP ,et al. Inflammation of atrium after cardiac surgery is associ-
+ated with inhomogeneity of atrial conduction and atrial fibrilla-
+tion. Circulation. 2005; 111: 2881–2888.
+[99] Kramer PA, Chacko BK, Ravi S, Johnson MS, Mitchell T,
+Barnes S, et al. Haemoglobin-associated oxidative stress in the
+pericardial compartment of postoperative cardiac surgery pa-
+tients. Laboratory Investigation. 2015; 95: 132–141.
+[100] Kramer PA, Chacko BK, George DJ, Zhi D, Wei CC, Dell’Italia
+LJ, et al. Decreased bioenergetic health index in monocytes iso-
+lated from the pericardial fluid and blood of postoperative car-
+diac surgery patients. Bioscience Reports. 2015; 35: e00237.
+[101] LaPar DJ, Speir AM, Crosby IK, Fonner E Jr, Brown M, Rich
+JB, Quader M, Kern JA, Kron IL, Ailawadi G; Investigators for
+the Virginia Cardiac Surgery Quality Initiative. Postoperative
+atrial fibrillation significantly increases mortality, hospital read-
+mission, and hospital costs. Annals of Thoracic Surgery. 2014;
+98: 527–533.
+[102] Kim MH, Johnston SS, Chu BC, Dalal MR, Schulman KL. Es-
+timation of total health care costs in patients with atrial fibril-
+lation in the United States. Circulation. Cardiovascular quality
+and outcomes.2011; 4: 313–320.
+[103] Wolowacs SE, Samuel M, Brennan VK, Jasso-Mosqueda JG,
+V an Gelder IC. The cost of illness of atrial fibrillation: a system-
+atic review of the recent literature. Europace. 2011; 13: 1375–
+1385.
+[104] Burrage PS, Low YH, Campbell NG, O’Brien B. New-onset
+atrial fibrillation in adult patients after cardiac surgery. Current
+Anesthesiology Reports. 2019; 9: 174–193.
+[105] Gorenek B, Pellicia A, Benjamin EJ, Boriani G, Crijns HJ, Fo-
+gel RI, V an-Gelder IC, et al. European Heart Rhythm Associa-
+tion (EHRA)/European Association of Cardiovascular Preven-
+tion and Rehabilitation (EACPR) position paper on how to pre-
+vent atrial fibrillation endorsed by the Heart Rhythm Society
+(HRS) and the Asia Pacific Heart Rhythm Society (APHRS).
+European Journal of Preventive Cardiology. 2017; 24: 4–40.
+[106] Rubanenko O, Rubanenko A. The effect of Omega-3 polyun-
+saturated fatty acids in prevention of postoperative atrial fibrilla-
+tion development in patients undergoing coronary artery bypass
+graft surgery. European Journal of Preventive Cardiology. 2021;
+28: zwab061-005.
+[107] Langlois PL, Hardy G, Manzanares W. Omega-3 polyunsatu-
+rated fatty acids in cardiac surgery patients: An updated sys-
+tematic review and meta-analysis. Clinical Nutrition. 2017; 36:
+13
+737–746.
+[108] Wang H, Chen J, Zhao L. N-3 polyunsaturated fatty acids for
+prevention of postoperative atrial fibrillation: updated meta-
+analysis and systematic review. Journal of Interventional Car-
+diac Electrophysiology. 2018; 51: 105–115.
+[109] Ali-Hassan Al-Saegh S, Mirhosseini SJ, Tabernejad M, Mah-
+davi P , Shahidzadeh A, Karim-Bondarabadi AA, et al . Impact
+of antioxidant supplementation on cardi-renal protection in car-
+diac surgery: an updated and comprehensive meta-analysis and
+systematic review. Cardiovascular Therapeutics. 2016; 34: 360–
+370.
+[110] Mirmohammadsadeghi M, Mirmohammmadsadeghi A, Mah-
+moudian M. Preventive use of ascorbic acid for atrial fibrillation
+after coronary artery bypass graft surgery. Heart Surgery Forum.
+2018; 21: E415–E417.
+[111] Rodrigo R, Korantzopoulos P , Cereceda M, Asenio R, Zama-
+rano J, Vilalabeitia E, et al. A randomized controlled trial in pre-
+vent post-operative atrial fibrillation by antioxidant reinforce-
+ment. Journal of the American College of Cardiology. 2013; 62:
+1457–1465.
+14

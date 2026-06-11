@@ -1,0 +1,512 @@
+Treatment,YP_family_planning_uptake,YS_sought_treatment_postpartum,YS_chose_longacting_fp,X_education,X_marital_status,X_number_pregnancies,X_ever_used_fp,X_hospital
+PP Checklist Only,0.0,1.0,0.0,Primary grade 8,Married,1,yes,1
+PP Checklist & PNC General,0.0,1.0,0.0,Form 4,Single,1,yes,1
+Control- no SMS,0.0,0.0,0.0,Primary grade 8,Married,1,no,1
+PP Checklist Only,1.0,1.0,0.0,Form 1,Married,1,yes,1
+PP Checklist & FP SMS,0.0,1.0,0.0,Form 4,Married,1,yes,1
+Control- no SMS,0.0,,0.0,Form 4,Married,3,yes,1
+PP Checklist & FP SMS,1.0,1.0,0.0,Primary grade 8,Married,2,yes,1
+PP Checklist & FP SMS,0.0,0.0,0.0,College (non-university),Married,2,yes,1
+PP Checklist & FP SMS,1.0,0.0,0.0,Form 1,Married,3,yes,1
+Control- no SMS,0.0,0.0,0.0,Form 4,Single,1,yes,1
+PP Checklist & FP SMS,1.0,,0.0,Form 2,Married,2,yes,1
+PP Checklist & FP SMS,1.0,1.0,0.0,Form 4,Married,4,yes,1
+PP Checklist & FP SMS,0.0,1.0,0.0,Polytechnic,Married,2,yes,1
+Control- no SMS,1.0,,0.0,Form 4,Married,2,yes,1
+PP Checklist & PNC General,1.0,,0.0,Form 4,Married,2,yes,1
+Control- no SMS,1.0,,0.0,Form 4,Married,2,yes,1
+PP Checklist & PNC General,0.0,1.0,0.0,University,Married,3,yes,1
+PP Checklist & PNC General,1.0,1.0,0.0,Form 4,Married,2,,1
+PP Checklist Only,0.0,1.0,0.0,Form 4,Married,1,yes,1
+PP Checklist & PNC General,1.0,0.0,0.0,College (non-university),Married,4,yes,1
+Control- no SMS,1.0,,0.0,Primary grade 8,Married,2,yes,1
+PP Checklist & PNC General,0.0,,0.0,College (non-university),Married,2,yes,1
+PP Checklist & PNC General,0.0,,0.0,Primary grade 4,Married,4,yes,1
+PP Checklist & PNC General,1.0,,0.0,College (non-university),Married,1,yes,1
+Control- no SMS,0.0,,0.0,College (non-university),Married,2,yes,1
+PP Checklist & PNC General,0.0,,0.0,Form 4,Married,2,yes,1
+PP Checklist Only,1.0,,0.0,Form 4,Married,1,yes,1
+PP Checklist & FP SMS,1.0,,1.0,College (non-university),Married,3,yes,1
+PP Checklist & PNC General,0.0,1.0,0.0,College (non-university),Married,2,yes,1
+Control- no SMS,1.0,,0.0,Primary grade 8,Married,3,yes,1
+Control- no SMS,1.0,,0.0,Form 4,Married,2,yes,1
+PP Checklist Only,0.0,1.0,0.0,Primary grade 8,Married,8,yes,1
+Control- no SMS,0.0,,0.0,Form 4,Married,1,yes,1
+PP Checklist Only,0.0,,0.0,Primary grade 8,Single,2,yes,1
+PP Checklist & FP SMS,0.0,,0.0,Primary grade 8,Married,2,yes,1
+PP Checklist & PNC General,0.0,1.0,0.0,University,Married,2,yes,1
+Control- no SMS,1.0,,0.0,Form 4,Married,1,yes,1
+PP Checklist & PNC General,1.0,,0.0,College (non-university),Married,1,yes,1
+PP Checklist & FP SMS,0.0,1.0,0.0,Primary grade 8,Married,1,no,1
+PP Checklist & PNC General,1.0,,0.0,Form 4,Married,2,yes,1
+PP Checklist & FP SMS,0.0,,0.0,Form 4,Married,1,no,1
+PP Checklist Only,1.0,,0.0,Primary grade 8,Married,3,yes,1
+PP Checklist & PNC General,0.0,,0.0,College (non-university),Single,1,yes,1
+PP Checklist Only,1.0,,1.0,Primary grade 8,Married,2,yes,1
+Control- no SMS,0.0,,0.0,Form 4,Single,2,yes,1
+PP Checklist & FP SMS,0.0,,0.0,Form 4,Single,1,yes,1
+PP Checklist Only,0.0,,0.0,Form 4,Married,1,yes,1
+PP Checklist & FP SMS,1.0,,1.0,College (non-university),Married,2,no,1
+PP Checklist & PNC General,1.0,,0.0,Form 4,Married,1,no,1
+PP Checklist & PNC General,1.0,,0.0,Form 4,Married,1,no,1
+PP Checklist & FP SMS,1.0,,0.0,Form 1,Married,2,yes,1
+Control- no SMS,0.0,,0.0,Form 4,Married,1,yes,1
+PP Checklist & FP SMS,0.0,1.0,0.0,College (non-university),Married,2,yes,1
+Control- no SMS,0.0,1.0,0.0,College (non-university),Single,1,yes,1
+PP Checklist Only,0.0,1.0,0.0,Primary grade 4,Single,2,yes,1
+PP Checklist & PNC General,0.0,,0.0,Form 4,Married,3,yes,1
+PP Checklist Only,0.0,,0.0,Primary grade 8,Married,3,yes,1
+PP Checklist Only,0.0,,0.0,Primary grade 8,Married,3,yes,1
+PP Checklist Only,0.0,1.0,0.0,College (non-university),Married,1,yes,1
+PP Checklist Only,0.0,1.0,0.0,College (non-university),Married,2,yes,1
+Control- no SMS,0.0,,0.0,College (non-university),Married,1,yes,1
+PP Checklist & PNC General,0.0,,0.0,Form 4,Married,1,yes,1
+PP Checklist Only,1.0,,0.0,Form 1,Married,3,yes,1
+Control- no SMS,1.0,,0.0,Form 4,Married,1,yes,1
+Control- no SMS,0.0,,0.0,Form 4,Married,1,yes,1
+PP Checklist Only,0.0,1.0,0.0,College (non-university),Married,1,yes,1
+PP Checklist Only,1.0,1.0,0.0,Form 4,Married,1,yes,1
+PP Checklist & FP SMS,0.0,1.0,0.0,College (non-university),Married,1,yes,1
+Control- no SMS,0.0,,0.0,Form 4,Married,3,yes,1
+PP Checklist & PNC General,0.0,0.0,0.0,College (non-university),Married,1,no,1
+PP Checklist & FP SMS,1.0,,0.0,Primary grade 8,Married,2,yes,1
+Control- no SMS,0.0,,0.0,Primary grade 8,Married,6,yes,1
+PP Checklist & PNC General,0.0,,0.0,College (non-university),Married,2,yes,1
+PP Checklist & FP SMS,1.0,,0.0,Form 4,Married,4,yes,1
+PP Checklist Only,0.0,,0.0,Primary grade 2,Separated,4,yes,1
+PP Checklist & FP SMS,1.0,1.0,0.0,College (non-university),Married,2,yes,1
+Control- no SMS,1.0,1.0,0.0,Primary grade 8,Married,5,yes,1
+PP Checklist Only,0.0,1.0,0.0,Form 4,Married,2,yes,1
+Control- no SMS,0.0,1.0,0.0,Primary grade 8,Single,2,yes,1
+PP Checklist & PNC General,0.0,,0.0,Form 4,Single,1,no,1
+PP Checklist & FP SMS,0.0,,0.0,Form 4,Separated,1,yes,1
+PP Checklist & PNC General,0.0,1.0,0.0,Form 4,Single,1,no,1
+PP Checklist & PNC General,1.0,1.0,0.0,Primary grade 8,Married,2,no,1
+PP Checklist & PNC General,0.0,1.0,0.0,Form 4,Single,3,yes,1
+PP Checklist Only,1.0,,1.0,College (non-university),Married,2,yes,1
+PP Checklist & FP SMS,0.0,1.0,0.0,Form 4,Married,1,yes,1
+PP Checklist & PNC General,1.0,,0.0,Primary grade 8,Married,2,yes,1
+Control- no SMS,1.0,,0.0,Primary grade 8,Married,3,yes,1
+PP Checklist Only,0.0,,0.0,Primary grade 8,Married,4,yes,1
+Control- no SMS,0.0,,0.0,College (non-university),Married,2,yes,1
+PP Checklist & PNC General,0.0,,0.0,Primary grade 8,Single,1,no,1
+PP Checklist Only,0.0,,0.0,Primary grade 8,Married,1,yes,1
+PP Checklist & FP SMS,1.0,,0.0,Form 4,Married,2,yes,1
+PP Checklist & PNC General,1.0,,0.0,Primary grade 8,Married,3,yes,1
+PP Checklist & FP SMS,1.0,,0.0,Primary grade 8,Married,2,yes,1
+PP Checklist & PNC General,0.0,1.0,0.0,Primary grade 8,Married,1,yes,1
+PP Checklist & FP SMS,1.0,1.0,0.0,Form 2,Married,3,yes,1
+PP Checklist & FP SMS,0.0,,0.0,Form 4,Single,1,no,1
+PP Checklist & FP SMS,0.0,,0.0,Form 2,Married,2,yes,1
+PP Checklist Only,0.0,,0.0,Primary grade 8,Married,2,yes,1
+Control- no SMS,1.0,,0.0,Form 1,Married,2,yes,1
+PP Checklist Only,1.0,1.0,0.0,Form 4,Married,1,yes,1
+PP Checklist & FP SMS,1.0,,1.0,College (non-university),Married,1,no,1
+PP Checklist & FP SMS,1.0,0.0,0.0,Form 4,Married,1,no,1
+Control- no SMS,0.0,,0.0,Primary grade 8,Married,2,yes,1
+PP Checklist Only,0.0,,0.0,Form 1,Married,2,yes,1
+PP Checklist & FP SMS,0.0,,0.0,Form 2,Single,1,yes,1
+PP Checklist Only,0.0,,0.0,Primary grade 8,Married,6,yes,1
+PP Checklist & FP SMS,1.0,1.0,0.0,Primary grade 8,Married,2,yes,1
+Control- no SMS,0.0,0.0,0.0,Form 2,Married,3,yes,1
+PP Checklist & FP SMS,1.0,,0.0,Primary grade 8,Married,4,yes,1
+Control- no SMS,1.0,1.0,0.0,College (non-university),Married,1,yes,1
+PP Checklist Only,1.0,,0.0,Primary grade 8,Married,2,yes,1
+PP Checklist & FP SMS,1.0,1.0,0.0,Form 4,Married,2,yes,1
+Control- no SMS,1.0,,0.0,Form 4,Married,2,yes,1
+PP Checklist & FP SMS,1.0,,0.0,Form 4,Married,1,yes,1
+PP Checklist & PNC General,0.0,,0.0,Form 4,Married,1,yes,1
+PP Checklist & FP SMS,1.0,,1.0,College (non-university),Married,2,yes,1
+PP Checklist Only,1.0,,0.0,Form 4,Married,2,yes,1
+Control- no SMS,1.0,,0.0,Form 4,Married,2,yes,1
+Control- no SMS,0.0,,0.0,Primary grade 8,Married,1,no,1
+PP Checklist Only,1.0,,0.0,Primary grade 8,Married,2,yes,1
+PP Checklist & FP SMS,1.0,,0.0,College (non-university),Married,3,yes,1
+PP Checklist & FP SMS,0.0,,0.0,Primary grade 6,Single,2,yes,1
+PP Checklist & FP SMS,1.0,,0.0,Primary grade 5,Married,3,yes,1
+PP Checklist & PNC General,0.0,,0.0,Form 4,Married,4,yes,1
+PP Checklist & FP SMS,0.0,,0.0,Form 4,Single,1,yes,1
+PP Checklist & FP SMS,0.0,1.0,0.0,Form 4,Married,3,yes,1
+PP Checklist & FP SMS,0.0,,0.0,Form 1,Married,3,yes,1
+PP Checklist & FP SMS,1.0,1.0,0.0,Form 2,Married,4,yes,1
+PP Checklist & PNC General,0.0,,0.0,Primary grade 8,Single,1,yes,1
+PP Checklist Only,1.0,1.0,0.0,Primary grade 8,Married,4,yes,1
+PP Checklist & FP SMS,0.0,,0.0,Primary grade 8,Separated,4,yes,1
+Control- no SMS,1.0,,1.0,Primary grade 8,Married,7,yes,1
+PP Checklist & FP SMS,1.0,,0.0,Form 2,Married,1,yes,1
+PP Checklist Only,1.0,0.0,1.0,Primary grade 8,Married,2,yes,1
+PP Checklist & PNC General,0.0,1.0,0.0,Form 1,Married,2,yes,1
+PP Checklist & FP SMS,0.0,1.0,0.0,College (non-university),Married,1,yes,1
+PP Checklist & PNC General,1.0,,0.0,Form 2,Married,1,yes,1
+Control- no SMS,0.0,1.0,0.0,Form 4,Married,2,yes,1
+PP Checklist & PNC General,0.0,,0.0,Primary grade 8,Married,2,yes,1
+PP Checklist Only,0.0,,0.0,Form 2,Married,1,no,1
+PP Checklist & PNC General,0.0,,0.0,Primary grade 8,Married,1,yes,1
+Control- no SMS,1.0,,0.0,Form 4,Married,1,yes,1
+Control- no SMS,0.0,,0.0,Primary grade 8,Married,2,yes,1
+PP Checklist & FP SMS,0.0,1.0,0.0,Form 4,Married,1,yes,1
+Control- no SMS,1.0,,1.0,Form 4,Married,3,yes,1
+PP Checklist Only,0.0,0.0,0.0,Form 4,Married,2,yes,1
+Control- no SMS,0.0,1.0,0.0,Form 4,Married,1,no,1
+PP Checklist Only,0.0,,0.0,Primary grade 8,Married,3,yes,1
+PP Checklist Only,1.0,1.0,0.0,Form 4,Married,2,yes,1
+Control- no SMS,0.0,,0.0,College (non-university),Married,1,yes,1
+PP Checklist & FP SMS,1.0,1.0,0.0,College (non-university),Married,4,yes,1
+Control- no SMS,1.0,,0.0,Form 4,Married,2,yes,1
+Control- no SMS,1.0,,0.0,Primary grade 4,Married,3,yes,1
+PP Checklist & PNC General,1.0,1.0,1.0,Form 1,Married,1,yes,1
+PP Checklist & FP SMS,1.0,,1.0,Form 4,Married,1,no,1
+PP Checklist Only,0.0,1.0,0.0,Primary grade 8,Single,2,yes,1
+Control- no SMS,1.0,1.0,0.0,College (non-university),Married,2,yes,1
+PP Checklist & FP SMS,1.0,,1.0,Form 4,Married,2,yes,1
+Control- no SMS,0.0,1.0,0.0,Primary grade 8,Married,4,yes,1
+Control- no SMS,0.0,1.0,0.0,Form 4,Married,1,yes,1
+PP Checklist & FP SMS,0.0,,0.0,Primary grade 6,Married,2,yes,1
+PP Checklist & FP SMS,0.0,,0.0,University,Married,2,yes,1
+PP Checklist & FP SMS,0.0,,0.0,Primary grade 8,Single,2,yes,1
+PP Checklist Only,1.0,1.0,0.0,College (non-university),Married,2,yes,1
+Control- no SMS,0.0,,0.0,College (non-university),Married,2,yes,1
+PP Checklist Only,0.0,1.0,0.0,Form 4,Married,1,no,1
+PP Checklist & FP SMS,0.0,,0.0,College (non-university),Married,2,yes,1
+PP Checklist & FP SMS,0.0,1.0,0.0,Form 4,Single,1,yes,1
+PP Checklist & FP SMS,1.0,,1.0,Form 1,Married,3,no,1
+PP Checklist & PNC General,1.0,,0.0,Primary grade 8,Married,1,yes,1
+PP Checklist & FP SMS,1.0,,0.0,Primary grade 8,Married,3,yes,1
+PP Checklist & PNC General,1.0,,1.0,Form 4,Married,3,yes,1
+PP Checklist Only,0.0,,0.0,Form 4,Married,2,yes,1
+PP Checklist Only,1.0,1.0,1.0,Primary grade 8,Single,2,yes,1
+PP Checklist & PNC General,1.0,1.0,0.0,Form 4,Married,1,no,1
+PP Checklist & PNC General,1.0,1.0,1.0,University,Married,2,yes,1
+PP Checklist Only,0.0,,0.0,Primary grade 8,Married,1,no,1
+PP Checklist & FP SMS,0.0,,0.0,Form 2,Married,2,yes,1
+PP Checklist & PNC General,0.0,,0.0,Form 4,Married,2,yes,1
+PP Checklist Only,0.0,1.0,0.0,Primary grade 7,Married,2,yes,1
+Control- no SMS,0.0,,0.0,Form 4,Married,1,yes,1
+PP Checklist & PNC General,1.0,,0.0,University,Married,3,yes,1
+Control- no SMS,0.0,1.0,0.0,Form 4,Single,1,no,1
+PP Checklist & PNC General,0.0,,0.0,Form 2,Married,2,yes,1
+PP Checklist & FP SMS,0.0,,0.0,Form 2,Single,1,no,1
+PP Checklist & FP SMS,1.0,1.0,0.0,Form 4,Married,1,yes,1
+PP Checklist Only,1.0,,0.0,Primary grade 8,Married,3,yes,2
+PP Checklist Only,1.0,1.0,0.0,Primary grade 8,Married,3,yes,2
+PP Checklist & PNC General,0.0,0.0,0.0,College (non-university),Married,1,yes,2
+PP Checklist Only,0.0,0.0,0.0,Form 4,Married,1,yes,2
+Control- no SMS,1.0,0.0,0.0,College (non-university),Married,5,yes,2
+PP Checklist & FP SMS,1.0,1.0,0.0,Form 4,Married,2,yes,2
+PP Checklist & FP SMS,1.0,,0.0,Form 4,Married,1,no,Ruiu
+PP Checklist & PNC General,1.0,1.0,0.0,Form 4,Married,2,yes,2
+PP Checklist & PNC General,0.0,1.0,0.0,Form 4,Single,1,yes,2
+Control- no SMS,1.0,,0.0,Primary grade 8,Separated,5,yes,2
+Control- no SMS,0.0,0.0,0.0,Form 4,Married,4,yes,2
+PP Checklist & FP SMS,1.0,1.0,0.0,College (non-university),Married,1,yes,2
+Control- no SMS,0.0,1.0,0.0,Form 4,Single,1,yes,2
+Control- no SMS,1.0,,0.0,Form 4,Married,2,yes,2
+PP Checklist & FP SMS,1.0,,0.0,College (non-university),Married,2,yes,2
+Control- no SMS,1.0,,0.0,Primary grade 8,Married,3,yes,2
+Control- no SMS,0.0,,0.0,Form 4,Single,1,yes,2
+Control- no SMS,1.0,,0.0,Form 4,Married,2,yes,2
+PP Checklist & PNC General,1.0,,0.0,Primary grade 8,Married,2,yes,2
+PP Checklist & FP SMS,1.0,1.0,0.0,College (non-university),Single,3,yes,2
+Control- no SMS,0.0,1.0,0.0,Primary grade 8,Married,2,yes,2
+PP Checklist & FP SMS,1.0,0.0,0.0,Form 4,Married,3,yes,2
+Control- no SMS,0.0,1.0,0.0,Form 3,Single,1,yes,2
+PP Checklist & FP SMS,1.0,0.0,0.0,College (non-university),Married,2,yes,2
+PP Checklist Only,0.0,,0.0,Form 4,Married,3,yes,2
+Control- no SMS,0.0,,0.0,Form 2,Married,3,yes,2
+PP Checklist & PNC General,1.0,,0.0,Primary grade 8,Married,2,yes,2
+Control- no SMS,1.0,,0.0,Form 4,Single,1,yes,2
+PP Checklist & FP SMS,1.0,1.0,0.0,Primary grade 8,Married,2,yes,2
+PP Checklist & PNC General,0.0,,0.0,Form 4,Married,1,yes,2
+PP Checklist Only,1.0,0.0,0.0,College (non-university),Married,1,yes,2
+PP Checklist & FP SMS,1.0,1.0,0.0,Form 4,Married,2,yes,2
+PP Checklist & FP SMS,1.0,0.0,0.0,Form 2,Married,1,yes,2
+Control- no SMS,1.0,0.0,0.0,Form 4,Married,3,yes,2
+PP Checklist Only,1.0,,0.0,Form 4,Married,2,yes,2
+PP Checklist & FP SMS,1.0,,0.0,Form 4,Married,2,yes,2
+PP Checklist & PNC General,1.0,1.0,0.0,Form 4,Married,3,yes,2
+PP Checklist Only,1.0,,0.0,Primary grade 6,Married,2,yes,2
+PP Checklist Only,0.0,,0.0,Form 4,Single,1,yes,2
+PP Checklist & PNC General,1.0,,0.0,College (non-university),Married,3,yes,2
+PP Checklist Only,0.0,,0.0,College (non-university),Married,2,yes,2
+Control- no SMS,0.0,0.0,0.0,Form 4,Married,2,yes,2
+PP Checklist Only,0.0,,0.0,College (non-university),Separated,2,yes,2
+PP Checklist Only,1.0,1.0,0.0,Primary grade 8,Married,2,no,2
+PP Checklist Only,0.0,,0.0,Form 4,Married,2,yes,2
+PP Checklist Only,1.0,,0.0,Form 1,Married,1,yes,2
+Control- no SMS,1.0,1.0,0.0,Form 4,Married,1,yes,2
+PP Checklist Only,1.0,,0.0,Form 4,Married,1,yes,2
+PP Checklist & FP SMS,1.0,,0.0,College (non-university),Married,2,yes,2
+PP Checklist Only,1.0,1.0,0.0,College (non-university),Married,2,yes,2
+Control- no SMS,1.0,,0.0,Form 4,Married,1,yes,2
+PP Checklist & FP SMS,1.0,1.0,0.0,Form 4,Married,2,yes,2
+PP Checklist & PNC General,1.0,,0.0,Primary grade 8,Married,3,yes,2
+Control- no SMS,1.0,0.0,1.0,Form 4,Single,2,yes,2
+PP Checklist & PNC General,0.0,,0.0,Primary grade 8,Married,3,yes,2
+PP Checklist & PNC General,0.0,1.0,0.0,Form 2,Married,1,yes,2
+PP Checklist Only,1.0,0.0,0.0,Form 4,Married,1,no,2
+PP Checklist & FP SMS,0.0,,0.0,Form 4,Married,1,yes,2
+PP Checklist & PNC General,1.0,,0.0,Form 3,Married,1,no,2
+PP Checklist & PNC General,0.0,,0.0,Primary grade 8,Married,1,no,2
+Control- no SMS,1.0,1.0,0.0,Form 4,Married,3,yes,2
+PP Checklist & PNC General,0.0,,0.0,College (non-university),Married,1,yes,2
+PP Checklist & FP SMS,0.0,1.0,0.0,College (non-university),Married,1,yes,2
+PP Checklist Only,0.0,1.0,0.0,Form 4,Married,1,no,2
+Control- no SMS,0.0,1.0,0.0,Primary grade 8,Married,2,yes,2
+PP Checklist Only,0.0,1.0,0.0,Form 4,Married,2,no,2
+PP Checklist Only,0.0,,0.0,College (non-university),Married,3,yes,2
+PP Checklist & FP SMS,0.0,1.0,0.0,College (non-university),Single,2,no,2
+PP Checklist Only,0.0,1.0,0.0,Form 2,Single,2,yes,2
+PP Checklist Only,0.0,1.0,0.0,College (non-university),Married,2,no,2
+PP Checklist Only,1.0,1.0,0.0,College (non-university),Married,3,yes,2
+PP Checklist & PNC General,0.0,,0.0,Form 4,Married,1,no,2
+PP Checklist Only,1.0,,0.0,Form 4,Married,3,no,2
+Control- no SMS,1.0,,0.0,Form 4,Married,1,yes,2
+Control- no SMS,0.0,,0.0,Form 4,Married,2,yes,2
+PP Checklist Only,0.0,1.0,0.0,Primary grade 8,Married,7,yes,2
+PP Checklist Only,1.0,0.0,1.0,Form 4,Married,1,no,2
+PP Checklist & PNC General,1.0,0.0,0.0,Form 4,Married,1,yes,2
+PP Checklist Only,1.0,,0.0,Primary grade 8,Married,2,refused,2
+PP Checklist Only,0.0,1.0,0.0,Form 4,Married,2,yes,2
+PP Checklist & PNC General,1.0,,0.0,Form 3,Married,2,yes,2
+PP Checklist Only,0.0,1.0,0.0,Form 4,Single,2,yes,2
+PP Checklist & FP SMS,0.0,,0.0,Form 4,Married,1,yes,2
+PP Checklist & FP SMS,0.0,,0.0,University,Married,2,no,2
+Control- no SMS,1.0,1.0,0.0,Form 4,Married,3,no,2
+PP Checklist & FP SMS,1.0,,0.0,Primary grade 8,Married,3,yes,2
+PP Checklist & PNC General,0.0,1.0,0.0,Form 4,Married,1,yes,2
+PP Checklist Only,1.0,,0.0,Form 4,Married,1,yes,2
+PP Checklist & FP SMS,0.0,,0.0,Form 4,Married,3,yes,2
+PP Checklist Only,1.0,,0.0,Form 4,Married,2,yes,2
+PP Checklist & FP SMS,0.0,,0.0,Form 4,Single,1,yes,2
+PP Checklist & FP SMS,0.0,,0.0,Form 4,Married,1,yes,2
+PP Checklist Only,0.0,,0.0,University,Married,3,yes,2
+Control- no SMS,1.0,,0.0,Form 4,Married,2,yes,2
+PP Checklist Only,0.0,,0.0,Form 4,Married,4,yes,2
+Control- no SMS,0.0,1.0,0.0,Primary grade 8,Married,3,yes,2
+PP Checklist & PNC General,0.0,,0.0,Form 4,Married,1,yes,2
+Control- no SMS,1.0,,0.0,Form 4,Married,3,yes,2
+PP Checklist & FP SMS,1.0,,0.0,College (non-university),Married,1,yes,2
+PP Checklist & PNC General,0.0,1.0,0.0,Form 4,Married,1,yes,2
+PP Checklist & FP SMS,0.0,,0.0,College (non-university),Married,5,yes,2
+PP Checklist Only,1.0,1.0,0.0,Form 4,Married,2,yes,2
+PP Checklist Only,1.0,,0.0,Primary grade 8,Married,2,no,2
+Control- no SMS,0.0,1.0,0.0,Form 4,Married,2,yes,2
+PP Checklist & PNC General,0.0,,0.0,Form 4,Married,2,yes,2
+Control- no SMS,0.0,,0.0,Primary grade 8,Married,2,yes,2
+Control- no SMS,0.0,1.0,0.0,College (non-university),Married,1,yes,2
+PP Checklist & FP SMS,1.0,1.0,0.0,Primary grade 8,Married,3,yes,2
+Control- no SMS,1.0,,1.0,Form 4,Married,3,yes,2
+PP Checklist & FP SMS,1.0,1.0,0.0,Form 4,Married,1,yes,2
+PP Checklist Only,0.0,,0.0,College (non-university),Married,1,yes,2
+PP Checklist & FP SMS,0.0,,0.0,Form 4,Married,3,yes,2
+PP Checklist & PNC General,0.0,,0.0,Form 4,Married,3,yes,2
+PP Checklist & PNC General,1.0,1.0,0.0,Primary grade 8,Married,4,yes,2
+PP Checklist Only,1.0,,0.0,Form 4,Married,2,yes,2
+PP Checklist & FP SMS,0.0,1.0,0.0,Form 4,Married,1,yes,2
+Control- no SMS,1.0,1.0,0.0,College (non-university),Married,2,yes,2
+PP Checklist & FP SMS,1.0,,0.0,Form 4,Married,3,yes,2
+PP Checklist & FP SMS,1.0,,0.0,Form 4,Married,1,no,2
+PP Checklist & FP SMS,1.0,1.0,1.0,Form 2,Married,3,yes,2
+PP Checklist Only,1.0,,0.0,Form 4,Married,2,yes,2
+Control- no SMS,1.0,1.0,0.0,Form 4,Married,1,yes,2
+Control- no SMS,1.0,1.0,0.0,Form 4,Married,2,yes,2
+PP Checklist & FP SMS,0.0,,0.0,University,Married,2,yes,2
+PP Checklist Only,0.0,,0.0,College (non-university),Married,1,no,2
+PP Checklist & PNC General,0.0,,0.0,Form 4,Married,2,yes,2
+PP Checklist & PNC General,1.0,,0.0,Primary grade 8,Married,1,yes,2
+Control- no SMS,0.0,,0.0,University,Single,1,no,2
+Control- no SMS,0.0,1.0,0.0,Form 4,Married,1,yes,2
+Control- no SMS,1.0,1.0,0.0,Form 4,Married,2,yes,2
+PP Checklist & PNC General,1.0,,0.0,Primary grade 8,Married,2,yes,2
+PP Checklist & FP SMS,0.0,,0.0,Form 4,Married,3,no,2
+PP Checklist & PNC General,0.0,1.0,0.0,Form 4,Married,1,no,2
+PP Checklist & PNC General,0.0,,0.0,Form 4,Married,1,yes,2
+PP Checklist & PNC General,0.0,,0.0,Form 2,Married,3,yes,2
+PP Checklist & PNC General,0.0,,0.0,Primary grade 8,Married,2,yes,2
+PP Checklist & PNC General,0.0,,0.0,College (non-university),Married,2,yes,2
+PP Checklist & FP SMS,1.0,,1.0,Form 3,Married,2,yes,3
+PP Checklist Only,1.0,0.0,0.0,Primary grade 8,Married,3,yes,3
+PP Checklist & FP SMS,1.0,0.0,0.0,College (non-university),Married,2,yes,3
+Control- no SMS,0.0,,0.0,Form 4,Married,8,no,3
+Control- no SMS,0.0,1.0,0.0,College (non-university),Married,1,no,3
+PP Checklist Only,0.0,,0.0,College (non-university),Married,1,yes,3
+Control- no SMS,1.0,1.0,0.0,Form 2,Married,1,yes,3
+PP Checklist & FP SMS,0.0,1.0,0.0,College (non-university),Married,3,yes,3
+PP Checklist Only,1.0,,1.0,Form 4,Married,2,yes,3
+Control- no SMS,0.0,,0.0,Form 4,Married,4,yes,3
+PP Checklist Only,0.0,,0.0,Form 3,Married,2,yes,3
+Control- no SMS,1.0,1.0,0.0,College (non-university),Married,1,yes,3
+PP Checklist Only,0.0,,0.0,College (non-university),Married,3,yes,3
+PP Checklist & PNC General,1.0,,1.0,Primary grade 8,Married,2,yes,3
+PP Checklist Only,0.0,1.0,0.0,Form 4,Single,2,yes,3
+PP Checklist & PNC General,0.0,1.0,0.0,Primary grade 8,Married,3,yes,3
+PP Checklist & PNC General,1.0,,1.0,Primary grade 8,Single,2,yes,3
+PP Checklist Only,0.0,,0.0,College (non-university),Married,2,no,3
+PP Checklist & PNC General,1.0,,0.0,College (non-university),Single,4,yes,3
+PP Checklist & PNC General,0.0,0.0,0.0,Primary grade 8,Married,2,yes,3
+PP Checklist & PNC General,0.0,,0.0,Primary grade 8,Married,7,yes,3
+PP Checklist & FP SMS,0.0,,0.0,Form 4,Married,1,no,3
+Control- no SMS,0.0,,0.0,College (non-university),Single,2,yes,3
+PP Checklist & FP SMS,1.0,,0.0,Primary grade 8,Married,2,yes,3
+PP Checklist & PNC General,0.0,,0.0,College (non-university),Single,1,no,3
+Control- no SMS,1.0,,1.0,Form 4,Married,1,no,3
+PP Checklist & PNC General,1.0,,0.0,Informal Training,Married,2,yes,3
+PP Checklist & PNC General,1.0,1.0,1.0,Informal Training,Married,2,yes,3
+Control- no SMS,1.0,,0.0,Primary grade 8,Widowed,4,yes,3
+Control- no SMS,0.0,,0.0,Primary grade 8,Married,4,yes,3
+Control- no SMS,0.0,1.0,0.0,College (non-university),Single,2,yes,3
+PP Checklist Only,1.0,1.0,0.0,Primary grade 8,Married,5,yes,3
+Control- no SMS,1.0,,0.0,Informal Training,Married,3,yes,3
+Control- no SMS,1.0,1.0,0.0,Form 4,Married,4,yes,3
+Control- no SMS,1.0,,1.0,Form 4,Married,1,yes,3
+Control- no SMS,0.0,,0.0,Form 4,Married,1,yes,3
+Control- no SMS,0.0,1.0,0.0,Form 4,Single,1,no,3
+Control- no SMS,0.0,,0.0,Form 4,Single,1,no,3
+PP Checklist Only,1.0,,0.0,Form 4,Single,1,no,3
+PP Checklist & FP SMS,0.0,1.0,0.0,College (non-university),Single,2,yes,3
+PP Checklist & FP SMS,1.0,,1.0,Form 2,Married,2,yes,3
+PP Checklist & FP SMS,1.0,,1.0,Primary grade 8,Married,3,yes,3
+PP Checklist & FP SMS,1.0,1.0,0.0,Form 4,Married,1,yes,3
+Control- no SMS,1.0,,0.0,Form 4,Married,2,yes,3
+Control- no SMS,1.0,,0.0,Form 4,Married,2,yes,3
+PP Checklist & PNC General,1.0,,1.0,Form 4,Married,1,yes,3
+PP Checklist & PNC General,0.0,,0.0,Form 4,Married,2,yes,3
+PP Checklist Only,1.0,,0.0,Form 4,Married,1,yes,3
+Control- no SMS,0.0,,0.0,College (non-university),Single,1,yes,3
+PP Checklist & FP SMS,1.0,,0.0,Form 3,Married,3,yes,3
+PP Checklist & FP SMS,1.0,,1.0,Primary grade 8,Married,2,yes,3
+PP Checklist Only,0.0,,0.0,Primary grade 8,Partnered,2,yes,3
+PP Checklist & FP SMS,0.0,,0.0,Primary grade 8,Married,2,no,3
+PP Checklist & PNC General,0.0,,0.0,Form 4,Single,1,yes,3
+PP Checklist Only,1.0,,0.0,College (non-university),Married,2,yes,3
+Control- no SMS,0.0,1.0,0.0,College (non-university),Married,2,no,3
+PP Checklist Only,1.0,,1.0,Primary grade 8,Married,5,yes,3
+PP Checklist & FP SMS,1.0,1.0,0.0,Primary grade 8,Married,3,yes,3
+PP Checklist Only,1.0,,0.0,Form 4,Single,1,yes,3
+PP Checklist Only,0.0,1.0,0.0,Form 3,Single,1,no,3
+Control- no SMS,1.0,1.0,1.0,Form 4,Married,1,yes,3
+PP Checklist & FP SMS,1.0,,0.0,Form 4,Married,1,yes,3
+PP Checklist & FP SMS,1.0,,1.0,University,Married,1,no,3
+Control- no SMS,1.0,1.0,0.0,Form 3,Married,3,yes,3
+PP Checklist & FP SMS,1.0,,1.0,College (non-university),Married,1,yes,3
+PP Checklist & PNC General,0.0,,0.0,Form 2,Married,4,yes,3
+PP Checklist & FP SMS,0.0,,0.0,Form 4,Single,1,no,3
+Control- no SMS,0.0,1.0,0.0,Primary grade 8,Married,1,no,3
+PP Checklist & FP SMS,0.0,1.0,0.0,Form 4,Single,1,yes,3
+PP Checklist & PNC General,0.0,1.0,0.0,Primary grade 8,Married,1,no,3
+PP Checklist Only,1.0,1.0,0.0,Form 4,Married,3,yes,3
+Control- no SMS,0.0,,0.0,College (non-university),Married,2,yes,3
+Control- no SMS,0.0,,0.0,Informal Training,Married,2,yes,3
+PP Checklist & FP SMS,0.0,,0.0,Informal Training,Married,4,yes,3
+Control- no SMS,0.0,,0.0,Form 4,Single,1,yes,3
+PP Checklist & FP SMS,0.0,1.0,0.0,College (non-university),Single,1,yes,3
+PP Checklist & FP SMS,1.0,,0.0,Form 4,Married,2,yes,3
+Control- no SMS,0.0,,0.0,Form 4,Married,2,yes,3
+PP Checklist & FP SMS,1.0,,1.0,Form 4,Married,1,yes,3
+Control- no SMS,1.0,,0.0,Form 3,Married,2,yes,3
+Control- no SMS,0.0,,0.0,Form 4,Married,1,yes,3
+PP Checklist & PNC General,1.0,,0.0,Primary grade 8,Married,3,yes,3
+Control- no SMS,0.0,1.0,0.0,Form 2,Married,1,yes,3
+PP Checklist Only,1.0,,0.0,Primary grade 8,Married,1,no,3
+PP Checklist Only,1.0,,0.0,Form 4,Married,1,no,3
+PP Checklist & PNC General,1.0,,0.0,Form 3,Married,2,yes,3
+Control- no SMS,1.0,1.0,0.0,Form 4,Married,3,yes,3
+PP Checklist & PNC General,0.0,,0.0,Form 4,Single,1,no,3
+PP Checklist & FP SMS,1.0,1.0,0.0,Form 4,Married,2,yes,3
+Control- no SMS,1.0,1.0,0.0,Primary grade 8,Married,3,yes,3
+Control- no SMS,0.0,,0.0,College (non-university),Single,2,yes,3
+PP Checklist Only,1.0,1.0,0.0,Form 4,Married,1,yes,3
+PP Checklist Only,0.0,,0.0,Form 4,Married,1,yes,3
+Control- no SMS,0.0,,0.0,Form 2,Single,2,yes,3
+PP Checklist Only,0.0,,0.0,Form 4,Married,1,yes,3
+Control- no SMS,1.0,1.0,0.0,Primary grade 8,Married,3,yes,3
+PP Checklist & FP SMS,0.0,,0.0,College (non-university),Married,1,yes,3
+Control- no SMS,0.0,1.0,0.0,Form 4,Married,1,yes,3
+PP Checklist & PNC General,0.0,,0.0,Primary grade 8,Married,2,yes,3
+PP Checklist Only,1.0,,0.0,Form 4,Partnered,1,yes,3
+PP Checklist Only,0.0,,0.0,College (non-university),Single,1,no,3
+PP Checklist & PNC General,1.0,,0.0,Form 4,Married,2,yes,3
+PP Checklist Only,1.0,,0.0,Form 4,Married,4,yes,3
+Control- no SMS,1.0,,0.0,Primary grade 8,Married,2,yes,3
+PP Checklist & FP SMS,1.0,,0.0,College (non-university),Married,3,yes,3
+PP Checklist Only,1.0,1.0,0.0,Form 2,Married,1,yes,3
+PP Checklist Only,1.0,,0.0,Form 4,Married,1,no,3
+PP Checklist Only,0.0,,0.0,Form 4,Married,2,yes,3
+PP Checklist & FP SMS,1.0,,0.0,Form 3,Married,3,yes,3
+PP Checklist & PNC General,0.0,,0.0,Primary grade 8,Married,3,yes,3
+PP Checklist & PNC General,1.0,0.0,0.0,Form 4,Married,3,yes,3
+PP Checklist Only,0.0,1.0,0.0,Form 4,Married,1,yes,3
+PP Checklist & FP SMS,0.0,,0.0,Form 4,Single,2,yes,3
+PP Checklist & PNC General,1.0,,0.0,Form 4,Single,3,yes,3
+PP Checklist & FP SMS,0.0,,0.0,College (non-university),Single,1,no,3
+PP Checklist Only,0.0,1.0,0.0,Form 4,Single,1,no,3
+PP Checklist Only,0.0,,0.0,College (non-university),Married,1,no,3
+Control- no SMS,0.0,1.0,0.0,Form 4,Married,2,yes,3
+Control- no SMS,1.0,,0.0,Form 4,Single,4,yes,3
+PP Checklist & PNC General,0.0,,0.0,Form 4,Married,1,no,3
+PP Checklist Only,1.0,,0.0,Primary grade 8,Married,1,yes,3
+PP Checklist Only,,,0.0,Primary grade 8,Married,2,yes,3
+PP Checklist & PNC General,1.0,,1.0,Polytechnic,Married,2,yes,3
+PP Checklist Only,1.0,1.0,0.0,Form 4,Married,2,yes,3
+PP Checklist & PNC General,0.0,1.0,0.0,Form 4,Single,1,no,3
+PP Checklist & PNC General,1.0,,1.0,Form 4,Married,3,yes,3
+Control- no SMS,1.0,1.0,0.0,Form 4,Married,1,no,3
+PP Checklist Only,0.0,1.0,0.0,Form 4,Married,2,yes,3
+PP Checklist & FP SMS,0.0,,0.0,College (non-university),Single,1,yes,3
+PP Checklist Only,0.0,,0.0,Form 2,Married,2,yes,3
+Control- no SMS,1.0,,0.0,Primary grade 8,Married,2,no,3
+PP Checklist Only,0.0,,0.0,University,Single,1,no,3
+PP Checklist Only,1.0,,0.0,Form 4,Married,3,yes,3
+PP Checklist & PNC General,0.0,,0.0,Primary grade 8,Married,4,yes,3
+Control- no SMS,1.0,,1.0,Form 4,Married,1,yes,3
+PP Checklist & FP SMS,0.0,,0.0,Form 3,Married,1,no,3
+PP Checklist & PNC General,0.0,1.0,0.0,Form 4,Single,2,yes,3
+Control- no SMS,0.0,,0.0,Form 4,Married,2,yes,3
+PP Checklist & PNC General,1.0,,0.0,Form 4,Married,2,yes,3
+PP Checklist & FP SMS,1.0,1.0,0.0,College (non-university),Married,2,yes,3
+PP Checklist Only,1.0,,0.0,Primary grade 8,Single,2,yes,3
+PP Checklist & PNC General,0.0,1.0,0.0,Form 4,Married,1,no,3
+Control- no SMS,1.0,1.0,0.0,Form 3,Married,2,yes,3
+PP Checklist & FP SMS,1.0,,0.0,Primary grade 6,Married,2,yes,3
+PP Checklist Only,0.0,1.0,0.0,Form 4,Single,1,no,3
+PP Checklist Only,0.0,,0.0,Form 3,Married,2,yes,3
+PP Checklist Only,1.0,1.0,0.0,Form 4,Married,2,yes,3
+PP Checklist & FP SMS,1.0,1.0,0.0,Form 4,Married,2,no,3
+PP Checklist & FP SMS,0.0,,0.0,Primary grade 7,Married,3,no,3
+PP Checklist & FP SMS,0.0,,0.0,Form 3,Married,1,no,3
+PP Checklist & PNC General,0.0,,0.0,University,Married,1,yes,3
+PP Checklist & PNC General,0.0,,0.0,Form 3,Married,2,yes,3
+PP Checklist & FP SMS,0.0,1.0,0.0,Form 4,Single,1,yes,3
+PP Checklist & FP SMS,1.0,0.0,0.0,Form 4,Married,1,no,3
+PP Checklist & PNC General,1.0,,0.0,Form 4,Married,1,no,3
+PP Checklist Only,0.0,,0.0,Form 4,Single,1,yes,3
+PP Checklist & FP SMS,0.0,1.0,0.0,Form 2,Married,1,no,3
+Control- no SMS,0.0,1.0,0.0,Form 4,Married,2,yes,3
+PP Checklist & FP SMS,0.0,,0.0,College (non-university),Married,1,no,3
+PP Checklist & PNC General,0.0,1.0,0.0,Form 4,Single,1,no,3
+PP Checklist & PNC General,1.0,,0.0,Primary grade 8,Married,5,yes,3
+PP Checklist & PNC General,1.0,1.0,0.0,College (non-university),Single,2,yes,3
+PP Checklist & FP SMS,1.0,,0.0,Form 4,Married,2,yes,3
+PP Checklist Only,0.0,,0.0,Form 4,Single,1,yes,3
+PP Checklist & FP SMS,1.0,,0.0,Form 4,Married,2,yes,3
+Control- no SMS,1.0,,0.0,Form 4,Married,2,yes,3
+Control- no SMS,0.0,,0.0,Form 4,Married,2,yes,3
+Control- no SMS,1.0,,0.0,Form 4,Married,2,yes,3
+PP Checklist & PNC General,0.0,,0.0,Form 4,Married,1,yes,3
+PP Checklist & FP SMS,1.0,,0.0,Primary grade 6,Married,6,yes,3
+PP Checklist Only,1.0,1.0,0.0,Primary grade 8,Married,2,yes,3
+PP Checklist & FP SMS,1.0,1.0,0.0,Primary grade 8,Married,3,yes,3
+PP Checklist Only,0.0,,0.0,Form 1,Married,2,yes,3
+PP Checklist & FP SMS,1.0,,1.0,Form 4,Married,2,yes,3
+PP Checklist & FP SMS,,,0.0,Polytechnic,Married,1,no,3
+PP Checklist Only,0.0,,0.0,Primary grade 8,Married,1,no,3
+PP Checklist Only,0.0,1.0,0.0,College (non-university),Married,3,yes,3
+PP Checklist & PNC General,0.0,,0.0,Primary grade 8,Married,4,yes,3
+PP Checklist & FP SMS,1.0,1.0,0.0,Form 1,Married,2,yes,3
+Control- no SMS,1.0,1.0,0.0,Form 4,Married,3,yes,3
+PP Checklist Only,0.0,1.0,0.0,Primary grade 8,Married,3,yes,3
+PP Checklist & FP SMS,1.0,,0.0,Primary grade 7,Single,2,yes,3
+PP Checklist & PNC General,0.0,,0.0,Primary grade 8,Married,3,yes,3
+Control- no SMS,0.0,1.0,0.0,Primary grade 8,Married,2,yes,3
+Control- no SMS,0.0,,0.0,Primary grade 8,Single,6,yes,3
+PP Checklist & PNC General,0.0,1.0,0.0,College (non-university),Single,1,no,3

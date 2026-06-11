@@ -1,0 +1,71 @@
+Treatment,YP_Total_points,YS_Patient_interaction_points,YS_Inspection_points,YS_Pulses_points,YS_Auscultation_points,YS_Cardiac_findings_points,X_Age_0y,X_OtherPracExp_cvPE_0w,X_FacCourseOnCardioWard_0w,X_SameFaculty4of5_0w,X_TimePrepFollowup_0min,X_PrepSkillsExam_0min,X_Prep_Textbooks_0w,X_Prep_Internet_0w,X_Prep_LectureScripts_0w
+Simulator_PE,18,0,3,4,7,4,26 and older,No,Yes,Yes,1,1,No,No,No
+Simulator_PE,22,0,3,5,9,4,20-22,No,No,Yes,1,2,Yes,No,Yes
+Control,7,1,0,2,2,2,20-22,No,Yes,Yes,1,2,No,No,Yes
+Control,16,1,0,4,8,3,20-22,No,Yes,Yes,1,1,No,No,No
+Control,11,0,1,5,4,1,23-25,No,Yes,Yes,1,1,No,No,No
+Control,15,0,0,4,7,4,20-22,No,No,No,1,5,No,No,Yes
+Simulator_PE,19,0,3,4,7,4,20-22,No,No,No,NA,2,No,No,No
+Simulator_PE,14,0,0,4,7,3,20-22,Yes,No,No,4,1,No,No,No
+Control,15,1,1,4,7,2,20-22,No,No,Yes,1,1,No,No,No
+Control,17,0,1,5,7,4,20-22,No,No,Yes,1,1,No,No,No
+Simulator_PE,18,0,3,5,7,3,20-22,No,Yes,No,1,1,No,Yes,No
+Control,6,0,0,1,2,3,20-22,No,No,Yes,1,2,Yes,Yes,No
+Simulator_PE,16,0,2,5,5,4,26 and older,Yes,No,Yes,1,1,No,No,No
+Control,17,0,2,2,9,4,23-25,No,No,No,1,2,Yes,No,No
+Control,22,1,2,5,9,4,20-22,No,No,Yes,2,2,Yes,No,Yes
+Control,6,0,0,1,1,3,20-22,No,No,No,1,1,No,No,No
+Control,22,1,2,5,9,4,20-22,Yes,No,Yes,1,2,No,No,No
+Simulator_PE,20,0,3,5,8,4,20-22,No,No,Yes,1,1,No,No,No
+Control,14,0,0,4,6,3,20-22,No,No,No,1,2,Yes,No,Yes
+Simulator_PE,18,1,3,4,7,3,26 and older,No,No,No,2,2,No,No,No
+Simulator_PE,19,0,3,4,8,3,26 and older,No,No,No,1,2,No,No,No
+Simulator_PE,18,0,3,5,8,2,26 and older,No,Yes,Yes,1,1,No,No,No
+Simulator_PE,19,1,3,5,8,2,20-22,No,No,No,2,1,No,No,No
+Control,9,0,2,1,4,2,20-22,Yes,No,Yes,1,5,No,No,Yes
+Simulator_PE,18,1,3,3,6,4,20-22,No,No,Yes,1,1,No,No,No
+Simulator_PE,10,0,0,3,4,3,26 and older,No,Yes,Yes,2,1,No,No,No
+Simulator_PE,16,0,0,5,7,4,23-25,No,No,Yes,1,2,Yes,Yes,Yes
+Simulator_PE,16,0,3,4,7,2,20-22,No,Yes,Yes,1,1,No,No,No
+Control,11,0,0,2,6,3,20-22,Yes,Yes,Yes,1,1,No,No,No
+Simulator_PE,20,1,3,5,5,4,20-22,Yes,Yes,Yes,1,1,No,No,No
+Control,18,1,1,4,9,3,20-22,No,Yes,Yes,1,2,No,No,No
+Simulator_PE,15,0,3,3,6,3,23-25,No,Yes,Yes,1,1,No,No,No
+Simulator_PE,16,0,3,4,7,2,20-22,No,No,Yes,1,1,No,No,No
+Control,11,1,0,2,5,3,20-22,No,Yes,Yes,1,2,Yes,No,No
+Simulator_PE,22,1,3,5,8,3,20-22,No,No,No,1,2,No,No,No
+Control,8,0,0,0,6,2,23-25,No,No,Yes,1,2,Yes,No,No
+Simulator_PE,18,1,2,4,6,4,23-25,No,No,No,1,1,No,No,No
+Control,11,1,0,2,5,3,26 and older,Yes,Yes,Yes,1,1,No,No,No
+Simulator_PE,18,0,3,3,7,4,23-25,No,No,No,1,1,No,No,No
+Simulator_PE,17,0,2,5,6,3,20-22,No,No,No,1,1,No,No,No
+Simulator_PE,16,1,1,3,7,3,23-25,No,No,No,1,1,No,No,No
+Control,11,0,2,5,2,2,20-22,No,No,Yes,1,1,No,No,No
+Simulator_PE,15,1,3,5,5,1,20-22,No,No,Yes,1,1,No,No,No
+Simulator_PE,21,0,3,5,9,4,20-22,No,No,Yes,1,1,No,No,No
+Control,8,1,0,1,4,2,20-22,No,Yes,Yes,NA,1,No,No,No
+Simulator_PE,18,0,3,5,6,4,23-25,No,No,No,1,1,No,No,No
+Simulator_PE,16,0,3,5,6,2,20-22,No,No,Yes,1,2,No,No,No
+Control,14,0,2,4,6,2,20-22,No,No,Yes,1,1,No,No,No
+Simulator_PE,10,1,1,2,3,3,20-22,No,No,No,1,1,No,No,Yes
+Simulator_PE,21,0,3,5,9,4,20-22,No,No,Yes,1,1,No,No,No
+Control,8,0,0,4,2,2,20-22,No,No,No,1,2,Yes,No,No
+Control,9,1,0,2,4,2,20-22,No,Yes,Yes,NA,1,No,No,No
+Control,8,1,0,0,4,3,26 and older,No,Yes,Yes,1,1,No,No,No
+Control,12,1,2,3,4,2,20-22,No,Yes,No,1,1,No,No,No
+Control,12,0,1,5,4,2,26 and older,No,Yes,Yes,1,2,No,No,Yes
+Simulator_PE,16,0,3,3,7,2,20-22,No,No,Yes,1,1,No,No,No
+Control,13,0,0,2,8,3,26 and older,No,Yes,Yes,1,1,No,No,No
+Simulator_PE,16,1,3,3,7,2,20-22,Yes,Yes,Yes,3,1,No,No,No
+Simulator_PE,18,1,3,4,6,4,20-22,No,Yes,Yes,1,1,No,No,No
+Simulator_PE,17,0,2,5,5,4,20-22,Yes,No,Yes,1,1,No,No,No
+Simulator_PE,18,0,3,4,7,3,23-25,Yes,No,No,2,2,Yes,No,No
+Control,10,1,0,2,3,3,26 and older,No,No,Yes,1,1,No,No,No
+Control,13,0,0,2,9,2,20-22,No,No,No,1,1,No,No,No
+Control,10,0,2,0,5,3,20-22,No,No,No,NA,1,No,No,No
+Simulator_PE,23,1,3,5,10,4,20-22,No,No,No,1,1,No,No,No
+Control,12,0,3,2,4,3,26 and older,Yes,Yes,Yes,1,1,No,No,No
+Control,12,0,0,4,6,2,20-22,No,No,Yes,1,1,No,No,No
+Simulator_PE,13,0,2,4,5,2,23-25,Yes,Yes,Yes,1,1,No,No,No
+Control,13,0,0,5,5,3,20-22,No,Yes,Yes,2,1,No,No,No
+Simulator_PE,13,0,3,5,2,3,20-22,No,Yes,Yes,2,1,No,No,No

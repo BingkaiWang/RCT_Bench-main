@@ -1,0 +1,5 @@
+Trial_ID: 52
+Paper Name: Efficacy of tenapanor in managing hyperphosphatemia and constipation in hemodialysis patients: A randomized controlled trial
+Paper Link: https://doi.org/10.1371/journal.pone.0319319
+Citation: Suzuki et al. PLOS One. 2025;20(6):e0319319. doi:10.1371/journal.pone.0319319
+Availability: PDF stored here when publicly available; otherwise this file records the publication link.

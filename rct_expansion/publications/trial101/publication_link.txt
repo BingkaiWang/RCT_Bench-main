@@ -1,0 +1,5 @@
+Trial_ID: 101
+Paper Name: Data from: Cost-effectiveness of a specialist geriatric medical intervention for frail older people discharged from acute medical units: economic evaluation in a two-centre randomised controlled trial (AMIGOS)
+Paper Link: https://doi.org/10.5061/dryad.6vh02
+Citation: 
+Availability: PDF stored here when publicly available; otherwise this file records the publication link.

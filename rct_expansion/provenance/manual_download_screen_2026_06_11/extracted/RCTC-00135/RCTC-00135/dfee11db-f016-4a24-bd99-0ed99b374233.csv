@@ -1,0 +1,132 @@
+NO.,Location of the hospital,Group,Random numbers,Age(yr),Operation Success(=1) or Failure (=0),Postoperative hospitalization days,Length of days in critical care,Re-admission to hospital,Reoperation intervention,Intra and post-operative blood transfusion,Mortality,Diagnosis,Tumor Side,(R) Radius of tumor,(E)Exophytic property,(N) Nearness of the deepest portion of the tumor to the collecting system,(A) Anterior/Posterior descriptor,(L)Location relative to the polar line,Approach,Warm ischemia time(min),Blood loss(ml),operative time(min),Pathological type,Surgical margin,Preoperative Hemoglobin,Postoperative Hemoglobin,Preoperative Blood creatinine,Postoperative Blood creatinine
+1,Site_4,Telesurgery Group,141,20-29,1,7,0,NO,NO,NO,NO,Renal Cancer,Right,¡Ü4cm,Completely endophytic,<4mm,P,">50% of mass is 
+across polar line
+",Retroperitoneal approach,26,50,125,Clear cell carcinoma,Negative,139,112,61,71
+2,Site_4,Local Surgery Group,142,40-49,1,4,0,NO,NO,NO,NO,Renal hamartoma,Right,4cm-7cm,¡Ý50%,¡Ý7mm,A,"Entirely above 
+the upper or 
+below the lower 
+polar line
+",Retroperitoneal approach,20,50,95,Renal angiomyolipoma,Negative,122,99,68,60
+3,Site_4,Local Surgery Group,143,50-59,1,5,0,NO,NO,NO,NO,Renal Cancer,Right,4cm-7cm,¡Ý50%,¡Ý7mm,X,"Entirely above 
+the upper or 
+below the lower 
+polar line
+",Retroperitoneal approach,18,20,94,Clear cell carcinoma,Negative,146,122,94,100
+4,Site_4,Telesurgery Group,144,70-79,1,5,0,NO,NO,NO,NO,Renal Cancer,Right,¡Ü4cm,Completely endophytic,<4mm,P,"Entirely above 
+the upper or 
+below the lower 
+polar line
+",Retroperitoneal approach,0,20,94,Clear cell carcinoma,Negative,154,126,114,129
+5,Site_4,Local Surgery Group,145,70-79,1,5,0,NO,NO,NO,NO,Renal Cancer,Left,¡Ü4cm,<50%,<4mm,A,"Entirely above 
+the upper or 
+below the lower 
+polar line
+",Retroperitoneal approach,28,20,112,Clear cell carcinoma,Negative,153,135,103,145
+6,Site_4,Telesurgery Group,146,70-79,1,5,0,NO,NO,NO,NO,Renal Cancer,Right,¡Ü4cm,¡Ý50%,<4mm,P,"Entirely above 
+the upper or 
+below the lower 
+polar line
+",Retroperitoneal approach,16,30,83,Clear cell carcinoma,Negative,139,119,64,74
+7,Site_4,Local Surgery Group,147,70-79,1,5,0,NO,NO,NO,NO,Renal hamartoma,Right,¡Ü4cm,¡Ý50%,¡Ý7mm,A,"Entirely above 
+the upper or 
+below the lower 
+polar line
+",Retroperitoneal approach,18,50,85,Renal angiomyolipoma,Negative,168,153,104,104
+8,Site_4,Telesurgery Group,148,50-59,1,6,0,NO,NO,NO,NO,Renal Cancer,Right,¡Ü4cm,<50%,4mm-7mm,P,"Entirely above 
+the upper or 
+below the lower 
+polar line
+
+",Retroperitoneal approach,15,50,83,Clear cell carcinoma,Negative,126,112,54,54
+9,Site_5,Local Surgery Group,181,40-49,1,7,0,NO,NO,NO,NO,Renal Cancer,Right,¡Ü4cm,¡Ý50%,¡Ý7mm,P,"Entirely above 
+the upper or 
+below the lower 
+polar line
+",Retroperitoneal approach,29,50,90,Chromophobe cell carcinoma,Negative,120,112,44,56
+10,Site_5,Local Surgery Group,183,40-49,1,7,0,NO,NO,NO,NO,Renal Cancer,Left,¡Ü4cm,¡Ý50%,¡Ý7mm,P,"Entirely above 
+the upper or 
+below the lower 
+polar line
+",Peritoneal approach,22,50,140,Clear cell carcinoma,Negative,170,139,81,83
+11,Site_5,Telesurgery Group,184,50-59,1,6,0,NO,NO,NO,NO,Renal hamartoma,Left,¡Ü4cm,¡Ý50%,¡Ý7mm,P,"Entirely above 
+the upper or 
+below the lower 
+polar line
+",Retroperitoneal approach,0,20,75,Renal angiomyolipoma,Negative,136,110,67,62.7
+12,Site_2,Local Surgery Group,61,40-49,1,8,0,NO,NO,NO,NO,Renal Cancer,Left,¡Ü4cm,¡Ý50%,¡Ý7mm,A,"Lesion 
+crosses polar 
+line
+",Peritoneal approach,20,50,100,Oncocytoma,Negative,129,118,63.5,72.7
+13,Site_2,Local Surgery Group,62,50-59,1,15,0,NO,NO,NO,NO,Renal Cancer,Right,¡Ü4cm,¡Ý50%,4mm-7mm,A,"Lesion 
+crosses polar 
+line
+",Peritoneal approach,15,50,120,Clear cell carcinoma,Negative,139,130,65,67
+14,Site_2,Telesurgery Group,63,50-59,1,11,0,NO,NO,NO,NO,Renal Cancer,Left,¡Ü4cm,¡Ý50%,<4mm,A,"Lesion 
+crosses polar 
+line
+",Peritoneal approach,15,50,70,Clear cell carcinoma,Negative,139,132,67,80
+15,Site_2,Telesurgery Group,64,50-59,1,10,0,NO,NO,NO,NO,Renal Cancer,Right,¡Ü4cm,¡Ý50%,4mm-7mm,P,"Lesion 
+crosses polar 
+line
+",Retroperitoneal approach,20,200,170,Clear cell carcinoma,Negative,163,150,77.2,105
+16,Site_1,Local Surgery Group,21,40-49,1,4,0,NO,NO,NO,NO,Renal Cancer,Left,¡Ü4cm,¡Ý50%,¡Ý7mm,P,"Entirely above 
+the upper or 
+below the lower 
+polar line
+",Retroperitoneal approach,15,20,60,Clear cell carcinoma,Negative,117,106,62,52
+17,Site_1,Local Surgery Group,22,60-69,1,11,0,NO,NO,NO,NO,Renal Cancer,Left,¡Ü4cm,¡Ý50%,¡Ý7mm,X,"Lesion 
+crosses polar 
+line
+",Retroperitoneal approach,0,50,75,chromophobe cell carcinoma,Negative,127,116,65,63
+18,Site_1,Telesurgery Group,23,70-79,1,3,0,NO,NO,NO,NO,Renal Cancer,Right,¡Ü4cm,<50%,<4mm,A,"Lesion 
+crosses polar 
+line
+",Peritoneal approach,15,50,240,Clear cell carcinoma,Negative,126,124,83,107
+19,Site_1,Telesurgery Group,24,60-69,1,6,0,NO,NO,NO,NO,Renal Cancer,Left,¡Ü4cm,¡Ý50%,¡Ý7mm,X,"Entirely above 
+the upper or 
+below the lower 
+polar line
+",Retroperitoneal approach,17,50,140,chromophobe cell carcinoma,Negative,143,127,88,72
+20,Site_1,Telesurgery Group,25,50-59,1,5,0,NO,NO,NO,NO,Renal Cancer,Right,¡Ü4cm,<50%,4mm-7mm,X,"Entirely above 
+the upper or 
+below the lower 
+polar line
+",Retroperitoneal approach,30,50,60,Clear cell carcinoma,Negative,148,129,44,47
+21,Site_1,Telesurgery Group,26,50-59,1,4,0,NO,NO,NO,NO,Renal Cancer,Right,4cm-7cm,¡Ý50%,<4mm,A,">50% of mass is 
+across polar line
+",Retroperitoneal approach,24,100,160,Renal epithelioid cell tumor,Negative,138,127,54,79
+22,Site_1,Local Surgery Group,28,60-69,1,4,0,NO,NO,NO,NO,Renal Cancer,Right,¡Ü4cm,¡Ý50%,¡Ý7mm,A,">50% of mass is 
+across polar line
+",Retroperitoneal approach,22,100,90,Clear cell carcinoma,Negative,139,108,62,67
+23,Site_1,Local Surgery Group,29,40-49,1,3,0,NO,NO,NO,NO,Renal Cancer,Left,¡Ü4cm,<50%,<4mm,A,"Lesion 
+crosses polar 
+line
+",Peritoneal approach,20,100,120,TFE3-rearranged renal cell carcinomas,Negative,129,123,53,52
+24,Site_1,Telesurgery Group,30,60-69,1,3,0,NO,NO,NO,NO,Renal Cancer,Right,¡Ü4cm,¡Ý50%,<4mm,P,">50% of mass is 
+across polar line
+",Retroperitoneal approach,18,30,70,Clear cell carcinoma,Negative,137,136,40,44
+25,Site_1,Local Surgery Group,31,30-39,1,4,0,NO,NO,NO,NO,Renal Cancer,Left,¡Ü4cm,¡Ý50%,4mm-7mm,P,">50% of mass is 
+across polar line
+",Retroperitoneal approach,23,nr,60,Clear cell carcinoma,Negative,149,135,64,nt
+26,Site_1,Telesurgery Group,32,30-39,1,4,0,NO,NO,NO,NO,Renal Cancer£¬Renal cyst,Left,¡Ü4cm,<50%,4mm-7mm,P,"Entirely above 
+the upper or 
+below the lower 
+polar line
+",Retroperitoneal approach,29,50,60,Clear cell carcinoma,Negative,160,146,63,69
+27,Site_6,Telesurgery Group,221,40-49,1,5,0,NO,NO,NO,NO,Renal Cancer,Left,¡Ü4cm,¡Ý50%,¡Ý7mm,P,"Entirely above 
+the upper or 
+below the lower 
+polar line
+",Retroperitoneal approach,10.75,50,100,Clear cell carcinoma,Negative,136,128,69.3,136
+28,Site_6,Local Surgery Group,222,50-59,1,3,0,NO,NO,NO,NO,Renal Cancer,Right,¡Ü4cm,<50%,¡Ý7mm,P,">50% of mass is 
+across polar line
+",Retroperitoneal approach,14,10,80,chromophobe cell carcinoma,Negative,130,123,44.41,55.65
+29,Site_6,Local Surgery Group,223,50-59,0,7,0,NO,NO,NO,NO,Renal Cancer,Right,4cm-7cm,<50%,¡Ý7mm,A,"Lesion 
+crosses polar 
+line
+",Peritoneal approach,29,400,150,Juxtaglomerular cell tumor,Negative,156,130,68.98,124.58
+30,Site_6,Telesurgery Group,224,50-59,1,5,0,NO,NO,NO,NO,Renal Cancer,Left,¡Ü4cm,<50%,¡Ý7mm,A,"Entirely above 
+the upper or 
+below the lower 
+polar line
+",Retroperitoneal approach,15,20,115,Clear cell carcinoma,Negative,139,139,86.53,94.84

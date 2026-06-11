@@ -1,0 +1,5 @@
+Trial_ID: 116
+Paper Name: Music intervention combined with progressive muscle relaxation among women with cancer receiving chemotherapy
+Paper Link: https://doi.org/10.7910/dvn/6i62qk
+Citation: Music intervention combined with progressive muscle relaxation among women with cancer receiving chemotherapy. Dataset DOI: 10.7910/dvn/6i62qk.
+Availability: PDF stored here when publicly available; otherwise this file records the publication link.

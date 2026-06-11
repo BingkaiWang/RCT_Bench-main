@@ -1,0 +1,104 @@
+Treatment,YP_onset_sensory,YP_onset_sensory_censor,YS_onset_first_sensory,YS_onset_motor,YS_med_duration,YS_med_duration_censor,YS_vps_rest,YS_vps_movement,YS_opioid_total,X_gender_0h,X_bmi_0h,X_age_0h,X_fentanyl_0h,X_alfentanil_0h,X_midazolam_0h
+Combined,0,Not censored,0,7,22.467,Not censored,0,4,30,Female,41.15,52,75,0,3
+Sequential,7,Not censored,0,11,21.417,Not censored,8,6,150,Female,25.22,54,50,2.045,2
+Sequential,24,Not censored,1,14,17.917,Not censored,1,5,0,Female,34.14,46,0,2.872,4
+Combined,4,Not censored,0,10,17.533,Not censored,10,6,15,Female,41.57,54,0,1.723,2
+Combined,30,Not censored,0,26,22.2,Not censored,1,5,90,Male,27.17,41,0,1.007,4
+Sequential,4,Not censored,1,31,20.9,Not censored,1,3,15,Male,22.05,21,0,1.251,4
+Combined,12,Not censored,4,15,20.8,Not censored,5,5,15,Male,26.32,68,0,1.804,1
+Sequential,13,Not censored,1,22,23.9,Not censored,6,6,60,Male,24.69,61,0,0,2
+Combined,27,Not censored,3,33,23.767,Not censored,4,8,90,Female,35.63,44,0,0,2
+Combined,4,Not censored,0,9,15.733,Not censored,1,1,0,Female,35.12,28,0,0,4
+Combined,3,Not censored,1,14,23.333,Not censored,2,5,7.5,Female,36.11,36,250,0,2
+Combined,21,Not censored,4,30,20,Not censored,0,0,7.5,Female,28.34,60,100,1.44,2
+Sequential,9,Not censored,0,13,19.483,Not censored,0,5,7.5,Female,22.6,34,0,0,2
+Sequential,9,Not censored,0,12,18.55,Not censored,5,8,30,Male,30.14,64,0,0.688,2
+Sequential,5,Not censored,0,21,15.7,Not censored,4,4,6.67,Male,26.36,37,0,0,4
+Sequential,50,Censored,15,50,0,Not censored,10,10,225,Female,NA,51,0,0.638,0
+Sequential,7,Not censored,2,22,13.083,Not censored,0,1,0,Male,22.32,58,0,0,2
+Combined,2,Not censored,0,5,9.217,Not censored,2,4,45,Female,37.84,24,100,0,0
+Sequential,6,Not censored,2,30,20.283,Not censored,0,0,22.5,Male,39.85,28,100,0,2
+Combined,3,Not censored,0,10,7.533,Not censored,4,6,22.5,Female,31.21,50,50,0,2
+Sequential,5,Not censored,2,29,7.9,Not censored,5,5,7.5,Male,25.64,74,50,0,0.5
+Sequential,41,Not censored,0,31,48,Censored,2,7,0,Male,21.26,52,0,0.99,2
+Combined,4,Not censored,0,4,6.617,Not censored,10,10,22.5,Female,24.22,53,0,0,0
+Sequential,14,Not censored,0,24,23.5,Not censored,5,6,7.5,Male,25.1,19,0,0,4
+Combined,7,Not censored,0,9,18.933,Not censored,8,9,30,Female,25.42,41,50,0,4
+Combined,2,Not censored,0,10,24.967,Not censored,3,5,15,Female,23.6,49,50,0,2
+Sequential,4,Not censored,0,12,26.35,Not censored,7,7,37.5,Female,28.2,46,0,1.722,2
+Combined,3,Not censored,0,19,48,Censored,0,0,0,Male,28.33,57,0,0,2
+Sequential,17,Not censored,0,8,21.6,Not censored,6,1,45,Female,30.4,50,0,4.266,2
+Combined,1,Not censored,0,16,23.75,Not censored,3,5,0,Female,42.38,60,25,0,2
+Combined,2,Not censored,0,5,21.783,Not censored,3,3,0,Female,36.98,52,0,0,4
+Sequential,1,Not censored,0,10,48,Censored,2,3,0,Male,30.67,39,0,0.761,2
+Combined,1,Not censored,0,5,16.867,Not censored,2,4,15,Male,23.43,53,0,0,2
+Sequential,3,Not censored,0,21,15.717,Not censored,0,0,7.5,Male,30.61,64,0,0,2
+Sequential,20,Not censored,1,20,48,Censored,0,0,0,Male,23.62,51,0,0,4
+Combined,6,Not censored,0,11,25,Not censored,0,2,3.75,Male,30.17,47,100,0,3
+Combined,10,Not censored,4,10,12.333,Not censored,5,5,45,Female,18.8,66,25,0,0.5
+Combined,33,Not censored,0,33,10.5,Not censored,7,7,37.5,Male,24.52,59,0,0,2
+Sequential,39,Not censored,0,19,13.833,Not censored,0,0,7.5,Male,29.6,31,0,0,6
+Combined,8,Not censored,0,19,8.567,Not censored,6,6,135,Male,29.16,64,0,0,3
+Combined,48,Not censored,0,35,48,Censored,0,0,0,Male,25.85,61,0,0,4
+Sequential,9,Not censored,0,40,13.933,Not censored,10,10,45,Male,25.84,50,150,0,6
+Sequential,3,Not censored,0,31,10.55,Not censored,4,6,22.5,Male,35.36,32,0,2.662,3
+Combined,22,Not censored,6,17,7.9,Not censored,2,4,60,Male,28.43,54,0,2.741,2
+Sequential,27,Not censored,3,32,6.75,Not censored,4,4,52.5,Male,35.25,53,25,0,4
+Sequential,6,Not censored,0,4,48,Censored,0,1,0,Female,19.7,57,0,0,2
+Sequential,37,Not censored,0,37,8.067,Not censored,5,8,120,Male,27.5,56,25,2.58,2
+Sequential,38,Not censored,1,28,8.333,Not censored,1,0,15,Male,24.4,32,0,2.01,2
+Combined,6,Not censored,0,6,28.917,Not censored,3,9,45,Male,24.3,23,0,1.474,2
+Combined,5,Not censored,0,3,9.3,Not censored,10,10,52.5,Female,37.92,61,50,0,3
+Combined,4,Not censored,0,2,7.117,Not censored,8,9,30,Female,23.76,52,0,0,2
+Sequential,19,Not censored,0,24,5.583,Not censored,2,7,45,Male,22.12,18,0,0,2
+Sequential,15,Not censored,0,33,23.133,Not censored,2,2,0,Female,32.4,42,0,0,4
+Sequential,23,Not censored,0,38,19.75,Not censored,4,6,22.5,Female,20.49,44,0,0,2
+Combined,16,Not censored,0,7,4.283,Not censored,8,8,0,Male,NA,22,0,0,3
+Sequential,8,Not censored,0,21,5.3,Not censored,5,5,0,Female,32.5,48,0,3.399,2
+Sequential,10,Not censored,1,2,6.417,Not censored,5,5,15,Female,36.72,52,25,0,4
+Sequential,19,Not censored,0,5,4.733,Not censored,8,7,225,Female,39.87,48,50,0,2
+Combined,13,Not censored,0,19,6.083,Not censored,4,8,105,Female,33,51,0,1.748,2
+Combined,6,Not censored,0,8,8.567,Not censored,8,10,15,Male,30.7,54,0,0,2
+Combined,9,Not censored,0,4,6.333,Not censored,2,3,90,Female,27.2,36,0,0,6
+Combined,9,Not censored,0,6,6.183,Not censored,7,7,45,Female,30.6,53,0,0,3
+Combined,11,Not censored,0,13,5.7,Not censored,7,7,37.5,Female,28.33,66,0,0,3
+Combined,50,Not censored,-2,50,5.5,Not censored,4,5,90,Female,34.84,60,100,1.952,3
+Combined,6,Not censored,-4,30,8.233,Not censored,4,6,45,Male,NA,50,100,0,4
+Sequential,7,Not censored,0,2,7.733,Not censored,4,4,30,Female,29,53,0,2.565,3.5
+Sequential,26,Not censored,0,8,15.033,Not censored,3,4,105,Male,28.59,52,0,0,2
+Sequential,18,Not censored,-1,6,6.033,Not censored,4,8,180,Female,38.19,36,0,0,4
+Sequential,9,Not censored,0,3,3.817,Not censored,10,10,82.5,Female,36.96,66,0,0,5
+Combined,16,Not censored,0,15,6.917,Not censored,4,7,0,Male,22.55,32,0,0,9
+Sequential,6,Not censored,0,6,6,Not censored,0,1,0,Male,35.15,57,0,0,2
+Sequential,19,Not censored,-1,10,10.167,Not censored,1,0,0,Female,37.62,54,0,0,0
+Combined,13,Not censored,1,1,7.467,Not censored,2,4,60,Female,42.93,52,0,0,2
+Sequential,9,Not censored,0,20,11.083,Not censored,2,4,30,Male,20.98,31,0,2.432,4
+Sequential,8,Not censored,2,22,4.567,Not censored,5,7,52.5,Male,27.37,36,0,0,0
+Combined,5,Not censored,0,3,5.233,Not censored,10,10,26.5,Female,27.02,35,175,0,2
+Combined,2,Not censored,0,3,2.983,Not censored,1,3,112.5,Female,22.83,51,0,1.107,1
+Combined,5,Not censored,0,11,6.5,Not censored,6,6,37.5,Female,28.73,56,0,0,0
+Sequential,10,Not censored,0,6,48,Censored,1,2,0,Female,29.49,62,50,0,1
+Combined,18,Not censored,0,3,11.117,Not censored,4,6,135,Female,34.08,32,0,2.475,2
+Combined,15,Not censored,0,5,4.833,Not censored,5,7,165,Female,25.59,57,0,0,5
+Combined,12,Not censored,0,9,7.033,Not censored,6,9,112.5,Male,34.17,59,0,1.537,0
+Sequential,24,Not censored,1,24,6.667,Not censored,2,2,90,Male,31.39,62,0,0,2
+Sequential,50,Censored,15,50,0,Not censored,10,10,225,Female,21.26,25,NA,NA,NA
+Combined,8,Not censored,0,10,4.867,Not censored,7,7,22.5,Female,24.2,29,0,0,2
+Combined,4,Not censored,0,10,48,Censored,0,0,0,Male,32.28,65,0,0,2
+Sequential,8,Not censored,0,3,10.383,Not censored,4,4,45,Male,30.45,28,50,0,4
+Combined,6,Not censored,0,21,6.383,Not censored,3,3,52.5,Male,23.34,65,0,0,2
+Sequential,5,Not censored,2,9,7.317,Not censored,2,6,142.5,Female,24.54,46,0,0,1
+Sequential,10,Not censored,-4,4,5.667,Not censored,3,3,75,Female,23.61,67,0,0,2
+Sequential,10,Not censored,-4,5,6.667,Not censored,8,3,30,Female,43.46,55,175,0,2
+Combined,3,Not censored,-6,3,48,Censored,7,3,0,Female,19.91,59,0,0,2
+Combined,20,Not censored,-1,21,48,Censored,1,1,0,Male,24.45,38,0,0,2
+Combined,7,Not censored,-6,4,4.7,Not censored,10,10,180,Female,27.78,60,0,0,0
+Sequential,11,Not censored,0,10,13.267,Not censored,8,10,82.5,Female,23.06,41,0,0,2
+Sequential,14,Not censored,-4,1,7.2,Not censored,6,6,180,Female,32.79,68,25,0,1
+Combined,12,Not censored,0,14,8.817,Not censored,5,0,195,Male,24.96,66,0,0,2
+Sequential,10,Not censored,0,12,7.083,Not censored,6,8,75,Female,23.06,41,0,0,4
+Sequential,10,Not censored,-1,15,7.9,Not censored,7,9,157.5,Male,24.4,19,0,0,2
+Combined,9,Not censored,-3,4,7.667,Not censored,6,10,165,Female,22.24,31,0,0,2
+Combined,11,Not censored,-2,11,5.067,Not censored,10,10,90,Female,33.91,40,0,0,4
+Sequential,22,Not censored,0,30,12.383,Not censored,0,0,7.5,Male,31.65,53,50,0,4
+Combined,40,Not censored,0,40,2.833,Not censored,4,4,127.5,Female,41.54,41,100,0,4

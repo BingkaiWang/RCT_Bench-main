@@ -1,0 +1,572 @@
+RESEAR CH ARTICLE
+Impact of a Daily SMS Medication Reminder
+System on Tuberculosis Treatment
+Outcomes: A Randomized Controlled Trial
+Shama Mohammed
+1
+*, Rachel Glennerster
+2
+, Aamir J. Khan
+1
+1 Interact ive Research and Develop ment, Karachi, Pakistan, 2 Abdul Latif Jameel Poverty Action Lab,
+Massac husetts Institute of Technolog y, Cambridge , MA, United States of America
+* shama@po st.harvard.edu
+Abstract
+Importance
+The rapid uptake of mobile phones in low and middle-income countries over the past
+decade has provided public health programs unprecedent ed access to patients. While pro-
+grams have used text messages to improve medication adherence, there have been no
+high-powered trials evaluating their impact on tuberculo sis treatment outcomes.
+Objective
+To measure the impact of Zindagi SMS, a two-way SMS reminder system, on treatment
+success of people with drug-sensitive tuberculosis.
+Design
+We conducted a two-arm, parallel design, effectiveness randomized controlled trial in Kara-
+chi, Pakistan. Individual participants were randomized to either Zindagi SMS or the control
+group. Zindagi SMS sent daily SMS reminders to participants and asked them to respond
+through SMS or missed (unbilled) calls after taking their medication. Non-responden ts
+were sent up to three reminders a day.
+Setting
+Public and private sector tuberculosis clinics in Karachi, Pakistan.
+Participants
+Newly-diagnosed patients with smear or bacteriological ly positive pulmonary tuberculosis
+who were on treatment for less than two weeks; 15 years of age or older; reported having
+access to a mobile phone; and intended to live in Karachi throughout treatment were eligi-
+ble to participate. We enrolled 2,207 participants, with 1,110 randomized to Zindagi SMS
+and 1,097 to the control group.
+PLOS ONE | DOI:10.1 371/journ al.pone.0162 944 November 1, 2016 1 / 13
+a11111
+OPEN ACCESS
+Citation: Mohamme d S, Glennerster R, Khan AJ
+(2016) Impact of a Daily SMS Medica tion
+Reminder System on Tuberculosi s Treatment
+Outcomes : A Randomized Controlled Trial. PLoS
+ONE 11(11): e0162944. doi:10.137 1/journal.
+pone.016294 4
+Editor: Lei Gao, Chinese Academy of Medical
+Sciences and Peking Union Medical College,
+CHINA
+Received: May 9, 2016
+Accepted: August 26, 2016
+Published: November 1, 2016
+Copyright: © 2016 Moham med et al. This is an
+open access article distributed under the terms of
+the Creative Commons Attributio n License, which
+permits unrestricte d use, distribu tion, and
+reproduction in any medium, provided the original
+author and source are credited.
+Data Availabilit y Statement: Data can be accessed
+at https:// dataverse.ha rvard.edu/d ataset.xhtml?
+persistentI d=doi:10.7 910/DVN/HVJ 2CM.
+Funding: This study was funded by the
+Internationa l Initiative for Impact Evaluation (http://
+www.3ieim pact.org/), grant number OW 1.48. The
+funders had no role in study design, data collection
+and analysis, decision to publish, or preparation of
+the manuscript.
+Main Outcome
+The primary outcome was clinically recorded treatment success based upon intention-to-
+treat.
+Results
+We found no significant difference between the Zindagi SMS or control groups for treatment
+success (719 or 83% vs. 903 or 83%, respectively, p = 0782). There was no significant pro-
+gram effect on self-reported medication adherence reported during unannounced visits dur-
+ing treatment.
+Conclusion
+In this large-scale randomized controlled effectiveness trial of SMS medication reminders
+for tuberculosis treatment, we found no significant impact.
+Trial Registration
+The trial was registered with ClinicalTrials.g ov, NCT016907 54.
+Introduction
+Tuberculosis is the second-leading cause of death from infectious diseases globally, with nine
+million people infected and 1.5 million deaths in 2013 [1]. Treatment for drug-sensitive tuber-
+culosis lasts six to eight months and can result in difficult side effects. Failure to adhere to treat-
+ment can result in continued transmission, the development of multidrug-resistant
+tuberculosis, or death. The World Health Organization recommends directly observed therapy
+to promote adherence, where a pre-assigned treatment supporter watches each patient take
+his/her daily medication. However, evidence for the effectiveness of this method is inconclusive
+[2].
+The rapid uptake of mobile phones in low- and middle-income countries has provided pub-
+lic-health programs unprecedented access to patients. Mobile phone-based interventions to
+improve medication adherence have been adopted for many diseases, with mixed results[3–6].
+Most trials are inadequately designed, insufficiently powered, or are restricted to high-income
+countries [3–6]. The most rigorous trials evaluating mobile phone-use for treatment compli-
+ance in developing countries exist for adherence to antiretroviral therapy (ART) for people liv-
+ing with Human Immunodeficiency Virus (HIV). Meta-analysis that combines two positive
+trials in Kenya [7,8] and one null result from Cameroon [9] found an overall positive impact of
+weekly Short Message Service (SMS, or text message) reminders [10–12]. A more recent study
+of interactive automated voice reminders and pictorial messages in India, found no impact on
+adherence to ART [13].
+While there is considerable interest in the potential of mobile phone-based interventions to
+improve tuberculosis treatment adherence, rigorous evidence on their impact is limited [14–
+17]. Recently, a limited cluster randomized trial in China found that, while medication monitor
+reminders led to improved drug compliance for tuberculosis patients, daily two-way SMS
+reminders did not [18]. Our effectiveness trial gauged the impact of a two-way interactive SMS
+medication reminder system (Zindagi SMS) on the treatment success of people with drug-sen-
+sitive tuberculosis.
+Impact of a Daily SMS Medicatio n Reminder System on Tuberculos is Treatment Outcomes
+PLOS ONE | DOI:10.1 371/journ al.pone.0162 944 November 1, 2016 2 / 13
+Competing Interests : The authors have declared
+that no competing interests exist.
+Methods
+Study Design and Participants
+Participants were recruited into the randomized controlled trial through a large tertiary center
+(the Indus Hospital), nine public facilities, and a network of private General Practitioner (GP)
+clinics and private laboratories in Karachi.
+To be eligible, participants had to be newly diagnosed with smear or bacteriologically posi-
+tive pulmonary tuberculosis; 15 years of age or older; report having access to a mobile phone;
+and intend to live in Karachi throughout treatment. To allow Zindagi SMS to help establish
+habits early, participants had to be on treatment for less than two weeks. To minimize spill-
+overs, patients with another household member in the study were ineligible. Enrolment contin-
+ued until the predetermined sample size was met.
+Eligible participants were consented using an oral consent form, a copy of which was given
+to the participant. Oral consent was solicited instead of written consent, as our sample was a
+low-literate population. The trial and oral consent procedure was approved by the research eth-
+ics boards at Interactive Research and Development (IRD) in Karachi, Pakistan and the Massa-
+chusetts Institute of Technology (MIT) in Cambridge, USA. The trial was registered with
+ClinicalTrials.gov, NCT01690754.
+Randomization and Masking
+Once a patient consented to participate, a study representative entered identifying information
+on a mobile phone-based enrolment form. Individual participants were randomized to either
+the Zindagi SMS or control groups, using predetermined list on the study server that was gen-
+erated using simple randomization. The research team was blinded to the allocation sequence
+generated. If mobile data connectivity was interrupted (10% of enrolments), the study repre-
+sentative called their supervisor, who entered the identifying information into Microsoft Excel
+and generated the group assignment using the randomization function. In both cases field staff
+who interacted directly with patients had no ability to influence the randomized allocation.
+The randomization status of individual participants was not shared with treating clinics by the
+research team.
+Procedures
+All study participants received the standard of care provided by their clinic. Initially, partici-
+pants received NTP’s recommended eight-month treatment regimen. However, NTP guide-
+lines changed in the second quarter of 2012 to a six-month regimen.
+Zindagi SMS used two-way reminders to encourage patients to actively engage with remind-
+ers, rather than passively read and potentially ignore them. It enabled the study team to identify
+non-responsive patients for phone calls to encourage participation. Zindagi SMS sent enrolled
+patients daily reminders at a time of their choosing. Messages were in Urdu using English
+script and included a daily motivational message followed by a reminder to respond via SMS
+or, after September 2011, a missed (unbilled) call to indicate they had taken their medication.
+Fourteen messages were randomized and sent to participants. Based on feedback from our
+pilot, tuberculosis was not mentioned in the messages due to stigma [19]. For example, one
+message said, “Y our health is in your hands. T ake your medication and remember to respond by
+SMS or a missed call.” SMS responses were not verified for content. Participants were offered
+PKR 60 (USD 0.60) per month to cover the costs of responding. Initially, the participants were
+asked to pick up reimbursements at their clinic, but from October 2013, reimbursements were
+transferred directly to participants’ phones.
+Impact of a Daily SMS Medicatio n Reminder System on Tuberculos is Treatment Outcomes
+PLOS ONE | DOI:10.1 371/journ al.pone.0162 944 November 1, 2016 3 / 13
+Once Zindagi SMS received a response or a missed call, a confirmatory SMS message was
+sent to the respondent. If the patient did not respond within two hours, a second reminder was
+sent. A third and final reminder for the day was sent after two additional hours of non-respon-
+siveness. Members of our study team phoned participants who did not respond for seven days.
+Participants were interviewed at their household for a more extensive baseline. Ninety per-
+cent of completed baseline surveys were conducted within 30 days of enrolment. Once a
+month, study enumerators attempted surprise visits to participants’ households to conduct a
+midline survey. Sputum samples, independent from those collected by the treating clinics, were
+collected for patients at various points in their treatment. Given the difficulties in finding par-
+ticipants at home and that they could not always produce sputum, there is considerable varia-
+tion in the sputum samples available per patient. An endline survey was conducted after the
+completion of participants’ treatment period. Participants who were reported as having
+defaulted or transferred out from treatment were surveyed again between September and
+November 2014 to record whether they continued their treatment.
+The enrolment form was entered on mobile phones, with paper forms as backup. Other sur-
+veys were collected on paper and double-entered into a Microsoft Access database.
+Outcomes
+The primary outcome was programmatically defined treatment success as recorded in clinic
+registers provided by the NTP, the global standard for assessing tuberculosis programs. Treat-
+ment success is defined as the sum of patients clinically reported as cured (i.e. patient whose
+sputum smear or culture was positive at the beginning of treatment but who was smear- or cul-
+ture-negative in the last month of treatment and on at least one previous occasion) or treat-
+ment completed (i.e. a patient who completed treatment but who does not have a negative
+sputum smear or culture result in the last month or treatment and on at least one previous
+occasion). In our secondary analysis, we explored the full range of clinically recorded treatment
+outcomes (cured, treatment completed, default, died, treatment failure and transferred out). In
+particular, Zindagi SMS might have increased success by reducing default (i.e. a patient whose
+treatment was interrupted for two consecutive months or more). The limitation of this out-
+come is that because registers of NTP-reporting clinics in Pakistan are not linked, patients who
+are reported as having default or transferred out could have continued treatment elsewhere. As
+a robustness check we therefore explored adjusted treatment outcomes for treatment success
+and default, substituting self-reported for clinically recorded outcomes for the participants
+interviewed.
+To explore potential mechanisms of impact (or lack of impact), we also gauged adherence
+as a secondary outcome by asking participants whether they had taken their medication in the
+last 24 hours during home visits. While self-reported adherence can be unreliable, there is no
+reason to believe misreporting is systematically different among those assigned to Zindagi SMS
+or the control group. During survey visits between February and April 2012, we conducted Iso-
+Screen tests, which detect isoniazid metabolites in urine samples to gauge whether tuberculosis
+drugs were taken within the past 24 hours. Isoniazid is always included in first-line tuberculosis
+treatment. We compared IsoScreen results with self-reported adherence on the same visit.
+While IsoScreen tests were conducted on a non-random sample, they give us an indication of
+the reliability of self-reported adherence.
+Finally, we collected self-reported psychological and physical health measures as secondary
+outcomes. We used a four-point Likert scale for patients’ difficulty in completing a range of
+physical tasks and how supported they felt during treatment, a picture of a five-rung ladder
+with six compartments between rungs for likelihood of being cured, and images of five faces
+Impact of a Daily SMS Medicatio n Reminder System on Tuberculos is Treatment Outcomes
+PLOS ONE | DOI:10.1 371/journ al.pone.0162 944 November 1, 2016 4 / 13
+for how healthy they felt. Questions on participants’ ability to complete tasks and self-reported
+health were asked at baseline, midline, and endline; the likelihood of being cured asked at base-
+line and midline; and how supported participants felt asked at endline.
+Statistical Analysis
+We calculated a minimum sample size of 1,094 participants in each study arm, using power of
+80%, minimum detectable effect size (MDE) of five percentage points, and treatment success
+rate in the control group of 75%. An MDE of 5 percentage points was chosen because a smaller
+impact was considered unlikely to motivate policy change. Data were analyzed using intention-
+to-treat, i.e. allocation to treatment not actual take up. We used the χ
+2
+test for differences in
+proportions for the analysis of the primary outcome. In comparing sputum samples, we ran
+ordinary least squares regressions, after controlling for days in the study and regimen type.
+We also assessed whether Zindagi SMS had differential impacts on treatment success by
+gender, indicators of quality of care, and mobile phone access. In analyzing our secondary out-
+comes, we ran ordinary least squares regressions on each outcome to test for program effects,
+after controlling for days since enrollment and regimen type. To adjust for multiple hypotheses
+testing we used the Bonferroni correction and the less conservative Westfall and Young free
+step-down resampling method [20].
+Statistical analysis was conducting using STATA/IC version 12.0. A p-value of <0.05 was
+considered statistically significant.
+Results
+We enrolled 2,207 participants into the study between March 18, 2011 and February 25, 2014
+(Fig 1). Both groups had similar baseline characteristics (Table 1).
+As an effectiveness trial we sought to replicate implementation conditions, as it would exist
+at scale. The Zindagi SMS system sent reminders or received responses for 174,284 patient days
+to participants during their estimated treatment duration (180 days for the six-month regimen
+or 240 days for the eight-month regimen). With perfect implementation, reminders should
+have been sent for a total of 220,560 patient days, suggesting the system was successfully imple-
+mented for 79% of patient days. Missed reminders were due to system failures, administrative
+shortfalls, or GPRS outages in the city mobile (14%); participants asking to leave the system or
+dying (3%); participants opting out of receiving reminders at enrolment (2%); and participants
+not knowing their phone number at enrolment and failing to share their number subsequently
+(2%). Of the 1,069 participants who were sent messages, 912 (85%) responded at least once. Of
+the participants that were on the system throughout their treatment, the mean response rate
+(calculated as the number of responses received over the number of reminders sent per patient)
+was 29%, ranging from 0 to 99%. Over the course of treatment, average response rates fell from
+48% in the first two weeks to 24% (eight-month regimen) and 20% (six-month regimen) in the
+last two weeks (See Fig 2).
+There were no significant differences in treatment outcomes between participants in the
+Zindagi SMS group and the control group (Table 2). As a robustness check, we substituted the
+clinically recorded outcomes with self-reported outcomes for participants who defaulted or
+transferred out of treatment that we were able to interview, or whose family members reported
+the participant had died. Of the 283 participants that were reported as having defaulted or
+transferred out, we interviewed 130 (46%); 49 participants (17%) had died; 22 (8%) refused to
+be interviewed; and we were unable to locate 82 (29%). Self-reported outcomes were catego-
+rized using the criteria in Fig 3. When we adjusted treatment outcomes to reflect the self-
+reported outcomes, the default rate reduced in both groups but there were still no significant
+Impact of a Daily SMS Medicatio n Reminder System on Tuberculos is Treatment Outcomes
+PLOS ONE | DOI:10.1 371/journ al.pone.0162 944 November 1, 2016 5 / 13
+differences in outcomes between the two groups (Table 2). We also examined independent
+sputum samples between the groups. We collected 1191 sputum samples for participants (603
+in the Zindagi SMS group and 588 in the control group). Of these, one hundred and ninety
+samples were excluded because they were primarily saliva, rather than sputum (104 in the Zin-
+dagi SMS group and 86 in the control group). There was no statistically significant difference
+between sputum results for both groups (p = 0.762).
+There was no significant program effect in subgroups for gender, any of the indicators relat-
+ing to quality of care, or access to a mobile phone after adjusting for multiple subgroups using
+the Bonferroni correction (adjusted p-value of 0.003 for 17 subgroups) or the Westfall and
+Young free step-down resampling correction (Table 3). We also created a single index of
+Fig 1. Trial Profile.
+doi:10.1 371/journal.pone .0162944.g00 1
+Impact of a Daily SMS Medicatio n Reminder System on Tuberculos is Treatment Outcomes
+PLOS ONE | DOI:10.1 371/journ al.pone.0162 944 November 1, 2016 6 / 13
+quality of care from relevant variables and another for mobile phone access to test for subgroup
+effect but again found no significant treatment effects for subgroups. (S1 Appendix)
+We compared the results of 159 IsoScreen tests with self-reported adherence during the
+same study visit. IsoScreen tests indicated that 17% of those who said they had taken their
+drugs in the past 24 hours had not, indicating over-reporting. However, these results were not
+statistically different by treatment arm.
+There were no significant program effects in self-reported medication adherence or any of
+our other secondary outcomes, after adjusting for multiple hypotheses using the Bonferroni
+correction (p-value of 0.001 for five hypotheses) or the Westfall and Young correction
+(Table 4).
+Discussion
+We found no significant impact of SMS medication reminders on treatment success, other
+treatment outcomes, self-reported adherence, or self-reported physical and psychological
+health. There were no statistically significant impacts of reminders on treatment success within
+a variety of subgroups after adjusting for multiple hypothesis testing.
+With an attrition rate of less than 1%, similar across arms, on our primary outcome variable,
+the results are very robust. The inclusion of participants from public clinics, private GP clinics,
+laboratories, and a large philanthropic hospital contributes to its external validity.
+A limitation of our trial was the lack of an objective adherence measure. Adherence was
+self-reported, which, IsoScreen tests indicated, is an overestimate of actual adherence. How-
+ever, even if participation in Zindagi SMS generated increased adherence, not reflected in self-
+reports, it did not translate into improved treatment outcomes. In addition, IsoScreen tests (on
+Table 1. Demogr aphic character istics of particip ants enrolle d in the trial (2011–20 14, Karachi, Paki-
+stan).*
+SMS Group (n = 1110) Contro l Group (n = 1097)
+n (%) n(%)
+Female 561 (51%) 518 (47%)
+Age (mean/SD)
+†
+33 (16) 33 (16)
+Urdu is mother tongue 529 (48%) 549 (50%)
+Clinic type
+Indus Hospital 404 (36%) 385 (35%)
+GP clinic/privat e
+‡
+laborato ry 190 (17%) 193 (18%)
+Public tuberculo sis clinic 516 (46%) 519 (47%)
+6 Month treatment regimen 764 (69%) 777 (71%)
+Assigned a treatment supporter 102 (10%) 106 (10%)
+Own mobile phone 540 (49%) 565 (52%)
+Schooli ng
+No school 517 (49%) 475 (47%)
+Primary (class 1–5) 108 (10%) 115 (11%)
+Seconda ry (class 6–10) 325 (31%) 307 (30%)
+Tertiary (above class 10) 77 (7%) 101 (10%)
+Religious school 15 (1%) 16 (2%)
+*There are 138 missing values for assigned a treatment supporter, 145 missing values for age; 146 missing
+values for no school and religious school; and 151 missing values for primary, secondary, and tertiary.
+†
+SD = standard deviation
+‡
+GP = private general practitione r
+doi:10.1 371/journal.pone .0162944.t001
+Impact of a Daily SMS Medicatio n Reminder System on Tuberculos is Treatment Outcomes
+PLOS ONE | DOI:10.1 371/journ al.pone.0162 944 November 1, 2016 7 / 13
+a nonrandom sample) indicated that misreporting was similar in the Zindagi SMS and control
+groups.
+Another potential limitation is that clinics could incorrectly record treatment outcomes to
+meet expected success rates encouraged by the NTP. However, since clinics were blind to allo-
+cation, there is no reason any misreporting was systematically different between treatment
+arms. Moreover, in our sub-study on participants reported as having defaulted or transferred
+out, self-reported outcomes were similar in the intervention and control groups. Another
+Fig 2. Respon se rates over time in treatme nt.
+doi:10.13 71/journal.pone .0162944.g002
+Table 2. Clinically -recorded treatment success between Zindagi SMS and control groups (2011–20 14, Karachi, Pakistan ).
+Clinic ally recorded treatm ent success Clinically recorded treatment succes s adjusted for self-
+reported outcom es
+Zindagi SMS Control Group Zindagi SMS Control Group
+n % N % p-value n % n % p-value
+Treatment succes s 917 83% 903 83% 0.782 923 84% 911 83% 0.871
+Treatment complete 332 30% 325 30% 0.863 339 31% 333 30% 0.903
+Cured 585 53% 578 53% 0.960 584 53% 578 53% 0.994
+Default 108 10% 103 9% 0.775 74 7% 80 7% 0.572
+Died 19 2% 19 2% 0.975 38 3% 29 3% 0.282
+Treatment Failure 27 2% 29 3% 0.758 26 2% 29 3% 0.655
+Transfer Out 33 3% 39 4% 0.446 43 4% 44 4% 0.875
+Total 1104 1093 1104 1093
+doi:10.13 71/journal.pone .0162944.t002
+Impact of a Daily SMS Medicatio n Reminder System on Tuberculos is Treatment Outcomes
+PLOS ONE | DOI:10.1 371/journ al.pone.0162 944 November 1, 2016 8 / 13
+potential limitation is that our trial took place in Pakistan, which reports high treatment suc-
+cess rates of 91% in 2012 [1]. Results may differ in countries reporting lower success rates.
+Our results were similar to the findings of Liu and colleagues in China that two-way SMS
+reminders had no impact on medication adherence for tuberculosis patients, though we are
+able to rule out much smaller effects of SMS reminders [15]. Meta-analysis of studies on HIV
+and SMS reminders show positive results on of weekly SMS reminders on adherence and clini-
+cal outcomes (Finitsis et al 2014 [10], Mbuagbaw et al 2013 [11], Horvath et al 2012) [12].
+These reviews draw mainly on three large high quality studies (Finitsis et al also include many
+small poor quality studies and Horvath et al only includes Lester and colleagues’ [7] and Pop-
+Eleches and colleagues’[8] trials) and conclude weekly reminders are more effective than daily
+reminders. The three key studies are Mbuagbaw and colleagues, who test weekly SMS remind-
+ers in Cameroon and find no impact [9] Pop-Eleches and colleagues who tested multiple ver-
+sions of SMS reminders and only found only short messages sent weekly improve adherence
+[8], and Lester and colleagues find a positive impact of weekly reminders in Kenya [7]. Impor-
+tantly, in Lester and colleagues, participants also received off-site clinician follow-up if they
+Fig 3. Criteria for determin ing self-repo rted outcomes.
+doi:10. 1371/journal .pone.016294 4.g003
+Impact of a Daily SMS Medicatio n Reminder System on Tuberculos is Treatment Outcomes
+PLOS ONE | DOI:10.1 371/journ al.pone.0162 944 November 1, 2016 9 / 13
+reported a problem or did not respond to the SMS [7, 21]. Not included in the reviews is Shet
+and colleagues who test weekly automated telephone reminders in India and find no significant
+effect [13].
+Table 3. Sub-grou p analys is using treatment success as the outcom e (2011–201 4, Karach i, Pakistan).
+Zindagi SMS
+Group
+Contro l
+Group
+Zindagi SMS naive FWER
+‡-
+adjusted
+Sub-grou p N % n % coefﬁcient p-value* p-value
+Sex
+Male 438 80% 468 81% -0.012 0.618 0.999
+Female 479 86% 435 84% 0.019 0.394 0.974
+Quality of care
+Indus Hospital 317 79% 301 78% 0.005 0.872 1
+GP Clinic/P rivate Lab 180 95% 167 87% 0.082 0.006
+†
+0.069
+Public TB Clinic 420 82% 435 84% -0.023 0.331 0.954
+Assigned a treatment supporter 89 87% 84 79% 0.080 0.124 0.698
+Not assigned a treatmen t supporter 793 84% 768 84% -0.004 0.815 1
+Reminded to take medicati on (with one month after enrolme nt) 355 82% 324 83% -0.011 0.689 1
+Not reminded to take medication (within one month after enrolme nt) 436 87% 446 84% 0.022 0.318 0.953
+Access to a mobile phone
+Own mobile phone 450 84% 474 84% -0.005 0.806 1
+Don’t own mobile phone 467 82% 429 81% 0.016 0.502 0.994
+No schooling 416 81% 381 80% 0.004 0.875 1
+Any schooling 461 88% 469 87% 0.006 0.758 1
+At least one literate person in the househ old 753 85% 744 84% 0.008 0.629 0.999
+No literate people in the household 129 80% 108 81% -0.016 0.736 1
+Can send SMS (within month of enrolmen t) 263 88% 232 87% 0.014 0.624 0.999
+Cannot send SMS (within ﬁrst month of enrolm ent) 528 83% 538 82% 0.001 0.958 1
+*Bonferro ni correction p-value (with 17 subgroups): 0.003
+†
+p<0.05
+‡
+Family-wise error rate
+20
+doi:10.13 71/journal.pone .0162944.t003
+Table 4. Secondar y outcomes between the Zindagi SMS and control groups (2011–201 4, Karach i Pakistan ).
+Took medication
+in the last 24
+hours
+†
+Perception s on likeliho od of
+being cured
+†
+(6 = very likely,
+1 = not likely)
+How healthy they felt
+†
+(5 = very healthy,
+1 = very unhealth y)
+Ease of completing
+tasks
+†
+(4 = no difﬁculty ,
+1 = lot of difﬁculty)
+How much suppor t was
+received
+†
+(4 = lot of
+support, 1 = no suppor t)
+Zindagi 0.002 -0.008 -0.012 -0.017 0.020
+Naïve p-
+value*
+0.772 0.473 0.423 0.036
+‡
+0.521
+FWER
+§
+adjusted p-
+value
+0.89 0.89 0.89 0.162 0.89
+N (surveys ) 11,301 9,560 11,324 11,235 1658
+N (patien ts) 2091 2068 2091 2088 1658
+*Bonferro ni correction p-value (with 5 hypothes es): 0.001
+†
+Controllin g for the length of the regimen , days in the study, and days in the study-s quared.
+‡
+p<0.05
+§
+Family-wise error rate [20]
+doi:10.13 71/journal.pone .0162944.t004
+Impact of a Daily SMS Medicatio n Reminder System on Tuberculos is Treatment Outcomes
+PLOS ONE | DOI:10.1 371/journ al.pone.0162 944 November 1, 2016 10 / 13
+Our study indicates that SMS reminders have no impact on treatment outcomes for patients
+with drug-sensitive tuberculosis. Participants could operate the system (85% responded at least
+once), but this did not translate into changed outcomes. We hypothesize that SMS reminders,
+intended to combat forgetfulness, did not address the underlying factors that contribute to
+patients leaving treatment. The steady decline of and the low mean of the response rate (29%)
+suggest that participants tired of daily reminders. It is possible that longer intervals between
+messages or greater off-site support for remote patients as in the Lester trial might be effective
+[7, 21–22]. SMS reminders could be more useful for reminding patients of clinic appointments;
+other forms of appointment reminders (telephone calls, home visits, letters) have helped tuber-
+culosis patients [23]. Finally, SMS reminders could be coupled with financial incentives to
+motivate patients to stay on course with treatment, especially given the important externalities
+to the community associated with a patient complying with their treatment regime. Our cur-
+rent study was initially intended to have an arm with incentives for medication adherence, but
+the technology to link SMS reminders with adherence had manufacturing challenges. Our
+results suggest pessimism for SMS medication reminders on their own.
+In conclusion, we found no impact of SMS reminders on treatment success in tuberculosis
+patients in the highest-powered such randomized control trial to date.
+Supporting Information
+S1 Appendix. Additional Sub-group Analysis Using Subgroup Indices.
+(DOCX)
+S1 File. CONSORT 2010 Checklist.
+(DOC)
+S2 File. Evaluating the Impact of Zindagi SMS on Treatment Outcomes of Tuberculosis: A
+Randomized Control Trial Protocol.
+(DOCX)
+Acknowledgments
+We thank Osman Siddiqi, Zuha Shaikh, Raheel Memon, Faraz Haqqi, Amjad Khan, Kafeel
+Zaheer, Owais Ali, and Nameer Jamillee for their role implementing this study. We thank our
+participating clinics, the NTP-Pakistan, and the PTP-Sindh, and especially Dr. Mateen Khan
+and Saira Khowaja, for their support throughout the study. We thank the International Initia-
+tive for Impact Evaluation for financial support. The funder had no role in the design and con-
+duct of the study; collection, management, analysis, and interpretation of the data; and
+preparation, review, or approval of the manuscript.
+Author Contributions
+Conceptualization: SM RG AJK.
+Data curation: SM.
+Formal analysis: SM RG.
+Funding acquisition: SM RG AJK.
+Methodology: SM RG.
+Project administration: SM.
+Impact of a Daily SMS Medicatio n Reminder System on Tuberculos is Treatment Outcomes
+PLOS ONE | DOI:10.1 371/journ al.pone.0162 944 November 1, 2016 11 / 13
+Supervision: RG.
+Writing – original draft: SM.
+Writing – review & editing: SM RG AJK.
+References
+1. World Health Organiza tion. Global Tuberculos is Report 2014. 2014. http://apps. who.int/iris/ bitstream/
+10665/13 7094/1/9789 241564809 _eng.pdf?ua =1 (accessed May 26, 2015).
+2. Volmink J, Garner P. Directly observed therapy for treating tuberculos is. Cochrane Database Syst Rev
+2007; 4: CD0033 43.
+3. Free C, Phillips G, Galli L, Watson L, Felix L, Edwards P, et al. The Effectivenes s of Mobile -Health
+Technology -Based Health Behaviour Change or Disease Manageme nt Intervent ions for Health Care
+Consume rs: A Systema tic Review. PLoS Med 2013; 10:1: e1001363. doi: 10.1371 /journal.pme d.
+1001363 PMID: 23458994
+4. Anglada-M artinez H, Riu-Viladom s G, Martin-Co nde M, Rovira-Illa mola M, Cotaca- Momblona JM,
+Codina-Ja ne C. Does mHealth Increase adherenc e to medicatio n? Results of a systemati c review. Int
+J Clin Pract 2014; 4: 1–24.
+5. Vervloet M, Linn AJ, van Weert JCM, de Bakker DH, Bouvy ML, van Dijk L. The effectiven ess of inter-
+ventions using electronic reminders to improve adherence to chronic medicatio n: a systematic review
+of the literature. J Am Med Inform Assoc 2012; 19(5): 696–704 . doi: 10.1136/am iajnl-2011- 000748
+PMID: 22534082
+6. De Jongh T, Gurol-Urg anci I, Codopivic-J amek V, Car J, Atun R. Mobile phone messag ing for facilitat -
+ing self-manag ement of long-term illnesses. Cochrane Databas e Syst Rev 2012; 12: CD0074 59. doi:
+10.1002/14 651858.CD00 7459.pub2 PMID: 2323564 4
+7. Lester RT, Ritvo P, Mills EJ, Kariri A, Karanja S, Chung MH, et al. Effects of a mobile phone short mes-
+sage service on antiretr oviral treatmen t adherenc e in Kenya (WelTel Kenya1): a randomised control
+trial. Lancet 2010; 376: 1838–45 . doi: 10.101 6/S0140-67 36(10)6199 7-6 PMID: 21071074
+8. Pop-Elech es C, Thirumurth y H, Habyarima na JP, Zivin JG, Goldstein MP, de Walque D, et al. Mobile
+phone technologie s improve adherenc e to antiretrovir al treatment in a resource-l imited setting: a ran-
+domized controlled trial of text message reminders. AIDS 2011; 25(6): 825–34. doi: 10.1097 /QAD.
+0b013e32 834380c1 PMID: 2125263 2
+9. Mbuagba w L, Thaban e L, Ongolo-Zog o P, Lester RT, Mills EJ, Smieja M, et al. The Cameroon Mobile
+SMS (CAMPS ) Trail: A Randomiz ed Trial of Text Messag ing versus Usual Care for Adherenc e to Anti-
+retroviral Therapy. PLoS One 2012; 7(12): 6–12.
+10. Finitsis DJ, Pellow ski JA, Johnson BT. Text messag e interventio n designs to promote adherenc e to
+antiretrovi ral therapy (ART): A meta-a nalysis of random ized controlled trials. PLoS One. 2014; 9(2).
+11. Mbuagba w L, van der Kop ML, Lester RT, Thirumurthy H, Pop-Elec hes C, Ye C, et al. Mobile phone
+text messages for improving adherenc e to antiretrovi ral therapy (ART): an individual patient data
+meta-analy sis of randomi sed trials. BMJ Open 2013; 3(12):e00 3950. doi: 10.1136/bm jopen-2013 -
+003950 PMID: 24345901
+12. Hovarth T, Azman H, Kennedy GE, Rutherford GW. Mobile phone text messaging for promot ing adher-
+ence to antiretr oviral therapy in patients with HIV infection . Cochrane Databas e Syst Rev 2012; 3:
+CD009756 .
+13. Shet A, De Costa A, Kumara samy N, Rodrigues R, Rewari BB, Ashorn P, et al. Effect of mobile phone
+reminder s on treatment outcome in HIV: evidence from a randomi sed controlled trial in India. BMJ
+2014; 347: g5978.
+14. Ahmed J, Skarbek S, Codlin A, Khan A, Mohaup t D. mHealth to improve TB care. Interactive Research
+and Developm ent Karachi. 2012. http://ww w.stoptb.o rg/assets/d ocuments/res ources/pu blications/
+acsm/mH ealth%20to% 20Improve% 20TB%20Ca re.pdf (accessed May 26, 2015).
+15. Nglazi MD, Bekker L-G, Wood R, Hussey GD, Wiysonge CS. Mobile phone text messaging for promot -
+ing adherenc e to anti-tubercu losis treatment: a systemati c review. BMC Infect Dis 2013; 13:566. doi:
+10.1186/14 71-2334-13 -566 PMID: 2429543 9
+16. Barclay E. Text message s could hasten tuberculo sis drug complian ce. Lancet 2009. 373: 15–6.
+PMID: 19125443
+17. Denkinger CM, Genier J, Stratis AK, Akkihal A, Pant-Pai N, Pai M. Mobile health to improve tuberculo-
+sis care and control: A call worth making. Int J Tuberc Lung Dis 2013; 17: 719–27. doi: 10.5588 /ijtld.
+12.0638 PMID: 2354123 2
+Impact of a Daily SMS Medicatio n Reminder System on Tuberculos is Treatment Outcomes
+PLOS ONE | DOI:10.1 371/journ al.pone.0162 944 November 1, 2016 12 / 13
+18. Liu X, Lewis JJ, Zhang H, Lu W, Zhang S, Zheng G, et al. Effectiv eness of Electronic Reminder s to
+Improve Medicatio n Adherenc e in Tuberc ulosis Patient s: A Cluster-Ran domised Trial. PLoS Med
+2015; 12(9): e100187 6. doi: 10.1371/jou rnal.pmed.1 001876 PMID: 2637247 0
+19. Mohamme d S, Siddiqi O, Ali O, Habib A, Haqqi F, Kausar M, et al. User engagem ent with and attitudes
+towards an interactive SMS reminder system for patients with tuberculos is. J Telemed Telecare 2012;
+18(7) 404–8. doi: 10.1258/jtt .2012.12031 1 PMID: 23034935
+20. Westfall P, Young S. Resampl ing-Based Multiple Testing. New York: Wiley; 1993.
+21. Lester RT. Ask, Don’t Tell—M obile Phones to Improve HIV Care. N Engl J Med 2013; 369: 1867–8.
+22. Mills EJ, Lester R, Thorlund K, Lorenzi M, Muldoon K, Kanters S, et al. Interventio ns to promot e adher-
+ence to antiretr oviral therapy in Africa: a network meta-a nalysis. Lancet HIV. Elsevier Ltd; 2014; 1(3):
+e104–11. doi: 10.1016 /S2352-301 8(14)00003 -4 PMID: 26424119
+23. Liu Q, Abba K, Alejandri a MM, Sinclair D, Balanag VM, Lansang MA. Reminder systems to improve
+patient adherence to tuberculos is clinic appointmen ts for diganosis and treatment. Cochrane Databas e
+Syst Rev 2014; 11:CD006594.
+Impact of a Daily SMS Medicatio n Reminder System on Tuberculos is Treatment Outcomes
+PLOS ONE | DOI:10.1 371/journ al.pone.0162 944 November 1, 2016 13 / 13

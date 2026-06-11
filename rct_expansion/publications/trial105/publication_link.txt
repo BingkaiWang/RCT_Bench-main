@@ -1,0 +1,5 @@
+Trial_ID: 105
+Paper Name: Data from: A 12-week exercise program for pregnant women with obesity to improve physical activity levels: an open randomised preliminary study
+Paper Link: https://doi.org/10.5061/dryad.87f03
+Citation: 
+Availability: PDF stored here when publicly available; otherwise this file records the publication link.

@@ -1,0 +1,5 @@
+Trial_ID: 102
+Paper Name: Data from: Adjunctive clindamycin for cellulitis: clinical trial comparing flucloxacillin with or without clindamycin for the treatment of limb cellulitis
+Paper Link: https://doi.org/10.5061/dryad.5q1j0
+Citation: 
+Availability: PDF stored here when publicly available; otherwise this file records the publication link.

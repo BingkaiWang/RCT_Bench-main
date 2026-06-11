@@ -1,0 +1,5 @@
+Trial_ID: 108
+Paper Name: Randomized trial of AKI alerts in hospitalized patients
+Paper Link: https://doi.org/10.5061/dryad.4f4qrfj95
+Citation: 
+Availability: PDF stored here when publicly available; otherwise this file records the publication link.

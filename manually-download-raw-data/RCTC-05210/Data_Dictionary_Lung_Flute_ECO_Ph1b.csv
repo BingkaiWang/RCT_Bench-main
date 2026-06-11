@@ -1,0 +1,124 @@
+﻿Column number,Variable name,Visit number (if applicable),Description,Value labels,Comments
+1,number,1,,1-1365,
+2,admin_seq,1,Allocated sequence of interventions,A-B; B-A,A- Video instruction only; B- Lung Flute ECO
+3,age_group,1,"Age group, in years",15-19; 20-24; 25-29; 30-34; 35-39; 40-44; 45-49; 50-54; 55-59; 60-64; 65-98,
+4,sex,1,Sex,1-Female ; 2-Male,
+5,bmi,1,Body mass index (kg/m2),<18.5; 18-5-24.9; >=25 ,
+6,hiv,1,HIV status,"0- Unknown (no test result in the last 3 months)
+1- Positive
+2- Negative (in the last 3 months)",
+7,current_cough,1,Reports current cough,0- No; 1-Yes,Current TB symptoms
+8,fever,1,Reports fever,0- No; 1-Yes,Current TB symptoms
+9,night_sweats,1,Reports night sweats,0- No; 1-Yes,Current TB symptoms
+10,weight_loss,1,Reports weight loss,0- No; 1-Yes,Current TB symptoms
+11,cough_medication,1,Reports taking cough medication now,0- No; 1-Yes,
+12,dizziness1,1,Do you have any dizziness now?,0- No; 1-Yes,Prior to sputum collection attempt
+13,gdizziness1,1,"If yes, indicate grade",1;2;3;4,Prior to sputum collection attempt
+14,headache1,1,Do you have a headache now?,0- No; 1-Yes,Prior to sputum collection attempt
+15,gheadache1,1,"If yes, indicate grade",1;2;3;4,Prior to sputum collection attempt
+16,sorethroat1,1,"Do you have a sore throat, or tightness in the throat now?",0- No; 1-Yes,Prior to sputum collection attempt
+17,gsorethroat1,1,"If yes, indicate grade",1;2;3;4,Prior to sputum collection attempt
+18,tightness1,1,"Do you have chest tightness, pain or pressure now?",0- No; 1-Yes,Prior to sputum collection attempt
+19,gtightness1,1,"If yes, indicate grade",1;2;3;4,Prior to sputum collection attempt
+20,cough1,1,Do you have cough now?,0- No; 1-Yes,Prior to sputum collection attempt
+21,gcough1,1,"If yes, indicate grade",1;2;3;4,Prior to sputum collection attempt
+22,shortness1,1,Do you have shortness of breath or wheezing now? ,0- No; 1-Yes,Prior to sputum collection attempt
+23,gshortness1,1,"If yes, indicate grade",1;2;3;4,Prior to sputum collection attempt
+24,nausea1,1,Do you have nausea now? ,0- No; 1-Yes,Prior to sputum collection attempt
+25,gnausea1,1,"If yes, indicate grade",1;2;3;4,Prior to sputum collection attempt
+26,vomiting1,1,Have you vomited today?,0- No; 1-Yes,Prior to sputum collection attempt
+27,gvomiting1,1,"If yes, indicate grade",1;2;3;4,Prior to sputum collection attempt
+28,fatigue1,1,Do you feel fatigue now?,0- No; 1-Yes,Prior to sputum collection attempt
+29,gfatigue1,1,"If yes, indicate grade",1;2;3;4,Prior to sputum collection attempt
+30,pain1,1,Do you have body pain now? (muscle or body aches),0- No; 1-Yes,Prior to sputum collection attempt
+31,gpain1,1,"If yes, indicate grade",1;2;3;4,Prior to sputum collection attempt
+32,tingling1,1,Do you feel a tingling or numbness in the body now? ,0- No; 1-Yes,Prior to sputum collection attempt
+33,gtingling1,1,"If yes, indicate grade",1;2;3;4,Prior to sputum collection attempt
+34,dizziness1_v2,1,Do you have any dizziness now?,0- No; 1-Yes,After sputum collection attempt
+35,gdizziness1_v2,1,"If yes, indicate grade",1;2;3;4,After sputum collection attempt
+36,headache1_v2,1,Do you have a headache now?,0- No; 1-Yes,After sputum collection attempt
+37,gheadache_v2,1,"If yes, indicate grade",1;2;3;4,After sputum collection attempt
+38,sorethroat1_v2,1,"Do you have a sore throat, or tightness in the throat now?",0- No; 1-Yes,After sputum collection attempt
+39,gsorethroat_v2,1,"If yes, indicate grade",1;2;3;4,After sputum collection attempt
+40,tightness1_v2,1,"Do you have chest tightness, pain or pressure now?",0- No; 1-Yes,After sputum collection attempt
+41,gtightness_v2,1,"If yes, indicate grade",1;2;3;4,After sputum collection attempt
+42,cough1_v2,1,Do you have cough now?,0- No; 1-Yes,After sputum collection attempt
+43,gcough_v2,1,"If yes, indicate grade",1;2;3;4,After sputum collection attempt
+44,shortness1_v2,1,Do you have shortness of breath or wheezing now? ,0- No; 1-Yes,After sputum collection attempt
+45,gshortness_v2,1,"If yes, indicate grade",1;2;3;4,After sputum collection attempt
+46,nausea1_v2,1,Do you have nausea now? ,0- No; 1-Yes,After sputum collection attempt
+47,gnausea_v2,1,"If yes, indicate grade",1;2;3;4,After sputum collection attempt
+48,vomiting1_v2,1,Have you vomited today?,0- No; 1-Yes,After sputum collection attempt
+49,gvomiting_v2,1,"If yes, indicate grade",1;2;3;4,After sputum collection attempt
+50,fatigue1_v2,1,Do you feel fatigue now?,0- No; 1-Yes,After sputum collection attempt
+51,gfatigue_v2,1,"If yes, indicate grade",1;2;3;4,After sputum collection attempt
+52,pain1_v2,1,Do you have body pain now? (muscle or body aches),0- No; 1-Yes,After sputum collection attempt
+53,gpain_v2,1,"If yes, indicate grade",1;2;3;4,After sputum collection attempt
+54,tingling1_v2,1,Do you feel a tingling or numbness in the body now? ,0- No; 1-Yes,After sputum collection attempt
+55,gtingling_v2,1,"If yes, indicate grade",1;2;3;4,After sputum collection attempt
+56,dizziness1_2,2,Do you have any dizziness now?,0- No; 1-Yes,Prior to sputum collection attempt
+57,gdizziness1_2,2,"If yes, indicate grade",1;2;3;4,Prior to sputum collection attempt
+58,headache1_2,2,Do you have a headache now?,0- No; 1-Yes,Prior to sputum collection attempt
+59,gheadache1_2,2,"If yes, indicate grade",1;2;3;4,Prior to sputum collection attempt
+60,sorethroat1_2,2,"Do you have a sore throat, or tightness in the throat now?",0- No; 1-Yes,Prior to sputum collection attempt
+61,gsorethroat1_2,2,"If yes, indicate grade",1;2;3;4,Prior to sputum collection attempt
+62,tightness1_2,2,"Do you have chest tightness, pain or pressure now?",0- No; 1-Yes,Prior to sputum collection attempt
+63,gtightness1_2,2,"If yes, indicate grade",1;2;3;4,Prior to sputum collection attempt
+64,cough1_2,2,Do you have cough now?,0- No; 1-Yes,Prior to sputum collection attempt
+65,gcough1_2,2,"If yes, indicate grade",1;2;3;4,Prior to sputum collection attempt
+66,shortness1_2,2,Do you have shortness of breath or wheezing now? ,0- No; 1-Yes,Prior to sputum collection attempt
+67,gshortness1_2,2,"If yes, indicate grade",1;2;3;4,Prior to sputum collection attempt
+68,nausea1_2,2,Do you have nausea now? ,0- No; 1-Yes,Prior to sputum collection attempt
+69,gnausea1_2,2,"If yes, indicate grade",1;2;3;4,Prior to sputum collection attempt
+70,vomiting1_2,2,Have you vomited today?,0- No; 1-Yes,Prior to sputum collection attempt
+71,gvomiting1_2,2,"If yes, indicate grade",1;2;3;4,Prior to sputum collection attempt
+72,fatigue1_2,2,Do you feel fatigue now?,0- No; 1-Yes,Prior to sputum collection attempt
+73,gfatigue1_2,2,"If yes, indicate grade",1;2;3;4,Prior to sputum collection attempt
+74,pain1_2,2,Do you have body pain now? (muscle or body aches),0- No; 1-Yes,Prior to sputum collection attempt
+75,gpain1_2,2,"If yes, indicate grade",1;2;3;4,Prior to sputum collection attempt
+76,tingling1_2,2,Do you feel a tingling or numbness in the body now? ,0- No; 1-Yes,Prior to sputum collection attempt
+77,gtingling1_2,2,"If yes, indicate grade",1;2;3;4,Prior to sputum collection attempt
+78,dizziness1_v2_2,2,Do you have any dizziness now?,0- No; 1-Yes,After sputum collection attempt
+79,gdizziness1_v2_2,2,"If yes, indicate grade",1;2;3;4,After sputum collection attempt
+80,headache1_v2_2,2,Do you have a headache now?,0- No; 1-Yes,After sputum collection attempt
+81,gheadache_v2_2,2,"If yes, indicate grade",1;2;3;4,After sputum collection attempt
+82,sorethroat1_v2_2,2,"Do you have a sore throat, or tightness in the throat now?",0- No; 1-Yes,After sputum collection attempt
+83,gsorethroat_v2_2,2,"If yes, indicate grade",1;2;3;4,After sputum collection attempt
+84,tightness1_v2_2,2,"Do you have chest tightness, pain or pressure now?",0- No; 1-Yes,After sputum collection attempt
+85,gtightness_v2_2,2,"If yes, indicate grade",1;2;3;4,After sputum collection attempt
+86,cough1_v2_2,2,Do you have cough now?,0- No; 1-Yes,After sputum collection attempt
+87,gcough_v2_2,2,"If yes, indicate grade",1;2;3;4,After sputum collection attempt
+88,shortness1_v2_2,2,Do you have shortness of breath or wheezing now? ,0- No; 1-Yes,After sputum collection attempt
+89,gshortness_v2_2,2,"If yes, indicate grade",1;2;3;4,After sputum collection attempt
+90,nausea1_v2_2,2,Do you have nausea now? ,0- No; 1-Yes,After sputum collection attempt
+91,gnausea_v2_2,2,"If yes, indicate grade",1;2;3;4,After sputum collection attempt
+92,vomiting1_v2_2,2,Have you vomited today?,0- No; 1-Yes,After sputum collection attempt
+93,gvomiting_v2_2,2,"If yes, indicate grade",1;2;3;4,After sputum collection attempt
+94,fatigue1_v2_2,2,Do you feel fatigue now?,0- No; 1-Yes,After sputum collection attempt
+95,gfatigue_v2_2,2,"If yes, indicate grade",1;2;3;4,After sputum collection attempt
+96,pain1_v2_2,2,Do you have body pain now? (muscle or body aches),0- No; 1-Yes,After sputum collection attempt
+97,gpain_v2_2,2,"If yes, indicate grade",1;2;3;4,After sputum collection attempt
+98,tingling1_v2_2,2,Do you feel a tingling or numbness in the body now? ,0- No; 1-Yes,After sputum collection attempt
+99,gtingling_v2_2,2,"If yes, indicate grade",1;2;3;4,After sputum collection attempt
+100,understand_instructions,N/A,I could understand the instructions for the Lung Flute ECO,1- Disagree; 2- Agree,After use of Lung Flute ECO
+101,able_to_blow,N/A,I was able to blow into the Lung Flute ECO and make a sound ,1- Disagree; 2- Agree,After use of Lung Flute ECO
+102,comfortable_blowing,N/A,I felt comfortable blowing into the Lung Flute ECO,1- Disagree; 2- Agree,After use of Lung Flute ECO
+103,produce_a_sample,N/A,The Lung Flute ECO helped me to produce a sample,1- Disagree; 2- Agree,After use of Lung Flute ECO
+104,time_it_took,N/A,The time it took to learn to use the Lung Flute ECO was acceptable,1- Disagree; 2- Agree,After use of Lung Flute ECO
+105,made_me_dizzy,N/A,Use of the Lung Flute ECO made me dizzy or short of breath ,1- Disagree; 2- Agree,After use of Lung Flute ECO
+106,embarrassing,N/A,Use of the Lung Flute ECO was embarrassing,1- Disagree; 2- Agree,After use of Lung Flute ECO
+107,clear_my_lungs,N/A,The Lung Flute ECO helped clear my lungs,1- Disagree; 2- Agree,After use of Lung Flute ECO
+108,no_difference,N/A,Use of the Lung Flute ECO did not make a big difference to help me produce sputum ,1- Disagree; 2- Agree,After use of Lung Flute ECO
+109,not_understand,N/A,I did not understand what I was asked to do with the Lung Flute ECO,1- Disagree; 2- Agree,After use of Lung Flute ECO
+110,recommend,N/A,I would recommend the Lung Flute ECO to others,1- Disagree; 2- Agree,After use of Lung Flute ECO
+111,thrown_away,N/A,The Lung Flute ECO is used by one person and then thrown away,1- Disagree; 2- Agree,After use of Lung Flute ECO
+112,sputumlocquant1,1,"Volume of sputum #1, as read by blinded local reader",0- <=1mL; 1- >1mL,"Grouped to binary outcome from semi-quantitative reads (<=1mL, >1mL-2mL, >2ml-3ml, >3mL-4mL, >4mL"
+113,sputumlocqual1,1,"Quality of sputum #1, as read by blinded local reader",1- Mucoid; 2- Purulent,"Grouped to Mucoid (M1 or M2) or Purulent (P1, P2, P3)"
+114,sputumlocquant2,2,"Volume of sputum #2, as read by blinded local reader",0- <=1mL; 1- >1mL,"Grouped to binary outcome from semi-quantitative reads (<=1mL, >1mL-2mL, >2ml-3ml, >3mL-4mL, >4mL"
+115,sputumlocqual2,2,"Quality of sputum #2, as read by blinded local reader",1- Mucoid; 2- Purulent,"Grouped to Mucoid (M1 or M2) or Purulent (P1, P2, P3)"
+116,sputumextcombfin1,1,"Volume of sputum #1, as read by blinded external reader",0- <=1mL; 1- >1mL,"Grouped to binary outcome from semi-quantitative reads (<=1mL, >1mL-2mL, >2ml-3ml, >3mL-4mL, >4mL"
+117,sputumextcombfin2,2,"Volume of sputum #2, as read by blinded external reader",0- <=1mL; 1- >1mL,"Grouped to binary outcome from semi-quantitative reads (<=1mL, >1mL-2mL, >2ml-3ml, >3mL-4mL, >4mL"
+118,screen_failure,N/A,Participant classified as screen failure,0- No; 1-Yes,
+119,early_exclusion_total,N/A,Participant classified as early exclusion,0- No; 1-Yes,
+120,missing_data,N/A,Data not complete for inclusion in primary outcome,0- No; 1-Yes,
+121,SiteNum,N/A,Site number,1;2;3;4;5;6;7;8,

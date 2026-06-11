@@ -1,0 +1,1384 @@
+R E S E A R C H A R T I C L E Open Access
+Impact of a community pharmacist-led
+medication review on medicines use in
+patients on polypharmacy - a prospective
+randomised controlled trial
+Markus Messerli 1*, Eva Blozik 2, Noortje Vriends 3 and Kurt E. Hersberger 1
+Abstract
+Background: In 2010 the ‘Polymedication Check’ (PMC), a pharmacist-led medication review, was newly introduced to
+be delivered independently from the prescriber and reimbursed by the Swiss health insurances. This study aimed at
+evaluating the impact of this new cognitive service focusing on medicines use and patients ’ adherence in everyday life.
+Methods: This randomised controlled trial was conducted in 54 Swiss community pharmacies. Eligible patients used
+≥4 prescribed medicines over >3 months. The intervention group received a PMC at study start (T-0) and after
+28 weeks (T-28) while the control group received only a PMC at T-28.
+Primary outcome measure was change in patients ’ objective adherence, calculated as Medication Possession
+Ratio (MPR) and Daily Polypharmacy Possession Ratio (DPPR), using refill data from the pharmacies and
+patient information of dosing.
+Subjective adherence was assessed as secondary outcome by self-report questionnaires (at T-0 and T-28) and
+telephone interviews (at T-2 and T-16), where participants estimated their overall adherence on a scale from 0 –100 %.
+Results and discussion: A total of 450 patients were randomly allocated to intervention ( N = 218, 48.4 %) and
+control group ( N = 232, 51.6 %). Dropout rate was fairly low and comparable for both groups ( NInt = 3 7( 1 7 . 0% ) ,
+NCont =4 1 ( 1 7 . 7 % ) ,p = 0.845). Main addressed drug-related probl em (DRP) during PMC at T-0 was insufficient
+a d h e r e n c et oa tl e a s to n em e d i c i n e(N = 69, 26.7 %). At T-28, 1020 chronic therapies fulfilled inclusion criteria for
+MPR calculation, representing 293 of 372 patients (78. 8 %). Mean MPR and adherence to polypharmacy (DPPR) for
+both groups were equally high (MPR Int = 88.3, SD = 19.03; MPR Cont = 87.5, SD = 20.75 ( p = 0.811) and DPPR Int = 88.0,
+SD = 13.31; DPPR Cont = 87.5, SD = 20.75 ( p = 0.906), respectively).
+M e a na b s o l u t ec h a n g eo fs u b j e c t i v ea d h e r e n c eb e t w e e nT - 0a n dT - 2w a s+ 1 . 0 3%i nt h ei n t e r v e n t i o na n d
+−0.41 % in the control group ( p = 0.058). The number of patients reporting a change of their adherence of more
+than ±5 points on a scale 0 –100 % between T-0 and T-2 was significantly higher in the intervention group
+(NImprovement = 30; N Worsening = 14) than in the control group (N Improvement = 20; N Worsening = 24; p = 0.028).
+Conclusion: T h r o u g ht h eP M Cp h a r m a c i s tw e r ea b l et oi d e n t i fy a significant number of DRPs. Participants
+showed high baseline objective adherence of 87.5 %, providing little potential for improvement. Hence, no
+significant increase of objective adherence was observed. However, regarding changes in subjective
+adherence of more than ±5 % the PMC showed a positive effect.
+(Continued on next page)
+* Correspondence: markus.messerli@unibas.ch
+1Pharmaceutical Care Research Group, Department of Pharmaceutical
+Sciences, University of Basel, Basel, Switzerland
+Full list of author information is available at the end of the article
+© 2016 Messerli et al. Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0
+International License (http://creativecommons.org/licenses/by/4.0/), which permits unrestricted use, distribution, and
+reproduction in any medium, provided you give appropriate credit to the original author(s) and the source, provide a link to
+the Creative Commons license, and indicate if changes were made. The Creative Commons Public Domain Dedication waiver
+(http://creativecommons.org/publicdomain/zero/1.0/) applies to the data made available in this article, unless otherwise stated.
+Messerli et al. BMC Health Services Research  (2016) 16:145 
+DOI 10.1186/s12913-016-1384-8
+(Continued from previous page)
+Trial registration: Clinical trial registry database, NCT01739816; first entry on November 27, 2012.
+Keywords: Polypharmacy, Community pharmacy, Medication review, Drug-related problems, Adherence to
+medication, Medicines use, Pharmaceutical care
+Background
+Increasing complexity of both, the therapy (polyphar-
+macy) and the patient (multimorbidity) raises the risk
+for drug-related problems with adverse events and
+medication errors [1, 2]. Avoidable problems usually do
+not result from individual misconduct, but from subopti-
+mal processes. Drug-related morbidity as a result of these
+risks is associated with high healthcare costs [3 –5].
+Situations with a high risk for drug-related problems
+(DRP) include polypharmacy, significant changes in drug
+therapy or changes in existing diseases, insufficient re-
+sponse to drug therapy, suspected lack of therapy, symp-
+toms of side effects, as well as discharge from hospital
+with a change of drug therapy [6, 7]. One approach to
+reduce the risks for developing DRP is to conduct medica-
+tion reviews [8 –10]. A worldwide shift in the professional
+role of pharmacists is observed [11]. Pharmacists partici-
+pate increasingly in clinical processes and perform tasks
+in patient care. This transformation of the profession in-
+cludes co-responsibility in the achievement of therapeutic
+success, cost efficiency and avoidance of drug-induced
+(re)hospitalisation. Accordingly, the Pharmaceutical Care
+Network Europe (PCNE) felt the need to redefine
+pharmaceutical care as “the pharmacist's contribution to
+the care of individuals in order to optimise medicines
+use and improve health outcomes ” [12]. In the early
+1990s, pharmaceutical care was introduced in community
+pharmacy practice in Switzerland. Emphasis was given to
+providing patient-centred care and cognitive services [13].
+A postgraduate education program and mandatory
+continuous education were launched together with
+changes to pharmacists ’ remuneration, which link pay-
+ments to services delivered and not only to the volumes of
+medicines dispensed. In 2010, the current remuneration
+system was introduced, which defines a fee schedule for a
+total of nine distinct services. Among these services the so
+called ‘Polymedication Check ’ (PMC) was newly intro-
+duced as the first cognitive service to be delivered by
+pharmacists independently of the prescriber for patients
+on ≥ 4 prescribed drugs taken over ≥ 3 months. In addition,
+the pharmacist may suggest - among other interventions -
+to provide the medicines in a weekly dosing aid (WDA)
+refilled by the pharmacy. Both services, the PMC and
+the weekly filling of a dosing aid by the pharmacist
+are reimbursed by the health insurance in the basic
+insurance. Moreover, the current regulation allows
+repeated dispensing of prescribed medicines for a
+maximum of 12 months. Currently, such prescriptions
+constitute nearly 75 % of all items dispensed [14].
+Hence, Swiss community pharmacies assume very
+responsible roles in the care of chronic patients.
+Adherence and consequences of non-adherence
+Approximately 25 % of patients with different diseases do
+not take their medication as prescribed, although the
+extent varies between 0 –95 % [15]. On average, adherence
+in long-term therapy is 50 % [16]. Lack of adherence is the
+most common cause of the efficacy-effectiveness gap [17],
+defined as the gap between therapy efficacy in daily life
+compared to the effectiveness shown in clinical trials.
+Previous studies have shown a positive impact of
+structured interventions to improve adherence provided
+by pharmacists [18, 19]. But there is still little evidence
+related to the effectiveness of interventions performed
+in community pharmacies. A recent Cochrane review
+revealed that only a minority of studies with lowest risk of
+bias (RCT design) improved both adherence and clinical
+outcomes [20]. However, adherence as an outcome re-
+mains challenging to measure because of methodological
+issues and multifactorial influences [21]. Support of
+adherence to treatment is only successful if the entire
+medication is taken into account. Therefore, conducting
+a medication review is the essential first step in any
+adherence counseling.
+Medication review
+According to the current PCNE definition, a medication
+review is ‘an evaluation of a patient ‘s medicines with the
+aim of optimising medicines use and improving health
+outcomes. This entails detecting drug-related problems
+and recommending interventions. ’ [22]. The analysis in a
+medication review always includes an inventory of current
+medicines, a history of complaints, their course, a patient ’s
+concerns and individual needs for support. With respect
+to the pharmaceutical care process [12, 23], the medica-
+tion review is the starting point leading to the suggestion
+of solutions, the planning and implementation of inter-
+ventions and ultimately to the evaluation of the outcomes
+[24]. Pharmacist-led medication review services are avail-
+able in several countries such as the United Kingdom
+(Medicines Use Review, MUR) [25], United States of
+America (Medication Therapy Management, MTM)
+Messerli et al. BMC Health Services Research  (2016) 16:145 Page 2 of 16
+[26, 27], Australia (Home Medication Review, HMR)
+[28], Canada (MedsCheck) [29, 30], and New Zealand
+(Medicines Use Review, MUR) [31]. According to a
+recent meta-analysis, a majority (57.9 %) of fee-for-
+service pharmacist-led medication reviews improved
+medication adherence and positively influenced pa-
+tient outcomes [24].
+The Polymedication Check
+The Swiss Polymedication Check (PMC) is based on the
+well-established Medicines Use Review (MUR) from
+United Kingdom [32, 33]. Information is available from
+the medication history, which is mandatorily kept in
+community pharmacies and from a structured patient
+interview. The Swiss PMC focuses on adherence prob-
+lems, patients ’ knowledge and handling problems and is
+followed by specific interventions or recommendations
+by the pharmacist. Implementation of such cognitive
+services provided by a pharmacist is known to be very
+challenging [34 –36]. The same is true for Swiss com-
+munity pharmacies. Implementation of the PMC is
+low and after three years only about three checks per
+pharmacy per year were registered, with a large ma-
+jority of pharmacies not offering this service. While
+in 2011 2 ’534 PMCs were carried out, in 2014 the
+number of PMCs provided amounted at 6'940 PMCs
+[37], which is an encouraging trend.
+Rationale for the study
+In Switzerland, new services remunerated by the basic
+health insurance require a proof of their efficacy, appro-
+priateness, and economic effectiveness according
+national criteria [38]. The present study aimed at investi-
+gating the impact of the PMC on patients on poly-
+pharmacy. It was hypothesised that PMC would increase
+objective and subjective adherence in a community
+sample.
+Methods
+Trial design
+A prospective, parallel group randomised controlled trial
+(RCT) design was chosen to evaluate the impact of
+the PMC. Contemporaneously, an in-depth evaluation of
+the process and the perspectives of patients and pharma-
+cists was planned to collect information for further
+development of the service. The study setting considered
+community pharmacies in a range of representative
+regions of Switzerland (with and without self-dispensing
+physicians, city versus country, German-speaking part
+(D-CH) versus French-speaking part of Switzerland
+(F-CH)). For each patient the observation period lasted
+28 weeks from study start (T-0) until study end (T-28).
+Eligibility for study pharmacists
+The recruitment of 70 pharmacists was intended; thus,
+community pharmacies in the cantons Aargau (AG),
+Basel-Land (BL), Basel-Stadt (BS), Solothurn (SO),
+Fribourg (FR), Neuchâtel (NE), Genève (GE), Vaud (VD)
+und Valais (VS) were invited to participate in the study.
+Basing on the principle of "first in, first served", the ideal
+recruiting target was 50 pharmacists from the German
+speaking and 20 from the French speaking part of
+Switzerland in line with the national proportion of the
+population. Study pharmacists were required to take part
+in a study-specific training, and to give written consent
+regarding the study design as well as a memorandum of
+understanding through the pharmacy owner to collabor-
+ate on the project until the end of study; in addition,
+t h e yw e r ea s k e dt oc o m m i tt ot r a n s f e rp a t i e n t’s refill
+data to the study centre, and to collaborate with ei-
+ther IFAK or OFAC (the two main clearing compan-
+ies in Switzerland administering the charges between
+pharmacies and health insurance and therefore also
+holding the corresponding patient data). The three-
+hour training session provided by the study centre in-
+cluded an overview over the study, highlighted the
+need for compliance to the study protocol, and clari-
+fied rights and responsibilities of the study pharma-
+cists. No further training on the execution of a PMC
+w a so f f e r e da st h es t u d ya i m e da ta s s e s s i n ga n d
+evaluating current practice.
+Screening for eligible patients
+In order to avoid selection bias through study pharma-
+cist (e.g. Individual prejudices, preferences), a random
+sample of 100 potential PMC candidates (age >18, ≥4
+prescribed drugs for ≥3 months) was created for each
+study pharmacy in collaboration with the two main
+clearing companies IFAK and OFAC. The latter per-
+formed an independent screening for each study phar-
+macy and listed all patients fulfilling the selection
+criteria for a PMC. Out of this sample of potential PMC
+candidates, a random primary sample of 100 was se-
+lected by IFAK and OFAC (Fig. 1).
+Patient recruitment
+The study pharmacist checked this primary sample for
+exclusion criteria and consecutively invited subsamples
+of ten patients by a letter to participate in the study.
+Exclusion criteria for final recruitment were the following:
+living in a retirement home, prior PMC, receiving weekly
+dosing aids filled by the pharmacy or another person,
+cognitive impairment, move or death, insufficient know-
+ledge of written and spoken German or French. In addition,
+study pharmacists re-checked if a patient met the primary
+inclusion criteria. The study centre received informa-
+tion on gender, date of birth and the reasons for
+Messerli et al. BMC Health Services Research  (2016) 16:145 Page 3 of 16
+exclusion of a patient. If the patient had expressed
+his interest in the participation, the study pharmacist
+informed him about the schedule, potential risks, and
+compensation and handed over the declaration of
+consent.
+Randomisation process
+The patients were assigned by 2 x 4 block randomisation
+into intervention or control group. Initially, each study
+pharmacist received two blocks containing eight dos-
+siers (four intervention and four control) each packed
+in sealed and unlabelled envelopes. Once the first
+patient had consented, the study pharmacist opened
+one envelope out of the first block to reveal what
+arm of the study the patient had been randomised to.
+Once all eight envelopes of block No. 1 had been
+assigned, the next block was used. Upon request, fur-
+ther blocks were available.
+Structure of the intervention vs usual care
+The intervention at T-0 included the execution of a
+PMC according to the official guidelines. The adapted
+study PMC protocol was used as assessment form. In a
+structured face-to-face counselling with the patient, the
+Fig. 1 Study flow chart with screening and recruitment process
+Messerli et al. BMC Health Services Research  (2016) 16:145 Page 4 of 16
+study pharmacists screened all medicines currently used.
+The pharmacists checked for any gaps in knowledge or
+other pharmaceutical care issues including handling and
+adherence problems. The interview took place in a sepa-
+rated area. Pharmacists were instructed to use open
+questions to detect pharmaceutical care issues and to
+decide if there was need for further investigation. For
+each medication, the PMC protocol (Additional file 1)
+required documentation whether the patient knew the
+reason why he/she took the medicines (yes/no), if he/she
+needed any counselling (yes/no) or had adherence prob-
+lems (yes/no). Additionally, handling difficulties were
+enquired, and the pharmacist documented all resulting
+interventions such as consultation with the general prac-
+titioner (GP), referral of the patient, potential suggestion
+and implementation of a weekly dose reminder system,
+or any other recommendations or interventions. Where
+necessary, an individual patient education and a medica-
+tion plan could be provided on the basis of the informa-
+tion gained from the interview. None of this follow-up
+interventions was standardised.
+Usual care included no specific intervention and no
+documentation at T-0. Patients of the control group only
+received the two self-report questionnaires at study start
+and study end, and the two telephone interviews.
+Normal counseling for any new prescription or arising
+question from the patient was always allowed and guar-
+anteed, so patients from this arm were not restricted
+from contacting the pharmacist for advice if they wished
+to do so. If a PMC became indispensable during the
+study period (e.g. by another pharmacist than the study
+pharmacist), this patient of the control group was ex-
+cluded. Overall, the study took seven months for each
+patient and included two visits at the pharmacy with the
+completion of questionnaires and participation in two
+telephone interviews. Patients were able to contact the
+study centre in case of further interest for the study pur-
+poses or any problem with the study process (e.g. missed
+telephone interview) using a separate telephone hotline
+available 24 h seven days a week.
+Classification of detected drug-related problems and
+addressed interventions
+To classify the addressed drug-related problems and
+describe the pharmacists ’ interventions, the GSASA
+classification tool was used [39] This instrument com-
+prises five main categories: i) problem, ii) type of prob-
+lem, iii) cause, iv) intervention, and v) outcome. We
+adapted the category ‘causes’ by dividing the section
+‘Insufficient knowledge of the patient ’ into three subdo-
+mains focussing on patients ’ individual needs for infor-
+mation about a) safe and effective use of his medicines
+b) the medicines ’ potential adverse drug reactions c) his
+lifestyle, nutrition or empowerment in general. Further
+on, we added the category ‘More cost-effective therapy
+available’ as the recommendation of generic drugs might
+be likely triggered throughout a PMC.
+Case report forms for study pharmacists
+In order to support study pharmacists in their compli-
+ance to the study protocol and to ensure coherent data
+capture, case report forms (CRF) were developed. The
+study pharmacist documented his interventions or rec-
+ommendations resulting from PMC, classified the
+underlying problems according to their urgency (low,
+medium, high urgency) added any abnormalities or
+changes in the care of the patient.
+PMC protocol form
+We used the official documentation form for PMC with
+minor changes to ease data capture for the purpose of
+the study (Additional file 1). This assessment form still
+showed the format of one A4 side. At study end (T-28),
+in addition to the PMC protocol the study pharmacist
+documented observed drug-related problems, the fre-
+quency of falls, and all changes in therapies since T-0
+reported by the patient (dosage change, generic substitu-
+tion, start/stop, no change). The documentation of these
+changes was needed to identify eligible therapies for
+objective adherence calculation.
+Patient self-report questionnaires
+Patient self-report questionnaires were developed to
+collect demographic data (age, gender, living situation,
+education and employment status, smoking status), but
+also to describe his limitations in executing everyday
+activities (four items extracted form of the Disabilities
+of the Arm, Shoulder and Hand (DASH) questionnaire
+[40]) and assess his subjective adherence at T-0 and
+T-28. The patient therefore had to assess his adherence
+to all his prescribed medicines for the last two weeks
+using a visual analogue scale (VAS AD)0 –100 mm repre-
+senting 0 for ‘taken none ’ and 100 for ‘taken all my med-
+icines’. Patients were asked to fill in the questionnaires
+in the pharmacy at T-0 and T-28, seal them in an enve-
+lope and return the envelope to the study pharmacist.
+Thus, the study pharmacists had no knowledge of the
+responses given by their patients.
+Telephone interviews
+In collaboration with a clinical psychologist and an
+economist, two comprehensive in-depth patient tele-
+phone interviews were developed aiming at monitoring
+possible impact of the intervention on patient ’s know-
+ledge and medicines use. After literature research, the
+Rob Horne ’s ‘Beliefs about Medicines Questionnaire ’
+[41] and two questions out of the ‘8-item Morisky Medi-
+cation Adherence Scale ’ (German version, 8-MMAS-D)
+Messerli et al. BMC Health Services Research  (2016) 16:145 Page 5 of 16
+[42] were defined as suitable to be used as validated
+questionnaires fulfilling our criteria for telephone inter-
+view 1. In addition, we developed new rating questions
+to report their adherence to their therapy management.
+Patient had to answer the same question as in the pa-
+tient questionnaire T-0 to describe their adherence, but
+in a spoken percentage value. We also chose consistently
+a 10-item Likert scale. Options ranged from 1 (= ‘not at
+all’)t o1 0( = ‘very much’). The response category ‘no an-
+swer’ was always available. Number of open questions
+(N = 7) was limited to ease documentation.
+The first telephone interview contained 58 questions,
+divided into five sections: i) knowledge of their medi-
+cines and daily use, ii) subjective adherence estimation/
+use of reminder devices, iii) visits at general practi-
+tioner/hospital, iv) beliefs about medicines question-
+naire, v) support by pharmacists. The interview 2
+contained 53 questions, divided into the same sections
+as in the first interview. Compared with the first inter-
+view, 18 questions were excluded and 13 new questions
+were added. The telephone interviews were carried out
+two (T-2) and 16 weeks (T-16) after study start by clin-
+ical psychologists. The interviewers were blinded to the
+intervention and without any knowledge of the content
+of the PMC or the patient ’s questionnaire T-0. A tele-
+phone interviewer ’s coaching and monitoring of compli-
+ance with the study protocol was continuously provided
+by an independent academic psychologist as external ex-
+pert. A structured interview guide was created using the
+software program Flexiform 2.6.9 to enable data entry
+during the interview. Piloting of all study documents
+and preparation of telephone interviews (recruiting in-
+terviewers, briefing and test interviews) were carried out
+in collaboration with the department of psychology of
+the University of Basel. All survey instruments were
+translated into French and retranslated into German to
+check for differences.
+Objective adherence measurement
+Objective adherence rates based on refill data of the
+pharmacies and patient reported dosing regimen. Two
+methods for objective adherence calculation were used:
+a) Medication Possession Ratio (MPR) [43], calculated
+by dividing the days ’ supply of a medication dispensed
+by the number of days in the time interval of interest,
+representing the adherence per each medicine and b)
+Daily Polypharmacy Possession Ratio (DPPR) [44], the
+proportion of time a patient had medication available for
+use by considering the presence or absence of multiple
+medications on each day in the observation period,
+representing the adherence per patient with his chronic
+polypharmacy. In this analysis only medicines were in-
+cluded, of which the patient reported at T-28 a daily use
+over the whole study period. Only oral drug forms with
+definite dosage where considered. Further, a prescription
+for the medicine had to be redeemed at least once before
+T-0. Therapies were excluded if prescribed by self-
+dispensing physicians (cantons BL/SO), changed in dos-
+age during study period, chronic ‘on demand therapies ’
+(namely pain killers (ATC N02 and M01A), anxiolytics
+(ATC N05BA), or magnesium supplements (ATC
+A12CC). Also creams or drops where excluded from
+analysis due to imprecise assumption concerning dosing
+regimen. According to the theoretical calculation for
+both, the MPR and the DPPR, refill data was exported
+from the patient ’s pharmacy. The export included the
+history of patient ’s refills from at least 200 days before
+T-0 and the study period (T0 to T28, 196 days). For each
+dispensed medicine, the export comprised the date of re-
+fill, a product unique identifier number (pharmacode),
+the drugs ’ ATC-Code, and the number of packages deliv-
+ered. Subsequently, the pharmacode was matched with
+the Swiss index database GALDAT®/pharmINDEX® [45]
+to add the products ’ package size (number of tablets)
+and complemented with the patient reported dosing
+regimen at T-28 (taken from the PMC protocol of both,
+intervention and control group). The calculation algo-
+rithm started with a look-back loop of 200 days before
+T-0 taking any packages of medicines postponed to the
+patient, equalising the fact that the patient was already
+on therapy before study start. As in previous trials, ob-
+jective non-adherence was defined as MPR <80 % [46].
+Also for the patient ’s individualised aggregated measure
+DPPR, the cut-off for non-adherence was set <80 %.
+Subjective adherence measurement
+Subjective non-adherence was defined in patient re-
+ported questionnaires (T-0 and T-28) as VAS AD <100 m,
+in telephone interview 1 and 2 as Likert scale <10 and in
+telephone interview 2 additionally as 8-MMAS-D <6.00.
+Unplanned visits at the general practitioner/hospital
+In order to evaluate a negative impact on the health sys-
+tem, patients ’ unplanned visits at the general practitioner
+or hospital were assessed within the patient ’ self-report
+at T-0 and T-28 and during telephone interview at
+T-2 and T-16.
+Sample size
+To determine the required sample size, a power analysis
+was conducted. In the present study, the null hypothesis
+is rejected if the primary outcome adherence (as mea-
+sured by MPR) improves by 5 % through the PMC on an
+assumed baseline MPR of 60 %. These suggestions were
+based on experiences from comparable projects [47].
+We assumed a standard deviation of 20 % for both
+groups and used the conventional alpha error of 5 %. To
+have a statistical power of 80 % we would require 252
+Messerli et al. BMC Health Services Research  (2016) 16:145 Page 6 of 16
+patients at T-28 in each group. Assuming a dropout
+rate of 35 % [48], this would lead to a total sample
+size of 780 at T-0 (calculated with http://sampsize.-
+sourceforge.net). Thus, we expected from each study
+pharmacists an enrolment of 10 –20 patients. There
+was no minimal/maximal number for recruited pa-
+tients per study pharmacist.
+Statistical methods
+Frequencies were evaluated using the chi-square test, or-
+dinal scales were tested with the non-parametrical
+Mann-Whitney-U-test. The time course of the various
+endpoints was calculated using a general linear model
+(GLM) for repeated measurement method. The study
+groups were recorded as between-subject variable and
+the course of the corresponding values as within-subject
+variable in the model. In case of many missing values,
+individual templates mixed models analysis was chosen
+as an alternative method. All statistical tests were two-
+sided with a significance level of 5 %.
+Handling missing data
+The intention-to-treat analysis included all enrolled sub-
+jects, divided into intervention and control groups. Pa-
+tients were rated as a drop out when they were excluded
+at their request or when they were no longer available at
+study end. Reasons for drop out were documented if
+available. Patients who missed one or both telephone in-
+terviews remained in the study.
+Ethical approval
+The study was approved by the responsible local ethic
+commission ‘Ethikkommission beider Basel (EKBB) ’
+(23.05.2012, registry number EKBB 50/12) as the leading
+committee for this multicentre study. Following the
+positive decision from the EKBB, the project was also
+approved by the local ethics committees of the following
+cantons: AG/SO (26.11.2012), VS (05.03.2013), VD/NE
+(12.03.2013), GE (22.03.2013), and FR (25.03.2013). The
+study was registered with the https://clinicaltrials.gov/
+trials database (NCT 01739816). The fee for providing
+the PMC was covered by basic health care insurance.
+Study pharmacists received a compensation of CHF 150
+for participating in the training session and CHF 50 for
+the delivery of each complete patient data set. Patients
+were paid CHF 20 for their time spent for the telephone
+interviews, and as a compensation for obligatory co-
+payment to the PMC-fee.
+Results
+Implementation of the study
+Patient recruitment was conducted in three stages (BS,
+BL: July 2012 – February 2013, AG, SO: December 2012
+– July 2013, the French speaking cantons (VS, VD, NE,
+GE, and FR): April 2013 – October 2013) and ended in
+April 2014 with the last patient completing the study
+protocol.
+Recruitment of study pharmacists and study pharmacies
+Of 413 pharmacies invited for participation (N BS/BL =
+110; N AG/SO = 135; N VS/VD/NE/GE/FR = 168), 70 pharma-
+cists signed the informed consent and were trained to
+follow the study protocol. In the end, 64 pharmacists
+(91.4 %) from 54 different pharmacies took part in the
+study (Table 1). Pharmacies were more or less evenly
+distributed between central ( N = 15, 27.8 %), peripheral
+(N = 16, 29.6 %) and urban settings ( N = 23, 42.6 %) as
+well as between being independent ( N = 17, 31.5 %), be-
+longing to a group ( N = 23, 42.6 %), and belonging to a
+chain ( N = 14, 25.9 %). A majority of 75 % of study phar-
+macists were women ( N = 48), mean age was 42.8 years
+(SD 11.61), mean professional experiences working in a
+community pharmacy was 14.9 years (SD 10.69), and 27
+pharmacists (42.2 %) had post graduate qualification in
+community pharmacy. The pharmacies showed variation
+in both size and infrastructure. Virtually all pharmacies
+were well equipped with a private area for the patients
+in terms of ensuring privacy from other patients ( N = 51,
+94.4 %). The median consulting area was 7 square me-
+ters (Range 1-25 m 2).
+Patient recruitment
+For each pharmacy a random sample of potential candi-
+dates was delivered directly to the study pharmacist by
+Table 1 Demographics of study population at T-0, divided in language regions German-speaking (D-CH) and French-speaking
+(F-CH) part of Switzerland. The total sum per study group is highlighted in bold
+Intervention group ( N = 218) Control group ( N = 232)
+D-CH (n = 146) F-CH ( n = 72) Sum D-CH ( n = 160) F-CH ( n = 72) Sum pValue
+Women (n/%) 76 52.1 42 58.3 118 54.1 78 48.8 47 65.3 125 53.9 0.958
+Living alone (n/%) 53 36.3 25 34.7 78 36.5 42 26.3 31 43.1 73 31.9 0.310
+Smoker (n/%) 20 13.7 19 26.4 39 18.5 27 16.9 7 9.7 34 15.0 0.335
+Age in years (Mean/SD) 66.4 11.38 68.7 11.73 67.2 11.52 67.1 10.80 67.2 13.18 67.1 11.56 0.845
+Dash-4 score (Mean/SD) 4.7 1.72 5.3 2.43 4.9 2.01 4.7 1.48 5.3 2.40 4.9 1.83 0.323
+Messerli et al. BMC Health Services Research  (2016) 16:145 Page 7 of 16
+IFAC and OFAC. The study pharmacists then consecu-
+tively checked samples of ten candidates for inclusion
+and exclusion criteria and invited the eligible patients.
+Exclusion criteria are available for 3096 patients as re-
+ported by 49 pharmacists (76.6 %) (Fig. 2). The other 15
+pharmacists did not report about exclusions. After invi-
+tation, a total of 450 patients signed the IC and were
+randomly allocated to intervention ( N = 218, 48.4 %) and
+control group ( N = 232, 51.6 %) (Fig. 3). Median number
+of recruited patients per pharmacist was 7 (Range 1 –17).
+Demographic data of recruited patients
+Demographic data of recruited patients ( N = 450)
+showed no significant differences between study groups
+(Table 1). The proportion of women living alone (111
+of 243) compared to men (40 of 207) was significantly
+higher ( p < 0.0001). Men showed a significantly lower
+DASH-4 score than women (Men DASH-4 = 4.5 (SD 2.09),
+WomenDASH-4 = 5.2 (SD 1.60); p < 0.0001). No differ-
+ences between groups observed concerning education
+and employment (data not shown).
+Dropouts
+Out of 70 study pharmacists, six (8.6 %) withdrew before
+recruiting any patient for the study. While four stated
+that they had under-estimated the time amount to com-
+ply with the study protocol, two were no longer inter-
+ested in the project. Dropout rate of patients was 17.3 %
+(N = 78); the different reasons for dropout are listed in
+table 2. Only 18 patients (4.0 %) withdrew from the
+study. The largest single cause for dropout of patients
+was that five of the 64 pharmacists who began recruiting
+quit the study (7.8 %), resulting in 17 patients lost in
+each group.
+Intervention
+Mean time per PMC was 29.8 min (SD 16.51; Range 5 –
+135 Min). Mean number of chronic medication per pa-
+tient was 6.8 (SD 2.92; Range 1 –19), while 1.9 medicines
+(SD 2.07; Range 0 –12) were prescribed on demand and
+0.8 medicines (SD1.09; Range 0 –5) were used as self-
+medication. A majority ( N = 115, 52.8 %) revealed to be
+more time consuming than initial assumptions of the
+professional association, pharmaSuisse (>25 min). At T-
+0, study pharmacists reported 258 drug-related problems
+(1.18 per patient) they had discussed during the PMC.
+The two main causes of drug-related problems triggering
+counseling through study pharmacists were a) insuffi-
+cient adherence to at least one medication of a patient ’s
+polypharmacy ( N = 69, 26.7 %) and b) lack of knowledge
+about risks or need for further information for safe and
+effective medicines use ( N = 69, 26.7 %). The majority of
+DRPs could be addressed by sole patient counseling
+(58.9 %). Some pharmacists, however, also intervened by
+directly changing a patient ’s care plan in order to opti-
+mise the administration of a therapy (15.5 %), adjust the
+dosage or substitute a therapy (3.9 %) (Table 3). Study
+pharmacists noted at T-0, that 69 patients in the inter-
+vention group (31.5 %) already used a weekly dosing aid
+(WDA) in their daily medicines management and they
+recommended the implementation of a WDA for three
+patients (1.4 %) (Table 4). During the first telephone
+interview at T-2, 198 patients stated to own a WDA
+(47.6 %); 173 of them regularly used the aid (41.6 %),
+while seventeen patients mentioned a sometime use, e.g.
+during holidays (4.1 %); eight patients did not use the
+WDA at all (1.9 %). Until the end of the PMC study
+(T-28), one patient in the intervention group (0.6 %)
+and four patients of the control group (2.1 %) newly
+received a WDA as a result of the PMC. When asked at
+T-2, 74 (42.8 %) of 173 patients, who had originally been
+Fig. 2 Pattern of reasons for exclusion after screening the random sample of potential candidates ( N = 3096)
+Messerli et al. BMC Health Services Research  (2016) 16:145 Page 8 of 16
+recommended to use a dosing aid, reported that the phar-
+macy initiated the use of a WDA. Another 54 (31.2 %)
+bought the WDA themselves, while 20 (11.6 %) received
+t h ea i df r o mah o s p i t a l .O u to ft h e s e1 7 3W D Au s e d
+at T-2, 158 were independently managed by the patient
+himself (91.4 %), get refilled by their partner ( N = 13,
+7.5 %) or another third party ( N = 2 ;1 . 1% ) .T h e r e b y ,
+men ( N = 77) were significantly more often supported
+by their partners ( N = 12) than vice versa (N Women =
+94, N Support =1 ; p <0 . 0 0 1 ) .
+Objective adherence
+Out of 2 ’453 chronic therapies registered in the PMC
+protocol at T-28, 1 ’020 (41.6 %) met inclusion criteria
+for the calculation of their Medication Possession Ratio
+(MPR) using the defined algorithm (Additional file 2).
+Sub-analysis of therapies inert to dose adjustments or
+splitting (and therefore with highest expected validity for
+calculation of MPR) showed consistent, but no signifi-
+cant trend for improved adherence rates in the interven-
+tion group (Table 5). For 212 out of 1'020 therapies
+(20.8 %) the MPR was < 80 % (intervention N =9 6
+(19.5 %) and control group N = 116 (22.0 %), p = 0.318).
+Out of all therapies, the Daily Polypharmacy Possession
+Ratio (DPPR) was calculated for each individual patient as
+shown in Table 6 (Additional file 3). Mean DPPR over the
+whole eligible study population was 87.3 ( N = 293, SD =
+14.250). In both, intervention and control group, the DPPR
+in D-CH (mean = 88.38, SD = 14.270) was significantly
+higher compared to that of F-CH (mean = 84.86, SD =
+13.972) ( p = 0.01). Both regions showed no significant
+improvement of DPPR through the intervention (Fig. 4).
+Subjective adherence
+In addition to objective adherence, we asked participants
+how they estimated their overall adherence on a scale
+from 0 to 100 %. The mean absolute change of subject-
+ive adherence between T-0 and T-2 was +1.03 % in the
+intervention and −0.41 % in the control group ( p =
+0.058) (Table 7). Sub-analysis revealed, that the number
+Table 2 Reasons for patient dropout summed at T-28, N =7 8
+Intervention Control pValue
+Deceased 22
+Withdrawal by patient
+- without information 5 7
+- lack of motivation/interest 1 1
+- poor health 0 4
+Pharmacist was unable to
+collect data
+- not achieved 5 5
+- patient has moved away 3 2
+- patient is in a nursing home 2 0
+- poor health 2 3
+Lost because pharmacist
+revoke study participation
+17 17
+Total n (%) 37 (47.4) 41 (52.6) 0.845
+Fig. 3 Recruited pharmacists and patients (D-CH = BS/BL/AG/SO, F-CH = GE/FR/NE/VD/VS)
+Messerli et al. BMC Health Services Research  (2016) 16:145 Page 9 of 16
+of patients reporting a change of their adherence of
+more than ±5 points on a scale 0-100 % between T-0
+and T-2 was significantly higher in the intervention
+group (N Improvement = 30; N Worsening = 14) compared to
+the control group (N Improvement = 20; N Worsening = 24) ( p
+= 0.028). Table 8 summarises patient self-report of
+adherence using validated questionnaires. Between the
+two telephone interviews T-2 and T-16, mean difference
+between patients ’ beliefs and concerns about their
+medicines did not change significantly (Intervention =
+−0.01 (SD 6.609); Control = +0.64, (SD 6.289), p = 0.697).
+At T-16, in total 74 patients had a MMAS-8D score <6
+representing low adherence (intervention N =3 7 ( 1 8 . 9 % ) ,
+control N = 37 (18.3 %)). Moderate adherence (Scores 6–8)
+was shown in the intervention group for 83 patients
+(20.8 %) and in the control group for 89 cases (22.3 %).
+High adherence was present in 154 patients, 78 from the
+intervention (39.4 %) and 76 from the control group
+(37.6 %). No significant di fference in adherence between
+the two groups could be observed (p =0 . 8 1 7 ) .
+Use of health care resources by patients and unplanned
+visits at a general practitioner or hospital
+According to the notations in the CRF in 18 cases
+(8.3 %) out of the 258 DRPs addressed at T-0, the study
+pharmacist contacted the responsible general practi-
+tioner ( N = 17) or an indicated specialist ( N = 1) to dis-
+cuss or inform about issues revealed through the PMC.
+A phone call was reported in six cases (33.3 %), the
+other issues were addressed by Fax ( N = 5, 27.8 %), Email
+(N = 1, 5.6 %), referral letter ( N = 1, 5.6), otherwise ( N =
+3, 16.7 %), not specified ( N = 2, 11.1 %). Four out of 18
+physicians did not respond to the pharmacists ’ initiative
+(22.2 %). The remaining 14 (77.8 %) gave feedback on
+Table 3 Drug-related problems addressed during PMC at T-0 in
+intervention group ( N = 258)
+N%
+Drug-related problems
+Potential 149 58
+Manifest 109 42
+Urgency rated by the study pharmacist
+High 36 14
+Medium 113 43
+Low 109 43
+Recommendation accepted by patient
+Yes 219 85
+No 25 10
+Unclear 14 5
+Causes of pharmacists ’ interventions
+Insufficient adherence 69 26.7
+Patient needs information about safe and
+effective use of his medicines
+50 19.4
+Patient needs information about potential
+medicines’ adverse drug reaction
+19 7.4
+Inappropriate timing or frequency of
+administration
+18 7.0
+Under-dosed therapy 15 5.8
+Drug-drug/drug-food interaction 14 5.4
+Adverse effect 12 4.7
+Inappropriate therapy duration 10 3.9
+Inappropriate drug administration 9 3.5
+Patient needs information about lifestyle,
+nutrition or empowerment
+8 3.1
+Not received treatment 7 2.7
+More cost-effective therapy available 5 1.9
+No concordance with guidelines or
+contraindication
+4 1.6
+No dose adjustment because of
+pathological changes (renal/liver failure)
+4 1.6
+Not indicated drug or duplication 3 1.2
+Incomplete patient documentation 3 1.2
+Over-dosed therapy 3 1.2
+Prescribed drug not available 2 0.8
+Inappropriate monitoring 1 0.4
+Not classifiable 2 0.8
+Description of pharmacist's interventions
+Counseling of patient, training 152 58.9
+Optimisation of administration 40 15.5
+Information to other caregivers 24 9.3
+Dose adjustment 12 4.7
+Substitution of a therapy 10 3.9
+Table 3 Drug-related problems addressed during PMC at T-0 in
+intervention group ( N = 258) (Continued)
+Therapy started/restarted 7 2.7
+Therapy stopped 7 2.7
+Therapy monitoring 3 1.2
+Clarification in the patient history 2 0.8
+Not classifiable 1 0.4
+Table 4 Overview of weekly dosing aids in use during study
+Intervention Control pValue
+T-0 (assessed through pharmacist
+during PMC)
+72a N = 218 - -
+T-2 (assessed through telephone
+interview)
+83 N = 202 90 N = 214 0.838
+T-16 (assessed through telephone
+interview)
+90 N = 198 98 N = 203 0.699
+aFrom which three were newly implemented through PMC
+Messerli et al. BMC Health Services Research  (2016) 16:145 Page 10 of 16
+the addressed issues. Nine fully accepted the pharma-
+cists’ recommendations (64.3 %), one partially (7.1 %),
+and two rejected the recommended intervention
+(14.3 %). In two cases, the implementation of the recom-
+mendations remained unclear (14.3 %). During the study
+period, patients reported a total of 209 unplanned visits
+at a general physician or hospital, showing no significant
+difference between study groups (Table 9). The same
+was observed for the incidence of falls during the study.
+Discussion
+Our study presents initial findings on a newly imple-
+mented pharmacist-led medication review service, called
+Polymedication Check (PMC) with respect to impact on
+patients’ adherence. The multicentre parallel group ran-
+domised controlled trial was conducted in community
+pharmacies with very low to moderate experiences in
+providing medication reviews. This paper presents re-
+sults from multiple in-depth assessments focusing on pa-
+tients’ adherence and drug-related problems; humanistic
+outcomes and the patients ’ as well as pharmacists ’ per-
+spectives will be dealt with in a second publication.
+Study population
+Recruitment of study pharmacists posed no problem; all
+recruited pharmacists attended the required training ses-
+sion. However, experience with providing a PMC proved
+to be unequal with only 28 % of pharmacists featuring
+prior experience in conducting >5 PMC and even 34 %
+with no prior experience at all. Nevertheless, a majority
+of the study pharmacists who finally started to enrol pa-
+tients in the project was highly motivated to participate
+in this evaluation study despite the complexity of the
+study protocol and their lack of experience with partici-
+pation in randomised controlled trials. In all regions a
+suitable sample of pharmacies was involved into the
+study. The demographics and characteristics of the par-
+ticipating pharmacies were in line with the total of Swiss
+pharmacies regarding organisational form of ownership
+and gender compared to RoKA report 2012 [49] (per-
+sonal ownership and group (study: 74.1 % vs. RoKA:
+69.6 %) or chain (25.9 % vs. 30.4 %), women (75.0 % vs.
+80.0 %)). The estimated number of ten patients recruited
+by each study pharmacist was not reached by most phar-
+macists (Median 7; Range 1 –17) despite up to six
+months of recruitment period per study region. During
+the study, six study pharmacies cancelled participation
+before they started recruiting patients and five more
+dropped out during the study; as a consequence follow-
+up of their patients was impossible. Patient dropouts
+were fairly low (17.3 %), evenly distributed across both
+study groups and caused by an expected pattern of com-
+prehensible reasons, so there is little concern for a selec-
+tion bias due to selective dropouts. The reported causes
+were both rare and typical, such as patients ’ moving
+away or being unable to continue due to health reasons.
+Impact of the Polymedication Check
+The primary outcome objective adherence showed no
+significant improvement in the PMC group (mean MPR
+88.3 % vs 87.5 % in the control group ( p = 0.811)).
+The adherence in the control population was already
+at an unexpectedly high rate of 87.5 %, leaving only little
+room for improvement in the intervention group. This
+made it nearly impossible to observe the 5 % increase in
+objective adherence, on which the power calculation was
+based. Notably, in the intervention group a higher per-
+centage of patients showed more than 5 % increase of
+subjective adherence compared to the controls. This
+effect only appeared shortly after the intervention and
+could not be observed again in the further course of
+the study.
+Our results show that during the PMC non-adherence
+to medication was the most frequent issue addressed in
+26.7 % of PMC cases, followed by a need for information
+about safe and effective medicines use (19.4 %) or im-
+provement of awareness for risks and adverse effects of
+therapies (7.4 %). Previous research has shown that
+adherence counseling was included in only 6.7 % of the
+reported cases of unspecific pharmacist-patient contacts
+Table 5 Objective adherence represented as MPR
+Intervention Control
+Mean % SD N Mean % SD N pValue
+All therapies 88.3 19.03 493 87.5 20.75 527 0.811
+Antiplatelets (B01AC) 91.3 16.24 61 85.4 23.75 64 0.119
+Proton pump inhibitors (A02BC) 91.8 13.36 43 87.7 18.27 33 0.493
+Table 6 Objective adherence to polypharmacy represented as
+DPPR over all patients ( N = 293)
+Intervention
+(N = 146)
+Control
+(N = 147)
+Mean SD Mean SD pValue
+DPPR (%) 88.0 13.31 87.5 20.75 0.906
+Number of medicines eligible for
+DPPR calculation per patient
+3.4 1.68 3.6 1.86 0.425
+Messerli et al. BMC Health Services Research  (2016) 16:145 Page 11 of 16
+in usual care [14]. This pattern of detected and discussed
+drug-related provides an important indication on the
+impact of the PMC and proves appropriateness of the
+concept of the PMC regarding its aim at triggering ad-
+herence and knowledge issues as topics for individual
+counseling. The filling of a patient ’s medicines into a
+WDA could be implemented in only very few patients
+(1.4 %). This unexpected result can be explained with a)
+the pharmacist judged the patient sufficiently well-
+organised without a WDA, b) the patient already used a
+WDA in self-management (which was the case in 42 %
+of patients in our study) or c) the patients were not will-
+ing to delegate the preparation of their medicines to the
+pharmacist. There is a necessity for guiding a compre-
+hensive assessment of patient needs (self-management of
+a WDS versus WDA provided by the pharmacy) and
+differentiating between the active recommendation by
+the pharmacists and the refusal by the patient. The im-
+plementation rate of WDA in patients with chronic
+polypharmacy revealed in our study, still offers room for
+improvement; recent surveys in Canada could show that
+75 % of patients in a comparable community sample
+stated to regularly use a WDA [50]. With respect to the
+interface between pharmacy and GP , 18 out of the 258
+cases of detected and addressed DRPs in the PMC group
+at T-0, cases triggered a consultation with the patient ’s
+GP (7.0 %), leading in 77.8 % to an interprofessional col-
+laboration and discussion of patients ’ DRP with high
+acceptance rate of pharmacists ’ recommendations
+(71.4 %). Still, considering the recommendations without
+feedback or acceptance by the GP ( N = 8), the overall
+implementation rate of 44.4 % is comparable to a study
+of Kempen et al. [51], who reported implementation
+rates of 42 %. Such low implementation of recommenda-
+tions will decrease efficacy of any intervention substan-
+tially. However, it can be deduced that the pharmacists
+were able to solve more than 90 % of the patients ’ issues
+independently.
+Unlike reported in previous studies [52], no harmful
+effect of the PMC intervention as reflected by the non-
+significant group differences in unplanned hospital ad-
+missions or in visits to the GP (Table 9) could be ob-
+served. This observation is meaningful when looking at
+the frequency of contacts of pharmacists with the pre-
+scriber resulting from a PMC (8.3 %) and considering
+that only a few of the pharmacists ’ recommendations
+(14.3 %) were rejected. A significant number of DRPs
+were discovered and solved through study pharmacists
+providing a PMC (Table 3).
+Reasons why we did not detect a significant effect
+Overall, the study remained underpowered: The initial
+estimation of the impact on adherence of the PMC was
+set on 5 % with a baseline at around 60 %. This assump-
+tion was based on the results of other studies from
+different countries and settings [47]. The unexpected
+high adherence observed in the control group allowed
+only little improvement. Thus, a sole increase of the
+study population, e.g. through an extension of the re-
+cruitment period, would remain ineffective. A more
+effective and internationally accepted approach to
+enhance the efficacy of medication reviews would be the
+targeting of patients at risk [9]. The high rate of imple-
+mented WDA at T-2 (42 %) (T able 4) indicates an already
+Fig. 4 Box plot of DPPR of patients stratified by the German (D-CH,
+N = 199) and the French part of Switzerland (F-CH, N = 94)
+Table 7 Subjective rating of adherence during the preceding two weeks
+Intervention Control
+Mean % SD N Mean % SD N pValue
+Patient questionnaire T-0 96.2 8.62 211 96.8 7.05 232 0.204
+Telephone interview T-2 97.2 9.31 202 96.4 10.24 213 0.118
+Telephone interview T-16 98.5 5.56 198 97.8 7.64 202 0.400
+Patient questionnaire T-28 95.5 10.28 178 96.3 9.51 186 0.338
+Messerli et al. BMC Health Services Research  (2016) 16:145 Page 12 of 16
+improved patient ’s self-management mostly initiated
+through pharmacists before study start. It was a deliberate
+decision not to focus on patients with specific diseases or
+drugs in this first evaluation since the service might be
+offered to every patient meeting the inclusion criteria for a
+PMC. Since the inclusion criteria were non-specific in
+terms of risks for non-adherence, it must be assumed, that
+already well-organised patients with established therapies
+were included in this study. Further on, patients with the
+highest need for intervention with manifest non-
+adherence might not have been motivated to be part of a
+clinical trial that explicitly aimed at uncovering indi-
+vidual weaknesses in the correct administration of
+medicines. Experiences with the MUR service from
+UK resulted in the development of specific interven-
+tions for various patient populations, offering to the
+health care provider a structured and focused flow
+chart supporting the process of screening for pharma-
+ceutical care issues [53]. Thus, applying more specific
+criteria in addressing the medication reviews to patients
+with higher risk for drug-related problems would probably
+increase the impact of the intervention.
+Medication reviews such as the PMC are a screening
+method aiming at detecting drug-related problems, and
+the corresponding interventions are unspecific. Thus,
+in a first step, this service only results in a number of
+drug-related problems detected or number of referrals
+etc. Looking at clinical outcomes, only well planned
+and monitored interventions can have an impact. The
+current PMC protocol specifies the provision of a
+weekly dosing system filled by the pharmacy as its main
+intervention. This interve ntion, though known to be
+effective [54], was offered only to very few patients
+(1.4 %). All other interventions such as delivery of a
+medication plan or check of correct use of an asthma
+device are not foreseen in the protocol and hence
+could not been evaluated. On the other hand, explicit
+listing of such predefined interventions on the
+protocol would probably trigger more frequent
+provision of such services. So far, the intervention
+part is insufficiently specified in the current guideline,
+and especially not well supported by the current
+PMC protocol.
+Strengths
+First, the randomised controlled trial design is a distinct
+strength of this study. Second, the trial was performed
+under real-life conditions with a representative sample
+of pharmacists from different regions, including the
+French-speaking part of Switzerland with differences
+related to health care (i.e. density of pharmacies,
+Table 8 Summed scores of validated adherence questionnaires at T-2 and T-16
+Intervention Control
+Mean SD N Mean SD N pValue
+T-2
+BMQ Beliefs 20.58 4.463 171 20.99 4.301 181 0.328
+BMQ Concerns 9.95 4.249 171 10.30 4.949 181 0.726
+Difference Beliefs - Concerns 10.64 5.554 171 10.69 6.494 181 0.612
+T-16
+BMQ Beliefs 20.66 4.630 188 21.23 3.958 183 0.369
+BMQ Concerns 9.89 5.020 188 9.72 4.583 183 0.872
+Difference Beliefs - Concerns 10.77 6.360 188 11.51 5.705 183 0.337
+MMAS-8D Scorea 6.85 1.226 198 6.82 1.237 202 0.817
+aMMAS-8D Score: 8 = high adherence, 6 –7.75 medium adherence, <6 low adherence
+Table 9 Patient reported unplanned visits at general practitioner or hospital and falls during study period
+Intervention Control
+Unplanned visits … NYES NTotal NYES NTotal pValue
+… from T-0 - > T-2 14 202 10 214 0.324
+… from T-2 - > T-16 50 198 44 203 0.398
+… from T-16 - > T-28 46 181 45 191 0.678
+Incidence of at least one fall until T-28 31 17.7 % 30 15.9 % 0.638
+… thereby injured 17 54.8 % 15 50.0 % 0.705
+Messerli et al. BMC Health Services Research  (2016) 16:145 Page 13 of 16
+preferred way of medication supply), cultural and socio-
+economic factors. Thus, the results of the present study
+are likely to be highly generalisable. Third, patients ’
+adherence was measured using several validated instru-
+ments providing internal validity. Fourth, the in-depth
+telephone interviews on patient ’s acceptance and know-
+ledge were performed by trained independent clinical
+psychologists, blinded to the intervention. Fifth, pa-
+tients’ written self-reports were blinded to the pharma-
+cists; thus a Pygmalion effect could be excluded.
+Limitations
+First, due to restricted financial means, the study period to
+investigate the objective adherence was limited to just
+28 weeks. With regard to the common package size of 100
+tablets for long-term medication, the short study duration
+offered only two refills to be considered for evaluation of
+adherence. Newer guidelines suggest follow-up periods of
+1–2 years or more to capture long term non-adherence
+[55]. Second, patients enrolled in clinical trials may be
+more conscientious than the average patient. During the
+consent process, patients were told that the purpose of
+the study was to learn more about their daily medicines
+use and that their adherence to medication was observed.
+Thus, all our patients knew they were being monitored,
+which on the one hand may have led to a higher baseline
+in self-reported adherence at study start and also during
+follow-up in both groups of our study patients compared
+to other patients. The pharmacists on the other hand
+knew that they were being studied, which may have led
+them to increase their efforts in delivering pharmaceutical
+care, notably for both groups. This is known as the
+Hawthorne effect: a psychological response in which sub-
+jects in a research study change their behaviour simply be-
+cause they are subjects in a study, not because of the
+research treatment [56]. Thus, the heightened awareness
+of the patients and also of the pharmacists about the study
+setting could have influenced the medicines intake for the
+prospective time. Such influence can only be eliminated
+through a randomisation at the level of the pharmacy – a
+procedure posing other problems of bias as well. In order
+to avoid selection bias by the pharmacists, patients were
+selected at random solely fulfilling the PMC-criteria and
+not because of an increased risk or any indicators for
+manifest non-adherence. Third, because of time constraints
+and limited resources the recruitment was stopped before
+the intended number of patients was recruited.
+Implications for practice
+In line with other authors [9, 55], we recommend to
+ensure efficiency and efficacy to reconsider and adapt the
+service on various levels: First, the service should be more
+tailored to patients at higher risk for drug-related prob-
+lems, such as patients with respiratory diseases, diagnosed
+cardiovascular disease, regularly being prescribed at least
+four medicines etc. In addition, focusing on patients
+recently discharged from hospital, or who had changes in
+their medicines regimen would provide more opportun-
+ities to screen for manifest DRPs possibly before the start
+of a risky treatment. Ideally, these patients would receive a
+medication review within a very short time (e.g. a few
+days) after the start and are followed by a follow-up meet-
+ing (face-to-face or by telephone call) to check for hand-
+ling issues and implementations of the recommendations.
+Second, after detecting the patient at risk for clinical rele-
+vant drug-related problems, we recommend to proceed
+with validated, structured and standardised interventions.
+This process should allow a follow-up to ensure imple-
+mentation of pharmacists recommendations (according to
+the pharmaceutical care process, see also the New Medi-
+cines Service from the NHS, UK) [57]. The PMC protocol
+form should include the documentation of the recommen-
+dations or follow-up interventions in a more specific
+structure. Thus, the current process of the PMC as a
+service and its protocol need to be re-engineered. Third,
+pharmacists had no training and supervision when provid-
+ing the service. An implementation program focusing on
+the main barriers of the service could still encourage
+pharmacists to provide PMC in the future. A responsible
+professional body for coaching and answering frequently
+asked questions is needed. Qualification and/or accredit-
+ation of involved health care providers might be consid-
+ered to ensure high quality and safe interventions on
+patient level. Continuing education should be strength-
+ened through systematic integration of PMC cases into
+practice-oriented teaching. For distinct problems or care
+issues structured guidance should be developed.
+Conclusion
+For the first time in the Swiss health care system, a
+newly implemented cognitive service of community
+pharmacists underwent an in-depth evaluation process
+in daily life. The service showed no significant improve-
+ment on objective adherence in the observed population.
+Reasons for not being able to demonstrate significant
+positive effects are likely to depend on a) an uninten-
+tional selection of patients with very high adherence and
+low risk for drug-related problems causing insufficient
+power and b) on a low level of experience with providing
+the PMC among the recruited pharmacists.
+However, based on the study results, we conclude that
+the so called Polymedication Check as a pharmacist-led
+medication review i) was able to address a significant
+number of drug-related problems concerning adherence
+issues and need for knowledge improvement and ii)
+showed no further financial burden to the Swiss health
+care system as there was no harm induced and pharma-
+cists’ interventions did not cause additional consultations
+Messerli et al. BMC Health Services Research  (2016) 16:145 Page 14 of 16
+with other healthcare professionals. Re-engineering of the
+service should focus on the inclusion criteria to target the
+patients with highest risk for non-adherence and on the
+improvement of pharmacists ’ skills in implementing
+weekly dosing aids.
+Availability of data and materials statement
+The datasets concerning the primary outcome and
+thereby supporting the conclusions are included within
+the article and its additional files.
+Additional files
+Additional file 1: Swiss Polymedication Check. (PDF 72 kb)
+Additional file 2: Data Medication Possession Ratio (MPR). (XLSX 42 kb)
+Additional file 3: Data Daily Polypharmacy Possession Ratio (DPPR).
+(XLSX 18 kb)
+Competing interests
+The authors declare that they have no competing interests.
+Authors’ contributions
+MMe and KHe conceived the trial design and wrote the ethical proposal and
+study protocol. NVr helped in developing the measurement tools (namely
+designing and piloting the telephone interviews) and ensured independent
+training and support of the involved staff. MMe, as the main investigator,
+recruited and coordinated the involved study pharmacists and their patients
+and ensured compliance to the study protocol. MMe and NVr accessed and
+analysed both the retrieved data. MMe prepared the draft of a first report while
+EBl, KHe, and NVr contributed to the discussion and reviewed the manuscript.
+They all agreed to the publication of the final version of the manuscript.
+Acknowledgement
+We thank all participating patients, all involved study pharmacists, contributors in
+the study team (namely PD Dr. Matthias Schwenkglenks, Prof. Olivier Bugnon,
+Isabelle Anguish, and Karen Maes), Christoph Kaser and ProPharma Systems for
+the IT-support, our statistician Michael Mittag, the telephone interviewers (namely
+Verena Ehrbar, Kathrin Frehner, and Sophie Müller-Siemens), all involved master
+students (namely David De Pretto, Véroniquie Lottaz, Adiam Kiflai, Peter Portmann,
+and Marlen Schneider), and Susanna Papa for proofreading the manuscript.
+Funding
+The study was developed as an investigator-initiated project and partly
+funded by the Swiss pharmacists ’ association, pharmaSuisse. The funders had
+no role in the design, conduct, analyses or writing of this study or in the
+decision to submit for publication.
+Author details
+1Pharmaceutical Care Research Group, Department of Pharmaceutical
+Sciences, University of Basel, Basel, Switzerland. 2Division of General Practice,
+Department of Medicine, University Medical Centre Freiburg, Freiburg,
+Germany. 3Division of Clinical Psychology and Psychiatry, Department of
+Psychology, University of Basel, Basel, Switzerland.
+Received: 8 September 2015 Accepted: 14 April 2016
+References
+1. Hajjar ER, Cafiero AC, Hanlon JT. Polypharmacy in elderly patients. Am J Geriatr
+Pharmacother. 2007;5(4):345–51. doi:10.1016/j.amjopharm.2007.12.002.
+2. Blozik E, Rapold R, von Overbeck J, Reich O. Polypharmacy and potentially
+inappropriate medication in the adult, community-dwelling population in
+Switzerland. Drugs Aging. 2013;30(7):561 –8. doi:10.1007/s40266-013-0073-0.
+3. Reich O, Rosemann T, Rapold R, Blozik E, Senn O. Potentially inappropriate
+medication use in older patients in Swiss managed care plans: prevalence,
+determinants and association with hospitalization. PLoS One. 2014;9(8):
+e105425. doi:10.1371/journal.pone.0105425.
+4. Bates DW, Spell N, Cullen DJ, Burdick E, Laird N, Petersen LA, et al. The costs
+of adverse drug events in hospitalized patients. Adverse Drug Events
+Prevention Study Group. JAMA. 1997;277(4):307 –11.
+5. Chiatti C, Sustacchini S, Furneri G, Mantovani L, Cristiani M, Misuraca C, et al.
+The Economic Burden of Inappropriate Drug Prescribing, Lack of Adherence
+and Compliance, Adverse Drug Events in Older People A Systematic Review.
+Drug Saf. 2012;35:73 –87.
+6. National Prescribing Centre (NPC). Room for Review - a guide to medication
+review: the agenda for patients, practitioners and managers. Liverpool: NPC;
+2002.
+7. Canadian Pharmacists Association C. PharmaCheck Guide - A Guide for
+Pharmacists to Aid in Identifying and Resolving Medication Issues. 2012(11.
+08.2014).
+8. Kwan JL, Lo L, Sampson M, Shojania KG. Medication reconciliation during
+transitions of care as a patient safety strategy: a systematic review. Ann
+Intern Med. 2013;158(5 Pt 2):397 –403. doi:10.7326/0003-4819-158-5-
+201303051-00006.
+9. Christensen M, Lundh A. Medication review in hospitalised patients to
+reduce morbidity and mortality. Cochrane Database Syst Rev. 2013;2:
+CD008986. doi:10.1002/14651858.CD008986.pub2.
+10. Blenkinsopp A, Bond C, Raynor DK. Medication reviews. Br J Clin Pharmacol.
+2012;74(4):573–80. doi:10.1111/j.1365-2125.2012.04331.x.
+11. Hudson SA, McAnaw JJ, JB J. The Changing Roles of Pharmacists in Society.
+Int E-Journal Sci Med Educ. 2007;1(1):13.
+12. Allemann SS, van Mil JW, Botermann L, Berger K, Griese N, Hersberger KE.
+Pharmaceutical care: the PCNE definition 2013. Int J Clin Pharm. 2014;36(3):
+544–55. doi:10.1007/s11096-014-9933-x.
+13. Saez-Benito L, Fernandez-Llimos F, Feletto E, Gastelurrutia MA, Martinez-
+Martinez F, Benrimoj SI. Evidence of the clinical effectiveness of cognitive
+pharmaceutical services for aged patients. Age Ageing. 2013;42(4):442 –9.
+doi:10.1093/ageing/aft045.
+14. Boeni F, Arnet I, Hersberger KE. Adherence counseling during patient
+contacts in swiss community pharmacies. Patient Prefer Adherence. 2015;9:
+597–605. doi:10.2147/PPA.S76027.
+15. DiMatteo MR. Variations in patients' adherence to medical
+recommendations: a quantitative review of 50 years of research. Med Care.
+2004;42(3):200–9.
+16. Sabaté E. Adherence to long-term therapies - Evidence for action. Geneva:
+World Health Organization; 2003.
+17. Eichler HG, Abadie E, Breckenridge A, Flamion B, Gustafsson LL, Leufkens H,
+et al. Bridging the efficacy-effectiveness gap: a regulator's perspective on
+addressing variability of drug response. Nat Rev Drug Discov. 2011;10(7):
+495–506. doi:10.1038/nrd3501.
+18. Lee JK, Grace KA, Taylor AJ. Effect of a pharmacy care program on
+medication adherence and persistence, blood pressure, and low-density
+lipoprotein cholesterol: a randomized controlled trial. JAMA. 2006;296(21):
+2563–71. doi:10.1001/jama.296.21.joc60162.
+19. van Boven JF, Stuurman-Bieze AG, Hiddink EG, Postma MJ, Vegter S.
+Medication monitoring and optimization: a targeted pharmacist program
+for effective and cost-effective improvement of chronic therapy adherence.
+J Manag Care Spec Pharm. 2014;20(8):786 –92.
+20. Nieuwlaat R, Wilczynski N, Navarro T, Hobson N, Jeffery R, Keepanasseril A, et al.
+Interventions for enhancing medication adherence. Cochrane Database Syst
+Rev. 2014;11:CD000011. doi:10.1002/14651858.CD000011.pub4.
+21. Clifford S, Perez-Nieves M, Skalicky AM, Reaney M, Coyne KS. A systematic
+literature review of methodologies used to assess medication adherence in
+patients with diabetes. Curr Med Res Opin. 2014;30(6):1071 –85. doi:10.1185/
+03007995.2014.884491.
+22. Griese N, Leikola S. Work report of the medication review symposium.
+PCNE Working Symposium 2014 - Medication review, drug-related
+problems, standards and guidelines; 08.09.2014; Malta2014.
+23. Hepler CD, Strand LM. Opportunities and responsibilities in pharmaceutical
+care. Am J Hosp Pharm. 1990;47(3):533 –43.
+24. Hatah E, Braund R, Tordoff J, Duffull SB. A systematic review and
+meta-analysis of pharmacist-led fee-for-services medication review.
+Br J Clin Pharmacol. 2014;77(1):102 –15. doi:10.1111/bcp.12140.
+25. Latif A, Pollock K, Boardman HF. The contribution of the Medicines Use Review
+(MUR) consultation to counseling practice in community pharmacies. Patient
+Educ Couns. 2011;83(3):336–44. doi:10.1016/j.pec.2011.05.007.
+Messerli et al. BMC Health Services Research  (2016) 16:145 Page 15 of 16
+26. American Pharmacists Association, National Association of Chain Drug
+Stores Foundation. Medication Therapy Management in community
+pharmacy practice: core elements of an MTM service (version 1.0). J Am
+Pharmaceut Assoc. 2005;45(5):573 –9.
+27. Viswanathan M, Kahwati LC, Golin CE, Blalock SJ, Coker-Schwimmer E, Posey
+R, et al. Medication therapy management interventions in outpatient
+settings: a systematic review and meta-analysis. JAMA Internal Med. 2015;
+175(1):76–87. doi:10.1001/jamainternmed.2014.5841.
+28. Castelino RL, Bajorek BV, Chen TF. Retrospective evaluation of home
+medicines review by pharmacists in older Australian patients using the
+medication appropriateness index. Ann Pharmacother. 2010;44(12):1922 –9.
+doi:10.1345/aph.1P373.
+29. Pammett R, Jorgenson D. Eligibility requirements for community pharmacy
+medication review services in Canada. Can Pharmacists J. 2014;147(1):20 –4.
+doi:10.1177/1715163513514006.
+30. Hanna J. Real-world application of MedsCheck opportunities: The Costco
+pharmacists intervention trial for reduction of cardiovascular risk. Can
+Pharmacists J. 2013;146(6):325 –8. doi:10.1177/1715163513506831.
+31. Hatah E, Tordoff J, Duffull SB, Cameron C, Braund R. Retrospective
+examination of selected outcomes of Medicines Use Review (MUR) services
+in New Zealand. Int J Clin Pharm. 2014;36(3):503 –12. doi:10.1007/s11096-
+014-9913-1.
+32. Pharmaceutical Services Negotiating Committee (PSNC). Guidance on the
+Medicines Use Review Service. 2013. http://www.nhsemployers.org/your-
+workforce/primary-care-contacts/community-pharmacy/medicines-use-reviews-
+murs/guidance-on-the-medicines-use-review-service. Accessed 04.09.2015.
+33. Pharmaceutical Services Negotiating Committee (PSNC). The Medicines Use
+Review and Prescription Intervention Service. 2013. http://psnc.org.uk/
+services-commissioning/advanced-services/murs/. Accessed 11.08.2014.
+34. Niquille A, Lattmann C, Bugnon O. Medication reviews led by community
+pharmacists in Switzerland: a qualitative survey to evaluate barriers and
+facilitators. Pharm Pract. 2010;8(1):35 –42.
+35. Roberts AS, Benrimoj SI, Chen TF, Williams KA, Aslani P. Practice change in
+community pharmacy: quantification of facilitators. Ann Pharmacother.
+2008;42(6):861–8. doi:10.1345/aph.1K617.
+36. Feletto E, Wilson LK, Roberts AS, Benrimoj SI. Building capacity to
+implement cognitive pharmaceutical services: Quantifying the needs of
+community pharmacies. Res Soc Admin Pharma. 2010;6(3):163 –73. doi:10.
+1016/j.sapharm.2009.08.003.
+37. Swiss pharmacists association (pharmaSuisse). Monitoring Polymedikations-
+Check und Wochendosiersysteme 2010 –2014. 2014.
+38. Swiss Federal Office of Public Health (FOPH). Application guide for
+assumption of costs for new or controversial services. 2009.
+39. Maes KA, Tremp RM, Hersberger KE, Lampert ML. Demonstrating the clinical
+pharmacist's activity: validation of an intervention oriented classification
+system. Int J Clin Pharm. 2015. doi:10.1007/s11096-015-0179-z.
+40. Hudak PL, Amadio PC, Bombardier C. Development of an upper extremity
+outcome measure: the DASH (disabilities of the arm, shoulder and hand)
+[corrected]. The Upper Extremity Collaborative Group (UECG). Am J Ind
+Med. 1996;29(6):602 –8. doi:10.1002/(SICI)1097-0274(199606)29:6<602::AID-
+AJIM4>3.0.CO;2-L.
+41. Horne R. Compliance, adherence, and concordance: implications for asthma
+treatment. Chest. 2006;130(1 Suppl):65S–72. doi:10.1378/chest.130.1_suppl.65S.
+42. Arnet I, Metaxas C, Walter PN, Morisky DE, Hersberger KE. The 8-item Morisky
+Medication Adherence Scale translated in German and validated against
+objective and subjective polypharmacy adherence measures in cardiovascular
+patients. J Eval Clin Pract. 2015;21(2):271–7. doi:10.1111/jep.12303.
+43. Andrade SE, Kahler KH, Frech F, Chan KA. Methods for evaluation of
+medication adherence and persistence using automated databases.
+Pharmacoepidemiol Drug Saf. 2006;15(8):565 –74. doi:10.1002/pds.1230.
+discussion 75–7.
+44. Arnet I, Abraham I, Messerli M, Hersberger KE. A method for calculating
+adherence to polypharmacy from dispensing data records. Int J Clin Pharm.
+2014;36(1):192–201. doi:10.1007/s11096-013-9891-8.
+45. e-Mediate. GALDAT/pharmINDEX - Swiss medicines index database. http://
+www.hcisolutions.ch/de/products/index-products/index.php.
+46. Karve S, Cleves MA, Helm M, Hudson TJ, West DS, Martin BC. Good and
+poor adherence: optimal cut-point for adherence measures using
+administrative claims data. Curr Med Res Opin. 2009;25(9):2303 –10.
+doi:10.1185/03007990903126833.
+47. Taitel M, Jiang J, Rudkin K, Ewing S, Duncan I. The impact of pharmacist
+face-to-face counseling to improve medication adherence among patients
+initiating statin therapy. Patient Prefer Adherence. 2012;6:323 –9. doi:10.2147/
+PPA.S29353.
+48. Clifford S, Barber N, Elliott R, Hartley E, Horne R. Patient-centred advice is
+effective in improving adherence to medicines. Pharm World Sci. 2006;28(3):
+165–70. doi:10.1007/s11096-006-9026-6.
+49. Stadtmann C. RoKA-Bericht für das Geschäftsjahr 2012. PharmaJournal. 2014;
+15(7):2.
+50. Gould ON, Todd T, Irvine-Meek J. Adherence devices in a community
+sample: How are pillboxes used? Can Pharma J. 2009;142(1):8.
+51. Kempen TG, van de Steeg-van Gompel CH, Hoogland P, Liu Y, Bouvy ML.
+Large scale implementation of clinical medication reviews in Dutch
+community pharmacies: drug-related problems and interventions. Int J Clin
+Pharm. 2014;36(3):630 –5. doi:10.1007/s11096-014-9947-4.
+52. Holland R, Lenaghan E, Harvey I, Smith R, Shepstone L, Lipp A, et al. Does
+home based medication review keep older people out of hospital? The
+HOMER randomised controlled trial. BMJ. 2005;330(7486):293. doi:10.1136/
+bmj.38338.674583.AE.
+53. Pharmaceutical Services Negotiating Committee (PSNC). National target
+groups for MURs. 2015. http://psnc.org.uk/services-commissioning/advanced-
+services/murs/national-target-groups-for-murs/. Accessed 04.09.2015.
+54. Boeni F, Spinatsch E, Suter K, Hersberger KE, Arnet I. Effect of drug reminder
+packaging on medication adherence: a systematic review revealing research
+gaps. Syst Reviews. 2014;3:29. doi:10.1186/2046-4053-3-29.
+55. National Institute for Health and Care Excellence (NICE). Medicines
+optimisation: the safe and effective use of medicines to enable the best
+possible outcomes. 2015 (04.03.2015).
+56. McCarney R, Warner J, Iliffe S, van Haselen R, Griffin M, Fisher P. The
+Hawthorne Effect: a randomised, controlled trial. BMC Med Res Methodol.
+2007;7:30. doi:10.1186/1471-2288-7-30.
+57. Elliott RA, Boyd MJ JW, Barber N, Mehta R, Chuter A, et al. Understanding
+and evaluating the New Medicines Service in the NHS. England:
+Nottingham University School of Pharmacy; 2014.
+•  We accept pre-submission inquiries 
+  Our selector tool helps you to ﬁnd the most relevant journal
+  We provide round the clock customer support 
+  Convenient online submission
+  Thorough peer review
+  Inclusion in PubMed and all major indexing services 
+  Maximum visibility for your research
+Submit your manuscript at
+www.biomedcentral.com/submit
+Submit your next manuscript to BioMed Central 
+and we will help you at every step:
+Messerli et al. BMC Health Services Research  (2016) 16:145 Page 16 of 16

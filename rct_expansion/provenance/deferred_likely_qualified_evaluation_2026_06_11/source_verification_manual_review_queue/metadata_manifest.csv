@@ -1,0 +1,8 @@
+candidate_id,metadata_url,local_path,status,error
+RCTC-02127,https://borealisdata.ca/api/datasets/:persistentId/?persistentId=doi:10.5683/sp3/qk5zrd,rct_expansion/provenance/deferred_likely_qualified_evaluation_2026_06_11/source_verification_manual_review_queue/metadata/RCTC-02127_dataverse.json,0,
+RCTC-01367,https://dataverse.harvard.edu/api/datasets/:persistentId/?persistentId=doi:10.7910/dvn/l86wxm,rct_expansion/provenance/deferred_likely_qualified_evaluation_2026_06_11/source_verification_manual_review_queue/metadata/RCTC-01367_dataverse.json,0,
+RCTC-01557,https://dataverse.harvard.edu/api/datasets/:persistentId/?persistentId=doi:10.7910/dvn/6i62qk,rct_expansion/provenance/deferred_likely_qualified_evaluation_2026_06_11/source_verification_manual_review_queue/metadata/RCTC-01557_dataverse.json,0,
+RCTC-02865,https://dataverse.unc.edu/citation?persistentId=doi:10.15139/S3/Q9IFNB,,unsupported_repository,Unsupported repository UNC Dataverse/gdcc.odum-dv
+RCTC-02867,https://dataverse.lib.virginia.edu/citation?persistentId=doi:10.18130/V3/FNMC0J,,unsupported_repository,Unsupported repository University of Virginia Dataverse/uva.libra
+RCTC-01156,https://api.figshare.com/v2/articles/1,rct_expansion/provenance/deferred_likely_qualified_evaluation_2026_06_11/source_verification_manual_review_queue/metadata/RCTC-01156_figshare.json,56,curl: (56) The requested URL returned error: 404
+RCTC-06563,https://api.figshare.com/v2/articles/3278932,rct_expansion/provenance/deferred_likely_qualified_evaluation_2026_06_11/source_verification_manual_review_queue/metadata/RCTC-06563_figshare.json,0,

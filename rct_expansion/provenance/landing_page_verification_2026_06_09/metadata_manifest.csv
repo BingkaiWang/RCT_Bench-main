@@ -1,0 +1,113 @@
+candidate_id,metadata_url,local_path,status,error
+RCTC-01363,https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.vx0k6djsv,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-01363_dryad.json,0,
+RCTC-01363,https://datadryad.org/api/v2/versions/155417,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-01363_dryad_version.json,0,
+RCTC-01363,https://datadryad.org/api/v2/versions/155417/files,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-01363_dryad_files.json,0,
+RCTC-01889,https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.bnzs7h4gq,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-01889_dryad.json,0,
+RCTC-01889,https://datadryad.org/api/v2/versions/245431,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-01889_dryad_version.json,0,
+RCTC-01889,https://datadryad.org/api/v2/versions/245431/files,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-01889_dryad_files.json,0,
+RCTC-00135,https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.t4b8gtjg8,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-00135_dryad.json,0,
+RCTC-00135,https://datadryad.org/api/v2/versions/412309,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-00135_dryad_version.json,0,
+RCTC-00135,https://datadryad.org/api/v2/versions/412309/files,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-00135_dryad_files.json,0,
+RCTC-01930,https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.7gt44,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-01930_dryad.json,0,
+RCTC-01930,https://datadryad.org/api/v2/versions/20121,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-01930_dryad_version.json,0,
+RCTC-01930,https://datadryad.org/api/v2/versions/20121/files,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-01930_dryad_files.json,0,
+RCTC-00888,https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.87f03,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-00888_dryad.json,0,
+RCTC-00888,https://datadryad.org/api/v2/versions/19867,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-00888_dryad_version.json,0,
+RCTC-00888,https://datadryad.org/api/v2/versions/19867/files,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-00888_dryad_files.json,0,
+RCTC-01937,https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.p67jf576,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-01937_dryad.json,0,
+RCTC-01937,https://datadryad.org/api/v2/versions/15294,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-01937_dryad_version.json,0,
+RCTC-01937,https://datadryad.org/api/v2/versions/15294/files,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-01937_dryad_files.json,0,
+RCTC-00893,https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.8jf11,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-00893_dryad.json,0,
+RCTC-00893,https://datadryad.org/api/v2/versions/6729,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-00893_dryad_version.json,0,
+RCTC-00893,https://datadryad.org/api/v2/versions/6729/files,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-00893_dryad_files.json,0,
+RCTC-01912,https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.dz08kprtc,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-01912_dryad.json,0,
+RCTC-01912,https://datadryad.org/api/v2/versions/107372,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-01912_dryad_version.json,0,
+RCTC-01912,https://datadryad.org/api/v2/versions/107372/files,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-01912_dryad_files.json,0,
+RCTC-00175,https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.5q1j0,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-00175_dryad.json,0,
+RCTC-00175,https://datadryad.org/api/v2/versions/5739,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-00175_dryad_version.json,0,
+RCTC-00175,https://datadryad.org/api/v2/versions/5739/files,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-00175_dryad_files.json,0,
+RCTC-05250,https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.c3g48,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-05250_dryad.json,0,
+RCTC-05250,https://datadryad.org/api/v2/versions/10555,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-05250_dryad_version.json,0,
+RCTC-05250,https://datadryad.org/api/v2/versions/10555/files,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-05250_dryad_files.json,0,
+RCTC-00158,https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.4m94c,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-00158_dryad.json,56,curl: (56) The requested URL returned error: 429
+RCTC-05229,https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.15dv41nt9,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-05229_dryad.json,56,curl: (56) The requested URL returned error: 429
+RCTC-00170,https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.2n6v4,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-00170_dryad.json,56,curl: (56) The requested URL returned error: 429
+RCTC-00173,https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.6vh02,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-00173_dryad.json,56,curl: (56) The requested URL returned error: 429
+RCTC-01948,https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.jh15q,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-01948_dryad.json,56,curl: (56) The requested URL returned error: 429
+RCTC-00180,https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.90p17,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-00180_dryad.json,56,curl: (56) The requested URL returned error: 429
+RCTC-00895,https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.7p1r30q5,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-00895_dryad.json,56,curl: (56) The requested URL returned error: 429
+RCTC-01934,https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.697r480,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-01934_dryad.json,56,curl: (56) The requested URL returned error: 429
+RCTC-05235,https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.kn4gv14,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-05235_dryad.json,56,curl: (56) The requested URL returned error: 429
+RCTC-01383,https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.k3j9kd5qd,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-01383_dryad.json,56,curl: (56) The requested URL returned error: 429
+RCTC-00161,https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.3hg4k,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-00161_dryad.json,56,curl: (56) The requested URL returned error: 429
+RCTC-00896,https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.2qv30,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-00896_dryad.json,56,curl: (56) The requested URL returned error: 429
+RCTC-00174,https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.1kn74rt,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-00174_dryad.json,56,curl: (56) The requested URL returned error: 429
+RCTC-01908,https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.sf7m0cg3n,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-01908_dryad.json,56,curl: (56) The requested URL returned error: 429
+RCTC-01926,https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.rg57q6m,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-01926_dryad.json,56,curl: (56) The requested URL returned error: 429
+RCTC-00181,https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.81tr1,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-00181_dryad.json,56,curl: (56) The requested URL returned error: 429
+RCTC-00167,https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.4ms68,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-00167_dryad.json,56,curl: (56) The requested URL returned error: 429
+RCTC-01810,https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.ghx3ffbz4,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-01810_dryad.json,56,curl: (56) The requested URL returned error: 429
+RCTC-05216,https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.bg79cnpc9,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-05216_dryad.json,56,curl: (56) The requested URL returned error: 429
+RCTC-01917,https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.sk6mr5v,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-01917_dryad.json,56,curl: (56) The requested URL returned error: 429
+RCTC-01941,https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.55nb389,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-01941_dryad.json,56,curl: (56) The requested URL returned error: 429
+RCTC-00166,https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.m1n03,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-00166_dryad.json,56,curl: (56) The requested URL returned error: 429
+RCTC-00890,https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.2d7h5,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-00890_dryad.json,56,curl: (56) The requested URL returned error: 429
+RCTC-05210,https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.b8gtht7m7,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-05210_dryad.json,56,curl: (56) The requested URL returned error: 429
+RCTC-01955,https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.7vn81m1,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-01955_dryad.json,56,curl: (56) The requested URL returned error: 429
+RCTC-01888,https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.1ns1rn8zx,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-01888_dryad.json,56,curl: (56) The requested URL returned error: 429
+RCTC-05222,https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.gqnk98smc,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-05222_dryad.json,56,curl: (56) The requested URL returned error: 429
+RCTC-00152,https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.gf1vhhmm5,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-00152_dryad.json,56,curl: (56) The requested URL returned error: 429
+RCTC-01873,https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.6t1g1jxbs,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-01873_dryad.json,56,curl: (56) The requested URL returned error: 429
+RCTC-00883,https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.k0p2ngf7b,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-00883_dryad.json,56,curl: (56) The requested URL returned error: 429
+RCTC-00884,https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.brv15dv8j,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-00884_dryad.json,56,curl: (56) The requested URL returned error: 429
+RCTC-00107,https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.n8pk0p30r,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-00107_dryad.json,56,curl: (56) The requested URL returned error: 429
+RCTC-05226,https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.866t1g1nw,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-05226_dryad.json,56,curl: (56) The requested URL returned error: 429
+RCTC-01313,https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.4f4qrfj95,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-01313_dryad.json,56,curl: (56) The requested URL returned error: 429
+RCTC-00887,https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.c81sr72,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-00887_dryad.json,56,curl: (56) The requested URL returned error: 429
+RCTC-05209,https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.sbcc2frgb,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-05209_dryad.json,56,curl: (56) The requested URL returned error: 429
+RCTC-00151,https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.k0p2ngf6b,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-00151_dryad.json,56,curl: (56) The requested URL returned error: 429
+RCTC-05233,https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.1jwstqjqd,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-05233_dryad.json,56,curl: (56) The requested URL returned error: 429
+RCTC-05141,https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.n5tb2rbtr,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-05141_dryad.json,56,curl: (56) The requested URL returned error: 429
+RCTC-00929,https://api.figshare.com/v2/articles/30147469/versions/1,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-00929_lboro_figshare.json,0,
+RCTC-03141,https://api.figshare.com/v2/articles/28286774/versions/1,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-03141_lboro_figshare.json,0,
+RCTC-02946,https://api.figshare.com/v2/articles/28694822/versions/1,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-02946_lboro_figshare.json,0,
+RCTC-06362,https://api.figshare.com/v2/articles/16917508,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-06362_lboro_figshare.json,0,
+RCTC-02529,https://data.mendeley.com/api/datasets/6k3w5zyj7m/files,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-02529_mendeley_files.json,0,
+RCTC-02917,https://data.mendeley.com/api/datasets/8sgpvp2tt3/files,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-02917_mendeley_files.json,0,
+RCTC-05660,https://data.mendeley.com/api/datasets/j22h832thx/files,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-05660_mendeley_files.json,0,
+RCTC-02645,https://data.mendeley.com/api/datasets/kdr3b4srbv/files,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-02645_mendeley_files.json,0,
+RCTC-03085,https://data.mendeley.com/api/datasets/pxxtzgzgcz/files,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-03085_mendeley_files.json,0,
+RCTC-02622,https://data.mendeley.com/api/datasets/2k98mvnk85/files,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-02622_mendeley_files.json,0,
+RCTC-02610,https://data.mendeley.com/api/datasets/vm8rg6rvsw/files,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-02610_mendeley_files.json,0,
+RCTC-03017,https://data.mendeley.com/api/datasets/5fj2mts5db/files,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-03017_mendeley_files.json,0,
+RCTC-03034,https://data.mendeley.com/api/datasets/7dc45xw2m7/files,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-03034_mendeley_files.json,0,
+RCTC-02490,https://data.mendeley.com/api/datasets/3v4gpkm8b8/files,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-02490_mendeley_files.json,0,
+RCTC-00346,https://data.mendeley.com/api/datasets/96bk339vr4/files,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-00346_mendeley_files.json,0,
+RCTC-03078,https://data.mendeley.com/api/datasets/93w6dmhptd/files,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-03078_mendeley_files.json,0,
+RCTC-02585,https://data.mendeley.com/api/datasets/dm2y8ztgvm/files,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-02585_mendeley_files.json,0,
+RCTC-05335,https://data.mendeley.com/api/datasets/8bjtsp9cf2/files,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-05335_mendeley_files.json,0,
+RCTC-01303,https://zenodo.org/api/records/17865268,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-01303_zenodo.json,0,
+RCTC-02275,https://zenodo.org/api/records/17065294,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-02275_zenodo.json,0,
+RCTC-03255,https://zenodo.org/api/records/13769970,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-03255_zenodo.json,0,
+RCTC-01781,https://zenodo.org/api/records/18683102,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-01781_zenodo.json,0,
+RCTC-05436,https://zenodo.org/api/records/15784637,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-05436_zenodo.json,0,
+RCTC-05300,https://zenodo.org/api/records/17856603,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-05300_zenodo.json,0,
+RCTC-04002,https://zenodo.org/api/records/6340520,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-04002_zenodo.json,0,
+RCTC-05267,https://zenodo.org/api/records/17588140,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-05267_zenodo.json,0,
+RCTC-01183,https://zenodo.org/api/records/20596682,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-01183_zenodo.json,0,
+RCTC-06339,https://zenodo.org/api/records/4621030,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-06339_zenodo.json,0,
+RCTC-06136,https://zenodo.org/api/records/7628186,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-06136_zenodo.json,0,
+RCTC-04008,https://zenodo.org/api/records/5255865,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-04008_zenodo.json,0,
+RCTC-01119,https://zenodo.org/api/records/5464139,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-01119_zenodo.json,0,
+RCTC-02467,https://zenodo.org/api/records/15004760,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-02467_zenodo.json,0,
+RCTC-00210,https://zenodo.org/api/records/17806468,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-00210_zenodo.json,0,
+RCTC-03406,https://zenodo.org/api/records/13128548,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-03406_zenodo.json,0,
+RCTC-04131,https://zenodo.org/api/records/4039991,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-04131_zenodo.json,0,
+RCTC-05974,https://zenodo.org/api/records/5919956,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-05974_zenodo.json,0,
+RCTC-04981,https://data.mendeley.com/api/datasets/grgwpgkpdg/files,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-04981_mendeley_files.json,56,curl: (56) The requested URL returned error: 403
+RCTC-00886,https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.hqbzkh1b7,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-00886_dryad.json,56,curl: (56) The requested URL returned error: 429
+RCTC-01878,https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.crjdfn3dt,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-01878_dryad.json,56,curl: (56) The requested URL returned error: 429
+RCTC-05768,https://data.mendeley.com/api/datasets/z27d252sr9/files,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-05768_mendeley_files.json,0,
+RCTC-06044,https://zenodo.org/api/records/10040088,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-06044_zenodo.json,0,
+RCTC-06028,https://zenodo.org/api/records/10229195,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-06028_zenodo.json,0,
+RCTC-03127,https://zenodo.org/api/records/14811536,rct_expansion/provenance/landing_page_verification_2026_06_09/metadata/RCTC-03127_zenodo.json,0,

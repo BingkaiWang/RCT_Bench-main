@@ -1,0 +1,110 @@
+Trial_ID,outcome_variable,outcome_role,arm,statistic,paper_value,paper_precision,paper_source,notes
+51,YP_sleep_latency_7d,primary,Control,mean,1.91,0.01,Trial51 Table 2,"Sleep latency, minutes."
+51,YP_sleep_latency_7d,primary,Control,sd,0.98,0.01,Trial51 Table 2,"Sleep latency, minutes."
+51,YP_sleep_latency_7d,primary,Sleep hygiene,mean,0.72,0.01,Trial51 Table 2,"Sleep latency, minutes."
+51,YP_sleep_latency_7d,primary,Sleep hygiene,sd,0.15,0.01,Trial51 Table 2,"Sleep latency, minutes."
+51,YP_sleep_latency_7d,primary,Lavender oil,mean,1.34,0.01,Trial51 Table 2,"Sleep latency, minutes."
+51,YP_sleep_latency_7d,primary,Lavender oil,sd,0.4,0.01,Trial51 Table 2,"Sleep latency, minutes."
+51,YP_sleep_latency_7d,primary,Sleep hygiene + lavender oil,mean,0.98,0.01,Trial51 Table 2,"Sleep latency, minutes."
+51,YP_sleep_latency_7d,primary,Sleep hygiene + lavender oil,sd,0.45,0.01,Trial51 Table 2,"Sleep latency, minutes."
+51,YS_sleep_efficiency_7d,secondary,Control,mean,87.27,0.01,Trial51 Table 2,"Sleep efficiency, percent."
+51,YS_sleep_efficiency_7d,secondary,Control,sd,5.02,0.01,Trial51 Table 2,"Sleep efficiency, percent."
+51,YS_sleep_efficiency_7d,secondary,Sleep hygiene,mean,89.57,0.01,Trial51 Table 2,"Sleep efficiency, percent."
+51,YS_sleep_efficiency_7d,secondary,Sleep hygiene,sd,3.03,0.01,Trial51 Table 2,"Sleep efficiency, percent."
+51,YS_sleep_efficiency_7d,secondary,Lavender oil,mean,85.88,0.01,Trial51 Table 2,"Sleep efficiency, percent."
+51,YS_sleep_efficiency_7d,secondary,Lavender oil,sd,3.98,0.01,Trial51 Table 2,"Sleep efficiency, percent."
+51,YS_sleep_efficiency_7d,secondary,Sleep hygiene + lavender oil,mean,86.93,0.01,Trial51 Table 2,"Sleep efficiency, percent."
+51,YS_sleep_efficiency_7d,secondary,Sleep hygiene + lavender oil,sd,4.8,0.01,Trial51 Table 2,"Sleep efficiency, percent."
+51,X_sleep_quality_0w,secondary_baseline,Control,mean,4.09,0.01,Trial51 Table 3,Hooper sleep pre-intervention.
+51,trial51_hooper_sleep_post,secondary,Control,mean,4.55,0.01,Trial51 Table 3,Hooper sleep post-intervention.
+51,X_sleep_quality_0w,secondary_baseline,Sleep hygiene,mean,4.13,0.01,Trial51 Table 3,Hooper sleep pre-intervention.
+51,trial51_hooper_sleep_post,secondary,Sleep hygiene,mean,2.38,0.01,Trial51 Table 3,Hooper sleep post-intervention.
+51,X_sleep_quality_0w,secondary_baseline,Lavender oil,mean,4.56,0.01,Trial51 Table 3,Hooper sleep pre-intervention.
+51,trial51_hooper_sleep_post,secondary,Lavender oil,mean,3.33,0.01,Trial51 Table 3,Hooper sleep post-intervention.
+51,X_sleep_quality_0w,secondary_baseline,Sleep hygiene + lavender oil,mean,4.33,0.01,Trial51 Table 3,Hooper sleep pre-intervention.
+51,trial51_hooper_sleep_post,secondary,Sleep hygiene + lavender oil,mean,2.11,0.01,Trial51 Table 3,Hooper sleep post-intervention.
+52,X_serum_phosphorus_0w,primary_baseline,Tenapanor,mean,5.17,0.01,Trial52 text near Fig 4,Serum phosphorus baseline.
+52,X_serum_phosphorus_0w,primary_baseline,Control,mean,5.06,0.01,Trial52 text near Fig 4,Serum phosphorus baseline.
+52,trial52_serum_phosphorus_23w,primary,Tenapanor,mean,4.11,0.01,Trial52 text near Fig 4,Serum phosphorus week 23.
+52,trial52_serum_phosphorus_23w,primary,Control,mean,4.76,0.01,Trial52 text near Fig 4,Serum phosphorus week 23.
+52,trial52_bsfs_7w,primary,Tenapanor,percent_type_1_2,0,0.01,Trial52 BSFS results text,Hard stools resolved by the end of the medication trial.
+53,YP_total_sufentanil_perioperative,primary,Group 1,mean,155.41,0.01,Trial53 Table 1,Total perioperative cumulative sufentanil.
+53,YP_total_sufentanil_perioperative,primary,Group 1,sd,19.58,0.01,Trial53 Table 1,Total perioperative cumulative sufentanil.
+53,YP_total_sufentanil_perioperative,primary,Group 2,mean,119.37,0.01,Trial53 Table 1,Total perioperative cumulative sufentanil.
+53,YP_total_sufentanil_perioperative,primary,Group 2,sd,12.41,0.01,Trial53 Table 1,Total perioperative cumulative sufentanil.
+53,YS_rescue_analgesia,secondary,Group 1,sum,25,1,Trial53 Table 1,Rescue analgesia count.
+53,YS_rescue_analgesia,secondary,Group 2,sum,16,1,Trial53 Table 1,Rescue analgesia count.
+53,YS_qor40,secondary,Group 1,mean,166.45,0.01,Trial53 Table 1,QoR-40 score.
+53,YS_qor40,secondary,Group 2,mean,166.53,0.01,Trial53 Table 1,QoR-40 score.
+54,YP_fsfi_total_v5,primary,Pelvic floor training,mean,18.35,0.01,Trial54 Table 3,FSFI total at end of treatment.
+54,YP_fsfi_total_v5,primary,Pelvic floor training,sd,5.47,0.01,Trial54 Table 3,FSFI total at end of treatment.
+54,YP_fsfi_total_v5,primary,Vaginal spheres + pelvic floor training,mean,19,0.01,Trial54 Table 3,FSFI total at end of treatment.
+54,YP_fsfi_total_v5,primary,Vaginal spheres + pelvic floor training,sd,7.1,0.01,Trial54 Table 3,FSFI total at end of treatment.
+54,X_fsfi_total_0m,primary_baseline,Pelvic floor training,mean,18.06,0.01,Trial54 Table 1,FSFI total baseline.
+54,X_fsfi_total_0m,primary_baseline,Vaginal spheres + pelvic floor training,mean,19.08,0.01,Trial54 Table 1,FSFI total baseline.
+54,YS_iciq_sf_v5,secondary,Pelvic floor training,mean,4.52,0.01,Trial54 Table 3,ICIQ-UI-SF at end of treatment.
+54,YS_iciq_sf_v5,secondary,Vaginal spheres + pelvic floor training,mean,3.31,0.01,Trial54 Table 3,ICIQ-UI-SF at end of treatment.
+54,YS_oxford_power_v5,secondary,Pelvic floor training,mean,2.93,0.01,Trial54 Table 3,Oxford power at end of treatment.
+54,YS_oxford_power_v5,secondary,Vaginal spheres + pelvic floor training,mean,2.96,0.01,Trial54 Table 3,Oxford power at end of treatment.
+55,YP_total_moderate_serious_aecopd_12m,primary,Control,mean,3,0.01,Trial55 Table 2,Total moderate/severe AECOPD count.
+55,YP_total_moderate_serious_aecopd_12m,primary,Control,sd,3.02,0.01,Trial55 Table 2,Total moderate/severe AECOPD count.
+55,YP_total_moderate_serious_aecopd_12m,primary,Control,sum,84,1,Trial55 results text,Total moderate/severe AECOPD events.
+55,YP_total_moderate_serious_aecopd_12m,primary,Taking Charge,mean,3.04,0.01,Trial55 Table 2,Total moderate/severe AECOPD count.
+55,YP_total_moderate_serious_aecopd_12m,primary,Taking Charge,sd,2.59,0.01,Trial55 Table 2,Total moderate/severe AECOPD count.
+55,YP_total_moderate_serious_aecopd_12m,primary,Taking Charge,sum,85,1,Trial55 results text,Total moderate/severe AECOPD events.
+56,YP_attention_rbans_post,primary,Sham tDCS,mean,106,0.01,Trial56 underlying data and primary attention results,RBANS Attention Index after 3-week treatment.
+56,YP_attention_rbans_post,primary,Active tDCS,mean,123,0.01,Trial56 underlying data and primary attention results,RBANS Attention Index after 3-week treatment.
+56,X_attention_rbans_0w,primary_baseline,Sham tDCS,mean,103.43,0.01,Trial56 underlying data and Table 2,Baseline RBANS Attention Index.
+56,X_attention_rbans_0w,primary_baseline,Active tDCS,mean,105.88,0.01,Trial56 underlying data and Table 2,Baseline RBANS Attention Index.
+57,YP_weight_loss_12m,primary,Functional imagery training vs Motivational interviewing,model_difference_12m,5.77,0.01,Trial57 abstract/results,Model-estimated 12-month weight-loss mean difference between FIT and MI.
+57,YP_weight_loss_12m,primary,Functional imagery training,mean,7.43,0.01,Trial57 data supplement raw descriptives,Observed 12-month weight loss in participants with follow-up data.
+57,YP_weight_loss_12m,primary,Motivational interviewing,mean,1.4,0.01,Trial57 data supplement raw descriptives,Observed 12-month weight loss in participants with follow-up data.
+58,YP_rbans_total_1w,primary,Sham tDCS + cognitive training,mean,89.13,0.01,Trial58 Table 2,RBANS Total Score at one-week endpoint.
+58,YP_rbans_total_1w,primary,Active tDCS + cognitive training,mean,88.14,0.01,Trial58 Table 2,RBANS Total Score at one-week endpoint.
+58,X_rbans_total_0w,primary_baseline,Sham tDCS + cognitive training,mean,85.8,0.01,Trial58 Table 2,Baseline RBANS Total Score.
+58,X_rbans_total_0w,primary_baseline,Active tDCS + cognitive training,mean,82.36,0.01,Trial58 Table 2,Baseline RBANS Total Score.
+59,YP_dorsiflexion_dominant_post,primary,Static stretching,mean,8.54,0.01,Trial59 Table 3/Fig 5,Dominant-leg dorsiflexion ROM immediately post-intervention.
+59,YP_dorsiflexion_dominant_post,primary,Tissue flossing,mean,10.02,0.01,Trial59 Table 3/Fig 5,Dominant-leg dorsiflexion ROM immediately post-intervention.
+59,X_dorsiflexion_dominant_0d,primary_baseline,Static stretching,mean,8.16,0.01,Trial59 Table 3/Fig 5,Baseline dominant-leg dorsiflexion ROM.
+59,X_dorsiflexion_dominant_0d,primary_baseline,Tissue flossing,mean,7.71,0.01,Trial59 Table 3/Fig 5,Baseline dominant-leg dorsiflexion ROM.
+60,YP_delta_glucose_elution_post,primary,Sham,mean,-19.8,0.1,Trial60 abstract/results,Within-period glucose elution change after sham.
+60,YP_delta_glucose_elution_post,primary,IW stimulation,mean,31.5,0.1,Trial60 abstract/results,Within-period glucose elution change after IW stimulation.
+60,X_glucose_elution_pre,primary_baseline,Sham,mean,263,0.1,Trial60 discussion/results,Pre-period glucose elution concentration before sham.
+60,YP_glucose_elution_post,primary,IW stimulation,mean,288,0.1,Trial60 discussion/results,Post-period glucose elution concentration after IW stimulation.
+61,YP_delta_fasting_glucose_4m,primary,Supplement,mean,-0.24,0.01,Trial61 abstract/results,Four-month fasting plasma glucose change in the supplement arm.
+62,YP_ckdepi_24m,primary,Cyclosporine vs Tacrolimus,model_difference_24m_csa_minus_tac,-4.48,0.01,Trial62 abstract/results,"Model-estimated CKD-EPI difference at 24 months, cyclosporine minus tacrolimus."
+63,YP_delta_peak_vo2_post,primary,HIIT,mean,2.1,0.1,Trial63 abstract/results,Peak VO2 change after HIIT.
+64,YP_delta_pain_vas_5m,primary,Exercise minus control,mean_difference_change_exercise_vs_control,-0.74,0.01,Trial64 abstract/results,Exercise-minus-control low-back-pain VAS change difference.
+65,YP_time_to_exhaustion_min,primary,Active tDCS,mean,12.3,0.1,Trial65 results table,Time to exhaustion in minutes during active tDCS.
+66,YP_foam_eo_mtv_post,primary,Ashtanga yoga therapy,paired_t_baseline_minus_post,-3.66,0.01,Trial66 results text,Paired t statistic for baseline minus post foam eyes-open mean total velocity in the yoga arm.
+67,YP_beta2_microglobulin_clearance_mean,primary,High cut-off filter,mean,19.6,0.1,Trial67 abstract/results,Mean beta2-microglobulin clearance in the high cut-off filter arm.
+68,YP_delta_clinician_adhd_inattentive_8w,primary,BCI attention training,mean,3.46,0.01,Trial68 results table,Clinician-rated inattentive symptom improvement from week 1 to week 8.
+69,YP_peak_evas_without_conditioning,primary,Placebo,group_curve_peak_without_cs_60_90,53,0.1,Trial69 results/Figure 1,Peak of the placebo 60-90 minute group-mean eVAS curve without conditioning stimulus.
+70,YP_grand_index_delta,primary,Lumosity cognitive training,mean,5.24,0.01,Trial70 results text,Grand Index change in the Lumosity cognitive training arm.
+71,YP_preterm_or_low_birth_weight,primary,Intervention,sum,27,1,Trial71 article results table,Composite preterm birth or low birth weight event count in intervention arm.
+72,YP_active_bleeding_controlled_20min,primary,Sublingual misoprostol,sum,440,1,Trial72 Lancet results,Active bleeding controlled within 20 minutes in Study A misoprostol arm.
+73,YP_call_service_satisfaction_likert,primary,AI-assisted reassurance call,mean,4.2,0.01,Trial73 article abstract/results,Likert satisfaction with the reassurance-call service in the AI-assisted arm.
+74,YP_delta_sara_post,primary,Core stability exercise,mean,-1.64,0.01,Trial74 article results table,SARA total score change after intervention in the exercise arm.
+75,YP_delta_nrs_3m,primary,Reduced two-branch RFA,mean,-4.12,0.01,Trial75 article results table,Three-month NRS pain change in reduced-branch RFA arm.
+76,YP_total_score_after_training,primary,Time-segmented-target teaching,mean,82.3,0.1,Trial76 article results table,Post-training spinal puncture total performance score.
+77,YP_delta_trunk_impairment_t2,primary,Core stability exercise,mean,8.75,0.01,Trial77 article results table,T2 Trunk Impairment Scale change in CORE arm.
+78,YP_disease_progression_28d,primary,Regional thermotherapy,sum,14,1,Trial78 article results table,Any COVID-19 disease progression by 28 days.
+79,YP_knowledge_post,primary,Webtoon education,mean,21,0.1,Trial79 article results table,Immediate posteducation knowledge score in webtoon education arm.
+80,YP_delta_bmi_6m,primary,Digital peer support,mean,-0.38,0.01,Trial80 article results table,Six-month BMI change in digital peer-support arm.
+B01,YP_delta_kmpai_pre3,primary,Control,mean,NA,NA,B01 paper,No exact post/change K-MPAI summary was reported for the cleaned primary outcome.
+B02,YP_malaria_events,primary,DP every 12 weeks,rate_per_person_year,0.322,0.001,B02 results text,Malaria incidence per person-year after correcting raw event code.
+B02,YP_malaria_events,primary,DP every 4 weeks,rate_per_person_year,0.017,0.001,B02 results text,Malaria incidence per person-year after correcting raw event code.
+B03,published_sputum_bacterial_load,primary,Placebo,mean_change,NA,NA,B03 Table 2,Published primary raw variable is not available in public source files.
+B04,X_disability_sis_0w,primary_baseline,Intervention,mean,49.75,0.01,B04 Table II,SIS total baseline.
+B04,B04_sis_post,primary,Intervention,mean,69.04,0.01,B04 Table II,SIS total post-intervention.
+B04,B04_sis_followup,primary,Intervention,mean,70.6,0.01,B04 Table II,SIS total follow-up.
+B04,X_disability_sis_0w,primary_baseline,Control,mean,47.53,0.01,B04 Table II,SIS total baseline.
+B04,B04_sis_post,primary,Control,mean,58.1,0.01,B04 Table II,SIS total post-intervention.
+B04,B04_sis_followup,primary,Control,mean,58.82,0.01,B04 Table II,SIS total follow-up.
+B04,X_quality_whodas_0w,primary_baseline,Intervention,mean,40.42,0.01,B04 Table II,WHODAS total baseline.
+B04,B04_whodas_post,primary,Intervention,mean,50.95,0.01,B04 Table II,WHODAS total post-intervention.
+B04,B04_whodas_followup,primary,Intervention,mean,52.62,0.01,B04 Table II,WHODAS total follow-up.
+B04,X_quality_whodas_0w,primary_baseline,Control,mean,37.74,0.01,B04 Table II,WHODAS total baseline.
+B04,B04_whodas_post,primary,Control,mean,46.51,0.01,B04 Table II,WHODAS total post-intervention.
+B04,B04_whodas_followup,primary,Control,mean,47.29,0.01,B04 Table II,WHODAS total follow-up.
+B05,no_publication_identified,primary,NA,mean,NA,NA,B05 search record,No associated main publication was identified.

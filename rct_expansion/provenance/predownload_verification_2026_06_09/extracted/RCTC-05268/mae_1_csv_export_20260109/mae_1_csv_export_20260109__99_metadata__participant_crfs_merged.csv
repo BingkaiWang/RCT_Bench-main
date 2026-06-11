@@ -1,0 +1,97 @@
+rownames,pid,site,age,race,ethn,cut_size_meals,eat_less,hungry_did_not_eat,sexual_partners_lifetime,sexual_partners_past_month,contraception_method,used_applicators,number_applicators,applicator_stain_positive,applicator_stain_negative,applicator_stain_indeterminant,total_applicators_stained,proportion_positive_applicators,total
+1,068100004,MGH,25,Asian or South Asian,Not hispanic/latino/spanish,No,No,No,7,1,Continuous combined oral contraceptive pills (skip placebo),No,NA,NA,NA,NA,NA,NA,NA
+2,068100006,MGH,22,"Black, African American, or African",Not hispanic/latino/spanish,No,Yes,Yes,4,1,Depo provera,Yes,6,6,0,0,6,1,6
+3,068100010,MGH,35,"Black, African American, or African",Not hispanic/latino/spanish,No,No,No,10,1,Continuous combined oral contraceptive pills (skip placebo),No,NA,NA,NA,NA,NA,NA,NA
+4,068100011,MGH,31,"Black, African American, or African",hispanic/latino/spanish,No,No,No,23,1,Continuous combined oral contraceptive pills (skip placebo),No,NA,NA,NA,NA,NA,NA,NA
+5,068100013,MGH,37,White,Not hispanic/latino/spanish,No,No,No,10,1,Continuous combined oral contraceptive pills (skip placebo),Yes,7,6,1,0,7,0.86,7
+6,068100016,MGH,24,White,Not hispanic/latino/spanish,No,No,No,10,0,Continuous combined oral contraceptive pills (skip placebo),NA,NA,NA,NA,NA,NA,NA,NA
+7,068100026,MGH,33,"Black, African American, or African",Not hispanic/latino/spanish,Only 1 or 2 months,Yes,Yes,15,2,Continuous combined oral contraceptive pills (skip placebo),Yes,5,4,0,0,4,1,4
+8,068100029,MGH,39,Other,hispanic/latino/spanish,Prefer not to answer,No,No,5,1,Continuous combined oral contraceptive pills (skip placebo),No,NA,NA,NA,NA,NA,NA,NA
+9,068100036,MGH,38,Other,hispanic/latino/spanish,No,No,No,9,1,Continuous combined oral contraceptive pills (skip placebo),Yes,7,7,0,0,7,1,7
+10,068100040,MGH,40,White,hispanic/latino/spanish,No,No,No,5,1,Other,Yes,7,7,0,0,7,1,7
+11,068100044,MGH,35,"Black, African American, or African",Not hispanic/latino/spanish,No,No,No,10,0,Other,Yes,7,7,0,0,7,1,7
+12,068100045,MGH,23,White,Not hispanic/latino/spanish,No,No,No,8,1,Hormone containing IUD,NA,NA,NA,NA,NA,NA,NA,NA
+13,068100046,MGH,34,"Black, African American, or African",Not hispanic/latino/spanish,No,No,No,6,1,Hormone containing IUD,Yes,6,6,0,0,6,1,6
+14,068100049,MGH,40,White,Not hispanic/latino/spanish,No,No,No,15,1,Continuous combined oral contraceptive pills (skip placebo),Yes,7,7,0,0,7,1,7
+15,068100050,MGH,27,"Black, African American, or African",Not hispanic/latino/spanish,Only 1 or 2 months,No,Prefer not to answer,10,0,Condoms only,NA,NA,NA,NA,NA,NA,NA,NA
+16,068100052,MGH,32,Asian or South Asian,Not hispanic/latino/spanish,No,No,No,7,1,Hormone containing IUD,Yes,7,7,0,0,7,1,7
+17,068100053,MGH,29,Prefer not to answer,hispanic/latino/spanish,No,No,No,7,1,Hormonal implant,No,NA,NA,NA,NA,NA,NA,NA
+18,068100054,MGH,24,White,Not hispanic/latino/spanish,No,No,No,90,1,Hormone containing IUD,Yes,7,7,0,0,7,1,7
+19,068100056,MGH,38,"Black, African American, or African",Not hispanic/latino/spanish,No,No,No,6,1,Other,NA,NA,NA,NA,NA,NA,NA,NA
+20,068100058,MGH,30,"Black, African American, or African",Not hispanic/latino/spanish,No,No,No,10,0,Cyclic combined oral contraceptive pills,Yes,7,7,0,0,7,1,7
+21,068100060,MGH,38,White,Not hispanic/latino/spanish,Almost every month,Yes,Yes,6,1,Hormone containing IUD,Yes,7,7,0,0,7,1,7
+22,068100061,MGH,31,"Black, African American, or African",Not hispanic/latino/spanish,No,No,No,10,2,Hormone containing IUD,Yes,7,7,0,0,7,1,7
+23,068100062,MGH,26,White,Not hispanic/latino/spanish,No,No,No,10,2,Hormone containing IUD,Yes,7,7,0,0,7,1,7
+24,068100063,MGH,28,"Black, African American, or African",Not hispanic/latino/spanish,Prefer not to answer,Prefer not to answer,Prefer not to answer,15,1,Contraceptive vaginal ring,No,NA,NA,NA,NA,NA,NA,NA
+25,068200008,CAP,36,African,NA,No,No,No,6,1,Depo provera,Yes,7,7,0,0,7,1,7
+26,068200020,CAP,25,African,NA,No,No,No,6,2,Depo provera,Yes,6,6,0,0,6,1,6
+27,068200023,CAP,36,African,NA,Some months but not every month,Yes,No,9,1,Depo provera,Yes,7,6,0,1,7,0.86,7
+28,068200028,CAP,34,African,NA,Some months but not every month,Yes,Yes,5,1,Depo provera,Yes,7,7,0,0,7,1,7
+29,068200044,CAP,20,African,NA,No,No,No,1,1,Net-EN,Yes,7,6,0,1,7,0.86,7
+30,068200050,CAP,34,African,NA,No,Yes,Yes,1,1,Depo provera,Yes,7,7,0,0,7,1,7
+31,068200058,CAP,28,African,NA,No,No,No,8,1,Depo provera,Yes,7,5,0,2,7,0.71,7
+32,068200061,CAP,19,African,NA,No,No,No,3,1,Net-EN,Yes,7,0,7,0,7,0,7
+33,068200062,CAP,32,African,NA,Some months but not every month,Yes,No,4,1,Depo provera,Yes,7,5,0,2,7,0.71,7
+34,068200085,CAP,30,African,NA,Some months but not every month,Yes,Yes,9,1,Continuous combined oral contraceptive pills (skip placebo),Yes,7,7,0,0,7,1,7
+35,068200087,CAP,34,African,NA,Almost every month,Yes,Yes,3,1,Depo provera,Yes,7,7,0,0,7,1,7
+36,068200088,CAP,20,African,NA,No,No,No,5,2,Depo provera,Yes,7,7,0,0,7,1,7
+37,068200118,CAP,21,African,NA,No,No,No,1,1,Net-EN,Yes,7,6,0,1,7,0.86,7
+38,068200127,CAP,25,African,NA,Some months but not every month,Yes,Yes,7,1,Depo provera,Yes,7,7,0,0,7,1,7
+39,068200131,CAP,23,African,NA,No,No,No,5,1,Depo provera,Yes,7,7,0,0,7,1,7
+40,068200150,CAP,24,African,NA,No,No,No,4,1,Depo provera,Yes,7,7,0,0,7,1,7
+41,068200153,CAP,22,African,NA,No,No,No,3,1,Depo provera,Yes,7,7,0,0,7,1,7
+42,068200179,CAP,18,African,NA,No,No,No,2,1,Continuous combined oral contraceptive pills (skip placebo),Yes,7,7,0,0,7,1,7
+43,068200191,CAP,25,African,NA,No,No,No,1,1,Depo provera,Yes,7,6,0,1,7,0.86,7
+44,068200204,CAP,26,African,NA,No,No,No,3,1,Depo provera,Yes,7,7,0,0,7,1,7
+45,068200224,CAP,31,African,NA,Almost every month,Yes,Yes,6,2,Depo provera,Yes,7,7,0,0,7,1,7
+46,068200225,CAP,26,African,NA,Some months but not every month,Yes,Yes,5,1,Depo provera,Yes,7,7,0,0,7,1,7
+47,068200229,CAP,27,African,NA,No,No,No,3,1,Depo provera,Yes,7,6,0,1,7,0.86,7
+48,068200239,CAP,20,African,NA,Some months but not every month,Yes,No,15,3,Depo provera,Yes,7,7,0,0,7,1,7
+49,068200240,CAP,33,African,NA,No,No,No,10,1,Continuous combined oral contraceptive pills (skip placebo),Yes,6,6,0,0,6,1,6
+50,068200247,CAP,20,African,NA,Some months but not every month,Yes,No,5,2,Depo provera,Yes,7,7,0,0,7,1,7
+51,068200248,CAP,32,African,NA,No,No,No,5,1,Net-EN,Yes,7,7,0,0,7,1,7
+52,068200252,CAP,37,African,NA,No,No,No,4,2,Depo provera,Yes,7,5,0,2,7,0.71,7
+53,068200253,CAP,23,African,NA,No,No,No,5,0,Depo provera,Yes,6,4,0,2,6,0.67,6
+54,068200278,CAP,25,African,NA,No,No,No,3,1,Depo provera,Yes,7,7,0,0,7,1,7
+55,068200281,CAP,21,African,NA,No,No,No,5,1,Depo provera,Yes,7,7,0,0,7,1,7
+56,068200282,CAP,21,African,NA,Some months but not every month,Yes,Yes,3,1,Depo provera,Yes,7,7,0,0,7,1,7
+57,068200285,CAP,31,African,NA,No,No,No,4,1,Depo provera,Yes,7,7,0,0,7,1,7
+58,068200310,CAP,19,African,NA,No,No,No,2,1,Net-EN,Yes,7,7,0,0,7,1,7
+59,068200347,CAP,26,African,NA,No,Yes,Yes,5,1,Depo provera,Yes,7,7,0,0,7,1,7
+60,068200350,CAP,32,African,NA,Blank,Yes,No,3,1,Depo provera,NA,NA,NA,NA,NA,NA,NA,NA
+61,068200356,CAP,22,African,NA,No,No,No,4,1,Depo provera,Yes,7,7,0,0,7,1,7
+62,068200357,CAP,20,African,NA,Some months but not every month,Yes,No,4,1,Depo provera,Yes,7,7,0,0,7,1,7
+63,068200358,CAP,33,African,NA,No,No,No,3,1,Depo provera,Yes,7,7,0,0,7,1,7
+64,068200361,CAP,24,African,NA,No,Yes,No,4,1,Depo provera,Yes,7,7,0,0,7,1,7
+65,068200363,CAP,29,African,NA,No,Yes,No,3,1,Depo provera,Yes,7,7,0,0,7,1,7
+66,068200364,CAP,35,African,NA,No,No,No,7,2,Net-EN,Yes,7,4,3,0,7,0.57,7
+67,068200366,CAP,24,African,NA,Only 1 or 2 months,Yes,Yes,4,2,Depo provera,Yes,7,7,0,0,7,1,7
+68,068200370,CAP,32,African,NA,Some months but not every month,Yes,No,20,2,Depo provera,Yes,7,6,0,1,7,0.86,7
+69,068200373,CAP,21,African,NA,No,No,No,1,1,Depo provera,Yes,7,7,0,0,7,1,7
+70,068200375,CAP,22,African,NA,No,No,No,3,1,Depo provera,Yes,7,7,0,0,7,1,7
+71,068200378,CAP,27,African,NA,Some months but not every month,Yes,No,5,1,Depo provera,Yes,7,7,0,0,7,1,7
+72,068200379,CAP,26,African,NA,No,No,No,4,1,Depo provera,Yes,7,7,0,0,7,1,7
+73,068200380,CAP,23,African,NA,No,No,No,4,1,Continuous combined oral contraceptive pills (skip placebo),Yes,6,6,0,0,6,1,6
+74,068200385,CAP,24,African,NA,No,No,No,3,1,Net-EN,Yes,7,7,0,0,7,1,7
+75,068200387,CAP,30,African,NA,Almost every month,Yes,No,3,1,Depo provera,Yes,7,7,0,0,7,1,7
+76,068200388,CAP,22,African,NA,No,No,No,1,1,Depo provera,Yes,7,7,0,0,7,1,7
+77,068200392,CAP,26,African,NA,Only 1 or 2 months,Yes,Yes,3,1,Depo provera,Yes,7,7,0,0,7,1,7
+78,068200397,CAP,22,African,NA,No,No,No,3,0,Net-EN,Yes,7,7,0,0,7,1,7
+79,068200398,CAP,26,African,NA,No,No,No,7,1,Depo provera,Yes,7,7,0,0,7,1,7
+80,068200399,CAP,26,African,NA,Some months but not every month,Yes,No,4,1,Net-EN,Yes,7,7,0,0,7,1,7
+81,068200407,CAP,23,African,NA,No,No,No,2,1,Depo provera,Yes,7,7,0,0,7,1,7
+82,068200409,CAP,31,African,NA,Some months but not every month,Yes,No,4,1,Net-EN,Yes,7,7,0,0,7,1,7
+83,068200412,CAP,25,African,NA,No,No,No,3,1,Depo provera,Yes,7,5,0,2,7,0.71,7
+84,068200414,CAP,21,African,NA,No,No,No,3,1,Depo provera,Yes,7,7,0,0,7,1,7
+85,068200415,CAP,25,African,NA,Some months but not every month,Yes,No,3,1,Depo provera,Yes,7,7,0,0,7,1,7
+86,068200421,CAP,37,African,NA,No,No,No,2,1,Depo provera,Yes,7,7,0,0,7,1,7
+87,068200422,CAP,28,African,NA,No,No,No,10,1,Depo provera,Yes,7,5,2,0,7,0.71,7
+88,068200425,CAP,25,African,NA,Some months but not every month,Yes,Yes,3,1,Depo provera,Yes,8,7,0,1,8,0.88,8
+89,068200428,CAP,33,African,NA,No,No,No,3,1,Net-EN,Yes,7,7,0,0,7,1,7
+90,068200438,CAP,25,African,NA,Some months but not every month,Yes,Yes,1,1,Depo provera,Yes,7,7,0,0,7,1,7
+91,068200439,CAP,25,African,NA,No,No,No,1,1,Depo provera,Yes,8,8,0,0,8,1,8
+92,068200441,CAP,29,African,NA,No,No,No,3,1,Depo provera,Yes,7,7,0,0,7,1,7
+93,068200457,CAP,32,African,NA,No,No,No,4,1,Depo provera,No,NA,NA,NA,NA,NA,NA,NA
+94,068200460,CAP,29,African,NA,Some months but not every month,Yes,Yes,8,2,Depo provera,Yes,7,7,0,0,7,1,7
+95,068200465,CAP,31,African,NA,No,Yes,No,5,2,Depo provera,Yes,7,6,0,1,7,0.86,7
+96,068200214,CAP,31,African,NA,Almost every month,No,No,5,2,Continuous combined oral contraceptive pills (skip placebo),Yes,7,7,0,0,7,1,7

@@ -1,0 +1,12 @@
+Trial_ID,Candidate_ID,Source_File,Copied_To,File_Size_Bytes
+trial100,RCTC-01557,rct_expansion/provenance/deferred_likely_qualified_evaluation_2026_06_11/source_verification_manual_review_queue/downloads/RCTC-01557/S 3 raw data.tab,rct_expansion/raw_data/trial100/S 3 raw data.tab,8496
+trial101,RCTC-02282,rct_expansion/provenance/manual_review_user_files_2026_06_11/extracted/doi-10.34894-bazoqf/Data,rct_expansion/raw_data/trial101/Data.csv,5816
+trial101,RCTC-02282,rct_expansion/provenance/manual_review_user_files_2026_06_11/extracted/doi-10.34894-bazoqf/Study protocol,rct_expansion/raw_data/trial101/Study protocol.pdf,1121843
+trial102,RCTC-05010,rct_expansion/provenance/manual_review_user_files_2026_06_11/RCTC-05010.xlsx,rct_expansion/raw_data/trial102/RCTC-05010.xlsx,160784
+trial103,RCTC-02127,rct_expansion/provenance/deferred_likely_qualified_evaluation_2026_06_11/source_verification_manual_review_queue/downloads/RCTC-02127/Collecte donn_es_Dataverse.tab,rct_expansion/raw_data/trial103/Collecte donn_es_Dataverse.tab,9229
+trial104,RCTC-04923,rct_expansion/provenance/deferred_likely_qualified_evaluation_2026_06_11/source_verification_qualified_queue/downloads/RCTC-04923/Fig1a_ eFig 3.tab,rct_expansion/raw_data/trial104/Fig1a_ eFig 3.tab,5037
+trial104,RCTC-04923,rct_expansion/provenance/deferred_likely_qualified_evaluation_2026_06_11/source_verification_qualified_queue/downloads/RCTC-04923/Fig 1b_eFig 4a_ 4b_ 5.tab,rct_expansion/raw_data/trial104/Fig 1b_eFig 4a_ 4b_ 5.tab,2737
+trial104,RCTC-04923,rct_expansion/provenance/deferred_likely_qualified_evaluation_2026_06_11/source_verification_qualified_queue/downloads/RCTC-04923/eFig 6-7.tab,rct_expansion/raw_data/trial104/eFig 6-7.tab,2554
+trial104,RCTC-04923,rct_expansion/provenance/deferred_likely_qualified_evaluation_2026_06_11/source_verification_qualified_queue/downloads/RCTC-04923/eFig 8-9.tab,rct_expansion/raw_data/trial104/eFig 8-9.tab,160863
+trial104,RCTC-04923,rct_expansion/provenance/deferred_likely_qualified_evaluation_2026_06_11/source_verification_qualified_queue/downloads/RCTC-04923/mapa tablas.docx,rct_expansion/raw_data/trial104/mapa tablas.docx,12853
+trial105,RCTC-04272,rct_expansion/provenance/deferred_likely_qualified_evaluation_2026_06_11/source_verification_qualified_queue/downloads/RCTC-04272/LindsayData_PNE.sav,rct_expansion/raw_data/trial105/LindsayData_PNE.sav,177141

@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+title: "DFT IW Stimulation – Masticatory Function (Data & Code)"
+message: "If you use this dataset or code, please cite this repository and the corresponding paper."
+authors:
+  - family-names: Oku
+    given-names: Yoshitaka
+  - family-names: Hara
+    given-names: Masayuki
+  - family-names: Hara
+    given-names: Norimasa
+type: dataset
+license: CC-BY-4.0
+keywords: [interferential current, masticatory performance, crossover trial, occlusal force]

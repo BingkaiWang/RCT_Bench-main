@@ -1,0 +1,5 @@
+Trial_ID: 112
+Paper Name: Data from: Patterned frequency-modulated oral stimulation in preterm infants: a multicenter randomized controlled trial
+Paper Link: https://doi.org/10.5061/dryad.rg57q6m
+Citation: 
+Availability: PDF stored here when publicly available; otherwise this file records the publication link.

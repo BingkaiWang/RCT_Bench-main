@@ -1,0 +1,471 @@
+Treatment,YP_dayslink,YP_event_flag,YS_anysub,YS_daysanysub,X_age_0w,X_cesd_0w,X_hosp_lifetime_0w,X_drugrisk_0w,X_detox_entries_0w,X_female_0w,X_sex_0w,X_suicide_ideation_0w,X_homeless_0w,X_avg_drinks_0w,X_max_drinks_0w,X_indtot_0w,X_mcs_0w,X_pcs_0w,X_pss_fr_0w,X_racegrp_0w,X_satreat_0w,X_sexrisk_0w,X_substance_0w
+HELP,225,yes,yes,177,37,49,3,0,NA,0,male,yes,housed,13,26,39,25.1119899749756,58.413688659668,0,black,no,4,cocaine
+HELP,NA,NA,yes,2,37,30,22,0,NA,0,male,yes,homeless,56,62,43,26.6703071594238,36.0369415283203,1,white,no,7,alcohol
+Usual Care,365,no,yes,3,26,39,0,20,NA,0,male,no,housed,0,0,41,6.76292324066162,74.8063278198242,13,black,no,2,heroin
+Usual Care,343,no,yes,189,39,15,2,0,1,1,female,no,housed,5,5,28,43.9678802490234,61.9316787719727,11,white,yes,4,heroin
+Usual Care,57,yes,yes,2,32,39,12,0,1,0,male,no,homeless,10,13,38,21.6757545471191,37.3455848693848,10,black,no,6,cocaine
+HELP,365,no,yes,31,47,6,1,0,NA,1,female,no,housed,4,4,29,55.5089912414551,46.475212097168,5,black,no,5,cocaine
+Usual Care,334,no,NA,NA,49,52,14,0,1,1,female,yes,housed,13,20,38,21.7930240631104,24.5150394439697,1,black,yes,8,cocaine
+HELP,365,no,yes,47,28,32,1,7,8,0,male,yes,homeless,12,24,44,9.16053009033203,65.1380081176758,4,white,yes,6,alcohol
+Usual Care,365,no,yes,31,50,50,14,18,7,1,female,no,homeless,71,129,44,22.0296783447266,38.2708778381348,5,white,no,8,alcohol
+HELP,382,no,yes,115,39,46,4,20,3,0,male,no,homeless,20,27,44,36.1437606811523,22.6105976104736,0,white,yes,0,heroin
+HELP,365,no,NA,NA,34,46,0,8,NA,1,female,no,housed,0,0,34,43.9746780395508,60.0791549682617,0,white,no,2,heroin
+Usual Care,365,no,no,192,58,49,3,0,NA,1,female,no,housed,13,13,11,13.3822050094604,41.9337615966797,13,black,yes,0,alcohol
+Usual Care,365,no,yes,6,58,22,5,0,NA,0,male,no,homeless,20,31,40,49.0893020629883,39.2426414489746,13,white,yes,1,alcohol
+HELP,22,yes,yes,6,60,36,10,0,1,0,male,no,homeless,13,20,41,25.8461570739746,31.8296489715576,1,black,no,4,cocaine
+HELP,443,no,yes,0,36,43,2,0,NA,0,male,no,housed,51,51,38,23.6084442138672,55.1699752807617,1,white,no,8,alcohol
+HELP,41,yes,yes,27,28,35,6,0,2,1,female,yes,homeless,0,0,26,29.7998275756836,44.7765121459961,7,hispanic,yes,3,heroin
+Usual Care,405,no,yes,2,35,19,1,0,NA,0,male,no,housed,0,0,17,42.1664619445801,56.4383697509766,9,black,no,4,heroin
+Usual Care,449,no,no,220,29,40,2,0,1,0,male,yes,homeless,1,1,40,16.732292175293,58.2980728149414,1,other,no,4,cocaine
+HELP,49,yes,no,198,27,52,0,10,4,1,female,yes,housed,9,24,37,15.4582710266113,37.4521369934082,13,white,no,3,heroin
+Usual Care,367,no,yes,52,27,37,1,0,NA,0,male,no,housed,23,23,37,55.1281089782715,34.3392601013184,11,black,yes,7,cocaine
+HELP,391,no,NA,NA,41,35,1,12,1,0,male,no,housed,26,26,36,20.8714466094971,36.5848121643066,8,black,no,4,heroin
+HELP,272,yes,yes,129,33,18,1,0,NA,0,male,no,housed,0,0,27,47.2867393493652,61.6409797668457,14,black,no,4,cocaine
+Usual Care,293,no,NA,NA,34,36,4,0,2,0,male,yes,homeless,34,34,42,19.6205959320068,46.2217636108398,10,white,no,6,alcohol
+Usual Care,428,no,yes,3,31,28,2,0,3,0,male,no,homeless,4,5,42,44.4421043395996,51.5632362365723,6,black,yes,9,cocaine
+Usual Care,365,no,yes,67,48,19,4,0,NA,1,female,no,housed,6,8,40,21.6684741973877,36.0100746154785,6,black,no,7,cocaine
+HELP,56,yes,yes,154,34,30,1,0,NA,0,male,no,housed,3,3,34,37.3715553283691,63.06005859375,3,white,no,5,cocaine
+HELP,361,no,yes,34,35,27,0,1,NA,0,male,no,homeless,7,7,37,34.3356666564941,61.8259735107422,6,black,no,4,heroin
+Usual Care,365,no,no,204,34,24,0,0,NA,0,male,yes,housed,24,48,41,46.3407554626465,43.5337409973145,4,white,no,5,alcohol
+HELP,79,yes,yes,142,29,47,1,0,3,0,male,no,homeless,0,0,37,27.7177104949951,42.2249031066895,5,black,yes,2,cocaine
+Usual Care,364,no,no,189,35,45,2,0,NA,0,male,no,homeless,20,20,44,18.9843235015869,42.4005928039551,3,black,no,6,alcohol
+Usual Care,365,no,yes,4,43,18,10,0,NA,0,male,no,homeless,3,3,41,58.2412643432617,50.1469993591309,12,black,no,0,alcohol
+HELP,203,yes,no,203,37,11,0,3,NA,0,male,no,homeless,6,6,35,27.8526077270508,63.5200042724609,2,black,yes,5,cocaine
+HELP,354,no,no,193,29,26,1,0,NA,0,male,no,housed,0,0,21,54.7743492126465,53.3510932922363,10,black,no,2,cocaine
+HELP,29,yes,yes,10,33,29,1,0,NA,0,male,no,housed,0,0,30,27.4954814910889,56.7398490905762,10,black,no,0,cocaine
+HELP,365,no,yes,177,20,34,1,0,NA,0,male,no,homeless,32,135,33,56.324333190918,53.2339630126953,8,black,no,3,alcohol
+Usual Care,365,no,no,195,38,37,2,0,3,0,male,no,housed,2,24,43,37.0060424804688,62.0411338806152,6,white,no,4,alcohol
+Usual Care,365,no,yes,7,28,23,0,1,2,0,male,no,housed,3,3,41,39.8977737426758,38.3952941894531,11,black,no,4,heroin
+HELP,365,no,NA,NA,18,38,1,0,1,1,female,no,homeless,24,32,36,25.1955699920654,34.2882537841797,8,other,no,3,missing
+Usual Care,365,no,yes,14,33,41,7,0,3,0,male,yes,homeless,27,27,41,18.6405944824219,51.303295135498,1,white,yes,0,alcohol
+Usual Care,365,no,NA,NA,40,21,0,1,NA,0,male,no,housed,3,7,32,45.1340980529785,56.6838874816895,10,hispanic,no,4,heroin
+HELP,414,no,no,191,43,16,15,0,NA,0,male,no,homeless,24,36,41,15.8619241714478,71.3925933837891,3,white,no,7,cocaine
+HELP,414,no,yes,31,28,36,1,0,NA,0,male,no,homeless,6,12,39,24.1488151550293,52.6197738647461,4,black,no,7,cocaine
+Usual Care,43,yes,no,174,45,17,2,0,2,0,male,no,homeless,0,0,22,29.9016246795654,36.0458755493164,7,black,no,6,cocaine
+HELP,38,yes,yes,17,42,36,2,7,NA,0,male,no,housed,13,13,39,29.4129772186279,50.064266204834,14,white,no,4,heroin
+Usual Care,264,yes,NA,NA,30,19,0,0,NA,0,male,no,homeless,25,28,38,35.2069702148438,62.0318298339844,10,black,no,5,alcohol
+HELP,14,yes,yes,23,34,5,2,0,NA,1,female,no,housed,6,13,8,59.4540939331055,52.6989784240723,12,black,no,4,cocaine
+Usual Care,377,no,yes,2,36,25,2,0,NA,0,male,no,housed,13,61,36,20.9998931884766,56.3866882324219,12,black,no,1,alcohol
+HELP,321,no,NA,NA,44,36,5,19,1,0,male,yes,homeless,15,26,42,29.3902797698975,40.3843765258789,11,black,no,10,heroin
+Usual Care,NA,NA,yes,30,41,27,0,0,NA,0,male,yes,housed,7,7,31,26.7732791900635,58.1616897583008,6,black,no,6,cocaine
+HELP,26,yes,no,209,30,44,2,21,2,0,male,yes,homeless,9,15,44,17.9252510070801,45.4834060668945,6,other,no,9,heroin
+HELP,18,yes,yes,111,37,29,2,0,NA,0,male,no,homeless,5,13,40,34.4346961975098,63.0580711364746,2,black,no,7,alcohol
+HELP,365,no,yes,17,35,46,3,0,NA,1,female,no,housed,13,20,32,24.0003147125244,46.750862121582,1,black,no,7,cocaine
+Usual Care,171,yes,yes,137,37,16,5,0,NA,0,male,yes,housed,34,34,29,47.6719360351562,29.4562492370605,8,white,no,3,alcohol
+HELP,27,yes,yes,4,44,44,1,0,NA,0,male,yes,housed,3,6,44,26.6530361175537,40.4605598449707,13,other,no,4,cocaine
+Usual Care,190,yes,yes,3,47,42,2,0,4,0,male,yes,homeless,37,43,43,28.4692726135254,57.2021293640137,1,white,yes,2,alcohol
+HELP,30,yes,yes,18,38,30,5,0,2,0,male,no,homeless,36,36,38,26.0657768249512,47.6051445007324,10,black,no,4,alcohol
+Usual Care,365,no,yes,2,37,25,0,1,NA,0,male,yes,housed,13,15,34,31.5017108917236,50.1631813049316,7,black,yes,6,heroin
+Usual Care,365,no,yes,1,34,26,1,0,11,0,male,no,housed,3,19,41,24.998929977417,50.3987007141113,6,black,yes,7,cocaine
+HELP,19,yes,no,181,41,29,3,0,2,1,female,yes,housed,3,6,20,33.3741722106934,55.233715057373,13,white,yes,4,alcohol
+Usual Care,365,no,no,180,29,33,3,1,4,1,female,yes,homeless,0,0,29,27.57546043396,35.124698638916,4,hispanic,yes,4,heroin
+HELP,400,no,yes,36,35,28,1,0,1,0,male,no,housed,32,32,38,35.8396415710449,52.6887054443359,12,black,yes,6,cocaine
+Usual Care,365,no,NA,NA,36,33,0,0,1,0,male,no,housed,35,42,42,17.5652351379395,67.5362548828125,11,black,yes,4,alcohol
+Usual Care,431,no,no,252,27,44,3,0,1,0,male,yes,homeless,20,20,41,20.0253410339355,36.9805793762207,5,white,no,6,alcohol
+Usual Care,195,yes,no,195,36,29,1,0,1,0,male,no,homeless,7,25,38,25.8125915527344,64.2902221679688,5,black,yes,9,alcohol
+HELP,34,yes,no,181,40,57,5,0,NA,1,female,yes,homeless,59,164,43,17.7059631347656,36.0401573181152,1,black,no,4,alcohol
+HELP,133,yes,NA,NA,38,26,4,1,NA,0,male,no,housed,0,0,38,39.9341621398926,53.1568641662598,8,white,yes,2,heroin
+HELP,48,yes,yes,103,42,31,2,8,3,0,male,no,homeless,26,51,44,23.9967250823975,45.1849899291992,3,white,yes,6,alcohol
+Usual Care,NA,NA,NA,NA,26,30,4,0,NA,1,female,yes,housed,12,18,37,26.6972618103027,54.3827247619629,6,white,no,9,cocaine
+Usual Care,NA,NA,yes,2,41,43,0,10,NA,1,female,no,housed,0,0,40,15.4477939605713,55.3218879699707,14,white,no,3,heroin
+HELP,365,no,yes,78,43,28,10,0,NA,0,male,no,housed,18,36,38,38.7521018981934,27.3666286468506,4,black,no,5,cocaine
+HELP,365,no,NA,NA,30,43,7,8,NA,1,female,yes,housed,0,0,NA,25.9525833129883,39.9463386535645,9,white,no,4,heroin
+Usual Care,129,yes,yes,9,28,29,3,0,2,0,male,no,housed,6,12,29,34.8399620056152,58.2589454650879,5,white,no,8,cocaine
+Usual Care,NA,NA,yes,53,30,32,2,3,NA,0,male,no,housed,13,17,35,22.9572353363037,63.9136657714844,10,white,no,12,cocaine
+HELP,35,yes,NA,NA,42,30,4,0,NA,0,male,yes,homeless,5,5,28,28.4180030822754,56.904411315918,2,black,no,4,cocaine
+Usual Care,365,no,yes,4,22,34,7,0,1,0,male,no,homeless,2,2,31,33.1159133911133,48.7913627624512,4,black,no,9,heroin
+Usual Care,439,no,NA,NA,31,49,2,3,1,0,male,no,homeless,102,102,40,14.9139251708984,52.5937995910645,9,black,yes,6,cocaine
+HELP,44,yes,no,177,30,36,0,0,3,0,male,yes,homeless,0,0,44,17.449857711792,68.1239547729492,7,white,yes,6,alcohol
+Usual Care,365,no,NA,NA,25,42,1,1,1,0,male,yes,housed,21,21,36,13.1346626281738,57.0777740478516,1,hispanic,no,3,heroin
+HELP,77,yes,yes,4,26,40,1,10,NA,0,male,yes,homeless,6,8,29,19.3448066711426,42.6289367675781,12,white,no,11,heroin
+HELP,35,yes,yes,47,35,29,1,0,1,0,male,no,housed,1,1,42,26.2219676971436,59.567081451416,1,black,no,7,cocaine
+Usual Care,365,no,yes,5,53,31,3,0,1,0,male,no,homeless,19,19,40,34.2109756469727,44.1699523925781,10,black,no,4,alcohol
+HELP,143,yes,NA,NA,29,10,2,0,NA,0,male,no,housed,1,22,29,52.9268341064453,58.2147674560547,13,black,no,4,alcohol
+Usual Care,365,no,yes,175,32,37,2,0,NA,1,female,yes,housed,2,2,40,28.8584976196289,43.9429550170898,11,black,no,3,cocaine
+HELP,115,yes,yes,168,24,32,2,3,1,0,male,no,homeless,0,0,39,26.9182224273682,59.824535369873,9,other,no,5,alcohol
+Usual Care,386,no,yes,20,35,16,1,1,3,0,male,no,housed,26,47,39,39.298168182373,38.4609031677246,8,white,yes,2,alcohol
+HELP,365,no,yes,55,32,15,0,0,NA,0,male,no,housed,0,0,35,47.5506782531738,37.185188293457,3,black,no,1,heroin
+HELP,63,yes,yes,56,47,4,2,1,NA,0,male,no,homeless,9,19,38,54.0533676147461,56.5047607421875,12,white,no,1,heroin
+Usual Care,365,no,NA,NA,26,30,2,0,NA,0,male,no,housed,10,10,40,37.8450355529785,57.3349227905273,14,black,no,4,cocaine
+HELP,35,yes,yes,63,45,44,2,14,1,0,male,yes,homeless,4,5,44,20.2021732330322,28.8547210693359,4,hispanic,no,5,heroin
+Usual Care,NA,NA,NA,NA,33,8,1,0,NA,0,male,no,housed,6,15,19,51.7886695861816,60.5873260498047,10,black,no,5,cocaine
+Usual Care,365,no,NA,NA,45,16,20,0,2,0,male,yes,homeless,26,51,43,32.5665283203125,30.0540580749512,9,white,no,3,alcohol
+HELP,38,yes,NA,NA,33,47,9,0,3,1,female,yes,housed,64,64,44,19.5954608917236,40.4888381958008,1,other,no,7,alcohol
+Usual Care,365,no,no,203,32,46,1,0,1,0,male,yes,homeless,51,154,NA,26.4446868896484,48.8121070861816,1,white,no,5,alcohol
+HELP,136,yes,yes,222,27,49,1,0,NA,0,male,yes,homeless,26,26,34,16.3024215698242,55.9808311462402,10,black,yes,4,cocaine
+HELP,37,yes,yes,9,40,30,2,1,NA,0,male,yes,housed,2,3,42,15.7549839019775,48.0573272705078,9,black,no,10,cocaine
+Usual Care,217,yes,NA,NA,40,36,1,0,1,1,female,yes,homeless,33,38,42,27.993335723877,44.5358924865723,7,white,yes,3,alcohol
+HELP,349,no,yes,16,37,48,3,0,NA,0,male,yes,housed,61,184,40,23.6599254608154,30.2340545654297,6,black,no,3,cocaine
+Usual Care,NA,NA,yes,59,26,17,1,0,NA,0,male,yes,housed,2,2,39,34.737865447998,65.7442474365234,5,black,no,2,cocaine
+Usual Care,365,no,yes,102,27,39,0,0,3,0,male,no,homeless,19,19,40,15.6183710098267,55.5012168884277,9,black,yes,7,cocaine
+HELP,16,yes,NA,NA,35,30,2,0,NA,1,female,no,housed,9,15,33,23.2990207672119,51.8104515075684,12,black,yes,5,alcohol
+Usual Care,NA,NA,NA,NA,29,24,0,10,2,0,male,no,housed,0,0,38,40.9413375854492,63.6137962341309,1,white,yes,4,heroin
+HELP,60,yes,NA,NA,33,25,2,0,NA,0,male,yes,housed,18,47,41,24.3304557800293,46.4146423339844,4,white,no,6,alcohol
+HELP,365,no,yes,2,39,51,3,0,5,0,male,yes,homeless,51,51,42,15.1964769363403,54.1321716308594,8,white,no,0,alcohol
+Usual Care,365,no,yes,3,33,17,3,7,NA,0,male,no,housed,0,0,37,50.7888450622559,46.7506332397461,4,white,yes,5,heroin
+Usual Care,399,no,yes,63,35,37,20,0,NA,0,male,no,homeless,36,66,43,23.5546169281006,40.1831016540527,9,black,no,6,alcohol
+Usual Care,NA,NA,NA,NA,38,45,0,0,1,0,male,no,housed,31,91,38,15.8227605819702,63.4822769165039,6,black,no,3,alcohol
+HELP,112,yes,yes,47,44,28,1,17,1,0,male,no,housed,0,0,33,45.4026260375977,43.6214218139648,5,white,no,4,heroin
+HELP,365,no,NA,NA,28,17,3,0,NA,0,male,no,housed,26,69,34,53.6161766052246,57.9500007629395,7,black,no,4,alcohol
+Usual Care,NA,NA,NA,NA,33,23,0,0,NA,0,male,no,housed,2,20,28,59.2644271850586,54.4438896179199,2,black,no,5,cocaine
+HELP,18,yes,no,201,30,39,0,0,1,1,female,no,housed,0,0,19,24.7471714019775,54.1085357666016,14,hispanic,no,4,cocaine
+Usual Care,365,no,yes,114,35,38,2,0,4,0,male,yes,homeless,51,51,43,12.4328870773315,48.8997840881348,4,white,yes,13,alcohol
+HELP,41,yes,NA,NA,32,53,15,0,NA,1,female,yes,homeless,34,34,33,27.1362800598145,54.7946243286133,7,black,no,5,alcohol
+Usual Care,358,no,no,183,42,26,10,0,2,1,female,no,homeless,39,95,31,41.3216285705566,36.6887359619141,4,black,no,10,cocaine
+HELP,169,yes,no,183,37,47,0,0,NA,0,male,no,housed,19,26,42,21.9126300811768,43.0014762878418,3,black,no,9,cocaine
+Usual Care,365,no,NA,NA,41,49,4,0,1,0,male,no,homeless,13,13,33,28.9726829528809,59.7410774230957,6,white,yes,4,alcohol
+HELP,325,no,yes,0,28,34,5,17,2,0,male,no,homeless,0,0,36,16.2846946716309,48.8984413146973,12,white,yes,4,heroin
+Usual Care,NA,NA,NA,NA,30,51,9,9,1,1,female,yes,housed,0,0,43,19.1565742492676,34.3369827270508,10,white,no,6,heroin
+Usual Care,345,no,yes,2,35,33,2,0,14,0,male,no,homeless,13,13,19,41.5905570983887,40.8823890686035,3,other,no,9,cocaine
+HELP,17,yes,NA,NA,35,58,5,0,2,1,female,yes,housed,1,1,37,18.4654178619385,39.3325996398926,13,black,yes,6,cocaine
+HELP,104,yes,yes,17,41,28,1,0,NA,0,male,no,housed,22,22,25,39.4509925842285,28.9300918579102,7,black,no,3,alcohol
+HELP,36,yes,no,183,37,4,2,0,NA,0,male,no,homeless,13,33,42,42.5399742126465,60.9204750061035,4,black,no,7,cocaine
+HELP,365,no,yes,15,30,15,1,0,NA,1,female,no,housed,26,26,25,37.4389343261719,49.2904243469238,11,black,yes,3,cocaine
+Usual Care,365,no,yes,11,39,40,3,0,4,0,male,yes,homeless,19,30,39,22.6699714660645,35.3937911987305,5,white,yes,3,alcohol
+Usual Care,NA,NA,NA,NA,32,33,2,0,NA,0,male,yes,homeless,26,26,41,45.529411315918,57.3231811523438,2,white,no,5,alcohol
+Usual Care,49,yes,no,178,50,35,6,0,NA,1,female,no,housed,13,13,28,20.3104457855225,33.4892501831055,2,white,no,0,alcohol
+HELP,90,yes,NA,NA,33,28,1,0,2,0,male,no,homeless,3,3,40,23.7296390533447,45.5425910949707,8,black,yes,7,cocaine
+HELP,169,yes,yes,163,27,21,0,0,NA,0,male,no,housed,24,24,40,40.6761741638184,59.1059989929199,9,black,no,7,cocaine
+HELP,399,no,yes,7,33,33,0,1,NA,0,male,no,housed,0,0,29,28.0759391784668,42.0128479003906,11,black,no,4,heroin
+HELP,28,yes,NA,NA,38,26,4,0,NA,1,female,no,housed,0,0,39,22.7875461578369,28.7408542633057,9,other,no,7,cocaine
+Usual Care,358,no,yes,4,43,45,6,0,8,0,male,yes,homeless,53,53,39,21.460620880127,45.0161781311035,7,white,no,0,alcohol
+HELP,365,no,yes,68,24,45,0,0,1,1,female,no,homeless,7,7,39,28.5055770874023,37.797176361084,7,black,yes,7,cocaine
+Usual Care,387,no,yes,185,35,31,10,0,1,0,male,no,homeless,25,25,38,33.6529273986816,48.8768081665039,1,black,no,7,alcohol
+Usual Care,193,yes,NA,NA,49,28,13,0,1,1,female,no,homeless,15,15,36,40.1569290161133,40.9623413085938,7,hispanic,yes,9,alcohol
+HELP,126,yes,yes,1,49,22,5,0,4,0,male,yes,homeless,64,179,42,45.4911003112793,38.136058807373,5,black,no,6,alcohol
+Usual Care,365,no,NA,NA,33,39,1,1,1,0,male,yes,homeless,4,4,42,23.3711471557617,29.4720230102539,12,black,no,4,heroin
+HELP,52,yes,no,183,24,31,0,9,1,0,male,yes,homeless,3,6,37,34.5988616943359,50.2153282165527,9,white,yes,5,heroin
+HELP,413,no,yes,12,28,48,4,0,NA,1,female,no,housed,2,2,33,22.0174999237061,40.2427101135254,1,white,no,5,cocaine
+Usual Care,50,yes,no,185,45,48,2,0,7,0,male,no,homeless,13,13,42,29.082914352417,36.2483863830566,8,white,no,7,alcohol
+Usual Care,NA,NA,NA,NA,46,34,20,0,NA,0,male,no,housed,20,51,37,24.4220066070557,45.5675048828125,7,white,no,5,alcohol
+HELP,106,yes,NA,NA,37,35,1,0,NA,1,female,no,homeless,1,3,25,33.3661231994629,45.1651992797852,8,black,no,9,cocaine
+HELP,42,yes,no,183,32,46,2,0,NA,0,male,no,homeless,38,38,43,18.6901550292969,59.4764823913574,7,other,no,5,cocaine
+Usual Care,303,no,NA,NA,45,34,1,11,2,0,male,no,homeless,8,8,40,27.6834583282471,31.9795875549316,6,black,yes,6,heroin
+HELP,30,yes,no,186,39,10,0,0,1,0,male,no,homeless,0,0,34,47.1458015441895,53.6653709411621,3,black,yes,6,cocaine
+Usual Care,113,yes,yes,146,34,31,1,0,NA,0,male,no,housed,13,13,43,33.5173110961914,29.7852916717529,3,black,no,2,cocaine
+HELP,365,no,NA,NA,32,34,2,0,3,0,male,no,homeless,39,39,30,41.1317939758301,24.4351768493652,8,white,no,5,alcohol
+Usual Care,369,no,yes,5,32,26,2,0,1,0,male,no,housed,12,20,44,24.0905094146729,53.7595024108887,10,black,no,7,cocaine
+Usual Care,365,no,yes,31,31,15,1,0,NA,1,female,no,housed,0,0,38,50.0304336547852,57.387767791748,9,black,yes,2,cocaine
+HELP,98,yes,NA,NA,45,48,1,0,2,0,male,no,housed,0,0,37,20.0697746276855,50.2381019592285,11,white,no,4,heroin
+Usual Care,338,no,NA,NA,30,37,1,0,NA,0,male,no,housed,1,1,29,18.2112693786621,56.0050659179688,11,other,yes,3,heroin
+Usual Care,365,no,yes,57,36,20,8,7,1,0,male,no,housed,19,32,43,30.0719566345215,44.9240608215332,9,white,yes,1,alcohol
+Usual Care,414,no,yes,0,25,38,3,8,1,0,male,no,housed,0,0,30,28.679744720459,61.7861137390137,2,white,no,6,heroin
+HELP,58,yes,no,178,48,39,8,0,NA,0,male,yes,housed,26,51,37,20.5177402496338,54.3544387817383,8,white,no,4,alcohol
+HELP,368,no,no,256,42,46,1,0,1,0,male,no,housed,19,19,29,31.1881427764893,55.7497177124023,8,black,no,7,alcohol
+Usual Care,364,no,yes,61,33,17,1,0,1,0,male,no,homeless,3,6,41,43.8810577392578,61.4447402954102,7,black,no,8,cocaine
+HELP,365,no,NA,NA,36,6,1,1,NA,0,male,no,housed,1,1,35,56.7848052978516,56.8400497436523,3,black,yes,9,cocaine
+Usual Care,365,no,NA,NA,41,18,4,0,NA,0,male,no,housed,12,17,41,39.0747108459473,36.5695953369141,5,white,yes,5,alcohol
+HELP,365,no,yes,12,30,29,2,0,NA,1,female,no,homeless,29,29,31,52.1974830627441,55.7384452819824,13,black,yes,7,cocaine
+Usual Care,365,no,NA,NA,57,51,10,0,NA,0,male,no,homeless,38,38,42,21.2000427246094,32.2870559692383,2,white,no,8,alcohol
+Usual Care,380,no,yes,28,57,39,4,0,1,1,female,no,housed,12,12,36,36.6514625549316,30.508113861084,6,white,yes,0,alcohol
+Usual Care,365,no,NA,NA,47,31,2,5,NA,0,male,no,housed,4,4,38,10.5647621154785,52.9416847229004,9,black,no,0,heroin
+HELP,38,yes,yes,0,54,49,0,0,4,0,male,yes,homeless,19,50,41,22.6406517028809,31.0038013458252,7,white,no,0,alcohol
+HELP,31,yes,no,164,55,43,1,0,NA,0,male,no,housed,41,54,40,39.2704162597656,26.4569416046143,11,hispanic,no,3,alcohol
+Usual Care,330,no,yes,13,33,45,1,10,1,0,male,no,housed,1,3,36,18.7710361480713,40.4664459228516,2,other,no,0,heroin
+HELP,365,no,NA,NA,29,46,6,5,3,1,female,no,housed,0,0,39,20.1199817657471,32.9618873596191,3,white,no,4,heroin
+Usual Care,427,no,NA,NA,33,44,4,0,NA,1,female,yes,homeless,59,59,38,25.2579708099365,42.1206932067871,7,hispanic,no,5,alcohol
+HELP,443,no,NA,NA,28,41,3,11,2,0,male,no,homeless,19,19,42,21.0495452880859,45.4613838195801,1,white,no,6,heroin
+HELP,29,yes,no,163,37,29,2,0,NA,0,male,no,housed,8,8,34,50.0184936523438,54.0781707763672,7,black,no,2,cocaine
+Usual Care,218,yes,yes,117,28,38,3,0,NA,1,female,yes,housed,16,20,35,18.324743270874,43.2406196594238,14,black,no,11,cocaine
+Usual Care,365,no,NA,NA,32,51,1,0,NA,0,male,no,housed,12,12,34,7.93822145462036,53.6150398254395,10,black,no,4,cocaine
+Usual Care,405,no,NA,NA,31,38,10,20,1,1,female,yes,homeless,26,33,44,22.4426612854004,35.9061889648438,8,white,no,11,alcohol
+HELP,45,yes,NA,NA,36,53,3,0,3,1,female,yes,homeless,50,50,41,27.1717510223389,37.755672454834,3,white,no,9,alcohol
+HELP,365,no,yes,24,25,34,5,0,NA,0,male,no,housed,64,64,NA,17.0614471435547,61.3565330505371,0,black,no,3,cocaine
+HELP,14,yes,NA,NA,39,29,2,0,2,0,male,no,homeless,12,20,36,41.0543632507324,57.7076301574707,14,white,no,0,alcohol
+HELP,424,no,NA,NA,29,31,1,13,1,0,male,yes,homeless,1,3,36,29.8605136871338,53.6831817626953,11,white,no,1,heroin
+Usual Care,370,no,NA,NA,38,57,4,0,NA,1,female,yes,housed,13,32,39,20.3566799163818,35.9736137390137,0,black,no,14,cocaine
+Usual Care,NA,NA,NA,NA,33,38,0,0,2,0,male,no,homeless,10,13,44,26.2529792785645,54.4247512817383,3,hispanic,no,7,cocaine
+HELP,17,yes,NA,NA,31,39,10,2,NA,0,male,yes,housed,3,24,41,40.167236328125,61.2863349914551,4,black,no,8,cocaine
+HELP,365,no,NA,NA,39,43,1,13,1,1,female,yes,housed,20,20,37,22.8151016235352,35.2270164489746,10,white,no,4,heroin
+Usual Care,146,yes,yes,3,33,19,40,0,1,1,female,no,homeless,19,26,32,40.0329742431641,38.1022682189941,2,black,yes,7,cocaine
+HELP,15,yes,yes,9,31,23,0,0,NA,0,male,yes,housed,6,12,32,25.6155071258545,66.5931701660156,10,white,no,4,alcohol
+HELP,14,yes,yes,144,46,44,1,0,6,0,male,no,homeless,102,102,38,14.3588809967041,49.2798118591309,2,black,yes,7,alcohol
+Usual Care,140,yes,yes,11,36,12,1,0,NA,0,male,no,housed,1,4,39,27.1226673126221,58.1664199829102,10,black,no,7,cocaine
+HELP,365,no,yes,1,22,35,0,0,4,0,male,no,housed,0,0,29,36.8237075805664,31.5286083221436,2,other,yes,5,heroin
+Usual Care,365,no,yes,27,33,47,2,0,2,0,male,yes,housed,58,58,41,17.5092735290527,49.3632011413574,12,black,no,8,heroin
+HELP,365,no,NA,NA,35,53,2,14,2,0,male,no,housed,9,9,37,17.9275283813477,43.1708145141602,2,white,no,4,heroin
+Usual Care,348,no,yes,0,38,34,1,14,1,1,female,no,homeless,0,0,32,43.3535842895508,21.9190559387207,9,black,no,8,heroin
+HELP,48,yes,NA,NA,28,15,1,0,NA,0,male,no,housed,35,65,43,47.7116546630859,57.8196868896484,2,black,no,6,cocaine
+HELP,32,yes,NA,NA,33,31,2,0,2,0,male,no,housed,33,51,42,20.7319869995117,54.8226356506348,5,black,no,8,alcohol
+Usual Care,365,no,yes,61,49,27,2,0,NA,0,male,no,housed,19,19,28,52.4558448791504,60.4181632995605,13,black,yes,3,alcohol
+HELP,18,yes,NA,NA,43,36,1,0,NA,1,female,yes,housed,58,58,40,36.1003074645996,37.0377807617188,11,black,yes,2,alcohol
+Usual Care,365,no,yes,2,33,24,6,1,NA,1,female,yes,housed,32,38,23,33.2599563598633,41.6699256896973,8,other,no,3,heroin
+Usual Care,407,no,NA,NA,29,54,0,4,NA,1,female,no,housed,0,0,33,12.3235940933228,48.2192649841309,11,white,no,6,heroin
+HELP,30,yes,no,183,34,31,2,0,NA,0,male,no,housed,0,0,38,23.0585136413574,54.3691291809082,6,white,no,6,cocaine
+HELP,365,no,NA,NA,41,22,4,0,NA,0,male,no,housed,6,6,40,45.011848449707,35.7914505004883,10,black,no,3,cocaine
+Usual Care,78,yes,no,190,47,41,1,0,NA,1,female,yes,homeless,0,0,21,37.9534034729004,57.643611907959,11,black,no,0,cocaine
+Usual Care,365,no,NA,NA,24,23,0,0,NA,0,male,no,housed,18,18,36,48.4102973937988,59.322883605957,6,hispanic,no,6,alcohol
+Usual Care,NA,NA,NA,NA,31,18,3,8,1,1,female,yes,housed,0,0,32,27.6410293579102,48.3708953857422,12,white,no,4,heroin
+HELP,406,no,NA,NA,40,60,7,0,NA,1,female,yes,homeless,38,38,43,16.7863483428955,38.5159683227539,3,white,yes,11,cocaine
+Usual Care,365,no,no,184,32,34,3,0,NA,1,female,no,housed,13,13,31,54.7685394287109,23.482084274292,12,black,yes,0,cocaine
+HELP,22,yes,no,192,32,26,4,0,3,0,male,yes,homeless,0,0,41,46.1198081970215,23.5023746490479,5,black,no,3,alcohol
+Usual Care,365,no,NA,NA,39,40,1,0,1,0,male,no,housed,46,46,32,35.9554405212402,56.3051300048828,11,black,no,3,alcohol
+HELP,63,yes,NA,NA,19,40,1,0,8,0,male,no,homeless,27,30,40,30.3001365661621,41.0645408630371,4,white,yes,2,heroin
+Usual Care,78,yes,yes,166,49,1,2,0,NA,0,male,no,homeless,3,3,40,59.453929901123,58.1651039123535,14,black,no,2,cocaine
+Usual Care,365,no,NA,NA,27,41,4,1,4,0,male,yes,homeless,12,12,42,23.5461120605469,41.5727958679199,7,white,no,4,heroin
+HELP,365,no,no,247,38,38,3,0,1,1,female,yes,housed,16,26,34,14.9193096160889,57.8369064331055,3,white,no,5,alcohol
+HELP,348,no,yes,82,32,37,1,0,NA,1,female,no,housed,1,6,28,40.4624328613281,56.9028587341309,3,black,yes,4,cocaine
+Usual Care,357,no,no,162,22,16,1,0,NA,0,male,no,homeless,26,26,29,46.7297439575195,54.5966186523438,1,white,no,0,alcohol
+HELP,12,yes,yes,47,36,33,3,0,NA,0,male,no,housed,23,92,40,37.6749610900879,47.363525390625,2,black,yes,7,alcohol
+Usual Care,50,yes,yes,88,32,4,0,0,NA,0,male,no,housed,13,13,34,57.2608871459961,56.8996276855469,0,black,yes,5,alcohol
+Usual Care,365,no,NA,NA,35,24,1,0,NA,1,female,no,housed,0,0,34,44.3510894775391,46.7994232177734,4,black,no,2,cocaine
+Usual Care,136,yes,no,172,35,34,1,0,NA,1,female,no,homeless,4,4,36,16.4699859619141,58.4945487976074,2,black,no,8,cocaine
+HELP,22,yes,yes,63,41,40,2,0,NA,0,male,yes,homeless,26,26,43,35.2356109619141,48.4833068847656,0,white,yes,5,alcohol
+HELP,7,yes,yes,94,36,39,2,0,NA,0,male,no,homeless,13,13,35,48.239128112793,56.3949890136719,3,black,no,2,cocaine
+HELP,70,yes,yes,73,43,32,2,0,NA,0,male,no,homeless,13,13,35,30.371395111084,47.350830078125,1,other,no,5,cocaine
+Usual Care,365,no,yes,7,45,40,5,0,1,1,female,yes,housed,10,14,34,26.3114738464355,43.2502136230469,8,white,no,5,alcohol
+Usual Care,331,yes,yes,33,39,51,4,0,NA,0,male,yes,homeless,23,42,42,22.8843688964844,29.1113929748535,5,black,no,4,alcohol
+Usual Care,365,no,NA,NA,47,39,2,1,3,1,female,no,housed,42,48,33,27.4713935852051,52.4220352172852,10,black,no,5,heroin
+HELP,76,yes,yes,183,32,40,6,0,NA,0,male,no,housed,15,15,34,30.2800178527832,34.5801162719727,12,white,no,4,alcohol
+HELP,183,yes,yes,9,33,22,0,0,NA,0,male,no,housed,19,20,30,47.979434967041,48.2789878845215,6,black,no,4,cocaine
+HELP,428,no,yes,215,39,42,4,0,NA,1,female,yes,housed,0,0,20,13.9687376022339,48.9717559814453,11,black,no,4,cocaine
+Usual Care,365,no,NA,NA,44,13,0,0,NA,1,female,no,housed,13,13,26,41.8676147460938,46.3687934875488,7,hispanic,no,4,heroin
+Usual Care,43,yes,NA,NA,35,49,4,0,1,0,male,no,housed,2,3,39,25.0394954681396,63.255443572998,14,black,no,8,cocaine
+Usual Care,307,no,yes,32,31,35,1,1,3,0,male,yes,homeless,13,26,45,26.4537582397461,46.7689399719238,3,white,no,5,heroin
+HELP,365,no,NA,NA,25,43,0,0,NA,0,male,no,housed,14,16,43,14.4806261062622,70.1477890014648,5,white,no,5,cocaine
+Usual Care,353,no,yes,74,48,27,1,0,6,0,male,no,homeless,51,51,36,52.78955078125,50.2587585449219,1,white,yes,6,alcohol
+HELP,37,yes,NA,NA,35,40,1,0,NA,0,male,no,homeless,10,26,37,35.5761108398438,29.4911231994629,3,black,no,7,cocaine
+Usual Care,349,no,NA,NA,42,38,4,0,2,0,male,no,homeless,16,16,42,26.7990093231201,42.4220886230469,10,white,no,0,alcohol
+HELP,272,yes,yes,4,51,39,6,0,4,0,male,yes,homeless,102,102,44,27.8081092834473,25.6181468963623,7,white,no,1,alcohol
+HELP,40,yes,yes,11,55,30,2,0,2,1,female,no,housed,1,2,41,23.54762840271,37.3586502075195,7,black,yes,2,heroin
+HELP,37,yes,yes,70,32,35,6,0,NA,0,male,yes,housed,6,20,33,27.6509666442871,53.0550384521484,6,black,no,5,cocaine
+Usual Care,365,no,yes,2,41,34,2,0,3,0,male,no,homeless,27,27,42,27.1775856018066,43.0058670043945,6,black,no,11,cocaine
+Usual Care,329,no,NA,NA,34,19,1,0,NA,1,female,no,housed,4,4,27,34.0480842590332,57.2464828491211,12,black,no,2,cocaine
+HELP,442,yes,NA,NA,30,39,2,0,NA,0,male,no,homeless,27,41,33,31.3283405303955,41.7878913879395,1,black,no,7,cocaine
+Usual Care,326,no,NA,NA,34,36,1,0,NA,1,female,no,housed,1,1,38,32.3840446472168,44.8558387756348,10,black,no,4,cocaine
+Usual Care,452,no,NA,NA,38,58,8,0,1,0,male,yes,housed,54,73,45,16.125675201416,47.6546745300293,11,white,yes,1,alcohol
+HELP,24,yes,NA,NA,41,38,2,2,NA,0,male,yes,housed,24,36,40,17.6258544921875,44.0119438171387,13,hispanic,no,4,heroin
+HELP,359,no,NA,NA,31,22,0,0,NA,1,female,no,housed,10,20,23,47.4428787231445,52.8565788269043,11,black,no,7,alcohol
+Usual Care,336,no,NA,NA,29,46,2,0,3,0,male,no,homeless,30,41,42,27.8986034393311,43.6823768615723,2,white,yes,1,alcohol
+HELP,365,no,NA,NA,36,31,10,0,1,0,male,no,homeless,43,43,39,23.6832408905029,43.5537757873535,9,black,no,4,alcohol
+Usual Care,379,no,NA,NA,45,11,0,0,NA,0,male,no,housed,2,2,21,58.1687126159668,49.47607421875,3,black,no,8,cocaine
+Usual Care,434,no,NA,NA,36,32,2,10,NA,0,male,no,housed,16,16,37,31.777193069458,41.871223449707,4,black,no,0,heroin
+HELP,12,yes,yes,59,30,33,1,0,NA,0,male,no,housed,3,3,4,52.9552955627441,60.1065788269043,12,black,no,4,cocaine
+Usual Care,294,yes,yes,16,40,39,1,0,NA,0,male,no,housed,34,51,36,24.8139247894287,35.4668273925781,12,black,no,5,cocaine
+HELP,365,no,yes,4,27,33,0,0,2,1,female,no,homeless,8,8,38,31.7811489105225,51.4955558776855,7,black,yes,8,cocaine
+HELP,21,yes,NA,NA,39,27,1,0,NA,0,male,no,housed,28,28,42,46.8300552368164,62.4483375549316,1,black,no,1,alcohol
+Usual Care,352,yes,NA,NA,35,39,7,0,1,0,male,yes,homeless,10,10,28,NA,NA,2,black,yes,7,cocaine
+Usual Care,350,no,no,170,39,43,4,0,2,0,male,no,housed,13,13,44,16.3987464904785,42.3260269165039,3,black,no,6,cocaine
+HELP,440,no,yes,2,37,30,1,0,5,0,male,no,housed,51,51,38,36.7981986999512,57.7855644226074,13,black,yes,7,cocaine
+HELP,236,yes,yes,11,43,12,4,0,4,0,male,no,homeless,134,140,42,55.9910049438477,32.5878257751465,11,black,yes,13,alcohol
+Usual Care,365,no,yes,20,20,42,1,0,NA,0,male,yes,homeless,5,6,28,41.6244049072266,53.0467758178711,6,black,yes,2,alcohol
+HELP,35,yes,yes,32,35,31,2,5,17,0,male,no,homeless,5,5,40,19.6456317901611,46.3350791931152,9,white,no,5,heroin
+Usual Care,29,yes,NA,NA,32,40,6,11,2,0,male,yes,housed,3,3,44,26.9199256896973,48.6230087280273,3,white,no,4,alcohol
+Usual Care,456,no,no,188,42,17,0,0,NA,0,male,no,housed,0,0,37,37.953052520752,61.6026153564453,6,black,yes,4,cocaine
+Usual Care,279,no,NA,NA,27,44,0,0,NA,0,male,yes,housed,26,26,32,31.8778438568115,51.3874282836914,11,hispanic,no,3,cocaine
+HELP,365,no,NA,NA,30,15,2,0,NA,0,male,no,housed,15,30,30,54.9700508117676,33.7974433898926,12,white,no,1,alcohol
+HELP,365,no,NA,NA,27,41,0,8,3,0,male,yes,homeless,9,20,39,30.7019920349121,51.4030799865723,4,white,no,4,heroin
+Usual Care,349,no,NA,NA,41,51,3,0,NA,0,male,no,housed,10,15,41,27.6072883605957,44.2950210571289,5,white,yes,0,alcohol
+Usual Care,46,yes,yes,7,32,24,20,6,1,0,male,yes,housed,0,0,31,29.5058345794678,46.7604026794434,10,hispanic,no,3,heroin
+HELP,368,no,yes,31,47,29,1,0,1,0,male,yes,housed,24,45,39,21.9312572479248,49.8775939941406,6,other,no,2,alcohol
+HELP,365,no,NA,NA,36,40,2,0,2,0,male,yes,homeless,33,51,40,20.9791164398193,59.2827224731445,1,white,yes,0,alcohol
+Usual Care,365,no,yes,2,32,33,2,0,1,0,male,no,housed,0,0,32,28.5587882995605,36.6376991271973,4,hispanic,no,5,heroin
+HELP,365,no,yes,5,33,51,1,1,6,1,female,yes,housed,8,13,28,20.9113368988037,33.0764198303223,6,hispanic,yes,4,heroin
+HELP,83,yes,NA,NA,30,30,6,0,NA,1,female,yes,homeless,27,33,25,44.4465065002441,45.7939987182617,12,black,no,4,alcohol
+HELP,79,yes,NA,NA,29,46,0,8,NA,0,male,yes,housed,0,0,39,11.8190698623657,62.8192977905273,2,hispanic,yes,4,heroin
+Usual Care,365,no,NA,NA,34,38,2,8,NA,1,female,no,housed,0,0,33,21.5434684753418,52.3565139770508,10,white,no,4,heroin
+HELP,365,no,yes,52,34,42,0,1,2,0,male,no,homeless,3,3,40,25.5484981536865,46.9867401123047,5,hispanic,no,3,heroin
+HELP,365,no,NA,NA,40,17,2,0,2,0,male,no,homeless,14,20,39,34.1392707824707,56.9532852172852,14,white,no,4,alcohol
+Usual Care,365,no,NA,NA,45,22,3,7,21,0,male,no,homeless,12,12,38,29.4006023406982,44.1155242919922,3,white,yes,2,heroin
+Usual Care,41,yes,no,179,37,37,2,0,NA,1,female,no,homeless,1,1,33,27.6014308929443,37.8387222290039,11,black,no,6,cocaine
+HELP,17,yes,NA,NA,32,11,2,0,NA,0,male,no,housed,0,0,27,56.963794708252,46.5684928894043,5,black,no,4,cocaine
+HELP,365,no,NA,NA,26,56,2,0,NA,1,female,no,housed,1,1,36,14.4151973724365,46.7497138977051,2,black,no,11,heroin
+HELP,365,no,yes,2,31,14,0,0,1,0,male,no,housed,0,0,29,41.1954689025879,40.1178359985352,11,hispanic,no,3,heroin
+Usual Care,425,no,yes,94,39,26,0,0,NA,0,male,no,housed,25,33,39,36.7192001342773,30.2728233337402,9,other,no,4,alcohol
+Usual Care,365,no,yes,94,49,36,1,0,NA,0,male,yes,housed,42,57,40,48.0081367492676,51.7498931884766,11,hispanic,no,0,alcohol
+HELP,365,no,yes,33,45,41,0,4,1,1,female,no,housed,2,2,22,34.747745513916,64.3502960205078,3,white,no,1,heroin
+HELP,365,no,NA,NA,43,18,0,10,NA,0,male,no,housed,6,6,32,58.4774703979492,58.894702911377,11,white,yes,6,heroin
+Usual Care,365,no,NA,NA,38,19,1,0,NA,0,male,no,housed,19,19,38,62.0316162109375,36.1094932556152,12,black,no,5,cocaine
+HELP,365,no,yes,2,23,48,1,0,2,1,female,yes,homeless,29,58,27,16.7188186645508,35.7066421508789,3,black,no,11,alcohol
+HELP,26,yes,yes,1,35,45,3,0,1,1,female,no,housed,0,0,32,20.2203540802002,32.4477157592773,2,black,no,9,alcohol
+Usual Care,207,yes,yes,45,23,44,20,0,NA,0,male,yes,homeless,0,0,37,24.3789253234863,35.8937835693359,4,hispanic,no,4,heroin
+HELP,63,yes,NA,NA,42,52,3,0,NA,1,female,yes,homeless,0,0,32,28.4476337432861,39.933837890625,2,other,no,0,heroin
+Usual Care,318,no,NA,NA,29,19,1,0,NA,0,male,no,homeless,22,32,31,18.6777038574219,71.6285552978516,6,black,no,6,cocaine
+HELP,365,no,yes,0,43,9,2,0,2,0,male,no,homeless,19,19,19,58.899959564209,59.3427352905273,12,black,yes,6,alcohol
+Usual Care,365,no,NA,NA,29,55,0,0,NA,0,male,yes,homeless,13,19,41,15.7732706069946,48.6111335754395,3,black,yes,5,alcohol
+HELP,358,no,yes,16,39,18,0,0,2,0,male,yes,housed,1,1,34,34.5415992736816,54.0861358642578,5,black,no,8,cocaine
+Usual Care,427,no,yes,1,32,45,4,0,2,1,female,yes,homeless,67,67,40,17.9269847869873,39.0927925109863,7,black,no,6,alcohol
+Usual Care,441,no,NA,NA,35,12,1,0,2,0,male,no,homeless,13,13,40,51.9182777404785,51.1623306274414,12,black,yes,11,cocaine
+HELP,30,yes,yes,3,22,33,2,0,NA,0,male,no,housed,20,20,37,23.1378707885742,51.2427101135254,10,white,no,2,heroin
+HELP,41,yes,yes,132,39,32,1,0,NA,0,male,no,housed,0,0,39,22.9399089813232,33.0357055664062,10,black,no,2,heroin
+HELP,285,no,yes,NA,38,20,1,0,2,0,male,no,housed,3,9,26,33.8880653381348,33.9221343994141,2,black,yes,7,cocaine
+Usual Care,412,no,yes,0,56,37,36,3,11,0,male,no,homeless,142,142,37,34.4127159118652,25.9242248535156,5,white,no,8,alcohol
+Usual Care,324,no,yes,136,36,39,1,0,2,1,female,yes,homeless,53,53,36,22.2375602722168,36.5240669250488,3,black,yes,5,alcohol
+Usual Care,15,yes,NA,NA,40,43,1,17,2,0,male,yes,homeless,64,64,32,22.3549118041992,31.7657260894775,1,white,yes,0,heroin
+HELP,374,no,yes,2,22,51,2,9,1,1,female,no,housed,0,0,40,7.03530740737915,52.5140419006348,8,other,no,7,heroin
+Usual Care,293,no,NA,NA,39,27,5,8,4,0,male,no,housed,2,2,42,19.7181205749512,41.3235015869141,7,other,no,3,heroin
+HELP,413,no,NA,NA,43,36,1,13,NA,0,male,yes,homeless,74,74,NA,49.164363861084,45.3218803405762,4,black,no,1,heroin
+HELP,365,no,yes,3,47,40,2,0,NA,0,male,no,homeless,51,51,43,28.7474346160889,51.0891342163086,10,white,no,6,alcohol
+HELP,373,no,yes,30,32,8,3,0,1,0,male,no,housed,1,1,12,55.9125785827637,51.0118026733398,11,black,yes,6,cocaine
+Usual Care,356,no,yes,1,41,54,3,4,NA,0,male,no,homeless,24,30,44,18.9489498138428,40.4200630187988,7,black,no,9,alcohol
+Usual Care,21,yes,no,191,32,35,1,0,NA,0,male,no,housed,35,35,40,38.8519706726074,45.1357841491699,12,hispanic,no,1,alcohol
+Usual Care,365,no,NA,NA,37,58,8,0,2,1,female,yes,homeless,67,80,41,16.9226341247559,34.0920944213867,0,other,no,2,alcohol
+HELP,17,yes,no,174,41,50,2,1,1,0,male,no,homeless,0,0,41,31.739616394043,31.5235214233398,0,white,no,4,heroin
+Usual Care,365,no,yes,65,31,55,5,0,1,0,male,yes,housed,13,26,38,17.8374862670898,54.9433135986328,5,black,no,1,cocaine
+HELP,33,yes,yes,64,33,19,0,0,NA,1,female,no,homeless,6,6,22,24.923189163208,63.7783164978027,8,black,no,4,cocaine
+HELP,303,no,yes,8,30,37,6,16,1,0,male,yes,homeless,12,12,41,20.9117374420166,44.873104095459,2,hispanic,no,8,heroin
+Usual Care,449,no,yes,93,32,20,1,0,1,0,male,no,homeless,7,7,37,32.7736587524414,63.9069862365723,2,hispanic,no,0,alcohol
+HELP,77,yes,NA,NA,35,40,1,0,NA,0,male,yes,homeless,26,26,40,23.771541595459,47.501781463623,5,white,no,7,alcohol
+Usual Care,365,no,no,221,49,43,2,0,NA,0,male,no,housed,45,45,NA,25.3072052001953,36.6164054870605,6,black,no,7,cocaine
+HELP,35,yes,NA,NA,32,37,1,0,3,0,male,yes,homeless,41,56,41,23.2422103881836,30.3491401672363,9,white,yes,6,alcohol
+Usual Care,365,no,NA,NA,33,43,0,0,2,0,male,yes,homeless,3,3,41,22.4479484558105,45.3249778747559,2,hispanic,yes,7,alcohol
+HELP,32,yes,yes,5,30,8,8,1,NA,0,male,no,housed,18,31,31,58.851146697998,58.7147789001465,4,black,no,5,alcohol
+Usual Care,365,no,NA,NA,44,56,3,0,2,0,male,no,homeless,38,55,43,27.2183513641357,34.3144493103027,0,white,no,9,alcohol
+Usual Care,365,no,yes,62,46,51,0,0,2,0,male,no,housed,12,15,39,18.287805557251,43.607494354248,2,black,yes,4,alcohol
+HELP,41,yes,no,187,43,7,0,0,NA,1,female,no,homeless,26,26,15,60.5420837402344,55.4401473999023,13,white,no,1,heroin
+Usual Care,365,no,NA,NA,47,36,4,13,5,0,male,no,homeless,4,4,40,37.8357696533203,32.1260948181152,4,black,yes,0,heroin
+HELP,32,yes,yes,93,34,49,0,0,NA,0,male,no,housed,32,32,24,37.6981964111328,52.0291786193848,11,hispanic,no,4,alcohol
+HELP,349,no,yes,4,47,54,1,8,NA,1,female,yes,housed,13,13,35,13.8529958724976,31.1114673614502,9,black,no,0,cocaine
+Usual Care,393,no,yes,1,40,53,2,0,7,0,male,no,homeless,34,102,42,18.6152267456055,58.152458190918,5,white,no,4,alcohol
+HELP,NA,NA,yes,5,34,15,15,0,NA,0,male,no,homeless,38,51,29,47.2559204101562,46.5206909179688,6,black,no,7,cocaine
+Usual Care,302,no,yes,0,48,53,4,0,3,1,female,yes,homeless,0,0,32,19.80832862854,27.0908622741699,13,white,yes,3,alcohol
+HELP,364,no,yes,1,37,6,5,1,NA,0,male,no,homeless,13,13,31,57.8735389709473,57.5965118408203,14,black,no,8,cocaine
+Usual Care,365,no,yes,5,35,54,1,13,NA,1,female,no,housed,0,0,44,9.40637683868408,41.9540061950684,13,white,no,4,heroin
+Usual Care,337,no,NA,NA,38,42,4,0,NA,1,female,yes,housed,3,3,40,27.4955654144287,51.277904510498,3,black,no,9,cocaine
+Usual Care,365,no,yes,3,37,45,30,0,NA,0,male,yes,homeless,19,27,NA,18.053503036499,56.1271133422852,0,black,no,12,alcohol
+HELP,31,yes,NA,NA,27,31,1,0,1,0,male,no,housed,49,49,42,41.0105018615723,62.9778938293457,5,black,yes,11,cocaine
+Usual Care,9,yes,no,178,39,40,0,4,NA,0,male,no,homeless,18,36,35,39.963680267334,37.8067245483398,0,white,no,3,alcohol
+HELP,359,no,yes,0,23,37,1,20,4,0,male,yes,housed,0,0,37,21.5993061065674,36.6459732055664,1,hispanic,yes,3,heroin
+Usual Care,361,no,no,178,35,36,0,0,NA,1,female,no,homeless,58,58,13,44.7672538757324,53.4221229553223,14,black,no,4,cocaine
+HELP,80,yes,no,175,53,40,2,19,2,0,male,yes,homeless,2,2,43,29.3320560455322,25.4368286132812,5,hispanic,no,4,heroin
+HELP,365,no,NA,NA,31,41,1,0,NA,0,male,no,housed,6,13,40,18.6047801971436,66.0906753540039,4,black,no,5,cocaine
+HELP,14,yes,yes,15,32,39,0,0,1,0,male,no,homeless,6,13,33,19.2918300628662,59.9145812988281,6,black,no,5,cocaine
+Usual Care,398,no,no,219,33,38,1,0,1,0,male,no,housed,10,10,37,31.8562965393066,64.1829833984375,7,black,yes,6,cocaine
+Usual Care,365,no,yes,6,42,37,1,0,3,0,male,no,homeless,43,43,NA,14.9786262512207,59.4898872375488,7,white,yes,3,alcohol
+HELP,40,yes,yes,1,25,38,0,1,1,0,male,no,housed,0,0,36,26.6985378265381,43.3934211730957,3,hispanic,no,1,heroin
+Usual Care,40,yes,NA,NA,37,9,1,0,NA,0,male,no,homeless,6,20,26,53.3403587341309,57.6573905944824,12,white,no,0,alcohol
+HELP,74,yes,yes,18,26,36,0,0,NA,0,male,no,homeless,6,6,42,51.0037384033203,51.7066917419434,2,hispanic,yes,2,cocaine
+Usual Care,308,no,NA,NA,29,27,0,5,2,0,male,no,housed,0,0,35,28.6392383575439,48.9877700805664,10,white,no,2,heroin
+HELP,7,yes,no,215,30,26,1,0,NA,0,male,no,housed,32,32,41,44.2154846191406,54.158618927002,9,black,no,6,alcohol
+HELP,365,no,NA,NA,47,52,8,0,2,1,female,no,housed,6,6,34,7.22659730911255,47.6094779968262,9,white,no,4,alcohol
+Usual Care,300,no,NA,NA,33,24,1,0,NA,0,male,no,housed,3,12,36,57.296199798584,59.1453018188477,5,hispanic,yes,4,alcohol
+HELP,361,no,yes,125,36,16,1,0,1,0,male,no,homeless,6,6,42,30.9180431365967,63.3427047729492,11,black,yes,5,cocaine
+HELP,393,no,NA,NA,23,34,3,0,1,0,male,no,homeless,0,0,33,24.8493766784668,51.1533012390137,1,hispanic,yes,4,cocaine
+HELP,9,yes,yes,5,36,46,8,0,5,0,male,no,homeless,25,25,38,17.8637409210205,38.1961784362793,6,white,no,0,alcohol
+Usual Care,350,no,yes,2,34,24,1,2,1,0,male,no,homeless,13,26,41,48.4834327697754,57.4488906860352,5,white,no,5,alcohol
+Usual Care,365,no,yes,1,28,25,2,0,2,0,male,no,homeless,18,18,36,27.5145015716553,64.0739288330078,3,black,yes,5,alcohol
+HELP,21,yes,NA,NA,33,40,4,0,NA,1,female,no,housed,13,26,38,19.8195552825928,32.996753692627,0,black,no,4,alcohol
+Usual Care,296,no,yes,35,26,33,0,0,1,1,female,no,housed,0,0,41,29.2130165100098,56.69189453125,3,black,yes,3,heroin
+HELP,6,yes,yes,15,30,31,0,0,NA,0,male,no,housed,2,2,39,36.0292053222656,61.196647644043,1,black,no,3,cocaine
+Usual Care,19,yes,NA,NA,41,37,1,0,NA,0,male,yes,homeless,26,38,41,25.4653224945068,65.2675933837891,5,black,no,9,cocaine
+HELP,123,yes,NA,NA,31,28,1,1,4,0,male,no,homeless,5,25,39,38.7785797119141,41.7384948730469,10,black,yes,8,cocaine
+HELP,44,yes,NA,NA,28,27,0,0,NA,0,male,yes,housed,10,23,25,31.2558326721191,56.5652542114258,7,black,no,6,cocaine
+Usual Care,365,no,NA,NA,59,6,2,0,NA,0,male,no,homeless,0,0,32,58.7501449584961,53.0182113647461,12,black,no,8,cocaine
+Usual Care,363,no,yes,31,39,21,0,0,NA,0,male,no,housed,4,4,39,32.3138427734375,57.0491943359375,14,black,no,4,heroin
+HELP,33,yes,NA,NA,36,29,0,0,NA,0,male,no,housed,29,85,31,40.0568771362305,57.7314910888672,11,black,no,5,cocaine
+Usual Care,152,yes,yes,32,47,23,1,0,NA,0,male,no,homeless,20,20,40,37.5047340393066,54.066707611084,3,other,no,2,alcohol
+HELP,30,yes,yes,2,44,21,2,1,3,0,male,no,homeless,16,16,43,NA,NA,12,black,no,7,heroin
+HELP,365,no,NA,NA,26,35,0,0,NA,0,male,no,housed,3,12,29,18.3401393890381,43.8991050720215,12,black,no,2,cocaine
+Usual Care,338,no,yes,10,22,55,0,11,2,0,male,yes,homeless,6,12,41,14.1087589263916,48.8148422241211,5,white,yes,5,heroin
+Usual Care,365,no,NA,NA,36,3,0,0,NA,0,male,no,homeless,13,13,9,59.9300117492676,58.224681854248,3,black,no,7,cocaine
+HELP,365,no,NA,NA,34,36,1,2,6,0,male,no,homeless,36,36,39,26.4747009277344,48.7611351013184,12,white,yes,3,heroin
+Usual Care,365,no,NA,NA,27,40,1,3,2,0,male,no,homeless,18,18,37,57.4894371032715,37.7497062683105,8,white,yes,3,heroin
+HELP,356,no,yes,12,34,29,0,0,NA,1,female,no,housed,0,0,37,31.0776309967041,64.9186477661133,14,black,no,12,cocaine
+Usual Care,331,no,NA,NA,21,28,3,0,1,0,male,no,homeless,45,45,40,41.3247451782227,36.8113594055176,3,hispanic,no,2,heroin
+HELP,309,no,NA,NA,33,21,0,0,NA,0,male,no,housed,13,13,31,38.9072303771973,49.4332084655762,11,black,yes,2,heroin
+Usual Care,289,no,yes,3,42,34,5,11,1,0,male,no,homeless,4,10,42,22.6732807159424,45.1806716918945,4,white,no,0,heroin
+Usual Care,306,no,NA,NA,46,42,2,0,2,0,male,no,homeless,6,26,42,30.1065044403076,36.3555679321289,5,white,yes,4,alcohol
+HELP,365,no,yes,2,49,9,2,0,NA,0,male,no,homeless,38,45,NA,37.518367767334,45.9333038330078,12,other,no,3,alcohol
+Usual Care,410,no,yes,106,26,23,4,0,NA,0,male,no,housed,6,6,15,38.276969909668,36.4936637878418,5,black,no,3,heroin
+HELP,42,yes,NA,NA,29,36,1,0,NA,0,male,yes,housed,17,18,NA,17.2306575775146,59.7731704711914,2,hispanic,no,4,alcohol
+Usual Care,362,no,yes,3,36,36,3,0,NA,0,male,no,housed,25,42,37,45.8596038818359,14.074291229248,8,white,no,4,alcohol
+Usual Care,74,yes,no,158,47,32,3,0,NA,1,female,no,housed,21,21,13,51.9225158691406,54.5239791870117,12,hispanic,no,0,alcohol
+HELP,16,yes,no,191,48,30,2,0,1,0,male,no,homeless,13,13,35,25.5444107055664,42.8697395324707,12,other,no,4,heroin
+HELP,340,no,NA,NA,32,25,5,10,NA,0,male,no,housed,37,37,30,22.7300968170166,56.8556785583496,11,hispanic,no,2,heroin
+Usual Care,365,no,NA,NA,38,35,7,0,1,0,male,no,housed,25,25,44,25.4456481933594,44.1766548156738,8,black,yes,5,alcohol
+HELP,11,yes,yes,61,43,23,2,0,2,0,male,yes,homeless,38,38,32,46.9675216674805,58.7484664916992,4,white,yes,1,alcohol
+Usual Care,365,no,yes,30,30,16,0,0,NA,0,male,no,housed,12,29,32,47.1332092285156,51.9216270446777,8,hispanic,no,3,alcohol
+HELP,41,yes,no,176,40,27,1,0,NA,0,male,no,housed,6,24,38,42.632926940918,56.8667984008789,6,black,no,4,cocaine
+HELP,292,no,NA,NA,38,14,0,1,NA,0,male,no,homeless,6,6,34,54.8510932922363,50.2660217285156,3,black,no,5,heroin
+Usual Care,376,no,no,260,22,44,1,NA,5,0,male,no,housed,0,0,44,15.1014938354492,48.1158866882324,0,white,yes,5,heroin
+HELP,449,no,no,268,39,52,2,0,NA,1,female,no,housed,0,0,37,24.9303531646729,33.5311050415039,7,black,no,2,heroin
+HELP,8,yes,NA,NA,22,48,2,2,3,0,male,yes,homeless,8,8,40,19.1167659759521,45.5847396850586,4,white,yes,1,heroin
+Usual Care,370,no,no,210,37,11,1,0,2,0,male,no,housed,32,32,41,51.8431930541992,59.7212791442871,5,white,no,5,alcohol
+Usual Care,393,no,yes,1,37,41,10,0,NA,1,female,no,homeless,24,51,44,25.7107772827148,49.1808433532715,9,other,no,9,alcohol
+HELP,8,yes,yes,97,57,16,2,0,NA,0,male,no,housed,10,10,NA,47.9998092651367,54.325496673584,11,white,no,0,alcohol
+Usual Care,365,no,yes,0,44,41,3,0,1,0,male,no,homeless,51,51,30,32.4846534729004,44.220386505127,4,white,yes,3,alcohol
+HELP,166,yes,no,165,38,37,1,1,NA,0,male,no,housed,35,35,42,43.4982223510742,20.740291595459,3,black,no,4,alcohol
+Usual Care,89,yes,yes,2,37,31,2,0,3,0,male,no,homeless,73,73,36,18.7959308624268,54.9329566955566,4,hispanic,yes,2,alcohol
+HELP,418,no,yes,2,43,34,4,5,NA,0,male,yes,homeless,9,31,45,18.5259304046631,47.580623626709,3,white,no,4,heroin
+Usual Care,335,no,NA,NA,42,36,1,NA,1,0,male,yes,homeless,13,15,NA,28.4526748657227,49.9384689331055,11,white,yes,NA,alcohol
+HELP,247,yes,yes,0,39,40,8,0,3,0,male,yes,homeless,51,51,44,25.7382850646973,34.9089317321777,2,white,no,5,alcohol
+Usual Care,322,no,yes,2,45,37,2,3,NA,0,male,no,housed,6,8,28,14.8916969299316,60.1145629882812,2,black,no,7,heroin
+HELP,265,yes,no,154,39,30,8,0,NA,0,male,no,housed,6,16,32,41.360710144043,44.597282409668,7,white,no,3,alcohol
+HELP,365,no,yes,15,31,42,1,0,NA,1,female,yes,homeless,6,13,34,16.8635883331299,46.6987686157227,0,black,no,10,cocaine
+HELP,NA,NA,yes,5,32,51,0,6,3,0,male,no,homeless,2,3,44,17.0822334289551,47.0085525512695,14,white,no,5,heroin
+HELP,98,yes,yes,33,42,42,5,0,NA,1,female,yes,housed,26,41,35,30.7015628814697,38.4018707275391,5,white,no,6,alcohol
+HELP,365,no,NA,NA,33,15,0,0,NA,1,female,no,housed,0,0,6,41.6247062683105,62.089427947998,11,black,yes,6,cocaine
+Usual Care,345,no,yes,NA,47,12,1,0,NA,0,male,no,housed,1,1,31,43.4410591125488,59.9929275512695,14,black,yes,5,cocaine
+Usual Care,365,no,yes,32,24,39,2,0,3,0,male,no,homeless,49,109,42,27.8015098571777,51.6944808959961,1,black,no,5,cocaine
+HELP,20,yes,yes,2,27,10,1,0,NA,0,male,no,housed,19,25,35,42.4571495056152,53.5402526855469,11,hispanic,no,4,heroin
+Usual Care,286,no,NA,NA,38,33,1,1,NA,1,female,yes,housed,3,16,33,22.3378734588623,42.3149452209473,8,black,no,1,heroin
+Usual Care,365,no,NA,NA,53,57,4,0,NA,0,male,no,housed,38,51,45,18.750150680542,46.0404586791992,5,white,no,2,alcohol
+HELP,34,yes,NA,NA,39,17,1,0,4,0,male,no,homeless,26,40,45,28.5568332672119,53.1722640991211,14,white,no,3,alcohol
+Usual Care,365,no,NA,NA,32,20,4,1,NA,0,male,no,homeless,83,145,42,28.6024169921875,47.8319091796875,6,white,no,5,alcohol
+Usual Care,365,no,NA,NA,27,49,2,0,1,0,male,yes,housed,32,40,43,15.2682638168335,40.8388481140137,7,white,no,7,heroin
+Usual Care,365,no,NA,NA,43,23,4,0,2,1,female,no,homeless,19,19,31,27.7176551818848,41.1013526916504,3,black,no,6,alcohol
+HELP,365,no,NA,NA,31,26,1,0,NA,0,male,no,housed,30,101,41,40.6338272094727,58.7867279052734,4,hispanic,yes,12,cocaine
+HELP,365,no,NA,NA,33,19,4,0,2,1,female,no,housed,25,50,NA,34.2173614501953,29.4945964813232,2,white,no,4,heroin
+Usual Care,NA,NA,NA,NA,44,41,3,0,NA,1,female,no,homeless,18,26,NA,18.9773559570312,59.3047256469727,11,white,no,4,alcohol
+Usual Care,365,no,NA,NA,41,28,3,0,NA,0,male,no,housed,42,42,31,46.2696266174316,36.5098838806152,14,black,no,3,alcohol
+Usual Care,365,no,NA,NA,27,3,0,0,NA,1,female,no,housed,1,1,21,57.8345947265625,58.2151145935059,4,black,yes,1,cocaine
+HELP,85,yes,NA,NA,28,18,17,0,NA,0,male,no,housed,18,26,36,33.6592216491699,45.0082588195801,8,other,no,7,cocaine
+Usual Care,365,no,NA,NA,39,39,8,0,NA,0,male,yes,homeless,35,105,36,21.645959854126,41.5277671813965,8,white,no,4,alcohol
+HELP,365,no,NA,NA,39,51,0,12,3,0,male,no,homeless,20,20,41,23.7247524261475,32.8776512145996,7,hispanic,no,0,alcohol
+Usual Care,NA,NA,NA,NA,21,39,0,6,NA,1,female,yes,housed,0,0,35,47.7732276916504,41.0978088378906,14,white,no,1,heroin
+Usual Care,365,no,NA,NA,29,47,2,0,NA,1,female,no,homeless,11,14,35,9.73255920410156,69.1716079711914,4,black,no,7,cocaine
+HELP,365,no,NA,NA,31,45,5,5,NA,0,male,yes,housed,26,26,33,15.5994205474854,47.6569519042969,4,hispanic,yes,2,heroin
+HELP,118,yes,NA,NA,29,28,2,2,1,0,male,no,homeless,43,54,43,28.4756317138672,45.8224258422852,7,white,no,6,alcohol
+Usual Care,365,no,NA,NA,45,41,2,0,1,1,female,no,homeless,19,26,25,55.4793815612793,54.0906944274902,4,white,no,4,alcohol
+HELP,68,yes,NA,NA,25,31,7,0,NA,0,male,no,housed,1,2,35,36.5947265625,59.0820236206055,8,white,no,5,cocaine
+HELP,365,no,NA,NA,24,34,2,14,8,1,female,no,housed,13,26,38,28.5908699035645,57.7626953125,9,white,yes,14,heroin
+HELP,365,no,NA,NA,41,21,5,0,NA,0,male,no,housed,51,51,37,15.0788669586182,41.0036964416504,3,white,yes,4,alcohol
+Usual Care,365,no,NA,NA,27,41,3,0,1,0,male,yes,homeless,24,48,44,38.9505958557129,59.7340774536133,11,white,no,1,alcohol
+HELP,44,yes,NA,NA,21,38,1,14,4,0,male,yes,housed,13,13,43,31.6808586120605,60.9718475341797,1,white,no,10,heroin
+Usual Care,NA,NA,NA,NA,27,36,5,0,NA,0,male,no,housed,20,26,41,19.0961971282959,59.9170112609863,3,white,yes,1,alcohol
+Usual Care,365,no,NA,NA,31,24,1,0,1,0,male,no,housed,26,26,35,48.4422874450684,58.5086288452148,7,black,yes,3,alcohol
+Usual Care,365,no,NA,NA,41,10,0,0,NA,0,male,no,housed,8,18,36,52.6977272033691,58.5845222473145,11,white,no,3,alcohol
+Usual Care,365,no,NA,NA,33,41,1,0,NA,0,male,yes,housed,61,61,34,19.919921875,64.9523849487305,5,white,no,8,alcohol
+Usual Care,365,no,NA,NA,49,51,1,8,3,0,male,no,housed,13,19,33,13.312668800354,49.4465637207031,8,black,no,3,heroin
+HELP,365,no,NA,NA,41,45,4,1,1,0,male,yes,homeless,28,37,43,15.6862878799438,58.843822479248,1,hispanic,no,8,alcohol
+HELP,44,yes,NA,NA,25,29,0,6,NA,0,male,no,housed,6,7,32,33.8209762573242,27.2700576782227,4,other,no,5,heroin
+HELP,10,yes,NA,NA,41,56,4,0,NA,0,male,no,housed,10,10,41,11.4998645782471,66.2313232421875,4,other,no,3,alcohol
+HELP,87,yes,NA,NA,34,34,1,0,2,0,male,no,housed,0,0,36,26.3927326202393,32.3548431396484,7,hispanic,no,8,heroin
+HELP,365,no,NA,NA,29,4,0,0,NA,0,male,no,housed,4,10,19,52.945426940918,58.8600196838379,11,white,yes,5,cocaine
+Usual Care,365,no,NA,NA,28,32,0,0,NA,0,male,no,housed,25,37,33,39.9726638793945,56.9538803100586,3,black,yes,2,alcohol
+Usual Care,NA,NA,NA,NA,29,38,2,9,1,0,male,no,homeless,2,2,40,23.4464740753174,40.406436920166,8,hispanic,no,9,heroin
+HELP,115,yes,NA,NA,36,26,0,0,5,0,male,no,homeless,26,26,44,42.3418426513672,61.746883392334,3,white,no,0,alcohol
+Usual Care,365,no,NA,NA,36,27,0,0,NA,0,male,no,housed,24,24,33,28.0619106292725,53.9360694885254,12,black,no,4,cocaine
+HELP,365,no,NA,NA,24,21,4,0,NA,0,male,yes,homeless,0,0,38,28.0738830566406,63.8632698059082,9,hispanic,no,3,cocaine
+HELP,6,yes,NA,NA,38,30,2,0,2,0,male,no,homeless,13,13,38,37.1166076660156,35.9862747192383,9,black,yes,8,cocaine
+Usual Care,365,no,NA,NA,31,7,1,0,NA,0,male,no,housed,12,12,31,57.8000640869141,49.2174682617188,12,black,no,4,cocaine
+Usual Care,365,no,NA,NA,26,35,1,0,NA,0,male,no,housed,12,30,41,12.2042188644409,51.4513282775879,11,white,no,2,cocaine
+HELP,28,yes,NA,NA,35,23,2,0,NA,1,female,no,housed,4,4,20,45.4251098632812,58.7575874328613,1,black,no,2,cocaine
+Usual Care,365,no,NA,NA,26,36,4,1,NA,0,male,no,housed,12,18,38,39.038631439209,47.926212310791,0,black,no,7,cocaine
+Usual Care,365,no,NA,NA,33,15,0,0,NA,0,male,no,homeless,3,3,36,37.1023941040039,51.6356887817383,2,black,no,3,cocaine
+Usual Care,365,no,NA,NA,46,48,100,0,NA,0,male,no,housed,51,69,29,23.8982925415039,23.5504341125488,9,white,yes,2,alcohol
+Usual Care,365,no,NA,NA,33,31,0,0,1,0,male,no,homeless,5,5,29,46.3305130004883,59.1654739379883,8,black,no,3,cocaine
+Usual Care,64,yes,NA,NA,39,54,6,0,NA,0,male,no,homeless,68,68,42,13.4125633239746,42.0853462219238,7,white,no,3,cocaine
+HELP,365,no,NA,NA,27,21,1,9,1,0,male,no,homeless,29,29,43,49.5032768249512,51.0159797668457,3,white,no,5,alcohol
+Usual Care,NA,NA,NA,NA,33,21,8,0,NA,1,female,no,homeless,26,26,28,18.5943145751953,38.8650207519531,3,white,no,4,alcohol
+HELP,365,no,NA,NA,36,29,4,0,NA,1,female,no,housed,7,8,27,25.6761302947998,54.981388092041,13,white,no,4,alcohol
+HELP,365,no,NA,NA,23,23,0,5,2,0,male,no,housed,5,5,38,33.3450508117676,46.4234428405762,1,white,no,6,heroin
+Usual Care,365,no,NA,NA,33,33,2,11,1,0,male,no,homeless,32,32,41,18.5308074951172,52.7183837890625,1,white,yes,7,heroin
+Usual Care,365,no,NA,NA,26,14,0,0,NA,0,male,no,housed,0,0,14,54.5258178710938,59.4286155700684,5,hispanic,no,4,heroin
+Usual Care,365,no,NA,NA,38,27,10,0,NA,0,male,no,housed,76,78,10,44.1716117858887,38.4910697937012,1,white,no,4,alcohol
+Usual Care,365,no,NA,NA,52,24,1,0,1,0,male,no,homeless,26,26,32,47.7798919677734,52.739875793457,10,white,no,0,alcohol
+HELP,365,no,NA,NA,39,33,2,3,1,0,male,no,homeless,41,62,39,21.2714958190918,45.7291603088379,2,white,no,8,alcohol
+HELP,2,yes,NA,NA,36,25,1,1,NA,0,male,no,homeless,18,18,43,39.9294052124023,61.9786529541016,3,white,yes,4,heroin
+Usual Care,NA,NA,NA,NA,44,37,0,0,2,0,male,no,homeless,22,30,31,25.6322021484375,60.4651145935059,14,white,no,3,alcohol
+HELP,4,yes,NA,NA,37,47,2,21,NA,0,male,no,housed,53,63,43,23.716438293457,38.2460021972656,7,hispanic,no,1,heroin
+HELP,365,no,NA,NA,33,40,2,0,1,1,female,yes,homeless,26,32,37,34.1522445678711,45.2703552246094,2,hispanic,no,3,alcohol
+Usual Care,365,no,NA,NA,31,9,1,0,NA,0,male,no,homeless,4,13,34,52.7925415039062,57.1267356872559,11,other,no,2,alcohol
+Usual Care,365,no,NA,NA,25,37,3,0,3,0,male,no,housed,3,3,30,28.6093463897705,52.023380279541,6,black,yes,4,heroin
+HELP,365,no,NA,NA,43,25,0,0,1,0,male,no,housed,3,3,NA,28.9134750366211,52.6092224121094,1,black,no,4,cocaine
+Usual Care,365,no,NA,NA,31,47,1,0,NA,1,female,yes,homeless,56,61,41,17.0509700775146,34.516227722168,8,hispanic,yes,14,alcohol
+Usual Care,365,no,NA,NA,24,34,0,13,2,0,male,no,homeless,0,0,36,25.8517723083496,50.608341217041,5,white,yes,4,heroin
+HELP,365,no,NA,NA,33,28,1,0,1,0,male,no,housed,0,0,38,41.9430656433105,56.9686813354492,7,white,no,4,heroin
+HELP,7,yes,NA,NA,49,37,0,0,NA,0,male,no,housed,13,20,39,62.1755027770996,57.2538375854492,11,white,no,0,alcohol
+Usual Care,365,no,NA,NA,39,28,0,1,NA,1,female,no,homeless,1,24,28,33.4345359802246,40.0457153320312,1,white,no,2,heroin
+Usual Care,365,no,NA,NA,59,11,2,0,1,0,male,no,homeless,13,13,26,54.4248161315918,53.7320442199707,7,black,yes,9,cocaine
+Usual Care,365,no,NA,NA,45,35,1,0,1,0,male,no,homeless,51,51,43,30.2122268676758,43.47607421875,11,white,no,4,alcohol

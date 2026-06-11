@@ -1,0 +1,57 @@
+Treatment,YP_total_moderate_serious_aecopd_12m,YS_serious_aecopd_12m,YS_alive_12m,YS_pulmonary_rehab_attendance_12m,X_age_0m,X_gender_0m,X_ethnicity_0m,X_current_smoker_0m,X_pack_years_0m,X_bmi_0m,X_domiciliary_oxygen_0m,X_prior_pulmonary_rehab_0m,X_charlson_0m,X_prior_aecopd_events_12m
+Control,1,0,Yes,Yes,79,Male,NZ European,No,50,19.4,No,Yes,3,0
+Taking Charge,6,4,Yes,Yes,77,Female,Maori,No,40,36.80000000000001,No,Yes,5,1
+Taking Charge,7,7,Yes,NR,76,Male,NZ European,Yes,20,31.4,No,Yes,0,6
+Taking Charge,6,4,Yes,No,64,Male,Samoan,No,4.2,20.1,NR,Yes,3,6
+Control,1,0,Yes,No,70,Female,NZ European,No,27.5,25.4,NR,NR,3,1
+Control,0,0,Yes,Yes,64,Female,NZ European,No,0,21.1,NR,No,1,3
+Control,2,0,Yes,Yes,72,Female,NZ European,No,0,19.5,No,Yes,3,1
+Control,4,3,Yes,Yes,50,Female,NZ European,No,3.75,21.2,Yes,Yes,1,5
+Taking Charge,1,1,Yes,NR,70,Male,NZ European,No,55,20.3,No,Yes,3,7
+Taking Charge,2,0,Yes,Yes,59,Female,NZ European; Maori,No,30,22.3,No,No,1,6
+Control,2,1,Yes,NR,66,Male,NZ European,No,51,16.9,Yes,Yes,1,6
+Taking Charge,0,0,Yes,Yes,76,Male,Cook Island Maori; Niuean,No,NA,33.7,No,No,1,4
+Taking Charge,1,1,No,NR,82,Female,NR,No,0,NA,NR,NR,NA,0
+Control,0,0,Yes,Yes,83,Female,NZ European,No,87.5,37.80000000000001,No,Yes,7,1
+Control,1,1,Yes,Yes,74,Female,NZ European,No,27.5,18.3,No,No,1,2
+Taking Charge,2,0,Yes,NR,63,Female,NR,NR,NA,NA,NR,NR,3,2
+Control,2,2,Yes,NR,49,Female,NZ European; Maori,No,39,19.3,Yes,Yes,0,7
+Taking Charge,4,1,Yes,Yes,71,Male,NZ European,No,40,25.8,No,Yes,3,1
+Control,2,1,Yes,Yes,75,Male,NZ European,No,0,26.9,No,Yes,1,0
+Taking Charge,1,1,Yes,NR,55,Male,NZ European,Yes,57,17.2,No,No,1,1
+Taking Charge,0,0,Yes,Yes,66,Male,NZ European,No,50,27.8,No,No,2,0
+Control,3,3,Yes,No,84,Female,NZ European,No,0.3,26.7,No,No,2,3
+Taking Charge,1,0,Yes,NR,84,Female,Maori,No,60,23.7,Yes,Yes,3,0
+Control,0,0,No,NR,72,Female,NR,No,0,23.9,Yes,NR,2,7
+Taking Charge,2,1,Yes,NR,83,Female,NZ European,No,40,32.4,No,Yes,3,2
+Control,6,1,Yes,Yes,54,Male,NZ European,No,0,27.5,No,No,1,3
+Control,8,5,Yes,NR,66,Female,NZ European,No,14.850000000000001,32,Yes,Yes,4,8
+Taking Charge,5,0,Yes,Yes,81,Female,Maori,No,26,19.1,No,Yes,4,0
+Control,3,1,Yes,No,77,Female,Samoan,No,82.5,27.2,Yes,No,6,6
+Taking Charge,10,1,Yes,No,79,Female,NZ European,No,0,25.8,No,Yes,1,0
+Control,2,2,Yes,No,79,Male,Canadian,No,26,23.8,No,No,0,2
+Taking Charge,0,0,Yes,Yes,83,Female,NZ European,No,2.5,30.4,No,No,1,2
+Control,4,0,Yes,NR,72,Female,NZ European,Yes,57,30.5,No,Yes,1,4
+Control,10,1,No,NR,73,Male,NZ European,Yes,60,20.5,No,No,3,1
+Taking Charge,0,0,Yes,NR,87,Female,NZ European,No,16,1.8,No,No,7,3
+Taking Charge,3,0,Yes,Yes,66,Female,NZ European,No,22.5,27.9,No,Yes,2,0
+Taking Charge,3,1,Yes,No,29,Female,NZ European,No,0,23.1,No,No,1,0
+Taking Charge,5,5,Yes,NR,68,Female,Maori,No,50,3.4,No,Yes,1,7
+Taking Charge,8,0,Yes,NR,66,Male,Maori,NR,NA,31.8,No,NR,2,0
+Control,7,0,Yes,Yes,72,Female,NZ European,No,46,2,No,Yes,4,1
+Control,4,4,Yes,Yes,74,Female,NZ European,No,55,28.7,No,Yes,1,1
+Taking Charge,1,0,Yes,No,83,Male,NZ European,No,50,NA,No,No,4,2
+Taking Charge,2,1,Yes,Yes,72,Male,Maori,No,82.5,36.2,No,Yes,1,2
+Control,0,0,No,NR,69,Male,NZ European,Yes,39.75,52.2,No,Yes,1,1
+Taking Charge,4,4,Yes,NR,75,Female,NZ European,No,61.25,NA,Yes,Yes,2,5
+Control,3,0,Yes,Yes,72,Female,NZ European,No,0,19.3,No,Yes,2,0
+Control,1,1,Yes,No,70,Male,Maori,No,40,NA,Yes,No,3,8
+Taking Charge,2,0,Yes,Yes,67,Female,NZ European,No,20,27.2,No,Yes,4,1
+Control,0,0,Yes,Yes,60,Male,Cook Island Maori; Taihitian,Yes,10.5,41.4,No,No,2,6
+Control,11,1,Yes,NR,47,Male,NZ European,No,38,31.1,No,Yes,3,7
+Control,5,0,Yes,Yes,72,Female,NZ European,No,54,32.4,Yes,Yes,3,2
+Taking Charge,2,0,Yes,Yes,65,Male,NZ European,No,0,31.4,No,No,1,2
+Taking Charge,4,0,Yes,No,61,Female,NZ European,No,43,32.30000000000001,No,Yes,3,1
+Taking Charge,3,0,Yes,NR,61,Female,Maori,No,46,NA,No,Yes,2,0
+Control,0,0,No,NR,68,Female,NZ European,No,40,NA,Yes,Yes,1,0
+Control,2,2,Yes,NR,75,Male,Samoan,No,0,30.8,No,Yes,1,3

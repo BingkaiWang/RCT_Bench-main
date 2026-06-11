@@ -1,0 +1,16 @@
+{
+  "generated_at_utc": "2026-06-09T01:20:35+00:00",
+  "shortlist_path": "outputs/rct_candidate_screening/predownload_screen/likely_qualified_predownload_screen.csv",
+  "candidate_count": 71,
+  "registered_file_count": 101,
+  "downloaded_file_count": 69,
+  "failed_file_count": 32,
+  "oversize_skipped_file_count": 0,
+  "extracted_archive_file_count": 0,
+  "readable_table_count": 80,
+  "decision_counts": {
+    "not_qualified_before_cleaning": 55,
+    "needs_manual_review_before_cleaning": 10,
+    "qualified_for_cleaning": 6
+  }
+}

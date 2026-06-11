@@ -1,0 +1,5 @@
+Trial_ID: 117
+Paper Name: Effects of S-Ketamine and Midazolam on Respiratory Variability: A Randomized Controlled Pilot Trial
+Paper Link: https://doi.org/10.34894/bazoqf
+Citation: Effects of S-Ketamine and Midazolam on Respiratory Variability: A Randomized Controlled Pilot Trial. Dataset DOI: 10.34894/bazoqf.
+Availability: PDF stored here when publicly available; otherwise this file records the publication link.

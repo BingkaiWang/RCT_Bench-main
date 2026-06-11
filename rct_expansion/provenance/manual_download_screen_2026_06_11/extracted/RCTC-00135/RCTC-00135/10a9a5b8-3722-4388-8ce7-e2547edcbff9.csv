@@ -1,0 +1,34 @@
+NO.,Location of the hospital,Group,Random numbers,Age(yr),Operation Success£¨=1£© or Failure £¨=0£©,Postoperative hospitalization days,Length of days in critical care,Re-admission to hospital,Reoperation intervention,Intra and post-operative blood transfusion,Mortality,Diagnosis,Size of Prostate (mm3),T Stage,N Stage,M Stage,Approach,Technique,Lymphadenectomy,Blood loss(ml),operative time(min),Surgical margin,Gleason Score,Preoperative Hemoglobin(g/L),Postoperative Hemoglobin(g/L),Preoperative Total PSA(ng/mL)
+1,Site_4,Local surgery group,121,70-79,1,4,0,NO,NO,NO,NO,Prostate cancer,57*47*45,T2,Nx,Mx,Extraperitoneal approach,Intrafascial technique,NO,50,141,Positive,4+3,157,143,11.98
+2,Site_4,Telesurgery group,123,50-59,1,4,0,NO,NO,NO,NO,Prostate cancer,46*34*34,T2,Nx,Mx,Extraperitoneal approach,Intrafascial technique,NO,50,172,Negative,4+3,146,126,11.1
+3,Site_4,Local surgery group,124,70-79,1,4,0,NO,NO,NO,NO,Prostate cancer,38*33*34,T2,Nx,Mx,Extraperitoneal approach,Interfascial  technique,NO,50,115,Positive,3+4,137,119,25.39
+4,Site_4,Local surgery group,125,70-79,1,11,0,NO,NO,NO,NO,Prostate cancer,47*33*33,T2,Nx,Mx,Extraperitoneal approach,Interfascial  technique,NO,50,210,Negative,Unable to grade,157,122,0.02
+5,Site_4,Telesurgery group,127,50-59,1,5,0,NO,NO,NO,NO,Prostate cancer,48*36*45,T2,Nx,Mx,Extraperitoneal approach,Intrafascial technique,NO,50,153,Negative,3+4,164,135,8.632
+6,Site_4,Local surgery group,128,50-59,1,5,0,NO,NO,NO,NO,Prostate cancer,41*33*31,T2,N0,M1b,Extraperitoneal approach,Extrafascial technique,Yes,80,135,Negative,Unable to grade,130,111,0.005
+7,Site_5,Local surgery group,163,60-69,1,5,0,NO,NO,NO,NO,Prostate cancer,50*43*51,T2,Nx,Mx,Peritoneal approach,Extrafascial technique,NO,150,225,Negative,3+3,127,114,10.87
+8,Site_5,Telesurgery group,161,70-79,1,6,0,NO,NO,NO,NO,Prostate cancer,36*34*61,T2,Nx,Mx,Peritoneal approach,Extrafascial technique,NO,50,120,Negative,3+4,132,131,9.7
+9,Site_5,Telesurgery group,164,60-69,1,6,0,NO,NO,NO,NO,Prostate cancer,30.9*45.6*51.2,T2,Nx,Mx,Peritoneal approach,Extrafascial technique,NO,20,110,Negative,3+4,142,121,10.29
+10,Site_5,Local surgery group,162,60-69,1,7,0,NO,NO,NO,NO,Prostate cancer,77*60*67,T2,Nx,Mx,Peritoneal approach,Extrafascial technique,NO,100,320,Negative,3+3,145,124,29.35
+11,Site_5,Telesurgery group,165,60-69,1,5,0,NO,NO,NO,NO,Prostate cancer,27.7*47.1*43.7,T3b,N1,Mx,Peritoneal approach,Extrafascial technique,Yes,250,240,Positive,4+5,143,118,11.07
+12,Site_5,Local surgery group,166,60-69,1,5,0,NO,NO,NO,NO,Prostate cancer,43.9*51.9*51.7,T3b,N1,Mx,Peritoneal approach,Extrafascial technique,Yes,100,260,Positive,4+5,132,128,54.23
+13,Site_2,Telesurgery group,44,60-69,1,6,0,NO,NO,NO,NO,Prostate cancer,40*52*46,T2,Nx,M0,Peritoneal approach,Extrafascial technique,NO,50,170,Negative,4+3,135,105,0.064
+14,Site_2,Local surgery group,43,60-69,1,9,0,NO,NO,NO,NO,Prostate cancer,30*46*36,T2,Nx,M0,Peritoneal approach,Extrafascial technique,NO,100,250,Negative,4+5,146,122,1.75
+15,Site_2,Telesurgery group,42,60-69,1,8,0,NO,NO,NO,NO,Prostate cancer,62*49*52,T2,Nx,M0,Peritoneal approach,Intrafascial technique,NO,50,165,Negative,3+3,137,112,11.91
+16,Site_1,Local surgery group,1,70-79,1,6,0,NO,NO,NO,NO,Prostate cancer,52*3*39,T3a,N0,M0,Peritoneal approach,Intrafascial technique,Yes,50,240,Negative,3+4,141,134,8.97
+17,Site_1,Telesurgery group,2,60-69,1,6,0,NO,NO,NO,NO,Prostate cancer,43*30*30,T2,N0,M0,Peritoneal approach,Extrafascial technique,Yes,200,180,Negative,5+4,143,129,4.77
+18,Site_1,Local surgery group,3,50-59,1,6,0,NO,NO,NO,NO,Prostate cancer,50*40*31,T2,N0,M0,Peritoneal approach,Intrafascial technique,Yes,70,180,Positive,3+4,147,134,13.13
+19,Site_1,Telesurgery group,4,60-69,1,6,0,NO,NO,NO,NO,Prostate cancer,41*44*34,T2,Nx,M0,Peritoneal approach,Intrafascial technique,NO,50,200,Negative,3+3,117,111,3.18
+20,Site_1,Local surgery group,5,50-59,1,8,0,NO,NO,NO,NO,Prostate cancer,34*40*34,T2,Nx,M0,Peritoneal approach,Intrafascial technique,NO,59,157,Negative,4+4,128,100,10
+21,Site_1,Local surgery group,6,60-69,1,6,0,NO,NO,NO,NO,Prostate cancer,44*32*36,T2,N0,M0,Peritoneal approach,Intrafascial technique,Yes,100,250,Negative,3+4,148,127,4.98
+22,Site_1,Telesurgery group,7,60-69,1,6,0,NO,NO,NO,NO,Prostate cancer,40*40*32,T3a,Nx,M0,Peritoneal approach,Extrafascial technique,NO,50,150,Negative,4+3,146,127,23.15
+23,Site_1,Telesurgery group,8,60-69,1,4,0,NO,NO,NO,NO,Prostate cancer,43*28*24,T2,N0,M1b,Peritoneal approach,Extrafascial technique,Yes,100,120,Negative,Unable to grade,144,129,<0.006
+24,Site_1,Telesurgery group,9,60-69,1,5,0,NO,NO,NO,NO,Prostate cancer,45*38*33,T2,N0,M0,Peritoneal approach,Extrafascial technique,Yes,400,180,Negative,Unable to grade,121,101,<0.006
+25,Site_1,Local surgery group,10,70-79,1,7,0,NO,NO,NO,NO,Prostate cancer,44*61*55,T3a,N0,M0,Peritoneal approach,Extrafascial technique,Yes,100,180,Negative,4+3,147,124,15.32
+26,Site_1,Telesurgery group,11,60-69,1,11,0,NO,NO,NO,NO,Prostate cancer,52*37*37,T2,N0,M0,Peritoneal approach,Intrafascial technique,Yes,30,180,Negative,3+4,154,132,7.72
+27,Site_1,Local surgery group,12,60-69,1,3,0,NO,NO,NO,NO,Prostate cancer,40*31*33,T2,Nx,M0,Peritoneal approach,Extrafascial technique,Yes,50,115,Positive,4+3,146,141,8.9
+28,Site_6,Telesurgery group,203,70-79,1,6,0,NO,NO,NO,NO,Prostate cancer,41*49*34,T2,N0,M0,Peritoneal approach,Intrafascial technique,NO,50,195,Negative,3+4,135,_,6.6
+29,Site_6,Telesurgery group,205,60-69,1,8,0,NO,NO,NO,NO,Prostate cancer,54.2*39.8*29,T2,N0,M0,Peritoneal approach,Intrafascial technique,Yes,200,235,Negative,3+4,154,141,13.09
+30,Site_6,Telesurgery group,206,70-79,1,5,1,NO,NO,NO,NO,Prostate cancer,47.9*42*45.3,T2,N0,M0,Peritoneal approach,Extrafascial technique,NO,100,250,Negative,4+5,130,117,8.02
+31,Site_6,Local surgery group,207,60-69,1,5,0,NO,NO,NO,NO,Prostate cancer,51.2*33.7*51.4,T2,N0,M0,Peritoneal approach,Extrafascial technique,NO,200,205,Negative,4+4,132,121,4.51
+32,Site_6,Local surgery group,208,70-79,1,5,1,NO,NO,NO,NO,Prostate cancer,42.4*23.4*26.8,T2,N0,M0,Peritoneal approach,Extrafascial technique,NO,100,320,Negative,4+4,130,124,15.98
+33,Site_6,Telesurgery group,201,60-69,1,4,0,NO,NO,NO,NO,Prostate cancer,51.6*46*43,T2,N0,M0,Peritoneal approach,Intrafascial technique,NO,100,180,Negative,3+4,156,153,12.39

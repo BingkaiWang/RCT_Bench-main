@@ -1,0 +1,197 @@
+Trial_ID,variable_name,variable_type,brief_explanation
+trial87,Treatment,treatment,Randomized treatment assignment with the control/reference arm first when identifiable.
+trial87,X_source_participant_no,baseline_covariate,source participant no
+trial87,X_sex,baseline_covariate,sex
+trial87,X_age_years,baseline_covariate,age years
+trial87,X_height_cm,baseline_covariate,height cm
+trial87,X_weight_kg,baseline_covariate,weight kg
+trial87,X_bmi,baseline_covariate,bmi
+trial87,X_asa_class,baseline_covariate,asa class
+trial87,X_mallampati_class,baseline_covariate,mallampati class
+trial87,X_cormack_lehane_grade,baseline_covariate,cormack lehane grade
+trial87,X_intubation_difficulty,baseline_covariate,intubation difficulty
+trial87,X_anesthesia_time_min,baseline_covariate,anesthesia time min
+trial87,YP_delta_mbp_mmHg,primary_outcome,"Change in mean blood pressure after intubation, mmHg."
+trial87,YS_delta_mbp_ratio,secondary_outcome,delta mbp ratio
+trial87,X_pre_induction_hr_bpm,baseline_covariate,pre induction hr bpm
+trial87,X_post_intubation_hr_bpm,baseline_covariate,post intubation hr bpm
+trial87,YP_delta_hr_bpm,primary_outcome,"Change in heart rate after intubation, beats per minute."
+trial87,YS_delta_hr_percent,secondary_outcome,delta hr percent
+trial87,YP_postoperative_pain_vas,primary_outcome,Postoperative pain score in PACU.
+trial87,YS_rescue_analgesic,secondary_outcome,rescue analgesic
+trial87,YS_agitation_score,secondary_outcome,agitation score
+trial87,YS_agitation_3_or_4,secondary_outcome,agitation 3 or 4
+trial87,YS_cough,secondary_outcome,cough
+trial87,YS_dizziness,secondary_outcome,dizziness
+trial87,YS_oxygen_saturation_lt92,secondary_outcome,oxygen saturation lt92
+trial87,YS_hypotension,secondary_outcome,hypotension
+trial87,YS_bradycardia,secondary_outcome,bradycardia
+trial87,YS_awakening_time_sec,secondary_outcome,awakening time sec
+trial87,YS_delta_mbp_gt40pct,secondary_outcome,delta mbp gt40pct
+trial87,YS_delta_hr_gt20pct,secondary_outcome,delta hr gt20pct
+trial88,Treatment,treatment,Randomized treatment assignment with the control/reference arm first when identifiable.
+trial88,X_source_id,baseline_covariate,source id
+trial88,X_sex_code,baseline_covariate,sex code
+trial88,X_age_years,baseline_covariate,age years
+trial88,X_balloon_angioplasty,baseline_covariate,balloon angioplasty
+trial88,X_stent,baseline_covariate,stent
+trial88,X_pharmacologic_stent,baseline_covariate,pharmacologic stent
+trial88,X_education_years,baseline_covariate,education years
+trial88,X_hypertension,baseline_covariate,hypertension
+trial88,X_dyslipidemia,baseline_covariate,dyslipidemia
+trial88,X_diabetes,baseline_covariate,diabetes
+trial88,X_heart_failure,baseline_covariate,heart failure
+trial88,X_prior_ami,baseline_covariate,prior ami
+trial88,X_prior_pci,baseline_covariate,prior pci
+trial88,X_prior_cabg,baseline_covariate,prior cabg
+trial88,X_smoking_baseline,baseline_covariate,smoking baseline
+trial88,X_antihypertensive_baseline,baseline_covariate,antihypertensive baseline
+trial88,X_oral_hypoglycemic_baseline,baseline_covariate,oral hypoglycemic baseline
+trial88,X_statin_baseline,baseline_covariate,statin baseline
+trial88,YP_death_1y,primary_outcome,Death by one-year follow-up.
+trial88,YS_cabg_1y,secondary_outcome,cabg 1y
+trial88,YS_ami_1y,secondary_outcome,ami 1y
+trial88,YS_repeat_pci_1y,secondary_outcome,repeat pci 1y
+trial88,YS_composite_event_1y,secondary_outcome,composite event 1y
+trial89,Treatment,treatment,Randomized treatment assignment with the control/reference arm first when identifiable.
+trial89,X_source_patient_no,baseline_covariate,source patient no
+trial89,X_moca_enrollment,baseline_covariate,moca enrollment
+trial89,YP_moca_3m,primary_outcome,MoCA score after three months of therapy.
+trial89,YS_moca_followup_6m,secondary_outcome,moca followup 6m
+trial89,YP_delta_moca_3m,primary_outcome,Change in MoCA from enrollment to three months.
+trial89,YS_delta_moca_followup_6m,secondary_outcome,delta moca followup 6m
+trial90,Treatment,treatment,Randomized treatment assignment with the control/reference arm first when identifiable.
+trial90,X_source_patient_id,baseline_covariate,source patient id
+trial90,X_gender,baseline_covariate,gender
+trial90,X_study_region,baseline_covariate,study region
+trial90,X_mpr_medication_count,baseline_covariate,mpr medication count
+trial90,X_mpr_percent_sum,baseline_covariate,mpr percent sum
+trial90,X_mpr_percent_sumsq,baseline_covariate,mpr percent sumsq
+trial90,YP_dppr_percent,primary_outcome,Daily polypharmacy possession ratio as a percent.
+trial90,YS_mpr_mean_percent,secondary_outcome,mpr mean percent
+trial91,Treatment,treatment,Randomized treatment assignment with the control/reference arm first when identifiable.
+trial91,X_source_research_number,baseline_covariate,source research number
+trial91,X_maternal_age_years,baseline_covariate,maternal age years
+trial91,X_ethnicity,baseline_covariate,ethnicity
+trial91,X_operative_delivery,baseline_covariate,operative delivery
+trial91,YS_vas_sitting_24h,secondary_outcome,vas sitting 24h
+trial91,YS_vas_walking_24h,secondary_outcome,vas walking 24h
+trial91,YS_vas_lying_24h,secondary_outcome,vas lying 24h
+trial91,YS_analgesia_24h,secondary_outcome,analgesia 24h
+trial91,YS_dehiscence_24h,secondary_outcome,dehiscence 24h
+trial91,YP_vas_sitting_10d,primary_outcome,VAS pain while sitting at ten days.
+trial91,YS_vas_walking_10d,secondary_outcome,vas walking 10d
+trial91,YS_vas_lying_10d,secondary_outcome,vas lying 10d
+trial91,YS_analgesia_10d,secondary_outcome,analgesia 10d
+trial91,YS_infection_10d,secondary_outcome,infection 10d
+trial91,YS_suture_removal_10d,secondary_outcome,suture removal 10d
+trial91,YS_dehiscence_10d,secondary_outcome,dehiscence 10d
+trial91,YS_vas_sitting_6w,secondary_outcome,vas sitting 6w
+trial91,YS_vas_walking_6w,secondary_outcome,vas walking 6w
+trial91,YS_vas_lying_6w,secondary_outcome,vas lying 6w
+trial91,YS_vas_sitting_3m,secondary_outcome,vas sitting 3m
+trial91,YS_vas_walking_3m,secondary_outcome,vas walking 3m
+trial91,YS_vas_lying_3m,secondary_outcome,vas lying 3m
+trial91,YS_dehiscence_3m,secondary_outcome,dehiscence 3m
+trial91,YS_stitches_removed_3m,secondary_outcome,stitches removed 3m
+trial91,YS_infection_3m,secondary_outcome,infection 3m
+trial92,Treatment,treatment,Randomized treatment assignment with the control/reference arm first when identifiable.
+trial92,X_source_sno,baseline_covariate,source sno
+trial92,X_age_years,baseline_covariate,age years
+trial92,X_ethnicity,baseline_covariate,ethnicity
+trial92,X_marital_status,baseline_covariate,marital status
+trial92,X_family_type,baseline_covariate,family type
+trial92,X_residency,baseline_covariate,residency
+trial92,X_education,baseline_covariate,education
+trial92,X_employment,baseline_covariate,employment
+trial92,X_income,baseline_covariate,income
+trial92,X_age_at_marriage,baseline_covariate,age at marriage
+trial92,X_gravidity,baseline_covariate,gravidity
+trial92,X_parity,baseline_covariate,parity
+trial92,X_amenorrhoea_months,baseline_covariate,amenorrhoea months
+trial92,X_preterm_history,baseline_covariate,preterm history
+trial92,X_miscarriage_history,baseline_covariate,miscarriage history
+trial92,X_itn_use_baseline,baseline_covariate,itn use baseline
+trial92,YS_itn_use_2m,secondary_outcome,itn use 2m
+trial92,YP_itn_use_4m,primary_outcome,Reported ITN use category four months post-intervention.
+trial92,X_ipt_doses_baseline,baseline_covariate,ipt doses baseline
+trial92,YS_ipt_doses_2m,secondary_outcome,ipt doses 2m
+trial92,YP_ipt_doses_4m,primary_outcome,Reported IPTp dose count four months post-intervention.
+trial92,X_pcv_baseline,baseline_covariate,pcv baseline
+trial92,YS_pcv_2m,secondary_outcome,pcv 2m
+trial92,X_malaria_diagnosis_baseline,baseline_covariate,malaria diagnosis baseline
+trial92,YS_malaria_diagnosis_2m,secondary_outcome,malaria diagnosis 2m
+trial92,YS_malaria_diagnosis_4m,secondary_outcome,malaria diagnosis 4m
+trial92,YS_live_birth,secondary_outcome,live birth
+trial92,YS_birth_weight_kg,secondary_outcome,birth weight kg
+trial92,YS_low_birth_weight,secondary_outcome,low birth weight
+trial93,Treatment,treatment,Randomized treatment assignment with the control/reference arm first when identifiable.
+trial93,X_source_id,baseline_covariate,source id
+trial93,X_any_sms,baseline_covariate,any sms
+trial93,X_message_long,baseline_covariate,message long
+trial93,X_itt_treated,baseline_covariate,itt treated
+trial93,X_patient_age_reported,baseline_covariate,patient age reported
+trial93,X_patient_age_followup,baseline_covariate,patient age followup
+trial93,X_patient_age_proxy,baseline_covariate,patient age proxy
+trial93,X_household_head_male,baseline_covariate,household head male
+trial93,X_household_head_education,baseline_covariate,household head education
+trial93,X_household_rooms,baseline_covariate,household rooms
+trial93,X_sleep_under_net,baseline_covariate,sleep under net
+trial93,X_mobile_phones,baseline_covariate,mobile phones
+trial93,X_air_conditioner,baseline_covariate,air conditioner
+trial93,X_drug_code,baseline_covariate,drug code
+trial93,X_vendor_code,baseline_covariate,vendor code
+trial93,YP_adhered_self_report,primary_outcome,Self-reported completion of ACT antimalarial treatment.
+trial93,YS_still_sick_followup,secondary_outcome,still sick followup
+trial93,YS_pills_remaining_observed,secondary_outcome,pills remaining observed
+trial93,YS_act_stock_in_household,secondary_outcome,act stock in household
+trial94,Treatment,treatment,Randomized treatment assignment with the control/reference arm first when identifiable.
+trial94,X_source_patient_id,baseline_covariate,source patient id
+trial94,X_sex,baseline_covariate,sex
+trial94,X_age_years,baseline_covariate,age years
+trial94,X_mother_tongue,baseline_covariate,mother tongue
+trial94,X_urdu,baseline_covariate,urdu
+trial94,X_mobile_phone_owner,baseline_covariate,mobile phone owner
+trial94,X_regimen_type,baseline_covariate,regimen type
+trial94,X_can_read,baseline_covariate,can read
+trial94,X_can_write,baseline_covariate,can write
+trial94,X_school,baseline_covariate,school
+trial94,X_highest_grade,baseline_covariate,highest grade
+trial94,X_marital_status,baseline_covariate,marital status
+trial94,X_children,baseline_covariate,children
+trial94,X_asset_index,baseline_covariate,asset index
+trial94,X_clinic_category,baseline_covariate,clinic category
+trial94,X_days_first_treatment,baseline_covariate,days first treatment
+trial94,YP_clinical_treatment_success,primary_outcome,Clinically recorded tuberculosis treatment success.
+trial94,YS_clinical_treatment_complete,secondary_outcome,clinical treatment complete
+trial94,YS_clinical_cured,secondary_outcome,clinical cured
+trial94,YS_clinical_default,secondary_outcome,clinical default
+trial94,YS_clinical_died,secondary_outcome,clinical died
+trial94,YS_clinical_failure,secondary_outcome,clinical failure
+trial94,YS_clinical_transfer_out,secondary_outcome,clinical transfer out
+trial94,YS_self_reported_success,secondary_outcome,self reported success
+trial94,YS_self_reported_complete,secondary_outcome,self reported complete
+trial95,Treatment,treatment,Randomized treatment assignment with the control/reference arm first when identifiable.
+trial95,X_dataset_status,baseline_covariate,dataset status
+trial95,X_age_years,baseline_covariate,age years
+trial95,X_age_group,baseline_covariate,age group
+trial95,X_sex_code,baseline_covariate,sex code
+trial95,X_height_cm,baseline_covariate,height cm
+trial95,X_weight_kg,baseline_covariate,weight kg
+trial95,X_asa_status,baseline_covariate,asa status
+trial95,X_mallampati,baseline_covariate,mallampati
+trial95,X_surgical_procedure,baseline_covariate,surgical procedure
+trial95,X_treatment_department,baseline_covariate,treatment department
+trial95,X_expected_size,baseline_covariate,expected size
+trial95,X_used_size,baseline_covariate,used size
+trial95,X_insertion_time_raw,baseline_covariate,insertion time raw
+trial95,YP_insertion_time_sec,primary_outcome,Supraglottic airway insertion time in seconds.
+trial95,YS_first_pass_success,secondary_outcome,first pass success
+trial95,YS_overall_success,secondary_outcome,overall success
+trial95,YS_insertion_success_code,secondary_outcome,insertion success code
+trial95,YS_crossover,secondary_outcome,crossover
+trial95,YS_attempt_count,secondary_outcome,attempt count
+trial95,YS_leakage_pressure_cmH2O,secondary_outcome,leakage pressure cmH2O
+trial95,YS_postop_complication,secondary_outcome,postop complication
+trial95,YS_postop_throat_pain,secondary_outcome,postop throat pain
+trial95,X_anesthesiologist_experience_years,baseline_covariate,anesthesiologist experience years

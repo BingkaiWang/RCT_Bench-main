@@ -1,0 +1,149 @@
+Treatment,X_dataset_status,X_age_years,X_age_group,X_sex_code,X_height_cm,X_weight_kg,X_asa_status,X_mallampati,X_surgical_procedure,X_treatment_department,X_expected_size,X_used_size,X_insertion_time_raw,YP_insertion_time_sec,YS_first_pass_success,YS_overall_success,YS_insertion_success_code,YS_crossover,YS_attempt_count,YS_leakage_pressure_cmH2O,YS_postop_complication,YS_postop_throat_pain,X_anesthesiologist_experience_years
+Laryngeal tube,komplett,4.0,2.0,2.0,107.0,24.0,2.0,0.0,Explantation Hickman-Katheter,1.0,2.0,2,136,136.0,0.0,0.0,2.0,1.0,1.0,23.0,1.0,0,6.0
+Laryngeal tube,komplett,0.0,1.0,2.0,55.0,4.8,1.0,0.0,Leistenherniotomie,1.0,0.0,1,55,55.0,0.0,0.0,1.0,1.0,1.0,30.0,1.0,0,6.0
+Laryngeal tube,komplett,14.0,4.0,2.0,175.0,58.0,1.0,0.0,Metallentfernung ESIN MC V Hand rechts,1.0,4.0,4,19,19.0,0.0,1.0,2.0,1.0,1.0,14.0,0.0,1,3.0
+Laryngeal mask,komplett,1.0,1.0,1.0,85.0,9.0,1.0,0.0,Resektion Epidermoidzyste retroaurikulär li,1.0,1.5,2,19,19.0,1.0,1.0,1.0,0.0,,12.0,0.0,4,3.0
+Laryngeal tube,komplett,9.0,3.0,2.0,140.0,39.0,1.0,2.0,Metallentfernung Radius re.,1.0,2.5,2.5,64,64.0,0.0,0.0,2.0,1.0,2.0,14.0,1.0,0,3.0
+Laryngeal tube,komplett,1.0,1.0,1.0,74.0,9.0,1.0,0.0,Metall- und Fadenentfernung Fuß li.,1.0,1.0,1,25,25.0,1.0,1.0,1.0,0.0,,35.0,0.0,0,5.0
+Laryngeal mask,komplett,12.0,4.0,1.0,140.0,28.5,3.0,1.0,Explantation Hickman-Katheter,1.0,2.5,2.5,37,37.0,1.0,1.0,1.0,0.0,,16.0,0.0,0,
+Laryngeal mask,komplett,7.0,3.0,2.0,144.0,34.0,2.0,0.0,Leistenherniotomie,1.0,3.0,3,38,38.0,1.0,1.0,1.0,0.0,,14.0,0.0,0,5.0
+Laryngeal tube,komplett,6.0,2.0,2.0,,22.5,1.0,0.0,Zirkumzision,1.0,2.0,2,19,19.0,1.0,1.0,1.0,0.0,,35.0,1.0,0,9.0
+Laryngeal mask,komplett,5.0,2.0,2.0,80.0,21.3,1.0,1.0,Zirkumzision,1.0,2.5,2.5,30,30.0,1.0,1.0,1.0,0.0,,15.0,1.0,,4.0
+Laryngeal mask,komplett,2.0,1.0,2.0,,13.0,1.0,0.0,Zirkumzision und Exzision Nävus Unterschenkel,1.0,2.0,2,40,40.0,1.0,1.0,1.0,0.0,,,1.0,0,4.0
+Laryngeal tube,komplett,13.0,4.0,2.0,164.0,43.0,2.0,0.0,Hydrocelen-OP,1.0,4.0,4,14,14.0,1.0,1.0,1.0,0.0,,35.0,1.0,0,5.0
+Laryngeal mask,komplett,1.0,1.0,1.0,80.0,9.5,1.0,0.0,Ringbandspaltung D1 links,1.0,1.5,1.5,36,36.0,1.0,1.0,1.0,0.0,,14.0,0.0,0,4.5
+Laryngeal tube,komplett,0.0,1.0,2.0,65.0,8.7,1.0,0.0,"Zirkumzision, Burried Penis",1.0,1.0,1,44,44.0,1.0,1.0,1.0,0.0,,35.0,0.0,0,4.5
+Laryngeal tube,komplett,1.0,1.0,2.0,86.0,10.0,1.0,0.0,Hypospadiekorrektur,1.0,1.0,1,,,0.0,0.0,1.0,1.0,1.0,30.0,0.0,0,3.0
+Laryngeal mask,komplett,0.0,1.0,2.0,84.0,10.0,1.0,0.0,Trennung Mittelhandknochen MC 4/5 links,1.0,1.5,1.5,118,118.0,0.0,1.0,2.0,0.0,1.0,21.0,0.0,0,4.5
+Laryngeal mask,komplett,9.0,3.0,2.0,140.0,28.0,2.0,0.0,Metallentfernung 3 K-Drähte Ellenbogen links,1.0,2.5,2.5,39,39.0,1.0,1.0,1.0,0.0,,18.0,0.0,0,4.0
+Laryngeal tube,komplett,0.0,1.0,2.0,85.0,12.0,1.0,0.0,Hodenverlagerung,1.0,2.0,2,124,124.0,0.0,0.0,1.0,1.0,1.0,25.0,1.0,0,4.5
+Laryngeal mask,komplett,4.0,2.0,1.0,,16.5,1.0,2.0,Leistenherniotomie rechts,1.0,2.0,2,94,94.0,0.0,1.0,2.0,0.0,1.0,20.0,0.0,0,4.5
+Laryngeal tube,komplett,9.0,3.0,2.0,132.0,25.0,1.0,0.0,Metallentfernung 2x ESIN UA rechts,1.0,2.5,2.5,,,0.0,1.0,3.0,0.0,1.0,18.0,0.0,0,3.0
+Laryngeal tube,komplett,5.0,2.0,1.0,105.0,18.5,2.0,0.0,DJ ex bei dekom. Subpelvinstenose links,2.0,2.0,2,506,506.0,0.0,0.0,3.0,1.0,1.0,20.0,1.0,1,6.0
+Laryngeal mask,komplett,4.0,2.0,1.0,98.0,14.7,1.0,0.0,Antirefluxplastik links,2.0,2.0,2,24,24.0,1.0,1.0,1.0,0.0,,30.0,0.0,0,4.0
+Laryngeal tube,komplett,4.0,2.0,1.0,108.0,17.0,1.0,0.0,DJ ex links,2.0,2.0,2,22,22.0,1.0,1.0,1.0,0.0,,30.0,0.0,0,5.0
+Laryngeal tube,komplett,1.0,1.0,1.0,82.0,12.0,1.0,0.0,Antirefluxplastik rechts,2.0,2.0,2,133,133.0,0.0,0.0,1.0,1.0,1.0,22.0,0.0,0,5.0
+Laryngeal tube,komplett,0.0,1.0,2.0,63.0,5.74,1.0,0.0,Urethralklappenschlitzung,2.0,1.0,1,80,80.0,0.0,0.0,1.0,1.0,1.0,16.0,0.0,0,4.0
+Laryngeal tube,komplett,1.0,1.0,2.0,80.0,10.3,1.0,0.0,CiCi ; Entfernung Raumforderung Nabel,2.0,1.0,1,123,123.0,0.0,0.0,1.0,1.0,2.0,23.0,0.0,0,5.0
+Laryngeal mask,komplett,4.0,2.0,2.0,103.0,15.8,3.0,0.0,Hickman-Katheter-Explantation,1.0,2.0,2,27,27.0,1.0,1.0,1.0,0.0,,18.0,0.0,0,4.5
+Laryngeal mask,komplett,1.0,1.0,2.0,80.0,11.2,1.0,0.0,Deflux rechts + Zirkumzision,2.0,2.0,2,12,12.0,1.0,1.0,1.0,0.0,,21.0,0.0,0,5.0
+Laryngeal tube,komplett,0.0,1.0,2.0,60.0,5.2,3.0,0.0,Ureterocutaneostomie,2.0,1.0,1,82,82.0,0.0,0.0,1.0,1.0,1.0,35.0,0.0,0,4.0
+Laryngeal mask,komplett,1.0,1.0,2.0,90.0,19.0,1.0,0.0,Orchidopexie links + Hydrocelenresektion rechts + Zirkumzision,2.0,2.0,2,24,24.0,1.0,1.0,1.0,0.0,,21.0,0.0,nicht eruierbar,4.0
+Laryngeal mask,komplett,2.0,1.0,1.0,100.0,14.4,2.0,0.0,Defluxunterspritzung bds.,2.0,2.0,2,32,32.0,1.0,1.0,1.0,0.0,,30.0,0.0,1,4.5
+Laryngeal mask,komplett,12.0,4.0,2.0,144.0,33.5,2.0,0.0,Entfernung Nävus Penisschaft,1.0,3.0,3,32,32.0,1.0,1.0,1.0,0.0,,20.0,0.0,0,5.0
+Laryngeal mask,komplett,1.0,1.0,2.0,80.0,11.0,1.0,0.0,Nävusentfernung Stirn,1.0,2.0,2,20,20.0,1.0,1.0,1.0,0.0,,21.0,0.0,0,5.0
+Laryngeal tube,komplett,2.0,1.0,2.0,86.0,11.2,2.0,0.0,Hickman-Katheter-Explantation,1.0,1.0,2,64,64.0,0.0,1.0,2.0,0.0,,35.0,0.0,0,6.0
+Laryngeal mask,komplett,1.0,1.0,1.0,85.0,12.0,1.0,0.0,Pyeloplastik,2.0,2.0,2,24,24.0,1.0,1.0,1.0,0.0,,20.0,0.0,0,4.0
+Laryngeal mask,komplett,4.0,2.0,1.0,94.0,12.0,1.0,0.0,Deflux,2.0,2.0,2,22,22.0,1.0,1.0,1.0,0.0,,35.0,0.0,0,3.0
+Laryngeal tube,komplett,7.0,3.0,2.0,135.0,30.0,1.0,0.0,DJ-Wechsel rechts,2.0,2.5,2.5,644,644.0,0.0,0.0,3.0,1.0,1.0,35.0,0.0,0,3.0
+Laryngeal tube,komplett,13.0,4.0,2.0,165.0,72.0,2.0,0.0,Hydrozelenresektion,2.0,4.0,4,35,35.0,1.0,1.0,1.0,0.0,,35.0,0.0,0,5.5
+Laryngeal mask,komplett,4.0,2.0,1.0,101.5,15.4,2.0,1.0,Deflux,2.0,2.0,2,25,25.0,1.0,1.0,1.0,0.0,,25.0,0.0,0,3.0
+Laryngeal tube,ausstehend,0.0,1.0,2.0,,,1.0,0.0,Orchidopexie,2.0,,,,,,,,,,,,,
+Laryngeal tube,ausstehend,3.0,2.0,2.0,,,,,Zirkumzision,2.0,,,,,,,,,,,,,
+Laryngeal mask,komplett,5.0,2.0,2.0,121.0,22.0,2.0,0.0,Orchidopexie bds.,2.0,2.5,2.5,44,44.0,1.0,1.0,1.0,0.0,,35.0,0.0,2,4.0
+Laryngeal tube,komplett,1.0,1.0,2.0,80.0,11.0,2.0,0.0,DJ ex rechts,2.0,1.0,1,26 + 12,,0.0,0.0,1.0,1.0,1.0,999.0,0.0,0,4.5
+Laryngeal tube,komplett,4.0,2.0,1.0,96.0,13.0,3.0,0.0,Defluxunterspritzung,2.0,2.0,2,29,29.0,0.0,0.0,1.0,1.0,1.0,999.0,0.0,0,44.0
+Laryngeal tube,komplett,1.0,1.0,2.0,90.0,12.0,3.0,0.0,Circumcision,2.0,1.0,1,20,20.0,1.0,1.0,1.0,0.0,,35.0,0.0,0,4.9
+Laryngeal mask,komplett,3.0,2.0,2.0,100.0,16.6,1.0,0.0,Circumcision,2.0,2.0,2,27,27.0,1.0,1.0,1.0,0.0,,30.0,0.0,0,5.0
+Laryngeal mask,komplett,1.0,1.0,2.0,80.0,10.7,1.0,0.0,DJ-Wechsel links ; Anti-Refluxplastik rechts,2.0,2.0,2,23,23.0,1.0,1.0,1.0,0.0,,25.0,0.0,0,5.0
+Laryngeal mask,ausstehend,5.0,2.0,2.0,120.0,23.0,2.0,0.0,Orchidopexie bds. ; Zirkumzision,2.0,,,,,,,,,,,,,
+Laryngeal mask,komplett,1.0,1.0,1.0,83.0,12.0,2.0,0.0,DJ ex links,2.0,2.0,2,38,38.0,1.0,1.0,1.0,0.0,,999.0,0.0,0,1.5
+Laryngeal mask,komplett,1.0,1.0,1.0,80.0,10.0,2.0,0.0,Deflux-Unterspritzung,2.0,2.0,1.5,24 + 20,,0.0,1.0,1.0,0.0,1.0,31.0,0.0,0,5.0
+Laryngeal tube,komplett,6.0,2.0,2.0,117.0,20.0,2.0,0.0,CF-Anlage,2.0,2.0,2,34,34.0,0.0,0.0,1.0,1.0,1.0,30.0,0.0,0,1.5
+Laryngeal tube,komplett,1.0,1.0,2.0,80.0,10.8,2.0,0.0,DJ ex + CiCi + ggf. Orchidopexie,2.0,1.0,1,19,19.0,1.0,1.0,1.0,0.0,,25.0,0.0,0,1.5
+Laryngeal mask,komplett,0.0,1.0,1.0,68.0,7.1,1.0,0.0,Deflux-Unterspritzung,2.0,1.5,1.5,44,44.0,1.0,1.0,1.0,0.0,1.0,25.0,0.0,0,4.0
+Laryngeal tube,komplett,1.0,1.0,1.0,80.0,11.0,1.0,0.0,Deflux-Unterspritzung; Antireflux-Plastik,2.0,1.0,1,110,110.0,0.0,0.0,1.0,1.0,1.0,999.0,0.0,0,4.0
+Laryngeal tube,ausstehend,1.0,1.0,2.0,,,,0.0,Funikolyse + Orchidopexie,2.0,,,,,,,,,,,,,
+Laryngeal tube,ausstehend,1.0,1.0,2.0,75.0,8.5,1.0,0.0,Hypospadiekorrektur,2.0,1.0,,,,,,,,,,,,
+Laryngeal mask,komplett,6.0,2.0,2.0,117.0,20.0,2.0,0.0,CF-Wechsel,2.0,2.0,2,22,22.0,1.0,1.0,1.0,0.0,,998.0,0.0,0,4.0
+Laryngeal tube,komplett,0.0,1.0,2.0,55.0,7.0,1.0,0.0,CiCi,2.0,1.0,1,43,43.0,0.0,0.0,1.0,1.0,1.0,998.0,0.0,nicht eruierbar,5.0
+Laryngeal mask,komplett,2.0,1.0,2.0,90.0,13.0,1.0,0.0,Hypospadiekorrektur,2.0,2.0,2,23,23.0,1.0,1.0,1.0,0.0,,30.0,0.0,2,6.0
+Laryngeal tube,ausstehend,1.0,1.0,2.0,86.0,11.0,1.0,0.0,Orchidopexie,2.0,1.0,,,,,,,,,,,,
+Laryngeal mask,komplett,0.0,1.0,2.0,62.0,6.0,1.0,0.0,CiCi,2.0,1.5,1.5,31,31.0,1.0,1.0,1.0,0.0,1.0,25.0,0.0,nicht eruierbar,44.0
+Laryngeal mask,komplett,1.0,1.0,2.0,80.0,10.0,2.0,0.0,CiCi,2.0,2.0,1.5,24,24.0,1.0,1.0,1.0,0.0,,32.0,0.0,0,5.0
+Laryngeal tube,ausstehend,1.0,1.0,2.0,80.0,10.0,1.0,0.0,Anti-Reflux,2.0,1.0,,,,,,,,,,,,
+Laryngeal mask,komplett,1.0,1.0,2.0,80.0,13.0,1.0,0.0,Funikolyse + Orchidopexie,2.0,2.0,2,24,24.0,1.0,1.0,1.0,0.0,1.0,20.0,0.0,,3.0
+Laryngeal mask,komplett,5.0,2.0,2.0,121.0,26.0,1.0,0.0,CiCi,2.0,2.5,2.5,37,37.0,0.0,1.0,2.0,0.0,,33.0,0.0,0,7.0
+Laryngeal tube,ausstehend,5.0,2.0,1.0,97.0,14.0,1.0,1.0,Deflux-Unterspritzung,2.0,2.0,,,,,,,,,,,,
+Laryngeal mask,komplett,1.0,1.0,2.0,78.0,9.5,2.0,0.0,Funikolyse + Orchidopexie,2.0,1.5,2,19,19.0,1.0,1.0,1.0,0.0,,30.0,0.0,0,4.0
+Laryngeal mask,komplett,2.0,1.0,2.0,85.0,11.0,1.0,0.0,Orchidopexie,2.0,2.0,2,28,28.0,1.0,1.0,1.0,0.0,,31.0,0.0,0,6.0
+Laryngeal tube,ausstehend,14.0,4.0,2.0,,,,,Metallentfernung,1.0,,,,,,,,,,,,,
+Laryngeal mask,komplett,4.0,2.0,2.0,140.0,22.0,1.0,0.0,Orchidopexie bds.,2.0,2.5,2.5,40,40.0,1.0,1.0,1.0,0.0,,25.0,0.0,0,7.0
+Laryngeal tube,ausstehend,1.0,1.0,2.0,90.0,13.0,1.0,0.0,Funikolyse + Orchidopexie,2.0,2.0,,,,,,,,,,,,
+Laryngeal mask,komplett,2.0,1.0,1.0,98.0,15.0,1.0,0.0,Deflux links,2.0,2.0,2,30,30.0,1.0,1.0,1.0,0.0,,30.0,0.0,0,3.5
+Laryngeal tube,komplett,9.0,3.0,2.0,125.0,20.0,1.0,0.0,Circumcision + Varikozelenligatur links,2.0,2.0,2,32 + 30,,0.0,0.0,1.0,1.0,1.0,999.0,0.0,0,4.0
+Laryngeal tube,komplett,6.0,2.0,1.0,115.0,18.0,2.0,0.0,Deflux,2.0,2.0,2,31 + 12,,0.0,0.0,1.0,1.0,1.0,999.0,0.0,0,4.0
+Laryngeal tube,komplett,0.0,1.0,2.0,71.0,9.5,1.0,0.0,Hodenverlagerung,1.0,1.0,1,26,26.0,1.0,1.0,1.0,0.0,,35.0,0.0,0,4.5
+Laryngeal tube,komplett,12.0,4.0,2.0,163.0,37.0,3.0,0.0,Cystoskopie + DJ bds.,2.0,4.0,2.5,26 + 35,,1.0,1.0,1.0,1.0,1.0,35.0,0.0,0,6.0
+Laryngeal tube,komplett,3.0,2.0,2.0,107.0,19.6,2.0,0.0,Orchidopexie bds.,2.0,2.0,2,37,37.0,1.0,1.0,1.0,0.0,,35.0,0.0,0,44.0
+Laryngeal tube,ausstehend,12.0,4.0,2.0,166.0,52.0,2.0,0.0,Orchidopexie links,2.0,,,,,,,,,,,,,
+Laryngeal tube,ausstehend,1.0,1.0,1.0,,11.0,1.0,0.0,DJ ex,2.0,,,,,,,,,,,,,
+Laryngeal mask,komplett,1.0,1.0,2.0,85.0,10.9,2.0,0.0,Zirkumzision,2.0,2.0,2,24,24.0,1.0,1.0,1.0,0.0,,30.0,0.0,0,4.0
+Laryngeal tube,komplett,6.0,2.0,1.0,125.0,30.0,1.0,0.0,DJ ex links,2.0,2.5,2.5,18,18.0,1.0,1.0,1.0,0.0,,35.0,0.0,0,5.0
+Laryngeal mask,komplett,2.0,1.0,1.0,85.0,12.0,2.0,0.0,Deflux rechts,2.0,2.0,2,24,24.0,1.0,1.0,1.0,0.0,,30.0,0.0,0,4.0
+Laryngeal mask,komplett,1.0,1.0,2.0,90.0,14.0,1.0,0.0,Orchidopexie bds.,2.0,2.0,2,32,32.0,1.0,1.0,1.0,0.0,,29.0,0.0,0,5.0
+Laryngeal mask,unvollständig,12.0,4.0,2.0,163.0,37.0,,,DJ ex bds.,2.0,,,25,25.0,1.0,1.0,1.0,0.0,,18.0,,,
+Laryngeal mask,komplett,5.0,2.0,1.0,120.0,23.0,2.0,1.0,Deflux links,2.0,2.5,2,34,34.0,1.0,1.0,1.0,0.0,,35.0,0.0,0,4.0
+Laryngeal mask,komplett,3.0,2.0,1.0,99.0,13.5,1.0,1.0,Offene Reposition mit K-Draht / Schrauben,1.0,2.0,1,50,50.0,1.0,1.0,1.0,0.0,,35.0,0.0,0,5.0
+Laryngeal mask,komplett,9.0,3.0,2.0,143.0,34.0,1.0,1.0,Hodenverlagerung,1.0,3.0,3,27,27.0,1.0,1.0,1.0,0.0,,30.0,1.0,0,4.0
+Laryngeal mask,komplett,6.0,2.0,2.0,125.0,23.0,2.0,1.0,Metallentfernung 2x ESIN UA links,1.0,2.5,2.5,29,29.0,1.0,1.0,1.0,0.0,,20.0,0.0,0,4.0
+Laryngeal tube,komplett,14.0,4.0,1.0,162.0,62.0,2.0,0.0,DJ ex. Bds.,2.0,4.0,4,51,51.0,1.0,1.0,1.0,0.0,,35.0,0.0,0,4.0
+Laryngeal tube,komplett,1.0,1.0,2.0,76.0,8.0,1.0,0.0,Orchidopexie,2.0,1.0,1,16 + 23 + 66,,0.0,0.0,1.0,2.0,1.0,35.0,0.0,0,2.0
+Laryngeal mask,komplett,4.0,2.0,2.0,107.0,18.5,2.0,0.0,Leistenherniotomie links,1.0,2.0,2.5,51,51.0,1.0,1.0,1.0,0.0,,25.0,0.0,0,4.0
+Laryngeal mask,komplett,10.0,3.0,2.0,150.0,52.0,1.0,2.0,Reposition ; K-Drähte,1.0,4.0,4,51,51.0,1.0,1.0,1.0,0.0,,35.0,0.0,0,4.0
+Laryngeal tube,komplett,16.0,4.0,2.0,172.0,50.0,1.0,0.0,Zirkumzision,1.0,4.0,4,58 + 67,,0.0,1.0,2.0,1.0,1.0,15.0,0.0,0,4.0
+Laryngeal mask,komplett,3.0,2.0,1.0,99.0,13.0,1.0,0.0,Zug der K-Drähte,1.0,2.0,2,29,29.0,1.0,1.0,1.0,0.0,,18.0,0.0,0,4.0
+Laryngeal mask,komplett,0.0,1.0,1.0,74.0,8.8,1.0,0.0,Exzision der Raumforderung infraaurikulär links,1.0,1.5,1.5,31,31.0,1.0,1.0,1.0,0.0,,13.0,0.0,0,4.0
+Laryngeal tube,komplett,1.0,1.0,2.0,80.0,11.0,1.0,0.0,Hydrocelen-OP,1.0,1.0,1,14,14.0,0.0,0.0,3.0,1.0,1.0,20.0,0.0,0,4.0
+Laryngeal tube,komplett,5.0,2.0,2.0,110.0,19.0,2.0,0.0,Stuhlausräumung und Rektumstufenbiopsie,1.0,2.0,2,41,41.0,1.0,1.0,1.0,0.0,,29.0,0.0,0,4.0
+Laryngeal mask,komplett,9.0,3.0,2.0,139.0,31.8,1.0,0.0,Metallentfernung 1x ESIN li. UA,1.0,3.0,3,43,43.0,1.0,1.0,1.0,0.0,,35.0,0.0,0,5.0
+Laryngeal mask,komplett,1.0,1.0,2.0,98.0,13.8,2.0,0.0,Hydrocelen-OP,1.0,2.0,2,35,35.0,1.0,1.0,1.0,0.0,,19.0,0.0,0,5.0
+Laryngeal mask,komplett,4.0,2.0,2.0,110.0,15.0,1.0,0.0,ME 2 ESIN UA li,1.0,2.0,2,23,23.0,1.0,1.0,1.0,0.0,,23.0,0.0,0,5.0
+Laryngeal tube,komplett,5.0,2.0,2.0,120.0,25.0,1.0,0.0,ME 2x ESIN re UA,1.0,2.5,2,47+54+28s,,0.0,0.0,2.0,1.0,1.0,20.0,1.0,0,4.0
+Laryngeal tube,komplett,1.0,1.0,2.0,80.0,10.0,2.0,0.0,"UCY, ggf. Re-Klappenschlitzung",2.0,1.0,1,59+24,,0.0,0.0,1.0,1.0,1.0,30.0,0.0,0,5.0
+Laryngeal tube,komplett,11.0,3.0,1.0,178.0,85.0,1.0,0.0,Resektion Vaginalpolyp,3.0,4.0,3,31,31.0,1.0,1.0,1.0,0.0,,20.0,0.0,0,5.0
+Laryngeal tube,komplett,3.0,2.0,2.0,108.0,18.6,1.0,0.0,ME Schraube linker EB,1.0,2.0,2,43+37+20+22s,,0.0,0.0,3.0,1.0,1.0,22.0,1.0,0,5.0
+Laryngeal tube,komplett,14.0,4.0,2.0,165.0,58.0,1.0,1.0,ME 2 ESIN UA li,1.0,4.0,3,27,27.0,1.0,1.0,1.0,0.0,,20.0,0.0,0,5.0
+Laryngeal mask,komplett,4.0,2.0,2.0,110.0,19.0,1.0,0.0,ME 2 ESIN OA li,1.0,2.0,2.5,29,29.0,1.0,1.0,1.0,0.0,,32.0,0.0,1,4.0
+Laryngeal tube,ausstehend,6.0,2.0,2.0,,,,,,2.0,,,,,,,,,,,,,
+Laryngeal mask,komplett,15.0,4.0,2.0,177.0,75.0,2.0,1.0,DJ-Wechsel links,2.0,5.0,4,39,39.0,1.0,1.0,1.0,0.0,,23.0,0.0,0,5.0
+Laryngeal tube,komplett,6.0,2.0,2.0,120.0,24.0,2.0,0.0,Zirkumzision,2.0,2.0,2,107 + 51 + 32,,0.0,0.0,2.0,1.0,1.0,34.0,0.0,0,4.0
+Laryngeal tube,komplett,7.0,3.0,1.0,130.0,25.5,1.0,1.0,Nekrosektomie,1.0,2.5,2.5,50s + 34s,,0.0,0.0,2.0,1.0,1.0,21.0,0.0,0,4.0
+Laryngeal tube,komplett,9.0,3.0,2.0,151.0,45.0,1.0,1.0,Entfernung ESIN Radius links,1.0,3.0,2.5,30,30.0,1.0,1.0,1.0,0.0,,35.0,0.0,3,5.0
+Laryngeal mask,komplett,16.0,4.0,2.0,184.0,76.0,1.0,1.0,Metallentfernung,1.0,5.0,4,30,30.0,1.0,1.0,1.0,0.0,,17.0,0.0,0,3.0
+Laryngeal mask,komplett,12.0,4.0,1.0,158.0,55.0,1.0,0.0,Fremdkörperentfernung Fuß rechts,1.0,4.0,4,36,36.0,1.0,1.0,1.0,0.0,,30.0,0.0,1,5.0
+Laryngeal mask,komplett,6.0,2.0,2.0,130.0,30.0,2.0,0.0,Zirkumzision,1.0,3.0,2.5,37,37.0,1.0,1.0,1.0,0.0,,999.0,0.0,?,5.0
+Laryngeal tube,komplett,3.0,2.0,1.0,94.0,12.3,2.0,0.0,"Rektum PE, Stuhl ex",1.0,2.0,2,54,54.0,0.0,0.0,1.0,1.0,1.0,999.0,0.0,0,4.0
+Laryngeal mask,komplett,4.0,2.0,2.0,105.0,18.0,3.0,0.0,Zirkumzision,2.0,2.0,2,32,32.0,1.0,1.0,1.0,0.0,,999.0,0.0,0,4.0
+Laryngeal mask,komplett,5.0,2.0,1.0,110.0,19.0,1.0,1.0,ME Tibia rechts 2x ESIN,1.0,2.0,2,36,36.0,1.0,1.0,1.0,0.0,,17.0,0.0,0,4.0
+Laryngeal tube,komplett,15.0,4.0,2.0,165.0,53.0,1.0,1.0,Metallentfernung 2x ESIN links,1.0,4.0,4,24,24.0,1.0,1.0,1.0,0.0,,24.0,0.0,2,4.0
+Laryngeal tube,komplett,6.0,2.0,2.0,117.0,21.0,2.0,1.0,ME ESIN Unterschenkel rechts,1.0,2.0,2,40,40.0,1.0,1.0,1.0,1.0,1.0,28.0,0.0,0,4.0
+Laryngeal tube,ausstehend,6.0,2.0,2.0,125.0,20.0,1.0,0.0,CiCI,2.0,2.0,2,40+35+18,,0.0,0.0,2.0,1.0,1.0,30.0,0.0,0,4.5
+Laryngeal tube,komplett,7.0,3.0,2.0,145.0,25.0,1.0,0.0,ME ESIN Tibia links,1.0,2.5,2,21,21.0,0.0,1.0,1.0,1.0,1.0,17.0,1.0,0,5.0
+Laryngeal mask,komplett,10.0,3.0,1.0,139.0,39.0,1.0,1.0,Abtragung Exostose Tibia rechts,1.0,3.0,,27,27.0,1.0,1.0,1.0,0.0,,999.0,0.0,3,4.0
+Laryngeal mask,ausstehend,1.0,1.0,2.0,,,,,Deflux,2.0,,,,,,,,,,,,,
+Laryngeal mask,komplett,7.0,3.0,2.0,125.0,25.0,1.0,0.0,ME ESIN UA li,1.0,2.5,2.5,43,43.0,1.0,1.0,1.0,0.0,,15.0,0.0,0,5.0
+Laryngeal mask,komplett,5.0,2.0,2.0,112.0,19.0,1.0,0.0,Leistenherniotomie,1.0,2.0,2.5,38,38.0,1.0,1.0,1.0,0.0,,13.0,0.0,0,4.0
+Laryngeal tube,komplett,8.0,3.0,1.0,129.0,27.3,1.0,1.0,ME Hüfte links 2x Schrauben,1.0,2.5,2.5,34,34.0,0.0,0.0,1.0,1.0,1.0,14.0,0.0,5,4.0
+Laryngeal mask,komplett,6.0,2.0,2.0,,28.0,1.0,1.0,ME UA re ESIN,1.0,2.5,2.5,48,48.0,1.0,1.0,1.0,0.0,,15.0,0.0,?,4.0
+Laryngeal mask,komplett,7.0,3.0,2.0,137.0,32.8,1.0,0.0,ME 2x ESIN rechter Oberarm,1.0,3.0,3,28,28.0,1.0,1.0,1.0,0.0,,35.0,0.0,?,4.0
+Laryngeal mask,komplett,8.0,3.0,2.0,148.0,33.0,1.0,0.0,ME ESIN UA li,1.0,3.0,3,26,26.0,1.0,1.0,1.0,0.0,,14.0,0.0,0,5.0
+Laryngeal mask,komplett,5.0,2.0,1.0,115.0,19.0,1.0,0.0,Naevusexzision Scapulae,1.0,2.0,2.5,21,21.0,1.0,1.0,1.0,0.0,,29.0,0.0,0,5.0
+Laryngeal mask,komplett,12.0,4.0,2.0,160.0,52.0,2.0,0.0,ME 3x K-Draht links Hüfte,1.0,4.0,4,50,50.0,1.0,1.0,1.0,0.0,,14.0,0.0,0,4.0
+Laryngeal mask,komplett,5.0,2.0,2.0,125.0,24.0,1.0,1.0,Metall Ex re UA,1.0,2.5,2.5,25,25.0,0.0,1.0,2.0,0.0,,19.0,0.0,0,4.0
+Laryngeal tube,komplett,7.0,3.0,1.0,122.0,28.0,1.0,0.0,ME ESIN UA rechts,1.0,,"2,5 ; 2,0",51+50+35,,0.0,0.0,2.0,1.0,1.0,32.0,0.0,0,5.0
+Laryngeal mask,komplett,10.0,3.0,2.0,140.0,31.0,1.0,0.0,ME ESIN UA links,1.0,3.0,3,31,31.0,1.0,1.0,1.0,0.0,,35.0,0.0,0,5.0
+Laryngeal mask,komplett,10.0,3.0,2.0,151.0,50.8,1.0,0.0,CiCi,2.0,4.0,3,42,42.0,1.0,1.0,1.0,0.0,,35.0,1.0,0,6.0
+Laryngeal tube,komplett,10.0,3.0,2.0,150.0,42.5,2.0,1.0,Leistenherniotomie rechts,1.0,3.0,3,28,28.0,1.0,1.0,1.0,0.0,,35.0,0.0,0,5.0
+Laryngeal tube,komplett,1.0,1.0,2.0,100.0,13.5,2.0,0.0,Hypospadiekorrektur,1.0,2.0,2,56,56.0,1.0,1.0,1.0,0.0,,29.0,0.0,0,5.0
+Laryngeal tube,komplett,16.0,4.0,1.0,160.0,50.0,2.0,0.0,DJ ex. Bds.,2.0,4.0,4,51,51.0,1.0,1.0,1.0,0.0,,35.0,0.0,0,0.0
+Laryngeal tube,komplett,2.0,1.0,1.0,90.0,11.5,1.0,2.0,Deflux,2.0,1.0,1,43 + 27,,0.0,0.0,2.0,1.0,1.0,25.0,0.0,0,5.0
+Laryngeal tube,komplett,7.0,3.0,2.0,128.0,24.0,3.0,0.0,DJ-Anlage,2.0,,2.5,51,51.0,1.0,1.0,1.0,0.0,,35.0,0.0,0,5.0
+Laryngeal tube,komplett,5.0,2.0,1.0,120.0,18.3,1.0,0.0,Ringbandspaltung D1 links,1.0,2.0,2,28,28.0,1.0,1.0,1.0,0.0,,35.0,1.0,0,4.0
+Laryngeal tube,komplett,3.0,2.0,1.0,92.0,12.0,2.0,2.0,Deflux bds.,2.0,2.0,2,32,32.0,1.0,1.0,1.0,0.0,,31.0,0.0,0,5.0
+Laryngeal mask,komplett,13.0,4.0,2.0,163.0,32.5,3.0,1.0,DJ-Wechsel bds.,2.0,3.0,3,33,33.0,1.0,1.0,1.0,0.0,,35.0,0.0,0,5.0
+Laryngeal mask,komplett,14.0,4.0,2.0,168.0,80.0,1.0,1.0,ME ESIN rechts,1.0,5.0,5,42,42.0,1.0,1.0,1.0,0.0,,25.0,0.0,0,10.0
+Laryngeal tube,komplett,8.0,3.0,2.0,124.0,23.0,1.0,0.0,Leistenherniotomie rechts,1.0,2.0,2.5,37 + 31,,1.0,0.0,1.0,1.0,1.0,35.0,0.0,0,5.0
+Laryngeal mask,komplett,4.0,2.0,2.0,108.0,18.0,,2.0,Leistenherniotomie rechts,1.0,2.0,2.5,59 + 31 + 501+ 50,,0.0,0.0,3.0,2.0,1.0,999.0,0.0,0,5.0
+Laryngeal mask,komplett,4.0,2.0,2.0,103.0,18.4,1.0,1.0,Zirkumzision,1.0,2.0,2,36,36.0,1.0,1.0,1.0,0.0,,19.0,0.0,0,5.0
+Laryngeal tube,ausstehend,11.0,3.0,2.0,,,,,UCY in Resektionsbereitschaft,2.0,,,,,,,,,,,,,

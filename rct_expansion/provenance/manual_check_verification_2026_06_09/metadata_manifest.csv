@@ -1,0 +1,99 @@
+candidate_id,metadata_url,local_path,status,error
+RCTC-00079,https://dataverse.no/api/datasets/:persistentId/?persistentId=doi:10.18710/t5bq22,rct_expansion/provenance/manual_check_verification_2026_06_09/metadata/RCTC-00079_dataverse.json,22,curl: (22) The requested URL returned error: 403
+RCTC-03215,https://api.figshare.com/v2/articles/4388267/versions/1,rct_expansion/provenance/manual_check_verification_2026_06_09/metadata/RCTC-03215_figshare.json,0,
+RCTC-03207,https://api.figshare.com/v2/articles/4370921/versions/1,rct_expansion/provenance/manual_check_verification_2026_06_09/metadata/RCTC-03207_figshare.json,0,
+RCTC-05855,https://api.figshare.com/v2/articles/4323647/versions/1,rct_expansion/provenance/manual_check_verification_2026_06_09/metadata/RCTC-05855_figshare.json,0,
+RCTC-01009,https://api.figshare.com/v2/articles/4817128,rct_expansion/provenance/manual_check_verification_2026_06_09/metadata/RCTC-01009_figshare.json,0,
+RCTC-03182,https://api.figshare.com/v2/articles/5413273,rct_expansion/provenance/manual_check_verification_2026_06_09/metadata/RCTC-03182_figshare.json,0,
+RCTC-05858,https://api.figshare.com/v2/articles/4378361/versions/1,rct_expansion/provenance/manual_check_verification_2026_06_09/metadata/RCTC-05858_figshare.json,0,
+RCTC-05849,https://api.figshare.com/v2/articles/4457285/versions/1,rct_expansion/provenance/manual_check_verification_2026_06_09/metadata/RCTC-05849_figshare.json,0,
+RCTC-03212,https://api.figshare.com/v2/articles/4338227/versions/1,rct_expansion/provenance/manual_check_verification_2026_06_09/metadata/RCTC-03212_figshare.json,0,
+RCTC-00458,https://api.figshare.com/v2/articles/4339370/versions/1,rct_expansion/provenance/manual_check_verification_2026_06_09/metadata/RCTC-00458_figshare.json,0,
+RCTC-05859,https://api.figshare.com/v2/articles/4378388/versions/1,rct_expansion/provenance/manual_check_verification_2026_06_09/metadata/RCTC-05859_figshare.json,0,
+RCTC-00459,https://api.figshare.com/v2/articles/4339337/versions/1,rct_expansion/provenance/manual_check_verification_2026_06_09/metadata/RCTC-00459_figshare.json,0,
+RCTC-03185,https://api.figshare.com/v2/articles/5504932,rct_expansion/provenance/manual_check_verification_2026_06_09/metadata/RCTC-03185_figshare.json,0,
+RCTC-02952,https://api.figshare.com/v2/articles/28632596/versions/2,rct_expansion/provenance/manual_check_verification_2026_06_09/metadata/RCTC-02952_figshare.json,0,
+RCTC-06654,https://api.figshare.com/v2/articles/1,rct_expansion/provenance/manual_check_verification_2026_06_09/metadata/RCTC-06654_figshare.json,56,curl: (56) The requested URL returned error: 404
+RCTC-01257,https://nemar.org/dataexplorer/detail?dataset_id=on003194,,openneuro_direct_files,Using OpenNeuro snapshot ds003194 1.0.3
+RCTC-01258,https://nemar.org/dataexplorer/detail?dataset_id=on003195,,openneuro_direct_files,Using OpenNeuro snapshot ds003195 1.0.3
+RCTC-01239,https://api.figshare.com/v2/articles/21893732,rct_expansion/provenance/manual_check_verification_2026_06_09/metadata/RCTC-01239_figshare.json,56,curl: (56) The requested URL returned error: 404
+RCTC-06268,https://api.figshare.com/v2/articles/20014042,rct_expansion/provenance/manual_check_verification_2026_06_09/metadata/RCTC-06268_figshare.json,0,
+RCTC-04149,https://api.figshare.com/v2/articles/14318521/versions/1,rct_expansion/provenance/manual_check_verification_2026_06_09/metadata/RCTC-04149_figshare.json,0,
+RCTC-06616,https://api.figshare.com/v2/articles/7101995,rct_expansion/provenance/manual_check_verification_2026_06_09/metadata/RCTC-06616_figshare.json,0,
+RCTC-03940,https://api.figshare.com/v2/articles/20016353,rct_expansion/provenance/manual_check_verification_2026_06_09/metadata/RCTC-03940_figshare.json,0,
+RCTC-06221,https://api.figshare.com/v2/articles/20729013/versions/1,rct_expansion/provenance/manual_check_verification_2026_06_09/metadata/RCTC-06221_figshare.json,0,
+RCTC-04454,https://api.figshare.com/v2/articles/1,rct_expansion/provenance/manual_check_verification_2026_06_09/metadata/RCTC-04454_figshare.json,56,curl: (56) The requested URL returned error: 404
+RCTC-03951,https://api.figshare.com/v2/articles/11930166/versions/1,rct_expansion/provenance/manual_check_verification_2026_06_09/metadata/RCTC-03951_figshare.json,0,
+RCTC-05085,https://dataverse.tdl.org/api/datasets/:persistentId/?persistentId=doi:10.18738/t8/nadlec,rct_expansion/provenance/manual_check_verification_2026_06_09/metadata/RCTC-05085_dataverse.json,56,curl: (56) The requested URL returned error: 403
+RCTC-01312,https://doi.library.ubc.ca/10.14288/1.0444132,rct_expansion/provenance/manual_check_verification_2026_06_09/metadata/RCTC-01312_ubc_1.html,0,
+RCTC-01312,https://doi.org/10.14288/1.0444132,rct_expansion/provenance/manual_check_verification_2026_06_09/metadata/RCTC-01312_ubc_2.html,0,
+RCTC-04202,https://api.figshare.com/v2/articles/13627127/versions/1,rct_expansion/provenance/manual_check_verification_2026_06_09/metadata/RCTC-04202_figshare.json,0,
+RCTC-03541,https://api.figshare.com/v2/articles/7992737/versions/1,rct_expansion/provenance/manual_check_verification_2026_06_09/metadata/RCTC-03541_figshare.json,0,
+RCTC-04407,https://api.figshare.com/v2/articles/1,rct_expansion/provenance/manual_check_verification_2026_06_09/metadata/RCTC-04407_figshare.json,56,curl: (56) The requested URL returned error: 404
+RCTC-03539,https://api.figshare.com/v2/articles/7992740,rct_expansion/provenance/manual_check_verification_2026_06_09/metadata/RCTC-03539_figshare.json,0,
+RCTC-04400,https://api.figshare.com/v2/articles/1,rct_expansion/provenance/manual_check_verification_2026_06_09/metadata/RCTC-04400_figshare.json,56,curl: (56) The requested URL returned error: 404
+RCTC-01153,https://api.figshare.com/v2/articles/1,rct_expansion/provenance/manual_check_verification_2026_06_09/metadata/RCTC-01153_figshare.json,56,curl: (56) The requested URL returned error: 404
+RCTC-01154,https://api.figshare.com/v2/articles/1,rct_expansion/provenance/manual_check_verification_2026_06_09/metadata/RCTC-01154_figshare.json,56,curl: (56) The requested URL returned error: 404
+RCTC-00206,https://dataverse.no/api/datasets/:persistentId/?persistentId=doi:10.18710/abruww,rct_expansion/provenance/manual_check_verification_2026_06_09/metadata/RCTC-00206_dataverse.json,22,curl: (22) The requested URL returned error: 403
+RCTC-06999,https://dataverse.no/api/datasets/:persistentId/?persistentId=doi:10.18710/czzt5f,rct_expansion/provenance/manual_check_verification_2026_06_09/metadata/RCTC-06999_dataverse.json,22,curl: (22) The requested URL returned error: 403
+RCTC-05841,https://api.figshare.com/v2/articles/5327113,rct_expansion/provenance/manual_check_verification_2026_06_09/metadata/RCTC-05841_figshare.json,0,
+RCTC-07226,https://dataverse.harvard.edu/api/datasets/:persistentId/?persistentId=doi:10.7910/dvn/jaw6ax,rct_expansion/provenance/manual_check_verification_2026_06_09/metadata/RCTC-07226_dataverse.json,0,
+RCTC-07219,https://dataverse.harvard.edu/api/datasets/:persistentId/?persistentId=doi:10.7910/dvn/fomqoo,rct_expansion/provenance/manual_check_verification_2026_06_09/metadata/RCTC-07219_dataverse.json,0,
+RCTC-06982,https://doi.org/10.3886/E131041V1,,56,curl: (56) The requested URL returned error: 403
+RCTC-06982,https://www.openicpsr.org/openicpsr/project/131041/version/V1/view,,56,curl: (56) The requested URL returned error: 403
+RCTC-07192,https://doi.org/10.3886/E193091V1,,56,curl: (56) The requested URL returned error: 403
+RCTC-07192,https://www.openicpsr.org/openicpsr/project/193091/version/V1/view,,56,curl: (56) The requested URL returned error: 403
+RCTC-07047,https://doi.org/10.3886/ICPSR39575.V1,,56,curl: (56) The requested URL returned error: 403
+RCTC-07047,https://www.icpsr.umich.edu/web/ICPSR/studies/39575/datadocumentation,,56,curl: (56) The requested URL returned error: 403
+RCTC-07246,https://doi.org/10.3886/ICPSR39636,,56,curl: (56) The requested URL returned error: 403
+RCTC-07246,https://www.icpsr.umich.edu/web/ICPSR/studies/39636/datadocumentation,,56,curl: (56) The requested URL returned error: 403
+RCTC-07247,https://doi.org/10.3886/ICPSR39636.V1,,56,curl: (56) The requested URL returned error: 403
+RCTC-07247,https://www.icpsr.umich.edu/web/ICPSR/studies/39636/datadocumentation,,56,curl: (56) The requested URL returned error: 403
+RCTC-07205,https://doi.org/10.3886/E191912V1,,56,curl: (56) The requested URL returned error: 403
+RCTC-07205,https://www.openicpsr.org/openicpsr/project/191912/version/V1/view,,56,curl: (56) The requested URL returned error: 403
+RCTC-07054,https://doi.org/10.3886/ICPSR39585,,56,curl: (56) The requested URL returned error: 403
+RCTC-07054,https://www.icpsr.umich.edu/web/ICPSR/studies/39585/datadocumentation,,56,curl: (56) The requested URL returned error: 403
+RCTC-07055,https://doi.org/10.3886/ICPSR39585.V1,,56,curl: (56) The requested URL returned error: 403
+RCTC-07055,https://www.icpsr.umich.edu/web/ICPSR/studies/39585/datadocumentation,,56,curl: (56) The requested URL returned error: 403
+RCTC-07052,https://doi.org/10.3886/E108425,,56,curl: (56) The requested URL returned error: 403
+RCTC-07052,https://www.openicpsr.org/openicpsr/project/108425/version/V1/view,,56,curl: (56) The requested URL returned error: 403
+RCTC-07053,https://doi.org/10.3886/E108425V1,,56,curl: (56) The requested URL returned error: 403
+RCTC-07053,https://www.openicpsr.org/openicpsr/project/108425/version/V1/view,,56,curl: (56) The requested URL returned error: 403
+RCTC-06975,https://doi.org/10.3886/E182542V1,,56,curl: (56) The requested URL returned error: 403
+RCTC-06975,https://www.openicpsr.org/openicpsr/project/182542/version/V1/view,,56,curl: (56) The requested URL returned error: 403
+RCTC-06889,https://doi.org/10.3886/E120838V1,,56,curl: (56) The requested URL returned error: 403
+RCTC-06889,https://www.openicpsr.org/openicpsr/project/120838/version/V1/view,,56,curl: (56) The requested URL returned error: 403
+RCTC-07273,https://doi.org/10.3886/ICPSR06782.V3,,56,curl: (56) The requested URL returned error: 403
+RCTC-07273,https://www.icpsr.umich.edu/web/ICPSR/studies/06782/datadocumentation,,56,curl: (56) The requested URL returned error: 403
+RCTC-06972,https://doi.org/10.3886/E233931V1,,56,curl: (56) The requested URL returned error: 403
+RCTC-06972,https://www.openicpsr.org/openicpsr/project/233931/version/V1/view,,56,curl: (56) The requested URL returned error: 403
+RCTC-06973,https://doi.org/10.3886/E194849V1,,56,curl: (56) The requested URL returned error: 403
+RCTC-06973,https://www.openicpsr.org/openicpsr/project/194849/version/V1/view,,56,curl: (56) The requested URL returned error: 403
+RCTC-07004,https://doi.org/10.3886/E165321V1,,56,curl: (56) The requested URL returned error: 403
+RCTC-07004,https://www.openicpsr.org/openicpsr/project/165321/version/V1/view,,56,curl: (56) The requested URL returned error: 403
+RCTC-07231,https://doi.org/10.3886/E116327V1-102560,,56,curl: (56) The requested URL returned error: 403
+RCTC-07231,https://www.openicpsr.org/openicpsr/project/116327/version/V1/view,,56,curl: (56) The requested URL returned error: 403
+RCTC-06961,https://doi.org/10.3886/E238615,,56,curl: (56) The requested URL returned error: 403
+RCTC-06961,https://www.openicpsr.org/openicpsr/project/238615/version/V1/view,,56,curl: (56) The requested URL returned error: 403
+RCTC-06962,https://doi.org/10.3886/E238615V1,,56,curl: (56) The requested URL returned error: 403
+RCTC-06962,https://www.openicpsr.org/openicpsr/project/238615/version/V1/view,,56,curl: (56) The requested URL returned error: 403
+RCTC-07069,https://doi.org/10.3886/ICPSR37353.V2,,56,curl: (56) The requested URL returned error: 403
+RCTC-07069,https://www.icpsr.umich.edu/web/ICPSR/studies/37353/datadocumentation,,56,curl: (56) The requested URL returned error: 403
+RCTC-06989,https://doi.org/10.3886/E130725V1,,56,curl: (56) The requested URL returned error: 403
+RCTC-06989,https://www.openicpsr.org/openicpsr/project/130725/version/V1/view,,56,curl: (56) The requested URL returned error: 403
+RCTC-06990,https://doi.org/10.3886/E130725,,56,curl: (56) The requested URL returned error: 403
+RCTC-06990,https://www.openicpsr.org/openicpsr/project/130725/version/V1/view,,56,curl: (56) The requested URL returned error: 403
+RCTC-06946,https://doi.org/10.3886/E245213V1,,56,curl: (56) The requested URL returned error: 403
+RCTC-06946,https://www.openicpsr.org/openicpsr/project/245213/version/V1/view,,56,curl: (56) The requested URL returned error: 403
+RCTC-06947,https://doi.org/10.3886/E245213,,56,curl: (56) The requested URL returned error: 403
+RCTC-06947,https://www.openicpsr.org/openicpsr/project/245213/version/V1/view,,56,curl: (56) The requested URL returned error: 403
+RCTC-06790,https://dataverse.harvard.edu/api/datasets/:persistentId/?persistentId=doi:10.7910/dvn/rn40sp,rct_expansion/provenance/manual_check_verification_2026_06_09/metadata/RCTC-06790_dataverse.json,0,
+RCTC-06852,https://dataverse.harvard.edu/api/datasets/:persistentId/?persistentId=doi:10.7910/dvn/tpraot,rct_expansion/provenance/manual_check_verification_2026_06_09/metadata/RCTC-06852_dataverse.json,0,
+RCTC-03855,https://data.cipotato.org/api/datasets/:persistentId/?persistentId=doi:10.21223/kjy3xi,rct_expansion/provenance/manual_check_verification_2026_06_09/metadata/RCTC-03855_dataverse.json,22,curl: (22) The requested URL returned error: 404
+RCTC-04385,https://api.figshare.com/v2/articles/1,rct_expansion/provenance/manual_check_verification_2026_06_09/metadata/RCTC-04385_figshare.json,56,curl: (56) The requested URL returned error: 404
+RCTC-03313,https://heidata.uni-heidelberg.de/api/datasets/:persistentId/?persistentId=doi:10.11588/data/j7zitw,rct_expansion/provenance/manual_check_verification_2026_06_09/metadata/RCTC-03313_dataverse.json,0,
+RCTC-06813,https://dataverse.harvard.edu/api/datasets/:persistentId/?persistentId=doi:10.7910/dvn/apdpwh,rct_expansion/provenance/manual_check_verification_2026_06_09/metadata/RCTC-06813_dataverse.json,0,
+RCTC-07244,https://doi.org/10.3886/E183511,,56,curl: (56) The requested URL returned error: 403
+RCTC-07244,https://www.openicpsr.org/openicpsr/project/183511/version/V1/view,,56,curl: (56) The requested URL returned error: 403
+RCTC-07245,https://doi.org/10.3886/E183511V1,,56,curl: (56) The requested URL returned error: 403
+RCTC-07245,https://www.openicpsr.org/openicpsr/project/183511/version/V1/view,,56,curl: (56) The requested URL returned error: 403

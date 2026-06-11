@@ -1,0 +1,1057 @@
+RESEARCH ARTICLE
+Ashtanga-Based Yoga Therapy Increases the
+Sensory Contribution to Postural Stability in
+Visually-Impaired Persons at Risk for Falls as
+Measured by the Wii Balance Board: A Pilot
+Randomized Controlled Trial
+Pamela E. Jeter1,2☯*, Steffany Haaz Moonaz2‡, Ava K. Bittner3‡, Gislin Dagnelie1☯
+1 Department of Ophthalmology, Lions Vision Research Center, Wilmer Eye Institute, Johns Hopkins
+University, Baltimore, Maryland, United States of America, 2 Department of Integrative Health Sciences,
+Maryland University of Integrative Health, Laurel, Maryland, United States of America, 3 College of
+Optometry, Nova Southeastern University, Ft. Lauderdale, Florida, United States of America
+☯ These authors contributed equally to this work.
+‡ These authors also contributed equally to this work.
+* pamela.jeter@gmail.com
+Abstract
+Objective
+Persons with visual impairment (VI) are at greater risk for falls due to irreparable damage to
+visual sensory input contributing to balance. Targeted training may significantly improve
+postural stability by strengthening the remaining sensory systems. Here, we evaluate the
+Ashtanga-based Yoga Therapy (AYT) program as a multi-sensory behavioral intervention
+to develop postural stability in VI.
+Design
+A randomized, waitlist-controlled, single-blind clinical trial
+Methods
+The trial was conducted between October 2012 and December 2013. Twenty-one legally
+blind participants were randomized to an 8-week AYT program (n = 11, mean (SD) age = 55
+(17)) or waitlist control (n=10, mean (SD) age = 55(10)). AYT subjects convened for one
+group session at a local yoga studio with an instructor and two individual home-based prac-
+tice sessions per week for a total of 8 weeks. Subjects completed outcome measures at
+baseline and post-8 weeks of AYT. The primary outcome, absolute Center of Pressure
+(COP), was derived from the Wii Balance Board (WBB), a standalone posturography
+device, in 4 sensory conditions: firm surface, eyes open (EO); firm surface, eyes closed
+(EC); foam surface, EO; and foam surface, EC. Stabilization Indices (SI) were computed
+from COP measures to determine the relative visual (SI
+firm,S Ifoam), somatosensory (SIEO,
+PLOS ONE | DOI:10.1371/journal.pone.0129646 June 24, 2015 1/2 3
+OPEN ACCESS
+Citation: Jeter PE, Haaz Moonaz S, Bittner AK,
+Dagnelie G (2015) Ashtanga-Based Yoga Therapy
+Increases the Sensory Contribution to Postural
+Stability in Visually-Impaired Persons at Risk for Falls
+as Measured by the Wii Balance Board: A Pilot
+Randomized Controlled Trial. PLoS ONE 10(6):
+e0129646. doi:10.1371/journal.pone.0129646
+Editor: Alfonso Fasano, University of Toronto,
+CANADA
+Received: January 30, 2015
+Accepted: May 9, 2015
+Published: June 24, 2015
+Copyright: © 2015 Jeter et al. This is an open
+access article distributed under the terms of the
+Creative Commons Attribution License, which permits
+unrestricted use, distribution, and reproduction in any
+medium, provided the original author and source are
+credited.
+Data Availability Statement: All relevant data can
+be found in the Supporting Information files (S1
+Dataset and S2 Dataset).
+Funding: PEJ has obtained two grants: Louise L.
+Sloan Research Grant Award, Lions Vision Research
+Foundation, Wilmer Eye Institute, Johns Hopkins
+University ($2,000) and National Eye Institute,
+Diversity Supplement (Administrative Supplement
+#R01EY021220-S1, pays salary only). The funders
+had no role in study design, data collection and
+SIEC) and vestibular (SIV, i.e., FoamEC vs. FirmEO) contributions to balance. This study was
+not powered to detect between group differences, so significance of pre-post changes was
+assessed by paired samples t-tests within each group.
+Results
+Groups were equivalent at baseline (all p > 0.05). In the AYT group, absolute COP signifi-
+cantly increased in the Foam EO(t(8) = -3.66, p = 0.01) and Foam EC (t(8) = -3.90, p = 0.01)
+conditions. Relative somatosensory SIEO (t(8) = -2.42, p = 0.04) and SI EC (t(8) = -3.96, p =
+0.01), and vestibular SIV (t(8) = -2.47, p = 0.04) contributions to balance increased signifi-
+cantly. As expected, no significant changes from EO to EC conditions were found indicating
+an absence of visual dependency in VI. No significant pre-post changes were observed in
+the control group (all p > 0.05).
+Conclusions
+These preliminary results establish the potential for AYT training to develop the remaining
+somatosensory and vestibular responses used to optimize postural stability in a VI
+population.
+Trial Registration
+www.ClinicalTrials.gov NCT01366677
+Introduction
+As of 2010, there is an estimated 3 million cases of vision impairment (VI) in the U.S. in per-
+sons 40 years and older and this number is expected to increase dramatically to approximately
+7 million by 2030 due to the growing aging population[ 1]. As the population ages, the elderly
+experience a loss in strength, sensorimotor processing, increased reaction times, and reduced
+vision[2,3]. Loss of visual function (e.g., visual acuity, visual fields) due to common age-related
+disease, such as macular degeneration, glaucoma, and cataracts, reportedly doubles the risk of
+falls[4] and is significantly associated with fall-related injuries leading to decreased mobility,
+independence and quality of life[ 5–11]. In a recent prospective, observational study, over half
+of new patients seen in the low vision rehabilitation service (n = 564; median age = 77) reported
+having a fall, and of those, 39% reported that the fall was vision related[ 12].
+The postural control system consists of the musculoskeletal, sensory, and central nervous
+systems working together to maintain postural stability[13]. To avoid falls, the central nervous
+system continuously monitors feedback from the active sensory systems to generate corrective
+musculoskeletal responses that regulate postural control[14,15]. Specifically, sensory input is
+derived from three different sources that operate synergistically: somatosensory (e.g., proprio-
+ception), vestibular (e.g., changes in head position), and the visual system (e.g., optic flow, visual
+fields)[16–19]. Thus, individuals with uncorrectable vision loss have a damaged visual input
+stream, contributing to postural instability[20]. Research into the role of each sensory system
+under experimental or pathological conditions during standing balance has led to a greater
+understanding of how the remaining sensory inputs can adjust when one system is impaired
+[21–25]. Individuals with a compromised visual contribution to balance are even more unstable
+in conditions when the somatosensory system is also perturbed[16,17,21,24,26,27], e.g., when
+Yoga Increases Sensory Input for Balance in the Blind
+PLOS ONE | DOI:10.1371/journal.pone.0129646 June 24, 2015 2/2 3
+analysis, decision to publish, or preparation of the
+manuscript.
+Competing Interests: The authors have declared
+that no competing interests exist.
+walking on thick carpet with thick-soled shoes or on a sandy beach. Similar instability patterns
+have been observed for cases in which vision and vestibular systems are impaired[21,23].
+An important property of the postural control system is its ability to “down-weight” poor
+sensory cues and “up-weight” more reliable cues, also known as sensory reweighting[ 15,28].
+The ability to reweight sensory inputs might suggest that VI individuals could make better use
+of the remaining sensory inputs upon losing vision, but this may not happen without specific
+training[25,29,30]. Targeted balance training may significantly improve postural stability by
+strengthening or “up-weighting” the remaining sensory systems[15,29,31–34]. For example,
+training that stimulates the use of postural control strategies, such as the ankle and hip adjust-
+ments, can subsequently stimulate the somatosensory and vestibular systems[ 31,32,35–37].
+Real-world falls are difficult to measure, therefore, center of pressure (COP) has been used
+as a surrogate marker for postural stability in standing balance[ 38–41], especially since it is cor-
+related with sensorimotor deficits[42]. COP component measures quantify the displacement of
+upright balance around the center of mass through the distribution of total force applied to the
+supporting surface[43]. Using a clinically validated balance protocol and a force platform[ 44]
+one can derive measures of absolute COP and easily quantify the relative visual, somatosensory
+and vestibular contributions to balance by artificially removing one or more conditions and
+calculating stability indices[18,24]. When postural stability (i.e. quiet standing) is perturbed
+due to unexpected environmental changes, a proportionate increase in COP magnitude is
+observed, therefore, a reduction in absolute COP displacement would imply greater postural
+stability[45]. For example, COP displacement is augmented during walking or during changes
+in sensory input[46]; similarly, when measured at baseline, VI individuals show greater COP
+displacement when compared to normally sighted individuals[ 16,24,26,27]. Normally sighted
+individuals show less “movement”, thus, greater postural stability. Therefore, COP minimiza-
+tion as an indicator of greater stability and reduced fall risk is often cited in the literature[ 43].
+On the other hand, multiple studies have suggested that minimization of COP parameters
+may not be the best indicator of better stability, in particular for clinical populations. For exam-
+ple, COP can be reduced in clinical populations at risk for falls such as Parkinson ’s patients,
+lower leg amputees and ACL-deficient individuals, compared to healthy, normal adults
+[41,47,48]. In addition, absolute COP and relative sensory contribution to balance can be
+increased after significant balance training, such as Tai Chi and other forms of exercise[ 33,49–
+52]. As long as balance is maintained safely within the individual ’s base of support and sensori-
+motor feedback is augmented in order to compensate for sensory deficiencies via corrective
+strategies, the increase in stability recorded as greater COP displacement, is then considered an
+indicator of COP stabilization[28,43,48]. Therefore, COP minimization may not apply to sys-
+tems that are inherently unstable (e.g., musculoskeletal disorders, elderly)[ 28]. While the
+mechanism for COP changes after training is not clear, it is possible that individuals develop
+corrective strategies to down-weight unreliable and up-weight reliable information[ 28]. For
+example, increased flexibility in the ankle joint may provide meaningful proprioceptive feed-
+back to generate adaptive motor responses for improved posture[ 53,54].
+Yoga, a popular wellness activity, is a strong candidate for therapeutic intervention since it
+provides an integrated, multisensory approach that can engage the use of compensatory sen-
+sory inputs. For example, emphasizing firm foot placement while maintaining balance may
+activate the somatosensory system, thereby generating proprioceptive learning. An increase in
+proprioceptive joint sense in the elbow has been observed for congenitally blind children after
+one month of yoga training[55]. Safely executing movement in standing or semi-inverted pos-
+tures activates the vestibular system[ 56,57]. One study investigated highly trained yoga practi-
+tioners and found them more reliant on internal vestibular and proprioceptive signals than
+external visual cues in a multisensory integration perceptual task[ 58]. In another study, yoga
+Yoga Increases Sensory Input for Balance in the Blind
+PLOS ONE | DOI:10.1371/journal.pone.0129646 June 24, 2015 3/2 3
+participants were more able to retain balance on a vertical force platform in an eyes-closed con-
+dition compared to controls, indicating more effective use of proprioceptive cues[ 32]. Balance
+improved substantially in a separate study using a timed, one-legged balance test after yoga
+training in healthy, younger adults[ 59] and in normally sighted, older population[ 60]. Yoga
+has been used in clinical settings to improve balance and posture for patients with osteoporosis
+[61]. Studies have suggested that yoga may work by strengthening muscular endurance, propri-
+oceptive awareness and by cultivating better breath control, which may facilitate steadiness and
+awareness in balance[59,62]. Thus, targeted training, such as yoga, may significantly improve
+postural stability by strengthening the remaining sensory systems in our VI population.
+The Ashtanga-based Yoga Therapy (AYT) is a highly modified Ashtanga yoga sequence
+developed specifically for the VI population by the author (PEJ)[ 63]. Ashtanga is a system of
+yoga taught by Sri K. Pattabi Jois in Mysore, India. It is an integrated system of asanas (pos-
+tures), vinyasa (movement), and ujjayi (victorious breath). Importantly, Ashtanga emphasizes
+the use of core locks called bandhas, prominently located at the root of the spine and lower
+abdomen comprising the pelvic area. Learning to engage these areas through standing and hip
+opening postures with coordinated movement may strengthen muscle and increase flexibility.
+Thus, the AYT sequence of postures was selected to promote balance with a focus on strength,
+hip opening (e.g., adduction, abduction) and ankle flexibility (e.g., dorsiflexion)[ 53,57,60].
+While the sequence of asanas remains the same each session, each asana is modified to suit the
+individual’s needs, and can be completed regardless of age, fitness, or level of experience. The
+feasibility of the AYT was evaluated in a previous pilot study and found to be suitable for a VI
+population since poses can be easily articulated verbally[ 64]. In the previous pilot study, three
+participants who completed the timed one-leg stand (OLS) developed an increase in static bal-
+ance; however, changes in sensory contributions after AYT have yet to be evaluated.
+The objective of the present study was to examine the influence of an 8-week AYT program
+on COP for VI individuals compared to a waitlist control. We introduce the novel use of a
+cost-friendly, readily accessible Wii Balance Board (WBB; Nintendo, Tokyo, Japan), an acces-
+sory to the popular Wii Fit video gaming system, as a standalone posturography device to
+quantify COP during static balance conditions[ 27]. Specifically, we evaluated the results in the
+context of a COP stabilization or minimization framework. We hypothesized that COP dis-
+placement may increase, reflecting subtle adjustments in muscle control to achieve greater sta-
+bility after AYT, in support of stabilization. We further hypothesized that AYT will develop the
+relative contributions of somatosensory and vestibular systems to postural stability.
+Methods
+Trial Design and Ethics Statement
+We conducted a randomized, waitlist-controlled pilot study with VI individuals from the
+Maryland, Virginia, and Washington D.C. area. The study protocol (Protocol # NA_00039032)
+was approved by the Institutional Review Board of the Johns Hopkins University School of
+Medicine, followed the tenets of the Declaration of Helsinki and is registered at www.clinical-
+trials.gov (NCT01366677) .The approved protocol for this trial and supporting CONSORT
+checklist are available as supporting information; see S1 Protocol and S1 CONSORT Checklist.
+Initial screening was conducted over the phone. Due to transportation limitations, all assess-
+ments were conducted at the Lions Vision Center or the studio locations (a benefit of using the
+WBB). All participants provided written informed consent. After baseline assessments were
+completed, participants were randomized to either an 8-week AYT program or waitlist control
+group. Randomization to group assignment was conducted by the study PI using the random
+number generator in MATLAB (Mathworks, Inc.). A research assistant assigned unidentifiable
+Yoga Increases Sensory Input for Balance in the Blind
+PLOS ONE | DOI:10.1371/journal.pone.0129646 June 24, 2015 4/2 3
+subject IDs (i.e. #1–21) to subjects after enrollment. Numbers (i.e. #1 –21) were randomly
+ordered in MATLAB and assigned to the randomly ordered anonymous subject IDs. Subject
+IDs that were paired with even numbers were assigned to the intervention and those paired
+with odd numbers were assigned to the waitlist control. Masking participants to the yoga inter-
+vention was not possible. After the initial AYT group completed the program and assessments
+were collected, the waitlist groups were invited to participate in the AYT program at no cost.
+To make the study more accessible to VI participants, the AYT program was conducted at stu-
+dio locations in the Washington DC metro area, and participants were reimbursed for public
+transportation if needed. The multiple locations also allowed us to facilitate teacher-student
+interaction with smaller class sizes. Treatment fidelity was ensured as described below.
+Deviations from study protocol
+The trial protocol was written in a general format to address several research questions. An
+exploratory study [64] was conducted previously to determine feasibility of the AYT and details
+preliminary findings, which informed the current study. The study presented here evaluates the
+hypotheses that absolute COP and the relative contribution of remaining sensory inputs to pos-
+tural stability increases after an 8-week AYT program. Therefore, only objective measures of
+COP are presented, in addition to a clinical balance and physical fitness assessment. These data
+represent the quantitative results as a subset of a larger battery of assessments that included psy-
+chological questionnaires and other qualitative information. The latter have been presented in
+preliminary form[65] and will be the subject of a separate manuscript presented elsewhere.
+Specific deviations from the protocol include the following:
+ Study location – The yoga study was not conducted at the Lions Vision Center as originally
+planned when the protocol was written due to the space no longer being available. Further-
+more, our study population faces considerable transportation challenges and so, the study
+took place at local studio spaces in the Washington DC metro area to accommodate our
+study participants’ accessibility needs.
+ Baseline measures—Only measures that pertained to the current research question regarding
+risk factors for falls were measured. Clinical vision assessments (e.g. visual acuity) were not
+conducted at screening due to limitations in resources and accessibility. Obtaining recent eye
+exams with the study patient ’s consent to determine legal blindness eligibility was sufficient
+and less resource intensive.
+ Center of pressure—Several parameters can be derived from COP data, each of which
+describes changes in postural stability[ 43]. In a previous study[27], we determined the test-
+retest reliability of all COP parameters using the WBB in a VI population. Mean Total Veloc-
+ity (MTV) (mm/s) was found to be the most consistent and reliable variable as a two-dimen-
+sional representation of postural stability in the anterior-posterior and medial-lateral
+direction. Therefore, MTV (mm/s) was derived from COP data for analysis, instead of root
+mean square of COP amplitude listed in the protocol. Furthermore, MTV has been shown to
+accurately represent the visual contribution to posture[ 18,26].
+ Statistical Analysis and Sample Size – A sample size calculation was not applicable to this
+type of exploratory, pilot study, however, a minimum of 10 subjects per group was feasible
+based on our previous study to provide an indication of the acceptability of the AYT inter-
+vention[64] and to help suggest possible benefits across a moderate-sized group of visually-
+impaired subjects. The results provided here will allow us to further develop the intervention
+Yoga Increases Sensory Input for Balance in the Blind
+PLOS ONE | DOI:10.1371/journal.pone.0129646 June 24, 2015 5/2 3
+protocol and plan for larger scale RCTs as indicated in the post-hoc calculated sample size
+presented in the Results section. Finally, this study was not powered to detect between group
+differences following the AYT using an ANCOVA, so significance of pre-post changes was
+assessed by paired samples t-tests within each group for all outcomes.
+Participants
+Participants were recruited from the Low Vision Clinic of the Wilmer Eye Institute at Johns
+Hopkins Hospital (Baltimore, MD) and local advocacy groups (e.g., Foundation Fighting
+Blindness Maryland Chapter, Northern Virginia Chapter of the American Council for the
+Blind) through email and flyers to prospective participants. Recruitment began in October
+2012 and the baseline assessments were completed in April 2013 ( Fig 1). Inclusion criteria for
+VI participants were: (A) greater than 18 years of age, (B) legal blindness (best corrected visual
+acuity worse than 20/200 and/or visual field less than 20° in diameter, in the better eye) as
+determined by medical records, (C) any ocular disease that is expected to remain relatively sta-
+ble throughout a 3 –6 month period, (D) healthy to the extent that participation in a yoga pro-
+gram would not exacerbate any existing disease conditions, and (E) English spoken as the
+primary language. Participants were naïve to yoga or had not participated in a yoga class in at
+least two years. Exclusion criteria included individuals with vestibular disorders, acute ortho-
+pedic problems that affect ambulation, history of neurologic disease (e.g., peripheral neuropa-
+thy), or who were pregnant or taking medication that could affect balance (e.g., sleeping pills).
+While postural stability is known to deteriorate with normal aging, VI may accelerate these
+effects[4]. A study by Era et al.[66] provides normative data from force platform tests for a
+cohort of 7979 healthy, sighted people ages 30 and above. Balance function begins to deteriorate
+at middle age (> 40 years and < 60 years old) and accelerates after age 60. In a VI population,
+another study indicated that injurious falls in persons less than 60 years old was associated with
+loss of visual function (i.e., visual acuity loss) and for persons over 60 years old, fall injury was
+more prevalent and also associated with poor contrast sensitivity[5]. Given the evidence that
+individuals may experience postural instability during a wide age range, not just> 60 years old,
+and considering the pilot nature of this study we did not exclude participants on the basis of age.
+Intervention
+Participants took part in an orientation session before the yoga program began, in order to
+familiarize them with the style of yoga, the ujjayi breathing technique, and alignment tech-
+niques using the mat, class etiquette, and modifications. AYT subjects convened for one group
+session per week with the instructor (PEJ) and an experienced yoga assistant. Participants were
+provided with a free yoga mat and an audio CD developed by the author (PEJ) to practice at
+home and were asked to practice at least twice a week (i.e. equivalent to approximately 16 home
+practice sessions during the intervention period). Teaching yoga to those with VI requires sim-
+ple modifications to postures, clear descriptions, and hands-on adjustments[64]. Each class
+began with simple seated breathing, a warm-up, standing postures, seated postures, followed by
+breathing and a final resting pose. Table 1 lists the full sequence of poses taught during AYT.
+The AYT is amenable to study because it is composed of a standardized sequence of postures
+held for a fixed duration. Each pose was held for five breaths or for as long as the subject was
+able. Each class included a question and answer period at the beginning and end of class.
+Yoga Increases Sensory Input for Balance in the Blind
+PLOS ONE | DOI:10.1371/journal.pone.0129646 June 24, 2015 6/2 3
+Fidelity of Treatment
+Uniformity in AYT implementation was employed at the yoga studios to administer the same
+intervention to all participants. Several steps were taken to standardize the delivery of the inter-
+vention and evaluate its fidelity to the protocol.
+Training. Author (PEJ), a trained Ashtanga teacher of four years and practitioner of 10
+years, delivered the AYT protocol to all participants during the 8-week intervention, with the
+hands-on assistance of a trained Ashtanga yoga assistant.
+Fig 1. Participant Flow Chart.
+doi:10.1371/journal.pone.0129646.g001
+Yoga Increases Sensory Input for Balance in the Blind
+PLOS ONE | DOI:10.1371/journal.pone.0129646 June 24, 2015 7/2 3
+Treatment Fidelity. Two research assistants took turns conducting visits to the yoga stu-
+dios to monitor and observe the fidelity of the intervention administration to the protocol. No
+deviations from the protocol were observed during four visits.
+Class Attendance. The AYT instructor monitored class attendance carefully for each par-
+ticipant. The AYT instructor was available for questions and answers before and after the class,
+and communicated with the yoga assistant and research assistant for any concerns regarding
+compliance.
+Home Practice Logs. Participants were asked to complete a weekly practice log to report
+the activities performed, adherence to the CD, and time allotted to the practice, in order to help
+evaluate compliance. A research assistant collected the logs on a weekly basis.
+Outcome Assessments
+All participants completed outcome assessments after the intervention group completed
+8-weeks of AYT. Masking participants to the intervention was not possible, however, trained
+research assistants were masked to the group assignment during data collection post-AYT.
+Objective measures of balance are reported here, but were a part of a larger battery of tests that
+included psychosocial and qualitative measures, to be reported elsewhere.
+Table 1. Ashtanga-based Yoga Therapy Sequence.
+Time Order Poses
+15
+mins
+1 Padmasana “Lotus Posture” or comfortable seated position and commence ujjayi
+breathing. (25 Breath Count, 5 minutes)
+2 Moving with the breath —From seated position, inhale the arms overhead drawing the
+palms toward each other until they touch. Exhale releasing the arms down moving with
+the breath. 5x
+3 Transition to Table Pose
+4 Marjaryasana (Cat) to Bitilasana (Cow)
+5 From Table to Balasana (Child's) pose
+6 From Table to Downward-facing Dog. Move from Downward-facing dog to standing.
+30
+mins
+7 Tadasana or Samasthiti (Mountain Pose)
+8 Padangusthasana (Foot Big Toe Posture)
+9 Utthita Trikonasana (Extended Triangle Posture)
+10 Utthita Parsvakonasana (Extended Side Angle Posture)
+11 Parivritta Parsvakonasana (Revolved Side Angle Posture)
+12 Prasarita Padottanasana, A-D (Feet Spread Intense Stretch Posture)
+13 Vrksasana (Tree pose)
+14 Utkatasana (Chair Pose)
+Move to the ﬂoor, modiﬁed Sun Salute
+15 Dandasana followed by Paschimottanasana (Western Intense Stretch Posture)
+16 Purvottanasana (Eastern Intense Stretch Posture)
+17 Janu Sirsasana A (Head to Knee Posture)
+18 Marichyasana A (Dedicated to Marichi, son of Brahma)
+19 Marichyasana C (Dedicated to Marichi)
+20 Navasana (Boat Posture)
+21 Baddha Konasana, A &B (Bound Angle Posture)
+22 Setu Bandha Sarvangasan a (Bridge pose)
+15
+mins
+23 Paschimottanasana (Western Intense Stretch Posture)
+24 Padmasana (Lotus Posture) or Sukhasana (Easy Pose), breathe 10x
+25 Savasana (Corpse Pose) (5 –10 minutes)
+doi:10.1371/journal.pone.0129646.t001
+Yoga Increases Sensory Input for Balance in the Blind
+PLOS ONE | DOI:10.1371/journal.pone.0129646 June 24, 2015 8/2 3
+Primary Outcomes
+Center of Pressure. The WBB was used as a standalone posturography device to measure
+COP, a marker for postural stability, while participants performed a validated, standardized
+static balance protocol[27]. Mean Total Velocity (MTV) (mm/s) was calculated as the total dis-
+tance traveled by COP over time and used as the primary outcome, since it has been shown to
+accurately represent the visual contribution to posture[ 18,26].
+The modified Clinical Test of Sensory Interaction in Balance (mCTSIB) was used as the
+measurement protocol to quantify how well participants used sensory inputs: somatosensory
+(firm vs. unstable surface), visual (eyes open vs. closed), and vestibular (stable surface with eyes
+open vs. unstable surface with eyes closed)[44]. COP was measured for each mCTSIB condition.
+The participant’s bare feet were placed on the WBB so that the inner edges of both feet were
+one-foot length (their own) apart, in four sensory conditions increasing in difficulty. The dis-
+tance between the inner edges of the feet was divided in half and the subject was aligned accord-
+ingly with the halfway mark on the center of the WBB for all conditions during baseline and
+post-AYT. The feet position provides a wider base of support for our visually impaired study
+population in order to help promote safety in the foam condition and was chosen based on pre-
+vious literature involving elderly patients with vision loss[16,26,27]. While the classic Romberg
+test (i.e., feet together)[67] is the most well-known, a study designed to determine normative
+values found that the Romberg test may be too variable for subjects older than 50 years old[ 68].
+Fig 2. Use of the Wii Balance Board for the mCTSIB protocol. A) Subject standing on foam, B) Wii Balance Board. Four sensors are located in each
+corner. Center of Pressure is derived as an x and y coordinate measured over time.
+doi:10.1371/journal.pone.0129646.g002
+Yoga Increases Sensory Input for Balance in the Blind
+PLOS ONE | DOI:10.1371/journal.pone.0129646 June 24, 2015 9/2 3
+The conditions were: standing on a firm surface with eyes open (Firm-EO); standing on a firm
+surface with eyes closed (Firm-EC); standing on an unstable (3” thick[44]) surface with eyes
+open (Foam-EO; Fig 2A); and standing on an unstable surface with eyes closed (Foam-EC).
+Thus, conditions with eyes closed disrupted the visual system, whereas conditions on Foam dis-
+rupted the somatosensory system. It is important to note that the VI participants in this study
+had varying degrees of remaining vision that could contribute to, or interfere with, posture sta-
+bilization; therefore, comparing the eyes open and closed conditions allowed us to determine
+visual dependency[17]. The conditions within the balance tests were randomly ordered in both
+sessions. Prior to each condition, participants had a 30-second familiarization period to reduce
+learning effects. Participants performed each condition for 3 successive trials of up to 30 sec-
+onds each, with a one-minute rest period in between. MTV was calculated from COP data and
+was averaged across 3 trials. In order to minimize the influence of the vestibular system, partici-
+pants were instructed to maintain a neutral head position, and when possible, to binocularly fix-
+ate on a black “X” taped on a white wall at eye level 35 inches in front of them while keeping
+their arms crossed over the chest. Target distance was kept constant at 35 inches, a distance
+shown to minimize the possible influence of visual input on postural stability[26,69]. Thus, the
+level of visual impairment should not influence postural stability.
+Stability Index. The MTV COP measures under the four mCTSIB conditions were used
+to compute Stability Indices (SI), representing the relative visual (SI
+firm, SIfoam), somatosensory
+(SIEO,S IEC) and vestibular contributions (SI V) to balance (Table 2)[24]. An SI /C20 0 indicates a
+destabilization of postural control. The advantage of using SIs is that they minimize the inher-
+ent intra- and inter-individual variability in MTV COP measures[ 18].
+Secondary Outcomes
+Timed One-Leg Stance (OLS). The OLS protocol requires the subject to raise one foot off
+the ground[70]. Time up to 30 seconds is recorded. They are instructed to keep the arms down
+at their sides and any touch of foot or hand to a surface stops the timer. The task is performed
+three times with eyes open and the longest duration of the three trials is used in the analysis.
+The ability to stand on a single-leg is an important predictor of falls in the elderly[ 70].
+Table 2. Stability Index Formula and Description.
+Stability Indices Determines the relative contribution of the ...
+SIﬁrm =1 —Log(FirmEO + 1)/Log
+(FirmEC + 1)
+Visual system on a ﬁrm surface (baseline)
+SIfoam =1 —Log(FoamEO + 1)/Log
+(FoamEC + 1)
+Visual system on an unstable or Foam surface, i.e. the
+somatosensory system is disrupted
+SIEO =1 —Log(FirmEO + 1)/Log
+(FoamEO + 1)
+Somatosensory system with Eyes Open.
+SIEC =1 —Log(FirmEC + 1)/Log
+(FoamEC + 1)
+Somatosensory system with Eyes Closed, i.e. vision is disrupted
+SIV =1 —Log(FirmEO + 1)/Log
+(FoamEC + 1)
+Vestibular system while Vision and Somatosensory systems are
+disrupted (most challenging)
+Note: Under ideal conditions, all sensory systems work in concert therefore some redundancy exists. COP
+in conditions of increasing dif ﬁculty are measured. To determine the Stability Index, the visual and/or
+somatosensory systems are experimentally disrupted to derive the relative contribution of each system,
+however, the vestibular system is never experimentally disrupted. This protocol has been validated and has
+been used consistently for clinical assessment.
+doi:10.1371/journal.pone.0129646.t002
+Yoga Increases Sensory Input for Balance in the Blind
+PLOS ONE | DOI:10.1371/journal.pone.0129646 June 24, 2015 10 / 23
+Physical Function. The “Chair sit-and-reach test” (CSRT) was used to assess lower body
+flexibility, which is important for good posture, normal gait patterns and various mobility tasks
+[71]. We measured the number of inches (+ or-) between extended fingers and the tip of the
+toe, as the participant extended the legs and reached their hands toward the toes, in a sitting
+position in front of a chair[ 71,72]. The “30-Second Chair Stand” 30s-CS was used to assess
+lower body strength, needed for numerous tasks such as climbing stairs, walking, and getting
+out of a chair, tub or car[ 73]. We measured the number of full stands that can be completed in
+30 seconds with arms folded across the chest[ 71].
+Instrumentation
+Custom software was developed to interface wirelessly with the WBB in order to collect COP
+data[27,74]. Data collection software was developed in C# using Microsoft Visual Studio and
+the.NET framework. WBB calibration provides an accurate measure of COP[ 27,75]. The data
+were sampled at 100 Hz and filtered using a Butterworth filter with a low pass cut-off frequency
+of 10 Hz[76]. COP data extraction software was written in MATLAB (MathWorks, Inc., MA)
+in order to calculate MTV. The WBB derives COP data sent by 4 force plate sensors on the
+platform (Fig 2B). Changes in COP (mm/s), sampled over 30s, are derived from the stream of
+sensor data sent to a laptop via Bluetooth. The WBB in a normal population was found to have
+a test-retest reliability of 0.66–0.94 and a between-device reliability of 0.77 –0.89 when com-
+pared to a laboratory-grade, computerized force plate[ 74]. Furthermore, the test-retest reliabil-
+ity of the WBB was found to be reliable among a VI population with ICCs ranging from 0.88 to
+0.94 and sensitive to modifications in sensory inputs[ 27]. In Jeter et. al.[27], the reliability for
+the Foam EC condition was equivalent to the Firm EC condition (both with ICC equal to 0.88),
+suggesting that while COP displacement may be relatively larger due to the more challenging
+Foam condition, the reliability is the same.
+For the purposes of this study, the same device was used with our small number of partici-
+pants. Bartlett et al. has shown that COP measures on the WBB do not deteriorate over time
+after heavy use, especially when using the same device across time points[ 77]. Given the infre-
+quent use of the device in our study, it is reasonable to assume that the WBB was consistent
+throughout this study.
+Statistical Analysis
+Primary Outcomes. All statistical analyses were conducted using IBM SPSS Version 22.0.
+The assumption of normally distributed data was verified using the Kolmogorov-Smirnov Test
+on the difference scores (post intervention minus baseline measures) in the primary dependent
+variable (absolute COP) for each group. The difference scores for all absolute COP variables
+met the condition of a normal distribution (all p > 0.05). Therefore, parametric statistical tests
+were used to analyze the primary outcomes. Independent t-tests were conducted to determine
+baseline differences between groups. This study was not powered to detect between group dif-
+ferences following the AYT, so significance of pre-post changes was assessed by paired samples
+t-tests within each group for all outcomes. Within-group confidence intervals were derived
+from the paired samples t-tests. Effect sizes for the primary outcomes were calculated as the
+partial eta squared, η
+2 = t2/(t2 + (N-1)). We use the Ferguson (2009)[ 78] effect size criterion for
+η2: small = 0.2, moderate = 0.5, large = 0.8. All data was coded to mask group assignment.
+Secondary Outcomes. The assumption of normally distributed data was marginal for 2 of
+3 of the secondary outcomes (OLS, p = 0.06 and 30s Chair Stand, p = 0.07) and was violated for
+one (CSRT, p = 0.001). We opted to evaluate all three secondary outcomes with the non-
+parametric version of the paired t-test, the Wilcoxon Signed Rank Test. The effect size was
+Yoga Increases Sensory Input for Balance in the Blind
+PLOS ONE | DOI:10.1371/journal.pone.0129646 June 24, 2015 11 / 23
+calculated by dividing the z score by the square root of N ( r = z/pN). In this case, N = the num-
+ber of observations over each time point, not the number of subjects. Ferguson's (2009)[ 78]
+effect size criterion for r is the following: small = 0.04, moderate = 0.25, large = 0.64.
+Results
+Subjects’ Characteristics and Study Completion
+Twenty-nine participants were screened for eligibility ( Fig 1). Twenty-one legally blind partici-
+pants met the inclusion criteria and were randomized to the 8-week AYT program (n = 11,
+mean (SD) age = 55(17); 3 Males) or waitlist control (n = 10, mean (SD) age = 55 (10), 3
+Males). Demographic information and visual history are described in Table 3. As an RCT, age
+differences at baseline were not a factor (t(15) = 0.014, p = 0.99). However, we conducted an
+additional analysis to determine if postural stability differed between age groups, as follows.
+Our sample is comprised of participants in age ranging from 27 –85 (median age = 59). If we
+re-characterize our sample regardless of original group assignment (i.e. AYT or waitlist) into
+two new groups separated using the median age of 59 as a cut-off (subjects < 60 years old,
+n = 9, and subjects /C21 60 years old, n = 8), we can conduct an independent samples t-test
+between groups on the baseline value for the most difficult condition where we might see the
+most differences in postural stability, Foam EC. We found no significant difference between
+age groups (t(15) = -1.43, p = 0.17), suggesting the groups were equivalent at baseline regard-
+less of age or postural stability.
+Table 3. Demographic and Visual History.
+Group
+Assignment
+Age Gender Race Diagnosis OS OD Visual
+Field
+Yoga 44 M Caucasian Retinitis Pigmentosa 20/30 20/30 <10
+Yoga 64 F Caucasian Congenital glaucoma, aphakia, prior retinal detachment CF 2' BLP
+Yoga 54 M African
+American
+Diabetic Retinopathy LP LP
+Yoga 65 M African
+American
+Childhood accident, ﬁrecracker BLP BLP
+Yoga 85 F Caucasian AMD CF @
+3'
+HM
+Yoga 38 F Caucasian Congenital cataracts, aphakia with band keratopathy,
+phthisis OD
+CF @
+1'
+NLP
+Yoga 62 F Caucasian Retinopathy of Prematurity NLP BLP
+Yoga 27 F African
+American
+Stargardt's Disease 20/320 20/
+320
+Yoga 58 F Caucasian Retinitis Pigmentosa 20/70 20/70 <10
+Waitlist 60 F Caucasian Retinitis Pigmentosa CF HM <10
+Waitlist 64 F African
+American
+Stargardt's Maculopathy 20/320 20/
+320
+Waitlist 60 M Caucasian Retinitis Pigmentosa BLP BLP
+Waitlist 60 F Caucasian Nystagmus, Congenital Cataracts, Band Keratopathy HM NLP
+Waitlist 33 F Hispanic Optic Nerve Damage LP LP
+Waitlist 49 M Caucasian Stargardt's Disease 20/300 20/
+300
+Waitlist 56 M Caucasian Ischemic Optic Neuropathy LP LP
+Waitlist 59 F Caucasian End-stage Glaucoma LP LP
+OS, Left Eye; OD, Right Eye; CF, Counting Fingers; HM, Hand Motion; LP, Light Perception; BLP, Bare Light Perception; NLP, No Light Perception
+doi:10.1371/journal.pone.0129646.t003
+Yoga Increases Sensory Input for Balance in the Blind
+PLOS ONE | DOI:10.1371/journal.pone.0129646 June 24, 2015 12 / 23
+Two participants in the AYT group did not complete the study. One participant opted out
+after two yoga classes due to dissatisfaction with the yoga program and expressed a preference
+for private yoga lessons. Another participant developed pain in her legs due to pre-existing
+peripheral neuropathy that was not reported during screening, which was an exclusion crite-
+rion. Two participants in the waitlist group were excluded from the final analysis; one due to
+newly developed health issues unrelated to the program and another due to time constraints
+and health prohibiting evaluation at study completion during the post-AYT assessment period.
+The dropout rate was 19% and no study related adverse health events were reported. Subjects
+completing the intervention participated in an average of 6.6 (SD 0.73) out of 8 total classes, or
+82% overall. According to the practice logs, participants reported practicing at least twice a
+week at home 90% of the time.
+Primary Outcomes
+Mean Total Velocity (MTV) COP. There were no significant differences at baseline
+between groups for all COP variables (all p > 0.05). Absolute values of MTV COP significantly
+increased from baseline to post-AYT in the Foam EO and FoamEC conditions (t(8) = -3.66,
+p = 0.01 and t(8) = -3.90, p = 0.01, respectively (See Table 4). Correspondingly, effect size calcu-
+lations revealed a moderate effect of intervention for these two conditions ( Table 4). No statis-
+tically significant changes in the AYT group were observed pre-post in the Firm EO or FirmEC
+conditions (p > 0.05). No statistically significant pre-post changes were observed in the waitlist
+control group (all p > 0.05) for any MTV COP variables.
+Table 4. Primary Outcomes —Absolute COP MTV (mm/s) and Relative Stability Indices.
+Group Mean(SD)
+Group Outcome Baseline Post 95% CI of the Mean Difference P-value Effect Size ( η2)
+AYT FirmEO 11.91 (3.14) 12.02 (2.21) -0.10 (-2.39 2.18) 0.92 0.00
+FirmEC 12.65 (2.62) 13.04 (2.50) -0.39 (-2.35 1.58) 0.66 0.03
+FoamEO 22.62 (6.12) 29.03 (7.49) -6.41 (-10.45 –2.37) 0.01 * 0.63
+FoamEC 22.90 (3.19) 33.09 (10.03) -10.19 (-16.22 –4.16) 0.01 * 0.66
+Waitlist FirmEO 14.07 (5.01) 14.28 (4.38) -0.21 (-2.26 1.84) 0.82 0.01
+FirmEC 13.49 (4.93) 14.49 (4.14) -1.00 (-2.86 0.86) 0.24 0.19
+FoamEO 23.82 (8.25) 25.83 (6.70) -2.00 (-6.82 2.80) 0.36 0.12
+FoamEC 27.80 (7.30) 31.08 (8.29) -3.29 (-8.98 2.40) 0.21 0.21
+AYT SIFirm 0.02 (0.08) 0.03 (0.04) -0.01 (-0.07 0.06) 0.82 0.01
+SIFoam 0.01 (0.08) 0.03 (0.04) -0.02 (-0.07 0.03) 0.34 0.11
+SIEO 0.19 (0.06) 0.24 (0.07) -0.05 (-0.10 –0.01) 0.04 * 0.42
+SIEC 0.18 (0.07) 0.25 (0.05) -0.07 (-0.11 –0.03) 0.01 * 0.66
+SIV 0.20 (0.08) 0.26 (0.06) -0.07 (-0.13 –0.01) 0.04 * 0.43
+Waitlist SIFirm -0.02 (0.03) 0.01 (0.05) -0.02 (-0.06 0.02) 0.24 0.19
+SIFoam 0.05 (0.08) 0.05 (0.05) 0.00 (-0.08 0.08) 1.00 0.00
+SIEO 0.16 (0.03) 0.17 (0.08) -0.16 (-0.08 0.05) 0.58 0.05
+SIEC 0.21 (0.06) 0.21 (0.06) 0.01 (-0.07 0.07) 0.97 0.00
+SIV 0.20 (0.06) 0.22 (0.06) -0.02 (-0.08 0.04) 0.48 0.07
+Primary outcomes are analyzed by paired samples t-tests. 95% CI are con ﬁdence intervals for the mean difference pre-post t-tests. Effect sizes for
+primary outcomes were calculated as the partial eta squared, η2 =t 2/(t2 + (N-1)). We use the Ferguson (2009) effect size criteria for η2: small = 0.2,
+moderate = 0.5, large = 0.8. SI = Stability Index, EO = Eyes Open, EC = Eyes Closed, V = Vestibular,
+* = Statistically signi ﬁcant.
+doi:10.1371/journal.pone.0129646.t004
+Yoga Increases Sensory Input for Balance in the Blind
+PLOS ONE | DOI:10.1371/journal.pone.0129646 June 24, 2015 13 / 23
+Stability Index (SI). The relative contribution of sensory input measured by the stability
+index (SI) is displayed in Table 4. A significant baseline—post-AYT increase in the somatosen-
+sory contribution to balance was found in the AYT group in the SI EO (t(8) = -2.42, p = 0.04)
+and the SIEC conditions (t(8) = -3.96, p = 0.01; Table 4). A significant pre-post increase in SI V
+was observed (t(8) = -2.47, p = 0.04) in the AYT group, indicating an increase in vestibular con-
+tribution to balance. In contrast, there were no statistically significant changes observed in the
+control group (all p > 0.05). As expected, reduced visual contribution or visual dependency to
+balance (i.e., SIFirm, SIFoam) was present in VI and no significant pre-post changes were found
+for either group (all p > 0.05).
+Secondary Outcomes
+A Wilcoxon Signed Rank Test revealed a statistically significant increase in the OLS-EO ( z =
+-2.10, p = 0.04), the Chair Sit and Reach test ( z = -2.22, p = 0.01) suggesting an increase in flexi-
+bility, and the 30s Chair Stand ( z = -1.98, p = 0.05) suggesting an increase in lower body
+strength, following the AYT program ( Table 5). Effect sizes were in the moderate to large range
+(i.e., r = 0.47–0.60). No statistically significant effects were observed for OLS or fitness mea-
+sures in the waitlist control group (all p > 0.05).
+Sample Size Calculation for Future Studies
+In order to develop the intervention protocol and plan for larger scale RCTs, we can estimate the
+sample size based on these results for future studies. In a future study, investigators may be inter-
+ested in using an Analysis of Covariance (ANCOVA) to determine post-intervention effects
+between-groups, while controlling for baseline or some other covariate of interest (e.g., age).
+Between-group comparisons for the post-intervention measures control for non-specific effects
+(e.g., social interactions, placebo) that are difficult to manage in within-group comparisons.
+Here, we estimate an effect size based on the mean difference between the post-AYT measures in
+the absolute COP Foam EC condition divided by the pooled standard deviation. In an analysis of
+covariance (with baseline as the covariate) to detect an effect size of 0.45 for the post-intervention
+difference between treatment and control, participation by 41 participants achieves 80% power
+at the 0.05 alpha level. Anticipating a 20% dropout rate, one may enroll 50 participants total.
+Table 5. Secondary Outcomes.
+Median (IQR)
+Group Outcomes Baseline Post P-value Effect Size ( r)
+AYT OLS-EO (s) 4.46 (12.94) 6.87 (26.25) 0.04 * 0.49
+Chair Sit & Reach (in) 0.00 (4.00) 1.50 (4.25) 0.01 * 0.60
+30s Chair Stand (s) 13.00 (4.50) 14.00 (5.50) 0.05 * 0.47
+Waitlist OLS-EO (s) 4.93 (7.04) 7.15 (6.45) 0.31 0.25
+Chair Sit & Reach (in) -2.5 (8.5) -3.25 (7.63) 0.75 0.08
+30s Chair Stand (s) 13.00 (4.50) 11.50 (6) 0.31 0.26
+Secondary outcomes were calculated using the Wilcoxon Signed Rank test and effect sizes were calculated as r = z/ pN, where N is the number of
+observations over the two time points. Ferguson's (2009) effect size for r is the following criteria: small = 0.04, moderate = 0.25, large = 0.64.
+IQR = Interquartile Range, (in) = Inches, (s) Seconds,
+* = Signiﬁcant Effect, OLS = One-Legged Stand, EO = Eyes Open.
+doi:10.1371/journal.pone.0129646.t005
+Yoga Increases Sensory Input for Balance in the Blind
+PLOS ONE | DOI:10.1371/journal.pone.0129646 June 24, 2015 14 / 23
+Discussion
+The goal of this study was to determine the effect of AYT on COP and on the sensory contribu-
+tions to postural stability in VI participants. Sensory integration of movement information
+from visual, somatosensory and vestibular systems contributes to postural stability[ 22]. After
+vision loss, re-weighting of the remaining sensory inputs is important for generating new pos-
+tural strategies to maintain upright balance[ 15,41]. Following the 8-week AYT program, this
+study found a significant increase in the MTV for the Foam EO and FoamEC conditions in
+which both somatosensory and visual systems were disrupted. Correspondingly, the relative
+contributions of the somatosensory (SI EO,S IEC) and vestibular systems (SI V) in our treatment
+group increased. As hypothesized for this VI population, vision did not play a significant role
+in postural stability, as indicated by non-significant changes in either MTV or SIs. Moreover,
+the waitlist control group showed no significant changes in any outcomes. Additionally, we
+determined that differences in the age range in our study population were not a factor in the
+results observed.
+To our knowledge, this is the first time sensory input to postural stability has been evaluated
+as an objective outcome before and after yoga training in an aging, VI population. In an earlier
+review of yoga for balance in a healthy population[ 79], only one of 15 studies measured COP
+in a dynamic standing task, which suggests that measures of postural stability are underutilized.
+COP measures are objective and may be more sensitive to changes in postural stability in a
+clinical population, and less influenced by placebo effects, than self-reported outcome mea-
+sures[79]. Despite the small sample size in the current study, the results showed a strong effect
+in the AYT group but not the control group, consistent across variables. In addition, the novel
+use of the WBB as a standalone posturography device introduces a possible cost-effective, por-
+table alternative for measuring postural stability. Using COP and the mCTSIB protocol, the
+contribution of each sensory input in a clinical population can be evaluated, in order to devise
+tailored rehabilitation programs in the future.
+The results of the present study support posture COP stabilization rather than a minimiza-
+tion hypothesis, which strongly suggests that AYT training could engage self-correcting mecha-
+nisms for postural control, such as up-weighting proprioceptive feedback, as well as increasing
+lower body strength and flexibility, which can potentially reduce fall risk. COP stabilization sug-
+gests that the greater COP displacement observed in this study represents greater integration of
+the remaining sensory systems to activate appropriate muscle responses used to control pos-
+tural stability. This conclusion is further strengthened by the significant improvements in flexi-
+bility observed with the CSRT, consistent with the findings of Wayne et al.[52]. Increased lower
+body flexibility is important for normal gait patterns during walking. The increase in lower
+body strength suggested by the 30s Chair Stand and OLS results further supports this claim.
+While the OLS does not provide information about sensory inputs, the ability to stand on a sin-
+gle leg is an important predictor of falls[70]. In addition, the biomechanical demands of certain
+poses, such as tree pose (Fig 3), have been shown to match balance potential[80].
+Furthermore and perhaps more compelling evidence in support of the stabilization hypoth-
+esis comes from a comparison of the post-AYT SI measures from our VI group to baseline SIs
+collected from normally-sighted, young adults (See S1 Appendix). The data set for the nor-
+mally-sighted individuals has been published elsewhere[ 27] as part of a separate study to estab-
+lish reliability of the WBB and therefore, we calculated the SI from the normal data for the
+purp ose of comparison with the SI for VI in the current paper. Comparing baseline SI from
+normally sighted individuals to post-AYT VI using independent samples t-tests indicate no dif-
+ference between groups (SI
+EC: t(28) = 0.51, p = 0.62, SI VE: t(28) = -1.37, p = 0.18), suggesting
+that after AYT training the VI group approached the normally-sighted baseline (Figure A in S1
+Yoga Increases Sensory Input for Balance in the Blind
+PLOS ONE | DOI:10.1371/journal.pone.0129646 June 24, 2015 15 / 23
+Appendix). These findings are consistent with those of Tsang et. al.[ 49] who found, in a cross-
+sectional study, that the vestibular contribution achieved by elderly Tai Chi practitioners was
+similar to that of young adult subjects rather than that of elderly non-Tai Chi practitioners,
+suggesting that despite age differences sensory re-weighting is amenable to training. We did
+find a significant difference between normal and VI for SI
+EO; however, this is to be expected as
+the normally-sighted group had full use of visual sensory information in EO conditions. The
+somatosensory contribution in the VI group is significantly greater than in the normal group,
+suggesting a greater use of somatosensory information. Although absolute COP values are
+greater than for healthy, normals in cross-sectional analyses, as evidenced by several notable
+studies supporting the COP minimization hypothesis[ 16,24,26], COP measures may in fact
+reflect different postural strategies depending on the population[ 47,48]. The relative contribu-
+tions of sensory systems after training may reflect these differences more clearly.
+Wolf and colleagues[51] administered a 15-week Tai Chi program to healthy elderly adults
+(> 70 years of age) and found an increase in COP in somatosensory conditions with both EO
+and EC. This was reported as a negative effect compared to a group receiving computerized
+balance training. It was noted that the Tai Chi group reduced fear of falling outcomes while the
+balance group did not. Wolf et al.[ 51] raised the possibility that training resulting in greater
+COP could lead to improved strategies for maintaining a wider base of support and improved
+confidence. Tai Chi practice, similar to yoga, involves shifting one ’s weight between double
+Fig 3. Visually impaired students performing tree pose.
+doi:10.1371/journal.pone.0129646.g003
+Yoga Increases Sensory Input for Balance in the Blind
+PLOS ONE | DOI:10.1371/journal.pone.0129646 June 24, 2015 16 / 23
+and single stance, body rotation and awareness of alignment[ 81], such that maintaining bal-
+ance displacement within the limits of stability and/or base of support is constantly challenged
+[49]. More recently, Wayne et. al.[ 52] compared a group of Tai Chi experts (average age 63
+years, with 25 years of experience) to a group of Tai Chi naïve participants (average age 65) in a
+cross-sectional study of community dwelling healthy adults and reported a trend towards
+higher MTV in the expert group. The naïve participants were then randomized to usual care or
+6-months of Tai Chi. After training in Tai Chi, the naïve participants developed increased
+MTV and had values similar to the Tai Chi experts, which is in concordance with the findings
+in VI adults after AYT reported here. Gyllensten found that Tai Chi practitioners had better
+stability limits and body awareness compared to younger control subjects[ 82]. Increased limits
+of stability and engagement in controlled movements with improved balance control were
+reported in a group of Parkinson ’s patients after Tai Chi[50], again supporting the plausibility
+of increased COP as a balance strategy for certain populations. Greater COP displacement has
+been has been reported to provide proprioceptive feedback in an elderly population[ 48], specif-
+ically feedback from the ankle joint, which could compensate for visual deficits. Furthermore,
+maintaining balance by sensory reweighting of somatosensory or vestibular systems may
+involve better use of hip or ankle postural control strategies[ 35].
+The AYT was used to engage unimpaired sensory systems, i.e. somatosensory and vestibu-
+lar, in order to compensate for vision loss in a safe environment that may have the added bene-
+fit of staving off conditions associated with age-related decline (e.g., deconditioning of motor
+and perceptual processes). Notably, it has been suggested that programs emphasizing multisen-
+sory training to improve balance may be more effective than programs emphasizing single sen-
+sory or modality training[31,36,37]. The practice of yoga may improve the quality of the
+sensory information for VI persons by targeted engagement of compensatory systems. Yoga, in
+general, may be desirable choice for the aging VI populations because classes are widely avail-
+able, movements are low-impact, and poses can be modified to suit the individual although it
+would be desirable to train more yoga instructors on adaptations necessary to work with VI
+individuals. Yoga has also been shown to have a low rate of side effects, low risk of injury and
+no known interactions with prescription medications[ 83]. Finally, a review of 12 studies (8
+RCTs) that directly compared yoga to exercise found that yoga was equal to or significantly
+better as judged by health-related outcomes such as improved quality of life and reduced stress,
+in both healthy and clinical populations[ 84].
+Limitations
+We used COP as a surrogate marker for falls. Without a prospective study measuring falls as
+an outcome, it is difficult to draw any conclusions about reduced fall risk. In the future, a pro-
+spective study with a longer-term yoga program and follow-up is warranted. Measuring static
+posturography in this study has granted us an understanding for multisensory integration and
+training unimpaired systems, however, measuring dynamic posturography in the future may
+be more relevant to determining anticipatory (e.g., obstacle avoidance) or compensatory (e.g.,
+stumble recovery) postural adjustments after unpredictable perturbations during walking. Falls
+are a result of several intrinsic and extrinsic risk factors; and it will require a multifactorial
+approach to identify and manage those risks. Furthermore, in this study somatosensory and
+vestibular contributions to balance were inferred from COP data. In the future, it would be
+important to directly measure these contributions.
+Limits of stability (LOS) were not measured in this study. LOS can be defined as when the
+center of gravity falls outside the base of support leading to an increase risk of falls[ 67] and is
+usually measured using the Functional Reach Test[ 85]. COP stabilization may imply an
+Yoga Increases Sensory Input for Balance in the Blind
+PLOS ONE | DOI:10.1371/journal.pone.0129646 June 24, 2015 17 / 23
+increase in the LOS. Alternatively, it is also possible that LOS could increase with COP minimi-
+zation when different conditions are met the by the population of interest. Whether LOS is cor-
+related with changes in COP is an empirical question. At least one study has claimed that there
+was a low correlation (r = 0.38) between the functional reach test and displacement of center of
+pressure in healthy, elderly people ages 60 –85[86].
+Unlike a lab grade force platform, the Wii balance board only measures force in the vertical
+direction and is not able to detect the contribution of shear forces. Several studies have demon-
+strated that the Wii balance board has excellent reliability and validity when compared to a
+force plate[74], including our own reliability study in a visually impaired and normal popula-
+tion[27]. We don’t expect that the displacement in our study would exceed the displacement
+one might expect in a dynamic task or single leg stand. We expect the effect of the shear forces
+on the COP to be minimal in the double-leg quiet stance. There is also evidence that the shear
+measurements may not be reliable in studies of postural responses among aging individuals
+[67,87]. Since the WBB was not designed to measure shear, we are not able to account for it in
+this study however, there is research supporting vertical COP as sufficient to detect balance
+impairments among a diverse population[ 43].
+Despite specific criteria to minimize heterogeneity in our VI population, there are likely to
+be individual differences. For example, visual function can vary according to severity, duration,
+and type of disease and may limit the interpretation of results, as we were unable to perform
+subgroup analyses given the small sample size in the current study. There is evidence that
+vision loss may accelerate the effects of postural instability during a wide age range[ 5] and con-
+sidering the pilot nature of this study, we did not exclude participants based on age. However,
+the heterogeneity of VI participants in our trial may more accurately represent clinical situa-
+tions, reflecting generalizability. The clinical significance of these results may not be immedi-
+ately apparent without a long-term prospective study to measure falls and sustainability of
+effects. Qualitative data that was collected in the current study, to be presented elsewhere, may
+be more informative about potential clinically relevant outcomes. Due to the small sample size
+the present trial was not sufficiently powered to detect changes between the two groups for the
+outcomes after AYT; therefore a larger scale trial is warranted to explore those differences.
+Sampling bias occurs when there are systematic differences between groups being compared.
+In order to minimize the possibility of bias, we randomized the group assignment and further
+checked for statistical differences at baseline, of which we found none. Since this was an explor-
+atory study, we did not correct for multiple statistical comparisons for the several tests
+included.
+Conclusions
+We conclude that greater MTV COP displacement observed post-AYT supports a COP stabili-
+zation hypothesis in a VI population. AYT training may activate better use of the remaining
+somatosensory and vestibular inputs to postural stability. This may be a meaningful and neces-
+sary self-correcting strategy for postural stability for a VI population at risk for falls. Knowing
+the relative sensory inputs to postural stability may help us understand the contribution of
+each system under different conditions. Multisensory training of the visual, vestibular or
+somatosensory systems has shown to significantly improve stability[ 31,36]. Therefore, it may
+prove beneficial to examine sensory contributions to balance in future studies, as it may reduce
+fall risk and improve postural stability.
+Yoga Increases Sensory Input for Balance in the Blind
+PLOS ONE | DOI:10.1371/journal.pone.0129646 June 24, 2015 18 / 23
+Supporting Information
+S1 Protocol. IRB protocol approved for the trial.
+(DOC)
+S1 CONSORT Checklist. CONSORT Checklist.
+(DOC)
+S1 Appendix. Normally-Sighted versus Visually Impaired Stability Indices.
+(DOCX)
+S1 Dataset. Primary Dataset for Absolute Center of Pressure, Mean Total Velocity (mm/s)
+in 4 Conditions.
+(XLSX)
+S2 Dataset. Secondary Dataset for OLS, Chair Sit and Reach and 30s Chair Stand.
+(XLSX)
+Acknowledgments
+The authors wish to acknowledge the research assistants that participated in data collection:
+Amelie-Francoise Nkodo, Crystal Roach, Marilyn Corson, and Olukemi A. Adeyemo. We
+would like to thank Jialiang Gu for his help in developing the software interface with the Wii
+Balance Board and Jiangxia Wang for statistical analysis support. We are grateful to Sat Bir S.
+Khalsa, PhD for his helpful comments on study design and to Cortney Bradford, PhD, Peter
+Wayne, PhD and Brian Gow for helpful comments on the manuscript. We are deeply indebted
+to the following for making resources available to us for which this study would not have been
+able to be conducted: Holy Cross Hospital Senior Source, Faith Scimecca (Woodley Park
+Yoga), St. George’s Church, Anjali Sunita (Baltimore Yoga Village), Kelly James (Yoga One On
+One, LLC), and Kino Macgregor (www.kinoyoga.com). Finally, the authors are deeply indebted
+to Ed Redfern, Jr. for his teaching assistance during the yoga classes.
+Author Contributions
+Conceived and designed the experiments: PEJ SHM AKB GD. Performed the experiments:
+PEJ. Analyzed the data: PEJ GD. Wrote the paper: PEJ SHM AKB GD.
+References
+1. All Vision Impairment [Internet]. National Eye Institute; [cited 2013 Jan 5]. Available from: http://nei.nih.
+gov/eyedata/vision_impaired.asp#4
+2. Lord SR, Clark RD, Webster IW. Postural stability and associated physiological factors in a population
+of aged persons. J Gerontol. 1991 May 1; 46(3):M69 –M76. PMID: 2030269
+3. Lord SR. Visual risk factors for falls in older people. Age Ageing. 2006; 35: 2 –5.
+4. Odom J, Odom C, Leys M. Does improving vision reduce the risk of falls? A review. Insight: Research
+and Practice in Visual Impairment and Blindness. 2011 Aug 30; 4(2):92 –9.
+5. Klein B, Klein R, Lee K, Cruickshanks K. Performance-based and self-assessed measures of visual
+function as related to history of falls, hip fractures, and measured gait time —The Beaver Dam Eye
+Study. Ophthalmology. 1998; 105(1):160–4. PMID: 9442793
+6. Harwood RH. Visual problems and falls. Age Ageing. 2001 Nov; 30 Suppl 4:13 –8. PMID: 11769782
+7. Felson DT, Anderson JJ, Hannan MT, Milton RC, Wilson P, Kiel DP. Impaired vision and hip fracture —
+The Framingham Study. J Am Geriatr Soc. 1989; 37(6):495 –500. PMID: 2715555
+8. Owsley C. Aging and vision. Vision Res. 2011; 51(13):1610 –22. doi: 10.1016/j.visres.2010.10.020
+PMID: 20974168
+Yoga Increases Sensory Input for Balance in the Blind
+PLOS ONE | DOI:10.1371/journal.pone.0129646 June 24, 2015 19 / 23
+9. Freeman EE, Munoz B, Rubin G, West SK. Visual field loss increases the risk of falls in older adults:
+The Salisbury Eye Evaluation. Invest Ophthalmol Vis Sci. 2007; 48(10):4445 –50. PMID: 17898264
+10. Wood JM, Lacherez P, Black AA, Cole MH, Boon MY, Kerr GK. Risk of falls, injurious falls, and other
+injuries resulting from visual impairment among older adults with age-related macular degeneration.
+Invest Ophthalmol Vis Sci. 2011 Aug 1; 52(8):5088–92. doi: 10.1167/iovs.10-6644 PMID: 21474773
+11. Dagnelie G. Age-related psychophysical changes and low vision. Invest Ophthalmol Vis Sci. 2013 Dec
+13; 54(14):ORSF88–ORSF93. doi: 10.1167/iovs.13-12934 PMID: 24335074
+12. Goldstein JE, Massof RW, Deremeik JT, Braudway S, Jackson ML, Kehler KB, et al. Baseline traits of
+low vision patients served by private outpatient clinical centers in the United States. Arch Ophthal-
+mol.2012; 130(8):1028–37. PMID: 22893074
+13. Horak FB. Clinical assessment of balance disorders. Gait Posture. 1997; 6(1):76 –84.
+14. Peterka RJ, Benolken MS. Role of somatosensory and vestibular cues in attenuating visually induced
+human postural sway. Exp Brain Res. 1995; 105(1):101–10. PMID: 7589307
+15. Asslander L, Peterka RJ. Sensory reweighting dynamics in human postural control. J Neurophysiol.
+2014 May 1; 111(9):1852–64. doi: 10.1152/jn.00669.2013 PMID: 24501263
+16. Elliott DB, Patla AE, Flanagan J, Spaulding S, Rietdyk S, Strong G, et al. The Waterloo vision and
+mobility study—postural control strategies in subjects with Arm. Ophthal Physl Opt. 1995; 15(6):553 –9.
+17. Turano K, Herdman SJ, Dagnelie G. Visual stabilization of posture in retinitis pigmentosa and in artifi-
+cially restricted visual fields. Invest Ophthalmol Vis Sci. 1993 Sep 1; 34(10):3004 –10. PMID: 8360031
+18. Cornilleau-Peres V, Shabana N, Droulez J, Goh J, Lee G, Chew P. Measurement of the visual contribu-
+tion to postural steadiness from the COP movement: methodology and reliability. Gait Posture. 2005;
+22(2):96–106. PMID: 16139744
+19. Massion J. Postural control system. Curr Opin Neurobiol. 1994 Dec; 4(6):877 –87. PMID: 7888772
+20. Paulus W, Straube A, Brandt T. Visual stabilization of posture. Physiological stimulus characteristics
+and clinical aspects. Brain. 1984 Dec; 107 (Pt 4):1143 –63. PMID: 6509312
+21. Di Girolamo S, Di Nardo W, Cosenza A, Ottaviani F, Dickmann A, Savino G. The role of vision on pos-
+tural strategy evaluated in patients affected by congenital nystagmus as an experimental model. J Ves-
+tib Res. 1999; 9(6):445–51. PMID: 10639029
+22. Peterka RJ. Sensorimotor integration in human postural control. J Neurophysiol. 2002 Aug 15; 88
+(3):1097–118. PMID: 12205132
+23. Paulus W, Straube A, Brandt T. Visual postural performance after loss of somatosensory and vestibular
+function. J Neurol Neurosur Psy. 1987 Nov 1; 50(11):1542 –5.
+24. Shabana N, Cornilleau-Peres V, Droulez J, Goh J, Lee G, Chew P. Postural stability in primary open
+angle glaucoma. Clin Experiment Ophthalmol. 2005; 33(3):264–73. PMID:
+15932530
+25. Schwesig R, Goldich Y, Hahn A, Muller A, Kohen-Raz R, Kluttig A, et al. Postural control in subjects
+with visual impairment. Eur J Ophthalmol. 2010 Feb 26; 21(3):303 –9.
+26. Kotecha A, Richardson G, Chopra R, Fahy RTA, Garway-Heath DF, Rubin GS. Balance control in glau-
+coma. Invest Ophthalmol Vis Sci. 2012 Nov 1; 53(12):7795 –801. doi: 10.1167/iovs.12-10866 PMID:
+23060145
+27. Jeter PE, Wang J, Gu J, Barry MP, Roach C, Corson M, et al. Intra-session test-retest reliability of mag-
+nitude and structure of center of pressure from the Nintendo Wii Balance Board. Gait Posture. 2015
+Feb 1; 41(2):482–7. doi: 10.1016/j.gaitpost.2014.11.012 PMID: 25555361
+28. Kiemel T, Zhang Y, Jeka JJ. Identification of neural feedback for upright stance in humans: Stabilization
+rather than sway minimization. J Neurosci. 2011 Oct 19; 31(42):15144 –53. doi: 10.1523/JNEUROSCI.
+1013-11.2011 PMID: 22016548
+29. Vuillerme N, Teasdale N, Nougier V. The effect of expertise in gymnastics on proprioceptive sensory
+integration in human subjects. Neurosci Lett. 2001 Jan 1; 311(2):73 –6. PMID: 11567781
+30. Rose DJ. FallProof! 2nd ed. Champaign, IL: Human Kinetics; 2010.
+31. Hu M-H, Woollacott MH. Multisensory training of standing balance in older adults: I. Postural stability
+and one-leg stance balance. J Gerontol. 1994; 49(2):M52–M61. PMID: 8126353
+32. Gauchard G, Jeandel C, Tessier A, Perrin P. Beneficial effect of proprioceptive physical activities on
+balance control in elderly human subjects. Neurosci Lett. 1999; 273(2):81 –4. PMID: 10505621
+33. Esculier J-F, Vaudrin J, Bériault P, Gagnon K, Tremblay LE. Home-based balance training programme
+using Wii Fit with balance board for Parkinsons's disease: A pilot study. J Rehabil Med. 2012 Feb; 44
+(2):144–50. doi: 10.2340/16501977-0922 PMID: 22266676
+34. Simmons RW. Sensory organization determinants of postural stability in trained ballet dancers. Int J
+Neurosci. 2005 Jan; 115(1):87–97. PMID: 15768854
+Yoga Increases Sensory Input for Balance in the Blind
+PLOS ONE | DOI:10.1371/journal.pone.0129646 June 24, 2015 20 / 23
+35. Horak FB, Nashner LM, Diener HC. Postural strategies associated with somatosensory and vestibular
+loss. Exp Brain Res. 1990 Jan 1; 82(1):167–77. PMID: 2257901
+36. Rogers ME, Fernandez JE, Bohlken RM. Training to reduce postural sway and increase functional
+reach in the elderly. J Occup Rehabil. 2001; 11(4):291 –8. PMID: 11826729
+37. Radvay X, Duhoux S, Koenig-Supiot F, Vital-Durand F. Balance training and visual rehabilitation of
+age-related macular degeneration patients. J Vestib Res. 2007; 17(4):183–93. PMID: 18525144
+38. Pajala S, Era P, Koskenvuo M, Kaprio J, Törmäkangas T, Rantanen T. Force platform balance mea-
+sures as predictors of indoor and outdoor falls in community-dwelling women aged 63 –76 years. J Ger-
+ontol A Biol Sci Med Sci. 2008 Feb; 63(2):171 –8. PMID: 18314453
+39. Piirtola M, Era P. Force platform measurements as predictors of falls among older people —A review.
+Gerontology. 2006; 52(1):1–16. PMID: 16439819
+40. Maki BE, Holliday PJ, Topper AK. A prospective study of postural balance and risk of falling in an ambu-
+latory and independent elderly population. J Gerontol. 1994 Mar 1; 49(2):M72 –84. PMID: 8126355
+41. Winter DA. Human balance and posture control during standing and walking. Gait Posture. 1995 Dec; 3
+(4):193–214.
+42. Hughes MA, Duncan PW, Rose DK, Chandler JM, Studenski SA. The relationship of postural sway to
+sensorimotor function, functional performance, and disability in the elderly. Arch Phys Med Rehabil.
+1996 Jun; 77(6):567–72. PMID: 8831473
+43. Palmieri R, Ingersoll C, Stone M, Krause B. Center-of-pressure parameters used in the assessment of
+postural control. J Sport Rehabil. 2002; 11(1):51–66.
+44. Shumway-Cook A, Horak FB. Assessing the influence of sensory interaction on balance —suggestion
+from the field. Phys Ther. 1986; 66(10):1548–50. PMID: 3763708
+45. Harbourne RT, Stergiou N. Movement variability and the use of nonlinear tools: principles to guide
+physical therapist practice. Phys Ther. 2009 Feb 26; 89(3):267 –82. doi: 10.2522/ptj.20080130 PMID:
+19168711
+46. Hong Y, Li JX. Biomechanics of tai chi: A review. Sports Biomechs. 2007 Sep; 6(3):453 –64.
+47. Davids K, Kingsbury D, George K, O'Connell M, Stock D. Interacting constraints and the emergence of
+postural behavior in ACL-deficient subjects. J Mot Beh. 1999 Dec; 31(4):358 –66.
+48. Patla A, Frank J, Winter DA. Assessment of balance control in the elderly: major issues. Physiother
+Can. 1990 Mar 15; 42(2):89–97.
+49. Tsang WW, Wong VS, Fu SN, Hui-Chan CW. Tai Chi improves standing balance control under reduced
+or conflicting sensory conditions. Arch Phys Med Rehabil. 2004 Jan; 85(1):129 –37. PMID: 14970980
+50. Li F, Harmer P, Fitzgerald K, Eckstrom E, Stock R, Galver J, et al. Tai chi and postural stability in
+patients with Parkinson's disease. N Engl J Med. 2012 Feb 9; 366(6):511 –9. doi: 10.1056/
+NEJMoa1107911 PMID: 22316445
+51. Wolf SL, Barnhart HX, Ellison GL, Coogler CE. The effect of Tai Chi Quan and computerized balance
+training on postural stability in older subjects. Phys Ther. 1997; 77(4):371 –81. PMID: 9105340
+52. Wayne PM, Gow BJ, Costa MD, Peng CK, Hausdorff JM, Lipsitz LA, et al. Do Complexity-based mea-
+sures of sway inform long- and short-term effects of Tai Chi training on balance in healthy adults? J
+Altern Complement Med. 2014 May; 20(5):A25–5.
+53. Chiacchiero M, Dresely B, Silva U, De Los Reyes R, Vorik B. The relationship between range of move-
+ment, flexibility, and balance in the elderly. Top Geriatr Rehabil. 2010; 26(2):148 –55.
+54. Chiacchiero M, Hazan N, Kronenberg J, Maskaron J. Lower Extremity Strength and Balance. Top Ger-
+iatr Rehabil. 2012; 28(3):182–9.
+55. Mohanty S, Pradhan B, Nagathna R. The effect of yoga practice on proprioception in congenitally blind
+students. Br J Vis Impair. 2014; 32(2):124–35.
+56. Brownstone A. Therapeutic mechanisms of yoga âsana. Int J Yoga Therap. 2001; 11(1):11 –4.
+57. Coulter HD. Anatomy of hatha yoga: A manual for students, teachers, and practitioners. Body and
+Health, Inc; 2001.
+58. Fiori F, David N, Aglioti SM. Processing of proprioceptive and vestibular body signals and self-transcen-
+dence in Ashtanga yoga practitioners. Front Hum Neurosci. 2014; 8.
+59. Hart CE, Tracy BL. Yoga as steadiness training: effects on motor variability in young adults. J Strength
+Cond Res. 2008; 22(5):1659–69. doi: 10.1519/JSC.0b013e31818200dd PMID: 18714217
+60. Schmid AA. Yoga helps target falls, fears in older patients. Lower Extremity Review [Internet]. 2010
+Aug 13;1–10. Available from: http://lermagazine.com/article/yoga-helps-target-falls-fears-in-older-
+patients
+Yoga Increases Sensory Input for Balance in the Blind
+PLOS ONE | DOI:10.1371/journal.pone.0129646 June 24, 2015 21 / 23
+61. Tüzün S, Aktas I, Akarirmak U, Sipahi S, Tüzün F. Yoga might be an alternative training for the quality
+of life and balance in postmenopausal osteoporosis. Eur J Phys Rehabil Med. 2010; 46:1 –4. PMID:
+20332719
+62. Hewett ZL, Ransdell LB, Gao Y, Petlichkoff LM, Lucas S. An examination of the effectiveness of an 8-
+week bikram yoga program on mindfulness, perceived stress, and physical fitness. J Exerc Sci Fit. Chi-
+nese Taipei Society of Ultrasound in Medicine & Elsevier; 2011 Mar 12; 9(2):87 –92.
+63. Jeter PE, Dagnelie G, Khalsa SB, Haaz S, Bittner AK. Yoga for persons with severe visual impairment:
+a feasibility study. Altern Med Studies. 2012; 2(1):e5.
+64. Jeter PE, Dagnelie G, Khalsa SBS, Haaz S, Bittner AK. Yoga for persons with severe visual
+impairment: a feasibility study. Altern Med Studiies. 2012 Jan 2;2(1).
+65. Jeter P, Roach C, Corson M, Ryan C, Nkodo A-F, Haaz Moonaz S, et al. Yoga reduces fear of falling
+and negative psychosocial states in persons with visual impairment. J Altern Complement Med. 2014
+ay; 20(5):A57–7. Available from: http://online.liebertpub.com/doi/pdfplus/10.1089/acm.2014.5149.
+abstract
+66. Era P, Sainio P, Koskinen S, Haavisto P, Vaara M, Aromaa A. Postural balance in a random sample of
+7,979 subjects aged 30 years and over. Gerontology. 2006; 52(4):204 –13. PMID: 16849863
+67. Yim-Chiplis PK, Talbot LA. Defining and measuring balance in adults. Biol Res Nurs. 2000 Apr 1; 1
+(4):321–31. PMID: 11232210
+68. Black FO, Wall C, Rockette HE, Kitch R. Normal subject postural sway during the Romberg test. Am J
+of Otolaryngol. 1982; 3(5):309–18.
+69. Lê T-T, Kapoula Z. Role of ocular convergence in the Romberg quotient. Gait Posture. 2008 Apr; 27
+(3):493–500. PMID: 17669653
+70. Vellas BJ, Wayne SJ, Romero L, Baumgartner RN, Rubenstein LZ, Garry PJ. One-leg balance is an
+important predictor of injurious falls in older persons. J Am Geriatr Soc. 1997 Jun 1; 45(6):735 –8. PMID:
+9180669
+71. Jones CJ, Rikli RE. Measuring functional fitness of older adults. The Journal on active aging. 2002;
+1:24–30.
+72. Schmid AA, Van Puymbroeck M, Koceja DM. Effect of a 12-Week yoga intervention on fear of falling
+and balance in older adults: A pilot study. Arch Phys Med Rehabil. 2010 Apr; 91(4):576 –83. doi: 10.
+1016/j.apmr.2009.12.018 PMID: 20382290
+73. Csuka M, McCarty DJ. Simple method for measurement of lower extremity muscle strength. Am J Med.
+1985 Jan; 78(1):77–81. PMID: 3966492
+74. Clark RA, Bryant AL, Pua Y, McCrory P, Bennell K, Hunt M. Validity and reliability of the Nintendo Wii
+Balance Board for assessment of standing balance. Gait Posture. 2010 Mar; 31(3):307 –10. doi: 10.
+1016/j.gaitpost.2009.11.012 PMID: 20005112
+75. Young W, Ferguson S, Brault S, Craig C. Assessing and training standing balance in older adults: A
+novel approach using the Nintendo Wii Balance Board. Gait Posture. Elsevier B.V; 2011 Feb 1; 33
+(2):303–5.
+76. Salavati M, Hadian MR, Mazaheri M, Negahban H, Ebrahimi I, Talebian S,et al. Test-retest reliability of
+center of pressure measures of postural stability during quiet standing in a group with musculoskeletal
+disorders consisting of low back pain, anterior cruciate ligament injury and functional ankle instability.
+Gait Posture. 2009; 29(3):460–4. doi: 10.1016/j.gaitpost.2008.11.016 PMID: 19167891
+77. Bartlett HL, Ting LH, Bingham JT. Accuracy of force and center of pressure measures of the Wii Bal-
+ance Board. Gait Posture. 2014 Jan 1; 39(1):224–8. doi: 10.1016/j.gaitpost.2013.07.010 PMID:
+23910725
+78. Ferguson CJ. An effect size primer: a guide for clinicians and researchers. Prof Psychol Res Pr. 2009;
+40(5):532–8.
+79. Jeter PE, Nkodo A-F, Moonaz SH, Dagnelie G. A systematic review of yoga for balance in a healthy
+population. J Altern Complement Med. 2014 Apr; 20(4):221–32. doi: 10.1089/acm.2013.0378 PMID:
+24517304
+80. Wang M-Y, Yu SS-Y, Hashish R, Samarawickrame SD, Kazadi L, Greendale GA, et al. The biomechan-
+ical demands of standing yoga poses in seniors: The Yoga empowers seniors study (YESS). BMC
+Complement Altern Med. 2013 Jan 9; 13(1):8–8.
+81. Chen EW, Fu ASN, Chan KM, Tsang WWN. The effects of Tai Chi on the balance control of elderly per-
+sons with visual impairment: a randomised clinical trial. Age Ageing. 2011 Dec 16; 41(2):254 –9. doi: 10.
+1093/ageing/afr146 PMID: 22180415
+82. Gyllensten AL, Hui-Chan CWY, Tsang WWN. Stability limits, single-leg jump, and body awareness in
+older Tai Chi practitioners. Arch Phys Med Rehabil. 2010 Feb; 91(2):215 –20. doi: 10.1016/j.apmr.2009.
+10.009 PMID: 20159124
+Yoga Increases Sensory Input for Balance in the Blind
+PLOS ONE | DOI:10.1371/journal.pone.0129646 June 24, 2015 22 / 23
+83. NIH N, editor. Yoga for Health [Internet]. National Center for Complementary and Alternative Medicine;
+[cited 2013 Aug 27]. Available from: http://nccam.nih.gov/health/yoga/introduction.htm#hed3
+84. Ross A. The health benefits of yoga and exercise: a review of comparison studies. J Altern Comple-
+ment Med. 2010 Jan; 16(1):3–12. doi: 10.1089/acm.2009.0044 PMID: 20105062
+85. Duncan PW, Weiner DK, Chandler J, Studenski S. Functional reach —a new Clinical measure of bal-
+ance. J Gerontol. 1990 Nov; 45(6):M192–7. PMID: 2229941
+86. Jonsson E, Henriksson M, Hirschfeld H. Does the functional reach test reflect stability limits in elderly
+people? J Rehabil Med. 2003 Jan; 35(1):26–30. PMID: 12610845
+87. Coogler CE, Wolf S. Consistency of postural responses in elderly individuals. Woollacott M, Horak FB,
+editors. Posture and gait: control mechanisms. 1992; 2:239–42.
+Yoga Increases Sensory Input for Balance in the Blind
+PLOS ONE | DOI:10.1371/journal.pone.0129646 June 24, 2015 23 / 23

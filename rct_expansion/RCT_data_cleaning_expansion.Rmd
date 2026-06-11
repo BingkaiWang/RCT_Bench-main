@@ -1,0 +1,2219 @@
+---
+title: "RCT_data_cleaning_expansion"
+author: "Codex"
+date: "2026-06-08"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
+library(tidyverse)
+library(readxl)
+library(readr)
+library(writexl)
+library(striprtf)
+library(janitor)
+library(stringr)
+library(haven)
+```
+
+```{r helpers}
+root = "rct_expansion"
+raw_dir = file.path(root, "raw_data")
+clean_dir = file.path(root, "cleaned_data")
+meta_dir = file.path(root, "metadata")
+prov_dir = file.path(root, "provenance")
+pub_dir = file.path(root, "publications")
+
+dir.create(clean_dir, recursive = TRUE, showWarnings = FALSE)
+dir.create(meta_dir, recursive = TRUE, showWarnings = FALSE)
+dir.create(prov_dir, recursive = TRUE, showWarnings = FALSE)
+dir.create(pub_dir, recursive = TRUE, showWarnings = FALSE)
+
+num = function(x) readr::parse_number(as.character(x))
+
+last_nonmissing = function(df) {
+  apply(df, 1, function(row) {
+    vals = row[!is.na(row) & row != ""]
+    if (length(vals) == 0) return(NA_real_)
+    num(vals[length(vals)])
+  })
+}
+
+write_trial = function(df, trial_id) {
+  path_base = file.path(clean_dir, paste0("trial", trial_id))
+  write_csv(df, paste0(path_base, ".csv"))
+  write_rds(df, paste0(path_base, ".rds"))
+}
+
+set_treatment = function(x, levels) {
+  factor(x, levels = levels)
+}
+
+clean_variable_type = function(variable_name) {
+  case_when(
+    variable_name == "Treatment" ~ "Treatment assignment",
+    startsWith(variable_name, "YP_") ~ "Primary outcome",
+    startsWith(variable_name, "YS_") ~ "Secondary outcome",
+    startsWith(variable_name, "X_") ~ "Baseline covariate",
+    TRUE ~ "Other"
+  )
+}
+
+clean_variable_explanation = function(variable_name) {
+  readable_name = variable_name %>%
+    str_remove("^(YP|YS|X)_") %>%
+    str_replace_all("_", " ") %>%
+    str_squish()
+
+  case_when(
+    variable_name == "Treatment" ~ "Randomized treatment assignment; control or reference arm is first when identifiable.",
+    startsWith(variable_name, "YP_") ~ paste("Primary outcome:", readable_name),
+    startsWith(variable_name, "YS_") ~ paste("Secondary outcome:", readable_name),
+    startsWith(variable_name, "X_") ~ paste("Baseline covariate or pre-treatment measurement:", readable_name),
+    TRUE ~ paste("Cleaned analysis variable:", readable_name)
+  )
+}
+
+time_to_minutes = function(x) {
+  if (inherits(x, "POSIXt")) {
+    return(lubridate::hour(x) + lubridate::minute(x) / 60 + lubridate::second(x) / 3600)
+  }
+  num(x)
+}
+
+rtf_rows = function(path) {
+  txt = read_rtf(path)
+  txt = paste(txt, collapse = "\n")
+  txt = iconv(txt, from = "", to = "UTF-8", sub = " ")
+  rows = strsplit(txt, "*|", fixed = TRUE)[[1]]
+  rows = trimws(rows)
+  rows[nchar(rows) > 0]
+}
+
+parse_care_listing = function(path, value_index) {
+  rows = rtf_rows(path)
+  current_id = NA_character_
+  current_trt = NA_character_
+  out = list()
+  k = 1
+
+  for (row in rows) {
+    parts = trimws(strsplit(row, "|", fixed = TRUE)[[1]])
+    if (length(parts) < value_index) next
+    if (grepl("^[0-9]{6}$", parts[1])) {
+      current_id = parts[1]
+      current_trt = gsub("\n", " ", parts[2])
+    }
+    visit = parts[3]
+    if (!visit %in% c("Baseline", "Day 7", "Day 14", "Day 21-EOS", "Day 21–EOS", "ET")) next
+    if (is.na(current_id)) next
+    out[[k]] = tibble(
+      patient_id = current_id,
+      treatment = current_trt,
+      visit = recode(visit, "Day 21–EOS" = "Day 21-EOS"),
+      value = num(parts[value_index])
+    )
+    k = k + 1
+  }
+
+  bind_rows(out)
+}
+
+parse_care_demographics = function(path) {
+  rows = rtf_rows(path)
+  out = map_dfr(rows, function(row) {
+    parts = trimws(strsplit(row, "|", fixed = TRUE)[[1]])
+    if (length(parts) < 3 || !grepl("^[0-9]{6}$", parts[1])) return(NULL)
+    tibble(
+      patient_id = parts[1],
+      treatment = gsub("\n", " ", parts[2]),
+      X_sex = parts[3]
+    )
+  })
+  out %>% distinct(patient_id, .keep_all = TRUE)
+}
+
+normalize_match_text = function(x) {
+  x = tolower(as.character(x))
+  x = gsub("[\r\n\t]+", " ", x)
+  x = gsub("https?://doi.org/", "", x)
+  x = gsub("[^a-z0-9]+", " ", x)
+  str_squish(x)
+}
+
+extract_first_doi = function(x) {
+  x = tolower(paste(as.character(x), collapse = " "))
+  doi = str_extract(x, "10\\.\\d{4,9}/[-._;()/:a-z0-9]+")
+  if_else(is.na(doi), NA_character_, str_remove(doi, "[\\.,;]+$"))
+}
+
+title_token_similarity = function(x, y) {
+  stop_words = c("a", "an", "and", "as", "for", "from", "in", "of", "on", "or", "the", "to", "with", "trial", "randomized", "randomised", "controlled", "study", "data")
+  x_tokens = setdiff(str_split(x, " ", simplify = FALSE)[[1]], stop_words)
+  y_tokens = setdiff(str_split(y, " ", simplify = FALSE)[[1]], stop_words)
+  x_tokens = x_tokens[nchar(x_tokens) >= 3]
+  y_tokens = y_tokens[nchar(y_tokens) >= 3]
+  if (length(x_tokens) == 0 || length(y_tokens) == 0) return(NA_real_)
+  length(intersect(x_tokens, y_tokens)) / min(length(x_tokens), length(y_tokens))
+}
+
+metadata_reference_table = function(path, source_name) {
+  if (!file.exists(path)) return(tibble())
+  read_excel(path, sheet = 1) %>%
+    transmute(
+      reference_source = source_name,
+      reference_trial_id = as.character(Trial_ID),
+      reference_title = as.character(`Paper Name`),
+      reference_link = as.character(`Paper Link`),
+      reference_citation = if ("Citation" %in% names(.)) as.character(Citation) else NA_character_,
+      reference_title_norm = normalize_match_text(reference_title),
+      reference_doi = map2_chr(reference_link, reference_citation, ~ extract_first_doi(c(.x, .y)))
+    )
+}
+
+candidate_duplicate_screen = function(candidates, current_trial_ids = character()) {
+  references = bind_rows(
+    metadata_reference_table(file.path("cleaned_data", "meta_data.xlsx"), "original_meta_data"),
+    metadata_reference_table(file.path(meta_dir, "meta_data_expansion.xlsx"), "expansion_meta_data")
+  ) %>%
+    filter(!(reference_source == "expansion_meta_data" & reference_trial_id %in% as.character(current_trial_ids)))
+
+  if (nrow(references) == 0 || nrow(candidates) == 0) {
+    return(tibble())
+  }
+
+  candidates = candidates %>%
+    mutate(
+      candidate_trial_id = as.character(candidate_trial_id),
+      candidate_title_norm = normalize_match_text(candidate_title),
+      candidate_doi = map2_chr(candidate_link, candidate_citation, ~ extract_first_doi(c(.x, .y)))
+    )
+
+  crossing(candidates, references) %>%
+    mutate(
+      title_distance = map2_dbl(candidate_title_norm, reference_title_norm, ~ {
+        if (is.na(.x) || is.na(.y) || .x == "" || .y == "") return(NA_real_)
+        adist(.x, .y)[1] / max(nchar(.x), nchar(.y))
+      }),
+      title_token_overlap = map2_dbl(candidate_title_norm, reference_title_norm, title_token_similarity),
+      title_subset_match = !is.na(candidate_title_norm) & !is.na(reference_title_norm) &
+        candidate_title_norm != "" & reference_title_norm != "" &
+        pmin(nchar(candidate_title_norm), nchar(reference_title_norm)) >= 30 &
+        (str_detect(reference_title_norm, fixed(candidate_title_norm)) | str_detect(candidate_title_norm, fixed(reference_title_norm))),
+      match_rule = case_when(
+        !is.na(candidate_doi) & !is.na(reference_doi) & candidate_doi == reference_doi ~ "paper_doi_exact",
+        !is.na(candidate_title_norm) & candidate_title_norm != "" & candidate_title_norm == reference_title_norm ~ "title_exact",
+        title_subset_match ~ "title_subset",
+        !is.na(title_token_overlap) & title_token_overlap >= 0.70 ~ "title_token_overlap",
+        !is.na(title_distance) & title_distance <= 0.12 ~ "title_fuzzy",
+        TRUE ~ NA_character_
+      ),
+      duplicate_flag = !is.na(match_rule)
+    ) %>%
+    filter(duplicate_flag) %>%
+    transmute(
+      candidate_status,
+      candidate_trial_id,
+      candidate_title,
+      candidate_link,
+      candidate_dataset_or_record = candidate_dataset_or_record,
+      reference_source,
+      reference_trial_id,
+      reference_title,
+      reference_link,
+      match_rule,
+      title_distance,
+      title_token_overlap
+    ) %>%
+    arrange(candidate_status, candidate_trial_id, candidate_title, reference_source, reference_trial_id)
+}
+```
+
+# Trial 51
+
+Sleep hygiene education and lavender essential-oil inhalation in athletes undergoing late-evening training.
+
+```{r trial51}
+t51_base = read_excel(file.path(raw_dir, "trial51", "Sleep_hygiene_lavender_RCT_Data.xlsx"), sheet = "Participants") %>%
+  rename(ID = ID, group = Grp) %>%
+  select(ID, group, Age, Height, Weight, TS, TTH, IMC, MEQ)
+
+t51_sl = read_excel(file.path(raw_dir, "trial51", "Sleep_hygiene_lavender_RCT_Data.xlsx"), sheet = "Hooper_sl") %>%
+  transmute(ID, X_sleep_quality_0w = num(Pre), YS_delta_subjective_sleep_quality_post = num(Post) - num(Pre))
+t51_act = read_excel(file.path(raw_dir, "trial51", "Sleep_hygiene_lavender_RCT_Data.xlsx"), sheet = "Actigraphy_data") %>%
+  transmute(ID, YP_sleep_latency_7d = num(Latency), YS_sleep_efficiency_7d = num(Efficiency))
+t51_fat = read_excel(file.path(raw_dir, "trial51", "Sleep_hygiene_lavender_RCT_Data.xlsx"), sheet = "FAT") %>%
+  transmute(ID, X_fatigue_0w = num(Pre), YS_delta_fatigue_post = num(Post) - num(Pre))
+t51_calm = read_excel(file.path(raw_dir, "trial51", "Sleep_hygiene_lavender_RCT_Data.xlsx"), sheet = "CALM") %>%
+  transmute(ID, X_calmness_0w = num(Pre), YS_delta_calmness_post = num(Post) - num(Pre))
+
+df51_final = t51_base %>%
+  left_join(t51_sl, by = "ID") %>%
+  left_join(t51_act, by = "ID") %>%
+  left_join(t51_fat, by = "ID") %>%
+  left_join(t51_calm, by = "ID") %>%
+  transmute(
+    Treatment = set_treatment(recode(group, CG = "Control", SH = "Sleep hygiene", LEO = "Lavender oil", SLEO = "Sleep hygiene + lavender oil"), c("Control", "Sleep hygiene", "Lavender oil", "Sleep hygiene + lavender oil")),
+    YP_sleep_latency_7d,
+    YS_sleep_efficiency_7d,
+    YS_delta_subjective_sleep_quality_post,
+    YS_delta_fatigue_post,
+    YS_delta_calmness_post,
+    X_sleep_quality_0w,
+    X_fatigue_0w,
+    X_calmness_0w,
+    X_age_0w = num(Age),
+    X_height_0w = num(Height),
+    X_weight_0w = num(Weight),
+    X_training_sessions_per_week_0w = num(TS),
+    X_training_hours_0w = num(TTH),
+    X_morningness_eveningness_0w = num(MEQ)
+  )
+write_trial(df51_final, 51)
+```
+
+# Trial 52
+
+Tenapanor for hyperphosphatemia and constipation in hemodialysis patients.
+
+```{r trial52}
+t52_base = read_excel(file.path(raw_dir, "trial52", "Baseline_Excluding_dropouts.xlsx"))
+t52_ip = read_excel(file.path(raw_dir, "trial52", "iP.xlsx"))
+t52_bsfs = read_excel(file.path(raw_dir, "trial52", "BSFS.xlsx"))
+
+df52_final = t52_base %>%
+  left_join(t52_ip, by = "ID", suffix = c("_base", "_ip")) %>%
+  left_join(t52_bsfs, by = "ID") %>%
+  transmute(
+    Treatment = set_treatment(if_else(Tenapanor_base == 1, "Tenapanor", "Control"), c("Control", "Tenapanor")),
+    YP_delta_serum_phosphorus_23w = num(`23 week`) - num(`0 week`),
+    YP_delta_bsfs_7w = num(BSFS7) - num(`BSFS base`),
+    X_serum_phosphorus_0w = num(`0 week`),
+    X_bsfs_0w = num(`BSFS base`),
+    X_age_0w = num(Age),
+    X_male_0w = factor(Male),
+    X_dialysis_vintage_0w = num(Vintage),
+    X_dry_weight_0w = num(DW),
+    X_bun_0w = num(BUN),
+    X_creatinine_0w = num(Cr),
+    X_calcium_0w = num(Ca),
+    X_albumin_0w = num(Alb),
+    X_crp_0w = num(CRP),
+    X_hb_0w = num(Hb),
+    X_diabetes_0w = factor(DM),
+    X_ipth_0w = num(iPTH),
+    X_ktv_0w = num(Kt.Vsp)
+  )
+write_trial(df52_final, 52)
+```
+
+# Trial 53
+
+Anterior quadratus lumborum block in laparoscopic partial nephrectomy.
+
+```{r trial53}
+t53 = read_excel(file.path(raw_dir, "trial53", "QLB_partial_nephrectomy_RCT_DATA.xlsx"))
+
+df53_final = tibble(
+  Treatment = set_treatment(if_else(t53[[15]] == 2, "Group 2", "Group 1"), c("Group 1", "Group 2")),
+  YP_total_sufentanil_perioperative = num(t53[[17]]),
+  YS_sufentanil_0_24h = num(t53[[22]]) + num(t53[[24]]) + num(t53[[26]]),
+  YS_nrs_static_24h = num(t53[[44]]),
+  YS_nrs_dynamic_24h = num(t53[[45]]),
+  YS_rescue_analgesia = factor(t53[[50]]),
+  YS_qor40 = num(t53[[51]]),
+  X_age_0d = num(t53[[4]]),
+  X_male_0d = factor(t53[[2]]),
+  X_asa_0d = num(t53[[8]]),
+  X_bmi_0d = num(t53[[14]]),
+  X_surgery_duration_0d = num(t53[[10]]),
+  X_anesthesia_duration_0d = num(t53[[9]]),
+  X_surgical_approach_0d = factor(t53[[16]])
+)
+write_trial(df53_final, 53)
+```
+
+# Trial 54
+
+Vaginal spheres and pelvic floor muscle training in women with urinary incontinence and sexual dysfunction.
+
+```{r trial54}
+t54 = read_excel(file.path(raw_dir, "trial54", "Dades_boles_Rap_excel_girado_para_SPSS_enviado_20_enero_2024_2.xlsx"), sheet = "Hoja3")
+
+df54_final = t54 %>%
+  transmute(
+    Treatment = set_treatment(if_else(Grup == 1, "Vaginal spheres + pelvic floor training", "Pelvic floor training"), c("Pelvic floor training", "Vaginal spheres + pelvic floor training")),
+    YP_fsfi_total_v5 = num(`FSFI total_V5`),
+    YS_iciq_sf_v5 = num(`ICIQ-SF_V5`),
+    YS_oxford_power_v5 = num(`Oxford power_V5`),
+    X_iciq_sf_0m = num(`ICIQ-SF_basal`),
+    X_fsfi_total_0m = num(`FSFI total_basal`),
+    X_oxford_power_0m = num(`Oxford power_1V`),
+    X_age_0m = num(Edad),
+    X_symptom_duration_months_0m = num(`Duració dels símptomes en mesos`),
+    X_full_term_pregnancies_0m = num(`Embarasos a tèrmino`),
+    X_menopause_age_0m = num(`Inici menoapausa`)
+  )
+write_trial(df54_final, 54)
+```
+
+# Trial 55
+
+Taking Charge after COPD exacerbation feasibility study.
+
+```{r trial55}
+t55 = read_excel(file.path(raw_dir, "trial55", "Taking_Charge_COPD_RAW_DATA.xlsx"))
+
+df55_final = t55 %>%
+  filter(Group_allocation %in% c("Control", "Taking Charge")) %>%
+  transmute(
+    Treatment = set_treatment(Group_allocation, c("Control", "Taking Charge")),
+    YP_total_moderate_serious_aecopd_12m = num(Total_number_moderate_or_serious_AECOPD_events_in_12mnth_following_index_admission),
+    YS_serious_aecopd_12m = num(Number_serious_AECOPD_events_in_12mnth_following_index_admission),
+    YS_alive_12m = factor(Alive_at_12months),
+    YS_pulmonary_rehab_attendance_12m = factor(Attended_at_least_one_pulmonary_rehab_session_12mnth_following_index_admission),
+    X_age_0m = num(`Age_at_Index Admission`),
+    X_gender_0m = factor(Gender),
+    X_ethnicity_0m = factor(Ethnicity),
+    X_current_smoker_0m = factor(Current_smoker),
+    X_pack_years_0m = num(Pack_Years),
+    X_bmi_0m = num(Body_mass_index_at_index_admission),
+    X_domiciliary_oxygen_0m = factor(On_domiciliary_oxygen_at_index_admission),
+    X_prior_pulmonary_rehab_0m = factor(`Attended _pulmonary_rehabilitation_prior_to_index_admission`),
+    X_charlson_0m = num(Charlson_Comorbidity_Index_at_index_admission),
+    X_prior_aecopd_events_12m = num(Number_hospital_admissions_in_12month_prior_to_index_admission) + num(Number_ED_visits_in_12month_prior_to_index_admission)
+  )
+write_trial(df55_final, 55)
+```
+
+# Trial 56
+
+Transcranial direct-current stimulation for attention skills in burnout patients.
+
+```{r trial56}
+t56 = read_tsv(file.path(raw_dir, "trial56", "Data_burnout.txt"), show_col_types = FALSE) %>%
+  mutate(across(-c(pp, Time, tDCS, Geslacht), num))
+
+t56_pre = t56 %>%
+  filter(Time == "pre") %>%
+  transmute(
+    pp,
+    Treatment = set_treatment(recode(tDCS, Sham = "Sham tDCS", Real = "Active tDCS"), c("Sham tDCS", "Active tDCS")),
+    X_gender_0w = factor(Geslacht),
+    X_age_0w = Leeftijd,
+    X_attention_rbans_0w = `RBANS Attention`,
+    X_burnout_mbs_0w = BMS,
+    X_depression_bdi_0w = BDI,
+    X_quality_of_life_0w = QoL,
+    X_immediate_memory_0w = `RBANS Immediate Memory`,
+    X_visuospatial_memory_0w = `RBANS Visuospatial Memory`,
+    X_language_0w = `RBANS Language`,
+    X_recent_memory_0w = `RBANS Recent Memory`
+  )
+
+t56_post = t56 %>%
+  filter(Time == "post") %>%
+  transmute(
+    pp,
+    YP_attention_rbans_post = `RBANS Attention`,
+    YP_delta_attention_rbans_post = `RBANS Attention` - t56_pre$X_attention_rbans_0w[match(pp, t56_pre$pp)],
+    YS_burnout_mbs_post = BMS,
+    YS_delta_burnout_mbs_post = BMS - t56_pre$X_burnout_mbs_0w[match(pp, t56_pre$pp)],
+    YS_depression_bdi_post = BDI,
+    YS_quality_of_life_post = QoL
+  )
+
+df56_final = t56_pre %>%
+  left_join(t56_post, by = "pp") %>%
+  select(-pp)
+write_trial(df56_final, 56)
+```
+
+# Trial 57
+
+Functional imagery training versus motivational interviewing for weight loss.
+
+```{r trial57}
+t57 = read_csv(file.path(raw_dir, "trial57", "blind_data.csv"), show_col_types = FALSE) %>%
+  filter(!is.na(group)) %>%
+  mutate(
+    group = recode(as.character(group), `1` = "Motivational interviewing", `2` = "Functional imagery training"),
+    bmi1 = kg1 / height^2
+  )
+
+df57_final = t57 %>%
+  transmute(
+    Treatment = set_treatment(group, c("Motivational interviewing", "Functional imagery training")),
+    YP_weight_loss_6m = kg1 - kg2,
+    YP_weight_loss_12m = kg1 - kg3,
+    YS_waist_loss_6m = cm1 - cm2,
+    YS_waist_loss_12m = cm1 - cm3,
+    YS_general_quality_of_life_6m = gqol2,
+    X_weight_0m = kg1,
+    X_waist_0m = cm1,
+    X_bmi_0m = bmi1,
+    X_general_quality_of_life_0m = gqol1,
+    X_age_0m = age,
+    X_female_0m = factor(gender == "f"),
+    X_height_0m = height
+  )
+write_trial(df57_final, 57)
+```
+
+# Trial 58
+
+Transcranial direct-current stimulation and cognitive training in schizophrenia.
+
+```{r trial58}
+t58 = read_csv(file.path(raw_dir, "trial58", "tDCS+cognitive training study data share.csv"), show_col_types = FALSE) %>%
+  filter(treatment %in% c(1, 2))
+
+df58_final = t58 %>%
+  transmute(
+    Treatment = set_treatment(if_else(treatment == 1, "Sham tDCS + cognitive training", "Active tDCS + cognitive training"), c("Sham tDCS + cognitive training", "Active tDCS + cognitive training")),
+    YP_rbans_total_1w = `IS-RBANS B (Total)`,
+    YP_delta_rbans_total_1w = `IS-RBANS B (Total)` - `IS-RBANS A (Total)`,
+    YS_rbans_attention_1w = `IS-RBANS B (ATT)`,
+    YS_delta_rbans_attention_1w = `IS-RBANS B (ATT)` - `IS-RBANS A (ATT)`,
+    YS_panss_total_1w = `PANSS Total 1W`,
+    YS_delta_panss_total_1w = `PANSS Total 1W` - `PANSS Total B`,
+    X_rbans_total_0w = `IS-RBANS A (Total)`,
+    X_rbans_attention_0w = `IS-RBANS A (ATT)`,
+    X_panss_total_0w = `PANSS Total B`,
+    X_age_0w = age,
+    X_female_0w = factor(sex == 2),
+    X_illness_duration_years_0w = `DOI F20 (years)`,
+    X_olanzapine_equivalent_mg_0w = `OLZ-eq (mg)`,
+    X_antidepressant_0w = factor(AD),
+    X_benzodiazepine_0w = factor(BDZ),
+    X_education_0w = factor(education),
+    X_employment_0w = factor(employment)
+  )
+write_trial(df58_final, 58)
+```
+
+# Trial 59
+
+Acute tissue flossing for ankle range of motion in athletes.
+
+```{r trial59}
+t59 = read_excel(file.path(raw_dir, "trial59", "Data.xlsx"), sheet = "Data")
+
+df59_final = t59 %>%
+  transmute(
+    Treatment = set_treatment(recode(Group, CO = "Static stretching", TF = "Tissue flossing"), c("Static stretching", "Tissue flossing")),
+    YP_dorsiflexion_dominant_post = Post,
+    YP_delta_dorsiflexion_dominant_post = Post - Baseline,
+    YS_dorsiflexion_dominant_followup = Followup,
+    YS_plantarflexion_dominant_post = PostPFROM,
+    YS_delta_plantarflexion_dominant_post = PostPFROM - BaselinePFROM,
+    YS_dorsiflexion_nondominant_post = PostNMDFROM,
+    YS_delta_dorsiflexion_nondominant_post = PostNMDFROM - BaselinNMDFROM,
+    X_dorsiflexion_dominant_0d = Baseline,
+    X_plantarflexion_dominant_0d = BaselinePFROM,
+    X_dorsiflexion_nondominant_0d = BaselinNMDFROM,
+    X_plantarflexion_nondominant_0d = BaelineNMPFROM,
+    X_age_0d = Age,
+    X_height_0d = Height,
+    X_weight_0d = Weight,
+    X_bmi_0d = BMI
+  )
+write_trial(df59_final, 59)
+```
+
+# Trial 60
+
+Interferential-current dental facial treatment for masticatory function.
+
+```{r trial60}
+t60_base = file.path(raw_dir, "trial60", "YoshiDr323-DFT-IW-masticatory-83d4493", "data", "processed")
+t60_glucose = read_csv(file.path(t60_base, "DFT_glucose.csv"), show_col_types = FALSE) %>%
+  pivot_wider(names_from = Time, values_from = Value) %>%
+  transmute(
+    ID,
+    Sequence,
+    Period,
+    Treatment = set_treatment(recode(Treatment, N = "Sham", S = "IW stimulation"), c("Sham", "IW stimulation")),
+    X_glucose_elution_pre = Pre,
+    YP_glucose_elution_post = Post,
+    YP_delta_glucose_elution_post = Post - Pre
+  )
+t60_vas = read_csv(file.path(t60_base, "DFT_VAS.csv"), show_col_types = FALSE) %>%
+  pivot_wider(names_from = Time, values_from = VAS) %>%
+  transmute(
+    ID,
+    Sequence,
+    Period,
+    X_chewing_ease_vas_pre = Pre,
+    YS_chewing_ease_vas_post = Post,
+    YS_delta_chewing_ease_vas_post = Post - Pre
+  )
+
+df60_final = t60_glucose %>%
+  left_join(t60_vas, by = c("ID", "Sequence", "Period")) %>%
+  transmute(
+    Treatment,
+    YP_glucose_elution_post,
+    YP_delta_glucose_elution_post,
+    YS_chewing_ease_vas_post,
+    YS_delta_chewing_ease_vas_post,
+    X_glucose_elution_pre,
+    X_chewing_ease_vas_pre,
+    X_sequence_0d = factor(Sequence),
+    X_period_0d = factor(Period)
+  )
+write_trial(df60_final, 60)
+```
+
+# Trial 61
+
+Cinnamon, chromium, and carnosine dietary supplementation in overweight or obese pre-diabetic adults.
+
+```{r trial61}
+t61 = read_excel(file.path(raw_dir, "trial61", "plos_s1_dataset_cinnamon.xlsx")) %>%
+  group_by(Num) %>%
+  fill(traitement, Sexe, n_randomisation, .direction = "downup") %>%
+  ungroup() %>%
+  filter(traitement %in% c("P", "Ver"))
+
+df61_final = t61 %>%
+  select(
+    Num, Temps, Sexe, n_randomisation, traitement, Poids, tour_taille, tour_hanche,
+    TA_S, TA_D, Chol, TG, HDL, LDL, glycemie, insulinemie, HOMA2_IR, BMI,
+    HbA1c, Q_Ac_WI, Q_Ac_SI, Q_Ac_LI, Q_TFEQ_R, Q_TFEQ_D, Q_TFEQ_F
+  ) %>%
+  pivot_wider(
+    id_cols = c(Num, Sexe, n_randomisation, traitement),
+    names_from = Temps,
+    values_from = c(
+      Poids, tour_taille, tour_hanche, TA_S, TA_D, Chol, TG, HDL, LDL, glycemie,
+      insulinemie, HOMA2_IR, BMI, HbA1c, Q_Ac_WI, Q_Ac_SI, Q_Ac_LI, Q_TFEQ_R,
+      Q_TFEQ_D, Q_TFEQ_F
+    )
+  ) %>%
+  transmute(
+    Treatment = set_treatment(recode(traitement, P = "Placebo", Ver = "Supplement"), c("Placebo", "Supplement")),
+    YP_delta_fasting_glucose_4m = glycemie_M4 - glycemie_M0,
+    YS_delta_hba1c_4m = HbA1c_M4 - HbA1c_M0,
+    YS_delta_homa_ir_4m = HOMA2_IR_M4 - HOMA2_IR_M0,
+    YS_delta_fasting_insulin_4m = insulinemie_M4 - insulinemie_M0,
+    X_sex = factor(Sexe),
+    X_weight_0m = Poids_M0,
+    X_bmi_0m = BMI_M0,
+    X_waist_0m = tour_taille_M0,
+    X_hip_0m = tour_hanche_M0,
+    X_sbp_0m = TA_S_M0,
+    X_dbp_0m = TA_D_M0,
+    X_fasting_glucose_0m = glycemie_M0,
+    X_hba1c_0m = HbA1c_M0,
+    X_homa_ir_0m = HOMA2_IR_M0,
+    X_fasting_insulin_0m = insulinemie_M0,
+    X_total_cholesterol_0m = Chol_M0,
+    X_hdl_0m = HDL_M0,
+    X_ldl_0m = LDL_M0,
+    X_triglycerides_0m = TG_M0,
+    X_walking_activity_0m = Q_Ac_WI_M0,
+    X_sport_activity_0m = Q_Ac_SI_M0,
+    X_leisure_activity_0m = Q_Ac_LI_M0,
+    X_tfeq_restraint_0m = Q_TFEQ_R_M0,
+    X_tfeq_disinhibition_0m = Q_TFEQ_D_M0,
+    X_tfeq_hunger_0m = Q_TFEQ_F_M0
+  )
+write_trial(df61_final, 61)
+```
+
+# Trial 62
+
+Conversion from cyclosporine to tacrolimus after kidney transplantation.
+
+```{r trial62}
+t62 = read_excel(file.path(raw_dir, "trial62", "plos_s1_dataset_kidney.xlsx")) %>%
+  mutate(across(-c(ID, randomized), num))
+
+df62_final = t62 %>%
+  transmute(
+    Treatment = set_treatment(recode(randomized, CSA = "Cyclosporine", TAC = "Tacrolimus"), c("Cyclosporine", "Tacrolimus")),
+    YP_ckdepi_24m = CKDEpi.2a,
+    YS_ckdepi_12m = CKDEpi.1a,
+    YS_ckdepi_3m = CKDEpi.3m,
+    YS_mdrd4_24m = MDRD4.2a,
+    X_creatinine_0m = creatinine.baseline,
+    X_ckdepi_0m = CKDEpi.baseline,
+    X_mdrd4_0m = MDRD4.baseline,
+    X_csa_trough_0m = CSAtroughLevel.baseline
+  )
+write_trial(df62_final, 62)
+```
+
+# Trial 63
+
+High-intensity interval training versus circuit resistance training in heart failure.
+
+```{r trial63}
+t63_group = "Group (1) HIIT (2) CRT (3) CG"
+
+t63_base = read_excel(file.path(raw_dir, "trial63", "plos_s1_dataset_hiit.xlsx"), sheet = "Table 1") %>%
+  transmute(
+    PATIENT,
+    group_code = .data[[t63_group]],
+    X_sex = factor(`GENDER (1) M (2) W`),
+    X_age = Age,
+    X_bmi_class_0w = factor(`Classification BMI (1) normal (2) over (3) obesity`),
+    X_nyha_0w = factor(`NYHA (1) I (2) II (3) III`),
+    X_webber_class_0w = factor(`Webber (1) A (2) B (3) C  (4) D`),
+    X_lvef_pct_0w = `LVEF%`,
+    X_ef_class_0w = factor(`Classification EF (1) reduced (2) preserved (3) mid`),
+    X_peak_vo2_0w = `peak VO2 (ml/kg/min) i`,
+    X_peak_power_0w = `Cycling Peak Power Output (Watts) i`,
+    X_mip_0w = `MIP (cmH2O) i`,
+    X_fev1_0w = `FEV1 (L) i`,
+    X_fvc_0w = `FVC (L) i`,
+    X_cad_0w = factor(`CAD (1) YES (2) NO`),
+    X_hypertension_0w = factor(`AH (1) YES (2) NO`),
+    X_diabetes_0w = factor(`DM (1) YES (2) NO`)
+  )
+
+t63_fmd = read_excel(file.path(raw_dir, "trial63", "plos_s1_dataset_hiit.xlsx"), sheet = "Table 2") %>%
+  transmute(
+    PATIENT,
+    X_fmd_pct_0w = `FMD(%)_i`,
+    YP_fmd_pct_post = `FMD(%)_f`,
+    YP_delta_fmd_pct_post = `∆FMD`
+  )
+
+t63_cpet = read_excel(file.path(raw_dir, "trial63", "plos_s1_dataset_hiit.xlsx"), sheet = "Table 3") %>%
+  transmute(
+    PATIENT,
+    X_exercise_duration_0w = `Exercise duration i (min)`,
+    YS_exercise_duration_post = `Exercise duration f (min)`,
+    YP_peak_vo2_post = `peak VO2 (ml/kg/min) f`,
+    YP_delta_peak_vo2_post = `∆ peak VO2pico`,
+    YS_peak_power_post = `Peak Power output (Watts) f`,
+    YS_peak_mets_post = `peak METs f`
+  )
+
+df63_final = t63_base %>%
+  left_join(t63_fmd, by = "PATIENT") %>%
+  left_join(t63_cpet, by = "PATIENT") %>%
+  mutate(
+    Treatment = set_treatment(
+      recode(as.character(group_code), `3` = "Control", `1` = "HIIT", `2` = "Circuit resistance training"),
+      c("Control", "HIIT", "Circuit resistance training")
+    )
+  ) %>%
+  select(Treatment, starts_with("YP_"), starts_with("YS_"), starts_with("X_"))
+write_trial(df63_final, 63)
+```
+
+# Trial 64
+
+Low-dose exercise for industrial workers with chronic low back pain.
+
+```{r trial64}
+t64 = read_excel(file.path(raw_dir, "trial64", "plos_s2_dataset_low_back.xlsx"))
+
+df64_final = t64 %>%
+  transmute(
+    Treatment = set_treatment(
+      if_else(`Exercise: 1 Control: 2` == 2, "Wait-list control", "Exercise"),
+      c("Wait-list control", "Exercise")
+    ),
+    YP_delta_pain_vas_5m = `pain on VAS (cm) V2` - `pain on VAS (cm) V0`,
+    YS_delta_back_extension_strength_5m = `strenght back extension (N) V2` - `strenght back extension (N) V0`,
+    YS_delta_lateral_flexion_left_strength_5m = `strenght lateral flexion left (N) V2` - `strenght lateral flexion left (N) V0`,
+    YS_delta_lateral_flexion_right_strength_5m = `strenght lateral flexion right (N) V2` - `strenght lateral flexion right (N) V0`,
+    YS_delta_oswestry_5m = `Oswestry Score (%) V2` - `Oswestry Score (%) V0`,
+    YS_delta_work_ability_5m = `work ability index (WAI_points) V2` - `work ability index (WAI_points) V0`,
+    X_company = factor(company),
+    X_age = age,
+    X_sex = factor(`female: 1 male: 2`),
+    X_chronic_low_back_pain = factor(`chronic low back pain,  yes: 1 no: 2`),
+    X_height_m = `height (m)`,
+    X_weight_0m = `weight (kg) V0`,
+    X_bmi_0m = `Body mass index (kg/m2 ) V0`,
+    X_body_fat_pct_0m = `body fat (%) V0`,
+    X_pain_vas_0m = `pain on VAS (cm) V0`,
+    X_back_extension_strength_0m = `strenght back extension (N) V0`,
+    X_lateral_flexion_left_strength_0m = `strenght lateral flexion left (N) V0`,
+    X_lateral_flexion_right_strength_0m = `strenght lateral flexion right (N) V0`,
+    X_physical_activity_metwk_0m = `physical activity (MET/wk) V0`,
+    X_oswestry_0m = `Oswestry Score (%) V0`,
+    X_work_ability_0m = `work ability index (WAI_points) V0`,
+    X_sbp_0m = `blood pressure systolic (mmHg) V0`,
+    X_dbp_0m = `blood pressure diastolic (mmHg) V0`
+  )
+write_trial(df64_final, 64)
+```
+
+# Trial 65
+
+Transcranial direct current stimulation and endurance running performance.
+
+```{r trial65}
+t65 = read_excel(file.path(raw_dir, "trial65", "plos_s1_dataset_tdcs_running.xlsx")) %>%
+  filter(Status == "Included") %>%
+  mutate(row_id = row_number())
+
+t65_common = t65 %>%
+  transmute(
+    row_id,
+    X_age = Age,
+    X_weight = Weight,
+    X_height = Height,
+    X_body_fat_pct = `Body fat`,
+    X_training_years = `Years of training`,
+    X_weekly_training = `Weekly training`,
+    X_screening_test = `Screening test`,
+    X_vo2max_screening = VO2max,
+    X_category = factor(Category),
+    X_mas = MAS,
+    X_first_allocation = factor(First_allocation)
+  )
+
+t65_arm = function(df, arm, duration_col, vo2_col, hr_col, rq_col, lactate_min_col, lactate_max_col, rpe_min_col, rpe_max_col, guess_col = NULL, certainty_col = NULL, ae_col = NULL) {
+  out = df %>%
+    transmute(
+      row_id,
+      Treatment = arm,
+      YP_time_to_exhaustion_min = time_to_minutes(.data[[duration_col]]),
+      YS_vo2_final = .data[[vo2_col]],
+      YS_hr_max = .data[[hr_col]],
+      YS_rq_max = .data[[rq_col]],
+      YS_lactate_min = .data[[lactate_min_col]],
+      YS_lactate_max = .data[[lactate_max_col]],
+      YS_rpe_min = .data[[rpe_min_col]],
+      YS_rpe_max = .data[[rpe_max_col]]
+    )
+  out$X_blinding_guess = if (is.null(guess_col)) NA_character_ else as.character(df[[guess_col]])
+  out$X_blinding_certainty = if (is.null(certainty_col)) NA_real_ else num(df[[certainty_col]])
+  out$X_adverse_event = if (is.null(ae_col)) NA_character_ else as.character(df[[ae_col]])
+  out
+}
+
+df65_final = bind_rows(
+  t65_arm(t65, "Active tDCS", "Duration mm ss active", "VO2 final active", "HR max active", "RQ max active", "Lactate min active", "Lactate max active", "RPE min active", "RPE max active", "Allocation according to participant active", "Degree of certainty active", "Adverse event yes no active"),
+  t65_arm(t65, "Sham tDCS", "Duration mm ss sham", "VO2 final sham", "HR max sham", "RQ max sham", "Lactate min sham", "Lactate max sham", "RPE min sham", "RPE max sham", "Allocation according to participant sham", "Degree of certainty sham", "Adverse event yes no sham"),
+  t65_arm(t65, "Control", "Duration mm ss ctrl", "VO2 final ctrl", "HR max ctrl", "RQ max ctrl", "Lactate min ctrl", "Lactate max ctrl", "RPE min ctrl", "RPE max ctrl")
+) %>%
+  left_join(t65_common, by = "row_id") %>%
+  mutate(Treatment = set_treatment(Treatment, c("Sham tDCS", "Active tDCS", "Control"))) %>%
+  select(Treatment, starts_with("YP_"), starts_with("YS_"), starts_with("X_"))
+write_trial(df65_final, 65)
+```
+
+# Trial 66
+
+Ashtanga yoga therapy for visually impaired people.
+
+```{r trial66}
+t66_raw = read_excel(file.path(raw_dir, "trial66", "plos_s1_dataset_yoga.xlsx"), skip = 5, col_names = FALSE) %>%
+  set_names(paste0("v", seq_along(.)))
+
+t66_rows = function(rows, arm) {
+  t66_raw %>%
+    slice(rows) %>%
+    transmute(
+      Treatment = arm,
+      X_firm_eo_mtv_0w = num(v2),
+      YS_firm_eo_mtv_post = num(v3),
+      X_firm_ec_mtv_0w = num(v4),
+      YS_firm_ec_mtv_post = num(v5),
+      X_foam_eo_mtv_0w = num(v6),
+      YP_foam_eo_mtv_post = num(v7),
+      X_foam_ec_mtv_0w = num(v8),
+      YP_foam_ec_mtv_post = num(v9),
+      YP_delta_foam_eo_mtv_post = num(v7) - num(v6),
+      YS_delta_firm_eo_mtv_post = num(v3) - num(v2),
+      YS_delta_firm_ec_mtv_post = num(v5) - num(v4),
+      YS_delta_foam_ec_mtv_post = num(v9) - num(v8)
+    )
+}
+
+df66_final = bind_rows(
+  t66_rows(2:10, "Ashtanga yoga therapy"),
+  t66_rows(14:21, "Waitlist control")
+) %>%
+  mutate(Treatment = set_treatment(Treatment, c("Waitlist control", "Ashtanga yoga therapy")))
+write_trial(df66_final, 66)
+```
+
+# Trial 67
+
+High cut-off versus standard filters for continuous venovenous hemodialysis.
+
+```{r trial67}
+t67 = read_excel(file.path(raw_dir, "trial67", "plos_s2_dataset_middle_molecule.xlsx"))
+
+df67_final = t67 %>%
+  transmute(
+    Treatment = set_treatment(
+      if_else(study_group == 1, "Standard filter", "High cut-off filter"),
+      c("Standard filter", "High cut-off filter")
+    ),
+    YP_beta2_microglobulin_clearance_mean = clearance_beta2_mean,
+    YS_myoglobin_clearance_mean = clearance_myogl_mean,
+    YS_urea_clearance_mean = clearance_urea_mean,
+    YS_creatinine_clearance_mean = clearance_crea_mean,
+    YS_il6_clearance_mean = clearance_il6_mean,
+    YS_albumin_clearance_mean = clearance_alb_mean,
+    X_prescribed_exchange = prescribed_exchange,
+    X_realized_exchange = realized_exchanged,
+    X_dialyzer_lifespan = dialyzer_lifespan,
+    X_catheter_length = dialysis_catheter_length,
+    X_catheter_diameter = dialysis_catheter_diameter,
+    X_catheter_insertion_side = factor(dialysis_catheter_insertion_side),
+    X_mean_blood_flow = mean_blood_flow,
+    X_beta2_concentration_pre_1h = concentration_beta2_prae_T0,
+    X_myoglobin_concentration_pre_1h = concentration_myogl_prae_T0,
+    X_urea_concentration_pre_1h = concentration_urea_prae_T0,
+    X_creatinine_concentration_pre_1h = concentration_crea_prae_T0,
+    X_albumin_concentration_pre_1h = concentration_alb_prae_T0
+  )
+write_trial(df67_final, 67)
+```
+
+# Trial 68
+
+Brain-computer-interface attention training for ADHD.
+
+```{r trial68}
+t68 = read_excel(file.path(raw_dir, "trial68", "plos_s1_dataset_bci_adhd.xlsx"), sheet = "Dataset", skip = 1) %>%
+  filter(!is.na(GRP))
+
+df68_final = t68 %>%
+  transmute(
+    Treatment = set_treatment(
+      recode(as.character(GRP), `2` = "Control", `1` = "BCI attention training"),
+      c("Control", "BCI attention training")
+    ),
+    YP_delta_clinician_adhd_inattentive_8w = W1_ADRS_CIS - W8_ADRS_CIS,
+    YS_delta_parent_adhd_inattentive_8w = W1_ADRS_PIS - W8_ADRS_PIS,
+    YS_delta_cbcl_adhd_8w = W1_CBCL_ADHDPTS - W8_CBCL_ADHDPTS,
+    YS_delta_cgas_8w = W8_CGAS_C - W1_CGAS_C,
+    X_gender = factor(GENDER),
+    X_ethnic = factor(ETHNIC),
+    X_age = AGE,
+    X_adhd_subtype = factor(SUBTYPE),
+    X_clinician_adhd_inattentive_0w = W1_ADRS_CIS,
+    X_parent_adhd_inattentive_0w = W1_ADRS_PIS,
+    X_cbcl_adhd_0w = W1_CBCL_ADHDPTS,
+    X_cbcl_internalizing_0w = W1_CBCL_INTPTS,
+    X_cbcl_externalizing_0w = W1_CBCL_EXTPTS,
+    X_cgas_0w = W1_CGAS_C,
+    X_cgis_0w = W1_CGIS_C
+  )
+write_trial(df68_final, 68)
+```
+
+# Trial 69
+
+Tapentadol and morphine effects on conditioned pain modulation.
+
+```{r trial69}
+t69_path = file.path(raw_dir, "trial69", "plos_s1_file_tapentadol.xlsx")
+
+t69_sheet = function(sheet) {
+  t69_long = read_excel(t69_path, sheet = sheet) %>%
+    pivot_longer(-Time, names_to = "subject_condition", values_to = "evas") %>%
+    mutate(
+      X_subject_id = str_extract(subject_condition, "^[0-9]+"),
+      conditioning = str_extract(subject_condition, "H[+-]"),
+      Treatment = case_when(
+        str_detect(sheet, "Placebo") ~ "Placebo",
+        str_detect(sheet, "Morphine") ~ "Morphine",
+        TRUE ~ "Tapentadol"
+      ),
+      X_period_label = if_else(str_detect(sheet, "1h"), "60-90 min", "120-150 min"),
+      time_label = sprintf("%02d", as.integer(num(Time))),
+      curve_name = case_when(
+        conditioning == "H-" ~ paste0("YS_evas_without_conditioning_t", time_label),
+        conditioning == "H+" ~ paste0("YS_evas_with_conditioning_t", time_label),
+        TRUE ~ NA_character_
+      )
+    )
+
+  out = t69_long %>%
+    select(Treatment, X_period_label, X_subject_id, curve_name, evas) %>%
+    pivot_wider(names_from = curve_name, values_from = evas) %>%
+    rowwise() %>%
+    mutate(
+      YP_peak_evas_without_conditioning = max(c_across(starts_with("YS_evas_without_conditioning_t")), na.rm = TRUE),
+      YP_peak_evas_with_conditioning = max(c_across(starts_with("YS_evas_with_conditioning_t")), na.rm = TRUE),
+      YS_peak_conditioned_pain_modulation = YP_peak_evas_without_conditioning - YP_peak_evas_with_conditioning
+    ) %>%
+    ungroup() %>%
+    mutate(
+      X_period_label = factor(X_period_label),
+      X_subject_id = factor(X_subject_id)
+    ) %>%
+    select(
+      Treatment,
+      YP_peak_evas_without_conditioning,
+      YP_peak_evas_with_conditioning,
+      YS_peak_conditioned_pain_modulation,
+      starts_with("YS_evas_without_conditioning_t"),
+      starts_with("YS_evas_with_conditioning_t"),
+      X_period_label,
+      X_subject_id
+    )
+
+  zero_only_evas = names(out)[
+    startsWith(names(out), "YS_evas_") &
+      vapply(out, function(x) is.numeric(x) && all(!is.na(x)) && length(unique(x)) == 1 && unique(x) == 0, logical(1))
+  ]
+
+  out %>% select(-all_of(zero_only_evas))
+}
+
+df69_final = map_dfr(excel_sheets(t69_path), t69_sheet) %>%
+  mutate(Treatment = set_treatment(Treatment, c("Placebo", "Morphine", "Tapentadol")))
+write_trial(df69_final, 69)
+```
+
+# Trial 70
+
+Lumosity cognitive training versus online crosswords.
+
+```{r trial70}
+t70 = read_csv(file.path(raw_dir, "trial70", "plos_s1_dataset_cognitive_training.csv"), show_col_types = FALSE) %>%
+  filter(exclude == 0)
+
+df70_final = t70 %>%
+  transmute(
+    Treatment = set_treatment(
+      recode(group, crosswords = "Crosswords control", lumosity = "Lumosity cognitive training"),
+      c("Crosswords control", "Lumosity cognitive training")
+    ),
+    YP_grand_index_delta = GI_d,
+    YS_arithmetic_delta = AR_d,
+    YS_two_target_search_delta = TTS_d,
+    YS_go_no_go_delta = GNG_d,
+    YS_grammatical_reasoning_delta = GR_d,
+    YS_memory_span_delta = MS_d,
+    YS_progressive_matrices_delta = PM_d,
+    YS_rotations_memory_span_delta = RMS_d,
+    YS_real_world_cognition_delta = rwc_ave_d,
+    X_age_round = age_round,
+    X_age_bin = factor(age_bin),
+    X_grand_index_0w = GI_1,
+    X_arithmetic_0w = AR_1,
+    X_two_target_search_0w = TTS_1,
+    X_go_no_go_0w = GNG_1,
+    X_grammatical_reasoning_0w = GR_1,
+    X_memory_span_0w = MS_1,
+    X_progressive_matrices_0w = PM_1,
+    X_rotations_memory_span_0w = RMS_1,
+    X_real_world_cognition_0w = rwc_ave_pre,
+    X_active_days = active_days,
+    X_est_hours = est_hours
+  )
+write_trial(df70_final, 70)
+```
+
+# Trial 71
+
+Rapid antenatal test for asymptomatic bacteriuria in pregnancy.
+
+```{r trial71}
+t71 = read_sav(file.path(raw_dir, "trial71", "RCT_Data_Upload_Safe_Harbour.tab"))
+
+df71_final = t71 %>%
+  transmute(
+    Treatment = set_treatment(enrolled_arm, c("Control", "Intervention")),
+    YP_preterm_or_low_birth_weight = case_when(as.numeric(PretermorLBW) == 1 ~ 1, as.numeric(PretermorLBW) == 2 ~ 0, TRUE ~ NA_real_),
+    YS_preterm = case_when(as.numeric(Pretermnumeric) == 1 ~ 1, as.numeric(Pretermnumeric) == 2 ~ 0, TRUE ~ NA_real_),
+    YS_low_birth_weight = case_when(as.numeric(LBWnumeric) == 1 ~ 1, as.numeric(LBWnumeric) == 2 ~ 0, TRUE ~ NA_real_),
+    YS_birth_weight_g = birth_weight,
+    X_age = age,
+    X_religion = factor(religion),
+    X_education = factor(education),
+    X_gestational_age_exam = gest_age_exam,
+    X_trimester = factor(as.numeric(Trimester_new)),
+    X_gravida = factor(as.numeric(Gravida_new)),
+    X_previous_pregnancy = prev_pregnancy,
+    X_previous_abortions = prevabortions,
+    X_living_children = living_children,
+    X_no_symptoms = factor(no_symptoms),
+    X_asymptomatic_bacteriuria = ASYMBAC,
+    X_antibiotic_in_2wk = factor(antibiotic_in_2wk)
+  ) %>%
+  filter(!is.na(Treatment))
+write_trial(df71_final, 71)
+```
+
+# Trial 72
+
+Sublingual misoprostol versus intravenous oxytocin for postpartum hemorrhage treatment in women not exposed to prophylactic oxytocin.
+
+```{r trial72}
+t72 = read_sav(file.path(raw_dir, "trial72", "final_pphdatabase_merge_topost2.tab")) %>%
+  mutate(
+    study_label = as_factor(study),
+    arm_label = as_factor(txtarm),
+    active_control_label = as_factor(activebldcontrol),
+    add300_label = as_factor(add300loss)
+  ) %>%
+  filter(study_label == "study A, no oxy prophylaxis")
+
+df72_final = t72 %>%
+  transmute(
+    Treatment = set_treatment(recode(arm_label, `40 IU oxy IV` = "Oxytocin IV", `800mcg miso SL` = "Sublingual misoprostol"), c("Oxytocin IV", "Sublingual misoprostol")),
+    YP_active_bleeding_controlled_20min = case_when(active_control_label == "active bleeding controlled" ~ 1, active_control_label == "active bld not controlled" ~ 0, TRUE ~ NA_real_),
+    YS_additional_blood_loss_ge300 = case_when(add300_label == "yes" ~ 1, add300_label == "no" ~ 0, TRUE ~ NA_real_),
+    YS_total_blood_loss_ml = overallbld,
+    YS_time_to_bleeding_stop_min = timebldstop,
+    X_site = factor(sitecode),
+    X_age = q5_1,
+    X_education = factor(q6_1),
+    X_live_births = q8_1,
+    X_living_children = q9_1,
+    X_gestational_age = q13_1,
+    X_previous_pph = factor(q14_1),
+    X_baseline_hemoglobin = q17_1,
+    X_pph_diagnosed = factor(q12_2),
+    X_blood_loss_at_pph_diagnosis_ml = pphloss
+  )
+write_trial(df72_final, 72)
+```
+
+# Trial 73
+
+AI- or human-assisted reassurance calls after prostate biopsy.
+
+```{r trial73}
+t73_raw = read_excel(
+  file.path(raw_dir, "trial73", "prostate_biopsy_ai_reassurance.xlsx"),
+  sheet = "전립선 조직검사",
+  col_names = FALSE,
+  .name_repair = "minimal"
+)
+t73 = t73_raw[7:nrow(t73_raw), ]
+t73 = t73[!is.na(t73[[1]]), ]
+
+yes_no = function(x) {
+  case_when(
+    as.character(x) == "네" ~ 1,
+    as.character(x) == "아니요" ~ 0,
+    TRUE ~ NA_real_
+  )
+}
+
+df73_final = tibble(
+  Treatment = set_treatment(
+    recode(
+      as.character(t73[[33]]),
+      AI = "AI-assisted reassurance call",
+      Human = "Human-assisted reassurance call",
+      None = "No call"
+    ),
+    c("No call", "AI-assisted reassurance call", "Human-assisted reassurance call")
+  ),
+  YP_call_service_satisfaction_likert = num(t73[[42]]),
+  YS_ai_call_satisfaction_likert = num(t73[[43]]),
+  YS_complication_management_satisfaction_likert = num(t73[[44]]),
+  YS_complication_management_satisfaction_vas = num(t73[[45]]),
+  YS_complication_anxiety_stai = num(t73[[46]]),
+  YS_complication_anxiety_vas = num(t73[[47]]),
+  YS_fever_d1 = yes_no(t73[[35]]),
+  YS_urination_pain_d1 = yes_no(t73[[36]]),
+  YS_urination_discomfort_d1 = yes_no(t73[[38]]),
+  YS_daily_life_discomfort_d1 = yes_no(t73[[40]]),
+  X_height_cm = num(t73[[7]]),
+  X_weight_kg = num(t73[[8]]),
+  X_sex = factor(t73[[9]]),
+  X_age = num(t73[[10]]),
+  X_kad8_pre = num(t73[[14]]),
+  X_local_anesthesia = factor(t73[[19]]),
+  X_creatinine_pre = num(t73[[20]]),
+  X_hb_pre = num(t73[[22]]),
+  X_egfr_pre = num(t73[[24]]),
+  X_psa = num(t73[[49]]),
+  X_pirads = num(t73[[54]])
+)
+write_trial(df73_final, 73)
+```
+
+# Trial 74
+
+Home-based core stability exercises in hereditary ataxia.
+
+```{r trial74}
+t74 = read_excel(file.path(raw_dir, "trial74", "Repositori_Core_Ataxia_16_5_2023.xlsx"))
+
+df74_final = t74 %>%
+  transmute(
+    Treatment = set_treatment(recode(Grup, GC = "Standard care", GE = "Core stability exercise"), c("Standard care", "Core stability exercise")),
+    YP_delta_sara_post = Sara_Total_Post - Sara_Total_Pre,
+    YP_delta_tis_post = TIS_Total_Post - TIS_Total_Pre,
+    YS_delta_abc_balance_post = ABC_Equilibrio_Post - ABC_Equilibrio_Pre,
+    YS_delta_4m_walk_speed_post = Velocitat_4metres_Post - Velocitat_4metres_Pre,
+    YS_delta_eq5d_total_post = EQ_5D_Total_Post - EQ_5D_Total_Pre,
+    YS_delta_sit_to_stand_post = STS_30_sec_Post - STS_30_sec_Pre,
+    X_age = Edat,
+    X_sex = factor(Genere),
+    X_activity = factor(Activitat),
+    X_weight_kg = Pes,
+    X_height_cm = Alçada,
+    X_bmi = IMC,
+    X_ataxia_type = factor(Tipo_Ataxia),
+    X_physiotherapy = factor(Fisioterapia),
+    X_exercise = factor(Exercici),
+    X_sara_total_0w = Sara_Total_Pre,
+    X_tis_total_0w = TIS_Total_Pre,
+    X_abc_balance_0w = ABC_Equilibrio_Pre,
+    X_4m_walk_speed_0w = Velocitat_4metres_Pre,
+    X_eq5d_total_0w = EQ_5D_Total_Pre
+  )
+write_trial(df74_final, 74)
+```
+
+# Trial 75
+
+Conventional versus reduced-branch radiofrequency ablation for knee osteoarthritis pain.
+
+```{r trial75}
+t75 = read_excel(file.path(raw_dir, "trial75", "Dataset_KJP.xlsx")) %>%
+  filter(!is.na(PATIENT), !is.na(NUMBEROFBRANCH))
+
+df75_final = t75 %>%
+  transmute(
+    Treatment = set_treatment(if_else(NUMBEROFBRANCH == 1, "Conventional three-branch RFA", "Reduced two-branch RFA"), c("Conventional three-branch RFA", "Reduced two-branch RFA")),
+    YP_delta_nrs_3m = NRS3MO - NRS0,
+    YS_delta_nrs_1m = NRS1MO - NRS0,
+    YS_delta_womac_total_3m = WOMACTOTAL3 - WOMACTOTAL0,
+    YS_delta_womac_total_1m = WOMACTOTAL1 - WOMACTOTAL0,
+    YS_nrs_improved_3m = NRSCHANGE30,
+    YS_womac_improved_3m = WOMACCHANGE30,
+    X_sex = factor(SEX),
+    X_age = AGE,
+    X_height_cm = HEIGHT,
+    X_weight_kg = WEIGHT,
+    X_bmi = BMI,
+    X_marital_status = factor(MARITALSTATUS),
+    X_occupation = factor(OCCUPATION),
+    X_education = factor(EDUCATIONLEVEL),
+    X_knee_side = factor(SIDE),
+    X_kl_grade = factor(KLGRADE),
+    X_symptom_duration_months = SYMPTDURATIONMONTH,
+    X_nrs_0m = NRS0,
+    X_womac_total_0m = WOMACTOTAL0,
+    X_weekly_analgesic_consumption_0m = BASALWEEKLYANALGESICCONSUMP
+  )
+write_trial(df75_final, 75)
+```
+
+# Trial 76
+
+Time-segmented-target teaching versus traditional teaching for spinal puncture.
+
+```{r trial76}
+t76 = read_sav(file.path(raw_dir, "trial76", "data1.tab")) %>%
+  rename(group_code = 1) %>%
+  filter(!is.na(group_code))
+
+df76_final = t76 %>%
+  transmute(
+    Treatment = set_treatment(if_else(group_code == 0, "Traditional teaching", "Time-segmented-target teaching"), c("Traditional teaching", "Time-segmented-target teaching")),
+    YP_total_score_after_training = Totalscore,
+    YS_operating_time_min = Operatingtimeminutes,
+    YS_preoperative_preparation_score = Preoperativepreparationphase,
+    YS_operational_phase_score = Operationalphase,
+    YS_aseptic_principle_score = Asepticprinciple,
+    YS_proficiency_level = Proficiencylevel1skilled2average3unskilled,
+    YS_willing_to_apply = Willingnesstoapplyintraspinalpuncture1willing2refuse,
+    YS_confident = Confidenceinperformingintraspinalpuncture1yes2no,
+    YS_satisfaction = Satisfaction1Satisfied2average3dissatisfied,
+    X_age = Ageyears,
+    X_sex = factor(Gender0male1female),
+    X_academic_degree = factor(Academicdegree0Bachelor1Master),
+    X_prior_spinal_punctures_observed = Numberofspinalpuncturesseenbeforetraining
+  )
+write_trial(df76_final, 76)
+```
+
+# Trial 77
+
+Core stability exercises in early subacute stroke recovery.
+
+```{r trial77}
+t77 = read_excel(file.path(raw_dir, "trial77", "CORE_results.xlsx"), sheet = "CORE trial Results") %>%
+  filter(!is.na(ALEAT))
+
+df77_final = t77 %>%
+  transmute(
+    Treatment = set_treatment(recode(ALEAT, CTRL = "Control rehabilitation", CORE = "Core stability exercise"), c("Control rehabilitation", "Core stability exercise")),
+    YP_delta_trunk_impairment_t2 = S_TIS_T2 - S_TIS,
+    YS_delta_berg_balance_t2 = BBS_T2 - BBS,
+    YS_delta_brunel_balance_t2 = BBA_T2 - BBA,
+    YS_delta_barthel_t2 = Barthel_T2 - Barthel,
+    YS_delta_rankin_t2 = RANKIN_T2 - RANKIN,
+    X_center = factor(centro),
+    X_sex = factor(sexo),
+    X_height_cm = talla,
+    X_weight_kg = peso,
+    X_age = edad,
+    X_stroke_type = factor(Tipo_ictus),
+    X_stroke_location = factor(lugar_ictus),
+    X_hemiparesis = factor(hemiparesia),
+    X_trunk_impairment_0w = S_TIS,
+    X_berg_balance_0w = BBS,
+    X_brunel_balance_0w = BBA,
+    X_barthel_0w = Barthel,
+    X_rankin_0w = RANKIN
+  )
+write_trial(df77_final, 77)
+```
+
+# Trial 78
+
+Regional moderate hyperthermia for mild-to-moderate COVID-19.
+
+```{r trial78}
+t78 = read_csv(file.path(raw_dir, "trial78", "Themocov_Dataset_data.tab"), show_col_types = FALSE) %>%
+  filter(!is.na(Study_group))
+
+df78_final = t78 %>%
+  transmute(
+    Treatment = set_treatment(if_else(Study_group == 0, "Control", "Regional thermotherapy"), c("Control", "Regional thermotherapy")),
+    YP_disease_progression_28d = Progresion_cualquiera_28_dias,
+    YS_critical_progression_28d = Progresion_a_critico,
+    YS_mortality_28d = mortalidad_28_dias,
+    YS_mechanical_ventilation_28d = VMI_28_días,
+    YS_icu_28d = UCI_28_dias,
+    YS_ordinal_clinical_status_28d = estado_clinico_ordinal_28_dias,
+    X_center = factor(Center),
+    X_age = Age,
+    X_sex = factor(Sex),
+    X_weight_kg = Weight,
+    X_height_m = Height,
+    X_bmi = BMI,
+    X_covid_severity_0d = factor(COVID_severity_baseline),
+    X_days_symptom_onset = Days_symptom_onset,
+    X_sbp_0d = SBP_Baseline,
+    X_dbp_0d = DBP_Baseline,
+    X_hr_0d = HR_Baseline,
+    X_rr_0d = RR_Baseline,
+    X_temperature_0d = Temp_Baseline,
+    X_o2_saturation_0d = SatO2_Baseline,
+    X_hypertension = factor(Hypertension),
+    X_diabetes = factor(DM),
+    X_obesity = factor(Obesity),
+    X_smoking = factor(Smoking),
+    X_news2_0d = NEWS_2_baseline
+  )
+write_trial(df78_final, 78)
+```
+
+# Trial 79
+
+Webtoon education program on preventive self-management related to premature labor.
+
+```{r trial79}
+t79 = read_excel(file.path(raw_dir, "trial79", "Sharing_Data.xlsx"), sheet = "Sharing Data_PSM-PL")
+
+df79_final = t79 %>%
+  transmute(
+    Treatment = set_treatment(if_else(group == 0, "Control", "Webtoon education"), c("Control", "Webtoon education")),
+    YP_knowledge_post = T1_totalKN,
+    YS_knowledge_followup = T2_totalKN,
+    YS_delta_knowledge_post = T1_totalKN - T0_totalKN,
+    YS_delta_self_efficacy_post = T1_totalSE - T0_totalSE,
+    YS_self_efficacy_post = T1_totalSE,
+    YS_total_usability = `total usability`,
+    X_age = age,
+    X_education = factor(education),
+    X_occupation = factor(occupation),
+    X_marital_status = factor(`marital status`),
+    X_currently_pregnant = factor(`currently pregnant`),
+    X_number_pregnancies = `no of pregnancies`,
+    X_pregnancy_complication_experience = factor(`experience of pregnancy complications`),
+    X_number_deliveries = `no of deliveries`,
+    X_number_children = `no of children`,
+    X_pregnancy_childbirth_education_experience = factor(`educated experience in pregnancy and childbirth`),
+    X_webtoon_reading_experience = factor(`experience in reading webtoons`),
+    X_knowledge_0w = T0_totalKN,
+    X_self_efficacy_0w = T0_totalSE
+  )
+write_trial(df79_final, 79)
+```
+
+# Trial 80
+
+Digital peer support for weight management and mental health in university students with preobesity.
+
+```{r trial80}
+t80 = read_csv(file.path(raw_dir, "trial80", "dataset.tab"), show_col_types = FALSE)
+
+df80_final = t80 %>%
+  transmute(
+    Treatment = set_treatment(
+      recode(as.character(Group), `3` = "Control", `1` = "Digital peer support", `2` = "Self-guided digital program"),
+      c("Control", "Digital peer support", "Self-guided digital program")
+    ),
+    YP_delta_bmi_6m = BMI_6_months - BMI_baseline,
+    YS_delta_phq9_6m = `PHQ-9_6_months` - `PHQ-9_baseline`,
+    YS_delta_gad7_6m = `GAD-7_6_months` - `GAD-7_baseline`,
+    YS_delta_wemwbs_6m = WEMWBS_6_months - WEMWBS_baseline,
+    YS_delta_pss_6m = PSS_6_months - PSS_baseline,
+    YS_delta_who5_6m = `WHO-5_6_months` - `WHO-5_baseline`,
+    YS_delta_met_6m = MET_6_months - MET_baseline,
+    X_age = `Age (years)`,
+    X_gender = factor(Gender),
+    X_grade = factor(Grade),
+    X_major = factor(Major),
+    X_residence_type = factor(`Residence Type`),
+    X_subjective_ses = `Subjective SES (1_5)`,
+    X_employment_status = factor(`Employment Status`),
+    X_work_hours_week = `Work Hours per Week (hrs)`,
+    X_marital_status = factor(`Marital Status`),
+    X_wechat_hours_day = `WeChat Usage (hrs/day)`,
+    X_bmi_0m = BMI_baseline,
+    X_phq9_0m = `PHQ-9_baseline`,
+    X_gad7_0m = `GAD-7_baseline`,
+    X_wemwbs_0m = WEMWBS_baseline,
+    X_pss_0m = PSS_baseline,
+    X_who5_0m = `WHO-5_baseline`,
+    X_met_0m = MET_baseline
+  )
+write_trial(df80_final, 80)
+```
+
+# Backup Trials
+
+B01 was moved to `backup/B01` because the publication does not provide exact post-session or change-score K-MPAI summaries needed to audit the cleaned primary outcome.
+
+B02 was moved to `backup/B02`. The raw malaria event coding was corrected from the prior string check to numeric event code `1`, but the corrected public source data still did not reproduce the publication's primary malaria incidence rates.
+
+B03 was moved to `backup/B03` because the public raw files do not contain the publication's primary sputum Gram-negative bacterial-load outcome.
+
+B04 was moved to `backup/B04` because the public raw/cleaned SIS and WHODAS summaries do not reproduce the publication primary outcome means.
+
+B05 was moved to `backup/B05` because no associated main publication could be identified after PubMed and web searches.
+
+# Metadata and Validation
+
+```{r metadata}
+today = as.character(Sys.Date())
+included_trials = list.files(clean_dir, pattern = "^trial[0-9]+\\.rds$") %>%
+  str_extract("[0-9]+") %>%
+  as.integer() %>%
+  sort()
+
+meta_main_existing = tibble(
+  Trial_ID = 51:60,
+  `Trial Number/Name` = c(
+    "Zenodo 11066092",
+    "DVN/WI6SAS",
+    "Zenodo 6597822",
+    "DVN/DVOHPZ",
+    "DVN/GKH6X6",
+    "DVN/4VG2XS",
+    "Zenodo 1120364",
+    "Zenodo 18455008",
+    "Zenodo 17051703",
+    "Zenodo 18176543"
+  ),
+  `Paper Name` = c(
+    "The impact of sleep hygiene education and lavender essential oil inhalation on the sleep quality and overall well-being of athletes who undergo late-evening training: a randomized controlled trial",
+    "Efficacy of tenapanor in managing hyperphosphatemia and constipation in hemodialysis patients: A randomized controlled trial",
+    "Analgesic Effect of Ultrasound-Guided Anterior Quadratus Lumborum Block at the L2 Level in Patients Undergoing Laparoscopic Partial Nephrectomy: A Single-Center, Randomized Controlled Trial",
+    "Effect of Vaginal Spheres and Pelvic Floor Exercises on Female Sexual Function in Women with Urinary Incontinence: A Randomized Controlled Trial (Secondary Analysis)",
+    "Taking Charge After Acute Exacerbation of Chronic Obstructive Pulmonary Disease: A Randomized Controlled Feasibility Trial of a Psychologically Informed Self-Management Intervention",
+    "Transcranial direct current stimulation and attention skills in burnout patients: a randomized blinded sham-controlled pilot study",
+    "Functional imagery training versus motivational interviewing for weight loss: a randomised controlled trial of brief individual interventions for overweight and obesity",
+    "Transcranial direct current stimulation and cognitive training in the treatment of cognitive deficit in schizophrenia: a randomized controlled trial",
+    "Acute effects of tissue flossing on ankle range of motion in athletes with limited ankle dorsiflexion: a randomized controlled trial",
+    "Interferential current stimulation during dental facial treatment improves masticatory function"
+  ),
+  Journal = c("F1000Research", "PLOS One", "Pain Research and Management", "International Urogynecology Journal", "International Journal of Chronic Obstructive Pulmonary Disease", "F1000Research", "International Journal of Obesity", "BMC Psychiatry", "BMC Sports Science, Medicine and Rehabilitation", "Scientific Reports"),
+  `Paper Link` = c(
+    "https://doi.org/10.12688/f1000research.150977.1",
+    "https://doi.org/10.1371/journal.pone.0319319",
+    "https://doi.org/10.1155/2022/8958859",
+    "https://doi.org/10.1007/s00192-025-06404-7",
+    "https://doi.org/10.2147/COPD.S393644",
+    "https://doi.org/10.12688/f1000research.21831.2",
+    "https://doi.org/10.1038/s41366-018-0122-1",
+    "https://doi.org/10.1186/s12888-025-07749-5",
+    "https://doi.org/10.1186/s13102-025-01484-w",
+    "https://doi.org/10.1038/s41598-026-36307-6"
+  ),
+  `Publication Year` = c(2024, 2025, 2022, 2025, 2023, 2020, 2019, 2026, 2025, 2026),
+  `# of Arm` = c(4, 2, 2, 2, 2, 2, 2, 2, 2, 2),
+  `Control Group` = c("Control", "Control", "Group 1/no block", "Pelvic floor training", "Control/usual care", "Sham tDCS", "Motivational interviewing", "Sham tDCS + cognitive training", "Static stretching", "Sham period"),
+  `Study Phase` = c("Not recorded", "Not recorded", "Not recorded", "Secondary analysis", "Feasibility", "Pilot", "Not recorded", "Not recorded", "Not recorded", "Crossover"),
+  `Sample Size` = c(nrow(df51_final), nrow(df52_final), nrow(df53_final), nrow(df54_final), nrow(df55_final), nrow(df56_final), nrow(df57_final), nrow(df58_final), nrow(df59_final), nrow(df60_final)),
+  `Priamry Outcome` = c("Sleep latency over 7-day intervention", "Change in serum phosphorus at week 23 and change in BSFS at week 7", "Total perioperative cumulative sufentanil consumption", "FSFI total score at end of treatment", "Frequency of moderate or severe AECOPD within 12 months", "RBANS Attention Index after 3 weeks", "Weight loss and waist-circumference reduction at 6 and 12 months", "Change in RBANS Total Score at 1 week", "Dominant-leg ankle dorsiflexion ROM immediately post-intervention", "Post-treatment glucose elution concentration after IW versus sham period"),
+  `Primary Outcome Type` = c("Continuous", "Continuous", "Continuous", "Continuous", "Count", "Continuous", "Continuous", "Continuous", "Continuous", "Continuous"),
+  `Trial Success(Primary Outcome Significant)` = c("Yes for sleep latency group comparison", "Mixed; BSFS improved within tenapanor group, serum phosphorus between-group difference not significant", "Yes", "No significant overall FSFI total between-group difference; desire domain significant", "No significant primary rate difference", "Yes for tDCS-by-time interaction on attention", "Yes; FIT had greater weight and waist-circumference reductions than MI", "No significant superiority of active tDCS over cognitive training alone", "Yes; tissue flossing showed greater immediate dorsiflexion ROM improvement", "Yes; IW improved glucose elution compared with sham"),
+  `Statistical Model` = c("One-way ANOVA/Kruskal-Wallis for actigraphy; two-way ANOVA or F1-LD-F1 model for repeated questionnaire outcomes", "Repeated-measures ANOVA for blood data; Sankey/McNemar with Bonferroni for BSFS/laxative changes; ITT", "Independent/paired t-tests or Mann-Whitney/Wilcoxon; chi-square/Fisher exact for categorical outcomes", "Mann-Whitney U tests; per-protocol primary analysis and ITT with multiple imputation sensitivity analysis", "Poisson regression with log observation time offset", "Linear mixed model with fixed tDCS, time, and interaction effects and participant random effect", "Linear mixed-effects models for repeated weight and waist outcomes; Bayesian sensitivity models in supplement", "ANCOVA of one-week RBANS scores adjusted for baseline; Wilcoxon or t tests for PANSS changes", "Repeated-measures ANOVA with group-by-time interaction and post-hoc comparisons", "Mixed-effects model adjusted for period and sequence"),
+  `Randomization Scheme` = c("Individual four-arm parallel randomized trial using computer-generated random numbers", "Individual 1:1 parallel randomization using computer-generated sequence stratified by baseline serum phosphorus", "Individual random allocation using Excel-generated random numbers in sealed opaque envelopes", "Individual 1:1 block randomization using Sealed Envelope", "Individual 1:1 third-party central block randomization", "Individual pseudo-randomized allocation using predefined Excel allocation file", "Individual random allocation to FIT or MI with blinded outcome collection", "Individual 1:1 unrestricted permuted-block randomization", "Individual 1:1 randomization using randomizer.org", "Individual randomized crossover sequence A/B"),
+  `Randomization Scheme(High Level)` = "Individual",
+  `Research Area` = c("Sports medicine / sleep", "Nephrology", "Anesthesiology", "Urogynecology", "Pulmonology", "Neuropsychology / burnout", "Obesity / behavioral medicine", "Psychiatry", "Sports medicine / rehabilitation", "Dentistry / oral rehabilitation"),
+  `Text Data` = "No",
+  Citation = c(
+    "Salem et al. F1000Research. 2024;13:720. doi:10.12688/f1000research.150977.1",
+    "Suzuki et al. PLOS One. 2025;20(6):e0319319. doi:10.1371/journal.pone.0319319",
+    "He et al. Pain Research and Management. 2022;2022:8958859. doi:10.1155/2022/8958859",
+    "Blanco-Ratto et al. International Urogynecology Journal. 2025/2026;37(4):945-955. doi:10.1007/s00192-025-06404-7",
+    "Levack et al. International Journal of Chronic Obstructive Pulmonary Disease. 2023;18:317-325. doi:10.2147/COPD.S393644",
+    "Van Noppen et al. F1000Research. 2020;9:116. doi:10.12688/f1000research.21831.2",
+    "Solbrig et al. International Journal of Obesity. 2019;43:883-894. doi:10.1038/s41366-018-0122-1",
+    "Stuchlikova et al. BMC Psychiatry. 2026;26:102. doi:10.1186/s12888-025-07749-5",
+    "Daneshmandi et al. BMC Sports Science, Medicine and Rehabilitation. 2025;17:375. doi:10.1186/s13102-025-01484-w",
+    "Scientific Reports. 2026. doi:10.1038/s41598-026-36307-6"
+  ),
+  `Issues Encountered` = c(
+    "Publication does not explicitly label a single primary outcome; cleaned primary uses objective sleep latency, the main significant actigraphy sleep-quality endpoint. No baseline actigraphy sleep-latency measurement was present in raw data; baseline questionnaire secondary outcomes are included.",
+    "Publication states primary outcomes as serum phosphorus and BSFS; cleaned data marks both as YP. Covariates expanded from Table 1 where raw variables were available. Primary endpoint audit passes under the 5% reproducibility tolerance.",
+    "Original cleaned primary was 0-24h postoperative sufentanil only; corrected to total perioperative cumulative sufentanil consumption from the raw total column. Covariates aligned to Table 1. Outcome summaries pass under the 5% reproducibility tolerance.",
+    "Downloaded publication is a sexual-function secondary analysis; cleaned primary changed from ICIQ-SF to FSFI total endpoint and secondary pelvic-floor strength corrected to Oxford power endpoint. Unsupported raw covariates and computed change-score duplicates were removed; Table 1 covariates and baseline outcomes are retained. The intervention baseline FSFI mean in the public raw data does not reproduce Table 1, but end-treatment primary means/SDs reproduce Table 3.",
+    "Raw workbook included 10 dictionary/header rows and 56 randomized participant rows; non-arm rows were removed. Primary outcome matches publication; ever-smoked and separate prior admission/ED components were replaced by publication-supported current smoking and combined prior AECOPD events.",
+    "Raw Dataverse export includes a wide raw score table and an analysis-ready long text file; cleaned data uses the analysis-ready file and retains baseline RBANS and symptom scores supported by the publication.",
+    "Publication reports model-estimated weight and waist changes; cleaned outcomes store participant-level observed losses, and the reproducibility audit uses the same mixed-model contrast scale for the published 12-month weight-loss difference.",
+    "Zenodo file includes optional 3-week extension rows; cleaned primary uses the mandatory 1-week RBANS endpoint and excludes non-participant blank rows.",
+    "Raw workbook includes dominant and non-dominant ROM endpoints; cleaned primary uses dominant-leg dorsiflexion ROM, matching the first reported primary ROM result.",
+    "Randomized crossover data are represented as one row per participant-period to preserve treatment-period observations; Treatment is period treatment and sequence/period are retained as covariates."
+  )
+)
+
+meta_main_new = tibble(
+  Trial_ID = 61:70,
+  `Trial Number/Name` = c(
+    "PLOS One 10.1371/journal.pone.0138646",
+    "PLOS One 10.1371/journal.pone.0135674",
+    "PLOS One 10.1371/journal.pone.0257607",
+    "PLOS One 10.1371/journal.pone.0178585",
+    "PLOS One 10.1371/journal.pone.0312084",
+    "PLOS One 10.1371/journal.pone.0129646",
+    "PLOS One 10.1371/journal.pone.0215823",
+    "PLOS One 10.1371/journal.pone.0216225",
+    "PLOS One 10.1371/journal.pone.0128997",
+    "PLOS One 10.1371/journal.pone.0134467"
+  ),
+  `Paper Name` = c(
+    "A Dietary Supplement Containing Cinnamon, Chromium and Carnosine Decreases Fasting Plasma Glucose and Increases Lean Mass in Overweight or Obese Pre-Diabetic Subjects: A Randomized, Placebo-Controlled Trial",
+    "Late Conversion of Kidney Transplant Recipients from Ciclosporin to Tacrolimus Improves Graft Function: Results from a Randomized Controlled Trial",
+    "High-intensity interval training versus progressive high-intensity circuit resistance training on endothelial function and cardiorespiratory fitness in heart failure: A preliminary randomized controlled trial",
+    "Low-dose, non-supervised, health insurance initiated exercise for the treatment and prevention of chronic low back pain in employees. Results from a randomized controlled trial",
+    "Can transcranial direct current stimulation (tDCS) over the motor cortex increase endurance running performance? a randomized crossover-controlled trial",
+    "Ashtanga-Based Yoga Therapy Increases the Sensory Contribution to Postural Stability in Visually-Impaired Persons at Risk for Falls as Measured by the Wii Balance Board: A Pilot Randomized Controlled Trial",
+    "Middle molecule clearance with high cut-off dialyzer versus high-flux dialyzer using continuous veno-venous hemodialysis with regional citrate anticoagulation: A prospective randomized controlled trial",
+    "A randomized controlled trial of a brain-computer interface based attention training program for ADHD",
+    "A Randomized Controlled Trial on the Effect of Tapentadol and Morphine on Conditioned Pain Modulation in Healthy Volunteers",
+    "Enhancing Cognitive Abilities with Comprehensive Training: A Large, Online, Randomized, Active-Controlled Trial"
+  ),
+  Journal = rep("PLOS One", 10),
+  `Paper Link` = c(
+    "https://doi.org/10.1371/journal.pone.0138646",
+    "https://doi.org/10.1371/journal.pone.0135674",
+    "https://doi.org/10.1371/journal.pone.0257607",
+    "https://doi.org/10.1371/journal.pone.0178585",
+    "https://doi.org/10.1371/journal.pone.0312084",
+    "https://doi.org/10.1371/journal.pone.0129646",
+    "https://doi.org/10.1371/journal.pone.0215823",
+    "https://doi.org/10.1371/journal.pone.0216225",
+    "https://doi.org/10.1371/journal.pone.0128997",
+    "https://doi.org/10.1371/journal.pone.0134467"
+  ),
+  `Publication Year` = c(2015, 2015, 2021, 2017, 2024, 2015, 2019, 2019, 2015, 2015),
+  `# of Arm` = c(2, 2, 3, 2, 3, 2, 2, 2, 3, 2),
+  `Control Group` = c("Placebo", "Cyclosporine", "Control", "Wait-list control", "Sham tDCS", "Waitlist control", "Standard filter", "Control", "Placebo", "Crosswords control"),
+  `Study Phase` = c("Not recorded", "Post-transplant maintenance", "Not recorded", "Workplace intervention", "Crossover", "Not recorded", "Critical care device trial", "Not recorded", "Crossover", "Online intervention"),
+  `Sample Size` = c(nrow(df61_final), nrow(df62_final), nrow(df63_final), nrow(df64_final), nrow(df65_final), nrow(df66_final), nrow(df67_final), nrow(df68_final), nrow(df69_final), nrow(df70_final)),
+  `Priamry Outcome` = c(
+    "Change in fasting plasma glucose at 4 months",
+    "Estimated glomerular filtration rate by CKD-EPI through 24 months",
+    "Change in peak VO2 and flow-mediated dilation after training",
+    "Change in low back pain VAS after 5 months",
+    "Time to exhaustion in a running performance test",
+    "Postural stability mean total velocity on foam-surface balance tasks",
+    "Mean beta2-microglobulin clearance during continuous venovenous hemodialysis",
+    "Change in clinician-rated ADHD inattentive symptoms at week 8",
+    "Conditioned pain modulation eVAS group-curve response",
+    "Change in cognitive Grand Index after online training"
+  ),
+  `Primary Outcome Type` = rep("Continuous", 10),
+  `Trial Success(Primary Outcome Significant)` = c(
+    "Yes for fasting plasma glucose reduction in supplement arm",
+    "Yes for model-estimated renal-function difference favoring tacrolimus conversion",
+    "Mixed; VO2 improved in training groups while FMD sample was smaller",
+    "Yes for low-back-pain change favoring exercise",
+    "No clear active tDCS improvement over sham in cleaned performance endpoint",
+    "Yes for foam eyes-open postural stability in the yoga arm",
+    "Yes for beta2-microglobulin clearance favoring high cut-off filter",
+    "Yes for clinician-rated inattentive symptom improvement",
+    "Yes; tapentadol and morphine altered conditioned pain modulation curves versus placebo",
+    "Yes for Lumosity improvement over crossword control on Grand Index"
+  ),
+  `Statistical Model` = c(
+    "Between-arm comparisons of repeated metabolic changes from baseline",
+    "Mixed model for repeated CKD-EPI eGFR adjusted for baseline renal function",
+    "Repeated-measures comparisons of training effects across HIIT, circuit resistance, and control arms",
+    "Between-group comparison of 5-month change scores",
+    "Randomized crossover comparisons of active, sham, and control endurance tests",
+    "Paired tests within yoga arm and between-group comparisons of balance outcomes",
+    "Between-filter comparison of solute clearances during CVVHD",
+    "Repeated-measures mixed/ANCOVA models of ADHD symptom trajectories",
+    "Crossover time-course comparisons of electronic VAS responses with and without conditioning stimulus",
+    "ANCOVA/regression of post-training cognitive outcomes adjusted for baseline"
+  ),
+  `Randomization Scheme` = c(
+    "Individual parallel randomization to placebo or dietary supplement",
+    "Individual randomized conversion from cyclosporine to tacrolimus or continued cyclosporine",
+    "Individual randomization to HIIT, circuit resistance training, or control",
+    "Individual workplace randomization to exercise or wait-list control",
+    "Individual randomized crossover order of active tDCS, sham tDCS, and control sessions",
+    "Individual randomization to Ashtanga yoga therapy or waitlist control",
+    "Individual randomization to standard high-flux or high cut-off hemofilter",
+    "Individual randomization to BCI attention training or control",
+    "Individual randomized crossover exposure to placebo, morphine, and tapentadol",
+    "Individual online randomization to Lumosity cognitive training or crossword control"
+  ),
+  `Randomization Scheme(High Level)` = "Individual",
+  `Research Area` = c("Nutrition / metabolism", "Nephrology / transplantation", "Cardiac rehabilitation", "Occupational rehabilitation", "Sports performance / neuromodulation", "Rehabilitation / balance", "Nephrology / critical care", "Pediatric ADHD / neurofeedback", "Pain pharmacology", "Cognitive training"),
+  `Text Data` = "No",
+  Citation = c(
+    "Liu et al. PLOS One. 2015;10(9):e0138646. doi:10.1371/journal.pone.0138646",
+    "Plischke et al. PLOS One. 2015;10(8):e0135674. doi:10.1371/journal.pone.0135674",
+    "Turri-Silva et al. PLOS One. 2021;16(10):e0257607. doi:10.1371/journal.pone.0257607",
+    "Haufe et al. PLOS One. 2017;12(6):e0178585. doi:10.1371/journal.pone.0178585",
+    "Martens et al. PLOS One. 2024;19(12):e0312084. doi:10.1371/journal.pone.0312084",
+    "Jeter et al. PLOS One. 2015;10:e0129646. doi:10.1371/journal.pone.0129646",
+    "Weidhase et al. PLOS One. 2019;14(4):e0215823. doi:10.1371/journal.pone.0215823",
+    "Lim et al. PLOS One. 2019;14(5):e0216225. doi:10.1371/journal.pone.0216225",
+    "Martini et al. PLOS One. 2015;10(6):e0128997. doi:10.1371/journal.pone.0128997",
+    "Hardy et al. PLOS One. 2015;10(9):e0134467. doi:10.1371/journal.pone.0134467"
+  ),
+  `Issues Encountered` = c(
+    "One raw row used treatment code VP, which does not match the publication's two-arm placebo/supplement design; that row was excluded and documented.",
+    "Primary paper reports a model-estimated 24-month CKD-EPI difference; cleaned data stores participant-level eGFR endpoints and the audit reconstructs the mixed-model contrast.",
+    "Endothelial FMD data are available for a smaller subset than the full randomized sample; cleaned rows preserve all participants with available baseline/training data.",
+    "Cleaned primary uses participant-level VAS change; reproducibility audit compares the reported exercise-minus-control change difference.",
+    "Randomized crossover sessions are represented as one row per participant-treatment condition; the control session is retained as a third treatment level.",
+    "Primary outcome workbook is sectioned by treatment arm and has only 17 complete balance records; rows were parsed from the arm sections.",
+    "Study-group labels were inferred from published clearance summaries: group 1 is standard filter and group 2 is high cut-off filter.",
+    "Raw workbook encodes arms numerically; group 1 matches the published BCI improvement summary and group 2 is treated as control.",
+    "Time-course crossover data are represented as one row per participant-drug-period with widened eVAS timepoint columns to reproduce the paper's group-curve peak summaries.",
+    "Raw online trial data include participants marked for exclusion; excluded rows were removed before cleaning."
+  )
+)
+
+meta_main_more = tibble(
+  Trial_ID = 71:80,
+  `Trial Number/Name` = c("DVN/TQ2MAR", "DVN/ETHH4N", "DVN/ALVSGP", "DVN/MPSTOK", "DVN/GQ6NJF", "DVN/HXE3JR", "DVN/QWQLXY", "DVN/QXBM3S", "DVN/VIZDGR", "DVN/BZGDBB"),
+  `Paper Name` = c(
+    "Effectiveness of antenatal screening of asymptomatic bacteriuria in reduction of prematurity and low birth weight: Evaluating a point-of-care rapid test in a pragmatic randomized controlled study",
+    "Treatment of post-partum haemorrhage with sublingual misoprostol versus oxytocin in women not exposed to oxytocin during labour: a double-blind, randomised, non-inferiority trial",
+    "Coping with Complications that Occur after Prostate Biopsy for Satisfactory Evaluation of Call Service Using Artificial Intelligence: A Pilot Randomized Controlled Trial",
+    "Effect of a Home-Base Core Stability Exercises in Hereditary Ataxia. A Randomized Controlled Trial. A Pilot Randomized Controlled Trial",
+    "Is conventional radiofrequency ablation of the superolateral branch, one of the three genicular nerves targeted as standard, necessary or not? A non-inferiority randomized controlled trial",
+    "Comparison of time-segmented-target teaching and traditional teaching methods for spinal puncture: a randomized trial",
+    "The effectiveness of core stability exercises on functional outcomes in early subacute stroke recovery: a randomized controlled trial",
+    "Regional moderate hyperthermia for mild-to-moderate COVID-19 (TherMoCoV study): a randomized controlled trial",
+    "Development and effects of a webtoon education program on preventive self-management related to premature labor for women of childbearing age: a randomized controlled trial",
+    "Efficacy of a Digital Peer Support Program on Weight Management and Mental Health in University Students With Preobesity: Randomized Controlled Trial"
+  ),
+  Journal = c("EClinicalMedicine", "The Lancet", "The World Journal of Men's Health", "Movement Disorders Clinical Practice", "The Korean Journal of Pain", "Frontiers in Education", "Topics in Stroke Rehabilitation", "Frontiers in Medicine", "Korean Journal of Women Health Nursing", "JMIR mHealth and uHealth"),
+  `Paper Link` = c(
+    "https://doi.org/10.1016/j.eclinm.2021.100762",
+    "https://doi.org/10.1016/S0140-6736(09)61924-3",
+    "https://doi.org/10.5534/wjmh.240191",
+    "https://doi.org/10.1002/mdc3.14036",
+    "https://doi.org/10.3344/kjp.24098",
+    "https://doi.org/10.3389/feduc.2025.1665203",
+    "https://doi.org/10.1080/10749357.2024.2439712",
+    "https://doi.org/10.3389/fmed.2023.1256197",
+    "https://doi.org/10.4069/kjwhn.2022.09.22",
+    "https://doi.org/10.2196/78960"
+  ),
+  `Publication Year` = c(2021, 2010, 2025, 2024, 2024, 2025, 2025, 2023, 2022, 2026),
+  `# of Arm` = c(2, 2, 3, 2, 2, 2, 2, 2, 2, 3),
+  `Control Group` = c("Control", "Oxytocin IV", "No call", "Standard care", "Conventional three-branch RFA", "Traditional teaching", "Control rehabilitation", "Control", "Control", "Control"),
+  `Study Phase` = c("Pragmatic", "Non-inferiority", "Pilot", "Pilot", "Non-inferiority", "Education", "Rehabilitation", "Open-label", "Education", "Digital health"),
+  `Sample Size` = c(nrow(df71_final), nrow(df72_final), nrow(df73_final), nrow(df74_final), nrow(df75_final), nrow(df76_final), nrow(df77_final), nrow(df78_final), nrow(df79_final), nrow(df80_final)),
+  `Priamry Outcome` = c(
+    "Composite preterm birth or low birth weight",
+    "Active bleeding controlled within 20 minutes of PPH treatment",
+    "Patient satisfaction with the reassurance-call service after prostate biopsy",
+    "Change in SARA ataxia severity and Trunk Impairment Scale after intervention",
+    "Change in numeric rating scale knee pain at 3 months",
+    "Post-training spinal puncture total performance score",
+    "Change in Trunk Impairment Scale after core stability exercise",
+    "Any COVID-19 disease progression by 28 days",
+    "Premature-labor preventive self-management knowledge after education",
+    "Change in BMI at 6 months"
+  ),
+  `Primary Outcome Type` = c("Binary", "Binary", "Continuous", "Continuous", "Continuous", "Continuous", "Continuous", "Binary", "Continuous", "Continuous"),
+  `Trial Success(Primary Outcome Significant)` = c(
+    "Yes; intervention reduced the composite outcome in the audited dataset",
+    "Non-inferiority trial; cleaned data reproduces the paper's active-bleeding-control counts",
+    "Human-assisted reassurance calls had higher service satisfaction than AI-assisted calls",
+    "Mixed; primary and secondary functional outcomes favored exercise in selected domains",
+    "Yes for non-inferiority of reduced-branch RFA",
+    "Yes; time-segmented-target teaching improved performance score",
+    "Yes; core stability exercise improved trunk impairment",
+    "No clear reduction in 28-day disease progression",
+    "Yes; webtoon education improved knowledge and self-efficacy",
+    "Yes for BMI reduction in the digital peer-support arm"
+  ),
+  `Statistical Model` = c(
+    "Pragmatic randomized comparison of outcome proportions",
+    "Double-blind randomized non-inferiority comparison of treatment success proportions",
+    "Pilot randomized comparison of AI-assisted calls, human-assisted calls, and no call",
+    "Assessor-blind randomized pilot trial with between-group comparisons of change scores",
+    "Non-inferiority randomized comparison of pain and WOMAC changes",
+    "Randomized comparison of post-training assessment scores",
+    "Randomized rehabilitation comparison of functional change scores",
+    "Open-label randomized comparison of progression risk and secondary clinical endpoints",
+    "Randomized pre-post-follow-up comparison of education outcomes",
+    "Randomized digital-health comparison of anthropometric and mental-health changes"
+  ),
+  `Randomization Scheme` = c(
+    "Individual randomization to rapid-test intervention or control antenatal screening",
+    "Individual randomization to sublingual misoprostol or intravenous oxytocin",
+    "Individual randomization to AI-assisted reassurance call, human-assisted reassurance call, or no call",
+    "Individual 1:1 randomization to core stability exercise plus standard care or standard care",
+    "Individual randomization to conventional or reduced-branch genicular RFA",
+    "Individual randomization to time-segmented-target teaching or traditional teaching",
+    "Individual randomization to core stability exercise or control rehabilitation",
+    "Individual open-label randomization to regional thermotherapy or control",
+    "Individual randomization to webtoon education or control",
+    "Individual randomization to digital peer support, self-guided digital program, or control"
+  ),
+  `Randomization Scheme(High Level)` = "Individual",
+  `Research Area` = c("Obstetrics / infectious disease", "Obstetrics", "Urology / digital health", "Neurology / rehabilitation", "Pain medicine", "Medical education", "Stroke rehabilitation", "COVID-19", "Women's health education", "Digital health / obesity"),
+  `Text Data` = "No",
+  Citation = c(
+    "Gehani et al. EClinicalMedicine. 2021;33:100762. doi:10.1016/j.eclinm.2021.100762",
+    "Winikoff et al. Lancet. 2010;375(9710):210-216. doi:10.1016/S0140-6736(09)61924-3",
+    "The World Journal of Men's Health. 2025. doi:10.5534/wjmh.240191",
+    "Cabanas-Valdes et al. Movement Disorders Clinical Practice. 2024. doi:10.1002/mdc3.14036",
+    "Korean Journal of Pain. 2024. doi:10.3344/kjp.24098",
+    "Frontiers in Education. 2025. doi:10.3389/feduc.2025.1665203",
+    "Topics in Stroke Rehabilitation. 2025. doi:10.1080/10749357.2024.2439712",
+    "Mancilla-Galindo et al. Frontiers in Medicine. 2023. doi:10.3389/fmed.2023.1256197",
+    "Korean Journal of Women Health Nursing. 2022;28(3). doi:10.4069/kjwhn.2022.09.22",
+    "JMIR mHealth and uHealth. 2026. doi:10.2196/78960"
+  ),
+  `Issues Encountered` = c(
+    "Outcome rows with missing birth-outcome status are retained with missing YP values; audit uses observed event count by arm.",
+    "Dataverse package includes two postpartum hemorrhage RCTs; active trial72 uses Study A only, matching the Lancet paper for women not exposed to prophylactic oxytocin.",
+    "Raw workbook includes two procedure sheets and direct identifiers; cleaner uses the prostate-biopsy sheet, removes identifiers, and preserves missing outcome values.",
+    "Publication DOI was resolved by Crossref; cleaned primary includes both SARA and TIS participant-level change scores.",
+    "Raw data contain some repeated patient labels consistent with knee-level observations; rows were preserved as source observations and this is documented.",
+    "Raw file includes 41 unassigned/blank rows; those rows were excluded before cleaning.",
+    "Primary cleaned endpoint uses T2 Trunk Impairment Scale change, matching the available participant-level follow-up table.",
+    "Raw file includes 15 nonrandomized/missing-group rows; those rows were excluded before cleaning.",
+    "Cleaned primary uses immediate post-education knowledge because it is the publication-supported education endpoint with baseline and follow-up analogues.",
+    "Group labels were inferred from the article title and outcome pattern; control/reference arm is ordered first."
+  )
+)
+
+meta_main = bind_rows(meta_main_existing, meta_main_new, meta_main_more)
+
+provenance_existing = tibble(
+  Trial_ID = 51:60,
+  Repository = c("Zenodo", "Harvard Dataverse", "Zenodo", "Harvard Dataverse", "Harvard Dataverse", "Harvard Dataverse", "Zenodo", "Zenodo", "Zenodo", "Zenodo"),
+  Dataset_DOI = c("10.5281/zenodo.11066092", "10.7910/DVN/WI6SAS", "10.5281/zenodo.6597822", "10.7910/DVN/DVOHPZ", "10.7910/DVN/GKH6X6", "10.7910/DVN/4VG2XS", "10.5281/zenodo.1120364", "10.5281/zenodo.18455008", "10.5281/zenodo.17051703", "10.5281/zenodo.18176543"),
+  License = c("CC-BY-4.0", "Harvard Dataverse terms / open file", "CC-BY-4.0", "Harvard Dataverse terms / open file", "Harvard Dataverse terms / open file", "CC0-1.0", "CC-BY-4.0", "CC-BY-4.0", "CC-BY-4.0", "CC-BY-4.0"),
+  Download_Date = today,
+  Source_Files = c(
+    "Sleep_hygiene_lavender_RCT_Data.xlsx",
+    "Baseline_Excluding_dropouts.xlsx; iP.xlsx; BSFS.xlsx; dose.xlsx",
+    "QLB_partial_nephrectomy_RCT_DATA.xlsx",
+    "Dades_boles_Rap_excel_girado_para_SPSS_enviado_20_enero_2024_2.xlsx",
+    "Taking_Charge_COPD_RAW_DATA.xlsx",
+    "Data_burnout.txt; Raw Data Burnout.tab; CONSORT 2010 Flow Diagram.pdf; CONSORT 2010 Checklist.pdf",
+    "blind_data.csv; data_supplement.Rmd; data_supplement.html; costing e-tool.xlsx",
+    "tDCS+cognitive training study data share.csv; README.md",
+    "Data.xlsx",
+    "DFT-IW-masticatory-v1.0.1.zip; data/processed/DFT_glucose.csv; data/processed/DFT_VAS.csv; DATA_DICTIONARY.md"
+  ),
+  Baseline_Covariates_Selected = c(
+    paste(names(df51_final)[startsWith(names(df51_final), "X_")], collapse = "; "),
+    paste(names(df52_final)[startsWith(names(df52_final), "X_")], collapse = "; "),
+    paste(names(df53_final)[startsWith(names(df53_final), "X_")], collapse = "; "),
+    paste(names(df54_final)[startsWith(names(df54_final), "X_")], collapse = "; "),
+    paste(names(df55_final)[startsWith(names(df55_final), "X_")], collapse = "; "),
+    paste(names(df56_final)[startsWith(names(df56_final), "X_")], collapse = "; "),
+    paste(names(df57_final)[startsWith(names(df57_final), "X_")], collapse = "; "),
+    paste(names(df58_final)[startsWith(names(df58_final), "X_")], collapse = "; "),
+    paste(names(df59_final)[startsWith(names(df59_final), "X_")], collapse = "; "),
+    paste(names(df60_final)[startsWith(names(df60_final), "X_")], collapse = "; ")
+  ),
+  Baseline_Outcome_Measurements_Included = c(
+    "Included baseline Hooper sleep quality, fatigue, and calmness for secondary questionnaire outcomes; no raw baseline actigraphy sleep latency or sleep efficiency measurement was available.",
+    "Included baseline serum phosphorus and BSFS for both primary outcomes.",
+    "No preoperative baseline analogue exists in raw data for perioperative sufentanil, postoperative NRS, rescue analgesia, or QoR-40 outcome values.",
+    "Included baseline FSFI total, ICIQ-UI-SF, and Oxford power for primary/secondary outcomes.",
+    "Included prior 12-month AECOPD event count as the baseline analogue for the 12-month AECOPD primary outcome; no baseline analogue exists for alive or rehabilitation-attendance follow-up outcomes.",
+    "Included baseline RBANS Attention Index for the primary attention endpoint and baseline RBANS/symptom secondary outcomes.",
+    "Included baseline weight, waist circumference, BMI, and quality-of-life measures.",
+    "Included baseline RBANS Total Score and Attention Index for primary and secondary cognitive endpoints and baseline PANSS score.",
+    "Included baseline dominant and non-dominant ankle ROM measurements for all cleaned ROM outcomes.",
+    "Included pre-period glucose elution and chewing-ease VAS for the crossover period outcomes."
+  ),
+  Covariate_Source = c(
+    "Publication Table 1 plus available baseline questionnaire scores.",
+    "Publication Table 1 plus baseline serum phosphorus and BSFS primary-outcome values.",
+    "Publication Table 1, restricted to baseline variables present in the raw workbook.",
+    "Publication Table 1, restricted to raw fields reported there.",
+    "Publication Table 1 and available raw index-admission baseline fields, using the publication-level combined prior AECOPD event count.",
+    "Publication demographics and primary/secondary baseline test battery.",
+    "Publication baseline characteristics and primary outcome model covariates available in blind_data.csv.",
+    "Publication Table 1 and dataset README variables.",
+    "Publication participant characteristics and baseline ROM measurements.",
+    "Publication model covariates for crossover design: sequence, period, and pre-period outcome value."
+  ),
+  Cleaning_Notes = c(
+    "Primary endpoint changed from subjective Hooper sleep-quality change to objective 7-day sleep latency after publication review.",
+    "Merged baseline serum phosphorus and stool-form outcome files by participant ID; serum phosphorus and BSFS are both primary outcomes.",
+    "Primary endpoint corrected to the raw total perioperative cumulative sufentanil column.",
+    "Used Hoja3 participant-level sheet; primary endpoint changed from ICIQ-SF to FSFI total and secondary pelvic-floor strength changed to Oxford power for the downloaded secondary-analysis paper. Stored endpoint variables directly rather than computed changes so participants with endpoint data and missing baseline are retained in endpoint summaries.",
+    "Removed raw dictionary/header rows and retained the 56 randomized participants; used 12-month COPD event count as primary outcome and combined prior admission/ED events as the baseline analogue.",
+    "Used the analysis-ready long Dataverse text file; converted comma decimal strings to numeric values.",
+    "Kept observed participant-level losses and baseline covariates; model-based audit reconstructs the paper's mixed-model weight-loss contrast.",
+    "Excluded blank/non-randomized rows in the CSV and retained the mandatory one-week RBANS endpoint.",
+    "Used dominant dorsiflexion ROM as the cleaned primary endpoint and retained baseline ROM measures for all available cleaned outcomes.",
+    "Unzipped the Zenodo/GitHub archive and joined glucose and VAS period-level files by participant ID, sequence, and period."
+  )
+)
+
+provenance_new = tibble(
+  Trial_ID = 61:70,
+  Repository = rep("PLOS One supplementary data", 10),
+  Dataset_DOI = c(
+    "10.1371/journal.pone.0138646.s005",
+    "10.1371/journal.pone.0135674.s002",
+    "10.1371/journal.pone.0257607.s001",
+    "10.1371/journal.pone.0178585.s002",
+    "10.1371/journal.pone.0312084.s006",
+    "10.1371/journal.pone.0129646.s004; 10.1371/journal.pone.0129646.s005",
+    "10.1371/journal.pone.0215823.s006",
+    "10.1371/journal.pone.0216225.s006",
+    "10.1371/journal.pone.0128997.s003",
+    "10.1371/journal.pone.0134467.s004; 10.1371/journal.pone.0134467.s005"
+  ),
+  License = rep("CC-BY-4.0", 10),
+  Download_Date = today,
+  Source_Files = c(
+    "plos_s1_dataset_cinnamon.xlsx; trial61_plos_cinnamon.pdf",
+    "plos_s1_dataset_kidney.xlsx; trial62_plos_kidney.pdf",
+    "plos_s1_dataset_hiit.xlsx; trial63_plos_hiit.pdf",
+    "plos_s2_dataset_low_back.xlsx; trial64_plos_low_back.pdf",
+    "plos_s1_dataset_tdcs_running.xlsx; trial65_plos_tdcs_running.pdf",
+    "plos_s1_dataset_yoga.xlsx; plos_s2_dataset_yoga.xlsx; trial66_plos_yoga.pdf",
+    "plos_s2_dataset_middle_molecule.xlsx; trial67_plos_middle_molecule.pdf",
+    "plos_s1_dataset_bci_adhd.xlsx; trial68_plos_bci_adhd.pdf",
+    "plos_s1_file_tapentadol.xlsx; trial69_plos_tapentadol.pdf",
+    "plos_s1_dataset_cognitive_training.csv; plos_s2_dataset_dictionary.csv; trial70_plos_cognitive_training.pdf"
+  ),
+  Baseline_Covariates_Selected = c(
+    paste(names(df61_final)[startsWith(names(df61_final), "X_")], collapse = "; "),
+    paste(names(df62_final)[startsWith(names(df62_final), "X_")], collapse = "; "),
+    paste(names(df63_final)[startsWith(names(df63_final), "X_")], collapse = "; "),
+    paste(names(df64_final)[startsWith(names(df64_final), "X_")], collapse = "; "),
+    paste(names(df65_final)[startsWith(names(df65_final), "X_")], collapse = "; "),
+    paste(names(df66_final)[startsWith(names(df66_final), "X_")], collapse = "; "),
+    paste(names(df67_final)[startsWith(names(df67_final), "X_")], collapse = "; "),
+    paste(names(df68_final)[startsWith(names(df68_final), "X_")], collapse = "; "),
+    paste(names(df69_final)[startsWith(names(df69_final), "X_")], collapse = "; "),
+    paste(names(df70_final)[startsWith(names(df70_final), "X_")], collapse = "; ")
+  ),
+  Baseline_Outcome_Measurements_Included = c(
+    "Included baseline fasting glucose, HbA1c, HOMA-IR, insulin, lipid, anthropometric, and questionnaire measurements.",
+    "Included baseline CKD-EPI, MDRD4, creatinine, and cyclosporine trough level for the renal-function endpoint.",
+    "Included baseline peak VO2, FMD, exercise duration, left-ventricular ejection fraction, and cardiopulmonary measures.",
+    "Included baseline pain VAS, strength, Oswestry, work ability, body composition, physical activity, and blood pressure measurements.",
+    "Included screening VO2max, maximal aerobic speed, training history, anthropometrics, and first allocation; no pre-session time-to-exhaustion analogue is available.",
+    "Included baseline mean total velocity for all firm/foam and eyes-open/eyes-closed postural stability outcomes.",
+    "Included pre-filter solute concentrations, exchange, filter/catheter, and flow measures available before or during treatment setup.",
+    "Included baseline clinician, parent, CBCL, CGAS, and CGI symptom/function scores.",
+    "Included subject, drug-period label, and timepoint covariates required for crossover time-course reconstruction.",
+    "Included baseline cognitive task scores, Grand Index, age bin, real-world cognition, and engagement measures."
+  ),
+  Covariate_Source = c(
+    "Publication baseline characteristics plus baseline metabolic and questionnaire variables in the PLOS dataset.",
+    "Publication analysis model and baseline renal-function variables available in the PLOS dataset.",
+    "Publication Table 1 and baseline cardiopulmonary/FMD measures in the PLOS workbook.",
+    "Publication baseline characteristics table and baseline outcome measurements in the PLOS workbook.",
+    "Publication baseline/training characteristics and screening performance measures in the PLOS workbook.",
+    "Publication balance-outcome dataset; demographic/raw secondary file was downloaded but the primary audit uses the S1 balance table.",
+    "Publication methods and PLOS clearance dataset variables available before or during the randomized hemofilter period.",
+    "Publication symptom-scale baseline table and PLOS dataset codebook fields.",
+    "Publication crossover design and eVAS time-course source workbook.",
+    "Publication baseline cognitive-task definitions and PLOS data dictionary."
+  ),
+  Cleaning_Notes = c(
+    "Filled arm/sex/randomization values across repeated visits by participant, excluded one non-publication VP treatment-code row, and pivoted M0/M4/M6 repeated measures to participant-level change scores.",
+    "Parsed numeric eGFR columns and retained CKD-EPI endpoints at 3, 12, and 24 months with baseline renal covariates.",
+    "Joined baseline, FMD, and cardiopulmonary exercise sheets by patient and retained all randomized participants with available source rows.",
+    "Stored 5-month participant-level changes for pain, strength, Oswestry, and work ability with publication-supported baseline covariates.",
+    "Filtered to included participants and represented the randomized crossover as one row per participant-treatment condition.",
+    "Parsed S1 balance workbook arm sections manually; retained primary foam mean-total-velocity post and change endpoints.",
+    "Mapped study group 1 to standard filter and group 2 to high cut-off filter based on published beta2-microglobulin clearance summaries.",
+    "Mapped GRP 1 to BCI attention training and GRP 2 to control based on the published clinician-inattention improvement summary.",
+    "Reshaped six drug-period sheets to participant-drug-period rows and widened eVAS timepoints so group-mean curve peaks can be audited.",
+    "Filtered out rows flagged for exclusion and retained baseline and change scores for Grand Index and component cognitive tasks."
+  )
+)
+
+provenance_more = tibble(
+  Trial_ID = 71:80,
+  Repository = rep("Harvard Dataverse", 10),
+  Dataset_DOI = c("10.7910/DVN/TQ2MAR", "10.7910/DVN/ETHH4N", "10.7910/DVN/ALVSGP", "10.7910/DVN/MPSTOK", "10.7910/DVN/GQ6NJF", "10.7910/DVN/HXE3JR", "10.7910/DVN/QWQLXY", "10.7910/DVN/QXBM3S", "10.7910/DVN/VIZDGR", "10.7910/DVN/BZGDBB"),
+  License = rep("CC0-1.0", 10),
+  Download_Date = today,
+  Source_Files = c(
+    "RCT_Data_Upload_Safe_Harbour.tab",
+    "final_pphdatabase_merge_topost2.tab; Misotreatment_codebook_variable_list.xls",
+    "prostate_biopsy_ai_reassurance.xlsx",
+    "Repositori_Core_Ataxia_16_5_2023.xlsx; Repositori_Core_Ataxia.xlsx",
+    "Dataset_KJP.xlsx",
+    "data1.tab",
+    "CORE_results.xlsx",
+    "Themocov_Dataset_data.tab; Themocov_Dataset_dictionary.tab",
+    "Sharing_Data.xlsx",
+    "dataset.tab"
+  ),
+  Baseline_Covariates_Selected = c(
+    paste(names(df71_final)[startsWith(names(df71_final), "X_")], collapse = "; "),
+    paste(names(df72_final)[startsWith(names(df72_final), "X_")], collapse = "; "),
+    paste(names(df73_final)[startsWith(names(df73_final), "X_")], collapse = "; "),
+    paste(names(df74_final)[startsWith(names(df74_final), "X_")], collapse = "; "),
+    paste(names(df75_final)[startsWith(names(df75_final), "X_")], collapse = "; "),
+    paste(names(df76_final)[startsWith(names(df76_final), "X_")], collapse = "; "),
+    paste(names(df77_final)[startsWith(names(df77_final), "X_")], collapse = "; "),
+    paste(names(df78_final)[startsWith(names(df78_final), "X_")], collapse = "; "),
+    paste(names(df79_final)[startsWith(names(df79_final), "X_")], collapse = "; "),
+    paste(names(df80_final)[startsWith(names(df80_final), "X_")], collapse = "; ")
+  ),
+  Baseline_Outcome_Measurements_Included = c(
+    "Included pregnancy and antenatal baseline covariates; no baseline analogue exists for birth outcomes.",
+    "Included baseline obstetric, hemoglobin, site, and PPH-diagnosis measurements before treatment; no baseline analogue exists for bleeding-control endpoint.",
+    "Included pre-procedure age, anthropometrics, K-AD8, creatinine, hemoglobin, eGFR, PSA, and PI-RADS; no baseline analogue exists for satisfaction outcomes.",
+    "Included baseline SARA, TIS, ABC, gait-speed, EQ-5D, demographic, and rehabilitation variables.",
+    "Included baseline NRS, WOMAC, analgesic consumption, demographic, and knee characteristics.",
+    "Included baseline demographic and prior spinal-puncture exposure; no pretraining outcome analogue is available in the raw file.",
+    "Included baseline TIS, BBA, BBS, Barthel, Rankin, demographics, and stroke characteristics.",
+    "Included baseline COVID severity, NEWS2, symptoms, vital signs, comorbidities, and laboratory/clinical covariates.",
+    "Included baseline knowledge and self-efficacy totals plus demographic and pregnancy-history covariates.",
+    "Included baseline BMI, mental-health scales, wellbeing scales, physical activity, and demographic covariates."
+  ),
+  Covariate_Source = c(
+    "Publication baseline table and Dataverse safe-harbour trial variables.",
+    "Lancet Study A baseline and eligibility variables available in the Dataverse source file.",
+    "World Journal of Men's Health article abstract/results and prostate-biopsy workbook baseline/pre-procedure fields.",
+    "Publication baseline characteristics and primary/secondary baseline outcome measures.",
+    "Publication baseline knee pain and WOMAC variables plus demographic/knee characteristics in the Dataverse workbook.",
+    "Publication baseline learner characteristics and pretraining experience variables.",
+    "Publication baseline stroke rehabilitation characteristics and baseline functional scales.",
+    "Publication baseline clinical characteristics and TherMoCoV data dictionary.",
+    "Publication baseline participant characteristics and education-outcome baseline scores.",
+    "Publication baseline anthropometric, mental-health, wellbeing, and activity measures."
+  ),
+  Cleaning_Notes = c(
+    "Read SPSS-backed Dataverse file with haven and converted labelled composite birth outcome to 1/0.",
+    "Filtered to Study A because the Dataverse package contains two RCTs; recoded labelled treatment and primary control variables.",
+    "Replaced duplicate oxytocin-route candidate with the publication-backed prostate-biopsy RCT; selected the prostate-biopsy sheet, omitted direct identifiers, and recoded AI/Human/None arms.",
+    "Used the updated 2023 Dataverse workbook and computed participant-level pre-post change scores.",
+    "Removed blank rows; preserved source row-level observations where patient labels repeat for knee-level data.",
+    "Excluded unassigned rows and retained post-training performance score and secondary assessment fields.",
+    "Used the CORE trial results sheet and computed T2 change scores from baseline.",
+    "Excluded rows missing Study_group and retained 28-day progression and secondary clinical outcomes.",
+    "Used Sharing Data_PSM-PL sheet and retained immediate and follow-up education endpoints.",
+    "Used the Dataverse CSV and recoded three study groups with control first."
+  )
+)
+
+provenance = bind_rows(provenance_existing, provenance_new, provenance_more)
+
+backup_ids = sprintf("B%02d", 1:5)
+backup_sample_size = map_int(backup_ids, function(id) {
+  path = file.path(root, "backup", id, "cleaned_data", paste0(id, ".rds"))
+  if (!file.exists(path)) return(NA_integer_)
+  nrow(read_rds(path))
+})
+
+backup_meta_main = tibble(
+  Trial_ID = backup_ids,
+  Original_Trial_ID = c(53, 55, 56, 57, 58),
+  `Trial Number/Name` = c(
+    "Zenodo 11657186",
+    "Zenodo 5602139",
+    "CARE-CF-1",
+    "Zenodo 14637015",
+    "Zenodo 17562062"
+  ),
+  `Paper Name` = c(
+    "Efficacy of transformational breath for anxiety management in professional voice users",
+    "Identifying an optimal dihydroartemisinin-piperaquine dosing regimen for malaria prevention in young Ugandan children",
+    "Oral cysteamine as an adjunct treatment in cystic fibrosis pulmonary exacerbations: An exploratory randomized clinical trial",
+    "Effects of transcranial direct current stimulation combined with gait-oriented motor training on disability, quality of life, and motor function in individuals with subacute stroke: a randomized controlled trial",
+    "Effects of a Lamellar-Structured Ceramide-Containing Emulsion on the Skin Barrier Function of Surgical Nurses: A Randomized Controlled Trial"
+  ),
+  Journal = c("PLOS Mental Health", "Nature Communications", "PLOS One", "European Journal of Physical and Rehabilitation Medicine", NA_character_),
+  `Paper Link` = c(
+    "https://doi.org/10.1371/journal.pmen.0000119",
+    "https://doi.org/10.1038/s41467-021-27051-8",
+    "https://doi.org/10.1371/journal.pone.0242945",
+    "https://doi.org/10.23736/S1973-9087.25.09034-3",
+    NA_character_
+  ),
+  `Publication Year` = c(2025, 2021, 2020, 2025, NA_real_),
+  `# of Arm` = c(2, 2, 6, 2, NA_real_),
+  `Control Group` = c("Control", "DP every 12 weeks", "Placebo", "Control/gait-oriented motor training only", NA_character_),
+  `Study Phase` = c("Pilot cohort", "Not recorded", "Exploratory", "Not recorded", NA_character_),
+  `Sample Size` = backup_sample_size,
+  `Priamry Outcome` = c(
+    "Change in K-MPAI from pre-session 1 to pre-session 3",
+    "Incident malaria event count through follow-up",
+    "Published primary: change in sputum Gram-negative bacterial load day 0 to day 14",
+    "Change in SIS and WHODAS at post-intervention and 3-month follow-up",
+    "No associated main publication identified; primary outcome not audited"
+  ),
+  `Primary Outcome Type` = c("Continuous", "Count", "Continuous", "Continuous", NA_character_),
+  `Trial Success(Primary Outcome Significant)` = c(
+    "No significant group-by-time interaction; exploratory within-treatment acute K-MPAI change significant",
+    "Modeling study; incident malaria hazard used for exposure-response/protective concentration",
+    "No significant effect on published sputum bacterial-load primary",
+    "Yes",
+    NA_character_
+  ),
+  `Statistical Model` = c(
+    "Linear mixed models for repeated beginning-of-session outcomes; exploratory Friedman/Wilcoxon tests for acute intervention-only changes",
+    "Parametric repeated-event survival model for incident malaria; covariate model building for PK/PD",
+    "MMRM with treatment, assessment, interaction, and baseline value; exploratory ANCOVA for baseline factors",
+    "MANCOVA adjusted for baseline differences and longitudinal mixed-effects models; repeated-measures ANOVA for secondary outcomes",
+    NA_character_
+  ),
+  `Randomization Scheme` = c(
+    "Individual 1:1 randomization by order of registration to intervention or control",
+    "Individual randomization before birth to DP every 4 or 12 weeks for eligible maternal-regimen strata",
+    "Individual 1:1:1:1:1:1 centralized web-based block randomization",
+    "Individual permuted-block randomization with allocation concealment",
+    "Publication not identified; randomization scheme not verified"
+  ),
+  `Randomization Scheme(High Level)` = "Individual",
+  `Research Area` = c("Mental health / voice", "Infectious disease", "Pulmonology", "Neurology / rehabilitation", "Dermatology / nursing"),
+  `Text Data` = "No",
+  Citation = c(
+    "Wheble and Elcin. PLOS Mental Health. 2025;2(6):e0000119. doi:10.1371/journal.pmen.0000119",
+    "Wallender et al. Nature Communications. 2021;12:6714. doi:10.1038/s41467-021-27051-8",
+    "Devereux et al. PLOS One. 2020;15(12):e0242945. doi:10.1371/journal.pone.0242945",
+    "Reddy et al. European Journal of Physical and Rehabilitation Medicine. 2025;61(4):620-631. doi:10.23736/S1973-9087.25.09034-3",
+    NA_character_
+  ),
+  `Issues Encountered` = c(
+    "Moved to backup because exact post/change K-MPAI summaries are not available for primary-outcome reproducibility.",
+    "Moved to backup because corrected public source data do not reproduce the published malaria incidence rates.",
+    "Moved to backup because the public raw files do not contain the published sputum Gram-negative bacterial-load primary outcome.",
+    "Moved to backup because public raw/cleaned SIS and WHODAS summaries do not reproduce the publication primary outcome means.",
+    "Moved to backup because no associated main publication was identified."
+  )
+)
+
+backup_provenance = tibble(
+  Trial_ID = backup_ids,
+  Original_Trial_ID = c(53, 55, 56, 57, 58),
+  Repository = c("Zenodo", "Zenodo", "Zenodo", "Zenodo", "Zenodo"),
+  Dataset_DOI = c("10.5281/zenodo.11657186", "10.5281/zenodo.5602139", "10.5281/zenodo.4305078", "10.5281/zenodo.14637015", "10.5281/zenodo.17562062"),
+  License = c("CC-BY-4.0", "CC-BY-4.0", "CC0", "CC-BY-4.0", "CC-BY-4.0"),
+  Download_Date = today,
+  Source_Files = c(
+    "Efficacy_of_Transformational_Breath_for_Anxiety_Management_DATA.xlsx",
+    "pd_data_dp_children.csv; pk_data_dp_children.csv; genotype_data_dp_children.csv",
+    "demographics.rtf; randomisation.rtf; FEV1.rtf; CFRSD_CRISS.rtf; README.rtf",
+    "Raw_Data_tDCS_Study.xlsx",
+    "Data.xlsx"
+  ),
+  Backup_Reason = c(
+    "insufficient publication/source information",
+    "source data mismatch",
+    "insufficient publication/source information",
+    "source data mismatch",
+    "no associated main publication identified"
+  ),
+  Backup_Folder = file.path("backup", backup_ids),
+  Next_Action = c(
+    "Use only if a supplementary table with exact post/change K-MPAI summaries is obtained.",
+    "Use only if the source data documentation needed to reconstruct incident malaria exactly is found.",
+    "Use only if the sputum bacterial-load raw file is obtained.",
+    "Use only if corrected source data or a mapping/exclusion rule is identified.",
+    "Use only if a valid main publication is identified."
+  )
+)
+
+active_candidate_screen_input = meta_main %>%
+  left_join(provenance %>% select(Trial_ID, Dataset_DOI), by = "Trial_ID") %>%
+  transmute(
+    candidate_status = "active_candidate",
+    candidate_trial_id = as.character(Trial_ID),
+    candidate_title = `Paper Name`,
+    candidate_link = `Paper Link`,
+    candidate_citation = Citation,
+    candidate_dataset_or_record = Dataset_DOI
+  )
+
+active_duplicate_screening = candidate_duplicate_screen(active_candidate_screen_input, current_trial_ids = included_trials)
+write_csv(active_duplicate_screening, file.path(prov_dir, "duplicate_screening_active.csv"))
+if (nrow(active_duplicate_screening) > 0) {
+  stop(
+    "Duplicate active RCT candidate(s) found in cleaned_data/meta_data.xlsx or existing meta_data_expansion.xlsx. ",
+    "Review rct_expansion/provenance/duplicate_screening_active.csv and move duplicates out of the active set."
+  )
+}
+
+write_xlsx(list(Sheet1 = meta_main, Provenance = provenance), file.path(meta_dir, "meta_data_active.xlsx"))
+write_xlsx(list(Sheet1 = meta_main, Provenance = provenance), file.path(meta_dir, "meta_data_expansion.xlsx"))
+write_xlsx(list(Sheet1 = backup_meta_main, Provenance = backup_provenance), file.path(meta_dir, "meta_data_backup.xlsx"))
+
+publication_links = provenance %>%
+  left_join(meta_main %>% select(Trial_ID, `Paper Name`, `Paper Link`), by = "Trial_ID") %>%
+  select(Trial_ID, `Paper Name`, `Paper Link`, Repository, Dataset_DOI)
+write_csv(publication_links, file.path(pub_dir, "publication_links.csv"))
+
+skipped_candidates = tibble(
+  candidate_title = c(
+    "Intravenous ferumoxytol versus oral ferrous sulfate for iron deficiency anemia in pregnancy",
+    "Comparing exercise with virtual reality gaming on gait and cognition in relapsing-remitting multiple sclerosis",
+    "Preliminary efficacy of cognitive multisensory rehabilitation for neuropathic pain in chronic spinal cord injury",
+    "Physical activity is associated with exercise capacity among patients undergoing chemotherapy",
+    "Patterned frequency-modulated oral stimulation in preterm infants",
+    "Replication data for study NCT02612389: Qigong meditative movement",
+    "The use of carbogen for interruption of febrile seizures - CARDIF trial",
+    "Safety and efficacy of remote ischemic postconditioning after thrombolysis in patients with stroke",
+    "Randomized study of TENS therapeutic education for chronic low-back pain"
+  ),
+  repository = c(rep("Dryad", 5), "Harvard Dataverse", "Zenodo", "Zenodo", "Dryad"),
+  doi_or_url = c(
+    "10.5061/dryad.k3j9kd5qd",
+    "10.5061/dryad.x69p8czzx",
+    "10.5061/dryad.7h44j1007",
+    "10.5061/dryad.w6m905qzp",
+    "10.5061/dryad.rg57q6m",
+    "10.7910/DVN/3L6APT",
+    "10.5281/zenodo.15728814",
+    "10.5061/dryad.zw3r2286c",
+    "10.5061/dryad.84nj034"
+  ),
+  attempted_timestamp = today,
+  reason = c(rep("Dryad public file download returned validation/authorization HTML instead of file content; skipped to avoid bypassing site protection.", 5), "Raw file did not expose explicit treatment assignment needed for this benchmark.", "Raw file is event/crossover dose-level rather than one participant-level treatment row.", "Record exposed supplemental Word tables rather than participant-level raw data.", "Dryad API exposed metadata but file download endpoint returned 401 Unauthorized in this environment; skipped to avoid bypassing site access controls."),
+  observed_error_or_status = c(rep("Interactive validation / unauthorized placeholder from Dryad download endpoints.", 5), "No explicit Treatment/Group variable found in inspected workbook.", "Semicolon CSV available, but repeated event/dose rows and crossover structure.", "Open record, but files were DOCX supplemental tables.", "Official Dryad API metadata accessible; /download and file download endpoints returned 401 Unauthorized or 403."),
+  next_action = "Revisit manually if repository access or source documentation changes."
+)
+
+skipped_candidates = bind_rows(
+  skipped_candidates,
+  tibble(
+	    candidate_title = c(
+	      "Replication Data for: What If Neither Randomized Control Trials Nor Public Health Interventions Are Enough?",
+	      "Intralesional betamethasone versus triamcinolone acetonide in the treatment of keloids",
+	      "Does stretching of hamstrings stretch the muscle or the neural tissue? Effect of three stretching modalities for hamstring muscles on global flexibility",
+	      "Effects of an equol-containing supplement on advanced glycation end products, visceral fat and climacteric symptoms in postmenopausal women"
+	    ),
+	    repository = "Harvard Dataverse",
+	    doi_or_url = c("10.7910/DVN/FR8OCC", "10.7910/DVN/OVO3MG", "10.7910/DVN/NICGQV", "10.7910/DVN/HQADC0"),
+	    attempted_timestamp = today,
+	    reason = c(
+	      "Official Dataverse file download required a guestbook response; skipped to avoid bypassing access workflow.",
+	      "Downloaded file was an assessor-summary table rather than participant-level randomized trial data.",
+	      "Dataverse record lacked a complete associated publication DOI/link; replaced by a publication-backed candidate.",
+	      "Official Dataverse file export was a dictionary-style two-column table rather than participant-level analysis data."
+	    ),
+	    observed_error_or_status = c(
+	      "Dataverse API returned: may not download without required Guestbook response.",
+	      "Open workbook contained 17 summary rows for visual assessment by treatment/examiner, not participant-level records.",
+	      "Publication metadata listed DOI type but no DOI value; abstract/results were available only in the dataset record.",
+	      "Downloaded tabular file contained Variable and Description columns, not participant rows."
+	    ),
+	    next_action = c(
+	      "Revisit only if a compliant guestbook workflow is completed manually.",
+	      "Use only if participant-level source data are found.",
+	      "Use only if an associated main publication is identified.",
+	      "Use only if a participant-level data file is identified."
+	    )
+	  )
+	)
+
+	removed_duplicate_candidates = tibble(
+	  candidate_title = c(
+	    "Internet-delivered therapist-guided physical activity for depression",
+	    "Chlorhexidine oral rinses for symptomatic COPD",
+	    "Snoezelen intervention for problem behaviors in cerebral palsy",
+	    "Automated medication-targeted alerts for acute kidney injury",
+	    "A double-blind, randomized controlled trial on oxytocin route for prevention of postpartum hemorrhage in Argentina"
+	  ),
+	  repository = c(rep("Dryad", 4), "Harvard Dataverse"),
+	  doi_or_url = c(
+	    "10.5061/dryad.c6q65",
+	    "10.5061/dryad.m0cfxpp37",
+	    "10.5061/dryad.9cnp5hqtv",
+	    "10.5061/dryad.kh189327p",
+	    "10.7910/DVN/MDZRKU"
+	  ),
+  removed_date = today,
+  reason = "Duplicate of an existing trial in cleaned_data/meta_data.xlsx.",
+  next_action = "Do not use for expansion unless the original benchmark trial is intentionally replaced."
+)
+
+identified_candidate_screen_input = bind_rows(
+  active_candidate_screen_input,
+  skipped_candidates %>%
+    transmute(
+      candidate_status = "skipped_candidate",
+      candidate_trial_id = NA_character_,
+      candidate_title = candidate_title,
+      candidate_link = NA_character_,
+      candidate_citation = NA_character_,
+      candidate_dataset_or_record = doi_or_url
+    ),
+  removed_duplicate_candidates %>%
+    transmute(
+      candidate_status = "removed_duplicate_candidate",
+      candidate_trial_id = NA_character_,
+      candidate_title = candidate_title,
+      candidate_link = NA_character_,
+      candidate_citation = NA_character_,
+      candidate_dataset_or_record = doi_or_url
+    )
+)
+duplicate_screening = candidate_duplicate_screen(identified_candidate_screen_input, current_trial_ids = included_trials)
+write_csv(duplicate_screening, file.path(prov_dir, "duplicate_screening.csv"))
+write_csv(removed_duplicate_candidates, file.path(prov_dir, "removed_duplicate_candidates.csv"))
+write_csv(skipped_candidates, file.path(prov_dir, "skipped_candidates.csv"))
+
+download_log = provenance %>%
+  transmute(Trial_ID, Repository, Dataset_DOI, Download_Date, Status = "downloaded", Source_Files)
+write_csv(download_log, file.path(prov_dir, "download_log.csv"))
+
+data_dictionary = map_dfr(included_trials, function(id) {
+  d = read_rds(file.path(clean_dir, paste0("trial", id, ".rds")))
+  tibble(
+    Trial_ID = id,
+    variable_name = names(d),
+    variable_type = map_chr(names(d), clean_variable_type),
+    brief_explanation = map_chr(names(d), clean_variable_explanation)
+  )
+})
+write_csv(data_dictionary, file.path(meta_dir, "data_dictionary.csv"))
+
+validation = map_dfr(included_trials, function(id) {
+  d = read_rds(file.path(clean_dir, paste0("trial", id, ".rds")))
+  tibble(
+    Trial_ID = id,
+    n_rows = nrow(d),
+    n_cols = ncol(d),
+    has_treatment = "Treatment" %in% names(d),
+    n_treatment_levels = nlevels(as.factor(d$Treatment)),
+    n_primary_outcomes = sum(startsWith(names(d), "YP_")),
+    n_secondary_outcomes = sum(startsWith(names(d), "YS_")),
+    n_covariates = sum(startsWith(names(d), "X_")),
+    passes_contract = has_treatment && n_treatment_levels >= 2 && n_primary_outcomes >= 1
+  )
+})
+write_csv(validation, file.path(prov_dir, "validation_summary.csv"))
+validation
+```

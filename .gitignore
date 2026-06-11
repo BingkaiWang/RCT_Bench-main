@@ -1,0 +1,12 @@
+.DS_Store
+*/.DS_Store
+~$*
+*.tmp
+*.log
+.Rhistory
+.RData
+.Rapp.history
+.Rproj.user/
+__pycache__/
+*.py[cod]
+node_modules/

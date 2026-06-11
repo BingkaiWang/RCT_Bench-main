@@ -1,0 +1,71 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.84nj034"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.84nj034/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/4609"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.84nj034/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.84nj034",
+  "id": 4580,
+  "storageSize": 482836,
+  "relatedPublicationISSN": "0025-7974",
+  "title": "Data from: Randomized study of the impact of a therapeutic education program on patients suffering from chronic low-back pain who are treated with transcutaneous electrical nerve stimulation",
+  "authors": [
+    {
+      "firstName": "Thomas",
+      "lastName": "Garaud"
+    }
+  ],
+  "abstract": "Background: Transcutaneous electrical nerve stimulation (TENS) is often used for the treatment of low-back pain (LBP). However, its effectiveness is controversial. Objective: To determine the efficacy of TENS in the treatment LBP when associated to a therapeutic education program (TEP).  \r\nDesign: Open randomized monocentric study.  Setting: University hospital between 2010 and 2014. Patients: A total of 97 patients suffering from LBP.\r\nInterventions: Routine care (TENS group) or routine care plus a therapeutic education program (TENS-TEP group) based on consultation support by a pain resource nurse Main outcome measures: EIFEL and Dallas Pain Questionnaire scores. Results: Twenty-two patients (44%) were still assessable at the end-of-study visit, whereas 33 (70%) were assessable at the same time point in the TENS-TEP group (P = 0.013). The EIFEL score and the Dallas score had a similar evolution over time between groups (p = 0.18 and p = 0.50 respectively). Similarly, there were no significant differences between the groups with respect to resting pain scores (p = 0.94 for back pain and p = 0.16 for leg pain) and movement pain scores (p = 0.52 for back pain and p = 0.56 for leg pain). At Month 6, there was no significant difference between the groups (p = 0.85) with regard to analgesics and social impact. Two patients presented a serious adverse event during the study (one in each group) but non-attributable to the treatment studied.  \r\nConclusion: This study does not support the use of TENS in the treatment of patients with chronic LBP even though patients benefited from a therapeutic education program by a pain resource nurse. However, the higher number of premature withdrawals in the TENS group may be due to early withdrawal of patients who did not experience improvement of their symptoms.",
+  "keywords": [
+    "back pain",
+    "therapeutic education program",
+    "transcutaneous electrical nerve stimulation",
+    "Paris"
+  ],
+  "usageNotes": "<div class=\"o-metadata__file-usage-entry\"><h4 class=\"o-heading__level3-file-title\">Data base<\/h4><div class=\"o-metadata__file-name\"><\/div><div class=\"o-metadata__file-name\"><\/div><\/div>",
+  "locations": [
+    {
+      "place": "France"
+    }
+  ],
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1097/MD.0000000000013782"
+    }
+  ],
+  "versionNumber": 1,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "none",
+  "publicationDate": "2019-01-09",
+  "lastModificationDate": "2019-09-23",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.84nj034",
+  "changedFields": [
+    "none"
+  ],
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 308,
+    "downloads": 43,
+    "citations": 0
+  }
+}

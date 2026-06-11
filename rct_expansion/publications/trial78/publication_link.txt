@@ -1,0 +1,5 @@
+Trial_ID: 78
+Paper Name: Regional moderate hyperthermia for mild-to-moderate COVID-19 (TherMoCoV study): a randomized controlled trial
+Paper Link: https://doi.org/10.3389/fmed.2023.1256197
+Citation: Mancilla-Galindo et al. Frontiers in Medicine. 2023. doi:10.3389/fmed.2023.1256197
+Availability: PDF stored here when publicly available; otherwise this file records the publication link.

@@ -1,0 +1,5 @@
+Trial_ID: 72
+Paper Name: Treatment of post-partum haemorrhage with sublingual misoprostol versus oxytocin in women not exposed to oxytocin during labour: a double-blind, randomised, non-inferiority trial
+Paper Link: https://doi.org/10.1016/S0140-6736(09)61924-3
+Citation: Winikoff et al. Lancet. 2010;375(9710):210-216. doi:10.1016/S0140-6736(09)61924-3
+Availability: PDF stored here when publicly available; otherwise this file records the publication link.

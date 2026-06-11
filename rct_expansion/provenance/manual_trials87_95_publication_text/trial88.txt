@@ -1,0 +1,719 @@
+R E S E A R C H A R T I C L E Open Access
+Effects of nutrition education on recurrent
+coronary events after percutaneous
+coronary intervention: A randomized
+clinical trial
+Lis Proença Vieira 1*, Moacyr Roberto Cucê Nobre 2 and Jonas Augusto Cardoso da Silveira 3
+Abstract
+Background: Changes in lifestyle include a healthy diet. However, due to different educational approaches, the
+effects of nutritional counselling are still not very encouraging and require further study. The objective of this
+study was to analyse the effectiveness of a nutrition education intervention program on mortality and recurrence
+of cardiovascular events evaluated after one and four years of follow-up.
+Methods: A randomized clinical trial was performed at a public hospital in Brazil with 200 patients who had
+recently undergone elective percutaneous coronary intervention (PCI). In addition to the traditional care, the
+patients allocated to the intervention group attended nutrition education workshops that adopted a constructivist
+approach towards behavioural change for six months. Primary outcome was death, and secondary outcomes were
+acute myocardial infarction (AMI), revascularization with re-PCI, or coronary artery bypass graft (CABG) surgery.
+The magnitude of the first year effect was calculated by the absolute risk reduction, and the risk ratio was calculated
+as a measure of the cumulative incidence of events after four years. The critical p-value was assumed as 5%.
+Results: After one year of follow-up, in the intervention and control groups, respectively, there were 5 and 7 deaths
+(p = 0.53); 5 and 6 AMIs ( p = 0.73); 4 and 6 re-PCIs ( p = 0.50); and 4 and 4 CABGs ( p = 0.98). After four years, the risk ratios
+between intervention and control groups were 0.75 (95% CI 0.35 –1.58) for death, 0.89 (95% CI 0.34 –2.28) for AMI, 0.86
+(95% CI 0.40–1.84) for re-PCI, and 1.14 (95% CI 0.38 –3.40) for CABG.
+Conclusion: Although differences in events between the two groups were not significant, data suggest that the lower
+number of events observed in the intervention group is most notable with the longer follow-up.
+Trial registration number: NCT01028066. Registered 8 December 2009, retrospectively registered.
+Keywords: Food and nutrition education, Mortality, Food consumption, Coronary artery disease, Secondary prevention
+Background
+Changes in lifestyle, such as smoking cessation; regular
+physical activity; a diet rich in fruits, vegetables, whole
+grains, and fish; and a healthy weight can reduce the in-
+cidence of coronary heart disease by over 80% [1].
+The Lifestyle Heart Trial was the first randomized,
+controlled study assessing the regression of coronary
+lesions resulting from changes in lifestyle [2], and other
+studies have since been reporting positive effects in
+reducing the risk of ischemic disease [3, 4], and the
+recurrence of cardiovascular events [5]. However, due to
+different educational approaches –when the theoretical
+background is a concern for researchers –and the lack of
+standardization among protocols, the effects of nutri-
+tional counselling are still not very encouraging [6] and
+require further study.
+The use of health education to help people adopt
+healthier lifestyles has been supported by some re-
+searchers [7, 8]. Compliance with lifestyle changes
+* Correspondence: lis.vieira@incor.usp.br
+1Nutrition and Dietetic Service, Heart Institute (InCor) do Hospital das Clínicas
+da Faculdade de Medicina da Universidade de São Paulo, Av. Dr. Enéas de
+Carvalho Aguiar, 44. Cerqueira César, São Paulo, SP CEP: 05403-000, Brazil
+Full list of author information is available at the end of the article
+© The Author(s). 2016 Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0
+International License (http://creativecommons.org/licenses/by/4.0/), which permits unrestricted use, distribution, and
+reproduction in any medium, provided you give appropriate credit to the original author(s) and the source, provide a link to
+the Creative Commons license, and indicate if changes were made. The Creative Commons Public Domain Dedication waiver
+(http://creativecommons.org/publicdomain/zero/1.0/) applies to the data made available in this article, unless otherwise stated.
+Vieira et al. BMC Nutrition  (2016) 2:72 
+DOI 10.1186/s40795-016-0111-5
+remains a challenge, because it depends not only on
+understanding the health information but also on the
+motivation to engage on such habits. Thus, cognitive-
+behavioural strategies are currently emerging as a key
+component in behavioural change interventions and are
+focused on changing how individuals think about
+themselves, their attitudes, and how they can change
+their lifestyle, using resources, such as concrete
+goals, feedback and positive reinforcement, and re-
+lapse prevention [9].
+The objective of this randomized trial was to analyse
+the effectiveness of a nutrition education intervention
+on mortality and the recurrence of cardiovascular events
+in patients who had previously undergone percutaneous
+coronary intervention (PCI).
+Methods
+Study design
+We conducted a randomized clinical trial among outpa-
+tients who had recently undergone PCI and were receiv-
+ing standard clinical, surgical, and nutritional care after
+discharge; in addition to the traditional care, the patients
+allocated to the intervention group attended nutrition
+education workshops.
+The sample size was calculated based on the results
+from Lisspers et al. [5], who assessed the recurrence of
+cardiovascular mortality, acute myocardial infarction
+(AMI), coronary artery bypass graft (CABG), or re-PCI
+in chronic coronary patients after a PCI. The prevalence
+of at least one of these events was 30 and 54% in the
+presence and absence of a behavioural change interven-
+tion program, respectively. An α error = 5%, β error =
+20%, and a 1:1 ratio between the control and interven-
+tion groups were used. The estimated sample was 148
+individuals to which was added a loss margin of up to
+35%, yielding a final sample of 200 patients.
+The recruitment occurred from April 2008 to January
+2009, the period necessary for the inclusion of the calcu-
+lated sample. All 343 patients assisted by the Brazilian
+Unified Health System, consecutively admitted to the
+hospital’s hemodynamic unit to undergo elective PCI,
+were considered eligible (no neurological or cognitive
+impairment). However, 143 were excluded for failing to
+meet the single inclusion criterion, which was availability
+to participate in the nutrition education workshops. All
+patients received specific food and nutritional instruc-
+tion [10] at discharge from a nutritionist after undergo-
+ing angioplasty.
+A trained nutritionist collected data from the patients
+who agreed to participate in the study, and each patient ’s
+clinical history was obtained from medical records. After
+data collection was completed, the patients were confi-
+dentially and randomly (random numbers table) allo-
+cated to the intervention and control groups by the
+researcher. The randomization sequence was generated
+at the website OpenEpi.com [11] by a person not
+involved in the research. The table was stored in an
+opaque envelope, inaccessible to the interviewer. Al-
+though the allocation was confidential, blinding was
+not possible given the nature of the educational
+intervention.
+All patients were instructed about the study and
+signed an informed consent form. The study was ap-
+proved by local and Brazilian Ethics Committees.
+Nutrition intervention
+The intervention consisted of four nutrition education
+workshops during a six-month period, conducted at the
+institution itself, lasting approximately one hour. Each
+meeting included 10 patients, who could be accompan-
+ied by a relative and was offered at different time periods
+(morning or afternoon) and on different days of the
+week to better meet the needs of each participant. The
+first three workshops were biweekly, and the fourth and
+the last one was conducted six months after the first.
+We developed each nutrition education workshop
+using a constructivist educational approach [12] directed
+towards the adoption of a healthy diet (energy balance
+for a healthy weight; reduction of energy intake from fat;
+replacing saturated and trans fats with unsaturated fat;
+increased consumption of fruits, vegetables, whole
+grains, and legumes; reduction of sugar and sodium in-
+take) [13, 14], and the prevention and control of cardio-
+vascular risk factors [9]. The workshops followed the
+structure proposed by Paulo Freire, consisting of re-
+search, schematization, and awareness stages [15, 16]
+adapted to the nutrition education context and meeting
+the assumption of the joint construction of knowledge,
+with active participation of the groups. Physical activity
+was not assessed or discussed with the patients.
+Two professionals led the workshops: a coordinator of
+activities and a participant observer. The participant
+observer collected data through a field diary and record-
+ing sessions, so the points not clearly treated could be
+addressed at the next meeting. The observations during
+the workshops guided the techniques to support the
+discussion in the course of the sessions and to allow
+obtaining knowledge based on the needs of the par-
+ticipants and not the researcher, as the adopted
+methodology.
+In the first workshop, food replicas were used to com-
+pose initial examples of meals, from which participants
+would choose one according to their preference, with
+the objective of surveying eating habits and the difficulty
+of healthy choices. In the second workshop, the replicas
+were distributed throughout a space representing a
+supermarket. The participants chose foods they “would
+buy” and explained their contents. With the help of a
+Vieira et al. BMC Nutrition  (2016) 2:72 Page 2 of 9
+nutritionist, the concepts of portion size, nutritional
+composition of foods, and the quality of a healthy diet
+were explained. In the third workshop, an acrylic pyra-
+mid was used that was filled with foods “purchased” in
+the previous workshop activity, and other foods could be
+added. Subsequently, the patients were encouraged to
+discuss the function of foods and group them according
+to similar nutritional properties and in what quantity
+they should be consumed, with the objective of identify-
+ing portions and making correct food substitutions. The
+last workshop was reinforcement, wherein the partici-
+pants were asked about their changes in eating habits.
+The inadequacies of two different menus were dis-
+cussed, which should be noticed and corrected by the
+participants, to stimulate a critical, albeit not punitive,
+view regarding food.
+In this way, we emphasized dietary patterns rather
+than individual dietary components, because dietary pat-
+terns refer to a variety of foods and offer the opportunity
+to characterize the overall composition and quality of
+the eating behaviours [17].
+After one year of monitoring, the patients in the
+control group were invited to a final meeting, where they
+received nutritional guidance along the lines of the
+reinforcement applied to the intervention group.
+The adherence to and changes in subjects ’ dietary
+intake was measured by a semi-quantitative food fre-
+quency questionnaire, which was developed to investi-
+gate potential relationships between diet and non-
+communicable diseases [18], and posteriorly, used to
+measure daily intake of fruit and vegetables by elderly
+[19]. It was adapted after a pre-test study, as previously
+described [20], and the food intake of the previous year
+was evaluated. The questionnaires were applied by a
+trained nutritionist at the moment of recruitment and
+after one year of follow-up, and they were input twice
+into the DietSys Analysis Software, of the USA National
+Cancer Institute. To eliminate the effect of the total en-
+ergy in the analysis of the nutrients, an adjustment was
+made for total energy by using the residual adjustment
+method [21]. Additionally, we applied an algorithm [22],
+in which individuals reported whether they had ever
+changed their eating habits to a healthier pattern and to
+identify the stages of change in healthy eating, according
+to the transtheoretical model [23]. In the subsequent
+years, people from intervention group were contacted by
+telephone and we asked them to rate their adherence
+from 0 to 5.
+Outcome measures
+The primary outcome was death and secondary out-
+comes were AMI, revascularization with re-PCI, or
+CABG surgery, as well as the composite endpoints
+(presence of at least one cardiovascular event), which
+were measured after one year of follow-up, by the end of
+the trial period. The same clinical outcomes were
+assessed after four years of follow-up as part of this pro-
+spective study. All outcomes were reported by the pa-
+tients and checked in the electronic medical records.
+Data analysis
+The intention-to-treat analysis was performed using the
+statistical package Stata/ME 11.0 (Stata Corp, College
+Station, TX).
+The categorical variables are expressed as relative fre-
+quencies and the numeric variables are expressed using
+measures of central tendency (mean and median) and
+variability (standard deviation, 95% confidence interval
+[95% CI] and interquartile range).
+The chi-square test was performed to identify the ef-
+fect of the intervention in both the intervention and
+control groups. The magnitude of the first year effect
+was calculated by the absolute risk reduction, subtract-
+ing the percentage of subjects with events in the treat-
+ment group from the percentage in the control group. In
+addition, we tested changes in the smoking status and
+medication use (statins, antihypertensives, and hypogly-
+caemics) during the intervention period.
+The risk ratio was calculated as a measure of the cu-
+mulative incidence of events after four years, and the cu-
+mulative proportions of subjects without cardiovascular
+events by time were analysed with Kaplan-Meier using
+the log-rank test to compare the equality of survivor
+functions between groups. Hazard ratios were generated
+by Cox proportional hazards model for each outcome.
+The comparisons between the intervention and con-
+trol groups regarding the dependent variables with nor-
+mal distribution in the beginning and end of the study
+were performed using the t test for independent sam-
+ples; the Mann –Whitney test was used for the variables
+with nonparametric distributions. The critical p-value
+was assumed as 5%.
+Results
+The randomization process and the number of subjects
+at the end of the study are shown in Fig. 1. No signifi-
+cant differences were observed after the random alloca-
+tion of subjects to the intervention and control groups,
+except for the number of subjects with dyslipidaemia.
+No difference occurred regarding the drug treatment
+prescribed to both groups (Table 1). An additional file
+shows raw database [see Additional file 1].
+Despite the absolute risk reduction, there was no dif-
+ference in mortality or in the recurrence of cardiovascu-
+lar events between the groups, after 1 year of follow-up
+(Table 2). The number needed to treat and prevent one
+death was 50 individuals.
+Vieira et al. BMC Nutrition  (2016) 2:72 Page 3 of 9
+Changes in smoking status and medication use after
+one-year follow-up could be potential confounding vari-
+ables, so they were tested. There was no difference in
+smokers who attempted to stop smoking ( p = 0.33) and
+prescriptions drugs: statins ( p = 0.18), antihypertensive
+(p = 0.12), and hypoglycaemic ( p = 0.46) therapies be-
+tween groups.
+After four years of follow-up, there was no differ-
+ence in the incidence of death and recurrence of car-
+diovascular events in the intervention and the control
+groups (Table 3). Over four years, there were more
+events in the control group than in the intervention
+group, but not enough to guarantee a difference be-
+tween them (Table 4).
+Monitoring changes in food intake revealed both
+groups decreased total calories and all nutrients intake
+(difference intra-groups), but the intervention group had
+a significant reduction of 2.31 g/day in the saturated fat
+(p = 0.02) and a significant positive variation of 2.70 g/
+day of fiber ( p = 0.03) and 318.43 mg/day of potassium
+(p = 0.01) (variation between groups), once the reduction
+in the fiber and potassium consumptions was smaller
+than the control group, after one-year follow-up
+(Table 5). An additional file shows data of absolute and
+adjusted nutrient values [see Additional file 2].
+Individuals with a higher level of education seem to
+adhere more to healthier diets, so we tested education
+and nutrients with significant variation between inter-
+vention and control groups. There was no difference
+in saturated fat ( p = 0.62), fiber (0.48) and potassium
+(p = 0.31) intakes in those with more or less than
+four years of study.
+At the end of the first year, there was an increase in
+the number of individuals in the motivation stage of
+maintenance from 31 to 65% in the control group and
+from 42 to 76% in the intervention group without
+difference among the different stages (precontemplation,
+contemplation, preparation, action and maintenance) be-
+tween groups ( p = 0.44). During the observational study,
+79.5% of patients who had participated in the workshops
+classified themselves as greater than three for their ad-
+herence to a healthy diet.
+Discussion
+The lifestyle intervention developed in this study and
+conducted among patients with established coronary ar-
+tery disease had no significant impact on death or any
+major cardiovascular events. Thus, we consider that the
+effect of the intervention was not strong enough to pro-
+mote additional benefits, considering the usual care
+Fig. 1 Description of a figure: Flow diagram from the randomized clinical trial
+Vieira et al. BMC Nutrition  (2016) 2:72 Page 4 of 9
+delivered in the hospital, especially because it is a refer-
+ence cardiology centre where patients have the most
+qualified professionals and access to technology and
+proper medication. Perhaps in other less-privileged envi-
+ronments, the results would be different. The fact that
+half of the intervention participants did not attend at
+least 75% of the educational workshops may also have
+impaired the effectiveness of the proposed theoretical
+background, which uses sequential stages for new learn-
+ing of dietary and behavioural skill. This finding rein-
+forces the evidence on how difficult it is to deal with
+adherence, even in individuals in an advanced stage of
+motivation, what can be an influence of the cardiovascu-
+lar event itself in the change of eating habits, in attempt
+to restore health [20], and considering the availability to
+attend the workshops was an inclusion criterion.
+A literature review of the effect of lifestyle and diet-
+ary changes on mortality in coronary artery disease
+patients estimated the risk reduction potential for
+combinations of individual dietary goals to be 45%
+[24]. A gap still exists in the literature as to how life-
+style can contribute to secondary prevention in pa-
+tients with heart disease.
+The Look AHEAD Trial, with over 5000 patients with
+type 2 diabetes for almost 10 years, tried to show a dif-
+ference in cardiovascular outcomes with an intensive
+lifestyle intervention to weight loss and still failed to do
+that in terms of having statistical power for their pri-
+mary outcomes, probably because there was a very low
+overall rate of events in both groups [25].
+Lisspers et al. [5] found a significant actual risk reduc-
+tion of 23% and relative risk reduction of 43% for at least
+one cardiovascular event in stable patients after PCI, but
+the average length of the follow-up was 6.5 years. During
+the first year, they also observed no difference between
+the groups regarding the number of subjects experien-
+cing coronary events: 11 (23.9%) in the intervention
+group and 9 (22.0%) in the control group.
+Positive impacts on lifestyle factors were shown among
+the studies describing cardiac rehabilitation programs
+with high intensity (>20 contacts) and long duration
+(>3 months) [26]. It is possible that our minor interven-
+tion was not strong enough to produce significant
+results in short- and long-term major outcomes, but we
+did note positive changes in dietary intake, similarly the
+study of Bemelmans et al. [6], whose nutritional
+education programme with group sessions changed diet-
+ary intake, but had no additional positive effects on
+Table 1 Baseline characteristics of participants ( n = 200)
+according to study group. São Paulo, 2015
+Characteristics Intervention
+(n = 101)
+Control
+(n = 99)
+p
+Male - n (%) 70 (69) 70 (71) 0.83
+Age (years)a 60.4 ± 9.1 59.6 ± 10.4 0.55
+Education (years)b 5.0 (4–11) 6.0 (4 –11) 0.91
+Type of coronary angioplasty – n (%)
+Balloon 6 (5.9) 3 (3.1) 0.32
+Conventional stent 88 (87.2) 83 (83.8) 0.51
+Pharmacological stent 7 (6.9) 13 (13.1) 0.14
+Clinical history- n (%)
+Systemic arterial hypertension 83 (82.2) 88 (88.9) 0.18
+Dyslipidaemia 70 (69.3) 82 (82.8) 0.03
+Type 2 diabetes 41 (40.6) 36 (36.4) 0.54
+Family history of premature
+coronary heart disease
+45 (44.6) 34 (34.3) 0.14
+Previous acute myocardial
+infarction
+44 (43.6) 42 (42.4) 0.87
+Previous angioplasty 19 (18.8) 24 (24.2) 0.35
+Heart surgery 9 (8.9) 13 (13.1) 0.34
+Smoking status – n (%)
+Non-smoker 64 (63.4) 61 (61.6) 0.30
+Former smoker 13 (12.9) 20 (20.2)
+Smoker 24 (23.8) 18 (18.2)
+Medication use – n (%)
+Antihypertensive agents 73 (72.3) 82 (82.8) 0.07
+Oral hypoglycaemic agents 32 (31.7) 23 (23.2) 0.18
+Statins 50 (49.5) 57 (57.6) 0.25
+Antiarrhythmic agents 59 (58.4) 63 (63.6) 0.45
+aValues are mean ± standard deviation
+bValues are median and interquartile range
+Table 2 Incidence of recurrence of cardiovascular events and mortality in the control and intervention groups, and absolute risk
+reduction, after one-year follow-up. São Paulo, 2015
+Events Intervention ( n = 101)
+n (%)
+Control (n = 99)
+n (%)
+ARR (95% CI) p
+Mortality 5 (4.95) 7 (7.07) −2.12% (−8.71; 4.47) 0.53
+AMI 5 (4.95) 6 (6.06) −1.11% (−7.43; 5.21) 0.73
+Re-PCI 4 (3.96) 6 (6.06) −2.10% (−8.15; 3.95) 0.50
+CABG 4 (3.96) 4 (4.04) −0.08% (−5.51; 5.35) 0.98
+Composite endpoints 11 (10.89) 13 (13.13) −2.24% (−11.3; 6.77) 0.63
+AMI acute myocardial infarction, Re-PCI re-percutaneous coronary intervention, CABG coronary artery bypass graft, ARR absolute risk reduction
+Vieira et al. BMC Nutrition  (2016) 2:72 Page 5 of 9
+established cardiovascular risk factors after three years
+of follow-up.
+The higher fiber and potassion consumption in the
+intervention group are probably related to a more pru-
+dent dietary pattern [17] characterized by high intakes of
+fruits and vegetables, which are sources of these nutri-
+ents. In the same way, the reduction in saturated fat in-
+take is directed towards food choices like lean meats and
+low fat dairy product. The constructivist educational ap-
+proach seemed to reach all the participants, even those
+with lower educational level. How to reach the greatest
+possible adherence to lifestyle changes in patients with
+coronary heart disease has not been identified. Recently,
+a group-based minimally prescriptive lifestyle modifi-
+cation program achieved significant improvements in
+body composition and physical and cardio-metabolic
+fitness [27].
+The intervention proposed in this study causes no
+harm, is low in cost, and can be used as a preventive ap-
+proach at both referral hospitals and primary health care
+units. A less prescriptive dietary approach should be
+encouraged in other investigations and in clinical prac-
+tice to promote self-care and social awareness in health.
+In contrast to the traditional weight-centred approach, a
+qualitative approach is based on the principle of
+advocating healthy changes in food selection rather than
+adherence to prescriptive diets that involves calorie
+counting [28].
+The strength of this study lies in the participatory edu-
+cational intervention and the patient-centred approach.
+We focused on behavioural change without rigorous
+control of compliance, because the objective was to ob-
+serve how health practices are sustained in daily life,
+which may differ from intensively controlled contexts.
+However, some weaknesses were noted during the study.
+The low intensity of the intervention, the number that
+actually completed the intervention, and the low event
+rate may have been determining factors of the limited ef-
+fect sample size. Additionally, the sample size failed to
+provide enough power for the analyses, because of the
+underestimation of the number of events; therefore, a
+larger sample size and longer follow-up time might pro-
+vide more accurate results, considering our estimations.
+The monitoring of adherence after the first year was
+quite subjective, so we consider a study limitation to be
+the lack of an objective and systematic measure during
+the cohort period.
+The effectiveness of this kind of intervention remains
+inconclusive and further research should be conducted
+overcoming the limitations described above. Although
+there was no effect on the primary outcome, we consider
+that the intervention developed here –due to its theoret-
+ical background – is promising to produce better out-
+comes, as beneficial modifications in food consumption
+and other possible lifestyle changes that could improve
+quality of life.
+Table 3 Incidence of recurrence of cardiovascular events and mortality in the control and intervention groups, and risk ratio, after
+four-year follow-up. São Paulo, 2015
+Events Intervention ( n = 101)
+n (%)
+Control (n = 99)
+n (%)
+RRa (95% CI) p
+Mortality 10 (9.90) 13 (13.13) 0.75 (0.35; 1.58) 0.15
+AMI 7 (6.93) 8 (8.08) 0.89 (0.34; 2.28) 0.27
+Re-PCI 10 (9.90) 12 (12.12) 0.86 (0.40; 1.84) 0.12
+CABG 6 (5.94) 5 (5.05) 1.14 (0.38; 3.40) 0.16
+Composite endpoints 20 (19.80) 24 (24.24) 0.84 (0.51; 1.40) 0.05
+AMI acute myocardial infarction, Re-PCI re-percutaneous coronary intervention, CABG coronary artery bypass graft, RR Risk Ratio
+aadjusted for dyslipidaemia
+Table 4 Event-free probability in patients after PCI, at 12, 24, 36, and 48 months, proportionality of risk and Cox regression for the
+respective risks of cardiovascular events. São Paulo, 2015
+Event-free probability (months) p-value
+(log-rank)
+HR (95% CI)
+Cardiovascular events Intervention Control
+12 24 36 48 12 24 36 48
+Death 0.97 0.96 0.93 0.92 0.94 0.94 0.89 0.88 0.33 0.64 (0.26 –1.57)
+AMI 0.97 0.96 0.96 0.95 0.95 0.95 0.94 0.92 0.51 0.68 (0.22 –2.15)
+Re-PCI 0.98 0.96 0.94 0.92 0.95 0.93 0.89 0.88 0.38 0.67 (0.27 –1.66)
+CABG 0.98 0.97 0.97 0.96 0.97 0.97 0.97 0.96 0.97 0.97 (0.24 –3.88)
+Composite endpoints 0.91 0.89 0.86 0.82 0.88 0.86 0.79 0.76 0.30 0.72 (0.39 –1.34)
+AMI acute myocardial infarction, PCI percutaneous coronary intervention, CABG coronary artery bypass graft, HR hazard ratio
+Vieira et al. BMC Nutrition  (2016) 2:72 Page 6 of 9
+Table 5 Daily food intake in the intervention and control groups and its variation after one-year follow up. São Paulo, 2015
+Intervention (I) Control (C) Variation: I-C
+Mean
+(CI 95%)
+p
+Initial intake ( n = 101) Final intake ( n = 76) Difference: Final – Initial (CI
+95%)
+Initial intake ( n = 99) Final intake ( n = 76) Difference: Final – Initial (CI
+95%)
+Calories (Kcal) 2539.03 (2379.25;
+2698.81)
+2031.04 (1902.44;
+2159.64)
+−393.58* (−526.54; −260.61) 2531.11 (2392.74;
+2669.47)
+2080.95 (1945.71;
+2216.19)
+−452.27* (−585.72; −318.82) +58.70 ( −128.16;
+245.55)
+0.29
+Carbohydrate
+(g)
+340.65 (332.99;
+348.31)
+277.28 (269.92;
+284.64)
+−66.018* (−73.96; −58.08 345.21 (336.15;
+354.27)
+277.44 (268.25;
+286.62)
+−68.08* (−77.42; −58.73) +2.06 ( −10.10; 14.22) 0.74
+Protein (g) 103.60 (100.84;
+106.35)
+97.08 (93.57; 100.59) −4.94* (−8.29; −1.59) 102.05 (98.20; 105.90) 94.51 (90.52; 98.49) −7.99* (−13.00; −2.98) +3.05 ( −2.93; 9.03) 0.32
+Fat (g) 81.04 (77.99; 84.09) 60.71 (58.34; 63.09) −20.82* (−24.15; −17.50) 78.09 (74.54; 81.65) 61.15 (57.99; 64.32) −16.49* (−20.42; −12.57) −4.33 (−9.43; 0.78) 0.13
+Saturated fat (g) 25.04 (23.82; 26.26) 17.51 (16.71; 18.32) −7.37* (−8.69; −6.05) 23.67 (22.30; 25.05) 18.24* (17.04; 19.45) −5.06* (−6.59; −3.53) −2.31 (−4.31; −0.31) 0.02
+Fiber (g) 28.31 (26.90;29.72) 25.64 (24.33; 26.95) −2.90* (−4.56; −1.24) 27.77 (26.25;29.30) 22.54 (21.16; 23.92) −5.60* (−7.19; −4.02) +2.70 (0.43; 4.98) 0.03
+Sodium (mg) 3267.45 (3155.45;
+3379.44)
+2588.72 (2478.87;
+2698.56)
+−647.68* (−786.91; −508.45) 3120.46 (2983.13;
+3257.79)
+2434.43 (2307.64;
+2561.22)
+−666.39* (−840.62; −492.16) +18.71 ( −202.50;
+239.92)
+0.87
+Potassium (mg) 3536.57 (3396.17;
+3676.98)
+3337.41 (3179.57;
+3495.24)
+−212.49* (−372.41; −52.57) 3533.50 (3384.28;
+3682.72)
+3055.77 (2932.45;
+3179.08)
+−530.92* (−681.85; −379.99) +318.43 (100.32;
+536.54)
+0.01
+*p < 0.05
+Vieiraet al. BMC Nutrition (2016) 2:72 Page 7 of 9
+Conclusions
+Although differences in events between the two groups
+were not significant, data suggest that the lowest num-
+ber of events observed in the intervention group is ac-
+centuated in the longer follow-up. Further studies with
+larger numbers of participants could clarify the role of
+nutrition education interventions in secondary preven-
+tion of coronary artery disease.
+Additional files
+Additional file 1: Raw database. All variables of baseline characteristics
+of participants and outcome measures. (XLSX 41 kb)
+Additional file 2: Food intake dataset. Initial and final food intakes with the
+absolute and adjusted values of nutrients– carbohydrate (hc), protein (prot),
+fat, saturated fat (ags), fiber, sodium (na) and potassium (k). (XLSX 53 kb)
+Abbreviations
+AMI: Acute myocardial infarction; ARR: Absolute risk reduction;
+CABG: Coronary artery bypass graft; CI: Confidence interval; HR: Hazard ratio;
+PCI: Percutaneous coronary intervention; RR: Risk ratio
+Funding
+Fundação de Amparo a Pesquisa do Estado de São Paulo (FAPESP) provided
+the financial support for this research, case number 2007/54652-8.
+Availability of data and materials
+The dataset supporting the conclusions of this article is included within the
+article and its additional file.
+Authors’ contributions
+Designing the study: LPV, MRN. Collecting the data: LPV. Data analyses: LPV,
+JAS. Interpretation of data: all authors. Drafting the initial manuscript: LPV.
+Manuscript revision: all authors. All authors read and approved the final
+manuscript.
+Authors’ information
+LPV: Postgraduate course in Preventive Medicine, Department of Faculdade
+de Medicina da Universidade de São Paulo.
+Competing interests
+The authors declare that they have no competing interests.
+Consent for publication
+Not applicable.
+Ethics approval and consent to participate
+All patients were instructed about the study and signed an informed
+consent form. The study was approved by local (Scientific Committee from
+Heart Institute) and by the Ethical Research Committee of the Hospital das
+Clínicas da Faculdade de Medicina de São Paulo, Brazil. The protocol number
+is 443/07.
+The name of the registered trial protocol is Feeding Education in Patients
+Submitted to Coronary Angioplasty (PTCA-Nutri) , which can be accessed in:
+https://clinicaltrials.gov/ct2/show/NCT01028066?term=PTCA-Nutri&rank=1
+Author details
+1Nutrition and Dietetic Service, Heart Institute (InCor) do Hospital das Clínicas
+da Faculdade de Medicina da Universidade de São Paulo, Av. Dr. Enéas de
+Carvalho Aguiar, 44. Cerqueira César, São Paulo, SP CEP: 05403-000, Brazil.
+2Clinic Epidemiology Unit, Heart Institute (InCor) do Hospital das Clínicas da
+Faculdade de Medicina da Universidade de São Paulo, São Paulo, Brazil.
+3Department of Public Health Nutrition, Faculty of Nutrition, Universidade
+Federal de Alagoas, Maceió, Brazil.
+Received: 23 April 2016 Accepted: 18 November 2016
+References
+1. Rippe JM, Angelopoulos TJ. Lifestyle strategies for cardiovascular risk
+reduction. Curr Atheroscler Rep. 2014. doi:10.1007/s11883-014-0444-y.
+2. Ornish D, Brown SE, Scherwitz LW, Billings JH, Armstrong WT, Ports TA, et al.
+Can lifestyle changes reverse coronary heart disease?The Lifestyle Heart
+Trial. Lancet. 1990;336:129 –33.
+3. Maruthur NM, Wang NY, Appel LJ. Lifestyle interventions reduce
+coronary heart disease risk: results from the PREMIER Trial. Circulation.
+2009;119:2026 –31.
+4. Estruch R, Ros E, Salas-Salvadó J, Covas MI, Corella D, Arós F. Primary
+prevention of cardiovascular disease with a Mediterranean diet. N Engl J
+Med. 2013;368:1279–90.
+5. Lisspers J, Sundin Ö, Öhman A, Hofman-Bang C, Rydén L, Nygren A. Long-
+term effects of lifestyle behavior change in coronary artery disease: effects
+on recurrent coronary events after percutaneous coronary intervention.
+Health Psychol. 2005;24:41 –8.
+6. Bemelmans WJ, Broer J, Hulshof KF, Siero FW, May JF, Meyboom-de JB.
+Long-term effects of nutritional group education for persons at high
+cardiovascular risk. Eur J Public Health. 2004;14:240 –5.
+7. Aldana S, Greenlaw R, Diehl H, Salberg A, Merril R, Ohmine S, Thomas C.
+Effects of an intensive diet and physical activity modification program on
+the health risks of adults. J Am Diet Assoc. 2005;105:371 –81.
+8. Eshah NF, Bond AE, Froelicher ES. The effects of a cardiovascular disease
+prevention program on knowledge and adoption of a heart healthy lifestyle
+in Jordanian working adults. Eur J Cardiovasc Nurs. 2010;9:244 –53.
+9. Artinian NT, Fletcher GF, Mozaffar ian D, Kris-Etherton P, Van Horn L,
+Lichtenstein AH, et al. Interventions to promote physical activity and
+dietary lifestyle changes for cardio vascular risk factor reduction in
+adults: a scientific statement from the American Heart Association.
+Circulation. 2010;122:406 –41.
+10. Sposito AC, Caramelli B, Fonseca FA, Bertolami MC, Afiune Neto A, Souza
+AD, et al. IV Brazilian Guideline for Dyslipidemia and Atherosclerosis
+prevention: Department of Atherosclerosis of Brazilian Society of Cardiology.
+Arq Bras Cardiol. 2007;88(Supp l):2 –19.
+11. Dean AG, Sullivan KM, Soe MM. OpenEpi: Open Source Epidemiologic
+Statistics for Public Health, Version 2.2. http://www.openepi.com/, updated
+2007/11/09. Accessed 17 Feb 2008.
+12. Freire P. Pedagogia do oprimido [Pedagogy of the Oppressed]. 44th ed. São
+Paulo: Paz e Terra; 2006.
+13. Brasil - Ministério da Saúde. Guia alimentar para a população brasileira:
+promovendo a alimentação saudável. Brasília: Secretaria de Atenção à
+Saúde/Coordenação-geral da Política de Alimentação e Nutrição; 2008.
+[Ministry of Health. Food Guide for the Brazilian population: promoting
+healthy eating. Brasilia: Department of Health Care/Coordination General for
+the Food and Nutrition Policy; 2008.
+14. Philippi ST, Latterza AR, Cruz ATR, Ribeiro LC. Adapted food pyramid: a
+guide for a right food choice. Rev Nutr. 1999;12:65 –80.
+15. Brandão CR. O que é o método Paulo Freire [What is the Paulo Freire
+method?]. 14th ed. São Paulo: Brasiliense; 1988.
+16. Feitosa SCF. Método Paulo Freire: princípios e práticas de uma
+concepção popular de educação. Tese de Mestrado, 1999, Paulo Freire
+method: principles and practices of a popular education concept.
+Master's thesis. 1999.
+17. Sauvageot N, Leite S, Alkerwi A, Sisanni L, Zannad F, Saverio S, et al.
+Association of empirically derived dietary patterns with cardiovascular risk
+factors: a comparison of PCA and RRR methods. Plos One. 2016;11(8):
+e0161298. doi: 10.1371.
+18. Viebig RF, Pastor-Valero M. Development of a food frequency questionnaire
+to study diet and non-communicable diseases in adult population. Rev
+Saude Publica. 2004;38:581 –4.
+19. Viebig RF, Pastor-Valero M, Scazufca M, Menezes PR. Fruit and vegetable
+intake among low income elderly in the city of São Paulo, Southeastern
+Brazil. Rev Saude Publica. 2009;43:806 –3.
+20. Vieira LP, Nobre MRC, Queiroz GG. Eating behavior and nutritional status in
+patients who underwent coronary angioplasty. Nutr Hosp. 2012;27:281 –7.
+21. Willet W, Stampfer M. Implications of total energy intake for epidemiologic
+analyses. In: Willett W, editor. Nutritional Epidemiology. 2nd ed. New York:
+Oxford University Press; 1998. p. 273 –301.
+22. de Graaf C, van der Gaag M, Kafatos A, Lennernas M, Kearney JM. Stages of
+dietary change among nationally-representative samples of adults in the
+European Union. Eur J Clin Nutr. 1997;51 Suppl 2:47 –56.
+Vieira et al. BMC Nutrition  (2016) 2:72 Page 8 of 9
+23. Prochaska JO, DiClemente CC, Norcross JC. In search of how people
+change. Applications to addictive behaviors. Am Psychol. 1992;47:1102 –14.
+24. Iestra JA, Kromhout D, van der Schouw YT, Grobbee DE, Boshuizen HC, van
+Staveren WA. Effect size estimates of lifestyle and dietary changes on all-
+cause mortality in coronary artery disease patients - A systematic review.
+Circulation. 2005;112:924 –34.
+25. Pi-Sunyer X. The Look AHEAD Trial: A review and discussion of its outcomes.
+Curr Nutr Rep. 2014;3:387 –91.
+26. Strid C, Lingfors H, Fridlund B, Mårtensson J. Lifestyle changes in coronary
+heart disease - Effects of cardiac rehabilitation programs with focus on
+intensity, duration and content - systematic review. Open J Nurs. 2012;2:
+420–30.
+27. Pettman TL, Buckley JD, Misan GM, Coates AM, Howe PR. Health benefits of
+a 4-month group-based diet and lifestyle modification program for
+individuals with metabolic syndrome. Obes Res Clin Pract. 2009;3:221 –35.
+28. Liebman M. Promoting healthy weight: lessons learned from WIN the
+Rockies and other key studies. J Nutr Educ Behav. 2005;37 Suppl 2:S95 –100.
+•  We accept pre-submission inquiries 
+  Our selector tool helps you to ﬁnd the most relevant journal
+  We provide round the clock customer support 
+  Convenient online submission
+  Thorough peer review
+  Inclusion in PubMed and all major indexing services 
+  Maximum visibility for your research
+Submit your manuscript at
+www.biomedcentral.com/submit
+Submit your next manuscript to BioMed Central 
+and we will help you at every step:
+Vieira et al. BMC Nutrition  (2016) 2:72 Page 9 of 9

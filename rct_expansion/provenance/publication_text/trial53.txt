@@ -1,0 +1,659 @@
+--- page 1 ---
+ResearchArticle
+Analgesic Effect of Ultrasound-Guided Anterior Quadratus
+Lumborum Block at the L2 Level in Patients Undergoing
+LaparoscopicPartialNephrectomy:ASingle-Center,Randomized
+Controlled Trial
+Ying He,1 Mingying Huang,2 Qiangui Zhong,3Huijuan Ni,3Zenggui Yu
+ ,3,4
+and Xinjian Zhang
+ 1
+1DepartmentofAnesthesiology,TeTirdAfliatedHospitalofGuangzhouUniversityofChineseMedicine,Guangzhou,China
+2DepartmentofAnesthesiology,TeTirdClinicalMedicalCollegeofGuangzhouUniversityofChineseMedicine,
+Guangzhou,China
+3DepartmentofAnesthesiology,FujianProvincialMedicalCollege,FujianMedicalUniversity,Fuzhou,China
+4DepartmentofAnesthesiology,FujianProvincialHospital,Fuzhou,China
+Correspondence should be addressed to Zenggui Yu; yuzenggui0919@163.com and Xinjian Zhang; mzkzxj@163.com
+Received 2 August 2022; Revised 28 November 2022; Accepted 29 November 2022; Published 15 December 2022 
+Academic Editor: Vahid Rakhshan
+Copyright© 2022 Ying He et al. Tis is an open access article distributed under the Creative Commons Attribution License, which
+permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.
+Objectives. Tis study aimed to evaluate the efect of ultrasound-guided anterior quadratus lumborum block (QLB) at the L2 level
+in patients undergoing laparoscopic partial nephrectomy.Methods. Patients who were 18–70 years old with an American Society
+of Anesthesiologists (ASA) physical status of 1-2 and were scheduled for elective laparoscopic partial nephrectomy were recruited
+into the cluster randomized controlled trial. Sixty-three patients were randomly allocated to receive QLB (group Q,n � 32) or no
+block (group C,n � 31). Te patients were not masked to the group allocations. Te postoperative follower was blinded to the
+group allocations. All patients received total intravenous anesthesia, the same multimodal analgesic regimen, and rescue analgesia
+when needed. Te primary outcome was perioperative cumulative sufentanil consumption.Results. 30 patients in group Q and 29
+patients in group C were included in the statistical analysis. Block-related complications were not found in this study. Sufentanil
+consumption during the perioperative period (155.41 [19.58] vs 119.37 [12.41]μg,p <0.001) and sufentanil dosage during surgery
+and 0–6 h, 6–12 h, and 12–24 h after surgery were lower in group Q than in group C, while 24–48 h after surgery was similar
+between both groups. Te median sensory blockade area in group Q was T9-L1. Comparison of invasive blood pressure (BP) and
+heart rate (HR) before and after skin incision in group C was statistically signifcant, but there was no signifcant diference in
+group Q. Both at rest and during activity, numerical rating scale (NRS) scores and the incidence of rescue analgesia were lower in
+group Q at any time point after surgery. Te incidences of postoperative nausea and vomiting (PONV), time from postoperative to
+discharge, postoperative recovery quality, or anesthesia satisfaction were similar between the two groups.Conclusions. Anterior
+QLB at the L2 level can reduce the perioperative dosage of sufentanil and the degree of postoperative pain in patients undergoing
+laparoscopic partial nephrectomy, but it did not improve postoperative recovery quality and anesthesia satisfaction.
+1.Introduction
+Laparoscopic partial nephrectomy is the most common
+surgical procedure for renal tumors. We wanted to fnd
+a method to relieve postnephrectomy pain through research,
+either by performing surgery laparoscopically or via various
+anesthesia techniques. Despite the diferent techniques,
+chronic postsurgical pain (CPSP) is still a problematic issue
+which has not been solved yet. Although laparoscopic
+surgery minimizes the stress response, the postoperative
+Hindawi
+Pain Research and Management
+Volume 2022, Article ID 8958859, 8 pages
+https://doi.org/10.1155/2022/8958859
+
+--- page 2 ---
+acute pain score and the incidence of CPSP are equivalent to
+those of open surgery [1], and complete postoperative an-
+algesia can accelerate recovery and prevent the occurrence of
+CPSP as much as possible [2]. Regional block technology, as
+a key part of multimodal analgesia, can reduce not only
+postoperative pain but also the use of opioids after surgery.
+Ultrasound-guided quadratus lumborum block (QLB) is
+a regional block technique in the plane of the abdominal and
+lumbar fascia with good analgesic efects in various opera-
+tions. Anterior QLB has a wider range of sensory blocks than
+other approaches, up to T4-L2 [3], and has a better analgesic
+efect on visceral pain [4]. Te pain after laparoscopic partial
+nephrectomy is related to the Pfannenstiel incision and deep
+intra-abdominal pain [5]. Terefore, we consider that anterior
+QLB can better meet postoperative analgesia needs than other
+approaches. Te initial anterior QLB was described at the L4
+level [6], which has also been adopted by most clinical studies
+[4, 7]. However, a randomized controlled trial (RCT) in-
+dicated that anterior QLB at the L2 level produced a wide-
+spread cutaneous sensory blockade and a prolonged sensory
+block compared with the L4 level [8]. At present, there is no
+clinical trial report on the application of anterior QLB at the
+L2 level to laparoscopic partial nephrectomy. Tus, this study
+aimed to evaluate the analgesic efect of ultrasound-guided
+anterior QLB at the L2 level on perioperative pain man-
+agement in patients undergoing laparoscopic partial ne-
+phrectomy. We hypothesized that ultrasound-guided anterior
+QLB at the L2 level would provide a signifcant and clinically
+relevant reduction in perioperative opioid consumption
+following laparoscopic partial nephrectomy.
+2.Materials and Methods
+2.1.StudyDesignandSetting.Tis single-center, randomized
+controlled study was approved by the Medical Ethics
+Committee of Fujian Provincial Hospital (K2019-01-001),
+Fuzhou, China, on January 1st, 2019. Tis study, which
+involved human participants, was in compliance with the
+1964 Helsinki Declaration and its later amendments. After
+written informed consent was obtained, 63 patients were
+enrolled at Fujian Provincial Hospital, China, from January
+2019 to December 2019.
+2.2.Patients.Eligible patients were 18–70 years old with an
+American Society of Anesthesiologists (ASA) physical status
+of 1-2 and were scheduled for elective laparoscopic partial
+nephrectomy. Exclusion criteria were allergy to local an-
+esthetic (LA) and opioids, daily intake of opioids, known
+abuse of alcohol or medication, local infection at the site of
+injection or systemic infection, or inability to use a patient-
+controlled intravenous analgesia (PCIA) pump correctly.
+All patients were instructed to use a numerical rating
+scale (NRS) to describe the degree of pain and a PCIA device
+(Apollo Science Instrument Co., Ltd., Jiangsu, China) the
+day before surgery.
+2.3.StudyInterventions.Random numbers were generated
+by Excel 2016 and placed in sealed opaque envelopes that
+were consecutively numbered from 1 to 63. Patients were
+randomly divided into a control group (group C) and a QLB
+group (group Q) in a 1 :1 allocation ratio. Approximately
+30 min before surgery, patients in group Q were assigned to
+receive sufentanil 5μg and then a unilateral ultrasound-
+guided anterior QLB block at the L2 level. Based on ethics,
+patients in group C did not receive QLB with isotonic saline.
+Te QLB was operated on by an anesthesiologist experienced
+in ultrasound-guided nerve block who did not participate in
+the follow-up data collection. Because of the invasive nature
+of the interventions, the patients were not masked in the
+group allocations. Te intraoperative anesthesia manage-
+ment and postoperative follow-up were accomplished by the
+same anesthesiologist who was blinded to the group allo-
+cations and followed the patients up to 48 hours
+postoperatively.
+Patients were monitored with a 5-lead electrocardio-
+gram, noninvasive blood pressure (BP), pulse oximetry,
+invasive radial artery catheterization, and bispectral index
+(BIS) monitoring (BIS Vista; Medtronic, Minneapolis,
+MN, USA).
+2.4. Block Procedure.Patients were placed in the lateral
+decubitus position with the surgical side upward. A low-
+frequency convex probe (SonoSite X-Porte transducer, 2-
+5 MHz) was placed perpendicular to the spine on the L2
+vertebral body (VB), and then the probe was slowly moved
+ventrally until the L2 transverse process (TP), the quadratus
+lumborum (QL) muscle, the psoas major (PM) muscle, and
+the erector spinae (ES) were visualized [8]. A 22-gauge
+needle (Stimuplex D, B. Braun; Melsungen, Germany)
+was inserted slowly from the dorsal side to the ventral side
+using an in-plane technique and passed through the QL
+muscle before reaching the fascial interspace of the QL and
+PM muscles. Using a hydro dissection technique, isotonic
+saline 1–2 mL was injected to confrm that the needle tip was
+positioned correctly, and 25–30 mL of 0.5% ropivacaine
+(NAROPIN; AstraZeneca, London, England) was injected
+after repeated negative aspiration tests for blood. After in-
+jection, the two layers of fascia (fascia of the QL muscle and
+fascia of the PM muscle) could be seen to separate, and the
+PM muscle was pressed down, indicating that the drug had
+spread well (Figure 1). All block procedures were performed
+in accordance with the principle of sterility. Approximately
+30–40 min after block completion, a needle was used to test
+the sensory disappearance plane. Te appearance of the
+sensory loss plane indicated that the block was successful.
+After blocking, the patients’ vital signs were routinely
+monitored to observe whether there was a local anesthetic
+systemic toxicity (LAST) reaction.
+2.5.SurgicalApproach.Laparoscopic partial nephrectomy is
+divided into transperitoneal and retroperitoneal approaches.
+Te patients were positioned in the fank lateral decubitus
+position. Te positions of the trocar for the transperitoneal
+approach are near the umbilicus (reverse), McBurney’s
+point, under the lateral costal margin of the rectus
+abdominis, and at the level of the umbilicus of the anterior
+axillary line. Te trocars for the retroperitoneal approach are
+2 Pain Research and Management
+
+--- page 3 ---
+located 2 cm below the costal arch of the anterior axillary
+line, 1 cm below the 12th rib of the posterior axillary line,
+and 2 cm above the anterior superior iliac spine (Figure 2).
+Te surgical procedures of the two approaches are
+roughly the same. First, the renal artery and vein were
+exposed. Te renal mass was exposed within Gerota’s fascia.
+A 5 mm margin was marked around the mass with elec-
+trocautery. Te renal artery was clamped with a laparoscopic
+bulldog clip. Te mass was removed with scissors along the
+cautery line. Finally, the remaining renal tissue was
+sutured [9].
+2.6.AnesthesiaandPostoperativeManagement.All patients
+received standardized general anesthesia (in order to avoid
+the analgesic efect of inhalation anesthetics on the study
+results) with midazolam 2-3 mg, propofol 1–1.5 mg/kg,
+sufentanil 0.5μg/kg, cisatracurium besylate, and 0.15 mg/kg
+for induction were maintained with propofol 3-4 mg/kg/h,
+remifentanil 0.15μg/kg/min, and cisatracurium besylate
+0.1 mg/kg/h. Anesthetic medications were adjusted according
+to the BIS value and hemodynamics. Sufentanil 5–10μg was
+administered to enhance analgesia if the BP was elevated more
+than 20% of baseline. If the BP was lower than 20% of
+baseline, the dosages of propofol and remifentanil were re-
+duced appropriately and fuid therapy and/or norepinephrine
+infusion was used. During the operation, the BP was main-
+tained within±20% of baseline (which may be more favorable
+for patient prognosis improvement), the PetCO
+2 was
+35–45 mmHg, and the BIS value was 40–60. Tropisetron 5 mg
+and furbiprofen axetil 50 mg were administered in-
+travenously 30 min before the completion of the operation.
+Te PCIA pump was connected immediately after the op-
+eration. During the observation period in the recovery room,
+the patients were again told how to use the PCIA pump when
+there was moderate to severe pain. Te analgesics used in both
+groups were sufentanil 200μg and tropisetron 10 mg diluted
+to a fnal volume of 200 mL in isotonic saline. Te parameters
+of the PCIA pump included no continuous infusion, 2 mL
+bolus dose, and 15 min lockout time. When the patients’ pain
+could not be relieved after 2 consecutive bolus doses with the
+PCIA pump in the ward and the NRS score was still ≥4,
+furbiprofen axetil 50 mg was injected for rescue analgesia. If
+the patients developed nausea and vomiting, tropisetron 5 mg
+was given intravenously.
+2.7. Outcomes.Te primary outcome was perioperative
+cumulative sufentanil consumption (μg). Secondary out-
+comes were (1) invasive BP and heart rate (HR) before and
+after skin incision; (2) intraoperative dose of propofol (mg),
+remifentanil (mg), and sufentanil (μg); (3) sufentanil con-
+sumption at 0–6 h, 6–12 h, 12–24 h, and 24–48 h after sur-
+gery (μg); (4) NRS scores (0–10/10) at rest (supine position)
+and during activity (defned as changing position from
+supine to sitting position); (5) nausea and vomiting (yes/no);
+(6) the incidence of using furbiprofen axetil after surgery
+(yes/no); (7) the Quality of Recovery-40 (QoR-40) ques-
+tionnaire at 24 h after surgery [10]; (8) the Bauer ques-
+tionnaire at 48 h after surgery [11]; and (9) time from
+postoperative to discharge (days).
+2.8.StatisticsandSampleSize.Based on a pilot study (10
+patients in each group), we expected the total consumption
+of sufentanil in group Q to be reduced by 30% compared
+with group C. Withα set at 0.05 and then for a power of 90%
+(1−β), we calculated that 27 patients would be needed in
+each group using PASS software, version 15.0.1 (NCSS LLC.,
+USA). To avoid decreased power as a result of potential
+dropouts, we enrolled 70 patients and patients from the pilot
+study were excluded.
+Data were analyzed using SPSS software, version 26.0
+(IBM Corp., USA). Quantitative variables are summarized as
+the mean ±SD or median (interquartile range, IQR); qual-
+itative data are expressed as percentage (%) values. Normal
+distribution was tested using the Shapiro–Wilk test. Te
+quantitative data conforming to a normal distribution were
+subjected to independentttests or pairedttests; otherwise,
+the Mann–WhitneyU test or Wilcoxon signed-rank test was
+used. Qualitative data were compared using the chi-square
+test or Fisher’s exact test. GraphPad Prism software version
+9.0.0 (GraphPad Software LLC., USA) was used for
+graphing.p <0.05 was considered to be statistically
+signifcant.
+(a)
+ (b)
+Figure 1: Ultrasonographic images of anterior QLB. (a) Ultrasound anatomical structure before block. (b) Spread of local anesthetic. K,
+kidney.
+Pain Research and Management 3
+
+--- page 4 ---
+3.Results
+Among 63 patients who were enrolled in this study, 32 were
+randomly assigned to group Q and 31 to group
+C. Eventually, 59 (94%) of the 63 patients completed the trial
+(Figure 3). Block-related complications such as LAST,
+bleeding, infection, or neurological defcits were not found
+in this study. Tere were no diferences in patient charac-
+teristics or the dosages of intraoperative propofol and
+remifentanil between the groups (Table 1).
+Te total consumption of sufentanil during the peri-
+operative period (p<0.001) and the dosage of sufentanil
+during surgery and 0–6 h, 6–12 h, and 12–24 h after surgery
+were lower in group Q than in group C (p<0.001). However,
+the dosage of sufentanil 24–48 h after surgery showed no
+signifcant diferences between the two groups (p>0.05;
+Table 1).
+Te median sensory blockade of somatic pain in group Q
+before anesthesia induction was T9-L1. 4/30 (or 13.33%) of
+the patients in group Q had the most cephalad dermatomes
+reaching T6, and the most caudal dermatomes reached L1 in
+all patients. Figure 4 shows the extent of dermatomal cov-
+erage. Comparison of BP and HR before and after the skin
+incision in group C was statistically signifcant (p<0.001),
+but there was no signifcant diference in group Q (p>0.05;
+Figure 5). Both resting and active NRS scores were lower in
+group Q than in group C at any time point after surgery (p
+<0.05; Table 2). Tere was no signifcant diference in the
+incidences of postoperative nausea and vomiting (PONV)
+between the two groups (p>0.05; Table 1). Te incidence of
+rescue analgesia (furbiprofen axetil) in group Q was lower
+than that in group C (p <0.05; Table 1). Tere was no
+signifcant diference in time from postoperative to dis-
+charge, postoperative recovery quality, or anesthesia satis-
+faction between the two groups (p>0.05; Table 1).
+4.Discussion
+Common QLB approaches include lateral, posterior, and
+anterior approaches. Balocco et al. found that the injectates
+of the lateral and posterior approach were only distributed
+around the injection point, whereas the injectate of the
+transverse oblique paramedian (TOP) anterior QLB spread
+consistently in the anterior aspect of the QL muscle with
+occasional spread to the lumbar and thoracic paravertebral
+areas, which indicated that the TOP anterior QLB has
+a wider block range [12]. A prospective study showed that
+the application of lateral and posterior QLB to laparoscopic
+renal surgery did not reduce the consumption of opioids
+[13], which indirectly verifed the observation results of
+Balocco et al. At present, it is believed that anterior QLB has
+a wider dermatomal distribution of sensory loss than other
+approaches of QLB, up to T4-L2 [3, 4], and its difusion
+mechanism may be the spread of LA from the thor-
+acolumbar fascia (TLF) to the thoracic paravertebral space,
+from the posterior to the medial and lateral arcuate liga-
+ments, along the intrathoracic fascia to block the somatic
+nerves and sympathetic trunk of the lower thoracic segment
+[14]. QL muscle is encapsulated by the anterior and middle
+layers of the TLF. Tere is a high-density network of
+sympathetic fbers with A and C fber pain receptors and
+mechanical receptors on the surface of the TLF, which are
+sensitive to LA [15]. Terefore, it is generally believed that
+QLB can not only alleviate somatic pain but also have
+a certain efect on visceral pain.
+At present, research on anterior QLB is mostly per-
+formed at the L4 level. However, from the perspective of
+anatomical structure, below the level of L2, the lateral
+marginal structures of the paraspinal muscles (TLF, lat-
+issimus dorsi muscle, lateral raphe, and the lumbar inter-
+fascial triangle) are reinforced by the QL muscle and its
+Figure 2: Incisions in the laparoscopic partial nephrectomy. (a) Transperitoneal approach; (b) retroperitoneal approach.
+4 Pain Research and Management
+
+--- page 5 ---
+fascia; above L2, these structures are only reinforced by the
+transversalis fascia. Terefore, performing anterior QLB
+above the level of L2 can make it easier for the LA to spread
+toward the cranial to the endothoracic fascia in the lower
+thoracic paravertebral space [16]. Lu et al. found that per-
+forming anterior QLB at the L2 level has a wider cutaneous
+sensory blockade and a prolonged sensory block compared
+with the L4 level [8]. Based on the anatomical basis and
+related clinical research, our study chose the anterior QLB at
+the L2 level. Our results suggest that 30–40 min after block,
+the pain sensory blockade level was up to T6, and most
+patients were at T9-L1, which was basically consistent with
+the above research results.
+Patients who undergo laparoscopic partial nephrectomy
+can develop incision pain, infammatory pain, and visceral
+pain due to the surgical incision and the stimulating and
+stretching efects of abdominal organs and pneumo-
+peritoneum factors [17]. Due to the multiple sources of pain,
+multimodal analgesia should be adopted for perioperative
+pain management. As one of the multimodal analgesic
+approaches, many studies have confrmed that QLB has
+a good analgesic efect on patients undergoing renal surgery
+[3, 4, 18, 19]. According to the location of trocars, the plane
+of somatic analgesia required by the intraperitoneal ap-
+proach is approximately T8-T12; the retroperitoneal ap-
+proach is approximately T8-T11; and the side needs to reach
+the level of the posterior axillary line. In this study, most of
+the preoperative sensory block plane range was T9-L1. With
+the passage of time, the spread of this plane may become
+wider. Terefore, the block plane provided by the anterior
+QLB at the L2 level can roughly meet the analgesic needs of
+laparoscopic partial nephrectomy.
+Although QLB has a slow onset time and the time to
+obtain the maximum and stable block range is uncertain
+[20], all QLB procedures in this study were performed before
+the operation, and the included cases had a certain range of
+sensory block planes before the operation. At the same time,
+it was found that the vital signs of the intervention group did
+not change signifcantly before and after the skin incision,
+and the consumption of sufentanil during the operation
+could be signifcantly reduced, indicating that preoperative
+QLB has an opioid-sparing efect during the operation. Te
+results of this study showed that the sufentanil consumption
+and NRS score within 24 hours after operation in the in-
+tervention group were lower than those in the control group,
+indicating that the analgesic time provided by ropivacaine
+Assessed for eligibility (n=70)
+Excluded (n=7)
+Not meeting inclusion criteria (n=5) 
+Declined to participate (n=2)
+Randomized (n=63)
+Allocation
+Enrollment
+Allocated to group Q (n=32) 
+Received allocated intervention (n=32)
+Allocated to group C (n=31) 
+Received allocated intervention (n=31)
+Follow-up
+Lost to follow-up (n=0)
+Discontinued intervention
+block failure (n=1)
+conversion to open surgery (n=1)
+Lost to follow-up (n=0)
+Discontinued intervention
+conversion to open surgery (n=2)
+Analysis
+Analysed (n=30)
+excluded from analysis (n=0)
+Analysed (n=29)
+excluded from analysis (n=0)
+Figure 3: Consolidated standards of reporting trials (CONSORT) diagram.
+Pain Research and Management 5
+
+--- page 6 ---
+for QLB was at least 24 hours, which is consistent with the
+views of many studies [21]. However, it was also observed
+that some patients had severe break-out pain 12 hours after
+the operation, so the duration of analgesia of QLB may vary
+according to individual diferences.
+Our results showed that anterior QLB at the L2 level can
+reduce the perioperative sufentanil dosage and the degree of
+postoperative pain in patients undergoing laparoscopic
+partial nephrectomy, but it cannot improve clinical-related
+events, including the incidence of PONV, the time from
+postoperative to discharge, the quality of postoperative re-
+covery, and anesthesia satisfaction. Te following factors
+may be involved. First, the female sex is the most important
+independent risk factor for PONV [22]. In this study, there
+was no signifcant sex diference between the two groups,
+and all patients received tropisetron to prevent PONV be-
+Table 1: Patient’s characteristics, primary outcome, and secondary outcomes.
+Group C Group Q P value
+Patient characteristics
+Age, years 53.76±11.37 54.23±12.90 0.88
+BMI, kg/m2 23.08±2.73 23.45±2.57 0.59
+Time of surgery, min 174.24±51.21 179.20±55.42 0.72
+Time of anesthesia, min 203.17±49.51 204 ±54.44 0.96
+Sex, female/male 14/15 11/19 0.37
+ASA classifcation, I/II 22/7 20/10 0.44
+Approach of surgery, transperitoneal/retroperitoneal 22/7 19/11 0.30
+Primary outcome
+Te total consumption of sufentanil,μg 155.41±19.58 119.37±12.41 <0.001
+Secondary outcomes
+Te dosage of intraoperative propofol, mg 768.62±216.91 802.67±240.87 0.57
+Te dosage of intraoperative remifentanil,μg 1797.24±523.29 1860.33±530.64 0.65
+Te dosage of intraoperative sufentanil,μg 50.17±9.31 37.17±7.15 <0.001
+Te dosage of sufentanil 0–6 h after surgery,μg 20 (12, 34) 4 (0, 9) <0.001
+Te dosage of sufentanil 6–12 h after surgery,μg 16 (12, 20) 8 (4, 12) <0.001
+Te dosage of sufentanil 12–24 h after surgery,μg 36 (26, 36) 26 (24, 28) <0.001
+Te dosage of sufentanil 24–48 h after surgery,μg 28 (26, 32) 28 (28, 32) 0.89
+Postoperative nausea 7 (24.1%) 4 (13.3%) 0.29
+Postoperative vomiting 2 (6.90%) 1 (3.33%) 0.61
+Rescue analgesia 25 (86.21%) 16 (53.33%) 0.006
+Postoperative recovery quality, score 166.45±8.35 166.53±8.23 0.93
+Anesthesia satisfaction, score 42.17±3.95 41.90±4.30 0.80
+Time from postoperative to discharge, d 8.24±2.42 8.50±2.73 0.70
+Data are either mean (SD), median (IQR), or number of patients (%). BMI, body mass index; ASA, American Society of Anesthesiologists.
+0
+L1
+T12
+T11
+T10
+T9
+T8
+T7
+T6
+Group Q (%)
+50 100
+Figure 4: Te extent of dermatomal coverage in group Q.
+6 Pain Research and Management
+
+--- page 7 ---
+fore the end of the operation. Second, the infuencing factors
+and quantitative indicators of postoperative recovery quality
+and anesthesia satisfaction as well as hospitalization time are
+diverse. Te diference between the two groups may afect
+only pain, with little impact on other aspects. Tereby, the
+clinical benefts of the opioid-sparing efect and improving
+postoperative analgesia brought by QLB are limited.
+However, from the perspective of preventing CPSP, QLB
+may have certain clinical value. It is considered that poor
+control of postoperative acute pain and excessive use of
+opioids are among the factors in the development of CPSP
+[23]. Tis study shows that preoperative application of QLB
+can efectively alleviate pain after laparoscopic partial ne-
+phrectomy and reduce the dosage of opioids. In addition,
+QLB before surgery can reduce or block the nociceptive
+nerve sensory conduction caused by abdominal incision and
+reduce the sensitization of peripheral and central pain,
+which may reduce the risk of CPSP and beneft patients.
+Terefore, we considered whether QLB can prevent CPSP in
+patients undergoing laparoscopic partial nephrectomy de-
+serves to be assessed [24, 25].
+Tere are some limitations in our study. First, we were
+not able to perform a double-blind study due to ethical issues
+and the patients’ awareness of the QLB. Second, due to the
+coverage of the surgical incision dressing and the lack of
+clarity regarding the patients’ main complaints, the block
+plane was not measured after the operation. In addition,
+anterior QLB was applied to the two surgical methods. Te
+analgesic efects may be diferent, but there was no stratifed
+analysis in this study.
+5.Conclusions
+Ultrasound-guided anterior QLB at the L2 level can reduce
+the perioperative dosage of sufentanil and the degree of
+postoperative pain in patients undergoing laparoscopic
+partial nephrectomy, but it did not signifcantly improve the
+quality of postoperative recovery and anesthesia satisfaction.
+Data Availability
+Te datasets used and/or analyzed for the current study are
+available from the corresponding authors upon request.
+Conflicts of Interest
+Te authors declare that they have no conficts of interest.
+Authors’ Contributions
+Ying He, Zenggui Yu, and Xinjian Zhang designed the study.
+Qiangui Zhong and Huijuan Ni collected the data. Mingying
+Huang performed the statistical analysis. Ying He inter-
+preted the data. Ying He and Zenggui Yu prepared the
+manuscript. Ying He, Qiangui Zhong, and Huijuan Ni
+carried out the literature search.
+150
+100
+50
+0
+Group C Group Q
+P<0.001 P=0.07
+Invasive systolic BP
+ (mmHg)
+before skin incision
+after skin incision
+(a)
+150
+100
+50
+0
+Group C Group Q
+P<0.001 P=0.15
+Invasive diastolic BP 
+(mmHg)
+before skin incision
+after skin incision (b)
+80
+60
+40
+20
+0
+Group C Group Q
+P<0.001 P=0.42
+HR (bpm)
+before skin incision
+after skin incision (c)
+Figure 5: Comparison of BP and HR before and after skin incision.
+Table 2: NRS pain scores at rest and during activity in the PACU (T1) and 6 h (T2), 12 h (T3), 24 h (T4), and 48 h (T5) after surgery.
+T1 T2 T3 T4 T5
+NRS pain scores at rest Group C 3.0 (1.5, 3.0) 2.0 (2.0, 3.0) 3.0 (2.5, 3.0) 2.0 (2.0, 3.0) 2.0 (1.0, 2.0)
+Group Q 2.0 (1.0, 2.0) 2.0 (1.0, 2.0) 2.0 (2.0, 3.0) 2.0 (1.0, 2.0) 1.0 (1.0, 1.0)
+P value 0.004 0.001 <0.001 <0.001 <0.001
+NRS pain scores during activity Group C 4.0 (3.5, 5.0) 4.0 (4.0, 5.0) 5.0 (4.5, 5.0) 4.0 (4.0, 5.0) 3.0 (3.0, 4.0)
+Group Q 4.0 (3.0, 4.0) 4.0 (3.0, 4.0) 4.0 (4.0, 5.0) 3.5 (3.0, 4.0) 3.0 (3.0, 3.0)
+P value 0.005 0.001 <0.001 0.001 0.004
+Pain Research and Management 7
+
+--- page 8 ---
+References
+[1] I. Alper and E. Y¨ uksel, “Comparison of acute and chronic pain
+after open nephrectomy versus laparoscopic nephrectomy:
+a prospective clinical trial,”Medicine (Baltimore), vol. 95,
+no. 16, Article ID e3433, 2016.
+[2] M. G. Oefelein and Y. Bayazit, “Chronic pain syndrome after
+laparoscopic radical nephrectomy,”TeJournalofUrology,
+vol. 170, no. 5, pp. 1939-1940, 2003.
+[3] M. Dam, C. K. Hansen, T. D. Poulsen et al., “Transmuscular
+quadratus lumborum block for percutaneous neph-
+rolithotomy reduces opioid consumption and speeds am-
+bulation and discharge from hospital: a single centre
+randomised controlled trial,”BritishJournalofAnaesthesia,
+vol. 123, no. 2, pp. e350–e358, 2019.
+[4] D. Aditianingsih, A. N. Pryambodho, N. Anasy, A. R. Tantri,
+and C. A. Mochtar, “A randomized controlled trial on an-
+algesic efect of repeated Quadratus Lumborum block versus
+continuous epidural analgesia following laparoscopic ne-
+phrectomy,”BMCAnesthesiology, vol. 19, no. 1, p. 221, 2019.
+[5] M. Erg¨ un, A. W. Berkers, M. F. van der Jagt et al., “Com-
+ponents of pain assessment after laparoscopic donor ne-
+phrectomy,”Acta Anaesthesiologica Scandinavica, vol. 58,
+no. 2, pp. 219–222, 2014.
+[6] J. Børglum, B. Moriggl, K. Jensen et al., “Ultrasound-guided
+transmuscular quadratus lumborum blockade,” British
+JournalofAddiction:BritishJournalofAnaesthesia, vol. 111,
+no. eLetters, 2013.
+[7] M. Dam, C. Hansen, T. D. Poulsen et al., “Transmuscular
+quadratus lumborum block reduces opioid consumption and
+prolongs time to frst opioid demand after laparoscopic ne-
+phrectomy,”RegionalAnesthesiaandPainMedicine, vol. 46,
+no. 1, pp. 18–24, 2021.
+[8] Y. Lu, J. Zhang, X. Xu et al., “Sensory assessment and block
+duration of transmuscular quadratus lumborum block at L2
+versus L4 in volunteers: a randomized controlled trial,”Mi-
+nervaAnestesiologica, vol. 85, no. 12, pp. 1273–1280, 2019.
+[9] J. L. Wright and J. R. Porter, “Laparoscopic partial ne-
+phrectomy: comparison of transperitoneal and retroperito-
+neal approaches,”Te Journal of Urology, vol. 174, no. 3,
+pp. 841–845, 2005.
+[10] P. S. Myles, B. Weitkamp, K. Jones, J. Melick, and S. Hensen,
+“Validity and reliability of a postoperative quality of recovery
+score: the QoR-40,”BritishJournalofAnaesthesia, vol. 84,
+no. 1, pp. 11–15, 2000.
+[11] M. Bauer, H. B¨ohrer, G. Aichele, A. Bach, and E. Martin,
+“Measuring patient satisfaction with anaesthesia: perioper-
+ative questionnaire versus standardised face-to-face in-
+terview,”ActaAnaesthesiologicaScandinavica, vol. 45, no. 1,
+pp. 65–72, 2001.
+[12] A. L. Balocco, A. M. L´opez, C. Kesteloot et al., “Quadratus
+lumborum block: an imaging study of three approaches,”
+Regional Anesthesia and Pain Medicine, vol. 46, no. 1,
+pp. 35–40, 2021.
+[13] X. Li, Z. Z. Xu, Y. T. Li, Z. M. Lin, Z. Y. Liu, and D. X. Wang,
+“Analgesic efcacy of two approaches of ultrasound-guided
+quadratus lumborum block for laparoscopic renal surgery:
+a randomised controlled trial,”EuropeanJournalofAnaes-
+thesiology, vol. 38, no. 3, pp. 265–274, 2021.
+[14] Q. Yuan, X. Cui, Y. Fei, Z. Xu, and Y. Huang, “Transmuscular
+quadratus lumborum block versus thoracic paravertebral
+block for acute pain and quality of recovery after laparoscopic
+renal surgery: study protocol for a randomized controlled
+trial,”Trials, vol. 20, no. 1, p. 276, 2019.
+[15] J. Tesarz, U. Hoheisel, B. Wiedenh¨ofer, and S. Mense,
+“Sensory innervation of the thoracolumbar fascia in rats and
+humans,”Neuroscience, vol. 194, pp. 302–308, 2011.
+[16] H. Elsharkawy, K. El-Boghdadly, S. Kolli et al., “Injectate
+spread following anterior sub-costal and posterior approaches
+to the quadratus lumborum block: a comparative cadaveric
+study,”EuropeanJournalofAnaesthesiology, vol. 34, no. 9,
+pp. 587–595, 2017.
+[17] G. Nasrallah and F. G. Souki, “Perianesthetic management of
+laparoscopic kidney surgery,”Current Urology Reports,
+vol. 19, no. 1, p. 1, 2018.
+[18] K. H. Kwak, S. I. Baek, J. K. Kim, T. H. Kim, and J Yeo,
+“<p>Analgesic efect of ultrasound-guided preoperative
+unilateral lateral quadratus lumborum block for laparoscopic
+nephrectomy: a randomized, double-blinded, controlled
+trial<</p>,”JournalofPainResearch, vol. 13, pp. 1647–1654,
+2020.
+[19] M. Zhu, Y. Qi, H. He, J. Lou, Q. Pei, and Y. Mei, “Analgesic
+efect of the ultrasound-guided subcostal approach to
+transmuscular quadratus lumborum block in patients un-
+dergoing laparoscopic nephrectomy: a randomized controlled
+trial,”BMCAnesthesiology, vol. 19, no. 1, p. 154, 2019.
+[20] Q. Zhu, L. Li, Z. Yang et al., “Ultrasound guided continuous
+Quadratus Lumborum block hastened recovery in patients
+undergoing open liver resection: a randomized controlled,
+open-label trial,”BMCAnesthesiology, vol. 19, no. 1, p. 23,
+2019.
+[21] M. Akerman, N. Pejˇci´c, and I. Veliˇckovi´c, “A review of the
+quadratus lumborum block and ERAS,”FrontiersofMedicine,
+vol. 5, p. 44, 2018.
+[22] T. J. Gan, K. G. Belani, S. Bergese et al., “Fourth consensus
+guidelines for the management of postoperative nausea and
+vomiting,”Anesthesia&Analgesia, vol. 131, no. 2, pp. 411–
+448, 2020.
+[23] P. Glare, K. R. Aubrey, and P. S. Myles, “Transition from acute
+to chronic pain after surgery,”TeLancet, vol. 393, no. 10180,
+pp. 1537–1546, 2019.
+[24] P. Geradon and P. Lavand’homme, “Use of regional analgesia
+to prevent the conversion from acute to chronic pain,”
+CurrentOpinioninAnaesthesiology, vol. 35, no. 5, pp. 641–
+646, 2022.
+[25] M. Mieszkowski, M. Janiak, M. Borys et al., “Efect of bilateral
+quadratus lumborum block type I on patient satisfaction and
+incidence of chronic postsurgical pain following cesarean
+section-A randomized controlled trial,”InternationalJournal
+ofEnvironmentalResearchandPublicHealth, vol. 18, no. 17,
+p. 9138, 2021.
+8 Pain Research and Management

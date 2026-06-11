@@ -1,0 +1,22 @@
+{
+  "generated_at_utc": "2026-06-11T19:27:58+00:00",
+  "candidate_count": 704,
+  "source_verification_candidate_count": 15,
+  "source_verification_file_counts": {
+    "registered_file_count": 20,
+    "downloaded_file_count": 20,
+    "readable_table_count": 12
+  },
+  "source_verification_decision_counts": {
+    "qualified_for_cleaning": 3,
+    "needs_manual_review_before_cleaning": 7,
+    "not_qualified_before_cleaning": 5
+  },
+  "final_disposition_counts": {
+    "access_or_file_uncertain_defer": 572,
+    "qualified_for_cleaning_after_source_verification": 3,
+    "needs_manual_review_before_cleaning_after_source_verification": 7,
+    "not_qualified_before_cleaning_after_source_verification": 5,
+    "not_qualified_before_cleaning_metadata_only": 117
+  }
+}

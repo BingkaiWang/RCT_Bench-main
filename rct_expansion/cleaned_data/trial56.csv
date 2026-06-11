@@ -1,0 +1,16 @@
+Treatment,X_gender_0w,X_age_0w,X_attention_rbans_0w,X_burnout_mbs_0w,X_depression_bdi_0w,X_quality_of_life_0w,X_immediate_memory_0w,X_visuospatial_memory_0w,X_language_0w,X_recent_memory_0w,YP_attention_rbans_post,YP_delta_attention_rbans_post,YS_burnout_mbs_post,YS_delta_burnout_mbs_post,YS_depression_bdi_post,YS_quality_of_life_post
+Active tDCS,Female,40,112,58,35,6,103,126,110,103,112,0,45,-13,24,6
+Active tDCS,Female,52,94,45,21,3,114,116,109,124,106,12,4,-41,35,5
+Sham tDCS,Female,49,103,4,26,9,109,105,100,103,112,9,5,1,19,6
+Sham tDCS,Female,42,106,42,35,5,109,100,103,118,103,-3,22,-20,8,7
+Active tDCS,Female,44,112,44,32,4,114,105,97,118,132,20,26,-18,12,7
+Active tDCS,Female,36,122,4,17,4,103,121,112,97,132,10,3,-1,4,8
+Active tDCS,Female,38,88,41,19,4,97,105,116,94,122,34,17,-24,4,8
+Active tDCS,Female,38,85,45,31,5,106,112,120,97,125,40,37,-8,15,7
+Sham tDCS,Male,38,88,44,24,5,85,121,101,99,68,-20,42,-2,22,6
+Active tDCS,Female,48,125,4,24,8,126,126,106,103,135,10,31,27,7,8
+Active tDCS,Female,44,112,46,20,6,109,116,110,95,122,10,42,-4,18,8
+Sham tDCS,Male,51,82,6,46,1,81,92,94,94,94,12,49,43,28,3
+Sham tDCS,Male,51,122,4,28,4,129,126,102,111,128,6,27,23,9,8
+Sham tDCS,Male,52,97,45,19,5,114,112,94,108,106,9,4,-41,4,7
+Sham tDCS,Male,49,125,42,20,6,117,96,122,114,132,7,29,-13,13,6

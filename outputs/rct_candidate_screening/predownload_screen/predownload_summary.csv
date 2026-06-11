@@ -1,0 +1,87 @@
+summary_type,group,count
+predownload_status,Download first,20
+predownload_status,Landing page / file manifest first,92
+predownload_status,Source-specific manual check,71
+predownload_status,Defer - missing access/file certainty,653
+predownload_status,Defer - low clinical or data confidence,51
+predownload_status,Already active expansion - exclude,2
+predownload_status,Already original benchmark - exclude,12
+predownload_status,Exclude before download,322
+top_publishers | Download first,Harvard Dataverse,6
+top_publishers | Download first,Zenodo,5
+top_publishers | Download first,University of Bath,4
+top_publishers | Download first,Borealis,1
+top_publishers | Download first,DataverseNL,1
+top_publishers | Download first,Dryad,1
+top_publishers | Download first,Mendeley Data,1
+top_publishers | Download first,Mendeley,1
+top_publishers | Landing page / file manifest first,Dryad,51
+top_publishers | Landing page / file manifest first,Zenodo,21
+top_publishers | Landing page / file manifest first,Mendeley,13
+top_publishers | Landing page / file manifest first,Loughborough University,4
+top_publishers | Landing page / file manifest first,Mendeley Data,2
+top_publishers | Landing page / file manifest first,Digital Commons Data@Becker,1
+top_publishers | Source-specific manual check,ICPSR Harvested Dataverse,26
+top_publishers | Source-specific manual check,Figshare,13
+top_publishers | Source-specific manual check,figshare,8
+top_publishers | Source-specific manual check,SciELO journals,7
+top_publishers | Source-specific manual check,DataverseNO,2
+top_publishers | Source-specific manual check,Karger Publishers,2
+top_publishers | Source-specific manual check,NEMAR (Neuroelectromagnetic Data Archive and Tools Resource),2
+top_publishers | Source-specific manual check,Harvard Dataverse,2
+top_publishers | Source-specific manual check,SAGE Journals,1
+top_publishers | Source-specific manual check,Texas Data Repository,1
+top_publishers | Source-specific manual check,The University of British Columbia,1
+top_publishers | Source-specific manual check,DataverseNO Harvested Dataverse,1
+top_publishers | Source-specific manual check,IFPRI Dataverse,1
+top_publishers | Source-specific manual check,Impact Evaluation Dataverse,1
+top_publishers | Source-specific manual check,International Potato Center,1
+top_publishers | Defer - missing access/file certainty,Karger Publishers,247
+top_publishers | Defer - missing access/file certainty,SciELO journals,166
+top_publishers | Defer - missing access/file certainty,Taylor & Francis,147
+top_publishers | Defer - missing access/file certainty,figshare,65
+top_publishers | Defer - missing access/file certainty,Figshare,9
+top_publishers | Defer - missing access/file certainty,SAGE Journals,6
+top_publishers | Defer - missing access/file certainty,"IfADo - Leibniz Research Centre for Working Environment and Human Factors, Dortmund",2
+top_publishers | Defer - missing access/file certainty,The University of Melbourne,2
+top_publishers | Defer - missing access/file certainty,ASHA journals,1
+top_publishers | Defer - missing access/file certainty,University of Amsterdam / Amsterdam University of Applied Sciences,1
+top_publishers | Defer - missing access/file certainty,University of Melbourne,1
+top_publishers | Defer - missing access/file certainty,University of Nottingham,1
+top_publishers | Defer - missing access/file certainty,University of Physical Culture in Krakow,1
+top_publishers | Defer - missing access/file certainty,Vrije Universiteit Amsterdam,1
+top_publishers | Defer - missing access/file certainty,Eawag: Swiss Federal Institute of Aquatic Science and Technology,1
+top_publishers | Defer - low clinical or data confidence,Harvard Dataverse,14
+top_publishers | Defer - low clinical or data confidence,ICPSR Harvested Dataverse,10
+top_publishers | Defer - low clinical or data confidence,Zenodo,4
+top_publishers | Defer - low clinical or data confidence,DataverseNL,3
+top_publishers | Defer - low clinical or data confidence,Mendeley,3
+top_publishers | Defer - low clinical or data confidence,Dryad,3
+top_publishers | Defer - low clinical or data confidence,figshare,3
+top_publishers | Defer - low clinical or data confidence,DataverseNL Harvested Dataverse,2
+top_publishers | Defer - low clinical or data confidence,Borealis,1
+top_publishers | Defer - low clinical or data confidence,UNC Dataverse,1
+top_publishers | Defer - low clinical or data confidence,Abdul Rehman Arshad Dataverse,1
+top_publishers | Defer - low clinical or data confidence,Clinical Research,1
+top_publishers | Defer - low clinical or data confidence,Fusion First Grade Math Intervention,1
+top_publishers | Defer - low clinical or data confidence,University of Virginia Dataverse,1
+top_publishers | Defer - low clinical or data confidence,SciELO journals,1
+top_publishers | Already active expansion - exclude,Harvard Dataverse,1
+top_publishers | Already active expansion - exclude,Springer,1
+top_publishers | Already original benchmark - exclude,Dryad,11
+top_publishers | Already original benchmark - exclude,Harvard Dataverse,1
+top_publishers | Exclude before download,Karger Publishers,55
+top_publishers | Exclude before download,Taylor & Francis,52
+top_publishers | Exclude before download,Harvard Dataverse,44
+top_publishers | Exclude before download,SciELO journals,41
+top_publishers | Exclude before download,ICPSR Harvested Dataverse,30
+top_publishers | Exclude before download,Dryad,13
+top_publishers | Exclude before download,DataverseNL,12
+top_publishers | Exclude before download,Zenodo,10
+top_publishers | Exclude before download,Loughborough University,9
+top_publishers | Exclude before download,figshare,8
+top_publishers | Exclude before download,Figshare+,4
+top_publishers | Exclude before download,Borealis,3
+top_publishers | Exclude before download,Radboud University,3
+top_publishers | Exclude before download,SAGE Journals,2
+top_publishers | Exclude before download,heiDATA Harvested Dataverse,2

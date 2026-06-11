@@ -1,0 +1,5 @@
+Trial_ID: 95
+Paper Name: LaMaTuPe: laryngeal mask vs laryngeal tube in pediatric patients
+Paper Link: https://doi.org/10.1097/MEJ.0000000000001178
+Citation: LaMaTuPe: laryngeal mask vs laryngeal tube in pediatric patients. European Journal of Emergency Medicine (2025). doi:10.1097/MEJ.0000000000001178
+Availability: PDF stored here when publicly available; otherwise this file records the publication link.

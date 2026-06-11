@@ -1,0 +1,97 @@
+rownames,pid,n_product_doses,last_dose_at_W2,pid_exposed_by_qPCR,n_days_exposed_by_qPCR,n_days_exp_dosed
+1,068200020,6,more than one day,TRUE,5,5
+2,068200214,7,more than one day,TRUE,7,7
+3,068200285,7,day before,TRUE,7,7
+4,068100056,0,NA,NA,NA,NA
+5,068200153,7,more than one day,FALSE,0,7
+6,068200310,7,more than one day,TRUE,6,7
+7,068100006,7,day before,TRUE,6,6
+8,068100026,7,day before,FALSE,0,0
+9,068100046,7,day before,TRUE,5,7
+10,068100050,4,NA,FALSE,0,0
+11,068100062,7,more than one day,FALSE,0,7
+12,068200023,7,day before,FALSE,0,7
+13,068200118,7,day before,TRUE,3,3
+14,068200204,7,day before,TRUE,2,3
+15,068200224,7,more than one day,FALSE,0,7
+16,068200240,6,day before,FALSE,0,7
+17,068100016,0,NA,NA,NA,NA
+18,068100029,7,day before,TRUE,3,7
+19,068100040,7,day before,TRUE,7,7
+20,068100053,1,more than one day,FALSE,0,2
+21,068100058,7,day before,TRUE,5,6
+22,068100060,7,day before,TRUE,5,7
+23,068100061,7,more than one day,TRUE,2,6
+24,068200028,7,day before,TRUE,3,3
+25,068200044,7,day before,FALSE,0,7
+26,068200061,7,more than one day,FALSE,0,7
+27,068200062,7,day before,FALSE,0,7
+28,068200088,7,day before,TRUE,6,7
+29,068200150,7,more than one day,TRUE,7,7
+30,068200179,7,day before,TRUE,3,7
+31,068200239,7,more than one day,TRUE,5,7
+32,068200282,7,day before,TRUE,5,7
+33,068200350,0,NA,FALSE,0,7
+34,068200357,7,day before,TRUE,7,7
+35,068100004,7,day before,TRUE,2,3
+36,068100045,0,NA,FALSE,0,0
+37,068200008,7,day before,TRUE,3,7
+38,068200253,4,more than one day,TRUE,3,7
+39,068200465,7,more than one day,TRUE,4,7
+40,068100010,7,more than one day,TRUE,6,6
+41,068100036,7,day before,FALSE,0,6
+42,068100054,7,same day,TRUE,7,7
+43,068200131,7,day before,TRUE,7,7
+44,068200191,7,more than one day,TRUE,4,7
+45,068200370,7,more than one day,TRUE,5,7
+46,068200373,7,more than one day,FALSE,0,7
+47,068200375,7,more than one day,TRUE,5,7
+48,068200414,7,day before,TRUE,6,7
+49,068100063,7,more than one day,TRUE,1,6
+50,068200397,7,day before,TRUE,3,3
+51,068200425,7,day before,FALSE,0,7
+52,068200438,7,more than one day,TRUE,7,7
+53,068100044,7,day before,TRUE,6,7
+54,068200085,7,day before,TRUE,7,7
+55,068200248,7,day before,TRUE,7,7
+56,068200252,7,day before,TRUE,5,7
+57,068200457,0,NA,NA,NA,NA
+58,068200364,7,more than one day,TRUE,4,7
+59,068200366,7,day before,TRUE,1,3
+60,068200388,7,day before,TRUE,2,3
+61,068200058,7,more than one day,TRUE,3,3
+62,068200229,7,more than one day,TRUE,1,3
+63,068200281,7,same day,TRUE,3,7
+64,068200363,6,day before,FALSE,0,7
+65,068200407,7,day before,TRUE,2,3
+66,068100011,7,day before,TRUE,6,6
+67,068200050,7,day before,TRUE,3,7
+68,068200347,7,day before,TRUE,3,3
+69,068200358,7,more than one day,TRUE,5,6
+70,068200439,7,day before,FALSE,0,7
+71,068200441,7,day before,TRUE,4,7
+72,068100049,7,day before,TRUE,5,7
+73,068100052,7,day before,FALSE,0,7
+74,068200127,7,day before,TRUE,3,7
+75,068200421,7,day before,TRUE,5,7
+76,068200392,7,day before,TRUE,5,7
+77,068200422,7,day before,TRUE,3,3
+78,068200087,7,more than one day,FALSE,0,7
+79,068200225,7,day before,TRUE,2,3
+80,068200247,7,day before,FALSE,0,7
+81,068200385,7,day before,TRUE,6,7
+82,068200387,7,day before,FALSE,0,3
+83,068200378,7,day before,TRUE,2,3
+84,068200379,7,more than one day,TRUE,6,7
+85,068200398,7,day before,FALSE,0,7
+86,068200361,7,more than one day,TRUE,4,7
+87,068200399,7,day before,FALSE,0,7
+88,068200428,7,day before,TRUE,6,7
+89,068200278,6,day before,FALSE,0,7
+90,068200380,7,day before,TRUE,7,7
+91,068200460,7,day before,TRUE,2,7
+92,068200409,7,day before,FALSE,0,7
+93,068200415,7,day before,TRUE,4,7
+94,068200412,7,day before,FALSE,0,7
+95,068100013,7,more than one day,NA,NA,NA
+96,068200356,7,same day,TRUE,6,7

@@ -1,0 +1,18 @@
+{
+  "generated_at_utc": "2026-06-11T14:30:05+00:00",
+  "shortlist_path": "outputs/rct_candidate_screening/predownload_screen/landing_page_first_shortlist.csv",
+  "candidate_count": 92,
+  "registered_file_count": 121,
+  "downloaded_file_count": 50,
+  "failed_file_count": 71,
+  "oversize_skipped_file_count": 0,
+  "extracted_archive_file_count": 16,
+  "readable_table_count": 95,
+  "decision_counts": {
+    "not_qualified_before_cleaning": 70,
+    "qualified_for_cleaning": 14,
+    "needs_manual_review_before_cleaning": 7,
+    "method_review_before_cleaning": 1
+  },
+  "local_reinspection_at_utc": "2026-06-11T14:31:59+00:00"
+}

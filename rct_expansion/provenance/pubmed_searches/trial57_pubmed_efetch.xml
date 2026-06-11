@@ -1,0 +1,196 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January 2025//EN" "https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_250101.dtd">
+<PubmedArticleSet>
+<PubmedArticle><MedlineCitation Status="MEDLINE" Owner="NLM" IndexingMethod="Curated"><PMID Version="1">41159517</PMID><DateCompleted><Year>2025</Year><Month>10</Month><Day>29</Day></DateCompleted><DateRevised><Year>2025</Year><Month>12</Month><Day>08</Day></DateRevised><Article PubModel="Print"><Journal><ISSN IssnType="Electronic">1973-9095</ISSN><JournalIssue CitedMedium="Internet"><Volume>61</Volume><Issue>4</Issue><PubDate><Year>2025</Year><Month>Aug</Month></PubDate></JournalIssue><Title>European journal of physical and rehabilitation medicine</Title><ISOAbbreviation>Eur J Phys Rehabil Med</ISOAbbreviation></Journal><ArticleTitle>Effects of transcranial direct current stimulation combined with gait-oriented motor training on disability, quality of life, and motor function in individuals with subacute stroke: a randomized controlled trial.</ArticleTitle><Pagination><StartPage>620</StartPage><EndPage>631</EndPage><MedlinePgn>620-631</MedlinePgn></Pagination><ELocationID EIdType="doi" ValidYN="Y">10.23736/S1973-9087.25.09034-3</ELocationID><Abstract><AbstractText Label="BACKGROUND" NlmCategory="BACKGROUND">Stroke is a leading cause of long-term disability, with the sub-acute phase (1-6 months post-stroke) being critical for recovery. While gait-oriented motor training is widely used in rehabilitation, its efficacy may be enhanced by adjunctive neuromodulation through transcranial direct current stimulation (tDCS). However, evidence remains limited regarding the combined impact of these approaches on both functional and quality-of-life outcomes in sub-acute stroke patients.</AbstractText><AbstractText Label="AIM" NlmCategory="OBJECTIVE">To assess the effectiveness of tDCS combined with gait-oriented motor training on disability, quality of life, motor function, and balance in individuals with sub-acute stroke.</AbstractText><AbstractText Label="DESIGN" NlmCategory="METHODS">A prospective, parallel-group, randomized controlled trial.</AbstractText><AbstractText Label="SETTING" NlmCategory="METHODS">Outpatient rehabilitation clinics affiliated with King Khalid University, Saudi Arabia.</AbstractText><AbstractText Label="POPULATION" NlmCategory="METHODS">Fifty-seven participants (aged 18-80 years) with medically stable, first-ever ischemic or hemorrhagic sub-acute stroke and lower limb motor deficits.</AbstractText><AbstractText Label="METHODS" NlmCategory="METHODS">Participants were randomized into an intervention group (tDCS + gait-oriented motor training, N.=29) or a control group (gait-oriented motor training only, N.=28). tDCS was administered at 2 mA for 20 minutes, three times per week for four weeks. Primary outcomes were stroke-specific health-related quality of life (Stroke Impact Scale, SIS) and general functioning/disability (WHODAS 2.0), in line with WHO's ICF framework. Secondary outcomes included motor function (Fugl-Meyer Assessment), balance (Berg Balance Scale), and mobility (Timed Up and Go test). Assessments occurred at baseline, post-intervention, and at three-month follow-up.</AbstractText><AbstractText Label="RESULTS" NlmCategory="RESULTS">The intervention group showed significantly greater improvements than the control group across all primary and secondary outcomes (P&lt;0.01). Effect sizes were moderate to large (Cohen's d=0.44-1.2). Improvements in motor function and balance were positively correlated with gains in independence and social participation.</AbstractText><AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">The combination of tDCS and gait-oriented training significantly improves motor function, participation, and self-perceived social and emotional functioning in sub-acute stroke rehabilitation and demonstrates sustained effects over time.</AbstractText><AbstractText Label="CLINICAL REHABILITATION IMPACT" NlmCategory="CONCLUSIONS">This integrated intervention provides a viable and effective strategy for enhancing motor recovery, balance, and quality of life in stroke patients, supporting its incorporation into routine outpatient rehabilitation protocols.</AbstractText></Abstract><AuthorList CompleteYN="Y"><Author ValidYN="Y"><LastName>Reddy</LastName><ForeName>Ravi S</ForeName><Initials>RS</Initials><AffiliationInfo><Affiliation>Department of Medical Rehabilitation Sciences, College of Applied Medical Sciences, King Khalid University, Abha, Saudi Arabia - rshankar@kku.edu.sa.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>King Salman Center for Disability Research, Riyadh, Saudi Arabia - rshankar@kku.edu.sa.</Affiliation></AffiliationInfo></Author><Author ValidYN="Y"><LastName>Tedla</LastName><ForeName>Jaya S</ForeName><Initials>JS</Initials><AffiliationInfo><Affiliation>Department of Medical Rehabilitation Sciences, College of Applied Medical Sciences, King Khalid University, Abha, Saudi Arabia.</Affiliation></AffiliationInfo><AffiliationInfo><Affiliation>King Salman Center for Disability Research, Riyadh, Saudi Arabia.</Affiliation></AffiliationInfo></Author><Author ValidYN="Y"><LastName>Midde</LastName><ForeName>Ajaya K</ForeName><Initials>AK</Initials><AffiliationInfo><Affiliation>Department of Neurorehabilitation, Anantha MK Institute of Medical Sciences, Hyderabad, India.</Affiliation></AffiliationInfo></Author><Author ValidYN="Y"><LastName>Kakaraparthi</LastName><ForeName>Venkata N</ForeName><Initials>VN</Initials><AffiliationInfo><Affiliation>Department of Medical Rehabilitation Sciences, College of Applied Medical Sciences, King Khalid University, Abha, Saudi Arabia.</Affiliation></AffiliationInfo></Author><Author ValidYN="Y"><LastName>Aljehani</LastName><ForeName>Suhail M</ForeName><Initials>SM</Initials><AffiliationInfo><Affiliation>Department of Medical Rehabilitation Sciences, College of Applied Medical Sciences, King Khalid University, Abha, Saudi Arabia.</Affiliation></AffiliationInfo></Author><Author ValidYN="Y"><LastName>Alarabi</LastName><ForeName>Feras A</ForeName><Initials>FA</Initials><AffiliationInfo><Affiliation>Department of Medical Rehabilitation Sciences, College of Applied Medical Sciences, King Khalid University, Abha, Saudi Arabia.</Affiliation></AffiliationInfo></Author></AuthorList><Language>eng</Language><PublicationTypeList><PublicationType UI="D016428">Journal Article</PublicationType><PublicationType UI="D016449">Randomized Controlled Trial</PublicationType></PublicationTypeList></Article><MedlineJournalInfo><Country>Italy</Country><MedlineTA>Eur J Phys Rehabil Med</MedlineTA><NlmUniqueID>101465662</NlmUniqueID><ISSNLinking>1973-9087</ISSNLinking></MedlineJournalInfo><CitationSubset>IM</CitationSubset><MeshHeadingList><MeshHeading><DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI="D008297" MajorTopicYN="N">Male</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI="D005260" MajorTopicYN="N">Female</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI="D008875" MajorTopicYN="N">Middle Aged</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI="D000071939" MajorTopicYN="Y">Stroke Rehabilitation</DescriptorName><QualifierName UI="Q000379" MajorTopicYN="N">methods</QualifierName></MeshHeading><MeshHeading><DescriptorName UI="D011788" MajorTopicYN="Y">Quality of Life</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI="D065908" MajorTopicYN="Y">Transcranial Direct Current Stimulation</DescriptorName><QualifierName UI="Q000379" MajorTopicYN="N">methods</QualifierName></MeshHeading><MeshHeading><DescriptorName UI="D000368" MajorTopicYN="N">Aged</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI="D000328" MajorTopicYN="N">Adult</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI="D011446" MajorTopicYN="N">Prospective Studies</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI="D000369" MajorTopicYN="N">Aged, 80 and over</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI="D004185" MajorTopicYN="N">Disability Evaluation</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI="D020521" MajorTopicYN="Y">Stroke</DescriptorName><QualifierName UI="Q000503" MajorTopicYN="N">physiopathology</QualifierName></MeshHeading><MeshHeading><DescriptorName UI="D055815" MajorTopicYN="N">Young Adult</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI="D000293" MajorTopicYN="N">Adolescent</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI="D005684" MajorTopicYN="Y">Gait</DescriptorName><QualifierName UI="Q000502" MajorTopicYN="N">physiology</QualifierName></MeshHeading><MeshHeading><DescriptorName UI="D020127" MajorTopicYN="N">Recovery of Function</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI="D016896" MajorTopicYN="N">Treatment Outcome</DescriptorName></MeshHeading><MeshHeading><DescriptorName UI="D005081" MajorTopicYN="Y">Exercise Therapy</DescriptorName><QualifierName UI="Q000379" MajorTopicYN="N">methods</QualifierName></MeshHeading></MeshHeadingList><CoiStatement><b>Conflicts of interest:</b> Ravi S. Reddy and Jaya S. Tedla have given substantial contributions to the conception and design of the manuscript; Ajaya K. Midde and Venkata N. Kakaraparthi contributed to acquisition, analysis, and interpretation of the data. All authors participated in drafting the manuscript; Ravi S. Reddy revised it critically. All authors contributed equally to the manuscript and read and approved the final version of the manuscript.</CoiStatement></MedlineCitation><PubmedData><History><PubMedPubDate PubStatus="medline"><Year>2025</Year><Month>10</Month><Day>29</Day><Hour>12</Hour><Minute>30</Minute></PubMedPubDate><PubMedPubDate PubStatus="pubmed"><Year>2025</Year><Month>10</Month><Day>29</Day><Hour>12</Hour><Minute>29</Minute></PubMedPubDate><PubMedPubDate PubStatus="entrez"><Year>2025</Year><Month>10</Month><Day>29</Day><Hour>7</Hour><Minute>36</Minute></PubMedPubDate><PubMedPubDate PubStatus="pmc-release"><Year>2025</Year><Month>10</Month><Day>29</Day></PubMedPubDate></History><PublicationStatus>ppublish</PublicationStatus><ArticleIdList><ArticleId IdType="pubmed">41159517</ArticleId><ArticleId IdType="pmc">PMC12648275</ArticleId><ArticleId IdType="doi">10.23736/S1973-9087.25.09034-3</ArticleId><ArticleId IdType="pii">S1973-9087.25.09034-3</ArticleId></ArticleIdList><ReferenceList><Reference><Citation>Feigin VL, Brainin M, Norrving B, Martins S, Sacco RL, Hacke W, et al. 
+World Stroke Organization (WSO): global stroke fact sheet 2022.
+Int J Stroke
+2022;17:18&#x2013;29. https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;list_uids=34986727&amp;dopt=Abstract
+10.1177/17474930211065917
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1177/17474930211065917</ArticleId><ArticleId IdType="pubmed">34986727</ArticleId></ArticleIdList></Reference><Reference><Citation>Elizabeth Tremayne J, Freeman J, Coppola A. Stroke survivors&#x2019; experiences and perceptions of post-stroke fatigue education in the subacute phase of stroke. The FASE qualitative study. Br J Occup Ther 2021;84:111&#x2013;21. 10.1177/0308022620963741</Citation><ArticleIdList><ArticleId IdType="doi">10.1177/0308022620963741</ArticleId></ArticleIdList></Reference><Reference><Citation>Li S.
+Stroke recovery is a journey: prediction and potentials of motor recovery after a stroke from a practical perspective.
+Life (Basel)
+2023;13:2061. https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;list_uids=37895442&amp;dopt=Abstract
+10.3390/life13102061
+</Citation><ArticleIdList><ArticleId IdType="doi">10.3390/life13102061</ArticleId><ArticleId IdType="pmc">PMC10608684</ArticleId><ArticleId IdType="pubmed">37895442</ArticleId></ArticleIdList></Reference><Reference><Citation>Sommer CJ, Sch&#xe4;bitz WR. Principles and requirements for stroke recovery science.
+J Cereb Blood Flow Metab
+2021;41:471&#x2013;85. https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;list_uids=33175596&amp;dopt=Abstract
+10.1177/0271678X20970048
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1177/0271678X20970048</ArticleId><ArticleId IdType="pmc">PMC7907998</ArticleId><ArticleId IdType="pubmed">33175596</ArticleId></ArticleIdList></Reference><Reference><Citation>Bao SC, Khan A, Song R, Kai-Yu Tong R. Rewiring the lesioned brain: electrical stimulation for post-stroke motor restoration.
+J Stroke
+2020;22:47&#x2013;63. https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;list_uids=32027791&amp;dopt=Abstract
+10.5853/jos.2019.03027
+</Citation><ArticleIdList><ArticleId IdType="doi">10.5853/jos.2019.03027</ArticleId><ArticleId IdType="pmc">PMC7005350</ArticleId><ArticleId IdType="pubmed">32027791</ArticleId></ArticleIdList></Reference><Reference><Citation>Onose G, Anghelescu A, Blendea CD, Ciobanu V, Daia CO, Firan FC, et al. 
+Non-invasive, non-pharmacological/bio-technological interventions towards neurorestoration upshot after ischemic stroke, in adults-systematic, synthetic, literature review.
+Front Biosci (Landmark Ed)
+2021;26:1204&#x2013;39. https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;list_uids=34856764&amp;dopt=Abstract
+10.52586/5020
+</Citation><ArticleIdList><ArticleId IdType="doi">10.52586/5020</ArticleId><ArticleId IdType="pubmed">34856764</ArticleId></ArticleIdList></Reference><Reference><Citation>Chen R, Zhang Y, Wang X, Zhao Y, Fan S, Xue Y, et al. 
+Treatment effects of low-frequency repetitive transcranial magnetic stimulation combined with motor relearning procedure on spasticity and limb motor function in stroke patients.
+Front Neurol
+2023;14:1213624. https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;list_uids=37638202&amp;dopt=Abstract
+10.3389/fneur.2023.1213624
+</Citation><ArticleIdList><ArticleId IdType="doi">10.3389/fneur.2023.1213624</ArticleId><ArticleId IdType="pmc">PMC10456998</ArticleId><ArticleId IdType="pubmed">37638202</ArticleId></ArticleIdList></Reference><Reference><Citation>Cardoso da Silva A, Cordeiro de Oliveira L, Martins dos Santos H, Caldeira Monteiro B, Santos Pereira G, Sulyvan de Castro S, et al. 
+Validation of tele-assessment of disability and health after stroke using WHODAS 2.0 through video call in a middle-income country.
+Top Stroke Rehabil
+2025;32:428&#x2013;37. https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;list_uids=39297363&amp;dopt=Abstract
+</Citation><ArticleIdList><ArticleId IdType="pubmed">39297363</ArticleId></ArticleIdList></Reference><Reference><Citation>Gittins M, Lugo-Palacios D, Vail A, Bowen A, Paley L, Bray B, et al. 
+Stroke impairment categories: A new way to classify the effects of stroke based on stroke-related impairments.
+Clin Rehabil
+2021;35:446&#x2013;58. https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;list_uids=33131321&amp;dopt=Abstract
+10.1177/0269215520966473
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1177/0269215520966473</ArticleId><ArticleId IdType="pmc">PMC7944424</ArticleId><ArticleId IdType="pubmed">33131321</ArticleId></ArticleIdList></Reference><Reference><Citation>J&#xf6;nsson AC, Lindgren I, Delavaran H, Norrving B, Lindgren A. Falls after stroke: a follow-up after ten years in Lund Stroke Register.
+J Stroke Cerebrovasc Dis
+2021;30:105770. https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;list_uids=33839378&amp;dopt=Abstract
+10.1016/j.jstrokecerebrovasdis.2021.105770
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.jstrokecerebrovasdis.2021.105770</ArticleId><ArticleId IdType="pubmed">33839378</ArticleId></ArticleIdList></Reference><Reference><Citation>Choy CS, Cloherty SL, Pirogova E, Fang Q. Virtual reality assisted motor imagery for early post-stroke recovery: a review.
+IEEE Rev Biomed Eng
+2023;16:487&#x2013;98. https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;list_uids=35380970&amp;dopt=Abstract
+10.1109/RBME.2022.3165062
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1109/RBME.2022.3165062</ArticleId><ArticleId IdType="pubmed">35380970</ArticleId></ArticleIdList></Reference><Reference><Citation>Li C, Chen Y, Tu S, Lin J, Lin Y, Xu S, et al. 
+Dual-tDCS combined with sensorimotor training promotes upper limb function in subacute stroke patients: A randomized, double-blinded, sham-controlled study.
+CNS Neurosci Ther
+2024;30:e14530. https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;list_uids=37994674&amp;dopt=Abstract
+10.1111/cns.14530
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1111/cns.14530</ArticleId><ArticleId IdType="pmc">PMC11017427</ArticleId><ArticleId IdType="pubmed">37994674</ArticleId></ArticleIdList></Reference><Reference><Citation>SATAYAPRAKORB K. Chaikeeree N. Validity of the Stroke-Balance Evaluation Systems Test (S-Bestest) in People with Chronic Stroke: Srinakharinwirot University; 2021.</Citation></Reference><Reference><Citation>Sahely A. Self-management interventions to improve mobility in the community post-stroke: University of Birmingham; 2023.</Citation></Reference><Reference><Citation>Bornheim S, Thibaut A, Beaudart C, Maquet P, Croisier JL, Kaux JF. Evaluating the effects of tDCS in stroke patients using functional outcomes: a systematic review.
+Disabil Rehabil
+2022;44:13&#x2013;23. https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;list_uids=32394750&amp;dopt=Abstract
+10.1080/09638288.2020.1759703
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1080/09638288.2020.1759703</ArticleId><ArticleId IdType="pubmed">32394750</ArticleId></ArticleIdList></Reference><Reference><Citation>Rost NS, Brodtmann A, Pase MP, van Veluw SJ, Biffi A, Duering M, et al. 
+Post-stroke cognitive impairment and dementia.
+Circ Res
+2022;130:1252&#x2013;71. https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;list_uids=35420911&amp;dopt=Abstract
+10.1161/CIRCRESAHA.122.319951
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1161/CIRCRESAHA.122.319951</ArticleId><ArticleId IdType="pubmed">35420911</ArticleId></ArticleIdList></Reference><Reference><Citation>do Prado De MMR. Handbook of Research on Advances in Digital Technologies to Promote Rehabilitation and Community Participation. Hershey, PA: Information Science Reference; 2024.</Citation></Reference><Reference><Citation>Patil S, Rossi R, Jabrah D, Doyle K. Detection, diagnosis and treatment of acute ischemic stroke: current and future perspectives.
+Front Med Technol
+2022;4:748949. https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;list_uids=35813155&amp;dopt=Abstract
+10.3389/fmedt.2022.748949
+</Citation><ArticleIdList><ArticleId IdType="doi">10.3389/fmedt.2022.748949</ArticleId><ArticleId IdType="pmc">PMC9263220</ArticleId><ArticleId IdType="pubmed">35813155</ArticleId></ArticleIdList></Reference><Reference><Citation>Kaurani P, Moreira de Marchi Apolaro AV, Kunchala K, Maini S, Rges HA, Isaac A, et al. 
+Advances in Neurorehabilitation: Strategies and Outcomes for Traumatic Brain Injury Recovery.
+Cureus
+2024;16:e62242. https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;list_uids=39006616&amp;dopt=Abstract
+10.7759/cureus.62242
+</Citation><ArticleIdList><ArticleId IdType="doi">10.7759/cureus.62242</ArticleId><ArticleId IdType="pmc">PMC11244718</ArticleId><ArticleId IdType="pubmed">39006616</ArticleId></ArticleIdList></Reference><Reference><Citation>Wang SS, Huang YJ, Chen JJ, Wu CW, Chen CA, Lin CW, et al. 
+Designing and pilot testing a novel high-definition transcranial burst electrostimulation device for neurorehabilitation.
+J Neural Eng
+2021;18:056030. https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;list_uids=34479230&amp;dopt=Abstract
+10.1088/1741-2552/ac23be</Citation><ArticleIdList><ArticleId IdType="doi">10.1088/1741-2552/ac23be</ArticleId><ArticleId IdType="pubmed">34479230</ArticleId></ArticleIdList></Reference><Reference><Citation>Orr&#xf9; G, Conversano C, Hitchcott PK, Gemignani A. Motor stroke recovery after tDCS: a systematic review.
+Rev Neurosci
+2020;31:201&#x2013;18. https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;list_uids=31472070&amp;dopt=Abstract
+10.1515/revneuro-2019-0047
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1515/revneuro-2019-0047</ArticleId><ArticleId IdType="pubmed">31472070</ArticleId></ArticleIdList></Reference><Reference><Citation>Solomons CD, Shanmugasundaram V. Transcranial direct current stimulation: A review of electrode characteristics and materials.
+Med Eng Phys
+2020;85:63&#x2013;74. https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;list_uids=33081965&amp;dopt=Abstract
+10.1016/j.medengphy.2020.09.015
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.medengphy.2020.09.015</ArticleId><ArticleId IdType="pubmed">33081965</ArticleId></ArticleIdList></Reference><Reference><Citation>Palimeris S. Combining a Tailored Strength Training Program with Transcranial Direct-Current Stimulation (tDcs) to Improve Upper Extremity Function in Chronic Stroke Patients: McGill University (Canada); 2020.</Citation></Reference><Reference><Citation>Yamamoto R, Sasaki S, Kuwahara W, Kawakami M, Kaneko F.
+Effect of exoskeleton-assisted Body Weight-Supported Treadmill Training on gait function for patients with chronic stroke: a scoping review.
+J Neuroeng Rehabil
+2022;19:143. https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;list_uids=36544163&amp;dopt=Abstract
+10.1186/s12984-022-01111-6
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1186/s12984-022-01111-6</ArticleId><ArticleId IdType="pmc">PMC9768983</ArticleId><ArticleId IdType="pubmed">36544163</ArticleId></ArticleIdList></Reference><Reference><Citation>Nascimento LR, Boening A, Galli A, Polese JC, Ada L. Treadmill walking improves walking speed and distance in ambulatory people after stroke and is not inferior to overground walking: a systematic review.
+J Physiother
+2021;67:95&#x2013;104. https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;list_uids=33744188&amp;dopt=Abstract
+10.1016/j.jphys.2021.02.014
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.jphys.2021.02.014</ArticleId><ArticleId IdType="pubmed">33744188</ArticleId></ArticleIdList></Reference><Reference><Citation>Kannan L, Vora J, Varas-Diaz G, Bhatt T, Hughes S. Does exercise-based conventional training improve reactive balance control among people with chronic stroke?
+Brain Sci
+2020;11:2. https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;list_uids=33374957&amp;dopt=Abstract
+10.3390/brainsci11010002
+</Citation><ArticleIdList><ArticleId IdType="doi">10.3390/brainsci11010002</ArticleId><ArticleId IdType="pmc">PMC7821930</ArticleId><ArticleId IdType="pubmed">33374957</ArticleId></ArticleIdList></Reference><Reference><Citation>Lee J, Kim G.
+Functional Recovery in Acute and Subacute Stroke Patients With or Without Post-stroke Fatigue.
+Brain Neurorehabil
+2024;17:e22. https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;list_uids=39649708&amp;dopt=Abstract
+10.12786/bn.2024.17.e22
+</Citation><ArticleIdList><ArticleId IdType="doi">10.12786/bn.2024.17.e22</ArticleId><ArticleId IdType="pmc">PMC11621674</ArticleId><ArticleId IdType="pubmed">39649708</ArticleId></ArticleIdList></Reference><Reference><Citation>Tsalta-Mladenov M, Andonova S. Persisting consequences of ischemic stroke after three months, assessed with the Stroke Impact Scale Version 3.0.
+Neurol Res
+2022;44:503&#x2013;10. https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;list_uids=34991437&amp;dopt=Abstract
+10.1080/01616412.2021.2024714
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1080/01616412.2021.2024714</ArticleId><ArticleId IdType="pubmed">34991437</ArticleId></ArticleIdList></Reference><Reference><Citation>Dos Santos HM, Pereira GS, de Oliveira LC, da Silva PK, Lima MG, Feliz VH, et al. 
+Diagnostic accuracy of the World Health Organization Disability Assessment Schedule (WHODAS 2.0) to estimate disability after stroke.
+Disabil Rehabil
+2023;45:2169&#x2013;74. https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;list_uids=35672154&amp;dopt=Abstract
+10.1080/09638288.2022.2080876
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1080/09638288.2022.2080876</ArticleId><ArticleId IdType="pubmed">35672154</ArticleId></ArticleIdList></Reference><Reference><Citation>Hern&#xe1;ndez ED, Forero SM, Galeano CP, Barbosa NE, Sunnerhagen KS, Alt Murphy M. Intra- and inter-rater reliability of Fugl-Meyer Assessment of Lower Extremity early after stroke.
+Braz J Phys Ther
+2021;25:709&#x2013;18. https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;list_uids=33358073&amp;dopt=Abstract
+10.1016/j.bjpt.2020.12.002
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1016/j.bjpt.2020.12.002</ArticleId><ArticleId IdType="pmc">PMC8721065</ArticleId><ArticleId IdType="pubmed">33358073</ArticleId></ArticleIdList></Reference><Reference><Citation>Tamura S, Miyata K, Kobayashi S, Takeda R, Iwamoto H. The minimal clinically important difference in Berg Balance Scale scores among patients with early subacute stroke: a multicenter, retrospective, observational study.
+Top Stroke Rehabil
+2022;29:423&#x2013;9. https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;list_uids=34169808&amp;dopt=Abstract
+10.1080/10749357.2021.1943800
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1080/10749357.2021.1943800</ArticleId><ArticleId IdType="pubmed">34169808</ArticleId></ArticleIdList></Reference><Reference><Citation>Hu MM, Wang S, Wu CQ, Li KP, Geng ZH, Xu GH, et al. 
+Efficacy of robot-assisted gait training on lower extremity function in subacute stroke patients: a systematic review and meta-analysis.
+J Neuroeng Rehabil
+2024;21:165. https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;list_uids=39300491&amp;dopt=Abstract
+10.1186/s12984-024-01463-1
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1186/s12984-024-01463-1</ArticleId><ArticleId IdType="pmc">PMC11411785</ArticleId><ArticleId IdType="pubmed">39300491</ArticleId></ArticleIdList></Reference><Reference><Citation>Hsu SP, Lu CF, Lin BF, Tang CW, Kuo IJ, Tsai YA, et al. 
+Effects of bihemispheric transcranial direct current stimulation on motor recovery in subacute stroke patients: a double-blind, randomized sham-controlled trial.
+J Neuroeng Rehabil
+2023;20:27. https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;list_uids=36849990&amp;dopt=Abstract
+10.1186/s12984-023-01153-4
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1186/s12984-023-01153-4</ArticleId><ArticleId IdType="pmc">PMC9969953</ArticleId><ArticleId IdType="pubmed">36849990</ArticleId></ArticleIdList></Reference><Reference><Citation>Shima A, Tanaka K, Ogawa A, Omae E, Miyake T, Nagamori Y, et al. 
+Case report: backward gait training combined with gait-synchronized cerebellar transcranial alternating current stimulation in progressive supranuclear palsy.
+Front Hum Neurosci
+2023;17:1082555. https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;list_uids=36908713&amp;dopt=Abstract
+10.3389/fnhum.2023.1082555
+</Citation><ArticleIdList><ArticleId IdType="doi">10.3389/fnhum.2023.1082555</ArticleId><ArticleId IdType="pmc">PMC9992165</ArticleId><ArticleId IdType="pubmed">36908713</ArticleId></ArticleIdList></Reference><Reference><Citation>Lee YS, Jun HJ. Effect of Trans cranial Directed Current Stimulus on Temporal and Spatial Walking Capacity for Hemiparalysis Patients. Journal of Korean Physical Therapy Science. 2022;29:75&#x2013;84.</Citation></Reference><Reference><Citation>Bakreen A. Combined adipose tissue-derived mesenchymal stem cell therapy and rehabilitation in stroke: safety, efficacy, and mechanisms underlying repair and recovery. Dissertation. University of Eastern Finland; 2023.</Citation></Reference><Reference><Citation>Cappello L, Baldi R, Frederik L, Cipriani C. Noninvasive augmented sensory feedback in poststroke hand rehabilitation approaches. Somatosensory Feedback for Neuroprosthetics: Elsevier; 2021. p. 207-44.</Citation></Reference><Reference><Citation>Zhang W, Mei Z, Feng Z, Li B. Effects of a nurse-led eHealth programme on functional outcomes and quality of life of patients with stroke: a pooled analysis of randomized controlled trials.
+Front Public Health
+2024;12:1395270. https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;list_uids=38737865&amp;dopt=Abstract
+10.3389/fpubh.2024.1395270
+</Citation><ArticleIdList><ArticleId IdType="doi">10.3389/fpubh.2024.1395270</ArticleId><ArticleId IdType="pmc">PMC11082325</ArticleId><ArticleId IdType="pubmed">38737865</ArticleId></ArticleIdList></Reference><Reference><Citation>Leon D, Cortes M, Elder J, Kumru H, Laxe S, Edwards DJ, et al. 
+tDCS does not enhance the effects of robot-assisted gait training in patients with subacute stroke.
+Restor Neurol Neurosci
+2017;35:377&#x2013;84. https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;list_uids=28697574&amp;dopt=Abstract
+10.3233/RNN-170734
+</Citation><ArticleIdList><ArticleId IdType="doi">10.3233/RNN-170734</ArticleId><ArticleId IdType="pubmed">28697574</ArticleId></ArticleIdList></Reference><Reference><Citation>Dey S, Arya A, Raut AJ, Katta S, Sharma P. Exploring the Role of Neuroplasticity in Stroke Rehabilitation: Mechanisms, Interventions and Clinical Implications. Restor Neurol Neurosci 2011;29:375-94.</Citation></Reference><Reference><Citation>Sharbafshaaer M, Cirillo G, Esposito F, Tedeschi G, Trojsi F.
+Harnessing Brain Plasticity: The Therapeutic Power of Repetitive Transcranial Magnetic Stimulation (rTMS) and Theta Burst Stimulation (TBS) in Neurotransmitter Modulation, Receptor Dynamics, and Neuroimaging for Neurological Innovations.
+Biomedicines
+2024;12:2506. https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;list_uids=39595072&amp;dopt=Abstract
+10.3390/biomedicines12112506
+</Citation><ArticleIdList><ArticleId IdType="doi">10.3390/biomedicines12112506</ArticleId><ArticleId IdType="pmc">PMC11592033</ArticleId><ArticleId IdType="pubmed">39595072</ArticleId></ArticleIdList></Reference><Reference><Citation>Navarro-L&#xf3;pez V, Molina-Rueda F, Jim&#xe9;nez-Jim&#xe9;nez S, Alguacil-Diego IM, Carratal&#xe1;-Tejada M. Effects of transcranial direct current stimulation combined with physiotherapy on gait pattern, balance, and functionality in stroke patients. A systematic review.
+Diagnostics (Basel)
+2021;11:656. https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;list_uids=33916442&amp;dopt=Abstract
+10.3390/diagnostics11040656
+</Citation><ArticleIdList><ArticleId IdType="doi">10.3390/diagnostics11040656</ArticleId><ArticleId IdType="pmc">PMC8066876</ArticleId><ArticleId IdType="pubmed">33916442</ArticleId></ArticleIdList></Reference><Reference><Citation>Van Criekinge T, Heremans C, Burridge J, Deutsch JE, Hammerbeck U, Hollands K, et al. 
+Standardized measurement of balance and mobility post-stroke: Consensus-based core recommendations from the third Stroke Recovery and Rehabilitation Roundtable.
+Neurorehabil Neural Repair
+2024;38:41&#x2013;51. https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;list_uids=37837351&amp;dopt=Abstract
+10.1177/15459683231209154
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1177/15459683231209154</ArticleId><ArticleId IdType="pubmed">37837351</ArticleId></ArticleIdList></Reference><Reference><Citation>Evancho A, Tyler WJ, McGregor K. A review of combined neuromodulation and physical therapy interventions for enhanced neurorehabilitation.
+Front Hum Neurosci
+2023;17:1151218. https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;list_uids=37545593&amp;dopt=Abstract
+10.3389/fnhum.2023.1151218
+</Citation><ArticleIdList><ArticleId IdType="doi">10.3389/fnhum.2023.1151218</ArticleId><ArticleId IdType="pmc">PMC10400781</ArticleId><ArticleId IdType="pubmed">37545593</ArticleId></ArticleIdList></Reference><Reference><Citation>Li W, Zhu G, Lu Y, Wu J, Fu Z, Tang J, et al. 
+The relationship between rehabilitation motivation and upper limb motor function in stroke patients.
+Front Neurol
+2024;15:1390811. https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;list_uids=38863513&amp;dopt=Abstract
+10.3389/fneur.2024.1390811
+</Citation><ArticleIdList><ArticleId IdType="doi">10.3389/fneur.2024.1390811</ArticleId><ArticleId IdType="pmc">PMC11165190</ArticleId><ArticleId IdType="pubmed">38863513</ArticleId></ArticleIdList></Reference><Reference><Citation>Prajjwal P, Chandrasekar KK, Battula P, Gaviria E, Awe MO, Inban P, et al. 
+The efficacy of virtual reality-based rehabilitation in improving motor function in patients with stroke: a systematic review and meta-analysis.
+Ann Med Surg (Lond)
+2024;86:5425&#x2013;38. https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;list_uids=39238962&amp;dopt=Abstract
+10.1097/MS9.0000000000002403
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1097/MS9.0000000000002403</ArticleId><ArticleId IdType="pmc">PMC11374195</ArticleId><ArticleId IdType="pubmed">39238962</ArticleId></ArticleIdList></Reference><Reference><Citation>Rafsten L, Danielsson A, Sunnerhagen KS. Self-perceived postural balance correlates with postural balance and anxiety during the first year after stroke: a part of the randomized controlled GOTVED study.
+BMC Neurol
+2020;20:410. https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;list_uids=33167877&amp;dopt=Abstract
+10.1186/s12883-020-01982-z
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1186/s12883-020-01982-z</ArticleId><ArticleId IdType="pmc">PMC7650177</ArticleId><ArticleId IdType="pubmed">33167877</ArticleId></ArticleIdList></Reference><Reference><Citation>Buvarp D, Rafsten L, Abzhandadze T, Sunnerhagen KS. A cohort study on longitudinal changes in postural balance during the first year after stroke.
+BMC Neurol
+2022;22:324. https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;list_uids=36042404&amp;dopt=Abstract
+10.1186/s12883-022-02851-7
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1186/s12883-022-02851-7</ArticleId><ArticleId IdType="pmc">PMC9425943</ArticleId><ArticleId IdType="pubmed">36042404</ArticleId></ArticleIdList></Reference><Reference><Citation>Tosserams A. Compensation strategies for gait impairment in Parkinson&#x2019;s disease: Towards personalized gait rehabilitation: Nijmegen: Radboud University Press; 2023.</Citation></Reference><Reference><Citation>Kwakkel G, Stinear C, Essers B, Munoz-Novoa M, Branscheidt M, Cabanas-Vald&#xe9;s R, et al. 
+Motor rehabilitation after stroke: european Stroke Organisation (ESO) consensus-based definition and guiding framework.
+Eur Stroke J
+2023;8:880&#x2013;94. https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;list_uids=37548025&amp;dopt=Abstract
+10.1177/23969873231191304
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1177/23969873231191304</ArticleId><ArticleId IdType="pmc">PMC10683740</ArticleId><ArticleId IdType="pubmed">37548025</ArticleId></ArticleIdList></Reference><Reference><Citation>Gomes E, Alder G, Bright FA, Signal N. Understanding task &#x201c;challenge&#x201d; in stroke rehabilitation: an interdisciplinary concept analysis.
+Disabil Rehabil
+2025;47:560&#x2013;70. https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;list_uids=38821140&amp;dopt=Abstract
+</Citation><ArticleIdList><ArticleId IdType="pubmed">38821140</ArticleId></ArticleIdList></Reference><Reference><Citation>Shahid J, Kashif A, Shahid MK. A comprehensive review of physical therapy interventions for stroke rehabilitation: impairment-based approaches and functional goals.
+Brain Sci
+2023;13:717. https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;list_uids=37239189&amp;dopt=Abstract
+10.3390/brainsci13050717
+</Citation><ArticleIdList><ArticleId IdType="doi">10.3390/brainsci13050717</ArticleId><ArticleId IdType="pmc">PMC10216461</ArticleId><ArticleId IdType="pubmed">37239189</ArticleId></ArticleIdList></Reference><Reference><Citation>Lin DJ, Backus D, Chakraborty S, Liew SL, Valero-Cuevas FJ, Patten C, et al. 
+Transforming modeling in neurorehabilitation: clinical insights for personalized rehabilitation.
+J Neuroeng Rehabil
+2024;21:18. https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&amp;db=PubMed&amp;list_uids=38311729&amp;dopt=Abstract
+10.1186/s12984-024-01309-w
+</Citation><ArticleIdList><ArticleId IdType="doi">10.1186/s12984-024-01309-w</ArticleId><ArticleId IdType="pmc">PMC10840185</ArticleId><ArticleId IdType="pubmed">38311729</ArticleId></ArticleIdList></Reference></ReferenceList></PubmedData></PubmedArticle></PubmedArticleSet>

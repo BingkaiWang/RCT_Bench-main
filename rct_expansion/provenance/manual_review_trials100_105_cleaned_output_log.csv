@@ -1,0 +1,7 @@
+Trial_ID,Candidate_ID,Cleaned_CSV,Cleaned_RDS,n_rows,n_columns
+trial100,RCTC-01557,rct_expansion/cleaned_data/trial100.csv,rct_expansion/cleaned_data/trial100.rds,24,25
+trial101,RCTC-02282,rct_expansion/cleaned_data/trial101.csv,rct_expansion/cleaned_data/trial101.rds,25,12
+trial102,RCTC-05010,rct_expansion/cleaned_data/trial102.csv,rct_expansion/cleaned_data/trial102.rds,86,22
+trial103,RCTC-02127,rct_expansion/cleaned_data/trial103.csv,rct_expansion/cleaned_data/trial103.rds,57,25
+trial104,RCTC-04923,rct_expansion/cleaned_data/trial104.csv,rct_expansion/cleaned_data/trial104.rds,70,7
+trial105,RCTC-04272,rct_expansion/cleaned_data/trial105.csv,rct_expansion/cleaned_data/trial105.rds,144,20

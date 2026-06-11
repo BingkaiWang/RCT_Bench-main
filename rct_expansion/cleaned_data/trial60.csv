@@ -1,0 +1,93 @@
+Treatment,YP_glucose_elution_post,YP_delta_glucose_elution_post,YS_chewing_ease_vas_post,YS_delta_chewing_ease_vas_post,X_glucose_elution_pre,X_chewing_ease_vas_pre,X_sequence_0d,X_period_0d
+Sham,240,27,100,0,213,100,B,1
+IW stimulation,258,14,78,1,244,77,A,1
+Sham,198,-80,44,-8,278,52,B,1
+Sham,258,28,92,1,230,91,B,1
+Sham,127,-108,100,0,235,100,B,1
+Sham,287,13,100,0,274,100,B,1
+Sham,229,-34,92,-1,263,93,B,1
+Sham,167,-27,87,20,194,67,B,1
+Sham,291,7,86,12,284,74,B,1
+Sham,181,-96,76,11,277,65,B,1
+Sham,248,15,100,0,233,100,B,1
+IW stimulation,319,41,83,4,278,79,A,1
+IW stimulation,250,21,83,0,229,83,A,1
+IW stimulation,334,68,90,7,266,83,A,1
+Sham,368,8,100,0,360,100,B,1
+IW stimulation,298,89,20,-1,209,21,A,1
+Sham,322,-3,100,0,325,100,B,1
+IW stimulation,278,45,100,0,233,100,A,1
+Sham,269,-38,94,1,307,93,B,1
+IW stimulation,251,20,90,22,231,68,A,1
+IW stimulation,377,24,100,0,353,100,A,1
+IW stimulation,316,13,88,-4,303,92,A,1
+IW stimulation,267,63,87,6,204,81,A,1
+IW stimulation,357,47,100,20,310,80,A,1
+Sham,223,-3,73,1,226,72,B,1
+IW stimulation,279,30,90,14,249,76,A,1
+IW stimulation,333,35,100,14,298,86,A,1
+IW stimulation,293,43,80,4,250,76,A,1
+Sham,189,0,49,4,189,45,B,1
+Sham,244,17,81,8,227,73,B,1
+Sham,181,-14,100,0,195,100,B,1
+IW stimulation,223,-21,44,-2,244,46,A,1
+Sham,228,19,76,0,209,76,B,1
+IW stimulation,388,43,100,0,345,100,A,1
+IW stimulation,251,31,95,37,220,58,A,1
+Sham,256,-32,80,1,288,79,B,1
+IW stimulation,297,65,87,21,232,66,A,1
+IW stimulation,297,1,72,-1,296,73,A,1
+Sham,277,-25,63,14,302,49,B,1
+IW stimulation,251,1,55,8,250,47,A,1
+IW stimulation,223,-30,62,11,253,51,A,1
+IW stimulation,301,55,87,15,246,72,A,1
+IW stimulation,200,14,67,3,186,64,A,1
+Sham,273,23,66,18,250,48,B,1
+Sham,219,10,83,6,209,77,B,1
+Sham,258,-31,81,16,289,65,B,1
+IW stimulation,222,-1,100,0,223,100,B,2
+Sham,255,-55,72,6,310,66,A,2
+IW stimulation,242,29,55,22,213,33,B,2
+IW stimulation,217,-72,91,-1,289,92,B,2
+IW stimulation,268,36,100,34,232,66,B,2
+IW stimulation,309,24,93,-7,285,100,B,2
+IW stimulation,282,34,87,2,248,85,B,2
+IW stimulation,212,3,94,16,209,78,B,2
+IW stimulation,307,54,94,26,253,68,B,2
+IW stimulation,331,37,88,16,294,72,B,2
+IW stimulation,315,37,90,7,278,83,B,2
+Sham,236,-9,84,8,245,76,A,2
+Sham,226,-10,78,4,236,74,A,2
+Sham,294,58,87,24,236,63,A,2
+IW stimulation,352,43,100,0,309,100,B,2
+Sham,274,-17,78,4,291,74,A,2
+IW stimulation,300,60,100,10,240,90,B,2
+Sham,179,-30,100,0,209,100,A,2
+IW stimulation,343,2,94,3,341,91,B,2
+Sham,235,-40,75,3,275,72,A,2
+Sham,364,0,100,0,364,100,A,2
+Sham,226,-31,87,-3,257,90,A,2
+Sham,173,-155,90,2,328,88,A,2
+Sham,282,-51,93,9,333,84,A,2
+IW stimulation,262,55,71,3,207,68,B,2
+Sham,250,22,68,0,228,68,A,2
+Sham,204,-38,65,2,242,63,A,2
+Sham,249,-63,54,2,312,52,A,2
+IW stimulation,286,86,56,6,200,50,B,2
+IW stimulation,279,36,100,0,243,100,B,2
+IW stimulation,217,55,100,25,162,75,B,2
+Sham,236,32,46,-1,204,47,A,2
+IW stimulation,250,14,80,23,236,57,B,2
+Sham,333,2,100,0,331,100,A,2
+Sham,235,-6,85,25,241,60,A,2
+IW stimulation,349,9,87,2,340,85,B,2
+Sham,237,-5,90,15,242,75,A,2
+Sham,318,-27,98,0,345,98,A,2
+IW stimulation,384,26,83,13,358,70,B,2
+Sham,209,-90,87,-1,299,88,A,2
+Sham,200,-53,50,-7,253,57,A,2
+Sham,237,-5,80,0,242,80,A,2
+Sham,204,-14,65,10,218,55,A,2
+IW stimulation,295,64,74,4,231,70,B,2
+IW stimulation,267,37,100,20,230,80,B,2
+IW stimulation,321,67,90,33,254,57,B,2

@@ -1,0 +1,5 @@
+Trial_ID: 63
+Paper Name: High-intensity interval training versus progressive high-intensity circuit resistance training on endothelial function and cardiorespiratory fitness in heart failure: A preliminary randomized controlled trial
+Paper Link: https://doi.org/10.1371/journal.pone.0257607
+Citation: Turri-Silva et al. PLOS One. 2021;16(10):e0257607. doi:10.1371/journal.pone.0257607
+Availability: PDF stored here when publicly available; otherwise this file records the publication link.

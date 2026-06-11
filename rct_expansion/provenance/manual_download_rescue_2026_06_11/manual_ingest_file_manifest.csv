@@ -1,0 +1,5 @@
+candidate_id,repository,source_record,file_name,download_url,content_type,declared_size,restricted,role,guestbook_id,local_path,download_status,download_error,bytes_downloaded
+RCTC-01363,Dryad,10.5061/dryad.vx0k6djsv,Raw_data.xlsx,manual_download,,21717,no,data,,rct_expansion/provenance/manual_download_rescue_2026_06_11/manual_downloads/RCTC-01363/Raw_data.xlsx,downloaded,,21717
+RCTC-01363,Dryad,10.5061/dryad.vx0k6djsv,read_me_file.docx,manual_download,,14891,no,support,,rct_expansion/provenance/manual_download_rescue_2026_06_11/manual_downloads/RCTC-01363/read_me_file.docx,downloaded,,14891
+RCTC-01313,Dryad,10.5061/dryad.4f4qrfj95,ELAIA-1_data_dictionary_10-6-2020.csv,manual_download,,5794,no,data,,rct_expansion/provenance/manual_download_rescue_2026_06_11/manual_downloads/RCTC-01313/ELAIA-1_data_dictionary_10-6-2020.csv,downloaded,,5794
+RCTC-01313,Dryad,10.5061/dryad.4f4qrfj95,ELAIA-1_deidentified_data_10-6-2020.csv,manual_download,,2221257,no,data,,rct_expansion/provenance/manual_download_rescue_2026_06_11/manual_downloads/RCTC-01313/ELAIA-1_deidentified_data_10-6-2020.csv,downloaded,,2221257

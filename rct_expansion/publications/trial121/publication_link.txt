@@ -1,0 +1,5 @@
+Trial_ID: 121
+Paper Name: Acceptance lowers stress reactivity: Dismantling mindfulness training in a randomized controlled trial
+Paper Link: https://doi.org/10.17632/bx2gvkty4c.2
+Citation: Acceptance lowers stress reactivity: Dismantling mindfulness training in a randomized controlled trial. Dataset DOI: 10.17632/bx2gvkty4c.2.
+Availability: PDF stored here when publicly available; otherwise this file records the publication link.

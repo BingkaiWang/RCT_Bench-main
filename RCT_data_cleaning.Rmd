@@ -1,0 +1,5192 @@
+---
+title: "RCT_data_cleaning"
+author: "Yulin Shao"
+date: "2025-05-06"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(rio)
+library(janitor)
+library(readxl)
+library(striprtf)
+library(stringr)
+library(tibble)
+library(tidyr)
+library(stringi)
+library(haven)
+library(purrr)
+library(DescTools)
+```
+
+
+# Trial 1
+## Load Data
+```{r}
+# trial 1
+df1_sheets = import_list("raw_data/Non_Clustered_RCT/1/1.xlsx")
+
+df1_base = df1_sheets[[1]]
+df1_4m = df1_sheets[[2]]
+df1_3m = df1_sheets[[3]]
+```
+
+## Cleaning
+```{r}
+df1_base_clean = df1_base %>% slice(-1)
+df1_4m_clean = df1_4m %>% slice(-1)
+df1_3m_clean = df1_3m %>% slice(-1)
+
+# Step 2: Assign treatment group
+assign_treatment = function(row) {
+  if (row <= 114) return("True Acupuncture + Placebo")
+  else if (row <= 228) return("Metformin + Sham Acupuncture")
+  else return("Sham Acupuncture + Placebo")
+}
+
+# Step 3: Join baseline + 4-month + 7-month
+df1_combined = df1_base_clean %>%
+  mutate(row_index = row_number()) %>%
+  bind_cols(
+    df1_4m_clean %>% select(-Group, -`Patient number`) %>% rename_with(~ paste0("m4_", .x)),
+    df1_3m_clean %>% select(-Group, -`Patient number`) %>% rename_with(~ paste0("m7_", .x))
+  ) %>%
+  mutate(
+    Treatment = sapply(row_index, assign_treatment),
+    ID = row_number()
+  )
+
+# Step 4: Create new labeled variables
+df1_final = df1_combined %>%
+  mutate(
+    # Primary
+    YP_delta_HOMA_IR_4m = as.numeric(`m4_HOMA-IR`) - as.numeric(`HOMA-IR`),
+
+    # Related (after primary)
+    post_YP_delta_HOMA_IR_7m = as.numeric(`m7_HOMA-IR`) - as.numeric(`HOMA-IR`),
+
+    # Secondary outcomes
+    YS_delta_BMI_4m = as.numeric(`m4_BMI`) - as.numeric(BMI),
+    YS_delta_WHR_4m = as.numeric(`m4_WHR`) - as.numeric(WHR),
+    YS_delta_Acne_4m = as.numeric(`m4_Acne`) - as.numeric(Acne),
+    YS_delta_Hirsutism_4m = as.numeric(`m4_Hirsutism`) - as.numeric(Hirsutism),
+    YS_delta_FPG_4m = as.numeric(`m4_FPG`) - as.numeric(FPG),
+    YS_delta_FINS_4m = as.numeric(`m4_FINS`) - as.numeric(FINS),
+    YS_delta_GlucoseAUC_4m = as.numeric(`m4_Glucose AUC`) - as.numeric(`Glucose AUC`),
+    YS_delta_InsulinAUC_4m = as.numeric(`m4_Insulin AUC`) - as.numeric(`Insulin AUC`),
+    YS_delta_HOMA_beta_4m = as.numeric(`m4_HOMA-β`) - as.numeric(`HOMA-β`),
+    YS_delta_Cpeptide_4m = as.numeric(`m4_C-Peptide`) - as.numeric(`C-Peptide`),
+    YS_delta_HbA1c_4m = as.numeric(`m4_HbA1c`) - as.numeric(HbA1c),
+    YS_delta_LH_FSH_4m = as.numeric(`m4_LH/FSH`) - as.numeric(`LH/FSH`),
+    YS_delta_TotalT_4m = as.numeric(`m4_Total T`) - as.numeric(`Total T`),
+    YS_delta_FAI_4m = as.numeric(`m4_FAI`) - as.numeric(FAI),
+    
+     # Post-secondary changes at 7 months
+    post_YS_delta_BMI_7m      = as.numeric(`m7_BMI`)      - as.numeric(BMI),
+    post_YS_delta_WHR_7m      = as.numeric(`m7_WHR`)      - as.numeric(WHR),
+    post_YS_delta_Acne_7m     = as.numeric(`m7_Acne`)     - as.numeric(Acne),
+    post_YS_delta_Hirsutism_7m= as.numeric(`m7_Hirsutism`)- as.numeric(Hirsutism),
+    post_YS_delta_FPG_7m      = as.numeric(`m7_FPG`)      - as.numeric(FPG),
+    post_YS_delta_FINS_7m     = as.numeric(`m7_FINS`)     - as.numeric(FINS),
+    post_YS_delta_GlucoseAUC_7m   = as.numeric(`m7_Glucose AUC`)   - as.numeric(`Glucose AUC`),
+    post_YS_delta_InsulinAUC_7m   = as.numeric(`m7_Insulin AUC`)   - as.numeric(`Insulin AUC`),
+    post_YS_delta_HOMA_beta_7m    = as.numeric(`m7_HOMA-β`)   - as.numeric(`HOMA-β`),
+    post_YS_delta_Cpeptide_7m     = as.numeric(`m7_C-Peptide`)- as.numeric(`C-Peptide`),
+    post_YS_delta_HbA1c_7m        = as.numeric(`m7_HbA1c`)    - as.numeric(HbA1c)
+  ) %>%
+  mutate(
+    # Baseline outcomes become covariates
+    X_HOMA_IR_0m      = as.numeric(`HOMA-IR`),
+    X_BMI_0m          = as.numeric(BMI),
+    X_WHR_0m          = as.numeric(WHR),
+    X_Acne_0m         = as.numeric(Acne),
+    X_Hirsutism_0m    = as.numeric(Hirsutism),
+    X_FPG_0m          = as.numeric(FPG),
+    X_FINS_0m         = as.numeric(FINS),
+    X_GlucoseAUC_0m   = as.numeric(`Glucose AUC`),
+    X_InsulinAUC_0m   = as.numeric(`Insulin AUC`),
+    X_HOMA_beta_0m    = as.numeric(`HOMA-β`),
+    X_Cpeptide_0m     = as.numeric(`C-Peptide`),
+    X_HbA1c_0m        = as.numeric(HbA1c),
+    X_LH_FSH_0m       = as.numeric(`LH/FSH`),
+    X_TotalT_0m       = as.numeric(`Total T`),
+    X_FAI_0m          = as.numeric(FAI),
+
+    # Other covariates
+    X_Age_0m          = as.numeric(Age),
+    X_Weight_0m       = as.numeric(Weight),
+    X_Waist_0m        = as.numeric(Waist),
+    X_TG_0m           = as.numeric(TG),
+    X_HDL_0m          = as.numeric(HDL),
+    X_LDL_0m          = as.numeric(LDL),
+    X_CHOL_0m         = as.numeric(CHOL),
+    X_ApoA1_0m        = as.numeric(`ApoA-1`),
+    X_ApoB_0m         = as.numeric(ApoB)
+  ) %>%
+  mutate(Treatment = relevel(factor(Treatment), ref = "Sham Acupuncture + Placebo")) %>%
+  
+  select(
+    Treatment,
+    YP_delta_HOMA_IR_4m,
+    post_YP_delta_HOMA_IR_7m,
+    starts_with("YS_"),
+    starts_with("post_YS"),
+    starts_with("X_")
+  )
+```
+
+
+## Output Data
+```{r}
+# write trial 1
+write_csv(df1_final, "cleaned_data/Non_Clustered_RCT/trial1.csv")
+write_rds(df1_final, "cleaned_data/Non_Clustered_RCT/trial1.rds")
+```
+
+# Trial 2
+## Load Data
+```{r}
+# trial 2
+df2 = read_sav("raw_data/Non_Clustered_RCT/2/2.sav")
+```
+
+
+## Cleaning
+```{r}
+df2_final = df2 %>%
+  # Set treatment labels
+  mutate(
+    Treatment = case_when(
+      NOD == 1 ~ "Ivermectin+Doxycycline",
+      NOD == 0 ~ "Placebo"
+    )
+  ) %>%
+
+  # Rename according to cleaning protocol
+  rename(
+    # Primary outcomes
+    YP_recovery_time       = Sym_Recover,
+    YP_early_7d            = res_7day,
+    YP_late_12d            = Res_12day,
+
+    # Secondary outcomes
+    YS_severity_worsen     = Conversion_binary,
+    YS_pos_14d             = Pers_positiv,
+
+    # Covariates
+    X_agegrp_0d               = Age_group,
+    X_sex_0d                  = Sex,
+    X_fever_0d                = Fever,
+    X_cough_0d                = Cough,
+    X_respdiff_0d             = Resp_dist,
+    X_diabetes_0d             = Diabete,
+    X_hyperten_0d             = Hypertension,
+    X_comorb_0d               = Co_mor,
+  ) %>%
+
+  # Replace placeholder missing values with NA
+  mutate(across(where(~is.numeric(.) || is.integer(.) || is.logical(.)), ~na_if(., 99))) %>%
+  
+  mutate(Treatment = relevel(factor(Treatment), ref = "Placebo")) %>%
+  
+  mutate(
+        X_agegrp_0d = factor(X_agegrp_0d,
+                         levels = c(1, 2, 3),
+                         labels = c("less than 40", "40-60", ">60"),
+                         ordered = TRUE),
+        across(c(X_sex_0d, X_fever_0d, X_cough_0d, X_respdiff_0d, X_comorb_0d, 
+                 X_diabetes_0d, X_hyperten_0d, YP_early_7d, YP_late_12d,
+                 YS_severity_worsen, YS_pos_14d), as_factor)
+    ) %>% 
+
+  # Select and reorder columns
+  select(
+    Treatment,
+    starts_with("YP_"),
+    starts_with("YS_"),
+    starts_with("X_")
+  )
+```
+
+
+## Output Data
+```{r}
+# write trial 2
+write_csv(df2_final, "cleaned_data/Non_Clustered_RCT/trial2.csv")
+write_rds(df2_final, "cleaned_data/Non_Clustered_RCT/trial2.rds")
+```
+
+# Trial 3
+## Load Data
+```{r}
+# trial 3
+df3 = read_csv("raw_data/Non_Clustered_RCT/3/3.csv")
+```
+
+
+
+## Cleaning
+```{r}
+df3_final = df3 %>% 
+  # 2. Recode treatment
+  rename(Treatment = alert) %>%
+  mutate(
+    Treatment = case_when(
+      Treatment == 1 ~ "Alert",
+      Treatment == 0 ~ "Usual Care",
+      TRUE           ~ NA_character_
+    ),
+    # derive the “inpatient or hospice” complement
+    YS_discharge_inpatient_hospice = case_when(
+      discharge_to_home == 0 ~ 1L,
+      discharge_to_home == 1 ~ 0L,
+      TRUE                  ~ NA_integer_
+    )
+  ) %>%
+  
+  # 3. Primary & secondary outcomes per the paper’s Table
+  rename(
+    YP_composite_event       = composite_outcome,
+    YP_composite_time        = time_to_composite_outcome,
+    
+    YS_aki_progression_event = aki_progression14,
+    YS_dialysis_event        = dialysis14,
+    YS_death_event           = death14,
+    YS_discharge_home        = discharge_to_home,
+    YS_los_since_alert       = los_since_alert
+  ) %>%
+  
+  # 4. Baseline covariates (as in Table 1) → prefix X_ and suffix _0m,
+  #    stripping any “_at_rand” from the original name
+  rename_with(
+    ~ paste0("X_", sub("_at_rand$", "", .), "_0m"),
+    .cols = any_of(c(
+      # demographics & flags
+      "hospital",
+      "age", "age_over_90",
+      "sex",
+      "race",
+      "ethnicity",
+      # admission service & location
+      "admit_medical",
+      "admit_surgical",
+      "location_icu",
+      "location_ed",
+      "location_ward",
+      # labs & vitals at randomization
+      "creat_at_rand",
+      "bun_at_rand",
+      "wbcc_at_rand",
+      "egfr_at_rand",
+      "sodium_at_rand",
+      "potassium_at_rand",
+      "pulse_at_rand",
+      "resp_at_rand",
+      "systolic_at_rand",
+      "diastolic_at_rand",
+      # comorbidities & scores
+      "chf",
+      "hypertension",
+      "diabetes",
+      "malignancy",
+      "ckd",
+      "copd",
+      "depression",
+      "liver_disease",
+      "icu",
+      "sofa",
+      "elx_score"
+    ))
+  ) %>%
+  mutate(Treatment = relevel(factor(Treatment), ref = "Usual Care")) %>%
+  mutate(across(
+    where(~ is.numeric(.) && all(na.omit(unique(.)) %in% c(0, 1))),
+    ~ factor(., levels = c(0, 1))
+  )) %>%
+  
+  # 6. Final column order: Treatment, YP_, pre_YP_, post_YP_, YS_, X_
+  select(
+    Treatment,
+    starts_with("YP_"),
+    starts_with("pre_YP_"),
+    starts_with("post_YP_"),
+    starts_with("YS_"),
+    starts_with("X_")
+  )
+  
+```
+
+
+
+## Output Data
+```{r}
+# wrtie trial 3
+write_csv(df3_final, "cleaned_data/Non_Clustered_RCT/trial3.csv")
+write_rds(df3_final, "cleaned_data/Non_Clustered_RCT/trial3.rds")
+```
+
+
+
+# Trial 4
+## Load Data
+```{r}
+# trial 4
+df4 = read_xlsx("raw_data/Non_Clustered_RCT/4/4.xlsx")
+```
+
+## Cleaning
+```{r}
+df4_final = df4 %>%
+  clean_names() %>%
+  rename(
+    treatment = group,
+    
+    # Baseline covariates
+    X_FIB4_0w    = fib4,
+    X_APRI_0w    = apri,
+    X_VD_0w      = vd0,
+    X_AST_0w     = ast0,
+    X_ALT_0w     = alt0,
+    X_Plt_0w     = plt0,
+    X_Age_0w     = age,
+    X_Sex_0w     = sex,
+    X_BMI_0w     = bmi,
+    
+    # Primary outcome baselines
+    X_TGF_0w  = tgf0,
+    X_TIMP_0w = timp0,
+    X_MMP_0w  = mmp0,
+    X_P3NP_0w = p3np0
+  ) %>%
+  mutate(
+    Treatment = dplyr::recode(treatment,
+                       "A" = "VD",
+                       "B" = "Placebo"),
+    
+    # Primary outcome deltas (6-week − baseline)
+    YP_delta_TGF_6w   = as.numeric(tgf6) - as.numeric(X_TGF_0w),
+    YP_delta_TIMP_6w  = as.numeric(timp6) - as.numeric(X_TIMP_0w),
+    YP_delta_MMP_6w   = as.numeric(mmp6) - as.numeric(X_MMP_0w),
+    YP_delta_P3NP_6w  = as.numeric(p3np6) - as.numeric(X_P3NP_0w)
+  ) %>%
+  mutate(
+    Treatment = relevel(factor(Treatment), ref = "Placebo"),
+    X_Age_0w = factor(X_Age_0w, levels = c(
+      "31-40", "41-50", "51-60", "61-70", "71-80"
+    ), ordered = TRUE),
+    X_Sex_0w = factor(X_Sex_0w)
+  ) %>%
+
+  select(
+    Treatment,
+    starts_with("YP_"),
+    starts_with("X_")
+  )
+
+```
+
+
+## Output Data
+```{r}
+# write trial 4
+write_csv(df4_final, "cleaned_data/Non_Clustered_RCT/trial4.csv")
+write_rds(df4_final, "cleaned_data/Non_Clustered_RCT/trial4.rds")
+```
+
+# Trial 5
+## Load Data
+```{r}
+df5 = read_csv("raw_data/Non_Clustered_RCT/5/5.csv", na = c("", "NaN"))
+```
+
+## Cleaning
+
+```{r}
+df5_final = df5 %>%
+  rename(Treatment = alert) %>%
+  mutate(
+    Treatment = case_when(
+      Treatment == 1 ~ "Alert",
+      Treatment == 0 ~ "Usual Care",
+      TRUE           ~ NA_character_
+    )
+  ) %>%
+  
+  # 3. Primary & secondary outcomes (with day/hour suffixes)
+  rename(
+    YP_composite_14d           = composite_outcome,
+    
+    YS_death_14d               = death14,
+    YS_dialysis_14d            = dialysis14,
+    YS_aki_progression_14d     = aki_progression14,
+    YS_inpatient_mortality     = inpatient_mortality,
+    YS_inpatient_dialysis      = inpatient_dialysis,
+    YS_progression_stage2_14d  = progression2,
+    YS_progression_stage3_14d  = progression3,
+    YS_acearb_stopped_24h      = acearb_stopped24,
+    YS_nsaid_stopped_24h       = nsaid_stopped24,
+    YS_ppi_stopped_24h         = ppi_stopped24,
+    YS_no_nsaid_during_aki     = no_nsaid_during_aki,
+    YS_no_ppi_during_aki       = no_ppi_during_aki,
+    YS_no_acearb_during_aki    = no_acearb_during_aki,
+    YS_opioid_14d              = opioid,
+    YS_ventorder_14d           = ventorder,
+    YS_transfuserbc_14d        = transfuserbc,
+    YS_los_since_alert         = los_since_alert,
+    YS_readmit_30d             = readmit30,
+    YS_max_pain_score_14d      = max_pain_score14,
+    YS_duration_of_alert       = duration_of_alert,
+    YS_duration_of_aki         = duration_of_aki,
+    YS_aki_stage_14d           = aki_stage14
+  ) %>%
+  
+  # 4. Baseline covariates → prefix X_, strip "_at_rand", suffix "_0m"
+  rename_with(
+    ~ paste0("X_", sub("_at_rand$", "", .), "_0m"),
+    .cols = any_of(c(
+      "hospital",
+      "age", "age_over_90",
+      "sex",
+      "race",
+      "icu_at_rand", "ward_at_rand", "er_at_rand",
+      "num_med", "on_acearb", "on_nsaid", "on_ppi",
+      "admit_medical", "admit_surgical",
+      "ckd_pmhx", "chf_elx_pmhx", "pulm_disease_elx_pmhx",
+      "diabetes_elx_pmhx", "htn_elx_pmhx", "malignancy_elx_pmhx",
+      "liverdisease_elx_pmhx", "elx_score_pmhx",
+      "creat_at_rand", "mincreat48_prior", "mincreat7_prior",
+      "admit_creatinine", "baseline_creat",
+      "aniongap_at_rand", "bicarbonate_at_rand", "bun_at_rand",
+      "chloride_at_rand", "egfr_at_admit", "hemoglobin_at_rand",
+      "plateletcount_at_rand", "potassium_at_rand", "sodium_at_rand",
+      "wbcc_at_rand", "systolic_at_rand", "diastolic_at_rand",
+      "pulse_at_rand", "resp_at_rand", "spo2_at_rand",
+      "temp_at_rand", "sofa_at_rand"
+    ))
+  ) %>%
+  mutate(
+    Treatment = relevel(factor(Treatment), ref = "Usual Care"),
+    across(
+      where(~ is.numeric(.) && all(na.omit(unique(.)) %in% c(0, 1))),
+      ~ factor(., levels = c(0, 1))
+    ),
+    X_hospital_0m = factor(X_hospital_0m)
+  ) %>% 
+  select(
+    Treatment,
+    starts_with("YP_"),
+    starts_with("pre_YP_"),
+    starts_with("post_YP_"),
+    starts_with("YS_"),
+    starts_with("X_")
+  )
+```
+
+## Output Data
+```{r}
+# write trial 5
+write_csv(df5_final, "cleaned_data/Non_Clustered_RCT/trial5.csv")
+write_rds(df5_final, "cleaned_data/Non_Clustered_RCT/trial5.rds")
+```
+
+# Trial 6
+## Load Data
+```{r}
+# trial 6
+df6_alloc = read_excel("raw_data/Non_Clustered_RCT/6/6.xlsx", sheet = "1. Allocation")
+df6_imt   = read_excel("raw_data/Non_Clustered_RCT/6/6.xlsx", sheet = "2. IMT")
+df6_other = read_excel("raw_data/Non_Clustered_RCT/6/6.xlsx", sheet = "3. Other data")
+```
+
+
+## Cleaning
+```{r}
+df6 = df6_alloc %>%
+  inner_join(df6_imt, by = c("ID", "allocation")) %>%
+  inner_join(df6_other, by = "ID")
+
+df6[df6 == "."] = NA
+
+df6_final = df6 %>%
+  clean_names() %>%
+  mutate(
+    Treatment = case_when(
+      allocation == 1 ~ "Sitagliptin",
+      allocation == 2 ~ "Conventional"
+    ),
+
+        # Primary outcome
+    pre_YP_delta_CCA_IMT_12m = as.numeric(x12m_right_cca_mean_imt) - as.numeric(x0m_right_cca_mean_imt),
+    YP_delta_CCA_IMT_24m     = as.numeric(x24m_right_cca_mean_imt) - as.numeric(x0m_right_cca_mean_imt),
+    X_cca_imt_0m             = as.numeric(x0m_right_cca_mean_imt),
+
+    # Secondary outcomes
+    YS_delta_hba1c_12m       = as.numeric(hba1c_ngsp_12m) - as.numeric(hba1c_ngsp_0m),
+    YS_delta_hba1c_24m       = as.numeric(hba1c_ngsp_24m) - as.numeric(hba1c_ngsp_0m),
+    X_hba1c_0m               = as.numeric(hba1c_ngsp_0m),
+
+    YS_delta_fbg_12m         = as.numeric(fbs_12m) - as.numeric(fbs_0m),
+    YS_delta_fbg_24m         = as.numeric(fbs_24m) - as.numeric(fbs_0m),
+    X_fbg_0m                 = as.numeric(fbs_0m),
+
+    YS_delta_insulin_12m     = as.numeric(insulin_12m) - as.numeric(insulin_0m),
+    YS_delta_insulin_24m     = as.numeric(insulin_24m) - as.numeric(insulin_0m),
+    X_insulin_0m             = as.numeric(insulin_0m),
+
+    YS_delta_creatinine_12m  = as.numeric(creatinine_12m) - as.numeric(creatinine_0m),
+    YS_delta_creatinine_24m  = as.numeric(creatinine_24m) - as.numeric(creatinine_0m),
+    X_creatinine_0m          = as.numeric(creatinine_0m),
+
+    YS_delta_albumin_12m     = as.numeric(urinary_albumin_12m) - as.numeric(urinary_albumin_0m),
+    YS_delta_albumin_24m     = as.numeric(urinary_albumin_24m) - as.numeric(urinary_albumin_0m),
+    X_albumin_0m             = as.numeric(urinary_albumin_0m),
+
+    YS_delta_egfr_12m        = as.numeric(e_gfr_12m) - as.numeric(e_gfr_0m),
+    YS_delta_egfr_24m        = as.numeric(e_gfr_24m) - as.numeric(e_gfr_0m),
+    X_egfr_0m                = as.numeric(e_gfr_0m),
+
+    YS_delta_cystatin_c_12m  = as.numeric(cystatin_c_12m) - as.numeric(cystatin_c_0m),
+    YS_delta_cystatin_c_24m  = as.numeric(cystatin_c_24m) - as.numeric(cystatin_c_0m),
+    X_cystatin_c_0m          = as.numeric(cystatin_c_0m),
+
+    YS_delta_weight_12m      = as.numeric(body_weight_12m) - as.numeric(body_weight_0m),
+    YS_delta_weight_24m      = as.numeric(body_weight_24m) - as.numeric(body_weight_0m),
+    X_weight_0m              = as.numeric(body_weight_0m),
+
+    YS_delta_1_5ag_12m       = as.numeric(x1_5ag_12m) - as.numeric(x1_5ag_0m),
+    YS_delta_1_5ag_24m       = as.numeric(x1_5ag_24m) - as.numeric(x1_5ag_0m),
+    X_1_5ag_0m               = as.numeric(x1_5ag_0m),
+
+    YS_delta_sdldl_12m       = as.numeric(small_dense_ldl_12m) - as.numeric(small_dense_ldl_0m),
+    YS_delta_sdldl_24m       = as.numeric(small_dense_ldl_24m) - as.numeric(small_dense_ldl_0m),
+    X_sdldl_0m               = as.numeric(small_dense_ldl_0m),
+
+    YS_delta_adipo_12m       = as.numeric(hmw_adiponectin_12m) - as.numeric(hmw_adiponectin_0m),
+    YS_delta_adipo_24m       = as.numeric(hmw_adiponectin_24m) - as.numeric(hmw_adiponectin_0m),
+    X_adipo_0m               = as.numeric(hmw_adiponectin_0m),
+
+    YS_delta_rlpc_12m        = as.numeric(rlp_c_12m) - as.numeric(rlp_c_0m),
+    YS_delta_rlpc_24m        = as.numeric(rlp_c_24m) - as.numeric(rlp_c_0m),
+    X_rlpc_0m                = as.numeric(rlp_c_0m),
+
+    YS_delta_mda_ldl_12m     = as.numeric(mda_ldl_12m) - as.numeric(mda_ldl_0m),
+    YS_delta_mda_ldl_24m     = as.numeric(mda_ldl_24m) - as.numeric(mda_ldl_0m),
+    X_mda_ldl_0m             = as.numeric(mda_ldl_0m),
+
+    # Additional baseline covariates used in ANCOVA
+    X_age_0m                    = age_x,
+    X_sex_0m                    = sex_x,
+    X_statin_0m                 = statin,
+    X_dm_treatment_0m           = dm_treatment,
+    X_hba1c_ancova_0m           = as.numeric(al_hb_a1c_jds),
+    X_sbp_0m                    = as.numeric(al_sbp),
+    X_max_imt_0m                = as.numeric(al_max_imt)
+  ) %>%
+  mutate(
+    across(c(X_sex_0m, X_statin_0m, X_dm_treatment_0m), as_factor),
+    Treatment = relevel(factor(Treatment), ref = "Conventional")
+  ) %>% 
+  select(
+    Treatment,
+    YP_delta_CCA_IMT_24m,
+    pre_YP_delta_CCA_IMT_12m,
+    starts_with("YS_delta_"),
+    starts_with("X_")
+  )
+```
+
+
+## Output Data
+```{r}
+# write trial 6
+write_csv(df6_final, "cleaned_data/Non_Clustered_RCT/trial6.csv")
+write_rds(df6_final, "cleaned_data/Non_Clustered_RCT/trial6.rds")
+```
+
+
+# Trial 7
+## Load Data
+```{r}
+# trial 7
+df7 = read_excel("raw_data/Non_Clustered_RCT/7/7.xlsx", sheet = "Standard Scores")
+```
+
+
+## Cleaning
+```{r}
+df7_final = df7 %>%
+  mutate(
+    # Treatment label
+    Treatment = case_when(
+      Group == 1 ~ "ThinkRx",
+      Group == 2 ~ "Brain Lab"
+    ),
+    
+    # baseline covariates (_0h)
+    X_Age_0h              = Age,
+    X_Race_0h        = `Race Type`,
+    X_Gender_0h           = Gender,
+    X_ADD_ADHD_0h         = `ADD/ADHD`,
+    X_Autistic_0h         = Autistic,
+    X_Dyslexia_0h         = Dyslexia,
+    X_Gifted_0h           = Gifted,
+    X_LD_0h               = LD,
+    X_None_0h             = None,
+    X_Physical_0h         = Physical,
+    X_Speech_0h           = Speech,
+    X_TBI_0h              = TBI,
+    X_Length_T1_to_T2_0h  = `Length T1 to T2`,
+    X_COG2_0h         = `COG2 Pre`,
+    X_COG3_0h         = `COG3 Pre`,
+    X_COG4_0h         = `COG4 Pre`,
+    X_COG5_0h         = `COG5 Pre`,
+    X_COG6_0h         = `COG6 Pre`,
+    X_COG7_0h         = `COG7 Pre`,
+    X_COG10_0h        = `COG10 Pre`,
+    X_IQ_0h           = `IQ Pre`,
+
+    Treatment = relevel(factor(Treatment), ref = "ThinkRx"),
+    
+    # primary: change from baseline after 60 h
+    YP_delta_COG2_60h   = `COG2 Gain`,
+    YP_delta_COG3_60h   = `COG3 Gain`,
+    YP_delta_COG4_60h   = `COG 4 Gain`,
+    YP_delta_COG5_60h   = `COG5 Gain`,
+    YP_delta_COG6_60h   = `COG6 Gain`,
+    YP_delta_COG7_60h   = `COG 7 Gain`,
+    YP_delta_COG10_60h  = `COG10 Gain`,
+    YP_delta_IQ_60h     = `IQ Gain`,
+  ) %>%
+  mutate(
+    across(c(X_Race_0h, X_Gender_0h, X_ADD_ADHD_0h, X_Autistic_0h, X_Dyslexia_0h, 
+             X_Gifted_0h, X_LD_0h, X_None_0h, X_Physical_0h, X_Speech_0h, X_TBI_0h), as_factor)
+  ) %>% 
+  select(
+    Treatment,
+    starts_with("YP_"),
+    starts_with("YS_"),
+    starts_with("X_")
+  )
+```
+
+
+## Output Data
+```{r}
+# write trial 7
+write_csv(df7_final, "cleaned_data/Non_Clustered_RCT/trial7.csv")
+write_rds(df7_final, "cleaned_data/Non_Clustered_RCT/trial7.rds")
+```
+
+# Trial 8
+## Load Data
+```{r}
+# trial 8
+df8 = read_xlsx("raw_data/Non_Clustered_RCT/8/8.xlsx", na = c("Result N/A", "N/A", "EXCLUDED"))
+```
+
+
+## Cleaning
+```{r}
+convert_to_days = function(x) {
+  if (is.na(x)) {
+    return(NA_real_)
+  }
+  x_lower = tolower(as.character(x))
+  # asymptomatic → 0 days
+  if (str_detect(x_lower, "asymptom")) {
+    return(0)
+  }
+  # pull out any numbers (handles “6-7”) 
+  nums = as.numeric(unlist(str_extract_all(x_lower, "\\d+\\.?\\d*")))
+  if (length(nums) == 0) {
+    return(NA_real_)
+  }
+  # months → average * 30
+  if (str_detect(x_lower, "month")) {
+    return(mean(nums) * 30)
+  }
+  # otherwise treat as days
+  return(nums[1])
+}
+```
+
+```{r}
+df8_final = df8 %>% 
+  rename(
+    GroupAB      = `Group A/ B`,
+    RTPCR_day6   = `RT PCR result on day 6`,
+    Symptom_day6 = `Symptom on day 6`,
+    Disch_10d    = `Discharged on day 10 or not`,
+    Final_out    = `final outcome`,
+    Intub_MV     = `intubation  and MV`,
+    ICU          = `ICU`,
+    age          = age,
+    sex          = sex,
+    comorbidities= `comorbidities`,
+    severity_adm = `Severity on admission`
+  ) %>%
+  # recode Treatment & outcomes
+  mutate(
+    Treatment = case_when(
+      GroupAB == "A" ~ "Ivermectin",
+      GroupAB == "B" ~ "Placebo",
+      TRUE           ~ NA_character_
+    ),
+    YP_RTPCR_negative_6d = if_else(RTPCR_day6 == "Negative", 1L, 0L),
+    YS_symptom_free_6d   = if_else(str_detect(tolower(Symptom_day6), "asy"), 1L, 0L),
+    YS_discharged_10d    = if_else(Disch_10d == "Discharged", 1L, 0L),
+    YS_final_discharge   = if_else(Final_out == "Discharged", 1L, 0L),
+    YS_ICU               = if_else(tolower(ICU) == "yes", 1L, 0L),
+    YS_intubation_mv     = if_else(tolower(Intub_MV) == "yes", 1L, 0L)
+  ) %>%
+  # now compute onset‐of‐symptoms in days
+  mutate(
+    X_Age_0d                = age,
+    X_Sex_0d                = factor(tolower(sex)),
+    X_comorbidities_0d      = comorbidities,
+    X_severity_admission_0d = factor(tolower(severity_adm), levels = c("mild", "moderate"), ordered = T),
+    Treatment = relevel(factor(Treatment), ref = "Placebo"),
+    across(c(starts_with("YS"), YP_RTPCR_negative_6d), as.factor)
+  ) %>%
+
+  select(
+    Treatment,
+    starts_with("YP"),
+    starts_with("YS"),
+    starts_with("X")
+  )
+```
+
+
+## Output Data
+```{r}
+# write trial 8
+write_csv(df8_final, "cleaned_data/Non_Clustered_RCT/trial8.csv")
+write_rds(df8_final, "cleaned_data/Non_Clustered_RCT/trial8.rds")
+```
+
+# Trial 9
+## Load Data
+```{r}
+df9 = read_sav("raw_data/Non_Clustered_RCT/9/9.sav")
+```
+
+## Cleaning
+```{r}
+df9 = df9 %>%
+  mutate(across(where(is.character), ~ na_if(.x, "not applicable")))
+
+df9_final = df9 %>% 
+  zap_missing() %>%
+    mutate(
+    # Primary outcome: need for manual removal of placenta
+    YP_manual_removal      = as.integer(pla.deliv == 3),
+    # Percent fall in haemoglobin from before to after delivery
+    YS_delta_hb_pct        = (hbb4deli - hbaftdel) / hbb4deli * 100,
+    # Flags for >10% and >20% falls
+    YS_hb_fall_over_10pct  = as.integer(YS_delta_hb_pct > 10),
+    YS_hb_fall_over_20pct  = as.integer(YS_delta_hb_pct > 20)
+  ) %>%
+  # 3. Rename treatment, selected baseline covariates, and all outcomes
+  rename(
+    Treatment                       = tx.gp.code,
+    # Baseline covariates (at randomisation)
+    X_pulse_0d                      = pulse.b4,
+    X_bp_sys_0d                     = bp.b4.sys,
+    X_bp_dia_0d                     = bp.b4.dia,
+    X_hb_before_delivery_0d           = hbb4deli,
+    X_country_0d                   = Country,
+    X_age_0d                       = agemod,
+    X_birth_weight_0d               = birthwei,
+    X_GestationWeeks_0d            = gest.wks,
+    # Secondary outcomes from the paper
+    YS_placental_delivery           = pla.deliv,
+    YS_time_to_delivery             = pd.time,
+    YS_blood_loss_ml                = bld.loss,
+    YS_blood_loss_over_500ml        = lossover500,
+    YS_blood_loss_over_1000ml       = lossover1000,
+    YS_blood_transfusion            = bld.tran,
+    YS_maternal_pyrexia             = mat.temp,
+    YS_return_to_theatre            = theatre,
+    YS_antibiotic_use               = antibiot,
+    YS_further_treatment            = furth.tx,
+    YS_side_effect                  = side.eff,
+    YS_side_effect_description      = side.eff.des,
+    YS_maternal_mortality           = mat.mort,
+    YS_baby_mortality               = bab.mort,
+    YS_pulse_after_30min            = pulse.after,
+    YS_bp_sys_after_30min           = bp.after.sys,
+    YS_bp_dia_after_30min           = bp.after.dia,
+    YS_hb_after_delivery            = hbaftdel,
+    # Newly requested outcomes
+    YS_general_anaesthetic          = mrop.ga,
+    YS_mother_sep_gt1h              = moth.sep
+  ) %>%
+  mutate(
+    Treatment = relevel(factor(Treatment), ref = "Placebo"),
+    # across(c(YP_manual_removal, YS_placental_delivery, YS_blood_loss_over_500ml,
+    #          YS_blood_loss_over_1000ml, YS_blood_transfusion, YS_maternal_pyrexia,
+    #          ))
+    
+    # Convert multi-category variables to factors
+    YS_placental_delivery = factor(YS_placental_delivery,
+                                 levels = c(1, 2, 3, 4),
+                                 labels = c("Spontaneous", "Controlled_cord_traction", 
+                                          "Manual_removal", "Other")),
+    
+    # Convert binary variables to factors (for consistency and clarity)
+    YS_blood_transfusion = factor(YS_blood_transfusion,
+                                levels = c(1, 2),
+                                labels = c("No", "Yes")),
+    
+    YS_mother_sep_gt1h = factor(YS_mother_sep_gt1h,
+                              levels = c(1, 2),
+                              labels = c("No", "Yes")),
+    
+    YS_general_anaesthetic = factor(YS_general_anaesthetic,
+                                  levels = c(1, 2),
+                                  labels = c("No", "Yes")),
+    
+    YS_side_effect = factor(YS_side_effect,
+                          levels = c(1, 2),
+                          labels = c("No", "Yes")),
+    
+    YS_maternal_pyrexia = factor(YS_maternal_pyrexia,
+                               levels = c(1, 2),
+                               labels = c("No", "Yes")),
+    
+    YS_return_to_theatre = factor(YS_return_to_theatre,
+                                levels = c(1, 2),
+                                labels = c("No", "Yes")),
+    
+    YS_antibiotic_use = factor(YS_antibiotic_use,
+                             levels = c(1, 2),
+                             labels = c("No", "Yes")),
+    
+    YS_further_treatment = factor(YS_further_treatment,
+                                levels = c(1, 2),
+                                labels = c("No", "Yes")),
+    
+    YS_maternal_mortality = factor(YS_maternal_mortality,
+                                 levels = c(1, 2),
+                                 labels = c("No", "Yes")),
+    
+    YS_baby_mortality = factor(YS_baby_mortality,
+                             levels = c(1, 2),
+                             labels = c("No", "Yes")),
+    
+    # Convert binary 0/1 variables to factors for consistency
+    YP_manual_removal = factor(YP_manual_removal,
+                             levels = c(0, 1),
+                             labels = c("No", "Yes")),
+    
+    YS_blood_loss_over_500ml = factor(YS_blood_loss_over_500ml,
+                                    levels = c(0, 1),
+                                    labels = c("No", "Yes")),
+    
+    YS_blood_loss_over_1000ml = factor(YS_blood_loss_over_1000ml,
+                                     levels = c(0, 1),
+                                     labels = c("No", "Yes")),
+    
+    YS_hb_fall_over_10pct = factor(YS_hb_fall_over_10pct,
+                                 levels = c(0, 1),
+                                 labels = c("No", "Yes")),
+    
+    YS_hb_fall_over_20pct = factor(YS_hb_fall_over_20pct,
+                                 levels = c(0, 1),
+                                 labels = c("No", "Yes")),
+    X_country_0d = as_factor(X_country_0d)
+  ) %>% 
+  # 5. Select in the desired order via starts_with()
+  select(
+    Treatment,
+    starts_with("YP_"),
+    starts_with("YS_"),
+    starts_with("X_")
+  )
+```
+
+
+## Output Data
+```{r}
+# trial 9
+write_csv(df9_final, "cleaned_data/Non_Clustered_RCT/trial9.csv")
+write_rds(df9_final, "cleaned_data/Non_Clustered_RCT/trial9.rds")
+```
+
+
+# Trial 10
+## Load Data
+```{r}
+# trial 10
+df10_patients = read_xlsx("raw_data/Non_Clustered_RCT/10/10.xlsx", sheet = 2)
+df10_intubation = read_xlsx("raw_data/Non_Clustered_RCT/10/10.xlsx", sheet = 3)
+df10_anaes = read_xlsx("raw_data/Non_Clustered_RCT/10/10.xlsx", sheet = 4)
+df10_postop = read_xlsx("raw_data/Non_Clustered_RCT/10/10.xlsx", sheet = 5)
+```
+
+
+## Cleaning
+```{r}
+df10_pat_clean = df10_patients %>%
+  rename(
+    # Keep ID so we can join; drop later if desired
+    ID         = ID,
+    X_center_0d   = center,
+    Treatment  = arm,
+    X_sex_0d   = pre_sexe,
+    X_age_0d   = pre_age,
+    X_size_0d  = pre_size,
+    X_weight_0d= pre_weight,
+    X_surgery_0d   = pre_surgery,
+    X_arne_score_0d     = pre_arne_score,
+    X_known_DI_0d       = pre_known_DI,
+    X_pathology_0d      = pre_pathology,
+    X_fs_0d             = pre_fs,
+    X_dtm_0d            = pre_dtm,
+    X_spine_0d          = pre_spine,
+    X_mallampati_0d     = pre_mallampati
+  ) %>%
+  # Recode Treatment as factor
+  mutate(
+    Treatment = factor(Treatment, levels = c("video", "no-video"),
+                       labels = c("Video", "No Video"))
+  )
+
+# 3. Clean and rename the Intubation sheet
+df10_intub_clean = df10_intubation %>%
+  rename(
+    ID      = ID,
+    # Primary outcome: help needed during intubation 
+    YP_help_needed_intub   = nb_participants,
+    
+    # Secondary outcomes: IDS and its components (all during intubation)
+    YS_IDS_intub           = per_ids,
+    YS_nb_attempts_intub   = per_nb_attempts,
+    YS_burp_intub          = per_burp,
+    YS_railroading_intub   = per_railroading,
+    YS_pogo_intub          = per_pogo,
+    YS_vocal_cord_pos_intub= `per_vocal cord`,
+    YS_force_intub         = per_force,
+    YS_esophageal_intub    = pe_oesoph,
+    YS_removing_cover_intub= per_removing_cover,
+    YS_time_to_intubation_intub = per_delay,
+    YS_ease_intubation_intub  = per_eval,
+    YS_hemodynamic_comp_intub = haemod_compli
+  ) %>%
+  select(-center, -arm)  # drop redundant columns
+
+# 4. Clean and rename the Anaesthesia sheet
+df10_anaes_clean = df10_anaes %>%
+  rename(
+    ID                     = ID,
+    # Neuromuscular relaxant dose (not an outcome, but baseline anesthesia parameter)
+    X_relaxant_dose_0d         = per_tracrium,
+    
+  # Hemodynamic measures—label clearly as before/after intubation
+    YS_HR_before_induc        = video_fc_av_ind,
+    YS_HR_before_intub        = video_fc_av_int,
+    YS_HR_after_intub         = video_fc_apres_int,
+    
+    YS_MAP_before_induc       = video_pam_av_ind,
+    YS_MAP_before_intub       = video_pam_av_int,
+    YS_MAP_after_intub        = video_pam_apres_int,
+    
+    YS_BIS_before_induc       = vid_avind_bis,
+    YS_BIS_before_intub       = vid_avint_bis,
+    YS_BIS_after_intub        = vid_apint_bis,
+    
+    YS_NMT_before_intub       = vid_avint_nmt,
+    YS_NMT_after_intub        = vid_apint_nmt,
+    
+    YS_SpO2_before_intub      = vid_avind_spo,
+    YS_SpO2_during_intub      = vid_avint_spo,
+    YS_SpO2_after_intub       = vid_apint_spo
+  ) %>%
+  select(-center, -arm)
+
+# 5. Clean and rename the Postoperative sheet
+df10_postop_clean = df10_postop %>%
+  rename(
+    ID                    = ID,
+    YS_hoarseness_postop  = Hoarseness,
+    YS_sore_throat_postop = `Sore throat`
+  ) %>%
+  select(-center, -arm)
+
+# 6. Join all cleaned sheets by ID
+df10_all = df10_pat_clean %>%
+  left_join(df10_intub_clean, by = "ID") %>%
+  left_join(df10_anaes_clean,  by = "ID") %>%
+  left_join(df10_postop_clean, by = "ID")
+
+# 7. Drop any columns we no longer need (e.g., ID) if desired
+df10_final = df10_all %>%
+  mutate(
+    across(c(YP_help_needed_intub, X_center_0d, X_sex_0d, X_age_0d, YS_IDS_intub, 
+             YS_nb_attempts_intub, YS_burp_intub, YS_railroading_intub, YS_vocal_cord_pos_intub, 
+             YS_force_intub, YS_esophageal_intub, YS_removing_cover_intub, YS_hemodynamic_comp_intub,
+             YS_hoarseness_postop, YS_sore_throat_postop), as_factor),
+    Treatment = relevel(factor(Treatment), ref = "No Video"),
+    X_size_0d = factor(X_size_0d, levels = c("< 160", "160 < < 180", "> 180"), ordered = TRUE)
+  ) %>% 
+  select(
+    Treatment,
+    starts_with("YP"),
+    starts_with("YS"),
+    starts_with("X")
+  )
+```
+
+## Output Data
+```{r}
+# trial 10
+write_csv(df10_final, "cleaned_data/Non_Clustered_RCT/trial10.csv")
+write_rds(df10_final, "cleaned_data/Non_Clustered_RCT/trial10.rds")
+```
+
+
+# Trial 11
+## Load Data
+```{r}
+# trial 11
+df11 = read_csv("raw_data/Non_Clustered_RCT/11/11.csv") %>% clean_names()
+```
+
+## Cleaning
+```{r}
+df11[df11 == "null"] = NA
+df11[df11 == "."] = NA
+df11_final = df11 %>%
+  mutate(
+    # Treatment arm assignment
+    Treatment = randassign,
+
+    # ───── PRIMARY OUTCOMES (log10 biomass change) ─────
+    YP_delta_log10_biomass_oral_8w = log10(as.numeric(biomass_raw_ow2)) - log10(as.numeric(biomass_raw_ow1)),
+    YP_delta_log10_biomass_sputum_8w = log10(as.numeric(biomass_raw_spt2)) - log10(as.numeric(biomass_raw_spt1)),
+
+    # ───── SECONDARY OUTCOMES ─────
+    # Alpha diversity
+    YS_delta_shannon_oral_8w = as.numeric(shannon_ow_chg),
+    YS_delta_shannon_sputum_8w = as.numeric(shannon_spt_chg),
+    YS_delta_simpson_oral_8w = as.numeric(simpson_ow_chg),
+    YS_delta_simpson_sputum_8w = as.numeric(simpson_spt_chg),
+
+    # Inflammatory markers
+    YS_delta_crp_8w = as.numeric(crp_changew8),
+    YS_delta_fibrinogen_8w = as.numeric(fibrinogen_changew8),
+    YS_delta_leukocyte_8w = as.numeric(leukocyte_changew8),
+
+    # Symptom scores
+    YS_delta_sgrq_total_8w = as.numeric(sgrq_total_changew8),
+    YS_delta_bcss_8w = as.numeric(bcss_changew8),
+
+    # ───── COVARIATES ─────
+    X_age_0w = age_range,
+    X_sex_0w = sex,
+    X_current_smoker_0w = current_smoker,
+    X_years_smoke_0w = years_smoke,
+    X_pack_years_0w = pack_years,
+    
+
+    # Baseline inflammatory markers
+    X_crp_0w = crp,
+    X_fibrinogen_0w = as.numeric(fibrinogen),
+    X_leukocyte_0w = leukocyte,
+
+    # Baseline microbiota composition
+    X_log10_biomass_oral_0w = log10(biomass_raw_ow1),
+    X_log10_biomass_sputum_0w = log10(as.numeric(biomass_raw_spt1)),
+    X_shannon_oral_0w = as.numeric(shannon_ow1),
+    X_shannon_sputum_0w = as.numeric(shannon_spt1),
+    X_simpson_oral_0w = as.numeric(simpson_ow1),
+    X_simpson_sputum_0w = as.numeric(simpson_spt1),
+    X_bcss_0w = as.numeric(bcss_ave_base),
+    X_sgrq_total_0w = as.numeric(sgrq_total_score_visit1),
+    
+    
+    Treatment = relevel(factor(Treatment), ref = "placebo"),
+    across(c(X_sex_0w, X_current_smoker_0w), as_factor),
+    X_age_0w = factor(X_age_0w, levels = c("40-49", "50-59", "60-69", "70-79", "80-84"), ordered = T)
+  ) %>%
+  select(
+    Treatment,
+    starts_with("YP_"),
+    starts_with("pre_YP_"),
+    starts_with("post_YP_"),
+    starts_with("YS_"),
+    starts_with("X_")
+  )
+```
+
+## Output Data
+```{r}
+# trial 11
+write_csv(df11_final, "cleaned_data/Non_Clustered_RCT/trial11.csv")
+write_rds(df11_final, "cleaned_data/Non_Clustered_RCT/trial11.rds")
+```
+
+
+# Trial 12
+## Load Data
+```{r}
+df12 = read_csv("raw_data/Non_Clustered_RCT/12/12.csv")
+```
+
+## Cleaning
+```{r}
+df12_final = df12 %>% 
+  filter(!is.na(months_with_visits_6mo)) %>%
+  rename(Treatment = treat_now) %>%
+  select(
+    # Treatment variable
+    Treatment,
+    
+    # Primary outcome: HbA1c at 6 months (primary timepoint)
+    YP_hba1c_6m = hba1c_val_6mo,
+    
+    # Primary outcome at other timepoints
+    YS_hba1c_12m = hba1c_val_12mo,
+    
+    # Secondary outcomes at 6 months
+    YS_ldl_6m = ldl_val_6mo,
+    YS_hdl_6m = hdl_val_6mo,
+    YS_trigly_6m = trigly_val_6mo,
+    YS_weight_6m = weight_val_6mo,
+    YS_sys_bp_6m = sys_val_6mo,
+    YS_dias_bp_6m = dias_val_6mo,
+    YS_op_n_6m = op_n_6mo,
+    YS_op_payment_6m = op_payment_6mo,
+    YS_nf_payment_6m = nf_payment_6mo,
+    YS_oth_payment_6m = oth_payment_6mo,
+    YS_total_payment_6m = total_payment_6mo,
+    YS_drug_insulin_6m = drug_insulin_6mo,
+    YS_drug_metformin_6m = drug_metformin_6mo,
+    YS_drug_sulf_6m = drug_sulf_6mo,
+    YS_drug_glp1_6m = drug_glp1_6mo,
+    YS_drug_other_6m = drug_other_6mo,
+    YS_drug_any_db_6m = drug_any_db_6mo,
+    YS_dietician_visits_6m = dietician_visits_n_6mo,
+    YS_endocrinology_visits_6m = endocrinology_visits_n_6mo,
+    YS_dsmt_visits_6m = dsmt_visits_6mo,
+    YS_weight_visits_6m = weight_visits_n_6mo,
+    YS_months_with_visits_6m = months_with_visits_6mo,
+    YS_site_visits_6m = site_visits_6mo,
+    YS_fruit_num_6m = fruit_num,
+    YS_vegetables_num_6m = vegetables_num,
+    YS_sweet_drink_num_6m = sweet_drink_num,
+    YS_diet_improved_yn_6m = diet_improved_yn,
+    YS_never_eat_out_yn_6m = never_eat_out_yn,
+    YS_engagement_index_6m = engagement_index,
+    YS_healthy_attitudes_index_6m = healthy_attitudes_index,
+    YS_self_efficacy_index_6m = self_efficacy_index,
+    YS_diet_improve_index_6m = diet_improve_index,
+    YS_exercise_smoking_index_6m = exercise_smoking_index,
+    YS_diabetes_knowledge_score_6m = diabetes_knowledge_score,
+    
+    # Secondary outcomes at 12 months
+    YS_ldl_12m = ldl_val_12mo,
+    YS_hdl_12m = hdl_val_12mo,
+    YS_trigly_12m = trigly_val_12mo,
+    YS_weight_12m = weight_val_12mo,
+    YS_sys_bp_12m = sys_val_12mo,
+    YS_dias_bp_12m = dias_val_12mo,
+    YS_op_n_12m = op_n_12mo,
+    YS_op_payment_12m = op_payment_12mo,
+    YS_nf_payment_12m = nf_payment_12mo,
+    YS_oth_payment_12m = oth_payment_12mo,
+    YS_total_payment_12m = total_payment_12mo,
+    YS_drug_insulin_12m = drug_insulin_12mo,
+    YS_drug_metformin_12m = drug_metformin_12mo,
+    YS_drug_sulf_12m = drug_sulf_12mo,
+    YS_drug_glp1_12m = drug_glp1_12mo,
+    YS_drug_other_12m = drug_other_12mo,
+    YS_drug_any_db_12m = drug_any_db_12mo,
+    YS_dietician_visits_12m = dietician_visits_n_12mo,
+    YS_endocrinology_visits_12m = endocrinology_visits_n_12mo,
+    YS_dsmt_visits_12m = dsmt_visits_12mo,
+    YS_weight_visits_12m = weight_visits_n_12mo,
+    YS_months_with_visits_12m = months_with_visits_12mo,
+    YS_site_visits_12m = site_visits_12mo,
+    
+    # Covariates (baseline measures) - all end with _0m
+    X_hba1c_0m = hba1c_val_0mo,
+    X_ldl_0m = ldl_val_0mo,
+    X_hdl_0m = hdl_val_0mo,
+    X_trigly_0m = trigly_val_0mo,
+    X_weight_0m = weight_val_0mo,
+    X_sys_bp_0m = sys_val_0mo,
+    X_dias_bp_0m = dias_val_0mo,
+    X_op_n_0m = op_n_0mo,
+    X_op_payment_0m = op_payment_0mo,
+    X_nf_payment_0m = nf_payment_0mo,
+    X_oth_payment_0m = oth_payment_0mo,
+    X_total_payment_0m = total_payment_0mo,
+    X_drug_insulin_0m = drug_insulin_0mo,
+    X_drug_metformin_0m = drug_metformin_0mo,
+    X_drug_sulf_0m = drug_sulf_0mo,
+    X_drug_glp1_0m = drug_glp1_0mo,
+    X_drug_other_0m = drug_other_0mo,
+    X_drug_any_db_0m = drug_any_db_0mo,
+    X_dietician_visits_0m = dietician_visits_n_0mo,
+    X_endocrinology_visits_0m = endocrinology_visits_n_0mo,
+    X_dsmt_visits_0m = dsmt_visits_0mo,
+    X_weight_visits_0m = weight_visits_n_0mo,
+    X_op_i_0m = op_i_0mo,
+    X_ip_i_0m = ip_i_0mo,
+    X_ed_i_0m = ed_i_0mo,
+    X_age_0m = age,
+    X_sex_0m = sex,
+    X_hispanic_0m = hispanic,
+    X_race_0m = race,
+    X_rural_site_0m = rural_site,
+    hba1c_cat_control
+  ) %>%
+  mutate(
+    Treatment = factor(Treatment, 
+                      levels = c(0, 1),
+                      labels = c("Waitlist", "Immediate")),
+    Treatment = relevel(Treatment, ref = "Waitlist"),
+    
+    # Binary indicator variables
+    YS_diet_improved_yn_6m = factor(YS_diet_improved_yn_6m),
+    YS_never_eat_out_yn_6m = factor(YS_never_eat_out_yn_6m),
+    YS_drug_insulin_6m = factor(YS_drug_insulin_6m),
+    YS_drug_metformin_6m = factor(YS_drug_metformin_6m),
+    YS_drug_sulf_6m = factor(YS_drug_sulf_6m),
+    YS_drug_glp1_6m = factor(YS_drug_glp1_6m),
+    YS_drug_other_6m = factor(YS_drug_other_6m),
+    YS_drug_any_db_6m = factor(YS_drug_any_db_6m),
+    YS_drug_insulin_12m = factor(YS_drug_insulin_12m),
+    YS_drug_metformin_12m = factor(YS_drug_metformin_12m),
+    YS_drug_sulf_12m = factor(YS_drug_sulf_12m),
+    YS_drug_glp1_12m = factor(YS_drug_glp1_12m),
+    YS_drug_other_12m = factor(YS_drug_other_12m),
+    YS_drug_any_db_12m = factor(YS_drug_any_db_12m),
+    
+    # Baseline categorical variables
+    X_sex_0m = factor(X_sex_0m),
+    X_hispanic_0m = factor(X_hispanic_0m),
+    X_race_0m = factor(X_race_0m),
+    X_rural_site_0m = factor(X_rural_site_0m),
+    X_drug_insulin_0m = factor(X_drug_insulin_0m),
+    X_drug_metformin_0m = factor(X_drug_metformin_0m),
+    X_drug_sulf_0m = factor(X_drug_sulf_0m),
+    X_drug_glp1_0m = factor(X_drug_glp1_0m),
+    X_drug_other_0m = factor(X_drug_other_0m),
+    X_drug_any_db_0m = factor(X_drug_any_db_0m),
+    X_op_i_0m = factor(X_op_i_0m),
+    X_ip_i_0m = factor(X_ip_i_0m),
+    X_ed_i_0m = factor(X_ed_i_0m),
+    X_hba1c_cat_control_0m = factor(hba1c_cat_control)
+  ) %>% 
+  select(
+    Treatment,
+    starts_with("YP"),
+    starts_with("YS"),
+    starts_with("X")
+  )
+```
+
+
+## Output Data
+```{r}
+# trial 12
+write_csv(df12_final, "cleaned_data/Non_Clustered_RCT/trial12.csv")
+write_rds(df12_final, "cleaned_data/Non_Clustered_RCT/trial12.rds")
+```
+
+
+# Trial 13
+## Load Data
+```{r}
+df13 = read_sav("raw_data/Non_Clustered_RCT/13/13.sav")
+```
+## Cleaning
+```{r}
+df13_final = df13 %>%
+  # Label treatment
+  mutate(
+    Treatment = case_when(
+      studygrp_AR == 1 ~ "IV infusion",
+      studygrp_AR == 2 ~ "IM injection"
+    )
+  ) %>% 
+  rename(
+    # --- Primary outcomes ---
+    YP_PPH500           = totalbld500,      # PPH ≥ 500 mL (yes/no)
+    YP_TOTALBLOOD       = totalbld_ARGoxy,  # total measured blood loss
+
+    # --- Secondary outcomes ---
+    YS_BLD_30min         = sangre_30,         # blood loss at 30 min
+    YS_BLD_60min         = sangre_60,         # blood loss at 60 min
+    YS_SI_15min         = SI_15min,          # shock index at 15 min
+    YS_SI_30min         = SI_30min,          # shock index at 30 min
+    YS_SI_45min         = SI_45min,          # shock index at 45 min
+    YS_SI_60min         = SI_60min,          # shock index at 60 min
+    YS_PPH1000          = totalbld1000,      # PPH ≥ 1 000 mL (yes/no)
+    YS_UTEROTONICOS     = uterotonicos,      # any additional uterotonics
+    YS_HB_CHG           = Hbdiff,            # Δ hemoglobin pre→post
+
+    # Optional vitals (if you want them as secondary, otherwise drop these)
+    YS_SYSBP_30min      = presion_sist_30,   # systolic BP @ 30 min
+    YS_DIASBP_30min     = presion_diast_30,  # diastolic BP @ 30 min
+    YS_HR_30min         = frecuencia_30,      # HR @ 30 min
+    YS_SYSBP_60min      = presion_sist_60,   # systolic BP @ 60 min
+    YS_DIASBP_60min     = presion_diast_60,  # diastolic BP @ 60 min
+    YS_HR_60min         = frecuencia_60,      # HR @ 60 min
+
+    # --- Baseline covariates ---
+    X_AGE_0min               = edad,              # maternal age (years)
+    X_PARITY_0min            = numembarazos,      # number of pregnancies
+    X_HB_BASELINE_0min       = Nivel_hb,          # hemoglobin on admission
+    X_INDUCTION_0min         = induccion,         # labor induction (yes/no)
+    X_SI_BASELINE_0min       = SI_baseline        # baseline shock index
+  ) %>%
+  mutate(
+    YP_PPH500 = factor(YP_PPH500),
+    Treatment = relevel(factor(Treatment), ref = "IM injection"),
+    across(c(YS_UTEROTONICOS, YS_PPH1000), as_factor), 
+    X_INDUCTION_0min = factor(X_INDUCTION_0min)
+  ) %>% 
+  # 3. Reorder columns as requested
+  select(
+    Treatment,
+    starts_with("YP_"),
+    starts_with("pre_YP_"),   # (none here)
+    starts_with("post_YP_"),  # (none here)
+    starts_with("YS_"),
+    starts_with("X_")
+  ) %>% 
+  filter(!is.na(Treatment))
+```
+
+
+## Output Data
+```{r}
+# trial 13
+write_csv(df13_final, "cleaned_data/Non_Clustered_RCT/trial13.csv")
+write_rds(df13_final, "cleaned_data/Non_Clustered_RCT/trial13.rds")
+```
+
+
+# Trial 14
+## Load Data
+```{r}
+df14_ae = read_csv("raw_data/Non_Clustered_RCT/14/TERECO_Public_Data_ae_long.csv")
+df14_wide = read_csv("raw_data/Non_Clustered_RCT/14/TERECO_Public_Data_wide.csv")
+```
+
+## Cleaning
+```{r}
+df_wide_clean = df14_wide %>%
+  rename(
+    Treatment = group_randomized,
+    
+    # Primary outcome
+    X_6MWD_0w = `_6MWD1`,
+    YP_6MWD_6w = `_6MWD2`,
+      YP_6MWD_28w = `_6MWD3`,
+    
+    # Squat
+    X_squat_0w = squat1,
+    YS_squat_6w = squat2,
+    YS_squat_28w = squat3,
+    
+    # Pulmonary function
+    X_fev1_0w = fev1,
+    YS_fev1_6w = fev2,
+    YS_fev1_28w = fev3,
+    
+    X_fvc_0w = fvc1,
+    YS_fvc_6w = fvc2,
+    YS_fvc_28w = fvc3,
+    
+    X_fevfvc_0w = fev_fvc_ratio1,
+    YS_fevfvc_6w = fev_fvc_ratio2,
+    YS_fevfvc_28w = fev_fvc_ratio3,
+    
+    X_mvv_0w = mvv1,
+    YS_mvv_6w = mvv2,
+    YS_mvv_28w = mvv3,
+    
+    X_pef_0w = pef1,  
+    YS_pef_6w = pef2,
+    YS_pef_28w = pef3,
+    
+    # SF-12
+    X_SF12_PCS_0w = SF12_PCS1,
+    YS_SF12_PCS_6w = SF12_PCS2,
+    YS_SF12_PCS_28w = SF12_PCS3,
+    
+    X_SF12_MCS_0w = SF12_MCS1,
+    YS_SF12_MCS_6w = SF12_MCS2,
+    YS_SF12_MCS_28w = SF12_MCS3,
+    
+    # Dyspnoea (binary: 1=favourable)
+    YS_dyspnea_2w = mMRC_fav2w,
+    YS_dyspnea_4w = mMRC_fav4w,
+    YS_dyspnea_6w = mMRC_fav2,
+    YS_dyspnea_28w = mMRC_fav3,
+    
+    # Covariates
+    X_age_0w = age,
+    X_sex_0w = male,
+    X_disease_severity_0w = disease_sev_bin,
+    X_corticosteroid_0w = treat_corticosteroid,
+    X_oxygen_0w = treat_oxygen,
+    X_smoke_0w = smoke_history,
+    X_los_0w = los_days,
+    X_comorbidity_0w = comorbidity_cat,
+    X_diabetes_0w = com2_diabetes,
+    X_heart_0w = com2_heartdisease,
+    X_lung_0w = com2_lungdisease,
+    X_obesity_0w = com2_obesity,
+    X_hypertension_0w = com2_hypertension,
+    X_othercomorb_0w = com2_other,
+    X_center_0w = center
+  ) %>%
+  mutate(Treatment = if_else(Treatment == 1, "TERECO", "No Active Rehabilitation"))
+
+
+# Step 2: Summarize AE into binary indicator
+df_ae_clean = df14_ae %>%
+  group_by(num_ID) %>%
+  summarise(YS_AE = 1)
+
+# Step 3: Merge and finalize
+df_final = df_wide_clean %>%
+  left_join(df_ae_clean, by = "num_ID") %>%
+  mutate(YS_AE = if_else(is.na(YS_AE), 0, YS_AE))
+
+# Step 4: Reorder and drop ID
+df14_final = df_final %>%
+  mutate(
+    Treatment = relevel(factor(Treatment), ref = "No Active Rehabilitation"),
+    across(c(
+      X_center_0w,
+      X_sex_0w,
+      X_disease_severity_0w,
+      X_corticosteroid_0w,
+      X_oxygen_0w,
+      X_comorbidity_0w,
+      X_diabetes_0w,
+      X_heart_0w,
+      X_lung_0w,
+      X_obesity_0w,
+      X_hypertension_0w,
+      X_othercomorb_0w,
+      X_smoke_0w,
+      YS_dyspnea_6w, YS_dyspnea_28w, YS_dyspnea_2w, YS_dyspnea_4w, YS_AE
+    ),
+    as_factor)
+  ) %>% 
+  select(
+    Treatment,
+    starts_with("YP_"),
+    starts_with("pre_YP_"),
+    starts_with("post_YP_"),
+    starts_with("YS_"),
+    starts_with("X_")
+  )
+```
+
+## Output Data
+```{r}
+# trial 14
+write_csv(df14_final, "cleaned_data/Non_Clustered_RCT/trial14.csv")
+write_rds(df14_final, "cleaned_data/Non_Clustered_RCT/trial14.rds")
+```
+
+# Trial 15
+## Load Data
+```{r}
+df15 = read.csv("raw_data/Non_Clustered_RCT/15/15.csv")
+```
+
+## Cleaning
+```{r}
+df15_final = df15[-c(1, 9), ]
+df15_final = df15_final %>%
+  rename(
+    Treatment = Group,
+
+    # Primary outcome
+    X_EmoReact_0w = `Emo..R._1`,
+    post_EmoReact_4w = `Emo..R._2`,
+
+    # Secondary outcomes
+    X_CBCLTotal_0w = CBCL_Total_1,
+    post_CBCLTotal_4w = CBCL_Total_2,
+    X_Internal_0w = Inter_1,
+    post_Internal_4w = Inter_2,
+    X_External_0w = Exter_1,
+    post_External_4w = Exter_2,
+    X_Anx_Dep_0w = `Anx..Dep._1`,
+    post_Anx_Dep_4w = `Anx..Dep._2`,
+    X_Somatic_0w = Somatic_1,
+    post_Somatic_4w = Somatic_2,
+    X_Withdrawn_0w = `Withd._1`,
+    post_Withdrawn_4w = `Withd._2`,
+    X_Sleep_0w = Sleep_1,
+    post_Sleep_4w = Sleep_2,
+    X_Attention_0w = Attention_1,
+    post_Attention_4w = Attention_2,
+    X_Aggressive_0w = Aggressive_1,
+    post_Aggressive_4w = Aggressive_2,
+    X_Others_0w = Others_1,
+    post_Others_4w = Others_2,
+    X_Child_Stress_0w = Child_1,
+    post_Child_Stress_4w = Child_2,
+    X_Parent_Stress_0w = Parent_1,
+    post_Parent_Stress_4w = Parent_2,
+    X_PSI_Total_0w = PSI_Total_1,
+    post_PSI_Total_4w = PSI_Total_2,
+
+    # Covariates
+    X_GMFCS_0w = GMFCS_level,
+    X_side_0w = side,
+    X_cp_type_0w = type
+  ) %>%
+  # Step 3: Recode treatment
+  mutate(
+    Treatment = if_else(Treatment == 1, "Conventional+Snoezelen", "Conventional Only"),
+
+    # Step 4: Compute change scores with YP_delta_ prefix
+    YP_delta_EmoReact_4w = post_EmoReact_4w - X_EmoReact_0w,
+    YS_delta_CBCLTotal_4w = post_CBCLTotal_4w - X_CBCLTotal_0w,
+    YS_delta_Internal_4w = post_Internal_4w - X_Internal_0w,
+    YS_delta_External_4w = post_External_4w - X_External_0w,
+    YS_delta_Anx_Dep_4w = post_Anx_Dep_4w - X_Anx_Dep_0w,
+    YS_delta_Somatic_4w = post_Somatic_4w - X_Somatic_0w,
+    YS_delta_Withdrawn_4w = post_Withdrawn_4w - X_Withdrawn_0w,
+    YS_delta_Sleep_4w = post_Sleep_4w - X_Sleep_0w,
+    YS_delta_Attention_4w = post_Attention_4w - X_Attention_0w,
+    YS_delta_Aggressive_4w = post_Aggressive_4w - X_Aggressive_0w,
+    YS_delta_Others_4w = post_Others_4w - X_Others_0w,
+    YS_delta_Child_Stress_4w = post_Child_Stress_4w - X_Child_Stress_0w,
+    YS_delta_Parent_Stress_4w = post_Parent_Stress_4w - X_Parent_Stress_0w,
+    YS_delta_PSI_Total_4w = post_PSI_Total_4w - X_PSI_Total_0w,
+    
+    Treatment = relevel(factor(Treatment), ref = "Conventional Only"),
+    across(c(X_side_0w, X_cp_type_0w, X_GMFCS_0w), as_factor)
+  ) %>%
+  # Step 5: Select and reorder columns
+  select(
+    Treatment,
+    starts_with("YP_"),
+    starts_with("YS_"),
+    starts_with("X_")
+  )
+```
+
+
+## Output Data
+```{r}
+# trial 15
+write_csv(df15_final, "cleaned_data/Non_Clustered_RCT/trial15.csv")
+write_rds(df15_final, "cleaned_data/Non_Clustered_RCT/trial15.rds")
+```
+
+# Trial 16
+## Load Data
+```{r}
+df16 = read_excel("raw_data/Non_Clustered_RCT/16/16.xlsx")
+```
+
+## Cleaning
+```{r}
+df16_final = df16 %>%
+  mutate(
+    Treatment = if_else(Group == 1, "Internet Delivered", "Waitlist")
+  )
+
+# Clean and rename using ITT values
+df16_final = df16_final %>%
+  mutate(
+    # Convert and compute primary outcome
+    X_BDI_0w = as.numeric(BDI_pre),
+    YP_delta_BDI_9w = as.numeric(BDI_post_ITT) - as.numeric(BDI_pre),
+    pre_YP_delta_BDI_6w = as.numeric(BDI_followup_ITT) - as.numeric(BDI_pre),
+
+    # Secondary outcomes
+    X_MADRS_0w = as.numeric(MADRS_pre),
+    YS_delta_MADRS_9w = as.numeric(MADRS_post_ITT) - as.numeric(MADRS_pre),
+    pre_YS_delta_MADRS_6w = as.numeric(MADRS_followup_ITT) - as.numeric(MADRS_pre),
+
+    X_BAI_0w = as.numeric(BAI_pre),
+    YS_delta_BAI_9w = as.numeric(BAI_post_ITT) - as.numeric(BAI_pre),
+    pre_YS_delta_BAI_6w = as.numeric(BAI_followup_ITT) - as.numeric(BAI_pre),
+
+    X_QOLI_0w = as.numeric(QOLI_pre),
+    YS_delta_QOLI_9w = as.numeric(QOLI_post_ITT) - as.numeric(QOLI_pre),
+    pre_YS_delta_QOLI_6w = as.numeric(QOLI_followup_ITT) - as.numeric(QOLI_pre),
+
+    X_IPAQ_0w = as.numeric(IPAQ_pre),
+    YS_delta_IPAQ_9w = as.numeric(IPAQ_post_ITT) - as.numeric(IPAQ_pre),
+    pre_YS_delta_IPAQ_6w = as.numeric(IPAQ_followup_ITT) - as.numeric(IPAQ_pre)
+  ) %>%
+  rename(
+    X_age_0w = Age,
+    X_sex_0w= Sex,
+    X_marital_0w = Marital_status,
+    X_education_0w = Education,
+    X_medication_0w = Medication,
+    X_psychotherapy_0w = Psychotherapy
+  ) %>%
+  mutate(
+    Treatment = relevel(factor(Treatment), ref = "Waitlist"),
+    across(c(X_sex_0w, X_marital_0w, X_medication_0w, X_psychotherapy_0w), as_factor)
+  ) %>% 
+  select(
+    Treatment,
+    starts_with("YP_"),
+    starts_with("pre_YP_"),
+    starts_with("Post_YP_"),
+    starts_with("YS_"),
+    starts_with("pre_YS_"),
+    starts_with("X_")
+  )
+```
+
+## Output Data
+```{r}
+# trial 16
+write_csv(df16_final, "cleaned_data/Non_Clustered_RCT/trial16.csv")
+write_rds(df16_final, "cleaned_data/Non_Clustered_RCT/trial16.rds")
+```
+
+# Trial 17
+## Load Data
+```{r}
+df17 = read.csv("raw_data/Non_Clustered_RCT/17/17.csv")
+```
+
+## Cleaning
+```{r}
+df17_final = df17 %>% 
+  mutate(
+    Treatment = group,
+    X_LDL_0w = LDL,
+    X_TC_0w = TC,
+    X_TG_0w = TG,
+    X_HDL_0w = HDL,
+    X_age_0w = age,
+    X_sex_0w = trimws(sex),
+    X_hbp_0w = trimws(hbp),
+    X_smoke_0w = smoke,
+    X_DM_0w = DM,
+    X_BMI_0w = BMId
+  ) %>% 
+   mutate(
+    YP_delta_LDL_24w = t_LDL - X_LDL_0w,
+    YS_delta_TC_24w = t_TC - X_TC_0w,
+    YS_delta_TG_24w = t_TG - X_TG_0w,
+    YS_delta_HDL_24w = t_HDL - X_HDL_0w,
+    Treatment = relevel(factor(Treatment), ref = "statin"),
+    across(c(X_sex_0w, X_hbp_0w, X_smoke_0w, X_DM_0w), as_factor)
+   ) %>% 
+  select(
+    Treatment,
+    starts_with("YP"),
+    starts_with("YS"),
+    starts_with("X")
+  )
+```
+
+## Output Data
+```{r}
+# trial 17
+write_csv(df17_final, "cleaned_data/Non_Clustered_RCT/trial17.csv")
+write_rds(df17_final, "cleaned_data/Non_Clustered_RCT/trial17.rds")
+```
+
+# Trial 18
+## Load Data
+```{r}
+df18 = read_xls("raw_data/Non_Clustered_RCT/18/18.xls")
+```
+
+
+## Cleaning
+```{r}
+df18_final = df18 %>%
+  mutate(
+    # Treatment assignment
+    Treatment = case_when(
+      Random == 1 ~ "Kanyakla",
+      Random == 0 ~ "Standard Care",
+      TRUE ~ NA_character_
+  ),
+
+    # Primary outcome (1-year): time-to-event tuple
+    YP_time_to_disengaged_12m = time1,
+    YP_event_disengaged_12m = as.numeric(outcome1==1),
+  
+    YP_prop_time_in_care_12m = tic1,
+
+    # Secondary: 2-year time-to-event
+    post_YP_time_to_disengaged_24m = time2,
+    post_YP_event_disengaged_24m = as.numeric(outcome2==1),
+    post_YP_prop_time_in_care_24m = tic2,
+
+    # Final 2-year status
+    post_YP_disengaged_24m_final = outcome2end,
+    post_YP_event_disengaged_24m_final = time2end,
+  ) %>% 
+  # 2d. Psychosocial at 1 year → YS_…_12m (raw) & YS_delta_…_12m (change)
+  rename(
+    YS_delta_StigInternal_12m = StigInternalDelta,
+    YS_delta_StigAnticipate_12m = StigAnticipateDelta,
+    YS_delta_StigEnact_12m     = StigEnactDelta,
+    YS_delta_StigOverall_12m   = StigOverallDelta,
+
+    YS_delta_yourHIVTotal_12m  = yourHIVDelta,
+    YS_delta_theirHIVTotal_12m = theirHIVDelta,
+
+    YS_delta_MaterialSupportMean_12m= MaterialDelta,
+    YS_delta_EmotionalSupportMean_12m= EmotionalDelta,
+    YS_delta_ClinicSupportMean_12m  = ClinicDelta,
+    YS_delta_MedSupportMean_12m     = MedDelta
+  ) %>%
+
+  # 2e. Baseline covariates
+  rename(
+    X_AgeCat_0m                   = AgeCat,
+    X_Gender_0m                   = Gender,
+    X_TimeSinceDx_0m             = TimeSinceDx,
+    X_TimeSinceClinic_0m          = TimeSinceClinic,
+    X_TimeSinceART_0m             = TimeSinceART,
+    X_ARTStatus_0m                = ARTStatus,
+    X_TakingART_0m                = TakingART,
+    X_Disclose_0m                 = Disclose,
+
+    X_StigInternal_0m             = StigInternal_bl,
+    X_StigAnticipate_0m           = StigAnticipate_bl,
+    X_StigEnact_0m                = StigEnact_bl,
+
+    X_yourHIVTotal_0m             = yourHIVTotal_bl,
+    X_theirHIVTotal_0m            = theirHIVTotal_bl,
+
+    X_MaterialSupportMean_0m      = MaterialSupportMean_bl,
+    X_EmotionalSupportMean_0m     = EmotionalSupportMean_bl,
+    X_ClinicSupportMean_0m        = ClinicSupportMean_bl,
+    X_MedSupportMean_0m           = MedSupportMean_bl
+  ) %>%
+  mutate(
+    Treatment = relevel(factor(Treatment), ref = "Standard Care"),
+    across(c(
+      YP_event_disengaged_12m,
+      post_YP_event_disengaged_24m,
+      post_YP_event_disengaged_24m_final,
+      X_Gender_0m,
+      X_ARTStatus_0m,
+      X_TakingART_0m,
+      X_Disclose_0m
+    ), as_factor)
+  ) %>% 
+  # Step 3: Select and order final variables
+  select(
+    Treatment,
+    starts_with("YP_"),
+    starts_with("post_YP_"),
+    starts_with("YS_"),
+    starts_with("X_")
+  )
+```
+
+
+## Output Data
+```{r}
+# trial 18
+write_csv(df18_final, "cleaned_data/Non_Clustered_RCT/trial18.csv")
+write_rds(df18_final, "cleaned_data/Non_Clustered_RCT/trial18.rds")
+```
+
+# Trial 19
+## Load Data
+```{r}
+df19 = read_xls("raw_data/Non_Clustered_RCT/19/19.xls")
+```
+
+## Cleaning
+```{r}
+df19_final = df19 %>%
+  rename(
+    Treatment               = `OPERATIVE METHOD`,
+    X_CREATININE_0d         = `PREOPERATIVE CREATININE`,
+    X_RECIPIENT_AGE_YEARS_0d   = `RECIPIENT AGE (YEARS)`,
+    X_RECIPIENT_GENDER_0d      = `RECIPIENT GENDER`,
+    X_RECIPIENT_DIAGNOSIS_0d   = `RECIPIENT DIAGNOSIS`,
+    X_CHILD_PUGH_SCORE_0d      = `CHILD-PUGH SCORE`,
+    X_MELD_SCORE_0d            = `MELD SCORE`,
+    X_DONOR_AGE_YEARS_0d       = `DONOR AGE`,
+    X_DONOR_GENDER_0d          = `DONOR GENDER`,
+    X_DONOR_DIAGNOSIS_0d       = `DONOR DIAGNOSIS`,
+    X_DONOR_WEIGHT_0d       = `DONOR WEIGHT (kg)`,
+    X_GRAFT_SHARING_0d         = `GRAFT SHARING`,
+    YP_FHVP_CVP_GRADIENT    = `FHVP-CVP GRADIENT (mmHg)`,
+    YS_CREATININE_1d        = `1PO CREATININE`,
+    YS_CREATININE_2d        = `2PO CREATININE`,
+    YS_CREATININE_3d        = `3PO CREATININE`,
+    YS_CREATININE_5d        = `5PO CREATININE`,
+    YS_CREATININE_6d        = `6PO CREATININE`,
+    YS_CREATININE_7d        = `7PO CREATININE`,
+    YS_CREATININE_14d       = `14PO CREATININE`,
+    YS_CREATININE_21d       = `21PO CREATININE`,
+    YS_CREATININE_28d       = `28PO CREATININE`,
+    YS_MASSIVE_ASCITES      = `POSTOPERATIVE MASSIVE ASCITIS`
+  ) %>%
+  # 2. Derive ARF prevalence up to 28 days per RIFLE–AKIN “Risk” (≥1.5×baseline or Δ≥0.3)
+  rowwise() %>%
+  separate(X_CHILD_PUGH_SCORE_0d,
+           into = c("X_CHILD_PUGH_CLASS_0d", "X_CHILD_PUGH_SCORE_0d"),
+           sep = " ") %>% 
+  mutate(
+    X_CHILD_PUGH_SCORE_0d = as.numeric(X_CHILD_PUGH_SCORE_0d)
+  ) %>%
+  ungroup() %>%
+  mutate(
+    Treatment = relevel(factor(Treatment), ref = "Conventional"),
+    
+    across(c(
+      X_RECIPIENT_GENDER_0d,
+      X_RECIPIENT_DIAGNOSIS_0d,
+      X_CHILD_PUGH_CLASS_0d,
+      X_DONOR_GENDER_0d,
+      X_GRAFT_SHARING_0d,
+      X_DONOR_DIAGNOSIS_0d,
+      YS_MASSIVE_ASCITES
+    ), as_factor)
+  ) %>% 
+  # 3. Keep one‐row-per-patient with only Treatment, YP_, YS_, and X_ columns
+  select(
+    Treatment,
+    YP_FHVP_CVP_GRADIENT,
+    starts_with("YS_"),
+    starts_with("X_")
+  )
+```
+
+## Output Data
+```{r}
+# trial 19
+write_csv(df19_final, "cleaned_data/Non_Clustered_RCT/trial19.csv")
+write_rds(df19_final, "cleaned_data/Non_Clustered_RCT/trial19.rds")
+```
+
+# Trial 20
+## load Data
+```{r}
+df20 = read_dta("raw_data/Non_Clustered_RCT/20/20.dta")
+```
+
+## Cleaning
+```{r}
+df20_final = df20 %>% 
+  rename(
+
+    # Primary outcome
+    YP_IWT_minutes_12w = Totaltimemin,
+
+    # Covariates
+    X_Age_0w = Age1,
+    X_Sex_0w = sex,
+    X_BMI_0w = bmi,
+    X_Height_0w = height,
+    X_Weight_0w = Weight,
+
+    # Baseline secondary outcomes
+    X_HbA1c_0w = HbA1c1,
+    X_AndroidFat_0w = AndroidRegionFat1,
+    X_GynoidFat_0w = GynoidRegionFat1,
+    X_TotalFat_0w = TotalRegionFat1,
+    X_PAEE_0w = PAEE_b,
+    X_QoL_Physical_0w = PCS1,
+    X_QoL_Mental_0w = MCS1,
+    X_VO2max_0w = VO2max1,
+
+    # Changes in secondary outcomes from baseline to 12 weeks
+    YS_delta_HbA1c_12w = HbA1c_change,
+    YS_delta_AndroidFat_12w = AndroidRegionFat_change,
+    YS_delta_GynoidFat_12w = GynoidRegionFat_change,
+    YS_delta_TotalFat_12w = TotalRegionFat_change,
+    YS_delta_Weight_12w = weight_change,
+    YS_delta_PAEE_12w = PAEE_change,
+    YS_delta_QoL_Physical_12w = PCS_change,
+    YS_delta_QoL_Mental_12w = MCS_change,
+    YS_delta_VO2max_12w = VO2max_change
+  ) %>%
+   mutate(
+    Treatment = case_when(
+      group == 1 ~ "IWT only",
+      group == 2 ~ "IWT+Support",
+      TRUE ~ NA_character_),
+    Treatment = relevel(factor(Treatment), ref="IWT only"),
+    X_Sex_0w = as_factor(X_Sex_0w)
+    )%>% 
+  # 3. Arrange columns: Treatment, YP_, YS_, X_
+  select(
+    Treatment,
+    starts_with("YP_"),
+    starts_with("YS_"),
+    starts_with("X_")
+  )
+```
+
+
+## Output Data
+```{r}
+# trial 20
+write_csv(df20_final, "cleaned_data/Non_Clustered_RCT/trial20.csv")
+write_rds(df20_final, "cleaned_data/Non_Clustered_RCT/trial20.rds")
+```
+
+# Trial 21
+## Load Data
+```{r}
+df21 = read.csv("raw_data/Non_Clustered_RCT/21/21.csv")
+```
+
+## Cleaning
+```{r}
+df21_final = df21%>%
+    mutate(
+    # Treatment arm
+    Treatment                         = group,
+    
+    # Baseline covariates (prefix X_)
+    X_duration_of_cough_weeks_0d            = duration_of_cough_weeks,
+    X_night_sweats_0d                    = night_sweats,
+    X_weight_loss_0d                     = weight_loss,
+    X_fever_0d                           = fever,
+    X_reported_hiv_status_0d             = reported_hiv_status,
+    X_antiretroviral_therapy_0d          = taking_antiretoviral_therapy,
+    X_eq5d_0d                         = euro_qol_5q_5d_3l_zimbabwe_tariff,
+    X_cad4tbv5_score_0d                  = as.numeric(cad4t_bv5_score),
+    X_cad4tbv5_above_threshold_0d        = cad4t_bv5_above_threshold,
+    X_sputum_xpert_done_0d               = sputum_xpert_done,
+
+    
+    # Primary outcomes (prefix YP_)
+    YP_tb_treatment_initiation        = primary_outcome_tb_treatment_initiation,
+    YP_days_to_tb_initiation          = primary_outcome_days_to_tb_initiation,
+    
+    # Secondary outcomes (prefix YS_)
+    YS_undiagnosed_tb                 = secondary_outcome_undiagnsed_tb,
+    YS_same_day_tb_treatment          = secondary_outcome_same_day_tb_treatment,
+    YS_undiagnosed_hiv                = secondary_outcome_undiagnosed_hiv,
+    YS_mortality                      = secondary_outcome_mortality,
+    YS_eq5d_56d                       = secondary_outcome_eq5d
+  ) %>%
+  mutate(
+    Treatment = relevel(factor(Treatment), ref="SOC"),
+    across(c(YP_tb_treatment_initiation, YS_undiagnosed_tb, YS_same_day_tb_treatment, 
+             YS_undiagnosed_hiv, YS_mortality, X_night_sweats_0d, X_weight_loss_0d,
+             X_fever_0d, X_reported_hiv_status_0d, X_cad4tbv5_above_threshold_0d, X_sputum_xpert_done_0d,
+             X_antiretroviral_therapy_0d), as_factor)
+  ) %>% 
+  select(
+    Treatment,
+    starts_with("YP_"),
+    starts_with("YS_"),
+    starts_with("X_")
+  )
+
+```
+
+
+## Output Data
+```{r}
+# trial 21
+write_csv(df21_final, "cleaned_data/Non_Clustered_RCT/trial21.csv")
+write_rds(df21_final, "cleaned_data/Non_Clustered_RCT/trial21.rds")
+```
+
+# Trial 22
+## Load Data
+```{r}
+df22 = read_xlsx("raw_data/Non_Clustered_RCT/22/22.xlsx", na = ".")
+```
+
+## Cleaning
+```{r}
+df22_final = df22 %>% 
+transmute(
+    # Treatment variable
+    Treatment = factor(`Treatment group`, 
+                      levels = c("Control group", "Intervention group"),
+                      labels = c("Control", "Intervention")),
+    
+    # Primary outcome - Prenatal leave >1 week (among ≥37 weeks gestation)
+    YP_prenatal_gt1wk = factor(antelv1wk),
+    
+    # Secondary outcomes - Prenatal leave
+    YS_prenatal_any = factor(case_when(
+      `Stop working before delivery?` == "Yes" ~ 1,
+      `Stop working before delivery?` == "No, I worked up til time of delivery" ~ 0,
+      TRUE ~ NA_real_
+    )),
+    YS_prenatal_weeks = as.numeric(`Weeks of antenatal leave`),
+    
+    # Secondary outcomes - Postnatal leave
+    YS_postnatal_any = factor(case_when(
+      `Took postpartum leave?` == "Yes" ~ 1,
+      `Took postpartum leave?` == "No" ~ 0,
+      TRUE ~ NA_real_
+    )),
+    YS_postnatal_8wks = factor(reta8wks),
+    YS_postnatal_weeks = coalesce(
+      as.numeric(`Weeks of postpartum leave`),
+      as.numeric(`Number of paid weeks postpartum leave (combined for those returned and not yet returned to work)`)
+    ),
+    
+    # Secondary outcomes - Tool utilization
+    YS_remembered_tool = factor(case_when(
+      `Remember getting tool?` == "Yes" ~ 1,
+      `Remember getting tool?` == "No" ~ 0,
+      TRUE ~ NA_real_
+    )),
+    YS_read_tool = factor(case_when(
+      `Read or referred to tool?` == "Yes" ~ 1,
+      `Read or referred to tool?` == "No" ~ 0,
+      TRUE ~ NA_real_
+    )),
+    YS_times_looked = factor(`Number of many times looked at tool`),
+    YS_tool_easy = factor(`Tool easy to understand?`),
+    YS_tool_useful = factor(`Usefulness of tool`),
+    YS_found_answers = factor(case_when(
+      `Referred to the tool to find answers to questions?` == "Yes" ~ 1,
+      `Referred to the tool to find answers to questions?` == "No" ~ 0,
+      TRUE ~ NA_real_
+    )),
+    YS_learned_new = factor(case_when(
+      `Learn anything new from tool?` == "Yes" ~ 1,
+      `Learn anything new from tool?` == "No" ~ 0,
+      TRUE ~ NA_real_
+    )),
+    YS_helped_plan = factor(case_when(
+      `Did tool help you plan maternity leave?` == "Yes" ~ 1,
+      `Did tool help you plan maternity leave?` == "No" ~ 0,
+      TRUE ~ NA_real_
+    )),
+    YS_changed_plans = factor(case_when(
+      `Did you change your maternity leave plans based on information from tool?` == "Yes" ~ 1,
+      `Did you change your maternity leave plans based on information from tool?` == "No" ~ 0,
+      TRUE ~ NA_real_
+    )),
+    YS_took_to_meeting = factor(case_when(
+      `Took tool to any meeting with employer/HR or doctor?` == "Yes" ~ 1,
+      `Took tool to any meeting with employer/HR or doctor?` == "No" ~ 0,
+      TRUE ~ NA_real_
+    )),
+    YS_called_numbers = factor(case_when(
+      `Called any phone numbers or visit any websites listed on tool?` == "Yes" ~ 1,
+      `Called any phone numbers or visit any websites listed on tool?` == "No" ~ 0,
+      TRUE ~ NA_real_
+    )),
+    YS_prior_knowledge = factor(`BEFORE received tool, how much knew about maternity leave?`),
+    
+    # Covariates - Demographics (baseline, so _0w suffix)
+    X_age_0w = as.numeric(`Mother's age at enrollment in study`),
+    X_age_cat_0w = factor(`Age (2 categories)`),
+    X_race_white_0w = factor(ifelse(is.na(`Self-reported race/ethnicity--White or Caucasian...150`), 0, `Self-reported race/ethnicity--White or Caucasian...150`)),
+    X_race_black_0w = factor(ifelse(is.na(`Self-reported race/ethnicity--Black or African American...151`), 0, `Self-reported race/ethnicity--Black or African American...151`)),
+    X_race_hispanic_0w = factor(ifelse(is.na(`Self-reported race/ethnicity--Latino or Hispanic...152`), 0, `Self-reported race/ethnicity--Latino or Hispanic...152`)),
+    X_race_asian_0w = factor(ifelse(is.na(`Self-reported race/ethnicity--Asian...153`), 0, `Self-reported race/ethnicity--Asian...153`)),
+    X_race_native_american_0w = factor(ifelse(is.na(`Self-reported race/ethnicity--American Indian or Alaskan Native...166`), 0, `Self-reported race/ethnicity--American Indian or Alaskan Native...166`)),
+    X_race_pacific_islander_0w = factor(ifelse(is.na(`Self-reported race/ethnicity--Other Pacific Islander...167`), 0, `Self-reported race/ethnicity--Other Pacific Islander...167`)),
+    X_race_other_0w = factor(ifelse(is.na(`Self-reported race/ethnicity--Other...169`), 0, `Self-reported race/ethnicity--Other...169`)),
+    X_education_0w = factor(`Highest level of education completed`),
+    X_education_cat_0w = factor(`Highest level of education completed (collapsed)`),
+    X_income_0w = factor(`Household income`),
+    X_marital_status_0w = factor(`Marital status`),
+    
+    # Covariates - Work characteristics (at enrollment, so _0w suffix)
+    X_employer_size_0w = factor(`Number of people working for employer`),
+    X_job_tenure_0w = factor(`Length of time working at job`),
+    X_hours_worked_0w = factor(`Hours usually worked per week when 6-7 months pregnant`),
+    X_work_parttime_0w = factor(ifelse(`Work part time (<31 hours) during pregnancy` == "worked 1-30 hours", 1, 0)),
+    
+    # Covariates - Pregnancy characteristics (at enrollment, so _0w suffix)
+    X_weeks_pregnant_0w = as.numeric(`Weeks pregnant when enrolled in study`),
+    X_prenatal_care_trimester_0w = factor(`Trimester entered into prenatal care`),
+    X_num_pregnancies_0w = as.numeric(`Number of pregnancies (includes most recent)`),
+    X_num_births_0w = as.numeric(`Number of births (includes most recent)`)
+  ) %>%
+  select(Treatment, starts_with("YP_"), starts_with("YS_"), starts_with("X_"))
+```
+
+## Output Data
+```{r}
+# trial 22
+write_csv(df22_final, "cleaned_data/Non_Clustered_RCT/trial22.csv")
+write_rds(df22_final, "cleaned_data/Non_Clustered_RCT/trial22.rds")
+```
+
+
+# Trial 23
+## Load Data
+```{r}
+df23 = read_xlsx("raw_data/Non_Clustered_RCT/23/23.xlsx")
+```
+
+## Cleaning
+```{r}
+df23_final = df23 %>% 
+  mutate(
+    Treatment = case_when(
+       `Treatment rhTM (T) Control ?` == "T"~ "rhTM",
+       `Treatment rhTM (T) Control ?` == "C" ~ "No rhTM",
+       T ~ NA_character_
+    )
+  ) %>% 
+  mutate(
+    # Primary outcomes (time-to-event)
+    YP_event_28d            = `Death =1 Alive = 0 28 day`,
+    YP_time_28d              = `Nonsurvive within 28 day Time`,
+    YP_event_90d            = `Death = 1   Alive = 0   90 day Cencer`,
+    YP_time_90d              = `Nonsurvive within 90 day Time`,
+
+    # D-dimer baseline and deltas
+    X_Ddimer_0d             = Ddimer0,
+    YS_delta_Ddimer_3d      = as.numeric(deltaD03),
+    YS_delta_Ddimer_5d      = as.numeric(deltaD05),
+    YS_delta_Ddimer_7d      = as.numeric(deltaD07),
+    YS_delta_Ddimer_10d     = as.numeric(deltaD10),
+
+    # Platelets
+    X_platelet_0d           = PLT0,
+    YS_delta_platelet_3d    = as.numeric(deltaPLT3),
+    YS_delta_platelet_5d    = as.numeric(deltaPLT5),
+    YS_delta_platelet_7d    = as.numeric(deltaPLT7),
+    YS_delta_platelet_10d   = as.numeric(deltaPLT10),
+
+    # SOFA total
+    X_SOFA_0d               = SOFAtotal0,
+    YS_delta_SOFA_3d        = as.numeric(deltaSOFAtotal_GCS03),
+    YS_delta_SOFA_5d        = as.numeric(deltaSOFAtotal_GCS05),
+    YS_delta_SOFA_7d        = as.numeric(deltaSOFAtotal_GCS07),
+    YS_delta_SOFA_10d       = as.numeric(deltaSOFAtotal_GCS10),
+
+    # Covariates
+    X_TM                    = TM,
+    X_SIRS_0d               = SIRS0
+  ) %>% 
+  mutate(
+    Treatment = relevel(factor(Treatment), ref = "No rhTM"),
+    across(c(YP_event_28d, YP_event_90d), as_factor)
+  ) %>% 
+    select(
+    Treatment,
+    starts_with("YP"),    #
+    starts_with("YS"),
+    starts_with("X_")            # covariates and baseline values
+  )
+```
+
+
+## Output Data
+```{r}
+# trial 23
+write_csv(df23_final, "cleaned_data/Non_Clustered_RCT/trial23.csv")
+write_rds(df23_final, "cleaned_data/Non_Clustered_RCT/trial23.rds")
+```
+
+
+# Trial 24
+## Load Data
+```{r}
+df24 = read_xlsx("raw_data/Non_Clustered_RCT/24/24.xlsx")
+```
+
+## Cleaning
+```{r}
+df24_final = df24 %>% 
+  mutate(
+    Treatment = case_when(
+      GR == 1 ~ "Auriculotherapy",
+      GR == 0 ~ "Sham Comparator",
+      TRUE ~ NA_character_
+    )
+  ) %>% 
+  mutate(
+    YP_catheterized     = SONDES,
+    YS_anxiety_6h       = anxiete.6h,
+    YS_anxiety_1d       = anxiete.s,
+    YS_comfort_6h       = confort.6h,
+    YS_comfort_1d       = confort.s,
+    X_Age_0d                 = Age,
+    X_Height_0d              = Taille,
+    X_Weight_0d             = Poids,
+    X_BMI_0d                 = as.numeric(BMI),
+    X_Diabetes_0d            = DIAB,
+    X_Sequelae_Stroke_0d     = NEURO,
+    X_Alcoholism_0d          = ALCOOL,
+    X_BetaBlocker_0d         = BETAB,
+    X_Anesthesia_Duration_0d  = DURANES,
+    X_CrystalloidVolume_0d   = CRISTALOP,
+    X_NorepinephrineDose_0d  = as.numeric(NORADOP),
+    X_PACU_duration_0d       = as.integer(DURPACU),
+    Treatment = relevel(factor(Treatment), ref="Sham Comparator"),
+    across(c(YP_catheterized, X_Diabetes_0d, X_Sequelae_Stroke_0d, X_Alcoholism_0d, 
+             X_BetaBlocker_0d), as_factor)
+  ) %>%
+  select(
+    Treatment,
+    YP_catheterized,
+    starts_with("YS_"),
+    starts_with("X_")
+  )
+```
+
+## Output Data
+```{r}
+# trial 24
+write_csv(df24_final, "cleaned_data/Non_Clustered_RCT/trial24.csv")
+write_rds(df24_final, "cleaned_data/Non_Clustered_RCT/trial24.rds")
+```
+
+
+# Trial 25
+## Load Data
+```{r}
+df25 = read_sav("raw_data/Non_Clustered_RCT/25/25.sav")
+```
+
+## Cleaning
+```{r}
+df25_final = df25 %>% 
+  rename(Treatment = Group) %>%
+  mutate(
+    YP_delta_GQ1_8w   = GQ1_POST   - GQ1_PRE,
+    YP_delta_GQ2_8w   = GQ2_POS    - GQ2_PRE,
+    YP_delta_GQ3_8w   = GQ3_POST   - GQ3_PRE,
+    YP_delta_GQ4_8w   = Q4_POST    - GQ4_PRE,
+    YP_delta_GQ5_8w   = GQ5_POST   - GQ5_PRE,
+    YP_delta_GQ6_8w   = GQ6_POST   - GQ6_PRE,
+    YP_delta_GQ7_8w   = GQ7_POST   - GQ7_PRE,
+    YP_delta_GQ8_8w   = GQ8_POST   - GQ8_PRE,
+    YP_delta_GQ9_8w   = GQ9_POST   - GQ9_PRE,
+    YP_delta_BOF_8w   = BOF_POST   - BOF_PRE,
+    YP_delta_WGTT_8w  = WGTT_DIFF,
+    YS_DelayedGTT_8w  = ifelse(WGTT_POST >= 72, 1, 0),
+    YS_BM_less3_8w    = ifelse(BOF_POST   <  3, 1, 0)
+  ) %>%
+  mutate(
+    X_Sex_0w            = factor(Sex),
+    X_Race_0w           = factor(Race),
+    X_Duration_0w       = Duration,
+    X_Sedentary_0w      = factor(Sedentary),
+    X_Levodopa_0w       = factor(Levodopa),
+    X_Dopamine_0w       = factor(Dopamine),
+    X_Fibre_0w          = factor(Fibre),
+    X_PD_stage_HY_0w    = factor(PD_stage_HY),
+    X_GQ1_0w         = GQ1_PRE,
+    X_GQ2_0w         = GQ2_PRE,
+    X_GQ3_0w         = GQ3_PRE,
+    X_GQ4_0w         = GQ4_PRE,
+    X_GQ5_0w         = GQ5_PRE,
+    X_GQ6_0w         = GQ6_PRE,
+    X_GQ7_0w         = GQ7_PRE,
+    X_GQ8_0w         = GQ8_PRE,
+    X_GQ9_0w         = GQ9_PRE,
+    X_BOF_0w         = BOF_PRE,
+    X_WGTT_0w        = WGTT_PRE,
+    X_NMSS_0w        = NMSS_PRE,
+    X_PDQ39SI_0w     = PDQ39SI_PRE,
+    X_UPDRS11_0w     = UPDRS11_PRE,
+    X_UPDRS111_0w    = UPDRS111_PRE,
+    X_BMI_0w         = BMI_PRE,
+    Treatment = case_when(
+      Treatment == 2 ~ "Probiotic with prebiotic",
+      Treatment == 1 ~ "Placebo",
+      T ~ NA_character_
+    )
+  ) %>%
+  mutate(
+    YS_NMSS_8w     = NMSS_POST,
+    YS_PDQ39SI_8w  = PDQ39SI_POST,
+    YS_UPDRS11_8w  = UPDRS11_POST,
+    YS_UPDRS111_8w = UPDRS111_POST,
+    X_DelayedGTT_0w  = Delayed_WGTT_PRE,
+    X_BM_less3_0w    = BM_less3perweek_PRE,
+    Treatment = relevel(factor(Treatment), ref="Placebo"),
+    across(c(YS_DelayedGTT_8w, X_BM_less3_0w, X_DelayedGTT_0w), as_factor)
+  ) %>%
+  select(
+    Treatment,
+    starts_with("YP_"),
+    starts_with("YS_"),
+    starts_with("X_")
+  )
+```
+
+
+## Output Data
+```{r}
+# trial 25
+write_csv(df25_final, "cleaned_data/Non_Clustered_RCT/trial25.csv")
+write_rds(df25_final, "cleaned_data/Non_Clustered_RCT/trial25.rds")
+```
+
+
+# Trial 26
+## Load Data
+```{r}
+df26 = read_sav("raw_data/Non_Clustered_RCT/26/26.sav")
+```
+
+## Cleaning
+```{r}
+df26_final = df26 %>% 
+  rename(Treatment = Treatmentgroup) %>%
+  # 2. Baseline covariates and baseline primary outcome
+  rename(
+    X_Agecat_0m         = Agecat,
+    X_Education_0m      = Educationlevel2,
+    X_Ethnicity_0m      = Ethnicity,
+    X_Socialsupport_0m  = Socialsupport,
+    X_Adherence_0m   = Baselineadherencepercent,
+    X_CD4_0m         = BaselineCD4count,
+    X_weight_0m      = Baselineweight,
+    X_TB_status_0m   = BaselineTBStatus,
+    X_OI_index_0m    = BaselineOIindex
+  ) %>%
+
+  # 3. Follow-up primary outcomes and change scores
+  mutate(
+    YP_delta_Adherence_6m    = Adherenceindex6mthsstd - X_Adherence_0m,
+    pre_YP_delta_Adherence_3m = Adherenceindex3mthsstd - X_Adherence_0m,
+    YP_optimal_adherence_6m  = `Adherence@6mths_binary`,
+    YP_attendance_6m         = Hospatendancecat
+  ) %>%
+
+  # 4. Secondary outcomes at 6 months
+  mutate(
+    YS_delta_CD4_6m         = `CD4count@6months` - X_CD4_0m,
+    YS_delta_weight_6m      = `Weight@6months` - X_weight_0m,
+    YS_delta_TB_status_6m   = `TBStatus@6months` - X_TB_status_0m,
+    YS_delta_OI_index_6m    = `OIindex@6months` - X_OI_index_0m,
+    Treatment = case_when(
+      Treatment == 1 ~ "Standard Care",
+      Treatment == 2 ~ "Reminder module",
+      T ~ NA_character_
+    ),
+    Treatment = relevel(factor(Treatment), ref="Standard Care"),
+    across(c(YP_optimal_adherence_6m, YP_attendance_6m, X_Agecat_0m, X_Education_0m,
+             X_Ethnicity_0m, X_Socialsupport_0m, X_TB_status_0m, X_OI_index_0m), as_factor)
+  ) %>%
+
+  # 5. Select in the required order
+  select(
+    Treatment,
+    starts_with("YP_"),
+    starts_with("pre_YP_"),
+    starts_with("YS_"),
+    starts_with("X_")
+  )
+```
+
+
+## Output Data
+```{r}
+# trial 26
+write_csv(df26_final, "cleaned_data/Non_Clustered_RCT/trial26.csv")
+write_rds(df26_final, "cleaned_data/Non_Clustered_RCT/trial26.rds")
+```
+
+# Trial 27
+## Load Data
+```{r}
+df27 = read_xls("raw_data/Non_Clustered_RCT/27/27.xls", skip = 1)
+```
+
+## Cleaning
+```{r}
+df27 = df27 %>%
+  mutate(across(where(~ is.character(.) | is.factor(.)), 
+                ~ na_if(., "missing data")))
+df27_final = df27 %>%
+  mutate(
+    Treatment                    = Randomisation,
+    YP_bleeding_text             = `Main Criterion  (GAILLARD, MD)`,
+    YP_surgical_problem_bleeding = `Surgical problem due to bleading`,
+    YS_surgery_duration_min      = as.numeric(`Surgery duration (min)`),
+    YS_vent_settings_changes     = as.numeric(`Nb of modificaton of ventilatory setting`),
+    YS_vent_mode_modification    = `Modification of ventilatory mode`,
+    YS_hypoxemia_episodes        = `Nb of episodes with SpO2<92%`,
+    YS_recruitment_maneuvers     = `Nb of recrutement maneuvers`,
+    YS_min_SpO2                  = as.numeric(`Minimal SpO2`),
+    YS_pain_PACU                 = as.numeric(`Tolerance PACU`),
+    YS_endocrine_status_3m       = as.numeric(`Endocrine healing`),
+
+    X_Tv_0d                         = Tv,
+    X_FiO2_0d                       = as.numeric(Fio2),
+    X_AI_0d                         = as.numeric(AI),
+    X_Rate_0d                       = Rate
+  ) %>%
+  # 2. Recode treatment and bleeding scale
+  mutate(
+    Treatment = recode(Treatment, VVC = "VCV", VPC = "PCV"),
+
+    # 7-level score: 1=minimal, 3=low, 5=no change, 7=change; intermediates 2,4,6 for “very weak”, “medium”, etc. 
+    YP_bleeding_score = case_when(
+      YP_bleeding_text == "minimal (almost nil)"                                             ~ 2L,
+      YP_bleeding_text == "very weak"                                                        ~ 3L,
+      YP_bleeding_text == "weak"                                                             ~ 4L,
+      YP_bleeding_text == "medium"                                                           ~ 5L,
+      YP_bleeding_text == "important without modifying the conduct of the surgical procedure" ~ 6L,
+      YP_bleeding_text == "important and modifying the conduct of the surgical procedure"     ~ 7L,
+      TRUE                                                                                   ~ NA_integer_
+    ),
+
+    # 3-category grouping: 1–3=mild, 4–5=moderate, 6–7=major :contentReference[oaicite:2]{index=2}
+    YP_bleeding_category3 = case_when(
+      YP_bleeding_score %in% 1:3 ~ "mild",
+      YP_bleeding_score %in% 4:5 ~ "moderate",
+      YP_bleeding_score %in% 6:7 ~ "major",
+      TRUE                       ~ NA_character_
+    ),
+    Treatment = relevel(factor(Treatment), ref="VCV"),
+    across(c(YP_surgical_problem_bleeding, YP_bleeding_text, YP_bleeding_category3, 
+             YS_vent_mode_modification, YS_hypoxemia_episodes, YS_recruitment_maneuvers,
+             ), as_factor)
+  ) %>%
+  # 3. Keep only randomized patients
+  filter(!is.na(Treatment)) %>%
+  # 4. Select and order final columns
+  select(
+    Treatment,
+    starts_with("YP_"),
+    starts_with("YS_"),
+    starts_with("X_")
+  )
+```
+
+## Output Data
+```{r}
+# trial 27
+write_csv(df27_final, "cleaned_data/Non_Clustered_RCT/trial27.csv")
+write_rds(df27_final, "cleaned_data/Non_Clustered_RCT/trial27.rds")
+```
+
+# Trial 28
+## Load Data
+```{r}
+df28 = read_sav("raw_data/Non_Clustered_RCT/28/28.sav")
+```
+
+## Cleaning
+```{r}
+df28_final = df28 %>%
+  rename(
+    Treatment               = TrtContr,
+    
+    # Baseline covariates (X_)
+    X_SEX_0m                   = SEX,
+    X_Age_0m                   = Age,
+    X_RxHTN_0m                 = RxHTN,
+    
+    # Secondary outcomes (YS_)
+    X_BMI_0m                = BMI,        
+    YS_BMI_6m               = FUBMI,      
+    YS_delta_BMI_6m         = DIfBMI,     
+    
+    X_WC_0m                 = WC,         
+    YS_WC_6m                = FUWC,       
+    YS_delta_WC_6m          = DIfWC,      
+    
+    X_MeanSBP_0m            = MeanSBP,    
+    YS_MeanSBP_6m           = FUMeanSBP,  
+    YS_delta_MeanSBP_6m     = DIfSBP,     
+    
+    X_MeanDBP_0m            = MeanDBP,    
+    YS_MeanDBP_6m           = FUMeanDBP,  
+    YS_delta_MeanDBP_6m     = DIfDBP,     
+    
+    # Primary outcome (YP_)
+    X_ContrSBP_0m           = ContrSBP,   
+    YP_ContrSBP_6m          = FUContrSBP, 
+    
+    # Other secondary binary outcomes
+    X_ContrDBP_0m           = ContrDBP,   
+    YS_ContrDBP_6m          = FUContrDBP,
+    
+    YS_ControlledBP_6m      = FUControlledBP,
+    
+    X_TotalScoreA_0m        = TotalScoreA,
+    YS_TotalScoreA_6m       = FUTotalScoreA,
+    YS_delta_TotalScoreA_6m = Diftotalscore
+  ) %>%
+  mutate(
+    Treatment = case_when(
+      Treatment == 0 ~ "Usual Care",
+      Treatment == 1 ~ "Edu+Visit",
+      TRUE          ~ NA_character_
+    ),
+    Treatment = relevel(factor(Treatment), ref="Usual Care"),
+    across(c(YP_ContrSBP_6m, YS_ContrDBP_6m, YS_ControlledBP_6m, X_SEX_0m, X_Age_0m, 
+             X_RxHTN_0m, X_ContrSBP_0m, X_ContrDBP_0m, X_ControlledBP_0m), as_factor)
+  ) %>%
+  select(
+    Treatment,
+    starts_with("YP"),
+    starts_with("YS"),
+    starts_with("X")
+  )
+```
+
+
+## Output Data
+```{r}
+# trial 28
+write_csv(df28_final, "cleaned_data/Non_Clustered_RCT/trial28.csv")
+write_rds(df28_final, "cleaned_data/Non_Clustered_RCT/trial28.rds")
+```
+
+
+# Trial 29
+## Load Data
+```{r}
+df29 = read_xlsx("raw_data/Non_Clustered_RCT/29/29.xlsx", na = "n/a")
+```
+
+## Cleaning
+```{r}
+df29_final = df29 %>% 
+  transmute(
+    # Treatment variable
+    Treatment = factor(case_when(
+      txgroup == 1 ~ "Sertraline",
+      txgroup == 2 ~ "Placebo",
+      TRUE ~ NA_character_
+    ), levels = c("Placebo", "Sertraline")),
+    
+    # Primary outcome - 18-week survival (time-to-event)
+    YP_survival_18w = t2death,  # Convert days to weeks
+    YP_death = factor(death),
+    
+    # Secondary outcomes - Early fungicidal activity and culture sterility
+    YS_sterile_14d = factor(sterile14),
+    YS_sterile_18w = factor(sterile18),
+    YS_num_lumbar_punctures = as.numeric(nlp),
+    
+    # Secondary outcomes - Depression scores (continuous)
+    YS_depression_4w = as.numeric(cesd_4),
+    YS_depression_12w = as.numeric(cesd_12),
+    
+    # Secondary outcomes - Visit timing
+    YS_visit_4w_timing = factor(vnum_cesd_4),
+    YS_visit_12w_timing = factor(vnum_cesd_12),
+    
+    # Covariates - Demographics (baseline, _0w suffix)
+    X_age_0w = as.numeric(age),
+    X_sex_0w = factor(case_when(
+      sex == 1 ~ "Male",
+      sex == 2 ~ "Female", 
+      TRUE ~ NA_character_
+    )),
+    
+    # Covariates - HIV/ART status (baseline, _0w suffix)
+    X_on_art_0w = factor(case_when(
+      on_art_000 == 1 ~ "On ART",
+      on_art_000 == 2 ~ "Not on ART",
+      TRUE ~ NA_character_
+    )),
+    X_cd4_0w = as.numeric(cd4_000),
+    X_hiv_rna_0w = as.numeric(hivrna),
+    X_time_hiv_rna_0w = as.numeric(t2hivrna),
+    
+    # Covariates - Clinical characteristics (baseline, _0w suffix)
+    X_gcs_0w = as.numeric(gcs_000),
+    X_gcs_normal_0w = factor(case_when(
+      gcs_000_15 == 1 ~ "Normal (15)",
+      gcs_000_15 == 2 ~ "Abnormal (<15)",
+      TRUE ~ NA_character_
+    )),
+    X_on_tb_meds_0w = factor(case_when(
+      on_tb_meds_000 == 1 ~ "Yes",
+      on_tb_meds_000 == 2 ~ "No",
+      TRUE ~ NA_character_
+    )),
+    X_hemoglobin_0w = as.numeric(hemoglobin_000),
+    X_creatinine_mg_0w = as.numeric(creat_mg_000),
+    X_creatinine_umol_0w = as.numeric(creat_umol_000),
+    
+    # Covariates - CSF characteristics (baseline, _0w suffix)
+    X_csf_qcc_0w = as.numeric(csf_qcc_000),
+    X_csf_wbc_0w = as.numeric(csf_wbc_000),
+    X_csf_wbc_low_0w = factor(case_when(
+      csf_wbc_000_5 == 1 ~ "Low (<5)",
+      csf_wbc_000_5 == 2 ~ "High (5+)",
+      TRUE ~ NA_character_
+    )),
+    X_csf_opening_pressure_0w = as.numeric(csf_op_000),
+    X_csf_protein_0w = as.numeric(csf_protein_000),
+    X_csf_sterile_baseline_0w = factor(sterile_000),
+    
+    # Covariates - Study design variables (baseline, _0w suffix)
+    X_study_0w = factor(case_when(
+      study == 4 ~ "ASTRO",
+      study == 3 ~ "COAT",
+      TRUE ~ NA_character_
+    )),
+    X_stage_0w = factor(stage),
+    X_status_0w = factor(status)
+  ) %>%
+  select(Treatment, starts_with("YP_"), starts_with("YS_"), starts_with("X_")) %>% 
+  filter(!is.na(Treatment))
+```
+
+## Output Data
+```{r}
+# trial 29
+write_csv(df29_final, "cleaned_data/Non_Clustered_RCT/trial29.csv")
+write_rds(df29_final, "cleaned_data/Non_Clustered_RCT/trial29.rds")
+```
+
+
+# Trial 30
+## Load Data
+```{r}
+df30_sheets = import_list("raw_data/Non_Clustered_RCT/30/30.xlsx")
+df30_sheets = lapply(df30_sheets, function(df) {
+  df %>%
+    # 1) only replace the literal string "NA" in character columns
+    mutate(across(where(is.character), ~ na_if(.,"NA"))) %>%
+    # 2) re-guess every column’s type, turning numeric-looking ones back to numeric
+    type_convert(na = "NA")
+})
+
+# then pull them back out as before
+df30_demo      = df30_sheets[[1]]
+df30_ceq       = df30_sheets[[2]]
+df30_ec        = df30_sheets[[3]]
+df30_sd        = df30_sheets[[4]]
+df30_adherence = df30_sheets[[5]]
+df30_dbs       = df30_sheets[[6]]
+```
+
+## Cleaning
+```{r}
+df30_final = df30_demo %>%
+  # 1) recode Treatment and pick baseline covariates
+  mutate(Treatment = case_when(
+    Condition == "Pool"           ~ "Pool-REST",
+    Condition == "Pool Preferred" ~ "Pool-REST preferred",
+    Condition == "Control"        ~ "Chair-REST",
+    TRUE                          ~ NA_character_
+  )) %>%
+  select(ID, Treatment,
+         X_Sex_0d            = Sex,
+         X_Psychotropics_0d  = Psychotropics,
+         X_Education_0d      = Education,
+         X_Age_0d            = Age,
+         X_OASIS_0d          = OASIS.Baseline,
+         X_PHQ9_0d           = PHQ9.Baseline,
+         X_ASI_0d            = ASI.Baseline) %>%
+  
+  # 2) primary YP_Adherence (with NA if any missing)
+  left_join(
+    df30_adherence %>%
+      mutate(Completed = case_when(
+        Completed_Visit == "Yes" ~ 1,
+        Completed_Visit == "No"  ~ 0,
+        TRUE                     ~ NA_real_
+      )) %>%
+      group_by(ID) %>%
+      summarise(
+        YP_Adherence = if (any(is.na(Completed))) NA_real_ else mean(Completed)
+      ) %>%
+      ungroup(),
+    by = "ID"
+  ) %>%
+  
+  # 3) CEQ secondary outcomes
+  left_join(
+    df30_ceq %>%
+      rename(
+        YS_Credibility1 = Credibility_1,
+        YS_Credibility2 = Credibility_2,
+        YS_Credibility3 = Credibility_3,
+        YS_Expectancy   = Expectancy
+      ),
+    by = "ID"
+  ) %>%
+  
+  # 4) Session‐duration secondary outcome
+  left_join(
+    df30_sd %>%
+      group_by(ID) %>%
+      summarise(YS_MeanDuration = mean(Duration)) %>%
+      ungroup(),
+    by = "ID"
+  ) %>%
+  
+  # 5) bring in raw days‐between data
+  left_join(
+    df30_dbs %>%
+      rename(
+        X_DaysSinceBaseline = DaysSinceBaselineFloat,
+        X_DaysSince1        = DaysSinceFloat1,
+        X_DaysSince2        = DaysSinceFloat2,
+        X_DaysSince3        = DaysSinceFloat3,
+        X_DaysSince4        = DaysSinceFloat4,
+        X_DaysSince5        = DaysSinceFloat5
+      ),
+    by = "ID"
+  ) %>%
+  
+  # 6) dropout & mean frequency from dbs
+  mutate(
+    # dropout if any NA in the 5 session‐intervals
+    YS_Dropout = if_else(
+      rowSums(is.na(select(., X_DaysSince1:X_DaysSince5))) > 0, 
+      1L, 
+      0L
+    )
+  ) %>%
+  
+  # 7) adverse‐event counts & overall event rating
+  left_join(
+    df30_ec %>%
+      group_by(ID) %>%
+      summarise(
+        YS_AdverseCount = sum(Response < 0),
+        YS_EventMean    = mean(Response)
+      ) %>%
+      ungroup(),
+    by = "ID"
+  ) %>%
+  mutate(
+    Treatment = relevel(factor(Treatment), ref="Chair-REST"),
+    across(c(X_Sex_0d, X_Psychotropics_0d, X_Age_0d, YS_Dropout), as_factor)
+  ) %>% 
+  
+  # 8) drop ID and order columns: Treatment → YP_ → YS_ → X_
+  select(
+    Treatment,
+    starts_with("YP_"),
+    starts_with("YS_"),
+    starts_with("X_")
+  )
+
+```
+
+## Output Data
+```{r}
+# trial 30
+write_csv(df30_final, "cleaned_data/Non_Clustered_RCT/trial30.csv")
+write_rds(df30_final, "cleaned_data/Non_Clustered_RCT/trial30.rds")
+```
+
+
+# Trial 31
+## Load Data
+```{r}
+df31 = read_csv("raw_data/Non_Clustered_RCT/31/31.csv")
+```
+
+## Cleaning
+```{r}
+df31_final = df31 %>% 
+  transmute(
+    # Treatment variable
+    Treatment = factor(case_when(
+      intervention == "TIV" ~ "TIV",
+      intervention == "placebo" ~ "Placebo",
+      TRUE ~ NA_character_
+    ), levels = c("Placebo", "TIV")),
+    
+    # Primary outcome - Time to influenza B infection (time-to-event)
+    YP_survival_time = as.numeric(surv_time),
+    YP_flu_infection = factor(flu),
+    
+    # Covariates - Demographics (baseline, _0w suffix)
+    X_age_0w = as.numeric(age),
+    
+    # Covariates - Baseline HAI titer (baseline measurement, _0w suffix)
+    X_hai_titer_0w = as.numeric(prevax.B.Brisbane),
+    X_hai_40plus_0w = factor(ifelse(X_hai_titer_0w >= 40, 1, 0)),
+    
+    # Secondary outcomes - HAI titers and vaccine efficacy measures
+    YS_hai_titer_4w = as.numeric(postvax.B.Brisbane),
+    
+    # Calculate fold rise in HAI titer (secondary outcome)
+    YS_hai_fold_rise_4w = ifelse(
+      !is.na(X_hai_titer_0w) & !is.na(YS_hai_titer_4w) & X_hai_titer_0w > 0,
+      YS_hai_titer_4w / X_hai_titer_0w,
+      NA_real_
+    ),
+    
+    # Binary indicators for HAI titer thresholds (secondary outcomes)
+    YS_hai_40plus_4w = factor(ifelse(YS_hai_titer_4w >= 40, 1, 0)),
+    YS_hai_4fold_rise_4w = factor(ifelse(YS_hai_fold_rise_4w >= 4, 1, 0)),
+    
+    # Covariates - Study logistics (baseline, _0w suffix)
+    X_days_vax_to_blood_0w = as.numeric(as.Date(postvax.date) - as.Date(vaccine.date)),
+    
+    # Baseline HAI titer as covariate (important confounder)
+    X_hai_log2_0w = log2(pmax(X_hai_titer_0w, 5)) # log2 transform, setting <10 to 5
+  ) %>%
+  select(Treatment, starts_with("YP_"), starts_with("YS_"), starts_with("X_"))
+```
+
+## Output Data
+```{r}
+# trial 31
+write_csv(df31_final, "cleaned_data/Non_Clustered_RCT/trial31.csv")
+write_rds(df31_final, "cleaned_data/Non_Clustered_RCT/trial31.rds")
+```
+
+
+# Trial 32
+## Load Data
+```{r}
+df32 = read_csv("raw_data/Non_Clustered_RCT/32/32.csv") %>% 
+  filter(!is.na(expgp))
+```
+
+
+## Cleaning
+```{r}
+df32_final = df32 %>% 
+  mutate(
+    Treatment = factor(expgp, 
+                       levels = c(1, 2, 3),
+                       labels = c("Hyrax", "Hybrid-Hyrax", "Keles")),
+    Treatment = relevel(Treatment, ref = "Hyrax"),
+    
+    # Primary
+    YP_Pressure_6m = pres_pst,
+    YP_Velocity_6m = veloc_pst,
+    
+    # Secondary
+    YS_nasal_width_ANS_6m = naswidans_pst,
+    YS_nasal_width_M1_6m = naswid6_pst,
+    YS_nasal_obstruction_6m = conobstbi_pst,
+    YS_IMW_6m = imw_pst,
+    YS_mucosal_hypertrophy_6m = muchypbi_pst,
+    YS_adenoid_hypertrophy_6m = adehypbi_pst,
+    YS_nasal_septum_deviation_6m = nasdevbi_pst,
+    
+    # Baseline cov
+    X_Pressure_0m = as.numeric(pres_pre),
+    X_Velocity_0m = as.numeric(veloc_pre),
+    X_nasal_width_ANS_0m = naswidans_pre,
+    X_nasal_width_M1_0m = naswid6_pre,
+    X_nasal_obstruction_0m = conobstbi_pre,
+    X_IMW_0m = imw_pre,
+    X_mucosal_hypertrophy_0m = muchypbi_pre,
+    X_adenoid_hypertrophy_0m = adehypbi_pre,
+    X_nasal_septum_deviation_0m = nasdevbi_pre,
+    
+    # Demo cov
+    X_sex_0m = factor(male, levels = c(0, 1), labels = c("Female", "Male")),
+    X_age_0m = as.numeric(age),
+    X_CVM_0m = factor(CVM),
+    X_exp_0m = as.numeric(expmm),
+    
+        # Binary outcomes and covariates
+    X_nasal_obstruction_0m = factor(X_nasal_obstruction_0m, levels = c(0, 1), labels = c("No", "Yes")),
+    YS_nasal_obstruction_6m = factor(YS_nasal_obstruction_6m, levels = c(0, 1), labels = c("No", "Yes")),
+    
+    X_mucosal_hypertrophy_0m = factor(X_mucosal_hypertrophy_0m, levels = c(0, 1), labels = c("No", "Yes")),
+    YS_mucosal_hypertrophy_6m = factor(YS_mucosal_hypertrophy_6m, levels = c(0, 1), labels = c("No", "Yes")),
+    
+    X_adenoid_hypertrophy_0m = factor(X_adenoid_hypertrophy_0m, levels = c(0, 1), labels = c("No", "Yes")),
+    YS_adenoid_hypertrophy_6m = factor(YS_adenoid_hypertrophy_6m, levels = c(0, 1), labels = c("No", "Yes")),
+    
+    X_nasal_septum_deviation_0m = factor(X_nasal_septum_deviation_0m, levels = c(0, 1), labels = c("No", "Yes")),
+    YS_nasal_septum_deviation_6m = factor(YS_nasal_septum_deviation_6m, levels = c(0, 1), labels = c("No", "Yes"))
+    
+  ) %>% 
+  select(
+    Treatment,
+    starts_with("YP_"),
+    starts_with("YS_"),
+    starts_with("X_")
+  )
+```
+## Output Data
+
+```{r}
+# trial 32
+write_csv(df32_final, "cleaned_data/Non_Clustered_RCT/trial32.csv")
+write_rds(df32_final, "cleaned_data/Non_Clustered_RCT/trial32.rds")
+```
+
+# Trial 33
+## Load Data
+```{r}
+df33 = read_xlsx("raw_data/Non_Clustered_RCT/33/33.xlsx")
+```
+
+## Cleaning
+```{r}
+df33_final = df33 %>%
+  rename(RawTreatment = Intervention) %>%
+  mutate(
+    Treatment = recode(RawTreatment,
+                       `2` = "Control",
+                       `1` = "Reframing"),
+    Treatment = fct_relevel(as_factor(Treatment), "Control")
+  )
+
+# 3. Rename outcomes and include all baseline covariates from Table 1
+df33_final = df33_final %>%
+  mutate(
+    # Outcomes
+    YP_TM_total_score      = TM_total_score,
+    YS_willing_participate = as_factor(Decision),
+    # Baseline covariates
+    X_age_0w               = age,
+    X_Gender_0w            = as_factor(gender),
+    X_Ethnicity_0w         = as_factor(ethni),
+    X_Race_0w              = as_factor(race),
+    X_Education_0w         = as_factor(schooling),
+    X_Employment_0w        = as_factor(employment),
+    X_DiseaseGroup_0w      = as_factor(DxGroup),
+    X_Volunteer_0w         = as_factor(cdro_volunteer)
+  ) %>%
+  select(
+    Treatment,
+    YP_TM_total_score,
+    YS_willing_participate,
+    X_age_0w,
+    X_Gender_0w,
+    X_Ethnicity_0w,
+    X_Race_0w,
+    X_Education_0w,
+    X_Employment_0w,
+    X_DiseaseGroup_0w,
+    X_Volunteer_0w
+  )
+
+```
+
+## Output Data
+
+```{r}
+# trial 33
+write_csv(df33_final, "cleaned_data/Non_Clustered_RCT/trial33.csv")
+write_rds(df33_final, "cleaned_data/Non_Clustered_RCT/trial33.rds")
+```
+
+
+# Trial 34
+## Load Data
+```{r}
+df34 = read_csv("raw_data/Non_Clustered_RCT/34/34.csv", na = c("", "NA", "null", "NULL", "999"))
+```
+
+## Cleaning
+```{r}
+df34_final = df34 %>%
+  rename(RawTreatment = TX) %>%
+  mutate(
+    Treatment = recode(RawTreatment,
+                       `0` = "Placebo",
+                       `1` = "Synbiotic"),
+    Treatment = fct_relevel(as_factor(Treatment), "Placebo")
+  ) %>%
+
+  # 3. Compute outcomes and covariates
+  mutate(
+    # Primary outcome: composite sepsis or death within 60 days
+    YP_sepsisdeath_60d = as_factor(SEPSISDEATH),
+ # Secondary outcome: weight change delta at 60d
+    YS_delta_wt_60d       = WTDIFF,
+    # Secondary outcomes: infection types
+    YS_sepsisB            = as_factor(SEPSISB),         # culture-negative sepsis
+    YS_sepsisC            = as_factor(SEPSISC),         # culture-positive/LRTI sepsis
+    YS_diarrhea           = as_factor(DIARRHEA),
+    YS_omphalitis         = as_factor(OMPHA),
+    YS_local_inf          = as_factor(LOCINF),
+    YS_abscess            = as_factor(ABSCESS),
+
+    # Baseline covariates at enrollment day
+    X_mom_age_0d       = MOMAGE,                     # maternal age
+    X_parity_0d        = MOMPAR,                     # maternal parity
+    X_placebirth_0d    = as_factor(DELIV),           # place of delivery
+    X_deliveredby_0d   = as_factor(Delivered_by),    # birth attendant
+    X_deliverymode_0d  = as_factor(DELIV_MODE),      # delivery mode
+    X_birthwt_0d       = BWT,                        # birth weight (g)
+    X_breastfed_0d     = as_factor(BFEED),           # breastfeeding initiation
+    X_colostrum_0d     = as_factor(Colostrum_Given), # colostrum given
+    X_cowmilk_0d       = as_factor(Cow_milk_60d),    # cow milk at 60d
+    X_honey_0d         = as_factor(Honey),           # honey given
+    X_formula_0d       = as_factor(Infant_formula),  # formula feeding
+    X_waterboil_0d     = as_factor(Water_boil),      # boiled water given
+    X_waterunboil_0d   = as_factor(Water_unboil),    # unboiled water
+    X_vitamindrops_0d  = as_factor(Vitamin_drops),    # vitamin drops
+    X_treattime_0d     = as_factor(ADMIN),           # treatment time
+    X_sex_0d           = as_factor(Sex_of_Infant),   # infant sex
+    X_twins_0d         = as_factor(Twins),           # twin birth indicator
+    X_wt_0d      = Weight_Enroll                # weight at enrollment (g)
+  ) %>%
+  select(
+    Treatment,
+    starts_with("YP_"),
+    starts_with("YS_"),
+    starts_with("X_")
+  )
+
+
+```
+
+## Output Data
+```{r}
+# trial 34
+write_csv(df34_final, "cleaned_data/Non_Clustered_RCT/trial34.csv")
+write_rds(df34_final, "cleaned_data/Non_Clustered_RCT/trial34.rds")
+```
+
+# Trial 35
+## Load Data
+```{r}
+df35 = read_sav("raw_data/Non_Clustered_RCT/35/35.sav")
+```
+## Cleaning
+```{r}
+df35_final = df35 %>%
+  mutate(
+    Treatment = factor(Group,
+                       levels = c(2, 1),
+                       labels = c("Control", "Exercise")),
+    Treatment = relevel(Treatment, ref = "Control")
+  ) %>%
+  rename(
+    X_preg_BMI_0w            = Pre_preg_BMI,
+    X_BMI_0w                 = Pre_BMI,
+    X_PGWB_index_0w          = Pre_PGWB_index,
+    X_Anxiety_0w             = Pre_Anxiety,
+    X_Depressed_0w           = Pre_Depressed,
+    X_Pos_Wellbeing_0w       = Pre_Pos_Wellbeing,
+    X_Self_control_0w        = Pre_Self_control,
+    X_General_Health_0w      = Pre_General_Health,
+    X_Vitality_0w            = Pre_Vitality,
+    YP_delta_Total_weight_gain_delivery = Total_weight_gain,
+    YS_IOM_delivery          = IOM,
+    YS_BMI_37w               = Post_BMI,
+    YS_BMI_postPP            = Postpart_BMI
+  ) %>%
+  rename_with(
+    .cols = starts_with("Diff_"),
+    .fn   = ~ str_replace(., "^Diff_", "YS_delta_")
+  ) %>%
+  mutate(
+        YS_IOM_delivery     = factor(YS_IOM_delivery,
+                                 levels = c(0, 1),
+                                 labels = c("Not exceed IOM", "Exceeded IOM"))
+  ) %>% 
+  select(
+    Treatment,
+    starts_with("YP_"),
+    starts_with("YS_"),
+    starts_with("X_")
+  )
+```
+
+## Output Data
+```{r}
+# trial 35
+write_csv(df35_final, "cleaned_data/Non_Clustered_RCT/trial35.csv")
+write_rds(df35_final, "cleaned_data/Non_Clustered_RCT/trial35.rds")
+```
+
+# Trial 36
+## Load Data
+```{r}
+df36 = read_xlsx("raw_data/Non_Clustered_RCT/36/36.xlsx")
+```
+
+## Cleaning
+```{r}
+df36_final = df36 %>%
+  # treatment
+  mutate(
+    Treatment = factor(Intervention,
+                       levels = c(3, 2, 1),
+                       labels = c("ACI", "PI", "MI")),
+    Treatment = relevel(Treatment, ref = "ACI")
+  ) %>%
+  rename(
+    X_GDS_0m                   = GDS,
+    X_EMQ_0m                   = EMQ,
+    X_STAI_0m                  = STAI,
+    X_MMSE_0m                  = MMSE,
+    X_RAVLT_delayedrecall_0m   = pareyd,
+    X_IPAQ_total_0m            = IPAQ_total,
+    X_MeDi_score_0m            = `MeDi score`,
+    X_MemoryNew_0m             = MemoryNewBas,
+    X_AttentionExe_0m          = AttentionExeBas,
+    X_VisuoSpNew_0m            = VisuoSpNewBas
+  ) %>%
+  
+  # 3) Compute primary‐outcome deltas at 12 m
+  mutate(
+    YP_delta_RAVLT_delayedrecall_12m = pareyd_T12    - X_RAVLT_delayedrecall_0m,
+    YP_delta_MemoryNew_12m           = MemoryNew12  - X_MemoryNew_0m,
+    YP_delta_AttentionExe_12m        = AttentionExe12 - X_AttentionExe_0m,
+    YP_delta_VisuoSpNew_12m          = VisuoSp12    - X_VisuoSpNew_0m
+  ) %>%
+  
+  # 4) Secondary MRI endpoints at 12 m
+  rename(
+    YS_WMHvol_cc_12m       = WNHvol_cc_T12,
+    YS_WMperc_12m          = WMH_WMperc_T12,
+    YS_nLatVentL_cc_12m    = nLatVentL_cc_T12,
+    YS_nHippoL_cc_12m      = nHippoL_cc_T12,
+    YS_nHippoR_cc_12m      = nHippoR_cc_T12,
+    YS_nLatVentR_cc_12m    = nLatVentR_cc_T12,
+    YS_eigen_cluster_12m   = eigen_cluster_T12
+  ) %>%
+  
+  # 5) Final wide‐format, drop everything else
+  select(
+    Treatment,
+    starts_with("YP_delta_"),
+    starts_with("YS_"),
+    starts_with("X_")
+  )
+```
+
+
+## Output Data
+```{r}
+# trial 36
+write_csv(df36_final, "cleaned_data/Non_Clustered_RCT/trial36.csv")
+write_rds(df36_final, "cleaned_data/Non_Clustered_RCT/trial36.rds")
+```
+
+
+# Trial 37
+## Load Data
+```{r}
+df37 = medicaldata::indo_rct
+```
+
+## Cleaning
+```{r}
+df37_final = df37 %>%
+  # 1. Drop raw ID and the bleed column entirely
+  select(-id, -bleed) %>%
+  
+  rename(
+    Treatment        = rx,
+    YP_pep_5d        = outcome,
+    
+    X_site_0d        = site,
+    X_age_0d         = age,
+    X_soc_0d         = type,
+    X_risk_score_0d  = risk,
+    X_gender_0d      = gender,
+    X_pep_0d         = pep,
+    X_recpanc_0d     = recpanc,
+    X_psphinc_0d     = psphinc,
+    X_precut_0d      = precut,
+    X_difcan_0d      = difcan,
+    X_pneudil_0d     = pneudil,
+    X_amp_0d         = amp,
+    X_paninj_0d      = paninj,
+    X_acinar_0d      = acinar,
+    X_brush_0d       = brush,
+    X_asa81_0d       = asa81,
+    X_asa325_0d      = asa325,
+    X_asa_any_0d     = asa,
+    X_prophystent_0d = prophystent,
+    X_therastent_0d  = therastent,
+    X_pdstent_0d     = pdstent,
+    X_sodsom_0d      = sodsom,
+    X_bsphinc_0d     = bsphinc,
+    X_bstent_0d      = bstent,    # fixed suffix
+    X_chole_0d       = chole,
+    X_pbmal_0d       = pbmal,
+    X_trainee_0d     = train,
+    X_status_0d      = status
+  ) %>%
+  
+  # 3. Recode treatment
+  mutate(
+    Treatment = factor(
+      Treatment,
+      levels = c("0_placebo","1_indomethacin"),
+      labels = c("Placebo","Indomethacin")
+    ),
+    Treatment = relevel(Treatment, ref = "Placebo")
+  ) %>%
+  
+  # 4. Factorize the binary/categorical X_*_0d covariates
+  mutate(
+    across(
+      c(
+        X_site_0d, X_soc_0d, X_gender_0d, X_pep_0d, X_recpanc_0d,
+        X_psphinc_0d, X_precut_0d, X_difcan_0d, X_pneudil_0d,
+        X_amp_0d, X_paninj_0d, X_acinar_0d, X_brush_0d,
+        X_asa81_0d, X_asa325_0d, X_asa_any_0d, X_prophystent_0d,
+        X_therastent_0d, X_pdstent_0d, X_sodsom_0d, X_bsphinc_0d,
+        X_bstent_0d, X_chole_0d, X_pbmal_0d, X_trainee_0d,
+        X_status_0d
+      ),
+      as.factor
+    )
+  ) %>%
+  
+  # 5. Final columns
+  select(
+    Treatment,
+    starts_with("YP_"),
+    starts_with("X_")
+  )
+```
+
+## Output Data
+```{r}
+# trial 37
+write_csv(df37_final, "cleaned_data/Non_Clustered_RCT/trial37.csv")
+write_rds(df37_final, "cleaned_data/Non_Clustered_RCT/trial37.rds")
+```
+
+
+# Trial 38
+## Load Data
+```{r}
+df38 = speff2trial::ACTG175
+```
+
+## Cleaning
+```{r}
+df38_final = df38 %>%
+  mutate(
+    ## treatment
+    Treatment       = arms,
+    ## primary outcome
+    YP_time         = days,
+    YP_event_flag   = as_factor(cens),
+    ## baseline covariates
+    X_age_0w        = age,
+    X_weight_0w     = wtkg,
+    X_hemo_0w       = hemo,
+    X_homo_0w       = homo,
+    X_drugs_0w      = drugs,
+    X_karnof_0w     = karnof,
+    X_oprior_0w     = oprior,
+    X_z30_0w        = z30,
+    X_preanti_0w    = preanti,
+    X_race_0w       = race,
+    X_gender_0w     = gender,
+    X_str2_0w       = str2,
+    X_strat_0w      = strat,
+    X_symptom_0w    = symptom,
+    ## baseline immunology
+    X_CD4_0w        = cd40,
+    X_CD8_0w        = cd80,
+    ## secondary outcomes at ~20 weeks
+    YS_CD4_20w      = cd420,
+    YS_CD8_20w      = cd820
+  ) %>%
+  mutate(
+    ## factorize treatment with ZDV (0) as control
+    Treatment = factor(
+      Treatment,
+      levels = c(0, 1, 2, 3),
+      labels = c("ZDV", "ZDV_ddI", "ZDV_Zal", "ddI")
+    ),
+    Treatment = relevel(Treatment, ref = "ZDV")
+  ) %>%
+  # factor all the binaries/categoricals
+  mutate(
+    across(
+      c(
+        X_hemo_0w, X_homo_0w, X_drugs_0w,
+        X_oprior_0w, X_z30_0w,
+        X_race_0w, X_gender_0w,
+        X_str2_0w, X_strat_0w, X_symptom_0w
+      ),
+      factor
+    )
+  ) %>%
+  # reorder: Treatment → primary → secondary → covariates
+  select(
+    Treatment,
+    starts_with("YP_"),
+    starts_with("YS_"),
+    starts_with("X_")
+  )
+```
+
+## Output Data
+```{r}
+# trial 38
+write_csv(df38_final, "cleaned_data/Non_Clustered_RCT/trial38.csv")
+write_rds(df38_final, "cleaned_data/Non_Clustered_RCT/trial38.rds")
+```
+
+
+# Trial 39
+## Load Data
+```{r}
+df39 = mosaicData::HELPmiss
+```
+
+## Cleaning
+```{r}
+df39_final = df39 %>%
+  rename(
+    ## randomization arm
+    Treatment         = treat,       
+    
+    ## primary outcome: time-to-linkage & flag
+    YP_dayslink       = dayslink,    
+    YP_event_flag     = link,        
+
+    ## secondary outcome: time-to-first substance & flag
+    YS_daysanysub     = daysanysub,  
+    YS_anysub         = anysub,      
+
+    ## baseline covariates (0w)
+    X_age_0w          = age,         
+    X_cesd_0w         = cesd,        
+    X_hosp_lifetime_0w = d1,         
+    X_drugrisk_0w     = drugrisk,    
+    X_detox_entries_0w = e2b,        
+    X_female_0w       = female,      
+    X_sex_0w          = sex,         
+    X_suicide_ideation_0w = g1b,     
+    X_homeless_0w     = homeless,    
+    X_avg_drinks_0w   = i1,          
+    X_max_drinks_0w   = i2,          
+    X_indtot_0w       = indtot,      
+    X_mcs_0w          = mcs,         
+    X_pcs_0w          = pcs,         
+    X_pss_fr_0w       = pss_fr,      
+    X_racegrp_0w      = racegrp,     
+    X_substance_0w    = substance,   
+    X_satreat_0w      = satreat,     
+    X_sexrisk_0w      = sexrisk      
+  ) %>%
+  # 4. Recode factors
+  mutate(
+    Treatment     = factor(Treatment,     levels = c("no","yes"), labels = c("Usual Care","HELP")),
+    Treatment =  relevel(Treatment, ref = "Usual Care"),
+    across(
+      c(YP_event_flag, YS_anysub,
+        X_female_0w, X_sex_0w, X_suicide_ideation_0w,
+        X_homeless_0w, X_satreat_0w),
+      as_factor
+    )
+  ) %>%
+  # 5. Reorder: Treatment → YP_ → YS_ → X_
+  select(
+    Treatment,
+    starts_with("YP_"),
+    starts_with("YS_"),
+    starts_with("X_")
+  )
+```
+
+## Output Data
+
+```{r}
+# trial 39
+write_csv(df39_final, "cleaned_data/Non_Clustered_RCT/trial39.csv")
+write_rds(df39_final, "cleaned_data/Non_Clustered_RCT/trial39.rds")
+```
+
+# Trial 40
+## Load Data
+```{r}
+df40 = medicaldata::laryngoscope
+```
+
+## Cleaning
+```{r}
+df40_final = df40 %>%
+  
+  # rename primary, secondary, and baseline vars with time‐suffixes
+  rename(
+    ## treatment
+    Treatment                    = Randomization,
+
+    ## primary outcome
+    YP_total_intubation_time  = total_intubation_time,
+    YP_success_flag           = intubation_overall_S_F,
+
+    ## secondary outcomes
+    YS_attempts               = attempts,
+    YS_failures               = failures,
+    YS_attempt1_time          = attempt1_time,
+    YS_attempt1_success       = attempt1_S_F,
+    YS_attempt2_time          = attempt2_time,
+    YS_attempt2_assigned      = attempt2_assigned_method,
+    YS_attempt2_success       = attempt2_S_F,
+    YS_attempt3_time          = attempt3_time,
+    YS_attempt3_assigned      = attempt3_assigned_method,
+    YS_attempt3_success       = attempt3_S_F,
+    YS_bleeding               = bleeding,
+    YS_ease                   = ease,
+    YS_sore_throat            = sore_throat,
+    YS_view                   = view,
+
+    ## baseline covariates
+    X_age_0d                     = age,
+    X_gender_0d                  = gender,
+    X_ASA_0d                     = asa,
+    X_BMI_0d                     = BMI,
+    X_Mallampati_0d              = Mallampati
+  ) %>%
+  
+  # 3. Recode factors
+  mutate(
+    # treatment arm
+    Treatment = factor(
+                  Treatment,
+                  levels = c(0, 1),
+                  labels = c("Macintosh", "AWS")
+                ) %>%
+                relevel(ref = "Macintosh"),
+    # primary success flag
+    YP_success_flag = factor(
+      YP_success_flag,
+      levels = c(0, 1),
+      labels = c("no", "yes")
+    ),
+
+    # binary secondary flags
+    across(
+      c(
+        YS_attempt1_success,
+        YS_attempt2_assigned,
+        YS_attempt2_success,
+        YS_attempt3_assigned,
+        YS_attempt3_success,
+        YS_bleeding,
+        YS_view
+      ),
+      ~ factor(.x, levels = c(0, 1), labels = c("no", "yes"))
+    ),
+
+    # baseline covariates
+    X_gender_0d      = factor(X_gender_0d,      levels = c(0, 1), labels = c("female", "male")),
+    X_ASA_0d         = factor(X_ASA_0d,         levels = 1:4,   labels = c("I","II","III","IV")),
+    X_Mallampati_0d  = factor(X_Mallampati_0d,  levels = 1:4,   labels = c("1","2","3","4"))
+  ) %>%
+  
+  # 4. Final column order
+  select(
+    Treatment,
+    starts_with("YP_"),
+    starts_with("YS_"),
+    starts_with("X_")
+  )
+```
+
+## Output Data
+```{r}
+# trial 40
+write_csv(df40_final, "cleaned_data/Non_Clustered_RCT/trial40.csv")
+write_rds(df40_final, "cleaned_data/Non_Clustered_RCT/trial40.rds")
+```
+
+
+# Trial 41
+## Load Data
+```{r}
+df41 = medicaldata::licorice_gargle
+```
+
+## Cleaning
+```{r}
+df41_final = df41 %>% 
+  rename(
+    ## treatment
+    Treatment            = treat,
+
+    ## baseline covariates (_0h = pre‐op hour 0)
+    X_gender_0h          = preOp_gender,
+    X_ASA_0h             = preOp_asa,
+    X_BMI_0h             = preOp_calcBMI,
+    X_age_0h             = preOp_age,
+    X_Mallampati_0h      = preOp_mallampati,
+    X_smoking_0h         = preOp_smoking,
+    X_painPreOp_0h       = preOp_pain,
+    X_surgerySize_0h     = intraOp_surgerySize,
+
+    ## raw sore‐throat scores (0–10)
+    raw_throat_30min     = pacu30min_throatPain,
+    raw_throat_90min     = pacu90min_throatPain,
+    raw_throat_4h        = postOp4hour_throatPain,
+    raw_throat_POD1      = pod1am_throatPain,
+
+    ## raw swallow‐pain score (0–10)
+    raw_swallow_30min    = pacu30min_swallowPain,
+
+    ## raw cough severity (0–3)
+    raw_cough_extub_0min = extubation_cough,
+    raw_cough_30min      = pacu30min_cough,
+    raw_cough_90min      = pacu90min_cough,
+    raw_cough_4h         = postOp4hour_cough,
+    raw_cough_POD1       = pod1am_cough
+  ) %>%
+
+  # 2. Relevel Treatment (Sugar = reference)
+  mutate(
+    Treatment = factor(Treatment,
+                       levels = c(0,1),
+                       labels = c("Sugar","Licorice")) %>%
+                relevel(ref = "Sugar")
+  ) %>%
+
+  # 3. Derive incidence flags (YP_) and ordered severity (YS_)
+  mutate(
+    # Primary incidence at rest
+    YP_throat_30min    = factor(if_else(raw_throat_30min  > 0, "yes","no"),
+                                levels=c("no","yes")),
+    YP_throat_90min    = factor(if_else(raw_throat_90min  > 0, "yes","no"),
+                                levels=c("no","yes")),
+    YP_throat_4h       = factor(if_else(raw_throat_4h     > 0, "yes","no"),
+                                levels=c("no","yes")),
+
+    # Secondary incidence: rest at POD1 & swallowing at 30 min
+    YS_throat_1d     = factor(if_else(raw_throat_POD1   > 0, "yes","no"),
+                                levels=c("no","yes")),
+    YS_swallow_30min   = factor(if_else(raw_swallow_30min > 0, "yes","no"),
+                                levels=c("no","yes")),
+
+    # Coughing incidence at five times
+    YS_cough_extub_0min= factor(if_else(raw_cough_extub_0min > 0, "yes","no"),
+                                levels=c("no","yes")),
+    YS_cough_30min     = factor(if_else(raw_cough_30min      > 0, "yes","no"),
+                                levels=c("no","yes")),
+    YS_cough_90min     = factor(if_else(raw_cough_90min      > 0, "yes","no"),
+                                levels=c("no","yes")),
+    YS_cough_4h        = factor(if_else(raw_cough_4h         > 0, "yes","no"),
+                                levels=c("no","yes")),
+    YS_cough_1d      = factor(if_else(raw_cough_POD1       > 0, "yes","no"),
+                                levels=c("no","yes")),
+
+    # Ordered‐factor severity for mixed‐effects / ordinal models
+    YS_throat_30min    = factor(raw_throat_30min, levels=0:10, ordered=TRUE),
+    YS_throat_90min    = factor(raw_throat_90min, levels=0:10, ordered=TRUE),
+    YS_throat_4h       = factor(raw_throat_4h,    levels=0:10, ordered=TRUE),
+    YS_throat_POD1     = factor(raw_throat_POD1,  levels=0:10, ordered=TRUE),
+    YS_swallow_30min   = factor(raw_swallow_30min,levels=0:10, ordered=TRUE),
+
+    YS_cough_extub_0min= factor(raw_cough_extub_0min,
+                                levels=0:3,
+                                labels=c("none","mild","moderate","severe"),
+                                ordered=TRUE),
+    YS_cough_30min     = factor(raw_cough_30min,
+                                levels=0:3,
+                                labels=c("none","mild","moderate","severe"),
+                                ordered=TRUE),
+    YS_cough_90min     = factor(raw_cough_90min,
+                                levels=0:3,
+                                labels=c("none","mild","moderate","severe"),
+                                ordered=TRUE),
+    YS_cough_4h        = factor(raw_cough_4h,
+                                levels=0:3,
+                                labels=c("none","mild","moderate","severe"),
+                                ordered=TRUE),
+    YS_cough_POD1      = factor(raw_cough_POD1,
+                                levels=0:3,
+                                labels=c("none","mild","moderate","severe"),
+                                ordered=TRUE)
+  ) %>%
+
+  # 4. Factorize baseline covariates
+  mutate(
+    across(
+      c(X_gender_0h, X_ASA_0h, X_Mallampati_0h,
+        X_smoking_0h, X_painPreOp_0h, X_surgerySize_0h),
+      as.factor
+    )
+  ) %>%
+
+  # 5. Clean up raw_ columns and reorder
+  select(
+    Treatment,
+    starts_with("YP_"),
+    starts_with("YS_"),
+    starts_with("X_")
+  )
+```
+
+
+## Output Data
+```{r}
+# trial 41
+write_csv(df41_final, "cleaned_data/Non_Clustered_RCT/trial41.csv")
+write_rds(df41_final, "cleaned_data/Non_Clustered_RCT/trial41.rds")
+```
+
+
+# Trial 42
+## Load Data
+```{r}
+df42 = medicaldata::supraclavicular
+```
+
+## Cleaning
+```{r}
+df42_final = df42 %>%
+  # 1) Recode treatment arm and drop ID
+  rename(Treatment = group) %>%
+  mutate(
+    Treatment = factor(Treatment,
+                       levels = c(1, 2),
+                       labels = c("Combined", "Sequential")),
+    Treatment = relevel(Treatment, ref = "Combined")
+  ) %>%
+  select(-subject) %>%
+  
+  # 2) Pull outcomes into new columns and factor censor indicators
+  mutate(
+    YP_onset_sensory        = onset_sensory,
+    YP_onset_sensory_censor = factor(nerve_block_censor,
+                                     levels = c(0, 1),
+                                     labels = c("Not censored", "Censored")),  # censor flag :contentReference[oaicite:0]{index=0}
+    
+    YS_onset_first_sensory  = onset_first_sensory,
+    YS_onset_motor          = onset_motor,
+    
+    YS_med_duration         = med_duration,
+    YS_med_duration_censor  = factor(med_censor,
+                                     levels = c(0, 1),
+                                     labels = c("Not censored", "Censored")),  # censor flag
+    
+    YS_vps_rest             = vps_rest,
+    YS_vps_movement         = vps_movement,
+    YS_opioid_total         = opioid_total
+  ) %>%
+  select(-onset_sensory, -nerve_block_censor,
+         -onset_first_sensory, -onset_motor,
+         -med_duration, -med_censor,
+         -vps_rest, -vps_movement, -opioid_total) %>%
+  
+  # 3) Prefix and factor baseline covariates
+  mutate(
+    X_gender_0h     = factor(gender,
+                             levels = c(0, 1),
+                             labels = c("Female", "Male")),        # 1 = Male; 0 = Female :contentReference[oaicite:1]{index=1}
+    X_bmi_0h        = bmi,
+    X_age_0h        = age,
+    X_fentanyl_0h   = fentanyl,
+    X_alfentanil_0h = alfentanil,
+    X_midazolam_0h  = midazolam
+  ) %>%
+  select(-gender, -bmi, -age, -fentanyl, -alfentanil, -midazolam) %>%
+  
+  # 4) Final column ordering
+  select(
+    Treatment,
+    starts_with("YP_"),
+    starts_with("YS_"),
+    starts_with("X_")
+  )
+```
+
+## Output Data
+```{r}
+# trial 42
+write_csv(df42_final, "cleaned_data/Non_Clustered_RCT/trial42.csv")
+write_rds(df42_final, "cleaned_data/Non_Clustered_RCT/trial42.rds")
+```
+
+
+# Trial 43
+## Load Data
+```{r}
+df43 = medicaldata::opt
+```
+
+## Cleaning
+```{r}
+df43_final = df43 %>% 
+ # 1. Rename & suffix
+  rename(
+    ## treatment arm
+    Treatment             = Group,
+
+    ## baseline demographics & medical risk factors (_0d)
+    X_Age_0d              = Age,
+    X_Black_0d            = Black,
+    X_White_0d            = White,
+    X_NatAm_0d            = Nat.Am,
+    X_Asian_0d            = Asian,
+    X_Hisp_0d             = Hisp,
+    X_Education_0d        = Education,
+    X_PublicAssist_0d     = Public.Asstce,
+
+    X_Hypertension_0d     = Hypertension,
+    X_Diabetes_0d         = Diabetes,
+    X_DiabType_0d         = BL.Diab.Type,
+    X_BMI_0d              = BMI,
+    X_UseTob_0d           = Use.Tob,
+    X_CigsPerDay_0d       = BL.Cig.Day,
+    X_UseAlc_0d           = Use.Alc,
+    X_DrinksPerDay_0d     = BL.Drks.Day,
+    X_DrugAdd_0d          = Drug.Add,
+    X_PrevPreg_0d         = Prev.preg,
+    X_NPrevPreg_0d        = N.prev.preg,
+    X_LivePTB_0d          = Live.PTB,
+    X_Stillbirth_0d       = Any.stillbirth,
+    X_SpontAb_0d          = Spont.ab,
+    X_InducedAb_0d        = Induced.ab,
+    X_PregLoss_0d         = Any.live.ptb.sb.sp.ab.in.ab,
+    X_NLivingKids_0d      = N.living.kids,
+
+    ## baseline periodontal measures (_0d)
+    X_NQualTeeth_0d       = N.qualifying.teeth,
+    X_GE_0d               = BL.GE,
+    X_pctBOP_0d           = BL..BOP,
+    X_PDavg_0d            = BL.PD.avg,
+    X_pctPD4_0d           = BL..PD.4,
+    X_pctPD5_0d           = BL..PD.5,
+    X_CALavg_0d           = BL.CAL.avg,
+    X_pctCAL2_0d          = BL..CAL.2,
+    X_pctCAL3_0d          = BL..CAL.3,
+    X_CalcI_0d            = BL.Calc.I,
+    X_PlI_0d              = BL.Pl.I,
+
+    ## primary outcomes
+    YP_preterm_flag       = `Preg.ended...37.wk`,
+    YP_GA_days            = `GA.at.outcome`,
+
+    ## key secondary outcomes
+    YS_birthweight_g      = Birthweight,
+    YS_Apgar1_1min        = Apgar1,
+    YS_Apgar5_5min        = Apgar5,
+    YS_anySAE_flag        = `Any.SAE.`
+  ) %>%
+
+  # 2. Recode & relevel Treatment
+  mutate(
+    Treatment = factor(
+      Treatment,
+      levels = c("C","T"),
+      labels = c("Control","Intervention")
+    ) %>% relevel(ref = "Control")
+  ) %>%
+
+  # 3. Factorize binary/categorical variables
+  mutate(
+    across(
+      c(
+        X_Black_0d, X_White_0d, X_NatAm_0d, X_Asian_0d,
+        X_Hisp_0d, X_PublicAssist_0d,
+        X_Hypertension_0d, X_Diabetes_0d, X_UseTob_0d,
+        X_DrugAdd_0d, X_PrevPreg_0d, X_LivePTB_0d,
+        X_Stillbirth_0d, X_SpontAb_0d, X_InducedAb_0d,
+        X_PregLoss_0d, X_Education_0d, YP_preterm_flag, YS_anySAE_flag
+      ),
+      as_factor
+    )
+  ) %>%
+
+  # 4. Final column order
+  select(
+    Treatment,
+    starts_with("YP_"),
+    starts_with("YS_"),
+    starts_with("X_")
+  )
+```
+
+## Output Data
+```{r}
+# trial 43
+write_csv(df43_final, "cleaned_data/Non_Clustered_RCT/trial43.csv")
+write_rds(df43_final, "cleaned_data/Non_Clustered_RCT/trial43.rds")
+```
+
+
+# Trial 44
+## Load Data
+```{r}
+df44 = read_xlsx("raw_data/Non_Clustered_RCT/44/44.xlsx")
+```
+
+## Cleaning
+```{r}
+df44_final = df44 %>%
+  filter(is.na(`reson for drop`)) %>% 
+  mutate(
+    X_Age_0m       = Age,
+    X_Sex_0m       = as_factor(Sex),
+    X_Ht_0m        = Ht,
+    X_Wt_0m        = Wt,
+    X_BMI_0m       = BMI,
+    X_Duration_0m  = Duration,
+    X_Diagnosis_0m  = as_factor(Diagnosis),
+    X_Pain_0m = `Pre Pain`,
+    
+    
+    vascular = if_else(is.na(vascular), 0, vascular),
+    
+    YP_intravascular = as.factor(vascular),
+    
+    YS_Pain_1m = `Post Pain`,
+    YS_During_Pain = `During Pain`,
+    YS_PGIC_1m = PGIC,
+    
+    Treatment = factor(if_else(Group == 0, "Conventional", "Alternative")),
+    Treatment = relevel(Treatment, ref = "Conventional")
+  ) %>% 
+  select(
+    Treatment,
+    starts_with("YP_"),
+    starts_with("YS_"),
+    starts_with("X_")
+  )
+```
+
+
+
+## Output Data
+```{r}
+# trial 44
+write_csv(df44_final, "cleaned_data/Non_Clustered_RCT/trial44.csv")
+write_rds(df44_final, "cleaned_data/Non_Clustered_RCT/trial44.rds")
+```
+
+
+
+# Trial 45
+## Load Data
+```{r}
+df45 = read_csv("raw_data/Non_Clustered_RCT/45/45.csv")
+```
+
+## Cleaning
+```{r}
+df45_final = df45 %>%
+  rename(Treatment = discount) %>%
+  mutate(
+    Treatment = factor(
+      Treatment,
+      levels = c("0%", "15%", "30%"),
+      labels = c("0% Discount", "15% Discount", "30% Discount")
+    ),
+    Treatment = relevel(Treatment, ref = "0% Discount")
+  )
+
+# 4. Rename & factor PPT‐info covariates
+df45_final = df45_final %>%
+  mutate(
+    X_income_group_0w  = factor(income_group),
+    X_covid_present_0w = factor(covid_present),
+    X_store_0w         = factor(covid_present),
+    X_store_type_0w    = factor(store_type)
+  )
+primaries = c("fruit","veg","noncalbev", "soda", "bottledwater", "seltzerwater")
+
+# 5. Helper function to map raw names → cleaned names
+rename_timepoint = function(nms) {
+  out = nms
+
+  # – Visit 2 (_post → pre_YP/_YS_<var>_8w)
+  is_v2 = str_ends(nms, "_pre")
+  v2_vars = str_remove(nms[is_v2], "_pre")
+  out[is_v2] = if_else(
+    v2_vars %in% primaries,
+    paste0("X_", v2_vars, "_8w"),
+    paste0("X_", v2_vars, "_8w")
+  )
+
+  # – Visit 3 (_change → YP_delta/_YS_delta_<var>_24w)
+  is_chg = str_ends(nms, "_change")
+  chg_vars = str_remove(nms[is_chg], "_change")
+  out[is_chg] = if_else(
+    chg_vars %in% primaries,
+    paste0("YP_delta_", chg_vars, "_24w"),
+    paste0("YS_delta_", chg_vars, "_24w")
+  )
+
+  out
+}
+
+# 6. Apply renaming to all _pre, _post, _change columns
+df45_final = df45_final %>%
+  rename_with(.fn = Vectorize(rename_timepoint))
+
+# 7. Reorder: Treatment, all YP_, all YS_, then all X_
+df45_final = df45_final %>%
+  select(
+    Treatment,
+    starts_with("YP_"),
+    starts_with("YS_"),
+    starts_with("X_")
+  ) %>% 
+  select(
+        -X_percentfat_8w,
+    -YS_delta_percentfat_24w,
+    -X_bmi_cat_8w,
+    -X_ssb_8w,
+    -YS_delta_ssb_24w,
+    -X_kg_8w,
+    -YS_delta_kg_24w,
+    -X_ffm_8w,
+    -YS_delta_ffm_24w,
+    -X_noncalbev_8w,
+    -X_ed_minus_8w,
+    -X_ed_fv_minus_8w,
+    -X_soda_ds_minus_8w,
+    -X_covid_present_0w
+  )
+```
+
+
+## Output Data
+```{r}
+# trial 45
+write_csv(df45_final, "cleaned_data/Non_Clustered_RCT/trial45.csv")
+write_rds(df45_final, "cleaned_data/Non_Clustered_RCT/trial45.rds")
+```
+
+
+# Trial 46
+## Load Data
+```{r}
+df46 = read_csv2("raw_data/Non_Clustered_RCT/46/46.csv")
+```
+
+## Cleaning
+```{r}
+df46_final = df46 %>%
+  mutate(
+    Treatment = `Group (0=control group; 1=intervention group)`,
+    YP_Total_points = `Total points`,
+    YS_Patient_interaction_points = `Patient interaction: points`,
+    YS_Inspection_points = `Inspection: points`,
+    YS_Pulses_points = `Pulses: points`,
+    YS_Auscultation_points = `Auscultation: points`,
+    YS_Cardiac_findings_points = `Cardiac findings: points`,
+    X_Age_0y = factor(`Age in years (grouped into ranges for anonymization)`),
+    X_OtherPracExp_cvPE_0w = `other practical experience in cv PE (0=no; 1=yes)`,
+    X_FacCourseOnCardioWard_0w = `Faculty lead PE course on cardiology ward (0=no; 1=yes)`,
+    X_SameFaculty4of5_0w = `Same faculty member teaching faculty course in 4 or more of the 5 session (0=no; 1=yes)`,
+    X_TimePrepFollowup_0min = `Time for preparation and follow up during faculty lead PE course (1=up to 30 minutes; 2=30-59 minutes; 3=60-120 minutes; 4=more than 120 minutes)`,
+    X_PrepSkillsExam_0min = `Preparation for skills examination (0=No preparation; 1=up to 30 minutes; 2=30 to 59 minutes; 3=60-120 minutes; 4=more than 120 minutes)`,
+    X_Prep_Textbooks_0w = `Preparation using textbooks  (0=no; 1=yes)`,
+    X_Prep_Internet_0w = `Preparation using the internet  (0=no; 1=yes)`,
+    X_Prep_LectureScripts_0w = `Preparation using lecture scripts/lectures (0=no; 1=yes)`
+  ) %>%
+  mutate(
+        Treatment = factor(Treatment,
+                       levels = c(0,1),
+                       labels = c("Control","Simulator_PE")),
+    Treatment = relevel(Treatment, ref = "Control"),
+    X_OtherPracExp_cvPE_0w = factor(X_OtherPracExp_cvPE_0w, levels = c(0,1), labels = c("No","Yes")),
+    X_FacCourseOnCardioWard_0w = factor(X_FacCourseOnCardioWard_0w, levels = c(0,1), labels = c("No","Yes")),
+    X_SameFaculty4of5_0w = factor(X_SameFaculty4of5_0w, levels = c(0,1), labels = c("No","Yes")),
+    X_TimePrepFollowup_0min = factor(X_TimePrepFollowup_0min),
+    X_PrepSkillsExam_0min = factor(X_PrepSkillsExam_0min),
+    X_Prep_Textbooks_0w = factor(X_Prep_Textbooks_0w, levels = c(0,1), labels = c("No","Yes")),
+    X_Prep_Internet_0w = factor(X_Prep_Internet_0w, levels = c(0,1), labels = c("No","Yes")),
+    X_Prep_LectureScripts_0w = factor(X_Prep_LectureScripts_0w, levels = c(0,1), labels = c("No","Yes"))
+  ) %>%
+  select(
+    Treatment,
+    YP_Total_points,
+    starts_with("YS_"),
+    starts_with("X_")
+  )
+```
+## Output Data
+
+```{r}
+# trial 46
+write_csv(df46_final, "cleaned_data/Non_Clustered_RCT/trial46.csv")
+write_rds(df46_final, "cleaned_data/Non_Clustered_RCT/trial46.rds")
+```
+
+
+# Trial 47
+## Load Data
+```{r}
+df47 = read_xlsx("raw_data/Non_Clustered_RCT/47/47.xlsx", na = c("", ".", "NULL", "null", "md", "nc", "pf", "protocol finalized"))
+```
+
+## Cleaning
+```{r}
+df47_final = df47 %>%
+  # Drop ID columns
+  select(-Plot_ID) %>% 
+  mutate(
+    Treatment             = Gr,
+    X_gender_0h           = factor(Gn),
+    X_age_range_0h        = factor(Ag),
+    X_weight_range_0h     = factor(We),
+    X_wheezing_0h         = factor(PW),
+    X_resp_hosp_0h        = factor(PRH),
+    X_protocol_ED_0h      = factor(Em),
+    X_external_transfer_0h= factor(Trn),
+    X_viral_panel_0h      = factor(VP),
+    YP_intubation         = It,
+    YS_death              = De,
+    YS_sedation_days      = SDu,
+    YS_enteral_tube_days  = factor(ETu),
+    YS_nasal_pressure_injury = factor(NPI),
+    YS_PICU_LOS_days      = factor(PLOS),
+    YS_hospital_LOS_days  = factor(HLOS),
+    YS_mech_vent_days     = MV,
+    YS_antibiotic         = factor(ATB),
+    X_PIM_score_0h        = PIM,
+    X_duration_hrs_0h     = TD
+  ) %>%
+  mutate(
+    Treatment       = factor(Treatment, levels = c("NIV","HFNC")),
+    Treatment       = relevel(Treatment, ref = "NIV"),
+    YP_intubation   = factor(YP_intubation, levels = c("n","y"), labels = c("No","Yes")),
+    YS_death        = factor(YS_death, levels = c("n","y"), labels = c("No","Yes"))
+  )
+
+# 3. Rename repeated vitals: X_<metric>_0h for baseline, pre_YS_<metric>_<h>h thereafter
+vitals = list(
+  "HR_"      = "heart_rate",
+  "RR_"      = "resp_rate",
+  "SpO2_"    = "SpO2",
+  "WD_"      = "WD_score",
+  "FiO2_"    = "FiO2",
+  "L\\.min_" = "flow_lpm",
+  "IPAP_"    = "IPAP",
+  "EPAP_"    = "EPAP"
+)
+for(pat in names(vitals)){
+  metric = vitals[[pat]]
+  for(col in grep(paste0("^", pat, "[0-9]+$"), names(df47_final), value=TRUE)){
+    t = sub(pat, "", col)
+    new_name = if(t == "0") {
+      paste0("X_", metric, "_0h")
+    } else if(t == "96") {
+      paste0("YS_", metric, "_", t, "h")
+    } else {
+      paste0("pre_YS_", metric, "_", t, "h")
+    }
+    df47_final = rename(df47_final, !!new_name := !!sym(col))
+  }
+}
+
+# 5. Final ordering and output
+df47_final = df47_final %>%
+  select(
+    Treatment,
+    starts_with("YP_"),
+    starts_with("YS_"),
+    starts_with("pre_YS_"),
+    starts_with("X_")
+  )
+
+
+```
+
+## Output Data
+
+```{r}
+# trial 47
+write_csv(df47_final, "cleaned_data/Non_Clustered_RCT/trial47.csv")
+write_rds(df47_final, "cleaned_data/Non_Clustered_RCT/trial47.rds")
+```
+
+
+
+# Trial 48
+## Load Data
+```{r}
+df48 = read_csv("raw_data/Non_Clustered_RCT/48/48.csv", na = c("", " ", ".", "NA", "N A", "NULL", "null", "-999"))
+```
+
+## Cleaning
+```{r}
+# Create cleaned dataset
+df48_final = df48 %>%
+  # Rename treatment variable
+  rename(Treatment = ASSIGNUB) %>%
+  
+  # Primary outcome: Weight change (delta) from baseline to 16 weeks
+  mutate(
+    YP_delta_WEIGHT_16w = CHANGE,
+    
+    # Baseline weight (covariate, same naming as primary outcome)
+    X_WEIGHT_0w = W_KG,
+    
+    # Other baseline covariates
+    X_HEIGHT_0w = H_CM,
+    X_AGE_0w = AGE,
+    X_SEX_0w = SEX,
+    X_RACE_0w = ETH,
+    X_SITE_0w = SITE,
+    X_STATUS_0w = INITUB,
+    
+    # Secondary outcome: Compliance (measured over 16 weeks)
+    YS_COMPLIANCE_16w = COMPLI_FORCED
+  ) %>%
+  mutate(Treatment = case_when(
+    Treatment == "x" ~ "Control",
+    Treatment == "y" ~ "Breakfast",
+    Treatment == "z" ~ "NoBreakfast",
+    TRUE ~ as.character(Treatment)
+  )) %>%
+  mutate(
+    Treatment = relevel(factor(Treatment), ref = "Control"),
+    X_SEX_0w = factor(X_SEX_0w),
+    X_RACE_0w = factor(X_RACE_0w),
+    X_SITE_0w = factor(X_SITE_0w),
+    X_STATUS_0w = factor(X_STATUS_0w)
+  ) %>% 
+  select(
+    Treatment,
+    starts_with("YP"),
+    starts_with("YS"),
+    starts_with("X_")
+  )
+```
+
+## Output Data
+```{r}
+# trial 48
+write_csv(df48_final, "cleaned_data/Non_Clustered_RCT/trial48.csv")
+write_rds(df48_final, "cleaned_data/Non_Clustered_RCT/trial48.rds")
+```
+
+# Trial 49
+## Load Data
+```{r}
+df49 = read_csv2("raw_data/Non_Clustered_RCT/49/49_old.csv",  locale = locale(encoding = "Latin1"))
+```
+
+## Cleaning
+```{r}
+df49_final = df49 %>% 
+  rename(Treatment = Random) %>%                       # README: 1 = intervention, 2 = control :contentReference[oaicite:7]{index=7}
+  mutate(
+    Treatment = factor(Treatment,
+                       levels = c(2, 1),
+                       labels = c("Control", "OralStimulation")),
+    Treatment = relevel(Treatment, ref = "Control")
+  ) %>%
+  
+  ## ─── 3) Drop ID column ──────────────────────────────────────────────────────
+  select(-id) %>%
+  
+  ## ─── 4) Primary outcomes (YP_) ──────────────────────────────────────────────
+  rename(
+    YP_prof      = prof,        # proficiency – primary EF endpoint :contentReference[oaicite:8]{index=8}
+    YP_txtr      = txtr,        # transfer-rate                          :contentReference[oaicite:9]{index=9}
+    YP_da        = da,          # overall transfer                       :contentReference[oaicite:10]{index=10}
+    YS_t_sondad  = t_sondad     # transition-time days                   :contentReference[oaicite:11]{index=11},
+    
+  ) %>%
+  
+  ## ─── 5) Secondary outcomes (YS_) ────────────────────────────────────────────
+  rename(
+    YS_OFS_level1 = `nível1`,
+    YS_OFS_level2 = `nível2`,
+    YS_OFS_level3 = `nível3`,
+    YS_OFS_level4 = `nível4`,
+    YS_length_stay = internad
+  ) %>%
+  # daily oral-volume trajectory (D11–D18 → 1d–8d)
+  rename_with(~ str_replace_all(.x, c(
+      "^d11$" = "YS_volume_1d",
+      "^d12$" = "YS_volume_2d",
+      "^d13$" = "YS_volume_3d",
+      "^d14$" = "YS_volume_4d",
+      "^d15$" = "YS_volume_5d",
+      "^d16$" = "YS_volume_6d",
+      "^d17$" = "YS_volume_7d",
+      "^d18$" = "YS_volume_8d"
+  )), .cols = matches("^d1[1-8]$")) %>%                    # :contentReference[oaicite:12]{index=12}
+  
+  ## ─── 6) Covariates (X_)  ───────────────────────────────────────────────────
+  rename(
+    X_sex_0d            = sexo,
+    X_gestAge_0w        = ig,
+    X_birthWt_0d        = pn,
+    X_Apgar5_0d         = apgar_5,
+    X_Apgar10_0d        = apgar_10,
+    X_MechVent_0d       = vm,
+    X_NIMechVent_0d     = vmni,
+    X_CPAP_0d           = cpap,
+    X_SGA_0d            = pig,
+    X_AGA_0d            = aig,
+    X_RDS_0d            = sdr,
+    X_CPAP_prog_0d      = cpap_prog,
+    X_Caffeine_0d       = cafe_aval,
+    X_PMA_assess_0w     = igc_aval,
+    X_Wt_assess_0d      = peso_aval,
+    X_NGT_0d            = sng,
+    X_OGT_0d            = sog,
+    X_OGT_Kangaroo_0d   = sogc,
+    X_start_oral_0d     = start_oral,
+    YS_full_oral      = full_oral,
+    X_PMA_fullFeeds_0w  = igc_vo_plena,
+    X_PMA_discharge_0w  = igc_alta,
+    X_fullBF_discharge_0d = smec_alta,
+    X_Wt_discharge_0d   = peso_alta,
+    X_HR_0d     = fc_incial,
+    X_O2sat_0d    = sat_ini,
+    YS_HR_final = fc_final,
+    X_O2sat_final    = sat_final,
+  ) %>%
+  mutate(
+    across(
+      c(X_sex_0d, X_MechVent_0d, YS_OFS_level1, YS_OFS_level2, YS_OFS_level3,
+        YS_OFS_level4, X_NIMechVent_0d, X_CPAP_0d, X_SGA_0d, X_AGA_0d), 
+      as_factor
+    )
+  ) %>% 
+mutate(across(
+    where(~ n_distinct(.) == 2),
+    ~ factor(.)
+  )) %>% 
+  
+  ## ─── 8) Re-order columns  ──────────────────────────────────────────────────
+  select(
+    Treatment,
+    starts_with("YP_"),
+    starts_with("pre_YP_"),   # none in this set but keeps ordering rule
+    starts_with("post_YP_"),
+    starts_with("YS_"),
+    starts_with("X_")
+  )
+```
+
+## Output Data
+```{r}
+# trial 49
+write_csv(df49_final, "cleaned_data/Non_Clustered_RCT/trial49.csv")
+write_rds(df49_final, "cleaned_data/Non_Clustered_RCT/trial49.rds")
+```
+
+# Trial 50
+## Load Data
+```{r}
+df50 = survival::cgd
+```
+
+## Cleaning
+```{r}
+# Step 1: Create baseline data (enum = 1 contains baseline characteristics)
+# Step 1: Create baseline data (enum = 1 contains baseline characteristics)
+baseline_data = df50 %>%
+  filter(enum == 1) %>%
+  select(id, center, random, treat, sex, age, height, weight, inherit, 
+         steroids, propylac, hos.cat) %>%
+  # Rename treatment variable
+  rename(Treatment = treat) %>%
+  # Factor Treatment with placebo as reference
+  mutate(Treatment = factor(Treatment, levels = c("placebo", "rIFN-g"),
+                            labels = c("Placebo", "rIFN-g"))) %>%
+  # Factor other categorical/binary variables
+  mutate(
+    X_sex_0w = factor(sex),
+    X_inherit_0w = factor(inherit),
+    X_steroids_0w = factor(steroids),
+    X_propylac_0w = factor(propylac),
+    X_hos_cat_0w = factor(hos.cat),
+    X_center_0w = factor(center),
+    X_age_0w = age,
+    X_height_0w = height,
+    X_weight_0w = weight
+  ) %>%
+  select(-sex, -inherit, -steroids, -propylac, -hos.cat, -center, -age, -height, -weight, -random)
+
+# Step 2: Create primary outcome - time to first serious infection (using proper time suffix)
+primary_outcome = df50 %>%
+  arrange(id, enum) %>%
+  group_by(id) %>%
+  summarise(
+    # Time to first event or censoring (in days, so use _d suffix)
+    YP_time_to_first_infection = first(tstop),
+    # Event indicator for first infection
+    YP_first_infection_event = factor(first(status)),
+    .groups = "drop"
+  )
+
+# Step 3: Create secondary outcomes
+# YS_1: Total number of serious infections
+secondary_outcomes = df50 %>%
+  group_by(id) %>%
+  summarise(
+    YS_total_serious_infections = sum(status),
+    .groups = "drop"
+  )
+
+# Step 5: Combine all data
+df50_final = baseline_data %>%
+  left_join(primary_outcome, by = "id") %>%
+  left_join(secondary_outcomes, by = "id") %>%
+  # Remove ID column as requested
+  select(-id) %>%
+  # Reorder columns: Treatment first, then YP_, YS_, X_ variables
+  select(Treatment, 
+         starts_with("YP_"), 
+         starts_with("YS_"), 
+         starts_with("X_"), -X_steroids_0w)
+```
+
+## Output Data
+```{r}
+# trial 50
+write_csv(df50_final, "cleaned_data/Non_Clustered_RCT/trial50.csv")
+write_rds(df50_final, "cleaned_data/Non_Clustered_RCT/trial50.rds")
+```
+
+
+# Cluster Trial 1
+## Load Data
+```{r}
+dfc1 = read_csv("raw_data/Clustered_RCT/1/1.csv")
+```
+
+
+## Cleaning
+```{r}
+dfc1_final = dfc1 %>%
+  rename(
+    ClusterID               = cluster,
+    Treatment             = treatment,
+    
+    # Baseline covariates (0 months or 0 days)
+    X_age_0m              = age_months,
+    X_sex_0m                 = sex,
+    X_bornearly_0m           = bornearly,
+    X_mother_age_cat_0m      = motherage_bl_cat,
+    X_hh_members_cat_0m      = hhmembers_cat,
+    X_father_primary_0m      = father_primary,
+    X_mother_primary_0m      = mother_primary,
+    X_wealth_quintile_0m     = aq,
+    X_distance_0m         = km,
+    X_cluster_population_0m  = pop,
+    X_haz_0m              = haz_bl,
+    X_waz_0m              = waz_bl,
+    X_whz_0m              = whz_bl,
+    X_SRQ_0m              = SRQ_bl
+  ) %>%
+  mutate(
+    # Co-primary outcomes (YP_)
+    YP_stunting_24m       = as.integer(haz06 < -2),
+    YP_cog_composite_24m  = cog_composite,
+    YP_lang_composite_24m = lang_composite,
+    YP_motor_composite_24m = motor_composite,
+    YP_se_composite_24m   = se_composite,
+    YP_ab_composite_24m   = ab_composite,
+    # Secondary outcomes (YS_)
+    YS_haz06_24m                     = haz06,
+    YS_diet_diversity_24m            = rowSums(select(., matches("^e[1-7]$")), na.rm = TRUE),
+    YS_caregiver_child_interaction_24m = rowMeans(select(., matches("^MICS_.*_sb2$")), na.rm = TRUE)
+  ) %>%
+  mutate(
+    Treatment = factor(Treatment, levels = c(0, 1), labels = c("Usual Care", "Early Childhood Development"))
+  ) %>%
+  select(
+    ClusterID,
+    Treatment,
+    starts_with("YP_"),
+    starts_with("pre_YP_"),  # none here but placeholder
+    starts_with("post_YP_"), # none here but placeholder
+    starts_with("YS_"),
+    starts_with("X_")
+  )
+
+# Convert specified variables to factors and standardize binary factor levels
+dfc1_final = dfc1_final %>% 
+  mutate(
+    across(c(YP_stunting_24m, X_sex_0m, X_bornearly_0m, X_mother_age_cat_0m, 
+             X_father_primary_0m, X_mother_primary_0m), as_factor),
+    # Standardize binary factors to have consistent 0,1 levels
+    across(where(is.factor), ~ if(length(levels(.)) == 2) {
+      # Convert to 0,1 regardless of original levels
+      factor(as.numeric(.) - 1, levels = c("0", "1"))
+    } else {
+      .  # Keep multi-level factors unchanged
+    })
+  )
+
+# 3. Cluster-level aggregation with automatic detection of factor types
+dfc1_cluster = dfc1_final %>%
+  group_by(ClusterID, Treatment) %>%
+  reframe(
+    n_participants = n(),
+    
+    # Co-primary outcomes
+    YP_stunting_24m        = {result = mean(as.numeric(as.character(YP_stunting_24m)), na.rm = TRUE); ifelse(is.nan(result), NA, result)},
+    YP_cog_composite_24m   = {result = mean(YP_cog_composite_24m, na.rm = TRUE); ifelse(is.nan(result), NA, result)},
+    YP_lang_composite_24m  = {result = mean(YP_lang_composite_24m, na.rm = TRUE); ifelse(is.nan(result), NA, result)},
+    YP_motor_composite_24m = {result = mean(YP_motor_composite_24m, na.rm = TRUE); ifelse(is.nan(result), NA, result)},
+    YP_se_composite_24m    = {result = mean(YP_se_composite_24m, na.rm = TRUE); ifelse(is.nan(result), NA, result)},
+    YP_ab_composite_24m    = {result = mean(YP_ab_composite_24m, na.rm = TRUE); ifelse(is.nan(result), NA, result)},
+    
+    # Secondary outcomes
+    YS_haz06_24m                       = {result = mean(YS_haz06_24m, na.rm = TRUE); ifelse(is.nan(result), NA, result)},
+    YS_diet_diversity_24m              = {result = mean(YS_diet_diversity_24m, na.rm = TRUE); ifelse(is.nan(result), NA, result)},
+    YS_caregiver_child_interaction_24m = {result = mean(YS_caregiver_child_interaction_24m, na.rm = TRUE); ifelse(is.nan(result), NA, result)},
+    
+    # Baseline numeric covariates
+    X_age_0m             = {result = mean(X_age_0m, na.rm = TRUE); ifelse(is.nan(result), NA, result)},
+    X_hh_members_cat_0m     = {result = mean(X_hh_members_cat_0m, na.rm = TRUE); ifelse(is.nan(result), NA, result)},
+    X_wealth_quintile_0m    = {result = mean(X_wealth_quintile_0m, na.rm = TRUE); ifelse(is.nan(result), NA, result)},
+    X_distance_0m           = {result = mean(X_distance_0m, na.rm = TRUE); ifelse(is.nan(result), NA, result)},
+    X_cluster_population_0m = {result = mean(X_cluster_population_0m, na.rm = TRUE); ifelse(is.nan(result), NA, result)},
+    X_haz_0m             = {result = mean(X_haz_0m, na.rm = TRUE); ifelse(is.nan(result), NA, result)},
+    X_waz_0m             = {result = mean(X_waz_0m, na.rm = TRUE); ifelse(is.nan(result), NA, result)},
+    X_whz_0m             = {result = mean(X_whz_0m, na.rm = TRUE); ifelse(is.nan(result), NA, result)},
+    X_SRQ_0m             = {result = mean(X_SRQ_0m, na.rm = TRUE); ifelse(is.nan(result), NA, result)},
+    
+    # Baseline factor covariates
+    X_sex_0m              = {result = mean(as.numeric(as.character(X_sex_0m)), na.rm = TRUE); ifelse(is.nan(result), NA, result)},
+    X_bornearly_0m        = {result = mean(as.numeric(as.character(X_bornearly_0m)), na.rm = TRUE); ifelse(is.nan(result), NA, result)},
+    X_mother_age_cat_0m   = {mode_result = DescTools::Mode(X_mother_age_cat_0m, na.rm = TRUE); factor(mode_result, levels = levels(X_mother_age_cat_0m))},
+    X_father_primary_0m   = {result = mean(as.numeric(as.character(X_father_primary_0m)), na.rm = TRUE); ifelse(is.nan(result), NA, result)},
+    X_mother_primary_0m   = {result = mean(as.numeric(as.character(X_mother_primary_0m)), na.rm = TRUE); ifelse(is.nan(result), NA, result)}
+  ) %>%
+  ungroup() %>%
+  select(
+    ClusterID,
+    Treatment,
+    n_participants,
+    starts_with("YP_"),
+    starts_with("pre_YP_"),
+    starts_with("post_YP_"),
+    starts_with("YS_"),
+    starts_with("X_")
+  )
+```
+## Output Data
+```{r}
+# cluster 1
+write_csv(dfc1_cluster, "cleaned_data/Clustered_RCT/1_cluster.csv")
+write_rds(dfc1_cluster, "cleaned_data/Clustered_RCT/1_cluster.rds")
+
+write_csv(dfc1_final, "cleaned_data/Clustered_RCT/1_patient.csv")
+write_rds(dfc1_final, "cleaned_data/Clustered_RCT/1_patient.rds")
+```
+
+
+# Cluster Trial 2
+## Load Data
+```{r}
+dfc2 = read_dta("raw_data/Clustered_RCT/2/2.dta")
+```
+
+## Cleaning
+```{r}
+# 2. Individual-level cleaning & renaming
+dfc2_final = dfc2 %>%
+  # 2a. Derive Treatment and keep Cluster ID
+  mutate(
+    ClusterID   = Code_HC,
+    Treatment = factor(case_when(
+      Type_HC == 1 ~ "GDM Intervention",
+      Type_HC == 2 ~ "Usual Care",
+    TRUE ~ NA_character_
+    ), levels = c("Usual Care", "GDM Intervention"))
+  ) %>% 
+  mutate(
+    X_Age_0w       = Age,        # baseline age
+    X_Gest_0w      = Gest,       # baseline gestity
+    X_Resid_0w     = Resid,      # baseline residence
+    X_GDM_ACDT_0w     = GDM_ACDT,   # history of GDM
+    X_MACRO_ACDT_0w   = MACRO_ACDT, # history of macrosomia
+    X_Weight_0w    = Weight,     # baseline weight
+    YP_Birthwgt    = Birthwgt,    # primary outcome,
+    X_HC_Location_0w = factor(Locat_HC)
+  )
+
+# 3. Prefix FU1–FU22 variables as pre_YS_, preserving the "_FU#" suffix
+dfc2_final = dfc2_final %>%
+  rename_with(
+    .cols = matches("_FU\\d+$"),
+    .fn   = ~ paste0("pre_YS_", .)
+  )
+
+# 4. Prefix other pre-delivery repeated measures as pre_YS_
+dfc2_final = dfc2_final %>%
+  rename_with(
+    .cols = matches("^(GA_\\d+_wgt$|Test_screen\\d+$|Diag_.*$|FBS_.*Screen$|GPP_.*$)"),
+    .fn   = ~ paste0("pre_YS_", .)
+  )
+
+# 5. Prefix postpartum measures as post_YS_
+dfc2_final = dfc2_final %>%
+  rename_with(
+    .cols = matches("^(Retest_PP$|Test_PP\\d+$|DM_PP$|Res_FBS_PP\\d+$|Res_HGPO_PP$)"),
+    .fn   = ~ paste0("post_YS_", .)
+  )
+
+# 6. Rename one-off secondary outcomes
+dfc2_final = dfc2_final %>%
+  mutate(
+    YS_GW_fin         = GW_fin,
+    YS_Term           = Term,
+    YS_Mode_del       = Mode_del,
+    YS_Comp_del       = Comp_del,
+    YS_Comp_Cat_del   = Comp_Cat_del,
+    YS_Comp_NN        = Comp_NN,
+    YS_Comp_Cat_NN    = Comp_Cat_NN,
+    YS_APGAR1         = APGAR1,
+    YS_APGAR2         = APGAR2,
+    across(c(pre_YS_Test_screen2, pre_YS_Diag_FBS, pre_YS_Diag_HGPO1, 
+             pre_YS_Diag_HGPO2, pre_YS_Place_FU1, pre_YS_Tx_FU1, pre_YS_Place_FU2, 
+             pre_YS_Tx_FU2, pre_YS_Place_FU3, pre_YS_Tx_FU3, pre_YS_Place_FU4, pre_YS_Tx_FU4, 
+             pre_YS_Place_FU5, pre_YS_Tx_FU5, pre_YS_Place_FU6, pre_YS_Tx_FU6,
+              pre_YS_Tx_FU7, pre_YS_Place_FU8, pre_YS_Tx_FU8,
+             pre_YS_Place_FU9, pre_YS_Tx_FU9, pre_YS_Place_FU10, pre_YS_Tx_FU10,
+             pre_YS_Place_FU11, pre_YS_Tx_FU11, pre_YS_Place_FU12, pre_YS_Tx_FU12,
+             pre_YS_Place_FU13, pre_YS_Tx_FU13, pre_YS_Place_FU14, pre_YS_Tx_FU14,
+             pre_YS_Place_FU15, pre_YS_Tx_FU15, pre_YS_Place_FU16, pre_YS_Tx_FU16,
+             pre_YS_Place_FU17, pre_YS_Tx_FU17, pre_YS_Place_FU18, pre_YS_Tx_FU18,
+             pre_YS_Place_FU19, pre_YS_Tx_FU19, pre_YS_Place_FU20, pre_YS_Tx_FU20,
+             pre_YS_Place_FU21, pre_YS_Tx_FU21, pre_YS_Place_FU22, pre_YS_Tx_FU22,
+             post_YS_DM_PP, post_YS_Test_PP2, post_YS_Test_PP1, post_YS_Retest_PP), as_factor)
+  )
+
+# 7. Reorder columns: Treatment, Cluster, then YP_, pre_YS_, post_YS_, X_
+dfc2_final = dfc2_final %>%
+  select(
+    ClusterID,
+    Treatment,
+    starts_with("YP_"),
+    starts_with("pre_YS_"),
+    starts_with("post_YS_"),
+    starts_with("X_")
+  )
+
+# Convert binary factors to have proper factor structure and standardize levels
+dfc2_final = dfc2_final %>% 
+  mutate(
+    # Convert specified variables to factors first
+    X_Resid_0w     = factor(X_Resid_0w),      # baseline residence
+    X_GDM_ACDT_0w     = factor(X_GDM_ACDT_0w),   # history of GDM
+    X_MACRO_ACDT_0w   = factor(X_MACRO_ACDT_0w), # history of macrosomia
+    # Standardize binary factors to have consistent 0,1 levels
+    across(where(is.factor), ~ if(length(levels(.)) == 2) {
+      # Convert to 0,1 regardless of original levels
+      factor(as.numeric(.) - 1, levels = c("0", "1"))
+    } else {
+      .  # Keep multi-level factors unchanged
+    })
+  )
+
+# 8. Create cluster-level summary with proper aggregation rules
+dfc2_cluster = dfc2_final %>%
+  group_by(ClusterID) %>%
+  reframe(
+    n_participants = n(),
+    Treatment = first(Treatment),
+    across(
+      starts_with(c("YP_", "pre_YS_", "post_YS_", "X_")),
+      ~ if (is.numeric(.x)) {
+          # Numeric variables: use mean
+          result = mean(.x, na.rm = TRUE)
+          ifelse(is.nan(result), NA, result)
+        } else if (is.factor(.x) && length(levels(.x)) == 2) {
+          # Binary factors with 0,1 levels: convert to numeric and take mean (gives proportion)
+          result = mean(as.numeric(as.character(.x)), na.rm = TRUE)
+          ifelse(is.nan(result), NA, result)
+        } else if (is.factor(.x)) {
+          # Factors with 3+ levels: use Mode, keep as factor
+          mode_result = DescTools::Mode(.x, na.rm = TRUE)
+          # Ensure we return a factor with the same levels
+          factor(mode_result, levels = levels(.x))
+        } else {
+          # Fallback: convert to numeric and take mean
+          result = mean(as.numeric(.x), na.rm = TRUE)
+          ifelse(is.nan(result), NA, result)
+        }
+    )
+  ) %>% 
+  select(
+    ClusterID,
+    Treatment,
+    n_participants,
+    starts_with("YP_"),
+    starts_with("pre_YS_"),
+    starts_with("post_YS_"),
+    starts_with("X_")
+  )
+```
+
+## Output Data
+```{r}
+# cluster 2
+write_csv(dfc2_cluster, "cleaned_data/Clustered_RCT/2_cluster.csv")
+write_rds(dfc2_cluster, "cleaned_data/Clustered_RCT/2_cluster.rds")
+
+write_csv(dfc2_final, "cleaned_data/Clustered_RCT/2_patient.csv")
+write_rds(dfc2_final, "cleaned_data/Clustered_RCT/2_patient.rds")
+```
+
+
+# Cluster Trial 3
+## Load Data
+```{r}
+dfc3 = read_csv(
+  "raw_data/Clustered_RCT/3/3.csv",
+  na = c("", "NULL", "null", "-99")
+)
+```
+
+## Cleaning
+```{r}
+dfc3_final = dfc3 %>%
+  rename(
+    Treatment             = treatment,
+    ClusterID             = clusterid,
+    X_Caregiver_Age_0m       = bl_caregiver_age,
+    X_Caregiver_Matric_0m    = bl_caregiver_matric,
+    X_Wealth_Z_0m            = bl_wealth_z,
+    X_Wealth_Q_0m            = bl_wealth_q,
+    X_ChildGrant_0m          = bl_childgrant,
+    X_Siblings_0m            = siblings,
+    pre_YP_SRT_9m         = lab1_srt,
+    pre_YP_AbsGamma_9m    = lab1_gamma,
+    pre_YP_TotalPower_9m  = lab1_total,
+    pre_YP_RelGamma_9m    = lab1_relgamma,
+    pre_YP_SRT_17m        = lab2_srt,
+    pre_YP_AbsGamma_17m   = lab2_gamma,
+    pre_YP_TotalPower_17m = lab2_total,
+    pre_YP_RelGamma_17m   = lab2_relgamma,
+    YP_HAZ_36m            = el_haz,
+    YP_Stunted_36m        = el_stunted,
+    YP_MDAT_GM_Z_36m      = el_mdat_gm_daz,
+    YP_MDAT_FM_Z_36m      = el_mdat_fm_daz,
+    YP_MDAT_LANG_Z_36m    = el_mdat_lang_daz,
+    YP_MDAT_SOC_Z_36m     = el_mdat_soc_daz,
+    YP_AbsGamma_36m       = lab3_gamma,
+    YP_TotalPower_36m     = lab3_total,
+    YP_RelGamma_36m       = lab3_relgamma,
+    YP_SRT_36m            = lab3_srt,
+    YS_DD_36m             = el_dd,
+    YS_MICS_36m           = el_mics,
+    X_Facilities_0m          = cluster_facilities,
+    X_WBOTs_0m               = cluster_wbots,
+    X_CHWs_0m                = cluster_chws,
+    X_PHCU5_0m               = cluster_phcu5,
+    X_CHW_Age_0m             = cluster_chwage,
+    X_CHW_Educ_0m            = cluster_chweduc,
+    X_CHW_Tenure_0m          = cluster_chwworkyr
+  ) %>%
+  mutate(
+    Treatment = recode(
+      Treatment,
+      `0` = "Usual care",
+      `1` = "JobAid visit"
+    ),
+    Treatment = relevel(factor(Treatment), ref="Usual care")
+  ) %>%
+  select(
+    Treatment,
+    ClusterID,
+    starts_with("YP_"),
+    starts_with("pre_YP_"),
+    starts_with("YS_"),
+    starts_with("X_")
+  )
+
+# Convert specified variables to factors and standardize binary factor levels
+dfc3_final = dfc3_final %>% 
+  mutate(
+    across(c(YP_Stunted_36m, X_Caregiver_Matric_0m, X_ChildGrant_0m, X_Siblings_0m,
+             X_Facilities_0m, X_WBOTs_0m), as_factor),
+    # Standardize binary factors to have consistent 0,1 levels
+    across(where(is.factor), ~ if(length(levels(.)) == 2) {
+      # Convert to 0,1 regardless of original levels
+      factor(as.numeric(.) - 1, levels = c("0", "1"))
+    } else {
+      .  # Keep multi-level factors unchanged
+    })
+  )
+
+# 3. Build cluster-level summary with automatic detection of factor types
+dfc3_cluster = dfc3_final %>%
+  group_by(ClusterID) %>%
+  summarise(
+    n_participants = n(),
+    Treatment = first(Treatment),
+    across(
+      starts_with(c("YP_", "pre_YP_", "YS_", "X_")),
+      ~ if (is.numeric(.x)) {
+          # Numeric variables: use mean
+          result = mean(.x, na.rm = TRUE)
+          ifelse(is.nan(result), NA, result)
+        } else if (is.factor(.x) && length(levels(.x)) == 2) {
+          # Binary factors with 0,1 levels: convert to numeric and take mean (gives proportion)
+          result = mean(as.numeric(as.character(.x)), na.rm = TRUE)
+          ifelse(is.nan(result), NA, result)
+        } else if (is.factor(.x) && length(levels(.x)) >= 3) {
+          # Multi-level factors: use Mode, keep as factor
+          mode_result = DescTools::Mode(.x, na.rm = TRUE)
+          factor(mode_result, levels = levels(.x))
+        } else {
+          # Fallback for any other case
+          result = mean(as.numeric(.x), na.rm = TRUE)
+          ifelse(is.nan(result), NA, result)
+        }
+    )
+  ) %>% 
+  ungroup() %>% 
+  select(
+    ClusterID,
+    Treatment,
+    n_participants,
+    starts_with("YP_"),
+    starts_with("pre_YP_"),
+    starts_with("YS_"),
+    starts_with("X_")
+  )
+```
+## Output Data
+```{r}
+# cluster 3
+write_csv(dfc3_cluster, "cleaned_data/Clustered_RCT/3_cluster.csv")
+write_rds(dfc3_cluster, "cleaned_data/Clustered_RCT/3_cluster.rds")
+
+write_csv(dfc3_final, "cleaned_data/Clustered_RCT/3_patient.csv")
+write_rds(dfc3_final, "cleaned_data/Clustered_RCT/3_patient.rds")
+```
+
+
+# Cluster Trial 4
+## Load Data
+```{r}
+dfc4_Clinical = read_xlsx("raw_data/Clustered_RCT/4/4_Clinical.xlsx", na = c("", "NA", "null", "NULL", "999"))
+dfc4_Demo = read_xlsx("raw_data/Clustered_RCT/4/4_Demo.xlsx", na = c("", "NA", "null", "NULL", "999"))
+dfc4_Outcome = read_xlsx("raw_data/Clustered_RCT/4/4_Outcome.xlsx", na = c("", "NA", "null", "NULL", "999"))
+dfc4_Site = read_xlsx("raw_data/Clustered_RCT/4/4_Site.xlsx", na = c("", "NA", "null", "NULL", "999"))
+```
+
+## Cleaning
+```{r}
+dfc4 = dfc4_Clinical %>% 
+  full_join(
+    dfc4_Demo, 
+    by = "Participant ID"
+  ) %>%
+  full_join(
+    dfc4_Outcome, 
+    by = "Participant ID"
+  )
+
+dfc4 = dfc4 %>%
+  left_join(dfc4_Site, by = c("Site Number" = "Site")) %>%
+  rename(
+    RawTreatment = `Tx or Ctrl`,
+    ClusterID    = `Site Number`
+  ) %>%
+  # Recode treatment values to study-specific names, set HIC Alone as reference
+  mutate(
+    Treatment = as_factor(
+      recode(RawTreatment,
+             `0` = "HIC",
+             `1` = "TASSH + HIC",
+             .default = as.character(RawTreatment))
+    ),
+    Treatment = fct_relevel(Treatment, "HIC")
+  )
+
+# Compute outcomes and covariates with proper suffixes
+dfc4_final = dfc4 %>%
+  mutate(
+    # Outcomes
+    pre_YP_SBP_6m     = `SBP 6 Months` - `SBP Baseline`,
+    YP_delta_SBP_12m  = `SBP 12 Months` - `SBP Baseline`,
+    YS_BP_control_12m = as_factor(ifelse(`SBP 12 Months` < 140 & `DBP 12 Months` < 90, 1, 0)),
+    # Baseline covariates
+    X_SBP_0m          = `SBP Baseline`,
+    X_DBP_0m          = `DBP Baseline`,
+    X_CV_Risk_0m      = as_factor(`CV Risk`),
+    X_BMI_0m          = BMI,
+    X_BMI_Class_0m    = as_factor(`BMI Classification`),
+    X_PhysAct_0m      = `Physical Activity`,
+    X_Age_0m          = Age,
+    X_Gender_0m       = as_factor(Gender),
+    X_EduLevel_0m     = as_factor(`Education Level`),
+    X_EmpStatus_0m    = as_factor(`Employment Status`),
+    X_Literacy_0m     = as_factor(Literacy),
+    X_Smoking_0m      = as_factor(Smoking),
+    # Site covariates
+    X_Cohort_0m       = as_factor(`Cohort #`),
+    X_RuralUrban_0m   = as_factor(`Rural/Urban`),
+    X_Doctors_0m      = `Doctors Available`,
+    X_Nurses_0m       = `Nurses Available`
+  ) %>%
+  select(
+    ClusterID, Treatment,
+    starts_with("YP_"),
+    starts_with("pre_YP_"),
+    starts_with("YS_"),
+    starts_with("X_")
+  )
+
+# Standardize binary factors to have consistent 0,1 levels
+dfc4_final = dfc4_final %>% 
+  mutate(
+    # Standardize binary factors to have consistent 0,1 levels
+    across(where(is.factor), ~ if(length(levels(.)) == 2) {
+      # Convert to 0,1 regardless of original levels
+      factor(as.numeric(.) - 1, levels = c("0", "1"))
+    } else {
+      .  # Keep multi-level factors unchanged
+    })
+  )
+
+# 4. Aggregate to cluster-level summary with automatic detection
+dfc4_cluster = dfc4_final %>%
+  group_by(ClusterID, Treatment) %>%
+  reframe(
+    n_participants    = n(),
+    across(
+      starts_with(c("YP_", "pre_YP_", "YS_", "X_")),
+      ~ if (is.numeric(.x)) {
+          # Numeric variables: use mean with proper NA handling
+          if(all(is.na(.x))) NA_real_ else {
+            result = mean(.x, na.rm = TRUE)
+            ifelse(is.nan(result), NA, result)
+          }
+        } else if (is.factor(.x) && length(levels(.x)) == 2) {
+          # Binary factors with 0,1 levels: convert to numeric and take mean (gives proportion)
+          if(all(is.na(.x))) NA_real_ else {
+            result = mean(as.numeric(as.character(.x)), na.rm = TRUE)
+            ifelse(is.nan(result), NA, result)
+          }
+        } else if (is.factor(.x) && length(levels(.x)) >= 3) {
+          # Multi-level factors: use Mode, keep as factor
+          mode_result = DescTools::Mode(.x, na.rm = TRUE)
+          factor(mode_result, levels = levels(.x))
+        } else {
+          # Fallback: convert to numeric and take mean
+          if(all(is.na(.x))) NA_real_ else {
+            result = mean(as.numeric(.x), na.rm = TRUE)
+            ifelse(is.nan(result), NA, result)
+          }
+        }
+    )
+  ) %>%
+  select(
+    ClusterID, Treatment, n_participants,
+    starts_with("YP_"),
+    starts_with("pre_YP_"),
+    starts_with("YS_"),
+    starts_with("X_")
+  )
+
+```
+
+
+
+## Output Data
+
+```{r}
+# cluster 4
+write_csv(dfc4_cluster, "cleaned_data/Clustered_RCT/4_cluster.csv")
+write_rds(dfc4_cluster, "cleaned_data/Clustered_RCT/4_cluster.rds")
+
+write_csv(dfc4_final, "cleaned_data/Clustered_RCT/4_patient.csv")
+write_rds(dfc4_final, "cleaned_data/Clustered_RCT/4_patient.rds")
+```
+
+
+# Cluster Trial 5
+## Load Data
+```{r}
+dfc5 = read_csv("raw_data/Clustered_RCT/5/5.csv")
+```
+
+## Cleaning
+```{r}
+dfc5_final = dfc5 %>%
+  rename(
+    Treatment = Condition,
+    ClusterID = SchoolID
+  ) %>%
+  mutate(
+    Treatment = factor(Treatment,
+                       levels = c(0, 1),
+                       labels = c("Control", "ToolsOfMind")),
+    Treatment = relevel(Treatment, ref = "Control")
+  ) %>%
+  select(-ID) %>%
+  mutate(
+    # Convert any character columns to factors (categorical variables)
+    across(where(is.character), as.factor)
+  ) %>%
+  rename(
+    X_lw_ws_0m            = lw_ws,
+    X_ap_ws_0m            = ap_ws,
+    X_dotP_biasG_0m       = dotP_biasG,
+    X_ravens_sum_score_0m = ravens_sum_score,
+    X_RCN_MeanTime_R_0m   = RCN_MeanTime_R,
+    X_rdots_rt_mean_0m    = rdots_rt_mean,
+    X_EF_meanZ_0m         = EF_meanZ,
+    X_EF2_RT_0m           = EF2_RT
+  ) %>%
+  rename(
+    YP_lw_ws_5m        = lw_ws.2,
+    YP_ap_ws_5m        = ap_ws.2,
+    YP_ew_ss_5m        = ew_ss.2
+  ) %>%
+  rename(
+    post_YP_ew_raw_G1 = ew_raw.G1,
+    post_YP_lw_ws_G1  = lw_ws.G1,
+    post_YP_ap_ws_G1  = ap_ws.G1
+  ) %>%
+  rename(
+    YS_dotP_biasG_5m       = dotP_biasG.2,
+    YS_fb_p2_percCorr_5m   = fb_p2_percCorr.2,
+    YS_ravens_sum_score_5m = ravens_sum_score.2,
+    YS_RCN_MeanTime_R_5m   = RCN_MeanTime_R.2,
+    YS_rdots_rt_mean_5m    = rdots_rt_mean.2,
+    YP_EF3_RT_5m           = EF3_RT.2,
+    X_EF2_perccorr_0m     = EF2_perccorr,
+    YP_EF3_perccorr_5m     = EF3_perccorr.2
+  ) %>%
+  rename(
+    X_amy_1r_0m   = amy_1r,
+    X_amy_2r_0m   = amy_2r,
+    X_amy_3r_0m   = amy_3r,
+    X_cort_1r_0m  = cort_1r,
+    X_cort_2r_0m  = cort_2r,
+    X_cort_3r_0m  = cort_3r,
+    YS_amy_1r_5m   = amy_1r.2,
+    YS_amy_2r_5m   = amy_2r.2,
+    YS_amy_3r_5m   = amy_3r.2,
+    YS_cort_1r_5m  = cort_1r.2,
+    YS_cort_2r_5m  = cort_2r.2,
+    YS_cort_3r_5m  = cort_3r.2
+  ) %>%
+  mutate(
+    X_AgeMonths_0m    = AGE,
+    X_Sex_0m             = factor(Sex),
+    X_ParentEd__0m      = factor(ParentEd_R),
+    X_FreeReduced_0m   = FreeReduced_R,
+    X_pv_sum_0m = pv_sum,
+  ) %>%
+  rename(
+    X_Time1_h_0m = Time1_h,
+    X_Time2_h_0m = Time2_h,
+    X_Time3_h_0m = Time3_h,
+    YS_Time1_h_5m = Time1.2_h,
+    YS_Time2_h_5m = Time2.2_h,
+    YS_Time3_h_5m = Time3.2_h
+  ) %>% 
+  select(ClusterID, Treatment, 
+               starts_with("YP"),
+         starts_with("post_YP"),
+               starts_with("YS"),
+               starts_with("X"))
+
+# Standardize binary factors to have consistent 0,1 levels
+dfc5_final = dfc5_final %>% 
+  mutate(
+    # Standardize binary factors to have consistent 0,1 levels
+    across(where(is.factor), ~ if(length(levels(.)) == 2) {
+      # Convert to 0,1 regardless of original levels
+      factor(as.numeric(.) - 1, levels = c("0", "1"))
+    } else {
+      .  # Keep multi-level factors unchanged
+    })
+  )
+
+# 13. Aggregate to cluster level with automatic detection and proper NA/NaN handling
+dfc5_cluster = dfc5_final %>%
+  group_by(ClusterID) %>%
+  reframe(
+    Treatment = first(Treatment),
+    n_participants = n(),
+    across(
+      starts_with(c("YP_", "post_YP_", "YS_", "X_")),
+      ~ if (is.numeric(.x)) {
+          # Numeric variables: use mean with proper NA handling
+          if(all(is.na(.x))) NA_real_ else {
+            result = mean(.x, na.rm = TRUE)
+            ifelse(is.nan(result), NA, result)
+          }
+        } else if (is.factor(.x) && length(levels(.x)) == 2) {
+          # Binary factors with 0,1 levels: convert to numeric and take mean (gives proportion)
+          if(all(is.na(.x))) NA_real_ else {
+            result = mean(as.numeric(as.character(.x)), na.rm = TRUE)
+            ifelse(is.nan(result), NA, result)
+          }
+        } else if (is.factor(.x) && length(levels(.x)) >= 3) {
+          # Multi-level factors: use Mode, keep as factor
+          mode_result = DescTools::Mode(.x, na.rm = TRUE)
+          factor(mode_result, levels = levels(.x))
+        } else {
+          # Fallback: convert to numeric and take mean
+          if(all(is.na(.x))) NA_real_ else {
+            result = mean(as.numeric(.x), na.rm = TRUE)
+            ifelse(is.nan(result), NA, result)
+          }
+        }
+    )
+  ) %>% 
+  select(ClusterID, Treatment, n_participants,
+               starts_with("YP"),
+               starts_with("post_YP"),
+               starts_with("YS"),
+               starts_with("X"))
+```
+
+## Output Data
+```{r}
+# cluster 5
+write_csv(dfc5_cluster, "cleaned_data/Clustered_RCT/5_cluster.csv")
+write_rds(dfc5_cluster, "cleaned_data/Clustered_RCT/5_cluster.rds")
+
+write_csv(dfc5_final, "cleaned_data/Clustered_RCT/5_patient.csv")
+write_rds(dfc5_final, "cleaned_data/Clustered_RCT/5_patient.rds")
+```
+
+
+# Cluster Trial 6
+## Load Data
+```{r}
+dfc6 = read_xlsx("raw_data/Clustered_RCT/6/6.xlsx", na=c("."))
+```
+
+## Cleaning
+```{r}
+dfc6_final = dfc6 %>% 
+  rename(
+    Treatment = Stim,               # 1 = Emotional video, 2 = Assessment
+    ClusterID = Gruppe              # teaching cluster of 10–12 students
+  ) %>%
+  mutate(
+    Treatment = factor(Treatment,
+                       levels = c(2, 1),
+                       labels = c("Assessment", "EmotionalVideo")),
+    Treatment = relevel(Treatment, ref = "Assessment"),
+    ClusterID = factor(ClusterID)
+  ) %>%
+  # Primary outcomes (depth & rate at 1-week, T2)
+  rename(
+    YP_depth_1w = mDT_mm2,          # mean compression depth (T2)
+    YP_rate_1w  = mFreq2            # mean compression rate  (T2)
+  ) %>%
+  # Baseline (T1) → covariates
+  rename(
+    X_depth_0w = mDT_mm1,           # baseline depth
+    X_rate_0w  = mFreq1             # baseline rate
+  ) %>%
+  # 6-month follow-up (T3) → post-YP
+  rename(
+    post_YP_depth_6m = mDT_mm3,     # depth 6 m
+    post_YP_rate_6m  = mFreq3       # rate  6 m
+  ) %>%
+  # Key secondary quality endpoints
+  rename(
+    YS_depthPctOK_1w = K_DTk2_percent,   # % comps correct depth, T2
+    YS_rateQual_1w   = mFreq2_korr2,     # 0/1/2 quality code, T2
+    YS_depthPctOK_6m = K_DTk3_percent,   # % comps correct depth, T3
+    YS_rateQual_6m   = mFreq3_korr3      # 0/1/2 quality code, T3
+  ) %>%
+  rename(
+    X_age_0y                = Age,   # age in yrs
+    X_sex_0d                = Sex,   # 1 = ♀, 2 = ♂
+    X_priorMedKnow_0d       = Vorw   # 1 = without, 2 = with
+  ) %>%
+  mutate(
+    X_sex_0d          = factor(X_sex_0d, levels = c(1, 2),
+                               labels = c("Female", "Male")),
+    X_priorMedKnow_0d = factor(X_priorMedKnow_0d, levels = c(1, 2),
+                               labels = c("No", "Yes"))
+  ) %>%
+  # character → factor
+  mutate(across(where(is.character) &
+                  !starts_with("YP_") & !starts_with("YS_"),
+                factor)) %>%
+  # numeric 0/1 or 2-level → factor
+  {
+    num = names(.)[sapply(., is.numeric)]
+    bin = num[sapply(.[num], \(x) n_distinct(na.omit(x)) == 2)]
+    mutate(., across(all_of(bin), factor))
+  } %>%
+  select(
+    ClusterID,
+    Treatment,
+    starts_with("YP_"),
+    starts_with("pre_YP_"),
+    starts_with("post_YP_"),
+    starts_with("YS_"),
+    starts_with("X_")
+  )
+
+# Standardize binary factors to have consistent 0,1 levels
+dfc6_final = dfc6_final %>% 
+  mutate(
+    # Standardize binary factors to have consistent 0,1 levels
+    across(where(is.factor), ~ if(length(levels(.)) == 2) {
+      # Convert to 0,1 regardless of original levels
+      factor(as.numeric(.) - 1, levels = c("0", "1"))
+    } else {
+      .  # Keep multi-level factors unchanged
+    })
+  )
+
+# Aggregate to cluster level with automatic detection and proper NA/NaN handling
+dfc6_cluster = dfc6_final %>%
+  group_by(ClusterID) %>%
+  reframe(
+    Treatment = first(Treatment),
+    n_participants = n(),
+    across(
+      starts_with(c("YP_", "pre_YP_", "post_YP_", "YS_", "X_")),
+      ~ if (is.numeric(.x)) {
+          # Numeric variables: use mean with proper NA handling
+          if(all(is.na(.x))) NA_real_ else {
+            result = mean(.x, na.rm = TRUE)
+            ifelse(is.nan(result), NA, result)
+          }
+        } else if (is.factor(.x) && length(levels(.x)) == 2) {
+          # Binary factors with 0,1 levels: convert to numeric and take mean (gives proportion)
+          if(all(is.na(.x))) NA_real_ else {
+            result = mean(as.numeric(as.character(.x)), na.rm = TRUE)
+            ifelse(is.nan(result), NA, result)
+          }
+        } else if (is.factor(.x) && length(levels(.x)) >= 3) {
+          # Multi-level factors: use Mode, keep as factor
+          mode_result = DescTools::Mode(.x, na.rm = TRUE)
+          factor(mode_result, levels = levels(.x))
+        } else {
+          # Fallback: convert to numeric and take mean
+          if(all(is.na(.x))) NA_real_ else {
+            result = mean(as.numeric(.x), na.rm = TRUE)
+            ifelse(is.nan(result), NA, result)
+          }
+        }
+    )
+  ) %>%
+  select(
+    ClusterID,
+    Treatment,
+    n_participants,
+    starts_with("YP_"),
+    starts_with("pre_YP_"),
+    starts_with("post_YP_"),
+    starts_with("YS_"),
+    starts_with("X_")
+  )
+```
+
+
+## Output Data
+
+```{r}
+# cluster 6
+write_csv(dfc6_cluster, "cleaned_data/Clustered_RCT/6_cluster.csv")
+write_rds(dfc6_cluster, "cleaned_data/Clustered_RCT/6_cluster.rds")
+
+write_csv(dfc6_final, "cleaned_data/Clustered_RCT/6_patient.csv")
+write_rds(dfc6_final, "cleaned_data/Clustered_RCT/6_patient.rds")
+```
+
+
+

@@ -1,0 +1,1348 @@
+Mplus VERSION 8.8
+MUTHEN & MUTHEN
+
+INPUT INSTRUCTIONS
+
+  Title:
+  Mplus file written by Stat/Transfer
+  Data:
+     File is MQOL_WIDEFORMATLIST.dat ;
+     TYPE = IMPUTATION;
+
+  Variable:
+  Names are
+      SITE
+      GROUP
+      DAYSSIN3
+      P_FOLLOW
+      PHY1
+      PHY2
+      PHY3
+      PHY4
+      PHY5
+      PHY6
+      PHY7
+      PSY1
+      PSY2
+      PSY3
+      PSY4
+      PSY5
+      PSY6
+      PSY7
+      EXI1
+      EXI2
+      EXI3
+      EXI4
+      EXI5
+      EXI6
+      EXI7
+      SOC1
+      SOC2
+      SOC3
+      SOC4
+      SOC5
+      SOC6
+      SOC7
+      BUR1
+      BUR2
+      BUR3
+      BUR4
+      BUR5
+      BUR6
+      BUR7
+      ENV1
+      ENV2
+      ENV3
+      ENV4
+      ENV5
+      ENV6
+      ENV7
+      COG1
+      COG2
+      COG3
+      COG4
+      COG5
+      COG6
+      COG7
+      QC1
+      QC2
+      QC3
+      QC4
+      QC5
+      QC6
+      QC7
+      TOT1
+      TOT2
+      TOT3
+      TOT4
+      TOT5
+      TOT6
+      TOT7
+      MPLUSID
+  ;
+
+  Missing are * ;
+
+  USEVARIABLES ARE group SITE
+  MQOLA1-MQOLA7;
+  CLUSTER = SITE;
+
+  DEFINE:
+  !replace TOT1-TOT7 to run analyses for other MQOL-E domains
+  MQOLA1=TOT1;
+  MQOLA2=TOT2;
+  MQOLA3=TOT3;
+  MQOLA4=TOT4;
+  MQOLA5=TOT5;
+  MQOLA6=TOT6;
+  MQOLA7=TOT7;
+
+  Analysis:
+     Type = COMPLEX;
+     STARTS = 100;
+
+  MODEL:
+   I BY MQOLA1@1 MQOLA2@1 MQOLA3@1  MQOLA4@1 MQOLA5@1 MQOLA6@1 MQOLA7@1;
+   S BY MQOLA1@0 MQOLA2 MQOLA3  MQOLA4 MQOLA5 MQOLA6 MQOLA7@1 (s1-s7);
+   I with S;
+   !i@0;
+   i on group@0;
+   s on group;
+   [MQOLA1-MQOLA7@0];
+   [i s] (i s);
+
+  MODEL CONSTRAINT:
+  NEW (T1-T7);
+  T1=i;
+  T2=i+(s*s2);
+  T3=i+(s*s3);
+  T4=i+(s*s4);
+  T5=i+(s*s5);
+  T6=i+(s*s6);
+  T7=i+(s);
+
+  OUTPUT:
+  SAMPSTAT STANDARDIZED CINTERVAL TECH1 RESIDUAL;
+
+  PLOT:
+  Type is plot1 plot2 plot3;
+    Series is
+    MQOLA1-MQOLA7(*)
+    ;
+
+
+
+
+*** WARNING in PLOT command
+  PLOT1 and PLOT3 options are not available with TYPE=IMPUTATION in the DATA command.
+  Request for PLOT1 and/or PLOT3 will be ignored.
+   1 WARNING(S) FOUND IN THE INPUT INSTRUCTIONS
+
+
+
+
+Mplus file written by Stat/Transfer
+
+SUMMARY OF ANALYSIS
+
+Number of groups                                                 1
+Average number of observations                                 331
+
+Number of replications
+    Requested                                                   10
+    Completed                                                   10
+
+Number of dependent variables                                    7
+Number of independent variables                                  1
+Number of continuous latent variables                            2
+
+Observed dependent variables
+
+  Continuous
+   MQOLA1      MQOLA2      MQOLA3      MQOLA4      MQOLA5      MQOLA6
+   MQOLA7
+
+Observed independent variables
+   GROUP
+
+Continuous latent variables
+   I           S
+
+Variables with special functions
+
+  Cluster variable      SITE
+
+Estimator                                                      MLR
+Information matrix                                        OBSERVED
+Maximum number of iterations                                  1000
+Convergence criterion                                    0.500D-04
+Maximum number of steepest descent iterations                   20
+Maximum number of iterations for H1                           2000
+Convergence criterion for H1                             0.100D-03
+Random Starts Specifications
+  Number of random starts                                      100
+  Random starts scale                                    0.500D+01
+
+Input data file(s)
+  Multiple data files from
+    MQOL_WIDEFORMATLIST.dat
+
+Input data format  FREE
+
+
+SUMMARY OF DATA FOR THE FIRST DATA SET
+
+     Number of missing data patterns            50
+     Number of clusters                          7
+
+
+
+SUMMARY OF MISSING DATA PATTERNS FOR THE FIRST DATA SET
+
+
+     MISSING DATA PATTERNS (x = not missing)
+
+           1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20
+ MQOLA1    x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ MQOLA2    x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ MQOLA3    x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ MQOLA4    x  x  x  x  x  x  x                       x  x  x  x  x  x
+ MQOLA5    x  x  x  x           x  x  x  x           x  x  x  x
+ MQOLA6    x  x        x  x     x  x        x  x     x  x        x  x
+ MQOLA7    x     x     x        x     x     x        x     x     x
+ GROUP     x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+
+          21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40
+ MQOLA1    x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+ MQOLA2    x  x  x  x  x  x  x
+ MQOLA3                         x  x  x  x  x  x  x  x  x  x  x  x  x
+ MQOLA4    x  x                 x  x  x  x  x  x  x
+ MQOLA5          x  x  x        x  x  x  x           x  x  x  x
+ MQOLA6          x  x     x     x  x        x  x     x  x        x
+ MQOLA7    x     x        x     x     x     x        x     x     x
+ GROUP     x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x  x
+
+          41 42 43 44 45 46 47 48 49 50
+ MQOLA1    x  x  x  x  x  x  x  x  x  x
+ MQOLA2
+ MQOLA3
+ MQOLA4    x  x  x  x  x  x  x
+ MQOLA5    x  x  x  x           x  x
+ MQOLA6    x  x        x  x     x
+ MQOLA7    x     x     x        x
+ GROUP     x  x  x  x  x  x  x  x  x  x
+
+
+     MISSING DATA PATTERN FREQUENCIES
+
+    Pattern   Frequency     Pattern   Frequency     Pattern   Frequency
+          1          42          18           6          35           1
+          2          10          19           4          36           1
+          3           7          20           3          37           1
+          4          13          21           1          38           2
+          5          13          22           6          39           1
+          6           5          23           1          40           9
+          7          10          24           3          41           5
+          8           8          25           1          42           2
+          9           3          26           1          43           2
+         10           1          27          27          44           1
+         11           2          28           9          45           1
+         12           1          29           6          46           1
+         13           1          30           1          47           5
+         14          15          31           2          48           1
+         15          10          32           3          49           2
+         16           5          33           1          50          71
+         17           2          34           2
+
+
+COVARIANCE COVERAGE OF DATA FOR THE FIRST DATA SET
+
+Minimum covariance coverage value   0.100
+
+
+     PROPORTION OF DATA PRESENT
+
+
+           Covariance Coverage
+              MQOLA1        MQOLA2        MQOLA3        MQOLA4        MQOLA5
+              ________      ________      ________      ________      ________
+ MQOLA1         1.000
+ MQOLA2         0.607         0.607
+ MQOLA3         0.514         0.396         0.514
+ MQOLA4         0.538         0.414         0.375         0.538
+ MQOLA5         0.453         0.344         0.329         0.372         0.453
+ MQOLA6         0.429         0.332         0.317         0.363         0.323
+ MQOLA7         0.350         0.275         0.266         0.302         0.275
+ GROUP          1.000         0.607         0.514         0.538         0.453
+
+
+           Covariance Coverage
+              MQOLA6        MQOLA7        GROUP
+              ________      ________      ________
+ MQOLA6         0.429
+ MQOLA7         0.305         0.350
+ GROUP          0.429         0.350         1.000
+
+
+SAMPLE STATISTICS
+
+NOTE:  These are average results over 10 data sets.
+
+
+     ESTIMATED SAMPLE STATISTICS
+
+
+           Means
+              MQOLA1        MQOLA2        MQOLA3        MQOLA4        MQOLA5
+              ________      ________      ________      ________      ________
+                6.926         6.719         6.563         6.606         6.634
+
+
+           Means
+              MQOLA6        MQOLA7        GROUP
+              ________      ________      ________
+                6.589         6.656         0.498
+
+
+           Covariances
+              MQOLA1        MQOLA2        MQOLA3        MQOLA4        MQOLA5
+              ________      ________      ________      ________      ________
+ MQOLA1         2.497
+ MQOLA2         1.640         2.276
+ MQOLA3         1.398         1.697         2.400
+ MQOLA4         1.824         1.718         1.865         2.673
+ MQOLA5         1.867         1.766         1.739         2.125         2.678
+ MQOLA6         1.927         1.907         1.789         2.099         2.306
+ MQOLA7         1.614         1.649         1.801         1.953         2.166
+ GROUP         -0.002        -0.018        -0.058         0.025         0.018
+
+
+           Covariances
+              MQOLA6        MQOLA7        GROUP
+              ________      ________      ________
+ MQOLA6         2.941
+ MQOLA7         2.133         2.861
+ GROUP          0.032        -0.013         0.250
+
+
+           Correlations
+              MQOLA1        MQOLA2        MQOLA3        MQOLA4        MQOLA5
+              ________      ________      ________      ________      ________
+ MQOLA1         1.000
+ MQOLA2         0.688         1.000
+ MQOLA3         0.571         0.726         1.000
+ MQOLA4         0.706         0.697         0.737         1.000
+ MQOLA5         0.722         0.715         0.686         0.794         1.000
+ MQOLA6         0.711         0.737         0.673         0.749         0.822
+ MQOLA7         0.604         0.646         0.687         0.706         0.783
+ GROUP         -0.003        -0.024        -0.075         0.031         0.022
+
+
+           Correlations
+              MQOLA6        MQOLA7        GROUP
+              ________      ________      ________
+ MQOLA6         1.000
+ MQOLA7         0.735         1.000
+ GROUP          0.038        -0.015         1.000
+
+
+MODEL FIT INFORMATION
+
+Number of Free Parameters                       18
+
+Loglikelihood
+
+    H0 Value
+
+        Mean                             -1995.965
+        Std Dev                              5.256
+        Number of successful computations       10
+
+             Proportions                   Percentiles
+        Expected    Observed         Expected       Observed
+           0.990       1.000        -2008.192      -2001.223
+           0.980       1.000        -2006.759      -2001.223
+           0.950       1.000        -2004.611      -2001.223
+           0.900       1.000        -2002.701      -2001.223
+           0.800       0.600        -2000.388      -2001.223
+           0.700       0.600        -1998.721      -2000.992
+           0.500       0.500        -1995.965      -1997.472
+           0.300       0.200        -1993.208      -1994.598
+           0.200       0.200        -1991.541      -1993.985
+           0.100       0.200        -1989.228      -1989.128
+           0.050       0.100        -1987.319      -1989.128
+           0.020       0.100        -1985.170      -1989.128
+           0.010       0.000        -1983.737      -1989.128
+
+    H1 Value
+
+        Mean                             -1979.009
+        Std Dev                              5.938
+        Number of successful computations       10
+
+             Proportions                   Percentiles
+        Expected    Observed         Expected       Observed
+           0.990       1.000        -1992.822      -1986.547
+           0.980       1.000        -1991.203      -1986.547
+           0.950       1.000        -1988.776      -1986.547
+           0.900       1.000        -1986.619      -1986.547
+           0.800       0.700        -1984.006      -1986.547
+           0.700       0.600        -1982.123      -1984.845
+           0.500       0.500        -1979.009      -1979.680
+           0.300       0.200        -1975.895      -1977.260
+           0.200       0.200        -1974.011      -1976.208
+           0.100       0.100        -1971.399      -1972.439
+           0.050       0.100        -1969.241      -1972.439
+           0.020       0.100        -1966.814      -1972.439
+           0.010       0.000        -1965.195      -1972.439
+
+Information Criteria
+
+    Akaike (AIC)
+
+        Mean                              4027.930
+        Std Dev                             10.512
+        Number of successful computations       10
+
+             Proportions                   Percentiles
+        Expected    Observed         Expected       Observed
+           0.990       1.000         4003.474       4006.287
+           0.980       0.900         4006.340       4006.287
+           0.950       0.900         4010.638       4006.287
+           0.900       0.800         4014.457       4006.287
+           0.800       0.800         4019.082       4006.287
+           0.700       0.800         4022.417       4023.970
+           0.500       0.500         4027.930       4026.217
+           0.300       0.400         4033.442       4037.801
+           0.200       0.400         4036.777       4037.984
+           0.100       0.000         4041.402       4038.197
+           0.050       0.000         4045.221       4038.197
+           0.020       0.000         4049.519       4038.197
+           0.010       0.000         4052.385       4038.197
+
+    Bayesian (BIC)
+
+        Mean                              4096.368
+        Std Dev                             10.512
+        Number of successful computations       10
+
+             Proportions                   Percentiles
+        Expected    Observed         Expected       Observed
+           0.990       1.000         4071.913       4074.725
+           0.980       0.900         4074.778       4074.725
+           0.950       0.900         4079.076       4074.725
+           0.900       0.800         4082.895       4074.725
+           0.800       0.800         4087.520       4074.725
+           0.700       0.800         4090.855       4092.408
+           0.500       0.500         4096.368       4094.655
+           0.300       0.400         4101.880       4106.240
+           0.200       0.400         4105.215       4106.422
+           0.100       0.000         4109.840       4106.635
+           0.050       0.000         4113.660       4106.635
+           0.020       0.000         4117.957       4106.635
+           0.010       0.000         4120.823       4106.635
+
+    Sample-Size Adjusted BIC (n* = (n + 2) / 24)
+
+        Mean                              4039.271
+        Std Dev                             10.512
+        Number of successful computations       10
+
+             Proportions                   Percentiles
+        Expected    Observed         Expected       Observed
+           0.990       1.000         4014.816       4017.628
+           0.980       0.900         4017.682       4017.628
+           0.950       0.900         4021.979       4017.628
+           0.900       0.800         4025.798       4017.628
+           0.800       0.800         4030.424       4017.628
+           0.700       0.800         4033.758       4035.311
+           0.500       0.500         4039.271       4037.558
+           0.300       0.400         4044.784       4049.143
+           0.200       0.400         4048.118       4049.326
+           0.100       0.000         4052.744       4049.538
+           0.050       0.000         4056.563       4049.538
+           0.020       0.000         4060.861       4049.538
+           0.010       0.000         4063.726       4049.538
+
+Chi-Square Test of Model Fit
+
+        Degrees of freedom                      24
+
+        Mean                                29.694
+        Std Dev                              2.204
+        Number of successful computations       10
+
+             Proportions                   Percentiles
+        Expected    Observed         Expected       Observed
+           0.990       1.000           10.856         25.705
+           0.980       1.000           11.992         25.705
+           0.950       1.000           13.848         25.705
+           0.900       1.000           15.659         25.705
+           0.800       1.000           18.062         25.705
+           0.700       1.000           19.943         27.833
+           0.500       1.000           23.337         29.383
+           0.300       0.900           27.096         31.866
+           0.200       0.500           29.553         32.006
+           0.100       0.000           33.196         32.122
+           0.050       0.000           36.415         32.122
+           0.020       0.000           40.270         32.122
+           0.010       0.000           42.980         32.122
+
+RMSEA (Root Mean Square Error Of Approximation)
+
+        Mean                                 0.026
+        Std Dev                              0.006
+        Number of successful computations       10
+
+        Cumulative Distribution Function
+           Value    Function Value
+           0.990       1.000
+           0.980       1.000
+           0.950       1.000
+           0.900       1.000
+           0.800       1.000
+           0.700       1.000
+           0.500       1.000
+           0.300       1.000
+           0.200       1.000
+           0.100       1.000
+           0.050       1.000
+           0.020       0.100
+           0.010       0.000
+
+CFI/TLI
+
+    CFI
+
+        Mean                                 0.993
+        Std Dev                              0.003
+        Number of successful computations       10
+
+        Cumulative Distribution Function
+           Value    Function Value
+           0.990       0.400
+           0.980       0.000
+           0.950       0.000
+           0.900       0.000
+           0.800       0.000
+           0.700       0.000
+           0.500       0.000
+           0.300       0.000
+           0.200       0.000
+           0.100       0.000
+           0.050       0.000
+           0.020       0.000
+           0.010       0.000
+
+    TLI
+
+        Mean                                 0.991
+        Std Dev                              0.003
+        Number of successful computations       10
+
+        Cumulative Distribution Function
+           Value    Function Value
+           0.990       0.400
+           0.980       0.000
+           0.950       0.000
+           0.900       0.000
+           0.800       0.000
+           0.700       0.000
+           0.500       0.000
+           0.300       0.000
+           0.200       0.000
+           0.100       0.000
+           0.050       0.000
+           0.020       0.000
+           0.010       0.000
+
+SRMR (Standardized Root Mean Square Residual)
+
+        Mean                                 0.098
+        Std Dev                              0.004
+        Number of successful computations       10
+
+        Cumulative Distribution Function
+           Value    Function Value
+           0.990       1.000
+           0.980       1.000
+           0.950       1.000
+           0.900       1.000
+           0.800       1.000
+           0.700       1.000
+           0.500       1.000
+           0.300       1.000
+           0.200       1.000
+           0.100       0.700
+           0.050       0.000
+           0.020       0.000
+           0.010       0.000
+
+
+MODEL RESULTS
+
+                                                    Two-Tailed   Rate of
+                    Estimate       S.E.  Est./S.E.    P-Value    Missing
+
+ I        BY
+    MQOLA1             1.000      0.000    999.000    999.000      0.000
+    MQOLA2             1.000      0.000    999.000    999.000      0.000
+    MQOLA3             1.000      0.000    999.000    999.000      0.000
+    MQOLA4             1.000      0.000    999.000    999.000      0.000
+    MQOLA5             1.000      0.000    999.000    999.000      0.000
+    MQOLA6             1.000      0.000    999.000    999.000      0.000
+    MQOLA7             1.000      0.000    999.000    999.000      0.000
+
+ S        BY
+    MQOLA1             0.000      0.000    999.000    999.000      0.000
+    MQOLA2             0.830      0.216      3.850      0.000      0.077
+    MQOLA3             1.019      0.071     14.376      0.000      0.023
+    MQOLA4             0.883      0.132      6.692      0.000      0.034
+    MQOLA5             0.898      0.100      9.004      0.000      0.092
+    MQOLA6             0.875      0.136      6.446      0.000      0.067
+    MQOLA7             1.000      0.000    999.000    999.000      0.000
+
+ I        ON
+    GROUP              0.000      0.000    999.000    999.000      0.000
+
+ S        ON
+    GROUP             -0.007      0.131     -0.053      0.958      0.035
+
+ I        WITH
+    S                 -1.358      2.159     -0.629      0.529      0.038
+
+ Intercepts
+    MQOLA1             0.000      0.000    999.000    999.000      0.000
+    MQOLA2             0.000      0.000    999.000    999.000      0.000
+    MQOLA3             0.000      0.000    999.000    999.000      0.000
+    MQOLA4             0.000      0.000    999.000    999.000      0.000
+    MQOLA5             0.000      0.000    999.000    999.000      0.000
+    MQOLA6             0.000      0.000    999.000    999.000      0.000
+    MQOLA7             0.000      0.000    999.000    999.000      0.000
+    I                  6.924      0.084     82.622      0.000      0.008
+    S                 -0.309      0.076     -4.045      0.000      0.038
+
+ Residual Variances
+    MQOLA1            -0.436      2.158     -0.202      0.840      0.037
+    MQOLA2             0.722      0.115      6.303      0.000      0.131
+    MQOLA3             0.749      0.064     11.645      0.000      0.266
+    MQOLA4             0.660      0.128      5.172      0.000      0.016
+    MQOLA5             0.538      0.103      5.204      0.000      0.030
+    MQOLA6             0.722      0.121      5.968      0.000      0.012
+    MQOLA7             0.844      0.146      5.769      0.000      0.082
+    I                  2.929      2.130      1.375      0.169      0.037
+    S                  1.684      2.152      0.782      0.434      0.038
+
+New/Additional Parameters
+    T1                 6.924      0.084     82.622      0.000      0.008
+    T2                 6.668      0.077     86.037      0.000      0.110
+    T3                 6.609      0.102     64.581      0.000      0.021
+    T4                 6.651      0.083     80.182      0.000      0.042
+    T5                 6.647      0.088     75.780      0.000      0.043
+    T6                 6.654      0.086     77.667      0.000      0.046
+    T7                 6.615      0.097     67.979      0.000      0.026
+
+
+QUALITY OF NUMERICAL RESULTS
+
+     Average Condition Number for the Information Matrix      0.241E-04
+       (ratio of smallest to largest eigenvalue)
+
+
+STANDARDIZED MODEL RESULTS
+
+
+STDYX Standardization
+
+                                                    Two-Tailed   Rate of
+                    Estimate       S.E.  Est./S.E.    P-Value    Missing
+
+ I        BY
+    MQOLA1             1.082      0.378      2.860      0.004      0.040
+    MQOLA2             1.069      0.367      2.913      0.004      0.044
+    MQOLA3             1.047      0.367      2.854      0.004      0.040
+    MQOLA4             1.079      0.352      3.063      0.002      0.041
+    MQOLA5             1.106      0.370      2.987      0.003      0.043
+    MQOLA6             1.067      0.354      3.015      0.003      0.041
+    MQOLA7             1.032      0.359      2.874      0.004      0.042
+
+ S        BY
+    MQOLA1             0.000      0.000      0.000      1.000      0.000
+    MQOLA2             0.674      0.571      1.181      0.237      0.051
+    MQOLA3             0.806      0.491      1.644      0.100      0.040
+    MQOLA4             0.721      0.519      1.389      0.165      0.040
+    MQOLA5             0.752      0.524      1.437      0.151      0.047
+    MQOLA6             0.707      0.515      1.374      0.169      0.046
+    MQOLA7             0.779      0.463      1.681      0.093      0.042
+
+ I        ON
+    GROUP              0.000      0.000      0.000      1.000      0.000
+
+ S        ON
+    GROUP             -0.004      0.053     -0.066      0.948      0.032
+
+ I        WITH
+    S                 -0.602      0.299     -2.011      0.044      0.050
+
+ Intercepts
+    MQOLA1             0.000      0.000      0.000      1.000      0.000
+    MQOLA2             0.000      0.000      0.000      1.000      0.000
+    MQOLA3             0.000      0.000      0.000      1.000      0.000
+    MQOLA4             0.000      0.000      0.000      1.000      0.000
+    MQOLA5             0.000      0.000      0.000      1.000      0.000
+    MQOLA6             0.000      0.000      0.000      1.000      0.000
+    MQOLA7             0.000      0.000      0.000      1.000      0.000
+    I                  4.069      1.239      3.284      0.001      0.048
+    S                 -0.242      0.130     -1.863      0.062      0.045
+
+ Residual Variances
+    MQOLA1            -0.175      0.437     -0.401      0.689      0.000
+    MQOLA2             0.282      0.042      6.655      0.000      0.087
+    MQOLA3             0.282      0.016     17.229      0.000      0.358
+    MQOLA4             0.264      0.036      7.273      0.000      0.011
+    MQOLA5             0.225      0.038      5.931      0.000      0.023
+    MQOLA6             0.282      0.040      7.004      0.000      0.009
+    MQOLA7             0.308      0.034      9.029      0.000      0.092
+    I                  1.000      0.000  *********      0.000      0.000
+    S                  1.000      0.001    885.684      0.000      0.004
+
+
+STDY Standardization
+
+                                                    Two-Tailed   Rate of
+                    Estimate       S.E.  Est./S.E.    P-Value    Missing
+
+ I        BY
+    MQOLA1             1.082      0.378      2.860      0.004      0.040
+    MQOLA2             1.069      0.367      2.913      0.004      0.044
+    MQOLA3             1.047      0.367      2.854      0.004      0.040
+    MQOLA4             1.079      0.352      3.063      0.002      0.041
+    MQOLA5             1.106      0.370      2.987      0.003      0.043
+    MQOLA6             1.067      0.354      3.015      0.003      0.041
+    MQOLA7             1.032      0.359      2.874      0.004      0.042
+
+ S        BY
+    MQOLA1             0.000      0.000      0.000      1.000      0.000
+    MQOLA2             0.674      0.571      1.181      0.237      0.051
+    MQOLA3             0.806      0.491      1.644      0.100      0.040
+    MQOLA4             0.721      0.519      1.389      0.165      0.040
+    MQOLA5             0.752      0.524      1.437      0.151      0.047
+    MQOLA6             0.707      0.515      1.374      0.169      0.046
+    MQOLA7             0.779      0.463      1.681      0.093      0.042
+
+ I        ON
+    GROUP              0.000      0.000      0.000      1.000      0.000
+
+ S        ON
+    GROUP             -0.007      0.107     -0.066      0.948      0.032
+
+ I        WITH
+    S                 -0.602      0.299     -2.011      0.044      0.050
+
+ Intercepts
+    MQOLA1             0.000      0.000      0.000      1.000      0.000
+    MQOLA2             0.000      0.000      0.000      1.000      0.000
+    MQOLA3             0.000      0.000      0.000      1.000      0.000
+    MQOLA4             0.000      0.000      0.000      1.000      0.000
+    MQOLA5             0.000      0.000      0.000      1.000      0.000
+    MQOLA6             0.000      0.000      0.000      1.000      0.000
+    MQOLA7             0.000      0.000      0.000      1.000      0.000
+    I                  4.069      1.239      3.284      0.001      0.048
+    S                 -0.242      0.130     -1.863      0.062      0.045
+
+ Residual Variances
+    MQOLA1             0.012      0.376      0.031      0.975      0.000
+    MQOLA2             0.282      0.042      6.655      0.000      0.087
+    MQOLA3             0.282      0.016     17.229      0.000      0.358
+    MQOLA4             0.264      0.036      7.273      0.000      0.011
+    MQOLA5             0.225      0.038      5.931      0.000      0.023
+    MQOLA6             0.282      0.040      7.004      0.000      0.009
+    MQOLA7             0.308      0.034      9.029      0.000      0.092
+    I                  1.000      0.000  *********      0.000      0.000
+    S                  1.000      0.001    885.684      0.000      0.004
+
+
+STD Standardization
+
+                                                    Two-Tailed   Rate of
+                    Estimate       S.E.  Est./S.E.    P-Value    Missing
+
+ I        BY
+    MQOLA1             1.708      0.587      2.910      0.004      0.040
+    MQOLA2             1.708      0.587      2.910      0.004      0.040
+    MQOLA3             1.708      0.587      2.910      0.004      0.040
+    MQOLA4             1.708      0.587      2.910      0.004      0.040
+    MQOLA5             1.708      0.587      2.910      0.004      0.040
+    MQOLA6             1.708      0.587      2.910      0.004      0.040
+    MQOLA7             1.708      0.587      2.910      0.004      0.040
+
+ S        BY
+    MQOLA1             0.000      0.000      0.000      1.000      0.000
+    MQOLA2             1.077      0.912      1.181      0.238      0.050
+    MQOLA3             1.315      0.790      1.663      0.096      0.041
+    MQOLA4             1.141      0.843      1.355      0.176      0.039
+    MQOLA5             1.162      0.818      1.420      0.156      0.046
+    MQOLA6             1.132      0.840      1.348      0.178      0.045
+    MQOLA7             1.290      0.760      1.698      0.090      0.042
+
+ I        ON
+    GROUP              0.000      0.000      0.000      1.000      0.000
+
+ S        ON
+    GROUP             -0.007      0.107     -0.066      0.948      0.032
+
+ I        WITH
+    S                 -0.602      0.299     -2.011      0.044      0.050
+
+ Intercepts
+    MQOLA1             0.000      0.000      0.000      1.000      0.000
+    MQOLA2             0.000      0.000      0.000      1.000      0.000
+    MQOLA3             0.000      0.000      0.000      1.000      0.000
+    MQOLA4             0.000      0.000      0.000      1.000      0.000
+    MQOLA5             0.000      0.000      0.000      1.000      0.000
+    MQOLA6             0.000      0.000      0.000      1.000      0.000
+    MQOLA7             0.000      0.000      0.000      1.000      0.000
+    I                  4.069      1.239      3.284      0.001      0.048
+    S                 -0.242      0.130     -1.863      0.062      0.045
+
+ Residual Variances
+    MQOLA1             0.030      0.944      0.031      0.975      0.000
+    MQOLA2             0.722      0.115      6.303      0.000      0.131
+    MQOLA3             0.749      0.064     11.645      0.000      0.266
+    MQOLA4             0.660      0.128      5.172      0.000      0.016
+    MQOLA5             0.538      0.103      5.204      0.000      0.030
+    MQOLA6             0.722      0.121      5.968      0.000      0.012
+    MQOLA7             0.844      0.146      5.769      0.000      0.082
+    I                  1.000      0.000  *********      0.000      0.000
+    S                  1.000      0.001    885.684      0.000      0.004
+
+
+R-SQUARE
+
+    Observed                                        Two-Tailed   Rate of
+    Variable        Estimate       S.E.  Est./S.E.    P-Value    Missing
+
+    MQOLA1             0.988      0.376      2.632      0.008      0.000
+    MQOLA2             0.718      0.042     16.915      0.000      0.087
+    MQOLA3             0.718      0.016     43.959      0.000      0.358
+    MQOLA4             0.736      0.036     20.302      0.000      0.011
+    MQOLA5             0.775      0.038     20.392      0.000      0.023
+    MQOLA6             0.718      0.040     17.859      0.000      0.009
+    MQOLA7             0.692      0.034     20.315      0.000      0.092
+
+     Latent                                         Two-Tailed   Rate of
+    Variable        Estimate       S.E.  Est./S.E.    P-Value    Missing
+
+    I                  0.000      0.000      0.000      1.000      0.000
+    S                  0.000      0.001      0.077      0.939      0.008
+
+
+CONFIDENCE INTERVALS OF MODEL RESULTS
+
+                  Lower .5%  Lower 2.5%    Lower 5%    Estimate    Upper 5%  Upper 2.5%   Upper .5%
+
+ I        BY
+    MQOLA1           1.000       1.000       1.000       1.000       1.000       1.000       1.000
+    MQOLA2           1.000       1.000       1.000       1.000       1.000       1.000       1.000
+    MQOLA3           1.000       1.000       1.000       1.000       1.000       1.000       1.000
+    MQOLA4           1.000       1.000       1.000       1.000       1.000       1.000       1.000
+    MQOLA5           1.000       1.000       1.000       1.000       1.000       1.000       1.000
+    MQOLA6           1.000       1.000       1.000       1.000       1.000       1.000       1.000
+    MQOLA7           1.000       1.000       1.000       1.000       1.000       1.000       1.000
+
+ S        BY
+    MQOLA1           0.000       0.000       0.000       0.000       0.000       0.000       0.000
+    MQOLA2           0.275       0.407       0.475       0.830       1.185       1.253       1.385
+    MQOLA3           0.837       0.880       0.903       1.019       1.136       1.158       1.202
+    MQOLA4           0.543       0.624       0.666       0.883       1.100       1.141       1.223
+    MQOLA5           0.641       0.703       0.734       0.898       1.062       1.094       1.155
+    MQOLA6           0.525       0.609       0.651       0.875       1.098       1.141       1.224
+    MQOLA7           1.000       1.000       1.000       1.000       1.000       1.000       1.000
+
+ I        ON
+    GROUP            0.000       0.000       0.000       0.000       0.000       0.000       0.000
+
+ S        ON
+    GROUP           -0.344      -0.264      -0.222      -0.007       0.209       0.250       0.331
+
+ I        WITH
+    S               -6.918      -5.589      -4.909      -1.358       2.194       2.874       4.203
+
+ Intercepts
+    MQOLA1           0.000       0.000       0.000       0.000       0.000       0.000       0.000
+    MQOLA2           0.000       0.000       0.000       0.000       0.000       0.000       0.000
+    MQOLA3           0.000       0.000       0.000       0.000       0.000       0.000       0.000
+    MQOLA4           0.000       0.000       0.000       0.000       0.000       0.000       0.000
+    MQOLA5           0.000       0.000       0.000       0.000       0.000       0.000       0.000
+    MQOLA6           0.000       0.000       0.000       0.000       0.000       0.000       0.000
+    MQOLA7           0.000       0.000       0.000       0.000       0.000       0.000       0.000
+    I                6.708       6.760       6.787       6.924       7.062       7.089       7.140
+    S               -0.506      -0.459      -0.435      -0.309      -0.183      -0.159      -0.112
+
+ Residual Variances
+    MQOLA1          -5.994      -4.665      -3.985      -0.436       3.113       3.793       5.121
+    MQOLA2           0.427       0.497       0.533       0.722       0.910       0.946       1.017
+    MQOLA3           0.584       0.623       0.643       0.749       0.855       0.875       0.915
+    MQOLA4           0.332       0.410       0.450       0.660       0.871       0.911       0.989
+    MQOLA5           0.271       0.335       0.368       0.538       0.707       0.740       0.804
+    MQOLA6           0.410       0.485       0.523       0.722       0.921       0.959       1.034
+    MQOLA7           0.467       0.557       0.603       0.844       1.085       1.131       1.221
+    I               -2.558      -1.246      -0.575       2.929       6.433       7.104       8.416
+    S               -3.860      -2.534      -1.856       1.684       5.225       5.903       7.228
+
+New/Additional Parameters
+    T1               6.708       6.760       6.787       6.924       7.062       7.089       7.140
+    T2               6.468       6.516       6.540       6.668       6.795       6.820       6.867
+    T3               6.346       6.409       6.441       6.609       6.778       6.810       6.873
+    T4               6.438       6.489       6.515       6.651       6.788       6.814       6.865
+    T5               6.421       6.475       6.502       6.647       6.791       6.819       6.873
+    T6               6.433       6.486       6.513       6.654       6.795       6.822       6.875
+    T7               6.365       6.424       6.455       6.615       6.775       6.806       6.866
+
+
+CONFIDENCE INTERVALS OF STANDARDIZED MODEL RESULTS
+
+
+STDYX Standardization
+
+                  Lower .5%  Lower 2.5%    Lower 5%    Estimate    Upper 5%  Upper 2.5%   Upper .5%
+
+ I        BY
+    MQOLA1           0.108       0.341       0.460       1.082       1.704       1.823       2.056
+    MQOLA2           0.124       0.350       0.465       1.069       1.672       1.788       2.014
+    MQOLA3           0.102       0.328       0.444       1.047       1.651       1.767       1.993
+    MQOLA4           0.172       0.389       0.500       1.079       1.659       1.770       1.987
+    MQOLA5           0.152       0.380       0.497       1.106       1.715       1.832       2.060
+    MQOLA6           0.155       0.373       0.485       1.067       1.649       1.760       1.978
+    MQOLA7           0.107       0.328       0.441       1.032       1.622       1.735       1.956
+
+ S        BY
+    MQOLA1           0.000       0.000       0.000       0.000       0.000       0.000       0.000
+    MQOLA2          -0.796      -0.444      -0.265       0.674       1.613       1.793       2.145
+    MQOLA3          -0.457      -0.155      -0.001       0.806       1.613       1.768       2.070
+    MQOLA4          -0.617      -0.297      -0.133       0.721       1.575       1.739       2.059
+    MQOLA5          -0.596      -0.274      -0.109       0.752       1.614       1.779       2.101
+    MQOLA6          -0.618      -0.302      -0.140       0.707       1.553       1.715       2.032
+    MQOLA7          -0.415      -0.129       0.017       0.779       1.542       1.688       1.973
+
+ I        ON
+    GROUP            0.000       0.000       0.000       0.000       0.000       0.000       0.000
+
+ S        ON
+    GROUP           -0.141      -0.108      -0.091      -0.004       0.084       0.101       0.134
+
+ I        WITH
+    S               -1.372      -1.188      -1.094      -0.602      -0.110      -0.015       0.169
+
+ Intercepts
+    MQOLA1           0.000       0.000       0.000       0.000       0.000       0.000       0.000
+    MQOLA2           0.000       0.000       0.000       0.000       0.000       0.000       0.000
+    MQOLA3           0.000       0.000       0.000       0.000       0.000       0.000       0.000
+    MQOLA4           0.000       0.000       0.000       0.000       0.000       0.000       0.000
+    MQOLA5           0.000       0.000       0.000       0.000       0.000       0.000       0.000
+    MQOLA6           0.000       0.000       0.000       0.000       0.000       0.000       0.000
+    MQOLA7           0.000       0.000       0.000       0.000       0.000       0.000       0.000
+    I                0.877       1.640       2.031       4.069       6.107       6.498       7.261
+    S               -0.577      -0.497      -0.456      -0.242      -0.028       0.013       0.093
+
+ Residual Variances
+    MQOLA1          -1.302      -1.033      -0.895      -0.175       0.544       0.682       0.951
+    MQOLA2           0.173       0.199       0.213       0.282       0.352       0.366       0.392
+    MQOLA3           0.239       0.250       0.255       0.282       0.308       0.314       0.324
+    MQOLA4           0.170       0.193       0.204       0.264       0.323       0.335       0.357
+    MQOLA5           0.127       0.151       0.163       0.225       0.288       0.300       0.323
+    MQOLA6           0.178       0.203       0.216       0.282       0.348       0.361       0.385
+    MQOLA7           0.220       0.241       0.252       0.308       0.364       0.374       0.395
+    I                1.000       1.000       1.000       1.000       1.000       1.000       1.000
+    S                0.997       0.998       0.998       1.000       1.002       1.002       1.003
+
+
+STDY Standardization
+
+                  Lower .5%  Lower 2.5%    Lower 5%    Estimate    Upper 5%  Upper 2.5%   Upper .5%
+
+ I        BY
+    MQOLA1           0.108       0.341       0.460       1.082       1.704       1.823       2.056
+    MQOLA2           0.124       0.350       0.465       1.069       1.672       1.788       2.014
+    MQOLA3           0.102       0.328       0.444       1.047       1.651       1.767       1.993
+    MQOLA4           0.172       0.389       0.500       1.079       1.659       1.770       1.987
+    MQOLA5           0.152       0.380       0.497       1.106       1.715       1.832       2.060
+    MQOLA6           0.155       0.373       0.485       1.067       1.649       1.760       1.978
+    MQOLA7           0.107       0.328       0.441       1.032       1.622       1.735       1.956
+
+ S        BY
+    MQOLA1           0.000       0.000       0.000       0.000       0.000       0.000       0.000
+    MQOLA2          -0.796      -0.444      -0.265       0.674       1.613       1.793       2.145
+    MQOLA3          -0.457      -0.155      -0.001       0.806       1.613       1.768       2.070
+    MQOLA4          -0.617      -0.297      -0.133       0.721       1.575       1.739       2.059
+    MQOLA5          -0.596      -0.274      -0.109       0.752       1.614       1.779       2.101
+    MQOLA6          -0.618      -0.302      -0.140       0.707       1.553       1.715       2.032
+    MQOLA7          -0.415      -0.129       0.017       0.779       1.542       1.688       1.973
+
+ I        ON
+    GROUP            0.000       0.000       0.000       0.000       0.000       0.000       0.000
+
+ S        ON
+    GROUP           -0.283      -0.217      -0.183      -0.007       0.169       0.203       0.268
+
+ I        WITH
+    S               -1.372      -1.188      -1.094      -0.602      -0.110      -0.015       0.169
+
+ Intercepts
+    MQOLA1           0.000       0.000       0.000       0.000       0.000       0.000       0.000
+    MQOLA2           0.000       0.000       0.000       0.000       0.000       0.000       0.000
+    MQOLA3           0.000       0.000       0.000       0.000       0.000       0.000       0.000
+    MQOLA4           0.000       0.000       0.000       0.000       0.000       0.000       0.000
+    MQOLA5           0.000       0.000       0.000       0.000       0.000       0.000       0.000
+    MQOLA6           0.000       0.000       0.000       0.000       0.000       0.000       0.000
+    MQOLA7           0.000       0.000       0.000       0.000       0.000       0.000       0.000
+    I                0.877       1.640       2.031       4.069       6.107       6.498       7.261
+    S               -0.577      -0.497      -0.456      -0.242      -0.028       0.013       0.093
+
+ Residual Variances
+    MQOLA1          -0.956      -0.724      -0.606       0.012       0.629       0.748       0.979
+    MQOLA2           0.173       0.199       0.213       0.282       0.352       0.366       0.392
+    MQOLA3           0.239       0.250       0.255       0.282       0.308       0.314       0.324
+    MQOLA4           0.170       0.193       0.204       0.264       0.323       0.335       0.357
+    MQOLA5           0.127       0.151       0.163       0.225       0.288       0.300       0.323
+    MQOLA6           0.178       0.203       0.216       0.282       0.348       0.361       0.385
+    MQOLA7           0.220       0.241       0.252       0.308       0.364       0.374       0.395
+    I                1.000       1.000       1.000       1.000       1.000       1.000       1.000
+    S                0.997       0.998       0.998       1.000       1.002       1.002       1.003
+
+
+STD Standardization
+
+                  Lower .5%  Lower 2.5%    Lower 5%    Estimate    Upper 5%  Upper 2.5%   Upper .5%
+
+ I        BY
+    MQOLA1           0.196       0.558       0.743       1.708       2.674       2.859       3.220
+    MQOLA2           0.196       0.558       0.743       1.708       2.674       2.859       3.220
+    MQOLA3           0.196       0.558       0.743       1.708       2.674       2.859       3.220
+    MQOLA4           0.196       0.558       0.743       1.708       2.674       2.859       3.220
+    MQOLA5           0.196       0.558       0.743       1.708       2.674       2.859       3.220
+    MQOLA6           0.196       0.558       0.743       1.708       2.674       2.859       3.220
+    MQOLA7           0.196       0.558       0.743       1.708       2.674       2.859       3.220
+
+ S        BY
+    MQOLA1           0.000       0.000       0.000       0.000       0.000       0.000       0.000
+    MQOLA2          -1.272      -0.711      -0.423       1.077       2.578       2.865       3.427
+    MQOLA3          -0.721      -0.235       0.014       1.315       2.615       2.864       3.351
+    MQOLA4          -1.029      -0.510      -0.245       1.141       2.528       2.793       3.312
+    MQOLA5          -0.945      -0.442      -0.184       1.162       2.508       2.766       3.269
+    MQOLA6          -1.031      -0.514      -0.249       1.132       2.513       2.778       3.295
+    MQOLA7          -0.667      -0.199       0.040       1.290       2.540       2.780       3.248
+
+ I        ON
+    GROUP            0.000       0.000       0.000       0.000       0.000       0.000       0.000
+
+ S        ON
+    GROUP           -0.283      -0.217      -0.183      -0.007       0.169       0.203       0.268
+
+ I        WITH
+    S               -1.372      -1.188      -1.094      -0.602      -0.110      -0.015       0.169
+
+ Intercepts
+    MQOLA1           0.000       0.000       0.000       0.000       0.000       0.000       0.000
+    MQOLA2           0.000       0.000       0.000       0.000       0.000       0.000       0.000
+    MQOLA3           0.000       0.000       0.000       0.000       0.000       0.000       0.000
+    MQOLA4           0.000       0.000       0.000       0.000       0.000       0.000       0.000
+    MQOLA5           0.000       0.000       0.000       0.000       0.000       0.000       0.000
+    MQOLA6           0.000       0.000       0.000       0.000       0.000       0.000       0.000
+    MQOLA7           0.000       0.000       0.000       0.000       0.000       0.000       0.000
+    I                0.877       1.640       2.031       4.069       6.107       6.498       7.261
+    S               -0.577      -0.497      -0.456      -0.242      -0.028       0.013       0.093
+
+ Residual Variances
+    MQOLA1          -2.401      -1.820      -1.523       0.030       1.582       1.879       2.460
+    MQOLA2           0.427       0.497       0.533       0.722       0.910       0.946       1.017
+    MQOLA3           0.584       0.623       0.643       0.749       0.855       0.875       0.915
+    MQOLA4           0.332       0.410       0.450       0.660       0.871       0.911       0.989
+    MQOLA5           0.271       0.335       0.368       0.538       0.707       0.740       0.804
+    MQOLA6           0.410       0.485       0.523       0.722       0.921       0.959       1.034
+    MQOLA7           0.467       0.557       0.603       0.844       1.085       1.131       1.221
+    I                1.000       1.000       1.000       1.000       1.000       1.000       1.000
+    S                0.997       0.998       0.998       1.000       1.002       1.002       1.003
+
+
+RESIDUAL OUTPUT
+
+NOTE:  These are average results over 10 data sets.
+
+
+     ESTIMATED MODEL AND RESIDUALS (OBSERVED - ESTIMATED)
+
+
+           Model Estimated Means
+              MQOLA1        MQOLA2        MQOLA3        MQOLA4        MQOLA5
+              ________      ________      ________      ________      ________
+                6.924         6.665         6.606         6.649         6.644
+
+
+           Model Estimated Means
+              MQOLA6        MQOLA7        GROUP
+              ________      ________      ________
+                6.651         6.612         0.498
+
+
+           Residuals for Means
+              MQOLA1        MQOLA2        MQOLA3        MQOLA4        MQOLA5
+              ________      ________      ________      ________      ________
+                0.001         0.054        -0.042        -0.042        -0.010
+
+
+           Residuals for Means
+              MQOLA6        MQOLA7        GROUP
+              ________      ________      ________
+               -0.062         0.045         0.000
+
+
+           Model Estimated Covariances
+              MQOLA1        MQOLA2        MQOLA3        MQOLA4        MQOLA5
+              ________      ________      ________      ________      ________
+ MQOLA1         2.493
+ MQOLA2         1.784         2.556
+ MQOLA3         1.545         1.843         2.660
+ MQOLA4         1.723         1.836         1.862         2.504
+ MQOLA5         1.701         1.837         1.868         1.845         2.386
+ MQOLA6         1.731         1.836         1.859         1.842         1.844
+ MQOLA7         1.571         1.842         1.904         1.860         1.865
+ GROUP          0.000        -0.001        -0.002        -0.001        -0.001
+
+
+           Model Estimated Covariances
+              MQOLA6        MQOLA7        GROUP
+              ________      ________      ________
+ MQOLA6         2.563
+ MQOLA7         1.857         2.742
+ GROUP         -0.001        -0.002         0.250
+
+
+           Residuals for Covariances
+              MQOLA1        MQOLA2        MQOLA3        MQOLA4        MQOLA5
+              ________      ________      ________      ________      ________
+ MQOLA1         0.004
+ MQOLA2        -0.144        -0.280
+ MQOLA3        -0.147        -0.146        -0.261
+ MQOLA4         0.101        -0.118         0.003         0.169
+ MQOLA5         0.167        -0.071        -0.129         0.280         0.292
+ MQOLA6         0.196         0.071        -0.070         0.256         0.462
+ MQOLA7         0.043        -0.193        -0.104         0.093         0.302
+ GROUP         -0.002        -0.017        -0.056         0.027         0.019
+
+
+           Residuals for Covariances
+              MQOLA6        MQOLA7        GROUP
+              ________      ________      ________
+ MQOLA6         0.377
+ MQOLA7         0.276         0.119
+ GROUP          0.034        -0.011         0.000
+
+
+TECHNICAL 1 OUTPUT
+
+
+     PARAMETER SPECIFICATION
+
+
+           NU
+              MQOLA1        MQOLA2        MQOLA3        MQOLA4        MQOLA5
+              ________      ________      ________      ________      ________
+                  0             0             0             0             0
+
+
+           NU
+              MQOLA6        MQOLA7        GROUP
+              ________      ________      ________
+                  0             0             0
+
+
+           LAMBDA
+              I             S             GROUP
+              ________      ________      ________
+ MQOLA1             0             0             0
+ MQOLA2             0             1             0
+ MQOLA3             0             2             0
+ MQOLA4             0             3             0
+ MQOLA5             0             4             0
+ MQOLA6             0             5             0
+ MQOLA7             0             0             0
+ GROUP              0             0             0
+
+
+           THETA
+              MQOLA1        MQOLA2        MQOLA3        MQOLA4        MQOLA5
+              ________      ________      ________      ________      ________
+ MQOLA1             6
+ MQOLA2             0             7
+ MQOLA3             0             0             8
+ MQOLA4             0             0             0             9
+ MQOLA5             0             0             0             0            10
+ MQOLA6             0             0             0             0             0
+ MQOLA7             0             0             0             0             0
+ GROUP              0             0             0             0             0
+
+
+           THETA
+              MQOLA6        MQOLA7        GROUP
+              ________      ________      ________
+ MQOLA6            11
+ MQOLA7             0            12
+ GROUP              0             0             0
+
+
+           ALPHA
+              I             S             GROUP
+              ________      ________      ________
+                 13            14             0
+
+
+           BETA
+              I             S             GROUP
+              ________      ________      ________
+ I                  0             0             0
+ S                  0             0            15
+ GROUP              0             0             0
+
+
+           PSI
+              I             S             GROUP
+              ________      ________      ________
+ I                 16
+ S                 17            18
+ GROUP              0             0             0
+
+
+     PARAMETER SPECIFICATION FOR THE ADDITIONAL PARAMETERS
+
+
+           New/Additional Parameters
+              T1            T2            T3            T4            T5
+              ________      ________      ________      ________      ________
+                   19            20            21            22            23
+
+
+           New/Additional Parameters
+              T6            T7
+              ________      ________
+                   24            25
+
+
+     STARTING VALUES
+
+
+           NU
+              MQOLA1        MQOLA2        MQOLA3        MQOLA4        MQOLA5
+              ________      ________      ________      ________      ________
+                0.000         0.000         0.000         0.000         0.000
+
+
+           NU
+              MQOLA6        MQOLA7        GROUP
+              ________      ________      ________
+                0.000         0.000         0.000
+
+
+           LAMBDA
+              I             S             GROUP
+              ________      ________      ________
+ MQOLA1         1.000         0.000         0.000
+ MQOLA2         1.000         1.000         0.000
+ MQOLA3         1.000         1.000         0.000
+ MQOLA4         1.000         1.000         0.000
+ MQOLA5         1.000         1.000         0.000
+ MQOLA6         1.000         1.000         0.000
+ MQOLA7         1.000         1.000         0.000
+ GROUP          0.000         0.000         1.000
+
+
+           THETA
+              MQOLA1        MQOLA2        MQOLA3        MQOLA4        MQOLA5
+              ________      ________      ________      ________      ________
+ MQOLA1         1.257
+ MQOLA2         0.000         1.157
+ MQOLA3         0.000         0.000         1.155
+ MQOLA4         0.000         0.000         0.000         1.338
+ MQOLA5         0.000         0.000         0.000         0.000         1.287
+ MQOLA6         0.000         0.000         0.000         0.000         0.000
+ MQOLA7         0.000         0.000         0.000         0.000         0.000
+ GROUP          0.000         0.000         0.000         0.000         0.000
+
+
+           THETA
+              MQOLA6        MQOLA7        GROUP
+              ________      ________      ________
+ MQOLA6         1.405
+ MQOLA7         0.000         1.336
+ GROUP          0.000         0.000         0.000
+
+
+           ALPHA
+              I             S             GROUP
+              ________      ________      ________
+                0.000         0.000         0.498
+
+
+           BETA
+              I             S             GROUP
+              ________      ________      ________
+ I              0.000         0.000         0.000
+ S              0.000         0.000         0.000
+ GROUP          0.000         0.000         0.000
+
+
+           PSI
+              I             S             GROUP
+              ________      ________      ________
+ I              0.050
+ S              0.000         0.050
+ GROUP          0.000         0.000         0.250
+
+
+     STARTING VALUES FOR THE ADDITIONAL PARAMETERS
+
+
+           New/Additional Parameters
+              T1            T2            T3            T4            T5
+              ________      ________      ________      ________      ________
+                0.500         0.500         0.500         0.500         0.500
+
+
+           New/Additional Parameters
+              T6            T7
+              ________      ________
+                0.500         0.500
+
+
+PLOT INFORMATION
+
+The following plots are available:
+
+  Sample means
+  Estimated means
+  Sample and estimated means
+
+DIAGRAM INFORMATION
+
+  Use View Diagram under the Diagram menu in the Mplus Editor to view the diagram.
+  If running Mplus from the Mplus Diagrammer, the diagram opens automatically.
+
+  Diagram output
+    e:\qpss analyses\mplus\current\includedeathvariable\mi\model1_sem_mqol_tot_bysite.dgm
+
+     Beginning Time:  17:53:12
+        Ending Time:  17:53:16
+       Elapsed Time:  00:00:04
+
+
+
+MUTHEN & MUTHEN
+3463 Stoner Ave.
+Los Angeles, CA  90066
+
+Tel: (310) 391-9971
+Fax: (310) 391-8971
+Web: www.StatModel.com
+Support: Support@StatModel.com
+
+Copyright (c) 1998-2022 Muthen & Muthen

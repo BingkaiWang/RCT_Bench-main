@@ -1,0 +1,5 @@
+Trial_ID: 56
+Paper Name: Transcranial direct current stimulation and attention skills in burnout patients: a randomized blinded sham-controlled pilot study
+Paper Link: https://doi.org/10.12688/f1000research.21831.2
+Citation: Van Noppen et al. F1000Research. 2020;9:116. doi:10.12688/f1000research.21831.2
+Availability: PDF stored here when publicly available; otherwise this file records the publication link.

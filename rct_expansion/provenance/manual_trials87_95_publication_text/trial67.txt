@@ -1,0 +1,726 @@
+RESEA RCH ARTICL E
+Middle molecule clearance with high cut-off
+dialyzer versus high-flux dialyzer using
+continuous veno-venous hemodialysis with
+regional citrate anticoagulation : A prospective
+randomized controlled trial
+Lorenz Weidhase
+ID
+1
+*, Elena Haussig
+1
+, Stephan Haussig
+2
+, Thorsten Kaiser
+3
+, Jonathan de
+Fallois
+1
+, Sirak Petros
+1
+1 Medical Intensive Care Unit, Univers ity Hospital Leipzig, Leipzig, Saxony, Germany , 2 Department of
+Interna l Medicine/C ardiology, Univers ity of Dresden, Heart Center Dresden, Dresden, Saxony, Germany,
+3 Institute for Laboratory Medicine, Clinical Chemis try and Molecular Diagnostics , University Hospit al Leipzig,
+Leipzig, Saxony, Germany
+* lorenz.wei dhase@ medizin.un i-leipzig.de
+Abstract
+Background
+Regional anticoagulation with citrate during renal replacemen t therapy (RRT) reduces the
+risk of bleeding, extends dialyzer lifespan and is cost-effective. Therefore, current guidelines
+recommend its use if patients are not anticoagulated for another reason and if there are no
+contraindications against citrate. RRT with regional citrate anticoagulation has been estab-
+lished in critically ill patients as continuous veno-venous hemodialysi s (CVVHD) to reduce
+citrate load. However, CVVHD is inferior regarding middle molecule clearance compared
+to continuous veno-venous hemofiltration (CVVH). The use of a high cut-off dialyzer in
+CVVHD may thus present an option for middle molecule clearance similar to CVVH. This
+may allow combining the advantages of both techniques.
+Methods
+In this prospective, randomized, single-blinded single-center-trial, sixty patients with acute
+renal failure and established indication for renal replacemen t therapy were randomized 1:1
+into two groups. The control group was put on CVVHD using regional citrate anticoagulation
+and a high-flux dialyzer, while the intervention group was on CVVHD using regional citrate
+anticoagulation and a high-cut-off dialyzer. The concentrations of urea, creatinine, β
+2
+-micro-
+globulin, myoglobin, interleukin 6 and albumin were measured pre- and post-dialyz er 1, 6,
+12, 24 and 48 hours after initiating CVVHD.
+Results
+Mean plasma clearance for β
+2
+-microglobulin was 19.6±5.8 ml/min in the intervention group
+vs. 12.2±3.6 ml/min in the control group (p<0.001). For myoglobin (8.0±4.5 ml/min vs. 0.2
+PLOS ONE | https://doi.or g/10.137 1/journal.po ne.02158 23 April 26, 2019 1 / 12
+a1111111111
+a1111111111
+a1111111111
+a1111111111
+a1111111111
+OPEN ACCESS
+Citation: Weidhase L, Haussig E, Haussig S, Kaiser
+T, de Fallois J, Petros S (2019) Middle molecule
+clearance with high cut-off dialyzer versus high-flux
+dialyzer using continuous veno-venou s
+hemodialys is with regional citrate anticoagula tion:
+A prospective randomi zed controlled trial. PLoS
+ONE 14(4): e0215823. https://doi.o rg/10.1371/
+journal.pone .0215823
+Editor: Yoshitaka Isaka, Osake University Graduate
+School Of Medicine, JAPAN
+Received: October 23, 2018
+Accepted: April 9, 2019
+Published: April 26, 2019
+Copyright: © 2019 Weidhase et al. This is an open
+access article distributed under the terms of the
+Creative Commons Attribution License, which
+permits unrestricte d use, distribu tion, and
+reproduction in any medium, provided the original
+author and source are credited.
+Data Availabilit y Statement: Data underlying the
+findings are available in Support ing Information in
+SPSS und EXCEL format.
+Funding: Laborato ry analyses, medical disposables
+and additional costs of material were funded by
+Fresenius Medica l Care Deutschland GmbH, Else-
+Kro ¨ ner-Straße 1, D-61352 Bad Homburg v.d.H.
+This is an investigator initiated trial. Design of the
+study, collection, analys is and interpretatio n of data
+±3.6 ml/min, p<0.001) and IL-6 (1.5±4.3 vs. -2.5±3.5 ml/min, p = 0.002) a higher mean
+plasma clearance using high-cut-off dialyzer could be detected too, but no difference for
+urea, creatinine and albumin could be observed concerning this parameter between the two
+groups.
+Conclusion
+CVVHD using a high cut-off dialyzer results in more effective middle molecule clearance
+than that with high-flux dialyzer.
+Trial registration
+German Clinical Trials Register (DRKS0000 5254, registered 26th November 2013)
+Introduction
+Acute kidney injury requiring renal replacement therapy (RRT) is associated with a high mor-
+tality [1, 2] and represents an independent risk factor besides the severity of the underlying dis-
+ease [3]. Continuous renal replacement therapy (CRRT) offers better hemodynamic stability
+and gentle removal of solutes and fluids [4]. Nevertheless, a better survival could not be dem-
+onstrated with CRRT compared to intermittent hemodialysis (IHD) [5, 6]. Furthermore, there
+is a lack of evidence concerning optimal dose [7, 8, 4, 9, 10] and the best time point to start
+RRT [11, 12].
+Anticoagulation during CRRT is necessary to avoid blood clotting in the extracorporeal cir-
+cuit. Systemic anticoagulation poses a risk, particularly in patients with a high risk of bleeding,
+such as the critical care patient population. Regional citrate anticoagulation has already been
+implemented in clinical practice during the last years and it has been proved feasible and safe
+[13]. It reduces the risk of bleeding [14, 15], extends dialyzer lifespan [15, 16] and it is cost-
+effective [16]. However, a definite survival advantage has not yet been demonstrated [17, 18].
+Current international guidelines recommend regional citrate anticoagulation if patients are
+not anticoagulated for another reason and if there are no contraindications against citrate [19].
+Citrate has to be metabolized in the intermediary metabolism to bicarbonate. Thus, its metab-
+olism may be seriously impaired in patients with severe liver dysfunction [20].
+A lower extracorporeal circuit blood flow is required in diffusion-based RRT techniques
+compared to convection-based ones. Therefore, continuous veno-venous hemodialysis
+(CVVHD) enables reducing citrate load in critical care patients [21]. However, CVVHD is
+inferior regarding middle molecule clearance compared to continuous veno-venous hemofil-
+tration (CVVH) [22]. Using high cut off (HCO) membranes with a pore size larger than
+0.01 μm in CVVHD could be a solution for this problem [23, 24]. One of such dialyzers is the
+Ultraflux EMiC2 (Fresenius Medical Care, Bad Homburg, Germany). Clinical data concerning
+this dialyzer are limited.
+The aim of this prospective randomized trial was to evaluate the middle molecule clearance
+with citrate anticoagulated CVVHD using a HCO-dialyzer compared to CVVHD with the
+standard high-flux dialyzer.
+Middle molecule clearan ce using a high cut-off dialyzer
+PLOS ONE | https://doi.or g/10.137 1/journal.po ne.02158 23 April 26, 2019 2 / 12
+as well as writing the manuscript were not
+influenced by the funding body and are the work of
+the authors alone. The funders had no role in study
+design, data collection and analysis, decision to
+publish, or preparation of the manuscript.
+Competing interests : Laborat ory analyses, medica l
+disposables and additional costs were funded by
+Fresenius Medica l Care Deutschland GmbH, Else-
+Kro ¨ ner-Straße 1, D-61352 Bad Homburg v.d.H.
+This is an investigator initiated trial. The funders
+had no role in study design, data collecti on and
+analysis, decision to publish, or prepara tion of the
+manuscript. There is no relation of authors to the
+funder concerning employment , consultanc y,
+patents, products in development and marketed
+products. This does not alter our adherenc e to
+PLOS ONE policies on sharing data and materials.
+Material and methods
+This study is a prospective, randomized, single-blinded single-center trial in a 28-bed medical
+intensive care unit (ICU) at the University Hospital Leipzig, Germany. The study was
+approved by the local ethics committee (University of Leipzig, reference number: 447-12-
+24092012), conducted in accordance with the German medical product law and registered in
+the German Clinical Trials Register (DRKS00005254, registered 26 November 2013). Informed
+consent was obtained from all participating subjects. Eligible patients were enrolled after
+informed consent by the patients themselves or their legal guardians. The trial was conducted
+between May 2014 and May 2015.
+Subjects
+Eligible patients were critically ill patients with acute renal failure and indication for RRT
+based on the recommendations of the Kidney Disease: Improving Global Outcomes [19].
+Exclusion criteria were anticoagulation therapy for other reasons, high risk for citrate accumu-
+lation (e.g. liver failure), contraindications for renal replacement therapy (e.g. advanced malig-
+nant disease), moribund patients, pregnancy and lactation, age lower than 18 years, rejection
+of renal replacement therapy at all or refusal to participate in the study. 26 patients per group
+had been calculated to show a difference in plasma clearance of 8 ml/min (two-tailed power
+90%, p = 0.05) based on findings by Ricci et al. [22]. Thus, sixty consecutive patients were ran-
+domized 1:1 into the intervention and control groups. An unrestricted randomization was car-
+ried out using sequentially numbered, opaque sealed envelopes as described by Doig et al. [25].
+Recruitment flow chart is illustrated in Fig 1.
+The following clinical data were collected in all patients: age, sex, body height, body weight,
+APACHE II score, SAPS II, SOFA score, the need for mechanical ventilation and vasopressor
+treatment.
+Intervention
+The control group was managed with CVVHD using the high-flux-dialyzer Ultraflux AV
+1000S (Fresenius Medical Care, Bad Homburg, Germany), while CVVHD with the HCO-dia-
+lyzer Ultraflux EMiC2 (Fresenius Medical Care, Bad Homburg, Germany) was performed in
+the intervention group. Both dialyzers have the same effective surface area (1.8 m
+2
+), consist of
+identical material (polysulfone), exhibit a similar wall thickness (35μm) and differ only in pore
+size.
+Regional citrate anticoagulation was used in both groups. Sodium citrate infusion (citrate:
+136 mmol/l) was adjusted based on the concentration of post-dialyzer ionized calcium (target:
+0.25–0.34 mmol/l). Calcium chloride solution (calcium: 83 mmol/l) was added to the extracor-
+poreal circuit closer to the vascular access of the patient to keep systemic ionized calcium
+between 1.12–1.20 mmol/l. The vascular access was in all cases a double-lumen high-flow cath-
+eter. RRT was performed with the dialysis machine multiFiltrate (Fresenius Medical Care, Bad
+Homburg, Germany). A bicarbonate buffered dialysate (Ci-Ca Dialysate K4, Fresenius Medi-
+cal Care, Bad Homburg, Germany) was used in all cases, at a dose of 25 ml/kg/h after adjusting
+for body weight. Ideal body weight was calculated using the Hamwi equation (for males: 48 kg
+for the first 152 cm + 1.1 kg for each additional cm; for females 45 kg for the first 152 cm +0.9
+kg for each additional cm; [26]). The quotient of current body weight to ideal body weight was
+then computed. If this quotient was more than 1.3, the adjusted body weight was used for cal-
+culation of dialysate flow (for males: (current body weight-ideal body weight) x 0.38 + ideal
+body weight; for females: (current body weight-ideal body weight) x 0.32 + ideal body weight;
+[27]). Blood flow (Q
+B
+) in the extracorporeal circuit was adjusted threefold of the dialysate flow.
+Middle molecule clearan ce using a high cut-off dialyzer
+PLOS ONE | https://doi.or g/10.137 1/journal.po ne.02158 23 April 26, 2019 3 / 12
+Duration of the extracorporeal circuit was limited to 72 hours (h) according to manufacturer‘s
+instructions.
+Endpoints and calculations
+The concentrations of urea (60 Dalton (Da)), creatinine (113 Da), β
+2
+-microglobulin (11800
+Da), myoglobin (17053 Da), interleukin 6 (IL-6, 26000 Da) and albumin (66470 Da) were mea-
+sured pre-and post-dialyzer 1, 6, 12, 24 and 48 h after initiating CVVHD.
+Fig 1. Recruitment flow chart.
+https://do i.org/10.1371/j ournal.pone .0215823.g00 1
+Middle molecule clearan ce using a high cut-off dialyzer
+PLOS ONE | https://doi.or g/10.137 1/journal.po ne.02158 23 April 26, 2019 4 / 12
+Plasma flow in the extracorporeal circuit (Q
+p
+) was calculated using the patient’s hematocrit
+level (Hct) at the time of clearance sampling:
+Q
+p
+ml
+min
+� �
+¼ Q
+B
+�
+1   Hc t
+100
+Substance-specific plasma clearance (Cl
+p
+) at the sampling time points was estimated using
+the following equation:
+Cl
+p
+ml
+min
+� �
+¼ Q
+p
+�
+C
+pre  dial yze r
+  C
+post  dia lyze r
+C
+pre  dial yze r
+[28]
+The primary outcome was plasma clearance of β
+2
+-microglobulin, which is considered to
+represent middle molecules. Secondary endpoints were the plasma clearance of urea, creati-
+nine, myoglobin, IL-6, albumin. For estimating the total clearance (Cl
+total
+), the integral for sub-
+stance-specific elimination between the first and the forty-eighth hour was calculated using the
+following formula:
+Cl
+tota l
+ml
+47h
+� �
+¼
+Cl
+1h
+þ Cl
+6h
+2
+� 5 � 60 þ
+Cl
+6h
+þ Cl
+12h
+2
+� 6 � 60 þ
+Cl
+12h
+þ Cl
+24h
+2
+� 12 � 60
+þ
+Cl
+24h
+þ Cl
+48h
+2
+� 24 � 60
+The period between starting RRT and the first measurement after 1 h was not considered
+because of equilibration processes. Mean plasma clearance (Cl
+mean
+) was determined as follows:
+Cl
+mean
+ml
+min
+� �
+¼
+Cl
+tota l
+47 � 60
+The mean ultrafiltration rate (UFR
+mean
+) to achieve negative fluid balance was calculated
+similar mean plasma clearance:
+UFR
+mea n
+ml
+h
+� �
+¼
+�
+UFR
+1h
+þ UFR
+6h
+2
+� 5 þ
+UFR
+6h
+þ UFR
+12h
+2
+� 6 þ
+UFR
+12h
+þ UFR
+24h
+2
+� 12
+þ
+UFR
+24h
+þ UFR
+48h
+2
+� 24
+�
+� 47
+Laboratory analyses
+Blood samples were sent for analysis immediately after the draw. Laboratory analyses were
+performed using Cobas 8000 (Roche, Mannheim, Germany) according to the manufacturer´s
+instructions.
+The following methods had been used:
+• urea: kinetic test with urease and glutamate dehydrogenase
+• creatinine: enzymatic method with creatinase
+• β
+2
+-microglobulin: am c701 immunological test for turbidity
+• myoglobin: ElektroChemiLumineszenzImmun oAssay (ECLIA)
+Middle molecule clearan ce using a high cut-off dialyzer
+PLOS ONE | https://doi.or g/10.137 1/journal.po ne.02158 23 April 26, 2019 5 / 12
+• IL-6: ECLIA
+• albumin: color test with bromocresol green
+Statistical analyses
+Data were analyzed using the IBM SPSS 24. Categorical variables were tested by chi-square
+(two-sided). The Kolmogorov-Smirnov test was performed to test for normal distribution of
+continuous variables. Normally distributed variables were analyzed by the Student’s t-test and
+presented as mean with standard deviation and confidence interval (CI). Not normally distrib-
+uted variables were assessed by Mann-Whitney U test and presented as median with25
+th
+and75
+th
+quantiles in brackets. A p value <0.05 was considered statistically significant.
+Results
+Baseline characteristics of the study groups are shown in Table 1, with no significant difference
+between the control group and the intervention group.(Table 1)
+The calculated median dialysate flow (control group: 1800 ml/h (1500,2000); intervention
+group:1800 ml/h (1538,2000) and mean blood flow (control group: 103.6±19.0 ml/min; inter-
+vention group: 94.6±18.0 ml/min) did not differ significantly between the treatment groups.
+Based on this, a dialysate flow of 1800 ml/h (1500,2000) and blood flow of 98 ml/min
+(90,102.5) in the control group and a dialysate flow of 1900 ml/h (1663,2000) and blood flow
+of 90 ml/min (80.0,100.0) ml/min in the intervention group were realized without significant
+differences. The median dialyzer lifespan in the extracorporeal circuit was 69.3h (47.8,73.6) in
+the control group and 62.8h (49.6,70.1) in the intervention group (p = 0.40). Sodium citrate
+and calcium chloride infusion rates did not differ between Ultraflux AV 1000S and Ultraflux
+EMiC2 study arm (Table in S1 Table, Table in S2 Table).
+Data for plasma clearance of β
+2
+-microglobulin are given in Table 2 and Figure in S1 Fig,
+showing a significant difference between the two groups at all study time points.
+The mean plasma clearance was 12.2±3.6 ml/min (CI: 10.5–13.9) in the control group and
+19.6±5.8 ml/min (CI: 17.0–22.1) in the intervention group (p<0.001).
+Concerning secondary endpointsa significantly better elimination of myoglobin and IL-6
+could be observed in the intervention group, but there was no significant difference for mean
+Table 1. Baseline characteris tics.
+Variable control group (n = 30) interventi on group (n = 30) p value
+Age, years 59.4±17.7 (52.8–66.1) 63.9±17.4 ; (57.4–70.4) 0.329
+Males 23/30 (76.7%) 22/30 (73.3%) 0.766
+Weight, kg 93.5 (78.3,118.5) 80.0 (70.0,95 .3) 0.064
+Height, cm 174.4±6.7; (171.9–17 6.9) 172.1±7.3 ; (169.4–17 4.8) 0.216
+APACHE II 22.1±7.5; (19.3–24.9) 22.4±6.5; (20.0–24 .9) 0.841
+SOFA-Sco re 5.4±3.2; (4.2–6.6) 6.4±3.2; (5.2–7.6) 0.214
+SAPS II 41.9±16.2; (35.9–48.0 ) 48.4±15.2 ; (42.7–54.1) 0.115
+Mechanic al ventilation 18/30 (60.0%) 19/30 (63.3%) 0.791
+Catecholam ines 16/30 (53.5%) 19/30 (63.3%) 0.432
+Sepsis 13/30 (43.3%) 13/30 (43.3%) 1.000
+Data presented as n (%), mean ± standard deviation and 95% confidence interval or median (25
+th
+, 75
+th
+quantile ) unless stated otherwise. Abbreviations: CI 95 percent
+confidence interval, APACHE II Acute Physiology And Chronic Health Evaluati on II, SOFA-score Sequential Organ Failure Assessm ent, SAPS II Simplified Acute
+Physiolo gy Score II
+https://do i.org/10.1371/j ournal.pone .0215823.t001
+Middle molecule clearan ce using a high cut-off dialyzer
+PLOS ONE | https://doi.or g/10.137 1/journal.po ne.02158 23 April 26, 2019 6 / 12
+urea, creatinine and albumin clearance between the two groups. Mean plasma clearance data
+are given in Table 3 and Figure in S2 Fig.
+The median ultrafiltration rate to achieve negative fluid balance showed no significant dif-
+ferences (control group: 50.0 ml/h (0.0, 99.5); intervention group: 12.8 ml/h (0.0, 62.5)). The
+ratio of β
+2
+-microglobulin plasma clearance between 1h and 48h to estimate dialyzer perfor-
+mance for middle molecules over time was 1.31 (1.07,1.70) in control group and 1.19
+(0.54,1.61) in intervention group without significant differences.
+Discussion
+This prospective randomized trial compared the application of two different dialyzers during
+CVVHD with regional citrate anticoagulation in critically ill patients. A significantly better
+plasma clearance of middle molecules could be demonstrated with the high cut-off dialyzer
+compared with the standard high-flux dialyzer. Since both dialyzers are made of the same
+membrane surface and material, the differences in the plasma clearance of the investigated
+substances can be explained only by the difference in pore sizes. β
+2
+-microglobulin is a surro-
+gate parameter for middle molecular uremic toxins. Elevated serum levels of this protein are
+associated with increased mortality and development of amyloidosis [29, 30, 31, 32]. A few
+reports showed that reduction in β
+2
+-microglobulin levels may have mortality benefit in end
+stage renal disease [29, 30]. Hemodialysis using high cut-off dialyzers was shown to effectively
+lower plasma β
+2
+-microglobulin levels [33]. A cross-over study in a small study population
+using sustained low efficiency daily dialysis (SLEDD) [28] demonstrated a superior elimina-
+tion of β
+2
+-microglobulin using the high cut-off Ultraflux EMiC2 dialyzer than with the high-
+flux dialyzer Ultraflux AV 1000S (plasma clearance: 52 ± 1,7 ml/min vs. 41.7 ± 1.5 ml/min,
+p<0.001). The higher clearance rate in that study compared to ours is due to the higher vol-
+ume exchange per time with SLEDD. Similar to that study, our trial also showed that there is
+Table 2. β
+2
+-microglobu lin plasma cleara nce (ml/min).
+Time after starting CVVHD control group interventi on group p value n
+1h 18.4 (12.0, 23.0) 22.0 (17.3, 30.0) <0,05 59
+6h 13.3±7.7; (CI: 10.4–16.2) 21.9±11.0 ; (CI: 17.7–26.1) 0.001 58
+12h 11.9 (5.2,18.5) 19.0 (13.9, 22.7) <0,05 53
+24h 11.5±6.5; (CI: 8.9–14.1) 17.9±10.2 ; (CI: 13.8–22.1) 0.009 52
+48h 12.1±4.9; (CI: 9.8–14.3) 18.9±11.7 ; (CI: 13.9–24.0) 0.016 44
+Data presented as mean ± standard deviation and 95% confidence interval or median (25th, 75th quantile) unless stated otherwi se. Abbreviations: ml/min milliliters per
+minute, CVVHD continuous veno-venous hemodia lysis, CI confidence interval
+https://do i.org/10.1371/j ournal.pone .0215823.t002
+Table 3. Mean plasma clearance (ml/min), n = 42.
+Variable control group (n = 20) interven tion group (n = 22) p value
+Urea 20.7±8.7; (CI: 16.6–24.8) 22.4±7.1; (CI: 19.2–25.5) 0.488
+Creatinine 22.9±9.0; (CI: 18.7–27.1) 25.7±8.5; (CI: 21.9–29.5) 0.279
+β
+2
+-microglobu lin 12.2±3.6; (CI: 10.5–13.9) 19.6±5.8; (CI: 17.0–22.1) <0.001
+Myoglobin 0.2±3.6; (CI: -1.5–1.9) 8.0±4.5; (CI: 6.0–10.0) <0.001
+IL-6 -2.5±3.5; (CI: -4.1-(-0.9) ) 1.5±4.3; (CI: -0.4–3.4) 0.002
+Albumin -2.6±4.0; (CI: -4.5-(-0.8) ) -2.3±3.9; (CI: -4.1-(-0.6) ) 0.802
+Data presented as mean ± standard deviation and confidence interval. Abbreviations: CI confidence interval, ml/min milliliter s per minute , IL-6 interleukin 6
+https://do i.org/10.1371/j ournal.pone .0215823.t003
+Middle molecule clearan ce using a high cut-off dialyzer
+PLOS ONE | https://doi.or g/10.137 1/journal.po ne.02158 23 April 26, 2019 7 / 12
+no relevant albumin loss with the high cut-off dialyzer. Another investigation showed an
+enhanced elimination of glutamine and serine with the high cut-off Ultraflux EMiC2 [34],
+while circulating microRNAs were not eliminated by this dialyzer [35]. A recent study demon-
+strated a higher clearance of IL-6 and interleukin 10 using Ultraflux EMiC2 compared with
+AV 1000S in CVVHD with citrate anticoagulation [36]. Another recent trial revealed no differ-
+ences in removing β
+2
+-microglobulin between continuous veno-venous hemodiafiltration
+(CVVHDF) using Ultraflux AV 1000S and CVVHD using Ultraflux EMiC2. However, the
+dialysis dose was in the CVVHDFgroup (36±4 ml/kg/h) much higher than in the CVVHD
+group (21±6 ml/kg/h) [37]. In summary, the available data indicate that Ultraflux EMiC2
+allows an effective elimination of molecules up to a molecular weight of 40 kDa [38].
+Clinical trials with other high cut-off membranes with a maximum cut-off at 50 kDa are
+limited [39]. An older study on 16 patients with sepsis-related multiple organ failure using an
+intermittent high permeability hemofiltration over five days for 12 h per day alternated with
+conventional hemofiltration showed that IL-6 could be eliminated effectively by high cut-off
+membranes. However, an albumin loss was detected, particularly at the beginning of the RRT,
+while antithrombin, protein C, protein S, thrombin, coagulation factor V and VIII were not
+affected [40]. The decline in albumin loss during further RRT could be explained by formation
+of a new layer at the membrane surface, known as membrane fouling [39]. Our trial showed a
+significant clearance in IL-6 without albumin loss. This result agrees with the findings of a
+recent publication [36]. A good dialyzer performance for β
+2
+-microglobulin over time could be
+demonstrated in our investigation, which can be explained by a lower membrane fouling and
+protein cake formation with regional citrate anticoagulation [41].
+Several other studies showed that high cut-off dialyzers allow a diffusive removal of cyto-
+kines [42, 43, 44]. Therefore, hemodialysis with high cut-off membranes and sufficient dialy-
+sate flow seems to be effective in the elimination of inflammatory mediators and safer than
+high permeability hemofiltration without any relevant albumin loss [39].
+A case report on a patient with rhabdomyolysis showed a decline in serum myoglobin levels
+by 50% within 4 hours using high cut-off intermittent hemodialysis, while myoglobin levels
+even increased using standard high-flux dialysis [45]. A case series demonstrated that CVVHD
+and SLEDD with high cut-off dialyzers allow a considerable removal of myoglobin [46]. The
+present trial found a significantly better elimination of myoglobin in the intervention group.
+Therefore, patients suffering from rhabdomyolysis and increased risk of bleeding could be
+treated effectively by citrate anticoagulated CVVHD using the high cut-off Ultraflux EMiC2
+dialyzer. Further clinical investigations are required to validate this conclusion.
+Other middle molecule toxic proteins may also be removed using the HCO dialyzer. Two
+case series in patients with multiple myeloma showed a significant removal of free light chains
+by HCO dialyzer [47, 48]. A case report using the Ultraflux EMiC2 dialyzer showed similar
+results [38].
+There are limitations to our trial. It is a monocentric, single-blinded trial. The study was
+designed and powered to analyze substance-related elimination in critical care patients. There-
+fore, the sample size is not adequate to evaluate hard clinical endpoints such as mortality. Fur-
+thermore, the dialyzer life span exceeded 48 hours in only 42 of our patients, so that mean
+plasma clearance calculation was limited to this group. Nevertheless, our study provides a solid
+background to generate hypotheses and design clinical trials.
+Conclusions
+There is an effective elimination of β
+2
+-microglobulin in citrate anticoagulated CVVHD using
+the HCO-dialyzer Ultraflux EMiC2 in critical care patients. A significant removal of
+Middle molecule clearan ce using a high cut-off dialyzer
+PLOS ONE | https://doi.or g/10.137 1/journal.po ne.02158 23 April 26, 2019 8 / 12
+myoglobin and IL-6 also seems to be possible. Therefore this procedure could be useful in
+patients suffering from rhabdomyolysis and increased risk of bleeding as well as those with
+severe inflammation.
+Supporting information
+S1 Table. Sodium citrate infusion rate.
+(DOCX)
+S2 Table. Calcium chloride infusion rate.
+(DOCX)
+S1 Fig. β2-microglobulin clearance.
+(TIF)
+S2 Fig. Mean plasma clearance.
+(TIF)
+S1 Dataset. Data underlying the findings in SPSS format.
+(SAV)
+S2 Dataset. Data underlying the findings in EXCEL format.
+(XLSX)
+S1 Protocol. Study protocol (english language).
+(DOC)
+S1 Checklist. CONSORT Checklist.
+(DOC)
+S1 Supporting Information. Abbreviations.
+(DOCX)
+S2 Supporting Information. Declarations.
+(DOCX)
+Acknowledgmen ts
+We thank the following colleagues for their continuous support during the trial: Martin
+Grimm, Jan Halbritter, Anna-Maria Keilitz, Katrin Knoll, Kevin Kunz, Konstanze Lichtenber-
+ger, Tom Lindner, Frank Meineke, Bastian Pasieka, Alexander Peschka, Gero Schulze, Frank
+Seidel.
+Author Contributions
+Conceptualization: Lorenz Weidhase, Elena Haussig, Sirak Petros.
+Data curation: Elena Haussig, Stephan Haussig, Jonathan de Fallois.
+Formal analysis: Lorenz Weidhase, Elena Haussig, Stephan Haussig.
+Funding acquisition: Lorenz Weidhase.
+Investigation: Lorenz Weidhase, Elena Haussig, Jonathan de Fallois.
+Methodology: Lorenz Weidhase.
+Project administration: Lorenz Weidhase, Elena Haussig.
+Middle molecule clearan ce using a high cut-off dialyzer
+PLOS ONE | https://doi.or g/10.137 1/journal.po ne.02158 23 April 26, 2019 9 / 12
+Resources: Lorenz Weidhase, Thorsten Kaiser.
+Supervision: Stephan Haussig, Thorsten Kaiser, Sirak Petros.
+Validation: Stephan Haussig, Thorsten Kaiser.
+Visualization: Stephan Haussig.
+Writing – original draft: Lorenz Weidhase.
+Writing – review & editing: Elena Haussig, Stephan Haussig, Thorsten Kaiser, Jonathan de
+Fallois, Sirak Petros.
+References
+1. Uchino S, Kellum JA, Bellomo R, Doig GS, Morimats u H, Morger a S et al. Beginning and Ending Sup-
+portive Therap y for the Kidney (BEST Kidney) Invest igators. Acute renal failure in critically ill patients: a
+multinatio nal, multicenter study. JAMA. 2005 Aug 17; 294(7):813 –8. https:// doi.org/10.10 01/jama.2 94.
+7.813
+2. Hoste EA, Bagsha w SM, Bellomo R, Cely CM, Colman R, Cruz DN et al. Epidemiology of acute kidney
+injury in critically ill patients: the multinationa l AKI-EPI study. Intensive Care Med. 2015 Aug; 41
+(8):1411–2 3. https://do i.org/10.1007 /s00134- 015-3934- 7 PMID: 26162677
+3. Levy EM, Viscoli CM, Horwitz RI. The effect of acute renal failure on mortality. A cohort analysis. JAMA.
+1996 May 15; 275(19):14 89–94. PMID: 8622223
+4. Palevsky PM. Dialysis modality and dosing strategy in acute renal failure. Semin Dial. 2006 Mar-A pr; 19
+(2):165–70 . https://doi. org/10.1111/j .1525-139X .2006.00 144.x PMID: 16551296
+5. Bagshaw SM, Berthiaum e LR, Delaney A, Bellomo R. Continuou s versus intermitte nt renal replaceme nt
+therapy for critically ill patients with acute kidney injury: a meta-ana lysis. Crit Care Med. 2008 Feb; 36
+(2):610–7. https://doi.o rg/10.1097/01 .CCM.0B0 13E3181611 F552 PMID: 18216610
+6. Truche AS, Darmon M, Bailly S, Clec’h C, Dupuis C, Misset B et al. OUTCOM EREA Study Group. Con-
+tinuous renal replace ment therap y versus intermitte nt hemodialy sis in intensive care patients: impact
+on mortality and renal recovery. Intensive Care Med. 2016 Sep; 42(9):1408 –17. https://doi.or g/10.1007 /
+s00134-016 -4404-6 PMID: 27260258
+7. Ronco C, Bellomo R, Homel P, Brendolan A, Dan M, Piccinni P et al. Effects of different doses in contin-
+uous veno-ven ous haemofiltration on outcomes of acute renal failure: a prospective randomis ed trial.
+Lancet. 2000 Jul 1; 356(9223 ):26–30. https://doi.or g/10.101 6/S0140-67 36(00)024 30-2 PMID:
+10892761
+8. Saudan P, Niederb erger M, De Seigneux S, Romand J, Pugin J, Perneger T et al. Adding a dialysis
+dose to continuous hemofiltration increases survival in patients with acute renal failure. Kidney Int. 2006
+Oct; 70(7):1312 –7. https://doi.or g/10.1038 /sj.ki.500170 5 PMID: 16850022
+9. VA/NIH Acute Renal Failure Trial Networ k, Palevsky PM, Zhang JH, O’Connor TZ, Chertow GM, Crow-
+ley ST, Choudhury D et al. Intensity of renal support in critically ill patients with acute kidney injury. N
+Engl J Med. 2008 Jul 3; 359(1):7–2 0. https://doi.or g/10.105 6/NEJMoa080 2639 PMID: 18492867
+10. RENAL Replacem ent Therapy Study Investigator s, Bellomo R, Cass A, Cole L, Finfer S, Gallagher M,
+Lo S et al. Intensity of continuous renal-replac ement therapy in critically ill patients. N Engl J Med. 2009
+Oct 22; 361(17 ):1627–38. https://doi.or g/10.105 6/NEJMoa090 2413 PMID: 19846848
+11. Gaudry S, Hajage D, Schortg en F, Martin- Lefevre L, Pons B, Boulet E et al. AKIKI Study Group. Initia-
+tion Strategies for Renal-Repl acement Therapy in the Intensive Care Unit. N Engl J Med. 2016 Jul 14;
+375(2):122 –33. https:// doi.org/10.10 56/NEJM oa1603017 PMID: 271814 56
+12. Zarbock A, Kellum JA, Schmidt C, Van Aken H, Wempe C, Pavensta ¨ dt H et al. Effect of Early vs
+Delayed Initiation of Renal Replacem ent Therapy on Mortality in Critically Ill Patien ts With Acute Kidney
+Injury: The ELAIN Random ized Clinical Trial. JAMA. 2016 May 24–31; 315(20):21 90–9. https:// doi.org/
+10.1001/ jama.2016. 5828 PMID: 27209269
+13. Morgera S, Haase M, Ruckert M, Krieg H, Kastrup M, Krausch D et al. Regional citrate anticoagulat ion
+in continuou s hemodia lysis—acid- base and electrol yte balance at an increased dose of dialysis. Neph-
+ron Clin Pract. 2005; 101(4):c211– 9 https://doi.or g/10.1159/0 00088177 PMID: 16155399
+14. Oudeman s-van Straaten HM, Bosman RJ, Koopma ns M, van der Voort PH, Wester JP, van der Spoel
+JI et al. Citrate anticoagu lation for continuou s venovenou s hemofiltration. Crit Care Med. 2009 Feb; 37
+(2):545–52 . https://doi. org/10.1097/C CM.0b013e31 81953c5 e PMID: 191149 12
+15. Hetzel GR, Schmitz M, Wissing H, Ries W, Schott G, Heering PJ et al. Regional citrate versus systemic
+heparin for anticoagu lation in critically ill patients on continuou s venovenou s haemofiltr ation: a
+Middle molecule clearan ce using a high cut-off dialyzer
+PLOS ONE | https://doi.or g/10.137 1/journal.po ne.02158 23 April 26, 2019 10 / 12
+prospective random ized multicentre trial. Nephrol Dial Transplan t. 2011 Jan; 26(1):232 –9. https://doi.
+org/10.1093/ ndt/gfq575 PMID: 20876598
+16. Schilder L, Nurmoham ed SA, Bosch FH, Purmer IM, den Boer SS, Kleppe CG et al. CASH study group.
+Citrate anticoagulat ion versus systemic heparinisatio n in continuou s venovenou s hemofiltr ation in criti-
+cally ill patients with acute kidney injury: a multi-cente r random ized clinical trial. Crit Care. 2014 Aug 16;
+18(4):472. https://doi.o rg/10.1186/s1 3054-014-0 472-6 PMID: 25128022
+17. Bai M, Zhou M, He L, Ma F, Li Y, Yu Y et al. Citrate versus heparin anticoagulation for continuou s renal
+replacem ent therapy: an updated meta-ana lysis of RCTs. Intensive Care Med. 2015 Dec; 41(12):209 8–
+110. https://do i.org/10.1007 /s00134- 015-4099- 0 PMID: 26482411
+18. Liu C, Mao Z, Kang H, Hu J, Zhou F. Regional citrate versus heparin anticoagu lation for continuou s
+renal replacem ent therapy in critically ill patients: a meta-analy sis with trial sequentia l analysis of ran-
+domized controlled trials. Crit Care. 2016 May 13; 20(1):144. https://doi.or g/10.118 6/s13054 -016-1299 -
+0 PMID: 271766 22
+19. Kidney Disease : Improving Global Outcomes (Kdigo) Acute Kidney Injury Work Group (2012) KDIGO
+clinical practice guideline for acute kidney injury. Kidney Int 2(1):1–13 8.
+20. Kramer L, Bauer E, Joukhadar C, Strobl W, Gendo A, Madl C et al. Citrate pharmaco kinetics and
+metabolism in cirrhot ic and noncirrhotic critically ill patients. Crit Care Med. 2003 Oct; 31(10):245 0–5.
+PMID: 145307 50
+21. Morgera S, Scholle C, Voss G, Haase M, Vargas-H ein O, Krausch D et al. Metabolic complicat ions
+during regional citrate anticoagul ation in continuous venoveno us hemodia lysis: single-cen ter
+experience . Nephron Clin Pract. 2004; 97(4):c13 1–6. https://doi.or g/10.1159 /00007917 1 PMID:
+15331942
+22. Ricci Z, Ronco C, Bacheton i A, D’amico G, Rossi S, Alessand ri E et al. Solute removal during continu-
+ous renal replace ment therapy in critically ill patients: convection versus diffusion. Crit Care. 2006; 10
+(2):R67. https://doi.or g/10.1186/ cc4903 PMID: 16646985
+23. Naka T, Haase M, Bellomo R. ’Super high-flux’ or ’high cut-off’ hemofiltration and hemodia lysis. Contrib
+Nephrol . 2010; 166:181–9. PMID: 20473007
+24. Villa G, Zaragoza JJ, Sharma A, Neri M, De Gaudio AR, Ronco C. Cytokine removal with high cut-off
+membrane : review of literature. Blood Purif. 2014; 38(3–4):16 7–73. https://doi.or g/10.1159 /000369155
+PMID: 254716 81
+25. Doig GS, Simpson F. Randomization and allocatio n concealment : a practical guide for research ers. J
+Crit Care. 2005 Jun; 20(2):187– 91 https://doi.or g/10.101 6/j.jcrc.200 5.04.005 PMID: 161391 63
+26. Glynn CC, Greene GW, Winkler MF, Albina JE. Predictiv e versus measured energy expenditu re using
+limits-of- agreement analysis in hospitali zed, obese patients. JPEN J Parenter Enteral Nutr. 1999 May-
+Jun; 23(3):147– 54. https://doi.or g/10.117 7/0148607199 023003 147 PMID: 10338222
+27. Krenitsky J. Adjusted body weight, pro: evidence to support the use of adjusted body weight in calculat-
+ing calorie requirement s. Nutr Clin Pract. 2005 Aug; 20(4):468– 73. https://doi.or g/10.117 7/
+01154265050 200044 68 PMID: 16207686
+28. Schmidt JJ, Hafer C, Clajus C, Hadem J, Beutel G, Schmidt BM et al. New high-cut off dialyzer allows
+improved middle molecule clearance without an increase in albumin loss: a clinical crossov er compari-
+son in extended dialysis. Blood Purif. 2012; 34(3–4):24 6–52. https://doi.or g/10.115 9/000342631 PMID:
+23171639
+29. Roumelioti ME, Nolin T, Unruh ML, Argyropoul os C. Revisiting the Middle Molecule Hypothesis of Ure-
+mic Toxicity. A System atic Review of Beta 2 Microglob ulin Populat ion Kinetics and Large Scale Model-
+ing of Hemodialy sis Trials In Silico. PLoS One. 2016 Apr 7; 11(4):e015 3157. https://d oi.org/10.137 1/
+journal.pon e.01531 57 PMID: 27055286
+30. Cheung AK, Greene T, Leypoldt JK, Yan G, Allon M, Delmez J et al. HEMO Study Group. Associat ion
+between serum 2-microglobul in level and infectious mortality in hemodia lysis patients. Clin J Am Soc
+Nephrol . 2008 Jan; 3(1):69–77 . Epub 2007 Dec 5. https://doi.or g/10.221 5/CJN.023 40607 PMID:
+18057309
+31. Okuno S, Ishimura E, Kohno K, Fujino-Kato h Y, Maeno Y, Yamakaw a T et al. Serum beta2- microglobu-
+lin level is a significant predicto r of mortality in maintenanc e haemodialy sis patients. Nephrol Dial Trans-
+plant. 2009 Feb; 24(2):571– 7. https://doi.o rg/10.1093/nd t/gfn521 PMID: 18799606
+32. Liabeuf S, Lenglet A, Desjardin s L, Neirynck N, Glorieux G, Lemke HD et al. European Uremic Toxin
+Work Group (EUTox). Plasma beta-2 microglob ulin is associated with cardiovas cular disease in ure-
+mic patients. Kidney Int. 2012 Dec; 82(12):12 97–303. https://do i.org/10.10 38/ki.2012 .301 PMID:
+22895515
+33. Pellicano R, Polkinghorn e KR, Kerr PG. Reduction in beta2- microglobulin with super-flux versus high-
+flux dialysis membrane s: results of a 6-week, randomiz ed, double-bli nd, crossover trial. Am J Kidney
+Dis. 2008 Jul; 52(1):93–1 01. https://doi.or g/10.105 3/j.ajkd.20 08.02.296 PMID: 184238 07
+Middle molecule clearan ce using a high cut-off dialyzer
+PLOS ONE | https://doi.or g/10.137 1/journal.po ne.02158 23 April 26, 2019 11 / 12
+34. Schmidt JJ, Hafer C, Spielma nn J, Hadem J, Scho ¨ nenber ger E, Schmidt BM et al. Remova l character is-
+tics and total dialysate content of glutamine and other amino acids in critically ill patients with acute kid-
+ney injury undergoing extended dialysis. Nephron Clin Pract. 2014; 126(1):62– 6. https:// doi.org/10.
+1159/00035 8434 PMID: 24577340
+35. Martino F, Lorenzen J, Schmidt J, Schmidt M, Broll M, Go ¨ rzig Y et al. Circulating microRNA s are not
+eliminate d by hemodia lysis. PLoS One. 2012; 7(6):e3826 9. https://doi. org/10.1371/j ournal.pone .
+0038269 PMID: 22715378
+36. Eichhorn T, Hartmann J, Harm S, Linsberge r I, Ko ¨ nig F, Valicek G et al. Clearan ce of Selected Plasma
+Cytokine s with Continuou s Veno-Ven ous Hemodialy sis Using Ultraflux EMiC2 versus Ultraflux
+AV1000S. Blood Purif. 2017 Oct 7; 44(4):260– 266 https://doi.or g/10.115 9/000478965 PMID: 289882 32
+37. Balgobin S, Morena M, Brunot V, Besnard N, Daubin D, Platon L et al. Continuou s Veno-Ven ous High
+Cut-Off Hemodialys is Compared to Continuou s Veno-Ven ous Hemodiafiltr ation in Intensive Care Unit
+Acute Kidney Injury Patients. Blood Purif. 2018; 46(3):248– 256. https:// doi.org/10.11 59/0004 89082
+PMID: 299728 18
+38. Jayaballa M, Bose B, Gangadhar an Komala M, Fischer ER, Taper J, Sud K. Effective Remova l of κ-
+Free Light Chains with Hemodialys is Using Freseniu s Ultraflux EMiC2 Dialyser in a Patient with Mye-
+loma Cast Nephropathy , with Associated Cost Savings. Blood Purif. 2016; 42(2):158– 9. https://d oi.org/
+10.1159/ 000446176 PMID: 27270690
+39. Villa G, Zaragoza JJ, Sharma A, Neri M, De Gaudio AR, Ronco C. Cytokine removal with high cut-off
+membrane : review of literature. Blood Purif. 2014; 38(3–4):16 7–73. https://doi.or g/10.1159 /000369155
+PMID: 254716 81
+40. Morgera S, Rockta ¨ schel J, Haase M, Lehmann C, von Heyman n C, Ziemer S et al. Intermitten t high per-
+meability hemofiltra tion in septic patients with acute renal failure. Intensiv e Care Med. 2003 Nov; 29
+(11):1989– 95. Epub 2003 Sep 3. https://doi.or g/10.1007/ s00134-003- 2003-9 PMID: 12955174
+41. Fischer KG. Essentials of anticoagu lation in hemodialy sis. Hemo dial Int. 2007 Apr; 11(2):178– 89.
+Review. https://doi.or g/10.1111 /j.1542-4758 .2007.001 66.x PMID: 174031 68
+42. Haase M, Bellomo R, Baldwin I, Haase -Fielitz A, Fealy N, Davenpo rt P et al. Hemodialysis membrane
+with a high-molecular -weight cutoff and cytokine levels in sepsis complicated by acute renal failure: a
+phase 1 randomized trial. Am J Kidney Dis. 2007 Aug; 50(2):296– 304. https://doi.or g/10.105 3/j.ajkd.
+2007.05. 003 PMID: 17660031
+43. Kade G, Lubas A, Rzeszotar ska A, Korsak J, Niemczyk S. Effectiveness of High Cut-Off Hemofilters in
+the Remova l of Selected Cytokine s in Patients During Septic Shock Accom panied by Acute Kidney
+Injury-Prel iminary Study. Med Sci Monit. 2016 Nov 13 [revised 2016 Nov 14]; 22:4338–43 44. https://
+doi.org/10.12 659/MSM.89 6819 PMID: 278404 04
+44. Chelazzi C, Villa G, D’Alfonso MG, Mancinell i P, Consales G, Berardi M et al. Hemo dialysis with High
+Cut-Off Hemodialyz ers in Patients with Multi-Drug Resistant Gram-N egative Sepsis and Acute Kidney
+Injury: A Retrospec tive, Case-C ontrol Study. Blood Purif. 2016; 42(3):186– 93. https://doi.or g/10.115 9/
+000446978 PMID: 27352068
+45. Albert C, Haase M, Bellomo R, Mertens PR. High cut-off and high-flux membrane haemodialy sis in a
+patient with rhabdom yolysis-ass ociated acute kidney injury. Crit Care Resusc. 2012 Jun; 14(2):159– 62.
+PMID: 226976 26
+46. Heyne N, Guthoff M, Krieger J, Haap M, Ha ¨ ring HU. High cut-off renal replacem ent therapy for removal
+of myoglobin in severe rhabdomy olysis and acute kidney injury: a case series. Nephron Clin Pract.
+2012; 121(3–4):c 159–64 https://doi.or g/10.115 9/000343564 PMID: 23327834
+47. Martı ´ n-Reyes G, Toledo-R ojas R, Torres-de Rueda A
+´
+, Sola-Moyano E, Blanca- Martos L, Fuentes-Sa ´ n-
+chez L et al. Haemodialy sis using high cut-off dialysers for treating acute renal failure in multiple mye-
+loma. Nefrologia. 2012; 32(1):35–4 3. PMID: 22294003
+48. Heyne N, Denecke B, Guthof f M, Oehrlein K, Kanz L, Ha ¨ ring HU et al. Extracor poreal light chain elimi-
+nation: high cut-off (HCO) hemodialy sis parallel to chemother apy allows for a high proportion of renal
+recovery in multiple myelom a patients with dialysis-de pendent acute kidney injury. Ann Hematol. 2012
+May; 91(5):729– 735. https:// doi.org/10.10 07/s0027 7-011-138 3-0 PMID: 22170517
+Middle molecule clearan ce using a high cut-off dialyzer
+PLOS ONE | https://doi.or g/10.137 1/journal.po ne.02158 23 April 26, 2019 12 / 12

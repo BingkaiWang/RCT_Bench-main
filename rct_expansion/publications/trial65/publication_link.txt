@@ -1,0 +1,5 @@
+Trial_ID: 65
+Paper Name: Can transcranial direct current stimulation (tDCS) over the motor cortex increase endurance running performance? a randomized crossover-controlled trial
+Paper Link: https://doi.org/10.1371/journal.pone.0312084
+Citation: Martens et al. PLOS One. 2024;19(12):e0312084. doi:10.1371/journal.pone.0312084
+Availability: PDF stored here when publicly available; otherwise this file records the publication link.

@@ -1,0 +1,5 @@
+Trial_ID: 113
+Paper Name: Data from: A randomised controlled pilot study of standardised counselling and cost-free pharmacotherapy for smoking cessation among stroke and TIA patients
+Paper Link: https://doi.org/10.5061/dryad.p67jf576
+Citation: 
+Availability: PDF stored here when publicly available; otherwise this file records the publication link.

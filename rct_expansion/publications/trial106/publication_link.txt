@@ -1,0 +1,5 @@
+Trial_ID: 106
+Paper Name: Data from: Third wave cognitive therapy versus mentalization-based treatment for major depressive disorder: a randomised clinical trial
+Paper Link: https://doi.org/10.5061/dryad.2d7h5
+Citation: 
+Availability: PDF stored here when publicly available; otherwise this file records the publication link.

@@ -1,0 +1,410 @@
+--- page 1 ---
+PLOS One | https://doi.org/10.1371/journal.pone.0319319 June 17, 2025 1 / 11
+ 
+ OPEN ACCESS
+Citation: Suzuki N, Takeda Y, Kabuto A, Konishi 
+T, Konishi T, Sumino F , et al. (2025) Efficacy 
+of tenapanor in managing hyperphosphatemia 
+and constipation in hemodialysis patients: A 
+randomized controlled trial. PLoS One 20(6): 
+e0319319. https://doi.org/10.1371/journal.
+pone.0319319
+Editor: Tarek Samy Abdelaziz, Cairo University 
+Kasr Alainy Faculty of Medicine, EGYPT
+Received: February 6, 2025
+Accepted: May 18, 2025
+Published: June 17, 2025
+Copyright: © 2025 Suzuki et al. This is an open 
+access article distributed under the terms of 
+the Creative Commons Attribution License, 
+which permits unrestricted use, distribution, 
+and reproduction in any medium, provided the 
+original author and source are credited.
+Data availability statement: All data files are 
+available from the Harvard Dataverse (Link to 
+view the page: https://dataverse.harvard.edu/
+dataset.xhtml?persistentId=doi:10.7910/DVN/
+WI6SAS).
+RESEARCH ARTICLE
+Efficacy of tenapanor in managing 
+hyperphosphatemia and constipation in 
+hemodialysis patients: A randomized controlled 
+trial
+Naoki Suzuki 1,2*, Yuuki Takeda2, Akie Kabuto2, Takao Konishi2, Takahiro Konishi2, 
+Fumi Sumino2, Hayanari Iwata2, Mone Iwagami2, Yusuke Kouchi2, Yasumasa Hitomi 2, 
+Toru Takatani3, Masato Nishimura4, Nodoka Sato5
+1 Division of Data science, Tojinkai Hospital, Kyoto, Japan, 2 Division of Clinical Engineering, Tojinkai 
+Hospital, Kyoto, Japan, 3 Nephrology Division, Tojinkai Satellite Clinic, Kyoto, Japan, 4 Cardiovascular 
+Division, Tojinkai Satellite Clinic, Kyoto, Japan, 5 Urology Division, Tojinkai Hospital, Kyoto, Japan 
+* suzuki@tojinkai.jp
+Abstract 
+Introduction
+Tenapanor is a minimally absorbed, small-molecule inhibitor of sodium/hydrogen 
+exchanger 3 and thus suppresses sodium absorption in the gastrointestinal tract. It 
+is approved by the FDA for the treatment of hyperphosphatemia in dialysis patients. 
+This randomized controlled trial evaluated its efficacy in the treatment of hyperphos-
+phatemia and constipation in hemodialysis patients.
+Methods
+Ninety hemodialysis patients were randomized 1:1 to receive either tenapanor or 
+standard care. Randomization was performed using a computer-generated sequence 
+stratified by baseline serum phosphorus levels. The tenapanor group began treat-
+ment with a dosage of 10 mg/day, which was adjusted based on serum phosphorus 
+levels. Primary outcomes were changes in serum phosphorus levels in the tena-
+panor and control groups and changes in stool consistency, assessed weekly using 
+the Bristol Stool Form Scale (BSFS) in the tenapanor group. Secondary outcomes 
+included laxative use and phosphate binder prescription patterns. Serum phosphorus 
+levels, serum calcium, albumin, and related biochemical parameters were monitored 
+every two weeks. Data were analyzed using intention-to-treat principles. This study 
+was not blinded.
+Results
+Of the 90 randomized participants, 69 completed the 23-week study. Tenapanor 
+significantly improved stool consistency and resolved constipation (BSFS types 1–2) 
+
+--- page 2 ---
+PLOS One | https://doi.org/10.1371/journal.pone.0319319 June 17, 2025 2 / 11
+by week 5. A transient increase in loose stools (BSFS types 6–7) occurred early, with 
+10 participants discontinuing due to diarrhea. Laxative use decreased significantly in 
+the tenapanor group, from 58.2% at baseline to 35.6% at week 23 (p < 0.01). Serum 
+phosphorus levels were decreased in both groups, with comparable control. Lantha-
+num carbonate prescriptions decreased significantly in the tenapanor group and were 
+largely replaced by low-dose tenapanor.
+Conclusion
+Tenapanor improves stool consistency, reduces laxative use, and provides effective 
+phosphorus control in hemodialysis patients and represents a promising alternative to 
+conventional phosphate binders.
+Introduction
+Hyperphosphatemia has been independently associated with coronary and aortic 
+calcification, as well as cardiovascular and all-cause mortality in end-stage renal 
+disease [1–5]. Therefore, the management of hyperphosphatemia is an important 
+part of the routine care of patients on chronic dialysis [ 6]. Currently used phos -
+phate binders include calcium-based options such as calcium carbonate and 
+non-calcium-based options such as sevelamer and lanthanum carbonate [ 7]. How-
+ever, these phosphate binders can cause gastrointestinal side effects and elevate 
+medication burden, which can lead to poor patient adherence and reduce treat -
+ment efficacy [ 8–10]. In addition, there are concerns about the long-term safety of 
+lanthanum carbonate, which has been reported to form lanthanum deposits in the 
+stomach and duodenum [ 11,12].
+Tenapanor is a minimally absorbed, small molecule inhibitor that targets 
+sodium/hydrogen exchanger 3 (NHE3) and thus reduces sodium absorption in the 
+gastrointestinal tract. It was initially highlighted as a new treatment for 
+constipation-predominant irritable bowel syndrome [ 13], but has since also shown 
+promise in the treatment of hyperphosphatemia due to its ability to reduce pas -
+sive phosphate absorption in the intestinal tract [ 14]. On October 17, 2023, the 
+FDA approved tenapanor as the first phosphate binder adjunctive therapy to lower 
+serum phosphorus levels in adults on dialysis. Previous studies have reported that 
+gastrointestinal adverse events were common with tenapanor, with the most com -
+mon adverse event, diarrhea (mostly mild diarrhea), occurring in 63.7% to 74.4% 
+of patients [ 15–19]. As tenapanor inhibits sodium absorption, this effect is thought 
+to be mainly due to the enhancement of colonic propulsive activity by osmotic 
+pressure-induced increase in intestinal content [ 20]. We hypothesized that long-
+term use of tenapanor could normalize the stools of dialysis patients and reduce 
+the amount of laxative used. In this study, we conducted a randomized controlled 
+trial to test this hypothesis and to clarify the effect of tenapanor on serum phos -
+phorus levels and stool consistency in actual clinical practice.
+Funding: The author(s) received no specific 
+funding for this work.
+Competing interests: The authors have 
+declared that no competing interests exist.
+
+--- page 3 ---
+PLOS One | https://doi.org/10.1371/journal.pone.0319319 June 17, 2025 3 / 11
+Materials and methods
+Participants
+This parallel-group, randomized, controlled trial was conducted to evaluate the effects of tenapanor administration on 
+serum phosphorus control, stool consistency, and number of laxative prescriptions. Participants were recruited between 
+February 1, 2024, and February 28, 2024, from patients at the clinic affiliated with Tojinkai Hospital. Patients were 
+excluded (1) who had not been undergoing hemodialysis for at least 2 years at baseline, as residual renal function, includ-
+ing urine output, in early dialysis patients may affect serum phosphorus levels, (2) who had a history of or current inflam-
+matory bowel disease or diarrhea-type irritable bowel syndrome, or (3) whose C-reactive protein (CRP) was 1.0 mg/dL or 
+higher. Clinical staff screened for eligibility and enrolled participants. Participants who did not meet these exclusion criteria 
+were randomized 1:1 to receive either tenapanor or standard care using a computer-generated sequence stratified by 
+baseline serum phosphorus level (≤5.5 mg/dL or >5.5 mg/dL), with allocation concealment ensured by a secure computer-
+ized system. There were no restrictions on block size. The study was conducted as an open-label study, and no changes 
+were made to the study methods, including eligibility criteria, data collection procedures, or statistical analysis plans after 
+the study was initiated.
+Sample size was calculated based on the primary outcome of changes in stool consistency as assessed by the Bristol 
+Stool Form Scale (BSFS). Assuming a mean difference of 1.0 BSFS units between the tenapanor and control groups, 
+with a standard deviation of 1.2 BSFS units [16], 90% power, and a two-sided significance level of 5%, a minimum of 31 
+participants per group was required. To account for an estimated 15% dropout rate, the target sample size was set at 90 
+participants (45 per group).
+This study was conducted in accordance with the principles of the Declaration of Helsinki and adhered to all applica-
+ble ethical guidelines. Ethical approval was granted by the Ethics Committee for Human Research at Tojinkai Hospital 
+(Approval Number: 2024−03). Written informed consent was obtained from all participants before their enrollment in 
+the study. Participants were provided with detailed information about the research objectives, procedures, their right to 
+withdraw at any time without consequence, and the measures in place to ensure the confidentiality and anonymity of their 
+data. The trial was retrospectively registered with the University Hospital Medical Information Network Clinical Trials Reg-
+istry under trial number UMIN000056561 (UMIN-CTR URL: http://www.umin.ac.jp/ctr/index.htm) on 25 December 2024 
+due to an administrative oversight.
+Data collection
+The observation period for this study was March 11, 2024, through August 24, 2024. In the tenapanor group, tenapanor 
+administration started on March 11, 2024, and the start date of administration was considered the baseline. Tenapanor 
+was initially administered at 10 mg per day in two divided oral doses, taken before breakfast and dinner, with adjustments 
+made every two weeks based on serum phosphorus levels. Dose adjustments were made at the discretion of the treating 
+physician to optimize phosphorus control. Participants in the control group did not receive tenapanor but continued their 
+existing laxative regimen. Commonly prescribed laxatives included lanthanum carbonate hydrate, precipitated calcium 
+carbonate, and iron-based phosphate binders. The iron-based phosphate binders included ferric citrate hydrate and 
+sucroferric oxyhydroxide, which were prescribed according to participants’ prior treatment regimens. No changes were 
+made to laxative prescriptions unless clinically indicated. Stool consistency were assessed weekly from baseline through 
+week 7 by patient interview using the BSFS [21]. Blood samples (10 mL) were collected at the time of hemodialysis for 
+measurement of routine biochemical and hematological factors, including hemoglobin, urea nitrogen, creatinine, cal-
+cium, inorganic phosphorus, sodium, albumin, β2-microglobulin (β2-MG), and CRP. Single pool Kt/Vurea was calculated 
+using the formula of Shinzato et al. to evaluate dialysis efficiency. The proportion of each prescribed phosphate binder 
+and laxative was calculated by dividing the number of prescriptions for that prescription medication by the total number 
+
+--- page 4 ---
+PLOS One | https://doi.org/10.1371/journal.pone.0319319 June 17, 2025 4 / 11
+of prescriptions for all phosphate binders and laxatives combined. Blood samples were collected at the beginning of the 
+week (Monday or Tuesday) and analyzed for other key biomarkers every two weeks.
+Statistical analysis
+Baseline characteristics were compared using the Welch t-test for continuous variables and the chi-square test for cat-
+egorical variables. Changes in blood data between the tenapanor and control groups were analyzed using repeated 
+measures analysis of variance. Changes in variables (proportion of phosphate binder prescriptions, BSFS score, and 
+proportion of laxative prescriptions) within the tenapanor group were visualized using a Sankey diagram. To evaluate 
+the short- and long-term effects of tenapanor, outcomes were assessed at weeks 7 and 23. Week 7 was selected based 
+on previous findings indicating that the prescribed dose of tenapanor tends to stabilize around this time, as reported in 
+a phase 3 trial in Japanese hemodialysis patients [19]. Week 23 was selected to assess longer-term effects. Changes 
+in concomitant laxative prescriptions at each time point were analyzed using McNemar’s test, with Bonferroni correction 
+applied for multiple comparisons. Normally distributed values are reported as mean ± standard deviation, while non- 
+normally distributed values are presented as median with interquartile range. Cohen’s d was used to calculate the stan-
+dardized effect size of the differences in blood data at week 23 between the tenapanor and control groups. Data were 
+analyzed using intention-to-treat (ITT) principles, and a p-value < 0.05 was considered statistically significant. All analyses 
+were conducted using R software (version 4.0.3). No interim analyses or pre-specified stopping guidelines were planned 
+for this study.
+Results
+A total of 136 adult patients were enrolled in the study. The process by which patients were enrolled is shown in Fig 1. Of 
+all the patients, 46 met one or more of the exclusion criteria, and 90 were randomized into the study. During the observa-
+tion period, in the tenapanor group, the study was discontinued due to diarrhea symptoms or frequent bowel movements 
+in 10 patients and hospitalization or transfer in 4 patients. In the control group, the study was discontinued due to hospi-
+talization, transfer, or death in 7 patients. For the primary outcome, 31 participants in the tenapanor group and 38 partici-
+pants in the control group were included in the final analysis. All analyses were based on the original group assignments 
+(ITT analysis). The same denominators were used for secondary outcomes, unless otherwise specified. The study was 
+completed as planned, with follow-up concluding on August 24, 2024.
+Baseline characteristics are shown in Table 1. For the overall population, the mean age was 72.9 years, 57.8% were 
+men, the median hemodialysis vintage was 12.5 years, and 35.6% had diabetes. There were no significant differences 
+between the tenapanor group and the control group in any of the patient characteristics.
+A Sankey diagram of the variation in the proportion of phosphate binder prescriptions is shown in Fig 2. The proportion 
+of prescriptions of specific phosphate binders at baseline was highest for lanthanum carbonate hydrate at 55.6%, followed 
+by precipitated calcium carbonate at 35.6%, iron-based phosphate binders at 31.1%, sevelamer hydrochloride at 17.8%, 
+and Bixalomer at 11.1%, which was the lowest. The most common phosphate binder from which patients switched to 
+tenapanor was lanthanum carbonate hydrate at 40.0%. In addition, the proportion of patients who received tenapanor as 
+their initial treatment was 35.6%. Finally, at week 23, the proportion of prescriptions for tenapanor was 68.9% and that 
+for lanthanum carbonate hydrate decreased to 8.9%. On the other hand, the proportion of prescriptions for Bixalomer 
+increased to 31.1%. The proportion of prescriptions for precipitated calcium carbonate, iron phosphate binders and seve-
+lamer hydrochloride were 31.1%, 15.6% and 11.1%, respectively. In addition, 87.1% of the total dose of tenapanor was 
+administered at a dose of 10 mg/day or less (as shown in Fig 3).
+Changes in serum phosphorus levels in the tenapanor group and the control group are shown in Fig 4. The mean 
+serum phosphorus levels in the tenapanor group and the control groups were 5.17 and 5.06 mg/dL at baseline, 4.59 and 
+4.99 mg/dL at week 7, and 4.11 and 4.76 mg/dL at week 23 (Cohen’s d = 0.38, 95% confidence interval (CI): −0.05–0.82), 
+
+--- page 5 ---
+PLOS One | https://doi.org/10.1371/journal.pone.0319319 June 17, 2025 5 / 11
+Fig 1. Flowchart of the study enrollment process. CRP, C-reactive protein; BSFS, Bristol Stool Form Scale.
+https://doi.org/10.1371/journal.pone.0319319.g001
+Table 1. Characteristics of the study participants.
+Variables Overall (n = 90) Tenapanor (n = 45) Control (n = 45) p value
+Age, years 72.9 ± 9.0 74.4 ± 8.9 71.5 ± 9.1 0.130
+Male, n (%) 52(57.8) 29(64.4) 23(51.1) 0.286
+Hemodialysis vintage, years 12.5(2.0-22.8) 14.0(3.0-24.0) 9.0(3.0-21.0) 0.722
+Diabetes mellitus, n (%) 32(35.6) 17(37.8) 15(33.3) 0.826
+Dry weight, kg 56.5 ± 11.4 56.4 ± 11.3 56.5 ± 11.7 0.971
+Hemoglobin, g/dL 11.2 ± 1.1 11.3 ± 1.2 11.2 ± 1.0 0.727
+Urea nitrogen, mg/dL 61.4 ± 13.7 60.9 ± 14.1 62.0 ± 13.5 0.709
+Creatinine, mg/dL 9.56 ± 2.17 9.60 ± 2.22 9.52 ± 2.13 0.861
+Calcium, mg/dL 8.77 ± 0.50 8.79 ± 0.53 8.75 ± 0.48 0.679
+Inorganic phosphorus, mg/dL 5.08 ± 1.15 5.08 ± 1.28 5.08 ± 1.01 0.993
+Albumin, g/dL 3.68 ± 0.28 3.67 ± 0.24 3.69 ± 0.3 0.769
+C-reactive protein, mg/dL 0.09(0.05-0.18) 0.10(0.04-0.16) 0.08(0.05-0.20) 0.701
+Intact parathyroid hormone, pg/mL 101.50(55.5-179.0) 93.0(55.0-198.0) 102.0(57.0-176.0) 0.952
+Single pool Kt/V urea 1.80 ± 0.35 1.75 ± 0.35 1.86 ± 0.36 0.151
+https://doi.org/10.1371/journal.pone.0319319.t001
+
+--- page 6 ---
+PLOS One | https://doi.org/10.1371/journal.pone.0319319 June 17, 2025 6 / 11
+respectively. Although serum phosphorus levels tended to decrease significantly in both groups (tenapanor: p < 0.0001, 
+control: p = 0.0029), no significant difference was observed between the two groups (p = 0.1256). Changes in serum- 
+corrected calcium and albumin levels are shown in S1 Fig and S2 Fig. The calcium levels in the tenapanor and control 
+groups were 8.76 and 8.75 mg/dL at baseline, 8.73 and 8.68 mg/dL at week 7, and 8.66 and 8.51 mg/dL at week 23 
+(Cohen’s d = 0.23, 95%CI: −0.67–0.20), respectively. Although there was no significant change over time in the tenapanor 
+Fig 2. Variations in the prescription of phosphate binders. LCH, lanthanum carbonate hydrate; PCC, precipitated calcium carbonate; Iron, Iron-
+based phosphate binder, including ferric citrate hydrate and sucroferric oxyhydroxide; Bix, bixalomer; SH, sevelamer hydrochloride; Dis, discontinuation; 
+Hosp, hospitalization; Trans, transfer to a different hospital.
+https://doi.org/10.1371/journal.pone.0319319.g002
+Fig 3. The proportion of the dosage of tenapanor.
+https://doi.org/10.1371/journal.pone.0319319.g003
+
+--- page 7 ---
+PLOS One | https://doi.org/10.1371/journal.pone.0319319 June 17, 2025 7 / 11
+group (p = 0.6270), a significant downward trend was observed in the control group (p = 0.0035). There was no significant 
+difference between the two groups (p = 0.7553). In addition, the albumin levels were 3.65 and 3.68 mg/dL at baseline, 3.59 
+and 3.59 mg/dL at week 7, and 3.60 and 3.56 mg/dL at week 23 (Cohen’s d = 0.14, 95%CI: −0.58–0.29) in the tenapanor 
+and control groups, respectively. There was a significant downward trend in serum albumin levels in both groups (tena-
+panor: p < 0.0001, control: p < 0.0001), but no significant between-group difference (p = 0.2003).
+The Sankey diagram of the changes in BSFS in the tenapanor group is shown in Fig 5. At baseline, 57.3% of patients 
+were considered to have normal stools (types 3–5), 25.2% had hard stools (types 1 and 2), and 13.5% had hard stools. 
+During the first week of treatment with tenapanor, 33.3% (n = 6) of patients with types 1 or 2 changed to type 7, and 3 of 
+these patients discontinued treatment with tenapanor by the second week. After tenapanor administration, overall BSFS 
+increased and the proportion of patients with type 6 and 7 stools increased to 32.6%. On the other hand, the proportion of 
+patients with type 1 and 2 stools decreased, reaching 0% by the fifth week of the medication trial. Among the patients who 
+discontinued the study due to diarrhea symptoms or frequent bowel movements, the 2 patients who discontinued at week 
+1 had a baseline BSFS type 3–4 that increased to type 7 immediately after starting tenapanor. The 4 patients who dis-
+continued between week 1 and week 2 had baseline BSFS type 1–2, but 3 patients had an increase to BSFS type 7 and 
+1 patient had an increase to BSFS type 5. These patients had a strong aversion to sudden onset of diarrhea (emission 
+of soft or watery stools). Of the 4 patients who discontinued the study after week 3, 2 showed no major changes in their 
+BSFS type, but they felt uncomfortable with the increase in the number of bowel movements, and the remaining 2 patients 
+discontinued the study because they felt a strong aversion to the frequent defecation of soft stools.
+The change in the rate of laxative prescriptions is shown in Fig 6. At baseline, 58.2% of patients were prescribed 
+laxatives. At 7 and 23 weeks after starting tenapanor, the proportion of prescription was 21.7% and 35.6%, respectively, 
+a significant decrease from baseline. No subgroup or adjusted analyses were performed for this study as these were not 
+required by the study protocol.
+Discussion
+The most important finding of this study is that tenapanor improved stool consistency and reduced laxative use in hemodi-
+alysis patients while maintaining serum phosphorus control at a low dose, even after switching from lanthanum carbonate. 
+Fig 4. Serum phosphorus level. The data are shown as the mean ± SD.
+https://doi.org/10.1371/journal.pone.0319319.g004
+
+--- page 8 ---
+PLOS One | https://doi.org/10.1371/journal.pone.0319319 June 17, 2025 8 / 11
+This dual benefit highlights the potential of tenapanor to address both constipation and hyperphosphatemia in clinical 
+practice.
+The normalization of stool consistency was notable, with constipation (BSFS types 1–2) completely resolved by week 
+5. However, a transient increase in loose stools (BSFS types 6–7) was observed early in treatment, consistent with pre-
+vious studies highlighting diarrhea as a primary adverse effect of tenapanor [10,16–19]. Importantly, the rate of laxative 
+use decreased significantly from 58.2% at baseline to 35.6% at week 23, demonstrating the clinical utility of tenapanor 
+in reducing the medication burden for constipation. However, gastrointestinal intolerance remains a challenge with 10 
+Fig 5. Changes in the Bristol Stool Form Scale in the tenapanor group over seven weeks. Dis; discontinuation, Hosp, hospitalization; Trans, trans-
+fer to a different hospital.
+https://doi.org/10.1371/journal.pone.0319319.g005
+Fig 6. Change in the rate of laxative prescriptions. Dis; discontinuation, Hosp, hospitalization; Trans, transfer to a different hospital. ** indicates a p 
+value less than 0.001 (baseline vs. Week 7). ++ indicates a p value less than 0.001 (Baseline vs. week 23).
+https://doi.org/10.1371/journal.pone.0319319.g006
+
+--- page 9 ---
+PLOS One | https://doi.org/10.1371/journal.pone.0319319 June 17, 2025 9 / 11
+patients discontinuing treatment due to diarrhea symptoms. In particular, the 6 patients who dropped out of the study by 
+week 2 all showed a rapid increase in BSFS type, and the reason for discontinuation was aversion to this change. This 
+transient increase in diarrhea at the start of tenapanor administration may be due to the rapid excretion of accumulated 
+feces in patients with chronic constipation. A similar phenomenon has been reported in studies of other agents that rapidly 
+improve motility in patients with constipation, where loose stools or diarrhea occur transiently as the bowel evacuates 
+accumulated stool. For example, a study on polyethylene glycol, an osmotic laxative that draws water into the intestines, 
+has shown initial loose stools in the early phase of treatment, thought to be due to the sudden expulsion of impacted stool 
+in constipated individuals [22]. Although direct evidence that tenapanor has this side effect is limited, the pattern observed 
+in this study is consistent with these findings and warrants further investigation.
+While lanthanum carbonate is considered the most potent phosphate binder [23], there is a risk of lanthanum deposition 
+in the gastrointestinal tract, which may lead to concerns about long-term safety [12,13]. In this study, the use of low-dose 
+tenapanor effectively suppressed serum phosphorus levels, despite a significant decrease in the prescription of lanthanum 
+carbonate. Furthermore, in two RCTs evaluating the addition of tenapanor to a stable dose of a phosphate binder or placebo, 
+the dual mechanism approach of combining tenapanor with a phosphate binder was shown to significantly reduce serum 
+phosphorus levels [24–25]. The results of these studies highlight the potential of tenapanor to reduce phosphorus levels and 
+suggest that it may serve as a potential replacement for lanthanum carbonate. The proportion of prescriptions for Bixalomer 
+increased during the study period. Bixalomer has been reported to cause constipation as a complication [26], and it is 
+believed that there was a clinical intent to use Bixalomer to correct the tendency for loose stools.
+This study has several limitations. Serum albumin levels decreased in both groups. Although the magnitude of the 
+decrease was small, the possibility that it affected phosphorus levels cannot be excluded. The sample size was relatively 
+small, which may have limited the power to detect statistically significant differences, particularly for secondary outcomes. 
+The observation period may have been insufficient to fully evaluate long-term safety and efficacy. In addition, the analy-
+ses of secondary outcomes were not adjusted for multiplicity, which increases the risk of false positives. The lack of strict 
+adherence monitoring and the concomitant use of other phosphate binders may have confounded the results. Further-
+more, changes in phosphate binder prescriptions during the study were not uniformly distributed, particularly among 
+participants in the tenapanor group. These variations may have been influenced by clinical judgment or patient tolerability 
+and could potentially confound the interpretation of phosphorus control outcomes.
+Additionally, the open-label design may have introduced bias, as both participants and investigators were aware of 
+group assignments. The higher dropout rate in the tenapanor group compared to the control group—primarily due to gas -
+trointestinal symptoms such as diarrhea—may have introduced attrition bias. Although an intention-to-treat analysis was 
+conducted and reasons for dropout were clearly documented, the possibility of bias cannot be fully excluded. To address 
+this, a supplementary analysis was conducted to compare baseline characteristics between groups after excluding drop-
+outs (S1 Table). No significant differences were found, suggesting that baseline comparability was maintained among 
+participants who completed the study. This supports the validity of the primary outcome analyses, which were conducted 
+based on completers. Future studies employing strategies to improve gastrointestinal tolerability and enhance participant 
+retention are warranted to validate these findings.
+In conclusion, tenapanor demonstrated significant clinical benefit by improving stool consistency and reducing laxative 
+use while maintaining serum phosphorus control, even after switching from lanthanum carbonate. Individualized treatment 
+strategies may further optimize outcomes. Future studies are needed to explore this hypothesis, clarify long-term safety, 
+and confirm the efficacy of tenapanor in larger populations.
+Supporting information
+S1 Fig. Serum calcium levels corrected for albumin. The data are shown as the mean ± SD.
+(TIF)
+
+--- page 10 ---
+PLOS One | https://doi.org/10.1371/journal.pone.0319319 June 17, 2025 10 / 11
+S2 Fig. Serum albumin level. The data are shown as the mean ± SD.
+(TIF)
+S1 Table. Baseline characteristics of participants who completed the study (n = 69). 
+(DOCX)
+S1 File. 
+(DOC)
+S2 File. 
+(PDF)
+S3 File. 
+(PDF)
+Author contributions
+Formal analysis: Naoki Suzuki.
+Investigation: Naoki Suzuki, Yuuki Takeda, Akie Kabuto, Takao Konishi, Takahiro Konishi, Fumi Sumino, Hayanari Iwata, 
+Mone Iwagami, Yusuke Kouchi, Yasumasa Hitomi, Toru Takatani, Masato Nishimura.
+Methodology: Naoki Suzuki, Masato Nishimura.
+Supervision: Masato Nishimura, Nodoka Sato.
+Writing – original draft: Naoki Suzuki.
+References
+ 1. Block GA, Hulbert-Shearon TE, Levin NW, Port FK. Association of serum phosphorus and calcium x phosphate product with mortality risk in 
+chronic hemodialysis patients: a national study. Am J Kidney Dis. 1998;31(4):607–17. https://doi.org/10.1053/ajkd.1998.v31.pm9531176 PMID: 
+9531176
+ 2. Raggi P, Boulay A, Chasan-Taber S, Amin N, Dillon M, Burke SK, et al. Cardiac calcification in adult hemodialysis patients. A link between end-
+stage renal disease and cardiovascular disease?. J Am Coll Cardiol. 2002;39(4):695–701. https://doi.org/10.1016/s0735-1097(01)01781-8 PMID: 
+11849871
+ 3. Goodman WG, Goldin J, Kuizon BD, Yoon C, Gales B, Sider D, et al. Coronary-artery calcification in young adults with end-stage renal disease 
+who are undergoing dialysis. N Engl J Med. 2000;342(20):1478–83. https://doi.org/10.1056/NEJM200005183422003 PMID: 10816185
+ 4. Ganesh SK, Stack AG, Levin NW, Hulbert-Shearon T, Port FK. Association of elevated serum PO(4), Ca x PO(4) product, and parathyroid hormone 
+with cardiac mortality risk in chronic hemodialysis patients. J Am Soc Nephrol. 2001;12(10):2131–8. https://doi.org/10.1681/ASN.V12102131 PMID: 
+11562412
+ 5. Stevens LA, Djurdjev O, Cardew S, Cameron EC, Levin A. Calcium, phosphate, and parathyroid hormone levels in combination and as a function 
+of dialysis duration predict mortality: evidence for the complexity of the association between mineral metabolism and outcomes. J Am Soc Nephrol. 
+2004;15(3):770–9. https://doi.org/10.1097/01.asn.0000113243.24155.2f PMID: 14978180
+ 6. National Kidney Foundation. K/DOQI clinical practice guidelines for bone metabolism and disease in chronic kidney disease. New York: Karger; 
+2003.
+ 7. Shaman AM, Kowalski SR. Hyperphosphatemia management in patients with chronic kidney disease. Saudi Pharm J. 2016;24(4):494–505. https://
+doi.org/10.1016/j.jsps.2015.01.009 PMID: 27330380
+ 8. Tonelli M, Pannu N, Manns B. Oral phosphate binders in patients with kidney failure. N Engl J Med. 2010;362(14):1312–24. https://doi.org/10.1056/
+NEJMra0912522 PMID: 20375408
+ 9. Navaneethan SD, Palmer SC, Vecchio M, Craig JC, Elder GJ, Strippoli GF. Phosphate binders for preventing and treating bone disease in chronic 
+kidney disease patients. Cochrane Database Syst Rev. 2011;2011(2):CD006023.
+ 10. Yu S, Sun J, Guo X. Efficacy and safety of tenapanor in end-stage renal disease patients with hyperphosphatemia: a systematic review and 
+meta-analysis. Ren Fail. 2024;46(2):2410389. https://doi.org/10.1080/0886022X.2024.2410389 PMID: 39351794
+ 11. Hjemås BJ, Bøvre K, Mathiesen L, Lindstrøm JC, Bjerknes K. Interventional study to improve adherence to phosphate binder treatment in dialysis 
+patients. BMC Nephrol. 2019;20(1):178. https://doi.org/10.1186/s12882-019-1334-x PMID: 31101020
+
+--- page 11 ---
+PLOS One | https://doi.org/10.1371/journal.pone.0319319 June 17, 2025 11 / 11
+ 12. Tonooka A, Uda S, Tanaka H, Yao A, Uekusa T. Possibility of lanthanum absorption in the stomach. Clin Kidney J. 2015;8(5):572–5. https://doi.
+org/10.1093/ckj/sfv062 PMID: 26413283
+ 13. Iwamuro M, Urata H, Tanaka T, Kawano S, Kawahara Y, Okada H. Frequent involvement of the duodenum with lanthanum deposition: a retrospec-
+tive observational study. Intern Med. 2019;58(16):2283–9. https://doi.org/10.2169/internalmedicine.2398-18 PMID: 31118380
+ 14. Chey WD, Lembo AJ, Rosenbaum DP. Efficacy of tenapanor in treating patients with irritable bowel syndrome with constipation: a 12-week, 
+placebo-controlled phase 3 trial (T3MPO-1). Am J Gastroenterol. 2020;115(2):281–93. https://doi.org/10.14309/ajg.0000000000000516 PMID: 
+31934897
+ 15. King AJ, Siegel M, He Y, Nie B, Wang J, Koo-McCoy S, et al. Inhibition of sodium/hydrogen exchanger 3 in the gastrointestinal tract by tenapanor 
+reduces paracellular phosphate permeability. Sci Transl Med. 2018;10(456):eaam6474. https://doi.org/10.1126/scitranslmed.aam6474 PMID: 
+30158152
+ 16. Koiwa F, Sato Y, Ohara M, Nakanishi K, Fukagawa M, Akizawa T. Long-term safety and decrease of pill burden by tenapanor therapy: a phase 3 
+open-label study in hemodialysis patients with hyperphosphatemia. Sci Rep. 2023;13(1):19100. https://doi.org/10.1038/s41598-023-45080-9 PMID: 
+37925471
+ 17. Akizawa T, Sato Y, Ikejiri K, Kanda H, Fukagawa M. Effect of tenapanor on phosphate binder pill burden in hemodialysis patients. Kidney Int Rep. 
+2021;6(9):2371–80. https://doi.org/10.1016/j.ekir.2021.06.030 PMID: 34514198
+ 18. Nakayama M, Kobayashi S, Kusakabe M, Ohara M, Nakanishi K, Akizawa T, et al. Tenapanor for peritoneal dialysis patients with hyperphosphate-
+mia: a phase 3 trial. Clin Exp Nephrol. 2024;28(2):153–64. https://doi.org/10.1007/s10157-023-02406-1 PMID: 37910313
+ 19. Fukagawa M, Urano N, Ikejiri K, Kinoshita J, Nakanishi K, Akizawa T. Tenapanor for the treatment of hyperphosphatemia in japanese hemodialysis 
+patients: a randomized phase 3 monotherapy study with an up-titration regimen. Am J Kidney Dis. 2023;82(5):635–7. https://doi.org/10.1053/j.
+ajkd.2023.03.019 PMID: 37330134
+ 20. Currò D, Ianiro G, Gasbarrini A. A pharmacokinetic evaluation of tenapanor for the treatment of irritable bowel syndrome with constipation: an 
+update of the literature. Expert Opin Drug Metab Toxicol. 2023;19(12):889–94. https://doi.org/10.1080/17425255.2023.2294937 PMID: 38108081
+ 21. O’Donnell LJ, Virjee J, Heaton KW. Detection of pseudodiarrhoea by simple clinical assessment of intestinal transit rate. BMJ. 
+1990;300(6722):439–40. https://doi.org/10.1136/bmj.300.6722.439 PMID: 2107897
+ 22. Chen S-L, Cai S-R, Deng L, Zhang X-H, Luo T-D, Peng J-J, et al. Efficacy and complications of polyethylene glycols for treatment of constipation in 
+children: a meta-analysis. Medicine (Baltimore). 2014;93(16):e65. https://doi.org/10.1097/MD.0000000000000065 PMID: 25310742
+ 23. Damment SJP, Pennick M. Clinical pharmacokinetics of the phosphate binder lanthanum carbonate. Clin Pharmacokinet. 2008;47(9):553–63. 
+https://doi.org/10.2165/00003088-200847090-00001 PMID: 18698878
+ 24. Pergola PE, Rosenbaum DP, Yang Y, Chertow GM. A randomized trial of tenapanor and phosphate binders as a dual-mechanism treatment 
+for hyperphosphatemia in patients on maintenance dialysis (AMPLIFY). J Am Soc Nephrol. 2021;32(6):1465–73. https://doi.org/10.1681/
+ASN.2020101398 PMID: 33766811
+ 25. Shigematsu T, Une Y, Ikejiri K, Kanda H, Fukagawa M, Akizawa T. Therapeutic effects of add-on tenapanor for hemodialysis patients with refractory 
+hyperphosphatemia. Am J Nephrol. 2021;52(6):496–506. https://doi.org/10.1159/000516156 PMID: 34098559
+ 26. Gen S, Sasaki T, Saito K, Nobe K, Nodaira Y, Ikeda N. Clinical effects of the new phosphorus binder, bixalomer in hemodialysis patients switched 
+from sevelamer hydrochloride. Ther Apher Dial. 2014;18(Suppl 2):8–12.

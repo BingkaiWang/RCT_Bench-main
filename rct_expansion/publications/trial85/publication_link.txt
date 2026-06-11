@@ -1,0 +1,5 @@
+Trial_ID: 85
+Paper Name: Virtual reality neuroscience therapy for chronic back pain
+Paper Link: https://doi.org/10.1097/j.pain.0000000000003198
+Citation: Virtual reality neuroscience therapy for chronic back pain. Pain. 2024. DOI: 10.1097/j.pain.0000000000003198
+Availability: PDF stored here when publicly available; otherwise this file records the publication link.

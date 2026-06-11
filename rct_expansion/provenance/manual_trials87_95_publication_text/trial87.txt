@@ -1,0 +1,553 @@
+R E S E A R C H A R T I C L E Open Access
+Comparison of hemodynamic response to
+tracheal intubation and postoperative pain
+in patients undergoing closed reduction of
+nasal bone fracture under general
+anesthesia: a randomized controlled trial
+comparing fentanyl and oxycodone
+Yeon Sil Lee, Chong Wha Baek *, Dong Rim Kim, Hyun Kang, Geun Joo Choi, Yong-Hee Park, Won-joong Kim,
+Yong Hun Jung and Young Cheol Woo
+Abstract
+Background: The present study aimed to compare the intravenous bolus effect of oxycodone and fentanyl
+on hemodynamic response after endotracheal intuba tion and postoperative pain in patients undergoing
+closed reduction of nasal bone fracture.
+Methods: In this prospective randomized double-blinded s tudy, 64 patients undergoing closed reduction of
+nasal bone fracture were randomized into one of two groups: the fentanyl group (Group F) or the oxycodone
+group (Group O). Each drug (fentanyl 2 mcg/kg in Group F and oxycodone 0.2 mg/kg in Group O) was administered
+prior to the induction of general anesthesia. Hemodynamic changes after endotracheal intubation and postoperative
+pain were then measured in both groups.
+Results: There was no significant difference in the change in mean arterial pressure and heart rate between
+p r e - i n d u c t i o na n dp o s t - i n t u b a t i o ni nb o t hG r o u p sFa n dO(P > 0.05). Postoperative pain in Group O was
+milder than that in Group F ( P < 0.001); however, time to awakening from the end of operation was shorter
+in Group F ( P = 0.012).
+Conclusion: In patients undergoing closed reduction of nasal bone fracture, oxycodone attenuates hemodynamic
+response to endotracheal intubation similar to fentanyl. However, oxycodone is more effective than fentanyl
+in improving postoperative pain.
+Trial registration: Clinical Research Information Service (Tri al registry number: KCT0001153) on 3 July, 2014
+Keywords: Fentanyl, Hemodynamics, Intubati o n ,O x y c o d o n e ,P o s t o p e r a t i v ep a i n
+* Correspondence: nbjhwa@naver.com
+Department of Anesthesiology and Pain Medicine, Chung-Ang University College
+of Medicine, 102 Heukseok-ro, Dongjak-gu, Seoul 06973, Republic of Korea
+© The Author(s). 2016 Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0
+International License (http://creativecommons.org/licenses/by/4.0/), which permits unrestricted use, distribution, and
+reproduction in any medium, provided you give appropriate credit to the original author(s) and the source, provide a link to
+the Creative Commons license, and indicate if changes were made. The Creative Commons Public Domain Dedication waiver
+(http://creativecommons.org/publicdomain/zero/1.0/) applies to the data made available in this article, unless otherwise stated.
+Lee et al. BMC Anesthesiology  (2016) 16:115 
+DOI 10.1186/s12871-016-0279-x
+Background
+Endotracheal intubation during general anesthesia excites
+the sympathetic nervous system, leading to increased
+blood pressure and heart rate [1, 2]. Presently, to prevent
+the occurrence of these hemodynamic changes during
+intubation, the patient can be administered opioids, top-
+ical and intravenous (IV) lidocaine or alpha and beta
+blockers [3].
+Fentanyl is an opioid with the short onset and action
+duration, and has been commonly administered prior to
+intubation [4]. Oxycodone is a strong mu-opioid recep-
+tor agonist and its potency is also similar to that of
+morphine [5]. The onset time of oxycodone is similar
+to that of fentanyl; oxycodone therefore can be effectively
+utilized to minimize a patient ’s hemodynamic response to
+sudden stimulus such as intubation, although its action
+duration is long.
+Closed reduction of nasal bone fracture is a short-
+duration surgery that needs awakening shortly after
+anesthetic induction. Therefore, the opioids adminis-
+tered prior to intubation ma y prolong awakening pro-
+cesses especially when using long acting opioids such
+as oxycodone. But, it ’s prolonged effect is beneficial
+in reducing postoperative pain and promoting com-
+fortable awakening in patients.
+In this prospective randomized double-blinded study,
+the goal was to compare the intravenous bolus effect
+of oxycodone and fentanyl on hemodynamic response
+after endotracheal intubation and postoperative pain
+in patients undergoing closed reduction of nasal bone
+fracture.
+Methods
+This study was approved by the Chung-Ang University
+Hospital Institutional Review Board on 2 June, 2014 and
+was registered with the Clinical Research Information
+Service (KCT0001153) on 3 July, 2014. Written informed
+consent was obtained from all patients.
+Sixty-four patients undergoing closed reduction of
+n a s a lb o n ef r a c t u r ew e r ee n r o l l e di nt h i ss t u d y .W e
+included patients aged between 20 and 65 years and
+classified as American Society of Anesthesiologists (ASA)
+Class 1 or 2. Patients were excluded if they 1) weighed
+< 40 kg or > 100 kg, 2) had a body mass index (BMI) >
+30 kg/m 2, 3) were pregnant or breastfeeding, 4) had a
+cardiovascular or respiratory disease, 5) had renal, liver, or
+hematological disorders, 6) had a history of cerebral
+or psychiatric disease, or 7) were at high risk of aspiration
+or regurgitation.
+All patients received an adequate explanation concer-
+ning the surgical procedure including awakening and
+purpose of the study. Following this, informed consent
+was obtained. Patients were then randomly assigned
+to either the fentanyl group (Group F, n = 32) or the
+oxycodone group (Group O, n = 32) using a random
+numbers table generated by PASS 11.0(NCSS, Kaysville,
+Utah, USA). Patient group allocations were sealed in serial
+numbered envelopes by an anesthesiologist who did not
+participate in the study. Another anesthesiologist who
+was unaware of the patient group allocations evaluated
+the patient’s airway (evaluated using the Mallampati classi-
+fication) in the waiting room. Patients were unaware of
+their assigned group. All patients were not pre-medicated
+with agents such as anticholinergics, anxiolytics, or anal-
+gesics which affect postoperative pain.
+All patients were transferred to the operating room.
+Pulse oximetry and electrocardiography was performed
+after placing the patients in a supine position. Non-inva-
+sive blood pressure was measured twice for all pa-
+tients after a 5 min-period of stabilization. Mean values
+were used as a reference of preoperative blood pressure
+and heart rate.
+The anesthesiologist who was not involved in the
+study and intraoperative patient care opened the group
+allocation envelopes. Patients in Group F were adminis-
+tered an IV bolus of fentanyl 2 mcg/kg 2 min before
+induction. Those in Group O were administered an
+IV bolus of oxycodone 0.2 mg/kg diluted with normal
+saline to prevent the anesthesiologist from distinguishing
+between oxycodone and fentanyl. An anesthesiologist
+recorded any adverse events, such as dizziness, coug-
+hing, sedation or oxygen saturation in pulse oximetry
+< 92 % without stimulus, which occurred before anesthetic
+induction.
+All patients were injected with lidocaine 40 mg intra-
+venously prior to injecting propofol 2 mg/kg. Succinyl-
+choline 1 mg/kg was administered for muscle relaxation
+after loss of patient consciousness. Endotracheal intub-
+ation was performed 2 min after induction of anesthesia.
+The anesthesiologist evaluated the Cormack-Lehane
+grade and the difficulty of intubation by using subjective
+criteria (easy, normal, or difficult). Non-invasive blood
+pressure and heart rate were measured and recorded at
+1-min intervals for 5 min after endotracheal intubation.
+General anesthesia was maintained by 1.5 minimum
+alveolar concentration desflurane and 50 % air in oxygen
+with a constant fresh gas flow of 3 L/min. Intravenous
+glycopyrrolate 0.2 mg was administered when bradycar-
+dia occurred (heart rate < 40 bpm), while IV ephedrine
+5 mg was administered for events of hypotension
+(systolic arterial pressure < 80 mmHg).
+Postoperatively, desflurane administration was termi-
+nated and a total 8 L/min of fresh gas flow with 100 %
+oxygen was administered via an endotracheal tube.
+Simultaneously, ventilation was assisted such that the
+patients were allowed to breathe spontaneously while
+keeping E tCO2 between 40 and 45 mmHg. Oral suction
+was gently performed. The patient was not interrupted by
+Lee et al. BMC Anesthesiology  (2016) 16:115 Page 2 of 7
+any stimulus except for a verbal request, “Open your eyes”
+with the same volume every 30 s or whenever there were
+any even minimal movement. Extubation was performed
+when patients nodded their heads, opened their eyes,
+obeyed commands, and could breathe deeply by them-
+selves. The anesthesia time (time from induction to extuba-
+tion) and the awakening time (time from discontinuation of
+anesthetics to extubation) were recorded for all patients.
+An anesthesiologist, who was blinded to group treat-
+ments, also, also evaluated the patient ’s emergence state
+while awakening from general anesthesia, according to
+Aono’s scale: 1 = calm; 2 = not calm but easily calms
+down to verbal instructions, tolerable requiring ordinary
+fixation straps for both arms and legs; 3 = not calm
+despite frequent verbal instructions and moderately agi-
+tated or restless, and requires physical restraint; and
+4 = combative, excited, disoriented, and strongly requires
+physical restraint. Classifications 3 and 4 were regarded as
+emergence agitation [6, 7]. Patients were subsequently
+transferred to post-anesthetic care unit(PACU).
+Postoperative pain was evaluated for all patients in the
+PACU 30 min after extubation using the Numeric Rating
+Scale (NRS: 0 = no pain, 10 = worst pain imaginable).
+If the NRS score exceeded 6 or if patients requested
+analgesics, IV ketorolac 30 mg was administered. Patients
+then were sent to the ward when their modified Aldrete
+score were more than 9.
+All the patients were also observed for 24 h postopera-
+tively to see whether complications such as respiratory
+depression, sedation, nausea, or vomiting occurred. IV
+ketorolac was also administered if patients requested
+analgesics during the 24 h period postoperatively. The
+incidence of rescue analgesic administration was also
+recorded.
+Data collection was performed by an anesthesiologist
+who was unaware of patient group allocation. The pri-
+mary outcomes of this study were changes in mean
+arterial blood pressure (MBP) occurring after endotracheal
+intubation and postoperative pain in both groups. Delta
+MBP (ΔMBP) and delta heart rate ( ΔHR) were defined as
+the maximum difference between non-invasive MBP and
+heart rate measured every 1 min during a 5-min period
+and the preoperative values. The secondary outcomes of
+this study included the incidence of emergence agitation
+when the patient woke up from general anesthesia,
+the awakening time, the incidence of rescue analgesic
+administration and any perioperative adverse events.
+The sample size of this study was determined based
+on a pilot study of 20 patients undergoing closed reduc-
+tion of nasal bone fracture. In this pilot study, the ΔMBP
+was 3.0 ± 14.5 in Group F and –10.0 ± 15.4 in Group O.
+In addition, the pain score was 4.1 ± 1.9 in Group F and
+2.4 ± 1.8 in Group O. The number of patients required
+for each group was 29 in relation to ΔMBP and 26 in
+terms of pain, with the alpha error assumed to be 0.05
+and the beta error assumed to be 0.10. We selected the
+maximum value of the sample size calculation to obtain
+an appropriate examination between the two primary
+end points. We assumed a dropout rate of 10 %; there-
+fore, a total of 64 patients were included in this study.
+Statistical analysis was performed using SPSS v. 21.0
+(IBM Corp., Armonk, NY, USA). The normal distri-
+bution of continuous variables was evaluated by the
+Shapiro-Wilk test. Parametric data were analysed using
+the independent t-test, while non-parametric data were
+analyzed with the Mann-Whitney U-test. Descriptive
+variables were evaluated by the χ2 test or Fisher ’s exact
+test. Intervals prior to the administration of the first dose
+of rescue analgesics were assessed using the Kaplan-Meier
+method and the differences were evaluated by the log-
+rank test. All variables were expressed as median (range),
+mean (standard deviation), or number (%). P-values
+< 0.05 were considered statistically significant. Relative
+risks or median differences with 95 % confidence intervals
+were also calculated.
+Results
+Data were collected between July 2014 and May 2015. A
+total of 64 patients were randomized into either Group
+F or Group O (Fig. 1). Sex, age, height, weight, BMI,
+ASA classification, anesthesia time, Mallampati classifi-
+cation, and Cormack-Lehane grade were not significantly
+different between the two groups (Table 1).
+ΔMBP and ΔHR were not statistically different be-
+tween the groups ( P = 0.110 and P = 0.950, respectively;
+Ta bl e 2 ). Th e n um be r o f p at ie nt s w ho seΔMBP increased
+more than 40 % compared to pre-induction levels was the
+same in the two groups (2/32, 6 % in each group; T able 2).
+The number of patients whose ΔHR increased more
+than 20 % was 15 in Group F (47 %; T able 2) and 17 in
+Group O (53 %; T able 2); the difference was not significant
+(P = 0.617; T able 2). Postoperative pain in Group O was
+milder than that in Group F ( P < 0.001; T able 2).
+The incidence of agitation at awakening from anesthesia
+was lower in Group O than in Group F ( P= 0.001; T able 2)
+while awakening time was longer in Group O than in
+Group F. ( P = 0.012; T able 2). There was a significant
+difference ( P = 0.042) in the incidence of rescue anal-
+gesics between the two groups: 17 patients in Group F
+(53 %; T able 2) and nine in Group O (28 %; T able 2).
+With regard to perioperative adverse events, after
+administering opioids and before anesthesia induction,
+5 patients in group F felt dizziness compared to 0 pa-
+tients in group O ( P = 0.020). Otherwise, 4 patients in
+group O showed oxygen saturation in pulse oximetry
+< 92 % compared to 0 patients in group F ( P = 0.039).
+There were no significant differences between two groups
+in the other perioperative adverse events (T able 2). No
+Lee et al. BMC Anesthesiology  (2016) 16:115 Page 3 of 7
+patients in both groups had complications including re-
+spiratory depression, sedation, nausea, or vomiting during
+postoperative 24 h.
+Discussion
+In this study, administering oxycodone 0.2 mg/kg prior
+to endotracheal intubation was as effective as fentanyl
+2 mcg/kg for attenuating hemodynamic response during
+surgery for closed reduction of nasal bone fracture.
+Fentanyl is a mu-opioid receptor agonist characterized
+by high potency, rapid onset, and short action duration
+[8]. Koch et al. reported that the onset time of fentanyl is
+about 2 –3 min after IV injection [9]. It has been shown
+that timed delivery of low doses of fentanyl can, to some
+extent, counterbalance the short lasting elevation in
+HR and blood pressure resulting from endotracheal
+Fig. 1 CONSORT flowchart showing the number of patients at each study phase
+Table 1 Patient characteristics in both study groups. Values are expressed as either mean(standard deviation) or median (ranges)
+Fentanyl (n = 32) Oxycodone ( n = 32) P value RR a or MDb (CIc)
+Age (yr) 28.50 (24.00 –40.75) 27.50 (22.25 –32.75) 0.303 1.00 ( –5.41–7.41)
+Sex (men/women) 23/9 20/12 0.424 0.65 (0.23 –1.87)
+Height (m) 1.70 (9.16) 1.68 (8.00) 0.470 1.56 ( –2.74–5.86)
+Weight (kg) 65.37 (12.08) 62.62 (10.04) 0.326 2.75 ( –2.80–8.30)
+BMId (kg/m2) 22.60 (2.73) 22.11 (2.57) 0.464 0.49 ( –0.84–1.82)
+ASAe (I/II) 31/1 29/3 0.302 3.2 (0.32 –32.60)
+Mallampati classification (I/II/III/IV) 14/5/7/6 11/3/8/10 0.588 NA f
+Cormack-Lehane grade (I,II,III,IV) 8/7/10/7 4/6/14/8 0.543 NA
+Difficulty of intubation (easy/normal/difficult) 7/13/12 5/12/15 0.702 NA
+Anesthesia time (min) 30.00 (26.25 –40.00) 35.00 (30.00 –40.00) 0.462 −5.00 (−11.59−1.59)
+aRR relative risk, bMD mean difference, cCI confidence interval, dBMI body mass index, eASA American Society of Anesthesiologists, fNA non-applicable
+Lee et al. BMC Anesthesiology  (2016) 16:115 Page 4 of 7
+intubation. Sawan et al. reported that it is preferable
+to administer fentanyl 2 mcg/kg in patients without
+hypertension and fentanyl 4 mcg/kg in patients with
+hypertension to minimize the changes in heart rate,
+systolic blood pressure, an d cardiac output associated
+with endotracheal intubation when anesthesia is induced
+via IV target-controlled infusion of propofol (plasma
+concentration, 4.0 mcg/mL) [10]. Since IV oxycodone
+also has a rapid onset time about 5 –8 min [9, 11, 12], it
+could minimize patient hemodynamic responses to sud-
+den stimuli such as endotracheal intubation, similar to
+fentanyl.
+A typical pressor response can include a 40 % increase
+in blood pressure and a 20 % increase in heart rate [8].
+In the present study, ΔMBP increased by more than
+40 % is only two patients (6 %) and ΔHR by more than
+20 % is 16 patients (50 %) in Group F. In Group O,
+ΔMBP increased by more than 40 % is two patients
+(6 %) and ΔHR by more than 20 % is 17 patients (53 %).
+This shows that IV administration of fentanyl 2 mcg/kg
+and oxycodone 0.2 mg/kg attenuated the increase in
+blood pressure post-intubation to a similar degree; how-
+ever, their effect may be somewhat insufficient to prevent
+increase in heart rate. There have been some studies that
+indicate more opioid is required to block the elevation of
+heart rate than that of blood pressure [13, 14]. However,
+larger amounts of opioid will cause hypotension just
+before endotracheal intubation or after relief of excited
+sympathetic nervous system caused by endotracheal in-
+tubation. In this study, we therefore used 2 mcg/kg of
+fentanyl and 0.2 mg/kg of oxycodone which attenuates (but
+not totally abolish) an excessive hemodynamic response
+after intubation in healthy patients without cardiovascular
+disease.
+With respect to pain, postoperative pain in Group O
+was milder than that in Group F. The NRS score in
+Group O was lower than in Group F. Fewer patients in
+Group O required analgesics postoperatively compared
+with Group F. This was probably due to the longer ac-
+tion duration of oxycodone than that of fentanyl. Kalso
+et al. also suggested that parenteral oxycodone provided
+faster and longer-lasting pain relief, even compared with
+morphine [9].
+Furthermore, the incidence of emergence agitation
+at awakening from anesthesia was lower in Group O
+than in Group F. There are no clearly fixed criteria
+used to evaluate the occurrence of emergence agitation
+and its intensity in existing studies, but the Aono ’sf o u r -
+point scale, Riker Sedation-Agitation Scale, Richmond
+Agitation-Sedation Scale, or personally categorized criteria
+have been used [15]. We tried to reduce the bias occurred
+by this subjective evaluating method, and Aono ’sf o u r -
+point scale which was scored by a blinded anesthesiologist
+who had previously evaluated the agitation state of pa-
+tients using this method. (or instrument or tool) [6].
+In closed reduction of nasal bone fracture, there could
+be discomfort from the nasal packing performed to
+prevent postoperative bleeding [15], and this may be
+commonly associated with agitation. In addition, it is
+safer to extubate the patient when fully awake, as it
+could be difficult to maintain the airway due to nasal
+packing and the risk of aspiration from nasal bleeding.
+Awake extubation may be one of the causes of patient
+agitation during awakening. Emergence agitation is a
+Table 2 Hemodynamic changes, postoperative pain, awakening agitation, and perioperative adverse events. Values are expressed as
+mean(standard deviation), number (%), or median (ranges)
+Fentanyl (n = 32) Oxycodone ( n = 32) P value RR a or MDb (CIc)
+ΔMBP (mmHg)d 12.63 (16.76) 5.51 (18.29) 0.110 7.12 ( −1.64−15.89)
+ΔMBP >40 % 2 (6) 2 (6) 1.000 1.00 (0.13 –7.57)
+ΔHRe 18.47 (13.74) 18.71 (16.84) 0.950 −0.24 (−7.92−7.44)
+ΔHR >20 % 15 (47) 17 (53) 0.617 1.28 (0.48 –3.43)
+Pain 5.00 (3.00 –6.75) 3.00 (2.00 –4.00) <0.001 3.00 (0.59 –3.41)
+Rescue analgesic 17 (53) 9 (28) 0.042 1.89 (0.99 −3.59)
+Awakening time (s) 335.00 (284.50 –427.50) 420.00 (311.00 –500.00) 0.012 −85.00 (−157.99−12.01)
+Agitation (1,2/3,4) 11/21 24/8 0.001 0.18 (0.06 –0.52)
+Perioperative adverse events
+Cough (before induction) 5 (16) 7 (22) 0.522 1.51 (0.43 –5.38)
+Dizziness
+(before induction)
+5 (16) 0 (0) 0.020 NA f
+Oxygen saturation < 92 % (before induction) 0 (0) 4 (13) 0.039 NA
+Hypotension 4 (13) 3 (9) 0.689 0.72 (0.15 –3.53)
+Bradycardia 0 (0) 3 (9) 0.076 NA
+aRR relative risk, bMD mean difference, cCI confidence interval, dΔMBP delta mean blood pressure, eΔHR delta heart rate, fNA non-applicable
+Lee et al. BMC Anesthesiology  (2016) 16:115 Page 5 of 7
+significant concern after general anesthesia, and may
+lead to serious consequences for the patient including
+injury, increased pain, hemorrhage, self-extubation, and
+removal of catheters; it may also necessitate physical
+or chemical restraint of the patient [6]. Previous studies
+have suggested that postoperative pain can be a risk factor
+associated with emergence agitation [16].
+The longer duration of action of oxycodone caused
+the patients in Group O to wake up later than those in
+Group F, by approximately 85 s in our study. However,
+none of the patients experienced any problems in terms
+of delayed awakening during 24 h postoperatively. The
+number of patients who showed respiratory depression
+after receiving drugs prior to anesthetic induction was
+four in Group O compared with none in Group F. In
+contrast, five patients in Group F experienced dizziness
+compared with none in Group O.
+To discuss the results of this study, we have to con-
+sider the doses of fentanyl and oxycodone. The safe dose
+conversion ratio of IV oxycodone to IV fentanyl is yet
+to be established [9]. Previous studies administered a
+morphine to oxycodone ratio of 1:1 [17, 18] and a
+fentanyl to morphine ratio of 1:100 [19, 20]. On this
+basis, we calculated a workable fentanyl to oxycodone
+ratio of 1:100 for the present study. Although it was not
+statistically significant, ΔMBP in Group O was slightly
+lower than Group F. This may indicate an over dose of
+oxycodone. If the dose of oxycodone is reduced, it could
+prevent the patient from experiencing respiratory depres-
+sion and delayed awakening, while still attenuating the
+hemodynamic response.
+This study has several limitations. First, we adminis-
+tered oxycodone for young and healthy patients as a
+single dose to compare it with fentanyl. Hemodynamic
+response after endotracheal intubation in geriatric patients
+might be clinically more problematic. So, further studies
+on a variety of patients and dose-titrations are required.
+Secondly, we hypothesized that the onset time of fentanyl
+and oxycodone are same. We administered fentanyl or
+oxycodone 2 min prior to induction, so that the intubation
+was performed about 3 min after administration of these
+opioids in both groups. However, the peak effect time of
+oxycodone for attenuating the hemodynamic response to
+sudden stimulus like endotracheal intubation is, to our
+knowledge, not yet known, even though a study reported
+that the IV oxycodone showed a rapid onset of pain relief
+which was 5 –8 min [9, 11, 12]. Thirdly, closed reduction
+of nasal bone fracture is not a time-consuming surgery
+and requires very little preparation time. In our study,
+there were only a few patients that required intervention
+to adjust the hypotension after the endotracheal intu-
+bation. There is a risk of hypotension if surgical prepa-
+ration is prolonged because there is almost no stimulus
+while draping. Finally, succinylcholine was administered
+as a muscle relaxant. Succinylcholine is not frequently
+administered at present because it can cause hyperkalemia
+and rhabdomyolysis. We utilized succinylcholine because
+closed reduction of nasal bone fracture is a short-duration
+surgery. Instead of succinylcholine, rocuronium with sugam-
+madex may be administered. However, sugammadex is
+an expensive drug; therefore, its cost-effectiveness should
+be considered [21].
+Conclusions
+In patients undergoing closed reduction of nasal bone
+fracture, the administration of oxycodone is advantageous
+in terms of both attenuating the hemodynamic response
+to endotracheal intubation and reducing postoperative
+pain despite a cost of delayed awakening.
+Additional file
+Additional file 1: The datasets generated and analysed during the
+current study. (XLSX 38 kb)
+Abbreviations
+ASA: American Society of Anesthesiologists; BMI: Body mass index;
+MBP: Mean arterial blood pressure; NRS: Numeric rating scale; PACU:
+Post-anesthetic care unit(PACU); ΔHR: Delta heart rate; ΔMBP: Delta MBP
+Acknowledgements
+None.
+Funding
+None.
+Availability of data and materials
+The datasets supporting the conclusions of this article are included within
+the article and its Additional file 1.
+Authors’ contributions
+YSL: Study conception and design and drafting of manuscript; CWB:
+Study conception and design and drafting and review of manuscript;
+DRK: Conducted anaesthesia; HK: Study conception and design and
+analysis and interpretation of data; GJC: Acquisition of data; YHP:
+Acquisition of data; WJK: Acquisit ion of data; YHJ: Study conception,
+and design and review of manuscript; YCW: Study conception, and
+design and review of manuscript. All authors read and approved the
+final manuscript.
+Competing interests
+The authors declare that they have no competing interests.
+Consent for publication
+Not applicable.
+Ethics approval and consent to participate
+This study was approved by the Chung-Ang University Hospital Institutional
+Review Board and was registered with the Clinical Research Information
+Service (KCT0001153). Written informed consent was obtained from all patients.
+Received: 11 April 2016 Accepted: 26 October 2016
+References
+1. Pournajafian A, Rokhtabnak F, Kholdbarin A, Ghodrati M, Ghavam S.
+Comparison of remifentanil and fentanyl regarding hemodynamic changes
+due to endotracheal intubation in preeclamptic parturient candidate for
+cesarean delivery. Anesth Pain Med. 2012;2(2):90 –3.
+Lee et al. BMC Anesthesiology  (2016) 16:115 Page 6 of 7
+2. Mireskandari SM, Abulahrar N, Darabi ME, Rahimi I, Haji-Mohamadi F,
+M o v a f e g hA .C o m p a r i s o no ft h ee f f e c to ffentanyl, sufentanil, alfentanil
+and remifentanil on cardiovascular response to tracheal intubation in
+children. Iran J Pediatr. 2011;21(2):173 –80.
+3. Min JH, Chai HS, Kim YH, Chae YK, Choi SS, Lee A, Choi YS. Attenuation of
+hemodynamic responses to laryngoscopy and tracheal intubation during
+rapid sequence induction: remifentanil vs. lidocaine with esmolol. Minerva
+Anestesiol. 2010;76(3):188 –92.
+4. Kim NS, Kang KS, Yoo SH, Chung JH, Chung JW, Seo Y, Chung HS, Jeon HR,
+Gong HY, Lee HY, et al. A comparison of oxycodone and fentanyl in
+intravenous patient-controlled analgesia after laparoscopic hysterectomy.
+Korean J Anesthesiol. 2015;68(3):261 –6.
+5. Smith MT, Edwards SR, Nielsen CK. Oxycodone ’s mechanism of action and
+potency differences after spinal and systemic routes of administration.
+Anesthesiology. 2007;106(5):1063–4. author reply 1064-1065.
+6. Choi GJ, Baek CW, Kang H, Park YH, Yang SY, Shin HY, Jung YH, Woo YC,
+Lee UL. Emergence agitation after orthognathic surgery: a randomised
+controlled comparison between sevoflurane and desflurane. Acta
+Anaesthesiol Scand. 2015;59(2):224 –31.
+7. Aono J, Ueda W, Mamiya K, Takimoto E, Manabe M. Greater incidence of
+delirium during recovery from sevoflurane anesthesia in preschool boys.
+Anesthesiology. 1997;87(6):1298–300.
+8. Channaiah VB, Kurek NS, Moses R, Chandra SB. Attenuation of
+Hemodynamic Response to Laryngoscopy and Endotracheal Intubation
+with Pre Induction IV Fentanyl Versus Combination of IV Fentanyl and Sub
+Lingual Nitroglycerin Spray. Med Arch (Sarajevo, Bosnia and Herzegovina).
+2014;68(5):339–44.
+9. Koch S, Ahlburg P, Spangsberg N, Brock B, Tonnesen E, Nikolajsen L.
+Oxycodone vs. fentanyl in the treatment of early post-operative pain after
+laparoscopic cholecystectomy: a randomised double-blind study. Acta
+Anaesthesiol Scand. 2008;52(6):845 –50.
+10. Sawano Y, Miyazaki M, Shimada H, Kadoi Y. Optimal fentanyl dosage for
+attenuating systemic hemodynamic changes, hormone release and cardiac
+output changes during the induction of anesthesia in patients with and
+without hypertension: a prospective, randomized, double-blinded study.
+J Anesth. 2013;27(4):505 –11.
+11. Leow KP, Cramond T, Smith MT. Pharmacokinetics and pharmacodynamics
+of oxycodone when given intravenously and rectally to adult patients with
+cancer pain. Anesth Analg. 1995;80(2):296 –302.
+12. Ordonez Gallego A, Gonzalez Baron M, Espinosa Arranz E. Oxycodone: a
+pharmacological and clinical review. Clin Transl Oncol. 2007;9(5):298 –307.
+13. Kautto UM. Attenuation of the circulatory response to laryngoscopy and
+intubation by fentanyl. Acta Anaesthesiol Scand. 1982;26(3):217 –21.
+14. Channaiah VB, Chary K, Vlk JL, Wang Y, Chandra SBC. Clinical research <BR>
+Low-dose fentanyl: hemodynamic response to endotracheal intubation in
+normotensive patients. Arch Med Sci. 2008;4(3):293 –9.
+15. Kim YS, Chae YK, Choi YS, Min JH, Ahn SW, Yoon JW, Lee SE, Lee YK. A
+comparative study of emergence agitation between sevoflurane and
+propofol anesthesia in adults after closed reduction of nasal bone fracture.
+Korean J Anesthesiol. 2012;63(1):48 –53.
+16. Yu D, Chai W, Sun X, Yao L. Emergence agitation in adults: risk factors in
+2,000 patients. Can J Anaesth. 2010;57(9):843 –8.
+17. Silvasti M, Rosenberg P, Seppälä T, Svartling N, Pitkänen M. Comparison of
+analgesic efficacy of oxycodone and morphine in postoperative intravenous
+patient-controlled analgesia. Acta Anaesthesiol Scand. 1998;42(5):576 –80.
+18. Pedersen KV, Olesen AE, Drewes AM, O sther PJS. Morphine versus oxycodone
+analgesia after percutaneous kidney stonesurgery. Urolithiasis. 2013;41(5):423–30.
+19. Pereira J, Lawlor P, Vigano A, Dorgan M, Bruera E. Equianalgesic dose ratios
+for opioids. a critical review and proposals for long-term dosing. J Pain
+Symptom Manage. 2001;22(2):672 –87.
+20. Momeni M, Crucitti M, Kock M. Patient-Controlled Analgesia in the
+Management of Postoperative Pain. Drugs. 2012;66(18):2321 –37.
+21. Chambers D, Paulden M, Paton F, Heirs M, Duffy S, Craig D, Hunter J,
+Wilson J, Sculpher M, Woolacott N. Sugammadex for the reversal of
+muscle relaxation in general anaesthesia: a systematic review and
+economic assessment. Health Technol Assess (Winchester, England).
+2010;14(39):1 –211.
+•  We accept pre-submission inquiries 
+  Our selector tool helps you to ﬁnd the most relevant journal
+  We provide round the clock customer support 
+  Convenient online submission
+  Thorough peer review
+  Inclusion in PubMed and all major indexing services 
+  Maximum visibility for your research
+Submit your manuscript at
+www.biomedcentral.com/submit
+Submit your next manuscript to BioMed Central 
+and we will help you at every step:
+Lee et al. BMC Anesthesiology  (2016) 16:115 Page 7 of 7

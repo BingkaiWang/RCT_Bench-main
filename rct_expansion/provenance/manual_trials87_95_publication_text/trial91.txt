@@ -1,0 +1,660 @@
+R E S E A R C H A R T I C L E Open Access
+The MOVE-trial: Monocryl® vs. Vicryl
+Rapide™ for skin repair in mediolateral
+episiotomies: a randomized controlled trial
+Roeland Odijk 1,2*, Bernadette Hennipman 1,3, Melek Rousian 1,4, Khadija Madani 1,5, Marja Dijksterhuis 1,2,
+Jan Willem de Leeuw 1 and Arjan van Hof 1,6
+Abstract
+Background: Previous studies have shown that complaints after episiotomy repair depend on the method and
+material used for repair. The objective of our study was to determine which of two frequently used suture materials,
+Monocryl® (poliglecaprone 25) and Vicryl Rapide ™ (polyglactin 910), is superior for intracutaneous closure of the skin
+in mediolateral episiotomies.
+Methods: In a randomized controlled trial performed in a teaching hospital in the Netherlands between 2010 and
+2013 250 primiparous women with uncomplicated mediolateral episiotomies were randomly allocated to
+intracutaneous skin closure with either Monocryl® or Vicryl Rapide ™. All other layers were sutured with Vicryl 2-0
+and Vicryl 0 in both groups. Pain scores and complications were documented using questionnaires during the first
+three months post partum. The primary outcome was pain 10 days after delivery in sitting position established by
+Visual Analogous Scale (VAS). Secondary outcomes were pain scores at different time points and reported
+complications such as infections, dehiscence and dyspareunia one day, 10 days, six weeks and three months after
+delivery.
+Results: Of 250 allocated women 54% returned questionnair es. No statistical difference was found between
+both groups for the primary outcome (VAS 2,8 (95% CI 2,18-3,44) vs. VAS 2,5 (95% CI 2,00-2,98), p = 0,43).
+With regard to secondary outcomes only self-reported dehiscence was significantly different, favouring
+Monocryl® (10% vs. 25%, p = 0.016).
+Conclusions: Use of Monocryl® 3-0 and Vicryl Rapide ™ 3-0 for intracutaneous closure of the skin after mediolateral
+episiotomy leads to equal pain scores ten days after delivery and therefore both materials may be considered for this
+use. Monocryl® 3-0 might be favourable over Vicryl Rapide ™ 3-0 due to less self-reported dehiscence after
+intracutaneous closure of the skin in mediolateral episiotomies.
+Trial registration: The trial was retrospectively registered under trial nr. ISRCTN29869308 on 20-04-2016.
+Keywords: Episiotomy; randomized controlled trial; polyglactin 910, Poliglecaprone 25, Pain, Wound dehiscence
+* Correspondence: RGDOdijk@gmail.com
+1Department of Obstetrics and Gynecology, Ikazia Hospital, Rotterdam, The
+Netherlands
+2Department of Obstetrics and Gynecology, Amphia Hospital, Langendijk 75,
+4819 EV Breda, The Netherlands
+Full list of author information is available at the end of the article
+© The Author(s). 2017 Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0
+International License (http://creativecommons.org/licenses/by/4.0/), which permits unrestricted use, distribution, and
+reproduction in any medium, provided you give appropriate credit to the original author(s) and the source, provide a link to
+the Creative Commons license, and indicate if changes were made. The Creative Commons Public Domain Dedication waiver
+(http://creativecommons.org/publicdomain/zero/1.0/) applies to the data made available in this article, unless otherwise stated.
+Odijk et al. BMC Pregnancy and Childbirth  (2017) 17:355 
+DOI 10.1186/s12884-017-1545-8
+Background
+Sixty to 90 % of women suffer perineal trauma during
+vaginal delivery with sixty to 70 % of these injuries re-
+quiring immediate repair [1 –3]. Episiotomies are the
+most frequently performed operative procedure during
+delivery. In the Netherlands in 47% of primiparous and
+15% of multiparous women an episiotomy is performed
+during delivery [4, 5]. Ninety-two percent of women
+delivered with an episiotomy will have complaints of
+perineal pain in the postpartum period and approxi-
+mately 20% of women still have complaints after three
+months [6] and 10% even up to 18 months [7].
+After episiotomy repair, complaints like pain and dys-
+pareunia may interfere with daily lives of women. The
+technique and material used in the repair may influence
+the intensity and duration of these complaints [8 –11].
+Previous trials have shown that interrupted suturing of
+the skin causes more pain when compared to continuous
+intracutaneous suturing [12]. Similarly, it was shown
+that synthetic materials cause a reduction in complaints
+when compared to catgut [13, 14]. To date, only two
+trials have compared a resorbable monofilament and a
+resorbable multifilament synthetic material for the repair
+of episiotomies [15, 16].
+To date, few RCTs comparing Monocryl® and Vicryl
+Rapide™ have been performed and no trials have looked
+specifically at use of both of these materials for skin
+closure in mediolateral episiotomies [17]. Both materials
+are frequently used for this purpose in the Netherlands,
+but differ substantially in their properties [18, 19].
+It has been shown that Monocryl® causes minimal tis-
+sue reaction due to the fact that as a monofilament ma-
+terial it has a small surface. It is completely resorbed in
+approximately 120 days. After 14 days it still holds 25%
+of its tensile strength [20].
+Vicryl Rapide ™ is a multifilament material. Due to its
+braided structure, its surface is larger and it might have
+niches in which bacteria cannot easily be reached by
+cells of the immune system [21]. Vicryl Rapide ™ is com-
+pletely resorbed in 42 days and has no tensile strength
+after 14 days.
+The objective of our randomized controlled trial was
+to investigate whether Monocryl® or Vicryl Rapide ™ is
+superior with regard to pain after repair, wound infec-
+tion and dehiscence after the suturing of the skin after a
+vaginal delivery with a mediolateral episiotomy in prim-
+iparous women.
+Methods
+Our trial was performed between 2010 and 2013 at
+the maternity ward of a single general hospital in
+Rotterdam, the Netherlan ds. On average this centre
+provides care for almost 2000 medium and high-risk
+deliveries per year. The population attending this
+hospital is known to have a wide socioeconomical
+and ethnical range.
+Only primiparous women were included in the trial to
+exclude effects of previous birth trauma and minimise
+variability. Nulliparous women were informed about the
+study between the 34th and 36th week of pregnancy. If
+during delivery a mediolateral episiotomy was performed
+women were asked to participate in the study.
+Women who met the inclusion criteria were randomly
+allocated to suturing of the skin with Monocryl® or Vicryl
+Rapide™ after informed consent was obtained. Random as-
+signment took place using opaque envelopes present on
+the delivery ward. The suture material was included in the
+opaque envelope containing the questionnaires. The trial
+was single blinded.
+I n c l u s i o nc r i t e r i aw e r ed e fined as primiparous women
+with an uncomplicated episiotomy after a vaginal delivery.
+Both women with a spontaneous and an operative delivery
+were included. Uncomplicatedepisiotomy was defined as a
+mediolateral episiotomy with noadditional labial, contralat-
+eral vaginal wall or perineal ruptures.
+Exclusion criteria were defined as women under 18 years
+of age or unable to understand the written information
+about the study. Women with a coagulopathy or an
+impaired immune system we re excluded. Postpartum
+hemorrhage, prohibiting sufficient time for inclusion, was
+another exclusion criterium.
+Postpartum suturing was performed in the delivery
+room by the attending midwife or obstetrician. In
+order to standardise the method of suturing all
+episiotomies were repaired using the following
+standardized protocol: The vaginal wall was sutured
+continuously using Vicryl® 2-0 from the apex to the
+hymen. The bulbocavernosus and superficial perineal
+muscles and subcutaneous tissue were sutured with
+interrupted stitches using Vicryl® 0. The skin was su-
+tured intracutaneously using Monocryl® 3-0 SH or
+Vicryl Rapide ™ 3-0 SH. The first knot was tied in the
+subcutaneous tissue at the distal end of the episiot-
+omy. From here a continuous intracutaneous suture
+to the fourchette was made where a knot was tied.
+After randomization and perineal repair, women were
+handed out a questionnaire with four sets of questions
+to be answered 24 h, 10 days, six weeks and three
+months after delivery. Baseline characteristics were
+recorded from the hospital records. Pain scores were
+evaluated using a Visual Analogous Scale, (VAS), a self-
+reported pain scale from 0 to 10 cm [22]. VAS scores
+were evaluated in lying and sitting position, and whilst
+walking. Primary outcome was pain in sitting position
+after 10 days. Secondary outcomes were self-reported
+dehiscence, infections, analgesia use, necessity for re-
+moval of suture material, the resumption of intercourse
+and dyspareunia at 10 days, six weeks and three months.
+Odijk et al. BMC Pregnancy and Childbirth  (2017) 17:355 Page 2 of 7
+All the secondary outcomes were self-reported through
+the questionnaires. Women received text messages on
+day 10, week six and after three months as a reminder
+to fill out the particular part of the questionnaires. After
+three months they were asked to send back the ques-
+tionnaires. Stamped return-envelopes were provided
+with the questionnaires. Non-responders were contacted
+by telephone and asked to send in the information (Add-
+itional file 1).
+Statistical analysis
+Power analysis was performed prior to the study with the
+assumption of a difference in VAS score of 1 cm. With a α
+of 0.05 and a β of 90% it was calculated that two groups of
+112 women were necessary to find statistically significant
+differences. Estimating 10% loss to follow up the total
+amount of inclusions was set to be 250.
+Statistical analysis for the primary outcome and second-
+ary pain scores was made using Student ’s t-tests. Chi-s-
+quare and Fishers exact test were used to investigate
+differences in proportions between independent categor-
+ical variables. Adjusted analyses were made using linear
+regression analysis and Mantel-Haenzel tests. No interim
+analyses were planned or performed. IBM SPSS Statistics
+for Windows version 22.0 was used for data analysis.
+The trial was approved by the Ethical Committee for
+Scientific Research of Rotterdam (TWOR) ref. nr
+NL28922.101.10 on the 7th October 2010 and was regis-
+tered retrospectively under number ISRCTN29869308.
+Results
+Between November 2010 and July 2013 4995 women de-
+livered in our hospital, with 2735 primiparous women
+who delivered vaginally. Over the research period the
+percentage of primiparous women with an episiotomy
+decreased from 52 to 47%.
+Two-hundred-and-fifty women were randomized.
+Four inclusions were withdrawn. Three were errone-
+ously included, one woman was not primiparous and
+two women did not meet the inclusion criterion of an
+uncomplicated mediolateral episiotomy. During repair
+one woman appeared to have a complicated vaginal
+wall rupture, whereas the other woman had a grade
+3a rupture. For one woman two envelopes were
+opened accidentally, of which only one was used.
+All women received the assigned treatment. Of the
+246 included women 132 returned the questionnaires
+and one woman was excluded for analysis because she
+had not completed the VAS scores. Therefore, statis-
+tical analysis was performed on 131 women (53.3%)
+(Fig. 1).
+Baseline characteristics of women in both groups
+showed no differences in terms of ethnicity, duration of
+second stage of labour and weight of the newborn be-
+tween the two trial arms (Table 1). Women who were
+delivered by ventouse were more often allocated to
+Vicryl Rapide ™. Due to the nature of the randomization
+method this unequal distribution occurred by chance.
+Responders were significantly older than non-
+responders and were significantly more often Caucasian.
+Fig. 1 Flow chart MOVE trial
+Odijk et al. BMC Pregnancy and Childbirth  (2017) 17:355 Page 3 of 7
+Other characteristics did not differ significantly between
+responders and non-responders (Table 2).
+No significant difference was found in the primary
+outcome, pain (VAS score) in sitting position at 10 days
+after delivery. Furthermore, VAS scores did not show
+any statistically significant differences between the
+groups at any moment of comparison or in any position
+(Table 3).
+Analysis of the secondary outcomes (Table 4) showed
+that women in the Monocryl® group reported signifi-
+cantly less skin dehiscence when compared with women
+in the Vicryl Rapide ™ group after 10 days and within the
+first three months.
+No differences were found in intercourse at 10 days
+post partum or in analgesia use 6 weeks and 3 months
+post partum between the groups.
+Women who delivered by ventouse delivery did not
+show more dehiscence compared to women with a
+spontaneous delivery. (Ventouse 15% vs. No ventouse
+18%, P = 0.74). After correction for the difference in
+ventouse deliveries in the groups the difference in
+self-reported dehiscence was still statistically signifi-
+cant. (10 days p = 0.021, three months p = 0.017).
+Table 1 Baseline characteristics of the trial population
+Monocryl (n = 64) Vicryl Rapide ( n = 67)
+Age (years ± SD) 31.5 ± 4.5 30.8 ± 4.4
+Caucasian 57 (89%) 58 (87%)
+Birth weight (gram ± SD) 3470 ± 361 3489 ± 500
+Duration 2nd stage
+(minutes ± SD)
+40 ± 29 39 ± 27
+Direct Occiput Posterior
+Position
+4 (6%) 2 (3%)
+Ventouse delivery 7 (11%) 19 (28%)
+Gestational age
+(weeks ± SD)
+40 + 1 ± 8.9 days 40 + 1 ± 8.6 days
+Apgar score 1 min
+(mean± SD)
+9 ± 0.79 9 ± 0.80
+Apgar score 5 min
+(mean± SD)
+10 ± 0.83 10 ± 0.46
+Continuous variables are given as means with standard deviations [SD].
+Categorical variables are given as frequencies with percentages, n (%)
+Table 2 Baseline characteristics responders vs. non-responders
+Reponders
+(n = 132)
+Non-responders
+(n = 114)
+p-value
+Age (years, ± SD) 31,1 ± 4,5 28,4 ± 5.3 0.000
+Caucasian 116 (88%) 82 (72%) 0.002
+Birth weight
+(gram, ± SD)
+3478 ± 438 3395 ± 508 0.17
+Duration 2nd stage
+(minutes, ± SD)
+39 ± 28 37 ± 28 0.49
+Direct Occiput
+Posterior Position
+6 (5%) 4 (4%) 0.69
+Ventouse delivery 26 (20%) 23 (20%) 0.89
+Gestational age
+(weeks, ± SD)
+40 + 1 ± 8.6 days 40 + 1 ± 8.8 days 0.94
+Apgar score 1 min
+(mean ± SD)
+9 ± 0.79 9 ± 0.81 0.38
+Apgar score 5 min
+(mean ± SD)
+10 ± 0.66 10 ± 0.79 0.23
+Continuous variables are given as means with standard deviations [SD].
+Categorical variables are given as frequencies with percentages, n (%)
+and p-values
+Table 3 Primary outcomes
+Monocryl
+(n = 64)
+Vicryl rapide
+(n = 67)
+p-value
+VAS* 24 h sitting 6.0 ± 2.4 5.9 ± 2.4 0.80
+VAS 24 h walking 5.1 ± 2.5 4.9 ± 2.5 0.72
+VAS 24 h lying down 3.9 ± 2.5 3.2 ± 2.3 0.09
+VAS 10 days sitting 2.8 ± 2.5 2.5 ± 2.1 0.43
+VAS 10 days walking 2.1 ± 2.1 2.4 ± 2.4 0.48
+VAS 10 days lying 1.5 ± 1.9 1.2 ± 1.6 0.24
+VAS 6 weeks sitting 0.5 ± 1.2 0.5 ± 1.3 0.73
+VAS 6 weeks walking 0.5 ± 1.0 0.3 ± 1.0 0.24
+VAS 6 weeks lying 0.3 ± 0.7 0.2 ± 0.8 0.74
+VAS 3 months sitting 0.06 ± 0.2 0.09 ± 0.6 0.60
+VAS 3 months walking 0.06 ± 0.2 0.09 ± 0.4 0.67
+VAS 3 months lying 0.03 ± 0.2 0.03 ± 0.2 0.97
+Variables are given as means with standard deviations (± SD) and p-values.
+*Visual Analogous Scale (0-10 cm)
+Table 4 Secondary outcomes
+Monocryl
+(n = 64)
+Vicryl rapide
+(n = 67)
+p-value
+Analgesia use 24 h 22 (34%) 29 (43%) 0.30
+Dehiscence 24 h 0 (0%) 1 (1%) 0.51
+Analgesia use 10 days 5 (8%) 10 (15%) 0.20
+Dehiscence 10 days 5 (8%) 15 (22%) 0.02
+Infection 10 days 4 (6%) 2 (3%) 0.32
+Removal of stitches
+10 days
+3 (5%) 8 (12%) 0.14
+Intercourse 6 weeks 27 (42%) 29 (43%) 0.96
+Painless intercourse
+6 weeks
+12 (19%) 11 (16%) 0.75
+Intercourse 3 months 52 (81%) 52 (78%) 0.61
+Painless intercourse
+3 months
+32 (50%) 39 (58%) 0.50
+Dehiscence within
+3 months
+6 (10%) 17 (25%) 0.016
+Stitches removal within
+3 months
+9 (11%) 8 (12%) 0.72
+Infection within 3 months 4 (7%) 2 (3%) 0.37
+Variables are given as frequencies with percentages, n (%) and p-values
+Odijk et al. BMC Pregnancy and Childbirth  (2017) 17:355 Page 4 of 7
+A f t e rc o r r e c t i o nf o rt h ed i f f e r e n c ei nv e n t o u s ed e l i v e r -
+ies between the Monocryl® and Vicryl Rapide ™ group
+there was no difference in pain scores between the
+Monocryl® and Vicryl Rapide ™ group at 10 days
+(p = 0.14). Similarly, there were no differences in ad-
+justed pain scores at any other moment in time.
+Women reporting dehiscence did not have statistically
+significant higher VAS scores at day 10 when compared
+with women who reported no dehiscence (VAS 3.1 (SD
+2.4) vs. VAS 2,5 (SD 2.3), p = 0.33). After six weeks
+women reporting dehiscence (VAS 1.5 (SD 2,4)) reported
+statistically significant higher pain scores than women
+reporting no dehiscence (VAS 0,4 (SD 1,0)) p =0 . 0 2 .
+Women who had suture material removed did not re-
+port more pain when compared with women who had
+no suture material removed (10 days VAS 3.2 (SD 2,8)
+vs. VAS 2,6 (SD 2,3), p = 0.42 and six weeks VAS 0.7
+(SD 1,8) vs. VAS 0.5 (SD 1.1), p = 0.41).
+Analgesia use and VAS score did not correlate
+strongly. Women who used analgesia at 24 h had VAS
+scores between 2 and 10 whereas women who did not
+use analgesia had VAS scores between 0 and 10. The
+correlation coefficient was 0.10, with a p = 0.22 this was
+not significant. After 10 days women using analgesia had
+VAS scores between 1 and 8 and women who did not
+use analgesia had VAS scores between 0 and 9. At day
+10 the correlation coefficient was 0.22 and although at a
+p = 0.01 this was significant, the correlation was weak.
+After 6 weeks and 3 months all women but one had
+stopped using analgesia (Additional file 2).
+Discussion
+Our trial showed no difference in pain scores comparing
+Monocryl® and Vicryl Rapide ™ for intracutaneous closure
+of the skin at the time of primary repair of uncompli-
+cated mediolateral episiotomies in primiparous women.
+However, our trial did show significantly more self-
+reported dehiscence in the Vicryl Rapide ™ group as com-
+pared to the Monocryl® group.
+Until now only two trials compared a monofilament
+and a multifilament resorbable synthetic material for the
+repair of episiotomies. Dencker et al. [15] compared
+suturing of all wound layers of both perineal tears and
+episiotomies with a monofilament, glycomer 631, with
+polyglycolic acid, a multifilament suture material. Three
+days after repair no difference in wound healing was
+found but after eight weeks healing complications or
+necessity to remove suture material was reported signifi-
+cantly more often in the monofilament group (OR 1.62,
+95% CI 1.04-2.54, p = 0.034). VAS scores higher than
+two at 8-12 week follow up were reported more often in
+the monofilament group (RR 1.51, 95% CI 1.01-2.24,
+p = 0.046). These results may be biased however, as both
+intracutaneous and interrupted techniques for skin
+closure were used. Due to external knots on the perineal
+skin, interrupted sutures may cause the painful so-called
+“barbed wire effect ” [23]. It could be hypothesised that
+external knots of the monofilament suture material
+cause more complaints than the multifilament suture
+material. As the techniques were not compared, the in-
+fluence of the technique on the outcome is unclear.
+Kokanali et al. [16] compared polyglycolide-co-
+caprolactone, a monofilament material, with polyglactine
+910 rapide with regard to healing and pain scores in
+women with a mediolateral episiotomy. With a continu-
+ous intracutaneous closing technique no differences in
+pain scores were found between both groups at 24 h
+(VAS 5.4 vs. VAS 5.7) and 10 days (VAS 2.7 vs. VAS 3.0)
+after delivery.
+We found significantly more frequent self-reported
+dehiscence in the Vicryl Rapide ™ group. These results
+may put into question whether rapidly absorbable multi-
+filament synthetic material is the optimal material for
+perineal repair, as suggested in current guidelines [24].
+In contrast to this, Dencker et al. [15] reported no
+difference in dehiscence between monofilament and
+multifilament suturing material at 8-12 weeks. The per-
+centage of dehiscence found in the Vicryl Rapide ™ 3-0
+group was higher than that found in a similar group
+after the use of Vicryl Rapide ™ 2-0 [25]. This could pos-
+sibly be caused by the caliber of the thread but could
+also be attributed to the low response rate, which could
+overestimate the complications in our trial due to biased
+response.
+A recent report suggested that resuturing of episioto-
+mies in which dehiscence took place is beneficial for the
+short-term complaints of women. [26] The clinical sig-
+nificance of the self-reported dehiscence in our trial is
+unclear. Women with dehiscence did report a higher
+pain score after six weeks compared with those who did
+not. Whether women with pain had a lower threshold
+from where to report dehiscence is unclear. To conclude
+on this issue physical examination should be included in
+the trial.
+In our trial 42-43% and 78-82% of women had resumed
+intercourse after six week and three months respectively,
+of which 41-48% and 68-80% without pain. There was no
+statistically significant difference between suture materials.
+These results were similar to those in some of the previ-
+ous trials [7, 11] in which 33-66% of women had resumed
+intercourse at 6-7 weeks and 88-98% 3 months after episi-
+otomy or 2nd degree perineal rupture. Necesalova et al.
+[6] found after 3 months 51% had no or rarely complaints
+of dyspareunia, after 6 months this was 68%. Dyspareunia
+rates found in this trial are hard to compare to ours be-
+cause of a different way of questioning.
+Loss to follow up was greater than expected in our
+trial. Loss to follow up at 6-12 weeks in comparable
+Odijk et al. BMC Pregnancy and Childbirth  (2017) 17:355 Page 5 of 7
+trials varies considerably between trials, from 3.3% to
+64% [9, 27].
+In our trial all questionnaires were integrated in a
+booklet and were given directly after delivery
+Additionally, participants received text-messages as
+reminders to fill out the questionnaires on day 10,
+six weeks and three months after delivery. Despite
+phone calls 46% of the quest ionnaire-booklets were
+never returned. Kettle [9] and Mahomed [28] sent
+questionnaires at three and/or 12 months instead of
+handing the questionnaire out after delivery, leading
+to 96% and 87% follow-up rate respectively. This ap-
+p r o a c hm a yb em o r ef a v o u r a b l et op r e v e n tl o s st o
+follow up.
+In our trial non-responders were on average younger
+and the group contained less Caucasian women. Other
+characteristics were similar between the responder and
+non-responder group. Correcting for age and Caucasian
+background the outcome for VAS score at 10 days and
+dehiscence remained the same. Therefore we do not be-
+lieve that the high number of women lost to follow up
+resulted in a bias in favour of one of the two used
+materials.
+Strength
+T h em a i ns t r e n g t ho fo u rs t u d yi st h a tw ea i m e dt o
+find the best material for skin closure for a frequently
+used but under-researched operative procedure, the
+episiotomy. Episiotomy and its repair often cause
+complaints of pain and dyspareunia in women in the
+post partum period. Our trial is the third randomized
+controlled trial comparing a monofilament and a fast-
+absorbing multifilament suture material for episiot-
+omy repair after Dencker et al. [15] and Kokanali et
+a l .[ 1 6 ] .N o n ec o m p a r e dt h em a t e r i a l su s e di no u r
+study. We tried to minimize variance by including
+only primiparous women with uncomplicated episi-
+otomies and using a standardized technique of repair.
+Limitations
+One limitation was the low response rate in our trial.
+Fifty-four percent of the questionnaires were returned.
+As previously described we do not believe this resulted
+in biased results.
+Variance of Visual Analogous Scores within both
+groups was large, despite efforts to maintain homogen-
+eity. It is a well-known phenomenon that there is differ-
+ence in pain perception among individuals and
+correlation between pain scores and analgesia use in our
+study was weak.. Due to the large variance, use of VAS
+scores might not be optimal in similar trials, since this
+requires large numbers of participants.
+Dehiscence was self-reported and we did not per-
+form clinical examination during the follow up period.
+The clinical significance of the dehiscence is not
+clear. In our trial we did not ask about complaints
+apart from pain. VAS scores after 6 weeks in women
+who reported dehiscence were higher than in women
+who did not.
+Conclusions
+In our trial, pain after episiotomy repair did not differ
+between skin suturing wi th Monocryl® or Vicryl
+Rapide™. Pain scores after mediolateral episiotomy re-
+pair were generally low after 6 weeks and 3 months
+postpartum. Our trial is the first to report a signifi-
+cant difference in dehiscence in favour of Monocryl®
+compared to Vicryl Rapide ™ over the three-month
+study period. As pain is comparable between the two
+materials, Monocryl® may therefore be slightly
+superior over Vicryl Rapide ™ when suturing the skin
+intracutaneously in mediolateral episiotomies. It has
+to be stated however that the clinical significance in
+the difference of the self-reported dehiscence remains
+to be determined. Further trials, preferably with clin-
+ical examinations at set time points in the postpartum
+period, are necessary to support these results.
+Additional files
+Additional files 1: Questionnaire as handed out to participants of the
+MOVE Trial. (DOCX 399 kb)
+Additional files 2: Baseline characteristics of participants and primary
+and secondary outcomes of the trial. (XLS 154 kb)
+Abbreviations
+VAS: Visual Analogous Scale
+Acknowledgements
+We would like to thank all contributing doctors and midwives for their help
+and support with recruitment. Furthermore we would like to thank Maria
+Visser for secretarial support in gathering the trial data.
+Funding
+This study was funded by the Department of Obstetrics and Gynecology of
+the Ikazia Hospital, Rotterdam. The Department has no conflict of interests
+related to the trial.
+Availability of data and materials
+The Dataset supporting the conclusions of this article is included in the
+additional files. No specific consent was obtained for publication of the raw
+data but since direct and indirect identifiers were removed from the dataset
+publication of the dataset clearly and obviously presents minimal risk to
+confidentiality of study participants, as can easily be verified by any user of
+the dataset.
+Authors’ contributions
+RO, AvH, MD. and JWdeL. were involved in study conception and design; RO.
+coordinated the trial and collected data with assistance from BH and MR and
+KM; RO analysed the data; all seven authors have read the manuscript and
+approved its publication.
+Ethics approval and consent to participate
+The trial was approved by the Ethical Committee for Scientific Research of
+Rotterdam (TWOR) ref. nr NL28922.101.10 on the 7th October 2010. Written
+informed consent was obtained from all participants upon inclusion.
+Odijk et al. BMC Pregnancy and Childbirth  (2017) 17:355 Page 6 of 7
+Consent for publication
+Not applicable.
+Competing interests
+No potential conflicts of interest of financial or other nature were identified.
+Publisher’sN o t e
+Springer Nature remains neutral with regard to jurisdictional claims in published
+maps and institutional affiliations.
+Author details
+1Department of Obstetrics and Gynecology, Ikazia Hospital, Rotterdam, The
+Netherlands. 2Department of Obstetrics and Gynecology, Amphia Hospital,
+Langendijk 75, 4819 EV Breda, The Netherlands. 3GGZ Central, Centre for
+mental healthcare, Almere, The Netherlands. 4Department of Obstetrics and
+Gynecology, Erasmus MC, University Medical Centre, Rotterdam, The
+Netherlands. 5Department of Obstetrics and Gynecology, Groene-Hart
+Hospital, Gouda, The Netherlands. 6Department of Obstetrics and
+Gynecology, van Weel-Bethesda Hospital, Dirksland, The Netherlands.
+Received: 12 June 2016 Accepted: 8 October 2017
+References
+1. Smith LA, Price N, Simonite V, Burns EE. Incidence of and risk factors for
+perineal trauma: a prospective observational study. BMC Pregnancy and
+Childbirth. 2013;13:59.
+2. McCandlish R, Bowler U, van Asten H, Berridge G, Winter C, Sames L,
+Garcia J, Renfrew M, Elbourne D. A randomised controlled trial of care
+of the perineum during second sta ge of normal labour. BJOG. 1998;
+105(12):1262 –72.
+3. Sleep J, Grant A, Garcia J, Elbourne D, Spencer J, Chalmers I. West Berkshire
+perineal management trial. Br Med J. 1984;289:587 –90.
+4. De Leeuw JW. dWC, Kuijken JP, Bruinse HW: Mediolateral episiotomy
+reduces the risk for anal sphincter injury during operative vaginal delivery.
+BJOG. 2008;115:104–8.
+5. Christiaens WNM, de Vries R. Trends in the medicalisation of childbirth in
+Flanders and the Netherlands. Midwifery. 2013;29:e1 –8.
+6. Necesalova P, Karbanova J, Rusavy Z, Pastor Z, Jansova M, Kalis V.
+Mediolateral versus lateral episiotomy and their effect on post partum coital
+activity and dyspareunia rate 3 and 6 months postpartum. Sex Reprod
+Healthc. 2016;8:25–30.
+7. Andrews VTR, Sultan AH, Jones PW. Evaluation of post partum perineal pain
+and dyspareunia – a prospective study. European Journal of Obstetrics and
+Gynaecology and. Reprod Biol. 2008;137:152 –6.
+8. Isager-Sally LLJ, Jacobsen B, Bostofte E. Episiotomy repair-immediate and
+long-term sequelae. BJOG. 1986;93:420 –5.
+9. Kettle CHR, Jones P, Darby L, Gray R, Johanson R. Continuous versus
+interrupted perineal repair with standard or rapidly absorbed sutures
+after spontaneous vaginal birth: a ran domised controlled trial. Lancet.
+2002;359:2217 –23.
+10. McElhinney BRGD, Dornan G, Harper MA. Episiotomy repair: Vicryl versus
+Vicryl rapide. The Ulster Medical journal. 2000;69:27 –9.
+11. Leroux NBE. Impact of chromic catgut versus polyglactin 910 versus fast-
+absorbing polyglactin sutures for perineal repair: a randomized controlled
+trial.. American. J Obstet Gynaecol. 2006;194:1585 –90.
+12. Kettle CDT, Ismail KM. Continuous versus interrupted sutures for repair
+of episiotomy or second-degree tea rs. Cochrane Database Syst Rev.
+2012;11:CD000947.
+13. Grant A. The choice of suture materials and techniques for repair of
+perineal trauma: an overview of the evidence from controlled trials.
+BJOG. 1989;96:1281 –9.
+14. Kettle CJR. Absorbable synthetic versus catgut suture material for perineal
+repair. Cochrane Database Syst Rev. 2000;2:CD000006.
+15. Dencker ALI, Sporrong T. Suturing after childbirth- a randomised controlled
+study testing a new monofilament material. BJOG. 2006;113:114 –6.
+16. Kokanali DUM, Kuntay Kokanali M, Karayalcin R, Tonguc E. Continuous
+versus interrupted episiotomy repair with monofilament or multifilament
+absorbed suture materials: a randomized controlled trial. Arch Gynecol
+Obstet. 2011;284:275 –80.
+17. Niessen FBSP, Kon M. The role of suture material in hypertrophic scar
+formation: Monocryl vs. Vicryl-rapide. Ann Plast Surg. 1997;39:254 –60.
+18. Masini BDSD, Waterman SM, Wenke JC. Bacterial adherence to suture
+materials. J Surg Educ. 2011;68:101 –4.
+19. Gartti-Jardim EC, de Souza A, Carvalho AC, Pereira CC, Okamoto R,
+Margro Filho O. Comparative study of the healing process when using
+Vicryl®, Vicryl rapid®, Vicryl plus®, and Monocryl® sutures in the rat
+dermal tissue. Oral Maxillofac Surg. 2013;17:293 –8.
+20. Bezwada RSJD, Lee IY, Agarwal V, Persivale J, Trenka-Benthin S, Erneta M,
+Suryadevara J, Yang A, Liu S. Monocryl suture, a new ultra-pliable
+absorbable monofilament suture. Biomaterials. 1995;16:1141 –8.
+21. Katz S, Izhar M, Mirelman D. Bacterial adherence to surgical sutures. A
+possible factor in suture induced infection. Ann Surg. 1981;194:35 –41.
+22. Miller MDFD. Measurement of subjective phenomena in primary care
+research: the visual analogue scale. Fam Pract Res J. 1993;13:15 –24.
+23. Bowen MLSM. Episiotomy closure comparing embucrilate tissue adhesive
+with conventional sutures. Int J Gynaecol Obstet. 2002;78:201 –5.
+24. NICE Guideline 190 . Intrapartum care. Care of healthy women and their
+babies. 2014.
+25. Karbanova J, Rusavy Z, Betincova L, Jansova M, Necesalova P, Kalis V.
+Clinical evaluation of early postp artum pain and healing outcomes
+after mediolateral versus lateral episiotomy. Int J Gynaecol Obstet.
+2014;127:152 –6.
+26. Dudley L, Kettle C, Thomas PW, Ismail KMK. Perineal resuturing versus
+expectant management following vaginal delivery complicated by a
+dehisced wound (PREVIEW): a pilot and feasibility randomised controlled
+trial. BMJ Open. 2017;7(2):e012766.
+27. Greenberg JALE, Cohen AP, Ecker JL. Randomized comparison of chromic
+versus fast-absorbing polyglactin 910 for postpartum perineal repair. Obstet
+Gynecol. 2004;103(6):1308 –13.
+28. Mahomed KGA, Ashurst H, James D. The Southmead perineal suture study.
+A randomized comparison of suture materials and suturing techniques for
+repair of perineal trauma. BJOG. 1989;96:1272 –80.
+•  We accept pre-submission inquiries 
+  Our selector tool helps you to ﬁnd the most relevant journal
+  We provide round the clock customer support 
+  Convenient online submission
+  Thorough peer review
+  Inclusion in PubMed and all major indexing services 
+  Maximum visibility for your research
+Submit your manuscript at
+www.biomedcentral.com/submit
+Submit your next manuscript to BioMed Central 
+and we will help you at every step:
+Odijk et al. BMC Pregnancy and Childbirth  (2017) 17:355 Page 7 of 7

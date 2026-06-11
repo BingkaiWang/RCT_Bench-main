@@ -1,0 +1,5 @@
+Trial_ID: 51
+Paper Name: The impact of sleep hygiene education and lavender essential oil inhalation on the sleep quality and overall well-being of athletes who undergo late-evening training: a randomized controlled trial
+Paper Link: https://doi.org/10.12688/f1000research.150977.1
+Citation: Salem et al. F1000Research. 2024;13:720. doi:10.12688/f1000research.150977.1
+Availability: PDF stored here when publicly available; otherwise this file records the publication link.

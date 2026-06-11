@@ -1,0 +1,999 @@
+--- page 1 ---
+RESEARCH ARTICLE
+The impact of sleep hygiene education and lavender essential 
+oil inhalation on the sleep quality and overall well-being of 
+athletes who undergo late-evening training: a randomized 
+controlled trialâ¯â¯
+[version 1; peer review: 1 approved]
+Atef Salem1-3, Khaled Trabelsi1,4,5, Mohamed Ali Boujelbane1-3, Ahlem Belgacem1, 
+Mohamed Kerkeni1,4, Manel kerkeni1,4, Omar Boukhris5,6, Haithem Jahrami
+ 7,8, 
+Jordan Glenn9, Achraf Ammar
+ 1,2,10,11, Wolfgang Schöllhorn2, 
+Hamdi Chtourou1,3,5
+1High Institute of Sport and Physical Education of Sfax, University of Sfax, Sfax, 3000, Tunisia 
+2Department of Training and Movement Science, Institute of Sport Science, Johannes Gutenberg-University Mainz, Mainz, 55122, 
+Germany 
+3Research Unit, Physical Activity, Sport, and Health, UR18JS01, National Observatory of Sport, Tunis, 1003, Tunisia 
+4Research Laboratory: Education, Motricity, Sport and Health, EM2S, LR19JS01, High Institute of Sport and Physical Education of 
+Sfax, University of Sfax, Sfax, 300, Tunisia 
+5SIESTA Research Group, School of Allied Health, Human Services and Sport, La Trobe University, Melbourne, Melbourne, VIC, 3086, 
+Australia 
+6Sport, Performance, and Nutrition Research Group, School of Allied Health, Human Services and Sport, La Trobe University, 
+Melbourne, VIC, 3086, Australia 
+7Ministry of Health, Manama, 410, Bahrain 
+8Department of Psychiatry, College of Medicine and Medical Sciences, Arabian Gulf University, Manama, 323, Bahrain 
+9Department of Health, Exercise Science Research Center Human Performance and Recreation, University of Arkansas, Fayetteville, 
+AR, 72701, USA 
+10Research Laboratory, Molecular Bases of Human Pathology, LR19ES13, Faculty of Medicine of Sfax, Univesity of Sfax, Sfax, 3029, 
+Tunisia 
+11Interdisciplinary Laboratory in Neurosciences, Physiology, and Psychology: Physical Activity, Health, an-dLearning (LINP2), UFR 
+STAPS (Faculty of Sport Sciences), UPL, Paris Nanterre University, Nanterre, 92000, France 
+First published: 01 Jul 2024, 13:720 
+https://doi.org/10.12688/f1000research.150977.1
+Latest published: 01 Jul 2024, 13:720 
+https://doi.org/10.12688/f1000research.150977.1
+v1
+ 
+Abstract 
+Background
+Sleep hygiene education (SHE) and lavender essential oil (LEO) 
+inhalation are two effective strategies aimed at enhancing sleep 
+quality and mood states. This study investigated the effects of a single 
+SHE session combined with nightly LEO inhalation for 7 days of late-
+Open Peer Review
+Approval Status 
+1
+version 1
+01 Jul 2024
+ view
+Martha J Greenberg
+ , Pace University, 
+Pleasantville, USA
+1. 
+ 
+ Page 1 of 18
+F1000Research 2024, 13:720 Last updated: 29 JUL 2025
+
+--- page 2 ---
+evening resistance training sessions on sleep quality and mood states 
+in trained athletes.
+Methods
+Forty-two athletes were randomly assigned to four groups: a control 
+group (CG), a SHE group (SHEG), a LEO group (LEOG), and a SHE + LEO 
+group (CSLG). CG and LEOG maintained their sleep habits during the 
+intervention, while SHEG and CSLG followed SHE recommendations. 
+Additionally, LEOG and CSLG inhaled LEO nightly before sleep. Sleep 
+patterns were recorded via actigraphy. The Brunel Mood Scale and the 
+Hooper questionnaires were completed before and after the 
+intervention.
+Results
+Sleep latency was lower in SHEG (p=0.001) and CSLG (p=0.012) 
+compared to the CG. The subjective sleep score improved in SHEG, 
+LEOG, and CSLG (p < 0.001), with greater improvement observed in 
+SHEG (p = 0.002) and CSLG (p < 0.001) compared to CG at post-
+intervention. Additionally, significant improvements were observed in 
+the Hooper index in the SHEG (p=0.048) and CSLG (p=0.027), with 
+CSLG demonstrating higher scores compared to CG at the post-
+intervention assessment (p=0.026). Furthermore, the subjective 
+fatigue score significantly decreased in the CSLG (p=0.009).
+Conclusions
+Combining SHE and LEO inhalation could be an effective strategy to 
+enhance sleep latency, subjective sleep quality, and overall wellness, 
+and reduce feelings of fatigue in trained athletes following late-
+evening resistance training sessions.
+Keywords 
+Sleep, Insomnia, Hygiene, Aromatherapy, Night training
+Any reports and responses or comments on the 
+article can be found at the end of the article.
+  Page 2 of 18
+F1000Research 2024, 13:720 Last updated: 29 JUL 2025
+
+--- page 3 ---
+Corresponding author: Achraf Ammar (ammar.achraf@ymail.com)
+Author roles: Salem A: Conceptualization, Data Curation, Formal Analysis, Investigation, Methodology, Resources, Software, Validation, 
+Visualization, Writing – Original Draft Preparation; Trabelsi K: Methodology, Resources, Validation, Writing – Review & Editing; 
+Boujelbane MA: Resources; Belgacem A: Investigation, Writing – Original Draft Preparation; Kerkeni M: Investigation; kerkeni M: 
+Investigation; Boukhris O: Investigation; Jahrami H: Writing – Review & Editing; Glenn J: Writing – Review & Editing; Ammar A: Writing – 
+Review & Editing; Schöllhorn W: Writing – Review & Editing; Chtourou H: Methodology, Supervision, Writing – Review & Editing
+Competing interests: No competing interests were disclosed.
+Grant information: The author(s) declared that no grants were involved in supporting this work.
+Copyright: © 2024 Salem A et al. This is an open access article distributed under the terms of the Creative Commons Attribution License, 
+which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.
+How to cite this article: Salem A, Trabelsi K, Boujelbane MA et al. The impact of sleep hygiene education and lavender essential oil 
+inhalation on the sleep quality and overall well-being of athletes who undergo late-evening training: a randomized controlled 
+trialâ¯â¯ [version 1; peer review: 1 approved] F1000Research 2024, 13:720 https://doi.org/10.12688/f1000research.150977.1
+First published: 01 Jul 2024, 13:720 https://doi.org/10.12688/f1000research.150977.1 
+  Page 3 of 18
+F1000Research 2024, 13:720 Last updated: 29 JUL 2025
+
+--- page 4 ---
+Introduction
+This section should include the aim and objectives of this study in the context of the wider subject area.
+Adequate sleep is a crucial component for athletic success, complementing physical and mental training, nutrition, and
+overall health. 1 However, many athletes are prone to experiencing sleep inadequacies, 2,3 often characterized by
+insufficient sleep quantity (<8.2 hrs per night) 2 and/or poor sleep quality, such as sleep fragmentation and reduced sleep
+efficiency.4
+Athletes’ sleep is frequently compromised due to various interconnected factors. 3,4 These factors include early morning
+training, increased training load, early departure times for traveling, jet lag, exposure to high altitudes, as well as anxiety
+and stress, especially on the night before an important competition.
+3
+Night-time training and competition sessions can have detrimental effects on both the quantity and quality of sleep. 3,4
+Athletes involved in team sports, who have late-evening matches or training, often experience disrupted sleep. 5,6 Eagles
+and Lovell 7 found that after a twelve-night period involving training and two competitive matches, athletes reported
+lower sleep quantity and increased sleep latency. The delay in bedtime on competition nights reduces the overall time
+available for sleep. 8 Therefore, engaging in training and competition sessions during nighttime, especially within one
+hour before bedtime, can have a detrimental impact on sleep duration and quality. 4 This has the potential to negatively
+affect athletes’ overall performance and recovery.
+Identifying and evaluating effective strategies to mitigate potential sleep disturbances related to late training and/or
+competition is crucial for optimizing performance and overall well-being. Previous studies highlight the potential of
+sleep hygiene education (SHE) to improve sleep quality and quantity among athletes.9,10 SHE involves providing a range
+of recommendations as a simple, accessible, and cost-effective tool to discourage behaviours disrupting normal
+sleep patterns. 11 While initially implemented in clinical populations, 12 SHE has evolved to include other behavioural
+factors such as limiting technological device usage, creating a dark and cool bedroom environment, and avoiding
+blue light exposure in nonclinical and healthy individuals,
+13 Educating individuals, including athletes, about sleep and
+sleep hygiene practices offers strategies to optimize both sleep quantity and quality, 14 For example, one session of SHE
+improved sleep latency and sleep efficiency in elite rugby players during a 4-week intervention. 15 Similarly, an
+enhancement in objective sleep latency has been reported one night following a late-evening small-sided-game session
+in soccer players who attended one session of SHE.
+16 SHE also led to improved total sleep time and reduced wake episode
+duration in elite female netball athletes. 9 However, in another study among soccer players, SHE was associated with
+increased wake episodes compared to the control group, 17, Caia, Scott 18 observed earlier bedtime and increased sleep
+duration in rugby league athletes following a SHE session, although sleep indices returned to baseline after one month.
+Furthermore, previous studies, 11,19 examining the effects of SHE on fatigue have consistently shown improvements in
+fatigue levels following SHE interventions. A more recent study by Biggins, Purtill20 reported that athletes experiencing a
+sleep problem of clinical importance had a higher tendency to describe poorer sleep habits, increased instances of health-
+related issues, and disturbances in their mood.
+On the other hand, phytotherapy, which involves the use of herbs, herbal preparations, and phytochemicals for medicinal
+purposes, has received growing interest in alternative medicine in recent years. 21 Aromatherapy, a branch of phytother-
+apy, utilizes plant-derived essential oils (EOs) for medicinal, cosmetic, and culinary applications.22,23 Aromatherapy has
+demonstrated effectiveness in reducing stress, improving depression, and enhancing sleep quality in healthy adults by
+alleviating emotional stress and stabilizing moods. 24 Short-term aromatherapy treatments have also shown promising
+results in improving sleep quality without the need for special equipment. 25 These EOs enter the body through the
+respiratory tract, influencing the limbic system and triggering emotional and physiological responses. 25 Various
+application methods of EOs, such as inhalation, massages, and baths, are reported to have positive effects on sleep
+quality.
+24,26,27 Inhalation is the most popular and is often associated with EOs, 28 Inhaling essential oils is a quick, easy,
+and safe method. 29,30 Among the EOs, Lavender essential oil (LEO) is highly recommended due to its potential sleep-
+promoting effects. 28 LEO demonstrates positive effects on various clinical issues (e.g., anxiety, depression, fatigue,
+stress, and pain), and may potentially improve sleep quality and mood.31,32 However, there is a lack of research evaluating
+the effects of LEO inhalation on sleep quality, mood states, and subjective feelings of recovery, specifically in athletes.
+Particularly, there is a paucity of scientific investigations examining the synergistic effects of SHE and LEO inhalation on
+sleep quality following late-evening resistance training sessions in trained athletes. Evaluating this strategy would not
+only contribute to the existing literature but also enable coaches to implement effective measures for improving sleep and
+subsequently enhancing athletes ’ performance and recovery. Therefore, the purpose of this study was to examine the
+effects of combining a single SHE session with LEO inhalation during 7 days of late-evening resistance training sessions
+on sleep quality and mood states in trained athletes. The hypotheses were as follows: (i) an acute SHE session would
+Page 4 of 18
+F1000Research 2024, 13:720 Last updated: 29 JUL 2025
+
+--- page 5 ---
+enhance both sleep quantity and quality and reduce mood disturbance; (ii) LEO inhalation before bedtime would improve
+sleep quantity, and quality, and positively impact mood states; and (iii) the combination of an acute SHE session and LEO
+inhalation before bedtime would result in greater improvements in sleep quality, sleep quantity, and mood states
+compared to SHE or LEO alone.
+Methods
+Study design
+This study adopted a four-arm, parallel-group randomized controlled trial design. Participants were randomly assigned to
+one of four groups: a control group (CG), a LEO group (LEOG), a SHE group (SHEG), and a combined SHE + LEO
+group (CSLG). Randomization was performed using a computer-generated list of random numbers. The CG and LEOG
+were instructed to maintain their usual lifestyle and sleep habits throughout the intervention period (Figure 1). The SHEG
+and CSLG were provided with sleep hygiene recommendations to follow for the entire 7-day period ( Figure 1 ). The
+LEOG and CSLG were asked to inhale the LEO every night before going to sleep for the duration of the 7 days (Figure 1).
+Sleep patterns were accessed using GT3X actigraphy every night for 7 days ( Figure 1). The participants completed the
+Brunel Mood Scale (BRUMS) and Hooper questionnaires before and after the 7-day intervention period ( Figure 1 ).
+Furthermore, participants in the LEOG and CSLG were asked to report any potential side effects experienced after
+inhaling LEO before bedtime during the 7-day intervention period. No participants reported any side effects, such as
+difficulty breathing, headaches, or dizziness.
+Participants
+The minimum required sample size was calculated using G*power software (version 3.1.9.6; Kiel University, Kiel,
+Germany). Based on the effect size estimated from the studies by Lee, Lim
+24 and Vitale, La Torre, 16 a sample size of
+32 subjects would be sufficient to detect significant differences (effect size f = 0.8, α = 0.05) with an actual power of
+95.66%. In this study, a total of 42 resistance-trained athletes (27 males and 15 females) voluntarily participated. The
+inclusion criteria required participants to be: (i) aged ≥ 18 years, (ii) engage in nighttime resistance training for at least
+1 hour, four times a week, and (iii) females who were in the follicular phase of their menstrual cycle during the
+experimentation. All training sessions were scheduled between 21:00 and 23:00. Exclusion criteria were being a morning
+(M-type) or evening (E-type) chronotype, as assessed using the Horne-Ostberg morningness-eveningness Questionnaire
+(MEQ),
+33 tobacco use, history of lower extremity injury or surgery within the past 6 months, and previous exposure to
+SHE or LEO, which would potentially interfere with the validity of the study protocol. Additionally, participants who
+were anticipated to encounter conditions with the potential to disrupt their sleep patterns, such as traveling and jet lag,
+were excluded from the study. Finally, participants who experienced any adverse effects as a result of LEO inhalation
+were excluded from the study. The study was conducted in accordance with the Declaration of Helsinki, and the protocol
+received full approval from the Ethical Committee for the Protection of Southern Persons (CPP SUD N° 0520/2023) on
+31
+st May 2023 and was registered at the Pan African Clinical Trial Registry (PACTR202306806244897) on 09 th June
+2023. Participants were allocated to one of four groups: CG (n = 11), SHEG (n = 11), LEOG (n = 10), or CSLG (n = 10).
+Three participants from the SHEG, one from the LEOG, and one from the CSLG were excluded from the final analysis
+due to being lost to follow-up for SHE recommendation (n = 4) or incomplete use of LEO (n = 1) during the intervention
+period. The flowchart of the study according to CONSORT guidelines
+34 is illustrated in Figure 2 (Checklist: https://
+zenodo.org/records/11368563).
+Figure 1. Experimental design of the study.
+Page 5 of 18
+F1000Research 2024, 13:720 Last updated: 29 JUL 2025
+
+--- page 6 ---
+Aromatherapy
+Participants in the LEOG and CSLG were provided with lavender (Lavandula angustifolia, of the family Lamiaceae)
+essential oil (LEO) for inhalation. The LEO was prepared in a laboratory. To use the LEO, as described by Salamati,
+Mashouf,
+35 participants were instructed to apply two drops (equivalent to 0.14 mL) of the oil onto a cotton ball. The
+cotton ball was then placed at a distance of 5 cm from their nose. Participants were asked to inhale the aroma of the LEO
+for 10 min, engaging in normal breathing, at their convenience prior to bedtime.
+28
+Sleep hygiene education session
+All participants attended a SHE session led by a specialist in sleep research and athletic recovery. The session took place
+one day prior to the start of the study and lasted for approximately 40-45 min. The SHE session focused on practical tips
+that were evidence-based and recommended by Nédélec, Halson.
+36 These tips included various recommendations such as
+taking a post-training shower, ensuring a quiet, cool, and dark bedroom environment, removing the bedroom clock,
+avoiding the use of light-emitting technology devices at least 1 hour before sleep, refraining from consuming caffeine,
+alcohol, or other stimulants before sleep, drinking high-electrolyte fluids, such as milk instead of only water, between
+training cessation and bedtime, and eating a light, high-glycaemic index meal with few proteins. All participants were
+asked to avoid afternoon naps in order to limit the beneficial effects of napping on their sleep patterns at night. Following
+the educational session, participants were provided with a leaflet summarizing the sleep hygiene recommendations to
+follow between training cessation and bedtime. All participants slept in their usual beds at home throughout the study.
+Testing procedures
+Circadian typology
+Circadian typology was assessed using the Horne-Ostberg Morningness-Eveningness Questionnaire (MEQ).
+33 MEQ
+scores were categorized into three groups: morning-type (score ≥ 59), evening-type (score ≤ 41), or neither-type (score
+42–58). Based on their MEQ scores, all participants in this study were categorized as neither-type, indicating a lack of
+strong preference for either morningness or eveningness in their sleep-wake patterns.
+Wristwatch actigraphy
+Participants were asked to wear the GT3X actigraphy device (Actigraph, FL, USA) on their non-dominant wrist to assess
+their sleep patterns. The Actilife 6 software was used to analyse the recorded data and calculate various sleep parameters,
+including in bedtime (IB), out bedtime (OB), sleep latency (SL), sleep efficiency (SE), total time in bed (TTB), total sleep
+time (TST), wake after sleep onset (WASO), number of awakenings (N° AW), and average awakening (AW). The sleep
+analysis software categorized each 60-second epoch as either asleep or awake based on the recorded data. By analysing
+these parameters, the sleep-awake patterns of participants during the night were evaluated.
+Figure 2. Flowchart of the study.
+Page 6 of 18
+F1000Research 2024, 13:720 Last updated: 29 JUL 2025
+
+--- page 7 ---
+Hooper questionnaire
+The Hooper questionnaire was used to assess signs of pre-fatigue and stress. 37 This questionnaire included subjective
+assessments of sleep quality, fatigue, stress, and muscle soreness. Participants provided their ratings for each of these
+factors using a seven-point Likert scale, with responses ranging from 1 (very, very good) to 7 (very, very bad) for sleep,
+and from 1 (very, very low) to 7 (very, very high) for fatigue, stress, and muscle soreness. The responses were then used to
+calculate the Hooper Index (HI), which represents the total of the four ratings. The HI provides an overall measure of
+participants’ subjective experiences of sleep quality, fatigue, stress, and muscle soreness. A higher score on the HI
+indicates better well-being and readiness for training or competition, while a lower score suggests a potential decrease in
+readiness or the presence of factors that may impact performance.
+38
+The Brunel Mood Scale (BRUMS)
+The BRUMS39 consists of 32 items assessing mood states. These items are divided into six subscales: anger, tension,
+depression, vigour, fatigue, confusion, happiness, and calmness. Each item is rated on a 5-point Likert scale, ranging from
+0 (not at all) to 4 (extremely). Participants were asked to complete the BRUMS by indicating their current feelings and
+emotions. The subscale scores are calculated based on four relevant items, with possible scores ranging from 0 to 16. The
+BRUMS provides a comprehensive assessment of participants’ mood states, including both negative and positive aspects,
+allowing for a multidimensional evaluation of emotional well-being.
+Statistical analyses
+Descriptive statistics were presented as Mean/C6standard deviation (SD). The normality of the data was checked using the
+Shapiro-Wilk test. To assess the statistical significance of differences between groups for participants’ characteristics and
+actigraphy-based sleep data, the one-way analysis of variance (ANOVA) (when a parametric test was appropriate) or the
+Kruskal-Wallis test (when a non-parametric test was appropriate) were performed, followed by a post-hoc pairwise
+comparison or the Dunn ’s test, both with the Bonferroni adjustment. To assess the statistical significance of differences
+between groups and measures times, the two-way ANOVA was performed (when a parametric test was appropriate) or
+the F1-LD-F1-model was performed (when a non-parametric test was appropriate). This model provides an ANOVA-
+type statistic for group, time, and the interaction between group and time. When significant main or interaction effects
+were found, a post-hoc pairwise comparison or the Dunn ’s test as post-hoc, both with Bonferroni adjustment, were
+performed. The effect size statistic ( η
+p
+2 and η2
+H) was calculated to assess the magnitude of the difference between age
+groups using the following criteria: small = 0.01, moderate = 0.06, and large = 0.14. 40 Standardized effect size (Cohen’s
+d) analysis was used to interpret the magnitude of differences between variables and classified according to Hopkins41 as:
+trivial (d ≤ 0.20), small (0.20 < d ≤ 0.60), moderate (0.60 < d ≤ 1.20), large (1.20 < d ≤ 2.0), very large (2.0 < d ≤ 4.0),
+and extremely large (d > 4.0). Upper and lower 95% confidence intervals of the difference (95% CId) were calculated.
+For all analyses, significance was assumed a priori at p 0.05. Statistical analyses were conducted using the R
+programming language.
+42 ANOVAs and post-hoc tests for normally distributed data were conducted with the “afex”43
+and “emmeans”44 packages, respectively. The Kruskal-Wallis and Dunn ’s tests were conducted with the “rstatix”
+package.45 The F1-D1-F1 model was performed with “nparLD” package.46
+Results
+Participants characteristics
+Participants’ characteristics are presented in Table 1. Statistical analysis showed no difference in participant character-
+istics between the four groups.
+Table 1. Participants characteristics.
+CG (n = 11) SHEG (n = 8) LEOG (n = 9) CSLG (n = 9) p-Value
+Age (years) 21.91 /C61.51 21.25 /C60.89 21.78 /C61.39 21.22 /C60.83 0.616
+Height (cm) 176.91 /C611.7 154.1 /C662.04 178.44 /C610.56 156.54 /C658.48 0.913
+Weight (kg) 72.45 /C614.94 73.5 /C613.19 72.38 /C614.7 78.22 /C614.37 0.795
+MEQ-score (points) 49.36 /C66.07 50.5 /C65.32 49.78 /C65.31 51.22 /C65.04 0.886
+TS/W (n) 4.91 /C60.94 4.38 /C61.51 4.89 /C60.93 4.44 /C60.73 0.51
+TTH/W (min) 72.27 /C622.06 69.55 /C621.5 73.73 /C623.55 75 /C622.25 0.839
+CG: Control group; SHEG: Sleep hygiene education group; LEOG: Lavender essential oil group; CSLG: Sleep hygiene education and
+Lavender essential oil combination group; MEQ-score: Morningness-eveningness questionnaire score; TS/W: Training sessions per week;
+TH/W: Total training hours per week; n = number.
+Page 7 of 18
+F1000Research 2024, 13:720 Last updated: 29 JUL 2025
+
+--- page 8 ---
+Table 2. Values of the actigraphy-based sleep indices recorded during the one-week intervention period.
+CG SHEG LEOG CSLG ANOVA
+IB (hh:mm) 23:26 /C60:46 0:30 /C60:55 0:01 /C60:43 0:14 /C62:02 F (3,33) = 1.31; p = 0.288; ηp
+2 = 0.11
+OB (hh:mm) 7:49 /C60:46 8:01 /C60:38 7:43 /C60:52 8:31 /C61:17 F (3,33) = 1.36; p = 0.273; ηp
+2 = 0.11
+SL (min) 1.91 /C60.98 0.72 /C60.15 ** 1.34 /C60.4 0.98 /C60.45 * F (3,33) = 6.8; p = 0.001; ηp
+2 = 0.38
+SE (%) 87.27 /C65.02 89.57 /C63.03 85.88 /C63.98 86.93 /C64.8 H (3) = 4.28; p = 0.233; η2
+H = 0.04
+TTB (min) 507.2 /C656.33 451.73 /C639.29 461.26 /C657.3 497.4 /C686.83 H (3) = 5.87; p = 0.118; η2
+H = 0.09
+TST (min) 441.12 /C655.21 404.34 /C643.4 397.23 /C665.55 437.66 /C695.54 H (3) = 3.36; p = 0.399; η2H = 0.01
+WASO (min) 64.53 /C625.38 46.73 /C611.96 62.03 /C615.49 58.25 /C619.3 H (3) = 5.42; p = 0.143; η2
+H = 0.07
+N° AW (n) 22.82 /C66.26 17.45 /C64.88 20.09 /C65.01 19.9 /C65.23 F (3,33) = 1.54; p = 0.222; ηp
+2 = 0.12
+AW (min) 2.82 /C60.49 2.77 /C60.7 3.15 /C60.76 2.89 /C60.56 F (3,33) = 0.67; p = 0.578; ηp
+2 = 0.06
+CG: Control group; SHEG: Sleep hygiene education group; LEOG: Lavender essential oil group; CSLG: Sleep hygiene education and Lavender essential oi l combination group; IB: In bedtime; OB: Out bedtime; SL:
+Sleep latency; SE: Sleep efficiency; TTB: Total time in bed; TST: Total sleep time; WASO: Wake after sleep onset; N ° AW: Number of awakenings; AW: Average duration of awakening; n: number.
+*(p = 0.012), **(p = 0.001): significantly different compared to CG; ANOVA: Analysis of variance; η2 H: eta2 calculated using H-value of Kruskal-Wallis test.
+Page 8 of 18
+F1000Research 2024, 13:720 Last updated: 29 JUL 2025
+
+--- page 9 ---
+Table 3. Values of Hooper questionnaire recorded pre- and post-intervention period.
+Time CG SHEG LEOG CSLG ANOVA
+Sleep (A.U.) Pre 4.09 /C61.45 4.13 /C61.13 4.56 /C60.88 4.33 /C60.87 G: F (3,33) = 2.68; p = 0.063; ηp
+2 = 0.196
+T: F (1,33) = 66.78; p < 0.001; ηp
+2 = 0.669
+G/C2T: F (3,33) = 17.98; p < 0.001; ηp
+2 = 0.62Post 4.55 /C61.37 $$£££ 2.38 /C60.92 *** 3.33 /C61.12 *** 2.11 /C60.78 ***
+Stress (A.U.) Pre 3.18 /C61.99 4.25 /C61.16 3.78 /C61.2 3.56 /C61.74 G: F (3,33) = 1.33; p = 0.28; ηp
+2 = 0.108
+T: F (1,33) = 0.92; p = 0.346; ηp
+2 = 0.027
+G/C2T: F (3,33) = 0.65; p = 0.588; ηp
+2 = 0.056Post 3.64 /C61.8 3.63 /C61.19 3.44 /C61.33 3.11 /C61.69
+Muscle soreness (A.U.) Pre 3.45 /C61.21 3.75 /C60.89 4.11 /C60.78 3.56 /C61.13 G: F (3,33) = 0.97; p = 0.418; ηp
+2 = 0.081
+T: F (1,33) = 3.54; p = 0.069; ηp
+2 = 0.097
+G/C2T: F (3,33) = 2.68; p = 0.063; ηp
+2 = 0.196Post 3.55 /C61.04 3.88 /C60.99 3.67 /C61.22 2.78 /C61.2
+Fatigue (A.U.)† Pre 4.36 /C61.21 3.63 /C61.19 4.56 /C60.88 3.89 /C61.36 G: ATSMod (2.89, 32.33) = 2.73; p = 0.044; ηp
+2 = 0.2
+T: ATS (1, ∞) = 9.47; p = 0.002; ηp
+2 = 0.22
+G/C2T: ATS (2.8, ∞ ) = 2.58; p = 0.056; ηp
+2 = 0.19Post 4.55 /C61.51 3.13 /C61.13 4 /C61.22 3 /C61.12
+Hooper index (A.U.) † Pre 15.09 /C64.04 15.75 /C62.82 17 /C62.45 15.33 /C63.5 G: ATSMod (2.95, 32.89) = 1.06; p = 0.364; ηp
+2 = 0.09
+T: ATS (1, ∞) = 41.86; p < 0.001; ηp
+2 =5 6
+G/C2T: ATS (2.08, ∞) = 10.69; p < 0.001; ηp
+2 = 0.49Post 16.27 /C64.08 £ 13 /C62.88 * 14.44 /C63.57 11 /C63.54 *
+*(p < 0.05), ***(p < 0.001): significantly different compared to pre-intervention.
+$$(p = 0.002): significantly different compared to SHEG.
+£(p = 0.026), £££(p < 0.001): significantly different compared to CSLG; CG: Control group; SHEG: Sleep hygiene education group; LEOG: Lavender essential oil group; C SLG: Sleep hygiene education and Lavender
+essential oil combination group; ANOVA: Analysis of variance.
+†ANOVA was performed with the F1-D1-F1 model; ATS: ANOVA-type test statistic; ATSMod: Modified ANOVA-type test statistic with Box approximation.
+Page 9 of 18
+F1000Research 2024, 13:720 Last updated: 29 JUL 2025
+
+--- page 10 ---
+Table 4. Values of BRUMS questionnaire recorded pre- and post-intervention period.
+Time CG SHEG LEOG CSLG ANOVA
+Anger (A.U.)† Pre 4.09 /C62.88 4 /C63.02 4.22 /C63.31 5.33 /C64.95 G: ATSMod (2.90, 30.33) = 0.05; p = 0.986; ηp
+2 = 0.04
+T: ATS (1, ∞ ) = 3.49; p = 0.062; ηp
+2 = 0.1
+G/C2T: ATS (2.94, ∞ ) = 0.81; p = 0.488; ηp
+2 = 0.07Post 3.73 /C63.95 4.13 /C62.85 3.11 /C62.62 3.44 /C64.3
+Tension (A.U.)† Pre 4.45 /C64.55 3.38 /C62.5 3.67 /C62.5 4 /C64.44 G: ATSMod (2.76, 29.24) = 0.14; p = 0.924; ηp
+2 = 0.01
+T: ATS (1, ∞ ) = 0.52; p = 0.471; ηp
+2 = 0.02
+G/C2T: ATS (2.54, ∞ ) = 0.39; p = 0.729; ηp
+2 = 0.03Post 3.91 /C64.41 3.38 /C62.88 4.22 /C63.38 2.78 /C63.11
+Depression (A.U.)† Pre 3.64 /C63.98 3.63 /C62.45 2.56 /C62.6 4.11 /C65.86 G: ATSMod (2.84, 29.79) = 0.25; p = 0.85; ηp
+2 = 0.2
+T: ATS (1, ∞ ) = 2.25; p = 0.134; ηp
+2 = 0.06
+G/C2T: ATS (2.79, ∞ ) = 0.76; p = 0.51; ηp
+2 = 0.06Post 3.64 /C65.68 3.38 /C64 2.67 /C62 2.44 /C63.75
+Vigour (A.U.) Pre 9.36 /C65.37 9.75 /C63.54 8.56 /C62.35 10.56 /C64.42 G: F (3, 33) = 0.44; p = 0.729; ηp
+2 = 0.04
+T: F (1, 33) = 0.14; p = 0.71; ηp
+2 = 0.004
+G/C2T: F (3, 33) = 0.46; p = 0.712; ηp
+2 = 0.04Post 9.91 /C63.86 9.63 /C62.97 8 /C63.64 10.11 /C65.18
+Fatigue (A.U.)† Pre 7.09 /C64.01 7.38 /C63.46 6.22 /C63.99 10.78 /C62.49 G: ATSMod (2.82, 29.62) = 0.85; p = 0.459; ηp
+2 = 0.07
+T: ATS (1, ∞) = 9.02; p = 0.002; ηp
+2 = 0.21
+G/C2T: ATS (2.14, ∞) = 6.57; p = 0.001; ηp
+2 = 0.37Post 8.18 /C64.67 6.88 /C63.4 4.78 /C62.99 4.89 /C64.62**
+Confusion (A.U.)† Pre 5.09 /C64.04 5.13 /C65.22 4.67 /C63.54 4.56 /C64.39 G: ATSMod (2.78, 27.44) = 0.08; p = 0.964; ηp
+2 = 0.01
+T: ATS (1, ∞ ) = 0.98; p = 0.322; ηp
+2 = 0.03
+G/C2T: ATS (2.32, ∞ ) = 0.1; p = 0.924; ηp
+2 = 0.01Post 4.36 /C63.59 4.38 /C64.34 5.11 /C64.34 3.78 /C64.06
+Happiness (A.U.)† Pre 10.09 /C64.25 9.5 /C63s.02 8.44 /C60.88 10.56 /C63.36 G: ATSMod (2.76, 27.49) = 2.04; p = 0.111; ηp
+2 = 0.16
+T: ATS (1, ∞ ) = 0.01; p = 0.91; ηp
+2 =0
+G/C2T: ATS (2.76, ∞ ) = 0.25; p = 0.848; ηp
+2 = 0.02Post 10.27 /C62.57 9.13 /C62.47 8.11 /C62.93 11 /C64.3
+Calmness (A.U.) Pre 10.82 /C63.6 8.88 /C63.8 7.89 /C61.69 9.78 /C63.77 G: F (3, 33) = 1.32; p = 0.286; ηp
+2 = 0.11
+T: F (1, 33) = 0.73; p = 0.4; ηp
+2 = 0.02
+G/C2T: F (3, 33) = 1.51; p = 0.229; ηp
+2 = 0.12Post 9.36 /C64.13 8.13 /C63.56 7.44 /C63.78 10.89 /C64.2
+**(p = 0.009): significantly different compared to pre-intervention. CG: Control group; SHEG: Sleep hygiene education group; LEOG: Lavender essenti al oil group; CSLG: Sleep hygiene education and Lavender
+essential oil combination group; ANOVA: Analysis of variance.
+†ANOVA was performed with the F1-D1-F1 model; ATS: ANOVA-type test statistic; ATSMod: Modified ANOVA-type test statistic with Box approximation.
+Page 10 of 18
+F1000Research 2024, 13:720 Last updated: 29 JUL 2025
+
+--- page 11 ---
+Adherence to sleep hygiene recommendations
+Of the initial number of participants in the SHEG and CSLG, four were excluded from the analysis due to not
+following the sleep hygiene recommendation for more than half of the experimental days. However, the majority of
+participants in both groups demonstrated a high level of adherence to sleep hygiene recommendations. Specifically, 6 out
+of 8 participants in the SHEG and 8 out of 9 participants in the CSLG followed all seven sleep hygiene recommendations,
+achieving a 100% adherence rate (7/7). There were a few participants who did not fully adhere to specific recommen-
+dations, such as refraining from consuming caffeine before sleep and avoiding light-emitting technology devices at least
+1 hour before sleep. The adherence rate for these participants was 71% (5/7). Overall, total adherence to the sleep hygiene
+recommendations across both groups was 82%.
+Actigraphy-based sleep evaluation
+Objective sleep indices are presented inTable 2. Statistical analysis reported a significant effect of group for sleep latency,
+with higher values in CG compared to SHEG (p = 0.001, 95% CId = 0.39 to 2, d = 1.70) and CSLG (p = 0.012, 95% CId =
+0.15 to 1.71, d = 1.22). However, there is no significant effect of group for the other indices.
+Hooper questionnaire
+Hooper scores are presented in Table 3. There was a significant effect of time and an interaction between group and time
+for sleep scores. Sleep scores significantly improved from pre- to post- 7-days in SHEG (p < 0.001, 95% CId = 0.93 to
+2.57, d = 1.69), LEOG (p < 0.001, 95% CId = 1.45 to 2.99, d = 1.22), and CSLG (p < 0.001, 95% CId = 1.45 to 2.99, d =
+2.69). Sleep score in CG post- 7-days was significantly higher compared to SHEG (p = 0.002, 95% CId = 0.61 to 3.74, d =
+1.86) and CSLG (p < 0.001, 95% CId = 0.92 to 3.95, d = 2.19), indicating poorer sleep quality in the CG. There was a
+significant main effect of time and an interaction between group and time for the HI. HI values significantly decreased in
+SHEG (p = 0.048, 95% CId = -0.3 to 5.8, d = 0.96) and CSLG (p = 0.027, 95% CId = 0.82 to 7.85, d = 1.23) at post-
+compared to pre-intervention. Additionally, HI in CG post-intervention was significantly higher compared to CSLG (p =
+0.026, 95% CId = 1.64 to 8.9, d = 1.4). Additionally, significant main effects of group and time were found for fatigue
+scores without an interaction between group and time. Subsequent post-hoc test indicated no statistically significant
+differences. Furthermore, statistical analysis revealed no significant effect of group, time, or interaction between group
+for stress and muscle soreness scores.
+BRUMS questionnaire
+BRUMS scores are presented in Table 4. There was a significant effect of time and an interaction between group and time
+for fatigue score. Fatigue score significantly decreased from pre- to post-intervention in CSLG (p = 0.009, 95% CId = 2.18
+to 9.6 A.U., d = 1.59). However, statistical analysis showed no significant effect of group, time, or interaction between
+group and time for the other scores.
+Discussion
+This study aimed to investigate the effects of a single session of SHE and LEO inhalation over a 7-day period of late-
+evening resistance training sessions on actigraphy-based sleep quality, well-being, and mood state indices in trained
+athletes. The main results revealed (i) the objective measure of SL was significantly better in SHEG and CSLG compared
+to CG, (ii) the subjective sleep quality score improved in SHEG, LEOG, and CSLG after the intervention period, and
+(iii) the sleep score was significantly worse in CG compared to the other groups after the intervention. Moreover, HI
+decreased in the SHEG and CSLG after the 7-day period and was higher in the CG vs. CSLG at the post-intervention
+assessment. Additionally, subjective fatigue scores improved in the CSLG after the intervention.
+The results of our study highlight the potential benefits of SHE in improving SL among trained athletes practicing
+resistance training during the night. SL refers to the time it takes for an individual to fall asleep after getting into bed, and a
+shorter SL indicates an easier and quicker transition into sleep. In the present study, SL values were significantly lower in
+both SHEG and the CSLG (d = 1.7 and 1.22, respectively) compared to the CG. These findings suggest implementing
+SHE, even in a single session, can be an effective strategy for reducing SL in athletes. Furthermore, subjective sleep score
+significantly improved in the SHEG, LEOG, and CSLG (1.22 ≤ d ≤ 2.69) and was significantly better in SHEG and
+CSLG (d = 1.86 and 2.19, respectively) compared to CG at post-intervention.
+The influence of SHE on sleep quality and quantity has been studied across various populations, although there is
+limited research specifically focused on athletes.
+47,48 Recently, two studies investigated the effect of SHE on middle-aged
+swimmers49 and youth elite rugby union players. 15 Dunican, Perry 49 revealed no effect of SHE intervention during
+16-week training programme on both sleep quality and quantity for the nights after evening training. Contrarywise,
+Vachon, Sauvet
+15 demonstrated SHE improved sleep quality (i.e., SL and SE), but not quantity. However, previous
+studies have shown SHE could have the potential to improve sleep duration and subsequently enhance performance in
+Page 11 of 18
+F1000Research 2024, 13:720 Last updated: 29 JUL 2025
+
+--- page 12 ---
+athletes.5,17,50 Nédélec, Halson36 highlighted several factors, such as cognitive features and sleep environment, that are
+strongly associated with inadequate SH among elite soccer players. Harada, Wada 51 found athletes experienced longer
+SL and poorer sleep quality during one month of SHE intervention. Conversely, Lastella, Roach 14 emphasized the
+positive effects of implementing SHE on both sleep quantity and quality in athletes. Furthermore, athletes themselves
+acknowledged the potential influence of improved sleep guidance on their performance.
+52
+In the context of acute SHE sessions implemented after training or match play, the focus has primarily been on enhancing
+the quantity of sleep rather than its quality, as observed in various populations and settings. 53,54 Fullagar17 conducted a
+study involving soccer players and investigated the effects of an acute SHE session, which included controlled room
+temperature, lighting, and restricted use of technological devices before bedtime, following a late-night competition. The
+study reported a significant improvement in sleep quantity of the players. Similarly, other studies show acute SHE
+sessions improve TTB and sleep quantity among athletes, with no significant impact on other objective sleep measures
+such as SL and SE.
+9,55
+These findings from our study partially align with previous research,16 as we observed significant changes only in SL and
+not in measures of sleep quality or quantity. The SHE recommendations we used were based on Nédélec, Halson,36 which
+identified effective strategies for improving sleep in soccer players. We purposely did not enforce a set bedtime to avoid
+disturbing participants’ usual sleep routines. This may be why we did not observe differences in sleep quality between the
+groups. However, our SHE strategy did have a positive impact on SL, resulting in a 37% lower SL in the SHEG compared
+to the CG. This finding is supported by a recent study, reporting an acute SHE session enhanced SL but may have
+sustained effects on other sleep parameters, emphasizing the need for ongoing support and reinforcement of sleep hygiene
+strategies in athletes.
+16 Further, O’Donnell and Driller9 found similar results, indicating that most sleep studies using SHE
+showed similar sleep quality but varied results in SL. SL improvement may be related to the timing of training, as it could
+have affected athletes ’ core temperatures, thereby delaying the sleep onset time (SOT) and lowering SE percentages.
+Contradictory to our results, Caia, Scott 18 demonstrated SL did not improve in professional rugby players across a two-
+week intervention period involving SHE. They noted that, even though the SHE session encouraged athletes to have an
+earlier bedtime, the actual SOT was delayed, resulting in a lower percentage of SE. 18
+In the present study, no significant effect was observed regarding the influence of inhaling LEO on sleep quality.
+Our findings suggest the SL value in the LEOG was slightly higher than in the SHEG and CSLG, although the difference
+was not statistically significant. However, it was also slightly lower than in the CG, again without statistical significance.
+This suggests any potential effect on SL in the CSLG was likely due to adherence to the SHE recommendations, rather
+than the LEO inhalation. Moreover, no significant effects of LEO inhalation were found on any of the actigraphy-based
+sleep indices. These results are consistent with prior research reporting inconclusive findings regarding the effectiveness
+of EOs in enhancing sleep. Lin, Lee
+56 conducted a meta-analysis on non-patient participants and reported overall
+heterogeneity between studies, indicating the lack of consistent evidence supporting the effectiveness of aromatherapy in
+improving sleep. The non-significant findings in our study suggest inhaling LEO may not have a substantial impact on
+objective sleep measures. It is important to consider individual variability in response to aromatherapy and the complexity
+of factors influencing sleep quality. Further research is needed to better understand the potential benefits and limitations
+of using EOs for sleep enhancement, considering factors such as dosage, timing, and individual preferences. The effects
+of EOs inhalation on sleep quality have been studied in different populations. Several studies conducted on different
+populations report a reduction in SL and an improvement in overall sleep quality with EO inhalation.
+28,57 Specifically,
+it has been found that one to three inhalations of EO before bedtime were more effective than continuous indirect
+inhalation over a 24-hour period. 28 Other studies have also explored the positive effects of aromatherapy on sleep
+quality,31,58 although the exact mechanisms of action are not yet fully understood. Further, LEO is often recommended
+over other EOs due its potential sleep-inducing effects and safety (i.e., low risk of adverse effects). 28,30 LEO has been
+found to not only improve sleep quality but also have beneficial effects of LEO on many clinical conditions (e.g., anxiety,
+depression, fatigue, and stress).31,59 In a study examining the effects of LEO inhalation for one night, improvements were
+observed in sleep quality, TTB, and SE, but not in SL, in healthy participants. 58
+In terms of evaluating the wellness index and mood states before and after the 7-day intervention period, the HI
+decreased in the SHEG (d = 0.96) and CSLG (d = 1.23) and was significantly lower in the CSLG compared to the CG
+post-intervention (d = 1.4), suggesting the combined effect of SHE and LEO inhalation had a positive impact on the
+participants’ well-being. Additionally, the fatigue score assessed by the BRUMS questionnaire decreased significantly in
+the CSLG (d = 1.59). Conversely, the SHEG and LEOG did not show significant decreases in fatigue scores, indicating
+the observed decrease in the CSLG was primarily influenced by the effects of LEO inhalation rather than the SHE
+intervention.
+Page 12 of 18
+F1000Research 2024, 13:720 Last updated: 29 JUL 2025
+
+--- page 13 ---
+A previous review showed varied effects of SHE on athlete fatigue levels.60 Studies found SHE interventions led to fewer
+awakenings and lower fatigue levels. 19 SHE also improves sleep architecture, increasing deep and restorative sleep,
+leading to rejuvenation and reduced fatigue. 61 Moreover, SHE includes strategies for managing stress and anxiety,
+benefiting both sleep quality and psychological well-being. Irwin, Cole62 demonstrated reduced distress and fatigue with
+SHE interventions.
+Moreover, recent studies showed EO inhalation influenced fatigue scores. 63,64 LEO inhalation can lead to a decrease
+in fatigue through various mechanisms. Firstly, LEO possesses anxiolytic properties (anxiety-reducing). This can
+contribute to a decrease in fatigue, as anxiety and fatigue often coexist. LEO inhalation may reduce anxiety and improve
+mood, promoting relaxation and a sense of calmness.
+65 Additionally, the aromatherapeutic effects of LEO could have a
+significant impact on fatigue reduction. When inhaled, LEO stimulates the olfactory system, which in turn activates the
+limbic system in the brain responsible for emotions and mood regulation. 66 This activation could induce a sense of
+calmness, relaxation, and overall well-being, thereby reducing fatigue. 67 Neurophysiologically, LEO modulates the
+activity of neurotransmitters and receptors in the central nervous system. For example, LEO has been shown to interact
+with gamma-aminobutyric acid (GABA) receptors, which have an inhibitory effect on the nervous system, promoting
+relaxation and calmness; animal studies demonstrate LEO inhalation increases the expression of GABA receptors, further
+supporting its potential fatigue-reducing effects.
+68 Furthermore, the anti-inflammatory properties of LEO may contribute
+to fatigue reduction. Chronic fatigue is often associated with underlying inflammation, and LEO has been found to
+possess anti-inflammatory properties.69 Inhalation of LEO decreases the production of inflammatory cytokines in human
+subjects, suggesting its potential for reducing inflammation associated with fatigue. 70
+This study represents a pioneering effort to assess the effectiveness of LEO inhalation on sleep quality in athletes,
+particularly those who engage in late-evening training sessions. The lack of significant results may be attributed to
+individual variations in response to EOs. Indeed, it has been previously suggested that the variability in individuals ’
+sensitivities to aromatherapy treatments could potentially impact the outcomes of the study.71 In this context, a prolonged
+utilization of aromatherapy has been associated with a potential decrease in olfactory receptor sensitivity, resulting in
+diminished individual responsiveness and subsequently reducing the therapeutic impact of the aroma. 71 To gain a more
+comprehensive understanding of the contrasting effects, future research should consider stratifying participants based on
+their response to EO inhalation.
+Considerations when interpreting these results include the study’s duration, which may not have been sufficient to capture
+long-term changes in sleep quality. Additionally, it is important to explore the impact of different training content on
+physiological parameters such as blood pressure. For instance, investigating the effects of isometric training, dynamic
+training, and endurance training on blood pressure changes could provide valuable insights into their potential counter
+effects. The recommended dose of LEO inhalation in this study was two drops (0.14 mL) for a duration of 10 minutes
+before sleep. It is worth considering that this dosage may not have been sufficient to significantly improve sleep quality.
+Further research is necessary to fully understand the effects of EOs on sleep in athletes. Future investigations should focus
+on optimizing EO selection and accounting for individual variations in response. Conducting larger studies with longer
+intervention periods could yield more conclusive results on the impact of LEO inhalation on athletes ’ sleep quality.
+Finally, it is important to explore different doses and timings of EOs. For sleep assessment, the use of polysomnography,
+which is universally identified as the gold standard method for sleep monitoring, is warranted.
+72
+Conclusion
+Combining an acute SHE session with LEO inhalation yielded greater improvements in sleep quality, overall wellness,
+and fatigue scores compared to using them separately. The findings provided further corroboration for the positive effects
+of SHE and LEO inhalation on sleep pattern, mood states, and wellness, with the combined intervention showing a greater
+impact. While the statistical results in this study cannot be generalized, the multiple significant outcomes and their
+associated effect sizes may have two implications. Firstly, in accordance with Fisher’s original statistics,
+73 the significant
+findings warrant further research in this direction. Secondly, the synergistic effects of SHE and LEO could potentially
+serve as a safe and effective strategy for improving sleep quality and well-being indices in athletes following late-evening
+resistance training sessions.
+Ethical considerations
+The study was conducted in accordance with the Declaration of Helsinki, and the protocol received full approval from the
+Ethical Committee for the Protection of Southern Persons (CPP SUD N° 0520/2023) on 31
+st May 2023 and was registered
+at the Pan African Clinical Trial Registry (PACTR202306806244897) on 09 th June 2023.
+Page 13 of 18
+F1000Research 2024, 13:720 Last updated: 29 JUL 2025
+
+--- page 14 ---
+Consent to participate
+Prior to their inclusion in the study, all participants received comprehensive verbal and written instructions that explained
+the procedures and potential risks involved. They were also informed of their right to withdraw from the trial at any point.
+Data availability
+Zenodo: https://doi.org/10.5281/zenodo.11066092.74
+Data are available under the terms of the Creative Commons Attribution 4.0 International license (CC-BY 4.0).
+Extended data
+Trial protocol: Zenodo: https://doi.org/10.5281/zenodo.11575185.75
+CONSORT Checklist: Zenodo: https://doi.org/10.5281/zenodo.11368563.76
+CONSORT FlowChart: Zenodo: https://doi.org/10.5281/zenodo.11577279.77
+Data are available under the terms of the Creative Commons Attribution 4.0 International license (CC-BY 4.0).
+Acknowledgements
+The authors would like to thank the participants for their time and effort.
+References
+1. Cook JD, Charest J: Sleep and Performance in Professional
+Athletes. Curr. Sleep Med. Rep. 2023; 9:5 6–81.
+Publisher Full Text
+2. Sargent C, Lastella M, Halson SL, et al.: How much sleep does an
+elite athlete need? Int. J. Sports Physiol. Perform. 2021; 16(12):
+1746–1757.
+PubMed Abstract |Publisher Full Text
+3. Roberts SSH, Teo W-P, Warmington SA: Effects of training
+and competition on the sleep of elite athletes: a systematic
+review and meta-analysis. Br. J. Sports Med. 2019; 53(8):
+513–522.
+PubMed Abstract |Publisher Full Text
+4. Walsh NP, Halson SL, Sargent C, et al.: Sleep and the athlete:
+narrative review and 2021 expert consensus recommendations.
+Br. J. Sports Med. 2021; 55(7): 356–368.
+PubMed Abstract |Publisher Full Text
+5. Fullagar HH, Skorski S, Duffield R, et al.: Sleep and athletic
+performance: the effects of sleep loss on exercise performance,
+and physiological and cognitive responses to exercise. Sports
+Med. 2015; 45(2): 161–186.
+PubMed Abstract |Publisher Full Text
+6. Staunton C, Gordon B, Custovic E, et al.: Sleep patterns and match
+performance in elite Australian basketball athletes. J. Sci. Med.
+Sport. 2017; 20(8): 786–789.
+PubMed Abstract |Publisher Full Text
+7. Eagles AN, Lovell DI: Changes in sleep quantity and efficiency
+in professional rugby union players during home-based
+training and match play. J. Sports Med. Phys. Fitness. 2016; 56(5):
+565–571.
+PubMed Abstract
+8. Caia J, Scott TJ, Halson SL, et al.: Do players and staff sleep more
+during the pre-or competitive season of elite rugby league?
+Eur. J. Sport Sci.
+2017; 17(8): 964–972.
+Publisher Full Text
+9. O ’Donnell S, Driller MW: Sleep-hygiene education improves sleep
+indices in elite female athletes. Int. J. Exerc. Sci. 2017; 10(4):
+522–530.
+PubMed Abstract
+10. Fullagar H, Skorski S, Duffield R, et al.: The effect of an acute sleep
+hygiene strategy following a late-night soccer match on
+recovery of players. Chronobiol. Int. 2016; 33(5): 490–505.
+PubMed Abstract |Publisher Full Text
+11. Irish LA, Kline CE, Gunn HE, et al.: The role of sleep hygiene in
+promoting public health: A review of empirical evidence.
+Sleep Med. Rev. 2015; 22:2 3–36.
+PubMed Abstract |Publisher Full Text |Free Full Text
+12. Stepanski EJ, Wyatt JK: Use of sleep hygiene in the treatment of
+insomnia. Sleep Med. Rev. 2003; 7(3): 215–225.
+Publisher Full Text
+13. Malone SK: Early to bed, early to rise? An exploration of
+adolescent sleep hygiene practices. J. Sch. Nurs. 2011; 27(5):
+348–354.
+Publisher Full Text
+14. Lastella M, Roach GD, Halson SL, et al.: Sleep/wake behaviours of
+elite athletes from individual and team sports. Eur. J. Sport Sci.
+2015; 15(2): 94–100.
+PubMed Abstract |Publisher Full Text
+15. Vachon A, Sauvet F, Pasquier F, et al.: Effects of a Sleep Hygiene
+Strategy on Parameters of Sleep Quality and Quantity in Youth
+Elite Rugby Union Players. Int. J. Sports Physiol. Perform. 2023; 18:
+1101–1108.
+Publisher Full Text
+16. Vitale JA, La Torre A, Banfi G, et al.: Acute sleep hygiene strategy
+improves objective sleep latency following a late-evening
+soccer-specific training session: A randomized controlled trial.
+J. Sports Sci. 2019; 37(23): 2711–2719.
+PubMed Abstract |Publisher Full Text
+17. Fullagar HH: Late-night matches for professional soccer players:
+Should we be concerned about sleep and recovery. Int. J. Sports
+Exerc. Med. 2016; 1(002e): 1.
+Publisher Full Text
+18. Caia J, Scott TJ, Halson SL, et al.: The influence of sleep hygiene
+education on sleep in professional rugby league athletes. Sleep
+Health. 2018; 4(4): 364–368.
+PubMed Abstract |Publisher Full Text
+19. Riemann D, Baglioni C, Bassetti C, et al.: European guideline for the
+diagnosis and treatment of insomnia. J. Sleep Res. 2017; 26(6):
+675–700.
+PubMed Abstract |Publisher Full Text
+20. Biggins M, Purtill H, Fowler P, et al.: Sleep in elite multi-sport
+athletes: Implications for athlete health and wellbeing. Phys.
+Ther. Sport. 2019; 39: 136–142.
+PubMed Abstract |Publisher Full Text
+21. Kumadoh D, Ofori-Kwakye K: Dosage forms of herbal medicinal
+products and their stability considerations-an overview. J. Crit.
+Rev. 2017; 4(4): 1–8.
+22. Schneider R, Singer N, Singer T: Medical aromatherapy revisited—
+Basic mechanisms, critique, and a new development.
+Page 14 of 18
+F1000Research 2024, 13:720 Last updated: 29 JUL 2025
+
+--- page 15 ---
+Hum. Psychopharmacol. Clin. Exp. 2019; 34(1): e2683.
+PubMed Abstract |Publisher Full Text
+23. Michalak M: Aromatherapy and methods of applying essential
+oils. Arch. Physiother. Glob. Res. 2018; 22:2 5–31.
+24. Lee M-k, Lim S, Song J-A, et al.: The effects of aromatherapy
+essential oil inhalation on stress, sleep quality and immunity in
+healthy adults: Randomized controlled trial. Eur. J. Integr. Med.
+2017; 12:7 9–86.
+Publisher Full Text
+25. Hwang E, Shin S: The effects of aromatherapy on sleep
+improvement: a systematic literature review and meta-
+analysis. J. Altern. Complement. Med. 2015; 21(2): 61–68.
+PubMed Abstract |Publisher Full Text
+26. Ayik C, Özden D: The effects of preoperative aromatherapy
+massage on anxiety and sleep quality of colorectal surgery
+patients: A randomized controlled study. Complement. Ther. Med.
+2018; 36:9 3–99.
+PubMed Abstract |Publisher Full Text
+27. Özlü ZK, Bilican P: Effects of aromatherapy massage on the sleep
+quality and physiological parameters of patients in a surgical
+intensive care unit. Afr. J. Tradit. Complement. Altern. Med. 2017;
+14(3): 83–88.
+PubMed Abstract |Publisher Full Text |Free Full Text
+28. Cheong MJ, Kim S, Kim JS, et al.: A systematic literature review and
+meta-analysis of the clinical effects of aroma inhalation therapy
+on sleep problems. Medicine. 2021; 100(9): e24652.
+PubMed Abstract |Publisher Full Text |Free Full Text
+29. Lee I: Effects of inhalation of relaxing essential oils on
+electroencephalogram activity. Int. J. New Technol. Res. 2016; 2(5):
+263522.
+30. Buckle J: Clinical Aromatherapy: Essential Oils in Practice. 2nd ed.
+New York, NY, USA: Churchill Livingstone Elsevier Science; 2003.
+Publisher Full Text
+31. Hirokawa K, Nishimoto T, Taniguchi T: Effects of lavender aroma
+on sleep quality in healthy Japanese students. Percept. Mot. Skills.
+2012; 114(1): 111–122.
+PubMed Abstract |Publisher Full Text
+32. Huntley A: Aromatherapy for Health Professionals. Focus. Altern.
+Complement. Ther. 2010; 5: 160.
+Publisher Full Text
+33. Horne JA, Östberg O: A self-assessment questionnaire to
+determine morningness-eveningness in human circadian
+rhythms. Int. J. Chronobiol. 1976.
+34. Schulz KF, Altman DG, Moher D: CONSORT 2010 statement:
+Updated guidelines for reporting parallel group randomized
+trials. Ann. Intern. Med. 2010; 154(4): 291–292.
+35. Salamati A, Mashouf S, Sahbaei F, et al.: Effects of Inhalation of
+Lavender Essential Oil on Open-heart Surgery Pain. Iran J. Pharm.
+Res. 2014; 13(4): 1257–1261.
+PubMed Abstract
+36. Nédélec M, Halson S, Delecroix B, et al.: Sleep Hygiene and
+Recovery Strategies in Elite Soccer Players. Sports Med. 2015;
+45(11): 1547–1559.
+PubMed Abstract |Publisher Full Text
+37. Hooper SL, Mackinnon LT, Howard A, et al.: Markers for monitoring
+overtraining and recovery. Med. Sci. Sports Exerc. 1995; 27:
+106–112.
+Publisher Full Text
+38. Selmi O, Ouergui I, Castellano J, et al.: Effect of an intensified
+training period on well-being indices, recovery and
+psychological aspects in professional soccer players. Eur. Rev.
+Appl. Psychol. 2020; 70(6): 100603.
+Publisher Full Text
+39. Terry PC, Lane AM, Fogarty GJ: Construct validity of the Profile of
+Mood States—Adolescents for use with adults. Psychol. Sport
+Exerc. 2003; 4(2): 125–139.
+Publisher Full Text
+40. Cohen J: Statistical Power Analysis for the Behavioral Sciences.
+2nd Edition. New York: Routledge; 1988; 567.
+41. Hopkins W: A scale of magnitudes for effect statistics. A new
+view of statistics. 2002; 502: 411.
+42. R Core Team R: R: a language and environment for statistical
+computing. 4.2.3 ed. R Foundation for Statistical Computing; 2020;
+2020.
+43. Singmann H, Bolker B, Westfall J, et al.: afex: Analysis of Factorial
+Experiments. R package version 0.16-1. R package version 0.16.
+2016.
+44. Length R: emmeans: Estimated Marginal Means, aka Least-
+Squares Means. R package version 1.8.4 –1. [Computer
+software].
+Reference Source
+45. Kassambara A: rstatix: pipe-friendly framework for basic
+statistical tests. R package version 0.7. 0. [Computer software].
+Reference Source
+46. Noguchi K, Gel YR, Brunner E, et al.: nparLD: an R software package
+for the nonparametric analysis of longitudinal data in factorial
+experiments. 2012.
+47. Chung KF, Lee CT, Yeung WF, et al.: Sleep hygiene education as a
+treatment of insomnia: a systematic review and meta-analysis.
+Fam. Pract. 2018; 35(4): 365–375.
+PubMed Abstract |Publisher Full Text
+48. Vitale KC, Owens R, Hopkins SR, et al.: Sleep Hygiene for Optimizing
+Recovery in Athletes: Review and Recommendations. Int.
+J. Sports Med. 2019; 40(8): 535–543.
+PubMed Abstract |Publisher Full Text
+49. Dunican IC, Perry E, Maisey G, et al.: Sleep hygiene education for
+improving sleep in ultra-marathon swimmers: Guidance for
+coaches and swimmers. Int. J. Sports Sci. Coach. 2023; 18:
+1018–1024.
+Publisher Full Text
+50. Bonnar D, Bartel K, Kakoschke N, et al.: Sleep interventions
+designed to improve athletic performance and recovery:
+a systematic review of current approaches. Sports Med. 2018; 48:
+683–703.
+PubMed Abstract |Publisher Full Text
+51. Harada T, Wada K, Tsuji F, et al.: Intervention study using a leaflet
+entitled ‘three benefits of “go to bed early! get up early! and
+intake nutritionally rich breakfast! ” a message for athletes ’ to
+improve the soccer performance of university soccer team.
+Sleep Biol. Rhythms. 2016; 14:6 5–74.
+Publisher Full Text
+52. Tuomilehto H, Vuorinen V-P, Penttilä E, et al.: Sleep of professional
+athletes: underexploited potential to improve health and
+performance. J. Sports Sci. 2017; 35(7): 704–710.
+PubMed Abstract |Publisher Full Text
+53. Knufinke M, Nieuwenhuys A, Geurts SA, et al.: Self-reported sleep
+quantity, quality and sleep hygiene in elite athletes. J. Sleep Res.
+2018; 27(1): 78–85.
+PubMed Abstract |Publisher Full Text
+54. O ’Donnell S, Beaven CM, Driller MW: From pillow to podium:
+a review on understanding sleep for elite athletes. Nat. Sci. Sleep.
+2018; 10: 243–253.
+PubMed Abstract |Publisher Full Text |Free Full Text
+55. Duffield R, Murphy A, Kellett A, et al.: Recovery from repeated
+on-court tennis sessions: Combining cold-water immersion,
+compression, and sleep interventions. Int. J. Sports Physiol.
+Perform. 2014; 9(2): 273–282.
+PubMed Abstract |Publisher Full Text
+56. Lin P-C, Lee P-H, Tseng S-J, et al.: Effects of aromatherapy on sleep
+quality: A systematic review and meta-analysis. Complement.
+Ther. Med. 2019; 45: 156–166.
+Publisher Full Text
+57. Lillehei AS, Halcon LL: A systematic review of the effect of inhaled
+essential oils on sleep. J. Altern. Complement. Med. 2014; 20(6):
+441–451.
+PubMed Abstract |
+Publisher Full Text
+58. Yang C-P, Yang C-C, Tsai I-J, et al.: The immediate effects of
+lavender-based essential oil inhalation on subsequent
+polysomnography in people with poor sleep quality. J. Chin. Med.
+Assoc. 2023; 86: 665–671.
+PubMed Abstract |Publisher Full Text
+59. Y ıldırım D, Kocatepe V, Can G, et al.: The Effect of Lavender Oil on
+Sleep Quality and Vital Signs in Palliative Care: A Randomized
+Clinical Trial. Complement. Med. Res. 2020; 27(5): 328–335.
+PubMed Abstract |Publisher Full Text
+60. Costa J, Figueiredo P, Nakamura FY, et al.: The Importance of sleep
+in athletes. 2022.
+61. Hershner SD, Chervin RD: Causes and consequences
+of sleepiness among college students. Nat. Sci. Sleep. 2014; 6:
+73–84.
+PubMed Abstract |Publisher Full Text |Free Full Text
+62. Irwin MR, Cole JC, Nicassio PM: Comparative meta-analysis of
+behavioral interventions for insomnia and their efficacy in
+middle-aged adults and in older adults 55+ years of age. Health
+Psychol. 2006; 25(1): 3–14.
+PubMed Abstract |Publisher Full Text
+63. Sattayakhom A, Wichit S, Koomhin P: The Effects of Essential Oils
+on the Nervous System: A Scoping Review. Molecules. 2023; 28(9):
+3771.
+PubMed Abstract |Publisher Full Text |Free Full Text
+64. Wang Q, Wei L, Luo Y, et al.: Effectiveness of Aromatherapy on
+Ameliorating Fatigue in Adults: A Meta-Analysis. Evid. Based
+Complement. Alternat. Med. 2022; 2022: 1141411.
+Page 15 of 18
+F1000Research 2024, 13:720 Last updated: 29 JUL 2025
+
+--- page 16 ---
+65. Sayorwan W, Siripornpanich V, Piriyapunyaporn T, et al.: The effects
+of lavender oil inhalation on emotional states, autonomic
+nervous system, and brain electrical activity. 2012.
+66. Fung TKH, Lau BWM, Ngai SPC, et al.: Therapeutic Effect and
+Mechanisms of Essential Oils in Mood Disorders: Interaction
+between the Nervous and Respiratory Systems. Int. J. Mol. Sci.
+2021; 22(9).
+PubMed Abstract |Publisher Full Text |Free Full Text
+67. Lehrner J, Marwinski G, Lehr S, et al.: Ambient odors of orange and
+lavender reduce anxiety and improve mood in a dental office.
+Physiol. Behav. 2005; 86(1-2): 92–95.
+PubMed Abstract |Publisher Full Text
+68. Umezu T, Nagano K, Ito H, et al.: Anticonflict effects of lavender oil
+and identification of its active constituents. Pharmacol. Biochem.
+Behav. 2006; 85(4): 713–721.
+PubMed Abstract |Publisher Full Text
+69. Cortes Rivera M, Mastronardi C, Silva-Aldana CT, et al.:
+Myalgic Encephalomyelitis/Chronic Fatigue Syndrome:
+A Comprehensive Review. Diagnostics (Basel). 2019; 9(3).
+Publisher Full Text
+70. Seol GH, Lee YH, Kang P, et al.: Randomized controlled trial for
+Salvia sclarea or Lavandula angustifolia: differential effects on
+blood pressure in female patients with urinary incontinence
+undergoing urodynamic examination. J. Altern. Complement. Med.
+2013; 19(7): 664–670.
+PubMed Abstract |Publisher Full Text |Free Full Text
+71. Kiecolt-Glaser JK, Graham JE, Malarkey WB, et al.: Olfactory
+influences on mood and autonomic, endocrine, and immune
+function. Psychoneuroendocrinology. 2008; 33(3): 328–339.
+PubMed Abstract |Publisher Full Text |Free Full Text
+72. Trabelsi K, Stannard SR, Chtourou H, et al.: Monitoring athletes’
+hydration status and sleep patterns during Ramadan
+observance: methodological and practical considerations. Biol.
+Rhythm. Res. 2018; 49(3): 337–365.
+Publisher Full Text
+73. Fisher RA: On the mathematical foundations of theoretical
+statistics. Philosophical transactions of the Royal Society of London
+Series A, containing papers of a mathematical or physical character.
+1922; 222(594-604): 309–368.
+Publisher Full Text
+74. Salem A: The impact of sleep hygiene education and lavender
+essential oil inhalation on the sleep quality and overall well-being of
+athletes who undergo late-evening training: a randomized
+controlled trial. Zenodo. [Dataset]. 2024.
+Publisher Full Text
+75. Salem A: Experimental protocol. Zenodo. 2024.
+Publisher Full Text
+76. Salem A: Consort checklist. Zenodo. 2024.
+Publisher Full Text
+77. Salem A: CONSORT Flowchart. Zenodo. 2024.
+Publisher Full Text
+Page 16 of 18
+F1000Research 2024, 13:720 Last updated: 29 JUL 2025
+
+--- page 17 ---
+Open Peer Review
+Current Peer Review Status: 
+Version 1
+Reviewer Report 25 July 2024
+https://doi.org/10.5256/f1000research.165595.r298909
+© 2024 Greenberg M. This is an open access peer review report distributed under the terms of the Creative 
+Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, 
+provided the original work is properly cited.
+Martha J Greenberg 
+ 
+Pace University, Pleasantville, NY, USA 
+This is a very good article on " the effects of a single Sleep Hygiene Education combined with 
+nightly Lavender Essential Oil inhalation for 7 days of late-evening resistance training sessions on 
+sleep quality and mood states in trained athletes." 
+ 
+My two criticisms are: 
+-The sample size is the very small n=42 even though the author states that an n of 32 would be 
+adequate. 
+-There is no specific section on limitations-I suggest that one be created and populated with them.
+ 
+Is the work clearly and accurately presented and does it cite the current literature?
+Yes
+Is the study design appropriate and is the work technically sound?
+Yes
+Are sufficient details of methods and analysis provided to allow replication by others?
+Yes
+If applicable, is the statistical analysis and its interpretation appropriate?
+Yes
+Are all the source data underlying the results available to ensure full reproducibility?
+Yes
+Are the conclusions drawn adequately supported by the results?
+Partly
+Competing Interests: No competing interests were disclosed.
+  Page 17 of 18
+F1000Research 2024, 13:720 Last updated: 29 JUL 2025
+
+--- page 18 ---
+Reviewer Expertise: Aromatherapy
+I confirm that I have read this submission and believe that I have an appropriate level of 
+expertise to confirm that it is of an acceptable scientific standard.
+The benefits of publishing with F1000Research:
+Your article is published within days, with no editorial bias•
+You can publish traditional articles, null/negative results, case reports, data notes and more•
+The peer review process is transparent and collaborative•
+Your article is indexed in PubMed after passing peer review•
+Dedicated customer support at every stage•
+For pre-submission enquiries, contact research@f1000.com
+  Page 18 of 18
+F1000Research 2024, 13:720 Last updated: 29 JUL 2025

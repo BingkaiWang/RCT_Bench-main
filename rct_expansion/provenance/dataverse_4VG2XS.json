@@ -1,0 +1,310 @@
+{
+  "status": "OK",
+  "data": {
+    "id": 3655177,
+    "identifier": "DVN/4VG2XS",
+    "persistentUrl": "https://doi.org/10.7910/DVN/4VG2XS",
+    "protocol": "doi",
+    "authority": "10.7910",
+    "separator": "/",
+    "publisher": "Harvard Dataverse",
+    "publicationDate": "2020-01-06",
+    "storageIdentifier": "s3://10.7910/DVN/4VG2XS",
+    "effectiveDatasetFileCountLimit": 1000,
+    "datasetFileUploadsAvailable": 995,
+    "datasetType": "dataset",
+    "locks": [],
+    "latestVersion": {
+      "id": 181089,
+      "datasetId": 3655177,
+      "datasetPersistentId": "doi:10.7910/DVN/4VG2XS",
+      "datasetType": "dataset",
+      "storageIdentifier": "s3://10.7910/DVN/4VG2XS",
+      "versionNumber": 4,
+      "internalVersionNumber": 3,
+      "versionMinorNumber": 0,
+      "versionState": "RELEASED",
+      "latestVersionPublishingState": "RELEASED",
+      "deaccessionLink": "",
+      "UNF": "UNF:6:jV/LWF5t27W0gtkMXA7hZw==",
+      "lastUpdateTime": "2020-02-06T10:47:24Z",
+      "releaseTime": "2020-02-06T10:47:24Z",
+      "createTime": "2020-02-06T10:47:01Z",
+      "publicationDate": "2020-01-06",
+      "citationDate": "2020-01-06",
+      "effectiveDatasetFileCountLimit": 1000,
+      "datasetFileUploadsAvailable": 995,
+      "license": {
+        "name": "CC0 1.0",
+        "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+        "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+        "rightsIdentifier": "CC0-1.0",
+        "rightsIdentifierScheme": "SPDX",
+        "schemeUri": "https://spdx.org/licenses/",
+        "languageCode": "en"
+      },
+      "fileAccessRequest": false,
+      "metadataBlocks": {
+        "citation": {
+          "displayName": "Citation Metadata",
+          "name": "citation",
+          "fields": [
+            {
+              "typeName": "title",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "Transcranial direct current stimulation and attention skills in burnout patients: a randomized blinded sham-controlled pilot study"
+            },
+            {
+              "typeName": "author",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "authorName": {
+                    "typeName": "authorName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "van Dun, Kim"
+                  },
+                  "authorAffiliation": {
+                    "typeName": "authorAffiliation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "UHasselt"
+                  },
+                  "authorIdentifierScheme": {
+                    "typeName": "authorIdentifierScheme",
+                    "multiple": false,
+                    "typeClass": "controlledVocabulary",
+                    "value": "ORCID"
+                  },
+                  "authorIdentifier": {
+                    "typeName": "authorIdentifier",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "0000-0002-5212-8650"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "datasetContact",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "datasetContactName": {
+                    "typeName": "datasetContactName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "van Dun, Kim"
+                  },
+                  "datasetContactAffiliation": {
+                    "typeName": "datasetContactAffiliation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "UHasselt"
+                  },
+                  "datasetContactEmail": {
+                    "typeName": "datasetContactEmail",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "kimvandun@gmail.com"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "dsDescription",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "dsDescriptionValue": {
+                    "typeName": "dsDescriptionValue",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Dataset for the study using tDCS over left DLPFC on attention and other measures in burnout patients."
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "subject",
+              "multiple": true,
+              "typeClass": "controlledVocabulary",
+              "value": [
+                "Medicine, Health and Life Sciences"
+              ]
+            },
+            {
+              "typeName": "depositor",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "van Dun, Kim"
+            },
+            {
+              "typeName": "dateOfDeposit",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "2020-01-06"
+            }
+          ]
+        }
+      },
+      "files": [
+        {
+          "description": "CONSORT 2010 Checklist ",
+          "label": "CONSORT 2010 Checklist.pdf",
+          "restricted": false,
+          "version": 1,
+          "datasetVersionId": 181089,
+          "dataFile": {
+            "id": 3673993,
+            "persistentId": "doi:10.7910/DVN/4VG2XS/WERWV4",
+            "pidURL": "https://doi.org/10.7910/DVN/4VG2XS/WERWV4",
+            "filename": "CONSORT 2010 Checklist.pdf",
+            "contentType": "application/pdf",
+            "friendlyType": "Adobe PDF",
+            "filesize": 95049,
+            "description": "CONSORT 2010 Checklist ",
+            "storageIdentifier": "s3://dvn-cloud:16fe7715f96-45c7b51c83c3",
+            "rootDataFileId": -1,
+            "md5": "18c69a502f0ed6bb46dbd57f2c210a93",
+            "checksum": {
+              "type": "MD5",
+              "value": "18c69a502f0ed6bb46dbd57f2c210a93"
+            },
+            "tabularData": false,
+            "creationDate": "2020-01-27",
+            "publicationDate": "2020-01-27",
+            "lastUpdateTime": "2020-02-06T10:47:24Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "description": "CONSORT 2010 Flow Diagram",
+          "label": "CONSORT 2010 Flow Diagram.pdf",
+          "restricted": false,
+          "version": 1,
+          "datasetVersionId": 181089,
+          "dataFile": {
+            "id": 3673992,
+            "persistentId": "doi:10.7910/DVN/4VG2XS/VH0U9P",
+            "pidURL": "https://doi.org/10.7910/DVN/4VG2XS/VH0U9P",
+            "filename": "CONSORT 2010 Flow Diagram.pdf",
+            "contentType": "application/pdf",
+            "friendlyType": "Adobe PDF",
+            "filesize": 32551,
+            "description": "CONSORT 2010 Flow Diagram",
+            "storageIdentifier": "s3://dvn-cloud:16fe7716283-161cf2b7b638",
+            "rootDataFileId": -1,
+            "md5": "4de416cae21463ff55052f782104daf4",
+            "checksum": {
+              "type": "MD5",
+              "value": "4de416cae21463ff55052f782104daf4"
+            },
+            "tabularData": false,
+            "creationDate": "2020-01-27",
+            "publicationDate": "2020-01-27",
+            "lastUpdateTime": "2020-02-06T10:47:24Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "description": "Data used for statistical analyses",
+          "label": "Data_burnout.txt",
+          "restricted": false,
+          "version": 1,
+          "datasetVersionId": 181089,
+          "dataFile": {
+            "id": 3655178,
+            "persistentId": "doi:10.7910/DVN/4VG2XS/9NHBOX",
+            "pidURL": "https://doi.org/10.7910/DVN/4VG2XS/9NHBOX",
+            "filename": "Data_burnout.txt",
+            "contentType": "text/plain",
+            "friendlyType": "Plain Text",
+            "filesize": 3056,
+            "description": "Data used for statistical analyses",
+            "storageIdentifier": "s3://dvn-cloud:16f7ae64b36-5552d293c9c7",
+            "rootDataFileId": -1,
+            "md5": "79b3ebc6811e547849a15e4645e82fcd",
+            "checksum": {
+              "type": "MD5",
+              "value": "79b3ebc6811e547849a15e4645e82fcd"
+            },
+            "tabularData": false,
+            "creationDate": "2020-01-06",
+            "publicationDate": "2020-01-06",
+            "lastUpdateTime": "2020-02-06T10:47:24Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "description": "Raw data for the Burnout study (Raw Scores (RS) and Standard Scores (SS))",
+          "label": "Raw Data Burnout.tab",
+          "restricted": false,
+          "version": 1,
+          "datasetVersionId": 181089,
+          "dataFile": {
+            "id": 3655371,
+            "persistentId": "doi:10.7910/DVN/4VG2XS/9AHI1C",
+            "pidURL": "https://doi.org/10.7910/DVN/4VG2XS/9AHI1C",
+            "filename": "Raw Data Burnout.tab",
+            "contentType": "text/tab-separated-values",
+            "friendlyType": "Tab-Delimited",
+            "filesize": 34202,
+            "description": "Raw data for the Burnout study (Raw Scores (RS) and Standard Scores (SS))",
+            "storageIdentifier": "s3://dvn-cloud:16f8055e816-cde9b5e888e3",
+            "originalFileFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "originalFormatLabel": "MS Excel Spreadsheet",
+            "originalFileSize": 37339,
+            "originalFileName": "Raw Data Burnout.xlsx",
+            "UNF": "UNF:6:jV/LWF5t27W0gtkMXA7hZw==",
+            "rootDataFileId": -1,
+            "md5": "4c883072eebdb34a077dc7b2309e9b8c",
+            "checksum": {
+              "type": "MD5",
+              "value": "4c883072eebdb34a077dc7b2309e9b8c"
+            },
+            "tabularData": true,
+            "creationDate": "2020-01-07",
+            "publicationDate": "2020-01-17",
+            "lastUpdateTime": "2020-02-06T10:47:24Z",
+            "fileAccessRequest": false
+          }
+        },
+        {
+          "description": "Means and standard deviations per age, gender, and educational level of 200 Dutch-speaking participants for the verbal (semantic) fluency task",
+          "label": "Verbal_fluency.pdf",
+          "restricted": false,
+          "version": 1,
+          "datasetVersionId": 181089,
+          "dataFile": {
+            "id": 3677853,
+            "persistentId": "doi:10.7910/DVN/4VG2XS/GZEKT6",
+            "pidURL": "https://doi.org/10.7910/DVN/4VG2XS/GZEKT6",
+            "filename": "Verbal_fluency.pdf",
+            "contentType": "application/pdf",
+            "friendlyType": "Adobe PDF",
+            "filesize": 40034,
+            "description": "Means and standard deviations per age, gender, and educational level of 200 Dutch-speaking participants for the verbal (semantic) fluency task",
+            "storageIdentifier": "s3://dvn-cloud:1701a1bd936-d227ec922a01",
+            "rootDataFileId": -1,
+            "md5": "a4e4bfb761d82ab55611fb54422bdd7b",
+            "checksum": {
+              "type": "MD5",
+              "value": "a4e4bfb761d82ab55611fb54422bdd7b"
+            },
+            "tabularData": false,
+            "creationDate": "2020-02-06",
+            "publicationDate": "2020-02-06",
+            "lastUpdateTime": "2020-02-06T10:47:24Z",
+            "fileAccessRequest": false
+          }
+        }
+      ]
+    }
+  }
+}

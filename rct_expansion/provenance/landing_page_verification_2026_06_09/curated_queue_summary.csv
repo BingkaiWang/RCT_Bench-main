@@ -1,0 +1,7 @@
+final_queue,count
+access_retry_rate_limited,41
+needs_manual_review_before_cleaning,22
+not_qualified_before_cleaning,14
+access_failed_official_route,10
+qualified_for_cleaning,4
+method_review_before_cleaning,1

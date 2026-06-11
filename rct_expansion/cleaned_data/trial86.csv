@@ -1,0 +1,97 @@
+Treatment,X_site,X_location,X_itt,X_mitt,X_pp,X_age_years,X_race,X_ethnicity,X_cut_size_meals,X_eat_less,X_hungry_did_not_eat,X_sexual_partners_lifetime,X_sexual_partners_past_month,YP_colonized_lbp_by_mg_first5w,YS_colonized_lbp_by_mg_final,YS_colonized_lbp_at_mg_final,YS_crispatus_dominance_by_mg_final,X_nugent_total_score_baseline,YS_nugent_total_score_final,X_past_week_sex_partner_baseline
+LC106-3,MGH,US,1,1,0,25,Asian or South Asian,Not hispanic/latino/spanish,No,No,No,7,1,1,1,1,1,9,2,A single male partner
+LC115,MGH,US,1,1,1,22,"Black, African American, or African",Not hispanic/latino/spanish,No,Yes,Yes,4,1,1,1,0,1,9,6,A single male partner
+LC106-o,MGH,US,1,1,1,35,"Black, African American, or African",Not hispanic/latino/spanish,No,No,No,10,1,1,1,1,1,10,0,No sex in the past week
+LC106-7,MGH,US,1,1,1,31,"Black, African American, or African",hispanic/latino/spanish,No,No,No,23,1,1,1,0,1,10,9,No sex in the past week
+Pl,MGH,US,1,1,1,37,White,Not hispanic/latino/spanish,No,No,No,10,1,0,0,0,0,7,3,A single male partner
+Pl,MGH,US,1,0,0,24,White,Not hispanic/latino/spanish,No,No,No,10,0,0,0,0,0,8,8,No sex in the past week
+LC106-7,MGH,US,1,1,1,33,"Black, African American, or African",Not hispanic/latino/spanish,Only 1 or 2 months,Yes,Yes,15,2,1,1,0,1,8,3,No sex in the past week
+LC115,MGH,US,1,1,1,39,Other,hispanic/latino/spanish,Prefer not to answer,No,No,5,1,1,1,0,1,7,0,A single male partner
+Pl,MGH,US,1,1,1,38,Other,hispanic/latino/spanish,No,No,No,9,1,0,0,0,0,8,6,A single male partner
+LC115,MGH,US,1,1,0,40,White,hispanic/latino/spanish,No,No,No,5,1,1,1,0,1,8,4,A single male partner
+LC106-7,MGH,US,1,1,1,35,"Black, African American, or African",Not hispanic/latino/spanish,No,No,No,10,0,1,1,1,1,10,0,No sex in the past week
+LC106-7,MGH,US,1,0,0,23,White,Not hispanic/latino/spanish,No,No,No,8,1,0,0,0,0,7,5,A single male partner
+LC115,MGH,US,1,1,1,34,"Black, African American, or African",Not hispanic/latino/spanish,No,No,No,6,1,1,1,0,0,8,7,A single male partner
+LC106-7,MGH,US,1,1,1,40,White,Not hispanic/latino/spanish,No,No,No,15,1,1,1,0,1,7,6,A single male partner
+Pl,MGH,US,1,0,0,27,"Black, African American, or African",Not hispanic/latino/spanish,Only 1 or 2 months,No,Prefer not to answer,10,0,0,0,0,0,7,4,No sex in the past week
+Pl,MGH,US,1,1,1,32,Asian or South Asian,Not hispanic/latino/spanish,No,No,No,7,1,0,0,0,0,7,7,No sex in the past week
+Pl,MGH,US,1,1,0,29,Prefer not to answer,hispanic/latino/spanish,No,No,No,7,1,0,0,0,0,9,4,No sex in the past week
+LC106-7,MGH,US,1,1,1,24,White,Not hispanic/latino/spanish,No,No,No,90,1,1,1,1,1,9,0,A single male partner
+LC115,MGH,US,1,0,0,38,"Black, African American, or African",Not hispanic/latino/spanish,No,No,No,6,1,0,0,0,0,9,8,A single male partner
+LC115,MGH,US,1,1,0,30,"Black, African American, or African",Not hispanic/latino/spanish,No,No,No,10,0,1,1,1,1,7,0,No sex in the past week
+LC106-7,MGH,US,1,1,0,38,White,Not hispanic/latino/spanish,Almost every month,Yes,Yes,6,1,0,0,0,0,7,8,A single male partner
+LC115,MGH,US,1,1,1,31,"Black, African American, or African",Not hispanic/latino/spanish,No,No,No,10,2,1,1,0,1,8,6,A single male partner
+Pl,MGH,US,1,1,0,26,White,Not hispanic/latino/spanish,No,No,No,10,2,1,1,0,1,7,2,A single male partner
+LC106-7,MGH,US,1,1,1,28,"Black, African American, or African",Not hispanic/latino/spanish,Prefer not to answer,Prefer not to answer,Prefer not to answer,15,1,1,1,1,1,9,2,No sex in the past week
+LC106-7,CAP,SA,1,1,1,36,African,,No,No,No,6,1,1,1,1,1,7,1,A single male partner
+LC106-o,CAP,SA,1,1,1,25,African,,No,No,No,6,2,0,0,0,0,1,10,A single male partner
+Pl,CAP,SA,1,1,1,36,African,,Some months but not every month,Yes,No,9,1,0,0,0,0,8,8,No sex in the past week
+LC106-3,CAP,SA,1,1,1,34,African,,Some months but not every month,Yes,Yes,5,1,1,1,1,1,8,1,No sex in the past week
+LC115,CAP,SA,1,1,1,20,African,,No,No,No,1,1,0,0,0,1,8,1,No sex in the past week
+LC106-7,CAP,SA,1,1,1,34,African,,No,Yes,Yes,1,1,1,1,0,1,8,8,A single male partner
+LC106-3,CAP,SA,1,1,1,28,African,,No,No,No,8,1,0,0,0,0,10,8,A single male partner
+LC106-o,CAP,SA,1,1,1,19,African,,No,No,No,3,1,0,0,0,0,7,6,A single male partner
+Pl,CAP,SA,1,1,1,32,African,,Some months but not every month,Yes,No,4,1,0,0,0,0,10,7,No sex in the past week
+LC115,CAP,SA,1,1,1,30,African,,Some months but not every month,Yes,Yes,9,1,1,1,0,1,9,9,No sex in the past week
+Pl,CAP,SA,1,1,1,34,African,,Almost every month,Yes,Yes,3,1,0,0,0,0,9,10,No sex in the past week
+LC115,CAP,SA,1,1,1,20,African,,No,No,No,5,2,1,1,1,1,10,1,A single male partner
+LC106-3,CAP,SA,1,1,1,21,African,,No,No,No,1,1,1,1,0,0,8,0,A single male partner
+LC106-7,CAP,SA,1,1,1,25,African,,Some months but not every month,Yes,Yes,7,1,0,0,0,0,8,8,A single male partner
+LC115,CAP,SA,1,1,1,23,African,,No,No,No,5,1,1,1,0,1,10,8,A single male partner
+LC106-o,CAP,SA,1,1,1,24,African,,No,No,No,4,1,0,0,0,0,8,7,No sex in the past week
+Pl,CAP,SA,1,1,0,22,African,,No,No,No,3,1,0,0,0,0,10,9,No sex in the past week
+LC106-7,CAP,SA,1,1,1,18,African,,No,No,No,2,1,0,0,0,0,8,8,No sex in the past week
+LC106-o,CAP,SA,1,1,1,25,African,,No,No,No,1,1,1,1,1,1,8,1,A single male partner
+LC106-3,CAP,SA,1,1,1,26,African,,No,No,No,3,1,1,1,1,1,8,3,A single male partner
+LC106-7,CAP,SA,1,1,0,31,African,,Almost every month,No,No,5,2,1,1,0,1,10,8,A single male partner
+LC115,CAP,SA,1,1,1,31,African,,Almost every month,Yes,Yes,6,2,0,0,0,0,9,1,A single male partner
+LC106-3,CAP,SA,1,1,1,26,African,,Some months but not every month,Yes,Yes,5,1,0,0,0,0,8,8,A single male partner
+LC106-3,CAP,SA,1,1,1,27,African,,No,No,No,3,1,0,0,0,1,8,2,No sex in the past week
+LC106-o,CAP,SA,1,1,1,20,African,,Some months but not every month,Yes,No,15,3,0,0,0,1,7,1,No sex in the past week
+Pl,CAP,SA,1,1,1,33,African,,No,No,No,10,1,0,0,0,0,8,9,A single male partner
+Pl,CAP,SA,1,1,1,20,African,,Some months but not every month,Yes,No,5,2,0,0,0,0,7,7,No sex in the past week
+LC106-7,CAP,SA,1,1,1,32,African,,No,No,No,5,1,1,1,1,1,10,0,No sex in the past week
+LC115,CAP,SA,1,1,1,37,African,,No,No,No,4,2,1,1,0,1,9,5,No sex in the past week
+LC106-o,CAP,SA,1,1,0,23,African,,No,No,No,5,0,1,1,1,1,8,1,No sex in the past week
+Pl,CAP,SA,1,1,1,25,African,,No,No,No,3,1,0,0,0,0,8,7,A single male partner
+Pl,CAP,SA,1,1,1,21,African,,No,No,No,5,1,0,0,0,0,8,9,A single male partner
+LC106-7,CAP,SA,1,1,1,21,African,,Some months but not every month,Yes,Yes,3,1,1,1,1,1,8,1,A single male partner
+LC115,CAP,SA,1,1,1,31,African,,No,No,No,4,1,1,1,1,1,8,4,A single male partner
+LC106-o,CAP,SA,1,1,1,19,African,,No,No,No,2,1,0,0,1,0,8,7,No sex in the past week
+LC106-3,CAP,SA,1,1,1,26,African,,No,Yes,Yes,5,1,1,1,1,1,8,2,No sex in the past week
+LC115,CAP,SA,1,0,0,32,African,,Blank,Yes,No,3,1,0,0,0,0,8,2,A single male partner
+LC106-7,CAP,SA,1,1,1,22,African,,No,No,No,4,1,1,1,0,1,9,7,A single male partner
+LC106-7,CAP,SA,1,1,1,20,African,,Some months but not every month,Yes,No,4,1,1,1,1,1,7,1,No sex in the past week
+LC106-o,CAP,SA,1,1,1,33,African,,No,No,No,3,1,1,1,1,1,8,1,A single male partner
+LC106-o,CAP,SA,1,1,1,24,African,,No,Yes,No,4,1,1,1,0,0,7,5,No sex in the past week
+Pl,CAP,SA,1,1,1,29,African,,No,Yes,No,3,1,0,0,0,0,7,7,A single male partner
+LC106-o,CAP,SA,1,1,1,35,African,,No,No,No,7,2,0,0,0,0,8,8,A single male partner
+LC106-3,CAP,SA,1,1,1,24,African,,Only 1 or 2 months,Yes,Yes,4,2,0,0,0,0,8,8,A single male partner
+LC106-o,CAP,SA,1,1,1,32,African,,Some months but not every month,Yes,No,20,2,1,1,1,1,8,0,No sex in the past week
+LC106-7,CAP,SA,1,1,1,21,African,,No,No,No,1,1,0,0,0,0,7,1,No sex in the past week
+LC106-7,CAP,SA,1,1,1,22,African,,No,No,No,3,1,0,0,0,0,8,0,A single male partner
+LC106-3,CAP,SA,1,1,1,27,African,,Some months but not every month,Yes,No,5,1,0,0,0,0,8,1,A single male partner
+LC106-o,CAP,SA,1,1,1,26,African,,No,No,No,4,1,1,1,1,1,8,0,No sex in the past week
+LC115,CAP,SA,1,1,1,23,African,,No,No,No,4,1,1,1,0,1,8,1,A single male partner
+LC115,CAP,SA,1,1,1,24,African,,No,No,No,3,1,1,1,1,1,8,0,No sex in the past week
+LC106-3,CAP,SA,1,1,1,30,African,,Almost every month,Yes,No,3,1,0,0,0,0,8,1,No sex in the past week
+LC106-3,CAP,SA,1,1,1,22,African,,No,No,No,1,1,0,0,0,0,8,7,A single male partner
+LC106-7,CAP,SA,1,1,1,26,African,,Only 1 or 2 months,Yes,Yes,3,1,0,0,0,0,7,8,No sex in the past week
+LC106-3,CAP,SA,1,1,1,22,African,,No,No,No,3,0,1,1,1,1,8,0,No sex in the past week
+Pl,CAP,SA,1,1,1,26,African,,No,No,No,7,1,0,0,0,1,7,1,No sex in the past week
+Pl,CAP,SA,1,1,1,26,African,,Some months but not every month,Yes,No,4,1,0,0,0,0,8,7,No sex in the past week
+LC106-3,CAP,SA,1,1,1,23,African,,No,No,No,2,1,1,1,0,0,8,0,A single male partner
+Pl,CAP,SA,1,1,1,31,African,,Some months but not every month,Yes,No,4,1,0,0,0,0,7,9,No sex in the past week
+Pl,CAP,SA,1,1,1,25,African,,No,No,No,3,1,0,1,0,0,8,1,No sex in the past week
+LC115,CAP,SA,1,1,1,21,African,,No,No,No,3,1,1,1,0,1,7,8,No sex in the past week
+LC115,CAP,SA,1,1,1,25,African,,Some months but not every month,Yes,No,3,1,1,1,0,1,8,5,A single male partner
+LC115,CAP,SA,1,1,1,37,African,,No,No,No,2,1,1,1,1,1,7,2,A single male partner
+LC106-3,CAP,SA,1,1,1,28,African,,No,No,No,10,1,1,1,0,1,8,4,A single male partner
+LC115,CAP,SA,1,1,1,25,African,,Some months but not every month,Yes,Yes,3,1,0,0,0,0,7,7,No sex in the past week
+LC106-7,CAP,SA,1,1,1,33,African,,No,No,No,3,1,1,1,1,0,8,7,No sex in the past week
+LC106-o,CAP,SA,1,1,1,25,African,,Some months but not every month,Yes,Yes,1,1,0,1,1,1,9,0,No sex in the past week
+Pl,CAP,SA,1,1,1,25,African,,No,No,No,1,1,0,0,0,0,7,10,A single male partner
+LC106-7,CAP,SA,1,1,1,29,African,,No,No,No,3,1,1,1,1,1,8,1,A single male partner
+LC106-o,CAP,SA,1,0,0,32,African,,No,No,No,4,1,0,0,0,0,9,9,A single male partner
+LC115,CAP,SA,1,1,1,29,African,,Some months but not every month,Yes,Yes,8,2,0,0,0,0,8,1,A single male partner
+LC106-o,CAP,SA,1,1,0,31,African,,No,Yes,No,5,2,1,1,0,1,7,7,A single male partner
