@@ -1,6 +1,9 @@
+import { initAnalytics, trackEvent } from "./analytics.js";
+
 const state = {
   trials: [],
   filtered: [],
+  filterTimer: null,
 };
 
 const els = {
@@ -83,6 +86,15 @@ function initFilters() {
   for (const control of [els.search, els.area, els.outcome, els.randomization, els.sort]) {
     control.addEventListener("input", render);
   }
+
+  for (const control of [els.area, els.outcome, els.randomization, els.sort]) {
+    control.addEventListener("change", () => trackFilterUse(control.id));
+  }
+
+  els.search.addEventListener("input", () => {
+    window.clearTimeout(state.filterTimer);
+    state.filterTimer = window.setTimeout(() => trackFilterUse("search-input"), 900);
+  });
 }
 
 function matchesSearch(trial, term) {
@@ -142,8 +154,8 @@ function trialRow(trial) {
     </td>
     <td>
       <div class="file-actions">
-        <a class="small-button primary" href="${trial.csvPath}" download>CSV</a>
-        <a class="small-button ghost" href="${trial.rdsPath}" download>RDS</a>
+        <a class="small-button primary" href="${trial.csvPath}" data-download="csv" data-trial-id="${trial.id}" download>CSV</a>
+        <a class="small-button ghost" href="${trial.rdsPath}" data-download="rds" data-trial-id="${trial.id}" download>RDS</a>
       </div>
     </td>
   `;
@@ -158,6 +170,15 @@ function render() {
 
   for (const button of els.table.querySelectorAll("[data-trial]")) {
     button.addEventListener("click", () => openTrial(Number(button.dataset.trial)));
+  }
+
+  for (const link of els.table.querySelectorAll("[data-download]")) {
+    link.addEventListener("click", () => {
+      trackEvent("trial_file_download", {
+        trial_id: link.dataset.trialId,
+        file_type: link.dataset.download,
+      });
+    });
   }
 }
 
@@ -174,7 +195,7 @@ function openTrial(id) {
   const trial = state.trials.find((item) => item.id === id);
   if (!trial) return;
   const paperLink = trial.paperLink
-    ? `<a class="small-button ghost" href="${escapeHtml(trial.paperLink)}" target="_blank" rel="noreferrer">Paper</a>`
+    ? `<a class="small-button ghost" href="${escapeHtml(trial.paperLink)}" data-paper-link target="_blank" rel="noreferrer">Paper</a>`
     : "";
 
   els.dialogContent.innerHTML = `
@@ -204,17 +225,54 @@ function openTrial(id) {
       </div>
       <p><strong>Treatment levels:</strong> ${escapeHtml(trial.treatmentLevels)}</p>
       <div class="dialog-actions">
-        <a class="button primary" href="${trial.csvPath}" download>Download CSV</a>
-        <a class="button ghost" href="${trial.rdsPath}" download>Download RDS</a>
+        <a class="button primary" href="${trial.csvPath}" data-download="csv" data-trial-id="${trial.id}" download>Download CSV</a>
+        <a class="button ghost" href="${trial.rdsPath}" data-download="rds" data-trial-id="${trial.id}" download>Download RDS</a>
         ${paperLink}
       </div>
     </div>
   `;
   els.dialog.showModal();
+  trackEvent("trial_detail_open", {
+    trial_id: trial.id,
+    research_area: trial.researchArea || "Not reported",
+  });
+
+  for (const link of els.dialogContent.querySelectorAll("[data-download]")) {
+    link.addEventListener("click", () => {
+      trackEvent("trial_file_download", {
+        trial_id: link.dataset.trialId,
+        file_type: link.dataset.download,
+        source: "dialog",
+      });
+    });
+  }
+
+  const paper = els.dialogContent.querySelector("[data-paper-link]");
+  if (paper) {
+    paper.addEventListener("click", () => {
+      trackEvent("paper_link_click", {
+        trial_id: trial.id,
+        link_url: trial.paperLink,
+      });
+    });
+  }
+}
+
+function trackFilterUse(controlId) {
+  trackEvent("metadata_filter_use", {
+    control_id: controlId,
+    result_count: state.filtered.length,
+    has_search: els.search.value.trim().length > 0,
+    area_selected: Boolean(els.area.value),
+    outcome_selected: Boolean(els.outcome.value),
+    randomization_selected: Boolean(els.randomization.value),
+    sort_order: els.sort.value,
+  });
 }
 
 async function load() {
   try {
+    initAnalytics();
     const response = await fetch("assets/site-data.json");
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const data = await response.json();
@@ -229,5 +287,13 @@ async function load() {
     console.error(error);
   }
 }
+
+document.querySelectorAll("[data-site-download]").forEach((link) => {
+  link.addEventListener("click", () => {
+    trackEvent("site_file_download", {
+      file_type: link.dataset.siteDownload,
+    });
+  });
+});
 
 load();
