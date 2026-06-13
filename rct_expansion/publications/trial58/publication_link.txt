@@ -1,5 +1,0 @@
-Trial_ID: 58
-Paper Name: Transcranial direct current stimulation and cognitive training in the treatment of cognitive deficit in schizophrenia: a randomized controlled trial
-Paper Link: https://doi.org/10.1186/s12888-025-07749-5
-Citation: Stuchlikova et al. BMC Psychiatry. 2026;26:102. doi:10.1186/s12888-025-07749-5
-Availability: PDF stored here when publicly available; otherwise this file records the publication link.

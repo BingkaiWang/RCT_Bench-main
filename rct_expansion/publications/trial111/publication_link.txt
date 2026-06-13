@@ -1,5 +1,0 @@
-Trial_ID: 111
-Paper Name: Dataset on the effectiveness of cognitive training using the abacus-based mental calculation training application
-Paper Link: https://doi.org/10.5061/dryad.1ns1rn8zx
-Citation: 
-Availability: PDF stored here when publicly available; otherwise this file records the publication link.

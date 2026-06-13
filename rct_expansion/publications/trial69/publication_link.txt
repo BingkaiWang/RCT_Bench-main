@@ -1,5 +1,0 @@
-Trial_ID: 69
-Paper Name: A Randomized Controlled Trial on the Effect of Tapentadol and Morphine on Conditioned Pain Modulation in Healthy Volunteers
-Paper Link: https://doi.org/10.1371/journal.pone.0128997
-Citation: Martini et al. PLOS One. 2015;10(6):e0128997. doi:10.1371/journal.pone.0128997
-Availability: PDF stored here when publicly available; otherwise this file records the publication link.

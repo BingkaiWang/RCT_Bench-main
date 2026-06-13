@@ -1,5 +1,0 @@
-Trial_ID: 107
-Paper Name: Data from: A randomised trial comparing the clinical effectiveness of different emergency department healthcare professionals in soft tissue injury management
-Paper Link: https://doi.org/10.5061/dryad.8jf11
-Citation: 
-Availability: PDF stored here when publicly available; otherwise this file records the publication link.

@@ -1,5 +1,0 @@
-Trial_ID: 91
-Paper Name: MOVE-trial: Monocryl vs Vicryl Rapide for skin repair in mediolateral episiotomies
-Paper Link: https://doi.org/10.1186/s12884-017-1545-8
-Citation: MOVE-trial: Monocryl vs Vicryl Rapide for skin repair in mediolateral episiotomies. BMC Pregnancy and Childbirth (2017). doi:10.1186/s12884-017-1545-8
-Availability: PDF stored here when publicly available; otherwise this file records the publication link.

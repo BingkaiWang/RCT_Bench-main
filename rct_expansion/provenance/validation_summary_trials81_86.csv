@@ -1,7 +1,0 @@
-Trial_ID,n_rows,n_cols,has_treatment,n_treatment_levels,n_primary_outcomes,n_secondary_outcomes,n_covariates,duplicate_name_count,duplicate_exact_column_count,csv_loads,rds_loads,passes_contract
-81,401,14,TRUE,3,1,4,8,0,0,TRUE,TRUE,TRUE
-82,250,26,TRUE,2,1,5,19,0,0,TRUE,TRUE,TRUE
-83,59,25,TRUE,2,4,5,15,0,0,TRUE,TRUE,TRUE
-84,156,12,TRUE,2,4,2,5,0,0,TRUE,TRUE,TRUE
-85,61,29,TRUE,2,2,10,16,0,0,TRUE,TRUE,TRUE
-86,96,21,TRUE,5,1,4,15,0,0,TRUE,TRUE,TRUE

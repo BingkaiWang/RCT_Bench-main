@@ -1,5 +1,0 @@
-Trial_ID: 67
-Paper Name: Middle molecule clearance with high cut-off dialyzer versus high-flux dialyzer using continuous veno-venous hemodialysis with regional citrate anticoagulation: A prospective randomized controlled trial
-Paper Link: https://doi.org/10.1371/journal.pone.0215823
-Citation: Weidhase et al. PLOS One. 2019;14(4):e0215823. doi:10.1371/journal.pone.0215823
-Availability: PDF stored here when publicly available; otherwise this file records the publication link.

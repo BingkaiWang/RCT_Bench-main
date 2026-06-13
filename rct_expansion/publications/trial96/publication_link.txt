@@ -1,5 +1,0 @@
-Trial_ID: 96
-Paper Name: Effects of a Lamellar-Structured Ceramide-Containing Emulsion on the Skin Barrier Function of Surgical Nurses: A Randomized Controlled Trial
-Paper Link: Not identified
-Citation: Dataset record only: Zenodo 17562062. Main publication not identified in prior audit.
-Availability: PDF stored here when publicly available; otherwise this file records the publication link.

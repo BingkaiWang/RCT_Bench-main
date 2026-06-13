@@ -1,5 +1,0 @@
-Trial_ID: 100
-Paper Name: Data from: Can recombinant human thrombomodulin increase survival among patients with severe septic-induced disseminated intravascular coagulation: a single-centre, open-label, randomised controlled trial
-Paper Link: https://doi.org/10.5061/dryad.2n6v4
-Citation: 
-Availability: PDF stored here when publicly available; otherwise this file records the publication link.

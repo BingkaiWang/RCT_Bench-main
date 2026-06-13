@@ -1,6 +1,0 @@
-provided_file,matched_candidate_id,status,notes
-rct_expansion/provenance/manual_review_user_files_2026_06_11/dataverse_files.zip,RCTC-01367,checked,Contains Long_term_adoption_Dataverse.dta and Stata analysis code.
-rct_expansion/provenance/manual_review_user_files_2026_06_11/doi-10.34894-bazoqf.zip,RCTC-02282,checked,Contains Data CSV plus Study protocol PDF.
-rct_expansion/provenance/manual_review_user_files_2026_06_11/RCTC-00064.zip,RCTC-00064,checked_duplicate_active_trial82,"Contains Raw Data.sav, Output Data.pdf, and CONSORT checklist."
-rct_expansion/provenance/manual_review_user_files_2026_06_11/RCTC-01557.zip,RCTC-01557,mismatched_contents,"Archive contains the eyeglasses RCTC-01367 Stata file, not the music-intervention chemotherapy data."
-rct_expansion/provenance/manual_review_user_files_2026_06_11/RCTC-05010.xlsx,RCTC-05010,checked,Contains ITT_analysis set and CRF_variables sheets.

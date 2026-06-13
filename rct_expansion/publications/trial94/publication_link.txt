@@ -1,5 +1,0 @@
-Trial_ID: 94
-Paper Name: Daily SMS medication reminder system and tuberculosis treatment outcomes in Pakistan
-Paper Link: https://doi.org/10.1371/journal.pone.0162944
-Citation: Daily SMS medication reminder system and tuberculosis treatment outcomes in Pakistan. PLOS ONE (2016). doi:10.1371/journal.pone.0162944
-Availability: PDF stored here when publicly available; otherwise this file records the publication link.

@@ -1,5 +1,0 @@
-Trial_ID: 103
-Paper Name: Data from: Economic evaluation of a general hospital unit for older people with delirium and dementia (TEAM randomised controlled trial)
-Paper Link: https://doi.org/10.5061/dryad.90p17
-Citation: 
-Availability: PDF stored here when publicly available; otherwise this file records the publication link.

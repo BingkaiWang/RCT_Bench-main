@@ -1,5 +1,0 @@
-Trial_ID: 82
-Paper Name: Effect of Tocovid on postoperative atrial fibrillation after CABG
-Paper Link: https://doi.org/10.31083/j.rcm2304122
-Citation: Effect of Tocovid on postoperative atrial fibrillation after CABG. Reviews in Cardiovascular Medicine. 2022. DOI: 10.31083/j.rcm2304122
-Availability: PDF stored here when publicly available; otherwise this file records the publication link.

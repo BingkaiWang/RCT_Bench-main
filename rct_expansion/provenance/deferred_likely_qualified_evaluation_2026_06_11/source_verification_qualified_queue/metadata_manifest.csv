@@ -1,9 +1,0 @@
-candidate_id,metadata_url,local_path,status,error
-RCTC-01532,https://dataverse.harvard.edu/api/datasets/:persistentId/?persistentId=doi:10.7910/dvn/cqsqsq,rct_expansion/provenance/deferred_likely_qualified_evaluation_2026_06_11/source_verification_qualified_queue/metadata/RCTC-01532_dataverse.json,0,
-RCTC-04923,https://dataverse.harvard.edu/api/datasets/:persistentId/?persistentId=doi:10.7910/dvn/tffsgr,rct_expansion/provenance/deferred_likely_qualified_evaluation_2026_06_11/source_verification_qualified_queue/metadata/RCTC-04923_dataverse.json,0,
-RCTC-00064,https://dataverse.harvard.edu/api/datasets/:persistentId/?persistentId=doi:10.7910/dvn/bzbhgx,rct_expansion/provenance/deferred_likely_qualified_evaluation_2026_06_11/source_verification_qualified_queue/metadata/RCTC-00064_dataverse.json,0,
-RCTC-05010,https://dataverse.harvard.edu/api/datasets/:persistentId/?persistentId=doi:10.7910/dvn/dofciv,rct_expansion/provenance/deferred_likely_qualified_evaluation_2026_06_11/source_verification_qualified_queue/metadata/RCTC-05010_dataverse.json,0,
-RCTC-02775,https://api.figshare.com/v2/articles/14730579/versions/1,rct_expansion/provenance/deferred_likely_qualified_evaluation_2026_06_11/source_verification_qualified_queue/metadata/RCTC-02775_figshare.json,0,
-RCTC-00950,https://api.figshare.com/v2/articles/28759478/versions/1,rct_expansion/provenance/deferred_likely_qualified_evaluation_2026_06_11/source_verification_qualified_queue/metadata/RCTC-00950_figshare.json,0,
-RCTC-04272,https://data.mendeley.com/api/datasets/bx2gvkty4c/files,rct_expansion/provenance/deferred_likely_qualified_evaluation_2026_06_11/source_verification_qualified_queue/metadata/RCTC-04272_mendeley_files.json,0,
-RCTC-02282,https://dataverse.nl/api/datasets/:persistentId/?persistentId=doi:10.34894/bazoqf,rct_expansion/provenance/deferred_likely_qualified_evaluation_2026_06_11/source_verification_qualified_queue/metadata/RCTC-02282_dataverse.json,0,
