@@ -1,5 +1,0 @@
-scope,representative_candidate_id,official_route_tested,observed_status,decision
-Dryad access-failed and rate-limited candidates,RCTC-01363,https://datadryad.org/stash/downloads/file_stream/1216086,HTTP 403 from curl,Do not bulk retry; use manual browser download from Dryad landing pages.
-Dryad API file links captured in file_manifest.csv,multiple,https://datadryad.org/api/v2/files/{file_id}/download,HTTP 401 or HTTP 429 during June 11 recheck,Manual browser download or later slower retry; do not bypass Dryad controls.
-Digital Commons Data@Becker / Mendeley STEP-HI,RCTC-04981,https://data.mendeley.com/datasets/grgwpgkpdg/3,Landing page reachable; page states files are not publicly available and offers Request access.,Use request-access workflow; no anonymous download route.
-Zenodo and Loughborough records with no data file registered,multiple,Repository API metadata and file manifests,"Several records expose zero files, PDF-only supplements, or restricted/no-license records.",Manual landing-page check only; treat as not cleanable unless a participant-level data file is visible.

@@ -1,5 +1,0 @@
-Trial_ID: 71
-Paper Name: Effectiveness of antenatal screening of asymptomatic bacteriuria in reduction of prematurity and low birth weight: Evaluating a point-of-care rapid test in a pragmatic randomized controlled study
-Paper Link: https://doi.org/10.1016/j.eclinm.2021.100762
-Citation: Gehani et al. EClinicalMedicine. 2021;33:100762. doi:10.1016/j.eclinm.2021.100762
-Availability: PDF stored here when publicly available; otherwise this file records the publication link.

@@ -1,5 +1,0 @@
-Trial_ID: 64
-Paper Name: Low-dose, non-supervised, health insurance initiated exercise for the treatment and prevention of chronic low back pain in employees. Results from a randomized controlled trial
-Paper Link: https://doi.org/10.1371/journal.pone.0178585
-Citation: Haufe et al. PLOS One. 2017;12(6):e0178585. doi:10.1371/journal.pone.0178585
-Availability: PDF stored here when publicly available; otherwise this file records the publication link.

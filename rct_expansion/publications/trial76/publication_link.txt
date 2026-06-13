@@ -1,5 +1,0 @@
-Trial_ID: 76
-Paper Name: Comparison of time-segmented-target teaching and traditional teaching methods for spinal puncture: a randomized trial
-Paper Link: https://doi.org/10.3389/feduc.2025.1665203
-Citation: Frontiers in Education. 2025. doi:10.3389/feduc.2025.1665203
-Availability: PDF stored here when publicly available; otherwise this file records the publication link.

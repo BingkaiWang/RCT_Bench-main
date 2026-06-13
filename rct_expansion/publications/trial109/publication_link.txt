@@ -1,5 +1,0 @@
-Trial_ID: 109
-Paper Name: A comparative study between Vitamin K1 and K2 on vascular calcification in hemodialysis patients: a randomized controlled trial
-Paper Link: https://doi.org/10.5061/dryad.vx0k6djsv
-Citation: 
-Availability: PDF stored here when publicly available; otherwise this file records the publication link.

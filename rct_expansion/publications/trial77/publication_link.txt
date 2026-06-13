@@ -1,5 +1,0 @@
-Trial_ID: 77
-Paper Name: The effectiveness of core stability exercises on functional outcomes in early subacute stroke recovery: a randomized controlled trial
-Paper Link: https://doi.org/10.1080/10749357.2024.2439712
-Citation: Topics in Stroke Rehabilitation. 2025. doi:10.1080/10749357.2024.2439712
-Availability: PDF stored here when publicly available; otherwise this file records the publication link.

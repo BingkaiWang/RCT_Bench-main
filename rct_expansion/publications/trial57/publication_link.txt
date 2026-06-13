@@ -1,5 +1,0 @@
-Trial_ID: 57
-Paper Name: Functional imagery training versus motivational interviewing for weight loss: a randomised controlled trial of brief individual interventions for overweight and obesity
-Paper Link: https://doi.org/10.1038/s41366-018-0122-1
-Citation: Solbrig et al. International Journal of Obesity. 2019;43:883-894. doi:10.1038/s41366-018-0122-1
-Availability: PDF stored here when publicly available; otherwise this file records the publication link.

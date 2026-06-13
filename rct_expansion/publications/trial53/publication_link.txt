@@ -1,5 +1,0 @@
-Trial_ID: 53
-Paper Name: Analgesic Effect of Ultrasound-Guided Anterior Quadratus Lumborum Block at the L2 Level in Patients Undergoing Laparoscopic Partial Nephrectomy: A Single-Center, Randomized Controlled Trial
-Paper Link: https://doi.org/10.1155/2022/8958859
-Citation: He et al. Pain Research and Management. 2022;2022:8958859. doi:10.1155/2022/8958859
-Availability: PDF stored here when publicly available; otherwise this file records the publication link.

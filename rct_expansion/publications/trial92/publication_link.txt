@@ -1,5 +1,0 @@
-Trial_ID: 92
-Paper Name: Health education intervention to improve malaria preventive practices in pregnancy
-Paper Link: https://doi.org/10.1186/s12936-021-03586-5
-Citation: Health education intervention to improve malaria preventive practices in pregnancy. Malaria Journal (2021). doi:10.1186/s12936-021-03586-5
-Availability: PDF stored here when publicly available; otherwise this file records the publication link.

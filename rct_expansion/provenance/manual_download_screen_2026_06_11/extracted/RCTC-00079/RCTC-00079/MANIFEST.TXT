@@ -1,7 +1,0 @@
-consent-form.pdf (application/pdf) 99551 bytes.
-Thyrogen-Dosage.txt (text/plain) 1987 bytes.
-Patient-demographic.txt (text/plain) 5653 bytes.
-data-privacy-assessment.pdf (application/pdf) 209531 bytes.
-Lab-results.txt (text/plain) 115468 bytes.
-Levothyroxine-Dosage.txt (text/plain) 19303 bytes.
-00-readme.txt (text/plain) 8942 bytes.

@@ -1,5 +1,0 @@
-Trial_ID: 89
-Paper Name: Acupuncture and nimodipine for mild cognitive impairment after cerebral infarction
-Paper Link: https://doi.org/10.1186/s12906-016-1337-0
-Citation: Acupuncture and nimodipine for mild cognitive impairment after cerebral infarction. BMC Complementary and Alternative Medicine (2016). doi:10.1186/s12906-016-1337-0
-Availability: PDF stored here when publicly available; otherwise this file records the publication link.

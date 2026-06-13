@@ -1,5 +1,0 @@
-Trial_ID: 83
-Paper Name: Effects of a web-based evolutionary mismatch-framed intervention targeting physical activity and diet
-Paper Link: https://doi.org/10.1007/s12529-019-09821-3
-Citation: Effects of a web-based evolutionary mismatch-framed intervention targeting physical activity and diet. International Journal of Behavioral Medicine. 2019. DOI: 10.1007/s12529-019-09821-3
-Availability: PDF stored here when publicly available; otherwise this file records the publication link.

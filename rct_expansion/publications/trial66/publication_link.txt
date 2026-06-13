@@ -1,5 +1,0 @@
-Trial_ID: 66
-Paper Name: Ashtanga-Based Yoga Therapy Increases the Sensory Contribution to Postural Stability in Visually-Impaired Persons at Risk for Falls as Measured by the Wii Balance Board: A Pilot Randomized Controlled Trial
-Paper Link: https://doi.org/10.1371/journal.pone.0129646
-Citation: Jeter et al. PLOS One. 2015;10:e0129646. doi:10.1371/journal.pone.0129646
-Availability: PDF stored here when publicly available; otherwise this file records the publication link.

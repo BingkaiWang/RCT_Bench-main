@@ -1,5 +1,0 @@
-Trial_ID: 120
-Paper Name: Intermittent BRAF inhibition in advanced BRAF mutated melanoma: results of a phase II randomized trial
-Paper Link: https://doi.org/10.7910/dvn/tffsgr
-Citation: Intermittent BRAF inhibition in advanced BRAF mutated melanoma: results of a phase II randomized trial. Dataset DOI: 10.7910/dvn/tffsgr.
-Availability: PDF stored here when publicly available; otherwise this file records the publication link.

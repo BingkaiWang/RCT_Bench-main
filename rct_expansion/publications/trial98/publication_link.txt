@@ -1,5 +1,0 @@
-Trial_ID: 98
-Paper Name: Data from: Strategies for understanding and reducing the Plasmodium vivax and Plasmodium ovale hypnozoite reservoir in Papua New Guinean children: a randomised placebo-controlled trial and mathematical model
-Paper Link: https://doi.org/10.5061/dryad.m1n03
-Citation: 
-Availability: PDF stored here when publicly available; otherwise this file records the publication link.

@@ -1,5 +1,0 @@
-Trial_ID: 61
-Paper Name: A Dietary Supplement Containing Cinnamon, Chromium and Carnosine Decreases Fasting Plasma Glucose and Increases Lean Mass in Overweight or Obese Pre-Diabetic Subjects: A Randomized, Placebo-Controlled Trial
-Paper Link: https://doi.org/10.1371/journal.pone.0138646
-Citation: Liu et al. PLOS One. 2015;10(9):e0138646. doi:10.1371/journal.pone.0138646
-Availability: PDF stored here when publicly available; otherwise this file records the publication link.

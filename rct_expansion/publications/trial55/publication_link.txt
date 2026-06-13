@@ -1,5 +1,0 @@
-Trial_ID: 55
-Paper Name: Taking Charge After Acute Exacerbation of Chronic Obstructive Pulmonary Disease: A Randomized Controlled Feasibility Trial of a Psychologically Informed Self-Management Intervention
-Paper Link: https://doi.org/10.2147/COPD.S393644
-Citation: Levack et al. International Journal of Chronic Obstructive Pulmonary Disease. 2023;18:317-325. doi:10.2147/COPD.S393644
-Availability: PDF stored here when publicly available; otherwise this file records the publication link.

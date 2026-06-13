@@ -1,5 +1,0 @@
-Trial_ID: 90
-Paper Name: Community pharmacist-led medication review in patients on polypharmacy
-Paper Link: https://doi.org/10.1186/s12913-016-1384-8
-Citation: Community pharmacist-led medication review in patients on polypharmacy. BMC Health Services Research (2016). doi:10.1186/s12913-016-1384-8
-Availability: PDF stored here when publicly available; otherwise this file records the publication link.

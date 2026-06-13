@@ -1,151 +1,136 @@
-# RCT_Research
+# RCT Bench
 
-A comprehensive comparison of covariate adjustment methods for randomized controlled trials (RCTs), evaluating 6 statistical methods × 3 variable selection strategies (18 total combinations) using real-world trial data.
+RCT Bench is a curated benchmark of public, participant-level randomized
+controlled trial datasets for evaluating covariate-adjustment methods.
 
-## Overview
+## Dataset
 
-This repository contains a systematic empirical study comparing various covariate adjustment methods for analyzing randomized controlled trials. The research evaluates the performance of multiple statistical approaches using 56 real-world RCT datasets, examining both continuous and binary outcomes.
+The public cleaned dataset contains 125 individually randomized RCTs:
 
-## Key Features
+- `cleaned_data/trial1.csv` through `cleaned_data/trial125.csv`
+- `cleaned_data/trial1.rds` through `cleaned_data/trial125.rds`
+- `meta_data.xlsx`
+- `data-dictionary.xlsx`
 
-- **56 Real-World RCT Datasets**: 50 non-clustered and 6 clustered randomized controlled trials
-- **6 Statistical Methods**: Comprehensive comparison of modern causal inference and machine learning approaches
-- **3 Variable Selection Strategies**: All covariates, top-3 by correlation, and manual/baseline selection
-- **Standardized Pipeline**: Unified data cleaning and analysis workflow
-- **Extensive Visualizations**: Publication-ready plots for method comparison and performance metrics
+Each cleaned trial is participant-level and follows the same variable contract:
 
-## Statistical Methods Compared
+- `Treatment`: randomized treatment assignment, with the control/reference arm
+  first when identifiable.
+- `YP_*`: primary outcome variables. Each trial has at least one.
+- `YS_*`: secondary outcome variables when useful and available.
+- `X_*`: baseline covariates or pre-treatment measurements.
 
-### Regression-Based Methods
-- **Unadjusted**: Simple difference in means
-- **ANCOVA**: Analysis of Covariance
-- **ANHECOVA**: Heteroscedasticity-Robust ANCOVA
+## Metadata
 
-### Robust Methods (RobinCar)
-- **RC-ANCOVA**: Robust covariate adjustment
-- **RC-ANHECOVA**: Robust heteroscedasticity-adjusted covariate adjustment
-- **RC-Logistic G-Computation**: Model-based standardization for binary outcomes
+`meta_data.xlsx` contains one public metadata workbook for all 125 trials. The
+main `Sheet1` keeps the original 19-column metadata schema, including the
+historical spelling `Priamry Outcome` for compatibility.
 
-### Machine Learning Ensemble
-- **SuperLearner Ensemble**: Optimal weighted combination of base learners
-- **Individual SuperLearner Methods**:
-  - GLM (Generalized Linear Models)
-  - Elastic Net (glmnet)
-  - CART (rpart)
-  - Random Forest
-  - GAM (Generalized Additive Models)
-  - BART (Bayesian Additive Regression Trees)
+Additional workbook sheets preserve expansion curation context where available:
 
-### Causal Inference Methods
-- **TMLE**: Targeted Maximum Likelihood Estimation (with SuperLearner)
-- **AIPW**: Augmented Inverse Probability Weighting (with SuperLearner)
-- **IPW**: Inverse Probability Weighting
+- `Provenance`
+- `Validation`
+- `Audit_Summary`
+- `Audit_Detail`
+- `Duplicate_Screen`
+- `Cleanup_Issues`
 
-## Variable Selection Strategies
+`data-dictionary.xlsx` contains one row per variable per trial with the variable
+role, inferred statistical/storage type, R class, missingness, unique-value
+count, levels or range, and a short explanation.
 
-1. **All Covariates**: Use all available baseline covariates
-2. **Top-3 Correlation**: Select 3 covariates most correlated with the outcome
-3. **Manual/Baseline**: Domain-knowledge driven selection with baseline measures
+For expansion trials 51-125, metadata should describe the primary publication
+rather than the source dataset record. `Trial Number/Name` is reserved for
+official registry identifiers such as ClinicalTrials.gov, ISRCTN, UMIN, CTRI,
+TCTR, ACTRN, DRKS, or similar registries; it is left blank when no registry ID
+is discoverable. `Paper Link` should point to the paper DOI or publisher page,
+and `Citation` is stored as a numeric citation count.
 
-## Repository Structure
+## Data Curation Rationale And Workflow
 
-```Text
-RCT_Data/
-├── raw_data/                       # Raw trial data from public sources
-│   ├── Non_Clustered_RCT/          # 50 individually randomized trials
-│   └── Clustered_RCT/              # 6 cluster-randomized trials
-├── cleaned_data/                   # Standardized analysis-ready datasets
-│   ├── Non_Clustered_RCT/          # Processed trial data
-│   ├── Clustered_RCT/              # Processed cluster trial data
-│   ├── Plot/                       # Generated visualization outputs
-│   ├── meta_data.xlsx              # Trial metadata and characteristics
-│   ├── meta_data_cluster.xlsx      # Cluster trial metadata
-│   ├── meta_data_demo.xlsx         # Demographic metadata
-│   └── meta_data_comparison.xlsx   # Method comparison results
-├── RCT_data_cleaning.Rmd           # Unified data cleaning & variable standardization
-├── RCT_analysis.Rmd                # Main analysis pipeline (6 methods × 3 strategies = 18 combinations)
-└── RCT_Workspace.Rmd               # Optional exploratory workspace
-```
+RCT Bench is designed for method evaluation, so each trial is curated to expose
+the participant-level structure needed for covariate-adjusted analyses while
+keeping the analysis table compact and reproducible. The cleaned files retain
+randomized treatment assignment, publication-aligned primary outcomes, useful
+secondary outcomes, and baseline covariates measured before treatment.
 
-## Usage
+Expansion trials are screened before inclusion. A candidate must be an
+individually randomized trial, provide participant-level data with treatment
+assignment and at least one outcome, have reuse terms compatible with research
+reuse, and be linkable to a primary publication or official preprint. Cluster
+trials, observational studies, simulations, reviews, meta-analyses, and
+aggregate-only datasets are excluded from the public benchmark.
 
-### 1. Data Cleaning
+The curation workflow is:
 
-The `RCT_data_cleaning.Rmd` script processes raw trial data and standardizes variables:
+1. Identify candidate datasets from open repositories and confirm eligibility.
+2. Link each dataset to the primary publication, trial registry, DOI, and
+   journal record when available.
+3. Clean source data into one participant-level `.csv` and `.rds` file per
+   trial using the `Treatment`, `YP_*`, `YS_*`, and `X_*` contract.
+4. Select baseline covariates from the publication baseline table or
+   prespecified analysis variables rather than keeping every raw field.
+5. Audit cleaned outcomes against publication values when feasible; otherwise
+   record descriptive summary-statistics audit rows.
+6. Refresh publication-backed metadata, data dictionary, validation summaries,
+   and provenance outputs from scripts rather than editing generated artifacts
+   by hand.
+
+Raw files, downloaded papers, backup candidates, screening queues, and detailed
+provenance live under ignored `local/` staging folders. The public repository
+keeps the cleaned benchmark, public metadata workbooks, and reusable
+preprocessing code.
+
+## Preprocessing
+
+Reproducible cleaning, screening, validation, and metadata-generation code lives
+under `preprocessing/`.
+
+Important entry points:
+
+- `preprocessing/RCT_data_cleaning.Rmd`: original trial cleaning workflow.
+- `preprocessing/RCT_data_cleaning_trials51_125.Rmd`: expansion trial cleaning
+  workflow for the current flat 125-trial public layout.
+- `preprocessing/archive/RCT_outcome_reproducibility_expansion.Rmd`: retained
+  expansion outcome reproducibility and summary-statistics audit workflow.
+- `preprocessing/archive/RCT_analysis.Rmd`: downstream method-comparison
+  analysis workflow retained from the original repository.
+- `preprocessing/archive/build_public_metadata.py`: rebuilds
+  `meta_data.xlsx`.
+- `preprocessing/archive/clean_metadata_trials51_125.py`: refreshes
+  publication-backed metadata for trials 51-125 and writes a cell-level
+  provenance CSV.
+- `preprocessing/archive/build_data_dictionary.R`: rebuilds
+  `data-dictionary.xlsx`.
+- `preprocessing/archive/validate_public_dataset.R`: validates the flat public
+  `cleaned_data/` layout.
+
+## Local Materials
+
+Raw data, downloaded publications, provenance archives, screening workspaces,
+backup candidates, generated plots, and legacy staging folders are kept under
+`local/`. That folder is intentionally ignored by git so the public repository
+stays focused on the cleaned benchmark and reproducible preprocessing code.
+
+## Use
+
+In R, a cleaned trial can be loaded with:
 
 ```r
-# Open RCT_data_cleaning.Rmd and run all chunks to:
-# - Load raw trial data from various sources
-# - Standardize variable naming conventions
-# - Compute outcome measures (YP_* for primary, YS_* for secondary)
-# - Create baseline covariates (X_*)
-# - Export cleaned .rds and .csv files
+trial1 <- readRDS("cleaned_data/trial1.rds")
+trial51 <- read.csv("cleaned_data/trial51.csv", check.names = FALSE)
 ```
 
-**Variable Naming Convention:**
-- `YP_*`: Primary outcomes
-- `YS_*`: Secondary outcomes
-- `X_*`: Baseline covariates
-- `Treatment`: Treatment assignment variable
+Before analysis, validate the public layout:
 
-### 2. Running the Analysis
-
-The `RCT_analysis.Rmd` script performs the comprehensive method comparison:
-
-```r
-# Open RCT_analysis.Rmd and execute sequentially:
-# 1. Load cleaned trial datasets
-# 2. Apply each of 6 methods with 3 selection strategies (18 total combinations)
-# 3. Compare estimates and standard errors
-# 4. Generate visualizations
-# 5. Export comparison results
+```sh
+Rscript preprocessing/archive/validate_public_dataset.R
 ```
 
-### 3. Exploring Results
+Regenerate metadata and the data dictionary:
 
-Results are saved in `cleaned_data/meta_data_comparison.xlsx` with columns:
-- Treatment effect estimates for each method
-- Standard errors for precision comparison
-- Relative efficiency metrics
-- Covariate selection details
-
-## Outcome Types
-
-The analysis handles both:
-- **Continuous outcomes**: Changes in quantitative measures (e.g., blood pressure, BMI)
-- **Binary outcomes**: Event indicators (e.g., disease occurrence, treatment success)
-
-## Performance Metrics
-
-The study evaluates methods based on:
-- **Precision Gain**: Reduction in standard error relative to unadjusted analysis
-- **Estimate Stability**: Consistency across variable selection strategies
-- **Computational Efficiency**: Runtime and convergence properties
-- **Robustness**: Performance across different outcome types and trial characteristics
-
-## Visualizations
-
-The `cleaned_data/Plot/` directory contains:
-- Method comparison plots (combined and stratified by outcome type)
-- Precision gain visualizations
-- Sample size relationship plots
-- Trial characteristic distributions
-- Covariate selection impact analysis
-
-## Key Findings
-
-The analysis reveals:
-- Comparative performance of classical vs. modern methods
-- Impact of variable selection strategy on different methods
-- Trade-offs between precision and robustness
-- Method recommendations based on trial characteristics
-
-## Data Sources
-
-All RCT data are obtained from publicly available sources and published clinical trials. Trial metadata includes:
-- Publication year
-- Research area (medical specialty)
-- Sample size
-- Randomization scheme
-- Number of treatment arms
-- Outcome types
+```sh
+python3 preprocessing/archive/clean_metadata_trials51_125.py  # requires openpyxl and network access for OpenAlex refreshes
+python3 preprocessing/archive/build_public_metadata.py
+Rscript preprocessing/archive/build_data_dictionary.R
+```

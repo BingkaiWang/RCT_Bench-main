@@ -1,5 +1,0 @@
-Trial_ID: 119
-Paper Name: Pain perceived during hysteroscopic morcellation by vaginoscopy vs standard technique in an outpatient setting
-Paper Link: https://doi.org/10.5683/sp3/qk5zrd
-Citation: Pain perceived during hysteroscopic morcellation by vaginoscopy vs standard technique in an outpatient setting. Dataset DOI: 10.5683/sp3/qk5zrd.
-Availability: PDF stored here when publicly available; otherwise this file records the publication link.

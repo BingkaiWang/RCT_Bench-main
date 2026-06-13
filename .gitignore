@@ -10,3 +10,9 @@
 __pycache__/
 *.py[cod]
 node_modules/
+node_modules
+local/
+preproccessing/arxiv/
+preprocessing/arxiv/
+cleaned_data/Plot/
+cleaned_data/plot/

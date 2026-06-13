@@ -1,9 +1,0 @@
-rule,crude_logic
-Associated publication,"Yes when DataCite relatedIdentifiers indicate article/document/citation links, or Harvard records mention publications, related materials, manuscript/article data, or DOI-like publication references."
-No DUA / open signal,"Yes when license/source text includes open terms such as Creative Commons, CC0, CC-BY, open access, or common open repositories, and no restriction terms are detected."
-Restriction / DUA signal,"Yes when text includes restricted access, access restricted, data use agreement/DUA, controlled access, request access, available upon request, login required, embargo, or similar terms."
-Individual-level signal,"Yes when title/abstract/source text includes participant-level, individual participant, patient/student/subject/respondent-level, raw data, clinical data, survey data, treatment/control/intervention group, or randomized/allocated participants."
-Data-file signal,"Yes when Harvard reports files or metadata mentions common analyzable formats such as CSV, Excel, SPSS, Stata, tabular files, or application/vnd.openxmlformats."
-Likely qualified,"RCT signal + associated publication + open/no-DUA signal + individual-level signal, without detected restriction, cluster randomization, or protocol/materials-only signal."
-Needs manual review,RCT-looking and publication-backed but one or more required signals are weak/missing. These are not rejected; they need repository-file inspection and paper review.
-Likely not qualified,"Detected restriction/DUA, cluster randomization, protocol/materials-only record, or weak overall RCT/data/publication evidence."

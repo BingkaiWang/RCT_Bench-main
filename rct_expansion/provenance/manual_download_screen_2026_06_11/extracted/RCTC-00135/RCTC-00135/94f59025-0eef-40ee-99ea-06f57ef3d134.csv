@@ -1,8 +1,0 @@
-NO.,Location of the hospital,Group,Random numbers,Age(yr),Diagnosis,Size of prostate(mm3),T Stage,N Stage,M Stage,Gleason Score, Hemoglobin(g/L),total PSA(ng/mL)
-1,Site_4,Telesurgery Group,126,60-69,Prostate Cancer,39*49*54,T2,Nx,Mx,4+4,154,15.93
-2,Site_4,Telesurgery Group,122,70-79,Prostate Cancer,29*32*39,T2,Nx,Mx,3+4,134,6.451
-3,Site_6,Local Surgery Group,202,60-69,Prostate Cancer,,T2,N0,M0,4+4,143,1.17
-4,Site_6,Local Surgery Group,204,60-69,Prostate Cancer,41*45*35,T2,N0,M0,3+4,126,13.01
-5,Site_5,Telesurgery Group,507,60-69,Prostate Cancer,36*45*55,T2,N0,M0,3+3,163,6.13
-6,Site_5,Local Surgery Group,508,50-59,Prostate Cancer,40*32*52,T2,N0,M0,3+3,149,9.99
-7,Site_2,Local Surgery Group,41,70-79,Prostate Cancer,_,_,_,_,_,_,_

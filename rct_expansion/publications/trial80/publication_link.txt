@@ -1,5 +1,0 @@
-Trial_ID: 80
-Paper Name: Efficacy of a Digital Peer Support Program on Weight Management and Mental Health in University Students With Preobesity: Randomized Controlled Trial
-Paper Link: https://doi.org/10.2196/78960
-Citation: JMIR mHealth and uHealth. 2026. doi:10.2196/78960
-Availability: PDF stored here when publicly available; otherwise this file records the publication link.

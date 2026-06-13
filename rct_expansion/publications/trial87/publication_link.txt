@@ -1,5 +1,0 @@
-Trial_ID: 87
-Paper Name: Comparison of hemodynamic response to tracheal intubation and postoperative pain in closed reduction of nasal bone fracture
-Paper Link: https://doi.org/10.1186/s12871-016-0279-x
-Citation: Comparison of hemodynamic response to tracheal intubation and postoperative pain in closed reduction of nasal bone fracture. BMC Anesthesiology (2016). doi:10.1186/s12871-016-0279-x
-Availability: PDF stored here when publicly available; otherwise this file records the publication link.

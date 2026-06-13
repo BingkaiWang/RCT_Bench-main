@@ -1,5 +1,0 @@
-Trial_ID: 75
-Paper Name: Is conventional radiofrequency ablation of the superolateral branch, one of the three genicular nerves targeted as standard, necessary or not? A non-inferiority randomized controlled trial
-Paper Link: https://doi.org/10.3344/kjp.24098
-Citation: Korean Journal of Pain. 2024. doi:10.3344/kjp.24098
-Availability: PDF stored here when publicly available; otherwise this file records the publication link.

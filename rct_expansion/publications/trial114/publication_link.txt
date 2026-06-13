@@ -1,5 +1,0 @@
-Trial_ID: 114
-Paper Name: Data from: Early sitting in ischemic stroke patients (SEVEL): a randomized controlled trial
-Paper Link: https://doi.org/10.5061/dryad.jh15q
-Citation: 
-Availability: PDF stored here when publicly available; otherwise this file records the publication link.

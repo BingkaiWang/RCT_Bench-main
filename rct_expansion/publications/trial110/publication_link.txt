@@ -1,5 +1,0 @@
-Trial_ID: 110
-Paper Name: Data from: Intravenous ferumoxytol versus oral ferrous sulfate for iron deficiency anemia in pregnancy: A randomized controlled trial
-Paper Link: https://doi.org/10.5061/dryad.k3j9kd5qd
-Citation: 
-Availability: PDF stored here when publicly available; otherwise this file records the publication link.
