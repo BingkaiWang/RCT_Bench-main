@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="RCT Bench is a curated benchmark of participant-level randomized controlled trial datasets for covariate-adjustment methods."
+    >
+    <title>RCT Bench</title>
+    <link rel="stylesheet" href="assets/styles.css">
+  </head>
+  <body>
+    <header class="site-header" aria-label="Site header">
+      <a class="brand" href="#top" aria-label="RCT Bench home">
+        <span class="brand-mark" aria-hidden="true">RB</span>
+        <span>RCT Bench</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#explorer">Explorer</a>
+        <a href="#downloads">Downloads</a>
+        <a href="#methods">Methods</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <img src="assets/rct-bench-hero.png" alt="" class="hero-media">
+        <div class="hero-shade" aria-hidden="true"></div>
+        <div class="hero-content">
+          <p class="eyebrow">Participant-level randomized trial benchmark</p>
+          <h1 id="hero-title">RCT Bench</h1>
+          <p class="hero-copy">
+            A curated public collection of randomized controlled trials for evaluating covariate-adjustment methods.
+          </p>
+          <div class="hero-actions" aria-label="Primary actions">
+            <a class="button primary" href="#explorer">Explore metadata</a>
+            <a class="button secondary" href="#downloads">Download workbooks</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="stats-strip" aria-label="Dataset summary">
+        <div>
+          <span class="stat-value" id="stat-trials">125</span>
+          <span class="stat-label">Trials</span>
+        </div>
+        <div>
+          <span class="stat-value" id="stat-rows">--</span>
+          <span class="stat-label">Participant rows</span>
+        </div>
+        <div>
+          <span class="stat-value" id="stat-vars">--</span>
+          <span class="stat-label">Cleaned variables</span>
+        </div>
+        <div>
+          <span class="stat-value" id="stat-years">--</span>
+          <span class="stat-label">Publication span</span>
+        </div>
+      </section>
+
+      <section class="intro-section" aria-labelledby="platform-title">
+        <div class="section-kicker">Benchmark contract</div>
+        <div class="intro-grid">
+          <div>
+            <h2 id="platform-title">Cleaned trials, publication-aligned metadata, direct file access.</h2>
+          </div>
+          <div class="intro-copy">
+            <p>
+              Each trial is stored as a participant-level CSV and RDS table with a shared naming contract for treatment,
+              primary outcomes, secondary outcomes, and baseline covariates.
+            </p>
+            <p>
+              The explorer below is generated from the public metadata and data dictionary workbooks, keeping the web view
+              synchronized with the benchmark files.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="explorer-section" id="explorer" aria-labelledby="explorer-title">
+        <div class="section-heading">
+          <div>
+            <div class="section-kicker">Metadata lookup</div>
+            <h2 id="explorer-title">Find a trial</h2>
+          </div>
+          <div class="result-count" id="result-count" aria-live="polite">Loading trials...</div>
+        </div>
+
+        <div class="controls" aria-label="Trial filters">
+          <label class="search-control">
+            <span>Search</span>
+            <input id="search-input" type="search" placeholder="Paper, registry, outcome, journal, area">
+          </label>
+          <label>
+            <span>Research area</span>
+            <select id="area-filter"></select>
+          </label>
+          <label>
+            <span>Outcome type</span>
+            <select id="outcome-filter"></select>
+          </label>
+          <label>
+            <span>Randomization</span>
+            <select id="randomization-filter"></select>
+          </label>
+          <label>
+            <span>Sort</span>
+            <select id="sort-select">
+              <option value="id-asc">Trial ID</option>
+              <option value="year-desc">Newest papers</option>
+              <option value="sample-desc">Largest samples</option>
+              <option value="citation-desc">Most cited</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="table-wrap" aria-label="Metadata results">
+          <table>
+            <thead>
+              <tr>
+                <th scope="col">Trial</th>
+                <th scope="col">Paper</th>
+                <th scope="col">Area</th>
+                <th scope="col">Sample</th>
+                <th scope="col">Outcome</th>
+                <th scope="col">Files</th>
+              </tr>
+            </thead>
+            <tbody id="trial-table"></tbody>
+          </table>
+        </div>
+
+        <div class="empty-state" id="empty-state" hidden>
+          No trials match the current filters.
+        </div>
+      </section>
+
+      <section class="downloads-section" id="downloads" aria-labelledby="downloads-title">
+        <div class="section-kicker">Downloads</div>
+        <h2 id="downloads-title">Workbooks and trial files</h2>
+        <div class="download-grid">
+          <a class="download-panel" href="../meta_data.xlsx" download>
+            <span class="download-title">Metadata workbook</span>
+            <span class="download-note">Trial-level publication metadata and provenance sheets.</span>
+          </a>
+          <a class="download-panel" href="../data-dictionary.xlsx" download>
+            <span class="download-title">Data dictionary</span>
+            <span class="download-note">One row per cleaned public variable.</span>
+          </a>
+          <a class="download-panel" href="../cleaned_data/" aria-label="Open cleaned data directory">
+            <span class="download-title">Cleaned data directory</span>
+            <span class="download-note">CSV and RDS files are linked separately in the explorer.</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="methods-section" id="methods" aria-labelledby="methods-title">
+        <div class="section-kicker">Curation</div>
+        <h2 id="methods-title">Built for covariate-adjustment research</h2>
+        <div class="method-grid">
+          <div>
+            <h3>Eligibility</h3>
+            <p>Individually randomized trials with participant-level treatment assignment and at least one outcome.</p>
+          </div>
+          <div>
+            <h3>Variable contract</h3>
+            <p><code>Treatment</code>, <code>YP_*</code>, <code>YS_*</code>, and <code>X_*</code> columns keep analysis inputs consistent.</p>
+          </div>
+          <div>
+            <h3>Publication alignment</h3>
+            <p>Primary outcomes, registry identifiers, paper links, and citation counts are tied to the primary publication where available.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <dialog class="trial-dialog" id="trial-dialog" aria-labelledby="dialog-title">
+      <form method="dialog">
+        <button class="dialog-close" aria-label="Close trial details">&times;</button>
+      </form>
+      <div id="dialog-content"></div>
+    </dialog>
+
+    <footer class="site-footer">
+      <span>RCT Bench</span>
+      <span>Static explorer generated from public benchmark metadata.</span>
+    </footer>
+
+    <script src="assets/app.js" type="module"></script>
+  </body>
+</html>
