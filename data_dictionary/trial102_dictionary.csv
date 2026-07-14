@@ -1,0 +1,9 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+102,Treatment,Treatment assignment,factor,factor,410,0,2,Flucloxacillin; Flucloxacillin + clindamycin,Treatment: randomized treatment assignment with cleaned-data arms: Flucloxacillin; Flucloxacillin + clindamycin. Publication-designated control/reference: Flucloxacillin + clindamycin.
+102,YP_improved_day5,Primary outcome,binary,numeric,410,82,2,0; 1,"Primary outcome: Improved, measured on day 5. Publication-defined endpoint context: improved day5."
+102,YS_diarrhoea_day5,Secondary outcome,binary,numeric,410,80,2,0; 1,"Secondary outcome: Diarrhoea, measured on day 5."
+102,YS_pain_day5,Secondary outcome,continuous,numeric,410,74,14,0 to 10,"Secondary outcome: Pain, measured on day 5."
+102,X_age_years,Baseline covariate,continuous,integer,410,0,72,18 to 95,Baseline covariate: Age years.
+102,X_sex,Baseline covariate,binary,character,410,0,2,Female; Male,Baseline covariate: Sex.
+102,X_pain_0d,Baseline covariate,continuous,numeric,410,10,15,0 to 10,Baseline covariate: Pain.
+102,X_crp_0d,Baseline covariate,continuous,numeric,410,19,236,0.3 to 461,Baseline covariate: C-reactive protein concentration.

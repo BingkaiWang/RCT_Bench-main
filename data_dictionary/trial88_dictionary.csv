@@ -1,0 +1,25 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+88,Treatment,Treatment assignment,factor,factor,200,0,2,Control; Nutrition education,Treatment: randomized treatment assignment with cleaned-data arms: Control; Nutrition education. Publication-designated control/reference: Control.
+88,X_source_id,Baseline covariate,continuous,integer,200,0,200,1 to 200,Baseline covariate: Source id.
+88,X_sex_code,Baseline covariate,binary,integer,200,0,2,0; 1,Baseline covariate: Sex code.
+88,X_age_years,Baseline covariate,continuous,integer,200,0,42,30 to 82,Baseline covariate: Age years.
+88,X_balloon_angioplasty,Baseline covariate,binary,integer,200,0,2,0; 1,Baseline covariate: Balloon angioplasty.
+88,X_stent,Baseline covariate,binary,integer,200,0,2,0; 1,Baseline covariate: Stent.
+88,X_pharmacologic_stent,Baseline covariate,binary,integer,200,0,2,0; 1,Baseline covariate: Pharmacologic stent.
+88,X_education_years,Baseline covariate,continuous,integer,200,0,20,0 to 20,Baseline covariate: Education years.
+88,X_hypertension,Baseline covariate,binary,integer,200,0,2,0; 1,Baseline covariate: Hypertension.
+88,X_dyslipidemia,Baseline covariate,binary,integer,200,0,2,0; 1,Baseline covariate: Dyslipidemia.
+88,X_diabetes,Baseline covariate,binary,integer,200,0,2,0; 1,Baseline covariate: Diabetes.
+88,X_heart_failure,Baseline covariate,binary,integer,200,0,2,0; 1,Baseline covariate: Heart failure.
+88,X_prior_ami,Baseline covariate,binary,integer,200,0,2,0; 1,Baseline covariate: Prior acute myocardial infarction.
+88,X_prior_pci,Baseline covariate,binary,integer,200,0,2,0; 1,Baseline covariate: Prior percutaneous coronary intervention.
+88,X_prior_cabg,Baseline covariate,binary,integer,200,0,2,0; 1,Baseline covariate: Prior coronary artery bypass grafting.
+88,X_smoking_baseline,Baseline covariate,continuous,integer,200,0,3,0 to 2,Baseline covariate: Smoking baseline.
+88,X_antihypertensive_baseline,Baseline covariate,binary,integer,200,0,2,0; 1,Baseline covariate: Antihypertensive baseline.
+88,X_oral_hypoglycemic_baseline,Baseline covariate,binary,integer,200,0,2,0; 1,Baseline covariate: Oral hypoglycemic baseline.
+88,X_statin_baseline,Baseline covariate,binary,integer,200,0,2,0; 1,Baseline covariate: Statin baseline.
+88,YP_death_1y,Primary outcome,binary,integer,200,0,2,0; 1,"Primary outcome: Death, measured at 1 year. Publication-defined endpoint context: Mortality after one-year follow-up."
+88,YS_cabg_1y,Secondary outcome,binary,integer,200,0,2,0; 1,"Secondary outcome: Coronary artery bypass grafting, measured at 1 year."
+88,YS_ami_1y,Secondary outcome,binary,integer,200,0,2,0; 1,"Secondary outcome: Acute myocardial infarction, measured at 1 year."
+88,YS_repeat_pci_1y,Secondary outcome,binary,integer,200,0,2,0; 1,"Secondary outcome: Repeat percutaneous coronary intervention, measured at 1 year."
+88,YS_composite_event_1y,Secondary outcome,binary,integer,200,0,2,0; 1,"Secondary outcome: Composite event, measured at 1 year."

@@ -1,0 +1,8 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+89,Treatment,Treatment assignment,factor,factor,119,0,3,Acupuncture alone; Nimodipine + acupuncture; Nimodipine alone,Treatment: randomized treatment assignment with cleaned-data arms: Acupuncture alone; Nimodipine + acupuncture; Nimodipine alone. Publication-designated control/reference: Nimodipine alone.
+89,X_source_patient_no,Baseline covariate,continuous,integer,119,0,40,1 to 40,Baseline covariate: Source patient no.
+89,X_moca_enrollment,Baseline covariate,continuous,integer,119,0,18,7 to 26,Baseline covariate: Montreal Cognitive Assessment enrollment.
+89,YP_moca_3m,Primary outcome,continuous,integer,119,0,18,11 to 30,"Primary outcome: Montreal Cognitive Assessment (MoCA) score, measured at 3 months."
+89,YS_moca_followup_6m,Secondary outcome,time-to-event/continuous time,integer,119,0,17,10 to 30,"Secondary outcome: Montreal Cognitive Assessment followup, measured at 6 months."
+89,YP_delta_moca_3m,Primary outcome,continuous,integer,119,0,11,-1 to 11,Primary outcome: Change from baseline to 3 months in Montreal Cognitive Assessment (MoCA) score.
+89,YS_delta_moca_followup_6m,Secondary outcome,time-to-event/continuous time,integer,119,0,13,-1 to 12,Secondary outcome: Change from baseline to 6 months in Montreal Cognitive Assessment followup.

@@ -1,0 +1,14 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+124,Treatment,Treatment assignment,factor,factor,40,0,2,PfAMA1; Tetanus_Toxoid,Treatment: randomized treatment assignment with cleaned-data arms: PfAMA1; Tetanus_Toxoid. Publication-designated control/reference: Tetanus_Toxoid.
+124,YP_IgG_84d,Primary outcome,continuous,numeric,40,3,37,381 to 172430,"Primary outcome: Ig g, measured at 84 days. Publication-defined endpoint context: Immunogenicity measures IgG, GIA05, and GIA10 at day 84."
+124,YP_GIA05_84d,Primary outcome,continuous,numeric,40,3,37,7.84 to 71.13,"Primary outcome: Growth-inhibition activity at 5% test serum (GIA05), measured at 84 days."
+124,YP_GIA10_84d,Primary outcome,continuous,numeric,40,3,36,-10.25 to 79.83,"Primary outcome: Growth-inhibition activity at 10% test serum (GIA10), measured at 84 days."
+124,YS_IgG_28d,Secondary outcome,continuous,numeric,40,0,40,462 to 187823,"Secondary outcome: Ig g, measured at 28 days."
+124,YS_IgG_56d,Secondary outcome,continuous,numeric,40,1,39,291 to 202173,"Secondary outcome: Ig g, measured at 56 days."
+124,YS_IgG_140d,Secondary outcome,continuous,numeric,40,0,40,1124 to 121629,"Secondary outcome: Ig g, measured at 140 days."
+124,YS_IgG_364d,Secondary outcome,continuous,numeric,40,5,35,397 to 114924,"Secondary outcome: Ig g, measured at 364 days."
+124,YS_GIA05_364d,Secondary outcome,continuous,numeric,40,5,35,-68.74 to 77.53,"Secondary outcome: Growth-inhibition activity at 5% test serum (GIA05), measured at 364 days."
+124,YS_GIA10_364d,Secondary outcome,continuous,numeric,40,5,35,-2.94 to 75.46,"Secondary outcome: Growth-inhibition activity at 10% test serum (GIA10), measured at 364 days."
+124,X_IgG_0d,Baseline covariate,continuous,numeric,40,0,40,263 to 108551,Baseline covariate: Ig g.
+124,X_GIA05_0d,Baseline covariate,continuous,numeric,40,0,40,-38.29 to 77.39,Baseline covariate: Growth-inhibition activity at 5% test serum (GIA05).
+124,X_GIA10_0d,Baseline covariate,continuous,numeric,40,0,40,2.58 to 80.7,Baseline covariate: Growth-inhibition activity at 10% test serum (GIA10).

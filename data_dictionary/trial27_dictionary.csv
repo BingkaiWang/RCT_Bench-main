@@ -1,0 +1,18 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+27,Treatment,Treatment assignment,factor,factor,101,0,2,PCV; VCV,Treatment: randomized treatment assignment with cleaned-data arms: PCV; VCV. Publication-designated control/reference: VCV.
+27,YP_bleeding_text,Primary outcome,factor,factor,101,5,6,important and modifying the conduct of the surgical procedure; important without modifying the conduct of the surgical procedure; medium; minimal (almost nil); very weak; weak,"Primary outcome: Bleeding text. Publication-defined endpoint context: Intraoperative bleeding during transsphenoidal pituitary surgery, scored using a 7-level bleeding scale.. Categories/codes in the cleaned data: important and modifying the conduct of the surgical procedure; important without modifying the conduct of the surgical procedure; medium; minimal (almost nil); very weak; weak."
+27,YP_surgical_problem_bleeding,Primary outcome,binary,factor,101,14,2,no; yes,"Primary outcome: Surgical problem bleeding. Publication-defined endpoint context: Intraoperative bleeding during transsphenoidal pituitary surgery, scored using a 7-level bleeding scale.."
+27,YP_bleeding_score,Primary outcome,continuous,integer,101,5,6,2 to 7,"Primary outcome: Bleeding score. Publication-defined endpoint context: Intraoperative bleeding during transsphenoidal pituitary surgery, scored using a 7-level bleeding scale.."
+27,YP_bleeding_category3,Primary outcome,factor,factor,101,5,3,major; mild; moderate,"Primary outcome: Bleeding category3. Publication-defined endpoint context: Intraoperative bleeding during transsphenoidal pituitary surgery, scored using a 7-level bleeding scale.. Categories/codes in the cleaned data: major; mild; moderate."
+27,YS_surgery_duration_min,Secondary outcome,continuous,numeric,101,4,44,20 to 120,Secondary outcome: Surgery duration minutes.
+27,YS_vent_settings_changes,Secondary outcome,continuous,numeric,101,2,13,0 to 15,Secondary outcome: Vent settings changes.
+27,YS_vent_mode_modification,Secondary outcome,binary,factor,101,2,2,no; yes,Secondary outcome: Vent mode modification.
+27,YS_hypoxemia_episodes,Secondary outcome,factor,factor,101,2,3,0; 1; 4,Secondary outcome: Hypoxemia episodes. Categories/codes in the cleaned data: 0; 1; 4.
+27,YS_recruitment_maneuvers,Secondary outcome,factor,factor,101,2,3,0; 1; 9,Secondary outcome: Recruitment maneuvers. Categories/codes in the cleaned data: 0; 1; 9.
+27,YS_min_SpO2,Secondary outcome,continuous,numeric,101,2,12,81 to 100,Secondary outcome: Minutes sp oxygen.
+27,YS_pain_PACU,Secondary outcome,continuous,numeric,101,44,8,0 to 8,Secondary outcome: Pain post-intervention-anaesthesia care unit.
+27,YS_endocrine_status_3m,Secondary outcome,binary,numeric,101,101,0,,"Secondary outcome: Endocrine status, measured at 3 months."
+27,X_Tv_0d,Baseline covariate,continuous,numeric,101,5,47,300 to 770,Baseline covariate: Tidal volume.
+27,X_FiO2_0d,Baseline covariate,continuous,numeric,101,1,7,0.3 to 1,Baseline covariate: Fi oxygen.
+27,X_AI_0d,Baseline covariate,continuous,numeric,101,54,6,0 to 15,Baseline covariate: Artificial intelligence.
+27,X_Rate_0d,Baseline covariate,continuous,numeric,101,0,6,10 to 18,Baseline covariate: Rate.

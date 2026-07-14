@@ -1,0 +1,14 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+57,Treatment,Treatment assignment,factor,factor,121,0,2,Functional imagery training; Motivational interviewing,Treatment: randomized treatment assignment with cleaned-data arms: Functional imagery training; Motivational interviewing. Publication-designated control/reference: Motivational interviewing.
+57,YP_weight_loss_6m,Primary outcome,continuous,numeric,121,7,75,-8 to 17.6,"Primary outcome: Weight loss, measured at 6 months. Publication-defined endpoint context: Weight loss and waist-circumference reduction at 6 and 12 months."
+57,YP_weight_loss_12m,Primary outcome,continuous,numeric,121,9,81,-6.8 to 24,"Primary outcome: Weight loss, measured at 12 months. Publication-defined endpoint context: Weight loss and waist-circumference reduction at 6 and 12 months."
+57,YS_waist_loss_6m,Secondary outcome,continuous,numeric,121,7,31,-5 to 23,"Secondary outcome: Waist loss, measured at 6 months."
+57,YS_waist_loss_12m,Secondary outcome,continuous,numeric,121,9,39,-6 to 34,"Secondary outcome: Waist loss, measured at 12 months."
+57,YS_general_quality_of_life_6m,Secondary outcome,continuous,numeric,121,7,23,44 to 100,"Secondary outcome: General quality of life, measured at 6 months."
+57,X_weight_0m,Baseline covariate,continuous,numeric,121,0,99,59 to 140.5,Baseline covariate: Weight.
+57,X_waist_0m,Baseline covariate,continuous,numeric,121,0,54,79 to 148,Baseline covariate: Waist.
+57,X_bmi_0m,Baseline covariate,continuous,numeric,121,0,119,24.5062 to 53.3333,"Baseline covariate: Body mass index (BMI), in kg/m²."
+57,X_general_quality_of_life_0m,Baseline covariate,continuous,numeric,121,0,16,20 to 85,Baseline covariate: General quality of life.
+57,X_age_0m,Baseline covariate,continuous,numeric,121,0,47,19 to 72,Baseline covariate: Age.
+57,X_female_0m,Baseline covariate,binary,factor,121,0,2,FALSE; TRUE,Baseline covariate: Female.
+57,X_height_0m,Baseline covariate,continuous,numeric,121,0,33,1.24 to 1.9,Baseline covariate: Height.

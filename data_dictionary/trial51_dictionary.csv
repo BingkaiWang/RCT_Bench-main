@@ -1,0 +1,16 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+51,Treatment,Treatment assignment,factor,factor,37,0,4,Control; Lavender oil; Sleep hygiene; Sleep hygiene + lavender oil,Treatment: randomized treatment assignment with cleaned-data arms: Control; Lavender oil; Sleep hygiene; Sleep hygiene + lavender oil. Publication-designated control/reference: Control.
+51,YP_sleep_latency_7d,Primary outcome,continuous,numeric,37,0,28,0.29 to 4,"Primary outcome: Sleep latency, measured at 7 days. Publication-defined endpoint context: Sleep latency over 7-day intervention."
+51,YS_sleep_efficiency_7d,Secondary outcome,continuous,numeric,37,0,37,73.59 to 93.63,"Secondary outcome: Sleep efficiency, measured at 7 days."
+51,YS_delta_subjective_sleep_quality_post,Secondary outcome,continuous,numeric,37,0,5,-3 to 1,Secondary outcome: Change from baseline to immediately after the intervention in subjective sleep quality.
+51,YS_delta_fatigue_post,Secondary outcome,continuous,numeric,37,0,14,-12 to 6,Secondary outcome: Change from baseline to immediately after the intervention in fatigue.
+51,YS_delta_calmness_post,Secondary outcome,continuous,numeric,37,0,11,-6 to 6,Secondary outcome: Change from baseline to immediately after the intervention in calmness.
+51,X_sleep_quality_0w,Baseline covariate,continuous,numeric,37,0,6,2 to 7,Baseline covariate: Sleep quality.
+51,X_fatigue_0w,Baseline covariate,continuous,numeric,37,0,15,0 to 15,Baseline covariate: Fatigue.
+51,X_calmness_0w,Baseline covariate,continuous,numeric,37,0,12,4 to 16,Baseline covariate: Calmness.
+51,X_age_0w,Baseline covariate,continuous,numeric,37,0,6,20 to 25,Baseline covariate: Age.
+51,X_height_0w,Baseline covariate,continuous,numeric,37,0,20,155 to 194,Baseline covariate: Height.
+51,X_weight_0w,Baseline covariate,continuous,numeric,37,0,16,46 to 102,Baseline covariate: Weight.
+51,X_training_sessions_per_week_0w,Baseline covariate,continuous,numeric,37,0,5,1 to 6,Baseline covariate: Training sessions per week.
+51,X_training_hours_0w,Baseline covariate,continuous,numeric,37,0,5,45 to 120,Baseline covariate: Training hours.
+51,X_morningness_eveningness_0w,Baseline covariate,continuous,numeric,37,0,14,42 to 58,Baseline covariate: Morningness eveningness.

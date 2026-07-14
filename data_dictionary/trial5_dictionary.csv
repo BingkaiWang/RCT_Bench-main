@@ -1,0 +1,67 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+5,Treatment,Treatment assignment,factor,factor,5060,0,2,Alert; Usual Care,Treatment: randomized treatment assignment with cleaned-data arms: Alert; Usual Care. Publication-designated control/reference: Usual Care.
+5,YP_composite_14d,Primary outcome,binary,factor,5060,0,2,0; 1,"Primary outcome: Prespecified composite endpoint, measured at 14 days."
+5,YS_los_since_alert,Secondary outcome,time-to-event/continuous time,numeric,5060,13,4404,0.0111111 to 309.723,Secondary outcome: Length of stay since alert.
+5,YS_death_14d,Secondary outcome,binary,factor,5060,0,2,0; 1,"Secondary outcome: Death, measured at 14 days."
+5,YS_dialysis_14d,Secondary outcome,binary,factor,5060,0,2,0; 1,"Secondary outcome: Dialysis, measured at 14 days."
+5,YS_aki_progression_14d,Secondary outcome,binary,factor,5060,0,2,0; 1,"Secondary outcome: Aki progression, measured at 14 days."
+5,YS_inpatient_mortality,Secondary outcome,binary,factor,5060,0,2,0; 1,Secondary outcome: Inpatient mortality.
+5,YS_inpatient_dialysis,Secondary outcome,binary,factor,5060,0,2,0; 1,Secondary outcome: Inpatient dialysis.
+5,YS_progression_stage2_14d,Secondary outcome,binary,factor,5060,0,2,0; 1,"Secondary outcome: Progression stage2, measured at 14 days."
+5,YS_progression_stage3_14d,Secondary outcome,binary,factor,5060,0,2,0; 1,"Secondary outcome: Progression stage3, measured at 14 days."
+5,YS_acearb_stopped_24h,Secondary outcome,binary,factor,5060,2381,2,0; 1,"Secondary outcome: Acearb stopped, measured at 24 hours."
+5,YS_nsaid_stopped_24h,Secondary outcome,binary,factor,5060,3507,2,0; 1,"Secondary outcome: Non-steroidal anti-inflammatory drug stopped, measured at 24 hours."
+5,YS_ppi_stopped_24h,Secondary outcome,binary,factor,5060,1762,2,0; 1,"Secondary outcome: Proton-pump inhibitor stopped, measured at 24 hours."
+5,YS_no_nsaid_during_aki,Secondary outcome,binary,factor,5060,3507,2,0; 1,Secondary outcome: No non-steroidal anti-inflammatory drug during aki.
+5,YS_no_ppi_during_aki,Secondary outcome,binary,factor,5060,1762,2,0; 1,Secondary outcome: No proton-pump inhibitor during aki.
+5,YS_no_acearb_during_aki,Secondary outcome,binary,factor,5060,2381,2,0; 1,Secondary outcome: No acearb during aki.
+5,YS_opioid_14d,Secondary outcome,binary,factor,5060,3507,2,0; 1,"Secondary outcome: Opioid, measured at 14 days."
+5,YS_ventorder_14d,Secondary outcome,binary,factor,5060,2381,2,0; 1,"Secondary outcome: Ventorder, measured at 14 days."
+5,YS_transfuserbc_14d,Secondary outcome,binary,factor,5060,1762,2,0; 1,"Secondary outcome: Transfuserbc, measured at 14 days."
+5,YS_duration_of_alert,Secondary outcome,continuous,numeric,5060,0,2808,0 to 264.162,Secondary outcome: Duration of alert.
+5,YS_duration_of_aki,Secondary outcome,continuous,numeric,5060,0,3025,0 to 350.299,Secondary outcome: Duration of aki.
+5,YS_aki_stage_14d,Secondary outcome,continuous,numeric,5060,387,4,0 to 3,"Secondary outcome: Aki stage, measured at 14 days."
+5,YS_readmit_30d,Secondary outcome,binary,factor,5060,0,2,0; 1,"Secondary outcome: Readmit, measured at 30 days."
+5,YS_max_pain_score_14d,Secondary outcome,continuous,numeric,5060,2551,11,0 to 10,"Secondary outcome: Max pain score, measured at 14 days."
+5,X_hospital_0m,Baseline covariate,factor,factor,5060,0,4,1; 2; 3; 4,Baseline covariate: Hospital. Categories/codes in the cleaned data: 1; 2; 3; 4.
+5,X_age_over_90_0m,Baseline covariate,binary,factor,5060,0,2,0; 1,Baseline covariate: Age over 90.
+5,X_age_0m,Baseline covariate,continuous,numeric,5060,0,73,18 to 90,Baseline covariate: Age.
+5,X_sex_0m,Baseline covariate,binary,factor,5060,0,2,0; 1,Baseline covariate: Sex.
+5,X_icu_0m,Baseline covariate,binary,factor,5060,0,2,0; 1,Baseline covariate: Intensive care unit.
+5,X_ward_0m,Baseline covariate,binary,factor,5060,0,2,0; 1,Baseline covariate: Ward.
+5,X_er_0m,Baseline covariate,binary,factor,5060,0,2,0; 1,Baseline covariate: Emergency room.
+5,X_num_med_0m,Baseline covariate,continuous,numeric,5060,0,3,1 to 3,Baseline covariate: Number of med.
+5,X_on_acearb_0m,Baseline covariate,binary,factor,5060,0,2,0; 1,Baseline covariate: On acearb.
+5,X_on_nsaid_0m,Baseline covariate,binary,factor,5060,0,2,0; 1,Baseline covariate: On non-steroidal anti-inflammatory drug.
+5,X_on_ppi_0m,Baseline covariate,binary,factor,5060,0,2,0; 1,Baseline covariate: On proton-pump inhibitor.
+5,X_admit_medical_0m,Baseline covariate,binary,factor,5060,0,2,0; 1,Baseline covariate: Admit medical.
+5,X_ckd_pmhx_0m,Baseline covariate,binary,factor,5060,0,2,0; 1,Baseline covariate: Chronic kidney disease pmhx.
+5,X_chf_elx_pmhx_0m,Baseline covariate,binary,factor,5060,0,2,0; 1,Baseline covariate: Congestive heart failure elx pmhx.
+5,X_pulm_disease_elx_pmhx_0m,Baseline covariate,binary,factor,5060,0,2,0; 1,Baseline covariate: Pulm disease elx pmhx.
+5,X_diabetes_elx_pmhx_0m,Baseline covariate,binary,factor,5060,0,2,0; 1,Baseline covariate: Diabetes elx pmhx.
+5,X_htn_elx_pmhx_0m,Baseline covariate,binary,factor,5060,0,2,0; 1,Baseline covariate: Hypertension elx pmhx.
+5,X_malignancy_elx_pmhx_0m,Baseline covariate,binary,factor,5060,0,2,0; 1,Baseline covariate: Malignancy elx pmhx.
+5,X_liverdisease_elx_pmhx_0m,Baseline covariate,binary,factor,5060,0,2,0; 1,Baseline covariate: Liverdisease elx pmhx.
+5,X_elx_score_pmhx_0m,Baseline covariate,continuous,numeric,5060,0,21,0 to 20,Baseline covariate: Elx score pmhx.
+5,X_creat_0m,Baseline covariate,continuous,numeric,5060,0,405,0.14 to 10.65,Baseline covariate: Serum creatinine concentration.
+5,X_mincreat48_prior_0m,Baseline covariate,continuous,numeric,5060,0,357,0.06 to 9.01,Baseline covariate: Mincreat48 prior.
+5,X_mincreat7_prior_0m,Baseline covariate,continuous,numeric,5060,0,341,0.06 to 6.66,Baseline covariate: Mincreat7 prior.
+5,X_admit_creatinine_0m,Baseline covariate,continuous,numeric,5060,0,365,0.06 to 7.91,Baseline covariate: Admit creatinine.
+5,X_baseline_creat_0m,Baseline covariate,continuous,numeric,5060,0,345,0.06 to 6.66,Baseline covariate: Baseline creat.
+5,X_aniongap_0m,Baseline covariate,continuous,numeric,5060,29,39,-5 to 40,Baseline covariate: Aniongap.
+5,X_bicarbonate_0m,Baseline covariate,continuous,numeric,5060,24,135,5 to 48,Baseline covariate: Bicarbonate.
+5,X_bun_0m,Baseline covariate,continuous,numeric,5060,26,124,1 to 155,Baseline covariate: Blood urea nitrogen concentration.
+5,X_chloride_0m,Baseline covariate,continuous,numeric,5060,26,55,78 to 162,Baseline covariate: Chloride.
+5,X_egfr_at_admit_0m,Baseline covariate,continuous,numeric,5060,0,4285,7.4304 to 202.216,Baseline covariate: Estimated glomerular filtration rate at admit.
+5,X_hemoglobin_0m,Baseline covariate,continuous,numeric,5060,36,142,4.7 to 21.3,Baseline covariate: Hemoglobin.
+5,X_plateletcount_0m,Baseline covariate,continuous,numeric,5060,44,575,3 to 1236,Baseline covariate: Plateletcount.
+5,X_potassium_0m,Baseline covariate,continuous,numeric,5060,29,50,2.3 to 7.8,Baseline covariate: Potassium.
+5,X_sodium_0m,Baseline covariate,continuous,numeric,5060,26,54,111 to 173,Baseline covariate: Sodium.
+5,X_wbcc_0m,Baseline covariate,continuous,numeric,5060,43,371,0.1 to 1106,Baseline covariate: White-blood-cell count.
+5,X_systolic_0m,Baseline covariate,continuous,numeric,5060,12,140,50 to 262,Baseline covariate: Systolic.
+5,X_diastolic_0m,Baseline covariate,continuous,numeric,5060,12,96,0 to 137,Baseline covariate: Diastolic.
+5,X_pulse_0m,Baseline covariate,continuous,numeric,5060,9,147,0 to 171,Baseline covariate: Pulse.
+5,X_resp_0m,Baseline covariate,continuous,numeric,5060,9,75,0 to 66,Baseline covariate: Respiratory.
+5,X_spo2_0m,Baseline covariate,continuous,numeric,5060,10,103,0 to 100,Baseline covariate: Peripheral oxygen saturation (SpO2).
+5,X_temp_0m,Baseline covariate,continuous,numeric,5060,12,188,73.4 to 106.2,Baseline covariate: Temp.
+5,X_sofa_0m,Baseline covariate,continuous,numeric,5060,0,14,0 to 13,Baseline covariate: Sequential Organ Failure Assessment (SOFA) score.

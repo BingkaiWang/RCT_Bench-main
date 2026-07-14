@@ -1,0 +1,12 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+54,Treatment,Treatment assignment,factor,factor,69,0,2,Pelvic floor training; Vaginal spheres + pelvic floor training,Treatment: randomized treatment assignment with cleaned-data arms: Pelvic floor training; Vaginal spheres + pelvic floor training. Publication-designated control/reference: Pelvic floor training.
+54,YP_fsfi_total_v5,Primary outcome,continuous,numeric,69,17,47,5.4 to 35.6,"Primary outcome: Female Sexual Function Index (FSFI) total score, measured at visit 5."
+54,YS_iciq_sf_v5,Secondary outcome,continuous,numeric,69,16,13,0 to 17,"Secondary outcome: International Consultation on Incontinence Questionnaire-Short Form (ICIQ-SF) score, measured at visit 5."
+54,YS_oxford_power_v5,Secondary outcome,continuous,numeric,69,16,4,1 to 4,"Secondary outcome: Modified Oxford pelvic-floor muscle-strength score, measured at visit 5."
+54,X_iciq_sf_0m,Baseline covariate,continuous,numeric,69,0,17,1 to 20,Baseline covariate: International Consultation on Incontinence Questionnaire-Short Form (ICIQ-SF) score.
+54,X_fsfi_total_0m,Baseline covariate,continuous,numeric,69,2,55,2.8 to 33.5,Baseline covariate: Female Sexual Function Index (FSFI) total score.
+54,X_oxford_power_0m,Baseline covariate,continuous,numeric,69,0,5,-1 to 3,Baseline covariate: Modified Oxford pelvic-floor muscle-strength score.
+54,X_age_0m,Baseline covariate,continuous,numeric,69,0,31,26 to 79,Baseline covariate: Age.
+54,X_symptom_duration_months_0m,Baseline covariate,continuous,numeric,69,2,39,1 to 588,Baseline covariate: Symptom duration months.
+54,X_full_term_pregnancies_0m,Baseline covariate,continuous,numeric,69,0,5,0 to 4,Baseline covariate: Full term pregnancies.
+54,X_menopause_age_0m,Baseline covariate,continuous,numeric,69,17,15,0 to 56,Baseline covariate: Menopause age.

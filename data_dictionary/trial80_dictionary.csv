@@ -1,0 +1,26 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+80,Treatment,Treatment assignment,factor,factor,216,0,3,Control; Digital peer support; Self-guided digital program,Treatment: randomized treatment assignment with cleaned-data arms: Control; Digital peer support; Self-guided digital program. Publication-designated control/reference: Control.
+80,YP_delta_bmi_6m,Primary outcome,binary,numeric,216,0,2,-1; 0,"Primary outcome: Change from baseline to 6 months in body mass index (BMI), in kg/m²."
+80,YS_delta_phq9_6m,Secondary outcome,continuous,numeric,216,0,12,-9 to 3,Secondary outcome: Change from baseline to 6 months in 9-item Patient Health Questionnaire (PHQ-9) score.
+80,YS_delta_gad7_6m,Secondary outcome,continuous,numeric,216,0,11,-6 to 4,Secondary outcome: Change from baseline to 6 months in 7-item Generalized Anxiety Disorder (GAD-7) score.
+80,YS_delta_wemwbs_6m,Secondary outcome,continuous,numeric,216,0,19,-10 to 9,Secondary outcome: Change from baseline to 6 months in Warwick-Edinburgh Mental Well-being Scale (WEMWBS) score.
+80,YS_delta_pss_6m,Secondary outcome,continuous,numeric,216,0,16,-9 to 6,Secondary outcome: Change from baseline to 6 months in Perceived Stress Scale score.
+80,YS_delta_who5_6m,Secondary outcome,continuous,numeric,216,0,41,-26 to 24,Secondary outcome: Change from baseline to 6 months in WHO-5 Well-Being Index score.
+80,YS_delta_met_6m,Secondary outcome,continuous,numeric,216,0,196,-722 to 708,Secondary outcome: Change from baseline to 6 months in metabolic equivalent.
+80,X_age,Baseline covariate,continuous,numeric,216,0,8,18 to 25,Baseline covariate: Age.
+80,X_gender,Baseline covariate,binary,factor,216,0,2,1; 2,Baseline covariate: Gender.
+80,X_grade,Baseline covariate,factor,factor,216,0,4,1; 2; 3; 4,Baseline covariate: Grade. Categories/codes in the cleaned data: 1; 2; 3; 4.
+80,X_major,Baseline covariate,factor,factor,216,0,5,1; 2; 3; 4; 5,Baseline covariate: Major. Categories/codes in the cleaned data: 1; 2; 3; 4; 5.
+80,X_residence_type,Baseline covariate,factor,factor,216,0,3,1; 2; 3,Baseline covariate: Residence type. Categories/codes in the cleaned data: 1; 2; 3.
+80,X_subjective_ses,Baseline covariate,continuous,numeric,216,0,5,1 to 5,Baseline covariate: Subjective ses.
+80,X_employment_status,Baseline covariate,binary,factor,216,0,2,0; 1,Baseline covariate: Employment status.
+80,X_work_hours_week,Baseline covariate,continuous,numeric,216,0,20,0 to 20,Baseline covariate: Work hours week.
+80,X_marital_status,Baseline covariate,factor,factor,216,0,3,1; 2; 3,Baseline covariate: Marital status. Categories/codes in the cleaned data: 1; 2; 3.
+80,X_wechat_hours_day,Baseline covariate,continuous,numeric,216,0,42,0 to 4.5,Baseline covariate: Wechat hours day.
+80,X_bmi_0m,Baseline covariate,continuous,numeric,216,0,5,25 to 29,"Baseline covariate: Body mass index (BMI), in kg/m²."
+80,X_phq9_0m,Baseline covariate,continuous,numeric,216,0,20,0 to 21,Baseline covariate: 9-item Patient Health Questionnaire (PHQ-9) score.
+80,X_gad7_0m,Baseline covariate,continuous,numeric,216,0,15,0 to 14,Baseline covariate: 7-item Generalized Anxiety Disorder (GAD-7) score.
+80,X_wemwbs_0m,Baseline covariate,continuous,numeric,216,0,40,23 to 70,Baseline covariate: Warwick-Edinburgh Mental Well-being Scale (WEMWBS) score.
+80,X_pss_0m,Baseline covariate,continuous,numeric,216,0,30,0 to 31,Baseline covariate: Perceived Stress Scale score.
+80,X_who5_0m,Baseline covariate,continuous,numeric,216,0,69,2 to 100,Baseline covariate: WHO-5 Well-Being Index score.
+80,X_met_0m,Baseline covariate,continuous,numeric,216,0,188,58 to 1125,Baseline covariate: Metabolic equivalent.

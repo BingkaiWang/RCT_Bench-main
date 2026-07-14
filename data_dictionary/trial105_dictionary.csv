@@ -1,0 +1,9 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+105,Treatment,Treatment assignment,factor,factor,50,0,2,Exercise; Standard care,Treatment: randomized treatment assignment with cleaned-data arms: Exercise; Standard care. Publication-designated control/reference: Standard care.
+105,YP_counts_per_day_28w,Primary outcome,continuous,numeric,50,13,37,100403 to 483776,"Primary outcome: Counts per day, measured at 28 weeks. Publication-defined endpoint context: counts per day 28w."
+105,YS_counts_per_day_36w,Secondary outcome,continuous,numeric,50,16,34,61703 to 326104,"Secondary outcome: Counts per day, measured at 36 weeks."
+105,YS_weight_28w,Secondary outcome,continuous,numeric,50,5,44,76.2 to 131.4,"Secondary outcome: Weight, measured at 28 weeks."
+105,X_counts_per_day_14w,Baseline covariate,continuous,numeric,50,5,45,87412.7 to 426020,Baseline covariate: Counts per day.
+105,X_maternal_age,Baseline covariate,continuous,integer,50,0,16,23 to 39,Baseline covariate: Maternal age.
+105,X_bmi_14w,Baseline covariate,continuous,numeric,50,0,50,28.4008 to 49.6622,"Baseline covariate: Body mass index (BMI), in kg/m²."
+105,X_weight_14w,Baseline covariate,continuous,numeric,50,0,47,71.8 to 144.2,Baseline covariate: Weight.

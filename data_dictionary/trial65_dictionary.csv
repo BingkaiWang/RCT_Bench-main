@@ -1,0 +1,23 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+65,Treatment,Treatment assignment,factor,factor,135,0,3,Active tDCS; Control; Sham tDCS,Treatment: randomized treatment assignment with cleaned-data arms: Active tDCS; Control; Sham tDCS. Publication-designated control/reference: Sham tDCS.
+65,YP_time_to_exhaustion_min,Primary outcome,time-to-event/continuous time,numeric,135,24,97,0.448333 to 22.8333,Primary outcome: Time to exhaustion minutes. Publication-defined endpoint context: Time to exhaustion in a running performance test.
+65,YS_vo2_final,Secondary outcome,continuous,numeric,135,30,84,23.3 to 67.1,"Secondary outcome: Vo2, measured at the final assessment."
+65,YS_hr_max,Secondary outcome,continuous,numeric,135,30,33,148 to 203,Secondary outcome: Heart rate max.
+65,YS_rq_max,Secondary outcome,continuous,numeric,135,29,32,0.94 to 1.35,Secondary outcome: Rq max.
+65,YS_lactate_min,Secondary outcome,continuous,numeric,135,24,94,1.18 to 7.31,Secondary outcome: Lactate minutes.
+65,YS_lactate_max,Secondary outcome,continuous,numeric,135,24,108,2.78 to 20.35,Secondary outcome: Lactate max.
+65,YS_rpe_min,Secondary outcome,continuous,numeric,135,24,8,6 to 14,Secondary outcome: Rpe minutes.
+65,YS_rpe_max,Secondary outcome,continuous,numeric,135,24,6,16 to 20,Secondary outcome: Rpe max.
+65,X_blinding_guess,Baseline covariate,factor,character,135,45,5,actif; active; placebo; sham; Sham,Baseline covariate: Blinding guess. Categories/codes in the cleaned data: actif; active; placebo; sham; Sham.
+65,X_blinding_certainty,Baseline covariate,continuous,numeric,135,45,5,1 to 5,Baseline covariate: Blinding certainty.
+65,X_adverse_event,Baseline covariate,binary,character,135,48,2,no; yes,Baseline covariate: Adverse event.
+65,X_age,Baseline covariate,continuous,numeric,135,0,12,18 to 32,Baseline covariate: Age.
+65,X_weight,Baseline covariate,continuous,numeric,135,0,40,53 to 94,Baseline covariate: Weight.
+65,X_height,Baseline covariate,continuous,numeric,135,0,32,160 to 193.5,Baseline covariate: Height.
+65,X_body_fat_pct,Baseline covariate,continuous,numeric,135,0,25,5.38 to 20.65,Baseline covariate: Body fat percentage.
+65,X_training_years,Baseline covariate,continuous,numeric,135,0,19,0.25 to 20,Baseline covariate: Training years.
+65,X_weekly_training,Baseline covariate,continuous,numeric,135,0,17,1 to 20,Baseline covariate: Weekly training.
+65,X_vo2max_screening,Baseline covariate,continuous,numeric,135,0,39,33.3 to 63.8,Baseline covariate: Maximal oxygen uptake screening.
+65,X_category,Baseline covariate,binary,factor,135,0,2,beginner; confirmed,Baseline covariate: Category.
+65,X_mas,Baseline covariate,continuous,numeric,135,0,19,11 to 18,Baseline covariate: Mas.
+65,X_first_allocation,Baseline covariate,binary,factor,135,0,2,Active; Sham,Baseline covariate: First allocation.

@@ -1,0 +1,31 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+92,Treatment,Treatment assignment,factor,factor,371,0,2,Control; Intervention,Treatment: randomized treatment assignment with cleaned-data arms: Control; Intervention. Publication-designated control/reference: Control.
+92,X_source_sno,Baseline covariate,continuous,integer,371,0,371,1 to 371,Baseline covariate: Source sno.
+92,X_age_years,Baseline covariate,continuous,integer,371,0,26,15 to 45,Baseline covariate: Age years.
+92,X_ethnicity,Baseline covariate,factor,character,371,0,7,babur; fulani; hausa; kanuri; marghi; others; shuwa,Baseline covariate: Ethnicity. Categories/codes in the cleaned data: babur; fulani; hausa; kanuri; marghi; others; shuwa.
+92,X_marital_status,Baseline covariate,binary,character,371,0,2,married; widowed,Baseline covariate: Marital status.
+92,X_family_type,Baseline covariate,factor,character,371,0,3,; monogamy; polygamy,Baseline covariate: Family type. Categories/codes in the cleaned data: ; monogamy; polygamy.
+92,X_residency,Baseline covariate,binary,character,371,0,2,IDP; permanentresident,Baseline covariate: Residency.
+92,X_education,Baseline covariate,factor,character,371,0,4,none; primary; secondary; tertiary,Baseline covariate: Education. Categories/codes in the cleaned data: none; primary; secondary; tertiary.
+92,X_employment,Baseline covariate,factor,character,371,0,5,government; none; private; self-emplyed; student,Baseline covariate: Employment. Categories/codes in the cleaned data: government; none; private; self-emplyed; student.
+92,X_income,Baseline covariate,continuous,integer,371,0,40,0 to 400000,Baseline covariate: Income.
+92,X_age_at_marriage,Baseline covariate,continuous,integer,371,0,21,12 to 34,Baseline covariate: Age at marriage.
+92,X_gravidity,Baseline covariate,continuous,integer,371,0,12,1 to 13,Baseline covariate: Gravidity.
+92,X_parity,Baseline covariate,continuous,integer,371,0,11,0 to 10,Baseline covariate: Parity.
+92,X_amenorrhoea_months,Baseline covariate,binary,integer,371,0,2,4; 5,Baseline covariate: Amenorrhoea months.
+92,X_preterm_history,Baseline covariate,binary,character,371,0,2,no; yes,Baseline covariate: Preterm history.
+92,X_miscarriage_history,Baseline covariate,binary,character,371,0,2,no; yes,Baseline covariate: Miscarriage history.
+92,X_itn_use_baseline,Baseline covariate,continuous,integer,371,0,5,1 to 5,Baseline covariate: Insecticide-treated bed net use baseline.
+92,YS_itn_use_2m,Secondary outcome,continuous,numeric,371,42,5,1 to 5,"Secondary outcome: Reported insecticide-treated bed-net use, measured at 2 months."
+92,YP_itn_use_4m,Primary outcome,continuous,numeric,371,104,5,1 to 5,"Primary outcome: Reported insecticide-treated bed-net use, measured at 4 months."
+92,X_ipt_doses_baseline,Baseline covariate,binary,integer,371,0,2,0; 1,Baseline covariate: Intermittent preventive treatment in pregnancy doses baseline.
+92,YS_ipt_doses_2m,Secondary outcome,continuous,numeric,371,42,3,0 to 2,"Secondary outcome: Number of intermittent preventive treatment in pregnancy (IPTp) doses, measured at 2 months."
+92,YP_ipt_doses_4m,Primary outcome,continuous,numeric,371,104,4,0 to 3,"Primary outcome: Number of intermittent preventive treatment in pregnancy (IPTp) doses, measured at 4 months."
+92,X_pcv_baseline,Baseline covariate,continuous,numeric,371,49,21,20 to 43,Baseline covariate: Packed-cell volume baseline.
+92,YS_pcv_2m,Secondary outcome,continuous,numeric,371,118,21,21 to 43,"Secondary outcome: Packed-cell volume, measured at 2 months."
+92,X_malaria_diagnosis_baseline,Baseline covariate,binary,character,371,0,2,NO; YES,Baseline covariate: Malaria diagnosis baseline.
+92,YS_malaria_diagnosis_2m,Secondary outcome,factor,character,371,0,3,; NO; YES,"Secondary outcome: Malaria diagnosis, measured at 2 months. Categories/codes in the cleaned data: ; NO; YES."
+92,YS_malaria_diagnosis_4m,Secondary outcome,factor,character,371,0,3,; NO; YES,"Secondary outcome: Malaria diagnosis, measured at 4 months. Categories/codes in the cleaned data: ; NO; YES."
+92,YS_live_birth,Secondary outcome,binary,numeric,371,90,2,0; 1,Secondary outcome: Live birth.
+92,YS_birth_weight_kg,Secondary outcome,continuous,numeric,371,120,32,1.2 to 4.3,Secondary outcome: Birth weight kg.
+92,YS_low_birth_weight,Secondary outcome,binary,numeric,371,120,2,0; 1,Secondary outcome: Low birth weight.

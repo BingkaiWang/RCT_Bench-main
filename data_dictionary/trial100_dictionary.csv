@@ -1,0 +1,5 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+100,Treatment,Treatment assignment,factor,factor,92,0,2,Control; rhTM,Treatment: randomized treatment assignment with cleaned-data arms: Control; rhTM. Publication-designated control/reference: Control.
+100,YP_death_28d,Primary outcome,binary,integer,92,0,2,0; 1,"Primary outcome: Death, measured at 28 days. Publication-defined endpoint context: death 28d."
+100,YS_death_90d,Secondary outcome,binary,integer,92,0,2,0; 1,"Secondary outcome: Death, measured at 90 days."
+100,X_platelet_0d,Baseline covariate,continuous,numeric,92,0,77,1.7 to 36.1,Baseline covariate: Platelet count.

@@ -81,7 +81,8 @@
       "covariates": 24,
       "treatmentLevels": "Metformin + Sham Acupuncture; Sham Acupuncture + Placebo; True Acupuncture + Placebo",
       "csvPath": "../cleaned_data/trial1.csv",
-      "rdsPath": "../cleaned_data/trial1.rds"
+      "rdsPath": "../cleaned_data/trial1.rds",
+      "dictionaryPath": "../data_dictionary/trial1_dictionary.csv"
     },
     {
       "id": 2,
@@ -112,7 +113,8 @@
       "covariates": 8,
       "treatmentLevels": "Ivermectin+Doxycycline; Placebo",
       "csvPath": "../cleaned_data/trial2.csv",
-      "rdsPath": "../cleaned_data/trial2.rds"
+      "rdsPath": "../cleaned_data/trial2.rds",
+      "dictionaryPath": "../data_dictionary/trial2_dictionary.csv"
     },
     {
       "id": 3,
@@ -143,7 +145,8 @@
       "covariates": 25,
       "treatmentLevels": "Alert; Usual Care",
       "csvPath": "../cleaned_data/trial3.csv",
-      "rdsPath": "../cleaned_data/trial3.rds"
+      "rdsPath": "../cleaned_data/trial3.rds",
+      "dictionaryPath": "../data_dictionary/trial3_dictionary.csv"
     },
     {
       "id": 4,
@@ -174,7 +177,8 @@
       "covariates": 13,
       "treatmentLevels": "Placebo; VD",
       "csvPath": "../cleaned_data/trial4.csv",
-      "rdsPath": "../cleaned_data/trial4.rds"
+      "rdsPath": "../cleaned_data/trial4.rds",
+      "dictionaryPath": "../data_dictionary/trial4_dictionary.csv"
     },
     {
       "id": 5,
@@ -205,7 +209,8 @@
       "covariates": 42,
       "treatmentLevels": "Alert; Usual Care",
       "csvPath": "../cleaned_data/trial5.csv",
-      "rdsPath": "../cleaned_data/trial5.rds"
+      "rdsPath": "../cleaned_data/trial5.rds",
+      "dictionaryPath": "../data_dictionary/trial5_dictionary.csv"
     },
     {
       "id": 6,
@@ -236,7 +241,8 @@
       "covariates": 21,
       "treatmentLevels": "Conventional; Sitagliptin",
       "csvPath": "../cleaned_data/trial6.csv",
-      "rdsPath": "../cleaned_data/trial6.rds"
+      "rdsPath": "../cleaned_data/trial6.rds",
+      "dictionaryPath": "../data_dictionary/trial6_dictionary.csv"
     },
     {
       "id": 7,
@@ -267,7 +273,8 @@
       "covariates": 21,
       "treatmentLevels": "Brain Lab; ThinkRx",
       "csvPath": "../cleaned_data/trial7.csv",
-      "rdsPath": "../cleaned_data/trial7.rds"
+      "rdsPath": "../cleaned_data/trial7.rds",
+      "dictionaryPath": "../data_dictionary/trial7_dictionary.csv"
     },
     {
       "id": 8,
@@ -298,7 +305,8 @@
       "covariates": 4,
       "treatmentLevels": "Ivermectin; Placebo",
       "csvPath": "../cleaned_data/trial8.csv",
-      "rdsPath": "../cleaned_data/trial8.rds"
+      "rdsPath": "../cleaned_data/trial8.rds",
+      "dictionaryPath": "../data_dictionary/trial8_dictionary.csv"
     },
     {
       "id": 9,
@@ -329,7 +337,8 @@
       "covariates": 8,
       "treatmentLevels": "Oxytocin; Placebo",
       "csvPath": "../cleaned_data/trial9.csv",
-      "rdsPath": "../cleaned_data/trial9.rds"
+      "rdsPath": "../cleaned_data/trial9.rds",
+      "dictionaryPath": "../data_dictionary/trial9_dictionary.csv"
     },
     {
       "id": 10,
@@ -360,7 +369,8 @@
       "covariates": 14,
       "treatmentLevels": "No Video; Video",
       "csvPath": "../cleaned_data/trial10.csv",
-      "rdsPath": "../cleaned_data/trial10.rds"
+      "rdsPath": "../cleaned_data/trial10.rds",
+      "dictionaryPath": "../data_dictionary/trial10_dictionary.csv"
     },
     {
       "id": 11,
@@ -391,7 +401,8 @@
       "covariates": 16,
       "treatmentLevels": "active; placebo",
       "csvPath": "../cleaned_data/trial11.csv",
-      "rdsPath": "../cleaned_data/trial11.rds"
+      "rdsPath": "../cleaned_data/trial11.rds",
+      "dictionaryPath": "../data_dictionary/trial11_dictionary.csv"
     },
     {
       "id": 12,
@@ -422,7 +433,8 @@
       "covariates": 31,
       "treatmentLevels": "Immediate; Waitlist",
       "csvPath": "../cleaned_data/trial12.csv",
-      "rdsPath": "../cleaned_data/trial12.rds"
+      "rdsPath": "../cleaned_data/trial12.rds",
+      "dictionaryPath": "../data_dictionary/trial12_dictionary.csv"
     },
     {
       "id": 13,
@@ -453,7 +465,8 @@
       "covariates": 5,
       "treatmentLevels": "IM injection; IV infusion",
       "csvPath": "../cleaned_data/trial13.csv",
-      "rdsPath": "../cleaned_data/trial13.rds"
+      "rdsPath": "../cleaned_data/trial13.rds",
+      "dictionaryPath": "../data_dictionary/trial13_dictionary.csv"
     },
     {
       "id": 14,
@@ -484,7 +497,8 @@
       "covariates": 24,
       "treatmentLevels": "No Active Rehabilitation; TERECO",
       "csvPath": "../cleaned_data/trial14.csv",
-      "rdsPath": "../cleaned_data/trial14.rds"
+      "rdsPath": "../cleaned_data/trial14.rds",
+      "dictionaryPath": "../data_dictionary/trial14_dictionary.csv"
     },
     {
       "id": 15,
@@ -515,7 +529,8 @@
       "covariates": 17,
       "treatmentLevels": "Conventional Only; Conventional+Snoezelen",
       "csvPath": "../cleaned_data/trial15.csv",
-      "rdsPath": "../cleaned_data/trial15.rds"
+      "rdsPath": "../cleaned_data/trial15.rds",
+      "dictionaryPath": "../data_dictionary/trial15_dictionary.csv"
     },
     {
       "id": 16,
@@ -546,7 +561,8 @@
       "covariates": 11,
       "treatmentLevels": "Internet Delivered; Waitlist",
       "csvPath": "../cleaned_data/trial16.csv",
-      "rdsPath": "../cleaned_data/trial16.rds"
+      "rdsPath": "../cleaned_data/trial16.rds",
+      "dictionaryPath": "../data_dictionary/trial16_dictionary.csv"
     },
     {
       "id": 17,
@@ -577,7 +593,8 @@
       "covariates": 10,
       "treatmentLevels": "combine3; statin; statin_EZ; statin_pcsk9",
       "csvPath": "../cleaned_data/trial17.csv",
-      "rdsPath": "../cleaned_data/trial17.rds"
+      "rdsPath": "../cleaned_data/trial17.rds",
+      "dictionaryPath": "../data_dictionary/trial17_dictionary.csv"
     },
     {
       "id": 18,
@@ -608,7 +625,8 @@
       "covariates": 17,
       "treatmentLevels": "Kanyakla; Standard Care",
       "csvPath": "../cleaned_data/trial18.csv",
-      "rdsPath": "../cleaned_data/trial18.rds"
+      "rdsPath": "../cleaned_data/trial18.rds",
+      "dictionaryPath": "../data_dictionary/trial18_dictionary.csv"
     },
     {
       "id": 19,
@@ -639,7 +657,8 @@
       "covariates": 12,
       "treatmentLevels": "Conventional; Piggyback",
       "csvPath": "../cleaned_data/trial19.csv",
-      "rdsPath": "../cleaned_data/trial19.rds"
+      "rdsPath": "../cleaned_data/trial19.rds",
+      "dictionaryPath": "../data_dictionary/trial19_dictionary.csv"
     },
     {
       "id": 20,
@@ -670,7 +689,8 @@
       "covariates": 13,
       "treatmentLevels": "IWT only; IWT+Support",
       "csvPath": "../cleaned_data/trial20.csv",
-      "rdsPath": "../cleaned_data/trial20.rds"
+      "rdsPath": "../cleaned_data/trial20.rds",
+      "dictionaryPath": "../data_dictionary/trial20_dictionary.csv"
     },
     {
       "id": 21,
@@ -701,7 +721,8 @@
       "covariates": 10,
       "treatmentLevels": "HIV; HIV-TB; SOC",
       "csvPath": "../cleaned_data/trial21.csv",
-      "rdsPath": "../cleaned_data/trial21.rds"
+      "rdsPath": "../cleaned_data/trial21.rds",
+      "dictionaryPath": "../data_dictionary/trial21_dictionary.csv"
     },
     {
       "id": 22,
@@ -732,7 +753,8 @@
       "covariates": 21,
       "treatmentLevels": "Control; Intervention",
       "csvPath": "../cleaned_data/trial22.csv",
-      "rdsPath": "../cleaned_data/trial22.rds"
+      "rdsPath": "../cleaned_data/trial22.rds",
+      "dictionaryPath": "../data_dictionary/trial22_dictionary.csv"
     },
     {
       "id": 23,
@@ -763,7 +785,8 @@
       "covariates": 5,
       "treatmentLevels": "No rhTM; rhTM",
       "csvPath": "../cleaned_data/trial23.csv",
-      "rdsPath": "../cleaned_data/trial23.rds"
+      "rdsPath": "../cleaned_data/trial23.rds",
+      "dictionaryPath": "../data_dictionary/trial23_dictionary.csv"
     },
     {
       "id": 24,
@@ -794,7 +817,8 @@
       "covariates": 12,
       "treatmentLevels": "Auriculotherapy; Sham Comparator",
       "csvPath": "../cleaned_data/trial24.csv",
-      "rdsPath": "../cleaned_data/trial24.rds"
+      "rdsPath": "../cleaned_data/trial24.rds",
+      "dictionaryPath": "../data_dictionary/trial24_dictionary.csv"
     },
     {
       "id": 25,
@@ -825,7 +849,8 @@
       "covariates": 26,
       "treatmentLevels": "Placebo; Probiotic with prebiotic",
       "csvPath": "../cleaned_data/trial25.csv",
-      "rdsPath": "../cleaned_data/trial25.rds"
+      "rdsPath": "../cleaned_data/trial25.rds",
+      "dictionaryPath": "../data_dictionary/trial25_dictionary.csv"
     },
     {
       "id": 26,
@@ -856,7 +881,8 @@
       "covariates": 9,
       "treatmentLevels": "Reminder module; Standard Care",
       "csvPath": "../cleaned_data/trial26.csv",
-      "rdsPath": "../cleaned_data/trial26.rds"
+      "rdsPath": "../cleaned_data/trial26.rds",
+      "dictionaryPath": "../data_dictionary/trial26_dictionary.csv"
     },
     {
       "id": 27,
@@ -887,7 +913,8 @@
       "covariates": 4,
       "treatmentLevels": "PCV; VCV",
       "csvPath": "../cleaned_data/trial27.csv",
-      "rdsPath": "../cleaned_data/trial27.rds"
+      "rdsPath": "../cleaned_data/trial27.rds",
+      "dictionaryPath": "../data_dictionary/trial27_dictionary.csv"
     },
     {
       "id": 28,
@@ -918,7 +945,8 @@
       "covariates": 11,
       "treatmentLevels": "Edu+Visit; Usual Care",
       "csvPath": "../cleaned_data/trial28.csv",
-      "rdsPath": "../cleaned_data/trial28.rds"
+      "rdsPath": "../cleaned_data/trial28.rds",
+      "dictionaryPath": "../data_dictionary/trial28_dictionary.csv"
     },
     {
       "id": 29,
@@ -949,7 +977,8 @@
       "covariates": 21,
       "treatmentLevels": "Placebo; Sertraline",
       "csvPath": "../cleaned_data/trial29.csv",
-      "rdsPath": "../cleaned_data/trial29.rds"
+      "rdsPath": "../cleaned_data/trial29.rds",
+      "dictionaryPath": "../data_dictionary/trial29_dictionary.csv"
     },
     {
       "id": 30,
@@ -980,7 +1009,8 @@
       "covariates": 13,
       "treatmentLevels": "Chair-REST; Pool-REST; Pool-REST preferred",
       "csvPath": "../cleaned_data/trial30.csv",
-      "rdsPath": "../cleaned_data/trial30.rds"
+      "rdsPath": "../cleaned_data/trial30.rds",
+      "dictionaryPath": "../data_dictionary/trial30_dictionary.csv"
     },
     {
       "id": 31,
@@ -1011,7 +1041,8 @@
       "covariates": 5,
       "treatmentLevels": "Placebo; TIV",
       "csvPath": "../cleaned_data/trial31.csv",
-      "rdsPath": "../cleaned_data/trial31.rds"
+      "rdsPath": "../cleaned_data/trial31.rds",
+      "dictionaryPath": "../data_dictionary/trial31_dictionary.csv"
     },
     {
       "id": 32,
@@ -1042,7 +1073,8 @@
       "covariates": 13,
       "treatmentLevels": "Hybrid-Hyrax; Hyrax; Keles",
       "csvPath": "../cleaned_data/trial32.csv",
-      "rdsPath": "../cleaned_data/trial32.rds"
+      "rdsPath": "../cleaned_data/trial32.rds",
+      "dictionaryPath": "../data_dictionary/trial32_dictionary.csv"
     },
     {
       "id": 33,
@@ -1073,7 +1105,8 @@
       "covariates": 8,
       "treatmentLevels": "Control; Reframing",
       "csvPath": "../cleaned_data/trial33.csv",
-      "rdsPath": "../cleaned_data/trial33.rds"
+      "rdsPath": "../cleaned_data/trial33.rds",
+      "dictionaryPath": "../data_dictionary/trial33_dictionary.csv"
     },
     {
       "id": 34,
@@ -1104,7 +1137,8 @@
       "covariates": 18,
       "treatmentLevels": "Placebo; Synbiotic",
       "csvPath": "../cleaned_data/trial34.csv",
-      "rdsPath": "../cleaned_data/trial34.rds"
+      "rdsPath": "../cleaned_data/trial34.rds",
+      "dictionaryPath": "../data_dictionary/trial34_dictionary.csv"
     },
     {
       "id": 35,
@@ -1135,7 +1169,8 @@
       "covariates": 9,
       "treatmentLevels": "Control; Exercise",
       "csvPath": "../cleaned_data/trial35.csv",
-      "rdsPath": "../cleaned_data/trial35.rds"
+      "rdsPath": "../cleaned_data/trial35.rds",
+      "dictionaryPath": "../data_dictionary/trial35_dictionary.csv"
     },
     {
       "id": 36,
@@ -1166,7 +1201,8 @@
       "covariates": 10,
       "treatmentLevels": "ACI; MI; PI",
       "csvPath": "../cleaned_data/trial36.csv",
-      "rdsPath": "../cleaned_data/trial36.rds"
+      "rdsPath": "../cleaned_data/trial36.rds",
+      "dictionaryPath": "../data_dictionary/trial36_dictionary.csv"
     },
     {
       "id": 37,
@@ -1197,7 +1233,8 @@
       "covariates": 28,
       "treatmentLevels": "Indomethacin; Placebo",
       "csvPath": "../cleaned_data/trial37.csv",
-      "rdsPath": "../cleaned_data/trial37.rds"
+      "rdsPath": "../cleaned_data/trial37.rds",
+      "dictionaryPath": "../data_dictionary/trial37_dictionary.csv"
     },
     {
       "id": 38,
@@ -1228,7 +1265,8 @@
       "covariates": 16,
       "treatmentLevels": "ddI; ZDV; ZDV_ddI; ZDV_Zal",
       "csvPath": "../cleaned_data/trial38.csv",
-      "rdsPath": "../cleaned_data/trial38.rds"
+      "rdsPath": "../cleaned_data/trial38.rds",
+      "dictionaryPath": "../data_dictionary/trial38_dictionary.csv"
     },
     {
       "id": 39,
@@ -1259,7 +1297,8 @@
       "covariates": 19,
       "treatmentLevels": "HELP; Usual Care",
       "csvPath": "../cleaned_data/trial39.csv",
-      "rdsPath": "../cleaned_data/trial39.rds"
+      "rdsPath": "../cleaned_data/trial39.rds",
+      "dictionaryPath": "../data_dictionary/trial39_dictionary.csv"
     },
     {
       "id": 40,
@@ -1290,7 +1329,8 @@
       "covariates": 5,
       "treatmentLevels": "AWS; Macintosh",
       "csvPath": "../cleaned_data/trial40.csv",
-      "rdsPath": "../cleaned_data/trial40.rds"
+      "rdsPath": "../cleaned_data/trial40.rds",
+      "dictionaryPath": "../data_dictionary/trial40_dictionary.csv"
     },
     {
       "id": 41,
@@ -1321,7 +1361,8 @@
       "covariates": 8,
       "treatmentLevels": "Licorice; Sugar",
       "csvPath": "../cleaned_data/trial41.csv",
-      "rdsPath": "../cleaned_data/trial41.rds"
+      "rdsPath": "../cleaned_data/trial41.rds",
+      "dictionaryPath": "../data_dictionary/trial41_dictionary.csv"
     },
     {
       "id": 42,
@@ -1352,7 +1393,8 @@
       "covariates": 6,
       "treatmentLevels": "Combined; Sequential",
       "csvPath": "../cleaned_data/trial42.csv",
-      "rdsPath": "../cleaned_data/trial42.rds"
+      "rdsPath": "../cleaned_data/trial42.rds",
+      "dictionaryPath": "../data_dictionary/trial42_dictionary.csv"
     },
     {
       "id": 43,
@@ -1383,7 +1425,8 @@
       "covariates": 36,
       "treatmentLevels": "Control; Intervention",
       "csvPath": "../cleaned_data/trial43.csv",
-      "rdsPath": "../cleaned_data/trial43.rds"
+      "rdsPath": "../cleaned_data/trial43.rds",
+      "dictionaryPath": "../data_dictionary/trial43_dictionary.csv"
     },
     {
       "id": 44,
@@ -1414,7 +1457,8 @@
       "covariates": 8,
       "treatmentLevels": "Alternative; Conventional",
       "csvPath": "../cleaned_data/trial44.csv",
-      "rdsPath": "../cleaned_data/trial44.rds"
+      "rdsPath": "../cleaned_data/trial44.rds",
+      "dictionaryPath": "../data_dictionary/trial44_dictionary.csv"
     },
     {
       "id": 45,
@@ -1445,7 +1489,8 @@
       "covariates": 38,
       "treatmentLevels": "0% Discount; 15% Discount; 30% Discount",
       "csvPath": "../cleaned_data/trial45.csv",
-      "rdsPath": "../cleaned_data/trial45.rds"
+      "rdsPath": "../cleaned_data/trial45.rds",
+      "dictionaryPath": "../data_dictionary/trial45_dictionary.csv"
     },
     {
       "id": 46,
@@ -1476,7 +1521,8 @@
       "covariates": 9,
       "treatmentLevels": "Control; Simulator_PE",
       "csvPath": "../cleaned_data/trial46.csv",
-      "rdsPath": "../cleaned_data/trial46.rds"
+      "rdsPath": "../cleaned_data/trial46.rds",
+      "dictionaryPath": "../data_dictionary/trial46_dictionary.csv"
     },
     {
       "id": 47,
@@ -1507,7 +1553,8 @@
       "covariates": 17,
       "treatmentLevels": "HFNC; NIV",
       "csvPath": "../cleaned_data/trial47.csv",
-      "rdsPath": "../cleaned_data/trial47.rds"
+      "rdsPath": "../cleaned_data/trial47.rds",
+      "dictionaryPath": "../data_dictionary/trial47_dictionary.csv"
     },
     {
       "id": 48,
@@ -1538,7 +1585,8 @@
       "covariates": 7,
       "treatmentLevels": "Breakfast; Control; NoBreakfast",
       "csvPath": "../cleaned_data/trial48.csv",
-      "rdsPath": "../cleaned_data/trial48.rds"
+      "rdsPath": "../cleaned_data/trial48.rds",
+      "dictionaryPath": "../data_dictionary/trial48_dictionary.csv"
     },
     {
       "id": 49,
@@ -1569,7 +1617,8 @@
       "covariates": 26,
       "treatmentLevels": "Control; OralStimulation",
       "csvPath": "../cleaned_data/trial49.csv",
-      "rdsPath": "../cleaned_data/trial49.rds"
+      "rdsPath": "../cleaned_data/trial49.rds",
+      "dictionaryPath": "../data_dictionary/trial49_dictionary.csv"
     },
     {
       "id": 50,
@@ -1600,7 +1649,8 @@
       "covariates": 8,
       "treatmentLevels": "Placebo; rIFN-g",
       "csvPath": "../cleaned_data/trial50.csv",
-      "rdsPath": "../cleaned_data/trial50.rds"
+      "rdsPath": "../cleaned_data/trial50.rds",
+      "dictionaryPath": "../data_dictionary/trial50_dictionary.csv"
     },
     {
       "id": 51,
@@ -1631,7 +1681,8 @@
       "covariates": 9,
       "treatmentLevels": "Control; Lavender oil; Sleep hygiene; Sleep hygiene + lavender oil",
       "csvPath": "../cleaned_data/trial51.csv",
-      "rdsPath": "../cleaned_data/trial51.rds"
+      "rdsPath": "../cleaned_data/trial51.rds",
+      "dictionaryPath": "../data_dictionary/trial51_dictionary.csv"
     },
     {
       "id": 52,
@@ -1662,7 +1713,8 @@
       "covariates": 15,
       "treatmentLevels": "Control; Tenapanor",
       "csvPath": "../cleaned_data/trial52.csv",
-      "rdsPath": "../cleaned_data/trial52.rds"
+      "rdsPath": "../cleaned_data/trial52.rds",
+      "dictionaryPath": "../data_dictionary/trial52_dictionary.csv"
     },
     {
       "id": 53,
@@ -1693,7 +1745,8 @@
       "covariates": 7,
       "treatmentLevels": "Group 1; Group 2",
       "csvPath": "../cleaned_data/trial53.csv",
-      "rdsPath": "../cleaned_data/trial53.rds"
+      "rdsPath": "../cleaned_data/trial53.rds",
+      "dictionaryPath": "../data_dictionary/trial53_dictionary.csv"
     },
     {
       "id": 54,
@@ -1724,7 +1777,8 @@
       "covariates": 7,
       "treatmentLevels": "Pelvic floor training; Vaginal spheres + pelvic floor training",
       "csvPath": "../cleaned_data/trial54.csv",
-      "rdsPath": "../cleaned_data/trial54.rds"
+      "rdsPath": "../cleaned_data/trial54.rds",
+      "dictionaryPath": "../data_dictionary/trial54_dictionary.csv"
     },
     {
       "id": 55,
@@ -1755,7 +1809,8 @@
       "covariates": 10,
       "treatmentLevels": "Control; Taking Charge",
       "csvPath": "../cleaned_data/trial55.csv",
-      "rdsPath": "../cleaned_data/trial55.rds"
+      "rdsPath": "../cleaned_data/trial55.rds",
+      "dictionaryPath": "../data_dictionary/trial55_dictionary.csv"
     },
     {
       "id": 56,
@@ -1786,7 +1841,8 @@
       "covariates": 10,
       "treatmentLevels": "Active tDCS; Sham tDCS",
       "csvPath": "../cleaned_data/trial56.csv",
-      "rdsPath": "../cleaned_data/trial56.rds"
+      "rdsPath": "../cleaned_data/trial56.rds",
+      "dictionaryPath": "../data_dictionary/trial56_dictionary.csv"
     },
     {
       "id": 57,
@@ -1817,7 +1873,8 @@
       "covariates": 7,
       "treatmentLevels": "Functional imagery training; Motivational interviewing",
       "csvPath": "../cleaned_data/trial57.csv",
-      "rdsPath": "../cleaned_data/trial57.rds"
+      "rdsPath": "../cleaned_data/trial57.rds",
+      "dictionaryPath": "../data_dictionary/trial57_dictionary.csv"
     },
     {
       "id": 58,
@@ -1848,7 +1905,8 @@
       "covariates": 11,
       "treatmentLevels": "Active tDCS + cognitive training; Sham tDCS + cognitive training",
       "csvPath": "../cleaned_data/trial58.csv",
-      "rdsPath": "../cleaned_data/trial58.rds"
+      "rdsPath": "../cleaned_data/trial58.rds",
+      "dictionaryPath": "../data_dictionary/trial58_dictionary.csv"
     },
     {
       "id": 59,
@@ -1879,7 +1937,8 @@
       "covariates": 8,
       "treatmentLevels": "Static stretching; Tissue flossing",
       "csvPath": "../cleaned_data/trial59.csv",
-      "rdsPath": "../cleaned_data/trial59.rds"
+      "rdsPath": "../cleaned_data/trial59.rds",
+      "dictionaryPath": "../data_dictionary/trial59_dictionary.csv"
     },
     {
       "id": 60,
@@ -1910,7 +1969,8 @@
       "covariates": 4,
       "treatmentLevels": "IW stimulation; Sham",
       "csvPath": "../cleaned_data/trial60.csv",
-      "rdsPath": "../cleaned_data/trial60.rds"
+      "rdsPath": "../cleaned_data/trial60.rds",
+      "dictionaryPath": "../data_dictionary/trial60_dictionary.csv"
     },
     {
       "id": 61,
@@ -1941,7 +2001,8 @@
       "covariates": 21,
       "treatmentLevels": "Placebo; Supplement",
       "csvPath": "../cleaned_data/trial61.csv",
-      "rdsPath": "../cleaned_data/trial61.rds"
+      "rdsPath": "../cleaned_data/trial61.rds",
+      "dictionaryPath": "../data_dictionary/trial61_dictionary.csv"
     },
     {
       "id": 62,
@@ -1972,7 +2033,8 @@
       "covariates": 4,
       "treatmentLevels": "Cyclosporine; Tacrolimus",
       "csvPath": "../cleaned_data/trial62.csv",
-      "rdsPath": "../cleaned_data/trial62.rds"
+      "rdsPath": "../cleaned_data/trial62.rds",
+      "dictionaryPath": "../data_dictionary/trial62_dictionary.csv"
     },
     {
       "id": 63,
@@ -2003,7 +2065,8 @@
       "covariates": 17,
       "treatmentLevels": "Circuit resistance training; Control; HIIT",
       "csvPath": "../cleaned_data/trial63.csv",
-      "rdsPath": "../cleaned_data/trial63.rds"
+      "rdsPath": "../cleaned_data/trial63.rds",
+      "dictionaryPath": "../data_dictionary/trial63_dictionary.csv"
     },
     {
       "id": 64,
@@ -2034,7 +2097,8 @@
       "covariates": 17,
       "treatmentLevels": "Exercise; Wait-list control",
       "csvPath": "../cleaned_data/trial64.csv",
-      "rdsPath": "../cleaned_data/trial64.rds"
+      "rdsPath": "../cleaned_data/trial64.rds",
+      "dictionaryPath": "../data_dictionary/trial64_dictionary.csv"
     },
     {
       "id": 65,
@@ -2065,7 +2129,8 @@
       "covariates": 13,
       "treatmentLevels": "Active tDCS; Control; Sham tDCS",
       "csvPath": "../cleaned_data/trial65.csv",
-      "rdsPath": "../cleaned_data/trial65.rds"
+      "rdsPath": "../cleaned_data/trial65.rds",
+      "dictionaryPath": "../data_dictionary/trial65_dictionary.csv"
     },
     {
       "id": 66,
@@ -2096,7 +2161,8 @@
       "covariates": 4,
       "treatmentLevels": "Ashtanga yoga therapy; Waitlist control",
       "csvPath": "../cleaned_data/trial66.csv",
-      "rdsPath": "../cleaned_data/trial66.rds"
+      "rdsPath": "../cleaned_data/trial66.rds",
+      "dictionaryPath": "../data_dictionary/trial66_dictionary.csv"
     },
     {
       "id": 67,
@@ -2127,7 +2193,8 @@
       "covariates": 12,
       "treatmentLevels": "High cut-off filter; Standard filter",
       "csvPath": "../cleaned_data/trial67.csv",
-      "rdsPath": "../cleaned_data/trial67.rds"
+      "rdsPath": "../cleaned_data/trial67.rds",
+      "dictionaryPath": "../data_dictionary/trial67_dictionary.csv"
     },
     {
       "id": 68,
@@ -2158,7 +2225,8 @@
       "covariates": 11,
       "treatmentLevels": "BCI attention training; Control",
       "csvPath": "../cleaned_data/trial68.csv",
-      "rdsPath": "../cleaned_data/trial68.rds"
+      "rdsPath": "../cleaned_data/trial68.rds",
+      "dictionaryPath": "../data_dictionary/trial68_dictionary.csv"
     },
     {
       "id": 69,
@@ -2189,7 +2257,8 @@
       "covariates": 2,
       "treatmentLevels": "Morphine; Placebo; Tapentadol",
       "csvPath": "../cleaned_data/trial69.csv",
-      "rdsPath": "../cleaned_data/trial69.rds"
+      "rdsPath": "../cleaned_data/trial69.rds",
+      "dictionaryPath": "../data_dictionary/trial69_dictionary.csv"
     },
     {
       "id": 70,
@@ -2220,7 +2289,8 @@
       "covariates": 13,
       "treatmentLevels": "Crosswords control; Lumosity cognitive training",
       "csvPath": "../cleaned_data/trial70.csv",
-      "rdsPath": "../cleaned_data/trial70.rds"
+      "rdsPath": "../cleaned_data/trial70.rds",
+      "dictionaryPath": "../data_dictionary/trial70_dictionary.csv"
     },
     {
       "id": 71,
@@ -2251,7 +2321,8 @@
       "covariates": 12,
       "treatmentLevels": "Control; Intervention",
       "csvPath": "../cleaned_data/trial71.csv",
-      "rdsPath": "../cleaned_data/trial71.rds"
+      "rdsPath": "../cleaned_data/trial71.rds",
+      "dictionaryPath": "../data_dictionary/trial71_dictionary.csv"
     },
     {
       "id": 72,
@@ -2282,7 +2353,8 @@
       "covariates": 10,
       "treatmentLevels": "Oxytocin IV; Sublingual misoprostol",
       "csvPath": "../cleaned_data/trial72.csv",
-      "rdsPath": "../cleaned_data/trial72.rds"
+      "rdsPath": "../cleaned_data/trial72.rds",
+      "dictionaryPath": "../data_dictionary/trial72_dictionary.csv"
     },
     {
       "id": 73,
@@ -2313,7 +2385,8 @@
       "covariates": 11,
       "treatmentLevels": "AI-assisted reassurance call; Human-assisted reassurance call; No call",
       "csvPath": "../cleaned_data/trial73.csv",
-      "rdsPath": "../cleaned_data/trial73.rds"
+      "rdsPath": "../cleaned_data/trial73.rds",
+      "dictionaryPath": "../data_dictionary/trial73_dictionary.csv"
     },
     {
       "id": 74,
@@ -2344,7 +2417,8 @@
       "covariates": 14,
       "treatmentLevels": "Core stability exercise; Standard care",
       "csvPath": "../cleaned_data/trial74.csv",
-      "rdsPath": "../cleaned_data/trial74.rds"
+      "rdsPath": "../cleaned_data/trial74.rds",
+      "dictionaryPath": "../data_dictionary/trial74_dictionary.csv"
     },
     {
       "id": 75,
@@ -2375,7 +2449,8 @@
       "covariates": 14,
       "treatmentLevels": "Conventional three-branch RFA; Reduced two-branch RFA",
       "csvPath": "../cleaned_data/trial75.csv",
-      "rdsPath": "../cleaned_data/trial75.rds"
+      "rdsPath": "../cleaned_data/trial75.rds",
+      "dictionaryPath": "../data_dictionary/trial75_dictionary.csv"
     },
     {
       "id": 76,
@@ -2406,7 +2481,8 @@
       "covariates": 4,
       "treatmentLevels": "Time-segmented-target teaching; Traditional teaching",
       "csvPath": "../cleaned_data/trial76.csv",
-      "rdsPath": "../cleaned_data/trial76.rds"
+      "rdsPath": "../cleaned_data/trial76.rds",
+      "dictionaryPath": "../data_dictionary/trial76_dictionary.csv"
     },
     {
       "id": 77,
@@ -2437,7 +2513,8 @@
       "covariates": 13,
       "treatmentLevels": "Control rehabilitation; Core stability exercise",
       "csvPath": "../cleaned_data/trial77.csv",
-      "rdsPath": "../cleaned_data/trial77.rds"
+      "rdsPath": "../cleaned_data/trial77.rds",
+      "dictionaryPath": "../data_dictionary/trial77_dictionary.csv"
     },
     {
       "id": 78,
@@ -2468,7 +2545,8 @@
       "covariates": 19,
       "treatmentLevels": "Control; Regional thermotherapy",
       "csvPath": "../cleaned_data/trial78.csv",
-      "rdsPath": "../cleaned_data/trial78.rds"
+      "rdsPath": "../cleaned_data/trial78.rds",
+      "dictionaryPath": "../data_dictionary/trial78_dictionary.csv"
     },
     {
       "id": 79,
@@ -2499,7 +2577,8 @@
       "covariates": 13,
       "treatmentLevels": "Control; Webtoon education",
       "csvPath": "../cleaned_data/trial79.csv",
-      "rdsPath": "../cleaned_data/trial79.rds"
+      "rdsPath": "../cleaned_data/trial79.rds",
+      "dictionaryPath": "../data_dictionary/trial79_dictionary.csv"
     },
     {
       "id": 80,
@@ -2530,7 +2609,8 @@
       "covariates": 17,
       "treatmentLevels": "Control; Digital peer support; Self-guided digital program",
       "csvPath": "../cleaned_data/trial80.csv",
-      "rdsPath": "../cleaned_data/trial80.rds"
+      "rdsPath": "../cleaned_data/trial80.rds",
+      "dictionaryPath": "../data_dictionary/trial80_dictionary.csv"
     },
     {
       "id": 81,
@@ -2561,7 +2641,8 @@
       "covariates": 8,
       "treatmentLevels": "Arm_1; Arm_2; Arm_3",
       "csvPath": "../cleaned_data/trial81.csv",
-      "rdsPath": "../cleaned_data/trial81.rds"
+      "rdsPath": "../cleaned_data/trial81.rds",
+      "dictionaryPath": "../data_dictionary/trial81_dictionary.csv"
     },
     {
       "id": 82,
@@ -2592,7 +2673,8 @@
       "covariates": 19,
       "treatmentLevels": "Arm_1; Arm_2",
       "csvPath": "../cleaned_data/trial82.csv",
-      "rdsPath": "../cleaned_data/trial82.rds"
+      "rdsPath": "../cleaned_data/trial82.rds",
+      "dictionaryPath": "../data_dictionary/trial82_dictionary.csv"
     },
     {
       "id": 83,
@@ -2623,7 +2705,8 @@
       "covariates": 15,
       "treatmentLevels": "Arm_0; Arm_1",
       "csvPath": "../cleaned_data/trial83.csv",
-      "rdsPath": "../cleaned_data/trial83.rds"
+      "rdsPath": "../cleaned_data/trial83.rds",
+      "dictionaryPath": "../data_dictionary/trial83_dictionary.csv"
     },
     {
       "id": 84,
@@ -2654,7 +2737,8 @@
       "covariates": 5,
       "treatmentLevels": "BPT; CBT",
       "csvPath": "../cleaned_data/trial84.csv",
-      "rdsPath": "../cleaned_data/trial84.rds"
+      "rdsPath": "../cleaned_data/trial84.rds",
+      "dictionaryPath": "../data_dictionary/trial84_dictionary.csv"
     },
     {
       "id": 85,
@@ -2685,7 +2769,8 @@
       "covariates": 16,
       "treatmentLevels": "Tx; WL",
       "csvPath": "../cleaned_data/trial85.csv",
-      "rdsPath": "../cleaned_data/trial85.rds"
+      "rdsPath": "../cleaned_data/trial85.rds",
+      "dictionaryPath": "../data_dictionary/trial85_dictionary.csv"
     },
     {
       "id": 86,
@@ -2716,7 +2801,8 @@
       "covariates": 15,
       "treatmentLevels": "LC106-3; LC106-7; LC106-o; LC115; Pl",
       "csvPath": "../cleaned_data/trial86.csv",
-      "rdsPath": "../cleaned_data/trial86.rds"
+      "rdsPath": "../cleaned_data/trial86.rds",
+      "dictionaryPath": "../data_dictionary/trial86_dictionary.csv"
     },
     {
       "id": 87,
@@ -2747,7 +2833,8 @@
       "covariates": 13,
       "treatmentLevels": "Fentanyl; Oxycodone",
       "csvPath": "../cleaned_data/trial87.csv",
-      "rdsPath": "../cleaned_data/trial87.rds"
+      "rdsPath": "../cleaned_data/trial87.rds",
+      "dictionaryPath": "../data_dictionary/trial87_dictionary.csv"
     },
     {
       "id": 88,
@@ -2778,7 +2865,8 @@
       "covariates": 18,
       "treatmentLevels": "Control; Nutrition education",
       "csvPath": "../cleaned_data/trial88.csv",
-      "rdsPath": "../cleaned_data/trial88.rds"
+      "rdsPath": "../cleaned_data/trial88.rds",
+      "dictionaryPath": "../data_dictionary/trial88_dictionary.csv"
     },
     {
       "id": 89,
@@ -2809,7 +2897,8 @@
       "covariates": 2,
       "treatmentLevels": "Acupuncture alone; Nimodipine + acupuncture; Nimodipine alone",
       "csvPath": "../cleaned_data/trial89.csv",
-      "rdsPath": "../cleaned_data/trial89.rds"
+      "rdsPath": "../cleaned_data/trial89.rds",
+      "dictionaryPath": "../data_dictionary/trial89_dictionary.csv"
     },
     {
       "id": 90,
@@ -2840,7 +2929,8 @@
       "covariates": 6,
       "treatmentLevels": "Control; Intervention",
       "csvPath": "../cleaned_data/trial90.csv",
-      "rdsPath": "../cleaned_data/trial90.rds"
+      "rdsPath": "../cleaned_data/trial90.rds",
+      "dictionaryPath": "../data_dictionary/trial90_dictionary.csv"
     },
     {
       "id": 91,
@@ -2871,7 +2961,8 @@
       "covariates": 4,
       "treatmentLevels": "Monocryl; Vicryl Rapide",
       "csvPath": "../cleaned_data/trial91.csv",
-      "rdsPath": "../cleaned_data/trial91.rds"
+      "rdsPath": "../cleaned_data/trial91.rds",
+      "dictionaryPath": "../data_dictionary/trial91_dictionary.csv"
     },
     {
       "id": 92,
@@ -2902,7 +2993,8 @@
       "covariates": 19,
       "treatmentLevels": "Control; Intervention",
       "csvPath": "../cleaned_data/trial92.csv",
-      "rdsPath": "../cleaned_data/trial92.rds"
+      "rdsPath": "../cleaned_data/trial92.rds",
+      "dictionaryPath": "../data_dictionary/trial92_dictionary.csv"
     },
     {
       "id": 93,
@@ -2933,7 +3025,8 @@
       "covariates": 15,
       "treatmentLevels": "Control; Reminder only; Reminder plus information",
       "csvPath": "../cleaned_data/trial93.csv",
-      "rdsPath": "../cleaned_data/trial93.rds"
+      "rdsPath": "../cleaned_data/trial93.rds",
+      "dictionaryPath": "../data_dictionary/trial93_dictionary.csv"
     },
     {
       "id": 94,
@@ -2964,7 +3057,8 @@
       "covariates": 16,
       "treatmentLevels": "Control; Zindagi SMS",
       "csvPath": "../cleaned_data/trial94.csv",
-      "rdsPath": "../cleaned_data/trial94.rds"
+      "rdsPath": "../cleaned_data/trial94.rds",
+      "dictionaryPath": "../data_dictionary/trial94_dictionary.csv"
     },
     {
       "id": 95,
@@ -2995,7 +3089,8 @@
       "covariates": 14,
       "treatmentLevels": "Laryngeal mask; Laryngeal tube",
       "csvPath": "../cleaned_data/trial95.csv",
-      "rdsPath": "../cleaned_data/trial95.rds"
+      "rdsPath": "../cleaned_data/trial95.rds",
+      "dictionaryPath": "../data_dictionary/trial95_dictionary.csv"
     },
     {
       "id": 96,
@@ -3026,7 +3121,8 @@
       "covariates": 9,
       "treatmentLevels": "Ceramide emulsion; Control",
       "csvPath": "../cleaned_data/trial96.csv",
-      "rdsPath": "../cleaned_data/trial96.rds"
+      "rdsPath": "../cleaned_data/trial96.rds",
+      "dictionaryPath": "../data_dictionary/trial96_dictionary.csv"
     },
     {
       "id": 97,
@@ -3057,7 +3153,8 @@
       "covariates": 5,
       "treatmentLevels": "Group 1; Group 2",
       "csvPath": "../cleaned_data/trial97.csv",
-      "rdsPath": "../cleaned_data/trial97.rds"
+      "rdsPath": "../cleaned_data/trial97.rds",
+      "dictionaryPath": "../data_dictionary/trial97_dictionary.csv"
     },
     {
       "id": 98,
@@ -3088,7 +3185,8 @@
       "covariates": 3,
       "treatmentLevels": "Placebo; Primaquine",
       "csvPath": "../cleaned_data/trial98.csv",
-      "rdsPath": "../cleaned_data/trial98.rds"
+      "rdsPath": "../cleaned_data/trial98.rds",
+      "dictionaryPath": "../data_dictionary/trial98_dictionary.csv"
     },
     {
       "id": 99,
@@ -3119,7 +3217,8 @@
       "covariates": 5,
       "treatmentLevels": "Control; Education support",
       "csvPath": "../cleaned_data/trial99.csv",
-      "rdsPath": "../cleaned_data/trial99.rds"
+      "rdsPath": "../cleaned_data/trial99.rds",
+      "dictionaryPath": "../data_dictionary/trial99_dictionary.csv"
     },
     {
       "id": 100,
@@ -3150,7 +3249,8 @@
       "covariates": 1,
       "treatmentLevels": "Control; rhTM",
       "csvPath": "../cleaned_data/trial100.csv",
-      "rdsPath": "../cleaned_data/trial100.rds"
+      "rdsPath": "../cleaned_data/trial100.rds",
+      "dictionaryPath": "../data_dictionary/trial100_dictionary.csv"
     },
     {
       "id": 101,
@@ -3181,7 +3281,8 @@
       "covariates": 4,
       "treatmentLevels": "Geriatric intervention; Standard care",
       "csvPath": "../cleaned_data/trial101.csv",
-      "rdsPath": "../cleaned_data/trial101.rds"
+      "rdsPath": "../cleaned_data/trial101.rds",
+      "dictionaryPath": "../data_dictionary/trial101_dictionary.csv"
     },
     {
       "id": 102,
@@ -3212,7 +3313,8 @@
       "covariates": 4,
       "treatmentLevels": "Flucloxacillin; Flucloxacillin + clindamycin",
       "csvPath": "../cleaned_data/trial102.csv",
-      "rdsPath": "../cleaned_data/trial102.rds"
+      "rdsPath": "../cleaned_data/trial102.rds",
+      "dictionaryPath": "../data_dictionary/trial102_dictionary.csv"
     },
     {
       "id": 103,
@@ -3243,7 +3345,8 @@
       "covariates": 4,
       "treatmentLevels": "General ward; Geriatric ward; MMHU",
       "csvPath": "../cleaned_data/trial103.csv",
-      "rdsPath": "../cleaned_data/trial103.rds"
+      "rdsPath": "../cleaned_data/trial103.rds",
+      "dictionaryPath": "../data_dictionary/trial103_dictionary.csv"
     },
     {
       "id": 104,
@@ -3274,7 +3377,8 @@
       "covariates": 3,
       "treatmentLevels": "Pharmacist collaborative prescribing; Usual care",
       "csvPath": "../cleaned_data/trial104.csv",
-      "rdsPath": "../cleaned_data/trial104.rds"
+      "rdsPath": "../cleaned_data/trial104.rds",
+      "dictionaryPath": "../data_dictionary/trial104_dictionary.csv"
     },
     {
       "id": 105,
@@ -3305,7 +3409,8 @@
       "covariates": 4,
       "treatmentLevels": "Exercise; Standard care",
       "csvPath": "../cleaned_data/trial105.csv",
-      "rdsPath": "../cleaned_data/trial105.rds"
+      "rdsPath": "../cleaned_data/trial105.rds",
+      "dictionaryPath": "../data_dictionary/trial105_dictionary.csv"
     },
     {
       "id": 106,
@@ -3336,7 +3441,8 @@
       "covariates": 4,
       "treatmentLevels": "Mentalization-based treatment; Third wave cognitive therapy",
       "csvPath": "../cleaned_data/trial106.csv",
-      "rdsPath": "../cleaned_data/trial106.rds"
+      "rdsPath": "../cleaned_data/trial106.rds",
+      "dictionaryPath": "../data_dictionary/trial106_dictionary.csv"
     },
     {
       "id": 107,
@@ -3367,7 +3473,8 @@
       "covariates": 4,
       "treatmentLevels": "Doctor; Emergency nurse practitioner; Extended scope physiotherapist",
       "csvPath": "../cleaned_data/trial107.csv",
-      "rdsPath": "../cleaned_data/trial107.rds"
+      "rdsPath": "../cleaned_data/trial107.rds",
+      "dictionaryPath": "../data_dictionary/trial107_dictionary.csv"
     },
     {
       "id": 108,
@@ -3398,7 +3505,8 @@
       "covariates": 6,
       "treatmentLevels": "AKI alert; Usual care",
       "csvPath": "../cleaned_data/trial108.csv",
-      "rdsPath": "../cleaned_data/trial108.rds"
+      "rdsPath": "../cleaned_data/trial108.rds",
+      "dictionaryPath": "../data_dictionary/trial108_dictionary.csv"
     },
     {
       "id": 109,
@@ -3429,7 +3537,8 @@
       "covariates": 6,
       "treatmentLevels": "Placebo; Vitamin K1; Vitamin K2",
       "csvPath": "../cleaned_data/trial109.csv",
-      "rdsPath": "../cleaned_data/trial109.rds"
+      "rdsPath": "../cleaned_data/trial109.rds",
+      "dictionaryPath": "../data_dictionary/trial109_dictionary.csv"
     },
     {
       "id": 110,
@@ -3460,7 +3569,8 @@
       "covariates": 4,
       "treatmentLevels": "IV iron (ferumoxytol); Oral iron",
       "csvPath": "../cleaned_data/trial110.csv",
-      "rdsPath": "../cleaned_data/trial110.rds"
+      "rdsPath": "../cleaned_data/trial110.rds",
+      "dictionaryPath": "../data_dictionary/trial110_dictionary.csv"
     },
     {
       "id": 111,
@@ -3491,7 +3601,8 @@
       "covariates": 5,
       "treatmentLevels": "Abacus cognitive training; Control",
       "csvPath": "../cleaned_data/trial111.csv",
-      "rdsPath": "../cleaned_data/trial111.rds"
+      "rdsPath": "../cleaned_data/trial111.rds",
+      "dictionaryPath": "../data_dictionary/trial111_dictionary.csv"
     },
     {
       "id": 112,
@@ -3522,7 +3633,8 @@
       "covariates": 4,
       "treatmentLevels": "Non-pulsatile pacifier; NTrainer stimulation",
       "csvPath": "../cleaned_data/trial112.csv",
-      "rdsPath": "../cleaned_data/trial112.rds"
+      "rdsPath": "../cleaned_data/trial112.rds",
+      "dictionaryPath": "../data_dictionary/trial112_dictionary.csv"
     },
     {
       "id": 113,
@@ -3553,7 +3665,8 @@
       "covariates": 5,
       "treatmentLevels": "Counselling + pharmacotherapy; Usual care",
       "csvPath": "../cleaned_data/trial113.csv",
-      "rdsPath": "../cleaned_data/trial113.rds"
+      "rdsPath": "../cleaned_data/trial113.rds",
+      "dictionaryPath": "../data_dictionary/trial113_dictionary.csv"
     },
     {
       "id": 114,
@@ -3584,7 +3697,8 @@
       "covariates": 4,
       "treatmentLevels": "Early sitting; Progressive sitting",
       "csvPath": "../cleaned_data/trial114.csv",
-      "rdsPath": "../cleaned_data/trial114.rds"
+      "rdsPath": "../cleaned_data/trial114.rds",
+      "dictionaryPath": "../data_dictionary/trial114_dictionary.csv"
     },
     {
       "id": 115,
@@ -3615,7 +3729,8 @@
       "covariates": 5,
       "treatmentLevels": "Control- no SMS; PP Checklist & FP SMS; PP Checklist & PNC General; PP Checklist Only",
       "csvPath": "../cleaned_data/trial115.csv",
-      "rdsPath": "../cleaned_data/trial115.rds"
+      "rdsPath": "../cleaned_data/trial115.rds",
+      "dictionaryPath": "../data_dictionary/trial115_dictionary.csv"
     },
     {
       "id": 116,
@@ -3646,7 +3761,8 @@
       "covariates": 15,
       "treatmentLevels": "Group 1; Group 2",
       "csvPath": "../cleaned_data/trial116.csv",
-      "rdsPath": "../cleaned_data/trial116.rds"
+      "rdsPath": "../cleaned_data/trial116.rds",
+      "dictionaryPath": "../data_dictionary/trial116_dictionary.csv"
     },
     {
       "id": 117,
@@ -3677,7 +3793,8 @@
       "covariates": 5,
       "treatmentLevels": "Ketamine; Midazolam; Saline",
       "csvPath": "../cleaned_data/trial117.csv",
-      "rdsPath": "../cleaned_data/trial117.rds"
+      "rdsPath": "../cleaned_data/trial117.rds",
+      "dictionaryPath": "../data_dictionary/trial117_dictionary.csv"
     },
     {
       "id": 118,
@@ -3708,7 +3825,8 @@
       "covariates": 12,
       "treatmentLevels": "CRB+rTMS; CRB+SHM; PLC+SHM",
       "csvPath": "../cleaned_data/trial118.csv",
-      "rdsPath": "../cleaned_data/trial118.rds"
+      "rdsPath": "../cleaned_data/trial118.rds",
+      "dictionaryPath": "../data_dictionary/trial118_dictionary.csv"
     },
     {
       "id": 119,
@@ -3739,7 +3857,8 @@
       "covariates": 15,
       "treatmentLevels": "Randomisation arm 1; Randomisation arm 2",
       "csvPath": "../cleaned_data/trial119.csv",
-      "rdsPath": "../cleaned_data/trial119.rds"
+      "rdsPath": "../cleaned_data/trial119.rds",
+      "dictionaryPath": "../data_dictionary/trial119_dictionary.csv"
     },
     {
       "id": 120,
@@ -3770,7 +3889,8 @@
       "covariates": 2,
       "treatmentLevels": "Continuous treatment; Intermittent treatment",
       "csvPath": "../cleaned_data/trial120.csv",
-      "rdsPath": "../cleaned_data/trial120.rds"
+      "rdsPath": "../cleaned_data/trial120.rds",
+      "dictionaryPath": "../data_dictionary/trial120_dictionary.csv"
     },
     {
       "id": 121,
@@ -3801,7 +3921,8 @@
       "covariates": 13,
       "treatmentLevels": "Control; Monitor + Accept; Monitor Only",
       "csvPath": "../cleaned_data/trial121.csv",
-      "rdsPath": "../cleaned_data/trial121.rds"
+      "rdsPath": "../cleaned_data/trial121.rds",
+      "dictionaryPath": "../data_dictionary/trial121_dictionary.csv"
     },
     {
       "id": 122,
@@ -3832,7 +3953,8 @@
       "covariates": 22,
       "treatmentLevels": "group_1_medication_1_communication_1; group_2_medication_1_communication_2; group_3_medication_2_communication_1; group_4_medication_2_communication_2",
       "csvPath": "../cleaned_data/trial122.csv",
-      "rdsPath": "../cleaned_data/trial122.rds"
+      "rdsPath": "../cleaned_data/trial122.rds",
+      "dictionaryPath": "../data_dictionary/trial122_dictionary.csv"
     },
     {
       "id": 123,
@@ -3863,7 +3985,8 @@
       "covariates": 32,
       "treatmentLevels": "group_A; group_B; group_C",
       "csvPath": "../cleaned_data/trial123.csv",
-      "rdsPath": "../cleaned_data/trial123.rds"
+      "rdsPath": "../cleaned_data/trial123.rds",
+      "dictionaryPath": "../data_dictionary/trial123_dictionary.csv"
     },
     {
       "id": 124,
@@ -3894,7 +4017,8 @@
       "covariates": 3,
       "treatmentLevels": "PfAMA1; Tetanus_Toxoid",
       "csvPath": "../cleaned_data/trial124.csv",
-      "rdsPath": "../cleaned_data/trial124.rds"
+      "rdsPath": "../cleaned_data/trial124.rds",
+      "dictionaryPath": "../data_dictionary/trial124_dictionary.csv"
     },
     {
       "id": 125,
@@ -3925,7 +4049,8 @@
       "covariates": 30,
       "treatmentLevels": "active_control; control; intervention",
       "csvPath": "../cleaned_data/trial125.csv",
-      "rdsPath": "../cleaned_data/trial125.rds"
+      "rdsPath": "../cleaned_data/trial125.rds",
+      "dictionaryPath": "../data_dictionary/trial125_dictionary.csv"
     }
   ]
 }

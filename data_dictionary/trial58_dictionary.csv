@@ -1,0 +1,19 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+58,Treatment,Treatment assignment,factor,factor,30,0,2,Active tDCS + cognitive training; Sham tDCS + cognitive training,Treatment: randomized treatment assignment with cleaned-data arms: Active tDCS + cognitive training; Sham tDCS + cognitive training. Publication-designated control/reference: Sham tDCS + cognitive training.
+58,YP_rbans_total_1w,Primary outcome,continuous,numeric,30,1,20,69 to 104,"Primary outcome: Repeatable Battery for the Assessment of Neuropsychological Status total, measured at 1 week. Publication-defined endpoint context: Change in RBANS Total Score at 1 week."
+58,YP_delta_rbans_total_1w,Primary outcome,continuous,numeric,30,1,19,-12 to 19,Primary outcome: Change from baseline to 1 week in Repeatable Battery for the Assessment of Neuropsychological Status total. Publication-defined endpoint context: Change in RBANS Total Score at 1 week.
+58,YS_rbans_attention_1w,Secondary outcome,continuous,numeric,30,1,12,53 to 106,"Secondary outcome: Repeatable Battery for the Assessment of Neuropsychological Status attention, measured at 1 week."
+58,YS_delta_rbans_attention_1w,Secondary outcome,continuous,numeric,30,1,17,-12 to 19,Secondary outcome: Change from baseline to 1 week in Repeatable Battery for the Assessment of Neuropsychological Status attention.
+58,YS_panss_total_1w,Secondary outcome,continuous,numeric,30,5,17,34 to 63,"Secondary outcome: Panss total, measured at 1 week."
+58,YS_delta_panss_total_1w,Secondary outcome,continuous,numeric,30,5,13,-12 to 8,Secondary outcome: Change from baseline to 1 week in panss total.
+58,X_rbans_total_0w,Baseline covariate,continuous,numeric,30,0,20,55 to 105,Baseline covariate: Repeatable Battery for the Assessment of Neuropsychological Status total.
+58,X_rbans_attention_0w,Baseline covariate,continuous,numeric,30,0,15,49 to 106,Baseline covariate: Repeatable Battery for the Assessment of Neuropsychological Status attention.
+58,X_panss_total_0w,Baseline covariate,continuous,numeric,30,4,16,36 to 75,Baseline covariate: Panss total.
+58,X_age_0w,Baseline covariate,continuous,numeric,30,0,21,18 to 48,Baseline covariate: Age.
+58,X_female_0w,Baseline covariate,binary,factor,30,0,2,FALSE; TRUE,Baseline covariate: Female.
+58,X_illness_duration_years_0w,Baseline covariate,continuous,numeric,30,2,17,1 to 28,Baseline covariate: Illness duration years.
+58,X_olanzapine_equivalent_mg_0w,Baseline covariate,continuous,numeric,30,0,22,3.33 to 40.3,Baseline covariate: Olanzapine equivalent mg.
+58,X_antidepressant_0w,Baseline covariate,binary,factor,30,0,2,0; 1,Baseline covariate: Antidepressant.
+58,X_benzodiazepine_0w,Baseline covariate,binary,factor,30,0,2,0; 1,Baseline covariate: Benzodiazepine.
+58,X_education_0w,Baseline covariate,factor,factor,30,0,4,1; 2; 3; 4,Baseline covariate: Education. Categories/codes in the cleaned data: 1; 2; 3; 4.
+58,X_employment_0w,Baseline covariate,factor,factor,30,0,3,1; 2; 3,Baseline covariate: Employment. Categories/codes in the cleaned data: 1; 2; 3.

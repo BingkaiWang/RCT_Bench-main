@@ -1,0 +1,23 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+23,Treatment,Treatment assignment,factor,factor,92,0,2,No rhTM; rhTM,Treatment: randomized treatment assignment with cleaned-data arms: No rhTM; rhTM. Publication-designated control/reference: No rhTM.
+23,YP_event_28d,Primary outcome,binary,factor,92,0,2,0; 1,"Primary outcome: Event, measured at 28 days. Publication-defined endpoint context: 28-day and 90-day survival rates."
+23,YP_time_28d,Primary outcome,time-to-event/continuous time,numeric,92,0,13,1 to 28,"Primary outcome: Time, measured at 28 days. Publication-defined endpoint context: 28-day and 90-day survival rates."
+23,YP_event_90d,Primary outcome,binary,factor,92,0,2,0; 1,"Primary outcome: Event, measured at 90 days. Publication-defined endpoint context: 28-day and 90-day survival rates."
+23,YP_time_90d,Primary outcome,time-to-event/continuous time,numeric,92,0,19,1 to 90,"Primary outcome: Time, measured at 90 days. Publication-defined endpoint context: 28-day and 90-day survival rates."
+23,YS_delta_Ddimer_3d,Secondary outcome,continuous,numeric,92,7,84,-0.973379 to 2.84615,Secondary outcome: Change from baseline to 3 days in ddimer.
+23,YS_delta_Ddimer_5d,Secondary outcome,continuous,numeric,92,11,80,-0.98072 to 4.76923,Secondary outcome: Change from baseline to 5 days in ddimer.
+23,YS_delta_Ddimer_7d,Secondary outcome,continuous,numeric,92,13,78,-0.979532 to 9.64744,Secondary outcome: Change from baseline to 7 days in ddimer.
+23,YS_delta_Ddimer_10d,Secondary outcome,continuous,numeric,92,13,77,-0.983786 to 19.0909,Secondary outcome: Change from baseline to 10 days in ddimer.
+23,YS_delta_platelet_3d,Secondary outcome,continuous,numeric,92,7,84,-0.842105 to 2,Secondary outcome: Change from baseline to 3 days in platelet count.
+23,YS_delta_platelet_5d,Secondary outcome,continuous,numeric,92,11,80,-0.814815 to 2.81159,Secondary outcome: Change from baseline to 5 days in platelet count.
+23,YS_delta_platelet_7d,Secondary outcome,continuous,numeric,92,12,79,-0.896296 to 11.7059,Secondary outcome: Change from baseline to 7 days in platelet count.
+23,YS_delta_platelet_10d,Secondary outcome,continuous,numeric,92,11,80,-0.697368 to 11.7059,Secondary outcome: Change from baseline to 10 days in platelet count.
+23,YS_delta_SOFA_3d,Secondary outcome,continuous,numeric,92,6,14,-9 to 4,Secondary outcome: Change from baseline to 3 days in Sequential Organ Failure Assessment (SOFA) score.
+23,YS_delta_SOFA_5d,Secondary outcome,continuous,numeric,92,11,12,-10 to 3,Secondary outcome: Change from baseline to 5 days in Sequential Organ Failure Assessment (SOFA) score.
+23,YS_delta_SOFA_7d,Secondary outcome,continuous,numeric,92,11,14,-11 to 4,Secondary outcome: Change from baseline to 7 days in Sequential Organ Failure Assessment (SOFA) score.
+23,YS_delta_SOFA_10d,Secondary outcome,continuous,numeric,92,16,14,-11 to 2,Secondary outcome: Change from baseline to 10 days in Sequential Organ Failure Assessment (SOFA) score.
+23,X_Ddimer_0d,Baseline covariate,continuous,numeric,92,0,85,1.4 to 283.7,Baseline covariate: Ddimer.
+23,X_platelet_0d,Baseline covariate,continuous,numeric,92,0,77,1.7 to 36.1,Baseline covariate: Platelet count.
+23,X_SOFA_0d,Baseline covariate,continuous,numeric,92,0,16,2 to 19,Baseline covariate: Sequential Organ Failure Assessment (SOFA) score.
+23,X_TM,Baseline covariate,continuous,numeric,92,6,51,2.8 to 32,Baseline covariate: Therapeutic misconception.
+23,X_SIRS_0d,Baseline covariate,continuous,numeric,92,0,4,0 to 4,Baseline covariate: Sirs.

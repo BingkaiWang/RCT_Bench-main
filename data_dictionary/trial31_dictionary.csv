@@ -1,0 +1,13 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+31,Treatment,Treatment assignment,factor,factor,796,0,2,Placebo; TIV,Treatment: randomized treatment assignment with cleaned-data arms: Placebo; TIV. Publication-designated control/reference: Placebo.
+31,YP_survival_time,Primary outcome,time-to-event/continuous time,numeric,796,0,70,24 to 437,Primary outcome: Survival time. Publication-defined endpoint context: Time to laboratory-confirmed influenza B/Victoria infection.
+31,YP_flu_infection,Primary outcome,binary,factor,796,0,2,0; 1,Primary outcome: Flu infection. Publication-defined endpoint context: Time to laboratory-confirmed influenza B/Victoria infection.
+31,YS_hai_titer_4w,Secondary outcome,continuous,numeric,796,18,10,5 to 2560,"Secondary outcome: Influenza hemagglutination-inhibition (HAI) antibody titre, measured at 4 weeks."
+31,YS_hai_fold_rise_4w,Secondary outcome,continuous,numeric,796,25,16,0.0078125 to 512,"Secondary outcome: Hai fold rise, measured at 4 weeks."
+31,YS_hai_40plus_4w,Secondary outcome,binary,factor,796,18,2,0; 1,"Secondary outcome: Hai 40 or higher, measured at 4 weeks."
+31,YS_hai_4fold_rise_4w,Secondary outcome,binary,factor,796,25,2,0; 1,"Secondary outcome: Hai 4fold rise, measured at 4 weeks."
+31,X_age_0w,Baseline covariate,continuous,numeric,796,0,13,5 to 17,Baseline covariate: Age.
+31,X_hai_titer_0w,Baseline covariate,continuous,numeric,796,9,9,5 to 1280,Baseline covariate: Influenza hemagglutination-inhibition (HAI) antibody titre.
+31,X_hai_40plus_0w,Baseline covariate,binary,factor,796,9,2,0; 1,Baseline covariate: Hai 40 or higher.
+31,X_days_vax_to_blood_0w,Baseline covariate,continuous,numeric,796,13,36,14 to 97,Baseline covariate: Days vax to blood.
+31,X_hai_log2_0w,Baseline covariate,continuous,numeric,796,9,9,2.32193 to 10.3219,Baseline covariate: Hai log2.

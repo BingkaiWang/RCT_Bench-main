@@ -1,0 +1,22 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+86,Treatment,Treatment assignment,factor,factor,96,0,5,LC106-3; LC106-7; LC106-o; LC115; Pl,Treatment: randomized treatment assignment with cleaned-data arms: LC106-3; LC106-7; LC106-o; LC115; Pl. Publication-designated control/reference: Placebo.
+86,X_site,Baseline covariate,binary,character,96,0,2,CAP; MGH,Baseline covariate: Site.
+86,X_location,Baseline covariate,binary,character,96,0,2,SA; US,Baseline covariate: Location.
+86,X_itt,Baseline covariate,binary,numeric,96,0,1,1,Baseline covariate: Itt.
+86,X_mitt,Baseline covariate,binary,numeric,96,0,2,0; 1,Baseline covariate: Mitt.
+86,X_pp,Baseline covariate,binary,numeric,96,0,2,0; 1,Baseline covariate: Pp.
+86,X_age_years,Baseline covariate,continuous,numeric,96,0,23,18 to 40,Baseline covariate: Age years.
+86,X_race,Baseline covariate,factor,factor,96,0,6,"African; Asian or South Asian; Black, African American, or African; Other; Prefer not to answer; White","Baseline covariate: Race. Categories/codes in the cleaned data: African; Asian or South Asian; Black, African American, or African; Other; Prefer not to answer; White."
+86,X_ethnicity,Baseline covariate,binary,factor,96,72,2,hispanic/latino/spanish; Not hispanic/latino/spanish,Baseline covariate: Ethnicity.
+86,X_cut_size_meals,Baseline covariate,factor,factor,96,0,6,Almost every month; Blank; No; Only 1 or 2 months; Prefer not to answer; Some months but not every month,Baseline covariate: Cut size meals. Categories/codes in the cleaned data: Almost every month; Blank; No; Only 1 or 2 months; Prefer not to answer; Some months but not every month.
+86,X_eat_less,Baseline covariate,factor,factor,96,0,3,No; Prefer not to answer; Yes,Baseline covariate: Eat less. Categories/codes in the cleaned data: No; Prefer not to answer; Yes.
+86,X_hungry_did_not_eat,Baseline covariate,factor,factor,96,0,3,No; Prefer not to answer; Yes,Baseline covariate: Hungry did not eat. Categories/codes in the cleaned data: No; Prefer not to answer; Yes.
+86,X_sexual_partners_lifetime,Baseline covariate,time-to-event/continuous time,numeric,96,0,14,1 to 90,Baseline covariate: Sexual partners lifetime.
+86,X_sexual_partners_past_month,Baseline covariate,continuous,numeric,96,0,4,0 to 3,Baseline covariate: Sexual partners past month.
+86,YP_colonized_lbp_by_mg_first5w,Primary outcome,binary,numeric,96,0,2,0; 1,Primary outcome: Colonized lbp by mg first5w. Publication-defined endpoint context: Detection of L. crispatus LBP strains by metagenomic sequencing in first five weeks.
+86,YS_colonized_lbp_by_mg_final,Secondary outcome,binary,numeric,96,0,2,0; 1,"Secondary outcome: Colonized lbp by mg, measured at the final assessment."
+86,YS_colonized_lbp_at_mg_final,Secondary outcome,binary,numeric,96,0,2,0; 1,"Secondary outcome: Colonized lbp at mg, measured at the final assessment."
+86,YS_crispatus_dominance_by_mg_final,Secondary outcome,binary,numeric,96,0,2,0; 1,"Secondary outcome: Crispatus dominance by mg, measured at the final assessment."
+86,X_nugent_total_score_baseline,Baseline covariate,continuous,numeric,96,0,5,1 to 10,Baseline covariate: Nugent total score baseline.
+86,YS_nugent_total_score_final,Secondary outcome,continuous,numeric,96,0,11,0 to 10,"Secondary outcome: Nugent bacterial-vaginosis microscopy score, measured at the final assessment."
+86,X_past_week_sex_partner_baseline,Baseline covariate,binary,factor,96,0,2,A single male partner; No sex in the past week,Baseline covariate: Past week sex partner baseline.

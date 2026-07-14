@@ -1,0 +1,26 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+63,Treatment,Treatment assignment,factor,factor,22,0,3,Circuit resistance training; Control; HIIT,Treatment: randomized treatment assignment with cleaned-data arms: Circuit resistance training; Control; HIIT. Publication-designated control/reference: Control.
+63,YP_fmd_pct_post,Primary outcome,continuous,numeric,22,7,15,0.822516 to 12.8793,"Primary outcome: Fmd percentage, measured immediately after the intervention. Publication-defined endpoint context: Change in peak VO2 and flow-mediated dilation after training."
+63,YP_delta_fmd_pct_post,Primary outcome,continuous,numeric,22,7,15,-6.27014 to 6.25251,Primary outcome: Change from baseline to immediately after the intervention in fmd percentage. Publication-defined endpoint context: Change in peak VO2 and flow-mediated dilation after training.
+63,YP_peak_vo2_post,Primary outcome,continuous,numeric,22,0,20,13.1 to 26.5,"Primary outcome: Peak vo2, measured immediately after the intervention. Publication-defined endpoint context: Change in peak VO2 and flow-mediated dilation after training."
+63,YP_delta_peak_vo2_post,Primary outcome,continuous,numeric,22,0,21,-2.8 to 6.4,Primary outcome: Change from baseline to immediately after the intervention in peak vo2. Publication-defined endpoint context: Change in peak VO2 and flow-mediated dilation after training.
+63,YS_exercise_duration_post,Secondary outcome,continuous,numeric,22,0,22,6.73333 to 13.9833,"Secondary outcome: Exercise duration, measured immediately after the intervention."
+63,YS_peak_power_post,Secondary outcome,continuous,numeric,22,0,21,72 to 187,"Secondary outcome: Peak power, measured immediately after the intervention."
+63,YS_peak_mets_post,Secondary outcome,continuous,numeric,22,0,16,3.8 to 7.6,"Secondary outcome: Peak metabolic-equivalent hours, measured immediately after the intervention."
+63,X_sex,Baseline covariate,binary,factor,22,0,2,1; 2,Baseline covariate: Sex.
+63,X_age,Baseline covariate,continuous,numeric,22,0,18,39 to 79,Baseline covariate: Age.
+63,X_bmi_class_0w,Baseline covariate,factor,factor,22,0,3,1; 2; 3,Baseline covariate: Body mass index class. Categories/codes in the cleaned data: 1; 2; 3.
+63,X_nyha_0w,Baseline covariate,factor,factor,22,0,3,1; 2; 3,Baseline covariate: New York Heart Association (NYHA) functional class. Categories/codes in the cleaned data: 1; 2; 3.
+63,X_webber_class_0w,Baseline covariate,factor,factor,22,0,3,1; 2; 3,Baseline covariate: Webber class. Categories/codes in the cleaned data: 1; 2; 3.
+63,X_lvef_pct_0w,Baseline covariate,continuous,numeric,22,0,17,22 to 66.78,Baseline covariate: Lvef percentage.
+63,X_ef_class_0w,Baseline covariate,factor,factor,22,0,3,1; 2; 3,Baseline covariate: Ef class. Categories/codes in the cleaned data: 1; 2; 3.
+63,X_peak_vo2_0w,Baseline covariate,continuous,numeric,22,0,21,12.9 to 25.8,Baseline covariate: Peak vo2.
+63,X_peak_power_0w,Baseline covariate,continuous,numeric,22,0,19,61 to 165,Baseline covariate: Peak power.
+63,X_mip_0w,Baseline covariate,continuous,numeric,22,1,21,26.66 to 135,Baseline covariate: Mip.
+63,X_fev1_0w,Baseline covariate,continuous,numeric,22,1,19,1.12 to 3.48,Baseline covariate: Forced expiratory volume in 1 second (FEV1).
+63,X_fvc_0w,Baseline covariate,continuous,numeric,22,1,20,1.69 to 4.39,Baseline covariate: Forced vital capacity (FVC).
+63,X_cad_0w,Baseline covariate,binary,factor,22,0,2,1; 2,Baseline covariate: Computer-aided detection.
+63,X_hypertension_0w,Baseline covariate,binary,factor,22,0,2,1; 2,Baseline covariate: Hypertension.
+63,X_diabetes_0w,Baseline covariate,binary,factor,22,0,2,1; 2,Baseline covariate: Diabetes.
+63,X_fmd_pct_0w,Baseline covariate,continuous,numeric,22,7,15,1.94882 to 8.74825,Baseline covariate: Fmd percentage.
+63,X_exercise_duration_0w,Baseline covariate,continuous,numeric,22,0,21,5.66667 to 13.95,Baseline covariate: Exercise duration.

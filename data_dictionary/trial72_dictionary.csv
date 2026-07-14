@@ -1,0 +1,16 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+72,Treatment,Treatment assignment,factor,factor,978,0,2,Oxytocin IV; Sublingual misoprostol,Treatment: randomized treatment assignment with cleaned-data arms: Oxytocin IV; Sublingual misoprostol. Publication-designated control/reference: Oxytocin IV.
+72,YP_active_bleeding_controlled_20min,Primary outcome,binary,numeric,978,0,2,0; 1,"Primary outcome: Active bleeding controlled, measured at 20 minutes. Publication-defined endpoint context: Active bleeding controlled within 20 minutes of PPH treatment."
+72,YS_additional_blood_loss_ge300,Secondary outcome,binary,numeric,978,0,2,0; 1,Secondary outcome: Additional blood loss greater than or equal to 300.
+72,YS_total_blood_loss_ml,Secondary outcome,continuous,numeric,978,0,79,450 to 3500,Secondary outcome: Total blood loss mL.
+72,YS_time_to_bleeding_stop_min,Secondary outcome,time-to-event/continuous time,numeric,978,2,42,0 to 84,Secondary outcome: Time to bleeding stop minutes.
+72,X_site,Baseline covariate,factor,factor,978,0,4,10; 3; 4; 7,Baseline covariate: Site. Categories/codes in the cleaned data: 10; 3; 4; 7.
+72,X_age,Baseline covariate,continuous,numeric,978,0,31,14 to 45,Baseline covariate: Age.
+72,X_education,Baseline covariate,factor,factor,978,1,5,1; 2; 3; 4; 5,Baseline covariate: Education. Categories/codes in the cleaned data: 1; 2; 3; 4; 5.
+72,X_live_births,Baseline covariate,continuous,numeric,978,1,8,0 to 8,Baseline covariate: Live births.
+72,X_living_children,Baseline covariate,continuous,numeric,978,1,8,0 to 8,Baseline covariate: Living children.
+72,X_gestational_age,Baseline covariate,continuous,numeric,978,0,52,32 to 43.1,Baseline covariate: Gestational age.
+72,X_previous_pph,Baseline covariate,binary,factor,978,0,2,0; 1,Baseline covariate: Previous postpartum haemorrhage.
+72,X_baseline_hemoglobin,Baseline covariate,continuous,numeric,978,0,83,7.9 to 16.9,Baseline covariate: Baseline hemoglobin.
+72,X_pph_diagnosed,Baseline covariate,binary,factor,978,0,1,1,Baseline covariate: Postpartum haemorrhage diagnosed.
+72,X_blood_loss_at_pph_diagnosis_ml,Baseline covariate,continuous,numeric,978,0,49,400 to 1800,Baseline covariate: Blood loss at postpartum haemorrhage diagnosis mL.

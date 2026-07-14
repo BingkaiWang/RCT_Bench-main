@@ -1,0 +1,23 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+40,Treatment,Treatment assignment,factor,factor,99,0,2,AWS; Macintosh,Treatment: randomized treatment assignment with cleaned-data arms: AWS; Macintosh. Publication-designated control/reference: Macintosh.
+40,YP_total_intubation_time,Primary outcome,time-to-event/continuous time,numeric,99,0,74,8.96 to 100,"Primary outcome: Total intubation time. Publication-defined endpoint context: Time to successful tracheal intubation—measured from blade insertion to capnographic confirmation, censored at 100 seconds if exceeded."
+40,YP_success_flag,Primary outcome,binary,factor,99,0,2,no; yes,"Primary outcome: Success flag. Publication-defined endpoint context: Time to successful tracheal intubation—measured from blade insertion to capnographic confirmation, censored at 100 seconds if exceeded."
+40,YS_attempt1_time,Secondary outcome,time-to-event/continuous time,numeric,99,0,70,8.96 to 113,Secondary outcome: Attempt1 time.
+40,YS_attempt1_success,Secondary outcome,binary,factor,99,0,2,no; yes,Secondary outcome: Attempt1 success.
+40,YS_attempt2_time,Secondary outcome,time-to-event/continuous time,numeric,99,89,8,11 to 60,Secondary outcome: Attempt2 time.
+40,YS_attempt2_assigned,Secondary outcome,binary,factor,99,89,2,no; yes,Secondary outcome: Attempt2 assigned.
+40,YS_attempt2_success,Secondary outcome,binary,factor,99,89,2,no; yes,Secondary outcome: Attempt2 success.
+40,YS_attempt3_time,Secondary outcome,time-to-event/continuous time,numeric,99,96,3,15 to 30,Secondary outcome: Attempt3 time.
+40,YS_attempt3_assigned,Secondary outcome,binary,factor,99,96,2,no; yes,Secondary outcome: Attempt3 assigned.
+40,YS_attempt3_success,Secondary outcome,binary,factor,99,96,1,yes,Secondary outcome: Attempt3 success.
+40,YS_attempts,Secondary outcome,continuous,numeric,99,0,3,1 to 3,Secondary outcome: Attempts.
+40,YS_failures,Secondary outcome,continuous,numeric,99,0,3,0 to 2,Secondary outcome: Failures.
+40,YS_bleeding,Secondary outcome,binary,factor,99,0,2,no; yes,Secondary outcome: Bleeding.
+40,YS_ease,Secondary outcome,continuous,numeric,99,0,19,0 to 100,Secondary outcome: Ease.
+40,YS_sore_throat,Secondary outcome,continuous,numeric,99,1,4,0 to 3,Secondary outcome: Sore throat.
+40,YS_view,Secondary outcome,binary,factor,99,0,2,no; yes,Secondary outcome: View.
+40,X_age_0d,Baseline covariate,continuous,numeric,99,0,42,20 to 77,Baseline covariate: Age.
+40,X_gender_0d,Baseline covariate,binary,factor,99,0,2,female; male,Baseline covariate: Gender.
+40,X_ASA_0d,Baseline covariate,factor,factor,99,0,3,II; III; IV,Baseline covariate: American Society of Anesthesiologists (ASA) physical-status class. Categories/codes in the cleaned data: II; III; IV.
+40,X_BMI_0d,Baseline covariate,continuous,numeric,99,2,84,30.92 to 61,"Baseline covariate: Body mass index (BMI), in kg/m²."
+40,X_Mallampati_0d,Baseline covariate,factor,factor,99,1,4,1; 2; 3; 4,Baseline covariate: Modified Mallampati airway class. Categories/codes in the cleaned data: 1; 2; 3; 4.

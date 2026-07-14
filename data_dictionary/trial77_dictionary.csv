@@ -1,0 +1,20 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+77,Treatment,Treatment assignment,factor,factor,87,0,2,Control rehabilitation; Core stability exercise,Treatment: randomized treatment assignment with cleaned-data arms: Control rehabilitation; Core stability exercise. Publication-designated control/reference: Control rehabilitation.
+77,YP_delta_trunk_impairment_t2,Primary outcome,continuous,numeric,87,4,21,-4 to 19,Primary outcome: Change from baseline to assessment T2 in Trunk Impairment Scale score.
+77,YS_delta_berg_balance_t2,Secondary outcome,continuous,numeric,87,4,40,-12 to 50,Secondary outcome: Change from baseline to assessment T2 in Berg Balance Scale score.
+77,YS_delta_brunel_balance_t2,Secondary outcome,continuous,numeric,87,4,8,-1 to 6,Secondary outcome: Change from baseline to assessment T2 in brunel balance.
+77,YS_delta_barthel_t2,Secondary outcome,continuous,numeric,87,5,18,-50 to 70,Secondary outcome: Change from baseline to assessment T2 in Barthel Index score.
+77,YS_delta_rankin_t2,Secondary outcome,continuous,numeric,87,4,7,-3 to 4,Secondary outcome: Change from baseline to assessment T2 in rankin.
+77,X_center,Baseline covariate,factor,factor,87,0,6,158; 186; 2; 232; 233; 7,Baseline covariate: Center. Categories/codes in the cleaned data: 158; 186; 2; 232; 233; 7.
+77,X_sex,Baseline covariate,binary,factor,87,0,2,1; 2,Baseline covariate: Sex.
+77,X_height_cm,Baseline covariate,continuous,numeric,87,8,30,143 to 187,Baseline covariate: Height cm.
+77,X_weight_kg,Baseline covariate,continuous,numeric,87,5,37,43 to 117,Baseline covariate: Weight kg.
+77,X_age,Baseline covariate,continuous,numeric,87,0,37,35 to 92,Baseline covariate: Age.
+77,X_stroke_type,Baseline covariate,binary,factor,87,0,2,1; 2,Baseline covariate: Stroke type.
+77,X_stroke_location,Baseline covariate,factor,factor,87,1,77,ACA esquerra; ACM D; ACM Derecha; ACM DERECHA; ACM dreta; ACM Dreta; ACM E; ACM E I LESIÓ SUBAGUDA AL PEDUNCLE CEREBEL·LÓS E; ACM Esquerra; ACM esquerra i segment M2; ACM IZQUIERDA; ACME; ACMitja Esquerra; ACP  D; ACP D; ACP esquerra; ACP IZQUIERDA; arteria cerebral anterior esquerra; Arteria cerebral derecha; arteria cerebral int.; ...,Baseline covariate: Stroke location.
+77,X_hemiparesis,Baseline covariate,binary,factor,87,1,2,1; 2,Baseline covariate: Hemiparesis.
+77,X_trunk_impairment_0w,Baseline covariate,continuous,numeric,87,0,13,0 to 14,Baseline covariate: Trunk Impairment Scale score.
+77,X_berg_balance_0w,Baseline covariate,continuous,numeric,87,1,40,0 to 56,Baseline covariate: Berg Balance Scale score.
+77,X_brunel_balance_0w,Baseline covariate,continuous,numeric,87,1,7,0 to 6,Baseline covariate: Brunel balance.
+77,X_barthel_0w,Baseline covariate,continuous,numeric,87,1,20,0 to 100,Baseline covariate: Barthel Index score.
+77,X_rankin_0w,Baseline covariate,continuous,numeric,87,0,5,0 to 5,Baseline covariate: Rankin.

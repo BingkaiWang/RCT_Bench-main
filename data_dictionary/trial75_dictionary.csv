@@ -1,0 +1,22 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+75,Treatment,Treatment assignment,factor,factor,47,0,2,Conventional three-branch RFA; Reduced two-branch RFA,Treatment: randomized treatment assignment with cleaned-data arms: Conventional three-branch RFA; Reduced two-branch RFA. Publication-designated control/reference: Conventional three-branch RFA.
+75,YP_delta_nrs_3m,Primary outcome,continuous,numeric,47,0,12,-10 to 1,Primary outcome: Change from baseline to 3 months in numeric rating scale (NRS) pain score.
+75,YS_delta_nrs_1m,Secondary outcome,continuous,numeric,47,0,12,-9 to 3,Secondary outcome: Change from baseline to 1 month in numeric rating scale (NRS) pain score.
+75,YS_delta_womac_total_3m,Secondary outcome,continuous,numeric,47,0,38,-67.71 to 52.09,Secondary outcome: Change from baseline to 3 months in Western Ontario and McMaster Universities Osteoarthritis Index (WOMAC) total score.
+75,YS_delta_womac_total_1m,Secondary outcome,continuous,numeric,47,0,40,-67.71 to 39.58,Secondary outcome: Change from baseline to 1 month in Western Ontario and McMaster Universities Osteoarthritis Index (WOMAC) total score.
+75,YS_nrs_improved_3m,Secondary outcome,binary,numeric,47,0,2,0; 1,"Secondary outcome: Numeric rating scale improved, measured at 3 months."
+75,YS_womac_improved_3m,Secondary outcome,binary,numeric,47,0,2,0; 1,"Secondary outcome: WOMAC osteoarthritis index improved, measured at 3 months."
+75,X_sex,Baseline covariate,binary,factor,47,0,2,1; 2,Baseline covariate: Sex.
+75,X_age,Baseline covariate,continuous,numeric,47,0,23,50 to 79,Baseline covariate: Age.
+75,X_height_cm,Baseline covariate,continuous,numeric,47,0,19,95 to 172,Baseline covariate: Height cm.
+75,X_weight_kg,Baseline covariate,continuous,numeric,47,0,28,54 to 168,Baseline covariate: Weight kg.
+75,X_bmi,Baseline covariate,continuous,numeric,47,0,36,23.06 to 39.55,"Baseline covariate: Body mass index (BMI), in kg/m²."
+75,X_marital_status,Baseline covariate,binary,factor,47,0,2,1; 2,Baseline covariate: Marital status.
+75,X_occupation,Baseline covariate,factor,factor,47,0,3,1; 2; 3,Baseline covariate: Occupation. Categories/codes in the cleaned data: 1; 2; 3.
+75,X_education,Baseline covariate,factor,factor,47,0,5,1; 2; 3; 4; 5,Baseline covariate: Education. Categories/codes in the cleaned data: 1; 2; 3; 4; 5.
+75,X_knee_side,Baseline covariate,binary,factor,47,0,2,1; 2,Baseline covariate: Knee side.
+75,X_kl_grade,Baseline covariate,binary,factor,47,0,2,1; 2,Baseline covariate: Kellgren-Lawrence radiographic grade grade.
+75,X_symptom_duration_months,Baseline covariate,continuous,numeric,47,0,16,8 to 360,Baseline covariate: Symptom duration months.
+75,X_nrs_0m,Baseline covariate,continuous,numeric,47,0,5,6 to 10,Baseline covariate: Numeric rating scale (NRS) pain score.
+75,X_womac_total_0m,Baseline covariate,continuous,numeric,47,0,36,31.24 to 87.49,Baseline covariate: Western Ontario and McMaster Universities Osteoarthritis Index (WOMAC) total score.
+75,X_weekly_analgesic_consumption_0m,Baseline covariate,continuous,numeric,47,0,10,0 to 20,Baseline covariate: Weekly analgesic consumption.

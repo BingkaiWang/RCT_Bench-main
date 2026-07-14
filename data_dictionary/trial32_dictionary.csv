@@ -1,0 +1,24 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+32,Treatment,Treatment assignment,factor,factor,57,0,3,Hybrid-Hyrax; Hyrax; Keles,Treatment: randomized treatment assignment with cleaned-data arms: Hybrid-Hyrax; Hyrax; Keles. Publication-designated control/reference: Hyrax.
+32,YP_Pressure_6m,Primary outcome,continuous,numeric,57,3,49,28.3 to 6539,"Primary outcome: Pressure, measured at 6 months. Publication-defined endpoint context: pressure, velocity."
+32,YP_Velocity_6m,Primary outcome,continuous,numeric,57,3,43,6.1 to 244,"Primary outcome: Velocity, measured at 6 months. Publication-defined endpoint context: pressure, velocity."
+32,YS_nasal_width_ANS_6m,Secondary outcome,continuous,numeric,57,3,42,21.4 to 30.1,"Secondary outcome: Nasal width anterior nasal spine, measured at 6 months."
+32,YS_nasal_width_M1_6m,Secondary outcome,continuous,numeric,57,3,40,28.2 to 39.5,"Secondary outcome: Nasal width m1, measured at 6 months."
+32,YS_nasal_obstruction_6m,Secondary outcome,binary,factor,57,3,2,No; Yes,"Secondary outcome: Nasal obstruction, measured at 6 months."
+32,YS_IMW_6m,Secondary outcome,continuous,numeric,57,3,43,33.4 to 47.2,"Secondary outcome: Intermolar width, measured at 6 months."
+32,YS_mucosal_hypertrophy_6m,Secondary outcome,binary,factor,57,3,2,No; Yes,"Secondary outcome: Mucosal hypertrophy, measured at 6 months."
+32,YS_adenoid_hypertrophy_6m,Secondary outcome,binary,factor,57,3,2,No; Yes,"Secondary outcome: Adenoid hypertrophy, measured at 6 months."
+32,YS_nasal_septum_deviation_6m,Secondary outcome,binary,factor,57,3,2,No; Yes,"Secondary outcome: Nasal septum deviation, measured at 6 months."
+32,X_Pressure_0m,Baseline covariate,continuous,numeric,57,2,54,42 to 1632,Baseline covariate: Pressure.
+32,X_Velocity_0m,Baseline covariate,continuous,numeric,57,3,40,7 to 72,Baseline covariate: Velocity.
+32,X_nasal_width_ANS_0m,Baseline covariate,continuous,numeric,57,3,36,19.38 to 26,Baseline covariate: Nasal width anterior nasal spine.
+32,X_nasal_width_M1_0m,Baseline covariate,continuous,numeric,57,3,41,27.1 to 37.2,Baseline covariate: Nasal width m1.
+32,X_nasal_obstruction_0m,Baseline covariate,binary,factor,57,3,2,No; Yes,Baseline covariate: Nasal obstruction.
+32,X_IMW_0m,Baseline covariate,continuous,numeric,57,3,38,24.9 to 38.6,Baseline covariate: Intermolar width.
+32,X_mucosal_hypertrophy_0m,Baseline covariate,binary,factor,57,3,2,No; Yes,Baseline covariate: Mucosal hypertrophy.
+32,X_adenoid_hypertrophy_0m,Baseline covariate,binary,factor,57,3,2,No; Yes,Baseline covariate: Adenoid hypertrophy.
+32,X_nasal_septum_deviation_0m,Baseline covariate,binary,factor,57,3,2,No; Yes,Baseline covariate: Nasal septum deviation.
+32,X_sex_0m,Baseline covariate,binary,factor,57,0,2,Female; Male,Baseline covariate: Sex.
+32,X_age_0m,Baseline covariate,continuous,numeric,57,0,57,11.13 to 16.93,Baseline covariate: Age.
+32,X_CVM_0m,Baseline covariate,factor,factor,57,0,5,2; 3; 4; 5; 6,Baseline covariate: Cervical vertebral maturation stage. Categories/codes in the cleaned data: 2; 3; 4; 5; 6.
+32,X_exp_0m,Baseline covariate,continuous,numeric,57,0,19,2.8 to 12,Baseline covariate: Exp.

@@ -1,0 +1,13 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+117,Treatment,Treatment assignment,factor,factor,25,0,3,Ketamine; Midazolam; Saline,Treatment: randomized treatment assignment with cleaned-data arms: Ketamine; Midazolam; Saline. Publication-designated control/reference: Saline.
+117,X_source_patient_id,Baseline covariate,continuous,integer,25,0,25,1 to 25,Baseline covariate: Source patient id.
+117,YP_delta_mrr_post_pre,Primary outcome,continuous,numeric,25,0,24,-5.54833 to 5.25,Primary outcome: Change from pre-intervention to post-intervention in mean respiratory rate variability metric (MRR).
+117,YP_mrr_post,Primary outcome,continuous,numeric,25,0,25,7.7575 to 22.995,"Primary outcome: Mean respiratory rate variability metric (MRR), measured immediately after the intervention."
+117,YS_delta_vrr_post_pre,Secondary outcome,continuous,numeric,25,0,25,-0.111753 to 0.228109,Secondary outcome: Change from pre-intervention to post-intervention in ventilatory rate variability metric (VRR).
+117,YS_vrr_post,Secondary outcome,continuous,numeric,25,0,25,0.0977554 to 0.485114,"Secondary outcome: Ventilatory rate variability metric (VRR), measured immediately after the intervention."
+117,YS_delta_vtv_post_pre,Secondary outcome,continuous,numeric,25,0,25,-0.259916 to 0.207553,Secondary outcome: Change from pre-intervention to post-intervention in tidal-volume variability metric (VTV).
+117,YS_vtv_post,Secondary outcome,continuous,numeric,25,0,25,0.116833 to 0.505582,"Secondary outcome: Tidal-volume variability metric (VTV), measured immediately after the intervention."
+117,X_mrr_pre,Baseline covariate,continuous,numeric,25,0,25,8.45625 to 20.61,Baseline covariate: Mrr pre-intervention.
+117,X_vrr_pre,Baseline covariate,continuous,numeric,25,0,25,0.13802 to 0.426597,Baseline covariate: Vrr pre-intervention.
+117,X_vtv_pre,Baseline covariate,continuous,numeric,25,0,25,0.129424 to 0.467634,Baseline covariate: Vtv pre-intervention.
+117,X_repeated_rows_aggregated,Baseline covariate,continuous,integer,25,0,3,1 to 3,Baseline covariate: Repeated rows aggregated.

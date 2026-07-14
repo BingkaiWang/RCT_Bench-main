@@ -1,0 +1,21 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+79,Treatment,Treatment assignment,factor,factor,98,0,2,Control; Webtoon education,Treatment: randomized treatment assignment with cleaned-data arms: Control; Webtoon education. Publication-designated control/reference: Control.
+79,YP_knowledge_post,Primary outcome,continuous,numeric,98,0,15,10 to 24,"Primary outcome: Knowledge, measured immediately after the intervention. Publication-defined endpoint context: Premature-labor preventive self-management knowledge after education."
+79,YS_knowledge_followup,Secondary outcome,time-to-event/continuous time,numeric,98,0,15,8 to 24,"Secondary outcome: Knowledge, measured at follow-up."
+79,YS_delta_knowledge_post,Secondary outcome,continuous,numeric,98,0,19,-4 to 18,Secondary outcome: Change from baseline to immediately after the intervention in knowledge.
+79,YS_delta_self_efficacy_post,Secondary outcome,continuous,numeric,98,0,64,-1.17647 to 1.70588,Secondary outcome: Change from baseline to immediately after the intervention in self efficacy.
+79,YS_self_efficacy_post,Secondary outcome,continuous,numeric,98,0,52,2.23529 to 5,"Secondary outcome: Self efficacy, measured immediately after the intervention."
+79,YS_total_usability,Secondary outcome,continuous,numeric,98,49,13,2.42857 to 5,Secondary outcome: Total usability.
+79,X_age,Baseline covariate,continuous,numeric,98,0,27,19 to 49,Baseline covariate: Age.
+79,X_education,Baseline covariate,factor,factor,98,0,3,1; 2; 3,Baseline covariate: Education. Categories/codes in the cleaned data: 1; 2; 3.
+79,X_occupation,Baseline covariate,factor,factor,98,0,5,1; 2; 3; 4; 999,Baseline covariate: Occupation. Categories/codes in the cleaned data: 1; 2; 3; 4; 999.
+79,X_marital_status,Baseline covariate,binary,factor,98,0,2,1; 2,Baseline covariate: Marital status.
+79,X_currently_pregnant,Baseline covariate,binary,factor,98,0,2,1; 2,Baseline covariate: Currently pregnant.
+79,X_number_pregnancies,Baseline covariate,continuous,numeric,98,0,6,0 to 5,Baseline covariate: Number pregnancies.
+79,X_pregnancy_complication_experience,Baseline covariate,factor,factor,98,0,3,1; 2; 999,Baseline covariate: Pregnancy complication experience. Categories/codes in the cleaned data: 1; 2; 999.
+79,X_number_deliveries,Baseline covariate,continuous,numeric,98,0,4,0 to 3,Baseline covariate: Number deliveries.
+79,X_number_children,Baseline covariate,continuous,numeric,98,0,4,0 to 3,Baseline covariate: Number children.
+79,X_pregnancy_childbirth_education_experience,Baseline covariate,binary,factor,98,0,2,1; 2,Baseline covariate: Pregnancy childbirth education experience.
+79,X_webtoon_reading_experience,Baseline covariate,binary,factor,98,0,2,1; 2,Baseline covariate: Webtoon reading experience.
+79,X_knowledge_0w,Baseline covariate,continuous,numeric,98,0,20,3 to 24,Baseline covariate: Knowledge.
+79,X_self_efficacy_0w,Baseline covariate,continuous,numeric,98,0,54,2.05882 to 4.94118,Baseline covariate: Self efficacy.

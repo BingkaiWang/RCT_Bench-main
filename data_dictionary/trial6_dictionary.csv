@@ -1,0 +1,51 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+6,Treatment,Treatment assignment,factor,factor,463,0,2,Conventional; Sitagliptin,Treatment: randomized treatment assignment with cleaned-data arms: Conventional; Sitagliptin. Publication-designated control/reference: Conventional.
+6,YP_delta_CCA_IMT_24m,Primary outcome,continuous,numeric,463,118,102,-0.52 to 0.47,Primary outcome: Change from baseline to 24 months in mean right common-carotid-artery intima-media thickness (CCA-IMT).
+6,pre_YP_delta_CCA_IMT_12m,Other,continuous,numeric,463,141,89,-0.47 to 0.42,Primary outcome: Intermediate follow-up change from baseline to 12 months in mean right common-carotid-artery intima-media thickness (CCA-IMT).
+6,YS_delta_hba1c_12m,Secondary outcome,continuous,numeric,463,72,60,-1.7 to 3.3,Secondary outcome: Change from baseline to 12 months in glycated haemoglobin (HbA1c).
+6,YS_delta_hba1c_24m,Secondary outcome,continuous,numeric,463,93,66,-3.5 to 2.8,Secondary outcome: Change from baseline to 24 months in glycated haemoglobin (HbA1c).
+6,YS_delta_fbg_12m,Secondary outcome,continuous,numeric,463,94,126,-172 to 196,Secondary outcome: Change from baseline to 12 months in fasting blood glucose concentration.
+6,YS_delta_fbg_24m,Secondary outcome,continuous,numeric,463,115,121,-268 to 138,Secondary outcome: Change from baseline to 24 months in fasting blood glucose concentration.
+6,YS_delta_insulin_12m,Secondary outcome,continuous,numeric,463,250,176,-67 to 132.4,Secondary outcome: Change from baseline to 12 months in insulin.
+6,YS_delta_insulin_24m,Secondary outcome,continuous,numeric,463,256,172,-60 to 106,Secondary outcome: Change from baseline to 24 months in insulin.
+6,YS_delta_creatinine_12m,Secondary outcome,continuous,numeric,463,67,111,-0.3 to 0.59,Secondary outcome: Change from baseline to 12 months in serum creatinine concentration.
+6,YS_delta_creatinine_24m,Secondary outcome,continuous,numeric,463,87,126,-0.34 to 1.79,Secondary outcome: Change from baseline to 24 months in serum creatinine concentration.
+6,YS_delta_albumin_12m,Secondary outcome,continuous,numeric,463,245,201,-1139.8 to 1114.7,Secondary outcome: Change from baseline to 12 months in urinary albumin concentration.
+6,YS_delta_albumin_24m,Secondary outcome,continuous,numeric,463,241,205,-409.1 to 2504.2,Secondary outcome: Change from baseline to 24 months in urinary albumin concentration.
+6,YS_delta_egfr_12m,Secondary outcome,continuous,numeric,463,67,396,-48.7828 to 38.238,Secondary outcome: Change from baseline to 12 months in estimated glomerular filtration rate (eGFR).
+6,YS_delta_egfr_24m,Secondary outcome,continuous,numeric,463,87,375,-49.8271 to 23.8439,Secondary outcome: Change from baseline to 24 months in estimated glomerular filtration rate (eGFR).
+6,YS_delta_cystatin_c_12m,Secondary outcome,continuous,numeric,463,291,88,-0.44 to 0.61,Secondary outcome: Change from baseline to 12 months in serum cystatin C concentration.
+6,YS_delta_cystatin_c_24m,Secondary outcome,continuous,numeric,463,282,102,-0.78 to 1.39,Secondary outcome: Change from baseline to 24 months in serum cystatin C concentration.
+6,YS_delta_weight_12m,Secondary outcome,continuous,numeric,463,90,142,-10.4 to 12.7,Secondary outcome: Change from baseline to 12 months in weight.
+6,YS_delta_weight_24m,Secondary outcome,continuous,numeric,463,118,147,-16.3 to 11,Secondary outcome: Change from baseline to 24 months in weight.
+6,YS_delta_1_5ag_12m,Secondary outcome,continuous,numeric,463,155,229,-32.3 to 20.9,"Secondary outcome: Change from baseline to 12 months in 1,5-anhydroglucitol (1,5-AG)."
+6,YS_delta_1_5ag_24m,Secondary outcome,continuous,numeric,463,151,226,-27.7 to 21.5,"Secondary outcome: Change from baseline to 24 months in 1,5-anhydroglucitol (1,5-AG)."
+6,YS_delta_sdldl_12m,Secondary outcome,continuous,numeric,463,155,259,-56.6 to 48.5,Secondary outcome: Change from baseline to 12 months in small dense LDL cholesterol concentration.
+6,YS_delta_sdldl_24m,Secondary outcome,continuous,numeric,463,156,262,-70.3 to 78,Secondary outcome: Change from baseline to 24 months in small dense LDL cholesterol concentration.
+6,YS_delta_adipo_12m,Secondary outcome,continuous,numeric,463,155,267,-11.67 to 11.43,Secondary outcome: Change from baseline to 12 months in high-molecular-weight adiponectin concentration.
+6,YS_delta_adipo_24m,Secondary outcome,continuous,numeric,463,155,269,-10.49 to 23.44,Secondary outcome: Change from baseline to 24 months in high-molecular-weight adiponectin concentration.
+6,YS_delta_rlpc_12m,Secondary outcome,continuous,numeric,463,155,158,-26.7 to 17.3,Secondary outcome: Change from baseline to 12 months in remnant-like particle cholesterol (RLP-C) concentration.
+6,YS_delta_rlpc_24m,Secondary outcome,continuous,numeric,463,151,167,-39.9 to 39.4,Secondary outcome: Change from baseline to 24 months in remnant-like particle cholesterol (RLP-C) concentration.
+6,YS_delta_mda_ldl_12m,Secondary outcome,continuous,numeric,463,155,120,-92 to 89,Secondary outcome: Change from baseline to 12 months in malondialdehyde-modified LDL concentration.
+6,YS_delta_mda_ldl_24m,Secondary outcome,continuous,numeric,463,151,129,-136 to 149,Secondary outcome: Change from baseline to 24 months in malondialdehyde-modified LDL concentration.
+6,X_cca_imt_0m,Baseline covariate,continuous,numeric,463,13,77,0.5 to 2.32,Baseline covariate: Mean right common-carotid-artery intima-media thickness (CCA-IMT).
+6,X_hba1c_0m,Baseline covariate,continuous,numeric,463,17,39,6 to 10.5,Baseline covariate: Glycated haemoglobin (HbA1c).
+6,X_fbg_0m,Baseline covariate,continuous,numeric,463,29,138,45 to 422,Baseline covariate: Fasting blood glucose concentration.
+6,X_insulin_0m,Baseline covariate,continuous,numeric,463,132,189,0.74 to 107,Baseline covariate: Insulin.
+6,X_creatinine_0m,Baseline covariate,continuous,numeric,463,10,104,0.38 to 2.48,Baseline covariate: Serum creatinine concentration.
+6,X_albumin_0m,Baseline covariate,continuous,numeric,463,119,269,0.02 to 2342.69,Baseline covariate: Urinary albumin concentration.
+6,X_egfr_0m,Baseline covariate,continuous,numeric,463,10,427,20.9651 to 126.991,Baseline covariate: Estimated glomerular filtration rate (eGFR).
+6,X_cystatin_c_0m,Baseline covariate,continuous,numeric,463,170,94,0.49 to 2.47,Baseline covariate: Serum cystatin C concentration.
+6,X_weight_0m,Baseline covariate,continuous,numeric,463,14,223,34 to 119,Baseline covariate: Weight.
+6,X_1_5ag_0m,Baseline covariate,continuous,numeric,463,45,212,1.2 to 46.5,"Baseline covariate: 1,5-anhydroglucitol (1,5-AG)."
+6,X_sdldl_0m,Baseline covariate,continuous,numeric,463,45,300,1.7 to 100,Baseline covariate: Small dense LDL cholesterol concentration.
+6,X_adipo_0m,Baseline covariate,continuous,numeric,463,45,342,0.06 to 38.7,Baseline covariate: High-molecular-weight adiponectin concentration.
+6,X_rlpc_0m,Baseline covariate,continuous,numeric,463,45,93,1 to 46.2,Baseline covariate: Remnant-like particle cholesterol (RLP-C) concentration.
+6,X_mda_ldl_0m,Baseline covariate,continuous,numeric,463,45,143,43 to 278,Baseline covariate: Malondialdehyde-modified LDL concentration.
+6,X_age_0m,Baseline covariate,continuous,numeric,463,0,51,38 to 91,Baseline covariate: Age.
+6,X_sex_0m,Baseline covariate,binary,factor,463,0,2,1; 2,Baseline covariate: Sex.
+6,X_statin_0m,Baseline covariate,binary,factor,463,0,2,0; 1,Baseline covariate: Statin.
+6,X_dm_treatment_0m,Baseline covariate,binary,factor,463,0,2,1; 2,Baseline covariate: Diabetes mellitus treatment.
+6,X_hba1c_ancova_0m,Baseline covariate,continuous,numeric,463,0,28,5.8 to 8.9,Baseline covariate: Glycated haemoglobin ancova.
+6,X_sbp_0m,Baseline covariate,continuous,numeric,463,0,78,80 to 190,"Baseline covariate: Systolic blood pressure, in mm Hg."
+6,X_max_imt_0m,Baseline covariate,continuous,numeric,463,0,117,0 to 12.9,Baseline covariate: Max imt.

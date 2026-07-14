@@ -1,0 +1,26 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+28,Treatment,Treatment assignment,factor,factor,120,0,2,Edu+Visit; Usual Care,Treatment: randomized treatment assignment with cleaned-data arms: Edu+Visit; Usual Care. Publication-designated control/reference: Usual Care.
+28,YP_ContrSBP_6m,Primary outcome,binary,factor,120,0,2,Controlled; Uncontrolled,"Primary outcome: Contr systolic blood pressure, measured at 6 months. Publication-defined endpoint context: Proportion of participants with controlled systolic blood pressure (SBP < 140 mmHg) at six months."
+28,YS_BMI_6m,Secondary outcome,continuous,numeric,120,0,111,17.3604 to 34.8944,"Secondary outcome: Body mass index (BMI), in kg/m², measured at 6 months."
+28,YS_delta_BMI_6m,Secondary outcome,continuous,numeric,120,0,116,-4.2435 to 6.11834,"Secondary outcome: Change from baseline to 6 months in body mass index (BMI), in kg/m²."
+28,YS_WC_6m,Secondary outcome,continuous,numeric,120,0,41,50 to 120,"Secondary outcome: Waist circumference, measured at 6 months."
+28,YS_delta_WC_6m,Secondary outcome,continuous,numeric,120,0,37,-20 to 20,Secondary outcome: Change from baseline to 6 months in waist circumference.
+28,YS_MeanSBP_6m,Secondary outcome,continuous,numeric,120,0,24,90 to 200,"Secondary outcome: Mean systolic blood pressure, measured at 6 months."
+28,YS_MeanDBP_6m,Secondary outcome,continuous,numeric,120,0,15,60 to 140,"Secondary outcome: Mean diastolic blood pressure, measured at 6 months."
+28,YS_delta_MeanSBP_6m,Secondary outcome,continuous,numeric,120,0,40,-35 to 85,Secondary outcome: Change from baseline to 6 months in mean systolic blood pressure.
+28,YS_ContrDBP_6m,Secondary outcome,binary,factor,120,0,2,Controlled; Uncontrolled,"Secondary outcome: Contr diastolic blood pressure, measured at 6 months."
+28,YS_delta_MeanDBP_6m,Secondary outcome,continuous,numeric,120,0,26,-31 to 45,Secondary outcome: Change from baseline to 6 months in mean diastolic blood pressure.
+28,YS_ControlledBP_6m,Secondary outcome,binary,factor,120,0,2,Controlled; Uncontrolled,"Secondary outcome: Controlled blood pressure, measured at 6 months."
+28,YS_TotalScoreA_6m,Secondary outcome,continuous,numeric,120,0,16,2 to 9.5,"Secondary outcome: Total score a, measured at 6 months."
+28,YS_delta_TotalScoreA_6m,Secondary outcome,continuous,numeric,120,0,24,-8.5 to 4,Secondary outcome: Change from baseline to 6 months in total score a.
+28,X_SEX_0m,Baseline covariate,binary,factor,120,0,2,Female; Male,Baseline covariate: Sex.
+28,X_Age_0m,Baseline covariate,factor,factor,120,0,10,30-34; 35-39; 40-44; 45-49; 50-54; 55-59; 60-64; 64-69; 70-75; 75-80,Baseline covariate: Age. Categories/codes in the cleaned data: 30-34; 35-39; 40-44; 45-49; 50-54; 55-59; 60-64; 64-69; 70-75; 75-80.
+28,X_RxHTN_0m,Baseline covariate,binary,factor,120,0,2,No; Yes,Baseline covariate: Rx hypertension.
+28,X_BMI_0m,Baseline covariate,continuous,numeric,120,0,112,16.263 to 35.629,"Baseline covariate: Body mass index (BMI), in kg/m²."
+28,X_WC_0m,Baseline covariate,continuous,numeric,120,0,43,33 to 122,Baseline covariate: Waist circumference.
+28,X_MeanSBP_0m,Baseline covariate,continuous,numeric,120,0,25,130 to 240,Baseline covariate: Mean systolic blood pressure.
+28,X_MeanDBP_0m,Baseline covariate,continuous,numeric,120,0,23,70 to 140,Baseline covariate: Mean diastolic blood pressure.
+28,X_ContrSBP_0m,Baseline covariate,binary,factor,120,0,2,Controlled; Uncontrolled,Baseline covariate: Contr systolic blood pressure.
+28,X_ContrDBP_0m,Baseline covariate,binary,factor,120,0,2,Controlled; Uncontrolled,Baseline covariate: Contr diastolic blood pressure.
+28,X_ControlledBP_0m,Baseline covariate,binary,factor,120,0,1,Uncontrolled,Baseline covariate: Controlled blood pressure.
+28,X_TotalScoreA_0m,Baseline covariate,continuous,numeric,120,0,15,0.5 to 8.5,Baseline covariate: Total score a.

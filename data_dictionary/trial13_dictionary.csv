@@ -1,0 +1,24 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+13,Treatment,Treatment assignment,factor,factor,480,0,2,IM injection; IV infusion,Treatment: randomized treatment assignment with cleaned-data arms: IM injection; IV infusion. Publication-designated control/reference: IM injection.
+13,YP_TOTALBLOOD,Primary outcome,continuous,numeric,480,3,63,20 to 2000,Primary outcome: Totalblood. Publication-defined endpoint context: Proportion with Blood Loss ≥ 500 Mean Blood Loss.
+13,YP_PPH500,Primary outcome,binary,factor,480,3,2,0; 1,Primary outcome: Pph500. Publication-defined endpoint context: Proportion with Blood Loss ≥ 500 Mean Blood Loss.
+13,YS_SYSBP_30min,Secondary outcome,continuous,numeric,480,2,73,40 to 166,"Secondary outcome: Sysbp, measured at 30 minutes."
+13,YS_DIASBP_30min,Secondary outcome,continuous,numeric,480,2,60,20 to 111,"Secondary outcome: Diastolic blood pressure, measured at 30 minutes."
+13,YS_HR_30min,Secondary outcome,continuous,numeric,480,2,79,51 to 153,"Secondary outcome: Heart rate, measured at 30 minutes."
+13,YS_BLD_30min,Secondary outcome,continuous,numeric,480,2,60,0 to 1700,"Secondary outcome: Bld, measured at 30 minutes."
+13,YS_SYSBP_60min,Secondary outcome,continuous,numeric,480,3,73,60 to 164,"Secondary outcome: Sysbp, measured at 60 minutes."
+13,YS_DIASBP_60min,Secondary outcome,continuous,numeric,480,3,58,38 to 102,"Secondary outcome: Diastolic blood pressure, measured at 60 minutes."
+13,YS_HR_60min,Secondary outcome,continuous,numeric,480,3,75,46 to 150,"Secondary outcome: Heart rate, measured at 60 minutes."
+13,YS_BLD_60min,Secondary outcome,continuous,numeric,480,4,61,20 to 2000,"Secondary outcome: Bld, measured at 60 minutes."
+13,YS_UTEROTONICOS,Secondary outcome,binary,factor,480,0,2,no; yes,Secondary outcome: Uterotonicos.
+13,YS_PPH1000,Secondary outcome,binary,factor,480,3,2,no; yes,Secondary outcome: Pph1000.
+13,YS_SI_15min,Secondary outcome,continuous,numeric,480,0,416,0.402985 to 1.91379,"Secondary outcome: Shock index, measured at 15 minutes."
+13,YS_SI_30min,Secondary outcome,continuous,numeric,480,2,408,0.349398 to 3,"Secondary outcome: Shock index, measured at 30 minutes."
+13,YS_SI_45min,Secondary outcome,continuous,numeric,480,3,396,0.339286 to 2.77778,"Secondary outcome: Shock index, measured at 45 minutes."
+13,YS_SI_60min,Secondary outcome,continuous,numeric,480,3,411,0.373333 to 2,"Secondary outcome: Shock index, measured at 60 minutes."
+13,YS_HB_CHG,Secondary outcome,continuous,numeric,480,5,135,-6.1 to 6.8,Secondary outcome: Hb chg.
+13,X_AGE_0min,Baseline covariate,continuous,numeric,480,0,28,15 to 42,Baseline covariate: Age.
+13,X_PARITY_0min,Baseline covariate,continuous,numeric,480,0,11,1 to 12,Baseline covariate: Parity.
+13,X_HB_BASELINE_0min,Baseline covariate,continuous,numeric,480,1,75,7.1 to 16.8,Baseline covariate: Hb baseline.
+13,X_INDUCTION_0min,Baseline covariate,binary,factor,480,0,2,0; 1,Baseline covariate: Induction.
+13,X_SI_BASELINE_0min,Baseline covariate,continuous,numeric,480,0,418,0.401515 to 1.45679,Baseline covariate: Shock index baseline.

@@ -1,0 +1,30 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+85,Treatment,Treatment assignment,factor,factor,61,0,2,Tx; WL,Treatment: randomized treatment assignment with cleaned-data arms: Tx; WL. Publication-designated control/reference: Wait-list control.
+85,X_age_years,Baseline covariate,continuous,numeric,61,0,29,21 to 57,Baseline covariate: Age years.
+85,X_sex,Baseline covariate,binary,numeric,61,0,2,1; 2,Baseline covariate: Sex.
+85,X_bmi,Baseline covariate,continuous,numeric,61,9,52,17.575 to 40.3466,"Baseline covariate: Body mass index (BMI), in kg/m²."
+85,X_pain_duration,Baseline covariate,continuous,numeric,61,0,29,0.5 to 30,Baseline covariate: Pain duration.
+85,X_education_level,Baseline covariate,factor,factor,61,0,7,"4-year College Degree; Doctoral Degree; High School / GED; Masters Degree; NaN; Professional Degree (JD, MD); Some College","Baseline covariate: Education level. Categories/codes in the cleaned data: 4-year College Degree; Doctoral Degree; High School / GED; Masters Degree; NaN; Professional Degree (JD, MD); Some College."
+85,X_income,Baseline covariate,continuous,numeric,61,14,36,20 to 500,Baseline covariate: Income.
+85,X_employed_status,Baseline covariate,continuous,numeric,61,5,6,1 to 8,Baseline covariate: Employed status.
+85,YP_delta_bpi_average_pain_post_pre,Primary outcome,continuous,numeric,61,1,20,-6 to 2.5,Primary outcome: Change from pre-intervention to post-intervention in Brief Pain Inventory average pain-intensity score.
+85,YP_bpi_average_pain_post,Primary outcome,continuous,numeric,61,1,9,0 to 9,"Primary outcome: Brief Pain Inventory average pain-intensity score, measured immediately after the intervention."
+85,YS_bpi_average_pain_followup,Secondary outcome,time-to-event/continuous time,numeric,61,2,8,0 to 7,"Secondary outcome: Brief Pain Inventory average pain-intensity score, measured at follow-up."
+85,YS_bpi_interference_post,Secondary outcome,continuous,numeric,61,1,24,0 to 9,"Secondary outcome: Brief Pain Inventory pain-interference score, measured immediately after the intervention."
+85,YS_bpi_interference_followup,Secondary outcome,time-to-event/continuous time,numeric,61,2,23,0.25 to 6.25,"Secondary outcome: Brief Pain Inventory pain-interference score, measured at follow-up."
+85,X_bpi_average_pain_pre,Baseline covariate,continuous,numeric,61,0,16,1.5 to 6.5,Baseline covariate: Brief Pain Inventory average pain pre-intervention.
+85,X_bpi_total_p1,Baseline covariate,continuous,numeric,61,9,21,1.25 to 8,Baseline covariate: Brief Pain Inventory total.
+85,YS_pcs_total_p5,Secondary outcome,continuous,numeric,61,2,29,0 to 48.5,"Secondary outcome: Physical-component summary total, measured at assessment period 5."
+85,X_pcs_total_p1,Baseline covariate,continuous,numeric,61,10,29,4 to 50,Baseline covariate: Physical-component summary total.
+85,YS_tsk_total_p5,Secondary outcome,continuous,numeric,61,3,22,11 to 38,"Secondary outcome: Tampa Scale for Kinesiophobia total score, measured at assessment period 5."
+85,X_tsk_total_p1,Baseline covariate,continuous,numeric,61,11,26,18 to 40,Baseline covariate: Tampa Scale for Kinesiophobia total score.
+85,YS_olbp_total_p5,Secondary outcome,continuous,numeric,61,2,18,1 to 40,"Secondary outcome: Oswestry Low Back Pain Disability Questionnaire total score, measured at assessment period 5."
+85,YS_sf12_phys_p5,Secondary outcome,continuous,numeric,61,2,57,38.6994 to 63.286,"Secondary outcome: 12-item Short Form Survey physical-component summary score, measured at assessment period 5."
+85,YS_sf12_ment_p5,Secondary outcome,continuous,numeric,61,2,57,20.3086 to 64.2368,"Secondary outcome: 12-item Short Form Survey mental-component summary score, measured at assessment period 5."
+85,X_olbp_total_p1,Baseline covariate,continuous,numeric,61,11,16,3 to 22,Baseline covariate: Oswestry Low Back Pain Disability Questionnaire total score.
+85,X_sf12_phys_p1,Baseline covariate,continuous,numeric,61,11,50,36.0054 to 64.5453,Baseline covariate: 12-item Short Form Survey physical-component summary score.
+85,X_sf12_ment_p1,Baseline covariate,continuous,numeric,61,11,50,14.3439 to 57.8271,Baseline covariate: 12-item Short Form Survey mental-component summary score.
+85,YS_promis_anxiety_p5,Secondary outcome,continuous,numeric,61,3,26,8 to 38,"Secondary outcome: PROMIS Anxiety score, measured at assessment period 5."
+85,YS_promis_depression_p5,Secondary outcome,continuous,numeric,61,3,22,8 to 32,"Secondary outcome: PROMIS Depression score, measured at assessment period 5."
+85,X_promis_anxiety_p1,Baseline covariate,continuous,numeric,61,11,21,8 to 38,Baseline covariate: PROMIS Anxiety score.
+85,X_promis_depression_p1,Baseline covariate,continuous,numeric,61,11,20,8 to 40,Baseline covariate: PROMIS Depression score.

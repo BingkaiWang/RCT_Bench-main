@@ -1,0 +1,92 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+12,Treatment,Treatment assignment,factor,factor,349,0,2,Immediate; Waitlist,Treatment: randomized treatment assignment with cleaned-data arms: Immediate; Waitlist. Publication-designated control/reference: Waitlist.
+12,YP_hba1c_6m,Primary outcome,continuous,numeric,349,0,77,5.4 to 14.5,"Primary outcome: Glycated haemoglobin (HbA1c), measured at 6 months."
+12,YS_hba1c_12m,Secondary outcome,continuous,numeric,349,81,74,5.6 to 17.3,"Secondary outcome: Glycated haemoglobin (HbA1c), measured at 12 months."
+12,YS_ldl_6m,Secondary outcome,continuous,numeric,349,51,123,16 to 281,"Secondary outcome: Low-density-lipoprotein cholesterol concentration, measured at 6 months."
+12,YS_hdl_6m,Secondary outcome,continuous,numeric,349,50,56,21 to 98,"Secondary outcome: High-density-lipoprotein cholesterol concentration, measured at 6 months."
+12,YS_trigly_6m,Secondary outcome,continuous,numeric,349,49,188,43 to 1285,"Secondary outcome: Trigly, measured at 6 months."
+12,YS_weight_6m,Secondary outcome,continuous,numeric,349,27,171,49.95 to 242.55,"Secondary outcome: Weight, measured at 6 months."
+12,YS_sys_bp_6m,Secondary outcome,continuous,numeric,349,44,80,90 to 204,"Secondary outcome: Systolic blood pressure, measured at 6 months."
+12,YS_dias_bp_6m,Secondary outcome,continuous,numeric,349,44,45,43 to 120,"Secondary outcome: Diastolic blood pressure, measured at 6 months."
+12,YS_op_n_6m,Secondary outcome,continuous,numeric,349,0,27,0 to 30,"Secondary outcome: Op n, measured at 6 months."
+12,YS_op_payment_6m,Secondary outcome,continuous,numeric,349,198,151,0 to 48540.7,"Secondary outcome: Op payment, measured at 6 months."
+12,YS_nf_payment_6m,Secondary outcome,continuous,numeric,349,198,4,0 to 10392.9,"Secondary outcome: Nf payment, measured at 6 months."
+12,YS_oth_payment_6m,Secondary outcome,continuous,numeric,349,198,95,0 to 16673,"Secondary outcome: Oth payment, measured at 6 months."
+12,YS_total_payment_6m,Secondary outcome,continuous,numeric,349,198,151,0 to 64889.3,"Secondary outcome: Total payment, measured at 6 months."
+12,YS_drug_insulin_6m,Secondary outcome,binary,factor,349,0,2,0; 1,"Secondary outcome: Drug insulin, measured at 6 months."
+12,YS_drug_metformin_6m,Secondary outcome,binary,factor,349,0,2,0; 1,"Secondary outcome: Drug metformin, measured at 6 months."
+12,YS_drug_sulf_6m,Secondary outcome,binary,factor,349,0,2,0; 1,"Secondary outcome: Drug sulf, measured at 6 months."
+12,YS_drug_glp1_6m,Secondary outcome,binary,factor,349,0,2,0; 1,"Secondary outcome: Drug GLP-1 receptor agonist, measured at 6 months."
+12,YS_drug_other_6m,Secondary outcome,binary,factor,349,0,2,0; 1,"Secondary outcome: Drug other, measured at 6 months."
+12,YS_drug_any_db_6m,Secondary outcome,binary,factor,349,0,2,0; 1,"Secondary outcome: Drug any db, measured at 6 months."
+12,YS_dietician_visits_6m,Secondary outcome,continuous,numeric,349,0,10,0 to 9,"Secondary outcome: Dietician visits, measured at 6 months."
+12,YS_endocrinology_visits_6m,Secondary outcome,continuous,numeric,349,0,6,0 to 5,"Secondary outcome: Endocrinology visits, measured at 6 months."
+12,YS_dsmt_visits_6m,Secondary outcome,continuous,numeric,349,0,6,0 to 5,"Secondary outcome: Diabetes self-management training visits, measured at 6 months."
+12,YS_weight_visits_6m,Secondary outcome,continuous,numeric,349,0,5,0 to 4,"Secondary outcome: Weight visits, measured at 6 months."
+12,YS_months_with_visits_6m,Secondary outcome,continuous,numeric,349,0,7,0 to 6,"Secondary outcome: Months with visits, measured at 6 months."
+12,YS_site_visits_6m,Secondary outcome,continuous,numeric,349,0,27,0 to 27,"Secondary outcome: Site visits, measured at 6 months."
+12,YS_fruit_num_6m,Secondary outcome,continuous,numeric,349,68,17,0 to 24,"Secondary outcome: Fruit number of, measured at 6 months."
+12,YS_vegetables_num_6m,Secondary outcome,continuous,numeric,349,68,15,0 to 266,"Secondary outcome: Vegetables number of, measured at 6 months."
+12,YS_sweet_drink_num_6m,Secondary outcome,continuous,numeric,349,71,19,0 to 30,"Secondary outcome: Sweet drink number of, measured at 6 months."
+12,YS_diet_improved_yn_6m,Secondary outcome,binary,factor,349,66,2,0; 1,"Secondary outcome: Diet improved yn, measured at 6 months."
+12,YS_never_eat_out_yn_6m,Secondary outcome,binary,factor,349,66,2,0; 1,"Secondary outcome: Never eat out yn, measured at 6 months."
+12,YS_engagement_index_6m,Secondary outcome,continuous,numeric,349,66,59,-1.54582 to 2.62046,"Secondary outcome: Engagement index, measured at 6 months."
+12,YS_healthy_attitudes_index_6m,Secondary outcome,continuous,numeric,349,67,15,-6.03881 to 3.39927,"Secondary outcome: Healthy attitudes index, measured at 6 months."
+12,YS_self_efficacy_index_6m,Secondary outcome,continuous,numeric,349,66,31,-5.7531 to 0.663224,"Secondary outcome: Self efficacy index, measured at 6 months."
+12,YS_diet_improve_index_6m,Secondary outcome,continuous,numeric,349,66,238,-4.57973 to 2.84748,"Secondary outcome: Diet improve index, measured at 6 months."
+12,YS_exercise_smoking_index_6m,Secondary outcome,continuous,numeric,349,66,56,-3.27884 to 3.94358,"Secondary outcome: Exercise smoking index, measured at 6 months."
+12,YS_diabetes_knowledge_score_6m,Secondary outcome,continuous,numeric,349,70,6,0.285714 to 1,"Secondary outcome: Diabetes knowledge score, measured at 6 months."
+12,YS_ldl_12m,Secondary outcome,continuous,numeric,349,124,109,19 to 222,"Secondary outcome: Low-density-lipoprotein cholesterol concentration, measured at 12 months."
+12,YS_hdl_12m,Secondary outcome,continuous,numeric,349,118,55,18 to 174,"Secondary outcome: High-density-lipoprotein cholesterol concentration, measured at 12 months."
+12,YS_trigly_12m,Secondary outcome,continuous,numeric,349,122,172,42 to 1989,"Secondary outcome: Trigly, measured at 12 months."
+12,YS_weight_12m,Secondary outcome,continuous,numeric,349,51,167,46.8 to 239.85,"Secondary outcome: Weight, measured at 12 months."
+12,YS_sys_bp_12m,Secondary outcome,continuous,numeric,349,67,76,77 to 213,"Secondary outcome: Systolic blood pressure, measured at 12 months."
+12,YS_dias_bp_12m,Secondary outcome,continuous,numeric,349,67,46,45 to 105,"Secondary outcome: Diastolic blood pressure, measured at 12 months."
+12,YS_op_n_12m,Secondary outcome,continuous,numeric,349,0,40,0 to 48,"Secondary outcome: Op n, measured at 12 months."
+12,YS_op_payment_12m,Secondary outcome,continuous,numeric,349,208,141,300.83 to 49449,"Secondary outcome: Op payment, measured at 12 months."
+12,YS_nf_payment_12m,Secondary outcome,continuous,numeric,349,208,7,0 to 14396.2,"Secondary outcome: Nf payment, measured at 12 months."
+12,YS_oth_payment_12m,Secondary outcome,continuous,numeric,349,208,104,0 to 19145.5,"Secondary outcome: Oth payment, measured at 12 months."
+12,YS_total_payment_12m,Secondary outcome,continuous,numeric,349,208,141,318 to 89919.7,"Secondary outcome: Total payment, measured at 12 months."
+12,YS_drug_insulin_12m,Secondary outcome,binary,factor,349,0,2,0; 1,"Secondary outcome: Drug insulin, measured at 12 months."
+12,YS_drug_metformin_12m,Secondary outcome,binary,factor,349,0,2,0; 1,"Secondary outcome: Drug metformin, measured at 12 months."
+12,YS_drug_sulf_12m,Secondary outcome,binary,factor,349,0,2,0; 1,"Secondary outcome: Drug sulf, measured at 12 months."
+12,YS_drug_glp1_12m,Secondary outcome,binary,factor,349,0,2,0; 1,"Secondary outcome: Drug GLP-1 receptor agonist, measured at 12 months."
+12,YS_drug_other_12m,Secondary outcome,binary,factor,349,0,2,0; 1,"Secondary outcome: Drug other, measured at 12 months."
+12,YS_drug_any_db_12m,Secondary outcome,binary,factor,349,0,2,0; 1,"Secondary outcome: Drug any db, measured at 12 months."
+12,YS_dietician_visits_12m,Secondary outcome,continuous,numeric,349,0,16,0 to 17,"Secondary outcome: Dietician visits, measured at 12 months."
+12,YS_endocrinology_visits_12m,Secondary outcome,continuous,numeric,349,0,8,0 to 8,"Secondary outcome: Endocrinology visits, measured at 12 months."
+12,YS_dsmt_visits_12m,Secondary outcome,continuous,numeric,349,0,12,0 to 11,"Secondary outcome: Diabetes self-management training visits, measured at 12 months."
+12,YS_weight_visits_12m,Secondary outcome,continuous,numeric,349,0,7,0 to 8,"Secondary outcome: Weight visits, measured at 12 months."
+12,YS_months_with_visits_12m,Secondary outcome,continuous,numeric,349,0,13,0 to 12,"Secondary outcome: Months with visits, measured at 12 months."
+12,YS_site_visits_12m,Secondary outcome,continuous,numeric,349,0,48,0 to 51,"Secondary outcome: Site visits, measured at 12 months."
+12,X_hba1c_0m,Baseline covariate,continuous,numeric,349,0,70,8 to 18.7,Baseline covariate: Glycated haemoglobin (HbA1c).
+12,X_ldl_0m,Baseline covariate,continuous,numeric,349,58,135,14 to 269,Baseline covariate: Low-density-lipoprotein cholesterol concentration.
+12,X_hdl_0m,Baseline covariate,continuous,numeric,349,69,59,14 to 138,Baseline covariate: High-density-lipoprotein cholesterol concentration.
+12,X_trigly_0m,Baseline covariate,continuous,numeric,349,66,206,42 to 2779,Baseline covariate: Trigly.
+12,X_weight_0m,Baseline covariate,continuous,numeric,349,5,172,47.7 to 264.6,Baseline covariate: Weight.
+12,X_sys_bp_0m,Baseline covariate,continuous,numeric,349,7,70,87 to 224,Baseline covariate: Systolic blood pressure.
+12,X_dias_bp_0m,Baseline covariate,continuous,numeric,349,7,52,34 to 131,Baseline covariate: Diastolic blood pressure.
+12,X_op_n_0m,Baseline covariate,continuous,numeric,349,0,35,0 to 54,Baseline covariate: Op n.
+12,X_op_payment_0m,Baseline covariate,continuous,numeric,349,0,151,122.5 to 30793.1,Baseline covariate: Op payment.
+12,X_nf_payment_0m,Baseline covariate,continuous,numeric,349,0,9,0 to 19221.6,Baseline covariate: Nf payment.
+12,X_oth_payment_0m,Baseline covariate,continuous,numeric,349,0,105,0 to 21157,Baseline covariate: Oth payment.
+12,X_total_payment_0m,Baseline covariate,continuous,numeric,349,0,151,174.24 to 195248,Baseline covariate: Total payment.
+12,X_drug_insulin_0m,Baseline covariate,binary,factor,349,0,2,0; 1,Baseline covariate: Drug insulin.
+12,X_drug_metformin_0m,Baseline covariate,binary,factor,349,0,2,0; 1,Baseline covariate: Drug metformin.
+12,X_drug_sulf_0m,Baseline covariate,binary,factor,349,0,2,0; 1,Baseline covariate: Drug sulf.
+12,X_drug_glp1_0m,Baseline covariate,binary,factor,349,0,2,0; 1,Baseline covariate: Drug GLP-1 receptor agonist.
+12,X_drug_other_0m,Baseline covariate,binary,factor,349,0,2,0; 1,Baseline covariate: Drug other.
+12,X_drug_any_db_0m,Baseline covariate,binary,factor,349,0,2,0; 1,Baseline covariate: Drug any db.
+12,X_dietician_visits_0m,Baseline covariate,continuous,numeric,349,0,8,0 to 9,Baseline covariate: Dietician visits.
+12,X_endocrinology_visits_0m,Baseline covariate,continuous,numeric,349,0,7,0 to 6,Baseline covariate: Endocrinology visits.
+12,X_dsmt_visits_0m,Baseline covariate,continuous,numeric,349,0,6,0 to 5,Baseline covariate: Diabetes self-management training visits.
+12,X_weight_visits_0m,Baseline covariate,continuous,numeric,349,0,8,0 to 8,Baseline covariate: Weight visits.
+12,X_op_i_0m,Baseline covariate,binary,factor,349,0,2,0; 1,Baseline covariate: Op i.
+12,X_ip_i_0m,Baseline covariate,binary,factor,349,0,2,0; 1,Baseline covariate: Ip i.
+12,X_ed_i_0m,Baseline covariate,binary,factor,349,0,2,0; 1,Baseline covariate: Emergency department i.
+12,X_age_0m,Baseline covariate,continuous,numeric,349,0,55,21 to 83,Baseline covariate: Age.
+12,X_sex_0m,Baseline covariate,binary,factor,349,0,2,F; M,Baseline covariate: Sex.
+12,X_hispanic_0m,Baseline covariate,binary,factor,349,0,2,0; 1,Baseline covariate: Hispanic.
+12,X_race_0m,Baseline covariate,factor,factor,349,0,6,American Indian Or Alaska Native; Asian; Black Or African American; Native Hawaiian Or Other Pacific Islander; Unknown; White,Baseline covariate: Race. Categories/codes in the cleaned data: American Indian Or Alaska Native; Asian; Black Or African American; Native Hawaiian Or Other Pacific Islander; Unknown; White.
+12,X_rural_site_0m,Baseline covariate,binary,factor,349,0,2,0; 1,Baseline covariate: Rural site.
+12,X_hba1c_cat_control_0m,Baseline covariate,binary,factor,349,0,2,0; 1,Baseline covariate: Glycated haemoglobin category control.

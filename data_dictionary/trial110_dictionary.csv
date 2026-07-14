@@ -1,0 +1,9 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+110,Treatment,Treatment assignment,factor,factor,80,0,2,IV iron (ferumoxytol); Oral iron,Treatment: randomized treatment assignment with cleaned-data arms: IV iron (ferumoxytol); Oral iron. Publication-designated control/reference: Oral iron.
+110,YP_hgb_4w,Primary outcome,continuous,numeric,80,6,32,8.4 to 13.7,"Primary outcome: Hgb, measured at 4 weeks. Publication-defined endpoint context: hgb 4w."
+110,YS_hgb_8w,Secondary outcome,continuous,numeric,80,42,20,9.9 to 13.2,"Secondary outcome: Hgb, measured at 8 weeks."
+110,YS_hgb_admission,Secondary outcome,continuous,numeric,80,0,33,7.9 to 13.7,Secondary outcome: Hgb admission.
+110,X_hgb_screening,Baseline covariate,continuous,numeric,80,0,20,8.8 to 10.9,Baseline covariate: Hgb screening.
+110,X_ferritin_0w,Baseline covariate,continuous,numeric,80,0,75,5.41 to 69.9,Baseline covariate: Ferritin.
+110,X_tsat_0w,Baseline covariate,continuous,numeric,80,3,27,3 to 52,Baseline covariate: Tsat.
+110,X_parity,Baseline covariate,binary,character,80,0,2,Multiparous; Nulliparous,Baseline covariate: Parity.

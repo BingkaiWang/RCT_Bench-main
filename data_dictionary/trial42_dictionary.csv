@@ -1,0 +1,17 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+42,Treatment,Treatment assignment,factor,factor,103,0,2,Combined; Sequential,Treatment: randomized treatment assignment with cleaned-data arms: Combined; Sequential. Publication-designated control/reference: Combined.
+42,YP_onset_sensory,Primary outcome,continuous,numeric,103,0,36,0 to 50,"Primary outcome: Onset sensory. Publication-defined endpoint context: Time (minutes) from completion of injection to onset of sensory block in all four nerve distributions (median, ulnar, radial, musculocutaneous)."
+42,YP_onset_sensory_censor,Primary outcome,binary,factor,103,0,2,Censored; Not censored,"Primary outcome: Onset sensory censor. Publication-defined endpoint context: Time (minutes) from completion of injection to onset of sensory block in all four nerve distributions (median, ulnar, radial, musculocutaneous)."
+42,YS_onset_first_sensory,Secondary outcome,continuous,numeric,103,0,12,-6 to 15,Secondary outcome: Onset first sensory.
+42,YS_onset_motor,Secondary outcome,continuous,numeric,103,0,34,1 to 50,Secondary outcome: Onset motor.
+42,YS_med_duration,Secondary outcome,continuous,numeric,103,0,89,0 to 48,Secondary outcome: Med duration.
+42,YS_med_duration_censor,Secondary outcome,binary,factor,103,0,2,Censored; Not censored,Secondary outcome: Med duration censor.
+42,YS_vps_rest,Secondary outcome,continuous,numeric,103,0,10,0 to 10,Secondary outcome: Vps rest.
+42,YS_vps_movement,Secondary outcome,continuous,numeric,103,0,11,0 to 10,Secondary outcome: Vps movement.
+42,YS_opioid_total,Secondary outcome,continuous,numeric,103,0,27,0 to 225,Secondary outcome: Opioid total.
+42,X_gender_0h,Baseline covariate,binary,factor,103,0,2,Female; Male,Baseline covariate: Gender.
+42,X_bmi_0h,Baseline covariate,continuous,numeric,103,3,96,18.8 to 43.46,"Baseline covariate: Body mass index (BMI), in kg/m²."
+42,X_age_0h,Baseline covariate,continuous,numeric,103,0,44,18 to 74,Baseline covariate: Age.
+42,X_fentanyl_0h,Baseline covariate,continuous,numeric,103,1,8,0 to 250,Baseline covariate: Fentanyl.
+42,X_alfentanil_0h,Baseline covariate,continuous,numeric,103,1,27,0 to 4.266,Baseline covariate: Alfentanil.
+42,X_midazolam_0h,Baseline covariate,continuous,numeric,103,1,10,0 to 9,Baseline covariate: Midazolam.

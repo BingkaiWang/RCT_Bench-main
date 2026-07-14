@@ -1,0 +1,16 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+55,Treatment,Treatment assignment,factor,factor,56,0,2,Control; Taking Charge,Treatment: randomized treatment assignment with cleaned-data arms: Control; Taking Charge. Publication-designated control/reference: Control/usual care.
+55,YP_total_moderate_serious_aecopd_12m,Primary outcome,continuous,numeric,56,0,11,0 to 11,"Primary outcome: Total moderate serious aecopd, measured at 12 months. Publication-defined endpoint context: Frequency of moderate or severe AECOPD within 12 months."
+55,YS_serious_aecopd_12m,Secondary outcome,continuous,numeric,56,0,7,0 to 7,"Secondary outcome: Serious aecopd, measured at 12 months."
+55,YS_alive_12m,Secondary outcome,binary,factor,56,0,2,No; Yes,"Secondary outcome: Alive, measured at 12 months."
+55,YS_pulmonary_rehab_attendance_12m,Secondary outcome,factor,factor,56,0,3,No; NR; Yes,"Secondary outcome: Pulmonary rehab attendance, measured at 12 months. Categories/codes in the cleaned data: No; NR; Yes."
+55,X_age_0m,Baseline covariate,continuous,numeric,56,0,30,29 to 87,Baseline covariate: Age.
+55,X_gender_0m,Baseline covariate,binary,factor,56,0,2,Female; Male,Baseline covariate: Gender.
+55,X_ethnicity_0m,Baseline covariate,factor,factor,56,0,8,Canadian; Cook Island Maori; Niuean; Cook Island Maori; Taihitian; Maori; NR; NZ European; NZ European; Maori; Samoan,Baseline covariate: Ethnicity. Categories/codes in the cleaned data: Canadian; Cook Island Maori; Niuean; Cook Island Maori; Taihitian; Maori; NR; NZ European; NZ European; Maori; Samoan.
+55,X_current_smoker_0m,Baseline covariate,factor,factor,56,0,3,No; NR; Yes,Baseline covariate: Current smoker. Categories/codes in the cleaned data: No; NR; Yes.
+55,X_pack_years_0m,Baseline covariate,continuous,numeric,56,3,28,0 to 87.5,Baseline covariate: Pack years.
+55,X_bmi_0m,Baseline covariate,continuous,numeric,56,7,44,1.8 to 52.2,"Baseline covariate: Body mass index (BMI), in kg/m²."
+55,X_domiciliary_oxygen_0m,Baseline covariate,factor,factor,56,0,3,No; NR; Yes,Baseline covariate: Domiciliary oxygen. Categories/codes in the cleaned data: No; NR; Yes.
+55,X_prior_pulmonary_rehab_0m,Baseline covariate,factor,factor,56,0,3,No; NR; Yes,Baseline covariate: Prior pulmonary rehab. Categories/codes in the cleaned data: No; NR; Yes.
+55,X_charlson_0m,Baseline covariate,continuous,numeric,56,1,8,0 to 7,Baseline covariate: Charlson Comorbidity Index score.
+55,X_prior_aecopd_events_12m,Baseline covariate,continuous,numeric,56,0,9,0 to 8,Baseline covariate: Prior aecopd events.

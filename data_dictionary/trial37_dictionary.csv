@@ -1,0 +1,31 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+37,Treatment,Treatment assignment,factor,factor,602,0,2,Indomethacin; Placebo,Treatment: randomized treatment assignment with cleaned-data arms: Indomethacin; Placebo. Publication-designated control/reference: Placebo.
+37,YP_pep_5d,Primary outcome,binary,factor,602,0,2,0_no; 1_yes,"Primary outcome: Post-endoscopic retrograde cholangiopancreatography pancreatitis, measured at 5 days."
+37,X_site_0d,Baseline covariate,factor,factor,602,0,4,1_UM; 2_IU; 3_UK; 4_Case,Baseline covariate: Site. Categories/codes in the cleaned data: 1_UM; 2_IU; 3_UK; 4_Case.
+37,X_age_0d,Baseline covariate,continuous,numeric,602,0,62,19 to 90,Baseline covariate: Age.
+37,X_risk_score_0d,Baseline covariate,continuous,numeric,602,0,10,1 to 5.5,Baseline covariate: Risk score.
+37,X_gender_0d,Baseline covariate,binary,factor,602,0,2,1_female; 2_male,Baseline covariate: Gender.
+37,X_pep_0d,Baseline covariate,binary,factor,602,0,2,0_no; 1_yes,Baseline covariate: Post-endoscopic retrograde cholangiopancreatography pancreatitis.
+37,X_recpanc_0d,Baseline covariate,binary,factor,602,0,2,0_no; 1_yes,Baseline covariate: History of post-ERCP pancreatitis.
+37,X_psphinc_0d,Baseline covariate,binary,factor,602,0,2,0_no; 1_yes,Baseline covariate: Suspected sphincter of Oddi dysfunction.
+37,X_precut_0d,Baseline covariate,binary,factor,602,0,2,0_no; 1_yes,Baseline covariate: Precut sphincterotomy performed.
+37,X_difcan_0d,Baseline covariate,binary,factor,602,0,2,0_no; 1_yes,Baseline covariate: Difficult cannulation.
+37,X_pneudil_0d,Baseline covariate,binary,factor,602,0,2,0_no; 1_yes,Baseline covariate: Pneudil.
+37,X_amp_0d,Baseline covariate,binary,factor,602,0,2,0_no; 1_yes,Baseline covariate: Amp.
+37,X_paninj_0d,Baseline covariate,binary,factor,602,0,2,0_no; 1_yes,Baseline covariate: Pancreatic-duct contrast injection.
+37,X_acinar_0d,Baseline covariate,binary,factor,602,0,2,0_no; 1_yes,Baseline covariate: Pancreatic acinarization.
+37,X_brush_0d,Baseline covariate,binary,factor,602,0,2,0_no; 1_yes,Baseline covariate: Biliary brush cytology.
+37,X_asa81_0d,Baseline covariate,factor,factor,602,0,3,0_no; 1_yes; NA_NA,Baseline covariate: Asa81. Categories/codes in the cleaned data: 0_no; 1_yes; NA_NA.
+37,X_asa325_0d,Baseline covariate,factor,factor,602,0,3,0_no; 1_yes; NA_NA,Baseline covariate: Asa325. Categories/codes in the cleaned data: 0_no; 1_yes; NA_NA.
+37,X_asa_any_0d,Baseline covariate,factor,factor,602,0,3,0_no; 1_yes; NA_NA,Baseline covariate: ASA physical-status class any. Categories/codes in the cleaned data: 0_no; 1_yes; NA_NA.
+37,X_prophystent_0d,Baseline covariate,binary,factor,602,0,2,0_no; 1_yes,Baseline covariate: Prophystent.
+37,X_therastent_0d,Baseline covariate,binary,factor,602,0,2,0_no; 1_yes,Baseline covariate: Therapeutic pancreatic stent placement.
+37,X_pdstent_0d,Baseline covariate,binary,factor,602,0,2,0_no; 1_yes,Baseline covariate: Pancreatic-duct stent placement.
+37,X_sodsom_0d,Baseline covariate,binary,factor,602,0,2,0_no; 1_yes,Baseline covariate: Sphincter of Oddi manometry.
+37,X_bsphinc_0d,Baseline covariate,binary,factor,602,0,2,0_no; 1_yes,Baseline covariate: Biliary sphincterotomy.
+37,X_bstent_0d,Baseline covariate,binary,factor,602,0,2,0_no; 1_yes,Baseline covariate: Biliary stent placement.
+37,X_chole_0d,Baseline covariate,binary,factor,602,0,2,0_no; 1_yes,Baseline covariate: Cholecystectomy.
+37,X_pbmal_0d,Baseline covariate,binary,factor,602,0,2,0_no; 1_yes,Baseline covariate: Pbmal.
+37,X_trainee_0d,Baseline covariate,binary,factor,602,0,2,0_no; 1_yes,Baseline covariate: Trainee.
+37,X_status_0d,Baseline covariate,binary,factor,602,0,2,0_inpatient; 1_outpatient,Baseline covariate: Status.
+37,X_soc_0d,Baseline covariate,factor,factor,602,0,4,0_no SOD; 1_type 1; 2_type 2; 3_type 3,Baseline covariate: Soc. Categories/codes in the cleaned data: 0_no SOD; 1_type 1; 2_type 2; 3_type 3.

@@ -199,6 +199,7 @@ def build() -> dict[str, Any]:
                 "treatmentLevels": summary.get("treatmentLevels", ""),
                 "csvPath": f"../cleaned_data/trial{trial_id}.csv",
                 "rdsPath": f"../cleaned_data/trial{trial_id}.rds",
+                "dictionaryPath": f"../data_dictionary/trial{trial_id}_dictionary.csv",
             }
         )
 

@@ -1,0 +1,9 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+103,Treatment,Treatment assignment,factor,factor,599,0,3,General ward; Geriatric ward; MMHU,Treatment: randomized treatment assignment with cleaned-data arms: General ward; Geriatric ward; MMHU. Publication-designated control/reference: Geriatric ward.
+103,YP_eq5d_pain_3m,Primary outcome,factor,character,599,0,4,.; 1; 2; 3,"Primary outcome: EQ-5D pain/discomfort domain score, measured at 3 months. Categories/codes in the cleaned data: .; 1; 2; 3."
+103,YS_status_3m,Secondary outcome,binary,character,599,0,2,A; D,"Secondary outcome: Status, measured at 3 months."
+103,YS_mmse_3m,Secondary outcome,factor,character,599,0,31,.; 0; 10; 11; 12; 13; 14; 15; 16; 17; 18; 19; 2; 20; 21; 22; 23; 24; 25; 26; ...,"Secondary outcome: Mini-Mental State Examination (MMSE) score, measured at 3 months. Categories/codes in the cleaned data: .; 0; 10; 11; 12; 13; 14; 15; 16; 17; 18; 19; 2; 20; 21; 22; 23; 24; 25; 26; ...."
+103,X_age_years,Baseline covariate,continuous,integer,599,0,37,65 to 102,Baseline covariate: Age years.
+103,X_gender,Baseline covariate,binary,character,599,0,2,F; M,Baseline covariate: Gender.
+103,X_eq5d_pain_0m,Baseline covariate,factor,character,599,0,4,.; 1; 2; 3,Baseline covariate: EQ-5D pain/discomfort domain score. Categories/codes in the cleaned data: .; 1; 2; 3.
+103,X_npi_depression_0m,Baseline covariate,factor,character,599,0,5,.; 0; 1; 2; 3,Baseline covariate: Npi depression. Categories/codes in the cleaned data: .; 0; 1; 2; 3.

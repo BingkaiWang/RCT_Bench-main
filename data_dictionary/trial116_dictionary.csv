@@ -1,0 +1,26 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+116,Treatment,Treatment assignment,factor,factor,24,0,2,Group 1; Group 2,Treatment: randomized treatment assignment with cleaned-data arms: Group 1; Group 2. Publication-designated control/reference: Not identified from compact source.
+116,X_source_id,Baseline covariate,continuous,integer,24,0,24,1 to 24,Baseline covariate: Source id.
+116,YP_dass_total_t2,Primary outcome,continuous,numeric,24,4,15,0 to 55,"Primary outcome: Depression Anxiety Stress Scales (DASS) total score, measured at assessment T2."
+116,YP_delta_dass_total_t2,Primary outcome,continuous,numeric,24,4,14,-17 to 29,Primary outcome: Change from baseline to assessment T2 in Depression Anxiety Stress Scales (DASS) total score.
+116,YP_factg_total_t2,Primary outcome,continuous,numeric,24,4,18,23 to 80,"Primary outcome: Functional Assessment of Cancer Therapy-General (FACT-G) total score, measured at assessment T2."
+116,YP_delta_factg_total_t2,Primary outcome,continuous,numeric,24,4,13,-17 to 17,Primary outcome: Change from baseline to assessment T2 in Functional Assessment of Cancer Therapy-General (FACT-G) total score.
+116,YS_dass_total_t1,Secondary outcome,continuous,numeric,24,1,17,0 to 54,"Secondary outcome: Depression Anxiety Stress Scales (DASS) total score, measured at assessment T1."
+116,YS_delta_dass_total_t1,Secondary outcome,continuous,numeric,24,1,16,-32 to 39,Secondary outcome: Change from baseline to assessment T1 in Depression Anxiety Stress Scales (DASS) total score.
+116,YS_dass_stress_t2,Secondary outcome,continuous,numeric,24,4,12,0 to 21,"Secondary outcome: Depression Anxiety Stress Scales stress-subscale score, measured at assessment T2."
+116,YS_dass_anxiety_t2,Secondary outcome,continuous,numeric,24,4,12,0 to 19,"Secondary outcome: Depression Anxiety Stress Scales anxiety-subscale score, measured at assessment T2."
+116,YS_dass_depression_t2,Secondary outcome,continuous,numeric,24,4,11,0 to 19,"Secondary outcome: Depression Anxiety Stress Scales depression-subscale score, measured at assessment T2."
+116,X_dass_total_0m,Baseline covariate,continuous,integer,24,0,17,0 to 47,Baseline covariate: Depression Anxiety Stress Scales (DASS) total score.
+116,X_factg_total_0m,Baseline covariate,continuous,numeric,24,0,21,28 to 80,Baseline covariate: Functional Assessment of Cancer Therapy-General (FACT-G) total score.
+116,X_age_years,Baseline covariate,continuous,integer,24,0,18,31 to 75,Baseline covariate: Age years.
+116,X_education_code,Baseline covariate,continuous,integer,24,0,4,2 to 5,Baseline covariate: Education code.
+116,X_religion_code,Baseline covariate,continuous,integer,24,0,3,1 to 3,Baseline covariate: Religion code.
+116,X_residence_place_code,Baseline covariate,binary,integer,24,0,2,1; 2,Baseline covariate: Residence place code.
+116,X_job_code,Baseline covariate,binary,integer,24,0,2,1; 2,Baseline covariate: Job code.
+116,X_marital_status_code,Baseline covariate,continuous,integer,24,0,5,1 to 5,Baseline covariate: Marital status code.
+116,X_income_code,Baseline covariate,continuous,numeric,24,0,13,0 to 36,Baseline covariate: Income code.
+116,X_cancer_diagnosis_code,Baseline covariate,binary,integer,24,0,2,1; 2,Baseline covariate: Cancer diagnosis code.
+116,X_cancer_stage_code,Baseline covariate,continuous,integer,24,0,4,1 to 4,Baseline covariate: Cancer stage code.
+116,X_treatment_type_code,Baseline covariate,binary,integer,24,0,2,1; 2,Baseline covariate: Treatment type code.
+116,X_chemotherapy_time,Baseline covariate,time-to-event/continuous time,integer,24,0,10,1 to 62,Baseline covariate: Chemotherapy time.
+116,X_regimen_number,Baseline covariate,continuous,integer,24,0,3,1 to 3,Baseline covariate: Regimen number.

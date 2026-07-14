@@ -1,0 +1,11 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+97,Treatment,Treatment assignment,factor,factor,110,0,2,Group 1; Group 2,Treatment: randomized treatment assignment with cleaned-data arms: Group 1; Group 2. Publication-designated control/reference: Group 1.
+97,YP_zarit_burden_3m,Primary outcome,continuous,integer,110,0,32,14 to 48,"Primary outcome: Zarit Burden Interview score, measured at 3 months."
+97,YS_zarit_burden_6m,Secondary outcome,continuous,integer,110,0,30,14 to 48,"Secondary outcome: Zarit Burden Interview score, measured at 6 months."
+97,YS_qol_bref_3m,Secondary outcome,continuous,integer,110,0,47,57 to 114,"Secondary outcome: WHOQOL-BREF quality-of-life score, measured at 3 months."
+97,YS_qol_bref_6m,Secondary outcome,continuous,integer,110,0,44,54 to 113,"Secondary outcome: WHOQOL-BREF quality-of-life score, measured at 6 months."
+97,X_zarit_burden_0m,Baseline covariate,continuous,integer,110,0,30,13 to 48,Baseline covariate: Zarit Burden Interview score.
+97,X_qol_bref_0m,Baseline covariate,continuous,integer,110,0,48,59 to 116,Baseline covariate: WHOQOL-BREF quality-of-life score.
+97,X_duration_stroke_months,Baseline covariate,continuous,integer,110,0,6,1 to 6,Baseline covariate: Duration stroke months.
+97,X_caregiver_age,Baseline covariate,continuous,integer,110,0,22,25 to 57,Baseline covariate: Caregiver age.
+97,X_caregiver_sex,Baseline covariate,binary,integer,110,0,2,1; 2,Baseline covariate: Caregiver sex.

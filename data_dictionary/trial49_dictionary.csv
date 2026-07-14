@@ -1,0 +1,47 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+49,Treatment,Treatment assignment,factor,factor,74,0,2,Control; OralStimulation,Treatment: randomized treatment assignment with cleaned-data arms: Control; OralStimulation. Publication-designated control/reference: Control.
+49,YP_prof,Primary outcome,continuous,numeric,74,0,59,2.7 to 78.9,"Primary outcome: Oral-feeding proficiency, defined as percentage of the prescribed volume consumed in the first 5 minutes."
+49,YP_txtr,Primary outcome,continuous,numeric,74,0,31,0.2 to 5.6,"Primary outcome: Oral-feeding rate of transfer, in mL/min."
+49,YP_da,Primary outcome,continuous,numeric,74,0,68,11.4 to 100,Primary outcome: Overall milk transfer during the first oral-feeding attempt.
+49,YS_HR_final,Secondary outcome,continuous,numeric,74,0,32,144 to 191,"Secondary outcome: Heart rate, measured at the final assessment."
+49,YS_OFS_level1,Secondary outcome,binary,factor,74,0,2,0; 1,Secondary outcome: Oral Feeding Skills level1.
+49,YS_OFS_level2,Secondary outcome,binary,factor,74,0,2,0; 1,Secondary outcome: Oral Feeding Skills level2.
+49,YS_OFS_level3,Secondary outcome,binary,factor,74,0,2,0; 1,Secondary outcome: Oral Feeding Skills level3.
+49,YS_OFS_level4,Secondary outcome,binary,factor,74,0,2,0; 1,Secondary outcome: Oral Feeding Skills level4.
+49,YS_volume_1d,Secondary outcome,continuous,numeric,74,0,50,5.2 to 100,"Secondary outcome: Volume, measured at 1 day."
+49,YS_volume_2d,Secondary outcome,continuous,numeric,74,0,36,11.4 to 100,"Secondary outcome: Volume, measured at 2 days."
+49,YS_volume_3d,Secondary outcome,continuous,numeric,74,0,37,11.4 to 100,"Secondary outcome: Volume, measured at 3 days."
+49,YS_volume_4d,Secondary outcome,continuous,numeric,74,0,27,0 to 100,"Secondary outcome: Volume, measured at 4 days."
+49,YS_volume_5d,Secondary outcome,continuous,numeric,74,0,28,0 to 100,"Secondary outcome: Volume, measured at 5 days."
+49,YS_volume_6d,Secondary outcome,continuous,numeric,74,0,23,0 to 100,"Secondary outcome: Volume, measured at 6 days."
+49,YS_volume_7d,Secondary outcome,continuous,numeric,74,0,23,0 to 100,"Secondary outcome: Volume, measured at 7 days."
+49,YS_volume_8d,Secondary outcome,continuous,numeric,74,0,19,0 to 100,"Secondary outcome: Volume, measured at 8 days."
+49,YS_full_oral,Secondary outcome,binary,factor,74,0,2,0; 1,Secondary outcome: Full oral.
+49,YS_t_sondad,Secondary outcome,continuous,numeric,74,0,22,1 to 52,Secondary outcome: Days from first oral feeding to removal of the feeding tube.
+49,YS_length_stay,Secondary outcome,continuous,numeric,74,0,45,14 to 106,"Secondary outcome: Length of neonatal hospital stay, in days."
+49,X_sex_0d,Baseline covariate,binary,factor,74,0,2,1; 2,Baseline covariate: Sex.
+49,X_gestAge_0w,Baseline covariate,continuous,numeric,74,0,27,26 to 32.8,Baseline covariate: Gest age.
+49,X_birthWt_0d,Baseline covariate,continuous,numeric,74,0,60,800 to 2220,Baseline covariate: Birth weight.
+49,X_Apgar5_0d,Baseline covariate,continuous,numeric,74,0,9,1 to 9,Baseline covariate: Apgar5.
+49,X_Apgar10_0d,Baseline covariate,continuous,numeric,74,0,5,4 to 10,Baseline covariate: Apgar10.
+49,X_MechVent_0d,Baseline covariate,binary,factor,74,0,2,0; 1,Baseline covariate: Mechanical vent.
+49,X_NIMechVent_0d,Baseline covariate,binary,factor,74,0,2,0; 1,Baseline covariate: Nimech vent.
+49,X_CPAP_0d,Baseline covariate,binary,factor,74,0,2,0; 1,Baseline covariate: Continuous positive airway pressure (CPAP) use.
+49,X_SGA_0d,Baseline covariate,binary,factor,74,0,2,0; 1,Baseline covariate: Small for gestational age.
+49,X_AGA_0d,Baseline covariate,binary,factor,74,0,2,0; 1,Baseline covariate: Appropriate for gestational age.
+49,X_RDS_0d,Baseline covariate,binary,factor,74,0,2,0; 1,Baseline covariate: Respiratory distress syndrome.
+49,X_CPAP_prog_0d,Baseline covariate,binary,factor,74,0,2,0; 1,Baseline covariate: Continuous positive airway pressure prog.
+49,X_Caffeine_0d,Baseline covariate,binary,factor,74,0,2,0; 1,Baseline covariate: Caffeine.
+49,X_PMA_assess_0w,Baseline covariate,continuous,numeric,74,0,25,32.5 to 37.8,Baseline covariate: Postmenstrual age assess.
+49,X_Wt_assess_0d,Baseline covariate,continuous,numeric,74,0,59,1130 to 2550,Baseline covariate: Weight assess.
+49,X_NGT_0d,Baseline covariate,binary,factor,74,0,2,0; 1,Baseline covariate: Nasogastric tube use.
+49,X_OGT_0d,Baseline covariate,binary,factor,74,0,2,0; 1,Baseline covariate: Orogastric tube use.
+49,X_OGT_Kangaroo_0d,Baseline covariate,binary,factor,74,0,2,0; 1,Baseline covariate: Orogastric tube kangaroo.
+49,X_HR_0d,Baseline covariate,continuous,numeric,74,0,31,142 to 186,Baseline covariate: Heart rate.
+49,X_O2sat_0d,Baseline covariate,continuous,numeric,74,0,9,92 to 100,Baseline covariate: Peripheral oxygen saturation.
+49,X_O2sat_final,Baseline covariate,continuous,numeric,74,0,8,93 to 100,Baseline covariate: Peripheral oxygen saturation.
+49,X_start_oral_0d,Baseline covariate,binary,factor,74,0,2,0; 1,Baseline covariate: Start oral.
+49,X_PMA_fullFeeds_0w,Baseline covariate,continuous,numeric,74,0,31,33.4 to 41.5,Baseline covariate: Postmenstrual age full feeds.
+49,X_PMA_discharge_0w,Baseline covariate,continuous,numeric,74,0,34,34 to 41.7,Baseline covariate: Postmenstrual age discharge.
+49,X_fullBF_discharge_0d,Baseline covariate,binary,factor,74,0,2,0; 1,Baseline covariate: Full breastfeeding discharge.
+49,X_Wt_discharge_0d,Baseline covariate,continuous,numeric,74,0,62,1720 to 4270,Baseline covariate: Weight discharge.

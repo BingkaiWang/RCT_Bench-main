@@ -1,0 +1,9 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+112,Treatment,Treatment assignment,factor,factor,210,0,2,Non-pulsatile pacifier; NTrainer stimulation,Treatment: randomized treatment assignment with cleaned-data arms: Non-pulsatile pacifier; NTrainer stimulation. Publication-designated control/reference: Non-pulsatile pacifier.
+112,YP_time_to_full_oral_feeds_days,Primary outcome,time-to-event/continuous time,integer,210,0,59,0 to 126,Primary outcome: Time to full oral feeds days. Publication-defined endpoint context: time to full oral feeds days.
+112,YS_reached_full_oral_feeds,Secondary outcome,binary,character,210,0,2,No; Yes,Secondary outcome: Reached full oral feeds.
+112,YS_length_of_stay_days,Secondary outcome,time-to-event/continuous time,integer,210,0,76,22 to 175,Secondary outcome: Length of stay days.
+112,X_gestational_age_weeks,Baseline covariate,continuous,numeric,210,0,35,26 to 30.86,Baseline covariate: Gestational age weeks.
+112,X_birth_weight_g,Baseline covariate,continuous,integer,210,0,119,483 to 2000,Baseline covariate: Birth weight g.
+112,X_gender,Baseline covariate,binary,character,210,0,2,Female; Male,Baseline covariate: Gender.
+112,X_subgroup,Baseline covariate,binary,character,210,0,2,26 - 28 6/7 weeks; 29 - 30 6/7 weeks,Baseline covariate: Subgroup.

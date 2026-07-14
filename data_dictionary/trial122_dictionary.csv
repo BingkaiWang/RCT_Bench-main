@@ -1,0 +1,36 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+122,Treatment,Treatment assignment,factor,factor,124,0,4,group_1_medication_1_communication_1; group_2_medication_1_communication_2; group_3_medication_2_communication_1; group_4_medication_2_communication_2,Treatment: randomized treatment assignment with cleaned-data arms: group_1_medication_1_communication_1; group_2_medication_1_communication_2; group_3_medication_2_communication_1; group_4_medication_2_communication_2. Publication-designated control/reference: group_1_medication_1_communication_1.
+122,YP_GASE_sickness_score_6h,Primary outcome,continuous,integer,124,0,14,0 to 14,"Primary outcome: General Assessment of Side Effects (GASE) bodily-sickness symptom score, measured at 6 hours."
+122,YP_delta_GASE_6h,Primary outcome,continuous,integer,124,0,28,-11 to 31,Primary outcome: Change from baseline to 6 hours in gase. Publication-defined endpoint context: Bodily sickness symptoms and affective symptoms through 6 hours.
+122,YP_STADI_state_global_6h,Primary outcome,continuous,integer,124,0,18,20 to 43,"Primary outcome: State-Trait Anxiety-Depression Inventory (STADI) state global score, measured at 6 hours."
+122,YP_delta_STADI_global_6h,Primary outcome,continuous,integer,124,0,30,-16 to 23,Primary outcome: Change from baseline to 6 hours in stadi global. Publication-defined endpoint context: Bodily sickness symptoms and affective symptoms through 6 hours.
+122,YS_STADI_state_depression_6h,Secondary outcome,continuous,integer,124,0,16,10 to 30,"Secondary outcome: Stadi state depression, measured at 6 hours."
+122,YS_STADI_state_anxiety_6h,Secondary outcome,continuous,integer,124,0,8,10 to 18,"Secondary outcome: Stadi state anxiety, measured at 6 hours."
+122,YS_STAI_state_6h,Secondary outcome,continuous,integer,124,0,25,20 to 48,"Secondary outcome: State-Trait Anxiety Inventory state score, measured at 6 hours."
+122,YS_KSS_sleepiness_6h,Secondary outcome,continuous,integer,124,0,8,1 to 9,"Secondary outcome: Karolinska Sleepiness Scale (KSS) score, measured at 6 hours."
+122,YS_MDBF_positive_mood_6h,Secondary outcome,continuous,integer,124,0,11,7 to 20,"Secondary outcome: Multidimensional Mood Questionnaire (MDBF) positive-mood score, measured at 6 hours."
+122,YS_TNFa_peak_increase_3h,Secondary outcome,continuous,numeric,124,0,122,12.22 to 285.31,"Secondary outcome: Tnfa peak increase, measured at 3 hours."
+122,YS_IL6_peak_increase_3h,Secondary outcome,continuous,numeric,124,11,113,61.16 to 5160.79,"Secondary outcome: Il6 peak increase, measured at 3 hours."
+122,YS_cortisol_peak_increase_3h,Secondary outcome,continuous,numeric,124,1,123,-426.45 to 1229.76,"Secondary outcome: Cortisol peak increase, measured at 3 hours."
+122,X_sex_assigned_at_birth,Baseline covariate,binary,integer,124,0,2,1; 2,Baseline covariate: Sex assigned at birth.
+122,X_age_years,Baseline covariate,continuous,integer,124,0,20,19 to 45,Baseline covariate: Age years.
+122,X_height_cm,Baseline covariate,continuous,integer,124,0,36,158 to 198,Baseline covariate: Height cm.
+122,X_bodyweight_kg,Baseline covariate,continuous,numeric,124,0,47,49 to 120,Baseline covariate: Bodyweight kg.
+122,X_BMI,Baseline covariate,continuous,numeric,124,0,110,17.9282 to 33.241,"Baseline covariate: Body mass index (BMI), in kg/m²."
+122,X_years_of_education,Baseline covariate,continuous,numeric,124,0,23,4 to 24,Baseline covariate: Years of education.
+122,X_education_atleast_12_years,Baseline covariate,binary,integer,124,0,2,0; 1,Baseline covariate: Education atleast 12 years.
+122,X_ibuprofen_preexperience,Baseline covariate,continuous,numeric,124,2,6,1 to 6,Baseline covariate: Ibuprofen preexperience.
+122,X_ibuprofen_use_last_12m,Baseline covariate,binary,integer,124,0,2,0; 1,Baseline covariate: Ibuprofen use last.
+122,X_STADI_trait_depression,Baseline covariate,continuous,integer,124,0,17,10 to 27,Baseline covariate: Stadi trait depression.
+122,X_STADI_trait_anxiety,Baseline covariate,continuous,integer,124,0,18,10 to 28,Baseline covariate: Stadi trait anxiety.
+122,X_STADI_trait_global,Baseline covariate,continuous,integer,124,0,29,20 to 55,Baseline covariate: State-Trait Anxiety-Depression Inventory (STADI) trait global score.
+122,X_GASE_sickness_score_0h,Baseline covariate,continuous,integer,124,0,10,0 to 11,Baseline covariate: General Assessment of Side Effects (GASE) bodily-sickness symptom score.
+122,X_STADI_state_global_0h,Baseline covariate,continuous,integer,124,0,22,20 to 47,Baseline covariate: State-Trait Anxiety-Depression Inventory (STADI) state global score.
+122,X_STAI_state_0h,Baseline covariate,continuous,integer,124,0,27,20 to 55,Baseline covariate: State-Trait Anxiety Inventory state score.
+122,X_KSS_sleepiness_0h,Baseline covariate,continuous,integer,124,0,7,1 to 7,Baseline covariate: Karolinska Sleepiness Scale (KSS) score.
+122,X_MDBF_positive_mood_0h,Baseline covariate,continuous,integer,124,0,9,12 to 20,Baseline covariate: Multidimensional Mood Questionnaire (MDBF) positive-mood score.
+122,X_heart_rate_0h,Baseline covariate,continuous,integer,124,0,43,43 to 102,Baseline covariate: Heart rate.
+122,X_temperature_0h,Baseline covariate,continuous,numeric,124,0,22,35.3 to 37.4,Baseline covariate: Temperature.
+122,X_TNFa_0h,Baseline covariate,continuous,numeric,124,0,62,0.4 to 2.12,Baseline covariate: Tumour necrosis factor alpha (TNF-α) concentration.
+122,X_IL6_0h,Baseline covariate,continuous,numeric,124,11,97,0.1 to 16.1,Baseline covariate: Interleukin-6 (IL-6) concentration.
+122,X_cortisol_0h,Baseline covariate,continuous,numeric,124,1,123,96.61 to 1151.75,Baseline covariate: Cortisol.

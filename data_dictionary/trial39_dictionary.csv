@@ -1,0 +1,25 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+39,Treatment,Treatment assignment,factor,factor,470,0,2,HELP; Usual Care,Treatment: randomized treatment assignment with cleaned-data arms: HELP; Usual Care. Publication-designated control/reference: Usual Care.
+39,YP_dayslink,Primary outcome,continuous,integer,470,23,182,2 to 456,Primary outcome: Dayslink. Publication-defined endpoint context: Time to first self-reported linkage (≥1 visit) to a primary care MD/NP/PA within 12 months.
+39,YP_event_flag,Primary outcome,binary,factor,470,23,2,no; yes,Primary outcome: Event flag. Publication-defined endpoint context: Time to first self-reported linkage (≥1 visit) to a primary care MD/NP/PA within 12 months.
+39,YS_anysub,Secondary outcome,binary,factor,470,216,2,no; yes,Secondary outcome: Anysub.
+39,YS_daysanysub,Secondary outcome,continuous,integer,470,218,116,0 to 268,Secondary outcome: Daysanysub.
+39,X_age_0w,Baseline covariate,continuous,integer,470,0,43,18 to 60,Baseline covariate: Age.
+39,X_cesd_0w,Baseline covariate,continuous,integer,470,0,58,1 to 60,Baseline covariate: Center for Epidemiologic Studies Depression Scale (CES-D) score.
+39,X_hosp_lifetime_0w,Baseline covariate,time-to-event/continuous time,integer,470,0,22,0 to 100,Baseline covariate: Hosp lifetime.
+39,X_drugrisk_0w,Baseline covariate,continuous,integer,470,2,21,0 to 21,Baseline covariate: Drugrisk.
+39,X_detox_entries_0w,Baseline covariate,continuous,integer,470,248,12,1 to 21,Baseline covariate: Detox entries.
+39,X_female_0w,Baseline covariate,binary,factor,470,0,2,0; 1,Baseline covariate: Female.
+39,X_sex_0w,Baseline covariate,binary,factor,470,0,2,female; male,Baseline covariate: Sex.
+39,X_suicide_ideation_0w,Baseline covariate,binary,factor,470,0,2,no; yes,Baseline covariate: Suicide ideation.
+39,X_homeless_0w,Baseline covariate,binary,factor,470,0,2,homeless; housed,Baseline covariate: Homeless.
+39,X_avg_drinks_0w,Baseline covariate,continuous,integer,470,0,65,0 to 142,Baseline covariate: Mean drinks.
+39,X_max_drinks_0w,Baseline covariate,continuous,integer,470,0,87,0 to 184,Baseline covariate: Max drinks.
+39,X_indtot_0w,Baseline covariate,continuous,integer,470,14,38,4 to 45,Baseline covariate: Indtot.
+39,X_mcs_0w,Baseline covariate,continuous,numeric,470,2,468,6.76292 to 62.1755,Baseline covariate: Mental-component summary.
+39,X_pcs_0w,Baseline covariate,continuous,numeric,470,2,468,14.0743 to 74.8063,Baseline covariate: SF-36 physical-component summary score.
+39,X_pss_fr_0w,Baseline covariate,continuous,integer,470,0,15,0 to 14,Baseline covariate: Pss fr.
+39,X_racegrp_0w,Baseline covariate,factor,factor,470,0,4,black; hispanic; other; white,Baseline covariate: Racegrp. Categories/codes in the cleaned data: black; hispanic; other; white.
+39,X_satreat_0w,Baseline covariate,binary,factor,470,0,2,no; yes,Baseline covariate: Satreat.
+39,X_sexrisk_0w,Baseline covariate,continuous,integer,470,1,15,0 to 14,Baseline covariate: Sexrisk.
+39,X_substance_0w,Baseline covariate,factor,factor,470,0,4,alcohol; cocaine; heroin; missing,Baseline covariate: Substance. Categories/codes in the cleaned data: alcohol; cocaine; heroin; missing.

@@ -1,0 +1,14 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+66,Treatment,Treatment assignment,factor,factor,17,0,2,Ashtanga yoga therapy; Waitlist control,Treatment: randomized treatment assignment with cleaned-data arms: Ashtanga yoga therapy; Waitlist control. Publication-designated control/reference: Waitlist control.
+66,X_firm_eo_mtv_0w,Baseline covariate,continuous,numeric,17,0,16,7.947 to 23.68,Baseline covariate: Firm eyes open mtv.
+66,YS_firm_eo_mtv_post,Secondary outcome,continuous,numeric,17,0,17,7.37833 to 24.4747,"Secondary outcome: Firm eyes open mtv, measured immediately after the intervention."
+66,X_firm_ec_mtv_0w,Baseline covariate,continuous,numeric,17,0,16,7.305 to 23.55,Baseline covariate: Firm eyes closed mtv.
+66,YS_firm_ec_mtv_post,Secondary outcome,continuous,numeric,17,0,17,9.27067 to 24.0103,"Secondary outcome: Firm eyes closed mtv, measured immediately after the intervention."
+66,X_foam_eo_mtv_0w,Baseline covariate,continuous,numeric,17,0,17,11.8963 to 34.37,Baseline covariate: Foam eyes open mtv.
+66,YP_foam_eo_mtv_post,Primary outcome,continuous,numeric,17,0,17,15.82 to 44.3427,"Primary outcome: Foam eyes open mtv, measured immediately after the intervention. Publication-defined endpoint context: Postural stability mean total velocity on foam-surface balance tasks."
+66,X_foam_ec_mtv_0w,Baseline covariate,continuous,numeric,17,0,17,17.05 to 37.22,Baseline covariate: Foam eyes closed mtv.
+66,YP_foam_ec_mtv_post,Primary outcome,continuous,numeric,17,0,17,22.974 to 53.3057,"Primary outcome: Foam eyes closed mtv, measured immediately after the intervention. Publication-defined endpoint context: Postural stability mean total velocity on foam-surface balance tasks."
+66,YP_delta_foam_eo_mtv_post,Primary outcome,continuous,numeric,17,0,17,-7.35 to 15.1937,Primary outcome: Change from baseline to immediately after the intervention in foam eyes open mtv. Publication-defined endpoint context: Postural stability mean total velocity on foam-surface balance tasks.
+66,YS_delta_firm_eo_mtv_post,Secondary outcome,continuous,numeric,17,0,17,-5.02917 to 5.60767,Secondary outcome: Change from baseline to immediately after the intervention in firm eyes open mtv.
+66,YS_delta_firm_ec_mtv_post,Secondary outcome,continuous,numeric,17,0,17,-4.33883 to 4.95567,Secondary outcome: Change from baseline to immediately after the intervention in firm eyes closed mtv.
+66,YS_delta_foam_ec_mtv_post,Secondary outcome,continuous,numeric,17,0,17,-6.33433 to 26.487,Secondary outcome: Change from baseline to immediately after the intervention in foam eyes closed mtv.

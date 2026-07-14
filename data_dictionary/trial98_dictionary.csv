@@ -1,0 +1,7 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+98,Treatment,Treatment assignment,factor,factor,499,0,2,Placebo; Primaquine,Treatment: randomized treatment assignment with cleaned-data arms: Placebo; Primaquine. Publication-designated control/reference: Placebo.
+98,YP_pvivax_qpcr_infection_8m,Primary outcome,binary,integer,499,0,2,0; 1,"Primary outcome: Plasmodium vivax infection detected by quantitative PCR, measured at 8 months."
+98,YS_time_to_pvivax_qpcr_days,Secondary outcome,time-to-event/continuous time,numeric,499,0,57,12 to 225,Secondary outcome: Time to pvivax qpcr days.
+98,X_age_years,Baseline covariate,continuous,numeric,499,0,436,4.78082 to 10.4466,Baseline covariate: Age years.
+98,X_pvivax_enroll,Baseline covariate,binary,integer,499,0,2,0; 1,Baseline covariate: Pvivax enroll.
+98,X_village_group,Baseline covariate,continuous,numeric,499,0,5,1 to 5,Baseline covariate: Village group.

@@ -1,0 +1,10 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+62,Treatment,Treatment assignment,factor,factor,141,0,2,Cyclosporine; Tacrolimus,Treatment: randomized treatment assignment with cleaned-data arms: Cyclosporine; Tacrolimus. Publication-designated control/reference: Cyclosporine.
+62,YP_ckdepi_24m,Primary outcome,continuous,numeric,141,2,139,12.5498 to 109.401,"Primary outcome: Ckdepi, measured at 24 months. Publication-defined endpoint context: Estimated glomerular filtration rate by CKD-EPI through 24 months."
+62,YS_ckdepi_12m,Secondary outcome,continuous,numeric,141,1,140,22.8022 to 107.853,"Secondary outcome: Ckdepi, measured at 12 months."
+62,YS_ckdepi_3m,Secondary outcome,continuous,numeric,141,0,141,20.2132 to 101.688,"Secondary outcome: Ckdepi, measured at 3 months."
+62,YS_mdrd4_24m,Secondary outcome,continuous,numeric,141,2,139,12.5496 to 111.282,"Secondary outcome: Mdrd4, measured at 24 months."
+62,X_creatinine_0m,Baseline covariate,continuous,numeric,141,0,95,0.81 to 3.68,Baseline covariate: Serum creatinine concentration.
+62,X_ckdepi_0m,Baseline covariate,continuous,numeric,141,0,141,20.0304 to 102.97,Baseline covariate: Ckdepi.
+62,X_mdrd4_0m,Baseline covariate,continuous,numeric,141,0,141,21.4607 to 101.825,Baseline covariate: Mdrd4.
+62,X_csa_trough_0m,Baseline covariate,continuous,numeric,141,0,75,15 to 274,Baseline covariate: Csa trough.

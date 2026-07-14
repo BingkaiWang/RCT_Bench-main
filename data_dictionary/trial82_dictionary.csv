@@ -1,0 +1,27 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+82,Treatment,Treatment assignment,factor,factor,250,0,2,Arm_1; Arm_2,Treatment: randomized treatment assignment with cleaned-data arms: Arm_1; Arm_2. Publication-designated control/reference: Placebo/control arm.
+82,YP_postoperative_atrial_fibrillation,Primary outcome,binary,numeric,250,8,2,0; 1,Primary outcome: Postoperative atrial fibrillation. Publication-defined endpoint context: Occurrence of postoperative atrial fibrillation.
+82,YS_af_episode_count,Secondary outcome,continuous,numeric,250,0,10,0 to 9,Secondary outcome: Af episode count.
+82,YS_ventilation_hours,Secondary outcome,continuous,numeric,250,0,166,9 to 17120,Secondary outcome: Ventilation hours.
+82,YS_cicu_stay_days,Secondary outcome,continuous,numeric,250,0,183,9 to 67740,Secondary outcome: Cicu stay days.
+82,YS_hdu_stay_days,Secondary outcome,continuous,numeric,250,0,104,9 to 14760,Secondary outcome: Hdu stay days.
+82,YS_hospital_stay_days,Secondary outcome,continuous,numeric,250,17,24,5 to 86,Secondary outcome: Hospital stay days.
+82,X_age_years,Baseline covariate,continuous,numeric,250,0,39,39 to 85,Baseline covariate: Age years.
+82,X_gender,Baseline covariate,binary,numeric,250,0,2,0; 1,Baseline covariate: Gender.
+82,X_ethnicity,Baseline covariate,continuous,numeric,250,0,4,0 to 3,Baseline covariate: Ethnicity.
+82,X_euroscore,Baseline covariate,continuous,numeric,250,0,4,1 to 9,Baseline covariate: Euroscore.
+82,X_bmi,Baseline covariate,continuous,numeric,250,0,232,17.6 to 42.47,"Baseline covariate: Body mass index (BMI), in kg/m²."
+82,X_nyha,Baseline covariate,continuous,numeric,250,0,4,1 to 9,Baseline covariate: New York Heart Association (NYHA) functional class.
+82,X_left_atrial_size,Baseline covariate,continuous,numeric,250,6,79,9 to 46,Baseline covariate: Left atrial size.
+82,X_right_atrial_size,Baseline covariate,continuous,numeric,250,6,68,7.7 to 31,Baseline covariate: Right atrial size.
+82,X_ejection_fraction,Baseline covariate,continuous,numeric,250,4,45,9 to 67,Baseline covariate: Left-ventricular ejection fraction.
+82,X_diabetes,Baseline covariate,continuous,numeric,250,0,3,0 to 9,Baseline covariate: Diabetes.
+82,X_hypertension,Baseline covariate,binary,numeric,250,0,2,0; 1,Baseline covariate: Hypertension.
+82,X_asthma,Baseline covariate,binary,numeric,250,0,2,0; 1,Baseline covariate: Asthma.
+82,X_copd,Baseline covariate,binary,numeric,250,0,2,0; 1,Baseline covariate: Chronic obstructive pulmonary disease.
+82,X_ckd,Baseline covariate,binary,numeric,250,0,2,0; 1,Baseline covariate: Chronic kidney disease.
+82,X_hypercholesterolemia,Baseline covariate,binary,numeric,250,0,2,0; 1,Baseline covariate: Hypercholesterolemia.
+82,X_smoker,Baseline covariate,continuous,numeric,250,0,4,0 to 9,Baseline covariate: Smoker.
+82,X_alcohol,Baseline covariate,continuous,numeric,250,0,5,0 to 9,Baseline covariate: Alcohol.
+82,X_cross_clamp_time,Baseline covariate,time-to-event/continuous time,numeric,250,11,94,17 to 244,Baseline covariate: Cross clamp time.
+82,X_bypass_time,Baseline covariate,time-to-event/continuous time,numeric,250,9,98,42 to 304,Baseline covariate: Bypass time.

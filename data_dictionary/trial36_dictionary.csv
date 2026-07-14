@@ -1,0 +1,23 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+36,Treatment,Treatment assignment,factor,factor,114,0,3,ACI; MI; PI,Treatment: randomized treatment assignment with cleaned-data arms: ACI; MI; PI. Publication-designated control/reference: ACI.
+36,YP_delta_RAVLT_delayedrecall_12m,Primary outcome,continuous,numeric,114,0,12,-7 to 6,Primary outcome: Change from baseline to 12 months in Rey Auditory Verbal Learning Test delayed-recall score.
+36,YP_delta_MemoryNew_12m,Primary outcome,continuous,numeric,114,0,114,-1.08648 to 2.23253,"Primary outcome: Change from baseline to 12 months in memory new. Publication-defined endpoint context: One-year change in cognitive function: Rey Auditory Verbal Learning Test (RAVLT) z-standardized composite scores for memory, attention-executive, and visuospatial domains."
+36,YP_delta_AttentionExe_12m,Primary outcome,continuous,numeric,114,1,113,-1.92541 to 0.702614,"Primary outcome: Change from baseline to 12 months in attention exe. Publication-defined endpoint context: One-year change in cognitive function: Rey Auditory Verbal Learning Test (RAVLT) z-standardized composite scores for memory, attention-executive, and visuospatial domains."
+36,YP_delta_VisuoSpNew_12m,Primary outcome,continuous,numeric,114,0,113,-1.25378 to 1.79524,"Primary outcome: Change from baseline to 12 months in visuo sp new. Publication-defined endpoint context: One-year change in cognitive function: Rey Auditory Verbal Learning Test (RAVLT) z-standardized composite scores for memory, attention-executive, and visuospatial domains."
+36,YS_WMHvol_cc_12m,Secondary outcome,continuous,numeric,114,2,112,0.052 to 22.327,"Secondary outcome: White-matter hyperintensity volume, in cm³, measured at 12 months."
+36,YS_WMperc_12m,Secondary outcome,continuous,numeric,114,2,112,0.000094591 to 0.034781,"Secondary outcome: Wmperc, measured at 12 months."
+36,YS_nLatVentL_cc_12m,Secondary outcome,continuous,numeric,114,2,112,3.41732 to 26.529,"Secondary outcome: N lat vent l cc, measured at 12 months."
+36,YS_nHippoL_cc_12m,Secondary outcome,continuous,numeric,114,1,113,2.40449 to 4.82668,"Secondary outcome: N hippo l cc, measured at 12 months."
+36,YS_nHippoR_cc_12m,Secondary outcome,continuous,numeric,114,1,113,2.01064 to 5.01808,"Secondary outcome: N hippo r cc, measured at 12 months."
+36,YS_nLatVentR_cc_12m,Secondary outcome,continuous,numeric,114,2,112,2.64493 to 25.9999,"Secondary outcome: N lat vent r cc, measured at 12 months."
+36,YS_eigen_cluster_12m,Secondary outcome,continuous,numeric,114,1,98,-0.0112 to 0.0495,"Secondary outcome: Eigen cluster, measured at 12 months."
+36,X_GDS_0m,Baseline covariate,continuous,numeric,114,0,11,0 to 10,Baseline covariate: Geriatric Depression Scale score.
+36,X_EMQ_0m,Baseline covariate,continuous,numeric,114,0,59,35 to 160,Baseline covariate: Everyday Memory Questionnaire score.
+36,X_STAI_0m,Baseline covariate,continuous,numeric,114,0,35,22 to 66,Baseline covariate: State-Trait Anxiety Inventory (STAI) score.
+36,X_MMSE_0m,Baseline covariate,continuous,numeric,114,0,5,26 to 30,Baseline covariate: Mini-Mental State Examination (MMSE) score.
+36,X_RAVLT_delayedrecall_0m,Baseline covariate,continuous,numeric,114,0,13,3 to 15,Baseline covariate: Rey Auditory Verbal Learning Test delayed-recall score.
+36,X_IPAQ_total_0m,Baseline covariate,continuous,numeric,114,0,103,0 to 21537,Baseline covariate: Ipaq total.
+36,X_MeDi_score_0m,Baseline covariate,continuous,numeric,114,0,25,87 to 114,Baseline covariate: Me difficult intubation score.
+36,X_MemoryNew_0m,Baseline covariate,continuous,numeric,114,0,113,-2.06514 to 1.66398,Baseline covariate: Memory new.
+36,X_AttentionExe_0m,Baseline covariate,continuous,numeric,114,0,114,-1.77557 to 1.48249,Baseline covariate: Attention exe.
+36,X_VisuoSpNew_0m,Baseline covariate,continuous,numeric,114,0,108,-2.33766 to 1.23154,Baseline covariate: Visuo sp new.

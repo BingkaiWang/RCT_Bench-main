@@ -1,0 +1,77 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+47,Treatment,Treatment assignment,factor,factor,252,0,2,HFNC; NIV,Treatment: randomized treatment assignment with cleaned-data arms: HFNC; NIV. Publication-designated control/reference: NIV.
+47,YP_intubation,Primary outcome,binary,factor,252,0,2,No; Yes,Primary outcome: Intubation. Publication-defined endpoint context: Requirement for invasive mechanical ventilation.
+47,YS_heart_rate_96h,Secondary outcome,continuous,numeric,252,179,41,93 to 173,"Secondary outcome: Heart rate, measured at 96 hours."
+47,YS_resp_rate_96h,Secondary outcome,continuous,numeric,252,179,28,20 to 71,"Secondary outcome: Respiratory rate, measured at 96 hours."
+47,YS_SpO2_96h,Secondary outcome,continuous,numeric,252,179,9,91 to 100,"Secondary outcome: Sp oxygen, measured at 96 hours."
+47,YS_WD_score_96h,Secondary outcome,continuous,numeric,252,179,7,1 to 9,"Secondary outcome: Wang respiratory distress score, measured at 96 hours."
+47,YS_FiO2_96h,Secondary outcome,continuous,numeric,252,179,11,21 to 40,"Secondary outcome: Fi oxygen, measured at 96 hours."
+47,YS_IPAP_96h,Secondary outcome,continuous,numeric,252,228,7,10 to 20,"Secondary outcome: Inspiratory positive airway pressure (IPAP), measured at 96 hours."
+47,YS_EPAP_96h,Secondary outcome,continuous,numeric,252,228,3,6 to 8,"Secondary outcome: Expiratory positive airway pressure, measured at 96 hours."
+47,YS_death,Secondary outcome,binary,factor,252,4,1,No,Secondary outcome: Death.
+47,YS_sedation_days,Secondary outcome,continuous,numeric,252,77,5,1 to 5,Secondary outcome: Sedation days.
+47,YS_enteral_tube_days,Secondary outcome,factor,factor,252,49,6,1; 2; 3; 4; 5; 8,Secondary outcome: Enteral tube days. Categories/codes in the cleaned data: 1; 2; 3; 4; 5; 8.
+47,YS_nasal_pressure_injury,Secondary outcome,binary,factor,252,0,2,n; yes,Secondary outcome: Nasal pressure injury.
+47,YS_PICU_LOS_days,Secondary outcome,factor,factor,252,15,5,0-5; 11-15; 16-20; 21-33; 6-10,Secondary outcome: Paediatric intensive care unit length of stay days. Categories/codes in the cleaned data: 0-5; 11-15; 16-20; 21-33; 6-10.
+47,YS_hospital_LOS_days,Secondary outcome,factor,factor,252,4,4,0-10; 11-20; 21-30; 31-40,Secondary outcome: Hospital length of stay days. Categories/codes in the cleaned data: 0-10; 11-20; 21-30; 31-40.
+47,YS_mech_vent_days,Secondary outcome,continuous,numeric,252,189,10,1 to 10,Secondary outcome: Mechanical vent days.
+47,YS_antibiotic,Secondary outcome,binary,factor,252,4,2,n; y,Secondary outcome: Antibiotic.
+47,pre_YS_heart_rate_2h,Other,continuous,numeric,252,6,74,78 to 198,"Secondary outcome: Intermediate follow-up heart rate, measured at 2 hours."
+47,pre_YS_resp_rate_2h,Other,continuous,numeric,252,6,51,18 to 82,"Secondary outcome: Intermediate follow-up respiratory rate, measured at 2 hours."
+47,pre_YS_SpO2_2h,Other,continuous,numeric,252,6,11,55 to 100,"Secondary outcome: Intermediate follow-up sp oxygen, measured at 2 hours."
+47,pre_YS_WD_score_2h,Other,continuous,numeric,252,10,8,1 to 8,"Secondary outcome: Intermediate follow-up Wang respiratory distress score, measured at 2 hours."
+47,pre_YS_FiO2_2h,Other,continuous,numeric,252,6,36,21 to 94,"Secondary outcome: Intermediate follow-up fi oxygen, measured at 2 hours."
+47,pre_YS_IPAP_2h,Other,continuous,numeric,252,132,12,6 to 20,"Secondary outcome: Intermediate follow-up inspiratory positive airway pressure (IPAP), measured at 2 hours."
+47,pre_YS_EPAP_2h,Other,continuous,numeric,252,132,5,5 to 14,"Secondary outcome: Intermediate follow-up expiratory positive airway pressure, measured at 2 hours."
+47,pre_YS_heart_rate_6h,Other,continuous,numeric,252,12,75,77 to 192,"Secondary outcome: Intermediate follow-up heart rate, measured at 6 hours."
+47,pre_YS_resp_rate_6h,Other,continuous,numeric,252,13,47,7 to 82,"Secondary outcome: Intermediate follow-up respiratory rate, measured at 6 hours."
+47,pre_YS_SpO2_6h,Other,continuous,numeric,252,12,10,90 to 100,"Secondary outcome: Intermediate follow-up sp oxygen, measured at 6 hours."
+47,pre_YS_WD_score_6h,Other,continuous,numeric,252,19,9,0 to 8,"Secondary outcome: Intermediate follow-up Wang respiratory distress score, measured at 6 hours."
+47,pre_YS_FiO2_6h,Other,continuous,numeric,252,12,31,21 to 70,"Secondary outcome: Intermediate follow-up fi oxygen, measured at 6 hours."
+47,pre_YS_IPAP_6h,Other,continuous,numeric,252,132,10,8 to 18,"Secondary outcome: Intermediate follow-up inspiratory positive airway pressure (IPAP), measured at 6 hours."
+47,pre_YS_EPAP_6h,Other,continuous,numeric,252,132,5,5 to 9,"Secondary outcome: Intermediate follow-up expiratory positive airway pressure, measured at 6 hours."
+47,pre_YS_heart_rate_12h,Other,continuous,numeric,252,31,77,79 to 190,"Secondary outcome: Intermediate follow-up heart rate, measured at 12 hours."
+47,pre_YS_resp_rate_12h,Other,continuous,numeric,252,32,46,21 to 72,"Secondary outcome: Intermediate follow-up respiratory rate, measured at 12 hours."
+47,pre_YS_SpO2_12h,Other,continuous,numeric,252,32,14,58 to 100,"Secondary outcome: Intermediate follow-up sp oxygen, measured at 12 hours."
+47,pre_YS_WD_score_12h,Other,continuous,numeric,252,37,9,1 to 10,"Secondary outcome: Intermediate follow-up Wang respiratory distress score, measured at 12 hours."
+47,pre_YS_FiO2_12h,Other,continuous,numeric,252,28,25,21 to 100,"Secondary outcome: Intermediate follow-up fi oxygen, measured at 12 hours."
+47,pre_YS_IPAP_12h,Other,continuous,numeric,252,139,9,10 to 20,"Secondary outcome: Intermediate follow-up inspiratory positive airway pressure (IPAP), measured at 12 hours."
+47,pre_YS_EPAP_12h,Other,continuous,numeric,252,139,5,5 to 9,"Secondary outcome: Intermediate follow-up expiratory positive airway pressure, measured at 12 hours."
+47,pre_YS_heart_rate_24h,Other,continuous,numeric,252,57,76,93 to 196,"Secondary outcome: Intermediate follow-up heart rate, measured at 24 hours."
+47,pre_YS_resp_rate_24h,Other,continuous,numeric,252,57,37,25 to 75,"Secondary outcome: Intermediate follow-up respiratory rate, measured at 24 hours."
+47,pre_YS_SpO2_24h,Other,continuous,numeric,252,57,9,91 to 100,"Secondary outcome: Intermediate follow-up sp oxygen, measured at 24 hours."
+47,pre_YS_WD_score_24h,Other,continuous,numeric,252,57,8,1 to 8,"Secondary outcome: Intermediate follow-up Wang respiratory distress score, measured at 24 hours."
+47,pre_YS_FiO2_24h,Other,continuous,numeric,252,56,18,21 to 50,"Secondary outcome: Intermediate follow-up fi oxygen, measured at 24 hours."
+47,pre_YS_IPAP_24h,Other,continuous,numeric,252,161,9,8 to 20,"Secondary outcome: Intermediate follow-up inspiratory positive airway pressure (IPAP), measured at 24 hours."
+47,pre_YS_EPAP_24h,Other,continuous,numeric,252,161,4,5 to 8,"Secondary outcome: Intermediate follow-up expiratory positive airway pressure, measured at 24 hours."
+47,pre_YS_heart_rate_48h,Other,continuous,numeric,252,98,62,75 to 187,"Secondary outcome: Intermediate follow-up heart rate, measured at 48 hours."
+47,pre_YS_resp_rate_48h,Other,continuous,numeric,252,98,35,24 to 75,"Secondary outcome: Intermediate follow-up respiratory rate, measured at 48 hours."
+47,pre_YS_SpO2_48h,Other,continuous,numeric,252,98,10,90 to 122,"Secondary outcome: Intermediate follow-up sp oxygen, measured at 48 hours."
+47,pre_YS_WD_score_48h,Other,continuous,numeric,252,102,7,1 to 7,"Secondary outcome: Intermediate follow-up Wang respiratory distress score, measured at 48 hours."
+47,pre_YS_FiO2_48h,Other,continuous,numeric,252,98,15,21 to 50,"Secondary outcome: Intermediate follow-up fi oxygen, measured at 48 hours."
+47,pre_YS_IPAP_48h,Other,continuous,numeric,252,192,10,8 to 20,"Secondary outcome: Intermediate follow-up inspiratory positive airway pressure (IPAP), measured at 48 hours."
+47,pre_YS_EPAP_48h,Other,continuous,numeric,252,192,4,5 to 8,"Secondary outcome: Intermediate follow-up expiratory positive airway pressure, measured at 48 hours."
+47,pre_YS_heart_rate_72h,Other,continuous,numeric,252,140,48,95 to 187,"Secondary outcome: Intermediate follow-up heart rate, measured at 72 hours."
+47,pre_YS_resp_rate_72h,Other,continuous,numeric,252,140,31,18 to 75,"Secondary outcome: Intermediate follow-up respiratory rate, measured at 72 hours."
+47,pre_YS_SpO2_72h,Other,continuous,numeric,252,140,10,91 to 100,"Secondary outcome: Intermediate follow-up sp oxygen, measured at 72 hours."
+47,pre_YS_WD_score_72h,Other,continuous,numeric,252,140,7,1 to 7,"Secondary outcome: Intermediate follow-up Wang respiratory distress score, measured at 72 hours."
+47,pre_YS_FiO2_72h,Other,continuous,numeric,252,140,13,4 to 40,"Secondary outcome: Intermediate follow-up fi oxygen, measured at 72 hours."
+47,pre_YS_IPAP_72h,Other,continuous,numeric,252,214,10,6 to 20,"Secondary outcome: Intermediate follow-up inspiratory positive airway pressure (IPAP), measured at 72 hours."
+47,pre_YS_EPAP_72h,Other,continuous,numeric,252,214,5,5 to 18,"Secondary outcome: Intermediate follow-up expiratory positive airway pressure, measured at 72 hours."
+47,X_heart_rate_0h,Baseline covariate,continuous,numeric,252,0,75,99 to 204,Baseline covariate: Heart rate.
+47,X_resp_rate_0h,Baseline covariate,continuous,numeric,252,0,48,25 to 94,Baseline covariate: Respiratory rate.
+47,X_SpO2_0h,Baseline covariate,continuous,numeric,252,0,10,90 to 100,Baseline covariate: Sp oxygen.
+47,X_WD_score_0h,Baseline covariate,continuous,numeric,252,0,5,3 to 7,Baseline covariate: Wang respiratory distress score.
+47,X_FiO2_0h,Baseline covariate,continuous,numeric,252,0,26,21 to 100,Baseline covariate: Fi oxygen.
+47,X_IPAP_0h,Baseline covariate,continuous,numeric,252,127,11,6 to 18,Baseline covariate: Inspiratory positive airway pressure (IPAP).
+47,X_EPAP_0h,Baseline covariate,continuous,numeric,252,127,5,5 to 14,Baseline covariate: Expiratory positive airway pressure.
+47,X_gender_0h,Baseline covariate,binary,factor,252,0,2,0; 1,Baseline covariate: Gender.
+47,X_age_range_0h,Baseline covariate,factor,factor,252,0,5,0-5; 11-15; 16-20; 21-23; 6-10,Baseline covariate: Age range. Categories/codes in the cleaned data: 0-5; 11-15; 16-20; 21-23; 6-10.
+47,X_weight_range_0h,Baseline covariate,factor,factor,252,0,7,10-12; 12-14; 14-16; 2-4; 4-6; 6-8; 8-10,Baseline covariate: Weight range. Categories/codes in the cleaned data: 10-12; 12-14; 14-16; 2-4; 4-6; 6-8; 8-10.
+47,X_wheezing_0h,Baseline covariate,binary,factor,252,0,2,n; y,Baseline covariate: Wheezing.
+47,X_resp_hosp_0h,Baseline covariate,binary,factor,252,0,2,n; y,Baseline covariate: Respiratory hosp.
+47,X_protocol_ED_0h,Baseline covariate,binary,factor,252,0,2,n; y,Baseline covariate: Protocol emergency department.
+47,X_external_transfer_0h,Baseline covariate,binary,factor,252,0,2,n; y,Baseline covariate: External transfer.
+47,X_viral_panel_0h,Baseline covariate,factor,factor,252,0,27,"Ad; Ad, Pa; Ad, RSV; Ad, SC; Bo; Bo, Ad; Bo, Me; Bo, Pa, Ad; Bo, RSV, SC; Bo, SC; Me; NA; negative; Pa; Pa, SC; RE; RSV; RSV, Ad; RSV, Ad, Bo; RSV, Ad, Pa; ...","Baseline covariate: Viral panel. Categories/codes in the cleaned data: Ad; Ad, Pa; Ad, RSV; Ad, SC; Bo; Bo, Ad; Bo, Me; Bo, Pa, Ad; Bo, RSV, SC; Bo, SC; Me; NA; negative; Pa; Pa, SC; RE; RSV; RSV, Ad; RSV, Ad, Bo; RSV, Ad, Pa; ...."
+47,X_PIM_score_0h,Baseline covariate,continuous,numeric,252,37,47,0 to 12.7,Baseline covariate: Pediatric Index of Mortality score.
+47,X_duration_hrs_0h,Baseline covariate,continuous,numeric,252,0,132,1 to 312,Baseline covariate: Duration hours.

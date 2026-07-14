@@ -1,0 +1,27 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+91,Treatment,Treatment assignment,factor,factor,126,0,2,Monocryl; Vicryl Rapide,Treatment: randomized treatment assignment with cleaned-data arms: Monocryl; Vicryl Rapide. Publication-designated control/reference: Vicryl Rapide.
+91,X_source_research_number,Baseline covariate,continuous,integer,126,0,126,1 to 249,Baseline covariate: Source research number.
+91,X_maternal_age_years,Baseline covariate,continuous,numeric,126,0,24,20 to 44,Baseline covariate: Maternal age years.
+91,X_ethnicity,Baseline covariate,factor,character,126,0,5,A; B; C; H; M,Baseline covariate: Ethnicity. Categories/codes in the cleaned data: A; B; C; H; M.
+91,X_operative_delivery,Baseline covariate,binary,character,126,0,2,-; V,Baseline covariate: Operative.
+91,YS_vas_sitting_24h,Secondary outcome,continuous,numeric,126,0,10,0 to 10,"Secondary outcome: Visual analogue scale sitting, measured at 24 hours."
+91,YS_vas_walking_24h,Secondary outcome,continuous,numeric,126,2,11,0 to 10,"Secondary outcome: Visual analogue scale walking, measured at 24 hours."
+91,YS_vas_lying_24h,Secondary outcome,continuous,numeric,126,0,10,0 to 9,"Secondary outcome: Visual analogue scale lying, measured at 24 hours."
+91,YS_analgesia_24h,Secondary outcome,binary,numeric,126,0,2,0; 1,"Secondary outcome: Analgesia, measured at 24 hours."
+91,YS_dehiscence_24h,Secondary outcome,binary,numeric,126,0,2,0; 1,"Secondary outcome: Dehiscence, measured at 24 hours."
+91,YP_vas_sitting_10d,Primary outcome,continuous,numeric,126,0,10,0 to 9,"Primary outcome: Visual analogue scale sitting, measured at 10 days. Publication-defined endpoint context: VAS pain while sitting at 10 days."
+91,YS_vas_walking_10d,Secondary outcome,continuous,numeric,126,0,10,0 to 9,"Secondary outcome: Visual analogue scale walking, measured at 10 days."
+91,YS_vas_lying_10d,Secondary outcome,continuous,numeric,126,0,9,0 to 8,"Secondary outcome: Visual analogue scale lying, measured at 10 days."
+91,YS_analgesia_10d,Secondary outcome,binary,numeric,126,0,2,0; 1,"Secondary outcome: Analgesia, measured at 10 days."
+91,YS_infection_10d,Secondary outcome,binary,numeric,126,0,2,0; 1,"Secondary outcome: Infection, measured at 10 days."
+91,YS_suture_removal_10d,Secondary outcome,binary,numeric,126,0,2,0; 1,"Secondary outcome: Suture removal, measured at 10 days."
+91,YS_dehiscence_10d,Secondary outcome,binary,numeric,126,0,2,0; 1,"Secondary outcome: Dehiscence, measured at 10 days."
+91,YS_vas_sitting_6w,Secondary outcome,continuous,numeric,126,1,7,0 to 7,"Secondary outcome: Visual analogue scale sitting, measured at 6 weeks."
+91,YS_vas_walking_6w,Secondary outcome,continuous,numeric,126,1,7,0 to 7,"Secondary outcome: Visual analogue scale walking, measured at 6 weeks."
+91,YS_vas_lying_6w,Secondary outcome,continuous,numeric,126,1,5,0 to 5,"Secondary outcome: Visual analogue scale lying, measured at 6 weeks."
+91,YS_vas_sitting_3m,Secondary outcome,continuous,numeric,126,0,3,0 to 5,"Secondary outcome: Visual analogue scale sitting, measured at 3 months."
+91,YS_vas_walking_3m,Secondary outcome,continuous,numeric,126,0,3,0 to 3,"Secondary outcome: Visual analogue scale walking, measured at 3 months."
+91,YS_vas_lying_3m,Secondary outcome,continuous,numeric,126,0,3,0 to 2,"Secondary outcome: Visual analogue scale lying, measured at 3 months."
+91,YS_dehiscence_3m,Secondary outcome,binary,numeric,126,0,2,0; 1,"Secondary outcome: Dehiscence, measured at 3 months."
+91,YS_stitches_removed_3m,Secondary outcome,binary,numeric,126,0,2,0; 1,"Secondary outcome: Stitches removed, measured at 3 months."
+91,YS_infection_3m,Secondary outcome,binary,numeric,126,0,2,0; 1,"Secondary outcome: Infection, measured at 3 months."

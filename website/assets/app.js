@@ -156,6 +156,7 @@ function trialRow(trial) {
       <div class="file-actions">
         <a class="small-button primary" href="${trial.csvPath}" data-download="csv" data-trial-id="${trial.id}" download>CSV</a>
         <a class="small-button ghost" href="${trial.rdsPath}" data-download="rds" data-trial-id="${trial.id}" download>RDS</a>
+        <a class="small-button ghost" href="${trial.dictionaryPath}" data-download="dictionary" data-trial-id="${trial.id}" download>Dictionary</a>
       </div>
     </td>
   `;
@@ -227,6 +228,7 @@ function openTrial(id) {
       <div class="dialog-actions">
         <a class="button primary" href="${trial.csvPath}" data-download="csv" data-trial-id="${trial.id}" download>Download CSV</a>
         <a class="button ghost" href="${trial.rdsPath}" data-download="rds" data-trial-id="${trial.id}" download>Download RDS</a>
+        <a class="button ghost" href="${trial.dictionaryPath}" data-download="dictionary" data-trial-id="${trial.id}" download>Download dictionary</a>
         ${paperLink}
       </div>
     </div>

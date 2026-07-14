@@ -1,0 +1,12 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+108,Treatment,Treatment assignment,factor,factor,6030,0,2,AKI alert; Usual care,Treatment: randomized treatment assignment with cleaned-data arms: AKI alert; Usual care. Publication-designated control/reference: Usual care.
+108,YP_composite_14d,Primary outcome,binary,integer,6030,0,2,0; 1,"Primary outcome: Prespecified composite endpoint, measured at 14 days."
+108,YS_death_14d,Secondary outcome,binary,integer,6030,0,2,0; 1,"Secondary outcome: Death, measured at 14 days."
+108,YS_dialysis_14d,Secondary outcome,binary,integer,6030,0,2,0; 1,"Secondary outcome: Dialysis, measured at 14 days."
+108,YS_aki_progression_14d,Secondary outcome,binary,integer,6030,0,2,0; 1,"Secondary outcome: Aki progression, measured at 14 days."
+108,X_age_years,Baseline covariate,continuous,numeric,6030,507,4759,18.137 to 89.989,Baseline covariate: Age years.
+108,X_sex,Baseline covariate,binary,integer,6030,0,2,0; 1,Baseline covariate: Sex.
+108,X_hospital,Baseline covariate,continuous,integer,6030,0,6,1 to 6,Baseline covariate: Hospital.
+108,X_baseline_creatinine,Baseline covariate,continuous,numeric,6030,0,356,0.06 to 7.06,Baseline covariate: Baseline creatinine.
+108,X_sofa_0d,Baseline covariate,continuous,integer,6030,0,14,0 to 13,Baseline covariate: Sequential Organ Failure Assessment (SOFA) score.
+108,X_initial_egfr,Baseline covariate,continuous,numeric,6030,4,6022,7.16894 to 294.661,Baseline covariate: Initial estimated glomerular filtration rate.

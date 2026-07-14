@@ -1,0 +1,31 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+7,Treatment,Treatment assignment,factor,factor,38,0,2,Brain Lab; ThinkRx,Treatment: randomized treatment assignment with cleaned-data arms: Brain Lab; ThinkRx. Publication-designated control/reference: ThinkRx.
+7,YP_delta_COG2_60h,Primary outcome,continuous,numeric,38,0,27,-28 to 46,Primary outcome: Change from baseline to 60 hours in Woodcock-Johnson III Visual-Auditory Learning standard score (associative memory).
+7,YP_delta_COG3_60h,Primary outcome,continuous,numeric,38,0,23,-14 to 27,Primary outcome: Change from baseline to 60 hours in Woodcock-Johnson III Spatial Relations standard score (visual processing).
+7,YP_delta_COG4_60h,Primary outcome,continuous,numeric,38,0,23,-8 to 44,Primary outcome: Change from baseline to 60 hours in Woodcock-Johnson III Sound Blending standard score (auditory processing).
+7,YP_delta_COG5_60h,Primary outcome,continuous,numeric,38,0,26,-1 to 48,Primary outcome: Change from baseline to 60 hours in Woodcock-Johnson III Concept Formation standard score (logic and reasoning).
+7,YP_delta_COG6_60h,Primary outcome,continuous,numeric,38,0,23,-4 to 29,Primary outcome: Change from baseline to 60 hours in Woodcock-Johnson III Visual Matching standard score (processing speed).
+7,YP_delta_COG7_60h,Primary outcome,continuous,numeric,38,0,27,-21 to 48,Primary outcome: Change from baseline to 60 hours in Woodcock-Johnson III Numbers Reversed standard score (working memory and attentional capacity).
+7,YP_delta_COG10_60h,Primary outcome,continuous,numeric,38,0,29,-27 to 72,Primary outcome: Change from baseline to 60 hours in Woodcock-Johnson III Visual-Auditory Learning-Delayed standard score (long-term memory).
+7,YP_delta_IQ_60h,Primary outcome,continuous,numeric,38,0,24,1 to 44,Primary outcome: Change from baseline to 60 hours in Woodcock-Johnson III General Intellectual Ability composite standard score.
+7,X_Age_0h,Baseline covariate,continuous,numeric,38,0,7,8 to 14,Baseline covariate: Age.
+7,X_Race_0h,Baseline covariate,factor,factor,38,0,3,Hispanic; Mixed/Other; White,Baseline covariate: Race. Categories/codes in the cleaned data: Hispanic; Mixed/Other; White.
+7,X_Gender_0h,Baseline covariate,binary,factor,38,0,2,Female; Male,Baseline covariate: Gender.
+7,X_ADD_ADHD_0h,Baseline covariate,binary,factor,38,0,2,0; 1,Baseline covariate: Add attention-deficit/hyperactivity disorder.
+7,X_Autistic_0h,Baseline covariate,binary,factor,38,0,2,0; 1,Baseline covariate: Autistic.
+7,X_Dyslexia_0h,Baseline covariate,binary,factor,38,0,2,0; 1,Baseline covariate: Dyslexia.
+7,X_Gifted_0h,Baseline covariate,binary,factor,38,0,2,0; 1,Baseline covariate: Gifted.
+7,X_LD_0h,Baseline covariate,binary,factor,38,0,2,0; 1,Baseline covariate: Ld.
+7,X_None_0h,Baseline covariate,binary,factor,38,0,2,0; 1,Baseline covariate: None.
+7,X_Physical_0h,Baseline covariate,binary,factor,38,0,2,0; 1,Baseline covariate: Physical.
+7,X_Speech_0h,Baseline covariate,binary,factor,38,0,2,0; 1,Baseline covariate: Speech.
+7,X_TBI_0h,Baseline covariate,binary,factor,38,0,2,0; 1,Baseline covariate: Tbi.
+7,X_Length_T1_to_T2_0h,Baseline covariate,continuous,numeric,38,0,23,12.7143 to 24.8571,Baseline covariate: Length t1 to t2.
+7,X_COG2_0h,Baseline covariate,continuous,numeric,38,0,28,61 to 141,Baseline covariate: Woodcock-Johnson III Visual-Auditory Learning standard score (associative memory).
+7,X_COG3_0h,Baseline covariate,continuous,numeric,38,0,22,75 to 120,Baseline covariate: Woodcock-Johnson III Spatial Relations standard score (visual processing).
+7,X_COG4_0h,Baseline covariate,continuous,numeric,38,0,26,97 to 158,Baseline covariate: Woodcock-Johnson III Sound Blending standard score (auditory processing).
+7,X_COG5_0h,Baseline covariate,continuous,numeric,38,0,28,76 to 129,Baseline covariate: Woodcock-Johnson III Concept Formation standard score (logic and reasoning).
+7,X_COG6_0h,Baseline covariate,continuous,numeric,38,0,28,62 to 114,Baseline covariate: Woodcock-Johnson III Visual Matching standard score (processing speed).
+7,X_COG7_0h,Baseline covariate,continuous,numeric,38,0,26,59 to 124,Baseline covariate: Woodcock-Johnson III Numbers Reversed standard score (working memory and attentional capacity).
+7,X_COG10_0h,Baseline covariate,continuous,numeric,38,0,31,71 to 157,Baseline covariate: Woodcock-Johnson III Visual-Auditory Learning-Delayed standard score (long-term memory).
+7,X_IQ_0h,Baseline covariate,continuous,numeric,38,0,26,74 to 131,Baseline covariate: Woodcock-Johnson III General Intellectual Ability composite standard score.

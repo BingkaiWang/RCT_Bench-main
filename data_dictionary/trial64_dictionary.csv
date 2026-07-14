@@ -1,0 +1,25 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+64,Treatment,Treatment assignment,factor,factor,226,0,2,Exercise; Wait-list control,Treatment: randomized treatment assignment with cleaned-data arms: Exercise; Wait-list control. Publication-designated control/reference: Wait-list control.
+64,YP_delta_pain_vas_5m,Primary outcome,continuous,numeric,226,0,117,-8.2 to 7.1,Primary outcome: Change from baseline to 5 months in pain visual analogue scale. Publication-defined endpoint context: Change in low back pain VAS after 5 months.
+64,YS_delta_back_extension_strength_5m,Secondary outcome,continuous,numeric,226,1,128,-353.16 to 524.835,Secondary outcome: Change from baseline to 5 months in back extension strength.
+64,YS_delta_lateral_flexion_left_strength_5m,Secondary outcome,continuous,numeric,226,0,119,-176.58 to 338.445,Secondary outcome: Change from baseline to 5 months in lateral flexion left strength.
+64,YS_delta_lateral_flexion_right_strength_5m,Secondary outcome,continuous,numeric,226,0,125,-137.34 to 397.305,Secondary outcome: Change from baseline to 5 months in lateral flexion right strength.
+64,YS_delta_oswestry_5m,Secondary outcome,continuous,numeric,226,9,30,-24 to 12,Secondary outcome: Change from baseline to 5 months in oswestry.
+64,YS_delta_work_ability_5m,Secondary outcome,continuous,numeric,226,10,21,-10 to 15,Secondary outcome: Change from baseline to 5 months in work ability.
+64,X_company,Baseline covariate,factor,factor,226,0,3,1; 2; 3,Baseline covariate: Company. Categories/codes in the cleaned data: 1; 2; 3.
+64,X_age,Baseline covariate,continuous,numeric,226,0,40,20 to 63,Baseline covariate: Age.
+64,X_sex,Baseline covariate,binary,factor,226,0,2,1; 2,Baseline covariate: Sex.
+64,X_chronic_low_back_pain,Baseline covariate,binary,factor,226,0,2,1; 2,Baseline covariate: Chronic low back pain.
+64,X_height_m,Baseline covariate,continuous,numeric,226,0,45,1.55 to 2.03,Baseline covariate: Height m.
+64,X_weight_0m,Baseline covariate,continuous,numeric,226,0,188,50.5 to 127,Baseline covariate: Weight.
+64,X_bmi_0m,Baseline covariate,continuous,numeric,226,0,209,18.57 to 40.64,"Baseline covariate: Body mass index (BMI), in kg/m²."
+64,X_body_fat_pct_0m,Baseline covariate,continuous,numeric,226,4,170,6.8 to 52.1,Baseline covariate: Body fat percentage.
+64,X_pain_vas_0m,Baseline covariate,continuous,numeric,226,0,68,0 to 10,Baseline covariate: Pain visual analogue scale.
+64,X_back_extension_strength_0m,Baseline covariate,continuous,numeric,226,1,134,83.385 to 1250.78,Baseline covariate: Back extension strength.
+64,X_lateral_flexion_left_strength_0m,Baseline covariate,continuous,numeric,226,0,90,44.145 to 750.465,Baseline covariate: Lateral flexion left strength.
+64,X_lateral_flexion_right_strength_0m,Baseline covariate,continuous,numeric,226,0,95,39.24 to 711.225,Baseline covariate: Lateral flexion right strength.
+64,X_physical_activity_metwk_0m,Baseline covariate,continuous,numeric,226,9,206,0.03 to 199.33,Baseline covariate: Physical activity metwk.
+64,X_oswestry_0m,Baseline covariate,continuous,numeric,226,9,22,0 to 42,Baseline covariate: Oswestry.
+64,X_work_ability_0m,Baseline covariate,continuous,numeric,226,10,26,21 to 49,Baseline covariate: Work ability.
+64,X_sbp_0m,Baseline covariate,continuous,numeric,226,0,16,90 to 170,"Baseline covariate: Systolic blood pressure, in mm Hg."
+64,X_dbp_0m,Baseline covariate,continuous,numeric,226,0,10,60 to 110,"Baseline covariate: Diastolic blood pressure, in mm Hg."

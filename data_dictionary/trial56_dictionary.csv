@@ -1,0 +1,18 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+56,Treatment,Treatment assignment,factor,factor,15,0,2,Active tDCS; Sham tDCS,Treatment: randomized treatment assignment with cleaned-data arms: Active tDCS; Sham tDCS. Publication-designated control/reference: Sham tDCS.
+56,X_gender_0w,Baseline covariate,binary,factor,15,0,2,Female; Male,Baseline covariate: Gender.
+56,X_age_0w,Baseline covariate,continuous,numeric,15,0,9,36 to 52,Baseline covariate: Age.
+56,X_attention_rbans_0w,Baseline covariate,continuous,numeric,15,0,10,82 to 125,Baseline covariate: Attention Repeatable Battery for the Assessment of Neuropsychological Status.
+56,X_burnout_mbs_0w,Baseline covariate,continuous,numeric,15,0,8,4 to 58,Baseline covariate: Burnout mbs.
+56,X_depression_bdi_0w,Baseline covariate,continuous,numeric,15,0,11,17 to 46,Baseline covariate: Depression bdi.
+56,X_quality_of_life_0w,Baseline covariate,continuous,numeric,15,0,7,1 to 9,Baseline covariate: Quality of life.
+56,X_immediate_memory_0w,Baseline covariate,continuous,numeric,15,0,10,81 to 129,Baseline covariate: Immediate memory.
+56,X_visuospatial_memory_0w,Baseline covariate,continuous,numeric,15,0,8,92 to 126,Baseline covariate: Visuospatial memory.
+56,X_language_0w,Baseline covariate,continuous,numeric,15,0,13,94 to 122,Baseline covariate: Language.
+56,X_recent_memory_0w,Baseline covariate,continuous,numeric,15,0,10,94 to 124,Baseline covariate: Recent memory.
+56,YP_attention_rbans_post,Primary outcome,continuous,numeric,15,0,10,68 to 135,"Primary outcome: Attention Repeatable Battery for the Assessment of Neuropsychological Status, measured immediately after the intervention. Publication-defined endpoint context: RBANS Attention Index after 3 weeks."
+56,YP_delta_attention_rbans_post,Primary outcome,continuous,numeric,15,0,11,-20 to 40,Primary outcome: Change from baseline to immediately after the intervention in attention Repeatable Battery for the Assessment of Neuropsychological Status. Publication-defined endpoint context: RBANS Attention Index after 3 weeks.
+56,YS_burnout_mbs_post,Secondary outcome,continuous,numeric,15,0,13,3 to 49,"Secondary outcome: Burnout mbs, measured immediately after the intervention."
+56,YS_delta_burnout_mbs_post,Secondary outcome,continuous,numeric,15,0,13,-41 to 43,Secondary outcome: Change from baseline to immediately after the intervention in burnout mbs.
+56,YS_depression_bdi_post,Secondary outcome,continuous,numeric,15,0,13,4 to 35,"Secondary outcome: Depression bdi, measured immediately after the intervention."
+56,YS_quality_of_life_post,Secondary outcome,continuous,numeric,15,0,5,3 to 8,"Secondary outcome: Quality of life, measured immediately after the intervention."

@@ -1,0 +1,86 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+125,Treatment,Treatment assignment,factor,factor,574,0,3,active_control; control; intervention,Treatment: randomized treatment assignment with cleaned-data arms: active_control; control; intervention. Publication-designated control/reference: control.
+125,X_sex_0y,Baseline covariate,binary,integer,574,0,2,0; 1,Baseline covariate: Sex.
+125,X_age_group_0y,Baseline covariate,continuous,numeric,574,0,5,20 to 60,Baseline covariate: Age group.
+125,X_step_count_0y,Baseline covariate,continuous,numeric,574,0,566,3536.7 to 31610,Baseline covariate: Step count.
+125,X_pa_mets_hour_0y,Baseline covariate,continuous,numeric,574,0,258,0.31 to 23.3,"Baseline covariate: Physical activity, in MET-hours."
+125,X_30_mets_or_more_0y,Baseline covariate,continuous,numeric,574,8,504,5.54167 to 233.1,Baseline covariate: 30 metabolic-equivalent hours or more.
+125,X_40_mets_or_more_0y,Baseline covariate,continuous,numeric,574,8,417,0.208333 to 154.2,Baseline covariate: 40 metabolic-equivalent hours or more.
+125,X_50_mets_or_more_0y,Baseline covariate,continuous,numeric,574,8,269,0 to 120.5,Baseline covariate: 50 metabolic-equivalent hours or more.
+125,X_60_mets_or_more_0y,Baseline covariate,continuous,numeric,574,8,193,0 to 106.5,Baseline covariate: 60 metabolic-equivalent hours or more.
+125,X_sedentary_0y,Baseline covariate,continuous,numeric,574,8,550,65.7 to 389.6,Baseline covariate: Sedentary.
+125,X_light_pa_0y,Baseline covariate,continuous,numeric,574,8,551,93.6 to 687,Baseline covariate: Light physical activity.
+125,X_moderate_pa_0y,Baseline covariate,continuous,numeric,574,8,508,5.54167 to 150.9,Baseline covariate: Moderate physical activity.
+125,X_height_0y,Baseline covariate,continuous,numeric,574,0,263,141.9 to 192.5,Baseline covariate: Height.
+125,X_weight_0y,Baseline covariate,continuous,numeric,574,0,287,35.3 to 105.3,Baseline covariate: Weight.
+125,X_bmi_0y,Baseline covariate,continuous,numeric,574,0,129,13.2 to 35.2,"Baseline covariate: Body mass index (BMI), in kg/m²."
+125,X_waist_circumference_0y,Baseline covariate,continuous,numeric,574,0,303,60.2 to 110.75,Baseline covariate: Waist circumference.
+125,X_trunk_flex_0y,Baseline covariate,continuous,numeric,574,2,207,9.25 to 79.2,Baseline covariate: Trunk flex.
+125,X_vertical_jump_0y,Baseline covariate,continuous,numeric,574,14,53,5 to 65,Baseline covariate: Vertical jump.
+125,X_vo2max_w_0y,Baseline covariate,continuous,numeric,574,20,222,14.9 to 55.7,Baseline covariate: Maximal oxygen uptake w.
+125,X_hrmax_0y,Baseline covariate,continuous,numeric,574,21,74,100 to 214,Baseline covariate: Hrmax.
+125,X_hr_0y,Baseline covariate,continuous,integer,574,0,60,38 to 106,Baseline covariate: Heart rate.
+125,X_bmap_0y,Baseline covariate,continuous,numeric,574,0,110,62.5 to 138.5,Baseline covariate: Brachial mean arterial pressure.
+125,X_bapwv_0y,Baseline covariate,continuous,numeric,574,0,442,858 to 1841,Baseline covariate: Brachial-ankle pulse-wave velocity (baPWV).
+125,X_glucose_0y,Baseline covariate,continuous,integer,574,0,50,59 to 143,Baseline covariate: Glucose.
+125,X_hba1c_0y,Baseline covariate,continuous,numeric,574,0,20,4.4 to 6.3,Baseline covariate: Glycated haemoglobin (HbA1c).
+125,X_tg_neutral_fat_0y,Baseline covariate,continuous,integer,574,0,158,23 to 554,Baseline covariate: Triglycerides neutral fat.
+125,X_tot_cholesterol_0y,Baseline covariate,continuous,integer,574,0,143,117 to 336,Baseline covariate: Tot cholesterol.
+125,X_energy_intakes_0y,Baseline covariate,continuous,numeric,574,0,574,572.262 to 3726.99,Baseline covariate: Energy intakes.
+125,X_proteins_0y,Baseline covariate,continuous,numeric,574,0,574,16.6561 to 59.8472,Baseline covariate: Proteins.
+125,X_fat_0y,Baseline covariate,continuous,numeric,574,0,574,10.4609 to 45.0498,Baseline covariate: Fat.
+125,X_carb_0y,Baseline covariate,continuous,numeric,574,0,574,73.4629 to 195.087,Baseline covariate: Carb.
+125,YP_step_count_1y,Primary outcome,continuous,numeric,574,65,506,3247.9 to 37068,"Primary outcome: Step count, measured at 1 year. Publication-defined endpoint context: Year-1 step count, PA MET-hours, and moderate physical activity."
+125,YP_pa_mets_hour_1y,Primary outcome,continuous,numeric,574,65,97,0.4 to 28.1,"Primary outcome: Physical activity, in MET-hours, measured at 1 year."
+125,YS_30_mets_or_more_1y,Secondary outcome,continuous,numeric,574,65,396,7.1 to 267.5,"Secondary outcome: 30 metabolic-equivalent hours or more, measured at 1 year."
+125,YS_40_mets_or_more_1y,Secondary outcome,continuous,numeric,574,65,285,0.3 to 184.1,"Secondary outcome: 40 metabolic-equivalent hours or more, measured at 1 year."
+125,YS_50_mets_or_more_1y,Secondary outcome,continuous,numeric,574,65,153,0 to 145.5,"Secondary outcome: 50 metabolic-equivalent hours or more, measured at 1 year."
+125,YS_60_mets_or_more_1y,Secondary outcome,continuous,numeric,574,65,104,0 to 131.5,"Secondary outcome: 60 metabolic-equivalent hours or more, measured at 1 year."
+125,YS_sedentary_1y,Secondary outcome,continuous,numeric,574,65,472,74.9 to 378.7,"Secondary outcome: Sedentary, measured at 1 year."
+125,YS_light_pa_1y,Secondary outcome,continuous,numeric,574,65,486,110.8 to 648.4,"Secondary outcome: Light physical activity, measured at 1 year."
+125,YP_moderate_pa_1y,Primary outcome,continuous,numeric,574,65,408,7.1 to 137.9,"Primary outcome: Moderate physical activity, measured at 1 year. Publication-defined endpoint context: Year-1 step count, PA MET-hours, and moderate physical activity."
+125,YS_weight_1y,Secondary outcome,continuous,numeric,574,63,279,37.7 to 105.7,"Secondary outcome: Weight, measured at 1 year."
+125,YS_bmi_1y,Secondary outcome,continuous,numeric,574,63,119,14.1 to 35.7,"Secondary outcome: Body mass index (BMI), in kg/m², measured at 1 year."
+125,YS_waist_circumference_1y,Secondary outcome,continuous,numeric,574,63,292,59 to 112,"Secondary outcome: Waist circumference, measured at 1 year."
+125,YS_trunk_flex_1y,Secondary outcome,continuous,numeric,574,65,173,7 to 65.5,"Secondary outcome: Trunk flex, measured at 1 year."
+125,YS_vertical_jump_1y,Secondary outcome,continuous,numeric,574,74,53,8 to 67,"Secondary outcome: Vertical jump, measured at 1 year."
+125,YS_vo2max_w_1y,Secondary outcome,continuous,numeric,574,75,230,16.3 to 58.7,"Secondary outcome: Maximal oxygen uptake w, measured at 1 year."
+125,YS_hrmax_1y,Secondary outcome,continuous,numeric,574,75,77,114 to 230,"Secondary outcome: Hrmax, measured at 1 year."
+125,YS_hr_1y,Secondary outcome,continuous,numeric,574,62,53,35 to 104,"Secondary outcome: Heart rate, measured at 1 year."
+125,YS_bmap_1y,Secondary outcome,continuous,numeric,574,62,101,61.5 to 131.5,"Secondary outcome: Brachial mean arterial pressure, measured at 1 year."
+125,YS_bapwv_1y,Secondary outcome,continuous,numeric,574,62,391,943.5 to 1912.5,"Secondary outcome: Brachial-ankle pulse-wave velocity (baPWV), measured at 1 year."
+125,YS_glucose_1y,Secondary outcome,continuous,numeric,574,64,52,62 to 170,"Secondary outcome: Glucose, measured at 1 year."
+125,YS_hba1c_1y,Secondary outcome,continuous,numeric,574,64,20,4.5 to 8.2,"Secondary outcome: Glycated haemoglobin (HbA1c), measured at 1 year."
+125,YS_tg_neutral_fat_1y,Secondary outcome,continuous,numeric,574,63,152,26 to 739,"Secondary outcome: Triglycerides neutral fat, measured at 1 year."
+125,YS_tot_cholesterol_1y,Secondary outcome,continuous,numeric,574,63,144,137 to 348,"Secondary outcome: Tot cholesterol, measured at 1 year."
+125,YS_energy_intakes_1y,Secondary outcome,continuous,numeric,574,64,509,602.698 to 3576.22,"Secondary outcome: Energy intakes, measured at 1 year."
+125,YS_proteins_1y,Secondary outcome,continuous,numeric,574,64,509,20.2669 to 62.5293,"Secondary outcome: Proteins, measured at 1 year."
+125,YS_fat_1y,Secondary outcome,continuous,numeric,574,64,509,10.859 to 42.6048,"Secondary outcome: Fat, measured at 1 year."
+125,YS_carb_1y,Secondary outcome,continuous,numeric,574,64,509,80.1983 to 185.049,"Secondary outcome: Carb, measured at 1 year."
+125,YS_step_count_2y,Secondary outcome,continuous,numeric,574,111,458,2699.4 to 44243,"Secondary outcome: Step count, measured at 2 years."
+125,YS_pa_mets_hour_2y,Secondary outcome,continuous,numeric,574,111,93,0.4 to 33.5,"Secondary outcome: Physical activity, in MET-hours, measured at 2 years."
+125,YS_30_mets_or_more_2y,Secondary outcome,continuous,numeric,574,111,369,7 to 314.5,"Secondary outcome: 30 metabolic-equivalent hours or more, measured at 2 years."
+125,YS_40_mets_or_more_2y,Secondary outcome,continuous,numeric,574,111,273,0.4 to 228.5,"Secondary outcome: 40 metabolic-equivalent hours or more, measured at 2 years."
+125,YS_50_mets_or_more_2y,Secondary outcome,continuous,numeric,574,111,147,0 to 189.1,"Secondary outcome: 50 metabolic-equivalent hours or more, measured at 2 years."
+125,YS_60_mets_or_more_2y,Secondary outcome,continuous,numeric,574,111,101,0 to 170.1,"Secondary outcome: 60 metabolic-equivalent hours or more, measured at 2 years."
+125,YS_sedentary_2y,Secondary outcome,continuous,numeric,574,111,439,80.1 to 412.6,"Secondary outcome: Sedentary, measured at 2 years."
+125,YS_light_pa_2y,Secondary outcome,continuous,numeric,574,111,440,128.4 to 628,"Secondary outcome: Light physical activity, measured at 2 years."
+125,YS_moderate_pa_2y,Secondary outcome,continuous,numeric,574,111,374,7 to 229.7,"Secondary outcome: Moderate physical activity, measured at 2 years."
+125,YS_weight_2y,Secondary outcome,continuous,numeric,574,106,255,38 to 109,"Secondary outcome: Weight, measured at 2 years."
+125,YS_bmi_2y,Secondary outcome,continuous,numeric,574,106,119,14.9 to 35.8,"Secondary outcome: Body mass index (BMI), in kg/m², measured at 2 years."
+125,YS_waist_circumference_2y,Secondary outcome,continuous,numeric,574,106,262,61.5 to 111.6,"Secondary outcome: Waist circumference, measured at 2 years."
+125,YS_trunk_flex_2y,Secondary outcome,continuous,numeric,574,109,182,7.25 to 63.25,"Secondary outcome: Trunk flex, measured at 2 years."
+125,YS_vertical_jump_2y,Secondary outcome,continuous,numeric,574,111,51,10 to 67,"Secondary outcome: Vertical jump, measured at 2 years."
+125,YS_vo2max_w_2y,Secondary outcome,continuous,numeric,574,137,215,16.1 to 62.8,"Secondary outcome: Maximal oxygen uptake w, measured at 2 years."
+125,YS_hrmax_2y,Secondary outcome,continuous,numeric,574,137,73,111 to 226,"Secondary outcome: Hrmax, measured at 2 years."
+125,YS_hr_2y,Secondary outcome,continuous,numeric,574,106,58,39 to 97,"Secondary outcome: Heart rate, measured at 2 years."
+125,YS_bmap_2y,Secondary outcome,continuous,numeric,574,106,102,66 to 133.5,"Secondary outcome: Brachial mean arterial pressure, measured at 2 years."
+125,YS_bapwv_2y,Secondary outcome,continuous,numeric,574,106,394,919 to 2145,"Secondary outcome: Brachial-ankle pulse-wave velocity (baPWV), measured at 2 years."
+125,YS_glucose_2y,Secondary outcome,continuous,numeric,574,106,50,62 to 136,"Secondary outcome: Glucose, measured at 2 years."
+125,YS_hba1c_2y,Secondary outcome,continuous,numeric,574,106,20,4.5 to 6.7,"Secondary outcome: Glycated haemoglobin (HbA1c), measured at 2 years."
+125,YS_tg_neutral_fat_2y,Secondary outcome,continuous,numeric,574,106,149,23 to 499,"Secondary outcome: Triglycerides neutral fat, measured at 2 years."
+125,YS_tot_cholesterol_2y,Secondary outcome,continuous,numeric,574,106,142,123 to 324,"Secondary outcome: Tot cholesterol, measured at 2 years."
+125,YS_energy_intakes_2y,Secondary outcome,continuous,numeric,574,106,468,497.953 to 4258.86,"Secondary outcome: Energy intakes, measured at 2 years."
+125,YS_proteins_2y,Secondary outcome,continuous,numeric,574,106,468,15.8333 to 65.7291,"Secondary outcome: Proteins, measured at 2 years."
+125,YS_fat_2y,Secondary outcome,continuous,numeric,574,106,468,7.58131 to 54.4607,"Secondary outcome: Fat, measured at 2 years."
+125,YS_carb_2y,Secondary outcome,continuous,numeric,574,106,468,11.8818 to 192.235,"Secondary outcome: Carb, measured at 2 years."

@@ -1,0 +1,29 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+11,Treatment,Treatment assignment,factor,factor,44,0,2,active; placebo,Treatment: randomized treatment assignment with cleaned-data arms: active; placebo. Publication-designated control/reference: placebo.
+11,YP_delta_log10_biomass_oral_8w,Primary outcome,continuous,numeric,44,4,40,-3.45012 to 1.03054,"Primary outcome: Change from baseline to 8 weeks in oral bacterial biomass, log10-transformed 16S rRNA gene copies."
+11,YP_delta_log10_biomass_sputum_8w,Primary outcome,continuous,numeric,44,9,35,-2.4718 to 2.68919,"Primary outcome: Change from baseline to 8 weeks in sputum bacterial biomass, log10-transformed 16S rRNA gene copies."
+11,YS_delta_shannon_oral_8w,Secondary outcome,continuous,numeric,44,4,40,-0.98231 to 0.42439,Secondary outcome: Change from baseline to 8 weeks in shannon oral.
+11,YS_delta_shannon_sputum_8w,Secondary outcome,continuous,numeric,44,9,35,-2.16609 to 1.10308,Secondary outcome: Change from baseline to 8 weeks in shannon sputum.
+11,YS_delta_simpson_oral_8w,Secondary outcome,continuous,numeric,44,4,40,-0.078599 to 0.073229,Secondary outcome: Change from baseline to 8 weeks in simpson oral.
+11,YS_delta_simpson_sputum_8w,Secondary outcome,continuous,numeric,44,9,35,-0.38373 to 0.17854,Secondary outcome: Change from baseline to 8 weeks in simpson sputum.
+11,YS_delta_crp_8w,Secondary outcome,continuous,numeric,44,4,39,-21.67 to 31.23,Secondary outcome: Change from baseline to 8 weeks in C-reactive protein concentration.
+11,YS_delta_fibrinogen_8w,Secondary outcome,continuous,numeric,44,5,34,-175 to 187,Secondary outcome: Change from baseline to 8 weeks in plasma fibrinogen concentration.
+11,YS_delta_leukocyte_8w,Secondary outcome,continuous,numeric,44,5,37,-2.39 to 4.81,Secondary outcome: Change from baseline to 8 weeks in leukocyte.
+11,YS_delta_sgrq_total_8w,Secondary outcome,continuous,numeric,44,4,40,-21.95 to 21.45,Secondary outcome: Change from baseline to 8 weeks in St George's Respiratory Questionnaire total score.
+11,YS_delta_bcss_8w,Secondary outcome,continuous,numeric,44,7,26,-4.57143 to 4.14286,"Secondary outcome: Change from baseline to 8 weeks in Breathlessness, Cough and Sputum Scale (BCSS) score."
+11,X_age_0w,Baseline covariate,factor,ordered/factor,44,0,5,40-49; 50-59; 60-69; 70-79; 80-84,Baseline covariate: Age. Categories/codes in the cleaned data: 40-49; 50-59; 60-69; 70-79; 80-84.
+11,X_sex_0w,Baseline covariate,binary,factor,44,0,2,0; 1,Baseline covariate: Sex.
+11,X_current_smoker_0w,Baseline covariate,binary,factor,44,0,2,0; 1,Baseline covariate: Current smoker.
+11,X_years_smoke_0w,Baseline covariate,continuous,numeric,44,0,20,13 to 60,Baseline covariate: Years smoke.
+11,X_pack_years_0w,Baseline covariate,continuous,numeric,44,0,29,13 to 192,Baseline covariate: Pack years.
+11,X_crp_0w,Baseline covariate,continuous,numeric,44,0,42,0.62 to 23.9,Baseline covariate: C-reactive protein concentration.
+11,X_fibrinogen_0w,Baseline covariate,continuous,numeric,44,1,41,207 to 549,Baseline covariate: Plasma fibrinogen concentration.
+11,X_leukocyte_0w,Baseline covariate,continuous,numeric,44,0,43,4.83 to 13.37,Baseline covariate: Leukocyte.
+11,X_log10_biomass_oral_0w,Baseline covariate,continuous,numeric,44,0,44,4.87992 to 7.58391,"Baseline covariate: Oral bacterial biomass, log10-transformed 16S rRNA gene copies."
+11,X_log10_biomass_sputum_0w,Baseline covariate,continuous,numeric,44,3,41,2.92686 to 6.90661,"Baseline covariate: Sputum bacterial biomass, log10-transformed 16S rRNA gene copies."
+11,X_shannon_oral_0w,Baseline covariate,continuous,numeric,44,0,44,1.99669 to 4.71364,Baseline covariate: Shannon oral.
+11,X_shannon_sputum_0w,Baseline covariate,continuous,numeric,44,3,41,1.3309 to 4.41053,Baseline covariate: Shannon sputum.
+11,X_simpson_oral_0w,Baseline covariate,continuous,numeric,44,0,44,0.805447 to 0.984426,Baseline covariate: Simpson oral.
+11,X_simpson_sputum_0w,Baseline covariate,continuous,numeric,44,3,41,0.424729 to 0.97812,Baseline covariate: Simpson sputum.
+11,X_bcss_0w,Baseline covariate,continuous,numeric,44,5,28,1.14286 to 9,"Baseline covariate: Breathlessness, Cough and Sputum Scale (BCSS) score."
+11,X_sgrq_total_0w,Baseline covariate,continuous,numeric,44,0,44,16.35 to 82.31,Baseline covariate: St George's Respiratory Questionnaire total score.

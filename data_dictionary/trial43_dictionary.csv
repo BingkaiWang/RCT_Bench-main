@@ -1,0 +1,44 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+43,Treatment,Treatment assignment,factor,factor,823,0,2,Control; Intervention,Treatment: randomized treatment assignment with cleaned-data arms: Control; Intervention. Publication-designated control/reference: Control.
+43,YP_preterm_flag,Primary outcome,factor,factor,823,0,3,   ; No ; Yes,Primary outcome: Preterm flag. Publication-defined endpoint context: Gestational age at the end of pregnancy. Categories/codes in the cleaned data: ; No ; Yes.
+43,YP_GA_days,Primary outcome,continuous,integer,823,0,95,103 to 302,Primary outcome: Gestational age days. Publication-defined endpoint context: Gestational age at the end of pregnancy.
+43,YS_birthweight_g,Secondary outcome,continuous,integer,823,14,392,101 to 5160,Secondary outcome: Birthweight g.
+43,YS_Apgar1_1min,Secondary outcome,continuous,integer,823,41,11,0 to 10,"Secondary outcome: Apgar1, measured at 1 minute."
+43,YS_Apgar5_5min,Secondary outcome,continuous,integer,823,41,10,0 to 10,"Secondary outcome: Apgar5, measured at 5 minutes."
+43,YS_anySAE_flag,Secondary outcome,binary,factor,823,0,2,No ; Yes,Secondary outcome: Any serious adverse event flag.
+43,X_Age_0d,Baseline covariate,continuous,integer,823,0,28,16 to 44,Baseline covariate: Age.
+43,X_Black_0d,Baseline covariate,binary,factor,823,0,2,No ; Yes,Baseline covariate: Black.
+43,X_White_0d,Baseline covariate,binary,factor,823,0,2,No ; Yes,Baseline covariate: White.
+43,X_NatAm_0d,Baseline covariate,binary,factor,823,0,2,No ; Yes,Baseline covariate: Nat am.
+43,X_Asian_0d,Baseline covariate,binary,factor,823,0,2,No ; Yes,Baseline covariate: Asian.
+43,X_Hisp_0d,Baseline covariate,factor,factor,823,0,3,   ; No ; Yes,Baseline covariate: Hisp. Categories/codes in the cleaned data: ; No ; Yes.
+43,X_Education_0d,Baseline covariate,factor,factor,823,0,3,8-12 yrs ; LT 8 yrs ; MT 12 yrs,Baseline covariate: Education. Categories/codes in the cleaned data: 8-12 yrs ; LT 8 yrs ; MT 12 yrs.
+43,X_PublicAssist_0d,Baseline covariate,binary,factor,823,0,2,No ; Yes,Baseline covariate: Public assist.
+43,X_Hypertension_0d,Baseline covariate,binary,factor,823,0,2,N  ; Y  ,Baseline covariate: Hypertension.
+43,X_Diabetes_0d,Baseline covariate,binary,factor,823,0,2,No ; Yes,Baseline covariate: Diabetes.
+43,X_DiabType_0d,Baseline covariate,binary,factor,823,799,2,Type I    ; Type II   ,Baseline covariate: Diab type.
+43,X_BMI_0d,Baseline covariate,continuous,integer,823,73,44,15 to 68,"Baseline covariate: Body mass index (BMI), in kg/m²."
+43,X_UseTob_0d,Baseline covariate,factor,factor,823,0,3,   ; No ; Yes,Baseline covariate: Use tob. Categories/codes in the cleaned data: ; No ; Yes.
+43,X_CigsPerDay_0d,Baseline covariate,continuous,integer,823,731,14,1 to 30,Baseline covariate: Cigs per day.
+43,X_UseAlc_0d,Baseline covariate,factor,factor,823,0,3,   ; No ; Yes,Baseline covariate: Use alcohol use. Categories/codes in the cleaned data: ; No ; Yes.
+43,X_DrinksPerDay_0d,Baseline covariate,continuous,integer,823,810,6,0 to 35,Baseline covariate: Drinks per day.
+43,X_DrugAdd_0d,Baseline covariate,factor,factor,823,0,3,   ; No ; Yes,Baseline covariate: Drug add. Categories/codes in the cleaned data: ; No ; Yes.
+43,X_PrevPreg_0d,Baseline covariate,binary,factor,823,0,2,No ; Yes,Baseline covariate: Prev preg.
+43,X_NPrevPreg_0d,Baseline covariate,continuous,integer,823,217,10,1 to 11,Baseline covariate: Nprev preg.
+43,X_LivePTB_0d,Baseline covariate,binary,factor,823,212,2,No ; Yes,Baseline covariate: Live preterm birth.
+43,X_Stillbirth_0d,Baseline covariate,binary,factor,823,212,2,No ; Yes,Baseline covariate: Stillbirth.
+43,X_SpontAb_0d,Baseline covariate,factor,factor,823,212,3,   ; No ; Yes,Baseline covariate: Spont ab. Categories/codes in the cleaned data: ; No ; Yes.
+43,X_InducedAb_0d,Baseline covariate,factor,factor,823,212,4,   ; No; No ; Yes,Baseline covariate: Induced ab. Categories/codes in the cleaned data: ; No; No ; Yes.
+43,X_PregLoss_0d,Baseline covariate,binary,factor,823,212,2,No ; Yes,Baseline covariate: Preg loss.
+43,X_NLivingKids_0d,Baseline covariate,continuous,integer,823,301,10,0 to 9,Baseline covariate: Nliving kids.
+43,X_NQualTeeth_0d,Baseline covariate,continuous,integer,823,0,26,3 to 28,Baseline covariate: Nqual teeth.
+43,X_GE_0d,Baseline covariate,continuous,numeric,823,0,464,0.429 to 3,Baseline covariate: Gingival index.
+43,X_pctBOP_0d,Baseline covariate,continuous,numeric,823,0,381,33.951 to 100,Baseline covariate: Percentage bop.
+43,X_PDavg_0d,Baseline covariate,continuous,numeric,823,0,520,1.851 to 6.967,"Baseline covariate: Mean periodontal probing depth, in mm."
+43,X_pctPD4_0d,Baseline covariate,continuous,numeric,823,0,361,3.571 to 99.167,Baseline covariate: Percentage pd4.
+43,X_pctPD5_0d,Baseline covariate,continuous,numeric,823,0,266,0 to 91.667,Baseline covariate: Percentage pd5.
+43,X_CALavg_0d,Baseline covariate,continuous,numeric,823,0,571,0.185 to 5.119,"Baseline covariate: Mean clinical attachment loss (CAL), in mm."
+43,X_pctCAL2_0d,Baseline covariate,continuous,numeric,823,0,466,2.381 to 100,Baseline covariate: Percentage cal2.
+43,X_pctCAL3_0d,Baseline covariate,continuous,numeric,823,0,331,0 to 94.872,Baseline covariate: Percentage cal3.
+43,X_CalcI_0d,Baseline covariate,continuous,numeric,823,0,108,0 to 3,Baseline covariate: Calc i.
+43,X_PlI_0d,Baseline covariate,continuous,numeric,823,0,98,0.056 to 3,Baseline covariate: Pl i.
