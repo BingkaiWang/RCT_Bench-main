@@ -1,0 +1,10 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+115,Treatment,Treatment assignment,factor,factor,511,0,4,Control- no SMS; PP Checklist & FP SMS; PP Checklist & PNC General; PP Checklist Only,Treatment: randomized treatment assignment with cleaned-data arms: Control- no SMS; PP Checklist & FP SMS; PP Checklist & PNC General; PP Checklist Only. Publication-designated control/reference: PP Checklist Only.
+115,YP_family_planning_uptake,Primary outcome,binary,numeric,511,2,2,0; 1,Primary outcome: Family planning uptake. Publication-defined endpoint context: family planning uptake.
+115,YS_sought_treatment_postpartum,Secondary outcome,binary,numeric,511,317,2,0; 1,Secondary outcome: Sought treatment postpartum.
+115,YS_chose_longacting_fp,Secondary outcome,binary,numeric,511,0,2,0; 1,Secondary outcome: Chose longacting fp.
+115,X_education,Baseline covariate,factor,character,511,0,14,College (non-university); Form 1; Form 2; Form 3; Form 4; Informal Training; Polytechnic; Primary grade 2; Primary grade 4; Primary grade 5; Primary grade 6; Primary grade 7; Primary grade 8; University,Baseline covariate: Education.
+115,X_marital_status,Baseline covariate,factor,character,511,0,5,Married; Partnered; Separated; Single; Widowed,Baseline covariate: Marital status. Categories/codes in the cleaned data: Married; Partnered; Separated; Single; Widowed.
+115,X_number_pregnancies,Baseline covariate,continuous,integer,511,0,8,1 to 8,Baseline covariate: Number pregnancies.
+115,X_ever_used_fp,Baseline covariate,factor,character,511,0,4,; no; refused; yes,Baseline covariate: Ever used fp. Categories/codes in the cleaned data: ; no; refused; yes.
+115,X_hospital,Baseline covariate,factor,character,511,0,4,1; 2; 3; Ruiu,Baseline covariate: Hospital. Categories/codes in the cleaned data: 1; 2; 3; Ruiu.

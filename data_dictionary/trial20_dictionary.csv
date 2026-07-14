@@ -1,0 +1,25 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+20,Treatment,Treatment assignment,factor,factor,37,0,2,IWT only; IWT+Support,Treatment: randomized treatment assignment with cleaned-data arms: IWT only; IWT+Support. Publication-designated control/reference: IWT only.
+20,YP_IWT_minutes_12w,Primary outcome,continuous,numeric,37,0,34,0 to 2025.24,"Primary outcome: Accumulated interval-walking-training minutes, measured at 12 weeks."
+20,YS_delta_HbA1c_12w,Secondary outcome,continuous,numeric,37,6,12,-12 to 7,Secondary outcome: Change from baseline to 12 weeks in glycated haemoglobin (HbA1c).
+20,YS_delta_AndroidFat_12w,Secondary outcome,continuous,numeric,37,6,24,-0.032 to 0.06,Secondary outcome: Change from baseline to 12 weeks in android fat.
+20,YS_delta_GynoidFat_12w,Secondary outcome,continuous,numeric,37,6,25,-0.059 to 0.034,Secondary outcome: Change from baseline to 12 weeks in gynoid fat.
+20,YS_delta_TotalFat_12w,Secondary outcome,continuous,numeric,37,6,22,-0.029 to 0.027,Secondary outcome: Change from baseline to 12 weeks in total fat.
+20,YS_delta_Weight_12w,Secondary outcome,continuous,numeric,37,6,24,-6.5 to 3.3,Secondary outcome: Change from baseline to 12 weeks in weight.
+20,YS_delta_PAEE_12w,Secondary outcome,continuous,numeric,37,8,29,-50.9702 to 21.3293,Secondary outcome: Change from baseline to 12 weeks in physical-activity energy expenditure.
+20,YS_delta_QoL_Physical_12w,Secondary outcome,continuous,numeric,37,10,27,-22.2018 to 25.5589,Secondary outcome: Change from baseline to 12 weeks in qo l physical.
+20,YS_delta_QoL_Mental_12w,Secondary outcome,continuous,numeric,37,10,27,-33.0092 to 18.7915,Secondary outcome: Change from baseline to 12 weeks in qo l mental.
+20,YS_delta_VO2max_12w,Secondary outcome,continuous,numeric,37,8,29,-143.267 to 745.158,Secondary outcome: Change from baseline to 12 weeks in maximal oxygen uptake (VO2max).
+20,X_Age_0w,Baseline covariate,continuous,numeric,37,0,20,54 to 80,Baseline covariate: Age.
+20,X_Sex_0w,Baseline covariate,binary,factor,37,0,2,1; 2,Baseline covariate: Sex.
+20,X_BMI_0w,Baseline covariate,continuous,numeric,37,2,35,18.6249 to 40.1247,"Baseline covariate: Body mass index (BMI), in kg/m²."
+20,X_Height_0w,Baseline covariate,continuous,numeric,37,2,33,155.1 to 184.5,Baseline covariate: Height.
+20,X_Weight_0w,Baseline covariate,continuous,numeric,37,2,34,45.5 to 116.1,Baseline covariate: Weight.
+20,X_HbA1c_0w,Baseline covariate,continuous,numeric,37,2,21,36 to 88,Baseline covariate: Glycated haemoglobin (HbA1c).
+20,X_AndroidFat_0w,Baseline covariate,continuous,numeric,37,2,30,0.247 to 0.576,Baseline covariate: Android fat.
+20,X_GynoidFat_0w,Baseline covariate,continuous,numeric,37,2,34,0.185 to 0.549,Baseline covariate: Gynoid fat.
+20,X_TotalFat_0w,Baseline covariate,continuous,numeric,37,2,32,0.164 to 0.5,Baseline covariate: Total fat.
+20,X_PAEE_0w,Baseline covariate,continuous,numeric,37,8,29,3.0048 to 65.7064,Baseline covariate: Physical-activity energy expenditure.
+20,X_QoL_Physical_0w,Baseline covariate,continuous,numeric,37,9,27,27.0408 to 55.4254,Baseline covariate: Qo l physical.
+20,X_QoL_Mental_0w,Baseline covariate,continuous,numeric,37,9,27,21.4851 to 62.1605,Baseline covariate: Qo l mental.
+20,X_VO2max_0w,Baseline covariate,continuous,numeric,37,5,32,1265.41 to 2714.82,Baseline covariate: Maximal oxygen uptake (VO2max).

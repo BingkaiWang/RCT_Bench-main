@@ -1,0 +1,21 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+121,Treatment,Treatment assignment,factor,factor,144,0,3,Control; Monitor + Accept; Monitor Only,Treatment: randomized treatment assignment with cleaned-data arms: Control; Monitor + Accept; Monitor Only. Publication-designated control/reference: Control.
+121,X_source_subject_id,Baseline covariate,continuous,integer,144,0,144,103 to 270,Baseline covariate: Source subject id.
+121,YP_subjective_stress_overall,Primary outcome,continuous,numeric,144,0,129,0 to 100,Primary outcome: Subjective stress overall. Publication-defined endpoint context: Subjective stress reactivity composite.
+121,YS_cortisol_auc_i_log_em,Secondary outcome,continuous,numeric,144,0,142,-138.978 to 167.863,Secondary outcome: Log-transformed cortisol area under the curve with respect to increase during the Trier Social Stress Test.
+121,YS_cortisol_log_25min_post_tsst,Secondary outcome,continuous,numeric,144,0,130,-0.82 to 3.04023,Secondary outcome: Cortisol log 25min post-intervention tsst.
+121,YS_cortisol_log_35min_post_tsst,Secondary outcome,continuous,numeric,144,0,131,-0.84397 to 2.90197,Secondary outcome: Cortisol log 35min post-intervention tsst.
+121,YS_dbp_tsst_performance,Secondary outcome,continuous,numeric,144,2,111,58.1667 to 122,Secondary outcome: Diastolic blood pressure tsst performance.
+121,YS_sbp_tsst_performance,Secondary outcome,continuous,numeric,144,2,123,102.167 to 200.6,Secondary outcome: Systolic blood pressure tsst performance.
+121,X_cortisol_log_prestress_0d,Baseline covariate,continuous,numeric,144,0,125,-0.562119 to 2.66305,Baseline covariate: Cortisol log prestress.
+121,X_dbp_prestress_0d,Baseline covariate,continuous,numeric,144,0,73,52.3333 to 112,Baseline covariate: Diastolic blood pressure prestress.
+121,X_sbp_prestress_0d,Baseline covariate,continuous,numeric,144,0,88,88.3333 to 183.667,Baseline covariate: Systolic blood pressure prestress.
+121,X_age_years,Baseline covariate,continuous,numeric,144,0,39,18 to 65,Baseline covariate: Age years.
+121,X_sex,Baseline covariate,binary,character,144,0,2,Female; Male,Baseline covariate: Sex.
+121,X_race,Baseline covariate,factor,character,144,0,5,Asian; Bi/multiracial; Black; Native American; White,Baseline covariate: Race. Categories/codes in the cleaned data: Asian; Bi/multiracial; Black; Native American; White.
+121,X_ethnicity_code,Baseline covariate,binary,numeric,144,0,2,1; 2,Baseline covariate: Ethnicity code.
+121,X_education_code,Baseline covariate,continuous,numeric,144,0,8,2 to 9,Baseline covariate: Education code.
+121,X_bmi,Baseline covariate,continuous,numeric,144,2,104,15.6 to 44.6,"Baseline covariate: Body mass index (BMI), in kg/m²."
+121,X_lessons_completed,Baseline covariate,continuous,numeric,144,0,8,5 to 14,Baseline covariate: Lessons completed.
+121,X_days_intervention_end_to_post,Baseline covariate,continuous,numeric,144,0,9,3 to 12,Baseline covariate: Days intervention end to.
+121,X_follicular_phase_post,Baseline covariate,binary,numeric,144,0,2,0; 1,Baseline covariate: Follicular phase.

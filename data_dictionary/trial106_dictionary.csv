@@ -1,0 +1,9 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+106,Treatment,Treatment assignment,factor,factor,44,0,2,Mentalization-based treatment; Third wave cognitive therapy,Treatment: randomized treatment assignment with cleaned-data arms: Mentalization-based treatment; Third wave cognitive therapy. Publication-designated control/reference: Mentalization-based treatment.
+106,YP_hdrs_18w,Primary outcome,continuous,numeric,44,2,20,1 to 28,"Primary outcome: Hamilton Depression Rating Scale (HDRS) score, measured at 18 weeks."
+106,YS_bdi_18w,Secondary outcome,continuous,numeric,44,6,26,1 to 45,"Secondary outcome: Beck Depression Inventory score, measured at 18 weeks."
+106,YS_who5_18w,Secondary outcome,continuous,numeric,44,2,18,2 to 21,"Secondary outcome: WHO-5 Well-Being Index score, measured at 18 weeks."
+106,X_hdrs_0w,Baseline covariate,continuous,numeric,44,1,18,7 to 30,Baseline covariate: Hamilton Depression Rating Scale (HDRS) score.
+106,X_bdi_0w,Baseline covariate,continuous,numeric,44,1,24,18 to 56,Baseline covariate: Beck Depression Inventory score.
+106,X_who5_0w,Baseline covariate,continuous,numeric,44,1,11,0 to 14,Baseline covariate: WHO-5 Well-Being Index score.
+106,X_personality_type,Baseline covariate,continuous,numeric,44,0,3,1 to 3,Baseline covariate: Personality type.

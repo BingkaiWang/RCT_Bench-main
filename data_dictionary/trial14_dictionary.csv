@@ -1,0 +1,49 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+14,Treatment,Treatment assignment,factor,factor,119,0,2,No Active Rehabilitation; TERECO,Treatment: randomized treatment assignment with cleaned-data arms: No Active Rehabilitation; TERECO. Publication-designated control/reference: No Active Rehabilitation.
+14,YP_6MWD_6w,Primary outcome,continuous,numeric,119,7,83,134 to 710,"Primary outcome: 6 mwd, measured at 6 weeks. Publication-defined endpoint context: 6-minute walking distance (6MWD) in meters at 6 weeks (post-treatment) and at follow-up (~28 weeks)."
+14,YP_6MWD_28w,Primary outcome,continuous,numeric,119,14,66,125 to 725,"Primary outcome: 6 mwd, measured at 28 weeks. Publication-defined endpoint context: 6-minute walking distance (6MWD) in meters at 6 weeks (post-treatment) and at follow-up (~28 weeks)."
+14,YS_squat_6w,Secondary outcome,continuous,numeric,119,7,67,3 to 182,"Secondary outcome: Squat, measured at 6 weeks."
+14,YS_squat_28w,Secondary outcome,continuous,numeric,119,14,56,2 to 200,"Secondary outcome: Squat, measured at 28 weeks."
+14,YS_fvc_6w,Secondary outcome,continuous,numeric,119,8,95,1.23 to 5.59,"Secondary outcome: Forced vital capacity (FVC), measured at 6 weeks."
+14,YS_fvc_28w,Secondary outcome,continuous,numeric,119,16,87,1.51 to 5.08,"Secondary outcome: Forced vital capacity (FVC), measured at 28 weeks."
+14,YS_fev1_6w,Secondary outcome,continuous,numeric,119,8,87,1.07 to 4.77,"Secondary outcome: Forced expiratory volume in 1 second (FEV1), measured at 6 weeks."
+14,YS_fev1_28w,Secondary outcome,continuous,numeric,119,16,85,1.24 to 4.46,"Secondary outcome: Forced expiratory volume in 1 second (FEV1), measured at 28 weeks."
+14,YS_fevfvc_6w,Secondary outcome,continuous,numeric,119,8,110,0.34153 to 0.997368,"Secondary outcome: Ratio of forced expiratory volume in 1 second to forced vital capacity (FEV1/FVC), measured at 6 weeks."
+14,YS_fevfvc_28w,Secondary outcome,continuous,numeric,119,16,103,0.400463 to 0.985542,"Secondary outcome: Ratio of forced expiratory volume in 1 second to forced vital capacity (FEV1/FVC), measured at 28 weeks."
+14,YS_mvv_6w,Secondary outcome,continuous,numeric,119,8,111,19.44 to 166.8,"Secondary outcome: Maximum voluntary ventilation (MVV), measured at 6 weeks."
+14,YS_mvv_28w,Secondary outcome,continuous,numeric,119,16,100,23.3 to 183.5,"Secondary outcome: Maximum voluntary ventilation (MVV), measured at 28 weeks."
+14,YS_pef_6w,Secondary outcome,continuous,numeric,119,8,98,1.09 to 11.59,"Secondary outcome: Peak expiratory flow (PEF), measured at 6 weeks."
+14,YS_pef_28w,Secondary outcome,continuous,numeric,119,16,90,1.5 to 11.09,"Secondary outcome: Peak expiratory flow (PEF), measured at 28 weeks."
+14,YS_SF12_PCS_6w,Secondary outcome,continuous,numeric,119,7,109,23.1775 to 59.716,"Secondary outcome: 12-item Short Form Survey physical-component summary score, measured at 6 weeks."
+14,YS_SF12_PCS_28w,Secondary outcome,continuous,numeric,119,14,100,21.9334 to 58.9895,"Secondary outcome: 12-item Short Form Survey physical-component summary score, measured at 28 weeks."
+14,YS_SF12_MCS_6w,Secondary outcome,continuous,numeric,119,7,109,20.1526 to 67.6005,"Secondary outcome: 12-item Short Form Survey mental-component summary score, measured at 6 weeks."
+14,YS_SF12_MCS_28w,Secondary outcome,continuous,numeric,119,14,100,19.816 to 70.7118,"Secondary outcome: 12-item Short Form Survey mental-component summary score, measured at 28 weeks."
+14,YS_dyspnea_6w,Secondary outcome,binary,factor,119,7,2,0; 1,"Secondary outcome: Dyspnea, measured at 6 weeks."
+14,YS_dyspnea_28w,Secondary outcome,binary,factor,119,14,2,0; 1,"Secondary outcome: Dyspnea, measured at 28 weeks."
+14,YS_dyspnea_2w,Secondary outcome,binary,factor,119,5,2,0; 1,"Secondary outcome: Dyspnea, measured at 2 weeks."
+14,YS_dyspnea_4w,Secondary outcome,binary,factor,119,5,2,0; 1,"Secondary outcome: Dyspnea, measured at 4 weeks."
+14,YS_AE,Secondary outcome,binary,factor,119,0,2,0; 1,Secondary outcome: Adverse-event occurrence.
+14,X_center_0w,Baseline covariate,factor,factor,119,0,3,1; 2; 3,Baseline covariate: Center. Categories/codes in the cleaned data: 1; 2; 3.
+14,X_sex_0w,Baseline covariate,binary,factor,119,0,2,0; 1,Baseline covariate: Sex.
+14,X_age_0w,Baseline covariate,continuous,numeric,119,0,118,21.01 to 74.35,Baseline covariate: Age.
+14,X_disease_severity_0w,Baseline covariate,binary,factor,119,0,2,0; 1,Baseline covariate: Disease severity.
+14,X_corticosteroid_0w,Baseline covariate,binary,factor,119,0,2,0; 1,Baseline covariate: Corticosteroid.
+14,X_oxygen_0w,Baseline covariate,binary,factor,119,0,2,0; 1,Baseline covariate: Oxygen.
+14,X_los_0w,Baseline covariate,time-to-event/continuous time,numeric,119,0,44,2 to 77,Baseline covariate: Length of stay.
+14,X_comorbidity_0w,Baseline covariate,factor,factor,119,0,3,0; 1; 2,Baseline covariate: Comorbidity. Categories/codes in the cleaned data: 0; 1; 2.
+14,X_diabetes_0w,Baseline covariate,binary,factor,119,0,2,0; 1,Baseline covariate: Diabetes.
+14,X_heart_0w,Baseline covariate,binary,factor,119,0,2,0; 1,Baseline covariate: Heart.
+14,X_lung_0w,Baseline covariate,binary,factor,119,0,2,0; 1,Baseline covariate: Lung.
+14,X_obesity_0w,Baseline covariate,binary,factor,119,0,2,0; 1,Baseline covariate: Obesity.
+14,X_hypertension_0w,Baseline covariate,binary,factor,119,0,2,0; 1,Baseline covariate: Hypertension.
+14,X_othercomorb_0w,Baseline covariate,binary,factor,119,0,2,0; 1,Baseline covariate: Othercomorb.
+14,X_smoke_0w,Baseline covariate,binary,factor,119,0,2,0; 1,Baseline covariate: Smoke.
+14,X_6MWD_0w,Baseline covariate,continuous,numeric,119,0,82,118 to 732,Baseline covariate: 6 mwd.
+14,X_squat_0w,Baseline covariate,continuous,numeric,119,0,58,2 to 140,Baseline covariate: Squat.
+14,X_fvc_0w,Baseline covariate,continuous,numeric,119,4,88,1.04 to 5.03,Baseline covariate: Forced vital capacity (FVC).
+14,X_fev1_0w,Baseline covariate,continuous,numeric,119,4,94,0.66 to 4.67,Baseline covariate: Forced expiratory volume in 1 second (FEV1).
+14,X_fevfvc_0w,Baseline covariate,continuous,numeric,119,4,114,0.252874 to 0.991379,Baseline covariate: Ratio of forced expiratory volume in 1 second to forced vital capacity (FEV1/FVC).
+14,X_mvv_0w,Baseline covariate,continuous,numeric,119,4,115,10.15 to 165.6,Baseline covariate: Maximum voluntary ventilation (MVV).
+14,X_pef_0w,Baseline covariate,continuous,numeric,119,4,107,0.61 to 10.5,Baseline covariate: Peak expiratory flow (PEF).
+14,X_SF12_PCS_0w,Baseline covariate,continuous,numeric,119,0,114,20.8348 to 59.792,Baseline covariate: 12-item Short Form Survey physical-component summary score.
+14,X_SF12_MCS_0w,Baseline covariate,continuous,numeric,119,0,114,15.2949 to 65.9479,Baseline covariate: 12-item Short Form Survey mental-component summary score.

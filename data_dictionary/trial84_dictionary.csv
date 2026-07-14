@@ -1,0 +1,13 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+84,Treatment,Treatment assignment,factor,factor,156,0,2,BPT; CBT,Treatment: randomized treatment assignment with cleaned-data arms: BPT; CBT. Publication-designated control/reference: CBT comparator.
+84,YP_delta_madrs_post_pre,Primary outcome,continuous,numeric,156,16,42,-33 to 15,Primary outcome: Change from pre-intervention to post-intervention in Montgomery-Åsberg Depression Rating Scale (MADRS) score.
+84,YP_madrs_post,Primary outcome,continuous,numeric,156,16,37,0 to 44,"Primary outcome: Montgomery-Åsberg Depression Rating Scale (MADRS) score, measured immediately after the intervention."
+84,YP_delta_phq_post_pre,Primary outcome,continuous,numeric,156,16,31,-21 to 10,Primary outcome: Change from pre-intervention to post-intervention in Patient Health Questionnaire depression score.
+84,YP_phq_post,Primary outcome,continuous,numeric,156,16,26,0 to 25,"Primary outcome: Patient Health Questionnaire depression score, measured immediately after the intervention."
+84,YS_phq_followup,Secondary outcome,time-to-event/continuous time,numeric,156,33,21,0 to 21,"Secondary outcome: Patient Health Questionnaire depression score, measured at follow-up."
+84,YS_gad_post,Secondary outcome,continuous,numeric,156,16,20,0 to 21,"Secondary outcome: Generalized Anxiety Disorder scale score, measured immediately after the intervention."
+84,X_phq_0w,Baseline covariate,continuous,numeric,156,0,23,3 to 25,Baseline covariate: Patient Health Questionnaire depression score.
+84,X_gad_0w,Baseline covariate,continuous,numeric,156,0,20,2 to 21,Baseline covariate: Generalized Anxiety Disorder scale score.
+84,X_madrs_0w,Baseline covariate,continuous,numeric,156,0,38,3 to 46,Baseline covariate: Montgomery-Åsberg Depression Rating Scale (MADRS) score.
+84,X_sphq_0w,Baseline covariate,continuous,numeric,156,0,18,8 to 27,Baseline covariate: Sphq.
+84,X_dropout_50_percent,Baseline covariate,binary,numeric,156,0,2,0; 1,Baseline covariate: Dropout 50 percent.

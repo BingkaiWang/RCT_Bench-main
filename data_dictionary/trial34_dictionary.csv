@@ -1,0 +1,28 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+34,Treatment,Treatment assignment,factor,factor,4556,0,2,Placebo; Synbiotic,Treatment: randomized treatment assignment with cleaned-data arms: Placebo; Synbiotic. Publication-designated control/reference: Placebo.
+34,YP_sepsisdeath_60d,Primary outcome,binary,factor,4556,0,2,0; 1,"Primary outcome: Sepsisdeath, measured at 60 days. Publication-defined endpoint context: Composite of death or neonatal sepsis (culture-positive/negative sepsis or lower respiratory tract infection) within 60 days.."
+34,YS_delta_wt_60d,Secondary outcome,continuous,numeric,4556,250,111,0 to 4000,Secondary outcome: Change from baseline to 60 days in weight.
+34,YS_sepsisB,Secondary outcome,binary,factor,4556,0,2,0; 1,Secondary outcome: Sepsis b.
+34,YS_sepsisC,Secondary outcome,binary,factor,4556,0,2,0; 1,Secondary outcome: Sepsis c.
+34,YS_diarrhea,Secondary outcome,binary,factor,4556,0,2,0; 1,Secondary outcome: Diarrhea.
+34,YS_omphalitis,Secondary outcome,binary,factor,4556,0,2,0; 1,Secondary outcome: Omphalitis.
+34,YS_local_inf,Secondary outcome,binary,factor,4556,0,2,0; 1,Secondary outcome: Local inf.
+34,YS_abscess,Secondary outcome,binary,factor,4556,0,2,0; 1,Secondary outcome: Abscess.
+34,X_mom_age_0d,Baseline covariate,continuous,numeric,4556,14,28,13 to 43,Baseline covariate: Mom age.
+34,X_parity_0d,Baseline covariate,continuous,numeric,4556,15,10,1 to 10,Baseline covariate: Parity.
+34,X_placebirth_0d,Baseline covariate,factor,factor,4556,0,3,ANM center; Home; Hospital,Baseline covariate: Placebirth. Categories/codes in the cleaned data: ANM center; Home; Hospital.
+34,X_deliveredby_0d,Baseline covariate,factor,factor,4556,0,4,Dhai; Doctor; Family member; Paramedical worker,Baseline covariate: Deliveredby. Categories/codes in the cleaned data: Dhai; Doctor; Family member; Paramedical worker.
+34,X_deliverymode_0d,Baseline covariate,binary,factor,4556,0,2,Assisted/C-section; Unassisted,Baseline covariate: Deliverymode.
+34,X_birthwt_0d,Baseline covariate,continuous,numeric,4556,0,86,2000 to 4500,Baseline covariate: Birthwt.
+34,X_breastfed_0d,Baseline covariate,factor,factor,4556,1,4,> 24 hours after delivery; 1-12 hours after delivery; 13-24 hours after delivery; Immediately < 1 hour after,Baseline covariate: Breastfed. Categories/codes in the cleaned data: > 24 hours after delivery; 1-12 hours after delivery; 13-24 hours after delivery; Immediately < 1 hour after.
+34,X_colostrum_0d,Baseline covariate,binary,factor,4556,0,2,Discarded; Given to baby,Baseline covariate: Colostrum.
+34,X_cowmilk_0d,Baseline covariate,binary,factor,4556,0,2,0; 1,Baseline covariate: Cowmilk.
+34,X_honey_0d,Baseline covariate,binary,factor,4556,0,2,0; 1,Baseline covariate: Honey.
+34,X_formula_0d,Baseline covariate,binary,factor,4556,0,2,0; 1,Baseline covariate: Formula.
+34,X_waterboil_0d,Baseline covariate,binary,factor,4556,0,2,0; 1,Baseline covariate: Waterboil.
+34,X_waterunboil_0d,Baseline covariate,binary,factor,4556,0,1,0,Baseline covariate: Waterunboil.
+34,X_vitamindrops_0d,Baseline covariate,binary,factor,4556,0,2,0; 1,Baseline covariate: Vitamindrops.
+34,X_treattime_0d,Baseline covariate,binary,factor,4556,6,2,2; 3,Baseline covariate: Treattime.
+34,X_sex_0d,Baseline covariate,binary,factor,4556,0,2,Female; Male,Baseline covariate: Sex.
+34,X_twins_0d,Baseline covariate,binary,factor,4556,0,2,0; 1,Baseline covariate: Twins.
+34,X_wt_0d,Baseline covariate,continuous,numeric,4556,3,52,220 to 29000,Baseline covariate: Weight.

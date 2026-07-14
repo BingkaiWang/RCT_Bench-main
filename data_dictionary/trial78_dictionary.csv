@@ -1,0 +1,27 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+78,Treatment,Treatment assignment,factor,factor,105,0,2,Control; Regional thermotherapy,Treatment: randomized treatment assignment with cleaned-data arms: Control; Regional thermotherapy. Publication-designated control/reference: Control.
+78,YP_disease_progression_28d,Primary outcome,binary,numeric,105,0,2,0; 1,"Primary outcome: Disease progression, measured at 28 days. Publication-defined endpoint context: Any COVID-19 disease progression by 28 days."
+78,YS_critical_progression_28d,Secondary outcome,binary,numeric,105,0,2,0; 1,"Secondary outcome: Critical progression, measured at 28 days."
+78,YS_mortality_28d,Secondary outcome,binary,numeric,105,0,2,0; 1,"Secondary outcome: Mortality, measured at 28 days."
+78,YS_mechanical_ventilation_28d,Secondary outcome,binary,numeric,105,0,2,0; 1,"Secondary outcome: Mechanical ventilation, measured at 28 days."
+78,YS_icu_28d,Secondary outcome,binary,numeric,105,0,2,0; 1,"Secondary outcome: Intensive care unit, measured at 28 days."
+78,YS_ordinal_clinical_status_28d,Secondary outcome,continuous,numeric,105,0,5,1 to 7,"Secondary outcome: Ordinal clinical status, measured at 28 days."
+78,X_center,Baseline covariate,binary,factor,105,0,2,1; 2,Baseline covariate: Center.
+78,X_age,Baseline covariate,continuous,numeric,105,0,54,21 to 98,Baseline covariate: Age.
+78,X_sex,Baseline covariate,binary,factor,105,0,2,0; 1,Baseline covariate: Sex.
+78,X_weight_kg,Baseline covariate,continuous,numeric,105,0,46,45 to 140,Baseline covariate: Weight kg.
+78,X_height_m,Baseline covariate,continuous,numeric,105,0,32,1.4 to 1.85,Baseline covariate: Height m.
+78,X_bmi,Baseline covariate,continuous,numeric,105,0,99,19.6283 to 51.4233,"Baseline covariate: Body mass index (BMI), in kg/m²."
+78,X_covid_severity_0d,Baseline covariate,binary,factor,105,0,2,1; 2,Baseline covariate: Covid severity.
+78,X_days_symptom_onset,Baseline covariate,continuous,numeric,105,0,5,1 to 5,Baseline covariate: Days symptom onset.
+78,X_sbp_0d,Baseline covariate,continuous,numeric,105,0,21,90 to 160,"Baseline covariate: Systolic blood pressure, in mm Hg."
+78,X_dbp_0d,Baseline covariate,continuous,numeric,105,0,19,50 to 90,"Baseline covariate: Diastolic blood pressure, in mm Hg."
+78,X_hr_0d,Baseline covariate,continuous,numeric,105,0,39,52 to 133,Baseline covariate: Heart rate.
+78,X_rr_0d,Baseline covariate,continuous,numeric,105,0,16,14 to 36,Baseline covariate: Respiratory rate.
+78,X_temperature_0d,Baseline covariate,continuous,numeric,105,0,15,35.5 to 38.6,Baseline covariate: Temperature.
+78,X_o2_saturation_0d,Baseline covariate,continuous,numeric,105,0,12,21 to 99,Baseline covariate: Peripheral oxygen saturation.
+78,X_hypertension,Baseline covariate,binary,factor,105,0,2,0; 1,Baseline covariate: Hypertension.
+78,X_diabetes,Baseline covariate,binary,factor,105,0,2,0; 1,Baseline covariate: Diabetes.
+78,X_obesity,Baseline covariate,binary,factor,105,0,2,0; 1,Baseline covariate: Obesity.
+78,X_smoking,Baseline covariate,binary,factor,105,0,2,0; 1,Baseline covariate: Smoking.
+78,X_news2_0d,Baseline covariate,continuous,numeric,105,0,11,1 to 11,Baseline covariate: National Early Warning Score 2 (NEWS2).

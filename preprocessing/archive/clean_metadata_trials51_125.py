@@ -21,6 +21,8 @@ from typing import Any
 
 from openpyxl import load_workbook
 
+from metadata_taxonomy import grouped_research_area, standard_outcome_type
+
 
 ROOT = Path(__file__).resolve().parents[2]
 PUBLIC_META = ROOT / "meta_data.xlsx"
@@ -49,7 +51,6 @@ MAIN_COLUMNS = [
     "Randomization Scheme",
     "Randomization Scheme(High Level)",
     "Research Area",
-    "Text Data",
     "Citation",
 ]
 
@@ -338,7 +339,7 @@ def build_updates() -> tuple[dict[int, dict[str, Any]], list[dict[str, Any]]]:
         registry_id = CURATED.get(tid, {}).get("Trial Number/Name") or extract_registry_id(combined_text)
         study_phase = CURATED.get(tid, {}).get("Study Phase") or phase_from_text(combined_text)
         scheme, high_level = scheme_from_text(" ".join([str(row.get("Randomization Scheme") or ""), title, work.abstract]))
-        outcome_type = str(row.get("Primary Outcome Type") or "")
+        outcome_type = standard_outcome_type(tid)
 
         updates[tid] = {
             "Trial Number/Name": registry_id,
@@ -353,7 +354,10 @@ def build_updates() -> tuple[dict[int, dict[str, Any]], list[dict[str, Any]]]:
             "Statistical Model": model_from_existing_or_title(row.get("Statistical Model"), work.abstract, title, outcome_type),
             "Randomization Scheme": scheme,
             "Randomization Scheme(High Level)": high_level,
-            "Research Area": CURATED.get(tid, {}).get("Research Area") or research_area(title, row.get("Research Area")),
+            "Primary Outcome Type": outcome_type,
+            "Research Area": grouped_research_area(
+                CURATED.get(tid, {}).get("Research Area") or row.get("Research Area")
+            ),
             "Citation": work.cited_by_count if work.cited_by_count is not None else 0,
         }
         api_notes.append(

@@ -1,0 +1,22 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+74,Treatment,Treatment assignment,factor,factor,23,0,2,Core stability exercise; Standard care,Treatment: randomized treatment assignment with cleaned-data arms: Core stability exercise; Standard care. Publication-designated control/reference: Standard care.
+74,YP_delta_sara_post,Primary outcome,continuous,numeric,23,0,13,-6 to 2.5,Primary outcome: Change from baseline to immediately after the intervention in Scale for the Assessment and Rating of Ataxia (SARA) score.
+74,YP_delta_tis_post,Primary outcome,continuous,numeric,23,0,7,-3 to 5,Primary outcome: Change from baseline to immediately after the intervention in tis. Publication-defined endpoint context: Change in SARA ataxia severity and Trunk Impairment Scale after intervention.
+74,YS_delta_abc_balance_post,Secondary outcome,continuous,numeric,23,0,12,-14.7 to 23.77,Secondary outcome: Change from baseline to immediately after the intervention in Activities-specific Balance Confidence Scale balance.
+74,YS_delta_4m_walk_speed_post,Secondary outcome,continuous,numeric,23,0,6,-2 to 2.66667,Secondary outcome: Change from baseline to immediately after the intervention in 4m walk speed.
+74,YS_delta_eq5d_total_post,Secondary outcome,continuous,numeric,23,0,7,-4 to 3,Secondary outcome: Change from baseline to immediately after the intervention in EuroQol EQ-5D total/index score.
+74,YS_delta_sit_to_stand_post,Secondary outcome,continuous,numeric,23,0,6,-4 to 3,Secondary outcome: Change from baseline to immediately after the intervention in sit to stand.
+74,X_age,Baseline covariate,continuous,numeric,23,0,18,18 to 67,Baseline covariate: Age.
+74,X_sex,Baseline covariate,binary,factor,23,0,2,Dona; Home,Baseline covariate: Sex.
+74,X_activity,Baseline covariate,factor,factor,23,0,6,Casa; Docent; Jubilat; Oficina; Sanitari; Servei,Baseline covariate: Activity. Categories/codes in the cleaned data: Casa; Docent; Jubilat; Oficina; Sanitari; Servei.
+74,X_weight_kg,Baseline covariate,continuous,numeric,23,0,15,44 to 90,Baseline covariate: Weight kg.
+74,X_height_cm,Baseline covariate,continuous,numeric,23,0,15,1.51 to 1.82,Baseline covariate: Height cm.
+74,X_bmi,Baseline covariate,continuous,numeric,23,0,18,17.2 to 30.4,"Baseline covariate: Body mass index (BMI), in kg/m²."
+74,X_ataxia_type,Baseline covariate,factor,factor,23,0,7,Canvas; Friedrich; SCA 1; SCA 18; SCA 3; SCA 4; SCA 7,Baseline covariate: Ataxia type. Categories/codes in the cleaned data: Canvas; Friedrich; SCA 1; SCA 18; SCA 3; SCA 4; SCA 7.
+74,X_physiotherapy,Baseline covariate,binary,factor,23,0,2,No; Si,Baseline covariate: Physiotherapy.
+74,X_exercise,Baseline covariate,binary,factor,23,0,2,No; Si,Baseline covariate: Exercise.
+74,X_sara_total_0w,Baseline covariate,continuous,numeric,23,0,18,3 to 34.5,Baseline covariate: SARA ataxia score total.
+74,X_tis_total_0w,Baseline covariate,continuous,numeric,23,0,8,0 to 12,Baseline covariate: Trunk Impairment Scale total score.
+74,X_abc_balance_0w,Baseline covariate,continuous,numeric,23,0,23,0 to 96.8,Baseline covariate: Activities-specific Balance Confidence Scale balance.
+74,X_4m_walk_speed_0w,Baseline covariate,continuous,numeric,23,0,6,0 to 4,Baseline covariate: 4m walk speed.
+74,X_eq5d_total_0w,Baseline covariate,continuous,numeric,23,0,12,6 to 22,Baseline covariate: EuroQol EQ-5D total/index score.

@@ -1,0 +1,26 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+83,Treatment,Treatment assignment,factor,factor,59,0,2,Arm_0; Arm_1,Treatment: randomized treatment assignment with cleaned-data arms: Arm_0; Arm_1. Publication-designated control/reference: Control.
+83,YP_delta_pal_t3_t1,Primary outcome,continuous,numeric,59,2,39,-0.38 to 0.44,Primary outcome: Change from assessment T1 to T3 in physical activity level.
+83,YP_pal_t3,Primary outcome,continuous,numeric,59,2,39,1.37 to 2.45,"Primary outcome: Physical activity level, measured at assessment T3."
+83,YP_delta_total_energy_intake_t3_t1,Primary outcome,continuous,numeric,59,4,54,-2614 to 619,Primary outcome: Change from assessment T1 to T3 in total energy intake. Publication-defined endpoint context: Daily physical activity level and total energy intake at 12 weeks.
+83,YP_total_energy_intake_t3,Primary outcome,continuous,numeric,59,4,54,978 to 3149,"Primary outcome: Total energy intake, measured at assessment T3. Publication-defined endpoint context: Daily physical activity level and total energy intake at 12 weeks."
+83,YS_delta_steps_t3_t1,Secondary outcome,continuous,numeric,59,2,57,-6261 to 12464,Secondary outcome: Change from assessment T1 to T3 in steps.
+83,YS_steps_t3,Secondary outcome,continuous,numeric,59,2,57,2477 to 28045,"Secondary outcome: Steps, measured at assessment T3."
+83,YS_delta_mvpa_t3_t1,Secondary outcome,continuous,numeric,59,2,50,-143 to 111,Secondary outcome: Change from assessment T1 to T3 in mvpa.
+83,YS_delta_bmi_t3_t1,Secondary outcome,continuous,numeric,59,0,57,-5.26 to 1.05,"Secondary outcome: Change from assessment T1 to T3 in body mass index (BMI), in kg/m²."
+83,YS_delta_saturated_fat_t3_t1,Secondary outcome,continuous,numeric,59,4,55,-64.2 to 26.8,Secondary outcome: Change from assessment T1 to T3 in saturated fat.
+83,X_age_years,Baseline covariate,continuous,numeric,59,0,27,35 to 70,Baseline covariate: Age years.
+83,X_sex,Baseline covariate,binary,numeric,59,0,2,1; 2,Baseline covariate: Sex.
+83,X_ethnicity,Baseline covariate,continuous,numeric,59,0,4,1 to 5,Baseline covariate: Ethnicity.
+83,X_marital_status,Baseline covariate,continuous,numeric,59,0,4,1 to 4,Baseline covariate: Marital status.
+83,X_employment,Baseline covariate,continuous,numeric,59,0,5,1 to 5,Baseline covariate: Employment.
+83,X_education_level,Baseline covariate,continuous,numeric,59,0,7,1 to 7,Baseline covariate: Education level.
+83,X_imd,Baseline covariate,continuous,numeric,59,3,9,2 to 10,Baseline covariate: Index of Multiple Deprivation score.
+83,X_smoking_status,Baseline covariate,continuous,numeric,59,0,3,0 to 2,Baseline covariate: Smoking status.
+83,X_perceived_health,Baseline covariate,continuous,numeric,59,0,19,25 to 100,Baseline covariate: Perceived health.
+83,X_pal_t1,Baseline covariate,continuous,numeric,59,0,36,1.42 to 2.73,Baseline covariate: Physical activity level.
+83,X_total_energy_intake_t1,Baseline covariate,continuous,numeric,59,0,56,1105 to 4085,Baseline covariate: Total energy intake.
+83,X_steps_t1,Baseline covariate,continuous,numeric,59,0,58,2834 to 21138,Baseline covariate: Steps.
+83,X_mvpa_t1,Baseline covariate,continuous,numeric,59,0,52,45 to 470,Baseline covariate: Mvpa.
+83,X_bmi_t1,Baseline covariate,continuous,numeric,59,0,58,25 to 39.56,"Baseline covariate: Body mass index (BMI), in kg/m²."
+83,X_saturated_fat_t1,Baseline covariate,continuous,numeric,59,0,51,10.2 to 77,Baseline covariate: Saturated fat.

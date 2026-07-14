@@ -1,0 +1,19 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+24,Treatment,Treatment assignment,factor,factor,50,0,2,Auriculotherapy; Sham Comparator,Treatment: randomized treatment assignment with cleaned-data arms: Auriculotherapy; Sham Comparator. Publication-designated control/reference: Sham Comparator.
+24,YP_catheterized,Primary outcome,binary,factor,50,0,2,0; 1,Primary outcome: Catheterized. Publication-defined endpoint context: Requirement for bladder catheterization during the day and the first night following surgery.
+24,YS_anxiety_6h,Secondary outcome,continuous,numeric,50,17,6,0 to 5,"Secondary outcome: Anxiety, measured at 6 hours."
+24,YS_anxiety_1d,Secondary outcome,continuous,numeric,50,22,6,0 to 5,"Secondary outcome: Anxiety, measured at 1 day."
+24,YS_comfort_6h,Secondary outcome,continuous,numeric,50,16,8,0 to 10,"Secondary outcome: Comfort, measured at 6 hours."
+24,YS_comfort_1d,Secondary outcome,continuous,numeric,50,22,7,4 to 10,"Secondary outcome: Comfort, measured at 1 day."
+24,X_Age_0d,Baseline covariate,continuous,numeric,50,0,30,27 to 80,Baseline covariate: Age.
+24,X_Height_0d,Baseline covariate,continuous,numeric,50,0,26,154 to 193,Baseline covariate: Height.
+24,X_Weight_0d,Baseline covariate,continuous,numeric,50,0,29,50 to 104,Baseline covariate: Weight.
+24,X_BMI_0d,Baseline covariate,continuous,numeric,50,0,48,17.18 to 38.79,"Baseline covariate: Body mass index (BMI), in kg/m²."
+24,X_Diabetes_0d,Baseline covariate,binary,factor,50,1,2,0; 1,Baseline covariate: Diabetes.
+24,X_Sequelae_Stroke_0d,Baseline covariate,binary,factor,50,0,2,0; 1,Baseline covariate: Sequelae stroke.
+24,X_Alcoholism_0d,Baseline covariate,binary,factor,50,1,2,0; 1,Baseline covariate: Alcoholism.
+24,X_BetaBlocker_0d,Baseline covariate,binary,factor,50,0,2,0; 1,Baseline covariate: Beta blocker.
+24,X_Anesthesia_Duration_0d,Baseline covariate,continuous,numeric,50,0,44,95 to 336,Baseline covariate: Anesthesia duration.
+24,X_CrystalloidVolume_0d,Baseline covariate,continuous,numeric,50,0,32,500 to 2946,Baseline covariate: Crystalloid volume.
+24,X_NorepinephrineDose_0d,Baseline covariate,continuous,numeric,50,1,16,0 to 4,Baseline covariate: Norepinephrine dose.
+24,X_PACU_duration_0d,Baseline covariate,continuous,integer,50,0,16,1 to 26,Baseline covariate: Post-intervention-anaesthesia care unit duration.

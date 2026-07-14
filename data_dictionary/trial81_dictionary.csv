@@ -1,0 +1,15 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+81,Treatment,Treatment assignment,factor,factor,401,0,3,Arm_1; Arm_2; Arm_3,Treatment: randomized treatment assignment with cleaned-data arms: Arm_1; Arm_2; Arm_3. Publication-designated control/reference: Placebo.
+81,YP_nausea_present_24h,Primary outcome,binary,integer,401,1,2,0; 1,"Primary outcome: Nausea present, measured at 24 hours. Publication-defined endpoint context: Nausea/PONV at 24 hours."
+81,YS_rhodes_nausea_vomiting_score_24h,Secondary outcome,continuous,numeric,401,1,42,0 to 382,"Secondary outcome: Rhodes nausea vomiting score, measured at 24 hours."
+81,YS_nausea_intensity_24h,Secondary outcome,continuous,numeric,401,1,9,0 to 360,"Secondary outcome: Nausea intensity, measured at 24 hours."
+81,YS_vomiting_episodes_24h,Secondary outcome,continuous,numeric,401,1,4,0 to 3,"Secondary outcome: Vomiting episodes, measured at 24 hours."
+81,YS_rescue_medication_24h,Secondary outcome,binary,numeric,401,1,2,0; 1,"Secondary outcome: Rescue medication, measured at 24 hours."
+81,X_age_years,Baseline covariate,continuous,numeric,401,0,45,17 to 62,Baseline covariate: Age years.
+81,X_sex,Baseline covariate,binary,numeric,401,0,2,0; 9,Baseline covariate: Sex.
+81,X_weight_kg,Baseline covariate,continuous,numeric,401,0,302,69 to 194.4,Baseline covariate: Weight kg.
+81,X_height_m,Baseline covariate,continuous,numeric,401,0,40,1.46 to 1.88,Baseline covariate: Height m.
+81,X_bmi,Baseline covariate,continuous,numeric,401,0,394,27.6217 to 78.7742,"Baseline covariate: Body mass index (BMI), in kg/m²."
+81,X_operating_room,Baseline covariate,continuous,numeric,401,0,3,1 to 3,Baseline covariate: Operating room.
+81,X_asa,Baseline covariate,continuous,numeric,401,0,3,1 to 3,Baseline covariate: American Society of Anesthesiologists (ASA) physical-status class.
+81,X_surgery_duration_min,Baseline covariate,continuous,numeric,401,0,48,20 to 110,Baseline covariate: Surgery duration minutes.

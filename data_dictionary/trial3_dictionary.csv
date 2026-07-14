@@ -1,0 +1,35 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+3,Treatment,Treatment assignment,factor,factor,6030,0,2,Alert; Usual Care,Treatment: randomized treatment assignment with cleaned-data arms: Alert; Usual Care. Publication-designated control/reference: Usual Care.
+3,YP_composite_event,Primary outcome,binary,factor,6030,0,2,0; 1,"Primary outcome: Composite event. Publication-defined endpoint context: Composite of AKI progression (to a higher KDIGO stage), receipt of dialysis, or death within 14 days of randomization."
+3,YP_composite_time,Primary outcome,time-to-event/continuous time,numeric,6030,0,4252,0 to 14,"Primary outcome: Composite time. Publication-defined endpoint context: Composite of AKI progression (to a higher KDIGO stage), receipt of dialysis, or death within 14 days of randomization."
+3,YS_aki_progression_event,Secondary outcome,binary,factor,6030,0,2,0; 1,Secondary outcome: Aki progression event.
+3,YS_death_event,Secondary outcome,binary,factor,6030,0,2,0; 1,Secondary outcome: Death event.
+3,YS_dialysis_event,Secondary outcome,binary,factor,6030,0,2,0; 1,Secondary outcome: Dialysis event.
+3,YS_discharge_home,Secondary outcome,binary,factor,6030,0,2,0; 1,Secondary outcome: Discharge home.
+3,YS_los_since_alert,Secondary outcome,time-to-event/continuous time,numeric,6030,3,4966,0.00347222 to 226.294,Secondary outcome: Length of stay since alert.
+3,YS_discharge_inpatient_hospice,Secondary outcome,binary,factor,6030,0,2,0; 1,Secondary outcome: Discharge inpatient hospice.
+3,X_hospital_0m,Baseline covariate,continuous,numeric,6030,0,6,1 to 6,Baseline covariate: Hospital.
+3,X_admit_medical_0m,Baseline covariate,binary,factor,6030,0,2,0; 1,Baseline covariate: Admit medical.
+3,X_age_0m,Baseline covariate,continuous,numeric,6030,507,4759,18.137 to 89.989,Baseline covariate: Age.
+3,X_age_over_90_0m,Baseline covariate,binary,factor,6030,0,2,0; 1,Baseline covariate: Age over 90.
+3,X_bun_0m,Baseline covariate,continuous,numeric,6030,53,128,1 to 182,Baseline covariate: Blood urea nitrogen concentration.
+3,X_chf_0m,Baseline covariate,binary,factor,6030,0,2,0; 1,Baseline covariate: Congestive heart failure.
+3,X_copd_0m,Baseline covariate,binary,factor,6030,0,2,0; 1,Baseline covariate: Chronic obstructive pulmonary disease.
+3,X_creat_0m,Baseline covariate,continuous,numeric,6030,2,412,0.16 to 10.78,Baseline covariate: Serum creatinine concentration.
+3,X_diabetes_0m,Baseline covariate,binary,factor,6030,0,2,0; 1,Baseline covariate: Diabetes.
+3,X_diastolic_0m,Baseline covariate,continuous,numeric,6030,23,107,0 to 141,Baseline covariate: Diastolic.
+3,X_elx_score_0m,Baseline covariate,continuous,numeric,6030,0,18,0 to 17,Baseline covariate: Elx score.
+3,X_ethnicity_0m,Baseline covariate,binary,factor,6030,0,2,0; 1,Baseline covariate: Ethnicity.
+3,X_hypertension_0m,Baseline covariate,binary,factor,6030,0,2,0; 1,Baseline covariate: Hypertension.
+3,X_icu_0m,Baseline covariate,binary,factor,6030,0,2,0; 1,Baseline covariate: Intensive care unit.
+3,X_liver_disease_0m,Baseline covariate,binary,factor,6030,0,2,0; 1,Baseline covariate: Liver disease.
+3,X_malignancy_0m,Baseline covariate,binary,factor,6030,0,2,0; 1,Baseline covariate: Malignancy.
+3,X_potassium_0m,Baseline covariate,continuous,numeric,6030,61,54,2.2 to 8.5,Baseline covariate: Potassium.
+3,X_pulse_0m,Baseline covariate,continuous,numeric,6030,23,125,0 to 180,Baseline covariate: Pulse.
+3,X_race_0m,Baseline covariate,binary,factor,6030,0,2,0; 1,Baseline covariate: Race.
+3,X_resp_0m,Baseline covariate,continuous,numeric,6030,26,56,0 to 116,Baseline covariate: Respiratory.
+3,X_sex_0m,Baseline covariate,binary,factor,6030,0,2,0; 1,Baseline covariate: Sex.
+3,X_sodium_0m,Baseline covariate,continuous,numeric,6030,57,57,104 to 175,Baseline covariate: Sodium.
+3,X_sofa_0m,Baseline covariate,continuous,numeric,6030,0,14,0 to 13,Baseline covariate: Sequential Organ Failure Assessment (SOFA) score.
+3,X_systolic_0m,Baseline covariate,continuous,numeric,6030,23,149,38 to 220,Baseline covariate: Systolic.
+3,X_wbcc_0m,Baseline covariate,continuous,numeric,6030,102,838,0.1 to 183.1,Baseline covariate: White-blood-cell count.

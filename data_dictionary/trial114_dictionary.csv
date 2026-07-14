@@ -1,0 +1,9 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+114,Treatment,Treatment assignment,factor,factor,138,0,2,Early sitting; Progressive sitting,Treatment: randomized treatment assignment with cleaned-data arms: Early sitting; Progressive sitting. Publication-designated control/reference: Progressive sitting.
+114,YP_rankin_3m,Primary outcome,factor,character,138,0,9,[3-6]*; 0; 1; 2; 3; 4; 5; 5*; 6,"Primary outcome: Rankin, measured at 3 months. Publication-defined endpoint context: rankin 3m. Categories/codes in the cleaned data: [3-6]*; 0; 1; 2; 3; 4; 5; 5*; 6."
+114,YS_nihss_day7,Secondary outcome,factor,character,138,0,16,0; 1; 10; 11; 12; 14; 2; 21; 3; 4; 5; 6; 7; 8; 9; NK,"Secondary outcome: National Institutes of Health Stroke Scale (NIHSS) score, measured on day 7. Categories/codes in the cleaned data: 0; 1; 10; 11; 12; 14; 2; 21; 3; 4; 5; 6; 7; 8; 9; NK."
+114,YS_barthel_3m,Secondary outcome,factor,character,138,0,15,0; 030; 065; 090; 095; 100; 35; 50; 65; 75; 80; 85; 90; 95; NK,"Secondary outcome: Barthel Index score, measured at 3 months. Categories/codes in the cleaned data: 0; 030; 065; 090; 095; 100; 35; 50; 65; 75; 80; 85; 90; 95; NK."
+114,X_age_years,Baseline covariate,continuous,numeric,138,0,48,32 to 96,Baseline covariate: Age years.
+114,X_gender,Baseline covariate,binary,integer,138,0,2,0; 1,Baseline covariate: Gender.
+114,X_rankin_preadmission,Baseline covariate,factor,character,138,0,6,0; 1; 2; 3; D; NK,Baseline covariate: Rankin preadmission. Categories/codes in the cleaned data: 0; 1; 2; 3; D; NK.
+114,X_nihss_admission,Baseline covariate,continuous,numeric,138,0,20,0 to 24,Baseline covariate: NIH Stroke Scale admission.

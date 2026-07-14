@@ -1,0 +1,10 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+109,Treatment,Treatment assignment,factor,factor,120,0,3,Placebo; Vitamin K1; Vitamin K2,Treatment: randomized treatment assignment with cleaned-data arms: Placebo; Vitamin K1; Vitamin K2. Publication-designated control/reference: Vitamin K1.
+109,YP_mgp_post,Primary outcome,continuous,integer,120,0,44,80 to 6400,"Primary outcome: Matrix Gla protein concentration, measured immediately after the intervention."
+109,YS_ca_ph_product_post,Secondary outcome,continuous,numeric,120,0,115,11.76 to 99.84,"Secondary outcome: Ca ph product, measured immediately after the intervention."
+109,X_mgp_0m,Baseline covariate,continuous,integer,120,0,28,20 to 640,Baseline covariate: Matrix Gla protein concentration.
+109,X_ca_ph_product_0m,Baseline covariate,continuous,numeric,120,0,113,9.04 to 107.12,Baseline covariate: Ca ph product.
+109,X_age_years,Baseline covariate,continuous,integer,120,0,41,18 to 70,Baseline covariate: Age years.
+109,X_gender,Baseline covariate,binary,character,120,0,2,Female; Male,Baseline covariate: Gender.
+109,X_pth_0m,Baseline covariate,continuous,integer,120,0,114,15 to 3380,Baseline covariate: Parathyroid hormone concentration.
+109,X_duration_dialysis_years,Baseline covariate,continuous,numeric,120,0,22,0.5 to 20,Baseline covariate: Duration dialysis years.

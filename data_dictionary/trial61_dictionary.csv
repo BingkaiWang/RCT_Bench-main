@@ -1,0 +1,27 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+61,Treatment,Treatment assignment,factor,factor,61,0,2,Placebo; Supplement,Treatment: randomized treatment assignment with cleaned-data arms: Placebo; Supplement. Publication-designated control/reference: Placebo.
+61,YP_delta_fasting_glucose_4m,Primary outcome,continuous,numeric,61,2,57,-1.19 to 1.53,Primary outcome: Change from baseline to 4 months in fasting glucose. Publication-defined endpoint context: Change in fasting plasma glucose at 4 months.
+61,YS_delta_hba1c_4m,Secondary outcome,continuous,numeric,61,3,14,-0.3 to 0.5,Secondary outcome: Change from baseline to 4 months in glycated haemoglobin (HbA1c).
+61,YS_delta_homa_ir_4m,Secondary outcome,continuous,numeric,61,10,48,-1.68 to 0.9,Secondary outcome: Change from baseline to 4 months in homeostasis model assessment of insulin resistance (HOMA-IR).
+61,YS_delta_fasting_insulin_4m,Secondary outcome,continuous,numeric,61,10,46,-13.3 to 6.2,Secondary outcome: Change from baseline to 4 months in fasting insulin.
+61,X_sex,Baseline covariate,binary,factor,61,0,2,F; H,Baseline covariate: Sex.
+61,X_weight_0m,Baseline covariate,continuous,numeric,61,0,59,59.9 to 121.4,Baseline covariate: Weight.
+61,X_bmi_0m,Baseline covariate,continuous,numeric,61,1,49,25 to 42.5,"Baseline covariate: Body mass index (BMI), in kg/m²."
+61,X_waist_0m,Baseline covariate,continuous,numeric,61,0,32,74 to 129,Baseline covariate: Waist.
+61,X_hip_0m,Baseline covariate,continuous,numeric,61,0,29,93 to 142,Baseline covariate: Hip.
+61,X_sbp_0m,Baseline covariate,continuous,numeric,61,0,41,102 to 159,"Baseline covariate: Systolic blood pressure, in mm Hg."
+61,X_dbp_0m,Baseline covariate,continuous,numeric,61,0,32,56 to 105,"Baseline covariate: Diastolic blood pressure, in mm Hg."
+61,X_fasting_glucose_0m,Baseline covariate,continuous,numeric,61,2,52,4.9 to 7.65,Baseline covariate: Fasting glucose.
+61,X_hba1c_0m,Baseline covariate,continuous,numeric,61,0,17,4.9 to 6.9,Baseline covariate: Glycated haemoglobin (HbA1c).
+61,X_homa_ir_0m,Baseline covariate,continuous,numeric,61,6,50,0.3 to 4.1,Baseline covariate: Homeostasis model assessment of insulin resistance (HOMA-IR).
+61,X_fasting_insulin_0m,Baseline covariate,continuous,numeric,61,6,49,2.2 to 29.1,Baseline covariate: Fasting insulin.
+61,X_total_cholesterol_0m,Baseline covariate,continuous,numeric,61,0,52,1.2 to 3.11,Baseline covariate: Total cholesterol.
+61,X_hdl_0m,Baseline covariate,continuous,numeric,61,0,34,0.03 to 0.95,Baseline covariate: High-density-lipoprotein cholesterol concentration.
+61,X_ldl_0m,Baseline covariate,continuous,numeric,61,0,55,0.6 to 2.29,Baseline covariate: Low-density-lipoprotein cholesterol concentration.
+61,X_triglycerides_0m,Baseline covariate,continuous,numeric,61,0,53,0.38 to 2.94,Baseline covariate: Triglycerides.
+61,X_walking_activity_0m,Baseline covariate,continuous,numeric,61,1,21,0 to 3.88,Baseline covariate: Walking activity.
+61,X_sport_activity_0m,Baseline covariate,continuous,numeric,61,1,15,1.25 to 5.75,Baseline covariate: Sport activity.
+61,X_leisure_activity_0m,Baseline covariate,continuous,numeric,61,1,15,1.25 to 4.75,Baseline covariate: Leisure activity.
+61,X_tfeq_restraint_0m,Baseline covariate,continuous,numeric,61,1,18,2 to 21,Baseline covariate: Tfeq restraint.
+61,X_tfeq_disinhibition_0m,Baseline covariate,continuous,numeric,61,1,14,1 to 14,Baseline covariate: Tfeq disinhibition.
+61,X_tfeq_hunger_0m,Baseline covariate,continuous,numeric,61,1,13,0 to 13,Baseline covariate: Tfeq hunger.

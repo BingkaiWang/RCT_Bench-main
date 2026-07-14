@@ -1,0 +1,19 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+21,Treatment,Treatment assignment,factor,factor,1462,0,3,HIV; HIV-TB; SOC,Treatment: randomized treatment assignment with cleaned-data arms: HIV; HIV-TB; SOC. Publication-designated control/reference: SOC.
+21,YP_tb_treatment_initiation,Primary outcome,binary,factor,1462,0,2,0; 1,Primary outcome: Tuberculosis treatment initiation. Publication-defined endpoint context: Time in days (up to day 56) to TB treatment initiation.
+21,YP_days_to_tb_initiation,Primary outcome,continuous,integer,1462,0,20,0 to 56,Primary outcome: Days to tuberculosis initiation. Publication-defined endpoint context: Time in days (up to day 56) to TB treatment initiation.
+21,YS_undiagnosed_tb,Secondary outcome,binary,factor,1462,256,2,no; yes,Secondary outcome: Undiagnosed tuberculosis.
+21,YS_same_day_tb_treatment,Secondary outcome,binary,factor,1462,0,2,no; yes,Secondary outcome: Same day tuberculosis treatment.
+21,YS_undiagnosed_hiv,Secondary outcome,binary,factor,1462,256,2,no; yes,Secondary outcome: Undiagnosed human immunodeficiency virus.
+21,YS_mortality,Secondary outcome,binary,factor,1462,142,2,no; yes,Secondary outcome: Mortality.
+21,YS_eq5d_56d,Secondary outcome,continuous,numeric,1462,249,62,-0.01 to 1,"Secondary outcome: Eq5d, measured at 56 days."
+21,X_duration_of_cough_weeks_0d,Baseline covariate,continuous,numeric,1462,0,28,0.142857 to 312,Baseline covariate: Duration of cough weeks.
+21,X_night_sweats_0d,Baseline covariate,binary,factor,1462,0,2,No; Yes,Baseline covariate: Night sweats.
+21,X_weight_loss_0d,Baseline covariate,binary,factor,1462,0,2,No; Yes,Baseline covariate: Weight loss.
+21,X_fever_0d,Baseline covariate,binary,factor,1462,0,2,No; Yes,Baseline covariate: Fever.
+21,X_reported_hiv_status_0d,Baseline covariate,factor,factor,1462,0,3,HIV-negative; HIV-positive; Never tested,Baseline covariate: Reported human immunodeficiency virus status. Categories/codes in the cleaned data: HIV-negative; HIV-positive; Never tested.
+21,X_antiretroviral_therapy_0d,Baseline covariate,binary,factor,1462,0,2,no; yes,Baseline covariate: Antiretroviral therapy.
+21,X_eq5d_0d,Baseline covariate,continuous,numeric,1462,0,63,0.13 to 1,Baseline covariate: Eq5d.
+21,X_cad4tbv5_score_0d,Baseline covariate,continuous,numeric,1462,1013,75,19 to 100,Baseline covariate: CAD4TB version 5 computer-aided chest-radiograph score.
+21,X_cad4tbv5_above_threshold_0d,Baseline covariate,binary,factor,1462,1013,2,CAD4TBv5 negative; CAD4TBv5 positive,Baseline covariate: Cad4tbv5 above threshold.
+21,X_sputum_xpert_done_0d,Baseline covariate,binary,factor,1462,1175,2,No; Yes,Baseline covariate: Sputum xpert done.

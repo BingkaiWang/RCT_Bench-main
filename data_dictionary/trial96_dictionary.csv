@@ -1,0 +1,14 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+96,Treatment,Treatment assignment,factor,factor,35,0,2,Ceramide emulsion; Control,Treatment: randomized treatment assignment with cleaned-data arms: Ceramide emulsion; Control.
+96,YP_delta_tewl_7d,Primary outcome,continuous,numeric,35,0,34,-28 to 36,Primary outcome: Change from baseline to 7 days in transepidermal water loss.
+96,YS_delta_moisture_7d,Secondary outcome,continuous,numeric,35,0,35,-29.2 to 52.2,Secondary outcome: Change from baseline to 7 days in stratum-corneum moisture content.
+96,YS_delta_skin_ph_7d,Secondary outcome,continuous,numeric,35,0,33,-1.49 to 1.85,Secondary outcome: Change from baseline to 7 days in skin-surface pH.
+96,X_tewl_0d,Baseline covariate,continuous,numeric,35,0,33,6.1 to 41,Baseline covariate: Transepidermal water loss.
+96,X_moisture_0d,Baseline covariate,continuous,numeric,35,0,29,19.6 to 74.6,Baseline covariate: Stratum-corneum moisture content.
+96,X_skin_ph_0d,Baseline covariate,continuous,numeric,35,0,28,4.63 to 6.93,Baseline covariate: Skin-surface pH.
+96,X_operating_room_experience_years_0d,Baseline covariate,continuous,numeric,35,0,20,1 to 25,Baseline covariate: Operating room experience years.
+96,X_age_decade_0d,Baseline covariate,factor,factor,35,0,4,20代; 30代; 40代; 50代,Baseline covariate: Age decade. Categories/codes in the cleaned data: 20代; 30代; 40代; 50代.
+96,X_dominant_hand_0d,Baseline covariate,binary,factor,35,0,1,右,Baseline covariate: Dominant hand.
+96,X_handwashing_method_0d,Baseline covariate,binary,factor,35,0,2,スクラブ法; ラビング法,Baseline covariate: Handwashing method.
+96,X_inner_glove_0d,Baseline covariate,binary,factor,35,0,2,Protexis; センシタッチ,Baseline covariate: Inner glove.
+96,X_handwash_count_0d,Baseline covariate,continuous,numeric,35,0,4,0 to 5,Baseline covariate: Handwash count.

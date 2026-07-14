@@ -1,0 +1,15 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+53,Treatment,Treatment assignment,factor,factor,59,0,2,Group 1; Group 2,Treatment: randomized treatment assignment with cleaned-data arms: Group 1; Group 2. Publication-designated control/reference: Group 1/no block.
+53,YP_total_sufentanil_perioperative,Primary outcome,continuous,numeric,59,0,43,98 to 187,Primary outcome: Total sufentanil perioperative. Publication-defined endpoint context: Total perioperative cumulative sufentanil consumption.
+53,YS_sufentanil_0_24h,Secondary outcome,continuous,numeric,59,0,18,24 to 96,"Secondary outcome: Sufentanil 0, measured at 24 hours."
+53,YS_nrs_static_24h,Secondary outcome,continuous,numeric,59,0,3,1 to 3,"Secondary outcome: Numeric rating scale static, measured at 24 hours."
+53,YS_nrs_dynamic_24h,Secondary outcome,continuous,numeric,59,0,4,2 to 5,"Secondary outcome: Numeric rating scale dynamic, measured at 24 hours."
+53,YS_rescue_analgesia,Secondary outcome,binary,factor,59,0,2,0; 1,Secondary outcome: Rescue analgesia.
+53,YS_qor40,Secondary outcome,continuous,numeric,59,0,26,153 to 182,Secondary outcome: 40-item Quality of Recovery (QoR-40) score.
+53,X_age_0d,Baseline covariate,continuous,numeric,59,0,32,27 to 70,Baseline covariate: Age.
+53,X_male_0d,Baseline covariate,binary,factor,59,0,2,1; 2,Baseline covariate: Male.
+53,X_asa_0d,Baseline covariate,binary,numeric,59,0,2,1; 2,Baseline covariate: American Society of Anesthesiologists (ASA) physical-status class.
+53,X_bmi_0d,Baseline covariate,continuous,numeric,59,0,50,17.5781 to 29.2969,"Baseline covariate: Body mass index (BMI), in kg/m²."
+53,X_surgery_duration_0d,Baseline covariate,continuous,numeric,59,0,40,70 to 290,Baseline covariate: Surgery duration.
+53,X_anesthesia_duration_0d,Baseline covariate,continuous,numeric,59,0,35,98 to 340,Baseline covariate: Anesthesia duration.
+53,X_surgical_approach_0d,Baseline covariate,binary,factor,59,0,2,1; 2,Baseline covariate: Surgical approach.

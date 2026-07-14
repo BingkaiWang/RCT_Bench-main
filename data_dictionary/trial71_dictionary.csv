@@ -1,0 +1,18 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+71,Treatment,Treatment assignment,factor,factor,240,0,2,Control; Intervention,Treatment: randomized treatment assignment with cleaned-data arms: Control; Intervention. Publication-designated control/reference: Control.
+71,YP_preterm_or_low_birth_weight,Primary outcome,binary,numeric,240,27,2,0; 1,Primary outcome: Preterm or low birth weight. Publication-defined endpoint context: Composite preterm birth or low birth weight.
+71,YS_preterm,Secondary outcome,binary,numeric,240,27,2,0; 1,Secondary outcome: Preterm.
+71,YS_low_birth_weight,Secondary outcome,binary,numeric,240,27,2,0; 1,Secondary outcome: Low birth weight.
+71,YS_birth_weight_g,Secondary outcome,continuous,numeric,240,21,33,1700 to 5600,Secondary outcome: Birth weight g.
+71,X_age,Baseline covariate,continuous,numeric,240,0,19,17 to 36,Baseline covariate: Age.
+71,X_religion,Baseline covariate,factor,factor,240,0,3,CHRISTIAN; HINDU; MUSLIM,Baseline covariate: Religion. Categories/codes in the cleaned data: CHRISTIAN; HINDU; MUSLIM.
+71,X_education,Baseline covariate,factor,factor,240,0,16,0; 1; 10; 11; 14; 3; 4; 5; 6; 7; 8; 9; DEGREE; DIPLOMA; GRADUATE; POST GRADUATE,Baseline covariate: Education. Categories/codes in the cleaned data: 0; 1; 10; 11; 14; 3; 4; 5; 6; 7; 8; 9; DEGREE; DIPLOMA; GRADUATE; POST GRADUATE.
+71,X_gestational_age_exam,Baseline covariate,continuous,numeric,240,0,11,6 to 32,Baseline covariate: Gestational age exam.
+71,X_trimester,Baseline covariate,factor,factor,240,0,3,1; 2; 3,Baseline covariate: Trimester. Categories/codes in the cleaned data: 1; 2; 3.
+71,X_gravida,Baseline covariate,binary,factor,240,0,2,1; 2,Baseline covariate: Gravida.
+71,X_previous_pregnancy,Baseline covariate,continuous,numeric,240,0,4,0 to 4,Baseline covariate: Previous pregnancy.
+71,X_previous_abortions,Baseline covariate,continuous,numeric,240,0,4,0 to 3,Baseline covariate: Previous abortions.
+71,X_living_children,Baseline covariate,continuous,numeric,240,0,4,0 to 3,Baseline covariate: Living children.
+71,X_no_symptoms,Baseline covariate,binary,factor,240,0,1,Yes,Baseline covariate: No symptoms.
+71,X_asymptomatic_bacteriuria,Baseline covariate,factor,character,240,0,3,; No; Yes,Baseline covariate: Asymptomatic bacteriuria. Categories/codes in the cleaned data: ; No; Yes.
+71,X_antibiotic_in_2wk,Baseline covariate,binary,factor,240,0,1,No,Baseline covariate: Antibiotic in 2wk.

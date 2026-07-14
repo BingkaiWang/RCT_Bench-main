@@ -1,0 +1,24 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+30,Treatment,Treatment assignment,factor,factor,75,0,3,Chair-REST; Pool-REST; Pool-REST preferred,Treatment: randomized treatment assignment with cleaned-data arms: Chair-REST; Pool-REST; Pool-REST preferred. Publication-designated control/reference: Chair-REST.
+30,YP_Adherence,Primary outcome,continuous,numeric,75,14,5,0 to 1,"Primary outcome: Adherence. Publication-defined endpoint context: Feasibility, assessed by adherence to six sessions of the assigned intervention (target ≥ 80%).."
+30,YS_Credibility1,Secondary outcome,continuous,numeric,75,5,7,1 to 9,Secondary outcome: Credibility1.
+30,YS_Credibility2,Secondary outcome,continuous,numeric,75,5,8,2 to 9,Secondary outcome: Credibility2.
+30,YS_Credibility3,Secondary outcome,continuous,numeric,75,5,9,1 to 9,Secondary outcome: Credibility3.
+30,YS_Expectancy,Secondary outcome,continuous,numeric,75,5,10,0 to 0.9,Secondary outcome: Expectancy.
+30,YS_MeanDuration,Secondary outcome,continuous,numeric,75,5,51,15.1667 to 119.333,Secondary outcome: Mean duration.
+30,YS_Dropout,Secondary outcome,binary,factor,75,0,2,0; 1,Secondary outcome: Dropout.
+30,YS_AdverseCount,Secondary outcome,continuous,integer,75,6,21,0 to 31,Secondary outcome: Adverse count.
+30,YS_EventMean,Secondary outcome,continuous,numeric,75,6,52,-0.159091 to 0.693182,Secondary outcome: Event mean.
+30,X_Sex_0d,Baseline covariate,binary,factor,75,0,2,Female; Male,Baseline covariate: Sex.
+30,X_Psychotropics_0d,Baseline covariate,factor,factor,75,0,5,0; 1; 2; 3; 4,Baseline covariate: Psychotropics. Categories/codes in the cleaned data: 0; 1; 2; 3; 4.
+30,X_Education_0d,Baseline covariate,continuous,numeric,75,1,5,12 to 18,Baseline covariate: Education.
+30,X_Age_0d,Baseline covariate,factor,factor,75,0,10,18-20; 20-24; 25-29; 30-34; 35-39; 40-44; 45-49; 50-54; 55-59; 60-64,Baseline covariate: Age. Categories/codes in the cleaned data: 18-20; 20-24; 25-29; 30-34; 35-39; 40-44; 45-49; 50-54; 55-59; 60-64.
+30,X_OASIS_0d,Baseline covariate,continuous,numeric,75,3,13,4 to 16,Baseline covariate: Overall Anxiety Severity and Impairment Scale (OASIS) score.
+30,X_PHQ9_0d,Baseline covariate,continuous,numeric,75,3,20,0 to 24,Baseline covariate: 9-item Patient Health Questionnaire (PHQ-9) score.
+30,X_ASI_0d,Baseline covariate,continuous,numeric,75,3,34,12 to 67,Baseline covariate: Asi.
+30,X_DaysSinceBaseline,Baseline covariate,continuous,numeric,75,5,19,1 to 64,Baseline covariate: Days since baseline.
+30,X_DaysSince1,Baseline covariate,continuous,numeric,75,10,20,3 to 45,Baseline covariate: Days since1.
+30,X_DaysSince2,Baseline covariate,continuous,numeric,75,13,20,2 to 33,Baseline covariate: Days since2.
+30,X_DaysSince3,Baseline covariate,continuous,numeric,75,15,19,3 to 52,Baseline covariate: Days since3.
+30,X_DaysSince4,Baseline covariate,continuous,numeric,75,16,18,1 to 38,Baseline covariate: Days since4.
+30,X_DaysSince5,Baseline covariate,continuous,numeric,75,18,26,3 to 42,Baseline covariate: Days since5.

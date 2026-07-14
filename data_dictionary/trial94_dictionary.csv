@@ -1,0 +1,27 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+94,Treatment,Treatment assignment,factor,factor,2207,0,2,Control; Zindagi SMS,Treatment: randomized treatment assignment with cleaned-data arms: Control; Zindagi SMS. Publication-designated control/reference: Control.
+94,X_source_patient_id,Baseline covariate,continuous,integer,2207,0,2207,10000200 to 88990200,Baseline covariate: Source patient id.
+94,X_sex,Baseline covariate,binary,integer,2207,0,2,0; 1,Baseline covariate: Sex.
+94,X_age_years,Baseline covariate,continuous,numeric,2207,0,66,15 to 95,Baseline covariate: Age years.
+94,X_mother_tongue,Baseline covariate,continuous,integer,2207,0,7,-66 to 10,Baseline covariate: Mother tongue.
+94,X_urdu,Baseline covariate,binary,numeric,2207,0,2,0; 1,Baseline covariate: Urdu.
+94,X_mobile_phone_owner,Baseline covariate,binary,numeric,2207,0,2,0; 1,Baseline covariate: Mobile phone owner.
+94,X_regimen_type,Baseline covariate,binary,numeric,2207,0,2,0; 1,Baseline covariate: Regimen type.
+94,X_can_read,Baseline covariate,binary,numeric,2207,142,2,0; 1,Baseline covariate: Can read.
+94,X_can_write,Baseline covariate,binary,numeric,2207,142,2,0; 1,Baseline covariate: Can write.
+94,X_school,Baseline covariate,binary,numeric,2207,144,2,0; 1,Baseline covariate: School.
+94,X_highest_grade,Baseline covariate,continuous,numeric,2207,1168,16,1 to 16,Baseline covariate: Highest grade.
+94,X_marital_status,Baseline covariate,continuous,numeric,2207,138,5,1 to 5,Baseline covariate: Marital status.
+94,X_children,Baseline covariate,binary,numeric,2207,996,2,0; 1,Baseline covariate: Children.
+94,X_asset_index,Baseline covariate,continuous,numeric,2207,153,23,0 to 1,Baseline covariate: Asset index.
+94,X_clinic_category,Baseline covariate,continuous,numeric,2207,0,3,1 to 3,Baseline covariate: Clinic category.
+94,X_days_first_treatment,Baseline covariate,continuous,numeric,2207,811,33,1 to 90,Baseline covariate: Days first treatment.
+94,YP_clinical_treatment_success,Primary outcome,binary,numeric,2207,10,2,0; 1,Primary outcome: Clinical treatment success. Publication-defined endpoint context: Clinically recorded tuberculosis treatment success.
+94,YS_clinical_treatment_complete,Secondary outcome,binary,numeric,2207,10,2,0; 1,Secondary outcome: Clinical treatment complete.
+94,YS_clinical_cured,Secondary outcome,binary,numeric,2207,10,2,0; 1,Secondary outcome: Clinical cured.
+94,YS_clinical_default,Secondary outcome,binary,numeric,2207,10,2,0; 1,Secondary outcome: Clinical default.
+94,YS_clinical_died,Secondary outcome,binary,numeric,2207,10,2,0; 1,Secondary outcome: Clinical died.
+94,YS_clinical_failure,Secondary outcome,binary,numeric,2207,10,2,0; 1,Secondary outcome: Clinical failure.
+94,YS_clinical_transfer_out,Secondary outcome,binary,numeric,2207,10,2,0; 1,Secondary outcome: Clinical transfer out.
+94,YS_self_reported_success,Secondary outcome,binary,numeric,2207,10,2,0; 1,Secondary outcome: Self reported success.
+94,YS_self_reported_complete,Secondary outcome,binary,numeric,2207,10,2,0; 1,Secondary outcome: Self reported complete.

@@ -1,0 +1,25 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+19,Treatment,Treatment assignment,factor,factor,32,0,2,Conventional; Piggyback,Treatment: randomized treatment assignment with cleaned-data arms: Conventional; Piggyback. Publication-designated control/reference: Conventional.
+19,YP_FHVP_CVP_GRADIENT,Primary outcome,continuous,numeric,32,0,9,0 to 8,"Primary outcome: Fhvp cvp gradient. Publication-defined endpoint context: Hepatic venous outflow drainage, quantified by the free hepatic venous pressure (FHVP) to central venous pressure (CVP) gradient."
+19,YS_CREATININE_1d,Secondary outcome,continuous,numeric,32,0,19,0.7 to 3.9,"Secondary outcome: Serum creatinine concentration, measured at 1 day."
+19,YS_CREATININE_2d,Secondary outcome,continuous,numeric,32,0,18,0.6 to 4.4,"Secondary outcome: Serum creatinine concentration, measured at 2 days."
+19,YS_CREATININE_3d,Secondary outcome,continuous,numeric,32,0,25,0.7 to 5.9,"Secondary outcome: Serum creatinine concentration, measured at 3 days."
+19,YS_CREATININE_5d,Secondary outcome,continuous,numeric,32,0,22,0.6 to 6.3,"Secondary outcome: Serum creatinine concentration, measured at 5 days."
+19,YS_CREATININE_6d,Secondary outcome,continuous,numeric,32,0,20,0.4 to 5,"Secondary outcome: Serum creatinine concentration, measured at 6 days."
+19,YS_CREATININE_7d,Secondary outcome,continuous,numeric,32,0,16,0.6 to 5.1,"Secondary outcome: Serum creatinine concentration, measured at 7 days."
+19,YS_CREATININE_14d,Secondary outcome,continuous,numeric,32,0,19,0.7 to 4.3,"Secondary outcome: Serum creatinine concentration, measured at 14 days."
+19,YS_CREATININE_21d,Secondary outcome,continuous,numeric,32,0,17,0.6 to 5.3,"Secondary outcome: Serum creatinine concentration, measured at 21 days."
+19,YS_CREATININE_28d,Secondary outcome,continuous,numeric,32,0,18,0.7 to 3.8,"Secondary outcome: Serum creatinine concentration, measured at 28 days."
+19,YS_MASSIVE_ASCITES,Secondary outcome,binary,factor,32,0,2,0; 1,Secondary outcome: Massive ascites.
+19,X_RECIPIENT_AGE_YEARS_0d,Baseline covariate,continuous,numeric,32,0,21,18 to 70,Baseline covariate: Recipient age years.
+19,X_RECIPIENT_GENDER_0d,Baseline covariate,binary,factor,32,0,2,FEMALE; MALE,Baseline covariate: Recipient gender.
+19,X_RECIPIENT_DIAGNOSIS_0d,Baseline covariate,factor,factor,32,0,11,Alcoholic cirrhosis; Autoimmune hepatitis; Cryptogenic cirrhosis; Ductopenic disease; Hepatitis B; Hepatitis C; Hepatitis C and alcohol; Hepatitis C and B; Hepatitis C and B and alcohol; Primary biliary cirrhosis; Primary sclerosing cholangitis,Baseline covariate: Recipient diagnosis.
+19,X_CHILD_PUGH_CLASS_0d,Baseline covariate,factor,factor,32,0,3,A; B; C,Baseline covariate: Child pugh class. Categories/codes in the cleaned data: A; B; C.
+19,X_CHILD_PUGH_SCORE_0d,Baseline covariate,continuous,numeric,32,0,8,5 to 13,Baseline covariate: Child pugh score.
+19,X_MELD_SCORE_0d,Baseline covariate,continuous,numeric,32,0,32,6.8 to 24.82,Baseline covariate: Model for End-Stage Liver Disease (MELD) score.
+19,X_CREATININE_0d,Baseline covariate,continuous,numeric,32,0,12,0.5 to 2.6,Baseline covariate: Serum creatinine concentration.
+19,X_DONOR_AGE_YEARS_0d,Baseline covariate,continuous,numeric,32,0,23,9 to 60,Baseline covariate: Donor age years.
+19,X_DONOR_GENDER_0d,Baseline covariate,binary,factor,32,0,2,FEMALE; MALE,Baseline covariate: Donor gender.
+19,X_DONOR_DIAGNOSIS_0d,Baseline covariate,factor,factor,32,0,3,OTHER; STROKE; TRAUMA,Baseline covariate: Donor diagnosis. Categories/codes in the cleaned data: OTHER; STROKE; TRAUMA.
+19,X_DONOR_WEIGHT_0d,Baseline covariate,continuous,numeric,32,0,13,30 to 85,Baseline covariate: Donor weight.
+19,X_GRAFT_SHARING_0d,Baseline covariate,factor,factor,32,0,3,local; national; regional,Baseline covariate: Graft sharing. Categories/codes in the cleaned data: local; national; regional.

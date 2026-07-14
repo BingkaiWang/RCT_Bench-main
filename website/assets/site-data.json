@@ -12,42 +12,42 @@
     "trialCount": 125,
     "participantRows": 54258,
     "variableCount": 2910,
-    "researchAreaCount": 75,
+    "researchAreaCount": 15,
     "yearMin": 1991,
     "yearMax": 2026,
     "medianSampleSize": 119,
     "topResearchAreas": [
       [
-        "Neurology",
-        9
+        "Infectious Diseases & Immunology",
+        19
       ],
       [
-        "Anesthesiology",
-        9
+        "Women's, Maternal & Child Health",
+        18
       ],
       [
-        "Infectious Disease",
-        7
+        "Neurology & Neurorehabilitation",
+        16
       ],
       [
-        "Maternal & Child Health",
-        7
+        "Anesthesiology & Pain Medicine",
+        15
+      ],
+      [
+        "Nutrition, Metabolism & Lifestyle",
+        10
+      ],
+      [
+        "Mental & Behavioral Health",
+        8
       ],
       [
         "Nephrology",
-        5
+        7
       ],
       [
-        "HIV/AIDS",
-        5
-      ],
-      [
-        "Mental Health",
-        4
-      ],
-      [
-        "Obstetrics/Gynecology",
-        4
+        "Surgery",
+        6
       ]
     ]
   },
@@ -70,8 +70,7 @@
       "statisticalModel": "Mann–Whitney U test Kolmogorov-Smirnov test Fisher's exact test",
       "randomizationScheme": "stratified by site",
       "randomizationHighLevel": "Stratified",
-      "researchArea": "Endocrinology",
-      "textData": "",
+      "researchArea": "Nutrition, Metabolism & Lifestyle",
       "citation": 71,
       "rows": 342,
       "columns": 52,
@@ -81,7 +80,8 @@
       "covariates": 24,
       "treatmentLevels": "Metformin + Sham Acupuncture; Sham Acupuncture + Placebo; True Acupuncture + Placebo",
       "csvPath": "../cleaned_data/trial1.csv",
-      "rdsPath": "../cleaned_data/trial1.rds"
+      "rdsPath": "../cleaned_data/trial1.rds",
+      "dictionaryPath": "../data_dictionary/trial1_dictionary.csv"
     },
     {
       "id": 2,
@@ -101,8 +101,7 @@
       "statisticalModel": "Primary: Kaplan–Meier survival curves + log-rank test; Cox proportional hazards regression for hazard ratios Secondary: Logistic regression for categorical recovery time and disease progression",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
-      "researchArea": "Infectious Disease",
-      "textData": "",
+      "researchArea": "Infectious Diseases & Immunology",
       "citation": 123,
       "rows": 400,
       "columns": 14,
@@ -112,7 +111,8 @@
       "covariates": 8,
       "treatmentLevels": "Ivermectin+Doxycycline; Placebo",
       "csvPath": "../cleaned_data/trial2.csv",
-      "rdsPath": "../cleaned_data/trial2.rds"
+      "rdsPath": "../cleaned_data/trial2.rds",
+      "dictionaryPath": "../data_dictionary/trial2_dictionary.csv"
     },
     {
       "id": 3,
@@ -127,13 +127,12 @@
       "studyPhase": "Not Applicable",
       "sampleSize": 6030,
       "primaryOutcome": "Composite of AKI progression (to a higher KDIGO stage), receipt of dialysis, or death within 14 days of randomization",
-      "primaryOutcomeType": "Time-to-event",
+      "primaryOutcomeType": "Binary",
       "trialSuccess": "No",
       "statisticalModel": "Primary analysis: Mantel–Haenszel test (stratified by hospital) for relative risks; Cox proportional hazards regression (stratified by hospital) for Time-to-event Sensitivity: modified Poisson generalized estimating equations with robust variance Continuous/process measures: Van Elteren test (stratified); Kaplan–Meier curves and log-rank tests for site-specific Time-to-event analyses",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
       "researchArea": "Nephrology",
-      "textData": "",
       "citation": 196,
       "rows": 6030,
       "columns": 34,
@@ -143,7 +142,8 @@
       "covariates": 25,
       "treatmentLevels": "Alert; Usual Care",
       "csvPath": "../cleaned_data/trial3.csv",
-      "rdsPath": "../cleaned_data/trial3.rds"
+      "rdsPath": "../cleaned_data/trial3.rds",
+      "dictionaryPath": "../data_dictionary/trial3_dictionary.csv"
     },
     {
       "id": 4,
@@ -163,8 +163,7 @@
       "statisticalModel": "Primary: independent two-sample t-tests comparing mean change from baseline between arms Sensitivity: median quantile regression of change scores Baseline balance: t-tests or chi-square/Fisher’s exact tests",
       "randomizationScheme": "blocked randomization",
       "randomizationHighLevel": "Block",
-      "researchArea": "Hepatology",
-      "textData": "",
+      "researchArea": "Gastroenterology & Hepatology",
       "citation": 11,
       "rows": 75,
       "columns": 18,
@@ -174,7 +173,8 @@
       "covariates": 13,
       "treatmentLevels": "Placebo; VD",
       "csvPath": "../cleaned_data/trial4.csv",
-      "rdsPath": "../cleaned_data/trial4.rds"
+      "rdsPath": "../cleaned_data/trial4.rds",
+      "dictionaryPath": "../data_dictionary/trial4_dictionary.csv"
     },
     {
       "id": 5,
@@ -189,13 +189,12 @@
       "studyPhase": "Not Applicable",
       "sampleSize": 5060,
       "primaryOutcome": "Composite of AKI progression (to a higher KDIGO stage), receipt of dialysis, or death within 14 days of randomization or hospital discharge",
-      "primaryOutcomeType": "Composite Binary",
+      "primaryOutcomeType": "Binary",
       "trialSuccess": "No",
       "statisticalModel": "Primary: Cochran–Mantel–Haenszel χ² test stratified by hospital for relative risks Continuous/process: Van Elteren test (stratified by hospital) Subgroup interactions: binomial regression model adjusted for hospital (interaction p-values) Mediation: product-of-coefficients method with bootstrapped 95% CIs, adjusting for key baseline covariates",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
       "researchArea": "Nephrology",
-      "textData": "",
       "citation": 33,
       "rows": 5060,
       "columns": 66,
@@ -205,7 +204,8 @@
       "covariates": 42,
       "treatmentLevels": "Alert; Usual Care",
       "csvPath": "../cleaned_data/trial5.csv",
-      "rdsPath": "../cleaned_data/trial5.rds"
+      "rdsPath": "../cleaned_data/trial5.rds",
+      "dictionaryPath": "../data_dictionary/trial5_dictionary.csv"
     },
     {
       "id": 6,
@@ -225,8 +225,7 @@
       "statisticalModel": "Primary & secondary: baseline-adjusted ANCOVA Sensitivity: mixed-effects model for repeated measures Baseline comparisons: unpaired t-tests and Fisher’s exact tests",
       "randomizationScheme": "biased coin",
       "randomizationHighLevel": "Biased Coin",
-      "researchArea": "Cardiovascular",
-      "textData": "",
+      "researchArea": "Cardiovascular Medicine",
       "citation": 74,
       "rows": 463,
       "columns": 50,
@@ -236,7 +235,8 @@
       "covariates": 21,
       "treatmentLevels": "Conventional; Sitagliptin",
       "csvPath": "../cleaned_data/trial6.csv",
-      "rdsPath": "../cleaned_data/trial6.rds"
+      "rdsPath": "../cleaned_data/trial6.rds",
+      "dictionaryPath": "../data_dictionary/trial6_dictionary.csv"
     },
     {
       "id": 7,
@@ -256,8 +256,7 @@
       "statisticalModel": "Primary analysis: MANOVA on difference scores with Bonferroni correction Sensitivity: ANCOVA for each post-test controlling baseline; OLS regression with clustered standard errors (for sibling dependence)",
       "randomizationScheme": "Blocked randomization, stratified by sibling status",
       "randomizationHighLevel": "Stratified Block",
-      "researchArea": "Neurology",
-      "textData": "",
+      "researchArea": "Neurology & Neurorehabilitation",
       "citation": 9,
       "rows": 38,
       "columns": 30,
@@ -267,7 +266,8 @@
       "covariates": 21,
       "treatmentLevels": "Brain Lab; ThinkRx",
       "csvPath": "../cleaned_data/trial7.csv",
-      "rdsPath": "../cleaned_data/trial7.rds"
+      "rdsPath": "../cleaned_data/trial7.rds",
+      "dictionaryPath": "../data_dictionary/trial7_dictionary.csv"
     },
     {
       "id": 8,
@@ -287,8 +287,7 @@
       "statisticalModel": "Baseline comparisons: independent-samples Student’s t-test (continuous) and chi-square test (categorical) Outcome comparisons: rate ratios with chi-square tests",
       "randomizationScheme": "blocked randomization",
       "randomizationHighLevel": "Block",
-      "researchArea": "Infectious Disease",
-      "textData": "Clinical notes: X_comorbidities_0d",
+      "researchArea": "Infectious Diseases & Immunology",
       "citation": 111,
       "rows": 115,
       "columns": 11,
@@ -298,7 +297,8 @@
       "covariates": 4,
       "treatmentLevels": "Ivermectin; Placebo",
       "csvPath": "../cleaned_data/trial8.csv",
-      "rdsPath": "../cleaned_data/trial8.rds"
+      "rdsPath": "../cleaned_data/trial8.rds",
+      "dictionaryPath": "../data_dictionary/trial8_dictionary.csv"
     },
     {
       "id": 9,
@@ -318,8 +318,7 @@
       "statisticalModel": "Primary & binary secondary outcomes: relative risks with χ² tests Continuous skewed outcomes (e.g., time): Mann-Whitney tests Subgroup consistency: Mantel–Haenszel homogeneity tests",
       "randomizationScheme": "blocked randomization, stratified by center",
       "randomizationHighLevel": "Stratified Block",
-      "researchArea": "Maternal & Child Health",
-      "textData": "Symptoms: YS_side_effect_description",
+      "researchArea": "Women's, Maternal & Child Health",
       "citation": 73,
       "rows": 577,
       "columns": 33,
@@ -329,7 +328,8 @@
       "covariates": 8,
       "treatmentLevels": "Oxytocin; Placebo",
       "csvPath": "../cleaned_data/trial9.csv",
-      "rdsPath": "../cleaned_data/trial9.rds"
+      "rdsPath": "../cleaned_data/trial9.rds",
+      "dictionaryPath": "../data_dictionary/trial9_dictionary.csv"
     },
     {
       "id": 10,
@@ -349,8 +349,7 @@
       "statisticalModel": "Primary outcome (binary): comparison of proportions by χ² test (with Bonferroni correction for multiple comparisons when assessing IDS components). Secondary categorical outcomes: χ² or Fisher’s exact tests (as appropriate). Continuous outcomes (e.g., POGO, time): Wilcoxon rank-sum test (after verifying normality with Shapiro–Wilk). Intubation Difficulty Scale (ordinal): Wilcoxon or χ² for class comparisons. Hemodynamic changes: pre- vs post-intubation medians compared by Wilcoxon; between-group differences tested similarly.",
       "randomizationScheme": "centralized randomization, stratified by center",
       "randomizationHighLevel": "Stratified Block",
-      "researchArea": "Anesthesiology",
-      "textData": "",
+      "researchArea": "Anesthesiology & Pain Medicine",
       "citation": 2,
       "rows": 256,
       "columns": 44,
@@ -360,7 +359,8 @@
       "covariates": 14,
       "treatmentLevels": "No Video; Video",
       "csvPath": "../cleaned_data/trial10.csv",
-      "rdsPath": "../cleaned_data/trial10.rds"
+      "rdsPath": "../cleaned_data/trial10.rds",
+      "dictionaryPath": "../data_dictionary/trial10_dictionary.csv"
     },
     {
       "id": 11,
@@ -380,8 +380,7 @@
       "statisticalModel": "Primary analysis: Two-sample t-test on log10-transformed biomass data, with multiple imputation for missing sputum weights Secondary analyses: Linear regression models for biodiversity indices, BCSS, SGRQ and inflammatory markers, with each model adjusted for the baseline value of the measure",
       "randomizationScheme": "Simple randomization",
       "randomizationHighLevel": "Simple",
-      "researchArea": "Pulmonology",
-      "textData": "",
+      "researchArea": "Emergency, Pulmonary & Critical Care",
       "citation": 10,
       "rows": 44,
       "columns": 28,
@@ -391,7 +390,8 @@
       "covariates": 16,
       "treatmentLevels": "active; placebo",
       "csvPath": "../cleaned_data/trial11.csv",
-      "rdsPath": "../cleaned_data/trial11.rds"
+      "rdsPath": "../cleaned_data/trial11.rds",
+      "dictionaryPath": "../data_dictionary/trial11_dictionary.csv"
     },
     {
       "id": 12,
@@ -411,8 +411,7 @@
       "statisticalModel": "Primary and secondary outcomes: Mixed-effects models (longitudinal models) for laboratory test results and health care use outcomes Linear regression models for program engagement and survey outcomes at 6 and 12 months Models included heteroskedasticity-robust, participant-clustered standard errors Multiple imputation for missing baseline measures (except HbA1c, which was complete) Inverse covariance weighting for creating index scores from multiple survey measures",
       "randomizationScheme": "Stratified by site and hba1c category",
       "randomizationHighLevel": "Stratified",
-      "researchArea": "Nutrition",
-      "textData": "",
+      "researchArea": "Nutrition, Metabolism & Lifestyle",
       "citation": 45,
       "rows": 349,
       "columns": 91,
@@ -422,7 +421,8 @@
       "covariates": 31,
       "treatmentLevels": "Immediate; Waitlist",
       "csvPath": "../cleaned_data/trial12.csv",
-      "rdsPath": "../cleaned_data/trial12.rds"
+      "rdsPath": "../cleaned_data/trial12.rds",
+      "dictionaryPath": "../data_dictionary/trial12_dictionary.csv"
     },
     {
       "id": 13,
@@ -437,13 +437,12 @@
       "studyPhase": "4",
       "sampleSize": 480,
       "primaryOutcome": "Proportion with Blood Loss ≥ 500 Mean Blood Loss",
-      "primaryOutcomeType": "Proportion with Blood Loss ≥ 500: Binary Mean Blood Loss: Continuous",
+      "primaryOutcomeType": "Continuous; Binary",
       "trialSuccess": "No",
       "statisticalModel": "Categorical variables: Pearson χ² or Fisher’s exact tests Continuous variables: Independent t-tests or Mann-Whitney U tests (depending on normality)",
       "randomizationScheme": "blocked randomization",
       "randomizationHighLevel": "Block",
-      "researchArea": "Maternal & Child Health",
-      "textData": "",
+      "researchArea": "Women's, Maternal & Child Health",
       "citation": 23,
       "rows": 480,
       "columns": 23,
@@ -453,7 +452,8 @@
       "covariates": 5,
       "treatmentLevels": "IM injection; IV infusion",
       "csvPath": "../cleaned_data/trial13.csv",
-      "rdsPath": "../cleaned_data/trial13.rds"
+      "rdsPath": "../cleaned_data/trial13.rds",
+      "dictionaryPath": "../data_dictionary/trial13_dictionary.csv"
     },
     {
       "id": 14,
@@ -473,8 +473,7 @@
       "statisticalModel": "For primary outcome and most secondary continuous outcomes: Constrained longitudinal data analysis (linear mixed effects model with equality constraint on baseline means), adjusted for center (fixed effect) with random intercept for participants For mMRC-dyspnoea: Generalized linear model of the Poisson family with a log link, adjusted for center and using natural logarithm of the number of observed occasions as offset, with cluster robust standard errors",
       "randomizationScheme": "blocked randomization, stratified by hospital",
       "randomizationHighLevel": "Stratified Block",
-      "researchArea": "Rehabilitation",
-      "textData": "",
+      "researchArea": "Rehabilitation & Physical Medicine",
       "citation": 299,
       "rows": 119,
       "columns": 48,
@@ -484,7 +483,8 @@
       "covariates": 24,
       "treatmentLevels": "No Active Rehabilitation; TERECO",
       "csvPath": "../cleaned_data/trial14.csv",
-      "rdsPath": "../cleaned_data/trial14.rds"
+      "rdsPath": "../cleaned_data/trial14.rds",
+      "dictionaryPath": "../data_dictionary/trial14_dictionary.csv"
     },
     {
       "id": 15,
@@ -504,8 +504,7 @@
       "statisticalModel": "Within-group: Wilcoxon signed-rank test Between-group: Mann-Whitney U test Correlation: Spearman’s rank correlation (ρ) Association: Linear regression (R² for GMFCS vs. change in emotional reactivity)",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
-      "researchArea": "Pediatric Rehabilitation",
-      "textData": "",
+      "researchArea": "Rehabilitation & Physical Medicine",
       "citation": 1,
       "rows": 28,
       "columns": 32,
@@ -515,7 +514,8 @@
       "covariates": 17,
       "treatmentLevels": "Conventional Only; Conventional+Snoezelen",
       "csvPath": "../cleaned_data/trial15.csv",
-      "rdsPath": "../cleaned_data/trial15.rds"
+      "rdsPath": "../cleaned_data/trial15.rds",
+      "dictionaryPath": "../data_dictionary/trial15_dictionary.csv"
     },
     {
       "id": 16,
@@ -535,8 +535,7 @@
       "statisticalModel": "Two-way mixed ANOVA (group × time)",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
-      "researchArea": "Mental Health",
-      "textData": "",
+      "researchArea": "Mental & Behavioral Health",
       "citation": 83,
       "rows": 48,
       "columns": 22,
@@ -546,7 +545,8 @@
       "covariates": 11,
       "treatmentLevels": "Internet Delivered; Waitlist",
       "csvPath": "../cleaned_data/trial16.csv",
-      "rdsPath": "../cleaned_data/trial16.rds"
+      "rdsPath": "../cleaned_data/trial16.rds",
+      "dictionaryPath": "../data_dictionary/trial16_dictionary.csv"
     },
     {
       "id": 17,
@@ -566,8 +566,7 @@
       "statisticalModel": "Within-group changes: Wilcoxon signed-rank test with rank-biserial correlation Between-group comparisons: Kruskal–Wallis one-way ANOVA with Dunn’s post-hoc test Target-achievement analysis: Multivariate logistic regression (adjusting for covariates)",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
-      "researchArea": "Cardiovascular",
-      "textData": "",
+      "researchArea": "Cardiovascular Medicine",
       "citation": 3,
       "rows": 294,
       "columns": 15,
@@ -577,7 +576,8 @@
       "covariates": 10,
       "treatmentLevels": "combine3; statin; statin_EZ; statin_pcsk9",
       "csvPath": "../cleaned_data/trial17.csv",
-      "rdsPath": "../cleaned_data/trial17.rds"
+      "rdsPath": "../cleaned_data/trial17.rds",
+      "dictionaryPath": "../data_dictionary/trial17_dictionary.csv"
     },
     {
       "id": 18,
@@ -592,13 +592,12 @@
       "studyPhase": "Not Applicable",
       "sampleSize": 295,
       "primaryOutcome": "Time to disengagement: first ≥90-day absence from any HIV care visit in 12 months Time in care: proportion of time adherent to appointments over 12 months",
-      "primaryOutcomeType": "Time to disengagement: Time-to-event Time in care: Continuous proportion",
+      "primaryOutcomeType": "Continuous; Time-to-event",
       "trialSuccess": "No",
       "statisticalModel": "Disengagement: Cox proportional hazards Time in Care: linear regression with bootstrapping Continuous outcomes (social support, stigma): linear regression with 10,000-replication bootstrap, adjusting for baseline. Disclosure counts: Poisson regression, adjusting for baseline, with robust SE for clustering",
       "randomizationScheme": "stratified by site",
       "randomizationHighLevel": "Stratified",
-      "researchArea": "HIV/AIDS",
-      "textData": "",
+      "researchArea": "Infectious Diseases & Immunology",
       "citation": 16,
       "rows": 295,
       "columns": 36,
@@ -608,7 +607,8 @@
       "covariates": 17,
       "treatmentLevels": "Kanyakla; Standard Care",
       "csvPath": "../cleaned_data/trial18.csv",
-      "rdsPath": "../cleaned_data/trial18.rds"
+      "rdsPath": "../cleaned_data/trial18.rds",
+      "dictionaryPath": "../data_dictionary/trial18_dictionary.csv"
     },
     {
       "id": 19,
@@ -628,8 +628,7 @@
       "statisticalModel": "Primary outcome: Student’s t-test / ANOVA (or Mann–Whitney if non-normal), plus χ² or Fisher’s exact for categorical comparisons Secondary outcomes: Generalized Estimating Equations (GEE) for longitudinal serum creatinine and for binary severe ARF; Kaplan–Meier curves with log-rank test for survival analysis",
       "randomizationScheme": "blocked randomization",
       "randomizationHighLevel": "Stratified Block",
-      "researchArea": "Surgery/Transplantation",
-      "textData": "",
+      "researchArea": "Surgery",
       "citation": 28,
       "rows": 32,
       "columns": 24,
@@ -639,7 +638,8 @@
       "covariates": 12,
       "treatmentLevels": "Conventional; Piggyback",
       "csvPath": "../cleaned_data/trial19.csv",
-      "rdsPath": "../cleaned_data/trial19.rds"
+      "rdsPath": "../cleaned_data/trial19.rds",
+      "dictionaryPath": "../data_dictionary/trial19_dictionary.csv"
     },
     {
       "id": 20,
@@ -659,8 +659,7 @@
       "statisticalModel": "Primary outcome: Mixed effects model with fixed effects for group, age, and sex Secondary outcomes: Mixed linear models with same fixed factors as for primary outcome, additionally adjusted for respective baseline values",
       "randomizationScheme": "blocked randomization",
       "randomizationHighLevel": "Block",
-      "researchArea": "Type 2 Diabetes",
-      "textData": "",
+      "researchArea": "Nutrition, Metabolism & Lifestyle",
       "citation": 37,
       "rows": 37,
       "columns": 24,
@@ -670,7 +669,8 @@
       "covariates": 13,
       "treatmentLevels": "IWT only; IWT+Support",
       "csvPath": "../cleaned_data/trial20.csv",
-      "rdsPath": "../cleaned_data/trial20.rds"
+      "rdsPath": "../cleaned_data/trial20.rds",
+      "dictionaryPath": "../data_dictionary/trial20_dictionary.csv"
     },
     {
       "id": 21,
@@ -690,8 +690,7 @@
       "statisticalModel": "Primary outcome: log-rank test and unadjusted Cox proportional-hazards models Secondary binary outcomes: binomial regression with log link (risk ratios)",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
-      "researchArea": "HIV/AIDS",
-      "textData": "",
+      "researchArea": "Infectious Diseases & Immunology",
       "citation": 67,
       "rows": 1462,
       "columns": 18,
@@ -701,7 +700,8 @@
       "covariates": 10,
       "treatmentLevels": "HIV; HIV-TB; SOC",
       "csvPath": "../cleaned_data/trial21.csv",
-      "rdsPath": "../cleaned_data/trial21.rds"
+      "rdsPath": "../cleaned_data/trial21.rds",
+      "dictionaryPath": "../data_dictionary/trial21_dictionary.csv"
     },
     {
       "id": 22,
@@ -721,8 +721,7 @@
       "statisticalModel": "Descriptive comparisons used t-tests for continuous outcomes and chi-square or Fisher’s exact tests for categorical outcomes",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
-      "researchArea": "Maternal & Child Health",
-      "textData": "",
+      "researchArea": "Women's, Maternal & Child Health",
       "citation": 8,
       "rows": 146,
       "columns": 40,
@@ -732,7 +731,8 @@
       "covariates": 21,
       "treatmentLevels": "Control; Intervention",
       "csvPath": "../cleaned_data/trial22.csv",
-      "rdsPath": "../cleaned_data/trial22.rds"
+      "rdsPath": "../cleaned_data/trial22.rds",
+      "dictionaryPath": "../data_dictionary/trial22_dictionary.csv"
     },
     {
       "id": 23,
@@ -752,8 +752,7 @@
       "statisticalModel": "Kaplan–Meier curves with log-rank tests Mann-Whitney test Fisher’s exact test",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
-      "researchArea": "Critical Care",
-      "textData": "",
+      "researchArea": "Emergency, Pulmonary & Critical Care",
       "citation": 45,
       "rows": 92,
       "columns": 22,
@@ -763,7 +762,8 @@
       "covariates": 5,
       "treatmentLevels": "No rhTM; rhTM",
       "csvPath": "../cleaned_data/trial23.csv",
-      "rdsPath": "../cleaned_data/trial23.rds"
+      "rdsPath": "../cleaned_data/trial23.rds",
+      "dictionaryPath": "../data_dictionary/trial23_dictionary.csv"
     },
     {
       "id": 24,
@@ -783,8 +783,7 @@
       "statisticalModel": "Primary outcome: Fisher exact test for proportion comparison; Kaplan–Meier survival analysis with log-rank test for time to catheterization. Secondary analyses: Univariate tests including Chi-square/Fisher exact for categorical variables, Student’s t-test or Mann–Whitney for continuous variables, Hodges–Lehmann estimator and Cohen’s d for effect sizes, and Mann–Whitney for anxiety/comfort scores.",
       "randomizationScheme": "blocked randomization",
       "randomizationHighLevel": "Block",
-      "researchArea": "Anesthesiology",
-      "textData": "",
+      "researchArea": "Anesthesiology & Pain Medicine",
       "citation": 10,
       "rows": 50,
       "columns": 18,
@@ -794,7 +793,8 @@
       "covariates": 12,
       "treatmentLevels": "Auriculotherapy; Sham Comparator",
       "csvPath": "../cleaned_data/trial24.csv",
-      "rdsPath": "../cleaned_data/trial24.rds"
+      "rdsPath": "../cleaned_data/trial24.rds",
+      "dictionaryPath": "../data_dictionary/trial24_dictionary.csv"
     },
     {
       "id": 25,
@@ -809,13 +809,12 @@
       "studyPhase": "3",
       "sampleSize": 55,
       "primaryOutcome": "Change in constipation symptoms assessed by the 9-item Garrigues Questionnaire (GQ) Bowel opening frequency (BOF) per week (mean weekly bowel movements) Whole gut transit time (GTT) in hours",
-      "primaryOutcomeType": "GQ items: Ordinal BOF (BM/week): Continuous GTT: Continuous",
+      "primaryOutcomeType": "Continuous; Count; Ordinal",
       "trialSuccess": "Yes",
       "statisticalModel": "Between-group comparisons: univariate tests (t-test or Mann–Whitney U for continuous/count data; χ² or Fisher’s exact for categorical outcomes) Regression analyses: generalized linear models—ordinal logistic regression for GQ items, binary logistic for BOF categories, linear regression for BM/week and GTT Within-group analyses: paired t-tests or Wilcoxon signed-rank tests",
       "randomizationScheme": "blocked randomization",
       "randomizationHighLevel": "Block",
-      "researchArea": "Neurology",
-      "textData": "",
+      "researchArea": "Neurology & Neurorehabilitation",
       "citation": 174,
       "rows": 55,
       "columns": 44,
@@ -825,7 +824,8 @@
       "covariates": 26,
       "treatmentLevels": "Placebo; Probiotic with prebiotic",
       "csvPath": "../cleaned_data/trial25.csv",
-      "rdsPath": "../cleaned_data/trial25.rds"
+      "rdsPath": "../cleaned_data/trial25.rds",
+      "dictionaryPath": "../data_dictionary/trial25_dictionary.csv"
     },
     {
       "id": 26,
@@ -840,13 +840,12 @@
       "studyPhase": "Not Applicable",
       "sampleSize": 242,
       "primaryOutcome": "Adherence (improved scheduled clinic attendance and medication adherence self-report), attendance",
-      "primaryOutcomeType": "Delta adherence: Continuous Adherence: Categorical Attendance: Categorical",
+      "primaryOutcomeType": "Continuous; Binary; Categorical",
       "trialSuccess": "Yes",
       "statisticalModel": "Parametric tests: Student’s t-test, two-way repeated-measures ANOVA for adherence, CD4, viral load, and weight Nonparametric tests: Chi-square/Fisher’s exact tests for categorical comparisons; Friedman’s ANOVA for within-group non-normal data Multivariate models: mixed repeated-measures ANCOVA adjusting for baseline covariates (age, ethnicity, education, income)",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
-      "researchArea": "HIV/AIDS",
-      "textData": "",
+      "researchArea": "Infectious Diseases & Immunology",
       "citation": 121,
       "rows": 242,
       "columns": 18,
@@ -856,7 +855,8 @@
       "covariates": 9,
       "treatmentLevels": "Reminder module; Standard Care",
       "csvPath": "../cleaned_data/trial26.csv",
-      "rdsPath": "../cleaned_data/trial26.rds"
+      "rdsPath": "../cleaned_data/trial26.rds",
+      "dictionaryPath": "../data_dictionary/trial26_dictionary.csv"
     },
     {
       "id": 27,
@@ -871,13 +871,12 @@
       "studyPhase": "Not Applicable",
       "sampleSize": 101,
       "primaryOutcome": "Intraoperative bleeding during transsphenoidal pituitary surgery, scored using a 7-level bleeding scale.",
-      "primaryOutcomeType": "stunting: Binary BSID-III z-scores: Continuous",
+      "primaryOutcomeType": "Ordinal",
       "trialSuccess": "No",
       "statisticalModel": "Primary outcome: ordinal logistic regression (proportional cumulative odds) Secondary outcomes: Student’s t-test or Mann–Whitney for continuous variables; Chi-square or Fisher’s exact for categorical variables",
       "randomizationScheme": "blocked randomization",
       "randomizationHighLevel": "Block",
-      "researchArea": "Anesthesiology",
-      "textData": "",
+      "researchArea": "Anesthesiology & Pain Medicine",
       "citation": 8,
       "rows": 101,
       "columns": 17,
@@ -887,7 +886,8 @@
       "covariates": 4,
       "treatmentLevels": "PCV; VCV",
       "csvPath": "../cleaned_data/trial27.csv",
-      "rdsPath": "../cleaned_data/trial27.rds"
+      "rdsPath": "../cleaned_data/trial27.rds",
+      "dictionaryPath": "../data_dictionary/trial27_dictionary.csv"
     },
     {
       "id": 28,
@@ -907,8 +907,7 @@
       "statisticalModel": "Comparisons: independent t-tests for continuous variables; χ² or Fisher’s exact for categorical Primary/secondary binary outcomes: binary logistic regression (adjusted for covariates & clustering) Knowledge score: linear regression of follow-up score on baseline score and intervention",
       "randomizationScheme": "cluster randomization",
       "randomizationHighLevel": "Stratified Rerandomization",
-      "researchArea": "Cardiovascular",
-      "textData": "",
+      "researchArea": "Cardiovascular Medicine",
       "citation": 38,
       "rows": 120,
       "columns": 25,
@@ -918,7 +917,8 @@
       "covariates": 11,
       "treatmentLevels": "Edu+Visit; Usual Care",
       "csvPath": "../cleaned_data/trial28.csv",
-      "rdsPath": "../cleaned_data/trial28.rds"
+      "rdsPath": "../cleaned_data/trial28.rds",
+      "dictionaryPath": "../data_dictionary/trial28_dictionary.csv"
     },
     {
       "id": 29,
@@ -938,8 +938,7 @@
       "statisticalModel": "Primary: Kaplan-Meier survival curves and Cox proportional hazards regression (intention-to-treat) 29 Secondary: Linear regression and mixed-effects regression (random intercept) for early fungicidal activity Cumulative incidence functions (competing risks), logistic regression, Fisher’s exact tests, general linear models, and Wilcoxon rank-sum tests for other endpoints",
       "randomizationScheme": "blocked randomization, stratified by site and ART status",
       "randomizationHighLevel": "Stratified Block",
-      "researchArea": "HIV/AIDS",
-      "textData": "",
+      "researchArea": "Infectious Diseases & Immunology",
       "citation": 132,
       "rows": 460,
       "columns": 31,
@@ -949,7 +948,8 @@
       "covariates": 21,
       "treatmentLevels": "Placebo; Sertraline",
       "csvPath": "../cleaned_data/trial29.csv",
-      "rdsPath": "../cleaned_data/trial29.rds"
+      "rdsPath": "../cleaned_data/trial29.rds",
+      "dictionaryPath": "../data_dictionary/trial29_dictionary.csv"
     },
     {
       "id": 30,
@@ -964,13 +964,12 @@
       "studyPhase": "Not Applicable",
       "sampleSize": 75,
       "primaryOutcome": "Feasibility, assessed by adherence to six sessions of the assigned intervention (target ≥ 80%).",
-      "primaryOutcomeType": "Continuous Proportion",
+      "primaryOutcomeType": "Continuous",
       "trialSuccess": "Adherence met the ≥80% feasibility threshold for Pool-REST (85%) and Pool-REST Preferred (89%). Chair-REST did not meet the threshold (74%).",
       "statisticalModel": "Feasibility (credibility/expectancy): One-way ANOVA Tolerability (dropout): Kaplan–Meier survival analysis with log-rank tests Session duration & event ratings: Linear mixed‐effects models (REML, AR1 covariance), with fixed effects of condition, visit (and event for safety), and their interactions, random intercepts for subject ID",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
-      "researchArea": "Mental Health",
-      "textData": "",
+      "researchArea": "Mental & Behavioral Health",
       "citation": 3,
       "rows": 75,
       "columns": 23,
@@ -980,7 +979,8 @@
       "covariates": 13,
       "treatmentLevels": "Chair-REST; Pool-REST; Pool-REST preferred",
       "csvPath": "../cleaned_data/trial30.csv",
-      "rdsPath": "../cleaned_data/trial30.rds"
+      "rdsPath": "../cleaned_data/trial30.rds",
+      "dictionaryPath": "../data_dictionary/trial30_dictionary.csv"
     },
     {
       "id": 31,
@@ -1000,8 +1000,7 @@
       "statisticalModel": "Cox models for total, direct, and indirect (mediated) effects. Logistic regression to create inverse-odds-ratio weights for mediation. Bootstrap (10 000 resamples) for CIs.",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
-      "researchArea": "Infectious Disease",
-      "textData": "",
+      "researchArea": "Infectious Diseases & Immunology",
       "citation": 77,
       "rows": 796,
       "columns": 12,
@@ -1011,7 +1010,8 @@
       "covariates": 5,
       "treatmentLevels": "Placebo; TIV",
       "csvPath": "../cleaned_data/trial31.csv",
-      "rdsPath": "../cleaned_data/trial31.rds"
+      "rdsPath": "../cleaned_data/trial31.rds",
+      "dictionaryPath": "../data_dictionary/trial31_dictionary.csv"
     },
     {
       "id": 32,
@@ -1031,8 +1031,7 @@
       "statisticalModel": "Linear regression (with transformed outcomes) for continuous variables Fisher’s exact test for categorical variables (e.g., obstruction resolution) Adjusted multivariable regression controlling for confounders Multivariable regularized logistic regression (penalized) for predicting nasal obstruction resolution",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
-      "researchArea": "Orthodontics",
-      "textData": "",
+      "researchArea": "Dentistry & Oral Health",
       "citation": 33,
       "rows": 57,
       "columns": 23,
@@ -1042,7 +1041,8 @@
       "covariates": 13,
       "treatmentLevels": "Hybrid-Hyrax; Hyrax; Keles",
       "csvPath": "../cleaned_data/trial32.csv",
-      "rdsPath": "../cleaned_data/trial32.rds"
+      "rdsPath": "../cleaned_data/trial32.rds",
+      "dictionaryPath": "../data_dictionary/trial32_dictionary.csv"
     },
     {
       "id": 33,
@@ -1062,8 +1062,7 @@
       "statisticalModel": "Unadjusted two-tailed t-test for TM score comparison Chi-square test for willingness to participate Factorial two-way ANOVAs (group × baseline characteristics) to assess main and interaction effects, including education",
       "randomizationScheme": "stratified by disease group",
       "randomizationHighLevel": "Stratified",
-      "researchArea": "Research Ethics",
-      "textData": "",
+      "researchArea": "General Medicine, Health Services & Education",
       "citation": 51,
       "rows": 154,
       "columns": 11,
@@ -1073,7 +1072,8 @@
       "covariates": 8,
       "treatmentLevels": "Control; Reframing",
       "csvPath": "../cleaned_data/trial33.csv",
-      "rdsPath": "../cleaned_data/trial33.rds"
+      "rdsPath": "../cleaned_data/trial33.rds",
+      "dictionaryPath": "../data_dictionary/trial33_dictionary.csv"
     },
     {
       "id": 34,
@@ -1093,8 +1093,7 @@
       "statisticalModel": "Primary and secondary binary outcomes: Chi-square or Fisher’s exact tests to compare proportions; risk ratios with 95% CIs Weight gain comparison: Two-sample t-test (Satterthwaite)",
       "randomizationScheme": "blocked randomization",
       "randomizationHighLevel": "Block",
-      "researchArea": "Maternal & Child Health",
-      "textData": "",
+      "researchArea": "Women's, Maternal & Child Health",
       "citation": 591,
       "rows": 4556,
       "columns": 27,
@@ -1104,7 +1103,8 @@
       "covariates": 18,
       "treatmentLevels": "Placebo; Synbiotic",
       "csvPath": "../cleaned_data/trial34.csv",
-      "rdsPath": "../cleaned_data/trial34.rds"
+      "rdsPath": "../cleaned_data/trial34.rds",
+      "dictionaryPath": "../data_dictionary/trial34_dictionary.csv"
     },
     {
       "id": 35,
@@ -1124,8 +1124,7 @@
       "statisticalModel": "Continuous outcomes: linear mixed models (time × treatment fixed; participant random) Binary outcomes: mixed-effects logistic regression – Analyses by intention-to-treat; per-protocol sensitivity analyses also performed",
       "randomizationScheme": "blocked randomization",
       "randomizationHighLevel": "Block",
-      "researchArea": "Maternal & Child Health",
-      "textData": "",
+      "researchArea": "Women's, Maternal & Child Health",
       "citation": 195,
       "rows": 91,
       "columns": 26,
@@ -1135,7 +1134,8 @@
       "covariates": 9,
       "treatmentLevels": "Control; Exercise",
       "csvPath": "../cleaned_data/trial35.csv",
-      "rdsPath": "../cleaned_data/trial35.rds"
+      "rdsPath": "../cleaned_data/trial35.rds",
+      "dictionaryPath": "../data_dictionary/trial35_dictionary.csv"
     },
     {
       "id": 36,
@@ -1155,8 +1155,7 @@
       "statisticalModel": "Primary & secondary: Complete-case ANCOVA (post-intervention measure ~ group + baseline + age + sex + education), with Bonferroni-adjusted pairwise t-tests 36. Functional connectivity: MANCOVAN followed by voxel-wise univariate tests (FDR-corrected). Exploratory brain–behavior: Linear mixed-effects models.",
       "randomizationScheme": "Blocked randomization, stratified by site",
       "randomizationHighLevel": "Stratified Block",
-      "researchArea": "Neurology",
-      "textData": "",
+      "researchArea": "Neurology & Neurorehabilitation",
       "citation": 4,
       "rows": 114,
       "columns": 22,
@@ -1166,7 +1165,8 @@
       "covariates": 10,
       "treatmentLevels": "ACI; MI; PI",
       "csvPath": "../cleaned_data/trial36.csv",
-      "rdsPath": "../cleaned_data/trial36.rds"
+      "rdsPath": "../cleaned_data/trial36.rds",
+      "dictionaryPath": "../data_dictionary/trial36_dictionary.csv"
     },
     {
       "id": 37,
@@ -1186,8 +1186,7 @@
       "statisticalModel": "Primary & moderate-to-severe outcomes: Two-tailed Fisher’s exact test (α=0.041, O’Brien–Fleming spending) 37 Hospital stay: Kruskal–Wallis rank test 37 Subgroup interactions: Multiple logistic regression with interaction terms",
       "randomizationScheme": "stratified by center",
       "randomizationHighLevel": "Stratified",
-      "researchArea": "Gastroenterology",
-      "textData": "",
+      "researchArea": "Gastroenterology & Hepatology",
       "citation": 961,
       "rows": 602,
       "columns": 30,
@@ -1197,7 +1196,8 @@
       "covariates": 28,
       "treatmentLevels": "Indomethacin; Placebo",
       "csvPath": "../cleaned_data/trial37.csv",
-      "rdsPath": "../cleaned_data/trial37.rds"
+      "rdsPath": "../cleaned_data/trial37.rds",
+      "dictionaryPath": "../data_dictionary/trial37_dictionary.csv"
     },
     {
       "id": 38,
@@ -1217,8 +1217,7 @@
       "statisticalModel": "Kaplan–Meier estimates + log-rank tests Cox proportional-hazards models stratified on prior therapy (with subgroup–treatment interaction) ANOVA and two-sample t-tests for CD4 count changes",
       "randomizationScheme": "stratified by prior antiretroviral exposure, block",
       "randomizationHighLevel": "Stratified Block",
-      "researchArea": "HIV/AIDS",
-      "textData": "",
+      "researchArea": "Infectious Diseases & Immunology",
       "citation": 1512,
       "rows": 2139,
       "columns": 21,
@@ -1228,7 +1227,8 @@
       "covariates": 16,
       "treatmentLevels": "ddI; ZDV; ZDV_ddI; ZDV_Zal",
       "csvPath": "../cleaned_data/trial38.csv",
-      "rdsPath": "../cleaned_data/trial38.rds"
+      "rdsPath": "../cleaned_data/trial38.rds",
+      "dictionaryPath": "../data_dictionary/trial38_dictionary.csv"
     },
     {
       "id": 39,
@@ -1248,8 +1248,7 @@
       "statisticalModel": "Primary: log-rank test; Cox proportional-hazards model for HR Secondary: generalized linear mixed models (PROC MIXED with unstructured covariance) for continuous outcomes; Wilcoxon rank-sum for utilization rates",
       "randomizationScheme": "blocked randomization, stratified by primary substance (alcohol vs drugs)",
       "randomizationHighLevel": "Stratified Block",
-      "researchArea": "Mental Health",
-      "textData": "",
+      "researchArea": "Mental & Behavioral Health",
       "citation": 124,
       "rows": 470,
       "columns": 24,
@@ -1259,7 +1258,8 @@
       "covariates": 19,
       "treatmentLevels": "HELP; Usual Care",
       "csvPath": "../cleaned_data/trial39.csv",
-      "rdsPath": "../cleaned_data/trial39.rds"
+      "rdsPath": "../cleaned_data/trial39.rds",
+      "dictionaryPath": "../data_dictionary/trial39_dictionary.csv"
     },
     {
       "id": 40,
@@ -1279,8 +1279,7 @@
       "statisticalModel": "Primary outcome: Cox proportional‐hazards regression (adjusted for ASA and Mallampati), Kaplan–Meier curves with 95% confidence bands Secondary outcomes: Wilcoxon rank‐sum test for number of attempts Fisher’s exact test or logistic regression for binary outcomes (first‐attempt and overall success, bleeding, glottic view) Analysis of covariance for ease‐of‐intubation score Proportional‐odds logistic regression for sore‐throat severity",
       "randomizationScheme": "blocked randomization",
       "randomizationHighLevel": "Block",
-      "researchArea": "Anesthesiology",
-      "textData": "",
+      "researchArea": "Anesthesiology & Pain Medicine",
       "citation": 58,
       "rows": 99,
       "columns": 22,
@@ -1290,7 +1289,8 @@
       "covariates": 5,
       "treatmentLevels": "AWS; Macintosh",
       "csvPath": "../cleaned_data/trial40.csv",
-      "rdsPath": "../cleaned_data/trial40.rds"
+      "rdsPath": "../cleaned_data/trial40.rds",
+      "dictionaryPath": "../data_dictionary/trial40_dictionary.csv"
     },
     {
       "id": 41,
@@ -1310,8 +1310,7 @@
       "statisticalModel": "Primary outcome: Modified Mantel–Haenszel test adjusting for within-patient correlation Pain‐score trajectories: Linear mixed-effects model with autoregressive covariance Coughing (ordinal): GEE with cumulative-logit link Individual binary comparisons: χ² tests (with Bonferroni correction)",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
-      "researchArea": "Anesthesiology",
-      "textData": "",
+      "researchArea": "Anesthesiology & Pain Medicine",
       "citation": 71,
       "rows": 235,
       "columns": 24,
@@ -1321,7 +1320,8 @@
       "covariates": 8,
       "treatmentLevels": "Licorice; Sugar",
       "csvPath": "../cleaned_data/trial41.csv",
-      "rdsPath": "../cleaned_data/trial41.rds"
+      "rdsPath": "../cleaned_data/trial41.rds",
+      "dictionaryPath": "../data_dictionary/trial41_dictionary.csv"
     },
     {
       "id": 42,
@@ -1341,8 +1341,7 @@
       "statisticalModel": "Primary: Kaplan–Meier with log-rank test (stratified by sex) and multivariable Cox regression adjusting for sex; sensitivity via Wilcoxon test 42 Secondary: Time-to-event outcomes: Kaplan–Meier/log-rank and Cox (as above) 42 Pain scores & opioid use: ANCOVA on VRS and log-transformed opioid consumption adjusting for sex",
       "randomizationScheme": "blocked randomization",
       "randomizationHighLevel": "Block",
-      "researchArea": "Anesthesiology",
-      "textData": "",
+      "researchArea": "Anesthesiology & Pain Medicine",
       "citation": 14,
       "rows": 103,
       "columns": 16,
@@ -1352,7 +1351,8 @@
       "covariates": 6,
       "treatmentLevels": "Combined; Sequential",
       "csvPath": "../cleaned_data/trial42.csv",
-      "rdsPath": "../cleaned_data/trial42.rds"
+      "rdsPath": "../cleaned_data/trial42.rds",
+      "dictionaryPath": "../data_dictionary/trial42_dictionary.csv"
     },
     {
       "id": 43,
@@ -1372,8 +1372,7 @@
       "statisticalModel": "Primary: Kaplan–Meier curves and log-rank test stratified by center; Cox proportional-hazards regression Competing-risks: live birth vs spontaneous abortion/stillbirth Secondary: t-tests (birth weight), Fisher’s exact or chi-square (proportions), Wilcoxon signed-rank (Apgar), linear mixed models for periodontal measures",
       "randomizationScheme": "blocked randomization, stratify by center",
       "randomizationHighLevel": "Stratified Block",
-      "researchArea": "Maternal & Child Health",
-      "textData": "",
+      "researchArea": "Women's, Maternal & Child Health",
       "citation": 797,
       "rows": 823,
       "columns": 43,
@@ -1383,7 +1382,8 @@
       "covariates": 36,
       "treatmentLevels": "Control; Intervention",
       "csvPath": "../cleaned_data/trial43.csv",
-      "rdsPath": "../cleaned_data/trial43.rds"
+      "rdsPath": "../cleaned_data/trial43.rds",
+      "dictionaryPath": "../data_dictionary/trial43_dictionary.csv"
     },
     {
       "id": 44,
@@ -1403,8 +1403,7 @@
       "statisticalModel": "Primary outcome: Chi-square test Continuous outcomes (pain scores): Student’s t-test Ordinal outcome (PGIC): Mann–Whitney U test Normality check: Shapiro–Wilk test",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
-      "researchArea": "Anesthesiology",
-      "textData": "",
+      "researchArea": "Anesthesiology & Pain Medicine",
       "citation": 8,
       "rows": 127,
       "columns": 13,
@@ -1414,7 +1413,8 @@
       "covariates": 8,
       "treatmentLevels": "Alternative; Conventional",
       "csvPath": "../cleaned_data/trial44.csv",
-      "rdsPath": "../cleaned_data/trial44.rds"
+      "rdsPath": "../cleaned_data/trial44.rds",
+      "dictionaryPath": "../data_dictionary/trial44_dictionary.csv"
     },
     {
       "id": 45,
@@ -1434,8 +1434,7 @@
       "statisticalModel": "Multiple linear regression of mid‐intervention values on group, adjusting for baseline and COVID-19 covariate; two‐tailed P<0.05 for significance; Cohen’s f² for effect sizes",
       "randomizationScheme": "stratified by store and sex",
       "randomizationHighLevel": "Stratified",
-      "researchArea": "Nutrition",
-      "textData": "",
+      "researchArea": "Nutrition, Metabolism & Lifestyle",
       "citation": 3,
       "rows": 64,
       "columns": 73,
@@ -1445,7 +1444,8 @@
       "covariates": 38,
       "treatmentLevels": "0% Discount; 15% Discount; 30% Discount",
       "csvPath": "../cleaned_data/trial45.csv",
-      "rdsPath": "../cleaned_data/trial45.rds"
+      "rdsPath": "../cleaned_data/trial45.rds",
+      "dictionaryPath": "../data_dictionary/trial45_dictionary.csv"
     },
     {
       "id": 46,
@@ -1465,8 +1465,7 @@
       "statisticalModel": "Normality check: Shapiro–Wilk Group comparisons: Independent t-test (for normal data) or Mann–Whitney U (non-normal), with Bonferroni correction for subdomains; Fisher’s exact for nominal Correlations: Spearman’s rs Adjusted analysis: Hierarchical multiple linear regression of total score on prespecified covariates, then group assignment",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
-      "researchArea": "Medical Education",
-      "textData": "",
+      "researchArea": "General Medicine, Health Services & Education",
       "citation": 16,
       "rows": 70,
       "columns": 16,
@@ -1476,7 +1475,8 @@
       "covariates": 9,
       "treatmentLevels": "Control; Simulator_PE",
       "csvPath": "../cleaned_data/trial46.csv",
-      "rdsPath": "../cleaned_data/trial46.rds"
+      "rdsPath": "../cleaned_data/trial46.rds",
+      "dictionaryPath": "../data_dictionary/trial46_dictionary.csv"
     },
     {
       "id": 47,
@@ -1496,8 +1496,7 @@
       "statisticalModel": "Primary outcome: Farrington-Manning test for noninferiority 47 Group comparisons: Wilcoxon/Mann–Whitney test; chi-square test 47 Time-to-event (intubation): Log-rank test 47 Repeated measures: Friedman test with Wilcoxon paired post-hoc (Bonferroni correction) 47 Effect size: Cohen’s d",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
-      "researchArea": "Pediatrics",
-      "textData": "",
+      "researchArea": "Women's, Maternal & Child Health",
       "citation": 12,
       "rows": 252,
       "columns": 76,
@@ -1507,7 +1506,8 @@
       "covariates": 17,
       "treatmentLevels": "HFNC; NIV",
       "csvPath": "../cleaned_data/trial47.csv",
-      "rdsPath": "../cleaned_data/trial47.rds"
+      "rdsPath": "../cleaned_data/trial47.rds",
+      "dictionaryPath": "../data_dictionary/trial47_dictionary.csv"
     },
     {
       "id": 48,
@@ -1527,8 +1527,7 @@
       "statisticalModel": "Primary analysis: Ordinary least squares linear regression, adjusted for baseline covariates. Type II ANOVA for between-group comparisons. Multiple imputation for missing data (via MICE package in R). Secondary analyses: Compliance-adjusted regression using self-reported adherence.",
       "randomizationScheme": "Stratified block by eating status",
       "randomizationHighLevel": "Stratified Block",
-      "researchArea": "Nutrition",
-      "textData": "",
+      "researchArea": "Nutrition, Metabolism & Lifestyle",
       "citation": 201,
       "rows": 255,
       "columns": 10,
@@ -1538,7 +1537,8 @@
       "covariates": 7,
       "treatmentLevels": "Breakfast; Control; NoBreakfast",
       "csvPath": "../cleaned_data/trial48.csv",
-      "rdsPath": "../cleaned_data/trial48.rds"
+      "rdsPath": "../cleaned_data/trial48.rds",
+      "dictionaryPath": "../data_dictionary/trial48_dictionary.csv"
     },
     {
       "id": 49,
@@ -1553,13 +1553,12 @@
       "studyPhase": "Not Applicable",
       "sampleSize": 74,
       "primaryOutcome": "Oral Feeding Skills (OFS) level at first oral feeding, which includes: Proficiency (PRO, % volume taken in first 5 minutes) Rate of Transfer (RT, mL/min)",
-      "primaryOutcomeType": "Continuous",
+      "primaryOutcomeType": "Continuous; Ordinal",
       "trialSuccess": "Yes",
       "statisticalModel": "Fisher’s exact test, Student’s t-test, Mann–Whitney U test Logistic regression (OFS level 4 vs. lower levels) Generalized estimating equations (GEE) for volume intake trends Cox proportional hazards model for time to full oral feeding",
       "randomizationScheme": "blocked randomization, stratified by gestational age",
       "randomizationHighLevel": "Stratified Block",
-      "researchArea": "Maternal & Child Health",
-      "textData": "",
+      "researchArea": "Women's, Maternal & Child Health",
       "citation": 53,
       "rows": 74,
       "columns": 46,
@@ -1569,7 +1568,8 @@
       "covariates": 26,
       "treatmentLevels": "Control; OralStimulation",
       "csvPath": "../cleaned_data/trial49.csv",
-      "rdsPath": "../cleaned_data/trial49.rds"
+      "rdsPath": "../cleaned_data/trial49.rds",
+      "dictionaryPath": "../data_dictionary/trial49_dictionary.csv"
     },
     {
       "id": 50,
@@ -1589,8 +1589,7 @@
       "statisticalModel": "Time-to-event: Kaplan–Meier curves with log-rank test (for time to first serious infection). Binary/count outcomes: χ² or Fisher’s exact tests for proportions; comparisons of infection counts (likely Poisson or similar, though not specified)",
       "randomizationScheme": "stratified by inherit",
       "randomizationHighLevel": "Stratified",
-      "researchArea": "Immunology",
-      "textData": "",
+      "researchArea": "Infectious Diseases & Immunology",
       "citation": 751,
       "rows": 128,
       "columns": 12,
@@ -1600,7 +1599,8 @@
       "covariates": 8,
       "treatmentLevels": "Placebo; rIFN-g",
       "csvPath": "../cleaned_data/trial50.csv",
-      "rdsPath": "../cleaned_data/trial50.rds"
+      "rdsPath": "../cleaned_data/trial50.rds",
+      "dictionaryPath": "../data_dictionary/trial50_dictionary.csv"
     },
     {
       "id": 51,
@@ -1620,8 +1620,7 @@
       "statisticalModel": "One-way ANOVA/Kruskal-Wallis for actigraphy; two-way ANOVA or F1-LD-F1 model for repeated questionnaire outcomes",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
-      "researchArea": "Sports Medicine/Sleep",
-      "textData": "No",
+      "researchArea": "Nutrition, Metabolism & Lifestyle",
       "citation": 1,
       "rows": 37,
       "columns": 15,
@@ -1631,7 +1630,8 @@
       "covariates": 9,
       "treatmentLevels": "Control; Lavender oil; Sleep hygiene; Sleep hygiene + lavender oil",
       "csvPath": "../cleaned_data/trial51.csv",
-      "rdsPath": "../cleaned_data/trial51.rds"
+      "rdsPath": "../cleaned_data/trial51.rds",
+      "dictionaryPath": "../data_dictionary/trial51_dictionary.csv"
     },
     {
       "id": 52,
@@ -1646,13 +1646,12 @@
       "studyPhase": "Not Applicable",
       "sampleSize": 69,
       "primaryOutcome": "Change in serum phosphorus at week 23 and change in BSFS at week 7",
-      "primaryOutcomeType": "Continuous",
+      "primaryOutcomeType": "Continuous; Ordinal",
       "trialSuccess": "Mixed; BSFS improved within tenapanor group, serum phosphorus between-group difference not significant",
       "statisticalModel": "Repeated-measures ANOVA for blood data; Sankey/McNemar with Bonferroni for BSFS/laxative changes; ITT",
       "randomizationScheme": "stratified randomization",
       "randomizationHighLevel": "Stratified",
       "researchArea": "Nephrology",
-      "textData": "No",
       "citation": 3,
       "rows": 69,
       "columns": 18,
@@ -1662,7 +1661,8 @@
       "covariates": 15,
       "treatmentLevels": "Control; Tenapanor",
       "csvPath": "../cleaned_data/trial52.csv",
-      "rdsPath": "../cleaned_data/trial52.rds"
+      "rdsPath": "../cleaned_data/trial52.rds",
+      "dictionaryPath": "../data_dictionary/trial52_dictionary.csv"
     },
     {
       "id": 53,
@@ -1682,8 +1682,7 @@
       "statisticalModel": "Independent/paired t-tests or Mann-Whitney/Wilcoxon; chi-square/Fisher exact for categorical outcomes",
       "randomizationScheme": "blocked randomization",
       "randomizationHighLevel": "Block",
-      "researchArea": "Anesthesiology",
-      "textData": "No",
+      "researchArea": "Anesthesiology & Pain Medicine",
       "citation": 10,
       "rows": 59,
       "columns": 14,
@@ -1693,7 +1692,8 @@
       "covariates": 7,
       "treatmentLevels": "Group 1; Group 2",
       "csvPath": "../cleaned_data/trial53.csv",
-      "rdsPath": "../cleaned_data/trial53.rds"
+      "rdsPath": "../cleaned_data/trial53.rds",
+      "dictionaryPath": "../data_dictionary/trial53_dictionary.csv"
     },
     {
       "id": 54,
@@ -1713,8 +1713,7 @@
       "statisticalModel": "Mann-Whitney U tests; per-protocol primary analysis and ITT with multiple imputation sensitivity analysis",
       "randomizationScheme": "blocked randomization",
       "randomizationHighLevel": "Block",
-      "researchArea": "Urogynecology",
-      "textData": "No",
+      "researchArea": "Women's, Maternal & Child Health",
       "citation": 2,
       "rows": 69,
       "columns": 11,
@@ -1724,7 +1723,8 @@
       "covariates": 7,
       "treatmentLevels": "Pelvic floor training; Vaginal spheres + pelvic floor training",
       "csvPath": "../cleaned_data/trial54.csv",
-      "rdsPath": "../cleaned_data/trial54.rds"
+      "rdsPath": "../cleaned_data/trial54.rds",
+      "dictionaryPath": "../data_dictionary/trial54_dictionary.csv"
     },
     {
       "id": 55,
@@ -1744,8 +1744,7 @@
       "statisticalModel": "Poisson regression with log observation time offset",
       "randomizationScheme": "blocked randomization",
       "randomizationHighLevel": "Block",
-      "researchArea": "Pulmonology",
-      "textData": "No",
+      "researchArea": "Emergency, Pulmonary & Critical Care",
       "citation": 6,
       "rows": 56,
       "columns": 15,
@@ -1755,7 +1754,8 @@
       "covariates": 10,
       "treatmentLevels": "Control; Taking Charge",
       "csvPath": "../cleaned_data/trial55.csv",
-      "rdsPath": "../cleaned_data/trial55.rds"
+      "rdsPath": "../cleaned_data/trial55.rds",
+      "dictionaryPath": "../data_dictionary/trial55_dictionary.csv"
     },
     {
       "id": 56,
@@ -1775,8 +1775,7 @@
       "statisticalModel": "Linear mixed model with fixed tDCS, time, and interaction effects and participant random effect",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
-      "researchArea": "Neuropsychology/burnout",
-      "textData": "No",
+      "researchArea": "Mental & Behavioral Health",
       "citation": 7,
       "rows": 15,
       "columns": 17,
@@ -1786,7 +1785,8 @@
       "covariates": 10,
       "treatmentLevels": "Active tDCS; Sham tDCS",
       "csvPath": "../cleaned_data/trial56.csv",
-      "rdsPath": "../cleaned_data/trial56.rds"
+      "rdsPath": "../cleaned_data/trial56.rds",
+      "dictionaryPath": "../data_dictionary/trial56_dictionary.csv"
     },
     {
       "id": 57,
@@ -1806,8 +1806,7 @@
       "statisticalModel": "Linear mixed-effects models for repeated weight and waist outcomes; Bayesian sensitivity models in supplement",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
-      "researchArea": "Obesity/behavioral medicine",
-      "textData": "No",
+      "researchArea": "Nutrition, Metabolism & Lifestyle",
       "citation": 100,
       "rows": 121,
       "columns": 13,
@@ -1817,7 +1816,8 @@
       "covariates": 7,
       "treatmentLevels": "Functional imagery training; Motivational interviewing",
       "csvPath": "../cleaned_data/trial57.csv",
-      "rdsPath": "../cleaned_data/trial57.rds"
+      "rdsPath": "../cleaned_data/trial57.rds",
+      "dictionaryPath": "../data_dictionary/trial57_dictionary.csv"
     },
     {
       "id": 58,
@@ -1837,8 +1837,7 @@
       "statisticalModel": "ANCOVA of one-week RBANS scores adjusted for baseline; Wilcoxon or t tests for PANSS changes",
       "randomizationScheme": "blocked randomization",
       "randomizationHighLevel": "Block",
-      "researchArea": "Psychiatry",
-      "textData": "No",
+      "researchArea": "Mental & Behavioral Health",
       "citation": 0,
       "rows": 30,
       "columns": 18,
@@ -1848,7 +1847,8 @@
       "covariates": 11,
       "treatmentLevels": "Active tDCS + cognitive training; Sham tDCS + cognitive training",
       "csvPath": "../cleaned_data/trial58.csv",
-      "rdsPath": "../cleaned_data/trial58.rds"
+      "rdsPath": "../cleaned_data/trial58.rds",
+      "dictionaryPath": "../data_dictionary/trial58_dictionary.csv"
     },
     {
       "id": 59,
@@ -1868,8 +1868,7 @@
       "statisticalModel": "Repeated-measures ANOVA with group-by-time interaction and post-hoc comparisons",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
-      "researchArea": "Sports medicine/rehabilitation",
-      "textData": "No",
+      "researchArea": "Rehabilitation & Physical Medicine",
       "citation": 1,
       "rows": 44,
       "columns": 16,
@@ -1879,7 +1878,8 @@
       "covariates": 8,
       "treatmentLevels": "Static stretching; Tissue flossing",
       "csvPath": "../cleaned_data/trial59.csv",
-      "rdsPath": "../cleaned_data/trial59.rds"
+      "rdsPath": "../cleaned_data/trial59.rds",
+      "dictionaryPath": "../data_dictionary/trial59_dictionary.csv"
     },
     {
       "id": 60,
@@ -1899,8 +1899,7 @@
       "statisticalModel": "Mixed-effects model adjusted for period and sequence",
       "randomizationScheme": "randomized crossover sequence",
       "randomizationHighLevel": "Crossover",
-      "researchArea": "Dentistry/oral rehabilitation",
-      "textData": "No",
+      "researchArea": "Dentistry & Oral Health",
       "citation": 1,
       "rows": 92,
       "columns": 9,
@@ -1910,7 +1909,8 @@
       "covariates": 4,
       "treatmentLevels": "IW stimulation; Sham",
       "csvPath": "../cleaned_data/trial60.csv",
-      "rdsPath": "../cleaned_data/trial60.rds"
+      "rdsPath": "../cleaned_data/trial60.rds",
+      "dictionaryPath": "../data_dictionary/trial60_dictionary.csv"
     },
     {
       "id": 61,
@@ -1930,8 +1930,7 @@
       "statisticalModel": "Between-arm comparisons of repeated metabolic changes from baseline",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
-      "researchArea": "Nutrition/metabolism",
-      "textData": "No",
+      "researchArea": "Nutrition, Metabolism & Lifestyle",
       "citation": 71,
       "rows": 61,
       "columns": 26,
@@ -1941,7 +1940,8 @@
       "covariates": 21,
       "treatmentLevels": "Placebo; Supplement",
       "csvPath": "../cleaned_data/trial61.csv",
-      "rdsPath": "../cleaned_data/trial61.rds"
+      "rdsPath": "../cleaned_data/trial61.rds",
+      "dictionaryPath": "../data_dictionary/trial61_dictionary.csv"
     },
     {
       "id": 62,
@@ -1961,8 +1961,7 @@
       "statisticalModel": "Mixed model for repeated CKD-EPI eGFR adjusted for baseline renal function",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
-      "researchArea": "Nephrology/transplantation",
-      "textData": "No",
+      "researchArea": "Nephrology",
       "citation": 3,
       "rows": 141,
       "columns": 9,
@@ -1972,7 +1971,8 @@
       "covariates": 4,
       "treatmentLevels": "Cyclosporine; Tacrolimus",
       "csvPath": "../cleaned_data/trial62.csv",
-      "rdsPath": "../cleaned_data/trial62.rds"
+      "rdsPath": "../cleaned_data/trial62.rds",
+      "dictionaryPath": "../data_dictionary/trial62_dictionary.csv"
     },
     {
       "id": 63,
@@ -1992,8 +1992,7 @@
       "statisticalModel": "Repeated-measures comparisons of training effects across HIIT, circuit resistance, and control arms",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
-      "researchArea": "Cardiac rehabilitation",
-      "textData": "No",
+      "researchArea": "Cardiovascular Medicine",
       "citation": 40,
       "rows": 22,
       "columns": 25,
@@ -2003,7 +2002,8 @@
       "covariates": 17,
       "treatmentLevels": "Circuit resistance training; Control; HIIT",
       "csvPath": "../cleaned_data/trial63.csv",
-      "rdsPath": "../cleaned_data/trial63.rds"
+      "rdsPath": "../cleaned_data/trial63.rds",
+      "dictionaryPath": "../data_dictionary/trial63_dictionary.csv"
     },
     {
       "id": 64,
@@ -2023,8 +2023,7 @@
       "statisticalModel": "Between-group comparison of 5-month change scores",
       "randomizationScheme": "stratified randomization",
       "randomizationHighLevel": "Stratified",
-      "researchArea": "Occupational rehabilitation",
-      "textData": "No",
+      "researchArea": "Rehabilitation & Physical Medicine",
       "citation": 18,
       "rows": 226,
       "columns": 24,
@@ -2034,7 +2033,8 @@
       "covariates": 17,
       "treatmentLevels": "Exercise; Wait-list control",
       "csvPath": "../cleaned_data/trial64.csv",
-      "rdsPath": "../cleaned_data/trial64.rds"
+      "rdsPath": "../cleaned_data/trial64.rds",
+      "dictionaryPath": "../data_dictionary/trial64_dictionary.csv"
     },
     {
       "id": 65,
@@ -2054,8 +2054,7 @@
       "statisticalModel": "Randomized crossover comparisons of active, sham, and control endurance tests",
       "randomizationScheme": "randomized crossover sequence",
       "randomizationHighLevel": "Crossover",
-      "researchArea": "Sports performance/neuromodulation",
-      "textData": "No",
+      "researchArea": "Neurology & Neurorehabilitation",
       "citation": 1,
       "rows": 135,
       "columns": 22,
@@ -2065,7 +2064,8 @@
       "covariates": 13,
       "treatmentLevels": "Active tDCS; Control; Sham tDCS",
       "csvPath": "../cleaned_data/trial65.csv",
-      "rdsPath": "../cleaned_data/trial65.rds"
+      "rdsPath": "../cleaned_data/trial65.rds",
+      "dictionaryPath": "../data_dictionary/trial65_dictionary.csv"
     },
     {
       "id": 66,
@@ -2085,8 +2085,7 @@
       "statisticalModel": "Paired tests within yoga arm and between-group comparisons of balance outcomes",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
-      "researchArea": "Rehabilitation/balance",
-      "textData": "No",
+      "researchArea": "Rehabilitation & Physical Medicine",
       "citation": 46,
       "rows": 17,
       "columns": 13,
@@ -2096,7 +2095,8 @@
       "covariates": 4,
       "treatmentLevels": "Ashtanga yoga therapy; Waitlist control",
       "csvPath": "../cleaned_data/trial66.csv",
-      "rdsPath": "../cleaned_data/trial66.rds"
+      "rdsPath": "../cleaned_data/trial66.rds",
+      "dictionaryPath": "../data_dictionary/trial66_dictionary.csv"
     },
     {
       "id": 67,
@@ -2116,8 +2116,7 @@
       "statisticalModel": "Between-filter comparison of solute clearances during CVVHD",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
-      "researchArea": "Nephrology/critical care",
-      "textData": "No",
+      "researchArea": "Nephrology",
       "citation": 46,
       "rows": 60,
       "columns": 19,
@@ -2127,7 +2126,8 @@
       "covariates": 12,
       "treatmentLevels": "High cut-off filter; Standard filter",
       "csvPath": "../cleaned_data/trial67.csv",
-      "rdsPath": "../cleaned_data/trial67.rds"
+      "rdsPath": "../cleaned_data/trial67.rds",
+      "dictionaryPath": "../data_dictionary/trial67_dictionary.csv"
     },
     {
       "id": 68,
@@ -2147,8 +2147,7 @@
       "statisticalModel": "Repeated-measures mixed/ANCOVA models of ADHD symptom trajectories",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
-      "researchArea": "Pediatric ADHD/neurofeedback",
-      "textData": "No",
+      "researchArea": "Neurology & Neurorehabilitation",
       "citation": 94,
       "rows": 172,
       "columns": 16,
@@ -2158,7 +2157,8 @@
       "covariates": 11,
       "treatmentLevels": "BCI attention training; Control",
       "csvPath": "../cleaned_data/trial68.csv",
-      "rdsPath": "../cleaned_data/trial68.rds"
+      "rdsPath": "../cleaned_data/trial68.rds",
+      "dictionaryPath": "../data_dictionary/trial68_dictionary.csv"
     },
     {
       "id": 69,
@@ -2178,8 +2178,7 @@
       "statisticalModel": "Crossover time-course comparisons of electronic VAS responses with and without conditioning stimulus",
       "randomizationScheme": "randomized crossover sequence",
       "randomizationHighLevel": "Crossover",
-      "researchArea": "Pain pharmacology",
-      "textData": "No",
+      "researchArea": "Anesthesiology & Pain Medicine",
       "citation": 23,
       "rows": 72,
       "columns": 98,
@@ -2189,7 +2188,8 @@
       "covariates": 2,
       "treatmentLevels": "Morphine; Placebo; Tapentadol",
       "csvPath": "../cleaned_data/trial69.csv",
-      "rdsPath": "../cleaned_data/trial69.rds"
+      "rdsPath": "../cleaned_data/trial69.rds",
+      "dictionaryPath": "../data_dictionary/trial69_dictionary.csv"
     },
     {
       "id": 70,
@@ -2209,8 +2209,7 @@
       "statisticalModel": "ANCOVA/regression of post-training cognitive outcomes adjusted for baseline",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
-      "researchArea": "Cognitive training",
-      "textData": "No",
+      "researchArea": "Neurology & Neurorehabilitation",
       "citation": 174,
       "rows": 4715,
       "columns": 23,
@@ -2220,7 +2219,8 @@
       "covariates": 13,
       "treatmentLevels": "Crosswords control; Lumosity cognitive training",
       "csvPath": "../cleaned_data/trial70.csv",
-      "rdsPath": "../cleaned_data/trial70.rds"
+      "rdsPath": "../cleaned_data/trial70.rds",
+      "dictionaryPath": "../data_dictionary/trial70_dictionary.csv"
     },
     {
       "id": 71,
@@ -2240,8 +2240,7 @@
       "statisticalModel": "Pragmatic randomized comparison of outcome proportions",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
-      "researchArea": "Obstetrics/infectious disease",
-      "textData": "No",
+      "researchArea": "Infectious Diseases & Immunology",
       "citation": 9,
       "rows": 240,
       "columns": 17,
@@ -2251,7 +2250,8 @@
       "covariates": 12,
       "treatmentLevels": "Control; Intervention",
       "csvPath": "../cleaned_data/trial71.csv",
-      "rdsPath": "../cleaned_data/trial71.rds"
+      "rdsPath": "../cleaned_data/trial71.rds",
+      "dictionaryPath": "../data_dictionary/trial71_dictionary.csv"
     },
     {
       "id": 72,
@@ -2271,8 +2271,7 @@
       "statisticalModel": "Double-blind randomized non-inferiority comparison of treatment success proportions",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
-      "researchArea": "Obstetrics",
-      "textData": "No",
+      "researchArea": "Women's, Maternal & Child Health",
       "citation": 127,
       "rows": 978,
       "columns": 15,
@@ -2282,7 +2281,8 @@
       "covariates": 10,
       "treatmentLevels": "Oxytocin IV; Sublingual misoprostol",
       "csvPath": "../cleaned_data/trial72.csv",
-      "rdsPath": "../cleaned_data/trial72.rds"
+      "rdsPath": "../cleaned_data/trial72.rds",
+      "dictionaryPath": "../data_dictionary/trial72_dictionary.csv"
     },
     {
       "id": 73,
@@ -2297,13 +2297,12 @@
       "studyPhase": "Not Applicable",
       "sampleSize": 44,
       "primaryOutcome": "Patient satisfaction with the reassurance-call service after prostate biopsy",
-      "primaryOutcomeType": "Continuous",
+      "primaryOutcomeType": "Ordinal",
       "trialSuccess": "Human-assisted reassurance calls had higher service satisfaction than AI-assisted calls",
       "statisticalModel": "Pilot randomized comparison of AI-assisted calls, human-assisted calls, and no call",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
-      "researchArea": "Urology/digital health",
-      "textData": "No",
+      "researchArea": "Surgery",
       "citation": 0,
       "rows": 44,
       "columns": 22,
@@ -2313,7 +2312,8 @@
       "covariates": 11,
       "treatmentLevels": "AI-assisted reassurance call; Human-assisted reassurance call; No call",
       "csvPath": "../cleaned_data/trial73.csv",
-      "rdsPath": "../cleaned_data/trial73.rds"
+      "rdsPath": "../cleaned_data/trial73.rds",
+      "dictionaryPath": "../data_dictionary/trial73_dictionary.csv"
     },
     {
       "id": 74,
@@ -2333,8 +2333,7 @@
       "statisticalModel": "Assessor-blind randomized pilot trial with between-group comparisons of change scores",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
-      "researchArea": "Neurology/rehabilitation",
-      "textData": "No",
+      "researchArea": "Neurology & Neurorehabilitation",
       "citation": 9,
       "rows": 23,
       "columns": 21,
@@ -2344,7 +2343,8 @@
       "covariates": 14,
       "treatmentLevels": "Core stability exercise; Standard care",
       "csvPath": "../cleaned_data/trial74.csv",
-      "rdsPath": "../cleaned_data/trial74.rds"
+      "rdsPath": "../cleaned_data/trial74.rds",
+      "dictionaryPath": "../data_dictionary/trial74_dictionary.csv"
     },
     {
       "id": 75,
@@ -2364,8 +2364,7 @@
       "statisticalModel": "Non-inferiority randomized comparison of pain and WOMAC changes",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
-      "researchArea": "Pain medicine",
-      "textData": "No",
+      "researchArea": "Anesthesiology & Pain Medicine",
       "citation": 1,
       "rows": 47,
       "columns": 21,
@@ -2375,7 +2374,8 @@
       "covariates": 14,
       "treatmentLevels": "Conventional three-branch RFA; Reduced two-branch RFA",
       "csvPath": "../cleaned_data/trial75.csv",
-      "rdsPath": "../cleaned_data/trial75.rds"
+      "rdsPath": "../cleaned_data/trial75.rds",
+      "dictionaryPath": "../data_dictionary/trial75_dictionary.csv"
     },
     {
       "id": 76,
@@ -2395,8 +2395,7 @@
       "statisticalModel": "Randomized comparison of post-training assessment scores",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
-      "researchArea": "Medical Education",
-      "textData": "No",
+      "researchArea": "General Medicine, Health Services & Education",
       "citation": 0,
       "rows": 134,
       "columns": 14,
@@ -2406,7 +2405,8 @@
       "covariates": 4,
       "treatmentLevels": "Time-segmented-target teaching; Traditional teaching",
       "csvPath": "../cleaned_data/trial76.csv",
-      "rdsPath": "../cleaned_data/trial76.rds"
+      "rdsPath": "../cleaned_data/trial76.rds",
+      "dictionaryPath": "../data_dictionary/trial76_dictionary.csv"
     },
     {
       "id": 77,
@@ -2426,8 +2426,7 @@
       "statisticalModel": "Randomized rehabilitation comparison of functional change scores",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
-      "researchArea": "Stroke rehabilitation",
-      "textData": "No",
+      "researchArea": "Neurology & Neurorehabilitation",
       "citation": 2,
       "rows": 87,
       "columns": 19,
@@ -2437,7 +2436,8 @@
       "covariates": 13,
       "treatmentLevels": "Control rehabilitation; Core stability exercise",
       "csvPath": "../cleaned_data/trial77.csv",
-      "rdsPath": "../cleaned_data/trial77.rds"
+      "rdsPath": "../cleaned_data/trial77.rds",
+      "dictionaryPath": "../data_dictionary/trial77_dictionary.csv"
     },
     {
       "id": 78,
@@ -2457,8 +2457,7 @@
       "statisticalModel": "Open-label randomized comparison of progression risk and secondary clinical endpoints",
       "randomizationScheme": "minimization",
       "randomizationHighLevel": "Minimization",
-      "researchArea": "COVID-19",
-      "textData": "No",
+      "researchArea": "Infectious Diseases & Immunology",
       "citation": 1,
       "rows": 105,
       "columns": 26,
@@ -2468,7 +2467,8 @@
       "covariates": 19,
       "treatmentLevels": "Control; Regional thermotherapy",
       "csvPath": "../cleaned_data/trial78.csv",
-      "rdsPath": "../cleaned_data/trial78.rds"
+      "rdsPath": "../cleaned_data/trial78.rds",
+      "dictionaryPath": "../data_dictionary/trial78_dictionary.csv"
     },
     {
       "id": 79,
@@ -2488,8 +2488,7 @@
       "statisticalModel": "Randomized pre-post-follow-up comparison of education outcomes",
       "randomizationScheme": "stratified randomization",
       "randomizationHighLevel": "Stratified",
-      "researchArea": "Women's health education",
-      "textData": "No",
+      "researchArea": "Women's, Maternal & Child Health",
       "citation": 9,
       "rows": 98,
       "columns": 20,
@@ -2499,7 +2498,8 @@
       "covariates": 13,
       "treatmentLevels": "Control; Webtoon education",
       "csvPath": "../cleaned_data/trial79.csv",
-      "rdsPath": "../cleaned_data/trial79.rds"
+      "rdsPath": "../cleaned_data/trial79.rds",
+      "dictionaryPath": "../data_dictionary/trial79_dictionary.csv"
     },
     {
       "id": 80,
@@ -2519,8 +2519,7 @@
       "statisticalModel": "Randomized digital-health comparison of anthropometric and mental-health changes",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
-      "researchArea": "Digital health/obesity",
-      "textData": "No",
+      "researchArea": "Nutrition, Metabolism & Lifestyle",
       "citation": 1,
       "rows": 216,
       "columns": 25,
@@ -2530,7 +2529,8 @@
       "covariates": 17,
       "treatmentLevels": "Control; Digital peer support; Self-guided digital program",
       "csvPath": "../cleaned_data/trial80.csv",
-      "rdsPath": "../cleaned_data/trial80.rds"
+      "rdsPath": "../cleaned_data/trial80.rds",
+      "dictionaryPath": "../data_dictionary/trial80_dictionary.csv"
     },
     {
       "id": 81,
@@ -2545,13 +2545,12 @@
       "studyPhase": "Not Applicable",
       "sampleSize": 401,
       "primaryOutcome": "Nausea/PONV at 24 hours",
-      "primaryOutcomeType": "Primary publication reviewed; see audit workbook sheets",
+      "primaryOutcomeType": "Binary",
       "trialSuccess": "Publication reviewed; primary statistical significance not clearly reported in metadata sources",
       "statisticalModel": "Arm-level count/rate comparisons",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
-      "researchArea": "Surgery/Anesthesiology",
-      "textData": "No",
+      "researchArea": "Anesthesiology & Pain Medicine",
       "citation": 17,
       "rows": 401,
       "columns": 14,
@@ -2561,7 +2560,8 @@
       "covariates": 8,
       "treatmentLevels": "Arm_1; Arm_2; Arm_3",
       "csvPath": "../cleaned_data/trial81.csv",
-      "rdsPath": "../cleaned_data/trial81.rds"
+      "rdsPath": "../cleaned_data/trial81.rds",
+      "dictionaryPath": "../data_dictionary/trial81_dictionary.csv"
     },
     {
       "id": 82,
@@ -2576,13 +2576,12 @@
       "studyPhase": "Not Applicable",
       "sampleSize": 250,
       "primaryOutcome": "Occurrence of postoperative atrial fibrillation",
-      "primaryOutcomeType": "Primary publication reviewed; see audit workbook sheets",
+      "primaryOutcomeType": "Binary",
       "trialSuccess": "Yes; publication reports statistically significant primary or main outcome effect",
       "statisticalModel": "Arm-level and overall event summaries",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
       "researchArea": "Surgery",
-      "textData": "No",
       "citation": 8,
       "rows": 250,
       "columns": 26,
@@ -2592,7 +2591,8 @@
       "covariates": 19,
       "treatmentLevels": "Arm_1; Arm_2",
       "csvPath": "../cleaned_data/trial82.csv",
-      "rdsPath": "../cleaned_data/trial82.rds"
+      "rdsPath": "../cleaned_data/trial82.rds",
+      "dictionaryPath": "../data_dictionary/trial82_dictionary.csv"
     },
     {
       "id": 83,
@@ -2607,13 +2607,12 @@
       "studyPhase": "Not Applicable",
       "sampleSize": 59,
       "primaryOutcome": "Daily physical activity level and total energy intake at 12 weeks",
-      "primaryOutcomeType": "Primary publication reviewed; see audit workbook sheets",
+      "primaryOutcomeType": "Continuous",
       "trialSuccess": "Yes; publication reports statistically significant primary or main outcome effect",
       "statisticalModel": "ANCOVA/adjusted mean difference with descriptive change summaries",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
-      "researchArea": "Lifestyle/Behavioral Medicine",
-      "textData": "No",
+      "researchArea": "Mental & Behavioral Health",
       "citation": 26,
       "rows": 59,
       "columns": 25,
@@ -2623,7 +2622,8 @@
       "covariates": 15,
       "treatmentLevels": "Arm_0; Arm_1",
       "csvPath": "../cleaned_data/trial83.csv",
-      "rdsPath": "../cleaned_data/trial83.rds"
+      "rdsPath": "../cleaned_data/trial83.rds",
+      "dictionaryPath": "../data_dictionary/trial83_dictionary.csv"
     },
     {
       "id": 84,
@@ -2638,13 +2638,12 @@
       "studyPhase": "Not Applicable",
       "sampleSize": 156,
       "primaryOutcome": "Depressive symptom severity assessed by MADRS and PHQ-9",
-      "primaryOutcomeType": "Primary publication reviewed; see audit workbook sheets",
+      "primaryOutcomeType": "Continuous",
       "trialSuccess": "Yes; publication reports statistically significant primary or main outcome effect",
       "statisticalModel": "Mixed-model ANOVA and non-inferiority comparisons",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
-      "researchArea": "Neurology",
-      "textData": "No",
+      "researchArea": "Neurology & Neurorehabilitation",
       "citation": 31,
       "rows": 156,
       "columns": 12,
@@ -2654,7 +2653,8 @@
       "covariates": 5,
       "treatmentLevels": "BPT; CBT",
       "csvPath": "../cleaned_data/trial84.csv",
-      "rdsPath": "../cleaned_data/trial84.rds"
+      "rdsPath": "../cleaned_data/trial84.rds",
+      "dictionaryPath": "../data_dictionary/trial84_dictionary.csv"
     },
     {
       "id": 85,
@@ -2669,13 +2669,12 @@
       "studyPhase": "Not Applicable",
       "sampleSize": 61,
       "primaryOutcome": "Brief Pain Inventory average pain intensity after treatment",
-      "primaryOutcomeType": "Primary publication reviewed; see audit workbook sheets",
+      "primaryOutcomeType": "Continuous",
       "trialSuccess": "Yes; publication reports statistically significant primary or main outcome effect",
       "statisticalModel": "Group comparisons of clinical pain outcomes",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
-      "researchArea": "Anesthesiology/Pain Medicine",
-      "textData": "No",
+      "researchArea": "Anesthesiology & Pain Medicine",
       "citation": 24,
       "rows": 61,
       "columns": 29,
@@ -2685,7 +2684,8 @@
       "covariates": 16,
       "treatmentLevels": "Tx; WL",
       "csvPath": "../cleaned_data/trial85.csv",
-      "rdsPath": "../cleaned_data/trial85.rds"
+      "rdsPath": "../cleaned_data/trial85.rds",
+      "dictionaryPath": "../data_dictionary/trial85_dictionary.csv"
     },
     {
       "id": 86,
@@ -2700,13 +2700,12 @@
       "studyPhase": "1",
       "sampleSize": 96,
       "primaryOutcome": "Detection of L. crispatus LBP strains by metagenomic sequencing in first five weeks",
-      "primaryOutcomeType": "Primary publication reviewed; see audit workbook sheets",
+      "primaryOutcomeType": "Binary",
       "trialSuccess": "Publication reviewed; primary statistical significance not clearly reported in metadata sources",
       "statisticalModel": "Primary safety and microbiome detection summaries",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
-      "researchArea": "Obstetrics/Gynecology",
-      "textData": "No",
+      "researchArea": "Women's, Maternal & Child Health",
       "citation": 3,
       "rows": 96,
       "columns": 21,
@@ -2716,7 +2715,8 @@
       "covariates": 15,
       "treatmentLevels": "LC106-3; LC106-7; LC106-o; LC115; Pl",
       "csvPath": "../cleaned_data/trial86.csv",
-      "rdsPath": "../cleaned_data/trial86.rds"
+      "rdsPath": "../cleaned_data/trial86.rds",
+      "dictionaryPath": "../data_dictionary/trial86_dictionary.csv"
     },
     {
       "id": 87,
@@ -2731,13 +2731,12 @@
       "studyPhase": "Not Applicable",
       "sampleSize": 64,
       "primaryOutcome": "Hemodynamic response after intubation and postoperative pain NRS/VAS in PACU",
-      "primaryOutcomeType": "continuous",
+      "primaryOutcomeType": "Continuous",
       "trialSuccess": "Mixed: pain significant; hemodynamic deltas not significant",
       "statisticalModel": "Independent group comparisons; table reports means, medians, counts",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
-      "researchArea": "Anesthesiology",
-      "textData": "No",
+      "researchArea": "Anesthesiology & Pain Medicine",
       "citation": 19,
       "rows": 64,
       "columns": 30,
@@ -2747,7 +2746,8 @@
       "covariates": 13,
       "treatmentLevels": "Fentanyl; Oxycodone",
       "csvPath": "../cleaned_data/trial87.csv",
-      "rdsPath": "../cleaned_data/trial87.rds"
+      "rdsPath": "../cleaned_data/trial87.rds",
+      "dictionaryPath": "../data_dictionary/trial87_dictionary.csv"
     },
     {
       "id": 88,
@@ -2762,13 +2762,12 @@
       "studyPhase": "Not Applicable",
       "sampleSize": 200,
       "primaryOutcome": "Mortality after one-year follow-up",
-      "primaryOutcomeType": "binary event",
+      "primaryOutcomeType": "Binary",
       "trialSuccess": "No",
       "statisticalModel": "Absolute risk reduction and Cox models in publication",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
-      "researchArea": "Cardiology/Nutrition",
-      "textData": "No",
+      "researchArea": "Cardiovascular Medicine",
       "citation": 5,
       "rows": 200,
       "columns": 24,
@@ -2778,7 +2777,8 @@
       "covariates": 18,
       "treatmentLevels": "Control; Nutrition education",
       "csvPath": "../cleaned_data/trial88.csv",
-      "rdsPath": "../cleaned_data/trial88.rds"
+      "rdsPath": "../cleaned_data/trial88.rds",
+      "dictionaryPath": "../data_dictionary/trial88_dictionary.csv"
     },
     {
       "id": 89,
@@ -2793,13 +2793,12 @@
       "studyPhase": "Not Applicable",
       "sampleSize": 119,
       "primaryOutcome": "Montreal Cognitive Assessment score after three-month therapy",
-      "primaryOutcomeType": "continuous",
+      "primaryOutcomeType": "Continuous",
       "trialSuccess": "Yes",
       "statisticalModel": "Within- and between-group MoCA comparisons",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
-      "researchArea": "Neurology/complementary medicine",
-      "textData": "No",
+      "researchArea": "Neurology & Neurorehabilitation",
       "citation": 14,
       "rows": 119,
       "columns": 7,
@@ -2809,7 +2808,8 @@
       "covariates": 2,
       "treatmentLevels": "Acupuncture alone; Nimodipine + acupuncture; Nimodipine alone",
       "csvPath": "../cleaned_data/trial89.csv",
-      "rdsPath": "../cleaned_data/trial89.rds"
+      "rdsPath": "../cleaned_data/trial89.rds",
+      "dictionaryPath": "../data_dictionary/trial89_dictionary.csv"
     },
     {
       "id": 90,
@@ -2824,13 +2824,12 @@
       "studyPhase": "Not Applicable",
       "sampleSize": 293,
       "primaryOutcome": "Objective adherence by MPR and DPPR",
-      "primaryOutcomeType": "continuous percentage",
+      "primaryOutcomeType": "Continuous",
       "trialSuccess": "No",
       "statisticalModel": "Independent group comparisons of adherence summaries",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
-      "researchArea": "Pharmacy/health services",
-      "textData": "No",
+      "researchArea": "General Medicine, Health Services & Education",
       "citation": 124,
       "rows": 293,
       "columns": 9,
@@ -2840,7 +2839,8 @@
       "covariates": 6,
       "treatmentLevels": "Control; Intervention",
       "csvPath": "../cleaned_data/trial90.csv",
-      "rdsPath": "../cleaned_data/trial90.rds"
+      "rdsPath": "../cleaned_data/trial90.rds",
+      "dictionaryPath": "../data_dictionary/trial90_dictionary.csv"
     },
     {
       "id": 91,
@@ -2855,13 +2855,12 @@
       "studyPhase": "Not Applicable",
       "sampleSize": 126,
       "primaryOutcome": "VAS pain while sitting at 10 days",
-      "primaryOutcomeType": "continuous",
+      "primaryOutcomeType": "Continuous",
       "trialSuccess": "No",
       "statisticalModel": "Independent group comparisons of VAS and wound outcomes",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
-      "researchArea": "Obstetrics",
-      "textData": "No",
+      "researchArea": "Women's, Maternal & Child Health",
       "citation": 17,
       "rows": 126,
       "columns": 26,
@@ -2871,7 +2870,8 @@
       "covariates": 4,
       "treatmentLevels": "Monocryl; Vicryl Rapide",
       "csvPath": "../cleaned_data/trial91.csv",
-      "rdsPath": "../cleaned_data/trial91.rds"
+      "rdsPath": "../cleaned_data/trial91.rds",
+      "dictionaryPath": "../data_dictionary/trial91_dictionary.csv"
     },
     {
       "id": 92,
@@ -2886,13 +2886,12 @@
       "studyPhase": "Not Applicable",
       "sampleSize": 371,
       "primaryOutcome": "Reported ITN use and IPTp doses four months post-intervention",
-      "primaryOutcomeType": "ordinal categorical",
+      "primaryOutcomeType": "Count; Ordinal",
       "trialSuccess": "Yes",
       "statisticalModel": "Chi-squared tests for practice and clinical outcomes",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
-      "researchArea": "Malaria prevention/pregnancy",
-      "textData": "No",
+      "researchArea": "Infectious Diseases & Immunology",
       "citation": 18,
       "rows": 371,
       "columns": 30,
@@ -2902,7 +2901,8 @@
       "covariates": 19,
       "treatmentLevels": "Control; Intervention",
       "csvPath": "../cleaned_data/trial92.csv",
-      "rdsPath": "../cleaned_data/trial92.rds"
+      "rdsPath": "../cleaned_data/trial92.rds",
+      "dictionaryPath": "../data_dictionary/trial92_dictionary.csv"
     },
     {
       "id": 93,
@@ -2917,13 +2917,12 @@
       "studyPhase": "Not Applicable",
       "sampleSize": 1140,
       "primaryOutcome": "Self-reported completion of ACT antimalarial treatment",
-      "primaryOutcomeType": "binary self-report",
+      "primaryOutcomeType": "Binary",
       "trialSuccess": "Yes",
       "statisticalModel": "Logistic regression with clustered standard errors",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
-      "researchArea": "Malaria treatment adherence",
-      "textData": "No",
+      "researchArea": "Infectious Diseases & Immunology",
       "citation": 86,
       "rows": 1140,
       "columns": 20,
@@ -2933,7 +2932,8 @@
       "covariates": 15,
       "treatmentLevels": "Control; Reminder only; Reminder plus information",
       "csvPath": "../cleaned_data/trial93.csv",
-      "rdsPath": "../cleaned_data/trial93.rds"
+      "rdsPath": "../cleaned_data/trial93.rds",
+      "dictionaryPath": "../data_dictionary/trial93_dictionary.csv"
     },
     {
       "id": 94,
@@ -2948,13 +2948,12 @@
       "studyPhase": "Not Applicable",
       "sampleSize": 2207,
       "primaryOutcome": "Clinically recorded tuberculosis treatment success",
-      "primaryOutcomeType": "binary clinical outcome",
+      "primaryOutcomeType": "Binary",
       "trialSuccess": "No",
       "statisticalModel": "Group comparison and regression in publication",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
-      "researchArea": "Tuberculosis treatment adherence",
-      "textData": "No",
+      "researchArea": "Infectious Diseases & Immunology",
       "citation": 134,
       "rows": 2207,
       "columns": 26,
@@ -2964,7 +2963,8 @@
       "covariates": 16,
       "treatmentLevels": "Control; Zindagi SMS",
       "csvPath": "../cleaned_data/trial94.csv",
-      "rdsPath": "../cleaned_data/trial94.rds"
+      "rdsPath": "../cleaned_data/trial94.rds",
+      "dictionaryPath": "../data_dictionary/trial94_dictionary.csv"
     },
     {
       "id": 95,
@@ -2979,13 +2979,12 @@
       "studyPhase": "Not Applicable",
       "sampleSize": 148,
       "primaryOutcome": "Insertion time in seconds",
-      "primaryOutcomeType": "continuous time",
+      "primaryOutcomeType": "Continuous",
       "trialSuccess": "Yes",
       "statisticalModel": "Mann-Whitney U test; medians and IQR",
       "randomizationScheme": "blocked randomization",
       "randomizationHighLevel": "Block",
-      "researchArea": "Pediatric anesthesia/emergency airway",
-      "textData": "No",
+      "researchArea": "Anesthesiology & Pain Medicine",
       "citation": 8,
       "rows": 148,
       "columns": 24,
@@ -2995,7 +2994,8 @@
       "covariates": 14,
       "treatmentLevels": "Laryngeal mask; Laryngeal tube",
       "csvPath": "../cleaned_data/trial95.csv",
-      "rdsPath": "../cleaned_data/trial95.rds"
+      "rdsPath": "../cleaned_data/trial95.rds",
+      "dictionaryPath": "../data_dictionary/trial95_dictionary.csv"
     },
     {
       "id": 96,
@@ -3015,8 +3015,7 @@
       "statisticalModel": "Not audited; restored from backup without main publication audit",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
-      "researchArea": "Dermatology/surgical nursing",
-      "textData": "No",
+      "researchArea": "Surgery",
       "citation": 0,
       "rows": 35,
       "columns": 13,
@@ -3026,7 +3025,8 @@
       "covariates": 9,
       "treatmentLevels": "Ceramide emulsion; Control",
       "csvPath": "../cleaned_data/trial96.csv",
-      "rdsPath": "../cleaned_data/trial96.rds"
+      "rdsPath": "../cleaned_data/trial96.rds",
+      "dictionaryPath": "../data_dictionary/trial96_dictionary.csv"
     },
     {
       "id": 97,
@@ -3046,8 +3046,7 @@
       "statisticalModel": "Repeated-measures/mixed-effects model",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
-      "researchArea": "Neurology",
-      "textData": "No",
+      "researchArea": "Neurology & Neurorehabilitation",
       "citation": 33,
       "rows": 110,
       "columns": 10,
@@ -3057,7 +3056,8 @@
       "covariates": 5,
       "treatmentLevels": "Group 1; Group 2",
       "csvPath": "../cleaned_data/trial97.csv",
-      "rdsPath": "../cleaned_data/trial97.rds"
+      "rdsPath": "../cleaned_data/trial97.rds",
+      "dictionaryPath": "../data_dictionary/trial97_dictionary.csv"
     },
     {
       "id": 98,
@@ -3072,13 +3072,12 @@
       "studyPhase": "Not Applicable",
       "sampleSize": 499,
       "primaryOutcome": "pvivax qpcr infection 8m",
-      "primaryOutcomeType": "Binary",
+      "primaryOutcomeType": "Time-to-event",
       "trialSuccess": "Yes; publication reports statistically significant primary or main outcome effect",
       "statisticalModel": "Survival/time-to-event analysis",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
-      "researchArea": "Infectious Disease",
-      "textData": "No",
+      "researchArea": "Infectious Diseases & Immunology",
       "citation": 292,
       "rows": 499,
       "columns": 6,
@@ -3088,7 +3087,8 @@
       "covariates": 3,
       "treatmentLevels": "Placebo; Primaquine",
       "csvPath": "../cleaned_data/trial98.csv",
-      "rdsPath": "../cleaned_data/trial98.rds"
+      "rdsPath": "../cleaned_data/trial98.rds",
+      "dictionaryPath": "../data_dictionary/trial98_dictionary.csv"
     },
     {
       "id": 99,
@@ -3108,8 +3108,7 @@
       "statisticalModel": "ANCOVA/regression adjusted for baseline covariates",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
-      "researchArea": "Neurology",
-      "textData": "No",
+      "researchArea": "Neurology & Neurorehabilitation",
       "citation": 116,
       "rows": 119,
       "columns": 10,
@@ -3119,7 +3118,8 @@
       "covariates": 5,
       "treatmentLevels": "Control; Education support",
       "csvPath": "../cleaned_data/trial99.csv",
-      "rdsPath": "../cleaned_data/trial99.rds"
+      "rdsPath": "../cleaned_data/trial99.rds",
+      "dictionaryPath": "../data_dictionary/trial99_dictionary.csv"
     },
     {
       "id": 100,
@@ -3139,8 +3139,7 @@
       "statisticalModel": "Survival/time-to-event analysis",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
-      "researchArea": "Infectious Disease",
-      "textData": "No",
+      "researchArea": "Infectious Diseases & Immunology",
       "citation": 47,
       "rows": 92,
       "columns": 4,
@@ -3150,7 +3149,8 @@
       "covariates": 1,
       "treatmentLevels": "Control; rhTM",
       "csvPath": "../cleaned_data/trial100.csv",
-      "rdsPath": "../cleaned_data/trial100.rds"
+      "rdsPath": "../cleaned_data/trial100.rds",
+      "dictionaryPath": "../data_dictionary/trial100_dictionary.csv"
     },
     {
       "id": 101,
@@ -3165,13 +3165,12 @@
       "studyPhase": "Not Applicable",
       "sampleSize": 417,
       "primaryOutcome": "eq5d pain 3m",
-      "primaryOutcomeType": "Categorical",
+      "primaryOutcomeType": "Ordinal",
       "trialSuccess": "Publication reviewed; primary statistical significance not clearly reported in metadata sources",
       "statisticalModel": "Between-arm comparison of randomized groups",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
-      "researchArea": "Dentistry",
-      "textData": "No",
+      "researchArea": "Dentistry & Oral Health",
       "citation": 9,
       "rows": 417,
       "columns": 7,
@@ -3181,7 +3180,8 @@
       "covariates": 4,
       "treatmentLevels": "Geriatric intervention; Standard care",
       "csvPath": "../cleaned_data/trial101.csv",
-      "rdsPath": "../cleaned_data/trial101.rds"
+      "rdsPath": "../cleaned_data/trial101.rds",
+      "dictionaryPath": "../data_dictionary/trial101_dictionary.csv"
     },
     {
       "id": 102,
@@ -3201,8 +3201,7 @@
       "statisticalModel": "Between-arm comparison of proportions/logistic regression",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
-      "researchArea": "Infectious Disease",
-      "textData": "No",
+      "researchArea": "Infectious Diseases & Immunology",
       "citation": 45,
       "rows": 410,
       "columns": 8,
@@ -3212,7 +3211,8 @@
       "covariates": 4,
       "treatmentLevels": "Flucloxacillin; Flucloxacillin + clindamycin",
       "csvPath": "../cleaned_data/trial102.csv",
-      "rdsPath": "../cleaned_data/trial102.rds"
+      "rdsPath": "../cleaned_data/trial102.rds",
+      "dictionaryPath": "../data_dictionary/trial102_dictionary.csv"
     },
     {
       "id": 103,
@@ -3227,13 +3227,12 @@
       "studyPhase": "Not Applicable",
       "sampleSize": 599,
       "primaryOutcome": "eq5d pain 3m",
-      "primaryOutcomeType": "Categorical",
+      "primaryOutcomeType": "Ordinal",
       "trialSuccess": "Publication reviewed; primary statistical significance not clearly reported in metadata sources",
       "statisticalModel": "Between-arm comparison of randomized groups",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
-      "researchArea": "Geriatrics",
-      "textData": "No",
+      "researchArea": "General Medicine, Health Services & Education",
       "citation": 10195,
       "rows": 599,
       "columns": 8,
@@ -3243,7 +3242,8 @@
       "covariates": 4,
       "treatmentLevels": "General ward; Geriatric ward; MMHU",
       "csvPath": "../cleaned_data/trial103.csv",
-      "rdsPath": "../cleaned_data/trial103.rds"
+      "rdsPath": "../cleaned_data/trial103.rds",
+      "dictionaryPath": "../data_dictionary/trial103_dictionary.csv"
     },
     {
       "id": 104,
@@ -3258,13 +3258,12 @@
       "studyPhase": "Not Applicable",
       "sampleSize": 366,
       "primaryOutcome": "total medications",
-      "primaryOutcomeType": "Continuous",
+      "primaryOutcomeType": "Count",
       "trialSuccess": "Yes; publication reports statistically significant primary or main outcome effect",
       "statisticalModel": "Between-arm comparison of randomized groups",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
       "researchArea": "Surgery",
-      "textData": "No",
       "citation": 9,
       "rows": 366,
       "columns": 7,
@@ -3274,7 +3273,8 @@
       "covariates": 3,
       "treatmentLevels": "Pharmacist collaborative prescribing; Usual care",
       "csvPath": "../cleaned_data/trial104.csv",
-      "rdsPath": "../cleaned_data/trial104.rds"
+      "rdsPath": "../cleaned_data/trial104.rds",
+      "dictionaryPath": "../data_dictionary/trial104_dictionary.csv"
     },
     {
       "id": 105,
@@ -3294,8 +3294,7 @@
       "statisticalModel": "Repeated-measures/mixed-effects model",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
-      "researchArea": "Obstetrics/Gynecology",
-      "textData": "No",
+      "researchArea": "Women's, Maternal & Child Health",
       "citation": 94,
       "rows": 50,
       "columns": 8,
@@ -3305,7 +3304,8 @@
       "covariates": 4,
       "treatmentLevels": "Exercise; Standard care",
       "csvPath": "../cleaned_data/trial105.csv",
-      "rdsPath": "../cleaned_data/trial105.rds"
+      "rdsPath": "../cleaned_data/trial105.rds",
+      "dictionaryPath": "../data_dictionary/trial105_dictionary.csv"
     },
     {
       "id": 106,
@@ -3325,8 +3325,7 @@
       "statisticalModel": "Between-arm comparison of randomized groups",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
-      "researchArea": "Mental Health",
-      "textData": "No",
+      "researchArea": "Mental & Behavioral Health",
       "citation": 2147,
       "rows": 44,
       "columns": 8,
@@ -3336,7 +3335,8 @@
       "covariates": 4,
       "treatmentLevels": "Mentalization-based treatment; Third wave cognitive therapy",
       "csvPath": "../cleaned_data/trial106.csv",
-      "rdsPath": "../cleaned_data/trial106.rds"
+      "rdsPath": "../cleaned_data/trial106.rds",
+      "dictionaryPath": "../data_dictionary/trial106_dictionary.csv"
     },
     {
       "id": 107,
@@ -3356,8 +3356,7 @@
       "statisticalModel": "Between-arm comparison of randomized groups",
       "randomizationScheme": "minimization",
       "randomizationHighLevel": "Minimization",
-      "researchArea": "Emergency Medicine",
-      "textData": "No",
+      "researchArea": "Emergency, Pulmonary & Critical Care",
       "citation": 63,
       "rows": 217,
       "columns": 6,
@@ -3367,7 +3366,8 @@
       "covariates": 4,
       "treatmentLevels": "Doctor; Emergency nurse practitioner; Extended scope physiotherapist",
       "csvPath": "../cleaned_data/trial107.csv",
-      "rdsPath": "../cleaned_data/trial107.rds"
+      "rdsPath": "../cleaned_data/trial107.rds",
+      "dictionaryPath": "../data_dictionary/trial107_dictionary.csv"
     },
     {
       "id": 108,
@@ -3388,7 +3388,6 @@
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
       "researchArea": "Nephrology",
-      "textData": "No",
       "citation": 40,
       "rows": 6030,
       "columns": 11,
@@ -3398,7 +3397,8 @@
       "covariates": 6,
       "treatmentLevels": "AKI alert; Usual care",
       "csvPath": "../cleaned_data/trial108.csv",
-      "rdsPath": "../cleaned_data/trial108.rds"
+      "rdsPath": "../cleaned_data/trial108.rds",
+      "dictionaryPath": "../data_dictionary/trial108_dictionary.csv"
     },
     {
       "id": 109,
@@ -3419,7 +3419,6 @@
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
       "researchArea": "Nephrology",
-      "textData": "No",
       "citation": 11,
       "rows": 120,
       "columns": 9,
@@ -3429,7 +3428,8 @@
       "covariates": 6,
       "treatmentLevels": "Placebo; Vitamin K1; Vitamin K2",
       "csvPath": "../cleaned_data/trial109.csv",
-      "rdsPath": "../cleaned_data/trial109.rds"
+      "rdsPath": "../cleaned_data/trial109.rds",
+      "dictionaryPath": "../data_dictionary/trial109_dictionary.csv"
     },
     {
       "id": 110,
@@ -3449,8 +3449,7 @@
       "statisticalModel": "Between-arm comparison of randomized groups",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
-      "researchArea": "Obstetrics/Gynecology",
-      "textData": "No",
+      "researchArea": "Women's, Maternal & Child Health",
       "citation": 168,
       "rows": 80,
       "columns": 8,
@@ -3460,7 +3459,8 @@
       "covariates": 4,
       "treatmentLevels": "IV iron (ferumoxytol); Oral iron",
       "csvPath": "../cleaned_data/trial110.csv",
-      "rdsPath": "../cleaned_data/trial110.rds"
+      "rdsPath": "../cleaned_data/trial110.rds",
+      "dictionaryPath": "../data_dictionary/trial110_dictionary.csv"
     },
     {
       "id": 111,
@@ -3480,8 +3480,7 @@
       "statisticalModel": "Between-arm comparison of randomized groups",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
-      "researchArea": "Neurology",
-      "textData": "No",
+      "researchArea": "Neurology & Neurorehabilitation",
       "citation": 6,
       "rows": 20,
       "columns": 8,
@@ -3491,7 +3490,8 @@
       "covariates": 5,
       "treatmentLevels": "Abacus cognitive training; Control",
       "csvPath": "../cleaned_data/trial111.csv",
-      "rdsPath": "../cleaned_data/trial111.rds"
+      "rdsPath": "../cleaned_data/trial111.rds",
+      "dictionaryPath": "../data_dictionary/trial111_dictionary.csv"
     },
     {
       "id": 112,
@@ -3506,13 +3506,12 @@
       "studyPhase": "Not Applicable",
       "sampleSize": 210,
       "primaryOutcome": "time to full oral feeds days",
-      "primaryOutcomeType": "Continuous",
+      "primaryOutcomeType": "Time-to-event",
       "trialSuccess": "Yes; publication reports statistically significant primary or main outcome effect",
       "statisticalModel": "Survival/time-to-event analysis",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
-      "researchArea": "Neonatology",
-      "textData": "No",
+      "researchArea": "Women's, Maternal & Child Health",
       "citation": 40,
       "rows": 210,
       "columns": 8,
@@ -3522,7 +3521,8 @@
       "covariates": 4,
       "treatmentLevels": "Non-pulsatile pacifier; NTrainer stimulation",
       "csvPath": "../cleaned_data/trial112.csv",
-      "rdsPath": "../cleaned_data/trial112.rds"
+      "rdsPath": "../cleaned_data/trial112.rds",
+      "dictionaryPath": "../data_dictionary/trial112_dictionary.csv"
     },
     {
       "id": 113,
@@ -3542,8 +3542,7 @@
       "statisticalModel": "Between-arm comparison of proportions/logistic regression",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
-      "researchArea": "Neurology",
-      "textData": "No",
+      "researchArea": "Neurology & Neurorehabilitation",
       "citation": 15,
       "rows": 28,
       "columns": 9,
@@ -3553,7 +3552,8 @@
       "covariates": 5,
       "treatmentLevels": "Counselling + pharmacotherapy; Usual care",
       "csvPath": "../cleaned_data/trial113.csv",
-      "rdsPath": "../cleaned_data/trial113.rds"
+      "rdsPath": "../cleaned_data/trial113.rds",
+      "dictionaryPath": "../data_dictionary/trial113_dictionary.csv"
     },
     {
       "id": 114,
@@ -3568,13 +3568,12 @@
       "studyPhase": "Not Applicable",
       "sampleSize": 138,
       "primaryOutcome": "rankin 3m",
-      "primaryOutcomeType": "Categorical",
+      "primaryOutcomeType": "Ordinal",
       "trialSuccess": "Yes; publication reports statistically significant primary or main outcome effect",
       "statisticalModel": "Between-arm comparison of proportions/logistic regression",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
-      "researchArea": "Neurology",
-      "textData": "No",
+      "researchArea": "Neurology & Neurorehabilitation",
       "citation": 65,
       "rows": 138,
       "columns": 8,
@@ -3584,7 +3583,8 @@
       "covariates": 4,
       "treatmentLevels": "Early sitting; Progressive sitting",
       "csvPath": "../cleaned_data/trial114.csv",
-      "rdsPath": "../cleaned_data/trial114.rds"
+      "rdsPath": "../cleaned_data/trial114.rds",
+      "dictionaryPath": "../data_dictionary/trial114_dictionary.csv"
     },
     {
       "id": 115,
@@ -3604,8 +3604,7 @@
       "statisticalModel": "Between-arm comparison of proportions/logistic regression",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
-      "researchArea": "Obstetrics/Gynecology",
-      "textData": "No",
+      "researchArea": "Women's, Maternal & Child Health",
       "citation": 40,
       "rows": 511,
       "columns": 9,
@@ -3615,7 +3614,8 @@
       "covariates": 5,
       "treatmentLevels": "Control- no SMS; PP Checklist & FP SMS; PP Checklist & PNC General; PP Checklist Only",
       "csvPath": "../cleaned_data/trial115.csv",
-      "rdsPath": "../cleaned_data/trial115.rds"
+      "rdsPath": "../cleaned_data/trial115.rds",
+      "dictionaryPath": "../data_dictionary/trial115_dictionary.csv"
     },
     {
       "id": 116,
@@ -3630,13 +3630,12 @@
       "studyPhase": "Not Applicable",
       "sampleSize": 24,
       "primaryOutcome": "DASS total and FACT-G total at T2/change from baseline",
-      "primaryOutcomeType": "continuous scale",
+      "primaryOutcomeType": "Continuous",
       "trialSuccess": "Pilot/feasibility trial; efficacy success not primary",
       "statisticalModel": "Between-arm comparison of randomized groups",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
-      "researchArea": "Oncology supportive care/psycho-oncology",
-      "textData": "No",
+      "researchArea": "Oncology",
       "citation": 31,
       "rows": 24,
       "columns": 25,
@@ -3646,7 +3645,8 @@
       "covariates": 15,
       "treatmentLevels": "Group 1; Group 2",
       "csvPath": "../cleaned_data/trial116.csv",
-      "rdsPath": "../cleaned_data/trial116.rds"
+      "rdsPath": "../cleaned_data/trial116.rds",
+      "dictionaryPath": "../data_dictionary/trial116_dictionary.csv"
     },
     {
       "id": 117,
@@ -3661,13 +3661,12 @@
       "studyPhase": "Not Applicable",
       "sampleSize": 25,
       "primaryOutcome": "Post-pre respiratory variability metrics MRR/VRR/VTV",
-      "primaryOutcomeType": "continuous physiologic measure",
+      "primaryOutcomeType": "Continuous",
       "trialSuccess": "Publication reviewed; primary statistical significance not clearly reported in metadata sources",
       "statisticalModel": "Between-arm comparison of randomized groups",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
-      "researchArea": "Anesthesia/respiratory physiology",
-      "textData": "No",
+      "researchArea": "Anesthesiology & Pain Medicine",
       "citation": 1253,
       "rows": 25,
       "columns": 12,
@@ -3677,7 +3676,8 @@
       "covariates": 5,
       "treatmentLevels": "Ketamine; Midazolam; Saline",
       "csvPath": "../cleaned_data/trial117.csv",
-      "rdsPath": "../cleaned_data/trial117.rds"
+      "rdsPath": "../cleaned_data/trial117.rds",
+      "dictionaryPath": "../data_dictionary/trial117_dictionary.csv"
     },
     {
       "id": 118,
@@ -3692,13 +3692,12 @@
       "studyPhase": "Not Applicable",
       "sampleSize": 86,
       "primaryOutcome": "Cognitive composite and MoCA follow-up scores",
-      "primaryOutcomeType": "continuous neuropsychological score",
+      "primaryOutcomeType": "Continuous",
       "trialSuccess": "Yes; publication reports statistically significant primary or main outcome effect",
       "statisticalModel": "Between-arm comparison of randomized groups",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
-      "researchArea": "Traumatic brain injury/neurorehabilitation",
-      "textData": "No",
+      "researchArea": "Neurology & Neurorehabilitation",
       "citation": 12,
       "rows": 86,
       "columns": 22,
@@ -3708,7 +3707,8 @@
       "covariates": 12,
       "treatmentLevels": "CRB+rTMS; CRB+SHM; PLC+SHM",
       "csvPath": "../cleaned_data/trial118.csv",
-      "rdsPath": "../cleaned_data/trial118.rds"
+      "rdsPath": "../cleaned_data/trial118.rds",
+      "dictionaryPath": "../data_dictionary/trial118_dictionary.csv"
     },
     {
       "id": 119,
@@ -3723,13 +3723,12 @@
       "studyPhase": "Not Applicable",
       "sampleSize": 57,
       "primaryOutcome": "Pain score during hysteroscopic morcellation",
-      "primaryOutcomeType": "continuous pain score",
+      "primaryOutcomeType": "Continuous",
       "trialSuccess": "Publication reviewed; primary statistical significance not clearly reported in metadata sources",
       "statisticalModel": "Between-arm comparison of randomized groups",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
-      "researchArea": "Gynecology/outpatient hysteroscopy",
-      "textData": "No",
+      "researchArea": "Women's, Maternal & Child Health",
       "citation": 1,
       "rows": 57,
       "columns": 25,
@@ -3739,7 +3738,8 @@
       "covariates": 15,
       "treatmentLevels": "Randomisation arm 1; Randomisation arm 2",
       "csvPath": "../cleaned_data/trial119.csv",
-      "rdsPath": "../cleaned_data/trial119.rds"
+      "rdsPath": "../cleaned_data/trial119.rds",
+      "dictionaryPath": "../data_dictionary/trial119_dictionary.csv"
     },
     {
       "id": 120,
@@ -3754,13 +3754,12 @@
       "studyPhase": "2",
       "sampleSize": 70,
       "primaryOutcome": "Progression-free survival months and event indicator",
-      "primaryOutcomeType": "time-to-event",
+      "primaryOutcomeType": "Time-to-event",
       "trialSuccess": "Publication reviewed; primary statistical significance not clearly reported in metadata sources",
       "statisticalModel": "Survival analysis in publication; compact data retain PFS/OS summaries",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
       "researchArea": "Oncology",
-      "textData": "No",
       "citation": 44,
       "rows": 70,
       "columns": 7,
@@ -3770,7 +3769,8 @@
       "covariates": 2,
       "treatmentLevels": "Continuous treatment; Intermittent treatment",
       "csvPath": "../cleaned_data/trial120.csv",
-      "rdsPath": "../cleaned_data/trial120.rds"
+      "rdsPath": "../cleaned_data/trial120.rds",
+      "dictionaryPath": "../data_dictionary/trial120_dictionary.csv"
     },
     {
       "id": 121,
@@ -3785,13 +3785,12 @@
       "studyPhase": "Not Applicable",
       "sampleSize": 144,
       "primaryOutcome": "Subjective stress reactivity composite",
-      "primaryOutcomeType": "continuous stress score",
+      "primaryOutcomeType": "Continuous",
       "trialSuccess": "Publication reviewed; primary statistical significance not clearly reported in metadata sources",
       "statisticalModel": "Between-arm comparison of randomized groups",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
-      "researchArea": "Behavioral medicine/mindfulness",
-      "textData": "No",
+      "researchArea": "Mental & Behavioral Health",
       "citation": 227,
       "rows": 144,
       "columns": 20,
@@ -3801,7 +3800,8 @@
       "covariates": 13,
       "treatmentLevels": "Control; Monitor + Accept; Monitor Only",
       "csvPath": "../cleaned_data/trial121.csv",
-      "rdsPath": "../cleaned_data/trial121.rds"
+      "rdsPath": "../cleaned_data/trial121.rds",
+      "dictionaryPath": "../data_dictionary/trial121_dictionary.csv"
     },
     {
       "id": 122,
@@ -3821,8 +3821,7 @@
       "statisticalModel": "Between-arm comparison of randomized groups",
       "randomizationScheme": "factorial randomization",
       "randomizationHighLevel": "Factorial",
-      "researchArea": "Inflammation/placebo effects",
-      "textData": "No",
+      "researchArea": "Infectious Diseases & Immunology",
       "citation": 1,
       "rows": 124,
       "columns": 35,
@@ -3832,7 +3831,8 @@
       "covariates": 22,
       "treatmentLevels": "group_1_medication_1_communication_1; group_2_medication_1_communication_2; group_3_medication_2_communication_1; group_4_medication_2_communication_2",
       "csvPath": "../cleaned_data/trial122.csv",
-      "rdsPath": "../cleaned_data/trial122.rds"
+      "rdsPath": "../cleaned_data/trial122.rds",
+      "dictionaryPath": "../data_dictionary/trial122_dictionary.csv"
     },
     {
       "id": 123,
@@ -3852,8 +3852,7 @@
       "statisticalModel": "Between-arm comparison of randomized groups",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
-      "researchArea": "Surgery/wound healing",
-      "textData": "No",
+      "researchArea": "Surgery",
       "citation": 20,
       "rows": 49,
       "columns": 59,
@@ -3863,7 +3862,8 @@
       "covariates": 32,
       "treatmentLevels": "group_A; group_B; group_C",
       "csvPath": "../cleaned_data/trial123.csv",
-      "rdsPath": "../cleaned_data/trial123.rds"
+      "rdsPath": "../cleaned_data/trial123.rds",
+      "dictionaryPath": "../data_dictionary/trial123_dictionary.csv"
     },
     {
       "id": 124,
@@ -3883,8 +3883,7 @@
       "statisticalModel": "Between-arm comparison of randomized groups",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
-      "researchArea": "Infectious Disease",
-      "textData": "No",
+      "researchArea": "Infectious Diseases & Immunology",
       "citation": 38,
       "rows": 40,
       "columns": 13,
@@ -3894,7 +3893,8 @@
       "covariates": 3,
       "treatmentLevels": "PfAMA1; Tetanus_Toxoid",
       "csvPath": "../cleaned_data/trial124.csv",
-      "rdsPath": "../cleaned_data/trial124.rds"
+      "rdsPath": "../cleaned_data/trial124.rds",
+      "dictionaryPath": "../data_dictionary/trial124_dictionary.csv"
     },
     {
       "id": 125,
@@ -3914,8 +3914,7 @@
       "statisticalModel": "Between-arm comparison of randomized groups",
       "randomizationScheme": "simple randomization",
       "randomizationHighLevel": "Simple",
-      "researchArea": "Physical activity/preventive health",
-      "textData": "No",
+      "researchArea": "Nutrition, Metabolism & Lifestyle",
       "citation": 10,
       "rows": 574,
       "columns": 85,
@@ -3925,7 +3924,8 @@
       "covariates": 30,
       "treatmentLevels": "active_control; control; intervention",
       "csvPath": "../cleaned_data/trial125.csv",
-      "rdsPath": "../cleaned_data/trial125.rds"
+      "rdsPath": "../cleaned_data/trial125.rds",
+      "dictionaryPath": "../data_dictionary/trial125_dictionary.csv"
     }
   ]
 }

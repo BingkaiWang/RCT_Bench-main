@@ -1,0 +1,45 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+25,Treatment,Treatment assignment,factor,factor,55,0,2,Placebo; Probiotic with prebiotic,Treatment: randomized treatment assignment with cleaned-data arms: Placebo; Probiotic with prebiotic. Publication-designated control/reference: Placebo.
+25,YP_delta_GQ1_8w,Primary outcome,continuous,numeric,55,7,5,-3 to 1,Primary outcome: Change from baseline to 8 weeks in Garrigues Questionnaire item: hard stools.
+25,YP_delta_GQ2_8w,Primary outcome,continuous,numeric,55,7,5,-3 to 1,Primary outcome: Change from baseline to 8 weeks in Garrigues Questionnaire item: sensation of incomplete evacuation.
+25,YP_delta_GQ3_8w,Primary outcome,continuous,numeric,55,7,4,-3 to 0,Primary outcome: Change from baseline to 8 weeks in Garrigues Questionnaire item: sensation of anal blockage.
+25,YP_delta_GQ4_8w,Primary outcome,continuous,numeric,55,7,4,-3 to 0,Primary outcome: Change from baseline to 8 weeks in Garrigues Questionnaire item: need to press around the anus or vagina to pass stool.
+25,YP_delta_GQ5_8w,Primary outcome,continuous,numeric,55,7,5,-3 to 1,Primary outcome: Change from baseline to 8 weeks in Garrigues Questionnaire item: spending more than 10 minutes to pass stool.
+25,YP_delta_GQ6_8w,Primary outcome,continuous,numeric,55,7,3,0 to 2,Primary outcome: Change from baseline to 8 weeks in Garrigues Questionnaire item: bowel-opening frequency category.
+25,YP_delta_GQ7_8w,Primary outcome,continuous,numeric,55,7,4,-3 to 0,Primary outcome: Change from baseline to 8 weeks in Garrigues Questionnaire item: frequency of enema use.
+25,YP_delta_GQ8_8w,Primary outcome,continuous,numeric,55,7,4,-2 to 1,Primary outcome: Change from baseline to 8 weeks in Garrigues Questionnaire item: straining during bowel movements.
+25,YP_delta_GQ9_8w,Primary outcome,continuous,numeric,55,7,6,-3 to 2,Primary outcome: Change from baseline to 8 weeks in Garrigues Questionnaire item: frequency of oral-laxative use.
+25,YP_delta_BOF_8w,Primary outcome,continuous,numeric,55,7,7,-1 to 5,"Primary outcome: Change from baseline to 8 weeks in bowel-opening frequency, in bowel movements per week."
+25,YP_delta_WGTT_8w,Primary outcome,continuous,numeric,55,7,24,-144 to 156,"Primary outcome: Change from baseline to 8 weeks in whole-gut transit time, in hours."
+25,YS_DelayedGTT_8w,Secondary outcome,binary,factor,55,7,2,0; 1,"Secondary outcome: Indicator of delayed whole-gut transit time, measured at 8 weeks."
+25,YS_BM_less3_8w,Secondary outcome,binary,numeric,55,7,2,0; 1,"Secondary outcome: Indicator of fewer than three bowel movements per week, measured at 8 weeks."
+25,YS_NMSS_8w,Secondary outcome,continuous,numeric,55,7,41,4 to 166,"Secondary outcome: Non-Motor Symptoms Scale (NMSS) total score, measured at 8 weeks."
+25,YS_PDQ39SI_8w,Secondary outcome,continuous,numeric,55,7,42,4.5 to 86,"Secondary outcome: 39-item Parkinson's Disease Questionnaire summary index (PDQ-39 SI), measured at 8 weeks."
+25,YS_UPDRS11_8w,Secondary outcome,continuous,numeric,55,7,27,4 to 44,"Secondary outcome: Unified Parkinson's Disease Rating Scale part II score, measured at 8 weeks."
+25,YS_UPDRS111_8w,Secondary outcome,continuous,numeric,55,7,34,6 to 101,"Secondary outcome: Unified Parkinson's Disease Rating Scale part III score, measured at 8 weeks."
+25,X_Sex_0w,Baseline covariate,binary,factor,55,0,2,1; 2,Baseline covariate: Sex.
+25,X_Race_0w,Baseline covariate,factor,factor,55,0,3,1; 2; 3,Baseline covariate: Race. Categories/codes in the cleaned data: 1; 2; 3.
+25,X_Duration_0w,Baseline covariate,continuous,numeric,55,0,17,1 to 22,Baseline covariate: Duration.
+25,X_Sedentary_0w,Baseline covariate,binary,factor,55,0,2,1; 2,Baseline covariate: Sedentary.
+25,X_Levodopa_0w,Baseline covariate,binary,factor,55,0,2,1; 2,Baseline covariate: Levodopa.
+25,X_Dopamine_0w,Baseline covariate,binary,factor,55,0,2,1; 2,Baseline covariate: Dopamine.
+25,X_Fibre_0w,Baseline covariate,factor,factor,55,0,3,1; 2; 3,Baseline covariate: Fibre. Categories/codes in the cleaned data: 1; 2; 3.
+25,X_PD_stage_HY_0w,Baseline covariate,binary,factor,55,0,2,1; 2,Baseline covariate: Pd stage hy.
+25,X_GQ1_0w,Baseline covariate,continuous,haven_labelled/vctrs_vctr/double,55,0,3,2 to 4,Baseline covariate: Garrigues Questionnaire item: hard stools.
+25,X_GQ2_0w,Baseline covariate,continuous,haven_labelled/vctrs_vctr/double,55,0,4,1 to 4,Baseline covariate: Garrigues Questionnaire item: sensation of incomplete evacuation.
+25,X_GQ3_0w,Baseline covariate,continuous,haven_labelled/vctrs_vctr/double,55,0,4,1 to 4,Baseline covariate: Garrigues Questionnaire item: sensation of anal blockage.
+25,X_GQ4_0w,Baseline covariate,continuous,haven_labelled/vctrs_vctr/double,55,0,4,1 to 4,Baseline covariate: Garrigues Questionnaire item: need to press around the anus or vagina to pass stool.
+25,X_GQ5_0w,Baseline covariate,continuous,haven_labelled/vctrs_vctr/double,55,0,4,1 to 4,Baseline covariate: Garrigues Questionnaire item: spending more than 10 minutes to pass stool.
+25,X_GQ6_0w,Baseline covariate,continuous,haven_labelled/vctrs_vctr/double,55,0,3,1 to 3,Baseline covariate: Garrigues Questionnaire item: bowel-opening frequency category.
+25,X_GQ7_0w,Baseline covariate,continuous,haven_labelled/vctrs_vctr/double,55,0,4,1 to 4,Baseline covariate: Garrigues Questionnaire item: frequency of enema use.
+25,X_GQ8_0w,Baseline covariate,continuous,haven_labelled/vctrs_vctr/double,55,0,4,1 to 4,Baseline covariate: Garrigues Questionnaire item: straining during bowel movements.
+25,X_GQ9_0w,Baseline covariate,continuous,haven_labelled/vctrs_vctr/double,55,0,4,1 to 4,Baseline covariate: Garrigues Questionnaire item: frequency of oral-laxative use.
+25,X_BOF_0w,Baseline covariate,continuous,numeric,55,0,4,1 to 5,"Baseline covariate: Bowel-opening frequency, in bowel movements per week."
+25,X_WGTT_0w,Baseline covariate,continuous,numeric,55,0,19,12 to 168,"Baseline covariate: Whole-gut transit time, in hours."
+25,X_NMSS_0w,Baseline covariate,continuous,numeric,55,0,42,22 to 166,Baseline covariate: Non-Motor Symptoms Scale (NMSS) total score.
+25,X_PDQ39SI_0w,Baseline covariate,continuous,numeric,55,0,49,6.4 to 98,Baseline covariate: 39-item Parkinson's Disease Questionnaire summary index (PDQ-39 SI).
+25,X_UPDRS11_0w,Baseline covariate,continuous,numeric,55,0,28,4 to 44,Baseline covariate: Unified Parkinson's Disease Rating Scale part II score.
+25,X_UPDRS111_0w,Baseline covariate,continuous,numeric,55,0,40,6 to 100,Baseline covariate: Unified Parkinson's Disease Rating Scale part III score.
+25,X_BMI_0w,Baseline covariate,continuous,numeric,55,0,36,12 to 33.46,"Baseline covariate: Body mass index (BMI), in kg/m²."
+25,X_DelayedGTT_0w,Baseline covariate,binary,factor,55,0,2,<72; >=72,Baseline covariate: Indicator of delayed whole-gut transit time.
+25,X_BM_less3_0w,Baseline covariate,binary,factor,55,0,2,<=3; <3,Baseline covariate: Indicator of fewer than three bowel movements per week.

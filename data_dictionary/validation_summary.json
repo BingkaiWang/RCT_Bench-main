@@ -1,0 +1,1014 @@
+{
+  "summary": {
+    "files": 125,
+    "dictionaryRows": 2910,
+    "allRowCountsMatch": true,
+    "allPrefixesValid": true,
+    "allVariablesMatchCleanedData": true,
+    "allSourceColumnsRemoved": true,
+    "minRows": 4,
+    "maxRows": 98
+  },
+  "validation": [
+    {
+      "trialId": 1,
+      "rows": 52,
+      "checkedRows": 52,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 2,
+      "rows": 14,
+      "checkedRows": 14,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 3,
+      "rows": 34,
+      "checkedRows": 34,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 4,
+      "rows": 18,
+      "checkedRows": 18,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 5,
+      "rows": 66,
+      "checkedRows": 66,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 6,
+      "rows": 50,
+      "checkedRows": 50,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 7,
+      "rows": 30,
+      "checkedRows": 30,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 8,
+      "rows": 11,
+      "checkedRows": 11,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 9,
+      "rows": 33,
+      "checkedRows": 33,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 10,
+      "rows": 44,
+      "checkedRows": 44,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 11,
+      "rows": 28,
+      "checkedRows": 28,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 12,
+      "rows": 91,
+      "checkedRows": 91,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 13,
+      "rows": 23,
+      "checkedRows": 23,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 14,
+      "rows": 48,
+      "checkedRows": 48,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 15,
+      "rows": 32,
+      "checkedRows": 32,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 16,
+      "rows": 22,
+      "checkedRows": 22,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 17,
+      "rows": 15,
+      "checkedRows": 15,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 18,
+      "rows": 36,
+      "checkedRows": 36,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 19,
+      "rows": 24,
+      "checkedRows": 24,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 20,
+      "rows": 24,
+      "checkedRows": 24,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 21,
+      "rows": 18,
+      "checkedRows": 18,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 22,
+      "rows": 40,
+      "checkedRows": 40,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 23,
+      "rows": 22,
+      "checkedRows": 22,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 24,
+      "rows": 18,
+      "checkedRows": 18,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 25,
+      "rows": 44,
+      "checkedRows": 44,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 26,
+      "rows": 18,
+      "checkedRows": 18,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 27,
+      "rows": 17,
+      "checkedRows": 17,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 28,
+      "rows": 25,
+      "checkedRows": 25,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 29,
+      "rows": 31,
+      "checkedRows": 31,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 30,
+      "rows": 23,
+      "checkedRows": 23,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 31,
+      "rows": 12,
+      "checkedRows": 12,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 32,
+      "rows": 23,
+      "checkedRows": 23,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 33,
+      "rows": 11,
+      "checkedRows": 11,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 34,
+      "rows": 27,
+      "checkedRows": 27,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 35,
+      "rows": 26,
+      "checkedRows": 26,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 36,
+      "rows": 22,
+      "checkedRows": 22,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 37,
+      "rows": 30,
+      "checkedRows": 30,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 38,
+      "rows": 21,
+      "checkedRows": 21,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 39,
+      "rows": 24,
+      "checkedRows": 24,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 40,
+      "rows": 22,
+      "checkedRows": 22,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 41,
+      "rows": 24,
+      "checkedRows": 24,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 42,
+      "rows": 16,
+      "checkedRows": 16,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 43,
+      "rows": 43,
+      "checkedRows": 43,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 44,
+      "rows": 13,
+      "checkedRows": 13,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 45,
+      "rows": 73,
+      "checkedRows": 73,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 46,
+      "rows": 16,
+      "checkedRows": 16,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 47,
+      "rows": 76,
+      "checkedRows": 76,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 48,
+      "rows": 10,
+      "checkedRows": 10,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 49,
+      "rows": 46,
+      "checkedRows": 46,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 50,
+      "rows": 12,
+      "checkedRows": 12,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 51,
+      "rows": 15,
+      "checkedRows": 15,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 52,
+      "rows": 18,
+      "checkedRows": 18,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 53,
+      "rows": 14,
+      "checkedRows": 14,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 54,
+      "rows": 11,
+      "checkedRows": 11,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 55,
+      "rows": 15,
+      "checkedRows": 15,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 56,
+      "rows": 17,
+      "checkedRows": 17,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 57,
+      "rows": 13,
+      "checkedRows": 13,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 58,
+      "rows": 18,
+      "checkedRows": 18,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 59,
+      "rows": 16,
+      "checkedRows": 16,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 60,
+      "rows": 9,
+      "checkedRows": 9,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 61,
+      "rows": 26,
+      "checkedRows": 26,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 62,
+      "rows": 9,
+      "checkedRows": 9,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 63,
+      "rows": 25,
+      "checkedRows": 25,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 64,
+      "rows": 24,
+      "checkedRows": 24,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 65,
+      "rows": 22,
+      "checkedRows": 22,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 66,
+      "rows": 13,
+      "checkedRows": 13,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 67,
+      "rows": 19,
+      "checkedRows": 19,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 68,
+      "rows": 16,
+      "checkedRows": 16,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 69,
+      "rows": 98,
+      "checkedRows": 98,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 70,
+      "rows": 23,
+      "checkedRows": 23,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 71,
+      "rows": 17,
+      "checkedRows": 17,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 72,
+      "rows": 15,
+      "checkedRows": 15,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 73,
+      "rows": 22,
+      "checkedRows": 22,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 74,
+      "rows": 21,
+      "checkedRows": 21,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 75,
+      "rows": 21,
+      "checkedRows": 21,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 76,
+      "rows": 14,
+      "checkedRows": 14,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 77,
+      "rows": 19,
+      "checkedRows": 19,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 78,
+      "rows": 26,
+      "checkedRows": 26,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 79,
+      "rows": 20,
+      "checkedRows": 20,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 80,
+      "rows": 25,
+      "checkedRows": 25,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 81,
+      "rows": 14,
+      "checkedRows": 14,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 82,
+      "rows": 26,
+      "checkedRows": 26,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 83,
+      "rows": 25,
+      "checkedRows": 25,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 84,
+      "rows": 12,
+      "checkedRows": 12,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 85,
+      "rows": 29,
+      "checkedRows": 29,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 86,
+      "rows": 21,
+      "checkedRows": 21,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 87,
+      "rows": 30,
+      "checkedRows": 30,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 88,
+      "rows": 24,
+      "checkedRows": 24,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 89,
+      "rows": 7,
+      "checkedRows": 7,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 90,
+      "rows": 9,
+      "checkedRows": 9,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 91,
+      "rows": 26,
+      "checkedRows": 26,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 92,
+      "rows": 30,
+      "checkedRows": 30,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 93,
+      "rows": 20,
+      "checkedRows": 20,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 94,
+      "rows": 26,
+      "checkedRows": 26,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 95,
+      "rows": 24,
+      "checkedRows": 24,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 96,
+      "rows": 13,
+      "checkedRows": 13,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 97,
+      "rows": 10,
+      "checkedRows": 10,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 98,
+      "rows": 6,
+      "checkedRows": 6,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 99,
+      "rows": 10,
+      "checkedRows": 10,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 100,
+      "rows": 4,
+      "checkedRows": 4,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 101,
+      "rows": 7,
+      "checkedRows": 7,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 102,
+      "rows": 8,
+      "checkedRows": 8,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 103,
+      "rows": 8,
+      "checkedRows": 8,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 104,
+      "rows": 7,
+      "checkedRows": 7,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 105,
+      "rows": 8,
+      "checkedRows": 8,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 106,
+      "rows": 8,
+      "checkedRows": 8,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 107,
+      "rows": 6,
+      "checkedRows": 6,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 108,
+      "rows": 11,
+      "checkedRows": 11,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 109,
+      "rows": 9,
+      "checkedRows": 9,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 110,
+      "rows": 8,
+      "checkedRows": 8,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 111,
+      "rows": 8,
+      "checkedRows": 8,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 112,
+      "rows": 8,
+      "checkedRows": 8,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 113,
+      "rows": 9,
+      "checkedRows": 9,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 114,
+      "rows": 8,
+      "checkedRows": 8,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 115,
+      "rows": 9,
+      "checkedRows": 9,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 116,
+      "rows": 25,
+      "checkedRows": 25,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 117,
+      "rows": 12,
+      "checkedRows": 12,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 118,
+      "rows": 22,
+      "checkedRows": 22,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 119,
+      "rows": 25,
+      "checkedRows": 25,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 120,
+      "rows": 7,
+      "checkedRows": 7,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 121,
+      "rows": 20,
+      "checkedRows": 20,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 122,
+      "rows": 35,
+      "checkedRows": 35,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 123,
+      "rows": 59,
+      "checkedRows": 59,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 124,
+      "rows": 13,
+      "checkedRows": 13,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    },
+    {
+      "trialId": 125,
+      "rows": 85,
+      "checkedRows": 85,
+      "prefixesValid": true,
+      "variablesMatchCleanedData": true,
+      "sourceColumnRemoved": true
+    }
+  ]
+}

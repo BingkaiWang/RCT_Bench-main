@@ -1,0 +1,19 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+4,Treatment,Treatment assignment,factor,factor,75,0,2,Placebo; VD,Treatment: randomized treatment assignment with cleaned-data arms: Placebo; VD. Publication-designated control/reference: Placebo.
+4,YP_delta_TGF_6w,Primary outcome,continuous,numeric,75,0,74,-19.29 to 11.15,Primary outcome: Change from baseline to 6 weeks in transforming growth factor beta-1 (TGF-β1) concentration.
+4,YP_delta_TIMP_6w,Primary outcome,continuous,numeric,75,0,75,-75.14 to 199.1,Primary outcome: Change from baseline to 6 weeks in tissue inhibitor of metalloproteinases-1 (TIMP-1) concentration.
+4,YP_delta_MMP_6w,Primary outcome,continuous,numeric,75,0,75,-2176.83 to 1451.45,"Primary outcome: Change from baseline to 6 weeks in mmp. Publication-defined endpoint context: Change from baseline to week 6 in serum fibrogenesis markers: TGF-β1, TIMP-1, MMP-9, P3NP."
+4,YP_delta_P3NP_6w,Primary outcome,continuous,numeric,75,0,73,-9.7 to 13.12,"Primary outcome: Change from baseline to 6 weeks in p3 np. Publication-defined endpoint context: Change from baseline to week 6 in serum fibrogenesis markers: TGF-β1, TIMP-1, MMP-9, P3NP."
+4,X_Sex_0w,Baseline covariate,binary,factor,75,0,2,1; 2,Baseline covariate: Sex.
+4,X_Age_0w,Baseline covariate,factor,ordered/factor,75,0,5,31-40; 41-50; 51-60; 61-70; 71-80,Baseline covariate: Age. Categories/codes in the cleaned data: 31-40; 41-50; 51-60; 61-70; 71-80.
+4,X_BMI_0w,Baseline covariate,continuous,numeric,75,0,74,16.38 to 36.22,"Baseline covariate: Body mass index (BMI), in kg/m²."
+4,X_FIB4_0w,Baseline covariate,continuous,numeric,75,0,72,0.64 to 12.56,Baseline covariate: Fibrosis-4 (FIB-4) index.
+4,X_APRI_0w,Baseline covariate,continuous,numeric,75,0,50,0.14 to 2.73,Baseline covariate: Aspartate aminotransferase-to-platelet ratio index (APRI).
+4,X_VD_0w,Baseline covariate,continuous,numeric,75,0,62,8.3 to 24.2,Baseline covariate: Serum 25-hydroxyvitamin D concentration.
+4,X_AST_0w,Baseline covariate,continuous,numeric,75,0,34,13 to 103,Baseline covariate: Aspartate aminotransferase.
+4,X_ALT_0w,Baseline covariate,continuous,numeric,75,0,35,5 to 49,Baseline covariate: Alanine aminotransferase.
+4,X_Plt_0w,Baseline covariate,continuous,numeric,75,0,64,43 to 357,Baseline covariate: Platelet count.
+4,X_TGF_0w,Baseline covariate,continuous,numeric,75,0,69,3.74 to 52.28,Baseline covariate: Transforming growth factor beta-1 (TGF-β1) concentration.
+4,X_TIMP_0w,Baseline covariate,continuous,numeric,75,0,74,138.22 to 390.82,Baseline covariate: Tissue inhibitor of metalloproteinases-1 (TIMP-1) concentration.
+4,X_MMP_0w,Baseline covariate,continuous,numeric,75,0,73,60.09 to 2827.85,Baseline covariate: Mmp.
+4,X_P3NP_0w,Baseline covariate,continuous,numeric,75,0,69,17.32 to 46.14,Baseline covariate: P3 np.

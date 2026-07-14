@@ -1,0 +1,19 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+52,Treatment,Treatment assignment,factor,factor,69,0,2,Control; Tenapanor,Treatment: randomized treatment assignment with cleaned-data arms: Control; Tenapanor. Publication-designated control/reference: Control.
+52,YP_delta_serum_phosphorus_23w,Primary outcome,continuous,numeric,69,0,53,-5.9 to 5,Primary outcome: Change from baseline to 23 weeks in serum phosphorus. Publication-defined endpoint context: Change in serum phosphorus at week 23 and change in BSFS at week 7.
+52,YP_delta_bsfs_7w,Primary outcome,continuous,numeric,69,38,8,-2 to 5,Primary outcome: Change from baseline to 7 weeks in Bristol Stool Form Scale (BSFS) score.
+52,X_serum_phosphorus_0w,Baseline covariate,continuous,numeric,69,0,32,1.7 to 8.4,Baseline covariate: Serum phosphorus.
+52,X_bsfs_0w,Baseline covariate,continuous,numeric,69,38,7,1 to 7,Baseline covariate: Bristol Stool Form Scale (BSFS) score.
+52,X_age_0w,Baseline covariate,continuous,numeric,69,0,31,50 to 91,Baseline covariate: Age.
+52,X_male_0w,Baseline covariate,binary,factor,69,0,2,0; 1,Baseline covariate: Male.
+52,X_dialysis_vintage_0w,Baseline covariate,continuous,numeric,69,0,32,0 to 36,Baseline covariate: Dialysis vintage.
+52,X_dry_weight_0w,Baseline covariate,continuous,numeric,69,0,48,33 to 87,Baseline covariate: Dry weight.
+52,X_bun_0w,Baseline covariate,continuous,numeric,69,0,38,31 to 108,Baseline covariate: Blood urea nitrogen concentration.
+52,X_creatinine_0w,Baseline covariate,continuous,numeric,69,0,64,4.04 to 13.02,Baseline covariate: Serum creatinine concentration.
+52,X_calcium_0w,Baseline covariate,continuous,numeric,69,0,22,7.7 to 10.2,Baseline covariate: Calcium.
+52,X_albumin_0w,Baseline covariate,continuous,numeric,69,0,13,2.8 to 4.3,Baseline covariate: Urinary albumin concentration.
+52,X_crp_0w,Baseline covariate,continuous,numeric,69,0,57,0.009 to 0.786,Baseline covariate: C-reactive protein concentration.
+52,X_hb_0w,Baseline covariate,continuous,numeric,69,0,31,9 to 15.8,Baseline covariate: Haemoglobin concentration.
+52,X_diabetes_0w,Baseline covariate,binary,factor,69,0,2,0; 1,Baseline covariate: Diabetes.
+52,X_ipth_0w,Baseline covariate,continuous,numeric,69,0,58,3 to 532,Baseline covariate: Intact parathyroid hormone concentration.
+52,X_ktv_0w,Baseline covariate,continuous,numeric,69,0,69,0.807347 to 2.89686,Baseline covariate: Single-pool Kt/V dialysis-adequacy measure.

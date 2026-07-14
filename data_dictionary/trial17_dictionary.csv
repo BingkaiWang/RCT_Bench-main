@@ -1,0 +1,16 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+17,Treatment,Treatment assignment,factor,factor,294,0,4,combine3; statin; statin_EZ; statin_pcsk9,Treatment: randomized treatment assignment with cleaned-data arms: combine3; statin; statin_EZ; statin_pcsk9. Publication-designated control/reference: Statin.
+17,YP_delta_LDL_24w,Primary outcome,continuous,numeric,294,0,252,-4.4 to 2.19,Primary outcome: Change from baseline to 24 weeks in low-density-lipoprotein cholesterol concentration.
+17,YS_delta_TC_24w,Secondary outcome,continuous,numeric,294,0,258,-4.91 to 2.33,Secondary outcome: Change from baseline to 24 weeks in total cholesterol.
+17,YS_delta_TG_24w,Secondary outcome,continuous,numeric,294,0,213,-3.56 to 2.48,Secondary outcome: Change from baseline to 24 weeks in triglyceride concentration.
+17,YS_delta_HDL_24w,Secondary outcome,continuous,numeric,294,0,152,-1.02 to 1.24,Secondary outcome: Change from baseline to 24 weeks in high-density-lipoprotein cholesterol concentration.
+17,X_LDL_0w,Baseline covariate,continuous,numeric,294,0,199,0.26 to 5.6,Baseline covariate: Low-density-lipoprotein cholesterol concentration.
+17,X_TC_0w,Baseline covariate,continuous,numeric,294,0,210,1.51 to 7.26,Baseline covariate: Total cholesterol.
+17,X_TG_0w,Baseline covariate,continuous,numeric,294,0,171,0.38 to 6.4,Baseline covariate: Triglyceride concentration.
+17,X_HDL_0w,Baseline covariate,continuous,numeric,294,0,123,0.14 to 2.4,Baseline covariate: High-density-lipoprotein cholesterol concentration.
+17,X_age_0w,Baseline covariate,continuous,integer,294,0,44,37 to 97,Baseline covariate: Age.
+17,X_sex_0w,Baseline covariate,binary,factor,294,0,2,female; male,Baseline covariate: Sex.
+17,X_hbp_0w,Baseline covariate,binary,factor,294,0,2,no; yes,Baseline covariate: Hbp.
+17,X_smoke_0w,Baseline covariate,binary,factor,294,0,2,no; yes,Baseline covariate: Smoke.
+17,X_DM_0w,Baseline covariate,binary,factor,294,0,2,no; yes,Baseline covariate: Diabetes mellitus.
+17,X_BMI_0w,Baseline covariate,continuous,numeric,294,0,113,16.2 to 36.7,"Baseline covariate: Body mass index (BMI), in kg/m²."

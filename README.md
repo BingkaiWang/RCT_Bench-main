@@ -23,8 +23,14 @@ Each cleaned trial is participant-level and follows the same variable contract:
 ## Metadata
 
 `meta_data.xlsx` contains one public metadata workbook for all 125 trials. The
-main `Sheet1` keeps the original 19-column metadata schema, including the
+main `Sheet1` uses an 18-column metadata schema, including the
 historical spelling `Priamry Outcome` for compatibility.
+
+`Primary Outcome Type` uses the controlled categories `Continuous`, `Binary`,
+`Count`, `Time-to-event`, `Ordinal`, and `Categorical`; trials with co-primary
+outcomes of different types use semicolon-separated combinations. `Research
+Area` uses 15 broad clinical groupings to keep filtering consistent across
+trials.
 
 Additional workbook sheets preserve expansion curation context where available:
 

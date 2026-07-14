@@ -1,0 +1,15 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+2,Treatment,Treatment assignment,factor,factor,400,0,2,Ivermectin+Doxycycline; Placebo,Treatment: randomized treatment assignment with cleaned-data arms: Ivermectin+Doxycycline; Placebo. Publication-designated control/reference: Placebo.
+2,YP_recovery_time,Primary outcome,time-to-event/continuous time,numeric,400,0,28,1 to 45,Primary outcome: Recovery time. Publication-defined endpoint context: Time (days) from treatment initiation (day 1) to clinical recovery.
+2,YP_early_7d,Primary outcome,binary,factor,400,32,2,No; Yes,"Primary outcome: Early, measured at 7 days. Publication-defined endpoint context: Time (days) from treatment initiation (day 1) to clinical recovery."
+2,YP_late_12d,Primary outcome,binary,factor,400,32,2,No; yes,"Primary outcome: Late, measured at 12 days. Publication-defined endpoint context: Time (days) from treatment initiation (day 1) to clinical recovery."
+2,YS_severity_worsen,Secondary outcome,binary,factor,400,32,2,None; Yes,Secondary outcome: Severity worsen.
+2,YS_pos_14d,Secondary outcome,binary,factor,400,32,2,No; Yes,"Secondary outcome: Pos, measured at 14 days."
+2,X_agegrp_0d,Baseline covariate,factor,ordered/factor,400,0,3,>60; 40-60; less than 40,Baseline covariate: Agegrp. Categories/codes in the cleaned data: >60; 40-60; less than 40.
+2,X_sex_0d,Baseline covariate,binary,factor,400,0,2,Female; Male,Baseline covariate: Sex.
+2,X_fever_0d,Baseline covariate,binary,factor,400,0,2,absent; present,Baseline covariate: Fever.
+2,X_cough_0d,Baseline covariate,binary,factor,400,0,2,Absent; present,Baseline covariate: Cough.
+2,X_respdiff_0d,Baseline covariate,binary,factor,400,0,2,Absent; Present,Baseline covariate: Respdiff.
+2,X_comorb_0d,Baseline covariate,factor,factor,400,0,3,Absent; Multiple; single,Baseline covariate: Comorb. Categories/codes in the cleaned data: Absent; Multiple; single.
+2,X_diabetes_0d,Baseline covariate,binary,factor,400,0,2,Absent; Present,Baseline covariate: Diabetes.
+2,X_hyperten_0d,Baseline covariate,binary,factor,400,0,2,Absent; Present,Baseline covariate: Hyperten.

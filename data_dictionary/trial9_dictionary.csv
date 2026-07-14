@@ -1,0 +1,34 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+9,Treatment,Treatment assignment,factor,factor,577,0,2,Oxytocin; Placebo,Treatment: randomized treatment assignment with cleaned-data arms: Oxytocin; Placebo. Publication-designated control/reference: Placebo.
+9,YP_manual_removal,Primary outcome,binary,factor,577,0,2,No; Yes,Primary outcome: Manual removal. Publication-defined endpoint context: Need for manual removal of the placenta after randomization.
+9,YS_pulse_after_30min,Secondary outcome,continuous,haven_labelled/vctrs_vctr/double,577,35,67,44 to 131,"Secondary outcome: Pulse after, measured at 30 minutes."
+9,YS_bp_sys_after_30min,Secondary outcome,continuous,haven_labelled/vctrs_vctr/double,577,30,74,70 to 180,"Secondary outcome: Blood pressure systolic after, measured at 30 minutes."
+9,YS_bp_dia_after_30min,Secondary outcome,continuous,haven_labelled/vctrs_vctr/double,577,32,54,38 to 110,"Secondary outcome: Blood pressure dia after, measured at 30 minutes."
+9,YS_placental_delivery,Secondary outcome,factor,factor,577,0,4,Controlled_cord_traction; Manual_removal; Other; Spontaneous,"Secondary outcome: Placental, measured at delivery. Categories/codes in the cleaned data: Controlled_cord_traction; Manual_removal; Other; Spontaneous."
+9,YS_time_to_delivery,Secondary outcome,date/time,hms/difftime,577,0,325,0 to 86400,"Secondary outcome: Time to, measured at delivery."
+9,YS_blood_loss_ml,Secondary outcome,continuous,haven_labelled/vctrs_vctr/double,577,8,57,30 to 4200,Secondary outcome: Blood loss mL.
+9,YS_blood_loss_over_500ml,Secondary outcome,binary,factor,577,8,2,No; Yes,Secondary outcome: Blood loss over 500ml.
+9,YS_blood_loss_over_1000ml,Secondary outcome,binary,factor,577,8,2,No; Yes,Secondary outcome: Blood loss over 1000ml.
+9,YS_blood_transfusion,Secondary outcome,binary,factor,577,1,2,No; Yes,Secondary outcome: Blood transfusion.
+9,YS_mother_sep_gt1h,Secondary outcome,binary,factor,577,3,2,No; Yes,Secondary outcome: Mother sep greater than 1h.
+9,YS_general_anaesthetic,Secondary outcome,binary,factor,577,196,2,No; Yes,Secondary outcome: General anaesthetic.
+9,YS_side_effect,Secondary outcome,binary,factor,577,42,2,No; Yes,Secondary outcome: Side effect.
+9,YS_side_effect_description,Secondary outcome,factor,character,577,0,15,"Abdominal pain; Abdominal pain, dizziness; Chest pain; Data missing; Dizziness; dizziness, hunger; dizziness, thirsty; Dizziness, weakness, thirst, vomiting; NA; Nausea / vomiting; No information given; Pain in the back; Pain in the back, abdominal pain; Placental site felt cold; Weakness, thirsty, dizziness",Secondary outcome: Side effect description.
+9,YS_maternal_pyrexia,Secondary outcome,binary,factor,577,6,2,No; Yes,Secondary outcome: Maternal pyrexia.
+9,YS_return_to_theatre,Secondary outcome,binary,factor,577,1,2,No; Yes,Secondary outcome: Return to theatre.
+9,YS_antibiotic_use,Secondary outcome,binary,factor,577,0,2,No; Yes,Secondary outcome: Antibiotic use.
+9,YS_further_treatment,Secondary outcome,binary,factor,577,0,2,No; Yes,Secondary outcome: Further treatment.
+9,YS_hb_after_delivery,Secondary outcome,continuous,haven_labelled/vctrs_vctr/double,577,31,91,3.2 to 14.5,"Secondary outcome: Hb after, measured at delivery."
+9,YS_maternal_mortality,Secondary outcome,binary,factor,577,0,2,No; Yes,Secondary outcome: Maternal mortality.
+9,YS_baby_mortality,Secondary outcome,binary,factor,577,0,2,No; Yes,Secondary outcome: Baby mortality.
+9,YS_delta_hb_pct,Secondary outcome,continuous,numeric,577,36,477,-45 to 58.3333,Secondary outcome: Change from baseline to follow-up in hb percentage.
+9,YS_hb_fall_over_10pct,Secondary outcome,binary,factor,577,36,2,No; Yes,Secondary outcome: Hb fall over 10pct.
+9,YS_hb_fall_over_20pct,Secondary outcome,binary,factor,577,36,2,No; Yes,Secondary outcome: Hb fall over 20pct.
+9,X_country_0d,Baseline covariate,factor,factor,577,0,3,Pakistan; Uganda; UK,Baseline covariate: Country. Categories/codes in the cleaned data: Pakistan; Uganda; UK.
+9,X_age_0d,Baseline covariate,continuous,numeric,577,13,28,16 to 43,Baseline covariate: Age.
+9,X_pulse_0d,Baseline covariate,continuous,haven_labelled/vctrs_vctr/double,577,3,66,46 to 133,Baseline covariate: Pulse.
+9,X_bp_sys_0d,Baseline covariate,continuous,haven_labelled/vctrs_vctr/double,577,4,71,70 to 174,"Baseline covariate: Systolic blood pressure, in mm Hg."
+9,X_bp_dia_0d,Baseline covariate,continuous,haven_labelled/vctrs_vctr/double,577,4,49,40 to 100,"Baseline covariate: Diastolic blood pressure, in mm Hg."
+9,X_birth_weight_0d,Baseline covariate,continuous,haven_labelled/vctrs_vctr/double,577,3,265,1620 to 4938,Baseline covariate: Birth weight.
+9,X_GestationWeeks_0d,Baseline covariate,continuous,haven_labelled/vctrs_vctr/double,577,4,10,34 to 43,Baseline covariate: Gestation weeks.
+9,X_hb_before_delivery_0d,Baseline covariate,continuous,haven_labelled/vctrs_vctr/double,577,10,87,4 to 18.6,Baseline covariate: Hb before delivery.

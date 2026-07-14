@@ -1,0 +1,27 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+35,Treatment,Treatment assignment,factor,factor,91,0,2,Control; Exercise,Treatment: randomized treatment assignment with cleaned-data arms: Control; Exercise. Publication-designated control/reference: Control.
+35,YP_delta_Total_weight_gain_delivery,Primary outcome,continuous,numeric,91,19,55,-7.9 to 31,Primary outcome: Change from baseline to delivery in total weight gain. Publication-defined endpoint context: Gestational weight gain (GWG) from baseline (week 12–18) to delivery.
+35,YS_BMI_37w,Secondary outcome,continuous,numeric,91,21,68,30.5 to 51.3,"Secondary outcome: Body mass index (BMI), in kg/m², measured at 37 weeks."
+35,YS_BMI_postPP,Secondary outcome,continuous,numeric,91,22,66,25.36 to 48.73,"Secondary outcome: Body mass index (BMI), in kg/m², measured postpartum."
+35,YS_IOM_delivery,Secondary outcome,binary,factor,91,19,2,Exceeded IOM; Not exceed IOM,"Secondary outcome: Iom, measured at delivery."
+35,YS_delta_anxiety_pre_post,Secondary outcome,continuous,numeric,91,34,18,-9 to 13,Secondary outcome: Change from baseline to immediately after the intervention in anxiety pre-intervention.
+35,YS_delta_deprmood_prepost,Secondary outcome,continuous,numeric,91,34,10,-5 to 7,Secondary outcome: Change from pre-intervention to post-intervention in deprmood.
+35,YS_delta_Poswell_prepost,Secondary outcome,continuous,numeric,91,33,14,-7 to 7,Secondary outcome: Change from pre-intervention to post-intervention in poswell.
+35,YS_delta_Selfcont_prepost,Secondary outcome,continuous,numeric,91,34,12,-6 to 8,Secondary outcome: Change from pre-intervention to post-intervention in selfcont.
+35,YS_delta_Genhealth_prepost,Secondary outcome,continuous,numeric,91,32,14,-8 to 7,Secondary outcome: Change from pre-intervention to post-intervention in genhealth.
+35,YS_delta_Vitality_prepost,Secondary outcome,continuous,numeric,91,35,17,-9 to 10,Secondary outcome: Change from pre-intervention to post-intervention in vitality.
+35,YS_delta_Anxiety_PostPP,Secondary outcome,continuous,numeric,91,38,15,-7 to 11,Secondary outcome: Change from baseline to postpartum in anxiety.
+35,YS_delta_Depressed_PostPP,Secondary outcome,continuous,numeric,91,39,9,-4 to 4,Secondary outcome: Change from baseline to postpartum in depressed.
+35,YS_delta_Poswellbeing_PostPP,Secondary outcome,continuous,numeric,91,38,13,-4 to 8,Secondary outcome: Change from baseline to postpartum in poswellbeing.
+35,YS_delta_Selfcontrol_postPP,Secondary outcome,continuous,numeric,91,38,10,-4 to 6,Secondary outcome: Change from baseline to postpartum in selfcontrol.
+35,YS_delta_Generalhealth_postPP,Secondary outcome,continuous,numeric,91,38,11,-1 to 9,Secondary outcome: Change from baseline to postpartum in generalhealth.
+35,YS_delta_Vitality_postPP,Secondary outcome,continuous,numeric,91,38,15,-4 to 10,Secondary outcome: Change from baseline to postpartum in vitality.
+35,X_preg_BMI_0w,Baseline covariate,continuous,numeric,91,5,83,26.4157 to 46.1681,Baseline covariate: Preg body mass index.
+35,X_BMI_0w,Baseline covariate,continuous,numeric,91,1,80,27.81 to 46.34,"Baseline covariate: Body mass index (BMI), in kg/m²."
+35,X_PGWB_index_0w,Baseline covariate,continuous,numeric,91,9,36,31 to 97,Baseline covariate: Pgwb index.
+35,X_Anxiety_0w,Baseline covariate,continuous,numeric,91,6,15,5 to 24,Baseline covariate: Anxiety.
+35,X_Depressed_0w,Baseline covariate,continuous,numeric,91,7,9,7 to 15,Baseline covariate: Depressed.
+35,X_Pos_Wellbeing_0w,Baseline covariate,continuous,numeric,91,6,14,4 to 18,Baseline covariate: Pos wellbeing.
+35,X_Self_control_0w,Baseline covariate,continuous,numeric,91,6,10,3 to 15,Baseline covariate: Self control.
+35,X_General_Health_0w,Baseline covariate,continuous,numeric,91,6,11,3 to 14,Baseline covariate: General health.
+35,X_Vitality_0w,Baseline covariate,continuous,numeric,91,8,16,0 to 16,Baseline covariate: Vitality.

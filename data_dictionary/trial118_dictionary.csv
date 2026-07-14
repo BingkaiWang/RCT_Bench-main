@@ -1,0 +1,23 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+118,Treatment,Treatment assignment,factor,factor,86,0,3,CRB+rTMS; CRB+SHM; PLC+SHM,Treatment: randomized treatment assignment with cleaned-data arms: CRB+rTMS; CRB+SHM; PLC+SHM. Publication-designated control/reference: PLC+SHM.
+118,X_subject_id,Baseline covariate,continuous,integer,86,0,86,1 to 93,Baseline covariate: Subject id.
+118,YP_cognitive_composite_180_bd_full_adj,Primary outcome,continuous,numeric,86,2,84,-16.8109 to 15.1516,Primary outcome: Cognitive composite 180 bd full adj. Publication-defined endpoint context: Cognitive composite and MoCA follow-up scores.
+118,YP_cognitive_composite_180_crude_full_adj,Primary outcome,continuous,numeric,86,2,84,-402.6 to 214.13,Primary outcome: Cognitive composite 180 crude full adj. Publication-defined endpoint context: Cognitive composite and MoCA follow-up scores.
+118,YP_moca_visit3,Primary outcome,continuous,numeric,86,2,15,16 to 30,"Primary outcome: Montreal Cognitive Assessment (MoCA) score, measured at visit 3."
+118,YP_delta_moca_visit3,Primary outcome,continuous,numeric,86,2,15,-9 to 11,Primary outcome: Change from baseline to visit 3 in Montreal Cognitive Assessment (MoCA) score.
+118,YS_hamilton_anxiety_visit3,Secondary outcome,continuous,numeric,86,2,13,0 to 16,"Secondary outcome: Hamilton Anxiety Rating Scale score, measured at visit 3."
+118,YS_digit_forward_visit3,Secondary outcome,continuous,numeric,86,2,13,4 to 16,"Secondary outcome: Digit forward, measured at visit 3."
+118,YS_digit_backward_visit3,Secondary outcome,continuous,numeric,86,2,13,2 to 16,"Secondary outcome: Digit backward, measured at visit 3."
+118,YS_tmt1_time_visit3,Secondary outcome,time-to-event/continuous time,numeric,86,2,55,17 to 240,"Secondary outcome: Trail Making Test part 1 completion time, measured at visit 3."
+118,YS_tmt2_time_visit3,Secondary outcome,time-to-event/continuous time,numeric,86,2,56,45 to 240,"Secondary outcome: Trail Making Test part 2 completion time, measured at visit 3."
+118,X_age_years,Baseline covariate,continuous,integer,86,0,45,21 to 78,Baseline covariate: Age years.
+118,X_sex_code,Baseline covariate,binary,integer,86,0,2,1; 2,Baseline covariate: Sex code.
+118,X_moca_0m,Baseline covariate,continuous,integer,86,0,19,9 to 30,Baseline covariate: Montreal Cognitive Assessment (MoCA) score.
+118,X_psi_digit_symbol_0m,Baseline covariate,continuous,integer,86,0,51,5 to 93,Baseline covariate: Psi digit symbol.
+118,X_psi_symbol_search_correct_0m,Baseline covariate,continuous,integer,86,0,32,2 to 42,Baseline covariate: Psi symbol search correct.
+118,X_psi_symbol_search_incorrect_0m,Baseline covariate,continuous,integer,86,0,9,0 to 9,Baseline covariate: Psi symbol search incorrect.
+118,X_digit_forward_0m,Baseline covariate,continuous,integer,86,0,12,4 to 16,Baseline covariate: Digit forward.
+118,X_digit_backward_0m,Baseline covariate,continuous,integer,86,0,13,1 to 15,Baseline covariate: Digit backward.
+118,X_hamilton_anxiety_0m,Baseline covariate,continuous,integer,86,0,17,0 to 26,Baseline covariate: Hamilton Anxiety Rating Scale score.
+118,X_tmt1_time_0m,Baseline covariate,time-to-event/continuous time,integer,86,0,69,20 to 221,Baseline covariate: Trail Making Test part 1 completion time.
+118,X_tmt2_time_0m,Baseline covariate,time-to-event/continuous time,integer,86,0,61,45 to 240,Baseline covariate: Trail Making Test part 2 completion time.

@@ -1,0 +1,20 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+67,Treatment,Treatment assignment,factor,factor,60,0,2,High cut-off filter; Standard filter,Treatment: randomized treatment assignment with cleaned-data arms: High cut-off filter; Standard filter. Publication-designated control/reference: Standard filter.
+67,YP_beta2_microglobulin_clearance_mean,Primary outcome,continuous,numeric,60,18,42,6.77892 to 30.011,Primary outcome: Beta2 microglobulin clearance mean. Publication-defined endpoint context: Mean beta2-microglobulin clearance during continuous venovenous hemodialysis.
+67,YS_myoglobin_clearance_mean,Secondary outcome,continuous,numeric,60,17,43,-8.3534 to 15.4128,Secondary outcome: Myoglobin clearance mean.
+67,YS_urea_clearance_mean,Secondary outcome,continuous,numeric,60,18,42,5.73935 to 35.9354,Secondary outcome: Urea clearance mean.
+67,YS_creatinine_clearance_mean,Secondary outcome,continuous,numeric,60,17,43,7.44844 to 39.7419,Secondary outcome: Creatinine clearance mean.
+67,YS_il6_clearance_mean,Secondary outcome,continuous,numeric,60,17,43,-11.2484 to 9.65724,Secondary outcome: Il6 clearance mean.
+67,YS_albumin_clearance_mean,Secondary outcome,continuous,numeric,60,17,43,-11.2621 to 5.14781,Secondary outcome: Albumin clearance mean.
+67,X_prescribed_exchange,Baseline covariate,continuous,numeric,60,0,27,800 to 3000,Baseline covariate: Prescribed exchange.
+67,X_realized_exchange,Baseline covariate,continuous,numeric,60,0,25,800 to 3000,Baseline covariate: Realized exchange.
+67,X_dialyzer_lifespan,Baseline covariate,continuous,numeric,60,0,40,8 to 90,Baseline covariate: Dialyzer lifespan.
+67,X_catheter_length,Baseline covariate,continuous,numeric,60,2,3,170 to 250,Baseline covariate: Catheter length.
+67,X_catheter_diameter,Baseline covariate,continuous,numeric,60,2,3,11 to 13,Baseline covariate: Catheter diameter.
+67,X_catheter_insertion_side,Baseline covariate,factor,factor,60,2,6,1; 2; 3; 4; 5; 6,Baseline covariate: Catheter insertion side. Categories/codes in the cleaned data: 1; 2; 3; 4; 5; 6.
+67,X_mean_blood_flow,Baseline covariate,continuous,numeric,60,0,20,60 to 140,Baseline covariate: Mean blood flow.
+67,X_beta2_concentration_pre_1h,Baseline covariate,continuous,numeric,60,0,60,2.32 to 9999,Baseline covariate: Beta2 concentration pre-intervention.
+67,X_myoglobin_concentration_pre_1h,Baseline covariate,continuous,numeric,60,0,59,35.2 to 11380,Baseline covariate: Myoglobin concentration pre-intervention.
+67,X_urea_concentration_pre_1h,Baseline covariate,continuous,numeric,60,0,56,7.9 to 9999,Baseline covariate: Urea concentration pre-intervention.
+67,X_creatinine_concentration_pre_1h,Baseline covariate,continuous,numeric,60,0,57,71 to 9999,Baseline covariate: Creatinine concentration pre-intervention.
+67,X_albumin_concentration_pre_1h,Baseline covariate,continuous,numeric,60,0,51,13.7 to 9999,Baseline covariate: Albumin concentration pre-intervention.

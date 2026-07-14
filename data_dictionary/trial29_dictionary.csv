@@ -1,0 +1,32 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+29,Treatment,Treatment assignment,factor,factor,460,0,2,Placebo; Sertraline,Treatment: randomized treatment assignment with cleaned-data arms: Placebo; Sertraline. Publication-designated control/reference: Placebo.
+29,YP_survival_18w,Primary outcome,time-to-event/continuous time,numeric,460,0,104,1 to 179,"Primary outcome: Survival, measured at 18 weeks. Publication-defined endpoint context: 18-week all-cause mortality (survival)."
+29,YP_death,Primary outcome,binary,factor,460,0,2,1; 2,Primary outcome: Death. Publication-defined endpoint context: 18-week all-cause mortality (survival).
+29,YS_sterile_14d,Secondary outcome,binary,factor,460,0,2,1; 2,"Secondary outcome: Sterile, measured at 14 days."
+29,YS_sterile_18w,Secondary outcome,binary,factor,460,0,2,1; 2,"Secondary outcome: Sterile, measured at 18 weeks."
+29,YS_num_lumbar_punctures,Secondary outcome,continuous,numeric,460,0,22,1 to 28,Secondary outcome: Number of lumbar punctures.
+29,YS_depression_4w,Secondary outcome,continuous,numeric,460,286,44,2 to 86,"Secondary outcome: Depression, measured at 4 weeks."
+29,YS_depression_12w,Secondary outcome,continuous,numeric,460,291,40,0 to 86,"Secondary outcome: Depression, measured at 12 weeks."
+29,YS_visit_4w_timing,Secondary outcome,factor,factor,460,286,5,40; 43; 50; 60; 80,Secondary outcome: Visit 4w timing. Categories/codes in the cleaned data: 40; 43; 50; 60; 80.
+29,YS_visit_12w_timing,Secondary outcome,binary,factor,460,291,2,140; 180,Secondary outcome: Visit 12w timing.
+29,X_age_0w,Baseline covariate,continuous,numeric,460,0,45,18 to 68,Baseline covariate: Age.
+29,X_sex_0w,Baseline covariate,binary,factor,460,0,2,Female; Male,Baseline covariate: Sex.
+29,X_on_art_0w,Baseline covariate,binary,factor,460,0,2,Not on ART; On ART,Baseline covariate: On art.
+29,X_cd4_0w,Baseline covariate,continuous,numeric,460,25,106,0 to 584,Baseline covariate: CD4 T-lymphocyte count.
+29,X_hiv_rna_0w,Baseline covariate,continuous,numeric,460,364,86,19 to 3012370,Baseline covariate: Human immunodeficiency virus rna.
+29,X_time_hiv_rna_0w,Baseline covariate,time-to-event/continuous time,numeric,460,364,49,-357 to 298,Baseline covariate: Time human immunodeficiency virus rna.
+29,X_gcs_0w,Baseline covariate,continuous,numeric,460,0,11,4 to 15,Baseline covariate: Glasgow Coma Scale score.
+29,X_gcs_normal_0w,Baseline covariate,binary,factor,460,0,2,Abnormal (<15); Normal (15),Baseline covariate: Glasgow Coma Scale normal.
+29,X_on_tb_meds_0w,Baseline covariate,binary,factor,460,0,2,No; Yes,Baseline covariate: On tuberculosis meds.
+29,X_hemoglobin_0w,Baseline covariate,continuous,numeric,460,33,110,3.4 to 18.7,Baseline covariate: Hemoglobin.
+29,X_creatinine_mg_0w,Baseline covariate,continuous,numeric,460,28,106,0.18 to 20,Baseline covariate: Creatinine mg.
+29,X_creatinine_umol_0w,Baseline covariate,continuous,numeric,460,28,116,15.8 to 1760,Baseline covariate: Creatinine umol.
+29,X_csf_qcc_0w,Baseline covariate,continuous,numeric,460,4,298,0 to 313000000,Baseline covariate: Cerebrospinal fluid qcc.
+29,X_csf_wbc_0w,Baseline covariate,continuous,numeric,460,17,69,4 to 940,Baseline covariate: Cerebrospinal-fluid white-blood-cell count.
+29,X_csf_wbc_low_0w,Baseline covariate,binary,factor,460,17,2,High (5+); Low (<5),Baseline covariate: Cerebrospinal fluid white-blood-cell count low.
+29,X_csf_opening_pressure_0w,Baseline covariate,continuous,numeric,460,57,122,10 to 810,Baseline covariate: Cerebrospinal-fluid opening pressure.
+29,X_csf_protein_0w,Baseline covariate,continuous,numeric,460,80,128,0 to 1200,Baseline covariate: Cerebrospinal-fluid protein concentration.
+29,X_csf_sterile_baseline_0w,Baseline covariate,binary,factor,460,4,2,1; 2,Baseline covariate: Cerebrospinal fluid sterile baseline.
+29,X_study_0w,Baseline covariate,binary,factor,460,0,1,ASTRO,Baseline covariate: Study.
+29,X_stage_0w,Baseline covariate,binary,factor,460,0,1,2,Baseline covariate: Stage.
+29,X_status_0w,Baseline covariate,binary,factor,460,0,1,4,Baseline covariate: Status.

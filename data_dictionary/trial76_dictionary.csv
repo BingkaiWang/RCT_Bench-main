@@ -1,0 +1,15 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+76,Treatment,Treatment assignment,factor,factor,134,0,2,Time-segmented-target teaching; Traditional teaching,Treatment: randomized treatment assignment with cleaned-data arms: Time-segmented-target teaching; Traditional teaching. Publication-designated control/reference: Traditional teaching.
+76,YP_total_score_after_training,Primary outcome,continuous,numeric,134,0,38,63 to 99,Primary outcome: Total score after training. Publication-defined endpoint context: Post-training spinal puncture total performance score.
+76,YS_operating_time_min,Secondary outcome,time-to-event/continuous time,numeric,134,0,32,5.9 to 9.4,Secondary outcome: Operating time minutes.
+76,YS_preoperative_preparation_score,Secondary outcome,continuous,numeric,134,0,19,8 to 20,Secondary outcome: Preoperative preparation score.
+76,YS_operational_phase_score,Secondary outcome,continuous,numeric,134,0,23,37 to 59,Secondary outcome: Operational phase score.
+76,YS_aseptic_principle_score,Secondary outcome,binary,numeric,134,0,2,10; 9,Secondary outcome: Aseptic principle score.
+76,YS_proficiency_level,Secondary outcome,continuous,numeric,134,0,3,1 to 3,Secondary outcome: Proficiency level.
+76,YS_willing_to_apply,Secondary outcome,binary,numeric,134,0,2,1; 2,Secondary outcome: Willing to apply.
+76,YS_confident,Secondary outcome,binary,numeric,134,0,2,1; 2,Secondary outcome: Confident.
+76,YS_satisfaction,Secondary outcome,binary,numeric,134,0,2,1; 2,Secondary outcome: Satisfaction.
+76,X_age,Baseline covariate,continuous,numeric,134,0,5,23 to 27,Baseline covariate: Age.
+76,X_sex,Baseline covariate,binary,factor,134,0,2,0; 1,Baseline covariate: Sex.
+76,X_academic_degree,Baseline covariate,binary,factor,134,0,2,0; 1,Baseline covariate: Academic degree.
+76,X_prior_spinal_punctures_observed,Baseline covariate,continuous,numeric,134,0,3,0 to 2,Baseline covariate: Prior spinal punctures observed.

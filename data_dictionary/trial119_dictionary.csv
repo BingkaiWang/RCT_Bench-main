@@ -1,0 +1,26 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+119,Treatment,Treatment assignment,factor,factor,57,0,2,Randomisation arm 1; Randomisation arm 2,Treatment: randomized treatment assignment with cleaned-data arms: Randomisation arm 1; Randomisation arm 2. Publication-designated control/reference: Not identified from compact source.
+119,X_source_record_id,Baseline covariate,continuous,numeric,57,0,57,1 to 57,Baseline covariate: Source record id.
+119,YP_pain_score,Primary outcome,continuous,numeric,57,2,16,0 to 100,Primary outcome: Pain score. Publication-defined endpoint context: Pain score during hysteroscopic morcellation.
+119,YS_procedure_duration_min,Secondary outcome,continuous,numeric,57,1,21,5 to 40,Secondary outcome: Procedure duration minutes.
+119,YS_conversion,Secondary outcome,binary,numeric,57,0,2,0; 1,Secondary outcome: Conversion.
+119,YS_postoperative_symptoms,Secondary outcome,binary,numeric,57,0,2,1; 2,Secondary outcome: Postoperative symptoms.
+119,YS_postoperative_complication,Secondary outcome,continuous,numeric,57,6,4,0 to 4,Secondary outcome: Postoperative complication.
+119,YS_postoperative_bleeding,Secondary outcome,continuous,numeric,57,6,19,0 to 100,Secondary outcome: Postoperative bleeding.
+119,YS_glycine_or_ns_deficit,Secondary outcome,continuous,numeric,57,14,34,50 to 1500,Secondary outcome: Glycine or ns deficit.
+119,YS_fentanyl_total,Secondary outcome,continuous,numeric,57,0,4,25 to 100,Secondary outcome: Fentanyl total.
+119,YS_versed_total,Secondary outcome,continuous,numeric,57,0,4,0.5 to 2,Secondary outcome: Versed total.
+119,X_age_years,Baseline covariate,continuous,numeric,57,0,18,22 to 46,Baseline covariate: Age years.
+119,X_height_cm,Baseline covariate,continuous,numeric,57,10,19,155 to 177,Baseline covariate: Height cm.
+119,X_weight_kg,Baseline covariate,continuous,numeric,57,10,31,49 to 112,Baseline covariate: Weight kg.
+119,X_bmi,Baseline covariate,continuous,numeric,57,0,20,17 to 40,"Baseline covariate: Body mass index (BMI), in kg/m²."
+119,X_education_code,Baseline covariate,continuous,numeric,57,1,4,2 to 5,Baseline covariate: Education code.
+119,X_marital_status_code,Baseline covariate,continuous,numeric,57,0,3,1 to 3,Baseline covariate: Marital status code.
+119,X_prior_csection,Baseline covariate,binary,numeric,57,0,2,0; 1,Baseline covariate: Prior csection.
+119,X_smoking,Baseline covariate,binary,numeric,57,1,2,0; 1,Baseline covariate: Smoking.
+119,X_infertility,Baseline covariate,binary,numeric,57,0,2,0; 1,Baseline covariate: Infertility.
+119,X_prior_hysteroscopy,Baseline covariate,binary,numeric,57,0,2,0; 1,Baseline covariate: Prior hysteroscopy.
+119,X_gynecologic_pain,Baseline covariate,binary,numeric,57,2,2,0; 1,Baseline covariate: Gynecologic pain.
+119,X_chronic_pain,Baseline covariate,binary,numeric,57,0,2,0; 1,Baseline covariate: Chronic pain.
+119,X_sexual_partner,Baseline covariate,binary,numeric,57,0,2,0; 1,Baseline covariate: Sexual partner.
+119,X_contraception_code,Baseline covariate,continuous,numeric,57,0,3,1 to 9,Baseline covariate: Contraception code.

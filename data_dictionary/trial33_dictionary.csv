@@ -1,0 +1,12 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+33,Treatment,Treatment assignment,factor,factor,154,0,2,Control; Reframing,Treatment: randomized treatment assignment with cleaned-data arms: Control; Reframing. Publication-designated control/reference: Control.
+33,YP_TM_total_score,Primary outcome,continuous,numeric,154,0,41,10 to 50,Primary outcome: 10-item Therapeutic Misconception Scale total score (range 10-50).
+33,YS_willing_participate,Secondary outcome,binary,factor,154,1,2,0; 1,Secondary outcome: Willing participate.
+33,X_age_0w,Baseline covariate,continuous,numeric,154,0,52,23 to 87,Baseline covariate: Age.
+33,X_Gender_0w,Baseline covariate,binary,factor,154,0,2,1; 2,Baseline covariate: Gender.
+33,X_Ethnicity_0w,Baseline covariate,binary,factor,154,0,2,0; 1,Baseline covariate: Ethnicity.
+33,X_Race_0w,Baseline covariate,factor,factor,154,0,4,1; 2; 3; 6,Baseline covariate: Race. Categories/codes in the cleaned data: 1; 2; 3; 6.
+33,X_Education_0w,Baseline covariate,factor,factor,154,0,3,0; 1; 2,Baseline covariate: Education. Categories/codes in the cleaned data: 0; 1; 2.
+33,X_Employment_0w,Baseline covariate,binary,factor,154,1,2,1; 2,Baseline covariate: Employment.
+33,X_DiseaseGroup_0w,Baseline covariate,factor,factor,154,0,5,1; 2; 4; 5; 6,Baseline covariate: Disease group. Categories/codes in the cleaned data: 1; 2; 4; 5; 6.
+33,X_Volunteer_0w,Baseline covariate,binary,factor,154,0,2,0; 1,Baseline covariate: Volunteer.

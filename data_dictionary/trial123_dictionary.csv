@@ -1,0 +1,60 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+123,Treatment,Treatment assignment,factor,factor,49,0,3,group_A; group_B; group_C,Treatment: randomized treatment assignment with cleaned-data arms: group_A; group_B; group_C. Publication-designated control/reference: group_A.
+123,YP_wound_healing_speed_day,Primary outcome,continuous,integer,49,0,34,8 to 114,"Primary outcome: Time from surgery to complete wound healing, in days."
+123,YS_cavity_volume_cc,Secondary outcome,continuous,integer,49,0,26,2 to 45,"Secondary outcome: Postoperative pilonidal-sinus wound-cavity volume, in cm³."
+123,YS_vas1,Secondary outcome,continuous,integer,49,0,7,0 to 6,Secondary outcome: Postoperative pain visual analogue scale score on day 1.
+123,YS_vas2,Secondary outcome,continuous,integer,49,0,8,0 to 7,Secondary outcome: Postoperative pain visual analogue scale score on day 2.
+123,YS_vas3,Secondary outcome,continuous,integer,49,0,8,0 to 7,Secondary outcome: Postoperative pain visual analogue scale score on day 4.
+123,YS_vas4,Secondary outcome,continuous,integer,49,0,8,0 to 7,Secondary outcome: Postoperative pain visual analogue scale score on day 5.
+123,YS_vas5,Secondary outcome,continuous,integer,49,0,7,0 to 6,Secondary outcome: Postoperative pain visual analogue scale score on day 21.
+123,YS_painkiller_amount,Secondary outcome,continuous,integer,49,0,10,0 to 14,Secondary outcome: Amount of postoperative rescue analgesic used.
+123,YS_walking_time_without_pain_hour,Secondary outcome,time-to-event/continuous time,integer,49,0,10,1 to 12,"Secondary outcome: Time after surgery until walking without pain, in hours."
+123,YS_pain_free_time_to_defecate_hour,Secondary outcome,time-to-event/continuous time,integer,49,0,13,6 to 36,"Secondary outcome: Time after surgery until pain-free defecation, in hours."
+123,YS_return_to_daily_activity_day,Secondary outcome,continuous,integer,49,0,20,2 to 30,"Secondary outcome: Time after surgery to return to usual daily activities, in days."
+123,YS_complication_recurrence,Secondary outcome,binary,numeric,49,4,1,0,Secondary outcome: Recurrence of pilonidal sinus disease during follow-up.
+123,X_sf36_pre_1,Baseline covariate,continuous,integer,49,0,7,45 to 100,Baseline covariate: Baseline SF-36 physical-functioning domain score.
+123,X_sf36_pre2,Baseline covariate,continuous,numeric,49,0,9,0 to 100,Baseline covariate: Baseline SF-36 role-physical domain score.
+123,X_sf36_pre3,Baseline covariate,continuous,numeric,49,0,5,0 to 100,Baseline covariate: Baseline SF-36 bodily-pain domain score.
+123,X_sf36_pre4,Baseline covariate,continuous,integer,49,0,14,10 to 90,Baseline covariate: Baseline SF-36 general-health domain score.
+123,X_sf36_pre5,Baseline covariate,continuous,integer,49,0,15,28 to 92,Baseline covariate: Baseline SF-36 vitality domain score.
+123,X_sf36_pre6,Baseline covariate,continuous,numeric,49,0,8,0 to 100,Baseline covariate: Baseline SF-36 social-functioning domain score.
+123,X_sf36_pre7,Baseline covariate,continuous,numeric,49,0,13,0 to 100,Baseline covariate: Baseline SF-36 role-emotional domain score.
+123,X_sf36_pre8,Baseline covariate,continuous,integer,49,0,12,35 to 90,Baseline covariate: Baseline SF-36 mental-health domain score.
+123,YS_sf36_post1,Secondary outcome,continuous,numeric,49,1,8,50 to 100,Secondary outcome: Post-treatment SF-36 physical-functioning domain score.
+123,YS_sf36_post2,Secondary outcome,continuous,numeric,49,1,6,0 to 100,Secondary outcome: Post-treatment SF-36 role-physical domain score.
+123,YS_sf36_post3,Secondary outcome,continuous,numeric,49,1,4,0 to 100,Secondary outcome: Post-treatment SF-36 bodily-pain domain score.
+123,YS_sf36_post4,Secondary outcome,continuous,numeric,49,1,14,30 to 95,Secondary outcome: Post-treatment SF-36 general-health domain score.
+123,YS_sf36_post5,Secondary outcome,continuous,numeric,49,1,14,32 to 96,Secondary outcome: Post-treatment SF-36 vitality domain score.
+123,YS_sf36_post6,Secondary outcome,continuous,numeric,49,1,7,12.5 to 100,Secondary outcome: Post-treatment SF-36 social-functioning domain score.
+123,YS_sf36_post7,Secondary outcome,continuous,numeric,49,1,8,10 to 100,Secondary outcome: Post-treatment SF-36 role-emotional domain score.
+123,YS_sf36_post8,Secondary outcome,continuous,numeric,49,1,12,35 to 100,Secondary outcome: Post-treatment SF-36 mental-health domain score.
+123,X_nhp_p_pre,Baseline covariate,continuous,numeric,49,0,17,0 to 80.26,Baseline covariate: Nhp p pre-intervention.
+123,X_nhp_er_pre,Baseline covariate,continuous,numeric,49,0,15,0 to 55.53,Baseline covariate: Nhp emergency room pre-intervention.
+123,X_nhp_s_pre,Baseline covariate,continuous,numeric,49,0,9,0 to 77.63,Baseline covariate: Nhp s pre-intervention.
+123,X_nhp_si_pre,Baseline covariate,continuous,numeric,49,0,8,0 to 42.14,Baseline covariate: Nhp shock index pre-intervention.
+123,X_nhp_pm_pre,Baseline covariate,continuous,numeric,49,0,8,0 to 32.56,Baseline covariate: Nhp pm pre-intervention.
+123,X_nhp_e_pre,Baseline covariate,continuous,numeric,49,0,6,0 to 100,Baseline covariate: Nhp e pre-intervention.
+123,YS_nhp_p_post,Secondary outcome,continuous,numeric,49,1,9,0 to 35.27,"Secondary outcome: Nottingham Health Profile pain domain score, measured immediately after the intervention."
+123,YS_nhp_er_post,Secondary outcome,continuous,numeric,49,1,10,0 to 47.71,"Secondary outcome: Nottingham Health Profile emotional-reactions domain score, measured immediately after the intervention."
+123,YS_nhp_s_post,Secondary outcome,continuous,numeric,49,1,9,0 to 77.63,"Secondary outcome: Nottingham Health Profile sleep domain score, measured immediately after the intervention."
+123,YS_nhp_si_post,Secondary outcome,continuous,numeric,49,1,7,0 to 58.11,"Secondary outcome: Nottingham Health Profile social-isolation domain score, measured immediately after the intervention."
+123,YS_nhp_pm_post,Secondary outcome,continuous,numeric,49,1,7,0 to 45.16,"Secondary outcome: Nottingham Health Profile physical-mobility domain score, measured immediately after the intervention."
+123,YS_nhp_e_post,Secondary outcome,continuous,numeric,49,2,6,0 to 100,"Secondary outcome: Nottingham Health Profile energy domain score, measured immediately after the intervention."
+123,X_gender,Baseline covariate,binary,character,49,0,2,F; M,Baseline covariate: Gender.
+123,X_age,Baseline covariate,continuous,integer,49,0,20,18 to 49,Baseline covariate: Age.
+123,X_education_level,Baseline covariate,continuous,integer,49,0,6,3 to 8,Baseline covariate: Education level.
+123,X_job,Baseline covariate,factor,character,49,0,20,accountant; cashier; chef; clerk; doctor; engineer; hairdresser; health personnel; merchant; none; officer; operator; psychologist; repairman; research assistant; secretary; soldier; student; teacher; technician,Baseline covariate: Job.
+123,X_smoking_frequency,Baseline covariate,binary,integer,49,0,2,0; 1,Baseline covariate: Smoking frequency.
+123,X_comorbidities,Baseline covariate,binary,integer,49,0,2,0; 1,Baseline covariate: Comorbidities.
+123,X_drug_using,Baseline covariate,factor,character,49,0,6,0; 1; 1(coumadin); 1(LANSOR); 1(NEURONTİN); 1(NSAİD),Baseline covariate: Drug using. Categories/codes in the cleaned data: 0; 1; 1(coumadin); 1(LANSOR); 1(NEURONTİN); 1(NSAİD).
+123,X_family_history_of_ps,Baseline covariate,binary,integer,49,0,2,0; 1,Baseline covariate: Family history of ps.
+123,X_fraquency_of_changing_underwear,Baseline covariate,continuous,integer,49,0,6,2 to 10,Baseline covariate: Fraquency of changing underwear.
+123,X_frequency_of_bathing,Baseline covariate,continuous,integer,49,0,7,2 to 14,Baseline covariate: Frequency of bathing.
+123,X_cleaning_hair_in_the_gluteal_area,Baseline covariate,binary,integer,49,0,2,0; 1,Baseline covariate: Cleaning hair in the gluteal area.
+123,X_epilation_in_the_gluteal_area,Baseline covariate,binary,integer,49,0,2,0; 1,Baseline covariate: Epilation in the gluteal area.
+123,X_standing_working,Baseline covariate,continuous,integer,49,0,11,1 to 15,Baseline covariate: Standing working.
+123,X_sitting_working,Baseline covariate,continuous,integer,49,0,10,1 to 12,Baseline covariate: Sitting working.
+123,X_complaint_period,Baseline covariate,continuous,numeric,49,0,11,0.5 to 15,Baseline covariate: Complaint period.
+123,X_past_abscess_drainage,Baseline covariate,binary,integer,49,0,2,0; 1,Baseline covariate: Past abscess drainage.
+123,X_number_of_pits,Baseline covariate,continuous,integer,49,0,7,1 to 8,Baseline covariate: Number of pits.
+123,X_the_direction_of_the_sinuses,Baseline covariate,binary,character,49,0,2,lateral; vertical,Baseline covariate: The direction of the sinuses.

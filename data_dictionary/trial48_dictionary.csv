@@ -1,0 +1,11 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+48,Treatment,Treatment assignment,factor,factor,255,0,3,Breakfast; Control; NoBreakfast,Treatment: randomized treatment assignment with cleaned-data arms: Breakfast; Control; NoBreakfast. Publication-designated control/reference: Control.
+48,YP_delta_WEIGHT_16w,Primary outcome,continuous,numeric,255,24,103,-11.5 to 12.4,Primary outcome: Change from baseline to 16 weeks in weight. Publication-defined endpoint context: Weight change from baseline to 16 weeks.
+48,YS_COMPLIANCE_16w,Secondary outcome,continuous,numeric,255,123,81,0.442105 to 1,"Secondary outcome: Compliance, measured at 16 weeks."
+48,X_WEIGHT_0w,Baseline covariate,continuous,numeric,255,0,202,58.7 to 136.8,Baseline covariate: Weight.
+48,X_HEIGHT_0w,Baseline covariate,continuous,numeric,255,0,146,144.8 to 197,Baseline covariate: Height.
+48,X_AGE_0w,Baseline covariate,continuous,numeric,255,0,46,20 to 65,Baseline covariate: Age.
+48,X_SEX_0w,Baseline covariate,binary,factor,255,0,2,(0) Female; (1) Male,Baseline covariate: Sex.
+48,X_RACE_0w,Baseline covariate,factor,factor,255,0,5,(1) Black Hispanic; (2) Black Non-Hispanic; (3) Other; (4) White Hispanic; (5) White Non-Hispanic,Baseline covariate: Race. Categories/codes in the cleaned data: (1) Black Hispanic; (2) Black Non-Hispanic; (3) Other; (4) White Hispanic; (5) White Non-Hispanic.
+48,X_SITE_0w,Baseline covariate,factor,factor,255,0,4,a; b; c; e,Baseline covariate: Site. Categories/codes in the cleaned data: a; b; c; e.
+48,X_STATUS_0w,Baseline covariate,binary,factor,255,0,2,aSkipper; BreakfastEater,Baseline covariate: Status.

@@ -1,0 +1,9 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+111,Treatment,Treatment assignment,factor,factor,20,0,2,Abacus cognitive training; Control,Treatment: randomized treatment assignment with cleaned-data arms: Abacus cognitive training; Control. Publication-designated control/reference: Control.
+111,YP_moca_total_post,Primary outcome,continuous,integer,20,0,7,23 to 30,"Primary outcome: Montreal Cognitive Assessment (MoCA) total score, measured immediately after the intervention."
+111,YS_cogevo_total_post,Secondary outcome,continuous,integer,20,0,20,1051 to 2245,"Secondary outcome: CogEvo cognitive-assessment total score, measured immediately after the intervention."
+111,X_moca_total_0w,Baseline covariate,continuous,integer,20,0,8,21 to 30,Baseline covariate: Montreal Cognitive Assessment (MoCA) total score.
+111,X_cogevo_total_0w,Baseline covariate,continuous,integer,20,0,20,1018 to 1984,Baseline covariate: CogEvo cognitive-assessment total score.
+111,X_decade,Baseline covariate,factor,character,20,0,4,40s; 50s; 60s; 70s,Baseline covariate: Decade. Categories/codes in the cleaned data: 40s; 50s; 60s; 70s.
+111,X_sex,Baseline covariate,binary,character,20,0,2,F; M,Baseline covariate: Sex.
+111,X_depression,Baseline covariate,binary,integer,20,0,2,1; 2,Baseline covariate: Depression.

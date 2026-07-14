@@ -1,0 +1,12 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+8,Treatment,Treatment assignment,factor,factor,115,0,2,Ivermectin; Placebo,Treatment: randomized treatment assignment with cleaned-data arms: Ivermectin; Placebo. Publication-designated control/reference: Placebo.
+8,YP_RTPCR_negative_6d,Primary outcome,binary,factor,115,12,2,0; 1,"Primary outcome: Negative SARS-CoV-2 reverse-transcription PCR result, measured at 6 days."
+8,YS_symptom_free_6d,Secondary outcome,binary,factor,115,1,2,0; 1,"Secondary outcome: Symptom free, measured at 6 days."
+8,YS_discharged_10d,Secondary outcome,binary,factor,115,1,2,0; 1,"Secondary outcome: Discharged, measured at 10 days."
+8,YS_final_discharge,Secondary outcome,binary,factor,115,1,2,0; 1,"Secondary outcome: Final, measured at hospital discharge."
+8,YS_ICU,Secondary outcome,binary,factor,115,1,2,0; 1,Secondary outcome: Intensive care unit.
+8,YS_intubation_mv,Secondary outcome,binary,factor,115,1,2,0; 1,Secondary outcome: Intubation mv.
+8,X_Age_0d,Baseline covariate,continuous,numeric,115,1,49,18 to 83,Baseline covariate: Age.
+8,X_Sex_0d,Baseline covariate,binary,factor,115,1,2,female; male,Baseline covariate: Sex.
+8,X_comorbidities_0d,Baseline covariate,factor,character,115,1,47,"Acute Leukemia; AF, CCF With IHD, Minimal Renal Dysfunction; Asthma, T2DM; CAD,HTN; cholecystitis; CKD (post transplant); DM; DM, IHD; HIV; HTN; HTN newly diagnosed; HTN, DM; HTN, DM, AKI; HTN, DM, ca cervix; HTN, DM, IHD; HTN, IHD; HTN, PSVT; HTN, T2DM; HTN, T2DM newly diagnosed; HTN,IHD; ...",Baseline covariate: Comorbidities.
+8,X_severity_admission_0d,Baseline covariate,binary,ordered/factor,115,1,2,mild; moderate,Baseline covariate: Severity admission.

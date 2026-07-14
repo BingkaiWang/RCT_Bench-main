@@ -1,0 +1,33 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+15,Treatment,Treatment assignment,factor,factor,28,0,2,Conventional Only; Conventional+Snoezelen,Treatment: randomized treatment assignment with cleaned-data arms: Conventional Only; Conventional+Snoezelen. Publication-designated control/reference: Conventional Only.
+15,YP_delta_EmoReact_4w,Primary outcome,continuous,integer,28,0,17,-38 to 19,Primary outcome: Change from baseline to 4 weeks in emo react. Publication-defined endpoint context: Change in Child Behavior Checklist (CBCL 1.5–5) scores (pre- vs. post-intervention).
+15,YS_delta_CBCLTotal_4w,Secondary outcome,continuous,integer,28,0,23,-30 to 24,Secondary outcome: Change from baseline to 4 weeks in Child Behavior Checklist (CBCL 1.5-5) total score.
+15,YS_delta_Internal_4w,Secondary outcome,continuous,integer,28,0,21,-27 to 19,Secondary outcome: Change from baseline to 4 weeks in internal.
+15,YS_delta_External_4w,Secondary outcome,continuous,integer,28,0,24,-57 to 26,Secondary outcome: Change from baseline to 4 weeks in external.
+15,YS_delta_Anx_Dep_4w,Secondary outcome,continuous,integer,28,0,21,-60 to 32,Secondary outcome: Change from baseline to 4 weeks in anx dep.
+15,YS_delta_Somatic_4w,Secondary outcome,continuous,integer,28,0,17,-51 to 39,Secondary outcome: Change from baseline to 4 weeks in somatic.
+15,YS_delta_Withdrawn_4w,Secondary outcome,continuous,integer,28,0,22,-35 to 63,Secondary outcome: Change from baseline to 4 weeks in withdrawn.
+15,YS_delta_Sleep_4w,Secondary outcome,continuous,integer,28,0,20,-72 to 44,Secondary outcome: Change from baseline to 4 weeks in sleep.
+15,YS_delta_Attention_4w,Secondary outcome,continuous,integer,28,0,14,-58 to 23,Secondary outcome: Change from baseline to 4 weeks in attention.
+15,YS_delta_Aggressive_4w,Secondary outcome,continuous,integer,28,0,23,-46 to 36,Secondary outcome: Change from baseline to 4 weeks in aggressive.
+15,YS_delta_Others_4w,Secondary outcome,continuous,integer,28,0,22,-35 to 24,Secondary outcome: Change from baseline to 4 weeks in others.
+15,YS_delta_Child_Stress_4w,Secondary outcome,continuous,integer,28,0,19,-49 to 43,Secondary outcome: Change from baseline to 4 weeks in child stress.
+15,YS_delta_Parent_Stress_4w,Secondary outcome,continuous,integer,28,0,18,-42 to 23,Secondary outcome: Change from baseline to 4 weeks in parent stress.
+15,YS_delta_PSI_Total_4w,Secondary outcome,continuous,integer,28,0,17,-67 to 31,Secondary outcome: Change from baseline to 4 weeks in Parenting Stress Index total score.
+15,X_side_0w,Baseline covariate,binary,factor,28,0,2,1; 2,Baseline covariate: Side.
+15,X_cp_type_0w,Baseline covariate,factor,factor,28,0,3,1; 2; 3,Baseline covariate: Cp type. Categories/codes in the cleaned data: 1; 2; 3.
+15,X_GMFCS_0w,Baseline covariate,factor,factor,28,0,5,1; 2; 3; 4; 5,Baseline covariate: Gross Motor Function Classification System (GMFCS) level. Categories/codes in the cleaned data: 1; 2; 3; 4; 5.
+15,X_CBCLTotal_0w,Baseline covariate,continuous,integer,28,0,19,16 to 100,Baseline covariate: Child Behavior Checklist (CBCL 1.5-5) total score.
+15,X_Internal_0w,Baseline covariate,continuous,integer,28,0,17,21 to 100,Baseline covariate: Internal.
+15,X_External_0w,Baseline covariate,continuous,integer,28,0,20,12 to 100,Baseline covariate: External.
+15,X_EmoReact_0w,Baseline covariate,continuous,integer,28,0,13,9 to 100,Baseline covariate: Emo react.
+15,X_Anx_Dep_0w,Baseline covariate,continuous,integer,28,0,14,8 to 100,Baseline covariate: Anx dep.
+15,X_Somatic_0w,Baseline covariate,continuous,integer,28,0,12,18 to 99,Baseline covariate: Somatic.
+15,X_Withdrawn_0w,Baseline covariate,continuous,integer,28,0,16,20 to 100,Baseline covariate: Withdrawn.
+15,X_Sleep_0w,Baseline covariate,continuous,integer,28,0,15,20 to 98,Baseline covariate: Sleep.
+15,X_Attention_0w,Baseline covariate,continuous,integer,28,0,13,38 to 100,Baseline covariate: Attention.
+15,X_Aggressive_0w,Baseline covariate,continuous,integer,28,0,17,6 to 100,Baseline covariate: Aggressive.
+15,X_Others_0w,Baseline covariate,continuous,integer,28,0,21,4 to 100,Baseline covariate: Others.
+15,X_Child_Stress_0w,Baseline covariate,continuous,integer,28,0,17,40 to 99,Baseline covariate: Child stress.
+15,X_Parent_Stress_0w,Baseline covariate,continuous,integer,28,0,19,25 to 99,Baseline covariate: Parent stress.
+15,X_PSI_Total_0w,Baseline covariate,continuous,integer,28,0,17,32 to 99,Baseline covariate: Parenting Stress Index total score.

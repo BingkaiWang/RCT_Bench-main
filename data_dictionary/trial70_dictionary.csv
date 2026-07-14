@@ -1,0 +1,24 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+70,Treatment,Treatment assignment,factor,factor,4715,0,2,Crosswords control; Lumosity cognitive training,Treatment: randomized treatment assignment with cleaned-data arms: Crosswords control; Lumosity cognitive training. Publication-designated control/reference: Crosswords control.
+70,YP_grand_index_delta,Primary outcome,continuous,numeric,4715,0,4715,-57.6096 to 69.5486,Primary outcome: Change from baseline to follow-up in grand index. Publication-defined endpoint context: Change in cognitive Grand Index after online training.
+70,YS_arithmetic_delta,Secondary outcome,continuous,numeric,4715,0,1820,-52.8857 to 63.9555,Secondary outcome: Change from baseline to follow-up in arithmetic.
+70,YS_two_target_search_delta,Secondary outcome,continuous,numeric,4715,0,4672,-73.6331 to 65.4916,Secondary outcome: Change from baseline to follow-up in two target search.
+70,YS_go_no_go_delta,Secondary outcome,continuous,numeric,4715,0,4635,-77.769 to 63.7222,Secondary outcome: Change from baseline to follow-up in go no go.
+70,YS_grammatical_reasoning_delta,Secondary outcome,continuous,numeric,4715,0,1847,-54.7394 to 56.2813,Secondary outcome: Change from baseline to follow-up in grammatical reasoning.
+70,YS_memory_span_delta,Secondary outcome,continuous,numeric,4715,0,329,-58.7309 to 66.6732,Secondary outcome: Change from baseline to follow-up in memory span.
+70,YS_progressive_matrices_delta,Secondary outcome,continuous,numeric,4715,0,1371,-48.7426 to 73.2718,Secondary outcome: Change from baseline to follow-up in progressive matrices.
+70,YS_rotations_memory_span_delta,Secondary outcome,continuous,numeric,4715,0,300,-71.3474 to 55.7772,Secondary outcome: Change from baseline to follow-up in rotations memory span.
+70,YS_real_world_cognition_delta,Secondary outcome,continuous,numeric,4715,23,317,-2.29167 to 3.11111,Secondary outcome: Change from baseline to follow-up in real world cognition.
+70,X_age_round,Baseline covariate,continuous,numeric,4715,0,63,18 to 80,Baseline covariate: Age round.
+70,X_age_bin,Baseline covariate,factor,factor,4715,0,12,"[18,25); [25,30); [30,35); [35,40); [40,45); [45,50); [50,55); [55,60); [60,65); [65,70); [70,75); [75,80]","Baseline covariate: Age bin. Categories/codes in the cleaned data: [18,25); [25,30); [30,35); [35,40); [40,45); [45,50); [50,55); [55,60); [60,65); [65,70); [70,75); [75,80]."
+70,X_grand_index_0w,Baseline covariate,continuous,numeric,4715,0,4715,44.1808 to 151.511,Baseline covariate: Grand index.
+70,X_arithmetic_0w,Baseline covariate,continuous,numeric,4715,0,271,51.2822 to 149.563,Baseline covariate: Arithmetic.
+70,X_two_target_search_0w,Baseline covariate,continuous,numeric,4715,0,2580,50.4366 to 145.677,Baseline covariate: Two target search.
+70,X_go_no_go_0w,Baseline covariate,continuous,numeric,4715,0,1908,50.4366 to 149.563,Baseline covariate: Go no go.
+70,X_grammatical_reasoning_0w,Baseline covariate,continuous,numeric,4715,0,229,68.2276 to 149.563,Baseline covariate: Grammatical reasoning.
+70,X_memory_span_0w,Baseline covariate,continuous,numeric,4715,0,85,54.3226 to 148.718,Baseline covariate: Memory span.
+70,X_progressive_matrices_0w,Baseline covariate,continuous,numeric,4715,0,192,52.5305 to 143.981,Baseline covariate: Progressive matrices.
+70,X_rotations_memory_span_0w,Baseline covariate,continuous,numeric,4715,0,81,54.9315 to 149.563,Baseline covariate: Rotations memory span.
+70,X_real_world_cognition_0w,Baseline covariate,continuous,numeric,4715,18,84,1.125 to 4.88889,Baseline covariate: Real world cognition.
+70,X_active_days,Baseline covariate,continuous,numeric,4715,0,71,0 to 70,Baseline covariate: Active days.
+70,X_est_hours,Baseline covariate,continuous,numeric,4715,0,4700,0 to 349.573,Baseline covariate: Est hours.

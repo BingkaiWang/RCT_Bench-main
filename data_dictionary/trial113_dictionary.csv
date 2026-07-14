@@ -1,0 +1,10 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+113,Treatment,Treatment assignment,factor,factor,28,0,2,Counselling + pharmacotherapy; Usual care,Treatment: randomized treatment assignment with cleaned-data arms: Counselling + pharmacotherapy; Usual care. Publication-designated control/reference: Usual care.
+113,YP_smoking_abstinence_26w,Primary outcome,binary,numeric,28,0,2,0; 1,"Primary outcome: Smoking abstinence, measured at 26 weeks. Publication-defined endpoint context: smoking abstinence 26w."
+113,YS_smoking_abstinence_7d,Secondary outcome,binary,numeric,28,0,2,0; 1,"Secondary outcome: Smoking abstinence, measured at 7 days."
+113,YS_co_ppm_26w,Secondary outcome,binary,numeric,28,0,2,0; 1,"Secondary outcome: Co parts per million, measured at 26 weeks."
+113,X_age_years,Baseline covariate,continuous,numeric,28,0,24,36 to 74,Baseline covariate: Age years.
+113,X_gender,Baseline covariate,binary,numeric,28,0,2,0; 1,Baseline covariate: Gender.
+113,X_hads_anxiety_0w,Baseline covariate,continuous,numeric,28,1,13,0 to 13,Baseline covariate: Hospital Anxiety and Depression Scale anxiety-subscale score.
+113,X_hads_depression_0w,Baseline covariate,continuous,numeric,28,1,13,0 to 18,Baseline covariate: Hospital Anxiety and Depression Scale depression-subscale score.
+113,X_cigarettes_per_day_0w,Baseline covariate,continuous,numeric,28,0,11,2 to 40,Baseline covariate: Cigarettes per day.

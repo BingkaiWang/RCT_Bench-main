@@ -1,0 +1,17 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+59,Treatment,Treatment assignment,factor,factor,44,0,2,Static stretching; Tissue flossing,Treatment: randomized treatment assignment with cleaned-data arms: Static stretching; Tissue flossing. Publication-designated control/reference: Static stretching.
+59,YP_dorsiflexion_dominant_post,Primary outcome,continuous,numeric,44,0,31,7.26 to 13.7,"Primary outcome: Dorsiflexion dominant, measured immediately after the intervention. Publication-defined endpoint context: Dominant-leg ankle dorsiflexion ROM immediately post-intervention."
+59,YP_delta_dorsiflexion_dominant_post,Primary outcome,continuous,numeric,44,0,43,-1.16 to 6.02,Primary outcome: Change from baseline to immediately after the intervention in dorsiflexion dominant. Publication-defined endpoint context: Dominant-leg ankle dorsiflexion ROM immediately post-intervention.
+59,YS_dorsiflexion_dominant_followup,Secondary outcome,time-to-event/continuous time,numeric,44,0,33,6.1 to 9.8,"Secondary outcome: Dorsiflexion dominant, measured at follow-up."
+59,YS_plantarflexion_dominant_post,Secondary outcome,continuous,numeric,44,0,41,37.1 to 52.3,"Secondary outcome: Plantarflexion dominant, measured immediately after the intervention."
+59,YS_delta_plantarflexion_dominant_post,Secondary outcome,continuous,numeric,44,0,42,-0.1 to 6.87,Secondary outcome: Change from baseline to immediately after the intervention in plantarflexion dominant.
+59,YS_dorsiflexion_nondominant_post,Secondary outcome,continuous,numeric,44,0,22,8.2 to 11.3,"Secondary outcome: Dorsiflexion nondominant, measured immediately after the intervention."
+59,YS_delta_dorsiflexion_nondominant_post,Secondary outcome,continuous,numeric,44,0,31,-0.4 to 3,Secondary outcome: Change from baseline to immediately after the intervention in dorsiflexion nondominant.
+59,X_dorsiflexion_dominant_0d,Baseline covariate,continuous,numeric,44,0,39,5.49 to 9.65,Baseline covariate: Dorsiflexion dominant.
+59,X_plantarflexion_dominant_0d,Baseline covariate,continuous,numeric,44,0,44,32.73 to 50.34,Baseline covariate: Plantarflexion dominant.
+59,X_dorsiflexion_nondominant_0d,Baseline covariate,continuous,numeric,44,0,26,6.3 to 10.7,Baseline covariate: Dorsiflexion nondominant.
+59,X_plantarflexion_nondominant_0d,Baseline covariate,continuous,numeric,44,0,33,35.7 to 50.9,Baseline covariate: Plantarflexion nondominant.
+59,X_age_0d,Baseline covariate,continuous,numeric,44,0,16,18 to 35,Baseline covariate: Age.
+59,X_height_0d,Baseline covariate,continuous,numeric,44,0,44,173.51 to 184.8,Baseline covariate: Height.
+59,X_weight_0d,Baseline covariate,continuous,numeric,44,0,42,69.81 to 81,Baseline covariate: Weight.
+59,X_bmi_0d,Baseline covariate,continuous,numeric,44,0,44,21.3102 to 26.2549,"Baseline covariate: Body mass index (BMI), in kg/m²."

@@ -1,0 +1,74 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+45,Treatment,Treatment assignment,factor,factor,64,0,3,0% Discount; 15% Discount; 30% Discount,Treatment: randomized treatment assignment with cleaned-data arms: 0% Discount; 15% Discount; 30% Discount. Publication-designated control/reference: 0% Discount.
+45,YP_delta_fruit_24w,Primary outcome,continuous,numeric,64,0,59,-200.96 to 440,"Primary outcome: Change from baseline to 24 weeks in fruit. Publication-defined endpoint context: Change in grams per day of: Fruit intake Vegetable intake Non‐caloric beverage intake (diet soda, bottled water, seltzer)."
+45,YP_delta_veg_24w,Primary outcome,continuous,numeric,64,0,64,-355.667 to 652,"Primary outcome: Change from baseline to 24 weeks in veg. Publication-defined endpoint context: Change in grams per day of: Fruit intake Vegetable intake Non‐caloric beverage intake (diet soda, bottled water, seltzer)."
+45,YP_delta_soda_24w,Primary outcome,continuous,numeric,64,0,14,-381.5 to 204.667,"Primary outcome: Change from baseline to 24 weeks in soda. Publication-defined endpoint context: Change in grams per day of: Fruit intake Vegetable intake Non‐caloric beverage intake (diet soda, bottled water, seltzer)."
+45,YP_delta_bottledwater_24w,Primary outcome,continuous,numeric,64,0,17,-355.5 to 1412,"Primary outcome: Change from baseline to 24 weeks in bottledwater. Publication-defined endpoint context: Change in grams per day of: Fruit intake Vegetable intake Non‐caloric beverage intake (diet soda, bottled water, seltzer)."
+45,YP_delta_seltzerwater_24w,Primary outcome,continuous,numeric,64,0,26,-355.267 to 917.5,"Primary outcome: Change from baseline to 24 weeks in seltzerwater. Publication-defined endpoint context: Change in grams per day of: Fruit intake Vegetable intake Non‐caloric beverage intake (diet soda, bottled water, seltzer)."
+45,YP_delta_noncalbev_24w,Primary outcome,continuous,numeric,64,0,39,-355.5 to 1402.63,"Primary outcome: Change from baseline to 24 weeks in noncalbev. Publication-defined endpoint context: Change in grams per day of: Fruit intake Vegetable intake Non‐caloric beverage intake (diet soda, bottled water, seltzer)."
+45,YS_delta_shopping_24w,Secondary outcome,continuous,numeric,64,0,19,-100 to 20,Secondary outcome: Change from baseline to 24 weeks in shopping.
+45,YS_delta_weight_24w,Secondary outcome,continuous,numeric,64,0,58,-21.65 to 18.3,Secondary outcome: Change from baseline to 24 weeks in weight.
+45,YS_delta_bmi_24w,Secondary outcome,continuous,numeric,64,0,36,-10.78 to 3.5,"Secondary outcome: Change from baseline to 24 weeks in body mass index (BMI), in kg/m²."
+45,YS_delta_waist_24w,Secondary outcome,continuous,numeric,64,11,42,-6.9 to 4.5,Secondary outcome: Change from baseline to 24 weeks in waist.
+45,YS_delta_fat_24w,Secondary outcome,continuous,numeric,64,0,44,-4.9 to 12.5,Secondary outcome: Change from baseline to 24 weeks in fat.
+45,YS_delta_fm_24w,Secondary outcome,continuous,numeric,64,0,64,-4.68478 to 18.6126,Secondary outcome: Change from baseline to 24 weeks in fat mass.
+45,YS_delta_sysbp_24w,Secondary outcome,continuous,numeric,64,0,45,-41.5 to 38,Secondary outcome: Change from baseline to 24 weeks in sysbp.
+45,YS_delta_diabp_24w,Secondary outcome,continuous,numeric,64,0,37,-13 to 20,Secondary outcome: Change from baseline to 24 weeks in diabp.
+45,YS_delta_gluc_24w,Secondary outcome,continuous,numeric,64,15,30,-24 to 24,Secondary outcome: Change from baseline to 24 weeks in gluc.
+45,YS_delta_hba1c_24w,Secondary outcome,continuous,numeric,64,24,8,-0.4 to 0.4,Secondary outcome: Change from baseline to 24 weeks in glycated haemoglobin (HbA1c).
+45,YS_delta_tc_24w,Secondary outcome,continuous,numeric,64,2,39,-54 to 81,Secondary outcome: Change from baseline to 24 weeks in total cholesterol.
+45,YS_delta_hdl_24w,Secondary outcome,continuous,numeric,64,2,28,-28 to 28,Secondary outcome: Change from baseline to 24 weeks in high-density-lipoprotein cholesterol concentration.
+45,YS_delta_ldl_24w,Secondary outcome,continuous,numeric,64,2,42,-37 to 125.8,Secondary outcome: Change from baseline to 24 weeks in low-density-lipoprotein cholesterol concentration.
+45,YS_delta_tg_24w,Secondary outcome,continuous,numeric,64,2,46,-232 to 67,Secondary outcome: Change from baseline to 24 weeks in triglyceride concentration.
+45,YS_delta_kcalfood_24w,Secondary outcome,continuous,numeric,64,0,64,-2233.73 to 1731.32,Secondary outcome: Change from baseline to 24 weeks in kcalfood.
+45,YS_delta_gramsfood_24w,Secondary outcome,continuous,numeric,64,0,64,-877.74 to 838.23,Secondary outcome: Change from baseline to 24 weeks in gramsfood.
+45,YS_delta_ed_24w,Secondary outcome,continuous,numeric,64,0,64,-1.53059 to 0.850845,Secondary outcome: Change from baseline to 24 weeks in dietary energy density.
+45,YS_delta_fv_24w,Secondary outcome,continuous,numeric,64,0,64,-420.567 to 584.167,Secondary outcome: Change from baseline to 24 weeks in fruit and vegetable intake.
+45,YS_delta_juice_24w,Secondary outcome,continuous,numeric,64,0,28,-694.133 to 524.207,Secondary outcome: Change from baseline to 24 weeks in juice.
+45,YS_delta_icedtea_24w,Secondary outcome,continuous,numeric,64,0,10,-224 to 340,Secondary outcome: Change from baseline to 24 weeks in icedtea.
+45,YS_delta_dietsoda_24w,Secondary outcome,continuous,numeric,64,0,10,-275.627 to 644.8,Secondary outcome: Change from baseline to 24 weeks in dietsoda.
+45,YS_delta_alcohol_24w,Secondary outcome,continuous,numeric,64,0,42,-480 to 424.7,Secondary outcome: Change from baseline to 24 weeks in alcohol.
+45,YS_delta_totalsnack_24w,Secondary outcome,continuous,numeric,64,0,64,-268.487 to 341,Secondary outcome: Change from baseline to 24 weeks in totalsnack.
+45,YS_delta_salty_24w,Secondary outcome,continuous,numeric,64,0,47,-133.06 to 151.2,Secondary outcome: Change from baseline to 24 weeks in salty.
+45,YS_delta_sweet_24w,Secondary outcome,continuous,numeric,64,0,60,-187.987 to 341,Secondary outcome: Change from baseline to 24 weeks in sweet.
+45,YS_delta_fats_24w,Secondary outcome,continuous,numeric,64,0,55,-83.5783 to 55.4,Secondary outcome: Change from baseline to 24 weeks in fats.
+45,YS_delta_hed_24w,Secondary outcome,continuous,numeric,64,0,64,-175.41 to 439.567,Secondary outcome: Change from baseline to 24 weeks in high-energy-density food intake.
+45,YS_delta_led_24w,Secondary outcome,continuous,numeric,64,0,64,-490.15 to 760.2,Secondary outcome: Change from baseline to 24 weeks in low-energy-density food intake.
+45,X_shopping_8w,Baseline covariate,continuous,numeric,64,0,11,30 to 100,Baseline covariate: Shopping.
+45,X_weight_8w,Baseline covariate,continuous,numeric,64,0,63,125.8 to 321.25,Baseline covariate: Weight.
+45,X_bmi_8w,Baseline covariate,continuous,numeric,64,0,48,21.9 to 47.5,"Baseline covariate: Body mass index (BMI), in kg/m²."
+45,X_waist_8w,Baseline covariate,continuous,numeric,64,9,45,29.375 to 58,Baseline covariate: Waist.
+45,X_fat_8w,Baseline covariate,continuous,numeric,64,0,59,13.4 to 51.6,Baseline covariate: Fat.
+45,X_fm_8w,Baseline covariate,continuous,numeric,64,0,64,9.53068 to 66.6166,Baseline covariate: Fat mass.
+45,X_sysbp_8w,Baseline covariate,continuous,numeric,64,0,50,91.5 to 160,Baseline covariate: Sysbp.
+45,X_diabp_8w,Baseline covariate,continuous,numeric,64,0,40,58 to 97,Baseline covariate: Diabp.
+45,X_gluc_8w,Baseline covariate,continuous,numeric,64,5,30,65 to 146,Baseline covariate: Gluc.
+45,X_hba1c_8w,Baseline covariate,continuous,numeric,64,21,15,0.2 to 6.4,Baseline covariate: Glycated haemoglobin (HbA1c).
+45,X_tc_8w,Baseline covariate,continuous,numeric,64,1,46,112 to 268,Baseline covariate: Total cholesterol.
+45,X_hdl_8w,Baseline covariate,continuous,numeric,64,1,38,22 to 94,Baseline covariate: High-density-lipoprotein cholesterol concentration.
+45,X_ldl_8w,Baseline covariate,continuous,numeric,64,1,48,4.2 to 168,Baseline covariate: Low-density-lipoprotein cholesterol concentration.
+45,X_tg_8w,Baseline covariate,continuous,numeric,64,1,52,26 to 375,Baseline covariate: Triglyceride concentration.
+45,X_kcalfood_8w,Baseline covariate,continuous,numeric,64,0,64,134.96 to 4503.69,Baseline covariate: Kcalfood.
+45,X_gramsfood_8w,Baseline covariate,continuous,numeric,64,0,64,42.66 to 2004.28,Baseline covariate: Gramsfood.
+45,X_ed_8w,Baseline covariate,continuous,numeric,64,0,64,1.18817 to 3.16362,Baseline covariate: Dietary energy density.
+45,X_fruit_8w,Baseline covariate,continuous,numeric,64,0,40,0 to 472.333,Baseline covariate: Fruit.
+45,X_veg_8w,Baseline covariate,continuous,numeric,64,0,60,0 to 506.167,Baseline covariate: Veg.
+45,X_fv_8w,Baseline covariate,continuous,numeric,64,0,62,0 to 791.31,Baseline covariate: Fruit and vegetable intake.
+45,X_soda_8w,Baseline covariate,continuous,numeric,64,0,8,0 to 381.5,Baseline covariate: Soda.
+45,X_juice_8w,Baseline covariate,continuous,numeric,64,0,21,0 to 694.133,Baseline covariate: Juice.
+45,X_icedtea_8w,Baseline covariate,continuous,numeric,64,0,6,0 to 266.2,Baseline covariate: Icedtea.
+45,X_bottledwater_8w,Baseline covariate,continuous,numeric,64,0,11,0 to 1000,Baseline covariate: Bottledwater.
+45,X_seltzerwater_8w,Baseline covariate,continuous,numeric,64,0,17,0 to 1183.33,Baseline covariate: Seltzerwater.
+45,X_dietsoda_8w,Baseline covariate,continuous,numeric,64,0,7,0 to 360,Baseline covariate: Dietsoda.
+45,X_alcohol_8w,Baseline covariate,continuous,numeric,64,0,35,0 to 1551.67,Baseline covariate: Alcohol.
+45,X_totalsnack_8w,Baseline covariate,continuous,numeric,64,0,59,0 to 387.243,Baseline covariate: Totalsnack.
+45,X_salty_8w,Baseline covariate,continuous,numeric,64,0,38,0 to 218.867,Baseline covariate: Salty.
+45,X_sweet_8w,Baseline covariate,continuous,numeric,64,0,52,0 to 337.667,Baseline covariate: Sweet.
+45,X_fats_8w,Baseline covariate,continuous,numeric,64,0,41,0 to 99.3933,Baseline covariate: Fats.
+45,X_hed_8w,Baseline covariate,continuous,numeric,64,0,64,9.67 to 354.833,Baseline covariate: High-energy-density food intake.
+45,X_led_8w,Baseline covariate,continuous,numeric,64,0,64,0 to 896.44,Baseline covariate: Low-energy-density food intake.
+45,X_ed_divided_8w,Baseline covariate,continuous,numeric,64,1,63,0.0349774 to 3.18243,Baseline covariate: Emergency department divided.
+45,X_ed_fv_divided_8w,Baseline covariate,continuous,numeric,64,2,62,0.0366391 to 7.31728,Baseline covariate: Emergency department fruit and vegetable intake divided.
+45,X_income_group_0w,Baseline covariate,factor,factor,64,2,3,"Equal to $50,000?; Greater than $50,000?; Less than $50,000?","Baseline covariate: Income group. Categories/codes in the cleaned data: Equal to $50,000?; Greater than $50,000?; Less than $50,000?."
+45,X_store_0w,Baseline covariate,binary,factor,64,0,2,covid; precovid,Baseline covariate: Store.
+45,X_store_type_0w,Baseline covariate,factor,factor,64,0,3,big; other; small,Baseline covariate: Store type. Categories/codes in the cleaned data: big; other; small.

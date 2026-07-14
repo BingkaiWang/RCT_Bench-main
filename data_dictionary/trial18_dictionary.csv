@@ -1,0 +1,37 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+18,Treatment,Treatment assignment,factor,factor,295,0,2,Kanyakla; Standard Care,Treatment: randomized treatment assignment with cleaned-data arms: Kanyakla; Standard Care. Publication-designated control/reference: Usual Care.
+18,YP_time_to_disengaged_12m,Primary outcome,time-to-event/continuous time,numeric,295,0,33,10 to 366,"Primary outcome: Time to disengaged, measured at 12 months. Publication-defined endpoint context: Time to disengagement: first ≥90-day absence from any HIV care visit in 12 months Time in care: proportion of time adherent to appointments over 12 months."
+18,YP_event_disengaged_12m,Primary outcome,binary,factor,295,0,2,0; 1,"Primary outcome: Event disengaged, measured at 12 months. Publication-defined endpoint context: Time to disengagement: first ≥90-day absence from any HIV care visit in 12 months Time in care: proportion of time adherent to appointments over 12 months."
+18,YP_prop_time_in_care_12m,Primary outcome,time-to-event/continuous time,numeric,295,0,103,0 to 1,"Primary outcome: Proportion of time in care, measured at 12 months. Publication-defined endpoint context: Time to disengagement: first ≥90-day absence from any HIV care visit in 12 months Time in care: proportion of time adherent to appointments over 12 months."
+18,post_YP_time_to_disengaged_24m,Other,time-to-event/continuous time,numeric,295,0,64,10 to 731,"Primary outcome: Extended follow-up time to disengaged, measured at 24 months. Publication-defined endpoint context: Time to disengagement: first ≥90-day absence from any HIV care visit in 12 months Time in care: proportion of time adherent to appointments over 12 months."
+18,post_YP_event_disengaged_24m,Other,binary,factor,295,0,2,0; 1,"Primary outcome: Extended follow-up event disengaged, measured at 24 months. Publication-defined endpoint context: Time to disengagement: first ≥90-day absence from any HIV care visit in 12 months Time in care: proportion of time adherent to appointments over 12 months."
+18,post_YP_prop_time_in_care_24m,Other,time-to-event/continuous time,numeric,295,0,167,0 to 1,"Primary outcome: Extended follow-up proportion of time in care, measured at 24 months. Publication-defined endpoint context: Time to disengagement: first ≥90-day absence from any HIV care visit in 12 months Time in care: proportion of time adherent to appointments over 12 months."
+18,post_YP_disengaged_24m_final,Other,continuous,numeric,295,0,4,0 to 4,"Primary outcome: Extended follow-up disengaged 24m, measured at the final assessment. Publication-defined endpoint context: Time to disengagement: first ≥90-day absence from any HIV care visit in 12 months Time in care: proportion of time adherent to appointments over 12 months."
+18,post_YP_event_disengaged_24m_final,Other,factor,factor,295,0,50,10; 100; 101; 122; 127; 139; 153; 154; 189; 212; 225; 238; 239; 240; 245; 267; 281; 297; 312; 323; ...,"Primary outcome: Extended follow-up event disengaged 24m, measured at the final assessment. Publication-defined endpoint context: Time to disengagement: first ≥90-day absence from any HIV care visit in 12 months Time in care: proportion of time adherent to appointments over 12 months. Categories/codes in the cleaned data: 10; 100; 101; 122; 127; 139; 153; 154; 189; 212; 225; 238; 239; 240; 245; 267; 281; 297; 312; 323; ...."
+18,YS_delta_StigInternal_12m,Secondary outcome,continuous,numeric,295,45,52,-3.33333 to 2.33333,Secondary outcome: Change from baseline to 12 months in stig internal.
+18,YS_delta_StigAnticipate_12m,Secondary outcome,continuous,numeric,295,45,57,-2.66667 to 2.33333,Secondary outcome: Change from baseline to 12 months in stig anticipate.
+18,YS_delta_StigEnact_12m,Secondary outcome,continuous,numeric,295,47,30,-2.33333 to 2,Secondary outcome: Change from baseline to 12 months in stig enact.
+18,YS_delta_StigOverall_12m,Secondary outcome,continuous,numeric,295,47,140,-2.77778 to 1.64815,Secondary outcome: Change from baseline to 12 months in stig overall.
+18,YS_delta_yourHIVTotal_12m,Secondary outcome,continuous,numeric,295,54,13,-7 to 8,Secondary outcome: Change from baseline to 12 months in your hivtotal.
+18,YS_delta_theirHIVTotal_12m,Secondary outcome,continuous,numeric,295,54,12,-7 to 5,Secondary outcome: Change from baseline to 12 months in their hivtotal.
+18,YS_delta_MaterialSupportMean_12m,Secondary outcome,continuous,numeric,295,55,92,-4 to 3,Secondary outcome: Change from baseline to 12 months in material support mean.
+18,YS_delta_EmotionalSupportMean_12m,Secondary outcome,continuous,numeric,295,54,95,-3.4 to 3.6,Secondary outcome: Change from baseline to 12 months in emotional support mean.
+18,YS_delta_ClinicSupportMean_12m,Secondary outcome,continuous,numeric,295,54,95,-3 to 4,Secondary outcome: Change from baseline to 12 months in clinic support mean.
+18,YS_delta_MedSupportMean_12m,Secondary outcome,continuous,numeric,295,54,94,-4 to 4,Secondary outcome: Change from baseline to 12 months in med support mean.
+18,X_AgeCat_0m,Baseline covariate,continuous,numeric,295,0,3,18 to 50,Baseline covariate: Age category.
+18,X_Gender_0m,Baseline covariate,binary,factor,295,0,2,0; 1,Baseline covariate: Gender.
+18,X_TimeSinceDx_0m,Baseline covariate,time-to-event/continuous time,numeric,295,0,282,0.11499 to 14.6283,Baseline covariate: Time since dx.
+18,X_TimeSinceClinic_0m,Baseline covariate,time-to-event/continuous time,numeric,295,0,286,0.0876112 to 13.7522,Baseline covariate: Time since clinic.
+18,X_TimeSinceART_0m,Baseline covariate,time-to-event/continuous time,numeric,295,31,243,0.0355921 to 10.924,Baseline covariate: Time since art.
+18,X_ARTStatus_0m,Baseline covariate,binary,factor,295,0,2,0; 1,Baseline covariate: Artstatus.
+18,X_TakingART_0m,Baseline covariate,binary,factor,295,0,2,0; 1,Baseline covariate: Taking art.
+18,X_Disclose_0m,Baseline covariate,binary,factor,295,0,2,0; 1,Baseline covariate: Disclose.
+18,X_StigInternal_0m,Baseline covariate,continuous,numeric,295,0,24,1 to 5,Baseline covariate: Stig internal.
+18,X_StigAnticipate_0m,Baseline covariate,continuous,numeric,295,0,25,1 to 4.66667,Baseline covariate: Stig anticipate.
+18,X_StigEnact_0m,Baseline covariate,continuous,numeric,295,0,18,1 to 3.33333,Baseline covariate: Stig enact.
+18,X_yourHIVTotal_0m,Baseline covariate,continuous,numeric,295,10,10,0 to 9,Baseline covariate: Your hivtotal.
+18,X_theirHIVTotal_0m,Baseline covariate,continuous,numeric,295,10,8,0 to 9,Baseline covariate: Their hivtotal.
+18,X_MaterialSupportMean_0m,Baseline covariate,continuous,numeric,295,10,40,0 to 4,Baseline covariate: Material support mean.
+18,X_EmotionalSupportMean_0m,Baseline covariate,continuous,numeric,295,10,44,0 to 4,Baseline covariate: Emotional support mean.
+18,X_ClinicSupportMean_0m,Baseline covariate,continuous,numeric,295,10,36,0 to 4,Baseline covariate: Clinic support mean.
+18,X_MedSupportMean_0m,Baseline covariate,continuous,numeric,295,10,34,0 to 4,Baseline covariate: Med support mean.

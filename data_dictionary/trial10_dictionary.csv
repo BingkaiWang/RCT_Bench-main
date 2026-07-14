@@ -1,0 +1,45 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+10,Treatment,Treatment assignment,factor,factor,256,0,2,No Video; Video,Treatment: randomized treatment assignment with cleaned-data arms: No Video; Video. Publication-designated control/reference: No Video.
+10,YP_help_needed_intub,Primary outcome,binary,factor,256,0,2,0; 1,Primary outcome: Help needed intub. Publication-defined endpoint context: Proportion of orotracheal intubations requiring assistance at the operator’s request.
+10,YS_IDS_intub,Secondary outcome,factor,factor,256,0,9,0; 1; 2; 3; 4; 5; 6; 7; 8,Secondary outcome: Ids intub. Categories/codes in the cleaned data: 0; 1; 2; 3; 4; 5; 6; 7; 8.
+10,YS_nb_attempts_intub,Secondary outcome,factor,factor,256,0,4,1; 2; 3; 4,Secondary outcome: Nb attempts intub. Categories/codes in the cleaned data: 1; 2; 3; 4.
+10,YS_burp_intub,Secondary outcome,binary,factor,256,0,2,0; 1,Secondary outcome: Burp intub.
+10,YS_railroading_intub,Secondary outcome,binary,factor,256,0,2,0; 1,Secondary outcome: Railroading intub.
+10,YS_pogo_intub,Secondary outcome,continuous,numeric,256,0,15,0 to 100,Secondary outcome: Pogo intub.
+10,YS_vocal_cord_pos_intub,Secondary outcome,binary,factor,256,0,1,0,Secondary outcome: Vocal cord pos intub.
+10,YS_force_intub,Secondary outcome,binary,factor,256,0,2,1; 2,Secondary outcome: Force intub.
+10,YS_esophageal_intub,Secondary outcome,binary,factor,256,8,2,0; 1,Secondary outcome: Esophageal intub.
+10,YS_removing_cover_intub,Secondary outcome,binary,factor,256,0,2,0; 1,Secondary outcome: Removing cover intub.
+10,YS_time_to_intubation_intub,Secondary outcome,time-to-event/continuous time,numeric,256,39,92,15 to 475,Secondary outcome: Time to intubation intub.
+10,YS_ease_intubation_intub,Secondary outcome,continuous,numeric,256,0,10,0 to 9,Secondary outcome: Ease intubation intub.
+10,YS_hemodynamic_comp_intub,Secondary outcome,factor,factor,256,1,4,0; hypertension; hypotension; Hypotension,Secondary outcome: Hemodynamic comp intub. Categories/codes in the cleaned data: 0; hypertension; hypotension; Hypotension.
+10,YS_HR_before_induc,Secondary outcome,continuous,numeric,256,12,61,44 to 139,Secondary outcome: Heart rate before induc.
+10,YS_HR_before_intub,Secondary outcome,continuous,numeric,256,5,53,38 to 108,Secondary outcome: Heart rate before intub.
+10,YS_HR_after_intub,Secondary outcome,continuous,numeric,256,4,72,33 to 138,Secondary outcome: Heart rate after intub.
+10,YS_MAP_before_induc,Secondary outcome,continuous,numeric,256,14,65,11 to 142,Secondary outcome: Mean arterial pressure before induc.
+10,YS_MAP_before_intub,Secondary outcome,continuous,numeric,256,13,72,36 to 138,Secondary outcome: Mean arterial pressure before intub.
+10,YS_MAP_after_intub,Secondary outcome,continuous,numeric,256,18,87,43 to 164,Secondary outcome: Mean arterial pressure after intub.
+10,YS_BIS_before_induc,Secondary outcome,continuous,numeric,256,107,29,0 to 98,Secondary outcome: Bis before induc.
+10,YS_BIS_before_intub,Secondary outcome,continuous,numeric,256,84,50,14 to 95,Secondary outcome: Bis before intub.
+10,YS_BIS_after_intub,Secondary outcome,continuous,numeric,256,66,56,21 to 82,Secondary outcome: Bis after intub.
+10,YS_NMT_before_intub,Secondary outcome,continuous,numeric,256,83,5,0 to 4,Secondary outcome: Neuromuscular transmission before intub.
+10,YS_NMT_after_intub,Secondary outcome,continuous,numeric,256,60,6,0 to 61,Secondary outcome: Neuromuscular transmission after intub.
+10,YS_SpO2_before_intub,Secondary outcome,continuous,numeric,256,81,8,10 to 100,Secondary outcome: Sp oxygen before intub.
+10,YS_SpO2_during_intub,Secondary outcome,continuous,numeric,256,74,8,93 to 100,Secondary outcome: Sp oxygen during intub.
+10,YS_SpO2_after_intub,Secondary outcome,continuous,numeric,256,73,9,2 to 100,Secondary outcome: Sp oxygen after intub.
+10,YS_hoarseness_postop,Secondary outcome,factor,factor,256,38,4,0; 1; 2; 3,Secondary outcome: Hoarseness postop. Categories/codes in the cleaned data: 0; 1; 2; 3.
+10,YS_sore_throat_postop,Secondary outcome,factor,factor,256,41,3,0; 1; 2,Secondary outcome: Sore throat postop. Categories/codes in the cleaned data: 0; 1; 2.
+10,X_center_0d,Baseline covariate,factor,factor,256,0,3,Ango; Foch; FOR,Baseline covariate: Center. Categories/codes in the cleaned data: Ango; Foch; FOR.
+10,X_sex_0d,Baseline covariate,binary,factor,256,0,2,1; 2,Baseline covariate: Sex.
+10,X_age_0d,Baseline covariate,factor,factor,256,0,4,< 40; < 60; > 60; 40 < < 60,Baseline covariate: Age. Categories/codes in the cleaned data: < 40; < 60; > 60; 40 < < 60.
+10,X_size_0d,Baseline covariate,factor,ordered/factor,256,0,3,< 160; > 180; 160 < < 180,Baseline covariate: Size. Categories/codes in the cleaned data: < 160; > 180; 160 < < 180.
+10,X_weight_0d,Baseline covariate,continuous,numeric,256,0,64,33 to 112,Baseline covariate: Weight.
+10,X_surgery_0d,Baseline covariate,continuous,numeric,256,0,8,0 to 10,Baseline covariate: Surgery.
+10,X_arne_score_0d,Baseline covariate,continuous,numeric,256,0,10,0 to 10,Baseline covariate: Arne score.
+10,X_known_DI_0d,Baseline covariate,binary,numeric,256,0,2,0; 10,Baseline covariate: Known difficult intubation.
+10,X_pathology_0d,Baseline covariate,binary,numeric,256,0,2,0; 5,Baseline covariate: Pathology.
+10,X_fs_0d,Baseline covariate,binary,numeric,256,0,2,0; 3,Baseline covariate: Fs.
+10,X_dtm_0d,Baseline covariate,binary,numeric,256,0,2,0; 4,Baseline covariate: Dtm.
+10,X_spine_0d,Baseline covariate,binary,numeric,256,0,2,0; 1,Baseline covariate: Spine.
+10,X_mallampati_0d,Baseline covariate,continuous,numeric,256,0,4,0 to 8,Baseline covariate: Modified Mallampati airway class.
+10,X_relaxant_dose_0d,Baseline covariate,continuous,numeric,256,0,14,10 to 100,Baseline covariate: Relaxant dose.

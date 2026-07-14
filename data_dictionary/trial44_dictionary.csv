@@ -1,0 +1,14 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+44,Treatment,Treatment assignment,factor,factor,127,0,2,Alternative; Conventional,Treatment: randomized treatment assignment with cleaned-data arms: Alternative; Conventional. Publication-designated control/reference: Conventional.
+44,YP_intravascular,Primary outcome,binary,factor,127,0,2,0; 1,Primary outcome: Intravascular. Publication-defined endpoint context: Success rate of epidural spread without intravascular uptake (binary per patient).
+44,YS_Pain_1m,Secondary outcome,continuous,numeric,127,16,8,3 to 10,"Secondary outcome: Pain, measured at 1 month."
+44,YS_During_Pain,Secondary outcome,continuous,numeric,127,1,9,1 to 9,Secondary outcome: During pain.
+44,YS_PGIC_1m,Secondary outcome,continuous,numeric,127,15,3,2 to 4,"Secondary outcome: Pgic, measured at 1 month."
+44,X_Age_0m,Baseline covariate,continuous,numeric,127,0,37,22 to 80,Baseline covariate: Age.
+44,X_Sex_0m,Baseline covariate,binary,factor,127,0,2,0; 1,Baseline covariate: Sex.
+44,X_Ht_0m,Baseline covariate,continuous,numeric,127,0,42,134 to 189,Baseline covariate: Ht.
+44,X_Wt_0m,Baseline covariate,continuous,numeric,127,0,41,41 to 95,Baseline covariate: Weight.
+44,X_BMI_0m,Baseline covariate,continuous,numeric,127,0,111,17.7458 to 33.3318,"Baseline covariate: Body mass index (BMI), in kg/m²."
+44,X_Duration_0m,Baseline covariate,continuous,numeric,127,0,10,1 to 24,Baseline covariate: Duration.
+44,X_Diagnosis_0m,Baseline covariate,factor,factor,127,0,4,1; 2; 3; 4,Baseline covariate: Diagnosis. Categories/codes in the cleaned data: 1; 2; 3; 4.
+44,X_Pain_0m,Baseline covariate,continuous,numeric,127,0,8,3 to 10,Baseline covariate: Pain.

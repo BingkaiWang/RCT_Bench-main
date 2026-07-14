@@ -1,0 +1,21 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+93,Treatment,Treatment assignment,factor,factor,1140,0,3,Control; Reminder only; Reminder plus information,Treatment: randomized treatment assignment with cleaned-data arms: Control; Reminder only; Reminder plus information. Publication-designated control/reference: Control.
+93,X_source_id,Baseline covariate,continuous,integer,1140,0,1140,201011000 to 231291000,Baseline covariate: Source id.
+93,X_any_sms,Baseline covariate,binary,numeric,1140,0,2,0; 1,Baseline covariate: Any short-message service.
+93,X_message_long,Baseline covariate,binary,numeric,1140,554,2,0; 1,Baseline covariate: Message long.
+93,X_itt_treated,Baseline covariate,binary,numeric,1140,0,2,0; 1,Baseline covariate: Itt treated.
+93,X_patient_age_reported,Baseline covariate,continuous,numeric,1140,4,82,-888 to 83,Baseline covariate: Patient age reported.
+93,X_patient_age_followup,Baseline covariate,time-to-event/continuous time,numeric,1140,4,74,-999 to 85,Baseline covariate: Patient age.
+93,X_patient_age_proxy,Baseline covariate,continuous,numeric,1140,5,41,-888 to 89,Baseline covariate: Patient age proxy.
+93,X_household_head_male,Baseline covariate,continuous,numeric,1140,4,4,-999 to 2,Baseline covariate: Household head male.
+93,X_household_head_education,Baseline covariate,continuous,numeric,1140,4,15,-999 to 14,Baseline covariate: Household head education.
+93,X_household_rooms,Baseline covariate,continuous,numeric,1140,4,26,-888 to 30,Baseline covariate: Household rooms.
+93,X_sleep_under_net,Baseline covariate,continuous,numeric,1140,4,22,-888 to 32,Baseline covariate: Sleep under net.
+93,X_mobile_phones,Baseline covariate,continuous,numeric,1140,4,27,-888 to 30,Baseline covariate: Mobile phones.
+93,X_air_conditioner,Baseline covariate,continuous,numeric,1140,4,7,-888 to 6,Baseline covariate: Air conditioner.
+93,X_drug_code,Baseline covariate,continuous,numeric,1140,4,27,-888 to 32,Baseline covariate: Drug code.
+93,X_vendor_code,Baseline covariate,continuous,numeric,1140,1,70,2002 to 2211,Baseline covariate: Vendor code.
+93,YP_adhered_self_report,Primary outcome,binary,numeric,1140,30,2,0; 1,Primary outcome: Adhered self report. Publication-defined endpoint context: Self-reported completion of ACT antimalarial treatment.
+93,YS_still_sick_followup,Secondary outcome,binary,numeric,1140,17,2,0; 1,"Secondary outcome: Still sick, measured at follow-up."
+93,YS_pills_remaining_observed,Secondary outcome,binary,numeric,1140,464,2,0; 1,Secondary outcome: Pills remaining observed.
+93,YS_act_stock_in_household,Secondary outcome,binary,numeric,1140,196,2,0; 1,Secondary outcome: Artemisinin-based combination therapy stock in household.

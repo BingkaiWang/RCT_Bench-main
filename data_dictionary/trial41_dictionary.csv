@@ -1,0 +1,25 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+41,Treatment,Treatment assignment,factor,factor,235,0,2,Licorice; Sugar,Treatment: randomized treatment assignment with cleaned-data arms: Licorice; Sugar. Publication-designated control/reference: Sugar.
+41,YP_throat_30min,Primary outcome,binary,factor,235,2,2,no; yes,"Primary outcome: Throat, measured at 30 minutes. Publication-defined endpoint context: Incidence of postoperative sore throat at rest, assessed across the first 4 postextubation hours (at 0.5, 1.5, and 4 h)."
+41,YP_throat_90min,Primary outcome,binary,factor,235,2,2,no; yes,"Primary outcome: Throat, measured at 90 minutes. Publication-defined endpoint context: Incidence of postoperative sore throat at rest, assessed across the first 4 postextubation hours (at 0.5, 1.5, and 4 h)."
+41,YP_throat_4h,Primary outcome,binary,factor,235,2,2,no; yes,"Primary outcome: Throat, measured at 4 hours. Publication-defined endpoint context: Incidence of postoperative sore throat at rest, assessed across the first 4 postextubation hours (at 0.5, 1.5, and 4 h)."
+41,YS_throat_1d,Secondary outcome,binary,factor,235,2,2,no; yes,"Secondary outcome: Throat, measured at 1 day."
+41,YS_swallow_30min,Secondary outcome,factor,ordered/factor,235,2,11,0; 1; 10; 2; 3; 4; 5; 6; 7; 8; 9,"Secondary outcome: Swallow, measured at 30 minutes. Categories/codes in the cleaned data: 0; 1; 10; 2; 3; 4; 5; 6; 7; 8; 9."
+41,YS_cough_extub_0min,Secondary outcome,factor,ordered/factor,235,2,3,mild; moderate; none,"Secondary outcome: Cough extub, measured at baseline. Categories/codes in the cleaned data: mild; moderate; none."
+41,YS_cough_30min,Secondary outcome,factor,ordered/factor,235,2,3,mild; moderate; none,"Secondary outcome: Cough, measured at 30 minutes. Categories/codes in the cleaned data: mild; moderate; none."
+41,YS_cough_90min,Secondary outcome,factor,ordered/factor,235,2,3,mild; moderate; none,"Secondary outcome: Cough, measured at 90 minutes. Categories/codes in the cleaned data: mild; moderate; none."
+41,YS_cough_4h,Secondary outcome,factor,ordered/factor,235,2,3,mild; moderate; none,"Secondary outcome: Cough, measured at 4 hours. Categories/codes in the cleaned data: mild; moderate; none."
+41,YS_cough_1d,Secondary outcome,binary,factor,235,2,2,no; yes,"Secondary outcome: Cough, measured at 1 day."
+41,YS_throat_30min,Secondary outcome,factor,ordered/factor,235,2,7,0; 1; 2; 3; 4; 5; 6,"Secondary outcome: Throat, measured at 30 minutes. Categories/codes in the cleaned data: 0; 1; 2; 3; 4; 5; 6."
+41,YS_throat_90min,Secondary outcome,factor,ordered/factor,235,2,6,0; 1; 2; 3; 4; 6,"Secondary outcome: Throat, measured at 90 minutes. Categories/codes in the cleaned data: 0; 1; 2; 3; 4; 6."
+41,YS_throat_4h,Secondary outcome,factor,ordered/factor,235,2,8,0; 1; 2; 3; 4; 5; 6; 7,"Secondary outcome: Throat, measured at 4 hours. Categories/codes in the cleaned data: 0; 1; 2; 3; 4; 5; 6; 7."
+41,YS_throat_POD1,Secondary outcome,factor,ordered/factor,235,2,6,0; 1; 2; 3; 4; 6,"Secondary outcome: Throat, measured on postoperative day 1. Categories/codes in the cleaned data: 0; 1; 2; 3; 4; 6."
+41,YS_cough_POD1,Secondary outcome,factor,ordered/factor,235,2,4,mild; moderate; none; severe,"Secondary outcome: Cough, measured on postoperative day 1. Categories/codes in the cleaned data: mild; moderate; none; severe."
+41,X_gender_0h,Baseline covariate,binary,factor,235,0,2,0; 1,Baseline covariate: Gender.
+41,X_ASA_0h,Baseline covariate,factor,factor,235,0,3,1; 2; 3,Baseline covariate: American Society of Anesthesiologists (ASA) physical-status class. Categories/codes in the cleaned data: 1; 2; 3.
+41,X_BMI_0h,Baseline covariate,continuous,numeric,235,0,201,15.6 to 36.33,"Baseline covariate: Body mass index (BMI), in kg/m²."
+41,X_age_0h,Baseline covariate,continuous,numeric,235,0,63,18 to 86,Baseline covariate: Age.
+41,X_Mallampati_0h,Baseline covariate,factor,factor,235,0,4,1; 2; 3; 4,Baseline covariate: Modified Mallampati airway class. Categories/codes in the cleaned data: 1; 2; 3; 4.
+41,X_smoking_0h,Baseline covariate,factor,factor,235,0,3,1; 2; 3,Baseline covariate: Smoking. Categories/codes in the cleaned data: 1; 2; 3.
+41,X_painPreOp_0h,Baseline covariate,binary,factor,235,0,2,0; 1,Baseline covariate: Pain pre-intervention op.
+41,X_surgerySize_0h,Baseline covariate,factor,factor,235,0,3,1; 2; 3,Baseline covariate: Surgery size. Categories/codes in the cleaned data: 1; 2; 3.

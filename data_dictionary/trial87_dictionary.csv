@@ -1,0 +1,31 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+87,Treatment,Treatment assignment,factor,factor,64,0,2,Fentanyl; Oxycodone,Treatment: randomized treatment assignment with cleaned-data arms: Fentanyl; Oxycodone. Publication-designated control/reference: Fentanyl.
+87,X_source_participant_no,Baseline covariate,continuous,numeric,64,0,64,1 to 64,Baseline covariate: Source participant no.
+87,X_sex,Baseline covariate,binary,character,64,0,2,; Male,Baseline covariate: Sex.
+87,X_age_years,Baseline covariate,continuous,numeric,64,0,29,15 to 57,Baseline covariate: Age years.
+87,X_height_cm,Baseline covariate,continuous,numeric,64,0,30,151 to 186,Baseline covariate: Height cm.
+87,X_weight_kg,Baseline covariate,continuous,numeric,64,0,34,44 to 100,Baseline covariate: Weight kg.
+87,X_bmi,Baseline covariate,continuous,numeric,64,0,61,17.2364 to 29.2184,"Baseline covariate: Body mass index (BMI), in kg/m²."
+87,X_asa_class,Baseline covariate,binary,numeric,64,0,2,1; 2,Baseline covariate: ASA physical-status class class.
+87,X_mallampati_class,Baseline covariate,continuous,numeric,64,0,4,1 to 4,Baseline covariate: Mallampati class.
+87,X_cormack_lehane_grade,Baseline covariate,continuous,numeric,64,0,4,1 to 4,Baseline covariate: Cormack lehane grade.
+87,X_intubation_difficulty,Baseline covariate,continuous,numeric,64,0,3,1 to 3,Baseline covariate: Intubation difficulty.
+87,X_anesthesia_time_min,Baseline covariate,time-to-event/continuous time,numeric,64,0,9,20 to 65,Baseline covariate: Anesthesia time minutes.
+87,YP_delta_mbp_mmHg,Primary outcome,continuous,numeric,64,1,43,-24 to 51,Primary outcome: Change from baseline to follow-up in mean blood pressure mm hg. Publication-defined endpoint context: Hemodynamic response after intubation and postoperative pain NRS/VAS in PACU.
+87,YS_delta_mbp_ratio,Secondary outcome,continuous,numeric,64,1,60,-0.234043 to 0.566667,Secondary outcome: Change from baseline to follow-up in mean blood pressure ratio.
+87,X_pre_induction_hr_bpm,Baseline covariate,continuous,numeric,64,2,35,48 to 109,Baseline covariate: Pre-intervention induction heart rate beats per minute.
+87,X_post_intubation_hr_bpm,Baseline covariate,continuous,numeric,64,2,35,56 to 124,Baseline covariate: Post-intervention intubation heart rate beats per minute.
+87,YP_delta_hr_bpm,Primary outcome,continuous,numeric,64,2,37,-14 to 51,Primary outcome: Change from baseline to follow-up in heart rate beats per minute. Publication-defined endpoint context: Hemodynamic response after intubation and postoperative pain NRS/VAS in PACU.
+87,YS_delta_hr_percent,Secondary outcome,continuous,numeric,64,2,61,-18.9189 to 45.5357,Secondary outcome: Change from baseline to follow-up in heart rate percent.
+87,YP_postoperative_pain_vas,Primary outcome,continuous,integer,64,0,9,0 to 8,Primary outcome: Postoperative pain visual analogue scale. Publication-defined endpoint context: Hemodynamic response after intubation and postoperative pain NRS/VAS in PACU.
+87,YS_rescue_analgesic,Secondary outcome,binary,numeric,64,0,2,0; 1,Secondary outcome: Rescue analgesic.
+87,YS_agitation_score,Secondary outcome,continuous,integer,64,0,4,1 to 4,Secondary outcome: Agitation score.
+87,YS_agitation_3_or_4,Secondary outcome,binary,numeric,64,0,2,0; 1,Secondary outcome: Agitation 3 or 4.
+87,YS_cough,Secondary outcome,binary,integer,64,0,2,0; 1,Secondary outcome: Cough.
+87,YS_dizziness,Secondary outcome,binary,integer,64,0,2,0; 1,Secondary outcome: Dizziness.
+87,YS_oxygen_saturation_lt92,Secondary outcome,binary,integer,64,0,2,0; 1,Secondary outcome: Oxygen saturation less than 92.
+87,YS_hypotension,Secondary outcome,binary,integer,64,0,2,0; 1,Secondary outcome: Hypotension.
+87,YS_bradycardia,Secondary outcome,binary,integer,64,0,2,0; 1,Secondary outcome: Bradycardia.
+87,YS_awakening_time_sec,Secondary outcome,time-to-event/continuous time,integer,64,0,55,176 to 695,Secondary outcome: Awakening time sec.
+87,YS_delta_mbp_gt40pct,Secondary outcome,binary,numeric,64,0,2,0; 1,Secondary outcome: Change from baseline to follow-up in mbp greater than 40pct.
+87,YS_delta_hr_gt20pct,Secondary outcome,binary,numeric,64,0,2,0; 1,Secondary outcome: Change from baseline to follow-up in heart rate greater than 20pct.

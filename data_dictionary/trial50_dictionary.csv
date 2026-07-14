@@ -1,0 +1,13 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+50,Treatment,Treatment assignment,factor,factor,128,0,2,Placebo; rIFN-g,Treatment: randomized treatment assignment with cleaned-data arms: Placebo; rIFN-g. Publication-designated control/reference: Placebo.
+50,YP_time_to_first_infection,Primary outcome,time-to-event/continuous time,integer,128,0,100,4 to 388,Primary outcome: Time to first infection. Publication-defined endpoint context: Time to first serious infection (requiring hospitalisation + parenteral antibiotics).
+50,YP_first_infection_event,Primary outcome,binary,factor,128,0,2,0; 1,Primary outcome: First infection event. Publication-defined endpoint context: Time to first serious infection (requiring hospitalisation + parenteral antibiotics).
+50,YS_total_serious_infections,Secondary outcome,continuous,integer,128,0,7,0 to 7,Secondary outcome: Total serious infections.
+50,X_sex_0w,Baseline covariate,binary,factor,128,0,2,female; male,Baseline covariate: Sex.
+50,X_inherit_0w,Baseline covariate,binary,factor,128,0,2,autosomal; X-linked,Baseline covariate: Inherit.
+50,X_propylac_0w,Baseline covariate,binary,factor,128,0,2,0; 1,Baseline covariate: Propylac.
+50,X_hos_cat_0w,Baseline covariate,factor,factor,128,0,4,Europe:Amsterdam; Europe:other; US:NIH; US:other,Baseline covariate: Hos category. Categories/codes in the cleaned data: Europe:Amsterdam; Europe:other; US:NIH; US:other.
+50,X_center_0w,Baseline covariate,factor,factor,128,0,13,Amsterdam; Copenhagen; Harvard Medical Sch; L.A. Children's Hosp; Mott Children's Hosp; Mt. Sinai Medical Ctr; NIH; Scripps Institute; Texas Children's Hosp; Univ. of Minnesota; Univ. of Utah; Univ. of Washington; Univ. of Zurich,Baseline covariate: Center.
+50,X_age_0w,Baseline covariate,continuous,integer,128,0,36,1 to 44,Baseline covariate: Age.
+50,X_height_0w,Baseline covariate,continuous,numeric,128,0,107,76.3 to 189,Baseline covariate: Height.
+50,X_weight_0w,Baseline covariate,continuous,numeric,128,0,119,10.4 to 101.5,Baseline covariate: Weight.

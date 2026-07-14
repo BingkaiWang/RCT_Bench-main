@@ -1,0 +1,17 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+68,Treatment,Treatment assignment,factor,factor,172,0,2,BCI attention training; Control,Treatment: randomized treatment assignment with cleaned-data arms: BCI attention training; Control. Publication-designated control/reference: Control.
+68,YP_delta_clinician_adhd_inattentive_8w,Primary outcome,continuous,numeric,172,14,23,-10 to 14,Primary outcome: Change from baseline to 8 weeks in clinician attention-deficit/hyperactivity disorder inattentive. Publication-defined endpoint context: Change in clinician-rated ADHD inattentive symptoms at week 8.
+68,YS_delta_parent_adhd_inattentive_8w,Secondary outcome,continuous,numeric,172,14,22,-7 to 15,Secondary outcome: Change from baseline to 8 weeks in parent attention-deficit/hyperactivity disorder inattentive.
+68,YS_delta_cbcl_adhd_8w,Secondary outcome,continuous,numeric,172,14,34,-18 to 31,Secondary outcome: Change from baseline to 8 weeks in Child Behavior Checklist attention-deficit/hyperactivity disorder.
+68,YS_delta_cgas_8w,Secondary outcome,continuous,numeric,172,14,23,-14 to 16,Secondary outcome: Change from baseline to 8 weeks in cgas.
+68,X_gender,Baseline covariate,binary,factor,172,0,2,1; 2,Baseline covariate: Gender.
+68,X_ethnic,Baseline covariate,factor,factor,172,0,4,1; 2; 3; 4,Baseline covariate: Ethnic. Categories/codes in the cleaned data: 1; 2; 3; 4.
+68,X_age,Baseline covariate,continuous,numeric,172,0,7,6 to 12,Baseline covariate: Age.
+68,X_adhd_subtype,Baseline covariate,binary,factor,172,0,2,1; 3,Baseline covariate: Attention-deficit/hyperactivity disorder subtype.
+68,X_clinician_adhd_inattentive_0w,Baseline covariate,continuous,numeric,172,9,19,8 to 27,Baseline covariate: Clinician attention-deficit/hyperactivity disorder inattentive.
+68,X_parent_adhd_inattentive_0w,Baseline covariate,continuous,numeric,172,9,21,6 to 27,Baseline covariate: Parent attention-deficit/hyperactivity disorder inattentive.
+68,X_cbcl_adhd_0w,Baseline covariate,continuous,numeric,172,9,36,34 to 85,Baseline covariate: Child Behavior Checklist attention-deficit/hyperactivity disorder.
+68,X_cbcl_internalizing_0w,Baseline covariate,continuous,numeric,172,9,36,33 to 80,Baseline covariate: Child Behavior Checklist internalizing.
+68,X_cbcl_externalizing_0w,Baseline covariate,continuous,numeric,172,9,22,50 to 80,Baseline covariate: Child Behavior Checklist externalizing.
+68,X_cgas_0w,Baseline covariate,continuous,numeric,172,9,20,45 to 68,Baseline covariate: Cgas.
+68,X_cgis_0w,Baseline covariate,factor,character,172,9,4,0; 3; 4; 5,Baseline covariate: Cgis. Categories/codes in the cleaned data: 0; 3; 4; 5.

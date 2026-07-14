@@ -1,0 +1,11 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+99,Treatment,Treatment assignment,factor,factor,119,0,2,Control; Education support,Treatment: randomized treatment assignment with cleaned-data arms: Control; Education support. Publication-designated control/reference: Control.
+99,YP_stroke_knowledge_3m,Primary outcome,continuous,numeric,119,0,15,11 to 25,"Primary outcome: Stroke knowledge, measured at 3 months. Publication-defined endpoint context: stroke knowledge 3m."
+99,YS_self_efficacy_3m,Secondary outcome,continuous,numeric,119,0,46,37 to 90,"Secondary outcome: Self efficacy, measured at 3 months."
+99,YS_hads_anxiety_3m,Secondary outcome,continuous,numeric,119,0,19,0 to 19,"Secondary outcome: Hospital Anxiety and Depression Scale anxiety-subscale score, measured at 3 months."
+99,YS_hads_depression_3m,Secondary outcome,continuous,numeric,119,0,16,0 to 17,"Secondary outcome: Hospital Anxiety and Depression Scale depression-subscale score, measured at 3 months."
+99,X_stroke_knowledge_0m,Baseline covariate,continuous,numeric,119,0,16,7 to 24,Baseline covariate: Stroke knowledge.
+99,X_age_years,Baseline covariate,continuous,numeric,119,0,50,27 to 87,Baseline covariate: Age years.
+99,X_gender,Baseline covariate,binary,numeric,119,0,2,1; 2,Baseline covariate: Gender.
+99,X_site,Baseline covariate,binary,numeric,119,0,2,1; 2,Baseline covariate: Site.
+99,X_days_since_stroke_0m,Baseline covariate,continuous,numeric,119,0,31,0 to 61,Baseline covariate: Days since stroke.

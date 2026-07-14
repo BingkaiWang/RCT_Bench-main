@@ -1,0 +1,17 @@
+Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
+46,Treatment,Treatment assignment,factor,factor,70,0,2,Control; Simulator_PE,Treatment: randomized treatment assignment with cleaned-data arms: Control; Simulator_PE. Publication-designated control/reference: Control.
+46,YP_Total_points,Primary outcome,continuous,numeric,70,0,18,6 to 23,Primary outcome: Total points. Publication-defined endpoint context: Total score (0–25) on a standardized cardiovascular-PE checklist.
+46,YS_Patient_interaction_points,Secondary outcome,binary,numeric,70,0,2,0; 1,Secondary outcome: Patient interaction points.
+46,YS_Inspection_points,Secondary outcome,continuous,numeric,70,0,4,0 to 3,Secondary outcome: Inspection points.
+46,YS_Pulses_points,Secondary outcome,continuous,numeric,70,0,6,0 to 5,Secondary outcome: Pulses points.
+46,YS_Auscultation_points,Secondary outcome,continuous,numeric,70,0,10,1 to 10,Secondary outcome: Auscultation points.
+46,YS_Cardiac_findings_points,Secondary outcome,continuous,numeric,70,0,4,1 to 4,Secondary outcome: Cardiac findings points.
+46,X_Age_0y,Baseline covariate,factor,factor,70,0,3,20-22; 23-25; 26 and older,Baseline covariate: Age. Categories/codes in the cleaned data: 20-22; 23-25; 26 and older.
+46,X_OtherPracExp_cvPE_0w,Baseline covariate,binary,factor,70,0,2,No; Yes,Baseline covariate: Other prac exp cv pe.
+46,X_FacCourseOnCardioWard_0w,Baseline covariate,binary,factor,70,0,2,No; Yes,Baseline covariate: Fac course on cardio ward.
+46,X_SameFaculty4of5_0w,Baseline covariate,binary,factor,70,0,2,No; Yes,Baseline covariate: Same faculty4of5.
+46,X_TimePrepFollowup_0min,Baseline covariate,factor,factor,70,4,4,1; 2; 3; 4,Baseline covariate: Time prep followup. Categories/codes in the cleaned data: 1; 2; 3; 4.
+46,X_PrepSkillsExam_0min,Baseline covariate,factor,factor,70,0,3,1; 2; 5,Baseline covariate: Prep skills exam. Categories/codes in the cleaned data: 1; 2; 5.
+46,X_Prep_Textbooks_0w,Baseline covariate,binary,factor,70,0,2,No; Yes,Baseline covariate: Prep textbooks.
+46,X_Prep_Internet_0w,Baseline covariate,binary,factor,70,0,2,No; Yes,Baseline covariate: Prep internet.
+46,X_Prep_LectureScripts_0w,Baseline covariate,binary,factor,70,0,2,No; Yes,Baseline covariate: Prep lecture scripts.
