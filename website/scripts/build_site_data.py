@@ -188,7 +188,6 @@ def build() -> dict[str, Any]:
                 "randomizationScheme": row.get("Randomization Scheme", ""),
                 "randomizationHighLevel": row.get("Randomization Scheme(High Level)", ""),
                 "researchArea": research_area,
-                "textData": row.get("Text Data", ""),
                 "citation": int_or_none(row.get("Citation", "")),
                 "rows": shape["rows"],
                 "columns": shape["columns"],

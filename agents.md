@@ -36,7 +36,7 @@ Common conventions:
 
 ## Metadata Contract
 
-The public `meta_data.xlsx` workbook has `Sheet1` with the 19-column metadata
+The public `meta_data.xlsx` workbook has `Sheet1` with the 18-column metadata
 schema:
 
 1. `Trial_ID`
@@ -56,13 +56,18 @@ schema:
 15. `Randomization Scheme`
 16. `Randomization Scheme(High Level)`
 17. `Research Area`
-18. `Text Data`
-19. `Citation`
+18. `Citation`
 
 Keep the misspelling `Priamry Outcome` for compatibility. Do not add extra
 columns to `Sheet1`; put repository, dataset DOI, license, source files,
 cleaning notes, validation, and audit details in separate provenance sheets or
 CSV files.
+
+Use only the controlled primary-outcome categories `Continuous`, `Binary`,
+`Count`, `Time-to-event`, `Ordinal`, and `Categorical`; use semicolon-separated
+combinations for genuinely mixed co-primary outcomes. Group research areas
+through `preprocessing/archive/metadata_taxonomy.py` rather than adding new
+one-off labels.
 
 For trials 51-125, metadata should describe the primary publication rather than
 the dataset record:
@@ -214,7 +219,7 @@ For every public cleaned trial:
   sample size, primary outcome, trial success, statistical model,
   randomization scheme, research area, and numeric citation count where
   available.
-- Root `meta_data.xlsx` preserves 125 rows, the original 19 main columns, and
+- Root `meta_data.xlsx` preserves 125 rows, the 18 main columns, and
   the audit/provenance sheets.
 - Root `data-dictionary.xlsx` contains one row per public cleaned variable.
 

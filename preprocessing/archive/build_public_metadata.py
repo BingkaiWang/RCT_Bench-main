@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Build the public 125-trial metadata workbook.
 
-The public workbook keeps the original 19-column Sheet1 contract and appends
-the expansion provenance/audit sheets used during curation.
+The public workbook keeps the 18-column Sheet1 contract and appends the
+expansion provenance/audit sheets used during curation.
 """
 
 from __future__ import annotations
@@ -12,6 +12,8 @@ from pathlib import Path
 from openpyxl import Workbook, load_workbook
 from openpyxl.styles import Font, PatternFill
 from openpyxl.utils import get_column_letter
+
+from metadata_taxonomy import grouped_research_area, standard_outcome_type
 
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -44,7 +46,6 @@ MAIN_COLUMNS = [
     "Randomization Scheme",
     "Randomization Scheme(High Level)",
     "Research Area",
-    "Text Data",
     "Citation",
 ]
 
@@ -132,8 +133,12 @@ def main():
 
     combined = []
     for row in original_rows + expansion_rows:
+        trial_id = int(row["Trial_ID"])
+        row = dict(row)
+        row["Primary Outcome Type"] = standard_outcome_type(trial_id)
+        row["Research Area"] = grouped_research_area(row.get("Research Area"))
         values = [row.get(column) for column in MAIN_COLUMNS]
-        values[0] = int(values[0])
+        values[0] = trial_id
         combined.append(values)
 
     trial_ids = [int(row[0]) for row in combined if row[0] is not None]
