@@ -268,6 +268,7 @@ button:hover {
 .intro-section,
 .explorer-section,
 .downloads-section,
+.citation-section,
 .methods-section {
   padding: clamp(56px, 9vw, 108px) clamp(18px, 5vw, 72px);
 }
@@ -485,6 +486,30 @@ td:first-child {
   color: var(--muted);
 }
 
+.citation-section {
+  color: var(--white);
+  background: var(--teal-dark);
+}
+
+.citation-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 0.95fr) minmax(300px, 0.7fr);
+  gap: clamp(28px, 7vw, 92px);
+  align-items: start;
+}
+
+.citation-copy {
+  color: rgb(255 253 248 / 82%);
+  font-size: 18px;
+}
+
+.citation-reference {
+  margin-bottom: 0;
+  padding-left: 18px;
+  border-left: 3px solid #eac37c;
+  color: var(--white);
+}
+
 .methods-section {
   background: var(--white);
 }
@@ -599,6 +624,7 @@ code {
   }
 
   .intro-grid,
+  .citation-grid,
   .download-grid,
   .method-grid {
     grid-template-columns: 1fr;
@@ -650,6 +676,7 @@ code {
   .intro-section,
   .explorer-section,
   .downloads-section,
+  .citation-section,
   .methods-section {
     padding-left: 14px;
     padding-right: 14px;
