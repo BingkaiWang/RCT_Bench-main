@@ -11,6 +11,8 @@ The public cleaned dataset contains 125 individually randomized RCTs:
 - `cleaned_data/trial1.rds` through `cleaned_data/trial125.rds`
 - `meta_data.xlsx`
 - `data-dictionary.xlsx`
+- `rct_bench_all_data_and_dictionaries.zip` for one-click download of all
+  cleaned trial files and per-trial dictionary CSVs
 
 Each cleaned trial is participant-level and follows the same variable contract:
 
