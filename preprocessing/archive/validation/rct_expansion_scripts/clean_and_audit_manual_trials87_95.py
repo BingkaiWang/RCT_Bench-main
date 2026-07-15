@@ -279,7 +279,7 @@ TRIALS: list[TrialInfo] = [
             "Public article HTML was available without login; PDF was not publicly "
             "downloadable from DOI during this run. Numeric insertion-time cells "
             "are used for the compact primary audit; compound free-text timing "
-            "cells are retained in X_insertion_time_raw."
+            "cells are excluded from the analysis-ready dataset."
         ),
         license_notes="heiDATA record CC BY 4.0; article is CC BY-NC-ND.",
     ),
@@ -753,8 +753,7 @@ def clean_trial95() -> tuple[pd.DataFrame, list[str]]:
     path = read_source("trial95", "Anonymised_Data_LaMaTuPe_2024-01-23.xlsx")
     df = pd.read_excel(path, sheet_name="Datensatz LaMaTuPe")
     df = df[df["Studienarm"].notna()].copy()
-    time_raw = df["Insertionszeit"]
-    time_numeric = pd.to_numeric(time_raw, errors="coerce")
+    time_numeric = pd.to_numeric(df["Insertionszeit"], errors="coerce")
     out = pd.DataFrame(
         {
             "Treatment": factor_map(df["Studienarm"], {1: "Laryngeal mask", 2: "Laryngeal tube"}),
@@ -770,7 +769,6 @@ def clean_trial95() -> tuple[pd.DataFrame, list[str]]:
             "X_treatment_department": df["operierende Fachabteilung"],
             "X_expected_size": df["erwartete Größe"],
             "X_used_size": df["verwendete Größe"],
-            "X_insertion_time_raw": time_raw,
             "YP_insertion_time_sec": time_numeric,
             "YS_first_pass_success": df["First-Pass-Success"],
             "YS_overall_success": df["Overall-pass-success"],
@@ -1177,7 +1175,7 @@ def build_audit(cleaned: dict[str, pd.DataFrame]) -> tuple[pd.DataFrame, pd.Data
             paper_median,
             vals.median(),
             "European Journal of Emergency Medicine 2025 Table 2",
-            "Compound free-text timing cells are retained in X_insertion_time_raw and excluded from this compact numeric audit.",
+            "Compound free-text timing cells are excluded from the compact numeric primary outcome.",
         )
 
     audit = pd.DataFrame(rows)
