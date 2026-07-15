@@ -12,7 +12,6 @@ Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_un
 95,X_treatment_department,Baseline covariate,continuous,numeric,148,0,3,1 to 3,Baseline covariate: Treatment department.
 95,X_expected_size,Baseline covariate,continuous,numeric,148,13,8,0 to 5,Baseline covariate: Expected size.
 95,X_used_size,Baseline covariate,factor,character,148,0,9,"; 1; 1.5; 2; 2,5 ; 2,0; 2.5; 3; 4; 5","Baseline covariate: Used size. Categories/codes in the cleaned data: ; 1; 1.5; 2; 2,5 ; 2,0; 2.5; 3; 4; 5."
-95,X_insertion_time_raw,Baseline covariate,factor,character,148,0,65,; 107 + 51 + 32; 110; 118; 12; 123; 124; 133; 136; 14; 16 + 23 + 66; 18; 19; 20; 21; 22; 23; 24; 24 + 20; 25; ...,Baseline covariate: Insertion time raw. Categories/codes in the cleaned data: ; 107 + 51 + 32; 110; 118; 12; 123; 124; 133; 136; 14; 16 + 23 + 66; 18; 19; 20; 21; 22; 23; 24; 24 + 20; 25; ....
 95,YP_insertion_time_sec,Primary outcome,time-to-event/continuous time,numeric,148,34,47,12 to 644,Primary outcome: Insertion time sec. Publication-defined endpoint context: Insertion time in seconds.
 95,YS_first_pass_success,Secondary outcome,binary,numeric,148,15,2,0; 1,Secondary outcome: First pass success.
 95,YS_overall_success,Secondary outcome,binary,numeric,148,15,2,0; 1,Secondary outcome: Overall success.

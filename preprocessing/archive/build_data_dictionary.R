@@ -5,7 +5,7 @@
 # project environment without installing workbook-writing packages.
 
 root <- normalizePath(".", mustWork = TRUE)
-output_path <- file.path(root, "cleaned_data", "data-dictionary.xlsx")
+output_path <- file.path(root, "data-dictionary.xlsx")
 expansion_dictionary_candidates <- c(
   file.path(root, "rct_expansion", "metadata", "data_dictionary.csv"),
   file.path(root, "local", "rct_expansion", "metadata", "data_dictionary.csv")
