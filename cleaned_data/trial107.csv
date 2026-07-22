@@ -70,7 +70,7 @@
 "Doctor",60,24,43,2,0
 "Extended scope physiotherapist",0,65,34,1,0
 "Doctor",0,47.5,59,2,0
-"Emergency nurse practitioner",28.3,76.7,999,1,0
+"Emergency nurse practitioner",28.3,76.7,,1,0
 "Doctor",0.83,81.7,32,2,0
 "Extended scope physiotherapist",80,13,33,1,0
 "Extended scope physiotherapist",38,9,74,2,0
@@ -89,7 +89,7 @@
 "Extended scope physiotherapist",4.2,91.7,17,2,0
 "Emergency nurse practitioner",79,21,22,1,0
 "Extended scope physiotherapist",80,33,59,1,0
-"Emergency nurse practitioner",56.7,77.5,999,2,0
+"Emergency nurse practitioner",56.7,77.5,,2,0
 "Extended scope physiotherapist",80,14,25,1,0
 "Emergency nurse practitioner",11,38,40,2,0
 "Doctor",74,16,25,1,0
@@ -107,7 +107,7 @@
 "Emergency nurse practitioner",80,42,37,1,0
 "Emergency nurse practitioner",80,32,37,1,0
 "Doctor",80,21,22,1,0
-"Doctor",999,21.7,37,1,0
+"Doctor",,21.7,37,1,0
 "Doctor",24.2,87.5,29,2,0
 "Emergency nurse practitioner",0.8,87.5,23,2,0
 "Emergency nurse practitioner",0,69.2,18,1,0
@@ -121,11 +121,11 @@
 "Doctor",35,21,33,1,0
 "Doctor",0.8,77.5,40,2,0
 "Emergency nurse practitioner",2.5,83.3,29,1,0
-"Emergency nurse practitioner",79,34,999,2,0
-"Emergency nurse practitioner",0.8,58.3,999,2,0
-"Doctor",80,16,999,1,0
-"Doctor",75,37,999,1,0
-"Extended scope physiotherapist",80,23,999,1,0
+"Emergency nurse practitioner",79,34,,2,0
+"Emergency nurse practitioner",0.8,58.3,,2,0
+"Doctor",80,16,,1,0
+"Doctor",75,37,,1,0
+"Extended scope physiotherapist",80,23,,1,0
 "Doctor",49,10,31,2,0
 "Extended scope physiotherapist",0,29.2,24,1,0
 "Extended scope physiotherapist",76,32,20,1,0
@@ -151,7 +151,7 @@
 "Emergency nurse practitioner",54,21,34,2,0
 "Emergency nurse practitioner",80,29,23,2,0
 "Extended scope physiotherapist",56,12,46,1,0
-"Doctor",6.7,62.5,999,1,0
+"Doctor",6.7,62.5,,1,0
 "Extended scope physiotherapist",77,48,26,2,0
 "Doctor",0,52.5,25,1,0
 "Extended scope physiotherapist",74,21,27,1,0
@@ -160,7 +160,7 @@
 "Extended scope physiotherapist",80,12,41,2,0
 "Doctor",77,26,25,1,0
 "Doctor",0.8,37.5,54,2,0
-"Emergency nurse practitioner",888,11,58,2,1
+"Emergency nurse practitioner",,11,58,2,1
 "Extended scope physiotherapist",80,44,52,1,1
 "Doctor",80,26,31,1,0
 "Emergency nurse practitioner",0.8,63.3,23,1,0
@@ -205,7 +205,7 @@
 "Extended scope physiotherapist",62,6,45,2,0
 "Extended scope physiotherapist",78,35,44,2,0
 "Doctor",80,40,22,2,0
-"Emergency nurse practitioner",80,18,999,2,0
+"Emergency nurse practitioner",80,18,,2,0
 "Extended scope physiotherapist",0,85.8,18,1,0
 "Emergency nurse practitioner",29,17,42,2,0
 "Extended scope physiotherapist",80,25,33,2,0

@@ -1,6 +1,5 @@
 Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
 118,Treatment,Treatment assignment,factor,factor,86,0,3,CRB+rTMS; CRB+SHM; PLC+SHM,Treatment: randomized treatment assignment with cleaned-data arms: CRB+rTMS; CRB+SHM; PLC+SHM. Publication-designated control/reference: PLC+SHM.
-118,X_subject_id,Baseline covariate,continuous,integer,86,0,86,1 to 93,Baseline covariate: Subject id.
 118,YP_cognitive_composite_180_bd_full_adj,Primary outcome,continuous,numeric,86,2,84,-16.8109 to 15.1516,Primary outcome: Cognitive composite 180 bd full adj. Publication-defined endpoint context: Cognitive composite and MoCA follow-up scores.
 118,YP_cognitive_composite_180_crude_full_adj,Primary outcome,continuous,numeric,86,2,84,-402.6 to 214.13,Primary outcome: Cognitive composite 180 crude full adj. Publication-defined endpoint context: Cognitive composite and MoCA follow-up scores.
 118,YP_moca_visit3,Primary outcome,continuous,numeric,86,2,15,16 to 30,"Primary outcome: Montreal Cognitive Assessment (MoCA) score, measured at visit 3."

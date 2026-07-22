@@ -1,6 +1,5 @@
 Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
 121,Treatment,Treatment assignment,factor,factor,144,0,3,Control; Monitor + Accept; Monitor Only,Treatment: randomized treatment assignment with cleaned-data arms: Control; Monitor + Accept; Monitor Only. Publication-designated control/reference: Control.
-121,X_source_subject_id,Baseline covariate,continuous,integer,144,0,144,103 to 270,Baseline covariate: Source subject id.
 121,YP_subjective_stress_overall,Primary outcome,continuous,numeric,144,0,129,0 to 100,Primary outcome: Subjective stress overall. Publication-defined endpoint context: Subjective stress reactivity composite.
 121,YS_cortisol_auc_i_log_em,Secondary outcome,continuous,numeric,144,0,142,-138.978 to 167.863,Secondary outcome: Log-transformed cortisol area under the curve with respect to increase during the Trier Social Stress Test.
 121,YS_cortisol_log_25min_post_tsst,Secondary outcome,continuous,numeric,144,0,130,-0.82 to 3.04023,Secondary outcome: Cortisol log 25min post-intervention tsst.
@@ -17,5 +16,3 @@ Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_un
 121,X_education_code,Baseline covariate,continuous,numeric,144,0,8,2 to 9,Baseline covariate: Education code.
 121,X_bmi,Baseline covariate,continuous,numeric,144,2,104,15.6 to 44.6,"Baseline covariate: Body mass index (BMI), in kg/m²."
 121,X_lessons_completed,Baseline covariate,continuous,numeric,144,0,8,5 to 14,Baseline covariate: Lessons completed.
-121,X_days_intervention_end_to_post,Baseline covariate,continuous,numeric,144,0,9,3 to 12,Baseline covariate: Days intervention end to.
-121,X_follicular_phase_post,Baseline covariate,binary,numeric,144,0,2,0; 1,Baseline covariate: Follicular phase.

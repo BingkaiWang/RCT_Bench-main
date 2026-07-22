@@ -1,5 +1,5 @@
 Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
-81,Treatment,Treatment assignment,factor,factor,401,0,3,Arm_1; Arm_2; Arm_3,Treatment: randomized treatment assignment with cleaned-data arms: Arm_1; Arm_2; Arm_3. Publication-designated control/reference: Placebo.
+81,Treatment,Treatment assignment,factor,factor,401,0,3,Aprepitant arm 1; Aprepitant arm 2; Placebo,Treatment: randomized treatment assignment with cleaned-data arms: Arm_1; Arm_2; Arm_3. Publication-designated control/reference: Placebo.
 81,YP_nausea_present_24h,Primary outcome,binary,integer,401,1,2,0; 1,"Primary outcome: Nausea present, measured at 24 hours. Publication-defined endpoint context: Nausea/PONV at 24 hours."
 81,YS_rhodes_nausea_vomiting_score_24h,Secondary outcome,continuous,numeric,401,1,42,0 to 382,"Secondary outcome: Rhodes nausea vomiting score, measured at 24 hours."
 81,YS_nausea_intensity_24h,Secondary outcome,continuous,numeric,401,1,9,0 to 360,"Secondary outcome: Nausea intensity, measured at 24 hours."

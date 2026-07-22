@@ -1,10 +1,11 @@
 Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
 60,Treatment,Treatment assignment,factor,factor,92,0,2,IW stimulation; Sham,Treatment: randomized treatment assignment with cleaned-data arms: IW stimulation; Sham. Publication-designated control/reference: Sham period.
+60,Participant_ID,Participant cluster identifier,factor,character,92,0,46,P001; P002; P003; P004; P005; P006; P007; P008; P009; P010; P011; P012; P013; P014; P015; P016; P017; P018; P019; P020; ...,De-identified participant cluster identifier for repeated-measures or crossover rows; exclude from adjustment covariates.
 60,YP_glucose_elution_post,Primary outcome,continuous,numeric,92,0,71,127 to 388,"Primary outcome: Glucose elution, measured immediately after the intervention. Publication-defined endpoint context: Post-treatment glucose elution concentration after IW versus sham period."
 60,YP_delta_glucose_elution_post,Primary outcome,continuous,numeric,92,0,71,-155 to 89,Primary outcome: Change from baseline to immediately after the intervention in glucose elution. Publication-defined endpoint context: Post-treatment glucose elution concentration after IW versus sham period.
 60,YS_chewing_ease_vas_post,Secondary outcome,continuous,numeric,92,0,37,20 to 100,"Secondary outcome: Chewing ease visual analogue scale, measured immediately after the intervention."
 60,YS_delta_chewing_ease_vas_post,Secondary outcome,continuous,numeric,92,0,33,-8 to 37,Secondary outcome: Change from baseline to immediately after the intervention in chewing ease visual analogue scale.
 60,X_glucose_elution_pre,Baseline covariate,continuous,numeric,92,0,68,162 to 364,Baseline covariate: Glucose elution pre-intervention.
 60,X_chewing_ease_vas_pre,Baseline covariate,continuous,numeric,92,0,42,21 to 100,Baseline covariate: Chewing ease visual analogue scale pre-intervention.
-60,X_sequence_0d,Baseline covariate,binary,factor,92,0,2,A; B,Baseline covariate: Sequence.
-60,X_period_0d,Baseline covariate,binary,factor,92,0,2,1; 2,Baseline covariate: Period.
+60,Crossover_Sequence,Trial design variable,binary,factor,92,0,2,A; B,Crossover or repeated-measures design variable: Crossover Sequence
+60,Crossover_Period,Trial design variable,binary,factor,92,0,2,1; 2,Crossover or repeated-measures design variable: Crossover Period

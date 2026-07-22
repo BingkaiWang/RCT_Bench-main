@@ -1,6 +1,5 @@
 Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
 92,Treatment,Treatment assignment,factor,factor,371,0,2,Control; Intervention,Treatment: randomized treatment assignment with cleaned-data arms: Control; Intervention. Publication-designated control/reference: Control.
-92,X_source_sno,Baseline covariate,continuous,integer,371,0,371,1 to 371,Baseline covariate: Source sno.
 92,X_age_years,Baseline covariate,continuous,integer,371,0,26,15 to 45,Baseline covariate: Age years.
 92,X_ethnicity,Baseline covariate,factor,character,371,0,7,babur; fulani; hausa; kanuri; marghi; others; shuwa,Baseline covariate: Ethnicity. Categories/codes in the cleaned data: babur; fulani; hausa; kanuri; marghi; others; shuwa.
 92,X_marital_status,Baseline covariate,binary,character,371,0,2,married; widowed,Baseline covariate: Marital status.

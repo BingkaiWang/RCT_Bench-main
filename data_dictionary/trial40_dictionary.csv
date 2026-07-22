@@ -9,7 +9,6 @@ Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_un
 40,YS_attempt2_success,Secondary outcome,binary,factor,99,89,2,no; yes,Secondary outcome: Attempt2 success.
 40,YS_attempt3_time,Secondary outcome,time-to-event/continuous time,numeric,99,96,3,15 to 30,Secondary outcome: Attempt3 time.
 40,YS_attempt3_assigned,Secondary outcome,binary,factor,99,96,2,no; yes,Secondary outcome: Attempt3 assigned.
-40,YS_attempt3_success,Secondary outcome,binary,factor,99,96,1,yes,Secondary outcome: Attempt3 success.
 40,YS_attempts,Secondary outcome,continuous,numeric,99,0,3,1 to 3,Secondary outcome: Attempts.
 40,YS_failures,Secondary outcome,continuous,numeric,99,0,3,0 to 2,Secondary outcome: Failures.
 40,YS_bleeding,Secondary outcome,binary,factor,99,0,2,no; yes,Secondary outcome: Bleeding.

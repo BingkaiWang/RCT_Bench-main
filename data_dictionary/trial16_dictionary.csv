@@ -1,15 +1,15 @@
 Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
 16,Treatment,Treatment assignment,factor,factor,48,0,2,Internet Delivered; Waitlist,Treatment: randomized treatment assignment with cleaned-data arms: Internet Delivered; Waitlist. Publication-designated control/reference: Waitlist.
 16,YP_delta_BDI_9w,Primary outcome,continuous,numeric,48,0,21,-29 to 10,Primary outcome: Change from baseline to 9 weeks in Beck Depression Inventory score.
-16,pre_YP_delta_BDI_6w,Other,continuous,numeric,48,24,19,-30 to 3,Primary outcome: Intermediate follow-up change from baseline to 6 weeks in Beck Depression Inventory score.
+16,YS_delta_BDI_6w,Secondary outcome,continuous,numeric,48,24,19,-30 to 3,Secondary outcome: delta BDI 6w
 16,YS_delta_MADRS_9w,Secondary outcome,continuous,numeric,48,0,21,-27 to 18,Secondary outcome: Change from baseline to 9 weeks in Montgomery-Åsberg Depression Rating Scale (MADRS) score.
 16,YS_delta_BAI_9w,Secondary outcome,continuous,numeric,48,0,19,-18 to 9,Secondary outcome: Change from baseline to 9 weeks in bai.
 16,YS_delta_QOLI_9w,Secondary outcome,continuous,numeric,48,0,40,-1.9708 to 3.0256,Secondary outcome: Change from baseline to 9 weeks in Quality of Life Inventory (QOLI) score.
 16,YS_delta_IPAQ_9w,Secondary outcome,continuous,numeric,48,2,42,-1329 to 3843,Secondary outcome: Change from baseline to 9 weeks in International Physical Activity Questionnaire (IPAQ) score.
-16,pre_YS_delta_MADRS_6w,Other,continuous,numeric,48,24,19,-27 to 8,Secondary outcome: Intermediate follow-up change from baseline to 6 weeks in Montgomery-Åsberg Depression Rating Scale (MADRS) score.
-16,pre_YS_delta_BAI_6w,Other,continuous,numeric,48,24,13,-21 to 3,Secondary outcome: Intermediate follow-up change from baseline to 6 weeks in bai.
-16,pre_YS_delta_QOLI_6w,Other,continuous,numeric,48,24,24,-1.2875 to 3.2208,Secondary outcome: Intermediate follow-up change from baseline to 6 weeks in Quality of Life Inventory (QOLI) score.
-16,pre_YS_delta_IPAQ_6w,Other,continuous,numeric,48,24,22,-1329 to 3795,Secondary outcome: Intermediate follow-up change from baseline to 6 weeks in International Physical Activity Questionnaire (IPAQ) score.
+16,YS_delta_MADRS_6w,Secondary outcome,continuous,numeric,48,24,19,-27 to 8,Secondary outcome: delta MADRS 6w
+16,YS_delta_BAI_6w,Secondary outcome,continuous,numeric,48,24,13,-21 to 3,Secondary outcome: delta BAI 6w
+16,YS_delta_QOLI_6w,Secondary outcome,continuous,numeric,48,24,24,-1.2875 to 3.2208,Secondary outcome: delta QOLI 6w
+16,YS_delta_IPAQ_6w,Secondary outcome,continuous,numeric,48,24,22,-1329 to 3795,Secondary outcome: delta IPAQ 6w
 16,X_age_0w,Baseline covariate,continuous,numeric,48,0,27,24 to 67,Baseline covariate: Age.
 16,X_sex_0w,Baseline covariate,binary,factor,48,0,2,1; 2,Baseline covariate: Sex.
 16,X_marital_0w,Baseline covariate,factor,factor,48,0,4,1; 2; 3; 4,Baseline covariate: Marital. Categories/codes in the cleaned data: 1; 2; 3; 4.

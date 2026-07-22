@@ -1,5 +1,5 @@
 Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
-83,Treatment,Treatment assignment,factor,factor,59,0,2,Arm_0; Arm_1,Treatment: randomized treatment assignment with cleaned-data arms: Arm_0; Arm_1. Publication-designated control/reference: Control.
+83,Treatment,Treatment assignment,factor,factor,59,0,2,Control; Intervention,Treatment: randomized treatment assignment with cleaned-data arms: Arm_0; Arm_1. Publication-designated control/reference: Control.
 83,YP_delta_pal_t3_t1,Primary outcome,continuous,numeric,59,2,39,-0.38 to 0.44,Primary outcome: Change from assessment T1 to T3 in physical activity level.
 83,YP_pal_t3,Primary outcome,continuous,numeric,59,2,39,1.37 to 2.45,"Primary outcome: Physical activity level, measured at assessment T3."
 83,YP_delta_total_energy_intake_t3_t1,Primary outcome,continuous,numeric,59,4,54,-2614 to 619,Primary outcome: Change from assessment T1 to T3 in total energy intake. Publication-defined endpoint context: Daily physical activity level and total energy intake at 12 weeks.

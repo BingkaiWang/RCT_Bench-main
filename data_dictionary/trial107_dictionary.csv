@@ -1,7 +1,7 @@
 Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
 107,Treatment,Treatment assignment,factor,factor,217,0,3,Doctor; Emergency nurse practitioner; Extended scope physiotherapist,Treatment: randomized treatment assignment with cleaned-data arms: Doctor; Emergency nurse practitioner; Extended scope physiotherapist. Publication-designated control/reference: Doctor.
-107,YP_function_8w,Primary outcome,continuous,numeric,217,0,72,0 to 999,"Primary outcome: Function, measured at 8 weeks. Publication-defined endpoint context: function 8w."
+107,YP_function_8w,Primary outcome,continuous,numeric,217,2,70,0 to 80,"Primary outcome: Function, measured at 8 weeks. Publication-defined endpoint context: function 8w."
 107,X_function_0w,Baseline covariate,continuous,numeric,217,0,92,3 to 91.7,Baseline covariate: Function.
-107,X_age_years,Baseline covariate,continuous,numeric,217,63,44,17 to 999,Baseline covariate: Age years.
+107,X_age_years,Baseline covariate,continuous,numeric,217,72,43,17 to 75,Baseline covariate: Age years.
 107,X_sex,Baseline covariate,binary,numeric,217,0,2,1; 2,Baseline covariate: Sex.
 107,X_fracture,Baseline covariate,binary,numeric,217,0,2,0; 1,Baseline covariate: Fracture.

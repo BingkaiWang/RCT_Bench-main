@@ -1,9 +1,13 @@
 Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
-103,Treatment,Treatment assignment,factor,factor,599,0,3,General ward; Geriatric ward; MMHU,Treatment: randomized treatment assignment with cleaned-data arms: General ward; Geriatric ward; MMHU. Publication-designated control/reference: Geriatric ward.
-103,YP_eq5d_pain_3m,Primary outcome,factor,character,599,0,4,.; 1; 2; 3,"Primary outcome: EQ-5D pain/discomfort domain score, measured at 3 months. Categories/codes in the cleaned data: .; 1; 2; 3."
-103,YS_status_3m,Secondary outcome,binary,character,599,0,2,A; D,"Secondary outcome: Status, measured at 3 months."
-103,YS_mmse_3m,Secondary outcome,factor,character,599,0,31,.; 0; 10; 11; 12; 13; 14; 15; 16; 17; 18; 19; 2; 20; 21; 22; 23; 24; 25; 26; ...,"Secondary outcome: Mini-Mental State Examination (MMSE) score, measured at 3 months. Categories/codes in the cleaned data: .; 0; 10; 11; 12; 13; 14; 15; 16; 17; 18; 19; 2; 20; 21; 22; 23; 24; 25; 26; ...."
-103,X_age_years,Baseline covariate,continuous,integer,599,0,37,65 to 102,Baseline covariate: Age years.
-103,X_gender,Baseline covariate,binary,character,599,0,2,F; M,Baseline covariate: Gender.
-103,X_eq5d_pain_0m,Baseline covariate,factor,character,599,0,4,.; 1; 2; 3,Baseline covariate: EQ-5D pain/discomfort domain score. Categories/codes in the cleaned data: .; 1; 2; 3.
-103,X_npi_depression_0m,Baseline covariate,factor,character,599,0,5,.; 0; 1; 2; 3,Baseline covariate: Npi depression. Categories/codes in the cleaned data: .; 0; 1; 2; 3.
+103,Treatment,Treatment assignment,factor,factor,599,0,2,MMHU; Standard care,Treatment: randomized treatment assignment with cleaned-data arms: General ward; Geriatric ward; MMHU. Publication-designated control/reference: Geriatric ward.
+103,YP_qaly_90d_observed,Primary outcome,continuous,numeric,599,327,233,-0.0461096 to 0.246575,Primary outcome: qaly 90d observed
+103,YS_eq5d_utility_90d,Secondary outcome,continuous,numeric,599,348,74,-0.429 to 1,Secondary outcome: eq5d utility 90d
+103,YS_status_90d,Secondary outcome,binary,factor,599,0,2,Alive; Dead,Secondary outcome: status 90d
+103,YS_days_survived_90d,Secondary outcome,continuous,numeric,599,0,71,1 to 90,Secondary outcome: days survived 90d
+103,X_eq5d_utility_0d,Baseline covariate,continuous,numeric,599,195,104,-0.594 to 1,Baseline covariate or pre-treatment measurement: eq5d utility 0d
+103,X_age_0d,Baseline covariate,continuous,numeric,599,0,37,65 to 102,Baseline covariate or pre-treatment measurement: age 0d
+103,X_gender_0d,Baseline covariate,binary,factor,599,0,2,F; M,Baseline covariate or pre-treatment measurement: gender 0d
+103,X_residence_care_home_0d,Baseline covariate,binary,numeric,599,0,2,0; 1,Baseline covariate or pre-treatment measurement: residence care home 0d
+103,X_medical_condition_count_0d,Baseline covariate,continuous,numeric,599,0,13,0 to 12,Baseline covariate or pre-treatment measurement: medical condition count 0d
+103,X_npi_depression_severity_0d,Baseline covariate,continuous,numeric,599,120,4,0 to 3,Baseline covariate or pre-treatment measurement: npi depression severity 0d
+103,X_eq5d_pain_0d,Baseline covariate,continuous,numeric,599,164,3,1 to 3,Baseline covariate or pre-treatment measurement: eq5d pain 0d

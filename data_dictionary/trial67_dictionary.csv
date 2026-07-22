@@ -13,8 +13,8 @@ Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_un
 67,X_catheter_diameter,Baseline covariate,continuous,numeric,60,2,3,11 to 13,Baseline covariate: Catheter diameter.
 67,X_catheter_insertion_side,Baseline covariate,factor,factor,60,2,6,1; 2; 3; 4; 5; 6,Baseline covariate: Catheter insertion side. Categories/codes in the cleaned data: 1; 2; 3; 4; 5; 6.
 67,X_mean_blood_flow,Baseline covariate,continuous,numeric,60,0,20,60 to 140,Baseline covariate: Mean blood flow.
-67,X_beta2_concentration_pre_1h,Baseline covariate,continuous,numeric,60,0,60,2.32 to 9999,Baseline covariate: Beta2 concentration pre-intervention.
-67,X_myoglobin_concentration_pre_1h,Baseline covariate,continuous,numeric,60,0,59,35.2 to 11380,Baseline covariate: Myoglobin concentration pre-intervention.
-67,X_urea_concentration_pre_1h,Baseline covariate,continuous,numeric,60,0,56,7.9 to 9999,Baseline covariate: Urea concentration pre-intervention.
-67,X_creatinine_concentration_pre_1h,Baseline covariate,continuous,numeric,60,0,57,71 to 9999,Baseline covariate: Creatinine concentration pre-intervention.
-67,X_albumin_concentration_pre_1h,Baseline covariate,continuous,numeric,60,0,51,13.7 to 9999,Baseline covariate: Albumin concentration pre-intervention.
+67,X_beta2_concentration_pre_1h,Baseline covariate,continuous,numeric,60,1,59,2.32 to 38.16,Baseline covariate: Beta2 concentration pre-intervention.
+67,X_myoglobin_concentration_pre_1h,Baseline covariate,continuous,numeric,60,1,58,35.2 to 11380,Baseline covariate: Myoglobin concentration pre-intervention.
+67,X_urea_concentration_pre_1h,Baseline covariate,continuous,numeric,60,1,55,7.9 to 49.3,Baseline covariate: Urea concentration pre-intervention.
+67,X_creatinine_concentration_pre_1h,Baseline covariate,continuous,numeric,60,1,56,71 to 906,Baseline covariate: Creatinine concentration pre-intervention.
+67,X_albumin_concentration_pre_1h,Baseline covariate,continuous,numeric,60,1,50,13.7 to 36.1,Baseline covariate: Albumin concentration pre-intervention.

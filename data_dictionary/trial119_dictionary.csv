@@ -1,6 +1,5 @@
 Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
 119,Treatment,Treatment assignment,factor,factor,57,0,2,Randomisation arm 1; Randomisation arm 2,Treatment: randomized treatment assignment with cleaned-data arms: Randomisation arm 1; Randomisation arm 2. Publication-designated control/reference: Not identified from compact source.
-119,X_source_record_id,Baseline covariate,continuous,numeric,57,0,57,1 to 57,Baseline covariate: Source record id.
 119,YP_pain_score,Primary outcome,continuous,numeric,57,2,16,0 to 100,Primary outcome: Pain score. Publication-defined endpoint context: Pain score during hysteroscopic morcellation.
 119,YS_procedure_duration_min,Secondary outcome,continuous,numeric,57,1,21,5 to 40,Secondary outcome: Procedure duration minutes.
 119,YS_conversion,Secondary outcome,binary,numeric,57,0,2,0; 1,Secondary outcome: Conversion.

@@ -1,5 +1,21 @@
 Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
-100,Treatment,Treatment assignment,factor,factor,92,0,2,Control; rhTM,Treatment: randomized treatment assignment with cleaned-data arms: Control; rhTM. Publication-designated control/reference: Control.
-100,YP_death_28d,Primary outcome,binary,integer,92,0,2,0; 1,"Primary outcome: Death, measured at 28 days. Publication-defined endpoint context: death 28d."
-100,YS_death_90d,Secondary outcome,binary,integer,92,0,2,0; 1,"Secondary outcome: Death, measured at 90 days."
-100,X_platelet_0d,Baseline covariate,continuous,numeric,92,0,77,1.7 to 36.1,Baseline covariate: Platelet count.
+100,Treatment,Treatment assignment,factor,factor,86,0,2,Home exercise; Supervised physical therapy,Treatment: randomized assignment to home exercise (control/reference) or supervised physical therapy.
+100,YP_delta_zcq_symptom_severity_6w,Primary outcome,continuous,numeric,86,2,16,-2.71429 to 0.571429,Primary outcome: change from baseline to 6 weeks in the Zurich Claudication Questionnaire (ZCQ) symptom-severity score; negative values indicate improvement.
+100,YS_delta_zcq_physical_function_6w,Secondary outcome,continuous,numeric,86,2,14,-1.8 to 1,Secondary outcome: change from baseline to 6 weeks in the ZCQ physical-function score; negative values indicate improvement.
+100,YS_zcq_satisfaction_6w,Secondary outcome,continuous,integer,86,2,17,6 to 24,Secondary outcome: ZCQ treatment-satisfaction score at 6 weeks.
+100,YS_delta_nrs_back_pain_6w,Secondary outcome,continuous,numeric,86,2,15,-9 to 8,"Secondary outcome: change from baseline to 6 weeks in back-pain numeric rating scale (NRS, 0-10); negative values indicate improvement."
+100,YS_delta_nrs_leg_pain_6w,Secondary outcome,continuous,numeric,86,2,13,-9 to 5,Secondary outcome: change from baseline to 6 weeks in leg-pain NRS (0-10); negative values indicate improvement.
+100,YS_delta_nrs_leg_numbness_6w,Secondary outcome,continuous,numeric,86,2,13,-9 to 8,Secondary outcome: change from baseline to 6 weeks in leg-numbness NRS (0-10); negative values indicate improvement.
+100,YS_delta_walk_distance_m_6w,Secondary outcome,continuous,numeric,86,4,75,-306 to 1736,"Secondary outcome: change from baseline to 6 weeks in self-paced walking-test distance, in metres."
+100,YS_delta_daily_steps_6w,Secondary outcome,continuous,numeric,86,15,70,-2669 to 4752,"Secondary outcome: change from baseline to 6 weeks in mean daily steps, in steps/day."
+100,X_zcq_symptom_severity_0w,Baseline covariate,continuous,numeric,86,0,19,1.85714 to 5,Baseline covariate: ZCQ symptom-severity score at week 0.
+100,X_zcq_physical_function_0w,Baseline covariate,continuous,numeric,86,0,13,1 to 3.6,Baseline covariate: ZCQ physical-function score at week 0.
+100,X_nrs_back_pain_0w,Baseline covariate,continuous,integer,86,0,11,0 to 10,Baseline covariate: back-pain NRS at week 0 (0-10).
+100,X_nrs_leg_pain_0w,Baseline covariate,continuous,integer,86,0,9,2 to 10,Baseline covariate: leg-pain NRS at week 0 (0-10).
+100,X_nrs_leg_numbness_0w,Baseline covariate,continuous,integer,86,0,11,0 to 10,Baseline covariate: leg-numbness NRS at week 0 (0-10).
+100,X_walk_distance_m_0w,Baseline covariate,continuous,integer,86,1,78,62 to 2500,"Baseline covariate: self-paced walking-test distance at week 0, in metres."
+100,X_daily_steps_0w,Baseline covariate,continuous,integer,86,15,71,469 to 15228,"Baseline covariate: mean daily steps at week 0, in steps/day."
+100,X_age_years,Baseline covariate,continuous,integer,86,0,31,56 to 90,"Baseline covariate: age, in years."
+100,X_sex,Baseline covariate,binary,character,86,0,2,Female; Male,Baseline covariate: participant sex (Female or Male).
+100,X_bmi,Baseline covariate,continuous,numeric,86,0,57,18.7 to 35.5,"Baseline covariate: body mass index, in kg/m²."
+100,X_symptom_duration_months,Baseline covariate,continuous,numeric,86,0,34,1 to 96,"Baseline covariate: duration of lumbar spinal stenosis symptoms, in months."

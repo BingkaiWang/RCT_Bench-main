@@ -1,5 +1,6 @@
 Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
 69,Treatment,Treatment assignment,factor,factor,72,0,3,Morphine; Placebo; Tapentadol,Treatment: randomized treatment assignment with cleaned-data arms: Morphine; Placebo; Tapentadol. Publication-designated control/reference: Placebo.
+69,Participant_ID,Participant cluster identifier,factor,character,72,0,12,S001; S002; S003; S004; S005; S006; S007; S008; S009; S010; S011; S012,De-identified participant cluster identifier for repeated-measures or crossover rows; exclude from adjustment covariates.
 69,YP_peak_evas_without_conditioning,Primary outcome,continuous,numeric,72,0,72,26.01 to 81.17,Primary outcome: Peak electronic visual analogue pain rating without the conditioning stimulus.
 69,YP_peak_evas_with_conditioning,Primary outcome,continuous,numeric,72,0,72,11.99 to 85.08,Primary outcome: Peak electronic visual analogue pain rating with the conditioning stimulus.
 69,YS_peak_conditioned_pain_modulation,Secondary outcome,continuous,numeric,72,0,71,-21.46 to 40.5,"Secondary outcome: Peak conditioned-pain-modulation response, calculated from the difference between conditioned and unconditioned eVAS ratings."
@@ -95,5 +96,4 @@ Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_un
 69,YS_evas_with_conditioning_t46,Secondary outcome,continuous,numeric,72,0,7,0 to 3,"Secondary outcome: Electronic visual analogue pain rating during the conditioned-pain-modulation test with conditioning stimulus, measured at assessment T46."
 69,YS_evas_with_conditioning_t47,Secondary outcome,continuous,numeric,72,0,5,0 to 1.07,"Secondary outcome: Electronic visual analogue pain rating during the conditioned-pain-modulation test with conditioning stimulus, measured at assessment T47."
 69,YS_evas_with_conditioning_t48,Secondary outcome,continuous,numeric,72,0,3,0 to 0.22,"Secondary outcome: Electronic visual analogue pain rating during the conditioned-pain-modulation test with conditioning stimulus, measured at assessment T48."
-69,X_period_label,Baseline covariate,binary,factor,72,0,2,120-150 min; 60-90 min,Baseline covariate: Period label.
-69,X_subject_id,Baseline covariate,factor,factor,72,0,12,001; 002; 003; 004; 005; 006; 007; 008; 009; 010; 011; 012,Baseline covariate: Subject id. Categories/codes in the cleaned data: 001; 002; 003; 004; 005; 006; 007; 008; 009; 010; 011; 012.
+69,Assessment_Window,Trial design variable,binary,factor,72,0,2,120-150 min; 60-90 min,Crossover or repeated-measures design variable: Assessment Window

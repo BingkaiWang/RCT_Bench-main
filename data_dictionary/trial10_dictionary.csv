@@ -6,7 +6,6 @@ Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_un
 10,YS_burp_intub,Secondary outcome,binary,factor,256,0,2,0; 1,Secondary outcome: Burp intub.
 10,YS_railroading_intub,Secondary outcome,binary,factor,256,0,2,0; 1,Secondary outcome: Railroading intub.
 10,YS_pogo_intub,Secondary outcome,continuous,numeric,256,0,15,0 to 100,Secondary outcome: Pogo intub.
-10,YS_vocal_cord_pos_intub,Secondary outcome,binary,factor,256,0,1,0,Secondary outcome: Vocal cord pos intub.
 10,YS_force_intub,Secondary outcome,binary,factor,256,0,2,1; 2,Secondary outcome: Force intub.
 10,YS_esophageal_intub,Secondary outcome,binary,factor,256,8,2,0; 1,Secondary outcome: Esophageal intub.
 10,YS_removing_cover_intub,Secondary outcome,binary,factor,256,0,2,0; 1,Secondary outcome: Removing cover intub.

@@ -1,5 +1,5 @@
 Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
-85,Treatment,Treatment assignment,factor,factor,61,0,2,Tx; WL,Treatment: randomized treatment assignment with cleaned-data arms: Tx; WL. Publication-designated control/reference: Wait-list control.
+85,Treatment,Treatment assignment,factor,factor,61,0,2,VR neuroscience therapy; Wait-list control,Treatment: randomized treatment assignment with cleaned-data arms: Tx; WL. Publication-designated control/reference: Wait-list control.
 85,X_age_years,Baseline covariate,continuous,numeric,61,0,29,21 to 57,Baseline covariate: Age years.
 85,X_sex,Baseline covariate,binary,numeric,61,0,2,1; 2,Baseline covariate: Sex.
 85,X_bmi,Baseline covariate,continuous,numeric,61,9,52,17.575 to 40.3466,"Baseline covariate: Body mass index (BMI), in kg/m²."

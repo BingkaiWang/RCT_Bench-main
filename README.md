@@ -21,6 +21,10 @@ Each cleaned trial is participant-level and follows the same variable contract:
 - `YP_*`: primary outcome variables. Each trial has at least one.
 - `YS_*`: secondary outcome variables when useful and available.
 - `X_*`: baseline covariates or pre-treatment measurements.
+- `Participant_ID`: an optional de-identified cluster key retained only for
+  crossover/repeated-measures trials; it is not an adjustment covariate.
+- `Crossover_Sequence`, `Crossover_Period`, and `Assessment_Window`: optional
+  trial-design fields that are likewise excluded from the `X_*` covariate set.
 
 ## Metadata
 
@@ -80,7 +84,9 @@ The curation workflow is:
    prespecified analysis variables rather than keeping every raw field.
 5. Audit cleaned outcomes against publication values when feasible; otherwise
    record descriptive summary-statistics audit rows.
-6. Refresh publication-backed metadata, data dictionary, validation summaries,
+6. Apply the reproducible public-contract repair step for known identifier,
+   sentinel, crossover-grain, and variable-role issues.
+7. Refresh publication-backed metadata, data dictionary, validation summaries,
    and provenance outputs from scripts rather than editing generated artifacts
    by hand.
 
@@ -109,9 +115,12 @@ Important entry points:
   publication-backed metadata for trials 51-125 and writes a cell-level
   provenance CSV.
 - `preprocessing/archive/build_data_dictionary.R`: rebuilds
-  `data-dictionary.xlsx`.
+  `data-dictionary.xlsx`, the 125 `data_dictionary/trialN_dictionary.csv`
+  files, and `data_dictionary/validation_summary.json`.
 - `preprocessing/archive/validate_public_dataset.R`: validates the flat public
   `cleaned_data/` layout.
+- `preprocessing/archive/repair_cleaned_data_quality_issues.R`: applies the
+  source-backed public-contract repairs before metadata and dictionary rebuilds.
 
 ## Local Materials
 
@@ -138,6 +147,7 @@ Rscript preprocessing/archive/validate_public_dataset.R
 Regenerate metadata and the data dictionary:
 
 ```sh
+Rscript preprocessing/archive/repair_cleaned_data_quality_issues.R
 python3 preprocessing/archive/clean_metadata_trials51_125.py  # requires openpyxl and network access for OpenAlex refreshes
 python3 preprocessing/archive/build_public_metadata.py
 Rscript preprocessing/archive/build_data_dictionary.R

@@ -1,0 +1,60 @@
+[
+  {
+    "filename": "meta_data.xlsx",
+    "sheets": [
+      "Sheet1",
+      "Provenance",
+      "Validation",
+      "Audit_Summary",
+      "Audit_Detail",
+      "Duplicate_Screen",
+      "Cleanup_Issues"
+    ],
+    "formulaInspections": [
+      {
+        "sheet": "Sheet1",
+        "result": "{\"kind\":\"notice\",\"message\":\"No records matched the requested kinds.\"}"
+      },
+      {
+        "sheet": "Provenance",
+        "result": "{\"kind\":\"notice\",\"message\":\"No records matched the requested kinds.\"}"
+      },
+      {
+        "sheet": "Validation",
+        "result": "{\"kind\":\"notice\",\"message\":\"No records matched the requested kinds.\"}"
+      },
+      {
+        "sheet": "Audit_Summary",
+        "result": "{\"kind\":\"notice\",\"message\":\"No records matched the requested kinds.\"}"
+      },
+      {
+        "sheet": "Audit_Detail",
+        "result": "{\"kind\":\"notice\",\"message\":\"No records matched the requested kinds.\"}"
+      },
+      {
+        "sheet": "Duplicate_Screen",
+        "result": "{\"kind\":\"notice\",\"message\":\"No records matched the requested kinds.\"}"
+      },
+      {
+        "sheet": "Cleanup_Issues",
+        "result": "{\"kind\":\"notice\",\"message\":\"No records matched the requested kinds.\"}"
+      }
+    ],
+    "spreadsheetErrors": [],
+    "overview": "{\"kind\":\"sheet\",\"id\":\"ws/42dami\",\"name\":\"Sheet1\",\"index\":0,\"range\":\"A1:R126\",\"address\":\"A1:R126\"}\n{\"kind\":\"sheet\",\"id\":\"ws/xqvnb8\",\"name\":\"Provenance\",\"index\":1,\"range\":\"A1:P76\",\"address\":\"A1:P76\"}\n{\"kind\":\"sheet\",\"id\":\"ws/xouhqz\",\"name\":\"Validation\",\"index\":2,\"range\":\"A1:M126\",\"address\":\"A1:M126\"}\n{\"kind\":\"sheet\",\"id\":\"ws/fano0i\",\"name\":\"Audit_Summary\",\"index\":3,\"range\":\"A1:K76\",\"address\":\"A1:K76\"}\n{\"kind\":\"sheet\",\"id\":\"ws/rr6zdc\",\"name\":\"Audit_Detail\",\"index\":4,\"range\":\"A1:Q774\",\"address\":\"A1:Q774\"}\n{\"kind\":\"sheet\",\"id\":\"ws/d0qbtu\",\"name\":\"Duplicate_Screen\",\"index\":5,\"range\":\"A1:F3\",\"address\":\"A1:F3\"}\n{\"kind\":\"sheet\",\"id\":\"ws/go2slz\",\"name\":\"Cleanup_Issues\",\"index\":6,\"range\":\"A1:F18\",\"address\":\"A1:F18\"}"
+  },
+  {
+    "filename": "data-dictionary.xlsx",
+    "sheets": [
+      "Data_Dictionary"
+    ],
+    "formulaInspections": [
+      {
+        "sheet": "Data_Dictionary",
+        "result": "{\"kind\":\"notice\",\"message\":\"No records matched the requested kinds.\"}"
+      }
+    ],
+    "spreadsheetErrors": [],
+    "overview": "{\"kind\":\"sheet\",\"id\":\"ws/ammg33\",\"name\":\"Data_Dictionary\",\"index\":0,\"range\":\"A1:K2914\",\"address\":\"A1:K2914\"}"
+  }
+]
