@@ -11,7 +11,6 @@ Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_un
 123,YS_walking_time_without_pain_hour,Secondary outcome,time-to-event/continuous time,integer,49,0,10,1 to 12,"Secondary outcome: Time after surgery until walking without pain, in hours."
 123,YS_pain_free_time_to_defecate_hour,Secondary outcome,time-to-event/continuous time,integer,49,0,13,6 to 36,"Secondary outcome: Time after surgery until pain-free defecation, in hours."
 123,YS_return_to_daily_activity_day,Secondary outcome,continuous,integer,49,0,20,2 to 30,"Secondary outcome: Time after surgery to return to usual daily activities, in days."
-123,YS_complication_recurrence,Secondary outcome,binary,numeric,49,4,1,0,Secondary outcome: Recurrence of pilonidal sinus disease during follow-up.
 123,X_sf36_pre_1,Baseline covariate,continuous,integer,49,0,7,45 to 100,Baseline covariate: Baseline SF-36 physical-functioning domain score.
 123,X_sf36_pre2,Baseline covariate,continuous,numeric,49,0,9,0 to 100,Baseline covariate: Baseline SF-36 role-physical domain score.
 123,X_sf36_pre3,Baseline covariate,continuous,numeric,49,0,5,0 to 100,Baseline covariate: Baseline SF-36 bodily-pain domain score.

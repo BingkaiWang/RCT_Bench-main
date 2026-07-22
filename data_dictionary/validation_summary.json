@@ -1,12 +1,12 @@
 {
   "summary": {
     "files": 125,
-    "dictionaryRows": 2910,
+    "dictionaryRows": 2913,
     "allRowCountsMatch": true,
     "allPrefixesValid": true,
     "allVariablesMatchCleanedData": true,
     "allSourceColumnsRemoved": true,
-    "minRows": 4,
+    "minRows": 6,
     "maxRows": 98
   },
   "validation": [
@@ -84,8 +84,8 @@
     },
     {
       "trialId": 10,
-      "rows": 44,
-      "checkedRows": 44,
+      "rows": 43,
+      "checkedRows": 43,
       "prefixesValid": true,
       "variablesMatchCleanedData": true,
       "sourceColumnRemoved": true
@@ -220,8 +220,8 @@
     },
     {
       "trialId": 27,
-      "rows": 17,
-      "checkedRows": 17,
+      "rows": 16,
+      "checkedRows": 16,
       "prefixesValid": true,
       "variablesMatchCleanedData": true,
       "sourceColumnRemoved": true
@@ -324,8 +324,8 @@
     },
     {
       "trialId": 40,
-      "rows": 22,
-      "checkedRows": 22,
+      "rows": 21,
+      "checkedRows": 21,
       "prefixesValid": true,
       "variablesMatchCleanedData": true,
       "sourceColumnRemoved": true
@@ -380,8 +380,8 @@
     },
     {
       "trialId": 47,
-      "rows": 76,
-      "checkedRows": 76,
+      "rows": 75,
+      "checkedRows": 75,
       "prefixesValid": true,
       "variablesMatchCleanedData": true,
       "sourceColumnRemoved": true
@@ -484,8 +484,8 @@
     },
     {
       "trialId": 60,
-      "rows": 9,
-      "checkedRows": 9,
+      "rows": 10,
+      "checkedRows": 10,
       "prefixesValid": true,
       "variablesMatchCleanedData": true,
       "sourceColumnRemoved": true
@@ -524,8 +524,8 @@
     },
     {
       "trialId": 65,
-      "rows": 22,
-      "checkedRows": 22,
+      "rows": 23,
+      "checkedRows": 23,
       "prefixesValid": true,
       "variablesMatchCleanedData": true,
       "sourceColumnRemoved": true
@@ -588,8 +588,8 @@
     },
     {
       "trialId": 73,
-      "rows": 22,
-      "checkedRows": 22,
+      "rows": 21,
+      "checkedRows": 21,
       "prefixesValid": true,
       "variablesMatchCleanedData": true,
       "sourceColumnRemoved": true
@@ -676,8 +676,8 @@
     },
     {
       "trialId": 84,
-      "rows": 12,
-      "checkedRows": 12,
+      "rows": 11,
+      "checkedRows": 11,
       "prefixesValid": true,
       "variablesMatchCleanedData": true,
       "sourceColumnRemoved": true
@@ -692,80 +692,80 @@
     },
     {
       "trialId": 86,
-      "rows": 21,
-      "checkedRows": 21,
+      "rows": 18,
+      "checkedRows": 18,
       "prefixesValid": true,
       "variablesMatchCleanedData": true,
       "sourceColumnRemoved": true
     },
     {
       "trialId": 87,
-      "rows": 30,
-      "checkedRows": 30,
+      "rows": 28,
+      "checkedRows": 28,
       "prefixesValid": true,
       "variablesMatchCleanedData": true,
       "sourceColumnRemoved": true
     },
     {
       "trialId": 88,
-      "rows": 24,
-      "checkedRows": 24,
+      "rows": 23,
+      "checkedRows": 23,
       "prefixesValid": true,
       "variablesMatchCleanedData": true,
       "sourceColumnRemoved": true
     },
     {
       "trialId": 89,
-      "rows": 7,
-      "checkedRows": 7,
+      "rows": 6,
+      "checkedRows": 6,
       "prefixesValid": true,
       "variablesMatchCleanedData": true,
       "sourceColumnRemoved": true
     },
     {
       "trialId": 90,
-      "rows": 9,
-      "checkedRows": 9,
+      "rows": 8,
+      "checkedRows": 8,
       "prefixesValid": true,
       "variablesMatchCleanedData": true,
       "sourceColumnRemoved": true
     },
     {
       "trialId": 91,
-      "rows": 26,
-      "checkedRows": 26,
+      "rows": 25,
+      "checkedRows": 25,
       "prefixesValid": true,
       "variablesMatchCleanedData": true,
       "sourceColumnRemoved": true
     },
     {
       "trialId": 92,
-      "rows": 30,
-      "checkedRows": 30,
+      "rows": 29,
+      "checkedRows": 29,
       "prefixesValid": true,
       "variablesMatchCleanedData": true,
       "sourceColumnRemoved": true
     },
     {
       "trialId": 93,
-      "rows": 20,
-      "checkedRows": 20,
+      "rows": 15,
+      "checkedRows": 15,
       "prefixesValid": true,
       "variablesMatchCleanedData": true,
       "sourceColumnRemoved": true
     },
     {
       "trialId": 94,
-      "rows": 26,
-      "checkedRows": 26,
+      "rows": 25,
+      "checkedRows": 25,
       "prefixesValid": true,
       "variablesMatchCleanedData": true,
       "sourceColumnRemoved": true
     },
     {
       "trialId": 95,
-      "rows": 24,
-      "checkedRows": 24,
+      "rows": 23,
+      "checkedRows": 23,
       "prefixesValid": true,
       "variablesMatchCleanedData": true,
       "sourceColumnRemoved": true
@@ -804,8 +804,8 @@
     },
     {
       "trialId": 100,
-      "rows": 4,
-      "checkedRows": 4,
+      "rows": 20,
+      "checkedRows": 20,
       "prefixesValid": true,
       "variablesMatchCleanedData": true,
       "sourceColumnRemoved": true
@@ -828,8 +828,8 @@
     },
     {
       "trialId": 103,
-      "rows": 8,
-      "checkedRows": 8,
+      "rows": 12,
+      "checkedRows": 12,
       "prefixesValid": true,
       "variablesMatchCleanedData": true,
       "sourceColumnRemoved": true
@@ -868,8 +868,8 @@
     },
     {
       "trialId": 108,
-      "rows": 11,
-      "checkedRows": 11,
+      "rows": 24,
+      "checkedRows": 24,
       "prefixesValid": true,
       "variablesMatchCleanedData": true,
       "sourceColumnRemoved": true
@@ -932,48 +932,48 @@
     },
     {
       "trialId": 116,
-      "rows": 25,
-      "checkedRows": 25,
+      "rows": 24,
+      "checkedRows": 24,
       "prefixesValid": true,
       "variablesMatchCleanedData": true,
       "sourceColumnRemoved": true
     },
     {
       "trialId": 117,
-      "rows": 12,
-      "checkedRows": 12,
+      "rows": 11,
+      "checkedRows": 11,
       "prefixesValid": true,
       "variablesMatchCleanedData": true,
       "sourceColumnRemoved": true
     },
     {
       "trialId": 118,
-      "rows": 22,
-      "checkedRows": 22,
+      "rows": 21,
+      "checkedRows": 21,
       "prefixesValid": true,
       "variablesMatchCleanedData": true,
       "sourceColumnRemoved": true
     },
     {
       "trialId": 119,
-      "rows": 25,
-      "checkedRows": 25,
+      "rows": 24,
+      "checkedRows": 24,
       "prefixesValid": true,
       "variablesMatchCleanedData": true,
       "sourceColumnRemoved": true
     },
     {
       "trialId": 120,
-      "rows": 7,
-      "checkedRows": 7,
+      "rows": 6,
+      "checkedRows": 6,
       "prefixesValid": true,
       "variablesMatchCleanedData": true,
       "sourceColumnRemoved": true
     },
     {
       "trialId": 121,
-      "rows": 20,
-      "checkedRows": 20,
+      "rows": 17,
+      "checkedRows": 17,
       "prefixesValid": true,
       "variablesMatchCleanedData": true,
       "sourceColumnRemoved": true
@@ -988,8 +988,8 @@
     },
     {
       "trialId": 123,
-      "rows": 59,
-      "checkedRows": 59,
+      "rows": 58,
+      "checkedRows": 58,
       "prefixesValid": true,
       "variablesMatchCleanedData": true,
       "sourceColumnRemoved": true

@@ -1,5 +1,5 @@
 Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
-82,Treatment,Treatment assignment,factor,factor,250,0,2,Arm_1; Arm_2,Treatment: randomized treatment assignment with cleaned-data arms: Arm_1; Arm_2. Publication-designated control/reference: Placebo/control arm.
+82,Treatment,Treatment assignment,factor,factor,250,0,2,Blinded arm 1; Blinded arm 2,Treatment: randomized treatment assignment with cleaned-data arms: Arm_1; Arm_2. Publication-designated control/reference: Placebo/control arm.
 82,YP_postoperative_atrial_fibrillation,Primary outcome,binary,numeric,250,8,2,0; 1,Primary outcome: Postoperative atrial fibrillation. Publication-defined endpoint context: Occurrence of postoperative atrial fibrillation.
 82,YS_af_episode_count,Secondary outcome,continuous,numeric,250,0,10,0 to 9,Secondary outcome: Af episode count.
 82,YS_ventilation_hours,Secondary outcome,continuous,numeric,250,0,166,9 to 17120,Secondary outcome: Ventilation hours.

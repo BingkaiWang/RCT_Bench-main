@@ -1,6 +1,5 @@
 Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
 88,Treatment,Treatment assignment,factor,factor,200,0,2,Control; Nutrition education,Treatment: randomized treatment assignment with cleaned-data arms: Control; Nutrition education. Publication-designated control/reference: Control.
-88,X_source_id,Baseline covariate,continuous,integer,200,0,200,1 to 200,Baseline covariate: Source id.
 88,X_sex_code,Baseline covariate,binary,integer,200,0,2,0; 1,Baseline covariate: Sex code.
 88,X_age_years,Baseline covariate,continuous,integer,200,0,42,30 to 82,Baseline covariate: Age years.
 88,X_balloon_angioplasty,Baseline covariate,binary,integer,200,0,2,0; 1,Baseline covariate: Balloon angioplasty.

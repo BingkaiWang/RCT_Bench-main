@@ -1,7 +1,7 @@
 Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
 1,Treatment,Treatment assignment,factor,factor,342,0,3,Metformin + Sham Acupuncture; Sham Acupuncture + Placebo; True Acupuncture + Placebo,Treatment: randomized treatment assignment with cleaned-data arms: Metformin + Sham Acupuncture; Sham Acupuncture + Placebo; True Acupuncture + Placebo. Publication-designated control/reference: Sham acupuncture + placebo.
 1,YP_delta_HOMA_IR_4m,Primary outcome,continuous,numeric,342,51,291,-6.63752 to 7.93029,Primary outcome: Change from baseline to 4 months in homeostasis model assessment of insulin resistance (HOMA-IR).
-1,post_YP_delta_HOMA_IR_7m,Other,continuous,numeric,342,80,262,-9.03314 to 39.6076,Primary outcome: Extended follow-up change from baseline to 7 months in homeostasis model assessment of insulin resistance (HOMA-IR).
+1,YS_delta_HOMA_IR_7m,Secondary outcome,continuous,numeric,342,80,262,-9.03314 to 39.6076,Secondary outcome: delta HOMA IR 7m
 1,YS_delta_BMI_4m,Secondary outcome,continuous,numeric,342,52,261,-5.94884 to 3.71135,"Secondary outcome: Change from baseline to 4 months in body mass index (BMI), in kg/m²."
 1,YS_delta_WHR_4m,Secondary outcome,continuous,numeric,342,52,286,-0.313968 to 0.265221,Secondary outcome: Change from baseline to 4 months in waist-to-hip ratio.
 1,YS_delta_Acne_4m,Secondary outcome,continuous,numeric,342,51,8,-4 to 3,Secondary outcome: Change from baseline to 4 months in acne.
@@ -16,17 +16,17 @@ Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_un
 1,YS_delta_LH_FSH_4m,Secondary outcome,continuous,numeric,342,67,275,-4.38306 to 6.69373,Secondary outcome: Change from baseline to 4 months in luteinizing-hormone to follicle-stimulating-hormone ratio.
 1,YS_delta_TotalT_4m,Secondary outcome,continuous,numeric,342,65,158,-5.4479 to 1.9085,Secondary outcome: Change from baseline to 4 months in total testosterone concentration.
 1,YS_delta_FAI_4m,Secondary outcome,continuous,numeric,342,76,266,-28.0161 to 13.405,Secondary outcome: Change from baseline to 4 months in free androgen index (FAI).
-1,post_YS_delta_BMI_7m,Other,continuous,numeric,342,81,249,-6.12724 to 4.41161,"Secondary outcome: Extended follow-up change from baseline to 7 months in body mass index (BMI), in kg/m²."
-1,post_YS_delta_WHR_7m,Other,continuous,numeric,342,81,261,-0.139042 to 0.223668,Secondary outcome: Extended follow-up change from baseline to 7 months in waist-to-hip ratio.
-1,post_YS_delta_Acne_7m,Other,continuous,numeric,342,83,7,-3 to 3,Secondary outcome: Extended follow-up change from baseline to 7 months in acne.
-1,post_YS_delta_Hirsutism_7m,Other,continuous,numeric,342,81,8,-5 to 2,Secondary outcome: Extended follow-up change from baseline to 7 months in hirsutism.
-1,post_YS_delta_FPG_7m,Other,continuous,numeric,342,80,176,-5.35 to 1.56,Secondary outcome: Extended follow-up change from baseline to 7 months in fasting plasma glucose concentration.
-1,post_YS_delta_FINS_7m,Other,continuous,numeric,342,80,256,-33.87 to 126.58,Secondary outcome: Extended follow-up change from baseline to 7 months in fasting insulin concentration.
-1,post_YS_delta_GlucoseAUC_7m,Other,continuous,numeric,342,82,253,-8.555 to 7.09,Secondary outcome: Extended follow-up change from baseline to 7 months in glucose area under the oral-glucose-tolerance-test curve.
-1,post_YS_delta_InsulinAUC_7m,Other,continuous,numeric,342,83,259,-722.175 to 429.458,Secondary outcome: Extended follow-up change from baseline to 7 months in insulin area under the oral-glucose-tolerance-test curve.
-1,post_YS_delta_HOMA_beta_7m,Other,continuous,numeric,342,80,262,-918.049 to 1330.68,Secondary outcome: Extended follow-up change from baseline to 7 months in homeostasis model assessment of beta-cell function (HOMA-β).
-1,post_YS_delta_Cpeptide_7m,Other,continuous,numeric,342,83,200,-4.04928 to 1.65834,Secondary outcome: Extended follow-up change from baseline to 7 months in C-peptide concentration.
-1,post_YS_delta_HbA1c_7m,Other,continuous,numeric,342,99,30,-1.2 to 1.4,Secondary outcome: Extended follow-up change from baseline to 7 months in glycated haemoglobin (HbA1c).
+1,YS_delta_BMI_7m,Secondary outcome,continuous,numeric,342,81,249,-6.12724 to 4.41161,Secondary outcome: delta BMI 7m
+1,YS_delta_WHR_7m,Secondary outcome,continuous,numeric,342,81,261,-0.139042 to 0.223668,Secondary outcome: delta WHR 7m
+1,YS_delta_Acne_7m,Secondary outcome,continuous,numeric,342,83,7,-3 to 3,Secondary outcome: delta Acne 7m
+1,YS_delta_Hirsutism_7m,Secondary outcome,continuous,numeric,342,81,8,-5 to 2,Secondary outcome: delta Hirsutism 7m
+1,YS_delta_FPG_7m,Secondary outcome,continuous,numeric,342,80,176,-5.35 to 1.56,Secondary outcome: delta FPG 7m
+1,YS_delta_FINS_7m,Secondary outcome,continuous,numeric,342,80,256,-33.87 to 126.58,Secondary outcome: delta FINS 7m
+1,YS_delta_GlucoseAUC_7m,Secondary outcome,continuous,numeric,342,82,253,-8.555 to 7.09,Secondary outcome: delta GlucoseAUC 7m
+1,YS_delta_InsulinAUC_7m,Secondary outcome,continuous,numeric,342,83,259,-722.175 to 429.458,Secondary outcome: delta InsulinAUC 7m
+1,YS_delta_HOMA_beta_7m,Secondary outcome,continuous,numeric,342,80,262,-918.049 to 1330.68,Secondary outcome: delta HOMA beta 7m
+1,YS_delta_Cpeptide_7m,Secondary outcome,continuous,numeric,342,83,200,-4.04928 to 1.65834,Secondary outcome: delta Cpeptide 7m
+1,YS_delta_HbA1c_7m,Secondary outcome,continuous,numeric,342,99,30,-1.2 to 1.4,Secondary outcome: delta HbA1c 7m
 1,X_HOMA_IR_0m,Baseline covariate,continuous,numeric,342,0,340,2.13184 to 17.7163,Baseline covariate: Homeostasis model assessment of insulin resistance (HOMA-IR).
 1,X_BMI_0m,Baseline covariate,continuous,numeric,342,3,325,15.8984 to 44.1207,"Baseline covariate: Body mass index (BMI), in kg/m²."
 1,X_WHR_0m,Baseline covariate,continuous,numeric,342,3,302,0.67033 to 1.16923,Baseline covariate: Waist-to-hip ratio.

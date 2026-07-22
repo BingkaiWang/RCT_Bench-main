@@ -10,4 +10,3 @@ Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_un
 84,X_gad_0w,Baseline covariate,continuous,numeric,156,0,20,2 to 21,Baseline covariate: Generalized Anxiety Disorder scale score.
 84,X_madrs_0w,Baseline covariate,continuous,numeric,156,0,38,3 to 46,Baseline covariate: Montgomery-Åsberg Depression Rating Scale (MADRS) score.
 84,X_sphq_0w,Baseline covariate,continuous,numeric,156,0,18,8 to 27,Baseline covariate: Sphq.
-84,X_dropout_50_percent,Baseline covariate,binary,numeric,156,0,2,0; 1,Baseline covariate: Dropout 50 percent.

@@ -10,13 +10,13 @@ for trial_id in [
     45, 46, 48, 51, 53, 54, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65,
     66, 67, 68, 69, 70, 74, 75, 76, 77, 79, 80, 83, 84, 85, 87, 89,
     90, 91, 95, 96, 97, 99, 105, 106, 107, 109, 110, 111, 116, 117,
-    118, 119, 121, 122, 123, 124, 125,
+    118, 119, 121, 122, 123, 124, 125, 100, 103,
 ]:
     OUTCOME_TYPE_BY_TRIAL[trial_id] = "Continuous"
 
 for trial_id in [
     3, 5, 8, 9, 10, 22, 24, 28, 34, 37, 41, 44, 47, 71, 72, 78, 81,
-    82, 86, 88, 93, 94, 100, 102, 108, 113, 115,
+    82, 86, 88, 93, 94, 102, 108, 113, 115,
 ]:
     OUTCOME_TYPE_BY_TRIAL[trial_id] = "Binary"
 
@@ -26,7 +26,7 @@ for trial_id in [2, 21, 23, 29, 31, 38, 39, 40, 42, 43, 50, 98, 112, 120]:
 for trial_id in [55, 104]:
     OUTCOME_TYPE_BY_TRIAL[trial_id] = "Count"
 
-for trial_id in [27, 73, 101, 103, 114]:
+for trial_id in [27, 73, 101, 114]:
     OUTCOME_TYPE_BY_TRIAL[trial_id] = "Ordinal"
 
 OUTCOME_TYPE_BY_TRIAL.update(

@@ -1,7 +1,7 @@
 Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
 6,Treatment,Treatment assignment,factor,factor,463,0,2,Conventional; Sitagliptin,Treatment: randomized treatment assignment with cleaned-data arms: Conventional; Sitagliptin. Publication-designated control/reference: Conventional.
 6,YP_delta_CCA_IMT_24m,Primary outcome,continuous,numeric,463,118,102,-0.52 to 0.47,Primary outcome: Change from baseline to 24 months in mean right common-carotid-artery intima-media thickness (CCA-IMT).
-6,pre_YP_delta_CCA_IMT_12m,Other,continuous,numeric,463,141,89,-0.47 to 0.42,Primary outcome: Intermediate follow-up change from baseline to 12 months in mean right common-carotid-artery intima-media thickness (CCA-IMT).
+6,YS_delta_CCA_IMT_12m,Secondary outcome,continuous,numeric,463,141,89,-0.47 to 0.42,Secondary outcome: delta CCA IMT 12m
 6,YS_delta_hba1c_12m,Secondary outcome,continuous,numeric,463,72,60,-1.7 to 3.3,Secondary outcome: Change from baseline to 12 months in glycated haemoglobin (HbA1c).
 6,YS_delta_hba1c_24m,Secondary outcome,continuous,numeric,463,93,66,-3.5 to 2.8,Secondary outcome: Change from baseline to 24 months in glycated haemoglobin (HbA1c).
 6,YS_delta_fbg_12m,Secondary outcome,continuous,numeric,463,94,126,-172 to 196,Secondary outcome: Change from baseline to 12 months in fasting blood glucose concentration.

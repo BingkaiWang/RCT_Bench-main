@@ -1,7 +1,7 @@
 Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
 52,Treatment,Treatment assignment,factor,factor,69,0,2,Control; Tenapanor,Treatment: randomized treatment assignment with cleaned-data arms: Control; Tenapanor. Publication-designated control/reference: Control.
 52,YP_delta_serum_phosphorus_23w,Primary outcome,continuous,numeric,69,0,53,-5.9 to 5,Primary outcome: Change from baseline to 23 weeks in serum phosphorus. Publication-defined endpoint context: Change in serum phosphorus at week 23 and change in BSFS at week 7.
-52,YP_delta_bsfs_7w,Primary outcome,continuous,numeric,69,38,8,-2 to 5,Primary outcome: Change from baseline to 7 weeks in Bristol Stool Form Scale (BSFS) score.
+52,YS_delta_bsfs_7w_tenapanor_only,Secondary outcome,continuous,numeric,69,38,8,-2 to 5,Secondary outcome: delta bsfs 7w tenapanor only
 52,X_serum_phosphorus_0w,Baseline covariate,continuous,numeric,69,0,32,1.7 to 8.4,Baseline covariate: Serum phosphorus.
 52,X_bsfs_0w,Baseline covariate,continuous,numeric,69,38,7,1 to 7,Baseline covariate: Bristol Stool Form Scale (BSFS) score.
 52,X_age_0w,Baseline covariate,continuous,numeric,69,0,31,50 to 91,Baseline covariate: Age.

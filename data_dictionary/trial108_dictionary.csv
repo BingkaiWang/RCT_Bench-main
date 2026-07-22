@@ -1,12 +1,25 @@
 Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
-108,Treatment,Treatment assignment,factor,factor,6030,0,2,AKI alert; Usual care,Treatment: randomized treatment assignment with cleaned-data arms: AKI alert; Usual care. Publication-designated control/reference: Usual care.
-108,YP_composite_14d,Primary outcome,binary,integer,6030,0,2,0; 1,"Primary outcome: Prespecified composite endpoint, measured at 14 days."
-108,YS_death_14d,Secondary outcome,binary,integer,6030,0,2,0; 1,"Secondary outcome: Death, measured at 14 days."
-108,YS_dialysis_14d,Secondary outcome,binary,integer,6030,0,2,0; 1,"Secondary outcome: Dialysis, measured at 14 days."
-108,YS_aki_progression_14d,Secondary outcome,binary,integer,6030,0,2,0; 1,"Secondary outcome: Aki progression, measured at 14 days."
-108,X_age_years,Baseline covariate,continuous,numeric,6030,507,4759,18.137 to 89.989,Baseline covariate: Age years.
-108,X_sex,Baseline covariate,binary,integer,6030,0,2,0; 1,Baseline covariate: Sex.
-108,X_hospital,Baseline covariate,continuous,integer,6030,0,6,1 to 6,Baseline covariate: Hospital.
-108,X_baseline_creatinine,Baseline covariate,continuous,numeric,6030,0,356,0.06 to 7.06,Baseline covariate: Baseline creatinine.
-108,X_sofa_0d,Baseline covariate,continuous,integer,6030,0,14,0 to 13,Baseline covariate: Sequential Organ Failure Assessment (SOFA) score.
-108,X_initial_egfr,Baseline covariate,continuous,numeric,6030,4,6022,7.16894 to 294.661,Baseline covariate: Initial estimated glomerular filtration rate.
+108,Treatment,Treatment assignment,factor,factor,218,0,2,Placebo; TXA,Treatment: randomized assignment to placebo (control/reference) or tranexamic acid (TXA).
+108,YP_any_oral_bleeding_7d,Primary outcome,binary,integer,218,0,2,0; 1,"Primary outcome: indicator for any oral post-extraction bleeding through day 7 (1=yes, 0=no)."
+108,YS_oral_bleeding_count_7d,Secondary outcome,continuous,integer,218,0,9,0 to 9,Secondary outcome: number of oral post-extraction bleeding episodes through day 7.
+108,YS_clinically_relevant_oral_bleeding_7d,Secondary outcome,binary,integer,218,0,2,0; 1,"Secondary outcome: indicator for any clinically relevant oral bleeding through day 7 (1=yes, 0=no)."
+108,YS_clinically_relevant_oral_bleeding_count_7d,Secondary outcome,continuous,integer,218,0,3,0 to 2,Secondary outcome: number of clinically relevant oral bleeding episodes through day 7.
+108,YS_early_oral_bleeding_7d,Secondary outcome,binary,integer,218,0,2,0; 1,"Secondary outcome: indicator for any early oral bleeding through day 7 (1=yes, 0=no)."
+108,YS_early_oral_bleeding_count_7d,Secondary outcome,continuous,integer,218,0,6,0 to 6,Secondary outcome: number of early oral bleeding episodes through day 7.
+108,YS_delayed_oral_bleeding_7d,Secondary outcome,binary,integer,218,0,2,0; 1,"Secondary outcome: indicator for any delayed oral bleeding through day 7 (1=yes, 0=no)."
+108,YS_delayed_oral_bleeding_count_7d,Secondary outcome,continuous,integer,218,0,6,0 to 5,Secondary outcome: number of delayed oral bleeding episodes through day 7.
+108,YS_unplanned_medical_contact_7d,Secondary outcome,binary,integer,218,0,2,0; 1,"Secondary outcome: indicator for an unplanned medical contact through day 7 (1=yes, 0=no)."
+108,YS_thrombotic_event_7d,Secondary outcome,binary,integer,218,0,2,0; 1,"Safety outcome: indicator for a thrombotic event through day 7 (1=yes, 0=no)."
+108,X_age_years,Baseline covariate,continuous,integer,218,0,45,25 to 93,"Baseline covariate: age, in years."
+108,X_sex,Baseline covariate,binary,character,218,0,2,F; M,Baseline covariate: participant sex as recorded in the source workbook (F or M).
+108,X_noac_type,Baseline covariate,factor,character,218,0,4,Apixaban; Dabigatran; Edoxaban; Rivaroxaban,Baseline covariate: non-vitamin K oral anticoagulant (NOAC) type.
+108,X_alcohol_units_per_day,Baseline covariate,continuous,numeric,218,0,10,0 to 5,"Baseline covariate: alcohol consumption, in units/day."
+108,X_smoking_status,Baseline covariate,factor,character,218,0,3,Active; Never; Previous,"Baseline covariate: smoking status (Active, Never, or Previous)."
+108,X_chronic_heart_failure,Baseline covariate,binary,integer,218,0,2,0; 1,"Baseline covariate: chronic heart failure indicator (1=yes, 0=no)."
+108,X_hypertension,Baseline covariate,binary,integer,218,0,2,0; 1,"Baseline covariate: hypertension indicator (1=yes, 0=no)."
+108,X_diabetes,Baseline covariate,binary,integer,218,0,2,0; 1,"Baseline covariate: diabetes indicator (1=yes, 0=no)."
+108,X_history_stroke,Baseline covariate,binary,integer,218,0,2,0; 1,"Baseline covariate: history of stroke indicator (1=yes, 0=no)."
+108,X_chads_vasc_score,Baseline covariate,continuous,integer,218,0,9,0 to 8,Baseline covariate: CHA₂DS₂-VASc thromboembolic-risk score.
+108,X_noac_indication,Baseline covariate,factor,character,218,0,4,Atrial fibrillation; Deep vein thrombosis; Other/unknown; Pulmonary embolism,Baseline covariate: clinical indication for NOAC treatment.
+108,X_time_last_noac_to_extraction_days,Baseline covariate,time-to-event/continuous time,numeric,218,0,158,0.489583 to 11.5938,"Baseline procedural covariate: time from the last NOAC dose to dental extraction, in days."
+108,X_number_extracted_teeth,Baseline covariate,continuous,integer,218,0,11,1 to 19,Baseline procedural covariate: number of teeth extracted.

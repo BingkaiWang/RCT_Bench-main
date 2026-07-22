@@ -6,6 +6,8 @@
 
 root <- normalizePath(".", mustWork = TRUE)
 output_path <- file.path(root, "data-dictionary.xlsx")
+trial_output_dir <- file.path(root, "data_dictionary")
+trial_validation_path <- file.path(trial_output_dir, "validation_summary.json")
 expansion_dictionary_candidates <- c(
   file.path(root, "rct_expansion", "metadata", "data_dictionary.csv"),
   file.path(root, "local", "rct_expansion", "metadata", "data_dictionary.csv")
@@ -76,6 +78,10 @@ discover_rds_files <- function() {
 
 variable_role <- function(variable_name) {
   if (identical(variable_name, "Treatment")) return("Treatment assignment")
+  if (identical(variable_name, "Participant_ID")) return("Participant cluster identifier")
+  if (variable_name %in% c("Crossover_Sequence", "Crossover_Period", "Assessment_Window")) {
+    return("Trial design variable")
+  }
   if (startsWith(variable_name, "YP_")) return("Primary outcome")
   if (startsWith(variable_name, "YS_")) return("Secondary outcome")
   if (startsWith(variable_name, "X_")) return("Baseline covariate")
@@ -93,6 +99,12 @@ generated_explanation <- function(variable_name) {
   role <- variable_role(variable_name)
   if (role == "Treatment assignment") {
     return("Randomized treatment assignment; control or reference arm is first when identifiable.")
+  }
+  if (role == "Participant cluster identifier") {
+    return("De-identified participant cluster identifier for repeated-measures or crossover rows; exclude from adjustment covariates.")
+  }
+  if (role == "Trial design variable") {
+    return(paste("Crossover or repeated-measures design variable:", readable))
   }
   if (role == "Primary outcome") return(paste("Primary outcome:", readable))
   if (role == "Secondary outcome") return(paste("Secondary outcome:", readable))
@@ -388,6 +400,177 @@ validate_dictionary <- function(dictionary, files) {
   invisible(TRUE)
 }
 
+replacement_dictionary_explanations <- c(
+  "100\rTreatment" = "Treatment: randomized assignment to home exercise (control/reference) or supervised physical therapy.",
+  "100\rYP_delta_zcq_symptom_severity_6w" = "Primary outcome: change from baseline to 6 weeks in the Zurich Claudication Questionnaire (ZCQ) symptom-severity score; negative values indicate improvement.",
+  "100\rYS_delta_zcq_physical_function_6w" = "Secondary outcome: change from baseline to 6 weeks in the ZCQ physical-function score; negative values indicate improvement.",
+  "100\rYS_zcq_satisfaction_6w" = "Secondary outcome: ZCQ treatment-satisfaction score at 6 weeks.",
+  "100\rYS_delta_nrs_back_pain_6w" = "Secondary outcome: change from baseline to 6 weeks in back-pain numeric rating scale (NRS, 0-10); negative values indicate improvement.",
+  "100\rYS_delta_nrs_leg_pain_6w" = "Secondary outcome: change from baseline to 6 weeks in leg-pain NRS (0-10); negative values indicate improvement.",
+  "100\rYS_delta_nrs_leg_numbness_6w" = "Secondary outcome: change from baseline to 6 weeks in leg-numbness NRS (0-10); negative values indicate improvement.",
+  "100\rYS_delta_walk_distance_m_6w" = "Secondary outcome: change from baseline to 6 weeks in self-paced walking-test distance, in metres.",
+  "100\rYS_delta_daily_steps_6w" = "Secondary outcome: change from baseline to 6 weeks in mean daily steps, in steps/day.",
+  "100\rX_zcq_symptom_severity_0w" = "Baseline covariate: ZCQ symptom-severity score at week 0.",
+  "100\rX_zcq_physical_function_0w" = "Baseline covariate: ZCQ physical-function score at week 0.",
+  "100\rX_nrs_back_pain_0w" = "Baseline covariate: back-pain NRS at week 0 (0-10).",
+  "100\rX_nrs_leg_pain_0w" = "Baseline covariate: leg-pain NRS at week 0 (0-10).",
+  "100\rX_nrs_leg_numbness_0w" = "Baseline covariate: leg-numbness NRS at week 0 (0-10).",
+  "100\rX_walk_distance_m_0w" = "Baseline covariate: self-paced walking-test distance at week 0, in metres.",
+  "100\rX_daily_steps_0w" = "Baseline covariate: mean daily steps at week 0, in steps/day.",
+  "100\rX_age_years" = "Baseline covariate: age, in years.",
+  "100\rX_sex" = "Baseline covariate: participant sex (Female or Male).",
+  "100\rX_bmi" = "Baseline covariate: body mass index, in kg/m².",
+  "100\rX_symptom_duration_months" = "Baseline covariate: duration of lumbar spinal stenosis symptoms, in months.",
+  "108\rTreatment" = "Treatment: randomized assignment to placebo (control/reference) or tranexamic acid (TXA).",
+  "108\rYP_any_oral_bleeding_7d" = "Primary outcome: indicator for any oral post-extraction bleeding through day 7 (1=yes, 0=no).",
+  "108\rYS_oral_bleeding_count_7d" = "Secondary outcome: number of oral post-extraction bleeding episodes through day 7.",
+  "108\rYS_clinically_relevant_oral_bleeding_7d" = "Secondary outcome: indicator for any clinically relevant oral bleeding through day 7 (1=yes, 0=no).",
+  "108\rYS_clinically_relevant_oral_bleeding_count_7d" = "Secondary outcome: number of clinically relevant oral bleeding episodes through day 7.",
+  "108\rYS_early_oral_bleeding_7d" = "Secondary outcome: indicator for any early oral bleeding through day 7 (1=yes, 0=no).",
+  "108\rYS_early_oral_bleeding_count_7d" = "Secondary outcome: number of early oral bleeding episodes through day 7.",
+  "108\rYS_delayed_oral_bleeding_7d" = "Secondary outcome: indicator for any delayed oral bleeding through day 7 (1=yes, 0=no).",
+  "108\rYS_delayed_oral_bleeding_count_7d" = "Secondary outcome: number of delayed oral bleeding episodes through day 7.",
+  "108\rYS_unplanned_medical_contact_7d" = "Secondary outcome: indicator for an unplanned medical contact through day 7 (1=yes, 0=no).",
+  "108\rYS_thrombotic_event_7d" = "Safety outcome: indicator for a thrombotic event through day 7 (1=yes, 0=no).",
+  "108\rX_age_years" = "Baseline covariate: age, in years.",
+  "108\rX_sex" = "Baseline covariate: participant sex as recorded in the source workbook (F or M).",
+  "108\rX_noac_type" = "Baseline covariate: non-vitamin K oral anticoagulant (NOAC) type.",
+  "108\rX_alcohol_units_per_day" = "Baseline covariate: alcohol consumption, in units/day.",
+  "108\rX_smoking_status" = "Baseline covariate: smoking status (Active, Never, or Previous).",
+  "108\rX_chronic_heart_failure" = "Baseline covariate: chronic heart failure indicator (1=yes, 0=no).",
+  "108\rX_hypertension" = "Baseline covariate: hypertension indicator (1=yes, 0=no).",
+  "108\rX_diabetes" = "Baseline covariate: diabetes indicator (1=yes, 0=no).",
+  "108\rX_history_stroke" = "Baseline covariate: history of stroke indicator (1=yes, 0=no).",
+  "108\rX_chads_vasc_score" = "Baseline covariate: CHA₂DS₂-VASc thromboembolic-risk score.",
+  "108\rX_noac_indication" = "Baseline covariate: clinical indication for NOAC treatment.",
+  "108\rX_time_last_noac_to_extraction_days" = "Baseline procedural covariate: time from the last NOAC dose to dental extraction, in days.",
+  "108\rX_number_extracted_teeth" = "Baseline procedural covariate: number of teeth extracted.")
+
+csv_escape <- function(value) {
+  value <- as.character(value)
+  value[is.na(value)] <- ""
+  escaped <- gsub("\"", "\"\"", value, fixed = TRUE)
+  needs_quote <- grepl("[,\"\r\n]", value)
+  escaped[needs_quote] <- paste0("\"", escaped[needs_quote], "\"")
+  escaped
+}
+
+write_csv_minimal <- function(data, path) {
+  data_chars <- as.data.frame(
+    lapply(data, function(x) {
+      x <- as.character(x)
+      x[is.na(x)] <- ""
+      x
+    }),
+    stringsAsFactors = FALSE,
+    check.names = FALSE
+  )
+  matrix_values <- rbind(names(data_chars), as.matrix(data_chars))
+  lines <- apply(matrix_values, 1L, function(row) paste(csv_escape(row), collapse = ","))
+  new_text <- paste0(paste(lines, collapse = "\n"), "\n")
+  old_text <- if (file.exists(path)) paste0(readChar(path, file.info(path)$size, useBytes = TRUE)) else ""
+  if (!identical(old_text, new_text)) {
+    writeChar(new_text, path, eos = NULL, useBytes = TRUE)
+  }
+  invisible(path)
+}
+
+sync_trial_dictionary_csvs <- function(dictionary, files, output_dir) {
+  dir.create(output_dir, recursive = TRUE, showWarnings = FALSE)
+  public_columns <- setdiff(names(dictionary), "source")
+  validation <- vector("list", 125L)
+
+  for (id in 1:125) {
+    path <- file.path(output_dir, sprintf("trial%d_dictionary.csv", id))
+    current <- dictionary[dictionary$Trial_ID == id, public_columns, drop = FALSE]
+    existing <- if (file.exists(path)) {
+      read.csv(path, stringsAsFactors = FALSE, check.names = FALSE)
+    } else {
+      data.frame()
+    }
+    existing_lookup <- if (nrow(existing) && all(c("variable_name", "short_explanation") %in% names(existing))) {
+      setNames(existing$short_explanation, existing$variable_name)
+    } else {
+      character()
+    }
+
+    for (i in seq_len(nrow(current))) {
+      variable_name <- current$variable_name[i]
+      key <- paste(id, variable_name, sep = "\r")
+      curated <- unname(replacement_dictionary_explanations[key])
+      if (length(curated) == 1L && !is.na(curated) && nzchar(curated)) {
+        current$short_explanation[i] <- curated
+      } else if (variable_name %in% names(existing_lookup)) {
+        existing_text <- unname(existing_lookup[variable_name])
+        if (!is.na(existing_text) && nzchar(trimws(existing_text))) {
+          current$short_explanation[i] <- existing_text
+        }
+      }
+    }
+    write_csv_minimal(current, path)
+
+    cleaned <- readRDS(files$path[files$Trial_ID == id])
+    variable_names <- as.character(current$variable_name)
+    prefixes_valid <- all(
+      grepl("^(Treatment$|(YP|YS|X)_)", variable_names) |
+        variable_names %in% c(
+          "Participant_ID", "Crossover_Sequence", "Crossover_Period", "Assessment_Window"
+        )
+    )
+    variables_match <- identical(variable_names, names(cleaned))
+    validation[[id]] <- list(
+      trialId = id,
+      rows = nrow(current),
+      checkedRows = ncol(cleaned),
+      prefixesValid = prefixes_valid,
+      variablesMatchCleanedData = variables_match,
+      sourceColumnRemoved = !"source" %in% names(current)
+    )
+  }
+  validation
+}
+
+write_trial_validation_json <- function(validation, path) {
+  bool <- function(x) if (isTRUE(x)) "true" else "false"
+  rows <- vapply(validation, function(item) {
+    sprintf(
+      paste0(
+        "    {\n",
+        "      \"trialId\": %d,\n",
+        "      \"rows\": %d,\n",
+        "      \"checkedRows\": %d,\n",
+        "      \"prefixesValid\": %s,\n",
+        "      \"variablesMatchCleanedData\": %s,\n",
+        "      \"sourceColumnRemoved\": %s\n",
+        "    }"
+      ),
+      item$trialId, item$rows, item$checkedRows,
+      bool(item$prefixesValid), bool(item$variablesMatchCleanedData),
+      bool(item$sourceColumnRemoved)
+    )
+  }, character(1))
+  row_counts <- vapply(validation, function(item) item$rows, integer(1))
+  text <- paste0(
+    "{\n",
+    "  \"summary\": {\n",
+    sprintf("    \"files\": %d,\n", length(validation)),
+    sprintf("    \"dictionaryRows\": %d,\n", sum(row_counts)),
+    sprintf("    \"allRowCountsMatch\": %s,\n", bool(all(vapply(validation, function(item) item$rows == item$checkedRows, logical(1))))),
+    sprintf("    \"allPrefixesValid\": %s,\n", bool(all(vapply(validation, function(item) item$prefixesValid, logical(1))))),
+    sprintf("    \"allVariablesMatchCleanedData\": %s,\n", bool(all(vapply(validation, function(item) item$variablesMatchCleanedData, logical(1))))),
+    sprintf("    \"allSourceColumnsRemoved\": %s,\n", bool(all(vapply(validation, function(item) item$sourceColumnRemoved, logical(1))))),
+    sprintf("    \"minRows\": %d,\n", min(row_counts)),
+    sprintf("    \"maxRows\": %d\n", max(row_counts)),
+    "  },\n",
+    "  \"validation\": [\n",
+    paste(rows, collapse = ",\n"), "\n",
+    "  ]\n",
+    "}\n"
+  )
+  writeChar(text, path, eos = NULL, useBytes = TRUE)
+  invisible(path)
+}
+
 files <- discover_rds_files()
 if (nrow(files) != 125L || !identical(files$Trial_ID, 1:125)) {
   stop("Expected exactly 125 contiguous cleaned trial RDS files with Trial_ID 1:125.")
@@ -397,6 +580,8 @@ existing_dict <- read_existing_expansion_dictionary(expansion_dictionary_path)
 dictionary <- build_dictionary(files, existing_dict)
 validate_dictionary(dictionary, files)
 write_xlsx_one_sheet(dictionary, output_path)
+trial_validation <- sync_trial_dictionary_csvs(dictionary, files, trial_output_dir)
+write_trial_validation_json(trial_validation, trial_validation_path)
 
 cat("Wrote ", output_path, "\n", sep = "")
 cat("Trials: ", length(unique(dictionary$Trial_ID)), "\n", sep = "")
@@ -405,3 +590,5 @@ cat("Variable types:\n")
 print(sort(table(dictionary$variable_type), decreasing = TRUE))
 cat("Sources:\n")
 print(sort(table(dictionary$source), decreasing = TRUE))
+cat("Trial-specific dictionaries: ", length(trial_validation), "\n", sep = "")
+cat("Trial-specific dictionary rows: ", sum(vapply(trial_validation, function(item) item$rows, integer(1))), "\n", sep = "")

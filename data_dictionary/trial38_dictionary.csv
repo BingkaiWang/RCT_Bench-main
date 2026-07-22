@@ -1,9 +1,9 @@
 Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
 38,Treatment,Treatment assignment,factor,factor,2139,0,4,ddI; ZDV; ZDV_ddI; ZDV_Zal,Treatment: randomized treatment assignment with cleaned-data arms: ddI; ZDV; ZDV_ddI; ZDV_Zal. Publication-designated control/reference: ZDV.
-38,YP_time,Primary outcome,time-to-event/continuous time,integer,2139,0,713,14 to 1231,Primary outcome: Time. Publication-defined endpoint context: Time to a composite of: ≥ 50 % decline in CD4 count Development of AIDS (CDC-defined) Death.
+38,YP_time,Primary outcome,time-to-event/continuous time,integer,2139,10,711,14 to 1231,Primary outcome: Time. Publication-defined endpoint context: Time to a composite of: ≥ 50 % decline in CD4 count Development of AIDS (CDC-defined) Death.
 38,YP_event_flag,Primary outcome,binary,factor,2139,0,2,0; 1,Primary outcome: Event flag. Publication-defined endpoint context: Time to a composite of: ≥ 50 % decline in CD4 count Development of AIDS (CDC-defined) Death.
 38,YS_CD4_20w,Secondary outcome,continuous,integer,2139,0,570,49 to 1119,"Secondary outcome: CD4 T-lymphocyte count, measured at 20 weeks."
-38,YS_CD8_20w,Secondary outcome,continuous,integer,2139,0,1050,124 to 6035,"Secondary outcome: CD8 T-lymphocyte count, measured at 20 weeks."
+38,YS_CD8_20w,Secondary outcome,continuous,integer,2139,4,1049,124 to 6035,"Secondary outcome: CD8 T-lymphocyte count, measured at 20 weeks."
 38,X_age_0w,Baseline covariate,continuous,integer,2139,0,59,12 to 70,Baseline covariate: Age.
 38,X_weight_0w,Baseline covariate,continuous,numeric,2139,0,667,31 to 159.939,Baseline covariate: Weight.
 38,X_hemo_0w,Baseline covariate,binary,factor,2139,0,2,0; 1,Baseline covariate: Hemo.
@@ -12,11 +12,11 @@ Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_un
 38,X_karnof_0w,Baseline covariate,continuous,integer,2139,0,4,70 to 100,Baseline covariate: Karnof.
 38,X_oprior_0w,Baseline covariate,binary,factor,2139,0,2,0; 1,Baseline covariate: Oprior.
 38,X_z30_0w,Baseline covariate,binary,factor,2139,0,2,0; 1,Baseline covariate: Z30.
-38,X_preanti_0w,Baseline covariate,continuous,integer,2139,0,813,0 to 2851,Baseline covariate: Preanti.
+38,X_preanti_0w,Baseline covariate,continuous,integer,2139,3,812,0 to 2851,Baseline covariate: Preanti.
 38,X_race_0w,Baseline covariate,binary,factor,2139,0,2,0; 1,Baseline covariate: Race.
 38,X_gender_0w,Baseline covariate,binary,factor,2139,0,2,0; 1,Baseline covariate: Gender.
 38,X_str2_0w,Baseline covariate,binary,factor,2139,0,2,0; 1,Baseline covariate: Str2.
 38,X_strat_0w,Baseline covariate,factor,factor,2139,0,3,1; 2; 3,Baseline covariate: Strat. Categories/codes in the cleaned data: 1; 2; 3.
 38,X_symptom_0w,Baseline covariate,binary,factor,2139,0,2,0; 1,Baseline covariate: Symptom.
 38,X_CD4_0w,Baseline covariate,continuous,integer,2139,0,484,0 to 1199,Baseline covariate: CD4 T-lymphocyte count.
-38,X_CD8_0w,Baseline covariate,continuous,integer,2139,0,1090,40 to 5011,Baseline covariate: CD8 T-lymphocyte count.
+38,X_CD8_0w,Baseline covariate,continuous,integer,2139,3,1088,40 to 5011,Baseline covariate: CD8 T-lymphocyte count.

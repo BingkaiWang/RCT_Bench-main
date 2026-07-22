@@ -1,6 +1,5 @@
 Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
 94,Treatment,Treatment assignment,factor,factor,2207,0,2,Control; Zindagi SMS,Treatment: randomized treatment assignment with cleaned-data arms: Control; Zindagi SMS. Publication-designated control/reference: Control.
-94,X_source_patient_id,Baseline covariate,continuous,integer,2207,0,2207,10000200 to 88990200,Baseline covariate: Source patient id.
 94,X_sex,Baseline covariate,binary,integer,2207,0,2,0; 1,Baseline covariate: Sex.
 94,X_age_years,Baseline covariate,continuous,numeric,2207,0,66,15 to 95,Baseline covariate: Age years.
 94,X_mother_tongue,Baseline covariate,continuous,integer,2207,0,7,-66 to 10,Baseline covariate: Mother tongue.

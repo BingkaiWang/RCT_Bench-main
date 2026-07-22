@@ -1,6 +1,5 @@
 Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
 120,Treatment,Treatment assignment,factor,factor,70,0,2,Continuous treatment; Intermittent treatment,Treatment: randomized treatment assignment with cleaned-data arms: Continuous treatment; Intermittent treatment. Publication-designated control/reference: Continuous treatment.
-120,X_source_subject_id,Baseline covariate,continuous,numeric,70,0,70,1 to 70,Baseline covariate: Source subject id.
 120,YP_progression_free_survival_months,Primary outcome,time-to-event/continuous time,numeric,70,0,67,0.328947 to 45.8224,Primary outcome: Progression free survival months. Publication-defined endpoint context: Progression-free survival months and event indicator.
 120,YP_pfs_event,Primary outcome,binary,numeric,70,0,2,0; 1,Primary outcome: Pfs event. Publication-defined endpoint context: Progression-free survival months and event indicator.
 120,YS_overall_survival_months,Secondary outcome,time-to-event/continuous time,numeric,70,0,68,0.361367 to 45.6307,Secondary outcome: Overall survival months.

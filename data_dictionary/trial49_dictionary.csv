@@ -39,7 +39,7 @@ Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_un
 49,X_OGT_Kangaroo_0d,Baseline covariate,binary,factor,74,0,2,0; 1,Baseline covariate: Orogastric tube kangaroo.
 49,X_HR_0d,Baseline covariate,continuous,numeric,74,0,31,142 to 186,Baseline covariate: Heart rate.
 49,X_O2sat_0d,Baseline covariate,continuous,numeric,74,0,9,92 to 100,Baseline covariate: Peripheral oxygen saturation.
-49,X_O2sat_final,Baseline covariate,continuous,numeric,74,0,8,93 to 100,Baseline covariate: Peripheral oxygen saturation.
+49,YS_O2sat_final,Secondary outcome,continuous,numeric,74,0,8,93 to 100,Secondary outcome: O2sat final
 49,X_start_oral_0d,Baseline covariate,binary,factor,74,0,2,0; 1,Baseline covariate: Start oral.
 49,X_PMA_fullFeeds_0w,Baseline covariate,continuous,numeric,74,0,31,33.4 to 41.5,Baseline covariate: Postmenstrual age full feeds.
 49,X_PMA_discharge_0w,Baseline covariate,continuous,numeric,74,0,34,34 to 41.7,Baseline covariate: Postmenstrual age discharge.

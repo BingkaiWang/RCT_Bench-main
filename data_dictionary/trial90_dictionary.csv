@@ -1,6 +1,5 @@
 Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
 90,Treatment,Treatment assignment,factor,factor,293,0,2,Control; Intervention,Treatment: randomized treatment assignment with cleaned-data arms: Control; Intervention. Publication-designated control/reference: Control.
-90,X_source_patient_id,Baseline covariate,continuous,integer,293,0,293,1002 to 9025,Baseline covariate: Source patient id.
 90,X_gender,Baseline covariate,binary,character,293,0,2,Female; Male,Baseline covariate: Gender.
 90,X_study_region,Baseline covariate,binary,character,293,0,2,D-CH; F-CH,Baseline covariate: Study region.
 90,X_mpr_medication_count,Baseline covariate,continuous,integer,293,0,10,1 to 10,Baseline covariate: Medication possession ratio medication count.

@@ -1,8 +1,8 @@
 Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
 101,Treatment,Treatment assignment,factor,factor,417,0,2,Geriatric intervention; Standard care,Treatment: randomized treatment assignment with cleaned-data arms: Geriatric intervention; Standard care. Publication-designated control/reference: Standard care.
-101,YP_eq5d_pain_3m,Primary outcome,factor,character,417,0,4,.; 1; 2; 3,"Primary outcome: EQ-5D pain/discomfort domain score, measured at 3 months. Categories/codes in the cleaned data: .; 1; 2; 3."
+101,YP_eq5d_pain_3m,Primary outcome,continuous,numeric,417,115,3,1 to 3,"Primary outcome: EQ-5D pain/discomfort domain score, measured at 3 months. Categories/codes in the cleaned data: .; 1; 2; 3."
 101,YS_dead_3m,Secondary outcome,binary,integer,417,0,2,0; 1,"Secondary outcome: Dead, measured at 3 months."
 101,X_age_years,Baseline covariate,continuous,integer,417,0,33,70 to 102,Baseline covariate: Age years.
 101,X_charlson_0m,Baseline covariate,continuous,integer,417,0,9,0 to 9,Baseline covariate: Charlson Comorbidity Index score.
-101,X_eq5d_pain_0m,Baseline covariate,factor,character,417,0,4,.; 1; 2; 3,Baseline covariate: EQ-5D pain/discomfort domain score. Categories/codes in the cleaned data: .; 1; 2; 3.
-101,X_barthel_feed_0m,Baseline covariate,factor,character,417,0,4,.; 0; 1; 2,Baseline covariate: Barthel feed. Categories/codes in the cleaned data: .; 0; 1; 2.
+101,X_eq5d_pain_0m,Baseline covariate,continuous,numeric,417,56,3,1 to 3,Baseline covariate: EQ-5D pain/discomfort domain score. Categories/codes in the cleaned data: .; 1; 2; 3.
+101,X_barthel_feed_0m,Baseline covariate,continuous,numeric,417,32,3,0 to 2,Baseline covariate: Barthel feed. Categories/codes in the cleaned data: .; 0; 1; 2.

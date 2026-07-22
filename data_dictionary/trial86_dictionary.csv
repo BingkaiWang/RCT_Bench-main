@@ -2,9 +2,6 @@ Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_un
 86,Treatment,Treatment assignment,factor,factor,96,0,5,LC106-3; LC106-7; LC106-o; LC115; Pl,Treatment: randomized treatment assignment with cleaned-data arms: LC106-3; LC106-7; LC106-o; LC115; Pl. Publication-designated control/reference: Placebo.
 86,X_site,Baseline covariate,binary,character,96,0,2,CAP; MGH,Baseline covariate: Site.
 86,X_location,Baseline covariate,binary,character,96,0,2,SA; US,Baseline covariate: Location.
-86,X_itt,Baseline covariate,binary,numeric,96,0,1,1,Baseline covariate: Itt.
-86,X_mitt,Baseline covariate,binary,numeric,96,0,2,0; 1,Baseline covariate: Mitt.
-86,X_pp,Baseline covariate,binary,numeric,96,0,2,0; 1,Baseline covariate: Pp.
 86,X_age_years,Baseline covariate,continuous,numeric,96,0,23,18 to 40,Baseline covariate: Age years.
 86,X_race,Baseline covariate,factor,factor,96,0,6,"African; Asian or South Asian; Black, African American, or African; Other; Prefer not to answer; White","Baseline covariate: Race. Categories/codes in the cleaned data: African; Asian or South Asian; Black, African American, or African; Other; Prefer not to answer; White."
 86,X_ethnicity,Baseline covariate,binary,factor,96,72,2,hispanic/latino/spanish; Not hispanic/latino/spanish,Baseline covariate: Ethnicity.

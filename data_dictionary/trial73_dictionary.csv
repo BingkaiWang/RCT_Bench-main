@@ -1,23 +1,22 @@
 Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
-73,Treatment,Treatment assignment,factor,factor,44,0,3,AI-assisted reassurance call; Human-assisted reassurance call; No call,Treatment: randomized treatment assignment with cleaned-data arms: AI-assisted reassurance call; Human-assisted reassurance call; No call. Publication-designated control/reference: No call.
-73,YP_call_service_satisfaction_likert,Primary outcome,continuous,numeric,44,15,3,3 to 5,Primary outcome: Call service satisfaction likert. Publication-defined endpoint context: Patient satisfaction with the reassurance-call service after prostate biopsy.
-73,YS_ai_call_satisfaction_likert,Secondary outcome,continuous,numeric,44,29,3,3 to 5,Secondary outcome: Artificial intelligence call satisfaction likert.
-73,YS_complication_management_satisfaction_likert,Secondary outcome,continuous,numeric,44,1,3,3 to 5,Secondary outcome: Complication management satisfaction likert.
-73,YS_complication_management_satisfaction_vas,Secondary outcome,continuous,numeric,44,1,6,5 to 10,Secondary outcome: Complication management satisfaction visual analogue scale.
-73,YS_complication_anxiety_stai,Secondary outcome,continuous,numeric,44,1,25,20 to 55,Secondary outcome: Complication anxiety State-Trait Anxiety Inventory.
-73,YS_complication_anxiety_vas,Secondary outcome,continuous,numeric,44,1,10,0 to 9,Secondary outcome: Complication anxiety visual analogue scale.
-73,YS_fever_d1,Secondary outcome,binary,numeric,44,15,1,0,Secondary outcome: Fever d1.
-73,YS_urination_pain_d1,Secondary outcome,binary,numeric,44,15,2,0; 1,Secondary outcome: Urination pain d1.
-73,YS_urination_discomfort_d1,Secondary outcome,binary,numeric,44,15,2,0; 1,Secondary outcome: Urination discomfort d1.
-73,YS_daily_life_discomfort_d1,Secondary outcome,binary,numeric,44,15,2,0; 1,Secondary outcome: Daily life discomfort d1.
-73,X_height_cm,Baseline covariate,continuous,numeric,44,0,19,159 to 176,Baseline covariate: Height cm.
-73,X_weight_kg,Baseline covariate,continuous,numeric,44,0,26,53 to 85,Baseline covariate: Weight kg.
-73,X_sex,Baseline covariate,binary,factor,44,0,1,M,Baseline covariate: Sex.
-73,X_age,Baseline covariate,continuous,numeric,44,0,21,49 to 76,Baseline covariate: Age.
-73,X_kad8_pre,Baseline covariate,binary,numeric,44,0,2,0; 1,Baseline covariate: Kad8 pre-intervention.
-73,X_local_anesthesia,Baseline covariate,binary,factor,44,0,1,local,Baseline covariate: Local anesthesia.
-73,X_creatinine_pre,Baseline covariate,continuous,numeric,44,0,30,0.71 to 1.36,Baseline covariate: Creatinine pre-intervention.
-73,X_hb_pre,Baseline covariate,continuous,numeric,44,0,27,12.8 to 18.2,Baseline covariate: Hb pre-intervention.
-73,X_egfr_pre,Baseline covariate,continuous,numeric,44,0,42,50.19 to 97.63,Baseline covariate: Estimated glomerular filtration rate pre-intervention.
-73,X_psa,Baseline covariate,continuous,numeric,44,0,40,1.4 to 148.8,Baseline covariate: Prostate-specific antigen concentration.
-73,X_pirads,Baseline covariate,continuous,numeric,44,14,4,2 to 5,Baseline covariate: Prostate Imaging Reporting and Data System (PI-RADS) score.
+73,Treatment,Treatment assignment,factor,factor,29,0,2,AI-assisted reassurance call; Human-assisted reassurance call,Treatment: randomized treatment assignment with cleaned-data arms: AI-assisted reassurance call; Human-assisted reassurance call; No call. Publication-designated control/reference: No call.
+73,YP_call_service_satisfaction_likert,Primary outcome,continuous,numeric,29,0,3,3 to 5,Primary outcome: Call service satisfaction likert. Publication-defined endpoint context: Patient satisfaction with the reassurance-call service after prostate biopsy.
+73,YS_ai_call_satisfaction_likert,Secondary outcome,continuous,numeric,29,14,3,3 to 5,Secondary outcome: Artificial intelligence call satisfaction likert.
+73,YS_complication_management_satisfaction_likert,Secondary outcome,continuous,numeric,29,0,3,3 to 5,Secondary outcome: Complication management satisfaction likert.
+73,YS_complication_management_satisfaction_vas,Secondary outcome,continuous,numeric,29,0,5,6 to 10,Secondary outcome: Complication management satisfaction visual analogue scale.
+73,YS_complication_anxiety_stai,Secondary outcome,continuous,numeric,29,0,21,20 to 55,Secondary outcome: Complication anxiety State-Trait Anxiety Inventory.
+73,YS_complication_anxiety_vas,Secondary outcome,continuous,numeric,29,0,10,0 to 9,Secondary outcome: Complication anxiety visual analogue scale.
+73,YS_urination_pain_d1,Secondary outcome,binary,numeric,29,0,2,0; 1,Secondary outcome: Urination pain d1.
+73,YS_urination_discomfort_d1,Secondary outcome,binary,numeric,29,0,2,0; 1,Secondary outcome: Urination discomfort d1.
+73,YS_daily_life_discomfort_d1,Secondary outcome,binary,numeric,29,0,2,0; 1,Secondary outcome: Daily life discomfort d1.
+73,X_height_cm,Baseline covariate,continuous,numeric,29,0,15,159 to 174,Baseline covariate: Height cm.
+73,X_weight_kg,Baseline covariate,continuous,numeric,29,0,21,54 to 85,Baseline covariate: Weight kg.
+73,X_sex,Baseline covariate,binary,factor,29,0,1,M,Baseline covariate: Sex.
+73,X_age,Baseline covariate,continuous,numeric,29,0,19,49 to 76,Baseline covariate: Age.
+73,X_kad8_pre,Baseline covariate,binary,numeric,29,0,2,0; 1,Baseline covariate: Kad8 pre-intervention.
+73,X_local_anesthesia,Baseline covariate,binary,factor,29,0,1,local,Baseline covariate: Local anesthesia.
+73,X_creatinine_pre,Baseline covariate,continuous,numeric,29,0,22,0.71 to 1.36,Baseline covariate: Creatinine pre-intervention.
+73,X_hb_pre,Baseline covariate,continuous,numeric,29,0,21,12.8 to 18.2,Baseline covariate: Hb pre-intervention.
+73,X_egfr_pre,Baseline covariate,continuous,numeric,29,0,29,50.19 to 97.48,Baseline covariate: Estimated glomerular filtration rate pre-intervention.
+73,X_psa,Baseline covariate,continuous,numeric,29,0,26,1.6 to 38.1,Baseline covariate: Prostate-specific antigen concentration.
+73,X_pirads,Baseline covariate,continuous,numeric,29,8,4,2 to 5,Baseline covariate: Prostate Imaging Reporting and Data System (PI-RADS) score.

@@ -1,6 +1,5 @@
 Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
 91,Treatment,Treatment assignment,factor,factor,126,0,2,Monocryl; Vicryl Rapide,Treatment: randomized treatment assignment with cleaned-data arms: Monocryl; Vicryl Rapide. Publication-designated control/reference: Vicryl Rapide.
-91,X_source_research_number,Baseline covariate,continuous,integer,126,0,126,1 to 249,Baseline covariate: Source research number.
 91,X_maternal_age_years,Baseline covariate,continuous,numeric,126,0,24,20 to 44,Baseline covariate: Maternal age years.
 91,X_ethnicity,Baseline covariate,factor,character,126,0,5,A; B; C; H; M,Baseline covariate: Ethnicity. Categories/codes in the cleaned data: A; B; C; H; M.
 91,X_operative_delivery,Baseline covariate,binary,character,126,0,2,-; V,Baseline covariate: Operative.

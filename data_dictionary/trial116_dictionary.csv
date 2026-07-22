@@ -1,6 +1,5 @@
 Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_unique_nonmissing,levels_or_range,short_explanation
 116,Treatment,Treatment assignment,factor,factor,24,0,2,Group 1; Group 2,Treatment: randomized treatment assignment with cleaned-data arms: Group 1; Group 2. Publication-designated control/reference: Not identified from compact source.
-116,X_source_id,Baseline covariate,continuous,integer,24,0,24,1 to 24,Baseline covariate: Source id.
 116,YP_dass_total_t2,Primary outcome,continuous,numeric,24,4,15,0 to 55,"Primary outcome: Depression Anxiety Stress Scales (DASS) total score, measured at assessment T2."
 116,YP_delta_dass_total_t2,Primary outcome,continuous,numeric,24,4,14,-17 to 29,Primary outcome: Change from baseline to assessment T2 in Depression Anxiety Stress Scales (DASS) total score.
 116,YP_factg_total_t2,Primary outcome,continuous,numeric,24,4,18,23 to 80,"Primary outcome: Functional Assessment of Cancer Therapy-General (FACT-G) total score, measured at assessment T2."

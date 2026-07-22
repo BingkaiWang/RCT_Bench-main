@@ -18,7 +18,7 @@ Trial_ID,variable_name,variable_role,variable_type,r_class,n_rows,n_missing,n_un
 95,YS_insertion_success_code,Secondary outcome,continuous,numeric,148,15,3,1 to 3,Secondary outcome: Insertion success code.
 95,YS_crossover,Secondary outcome,continuous,numeric,148,15,3,0 to 2,Secondary outcome: Crossover.
 95,YS_attempt_count,Secondary outcome,binary,numeric,148,104,2,1; 2,Secondary outcome: Attempt count.
-95,YS_leakage_pressure_cmH2O,Secondary outcome,continuous,numeric,148,16,24,12 to 999,Secondary outcome: Leakage pressure cm h2 o.
+95,YS_leakage_pressure_cmH2O,Secondary outcome,continuous,numeric,148,27,23,12 to 998,Secondary outcome: Leakage pressure cm h2 o.
 95,YS_postop_complication,Secondary outcome,binary,numeric,148,16,2,0; 1,Secondary outcome: Postop complication.
 95,YS_postop_throat_pain,Secondary outcome,factor,character,148,0,9,; ?; 0; 1; 2; 3; 4; 5; nicht eruierbar,Secondary outcome: Postop throat pain. Categories/codes in the cleaned data: ; ?; 0; 1; 2; 3; 4; 5; nicht eruierbar.
 95,X_anesthesiologist_experience_years,Baseline covariate,continuous,numeric,148,17,15,0 to 44,Baseline covariate: Anesthesiologist experience years.
