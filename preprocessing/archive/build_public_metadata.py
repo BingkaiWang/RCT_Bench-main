@@ -8,6 +8,8 @@ expansion provenance/audit sheets used during curation.
 from __future__ import annotations
 
 import csv
+import html
+import re
 from pathlib import Path
 
 from openpyxl import Workbook, load_workbook
@@ -62,12 +64,120 @@ COPY_EXPANSION_SHEETS = [
 # Publication metadata corrections for original trials.  These are applied at
 # build time so a stale source workbook cannot reintroduce known DOI collisions.
 ORIGINAL_CURATED = {
+    1: {
+        "Paper Name": (
+            "Effect of acupuncture and metformin on insulin sensitivity in women "
+            "with polycystic ovary syndrome and insulin resistance: a three-armed "
+            "randomized controlled trial"
+        ),
+        "Paper Link": "https://doi.org/10.1093/humrep/deab272",
+    },
+    4: {"Paper Link": "https://doi.org/10.7717/peerj.10709"},
+    5: {"Paper Link": "https://doi.org/10.1038/s41467-023-38532-3"},
+    8: {
+        "Paper Name": (
+            "Evaluation of Ivermectin as a Potential Treatment for Mild to Moderate "
+            "COVID-19: A Double-Blind Randomized Placebo Controlled Trial in Eastern India"
+        ),
+        "Journal": "Journal of Pharmacy & Pharmaceutical Sciences",
+        "Paper Link": "https://doi.org/10.18433/jpps32105",
+    },
+    11: {"Paper Link": "https://doi.org/10.1136/bmjopen-2021-050271"},
+    14: {"Paper Link": "https://doi.org/10.1136/thoraxjnl-2021-217382"},
+    22: {
+        "Journal": "PLOS ONE",
+        "Paper Link": "https://doi.org/10.1371/journal.pone.0129472",
+    },
+    23: {
+        "Paper Name": (
+            "Can recombinant human thrombomodulin increase survival among patients "
+            "with severe septic-induced disseminated intravascular coagulation: a "
+            "single-centre, open-label, randomised controlled trial"
+        ),
+        "Journal": "BMJ Open",
+        "Paper Link": "https://doi.org/10.1136/bmjopen-2016-012850",
+    },
+    24: {
+        "Paper Name": (
+            "Auriculotherapy in the prevention of postoperative urinary retention in "
+            "patients with thoracotomy and thoracic epidural analgesia: A randomized, "
+            "double-blinded trial"
+        ),
+        "Paper Link": "https://doi.org/10.1097/MD.0000000000015958",
+    },
+    27: {
+        "Paper Name": (
+            "Impact of the modality of mechanical ventilation on bleeding during "
+            "pituitary surgery: A single blinded randomized trial"
+        ),
+        "Paper Link": "https://doi.org/10.1097/MD.0000000000017254",
+    },
+    29: {
+        "Paper Name": (
+            "Adjunctive sertraline for HIV-associated cryptococcal meningitis: a "
+            "randomised, placebo-controlled, double-blind phase 3 trial"
+        ),
+        "Paper Link": "https://doi.org/10.1016/S1473-3099(19)30127-6",
+        "Publication Year": 2019,
+    },
+    30: {
+        "Journal": "PLOS ONE",
+        "Paper Link": "https://doi.org/10.1371/journal.pone.0286899",
+        "Publication Year": 2024,
+    },
     31: {
         "Paper Link": "https://doi.org/10.1093/cid/ciy759",
         "Publication Year": 2019,
         "Citation": 83,
     },
+    34: {"Paper Link": "https://doi.org/10.1038/nature23480"},
+    38: {
+        "Trial Number/Name": "ACTG 175",
+        "Paper Name": (
+            "A Trial Comparing Nucleoside Monotherapy with Combination Therapy in "
+            "HIV-Infected Adults with CD4 Cell Counts from 200 to 500 per Cubic Millimeter"
+        ),
+        "Paper Link": "https://doi.org/10.1056/NEJM199610103351501",
+    },
+    46: {"Paper Link": "https://doi.org/10.3205/zma001504"},
 }
+
+DOI_RE = re.compile(r"10\.\d{4,9}/[-._;()/:A-Z0-9]+", re.I)
+
+JOURNAL_CANONICAL = {
+    "bmj": "BMJ",
+    "bmj open": "BMJ Open",
+    "bmc pediatrics": "BMC Pediatrics",
+    "bmc sports science medicine and rehabilitation": "BMC Sports Science, Medicine and Rehabilitation",
+    "international journal of copd": "International Journal of Chronic Obstructive Pulmonary Disease",
+    "jama internal medicine": "JAMA Internal Medicine",
+    "jmir mhealth and uhealth": "JMIR mHealth and uHealth",
+    "korean journal of women health nursing/yeoseong geon'gang ganho hag'hoeji/yeoseong geon-gang ganho hakoeji": "Korean Journal of Women Health Nursing",
+    "nature communications": "Nature Communications",
+    "plos medicine": "PLOS Medicine",
+    "plos one": "PLOS ONE",
+    "the korean journal of pain": "The Korean Journal of Pain",
+    "the american journal of clinical nutrition": "The American Journal of Clinical Nutrition",
+}
+
+
+def canonical_paper_link(value):
+    text = str(value or "").strip()
+    match = DOI_RE.search(text)
+    if match:
+        doi = match.group(0).rstrip(".,;")
+        return f"https://doi.org/{doi}"
+    return text
+
+
+def canonical_paper_title(value):
+    text = html.unescape(str(value or ""))
+    return re.sub(r"<[^>]+>", "", text).strip()
+
+
+def canonical_journal(value):
+    text = str(value or "").strip()
+    return JOURNAL_CANONICAL.get(text.lower(), text)
 
 # Public analysis-contract corrections. These values describe the cleaned
 # analysis table rather than repeated period rows or ancillary study sessions.
@@ -400,6 +510,8 @@ def annotate_quality_repairs(wb: Workbook) -> None:
     }
     quality_rows = [
         ("database", "cleaned-data quality sweep", "Identifiers, post-treatment covariates, sentinels, nonstandard names, and stale dictionaries", "resolved", "Applied deterministic repair script and rebuilt both dictionary layers", "Full 125-trial validation and duplicate screening rerun on 2026-07-22."),
+        ("database", "paper metadata audit", "Paper title, journal, DOI, issue year, and registry fields across all 125 trials", "resolved", "Verified publication assignments against repository records and publisher, PubMed, and registry metadata; corrected the generators and rebuilt the website data", "Completed 2026-08-22; trial96 remains explicitly without an identified results paper."),
+        (28, "eligibility mismatch", "The linked publication is cluster-randomized by municipality ward, while the benchmark contract requires individual randomization", "open", "Quarantine, replace, or independently adjudicate outside this metadata-only correction", "The paper assignment itself is correct, but the cleaned participant rows do not include a ward/cluster identifier."),
         (38, "missing-value sentinel", "888/999 codes in survival, CD8, and pretreatment fields", "resolved", "Converted verified sentinel codes to missing values", "Primary survival time and affected baseline/secondary fields are numeric with explicit missingness."),
         (52, "arm-specific primary outcome", "BSFS change exists only in the tenapanor arm", "resolved", "Reclassified as YS_delta_bsfs_7w_tenapanor_only", "Serum-phosphorus change remains the randomized primary contrast available in both arms."),
         (60, "crossover row grain", "Participant cluster key absent and row count used as sample size", "resolved", "Added Participant_ID and explicit crossover design fields; metadata N=46", "Two period rows per randomized participant are retained."),
@@ -412,6 +524,8 @@ def annotate_quality_repairs(wb: Workbook) -> None:
         (90, "publication/source mismatch", "Published control DPPR SD 20.75 differs from supplementary participant-level SD 15.1162", "documented", "Retained supplementary participant-level values", "The paper's 20.75 equals its control MPR SD, suggesting a reporting copy error."),
         (90, "coincident public rows", "Removing the direct source identifier leaves 24 rows in 10 coincident public profiles", "resolved", "Retained all participant rows", "Every coincident profile maps to distinct source patient IDs; no participant was duplicated."),
         (95, "structural primary-outcome missingness", "Insertion time is undefined for failed device insertions and differs by arm", "documented", "Retained missing insertion times and explicit success/failure outcomes", "Encoding failed attempts as an arbitrary time would change the estimand."),
+        (96, "eligibility mismatch", "UMIN000055593 reports cluster randomization, and no results paper was identified", "open", "Quarantine, replace, or independently adjudicate before benchmark use", "Metadata now records the verified registry and leaves the paper fields as Not identified."),
+        (101, "primary-outcome alignment", "The cleaned outcome is the EQ-5D pain/discomfort domain, while the AMIGOS economic paper's primary endpoint is incremental cost per QALY", "open", "Future data recuration should derive or retain a publication-aligned QALY outcome if the source data permit", "Paper metadata correctly follows the Dryad primary_article relationship and the 417-participant economic evaluation."),
         (103, "primary-outcome alignment", "An isolated EQ-5D pain item was mislabeled as the primary outcome and standard-care ward subtypes were treated as separate arms", "resolved", "Derived observed 90-day QALYs from patient-reported EQ-5D-3L and combined both standard-care ward types", "The resulting 272 observed QALYs exactly match the publication's reported count; metadata now links the TEAM economic-evaluation paper."),
         ("database", "publication-audit coverage", "Legacy trials 1-50 and descriptive-only expansion trials lack strict paper-value targets", "open", "Prioritize future publication-value audits", "Structural and semantic validation cannot substitute for paper-value reproduction."),
     ]
@@ -443,6 +557,9 @@ def main():
         row = dict(row)
         row.update(ORIGINAL_CURATED.get(trial_id, {}))
         row.update(PUBLIC_CURATED.get(trial_id, {}))
+        row["Paper Name"] = canonical_paper_title(row.get("Paper Name"))
+        row["Journal"] = canonical_journal(row.get("Journal"))
+        row["Paper Link"] = canonical_paper_link(row.get("Paper Link"))
         row["Primary Outcome Type"] = standard_outcome_type(trial_id)
         row["Research Area"] = grouped_research_area(row.get("Research Area"))
         values = [row.get(column) for column in MAIN_COLUMNS]
